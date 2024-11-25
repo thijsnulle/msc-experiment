@@ -10,14 +10,12 @@ N = 30
 SEED = 20891019142112125
 
 def timeout_handler(signum, frame):
-    raise TimeoutError()
+    raise TimeoutError(f'Timeout occurred, signum: {signum}, frame: {frame}')
 
 class Experiment:
     def __init__(self, small_model_path, large_model_path, dataset_path):
         self.small_llm = LLM(small_model_path) 
-        print('Initialised Small LLM')
         self.large_llm = LLM(large_model_path)
-        print('Initialised Large LLM')
         self.problems = DataProcessor.load(input_file_path=dataset_path)
         self.runner = EnergiBridgeRunner(verbose=False)
 
@@ -56,17 +54,13 @@ class Experiment:
                 outputs = [llm.generate(p.prompt, stop_token=stop_token) for p in prompts]
 
                 signal.signal(signal.SIGALRM, timeout_handler)
-                signal.alarm(1)
 
-                try:
-                    energy, time = self.runner.stop()
-                except TimeoutError:
-                    print('Timeout reached for `self.runner.stop()`')
-                    continue
-                finally:
-                    signal.alarm(0)
+                signal.alarm(1)
+                energy, time = self.runner.stop()
+                signal.alarm(0)
 
                 if not energy or not time:
+                    print(f'Energy: {energy}, time: {time}')
                     continue
 
                 total_tokens = sum(len(o.tokens) for o in outputs)

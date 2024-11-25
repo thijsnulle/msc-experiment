@@ -1,4 +1,4 @@
-import torch
+import huggingface_hub, torch
 
 from classes import GenerationOutput, GenerationMetrics
 from llama_cpp import Llama
@@ -8,9 +8,8 @@ class LLM:
         self.llm = Llama(
             model_path=model_path,
             n_ctx=131072,
-            n_threads=8,
+            n_threads=24,
             logits_all=True,
-            n_ubatch=64,
             verbose=False,
         )
 
