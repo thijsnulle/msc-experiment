@@ -17,6 +17,7 @@ class Experiment:
         self.small_llm = LLM(small_model_path) 
         self.large_llm = LLM(large_model_path)
         self.problems = DataProcessor.load(input_file_path=dataset_path)
+        self.num_problems = len(self.problems)
         self.runner = EnergiBridgeRunner(verbose=False)
 
         random.seed(SEED)
@@ -32,10 +33,11 @@ class Experiment:
             self.run(selected_problem)
 
     def run(self, problem):
-        self.small_llm.generate(problem.reference.complete_code, max_tokens=1)
-        self.large_llm.generate(problem.reference.complete_code, max_tokens=1)
-        
-        print(problem.id)
+        self.small_llm.llm.tokenize(str.encode(problem.reference.complete_code))
+        self.large_llm.llm.tokenize(str.encode(problem.reference.complete_code))
+
+        #self.small_llm.generate(problem.reference.complete_code, max_tokens=1)
+        #self.large_llm.generate(problem.reference.complete_code, max_tokens=1)
 
         while not problem.is_done(N):
             available_prompts = self._get_available_prompts(problem)
@@ -47,7 +49,7 @@ class Experiment:
                 is_small_llm = llm == self.small_llm
 
                 prompts = [raw_prompt] if is_func_level else raw_prompt
-                stop_token = '<|endoftext|>' if is_func_level else '\n'
+                stop_token = ['<|endoftext|>', '\n\nprint', '\n\ndef', '\n\nif', '\n\n#'] if is_func_level else '\n'
 
                 self.runner.start()
 
@@ -80,14 +82,16 @@ class Experiment:
                     f.write(json.dumps(generation_result, cls=DataclassJSONEncoder))
                     f.write('\n')
 
-                print(f'Function Level: {is_func_level}, Small LLM: {is_small_llm}, Energy: {energy}, Time: {time}')
+                #print(f'Function Level: {is_func_level}, Small LLM: {is_small_llm}, Energy: {energy}, Time: {time}')
 
                 gc.collect()
 
-            print()
+            #print()
 
     def _select_problem(self) -> Problem:
         self.problems = list(itertools.dropwhile(lambda p: p.is_done(N), self.problems))
+
+        print(f'Problem {self.num_problems - len(self.problems) + 1}/{self.num_problems}')
 
         if len(self.problems) > 0:
             return self.problems[0]

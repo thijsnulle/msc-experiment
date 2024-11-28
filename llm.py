@@ -8,7 +8,7 @@ class LLM:
         self.llm = Llama(
             model_path=model_path,
             n_ctx=131072,
-            n_threads=24,
+            n_threads=8,
             logits_all=True,
             verbose=False,
         )
