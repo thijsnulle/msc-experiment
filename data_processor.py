@@ -109,7 +109,7 @@ class DataProcessor:
         return line_index, char_index
 
 if __name__ == '__main__':
-    DataProcessor.process(input_file_path='data/dataset.json', output_file_path='data/processed-dataset.jsonl')
+    DataProcessor.process(input_file_path='data/dataset.jsonl', output_file_path='data/processed-dataset.jsonl')
     problems = DataProcessor.load(input_file_path='data/processed-dataset.jsonl')
 
     for problem in problems:
