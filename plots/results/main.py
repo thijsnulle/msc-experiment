@@ -55,10 +55,11 @@ def reject_outliers_multiple(x, y, m=2.):
     return x[valid_mask], y[valid_mask]
 
 def energy_violinplot(func_small, line_small, func_large, line_large):
-    fig, ax = plt.subplots(1, 2, figsize=(12,4))
+    fig, ax = plt.subplots(figsize=(8,4))
+
     palette = sns.color_palette()
 
-    def plot(data, ax, get_datapoint, index, label, color):
+    def plot(data, get_datapoint, index, label, color):
         xs = []
 
         for problem_id, results in data.items():
@@ -72,35 +73,41 @@ def energy_violinplot(func_small, line_small, func_large, line_large):
         df = pd.DataFrame({'Value': filtered_xs, 'Category': [label] * len(filtered_xs)})
         sns.violinplot(x='Category', y='Value', data=df, ax=ax, inner=None, color=color)
 
-    plot(func_small, ax[0], get_datapoint=lambda x: x.metrics.energy, index=0, label=LABELS[0], color=palette[0])
-    plot(line_small, ax[0], get_datapoint=lambda x: x.metrics.energy, index=1, label=LABELS[1], color=palette[1])
-    plot(func_large, ax[0], get_datapoint=lambda x: x.metrics.energy, index=2, label=LABELS[2], color=palette[2])
-    plot(line_large, ax[0], get_datapoint=lambda x: x.metrics.energy, index=3, label=LABELS[3], color=palette[3])
+    plot(func_small, get_datapoint=lambda x: x.metrics.energy, index=0, label=LABELS[0], color=palette[0])
+    plot(line_small, get_datapoint=lambda x: x.metrics.energy, index=1, label=LABELS[1], color=palette[1])
+    plot(func_large, get_datapoint=lambda x: x.metrics.energy, index=2, label=LABELS[2], color=palette[2])
+    plot(line_large, get_datapoint=lambda x: x.metrics.energy, index=3, label=LABELS[3], color=palette[3])
 
-    ax[0].legend(labels=LABELS, loc='upper left')
-    ax[0].set_xticks([])
-    ax[0].title.set_text('Distribution of Energy (J)')
-    ax[0].set_xlabel(None)
-    ax[0].set_ylabel('Energy (J)')
+    plt.legend(labels=LABELS, loc='upper left')
+    plt.xticks([])
+    plt.title('Distribution of Energy (J)')
+    plt.xlabel(None)
+    plt.ylabel('Energy (J)')
 
-    plot(func_small, ax[1], get_datapoint=lambda x: x.metrics.energy_per_token, index=0, label=LABELS[0], color=palette[0])
-    plot(line_small, ax[1], get_datapoint=lambda x: x.metrics.energy_per_token, index=1, label=LABELS[1], color=palette[1])
-    plot(func_large, ax[1], get_datapoint=lambda x: x.metrics.energy_per_token, index=2, label=LABELS[2], color=palette[2])
-    plot(line_large, ax[1], get_datapoint=lambda x: x.metrics.energy_per_token, index=3, label=LABELS[3], color=palette[3])
-
-    ax[1].set_xticks([])
-    ax[1].title.set_text('Distribution of Energy per Token (J)')
-    ax[1].set_xlabel(None)
-    ax[1].set_ylabel('Energy per Token (J)')
-    
     plt.tight_layout()
     plt.savefig('output/energy-violinplot')
 
+    plt.cla()
+
+    plot(func_small, get_datapoint=lambda x: x.metrics.energy_per_token, index=0, label=LABELS[0], color=palette[0])
+    plot(line_small, get_datapoint=lambda x: x.metrics.energy_per_token, index=1, label=LABELS[1], color=palette[1])
+    plot(func_large, get_datapoint=lambda x: x.metrics.energy_per_token, index=2, label=LABELS[2], color=palette[2])
+    plot(line_large, get_datapoint=lambda x: x.metrics.energy_per_token, index=3, label=LABELS[3], color=palette[3])
+
+    plt.xticks([])
+    plt.title('Distribution of Energy per Token (J)')
+    plt.xlabel(None)
+    plt.ylabel('Energy per Token (J)')
+    plt.legend(labels=LABELS, loc='upper left')
+    
+    plt.tight_layout()
+    plt.savefig('output/energy-per-token-violinplot')
+
 def time_violinplot(func_small, line_small, func_large, line_large):
-    fig, ax = plt.subplots(1, 2, figsize=(12,4))
+    fig, ax = plt.subplots(figsize=(8,4))
     palette = sns.color_palette()
 
-    def plot(data, ax, get_datapoint, index, label, color):
+    def plot(data, get_datapoint, index, label, color):
         xs = []
 
         for problem_id, results in data.items():
@@ -114,29 +121,35 @@ def time_violinplot(func_small, line_small, func_large, line_large):
         df = pd.DataFrame({'Value': filtered_xs, 'Category': [label] * len(filtered_xs)})
         sns.violinplot(x='Category', y='Value', data=df, ax=ax, inner=None, color=color)
 
-    plot(func_small, ax[0], get_datapoint=lambda x: x.metrics.time, index=0, label=LABELS[0], color=palette[0])
-    plot(line_small, ax[0], get_datapoint=lambda x: x.metrics.time, index=1, label=LABELS[1], color=palette[1])
-    plot(func_large, ax[0], get_datapoint=lambda x: x.metrics.time, index=2, label=LABELS[2], color=palette[2])
-    plot(line_large, ax[0], get_datapoint=lambda x: x.metrics.time, index=3, label=LABELS[3], color=palette[3])
+    plot(func_small, get_datapoint=lambda x: x.metrics.time, index=0, label=LABELS[0], color=palette[0])
+    plot(line_small, get_datapoint=lambda x: x.metrics.time, index=1, label=LABELS[1], color=palette[1])
+    plot(func_large, get_datapoint=lambda x: x.metrics.time, index=2, label=LABELS[2], color=palette[2])
+    plot(line_large, get_datapoint=lambda x: x.metrics.time, index=3, label=LABELS[3], color=palette[3])
 
-    ax[0].legend(labels=LABELS, loc='upper left')
-    ax[0].set_xticks([])
-    ax[0].title.set_text('Distribution of Time (s)')
-    ax[0].set_xlabel(None)
-    ax[0].set_ylabel('Time (s)')
+    plt.legend(labels=LABELS, loc='upper left')
+    plt.xticks([])
+    plt.title('Distribution of Time (s)')
+    plt.xlabel(None)
+    plt.ylabel('Time (s)')
 
-    plot(func_small, ax[1], get_datapoint=lambda x: x.metrics.time_per_token, index=0, label=LABELS[0], color=palette[0])
-    plot(line_small, ax[1], get_datapoint=lambda x: x.metrics.time_per_token, index=1, label=LABELS[1], color=palette[1])
-    plot(func_large, ax[1], get_datapoint=lambda x: x.metrics.time_per_token, index=2, label=LABELS[2], color=palette[2])
-    plot(line_large, ax[1], get_datapoint=lambda x: x.metrics.time_per_token, index=3, label=LABELS[3], color=palette[3])
-
-    ax[1].set_xticks([])
-    ax[1].title.set_text('Distribution of Time per Token (s)')
-    ax[1].set_xlabel(None)
-    ax[1].set_ylabel('Time per Token (s)')
-    
     plt.tight_layout()
     plt.savefig('output/time-violinplot')
+
+    plt.cla()
+
+    plot(func_small, get_datapoint=lambda x: x.metrics.time_per_token, index=0, label=LABELS[0], color=palette[0])
+    plot(line_small, get_datapoint=lambda x: x.metrics.time_per_token, index=1, label=LABELS[1], color=palette[1])
+    plot(func_large, get_datapoint=lambda x: x.metrics.time_per_token, index=2, label=LABELS[2], color=palette[2])
+    plot(line_large, get_datapoint=lambda x: x.metrics.time_per_token, index=3, label=LABELS[3], color=palette[3])
+
+    plt.legend(labels=LABELS, loc='upper left')
+    plt.xticks([])
+    plt.title('Distribution of Time per Token (s)')
+    plt.xlabel(None)
+    plt.ylabel('Time per Token (s)')
+    
+    plt.tight_layout()
+    plt.savefig('output/time-per-token-violinplot')
 
 def finish_reason_barplot(func_small, func_large):
     def get_finish_reasons(data):
@@ -173,6 +186,7 @@ def finish_reason_barplot(func_small, func_large):
     plt.ylabel('Percentage (%)')
     plt.title('Finish Reasons of Function-Level Generations')
     
+    plt.tight_layout()
     plt.savefig('output/finish-reasons-barplot')
 
 def energy_vs_time_scatterplot(func_small, line_small, func_large, line_large):
@@ -217,7 +231,7 @@ def energy_vs_time_scatterplot(func_small, line_small, func_large, line_large):
 
     plt.xlabel('Energy per Token (J)')
     plt.ylabel('Time per Token (s)')
-    
+
     plt.legend(labels=LABELS)
     plt.tight_layout()
     plt.savefig('output/energy-per-token-vs-time-per-token-scatterplot')
@@ -237,8 +251,8 @@ def energy_vs_time_scatterplot(func_small, line_small, func_large, line_large):
 
     plt.xlabel('Energy (J)')
     plt.ylabel('Time (s)')
-    
-    plt.legend()
+
+    plt.legend(labels=LABELS)
     plt.tight_layout()
     plt.savefig('output/energy-vs-time-scatterplot')
 
@@ -361,7 +375,10 @@ def logprobs_density_plot(func_small, line_small, func_large, line_large):
     plt.title('Probability Density Distribution (Small Model)')
     plt.xlabel('Probability')
     plt.legend(labels=[LABELS[0], LABELS[1]])
+
+    plt.tight_layout()
     plt.savefig('output/logprobs-small-density')
+
     plt.cla()
 
     plot(func_large, label=LABELS[2])
@@ -370,6 +387,8 @@ def logprobs_density_plot(func_small, line_small, func_large, line_large):
     plt.title('Probability Density Distribution (Large Model)')
     plt.xlabel('Probability')
     plt.legend(labels=[LABELS[2], LABELS[3]])
+
+    plt.tight_layout()
     plt.savefig('output/logprobs-large-density')
 
 if __name__ == '__main__':
