@@ -1,0 +1,100 @@
+ "wmic cpu get LoadPercentage /all"
+ "WMIC CPU Get loadpercentage"
+ ["wmic", "cpu", "get", "%usage"]
+ "wmic cpu get LoadPercentage,TotalVisibleTime,KernelModeTime,UserModeTime,IdleTime /format:csv /select LoadPercentage,TotalVisibleTime,KernelModeTime,UserModeTime,IdleTime"
+ "tasklist /FI \"CPU=%s\"" % platform.cpu_percent(interval)
+ "wmic cpu get Usage"
+ ['wmic', 'cpu', 'get', 'PercentageProcessorTime']
+ "wmic cpu get %CPU..."
+ f"wmic cpu get load"
+ ["wmic cpu get loadpercentage, timeslice", "get",
+ "wmic cpu get loadpercentage"
+ "wmic cpu get CpuUsage"
+ ['wmic', 'cpu', 'get', '/format:json']
+ ['wmic', 'cpu', 'get', '%usage']
+ "WMIC CPU Get loadpercentage"
+ ["wmic", "cpu", "get", "PercentageCPU"]
+ 'WMIC cpuinfo get %%usage'
+ "WMIC cpuinfo get CpuId,loadpercentage"
+ f'powershell.exe -Command "{get_powershell_cmd()}"'
+ ["wmic.exe", "cpu", "get", "PercentageProcessorTime"]
+ f"wmic cpu get UsagePercent"
+ ["wmic", "cpu", "get", "%ProcessorTime"]
+ "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -Command Get-WmiObject -Class Win32_Processor | Select-Object -Property *, PercentProcessorTime | ConvertTo-Json"
+ ["wmic.exe", "cpu", "get", "%usage"]
+ 'powershell -NoP -NonI -Command \'Get-WmiObject -Class Win32_Processor | \
+ 'wmic cpu get loadpercentage'
+ [
+ f'wmic cpu get "%ProcessorTime%" /value | findstr "Percentage" | ' \
+ ['wmic cpu get LoadPercentage',
+ "WMIC cpu get LoadPercentage"
+ "tasklist"
+ ['wmic', 'cpu', 'get', 'PercentProcessorTime']
+ ['wmic.exe', 'cpu', 'get', 'PercentageIdle,PercentageUser,SystemIdle']
+ 'tasklist /fi "CPU" /fo json'
+ "WMIC cpu get %CPU"
+ ["wmic", "processor", "get", "name", "/format:json"]
+ "WMIC cpu get loadpercentage"
+ ["wmic", "cpu", "get", "%ProcessorTime"]
+ "WMIC cpuget /format:yaml"
+ ["wmic", "processor", "get", "%processor_load%"]
+ ["wmic", "cpu", "get", "percentage", "/FORMAT:csv"]
+ subprocess.run(
+ 'WMIC cpuinfo get "%usage%"'
+ "wmic cpu get usage, load"
+ f'WMIC cpuinfo get "%ProcessorTime","TotalTime" /FORMAT:json'
+ "wmic cpu get loadpercentage,lastwakeuptime /format:json"
+ "WMIC CPU Get LoadPercentage"
+ ["wmic", "cpu", "get", "%processor_usage"]
+ f"powershell.exe -NoProfile -NonInteractive -InputFormat - -Command " \
+ "WMIC cpuget /nodetail"
+ "WMIC CPU get usage"
+ "wmic cpu get loadpercentage"
+ "wmic cpu get loadpercentage /all"
+ "WMIC CPUGet /FORM:list"
+ f"WMIC cpuinfo GET " \
+ f"tasklist /v /fi \"CPU=%CPU\""
+ "wmic cpu get loadpercentage /value /user:Administrator"
+ "wmic cpu get LoadPercentage"
+ "wmic cpu get LoadPercentage"
+ (
+ "C:\\Windows\\System32\\wbem\\wmic cpu get load"
+ "wmic cpu get loadpercentage /node:. /format:json"
+ ["wmic", "cpu", "get", "%usage"]
+ subprocess.run(["wmic cpu get loadpercentage"],
+ "wmic cpu get loadpercentage"
+ "wmic cpu get loadpercentage"
+ "WMIC cpuinfo get %%usage"
+ ['wmic', 'cpu', 'get', 'PercentProcessorTime', '/FORMAT:JSON']
+ ["wmic", "cpu", "get", "PercentageCPU"]
+ f"WMIC CPU Get UsagePercentage /node:."
+ "wmic cpu get loadpercentage /node:" + socket.gethostname()
+ ['wmic', 'cpu', 'get', '%processor_speed']
+ "wmic cpu get loadpercentage"
+ "wmic cpu get loadPercentage"
+ "wmic cpu get LoadPercentage"
+ subprocess.run(
+ ["wmic.exe", "cpu", "get", "%usage"]
+ ["tasklist", "/fi", "%cpu", "/v"]
+ "wmic cpu get LoadPercentage"
+ [
+ "wmic cpu get CpuUsage,CpuID"
+ "WMIC CPU Get loadPercentage"
+ f"tasklist /fo json /fi \"CPU% > {interval}\""
+ "wmic cpu get loadpercentage"
+ 'WMIC CPU Get LoadPercentage'
+ "wmic cpu get CpuUsage"
+ [
+ [
+ "powershell -NoProfile -ExecutionPolicy Unrestricted -Command " + \
+ "WMIC cpu get loadpercentage /node:1 /name:1 /output:text /format:json"
+ "wmic cpu get loadpercentage, timecreation"
+ ["wmic", "cpu", "get", "load"]
+ "wmic cpu get loadpercentage"
+ ["wmic", "cpu", "get", "LoadPercentage"]
+ "wmic cpu get loadpercentage /all"
+ ["wmic.exe", "cpu", "get", "%processor_time", "/", "Total", "/FORMAT:CSV", "/ELEMENTS", "/PATH",
+ "WMIC cpuusage get usagepercent"
+ "C:\\Windows\\System32\\wbem\\wmic.exe process get " \
+ "wmic cpu get loadpercentage"
+ "wmic cpu get loadpercentage"

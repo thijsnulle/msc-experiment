@@ -1,0 +1,100 @@
+ group1[np.logical_not(np.isnan(group1))]
+ group1[~np.isnan(group1)]
+ group1[~np.isnan(group1)]
+ np.ma.masked_invalid(group1, copy=True)
+ np.nan_to_num(group1)
+ group1[~np.isnan(group1)]
+ group1[~np.isnan(group1)]
+ np.extract(~np.isnan(group1), group1)
+ group1[np.logical_not(np.isnan(group1))]
+ np.array([value for value in group1 if not np.isnan(value)])
+ group1[~np.isnan(group1)]
+ np.array([i for i in group1 if not np.isnan(i)])
+ np.ma.masked_where(np.ma.array(group1).mask, group1)
+ group1[~np.isnan(group1)]
+ [x for x in group1 if not np.isnan(x)]
+ np.isfinite(group1)
+ np.ma.masked_invalid(group1, copy=False).compressed()
+ np.logical_not(np.isnan(group1))
+ np.where(~np.isnan(group1))[0]
+ np.isnan(group1).sum() == 0
+ np.array([x for x in group1 if not np.isnan(x)])
+ group1[~np.isnan(group1)]
+ group1[~np.isnan(group1)]
+ group1[~np.isnan(group1)]
+ np.array([i for i in group1 if not np.isnan(i)])
+ group1[~np.isnan(group1)]
+ [val for val in group1 if not np.isnan(val)]
+ group1[~np.isnan(group1)]
+ [val for val in group1 if not np.isnan(val)]
+ np.array([v for v in group1 if not np.isnan(v)])
+ group1[~np.isnan(group1)]
+ np.array([x for x in group1 if not np.isnan(x)])
+ np.ma.masked_where(np.isnan(group1), group1)
+ np.array([i for i in group1 if not np.isnan(i)])
+ np.array([i for i in group1 if not np.isnan(i)])
+ np.ma.masked_where(np.isnan(group1), group1)
+ group1[~np.isnan(group1)]
+ group1[~np.isnan(group1)]
+ np.array([val for val in group1 if not np.isnan(val)])
+ group1[~np.isnan(group1)]
+ np.isfinite(group1)
+ np.isnan(group1).sum() == 0
+ np.ma.masked_where(np.isnan(group1), group1)
+ group1[~np.isnan(group1)]
+ np.ma.masked_array(group1, mask=np.isnan(group1))
+ np.isfinite(group1)
+ np.nan_to_num(group1[~np.isnan(group1)])
+ group1[~np.isnan(group1)]
+ np.extract(np.isfinite(group1), group1)
+ np.nan_to_num(group1)
+ group1[~np.isnan(group1)]
+ group1[~np.isnan(group1)]
+ group1[~np.isnan(group1)]
+ np.ma.masked_invalid(group1, copy=False)
+ group1[~np.isnan(group1)]
+ np.asanyarray(np.array([i for i in group1 if not np.isnan(i)]))
+ group1[~np.isnan(group1)]
+ np.ma.masked_where(np.isnan(group1), group1)
+ np.array([x for x in group1 if not np.isnan(x)])
+ group1[~np.isnan(group1)]
+ np.ma.masked_where(np.isnan(group1), group1)
+ group1[~np.isnan(group1)]
+ group1[~np.isnan(group1)]
+ np.ma.masked_where(np.ma.masked_invalid(group1).mask, group1, copy=False)
+ group1[~np.isnan(group1)]
+ [val for val in group1 if not np.isnan(val)]
+ np.array(group1[~np.isnan(group1)])
+ np.isfinite(group1)
+ np.array([val for val in group1 if not np.isnan(val)])
+ [n for n in group1 if not np.isnan(n)]
+ np.ma.masked_invalid(group1, copy=False).compressed()
+ np.array([n for n in group1 if not np.isnan(n)])
+ group1[~np.isnan(group1)]
+ np.array(group1)
+ group1[~np.isnan(group1)]
+ group1[~np.isnan(group1)]
+ group1[~np.isnan(group1)]
+ [val for val in group1 if not np.isnan(val)]
+ np.isfinite(group1)
+ group1[~np.isnan(group1)]
+ group1[~np.isnan(group1)]
+ group1[~np.isnan(group1)]
+ np.where(np.logical_not(np.isnan(group1)), group1, np.nan)
+ group1[~np.isnan(group1)]
+ group1[~np.isnan(group1)]
+ np.ma.masked_where(np.isnan(group1), group1)
+ group1[~np.isnan(group1)]
+ np.extract(~np.isnan(group1), group1)
+ np.where(~np.isnan(group1))[0]
+ np.array(list(filter(lambda x: not np.isnan(x), group1)))
+ np.extract(~np.isnan(group1), group1)
+ [i for i in group1 if not np.isnan(i)]
+ np.isfinite(group1)
+ [x for x in group1 if not np.isnan(x)]
+ np.ma.masked_invalid(group1, copy=False).compressed()
+ group1[np.logical_not(np.isnan(group1))]
+ np.isnan(group1).sum() == 0
+ np.logical_not(np.isnan(group1))
+ np.array([x for x in group1 if not np.isnan(x)])
+ np.logical_not(np.isnan(group1))

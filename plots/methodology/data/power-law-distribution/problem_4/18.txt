@@ -1,0 +1,100 @@
+split(" ")[-2].strip()
+split()[-1]
+split()[2]
+replace("% Processor", "")
+split(",")[2].strip()
+strip().split(",")[-1]
+strip().split(" ")[-2]
+split(" ")[-1]
+split(" ")[-1]
+strip()
+replace(",", "")
+split(" ")[-1]
+split(" ")[-1]
+split()[-2].strip("\n")
+replace("\n", "")
+split()[0]
+split()[1]
+split()[-1]
+split()[-1]
+split()[4]
+split()[4].strip() if "%" in cpu_usage_line else ""
+split()[-1].strip()
+split(",")[2].split(".")[0]
+split()[1].rstrip().rstrip("%").split(".")[0]
+split()[2]
+split()[10]
+split()[1].strip() if platform.system() == "Windows" else int(cpu_usage_line)
+split(" ")[-1].rstrip("%")
+split()[2]
+split(" ")[-4].strip()
+split(",")[-2]
+split()[-1]
+split(" ")[1].strip("()%")
+strip().split("\t")[1]
+strip().split()[-1] if cpu_usage_line else None
+split(":")[2].strip()
+split(" ")[-2]
+split()[0] if platform.system() == "Windows" else 0.0
+split(",")[0].strip() if "%" in cpu_usage_line else "0"
+split()[-1]
+split(" ")[1]
+split()[1]
+split(",")[1].replace("%", "").strip()
+split(",")[1]
+split(":")[-1]
+split(",")[2].strip()
+strip().split(" ")[-2]
+strip().split(",")[2]
+split(":")[1]
+split(" ")[3]
+split(" ")[-1].strip()
+split("\t")[2]
+split(",")[1].split()[0].replace("%", "")
+split()[2]
+split(" ")[-1].replace(",", ".").strip()
+split(" ")[-2]
+split()[2]
+split()[1]
+strip().split()[1]
+split(" ")[-2]
+split()[3]
+split(",")[1].strip().split("%")[0]
+split()[9]
+split(",")[-1].strip().split(":")[1].strip()
+split(",")[-2].strip("%")
+split()[1]
+split()[-1].strip()
+split(" ")[2]
+split()[-2]
+split(" ")[-1]
+split(" ")[-2]
+split(" ")[2]
+split(",")[1].strip()
+split(",")[2].replace("%", "").strip()
+split(" ")[5].replace(",", ".")
+split(",")[-1].strip()
+split(",")[0].replace("% Processor Time", "").strip()
+split(",")[5]
+strip().split(" ")[-1]
+split("\t")[4]
+split("\\")[2]
+split(",")[4]
+split(":")[1]
+split(" ")[-1].strip()
+split(" ")[-1].rstrip().split(",")[0]
+split()[-1]
+split(" ")[-2] if cpu_usage_line != "" else "0"
+split(",")[1]
+split(" ")[-2]
+split()[2]
+split(" ")[1].strip("%")
+split()[1].strip()
+split()[2] if platform.system() == "Windows" else cpu_usage_line.split()[2].split()[3]
+split(" ")[-3]
+split(" ")[-3]
+strip().split()[-2]
+split(" ")[-3]
+strip()
+split(" ")[-2].replace("%", "")
+split(":")[1].strip().split(" ")[0]

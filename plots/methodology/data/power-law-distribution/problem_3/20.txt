@@ -1,0 +1,100 @@
+ render_template('protected.html', username=current_user.id)
+ 'You are authenticated'
+ 'You are logged in!'
+ 'You are logged in.'
+ 'You are authenticated'
+ 'protected'
+ 'You are logged in!'
+ 'You are logged in!'
+ "You are logged in."
+ 'You are logged in!'
+ 'Hello World!'
+ 'Protected Resource'
+ 'You are authenticated!'
+ 'protected page'
+ redirect(url_for('login'))
+ 'You are logged in!'
+ 'Hello, %s!' % current_user.id
+ "You are logged in!"
+ 'You are logged in.'
+ 'You are in!'
+ 'Protected!'
+ render_template('protected.html')
+ 'protected route'
+ 'You are authenticated!'
+ redirect(url_for('login'))
+ redirect(url_for('login'))
+ 'You are logged in.'
+ render_template('protected.html', name=current_user.id)
+ redirect(url_for('login'))
+ render_template('protected.html', username=current_user.username)
+ 'You are logged in.'
+ render_template('protected.html')
+ render_template('protected.html')
+ 'Protected Content'
+ redirect(url_for('login'))
+ 'protected'
+ 'You are authenticated!'
+ 'protected'
+ 'Protected Resource'
+ render_template('protected.html')
+ "Welcome!"
+ "You are logged in!"
+ 'Hello, %s!' % current_user.id
+ 'You can see this page because you are logged in.'
+ render_template('protected.html')
+ render_template('protected.html')
+ redirect(url_for('index'))
+ 'You are logged in.'
+ render_template('protected.html')
+ 'You are logged in!'
+ 'Your username is %s' % current_user.username
+ render_template('protected.html')
+ render_template('protected.html')
+ 'Only protected routes are allowed'
+ 'protected'
+ 'You are logged in!'
+ 'protected page'
+ 'Hello, {}'.format(current_user.id)'
+ render_template('protected.html')
+ 'Protected'
+ 'You are in!'
+ render_template('protected.html')
+ render_template('protected.html')
+ 'Welcome!'
+ 'Hello, {}'.format(current_user.username)
+ render_template('protected.html')
+ 'You are logged in!'
+ 'protected!'
+ 'Welcome!'
+ render_template('protected.html')
+ redirect(url_for('login'))
+ 'You are in!'
+ 'You are logged in.'
+ render_template('protected.html', name=current_user.id)
+ render_template('protected.html')
+ redirect(url_for('login'))
+ 'protected'
+ 'protected'
+ render_template('protected.html')
+ 'Hello, {}!'.format(current_user.username)
+ 'Only protected routes can access this endpoint.'
+ 'You are logged in'
+ 'You are logged in'
+ 'Protected Area'
+ render_template('protected.html')
+ "You are logged in!"
+ 'Protected Resource'
+ 'Protected content'
+ "You are logged in!"
+ 'You are logged in!'
+ 'protected!'
+ redirect(url_for('index'))
+ 'You are logged in.'
+ 'Welcome!'
+ 'protected page'
+ render_template('protected.html')
+ redirect(url_for('login'))
+ 'protected'
+ render_template('protected.html')
+ 'You are logged in.'
