@@ -1,0 +1,100 @@
+ and (len(group1) + len(group2) >= 2):
+ or (
+ and not (
+ or (group1.size < 2) or (group2.size < 2):
+ :
+ :
+ and len(group1) >= 2 or len(group2) >= 2:
+ and (len(group1) >= 2 or len(group2) >= 2):
+ or (
+ and len(group1) > 1:
+ or (
+ or (group1.size < 2 or group2.size < 2):
+ and not np.any(~np.isnan(group1)) and not np.any(~np.isnan(group2)):
+ :
+ and (len(group1) > 1 or len(group2) > 1):
+ or (
+ or (
+ and len(group1) >= 2 and len(group2) >= 2:
+ or (np.mean(group1) == np.mean(group2)):
+ and np.all(np.isnan(group1)) and np.all(np.isnan(group2)):
+ and not (
+ or (
+ and len(group1) >= 2 and len(group2) >= 2:
+ or (len(np.flatnonzero(group1)) < 2 or len(np.flatnonzero(group2)) < 2):
+ or (
+ or (
+ and not (len(group1) >= 2 and len(group2) >= 2):
+ or (len(group1) < 2 or len(group2) < 2):
+ or len(group1) < 2 or len(group2) < 2:
+ or (len(group1) < 2 or len(group2) < 2):
+ and not np.isclose(np.nanvar(group1), 0, rtol=0, atol=1e-8) and not np.isclose(np.nanvar(group2), 0, rtol=0, atol=1e-8):
+ and group1.size > 1:
+ or len(group1) < 2 or len(group2) < 2:
+ or (len(group1) < 2 or len(group2) < 2):
+ or (len(group1) < 2) or (len(group2) < 2):
+ or (
+ or (len(group1) < 2 or len(group2) < 2):
+ or (np.isnan(np.sum(group1)) == len(group1)) or (np.isnan(np.sum(group2)) == len(group2)):
+ or np.isinf(np.abs(group1)).any() or np.isinf(np.abs(group2)).any():
+ or (
+ and not np.all(np.isnan(kwargs.get("nan_policy", "omit"))):
+ or (
+ or np.all(
+ and not (len(group1) == 0 or len(group2) == 0):
+ or (
+ and (len(group1) > 1 or len(group2) > 1):
+ or (
+ or (
+ or (
+ and (len(group1) > 1 or len(group2) > 1):
+ or (
+ and len(group1) > 1 and len(group2) > 1:
+ or (group1.size < 2 or group2.size < 2):
+ or (group1.size < 2 or group2.size < 2):
+ and not np.isnan(group1).sum():
+ and any(~np.isnan(group1)):
+ and any(
+ and len(group1) >= 2:
+ :
+ or len(group1) < 2 or len(group2) < 2 or (np.var(group1) < 1e-8) or (np.var(group2) < 1e-8):
+ and len(group1) > 1 and len(group2) > 1:
+ or (
+ or (group1.size <= 1) or (group2.size <= 1):
+ or (
+ and len(group1) > 1:
+ and (len(group1) + len(group2) >= 2):
+ and not all(
+ or (len(group1) < 2 or len(group2) < 2):
+ and (
+ and (group1.shape[0] < 2 or group2.shape[0] < 2):
+ and not (np.isfinite(group1).sum() > 0) and not (np.isfinite(group2).sum() > 0):
+ and not (np.all(np.isnan(group1)) and np.all(np.isnan(group2))):
+ or (
+ and (len(group1) < 2 or len(group2) < 2):
+ and not np.all(np.isnan(group1)) and not np.all(np.isnan(group2)):
+ or (np.all(~np.isnan(group1)) and np.all(~np.isnan(group2))):
+ or (
+ and not np.isnan(group1).all() and not np.isnan(group2).all():
+ and len(group1) < 2 and len(group2) < 2:
+ or (
+ or len(group1) < 2 or len(group2) < 2:
+ or (
+ or (len(group1) < 2 or len(group2) < 2):
+ or (
+ and (
+ and not np.any(group1 == 0):
+ and not any(np.isfinite(group1)):
+ or len(group1) < 2 or len(group2) < 2:
+ or (np.std(group1) < 1e-8) or (np.std(group2) < 1e-8):
+ or (
+ and len(group1) > 1:
+ or (len(group1) < 2) or (len(group2) < 2):
+ and len(group1) > 0 and len(group2) > 0:
+ or (np.std(group1) < 1e-8 or np.std(group2) < 1e-8):
+ and len(group1) > 0 and len(group2) > 0:
+ and group1.size > 2:
+ or (len(group1) < 2) or (len(group2) < 2) or (np.var(group1) < 1e-8) or (np.var(group2) < 1e-8):
+ or (len(group1) < 2 or len(group2) < 2):
+ or (group1.size < 2 or group2.size < 2):
+ or (
