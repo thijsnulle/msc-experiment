@@ -49,7 +49,7 @@ class Experiment:
                 is_small_llm = llm == self.small_llm
 
                 prompts = [raw_prompt] if is_func_level else raw_prompt
-                stop_token = ['<|endoftext|>', '\n\nprint', '\n\ndef', '\n\nif', '\n\n#'] if is_func_level else '\n'
+                stop_token = ['<|endoftext|>', '\n\nprint', '\n\ndef', '\n\nif', '\n\n#'] if is_func_level else ['<|endoftext|>', '\n']
 
                 self.runner.start()
 
