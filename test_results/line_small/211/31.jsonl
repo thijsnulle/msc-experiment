@@ -1,0 +1,5 @@
+{"code": " os.path.basename(url)", "compilation_passed": true, "time": 0.03316020965576172, "tests_passed": true, "error": null}
+{"code": " url.split('/')[-1]", "compilation_passed": true, "time": 0.031909942626953125, "tests_passed": true, "error": null}
+{"code": " response.url.rsplit(\"/\", 1)[1]", "compilation_passed": true, "time": 0.038289785385131836, "tests_passed": true, "error": null}
+{"code": " os.path.join(destination_directory, os.path.basename(url))", "compilation_passed": true, "time": 0.5377140045166016, "tests_passed": true, "error": null}
+{"code": " response.headers.get('content-disposition').split('filename=')[-1]", "compilation_passed": true, "time": 0.04008293151855469, "tests_passed": true, "error": null}

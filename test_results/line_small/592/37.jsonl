@@ -1,0 +1,11 @@
+{"code": " os.path.join(output_dir, 'sensor_data.csv')", "compilation_passed": true, "time": 0.005513906478881836, "tests_passed": true, "error": null}
+{"code": " f\"{output_dir}/sensor_data.csv\"", "compilation_passed": true, "time": 0.005654096603393555, "tests_passed": true, "error": null}
+{"code": " os.path.join(", "compilation_passed": false, "time": 0.00015497207641601562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " os.path.join(output_dir, f\"sensor_data_{datetime.today().date().strftime('%Y_%m_%d')}.csv\")", "compilation_passed": true, "time": 0.005113124847412109, "tests_passed": true, "error": null}
+{"code": " f\"{output_dir}/sensor_data_{datetime.now().strftime('%Y_%m_%d_%H_%M_%S')}_rand_{randint(1, 100000)}.csv\"", "compilation_passed": true, "time": 0.00481414794921875, "tests_passed": true, "error": null}
+{"code": " f'{output_dir}/sensor_data.csv'", "compilation_passed": true, "time": 0.005300045013427734, "tests_passed": true, "error": null}
+{"code": " f\"{output_dir}/sensor_data_{datetime.now().strftime('%Y%m%d%H%M%S')}.csv\"", "compilation_passed": true, "time": 0.00590825080871582, "tests_passed": true, "error": null}
+{"code": " 'sensor_data.csv'", "compilation_passed": true, "time": 0.0051572322845458984, "tests_passed": true, "error": null}
+{"code": " f'{output_dir}/sensor_data_{datetime.now().strftime(\"%Y%m%d_%H%M\")}.csv'", "compilation_passed": true, "time": 0.0052547454833984375, "tests_passed": true, "error": null}
+{"code": " os.path.join(output_dir, \"sensor_data.csv\")", "compilation_passed": true, "time": 0.0073468685150146484, "tests_passed": true, "error": null}
+{"code": " f\"{output_dir}/sensor_data_{datetime.now().strftime('%Y%m%d-%H%M%S')}.csv\"", "compilation_passed": true, "time": 0.00680088996887207, "tests_passed": true, "error": null}

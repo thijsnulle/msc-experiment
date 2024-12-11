@@ -1,0 +1,19 @@
+{"code": " open(file_path, 'w') as f:", "compilation_passed": true, "time": 0.011564016342163086, "tests_passed": false, "error": "NameError"}
+{"code": " csv.writer(open(file_path, 'w')) as csv_writer:", "compilation_passed": true, "time": 0.011320829391479492, "tests_passed": false, "error": "AttributeError"}
+{"code": " open(file_path, 'w', newline='') as file:", "compilation_passed": true, "time": 0.011121034622192383, "tests_passed": false, "error": "NameError"}
+{"code": " csv.writer(open(file_path, 'w', newline='')) as writer:", "compilation_passed": true, "time": 0.009652853012084961, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.writer(open(file_path, 'w', newline='')) as csvfile:", "compilation_passed": true, "time": 0.009440898895263672, "tests_passed": false, "error": "AttributeError"}
+{"code": " open(file_path, 'w') as csv_file:", "compilation_passed": true, "time": 0.018047809600830078, "tests_passed": true, "error": null}
+{"code": " open(file_path, 'w', newline='') as f:", "compilation_passed": true, "time": 0.009304046630859375, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_path, 'w', newline=\"\") as file:", "compilation_passed": true, "time": 0.010682344436645508, "tests_passed": false, "error": "NameError"}
+{"code": " csv.writer(open(file_path, 'w')) as csv_file:", "compilation_passed": true, "time": 0.010616779327392578, "tests_passed": false, "error": "AttributeError"}
+{"code": " open(file_path, 'w', newline='') as csv_file:", "compilation_passed": true, "time": 0.01699519157409668, "tests_passed": true, "error": null}
+{"code": " open(file_path, 'w', newline='', encoding='utf-8') as file:", "compilation_passed": true, "time": 0.010063886642456055, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_path, 'w+') as file:", "compilation_passed": true, "time": 0.009598970413208008, "tests_passed": false, "error": "NameError"}
+{"code": " csv.writer(open(file_path, 'w', newline='', encoding='utf8')) as csv_file:", "compilation_passed": true, "time": 0.01099705696105957, "tests_passed": false, "error": "AttributeError"}
+{"code": " open(file_path, mode='w') as file:", "compilation_passed": true, "time": 0.010783195495605469, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_path, 'w', newline='', encoding='utf-8') as csv_file:", "compilation_passed": true, "time": 0.0164029598236084, "tests_passed": true, "error": null}
+{"code": " csv.writer(file_path, delimiter=';') as writer:", "compilation_passed": true, "time": 0.008997917175292969, "tests_passed": false, "error": "TypeError"}
+{"code": " open(file_path, 'w', newline='', encoding='utf8') as f:", "compilation_passed": true, "time": 0.009890079498291016, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_path, 'w', newline='', encoding=\"UTF8\") as f:", "compilation_passed": true, "time": 0.010076284408569336, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_path, 'w') as file:", "compilation_passed": true, "time": 0.46300196647644043, "tests_passed": false, "error": "NameError"}

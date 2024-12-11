@@ -1,0 +1,12 @@
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.006499767303466797, "tests_passed": true, "error": null}
+{"code": " collections.Counter(char for string in strings for char in string)", "compilation_passed": true, "time": 0.002187967300415039, "tests_passed": true, "error": null}
+{"code": " collections.Counter(''.join(strings))", "compilation_passed": true, "time": 0.002092123031616211, "tests_passed": true, "error": null}
+{"code": " collections.Counter(string for string in strings)", "compilation_passed": true, "time": 0.005278110504150391, "tests_passed": true, "error": null}
+{"code": " collections.defaultdict(int)", "compilation_passed": true, "time": 0.005085945129394531, "tests_passed": true, "error": null}
+{"code": " collections.Counter(sum(strings, []))", "compilation_passed": true, "time": 0.00821685791015625, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.Counter(string.join(strings))", "compilation_passed": true, "time": 0.010077953338623047, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.Counter(\"\".join(strings))", "compilation_passed": true, "time": 0.002053976058959961, "tests_passed": true, "error": null}
+{"code": " collections.Counter(c for s in strings for c in s)", "compilation_passed": true, "time": 0.002321958541870117, "tests_passed": true, "error": null}
+{"code": " collections.Counter(sum(strings, ''))", "compilation_passed": true, "time": 0.009090185165405273, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.Counter(itertools.chain.from_iterable(strings))", "compilation_passed": true, "time": 0.00875711441040039, "tests_passed": false, "error": "NameError"}
+{"code": " collections.Counter(ch for string in strings for ch in string)", "compilation_passed": true, "time": 0.002256155014038086, "tests_passed": true, "error": null}

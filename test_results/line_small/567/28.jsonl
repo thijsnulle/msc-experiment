@@ -1,0 +1,21 @@
+{"code": " data.strip().split('-')", "compilation_passed": true, "time": 0.23855996131896973, "tests_passed": true, "error": null}
+{"code": " np.arange(data.min(), data.max()+2) - 0.5", "compilation_passed": true, "time": 0.0051729679107666016, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(data.split('-')).astype(np.int_)", "compilation_passed": true, "time": 0.2185659408569336, "tests_passed": true, "error": null}
+{"code": " [int(val) for val in data.split(\"-\")]", "compilation_passed": true, "time": 0.2191927433013916, "tests_passed": true, "error": null}
+{"code": " np.array(data.split('-')).astype(int)", "compilation_passed": true, "time": 0.21911096572875977, "tests_passed": true, "error": null}
+{"code": " np.fromstring(data, dtype=int, sep='-')", "compilation_passed": true, "time": 0.22013592720031738, "tests_passed": true, "error": null}
+{"code": " list(map(int, data.split('-')))", "compilation_passed": true, "time": 0.22096586227416992, "tests_passed": true, "error": null}
+{"code": " data.split('-')", "compilation_passed": true, "time": 0.2223360538482666, "tests_passed": true, "error": null}
+{"code": " [int(i) for i in data.split('-')]", "compilation_passed": true, "time": 0.22290802001953125, "tests_passed": true, "error": null}
+{"code": " np.array(data.split('-'))", "compilation_passed": true, "time": 0.22317910194396973, "tests_passed": true, "error": null}
+{"code": " np.array([int(x) for x in data.split('-')])", "compilation_passed": true, "time": 0.23179101943969727, "tests_passed": true, "error": null}
+{"code": " pd.Series(data.replace('-', ' ').split(), dtype='int32')", "compilation_passed": true, "time": 0.22747492790222168, "tests_passed": true, "error": null}
+{"code": " data.split(\"-\")", "compilation_passed": true, "time": 0.22565603256225586, "tests_passed": true, "error": null}
+{"code": " list(map(int, data.split(\"-\")))", "compilation_passed": true, "time": 0.2247471809387207, "tests_passed": true, "error": null}
+{"code": " np.array(list(map(int, data.split('-'))))", "compilation_passed": true, "time": 1.0242338180541992, "tests_passed": false, "error": "TimeoutError"}
+{"code": " data.replace('-', ' ').replace(' ', ' ').split(' ')", "compilation_passed": true, "time": 0.2279348373413086, "tests_passed": true, "error": null}
+{"code": " [float(i) for i in data.split(\"-\")]", "compilation_passed": true, "time": 0.22826218605041504, "tests_passed": true, "error": null}
+{"code": " pd.Series(list(map(int, data.split('-'))))", "compilation_passed": true, "time": 0.22890305519104004, "tests_passed": true, "error": null}
+{"code": " [int(d) for d in data.split(\"-\")]", "compilation_passed": true, "time": 0.23363518714904785, "tests_passed": true, "error": null}
+{"code": " pd.Series([int(i) for i in data.split('-')])", "compilation_passed": true, "time": 0.23273897171020508, "tests_passed": true, "error": null}
+{"code": " [int(x) for x in data.split('-')]", "compilation_passed": true, "time": 0.23296809196472168, "tests_passed": true, "error": null}

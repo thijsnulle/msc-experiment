@@ -1,0 +1,12 @@
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.21609902381896973, "tests_passed": true, "error": null}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.22038888931274414, "tests_passed": true, "error": null}
+{"code": " plt.subplot(1,1,1)", "compilation_passed": true, "time": 0.21926212310791016, "tests_passed": true, "error": null}
+{"code": " df.plot.hist(bins=np.arange(df.Values.min(), df.Values.max() + 2) - 0.5, rot=0)", "compilation_passed": true, "time": 0.4364018440246582, "tests_passed": true, "error": null}
+{"code": " df.plot.hist(bins=np.arange(df.Values.min(), df.Values.max() + 2) - 0.5)", "compilation_passed": true, "time": 0.42716383934020996, "tests_passed": true, "error": null}
+{"code": " df['Values'].plot(kind='hist', bins=np.arange(data.min(), data.max()+2) - 0.5)", "compilation_passed": true, "time": 0.021139860153198242, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.hist(bins=np.arange(data.min(), data.max()+2) - 0.5, color='royalblue', alpha=0.75)", "compilation_passed": true, "time": 0.02086782455444336, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.hist(bins=np.arange(data.min(), data.max() + 2) - 0.5)", "compilation_passed": true, "time": 0.021234989166259766, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['Values'].hist()", "compilation_passed": true, "time": 0.2574427127838135, "tests_passed": true, "error": null}
+{"code": " plt.subplot(1, 1, 1)", "compilation_passed": true, "time": 0.22744512557983398, "tests_passed": true, "error": null}
+{"code": " df.hist(bins=np.arange(data.min(), data.max()+2) - 0.5)", "compilation_passed": true, "time": 0.021034955978393555, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot.hist(bins=np.arange(data.min(), data.max()+2) - 0.5)", "compilation_passed": true, "time": 0.0219419002532959, "tests_passed": false, "error": "AttributeError"}

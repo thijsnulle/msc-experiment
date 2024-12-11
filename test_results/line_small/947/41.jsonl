@@ -1,0 +1,23 @@
+{"code": " np.full((rows, columns), selected_dates, dtype='datetime64')", "compilation_passed": true, "time": 0.011894941329956055, "tests_passed": false, "error": "ValueError"}
+{"code": " np.full((rows, columns), np.datetime64(datetime.min.replace(year=start_date.year,", "compilation_passed": false, "time": 0.0003330707550048828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.array(sorted(", "compilation_passed": false, "time": 0.00027179718017578125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [[(start_date_np + datetime.timedelta(days=x)).strftime('%Y-%m-%dT%H:%M:%S.%f') for x in selected_dates[i * columns:(i + 1) * columns]", "compilation_passed": false, "time": 0.00029778480529785156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.array(selected_dates)", "compilation_passed": true, "time": 0.006992816925048828, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.00537109375, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.reshape(np.array(selected_dates), (rows, columns))", "compilation_passed": true, "time": 0.010985851287841797, "tests_passed": true, "error": null}
+{"code": " np.empty((rows, columns), dtype=np.object)", "compilation_passed": true, "time": 0.01138925552368164, "tests_passed": false, "error": "    https"}
+{"code": " np.array(list(itertools.product(start_date_np + np.timedelta64(x, 'D') for x in selected_dates))).reshape(rows, columns)", "compilation_passed": true, "time": 0.008604764938354492, "tests_passed": false, "error": "NameError"}
+{"code": " np.zeros((rows, columns), dtype=object)", "compilation_passed": true, "time": 0.0061092376708984375, "tests_passed": true, "error": null}
+{"code": " [[f\"{start_date_np + np.timedelta64(i, 'D')}\" for i in selected_dates[j * columns: (j + 1) * columns] for j in range(rows)]", "compilation_passed": false, "time": 0.0002651214599609375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.zeros((rows, columns), dtype=np.datetime64)", "compilation_passed": true, "time": 0.004849910736083984, "tests_passed": true, "error": null}
+{"code": " np.full((rows, columns), '1970-01-01T00:00:00.000000000')", "compilation_passed": true, "time": 0.006596803665161133, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " np.array([[start_date_np + np.timedelta64(day) for day in selected_dates[i:i+columns]]", "compilation_passed": false, "time": 0.00026798248291015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.array(", "compilation_passed": false, "time": 0.00021886825561523438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [[str(start_date_np + np.timedelta64(x, 'D')) for x in selected_dates[i:i + columns] if x < total_days] for i in range(0, rows * columns, columns)]", "compilation_passed": true, "time": 0.005096912384033203, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array([[start_date_np + np.timedelta64(x, 'D') for x in selected_dates]] * columns)", "compilation_passed": true, "time": 0.005125761032104492, "tests_passed": true, "error": null}
+{"code": " np.fromiter(lambda: np.datetime64(f'2021-{random.randint(1, 12):02d}-{random.randint(1, 31):02d}', 'D'),", "compilation_passed": false, "time": 0.0002930164337158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.zeros((rows, columns), dtype='datetime64[s]')", "compilation_passed": true, "time": 0.004773139953613281, "tests_passed": true, "error": null}
+{"code": " [[None] * columns for _ in range(rows)]", "compilation_passed": true, "time": 0.006268024444580078, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array([datetime.strftime(datetime.fromtimestamp(i), \"%Y-%m-%dT%H:%M:%S.%f\") for i in selected_dates]).reshape(rows, columns)", "compilation_passed": true, "time": 0.005048036575317383, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " np.array([selected_dates[i*columns:i*columns+columns] for i in range(rows)], dtype=np.datetime64)", "compilation_passed": true, "time": 0.00795292854309082, "tests_passed": false, "error": "ValueError"}
+{"code": " np.full((rows, columns), None)", "compilation_passed": true, "time": 0.005417346954345703, "tests_passed": false, "error": "TypeError"}

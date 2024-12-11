@@ -1,0 +1,22 @@
+{"code": " df.apply(lambda x: (x - x.mean()) / x.std())", "compilation_passed": true, "time": 0.009293079376220703, "tests_passed": true, "error": null}
+{"code": " df.sub(df.mean(axis=0), axis=0).div(df.std(axis=0, ddof=1), axis=0)", "compilation_passed": true, "time": 0.013540029525756836, "tests_passed": true, "error": null}
+{"code": " df.subtract(df.mean()).divide(df.std())", "compilation_passed": true, "time": 0.010938882827758789, "tests_passed": true, "error": null}
+{"code": " df.std()", "compilation_passed": true, "time": 0.0063588619232177734, "tests_passed": true, "error": null}
+{"code": " df.std() * df", "compilation_passed": true, "time": 0.007287740707397461, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=[", "compilation_passed": false, "time": 0.00024700164794921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.sub(df.mean()).div(df.std())", "compilation_passed": true, "time": 0.010786056518554688, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda col: (col - col.mean()) / col.std())", "compilation_passed": true, "time": 0.00952291488647461, "tests_passed": true, "error": null}
+{"code": " df.astype(float)", "compilation_passed": true, "time": 0.006596803665161133, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: (x - x.mean()) / x.std(), axis=0)", "compilation_passed": true, "time": 0.008571863174438477, "tests_passed": true, "error": null}
+{"code": " df.std().transpose().to_dict()", "compilation_passed": true, "time": 0.005883932113647461, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.subtracted_mean()", "compilation_passed": true, "time": 0.008596181869506836, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.sub(df.mean(), axis=0).div(df.std(), axis=0)", "compilation_passed": true, "time": 0.007302999496459961, "tests_passed": true, "error": null}
+{"code": " df.std() * (df - df.mean())", "compilation_passed": true, "time": 0.012568950653076172, "tests_passed": true, "error": null}
+{"code": " (df - df.mean()) / df.std()", "compilation_passed": true, "time": 0.009654998779296875, "tests_passed": true, "error": null}
+{"code": " df.subtract(df.mean(axis=0), axis=0)", "compilation_passed": true, "time": 0.006916046142578125, "tests_passed": true, "error": null}
+{"code": " df.subtract(df.mean()).div(df.std())", "compilation_passed": true, "time": 0.009536027908325195, "tests_passed": true, "error": null}
+{"code": " df.subtract(df.mean(), axis=0)", "compilation_passed": true, "time": 0.006781816482543945, "tests_passed": true, "error": null}
+{"code": " df.std().to_frame(index=None)", "compilation_passed": true, "time": 0.008644819259643555, "tests_passed": false, "error": "TypeError"}
+{"code": " df.std() / df.mean()", "compilation_passed": true, "time": 0.006262063980102539, "tests_passed": true, "error": null}
+{"code": " df.sub(df.mean(), axis=0)", "compilation_passed": true, "time": 0.006991147994995117, "tests_passed": true, "error": null}
+{"code": " df.subtracted(df.mean(axis=0)).divided(df.std(axis=0))", "compilation_passed": true, "time": 0.008121252059936523, "tests_passed": false, "error": "AttributeError"}

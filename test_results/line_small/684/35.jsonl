@@ -1,0 +1,12 @@
+{"code": " np.arange(len(updated_df)) % 2 == 0", "compilation_passed": true, "time": 0.004257917404174805, "tests_passed": true, "error": null}
+{"code": " np.array(updated_df.index) % 2 == 0", "compilation_passed": true, "time": 0.004328012466430664, "tests_passed": true, "error": null}
+{"code": " (np.arange(len(updated_df))) % 2 == 0", "compilation_passed": true, "time": 0.004526853561401367, "tests_passed": true, "error": null}
+{"code": " np.array(np.arange(len(updated_df)) % 2 == 0).astype('bool')", "compilation_passed": true, "time": 0.004300117492675781, "tests_passed": true, "error": null}
+{"code": " np.array([i % 2 == 0 for i in np.arange(len(updated_df))])", "compilation_passed": true, "time": 0.004375934600830078, "tests_passed": true, "error": null}
+{"code": " (np.arange(len(updated_df)) % 2 == 0).astype(int)", "compilation_passed": true, "time": 0.004486799240112305, "tests_passed": true, "error": null}
+{"code": " (np.arange(len(updated_df)) % 2 == 0).astype(bool)", "compilation_passed": true, "time": 0.0043828487396240234, "tests_passed": true, "error": null}
+{"code": " np.where(np.arange(len(updated_df)) % 2 == 0, True, False)", "compilation_passed": true, "time": 0.004224061965942383, "tests_passed": true, "error": null}
+{"code": " (np.arange(len(updated_df)) % 2) == 0", "compilation_passed": true, "time": 0.004230976104736328, "tests_passed": true, "error": null}
+{"code": " np.array(list(map(lambda x: x % 2 == 0, np.arange(len(updated_df)))))", "compilation_passed": true, "time": 0.004673957824707031, "tests_passed": true, "error": null}
+{"code": " (np.arange(len(updated_df)) % 2 == 0)", "compilation_passed": true, "time": 0.0044100284576416016, "tests_passed": true, "error": null}
+{"code": " (np.arange(len(updated_df)) % 2 == 0).astype(np.int)", "compilation_passed": true, "time": 0.005711793899536133, "tests_passed": false, "error": "    https"}

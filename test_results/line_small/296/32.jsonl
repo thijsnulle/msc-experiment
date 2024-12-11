@@ -1,0 +1,10 @@
+{"code": " isinstance(df,pd.DataFrame):", "compilation_passed": true, "time": 0.012292861938476562, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.010586261749267578, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.008505821228027344, "tests_passed": true, "error": null}
+{"code": " isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 0.01134181022644043, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 0.008822202682495117, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.core.generic.DataFrame):", "compilation_passed": true, "time": 0.010771036148071289, "tests_passed": false, "error": "AttributeError"}
+{"code": " type(df) is not pd.core.frame.DataFrame:", "compilation_passed": true, "time": 0.007801055908203125, "tests_passed": true, "error": null}
+{"code": " not isinstance(df,pd.DataFrame):", "compilation_passed": true, "time": 0.007319211959838867, "tests_passed": true, "error": null}
+{"code": " type(df) == pd.core.generic.NDFrame:", "compilation_passed": true, "time": 0.008224725723266602, "tests_passed": true, "error": null}
+{"code": " isinstance(df, pd.DataFrame) == False:", "compilation_passed": true, "time": 0.007299900054931641, "tests_passed": true, "error": null}

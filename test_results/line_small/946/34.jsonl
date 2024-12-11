@@ -1,0 +1,11 @@
+{"code": " np.random.randint(min_val, max_val, (rows, cols))", "compilation_passed": true, "time": 0.005774021148681641, "tests_passed": true, "error": null}
+{"code": " np.random.randint(min_val, max_val + 1, (rows, cols))", "compilation_passed": true, "time": 0.006090879440307617, "tests_passed": true, "error": null}
+{"code": " np.random.randint(min_val, max_val + 1, size=(rows, cols))", "compilation_passed": true, "time": 0.006207942962646484, "tests_passed": true, "error": null}
+{"code": " np.random.randint(min_val, max_val, size=(rows, cols))", "compilation_passed": true, "time": 0.007883071899414062, "tests_passed": true, "error": null}
+{"code": " np.random.randint(min_val, max_val+1, size=(rows, cols))", "compilation_passed": true, "time": 0.007605075836181641, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=min_val, high=max_val, size=(rows, cols))", "compilation_passed": true, "time": 0.006197929382324219, "tests_passed": true, "error": null}
+{"code": " random.sample(range(min_val, max_val), rows*cols)", "compilation_passed": true, "time": 0.008674860000610352, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(min_val, max_val, (rows, cols))", "compilation_passed": true, "time": 0.01007390022277832, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(min_val, max_val, size=(rows, cols)).astype(int)", "compilation_passed": true, "time": 0.006257057189941406, "tests_passed": true, "error": null}
+{"code": " random.sample(range(min_val, max_val + 1), rows * cols)", "compilation_passed": true, "time": 0.006194114685058594, "tests_passed": true, "error": null}
+{"code": " random.sample(range(min_val, max_val), rows * cols)", "compilation_passed": true, "time": 0.005833148956298828, "tests_passed": true, "error": null}

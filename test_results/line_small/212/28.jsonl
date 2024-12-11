@@ -1,0 +1,20 @@
+{"code": " [p for p in data if p[0] == max_y_point[0]]", "compilation_passed": true, "time": 0.005505084991455078, "tests_passed": false, "error": "TypeError"}
+{"code": " [(p[0], p[1]) for p in data]", "compilation_passed": true, "time": 0.0056459903717041016, "tests_passed": false, "error": "TypeError"}
+{"code": " data.copy()", "compilation_passed": true, "time": 0.0057370662689208984, "tests_passed": false, "error": "TypeError"}
+{"code": " []", "compilation_passed": true, "time": 0.0054018497467041016, "tests_passed": false, "error": "TypeError"}
+{"code": " [point for point in data if point == max_y_point]", "compilation_passed": true, "time": 0.0053441524505615234, "tests_passed": false, "error": "TypeError"}
+{"code": " [(x, y) for x, y in data if x != max_y_point[0] and y == max_y_point[1]]", "compilation_passed": true, "time": 0.00533294677734375, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(data)", "compilation_passed": true, "time": 0.15273308753967285, "tests_passed": true, "error": null}
+{"code": " [point for point in data if point != max_y_point]", "compilation_passed": true, "time": 0.006213188171386719, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([d for d in data if d[0] <= max_y_point[0]])", "compilation_passed": true, "time": 0.1549971103668213, "tests_passed": true, "error": null}
+{"code": " [(x, y) for x, y in data]", "compilation_passed": true, "time": 0.005339145660400391, "tests_passed": false, "error": "TypeError"}
+{"code": " [p for p in data if p != max_y_point]", "compilation_passed": true, "time": 0.005412101745605469, "tests_passed": false, "error": "TypeError"}
+{"code": " [x for x in data if x[0] == max_y_point[0]]", "compilation_passed": true, "time": 0.005707979202270508, "tests_passed": false, "error": "TypeError"}
+{"code": " data", "compilation_passed": true, "time": 0.0056819915771484375, "tests_passed": false, "error": "TypeError"}
+{"code": " [point for point in data if point[0] == max_y_point[0]]", "compilation_passed": true, "time": 0.005479335784912109, "tests_passed": false, "error": "TypeError"}
+{"code": " [(p[0], p[1]) for p in data if p != max_y_point]", "compilation_passed": true, "time": 0.005069255828857422, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(itemgetter(0, 1), data))", "compilation_passed": true, "time": 0.005784034729003906, "tests_passed": false, "error": "TypeError"}
+{"code": " [tuple(item) for item in data]", "compilation_passed": true, "time": 0.00539398193359375, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([d for d in data if d != max_y_point])", "compilation_passed": true, "time": 0.1587848663330078, "tests_passed": true, "error": null}
+{"code": " [point for point in data if point[1] == max_y_point[1]]", "compilation_passed": true, "time": 0.005216121673583984, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(itemgetter(0), data))", "compilation_passed": true, "time": 0.005296945571899414, "tests_passed": false, "error": "TypeError"}

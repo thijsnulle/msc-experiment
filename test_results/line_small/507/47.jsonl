@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(data, columns=valid_columns)", "compilation_passed": true, "time": 0.023828983306884766, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.010525941848754883, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=valid_columns).set_index(\"Date\")", "compilation_passed": true, "time": 0.02503228187561035, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=[\"Date\", \"Open\", \"High\", \"Low\", \"Close\", \"Volume\"])", "compilation_passed": true, "time": 0.021266937255859375, "tests_passed": true, "error": null}

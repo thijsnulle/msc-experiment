@@ -1,0 +1,8 @@
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.15825796127319336, "tests_passed": false, "error": "KeyError"}
+{"code": " isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.020917892456054688, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(df, pd.DataFrame) and all(col in df for col in ['Date', 'Time', 'Temperature']):", "compilation_passed": true, "time": 0.012039899826049805, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 1.010664939880371, "tests_passed": false, "error": "TimeoutError"}
+{"code": " not isinstance(df, pd.DataFrame) or not (", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not isinstance(df, pd.DataFrame) or 'Temperature' not in df.columns:", "compilation_passed": true, "time": 1.0088303089141846, "tests_passed": false, "error": "TimeoutError"}
+{"code": " isinstance(df, pd.core.generic.DataFrame) and all(", "compilation_passed": false, "time": 0.00020360946655273438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 0.010612249374389648, "tests_passed": false, "error": "ValueError"}

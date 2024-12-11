@@ -1,0 +1,10 @@
+{"code": " string.ascii_lowercase", "compilation_passed": true, "time": 0.05662202835083008, "tests_passed": true, "error": null}
+{"code": " itertools.product(string.ascii_lowercase, repeat=3)", "compilation_passed": true, "time": 1.0, "tests_passed": false, "error": "MemoryError"}
+{"code": " list(itertools.product(string.ascii_lowercase, repeat=3))", "compilation_passed": true, "time": 1.0, "tests_passed": false, "error": "MemoryError"}
+{"code": " string.ascii_letters[:26]", "compilation_passed": true, "time": 0.06505703926086426, "tests_passed": true, "error": null}
+{"code": " [letter for letter in string.ascii_lowercase]", "compilation_passed": true, "time": 0.05454087257385254, "tests_passed": true, "error": null}
+{"code": " string.ascii_uppercase", "compilation_passed": true, "time": 1.0093019008636475, "tests_passed": false, "error": "TimeoutError"}
+{"code": " itertools.chain(iterable=map(lambda x: iterable=iterable=map(lambda y: y, string.ascii_lowercase), string.ascii_lowercase))", "compilation_passed": false, "time": 0.0001900196075439453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [\"a\", \"b\", \"c\", \"d\", \"e\"]", "compilation_passed": true, "time": 0.28034472465515137, "tests_passed": true, "error": null}
+{"code": " list(string.ascii_lowercase)", "compilation_passed": true, "time": 0.05352973937988281, "tests_passed": true, "error": null}
+{"code": " string.ascii_letters", "compilation_passed": true, "time": 1.0162079334259033, "tests_passed": false, "error": "TimeoutError"}

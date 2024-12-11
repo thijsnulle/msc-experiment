@@ -1,0 +1,21 @@
+{"code": " pd.DataFrame(counter, index=['Occurrence'])", "compilation_passed": true, "time": 0.00888204574584961, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(counter.most_common(), columns=['Menu', 'Frequency'])", "compilation_passed": true, "time": 0.009533166885375977, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(counter.items(), columns=['Item', 'Count'])", "compilation_passed": true, "time": 1.0087192058563232, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(counter, index=['Item'])", "compilation_passed": true, "time": 0.009630918502807617, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame.from_dict(counter, orient='index', columns=['Frequency'])", "compilation_passed": true, "time": 0.008687257766723633, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(counter, index=[\"Items\"])", "compilation_passed": true, "time": 0.008962154388427734, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Item': counter.keys(), 'Frequency': counter.values()})", "compilation_passed": true, "time": 0.008919954299926758, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(counter.items(), columns=['item', 'frequency'])", "compilation_passed": true, "time": 0.009403228759765625, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(counter.most_common())", "compilation_passed": true, "time": 0.008613109588623047, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'menu': flat_list, 'count': counter.values()})", "compilation_passed": true, "time": 0.007692098617553711, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame.from_dict(counter, orient=\"index\").reset_index()", "compilation_passed": true, "time": 0.009187936782836914, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(counter.items(), columns=[\"item\", \"count\"])", "compilation_passed": true, "time": 0.008647918701171875, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(counter.items(), columns=['Item', 'Frequency'])", "compilation_passed": true, "time": 0.008602142333984375, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Item': counter.keys(), 'Count': counter.values()})", "compilation_passed": true, "time": 0.785865068435669, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(counter, orient=\"index\")", "compilation_passed": true, "time": 0.009090185165405273, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(counter.items(), columns=[\"Item\", \"Count\"])", "compilation_passed": true, "time": 0.9598410129547119, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(counter.items(), columns=[\"Item\", \"Frequency\"])", "compilation_passed": true, "time": 0.009518146514892578, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Item': list(counter.keys()), 'Count': list(counter.values())})", "compilation_passed": true, "time": 0.1424698829650879, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(counter.items(), columns=['item', 'count'])", "compilation_passed": true, "time": 0.008733987808227539, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(counter, columns=['item', 'count'])", "compilation_passed": true, "time": 0.005763053894042969, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(counter.most_common(), columns=[\"Item\", \"Frequency\"])", "compilation_passed": true, "time": 0.009876012802124023, "tests_passed": false, "error": "ValueError"}

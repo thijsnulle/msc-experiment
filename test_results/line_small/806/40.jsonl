@@ -1,0 +1,11 @@
+{"code": " Counter(zip(*[iter(words)]*n))", "compilation_passed": true, "time": 0.007282257080078125, "tests_passed": true, "error": null}
+{"code": " Counter()", "compilation_passed": true, "time": 0.005616188049316406, "tests_passed": true, "error": null}
+{"code": " Counter(nltk.ngrams(words, n))", "compilation_passed": true, "time": 0.0017008781433105469, "tests_passed": true, "error": null}
+{"code": " Counter(zip(*(words[i:] for i in range(n)))", "compilation_passed": false, "time": 0.00021195411682128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Counter(zip(*[iter(words)] * n))", "compilation_passed": true, "time": 0.006150007247924805, "tests_passed": true, "error": null}
+{"code": " Counter(zip(*[words[i:] for i in range(n)]))", "compilation_passed": true, "time": 0.0017998218536376953, "tests_passed": true, "error": null}
+{"code": " Counter(zip(*(words[i:] for i in range(n))),", "compilation_passed": false, "time": 0.000225067138671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Counter([words[i:i + n] for i in range(len(words) - n + 1)])", "compilation_passed": true, "time": 0.011432886123657227, "tests_passed": false, "error": "TypeError"}
+{"code": " Counter(ngrams(words, n))", "compilation_passed": true, "time": 0.010025978088378906, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " Counter(zip(*(words[i:] for i in range(n))))", "compilation_passed": true, "time": 0.001631021499633789, "tests_passed": true, "error": null}
+{"code": " Counter([tuple(words[i:i + n]) for i in range(len(words) - n + 1)])", "compilation_passed": true, "time": 0.0017740726470947266, "tests_passed": true, "error": null}

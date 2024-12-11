@@ -1,0 +1,8 @@
+{"code": " set(string.punctuation)", "compilation_passed": true, "time": 0.008308887481689453, "tests_passed": false, "error": "NameError"}
+{"code": " string.punctuation + \"\\n\"  # Join the punctuation string with newline", "compilation_passed": true, "time": 0.007782936096191406, "tests_passed": false, "error": "NameError"}
+{"code": " string.punctuation", "compilation_passed": true, "time": 0.006642818450927734, "tests_passed": false, "error": "NameError"}
+{"code": " str.maketrans('', '', punctuation)", "compilation_passed": true, "time": 0.0076520442962646484, "tests_passed": false, "error": "TypeError"}
+{"code": " re.compile(r'[^\\w\\s]')", "compilation_passed": true, "time": 0.006716012954711914, "tests_passed": false, "error": "TypeError"}
+{"code": " set(punctuation)", "compilation_passed": true, "time": 0.0015747547149658203, "tests_passed": true, "error": null}
+{"code": " re.escape(punctuation)", "compilation_passed": true, "time": 0.001583099365234375, "tests_passed": true, "error": null}
+{"code": " frozenset(punctuation)", "compilation_passed": true, "time": 0.0015857219696044922, "tests_passed": true, "error": null}

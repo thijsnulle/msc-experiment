@@ -1,0 +1,10 @@
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.009740114212036133, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=['Total Count', 'Average Count'])", "compilation_passed": true, "time": 0.009284019470214844, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=['Total Count', 'Average Count'], index=[])", "compilation_passed": true, "time": 0.009849786758422852, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0001289844512939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=['Total Count', 'Average Count'], index=[\"\"])", "compilation_passed": true, "time": 0.013787031173706055, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Total Count': [0], 'Average Count': [0]})", "compilation_passed": true, "time": 0.015246152877807617, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Total Count\": [], \"Average Count\": []})", "compilation_passed": true, "time": 0.009065389633178711, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Total Count': [], 'Average Count': []})", "compilation_passed": true, "time": 0.010053873062133789, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(index=['Total Count', 'Average Count'])", "compilation_passed": true, "time": 0.00939488410949707, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(index=pd.Index([], dtype='object'))", "compilation_passed": true, "time": 0.009076118469238281, "tests_passed": true, "error": null}

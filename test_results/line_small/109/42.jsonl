@@ -1,0 +1,27 @@
+{"code": " item_count_df[items].plot.bar(stacked=True)", "compilation_passed": true, "time": 0.23884367942810059, "tests_passed": true, "error": null}
+{"code": " item_count_df.loc[locations, items].plot(kind='bar', stacked=True, title='Item Distribution by Location')", "compilation_passed": true, "time": 0.25339412689208984, "tests_passed": true, "error": null}
+{"code": " item_count_df.plot.bar(", "compilation_passed": false, "time": 0.00031685829162597656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " item_count_df.plot.bar(y=items, title='Item Distribution by Location')", "compilation_passed": true, "time": 0.24978113174438477, "tests_passed": true, "error": null}
+{"code": " item_count_df.plot.bar(stacked=True)", "compilation_passed": true, "time": 0.2567939758300781, "tests_passed": true, "error": null}
+{"code": " item_count_df.plot.bar(stacked=True, title='Item Distribution by Location')", "compilation_passed": true, "time": 0.24669623374938965, "tests_passed": true, "error": null}
+{"code": " item_count_df.loc[locations, items].plot(kind='bar', figsize=(15, 5), rot=0)", "compilation_passed": true, "time": 0.26483869552612305, "tests_passed": true, "error": null}
+{"code": " item_count_df.plot(kind='bar')", "compilation_passed": true, "time": 0.25017428398132324, "tests_passed": true, "error": null}
+{"code": " item_count_df.apply(pd.value_counts).plot(kind='bar', rot=27, figsize=(10, 5), title='Item Distribution by Location')", "compilation_passed": true, "time": 0.25624704360961914, "tests_passed": true, "error": null}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.015410900115966797, "tests_passed": true, "error": null}
+{"code": " item_count_df.plot.barh(width='Count', title='Item Distribution by Location')", "compilation_passed": true, "time": 0.05048513412475586, "tests_passed": false, "error": "TypeError"}
+{"code": " item_count_df.plot.bar(y=items, figsize=(12, 6))", "compilation_passed": true, "time": 0.2600369453430176, "tests_passed": true, "error": null}
+{"code": " item_count_df[items].plot.bar(rot=0)", "compilation_passed": true, "time": 0.2512328624725342, "tests_passed": true, "error": null}
+{"code": " item_count_df.apply(pd.Series.cumsum).stack().plot.bar(stacked=True)", "compilation_passed": true, "time": 0.11062097549438477, "tests_passed": true, "error": null}
+{"code": " item_count_df.plot.barh(stacked=True, title='Item Distribution by Location')", "compilation_passed": true, "time": 0.2824559211730957, "tests_passed": true, "error": null}
+{"code": " item_count_df.plot(kind='bar', figsize=(10, 7), rot=90)", "compilation_passed": true, "time": 0.26241207122802734, "tests_passed": true, "error": null}
+{"code": " item_count_df.plot(kind='bar', stacked=True, subplots=True, figsize=(20, 20))", "compilation_passed": true, "time": 0.0852658748626709, "tests_passed": false, "error": "AttributeError"}
+{"code": " item_count_df.plot(kind='barh', stacked=True, subplots=False, sharex=True)", "compilation_passed": true, "time": 0.2636301517486572, "tests_passed": true, "error": null}
+{"code": " item_count_df[items].plot(kind='bar', stacked=True, rot=0)", "compilation_passed": true, "time": 0.2671239376068115, "tests_passed": true, "error": null}
+{"code": " item_count_df.plot.bar()", "compilation_passed": true, "time": 0.2549870014190674, "tests_passed": true, "error": null}
+{"code": " item_count_df.plot(kind='barh', y='count', figsize=(12, 7), title='Item Distribution by Location', grid=True)", "compilation_passed": true, "time": 0.018927812576293945, "tests_passed": false, "error": "KeyError"}
+{"code": " item_count_df.plot.bar(y=items, rot=0)", "compilation_passed": true, "time": 0.2650167942047119, "tests_passed": true, "error": null}
+{"code": " item_count_df.plot.bar(stacked=True, figsize=(16, 8))", "compilation_passed": true, "time": 0.2673220634460449, "tests_passed": true, "error": null}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.012902259826660156, "tests_passed": true, "error": null}
+{"code": " item_count_df.iloc[locations].loc[items].plot.bar(y=item_count_df.iloc[locations].loc[items].index,", "compilation_passed": false, "time": 0.000408172607421875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " item_count_df.apply(lambda x: x.astype(int), axis=1).sort_index()", "compilation_passed": true, "time": 0.01044917106628418, "tests_passed": false, "error": "AttributeError"}
+{"code": " item_count_df.loc[locations, items].plot(kind='bar')", "compilation_passed": true, "time": 0.27751708030700684, "tests_passed": true, "error": null}

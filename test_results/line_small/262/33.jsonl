@@ -1,0 +1,17 @@
+{"code": " sns.barplot(x=values_counts.keys(), y=values_counts.values(), palette=\"Greens\")", "compilation_passed": true, "time": 0.11705899238586426, "tests_passed": true, "error": null}
+{"code": " sns.distplot(values_counts, hist=False, kde=False, rug=True)", "compilation_passed": true, "time": 0.01959705352783203, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.barplot(list(values_counts.keys()), list(values_counts.values()))", "compilation_passed": true, "time": 0.011578083038330078, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.barplot([key for key, value in values_counts.items()], [value for value in values_counts.values()],", "compilation_passed": false, "time": 0.0001862049102783203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.barplot(x=list(values_counts.keys()), y=list(values_counts.values()))", "compilation_passed": true, "time": 0.08602213859558105, "tests_passed": true, "error": null}
+{"code": " sns.barplot(x=values_counts.keys(), y=values_counts.values())", "compilation_passed": true, "time": 0.08706927299499512, "tests_passed": true, "error": null}
+{"code": " sns.barplot([key for key in values_counts.keys()],", "compilation_passed": false, "time": 0.00017309188842773438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.barplot([val for val in dictionary.values()], [val for val in values_counts.values()], ax=None)", "compilation_passed": true, "time": 0.010890007019042969, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.barplot(values_counts.keys(), values_counts.values())", "compilation_passed": true, "time": 0.014380931854248047, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.barplot(values_counts.keys(), values_counts.values(), palette=\"GnBu_r\", orient=\"v\", ax=None)", "compilation_passed": true, "time": 0.010596990585327148, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.barplot(x=list(values_counts.keys()), y=list(values_counts.values()), ci=None)", "compilation_passed": true, "time": 0.08164310455322266, "tests_passed": true, "error": null}
+{"code": " plt.bar(values_counts.keys(), values_counts.values(), width=0.5, color='g')", "compilation_passed": true, "time": 0.009867191314697266, "tests_passed": true, "error": null}
+{"code": " sns.distplot(values_counts.keys(),", "compilation_passed": false, "time": 0.00015592575073242188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.barplot(values_counts.keys(), values_counts.values(), alpha=0.4)", "compilation_passed": true, "time": 0.010720968246459961, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.0024089813232421875, "tests_passed": true, "error": null}
+{"code": " plt.bar(values_counts.keys(), values_counts.values())", "compilation_passed": true, "time": 0.009811878204345703, "tests_passed": true, "error": null}
+{"code": " sns.barplot([i for i in values_counts], [v for v in values_counts.values()])", "compilation_passed": true, "time": 0.012891054153442383, "tests_passed": false, "error": "TypeError"}

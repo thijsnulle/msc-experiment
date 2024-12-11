@@ -1,0 +1,12 @@
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.09854602813720703, "tests_passed": true, "error": null}
+{"code": " plt.bar(", "compilation_passed": false, "time": 0.0004050731658935547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.09756922721862793, "tests_passed": true, "error": null}
+{"code": " plt.bar(city_population.keys(), city_population.values())", "compilation_passed": true, "time": 0.2774498462677002, "tests_passed": true, "error": null}
+{"code": " plt.subplot(1, 1, 1)", "compilation_passed": true, "time": 0.10534906387329102, "tests_passed": true, "error": null}
+{"code": " plt.bar(range(len(city_population)), list(city_population.values()),", "compilation_passed": false, "time": 0.00032806396484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.09876680374145508, "tests_passed": true, "error": null}
+{"code": " plt.bar(range(len(city_population)), [value for _, value in city_population.items()], color='r')", "compilation_passed": true, "time": 0.2818260192871094, "tests_passed": true, "error": null}
+{"code": " plt.bar(range(len(city_population)), city_population.values(), width=0.8, align='center')", "compilation_passed": true, "time": 0.2814929485321045, "tests_passed": true, "error": null}
+{"code": " plt.bar(city_population.keys(), city_population.values(), width=0.8)", "compilation_passed": true, "time": 0.2859940528869629, "tests_passed": true, "error": null}
+{"code": " plt.bar(range(len(city_population)), list(city_population.values()), align='center')", "compilation_passed": true, "time": 0.3028600215911865, "tests_passed": true, "error": null}
+{"code": " plt.bar(range(len(city_population)), city_population.values(), 0.4, align='center')", "compilation_passed": true, "time": 0.3061642646789551, "tests_passed": true, "error": null}

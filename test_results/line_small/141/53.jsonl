@@ -1,0 +1,9 @@
+{"code": " not isinstance(rows, int) or rows <= 0:", "compilation_passed": true, "time": 0.006669044494628906, "tests_passed": true, "error": null}
+{"code": " not isinstance(rows, int):", "compilation_passed": true, "time": 0.006431102752685547, "tests_passed": true, "error": null}
+{"code": " rows <= 0:", "compilation_passed": true, "time": 0.0100250244140625, "tests_passed": false, "error": "TypeError"}
+{"code": " rows < 1:", "compilation_passed": true, "time": 0.009613037109375, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(seed, int):", "compilation_passed": true, "time": 0.017309904098510742, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " not (isinstance(rows, int) and rows > 0):", "compilation_passed": true, "time": 0.005315065383911133, "tests_passed": true, "error": null}
+{"code": " not isinstance(rows, int) or rows <= 0 or rows < 1:", "compilation_passed": true, "time": 0.005320310592651367, "tests_passed": true, "error": null}
+{"code": " type(rows) != int or rows < 0 or rows > 100:", "compilation_passed": true, "time": 0.0059871673583984375, "tests_passed": true, "error": null}
+{"code": " not (isinstance(seed, int) and seed > 0):", "compilation_passed": true, "time": 0.019243955612182617, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}

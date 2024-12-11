@@ -1,0 +1,15 @@
+{"code": " not (isinstance(rows, int) and isinstance(columns, int)):", "compilation_passed": true, "time": 0.003720998764038086, "tests_passed": true, "error": null}
+{"code": " not isinstance(start_date, datetime):", "compilation_passed": true, "time": 0.0022192001342773438, "tests_passed": true, "error": null}
+{"code": " not isinstance(start_date, np.datetime64) or not isinstance(end_date, np.datetime64):", "compilation_passed": true, "time": 0.0021619796752929688, "tests_passed": true, "error": null}
+{"code": " not isinstance(start_date, np.datetime64):", "compilation_passed": true, "time": 0.0023162364959716797, "tests_passed": true, "error": null}
+{"code": " start_date is None:", "compilation_passed": true, "time": 0.0022101402282714844, "tests_passed": true, "error": null}
+{"code": " isinstance(start_date, datetime):", "compilation_passed": true, "time": 0.0022830963134765625, "tests_passed": true, "error": null}
+{"code": " seed != 0:", "compilation_passed": true, "time": 0.002179861068725586, "tests_passed": true, "error": null}
+{"code": " start_date > end_date:", "compilation_passed": true, "time": 0.0035393238067626953, "tests_passed": true, "error": null}
+{"code": " type(start_date) != datetime:", "compilation_passed": true, "time": 0.002310037612915039, "tests_passed": true, "error": null}
+{"code": " not (type(start_date) is np.datetime64 and type(end_date) is np.datetime64):", "compilation_passed": true, "time": 0.002270936965942383, "tests_passed": true, "error": null}
+{"code": " seed:", "compilation_passed": true, "time": 0.002156972885131836, "tests_passed": true, "error": null}
+{"code": " start_date.tzinfo is None:", "compilation_passed": true, "time": 0.0021331310272216797, "tests_passed": true, "error": null}
+{"code": " start_date is not None and not isinstance(start_date, datetime):", "compilation_passed": true, "time": 0.0021660327911376953, "tests_passed": true, "error": null}
+{"code": " (start_date.year < 1000) or (end_date.year < 1000):", "compilation_passed": true, "time": 0.00209808349609375, "tests_passed": true, "error": null}
+{"code": " type(start_date) is datetime:", "compilation_passed": true, "time": 0.0019462108612060547, "tests_passed": true, "error": null}

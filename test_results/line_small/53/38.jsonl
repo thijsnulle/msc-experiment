@@ -1,0 +1,8 @@
+{"code": " re.compile(", "compilation_passed": false, "time": 0.00019407272338867188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " r\"Name: (.*?), Email: (.*?), Age: (.*?), Country: (.*?)($|\\n)\"", "compilation_passed": true, "time": 0.06541585922241211, "tests_passed": true, "error": null}
+{"code": " \"Name: (.*?), Email: (.*?), Age: (.*?), Country: (.*?)($|\\n)\"", "compilation_passed": true, "time": 0.06857705116271973, "tests_passed": true, "error": null}
+{"code": " re.compile(\"Name: (.*?), Email: (.*?), Age: (.*?), Country: (.*?)\")", "compilation_passed": true, "time": 0.010092973709106445, "tests_passed": false, "error": "ValueError"}
+{"code": " re.compile(\"Name: (.*?), Email: (.*?), Age: (.*?), Country: (.*?)($|\\n)\")", "compilation_passed": true, "time": 0.06536006927490234, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"Name: (.*?), Email: (.*?), Age: (.*?), Country: (.*?)($|\\n)\")", "compilation_passed": true, "time": 0.06713986396789551, "tests_passed": true, "error": null}
+{"code": " r\"Name: (.*?), Email: (.*?), Age: (.*?), Country: (.*?)(?=\\n)\"", "compilation_passed": true, "time": 0.025504112243652344, "tests_passed": false, "error": "ValueError"}
+{"code": " re.compile(r\"Name: (.*?), Email: (.*?), Age: (.*?), Country: (.*?)(?:$|\\n)\")", "compilation_passed": true, "time": 0.012655973434448242, "tests_passed": false, "error": "ValueError"}

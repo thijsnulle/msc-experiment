@@ -1,0 +1,13 @@
+{"code": "pie(", "compilation_passed": false, "time": 0.0003299713134765625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pie(df.Age.value_counts().sort_index(), labels=COLUMNS)", "compilation_passed": true, "time": 0.021493911743164062, "tests_passed": false, "error": "ValueError"}
+{"code": "pie(result.values(), labels=result.keys(), autopct=\"%.2f%%\")", "compilation_passed": true, "time": 0.06961607933044434, "tests_passed": false, "error": "ValueError"}
+{"code": "pie([result[\"sum\"], result[\"mean\"], result[\"min\"], result[\"max\"]], labels=COLUMNS)", "compilation_passed": true, "time": 0.02165985107421875, "tests_passed": false, "error": "ValueError"}
+{"code": "pie(result.values(), labels=COLUMNS, autopct=\"%1.1f%%\")", "compilation_passed": true, "time": 0.020555973052978516, "tests_passed": false, "error": "ValueError"}
+{"code": "pie(result.values(), labels=[\"Sum\", \"Mean\", \"Min\", \"Max\"], shadow=True)", "compilation_passed": true, "time": 0.09488606452941895, "tests_passed": false, "error": "RuntimeError"}
+{"code": "pie(result.values(), labels=result.keys())", "compilation_passed": true, "time": 0.07297897338867188, "tests_passed": false, "error": "ValueError"}
+{"code": "pie(column_data, labels=COLUMNS, autopct=\"%1.1f%%\")", "compilation_passed": true, "time": 0.021121978759765625, "tests_passed": false, "error": "ValueError"}
+{"code": "pie(result.values(), labels=result.keys(), autopct=\"%0.2f%%\")", "compilation_passed": true, "time": 0.06824707984924316, "tests_passed": false, "error": "ValueError"}
+{"code": "pie(column_data, autopct=\"%0.1f%%\", colors=[\"#7FFFD4\", \"#F48025\", \"#FFD700\"])", "compilation_passed": true, "time": 0.09651303291320801, "tests_passed": true, "error": null}
+{"code": "pie(result.values(), labels=COLUMNS)", "compilation_passed": true, "time": 0.018552780151367188, "tests_passed": false, "error": "ValueError"}
+{"code": "pie(result.values(), labels=result.keys(), autopct=\"%1.1f%%\")", "compilation_passed": true, "time": 0.06832504272460938, "tests_passed": false, "error": "ValueError"}
+{"code": "pie([result[\"sum\"], result[\"mean\"], result[\"min\"], result[\"max\"]], labels=[\"Sum\", \"Mean\", \"Min\", \"Max\"])", "compilation_passed": true, "time": 0.06570196151733398, "tests_passed": false, "error": "ValueError"}

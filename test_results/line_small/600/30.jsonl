@@ -1,0 +1,25 @@
+{"code": " fr\"^{letter.lower()}\\w+\"", "compilation_passed": true, "time": 0.03379416465759277, "tests_passed": true, "error": null}
+{"code": " '^' + letter", "compilation_passed": true, "time": 0.03569674491882324, "tests_passed": true, "error": null}
+{"code": " re.compile(rf\"{letter}[\\w]*\")", "compilation_passed": true, "time": 0.014090299606323242, "tests_passed": false, "error": "NameError"}
+{"code": " fr'^{letter}.*'", "compilation_passed": true, "time": 0.03692007064819336, "tests_passed": true, "error": null}
+{"code": " f'^{letter}'", "compilation_passed": true, "time": 0.03847908973693848, "tests_passed": true, "error": null}
+{"code": " '^' + letter + '.*'", "compilation_passed": true, "time": 0.03550839424133301, "tests_passed": true, "error": null}
+{"code": " letter + r'\\w+'", "compilation_passed": true, "time": 0.03758382797241211, "tests_passed": true, "error": null}
+{"code": " rf\"\\b{letter}\"", "compilation_passed": true, "time": 0.03661394119262695, "tests_passed": true, "error": null}
+{"code": " r\"^\" + letter", "compilation_passed": true, "time": 0.03509783744812012, "tests_passed": true, "error": null}
+{"code": " rf\"^[a-zA-Z]*?({letter})\"", "compilation_passed": true, "time": 0.036171913146972656, "tests_passed": true, "error": null}
+{"code": " r'%s.' % letter", "compilation_passed": true, "time": 0.03526186943054199, "tests_passed": true, "error": null}
+{"code": " '^'+letter+''", "compilation_passed": true, "time": 0.03464078903198242, "tests_passed": true, "error": null}
+{"code": " r'^%s.*' % letter", "compilation_passed": true, "time": 0.036685943603515625, "tests_passed": true, "error": null}
+{"code": " re.compile(letter+'[a-z]*')", "compilation_passed": true, "time": 0.014681100845336914, "tests_passed": false, "error": "NameError"}
+{"code": " \"^\" + letter", "compilation_passed": true, "time": 0.03896379470825195, "tests_passed": true, "error": null}
+{"code": " f\"^{letter}\"", "compilation_passed": true, "time": 0.03661489486694336, "tests_passed": true, "error": null}
+{"code": " fr\"^({letter})\"", "compilation_passed": true, "time": 0.037020206451416016, "tests_passed": true, "error": null}
+{"code": " re.compile(letter.lower() + r'[\\w]+')", "compilation_passed": true, "time": 0.013556957244873047, "tests_passed": false, "error": "NameError"}
+{"code": " '^' + letter.lower()", "compilation_passed": true, "time": 0.03436613082885742, "tests_passed": true, "error": null}
+{"code": " fr\"^{letter}\"", "compilation_passed": true, "time": 0.03462409973144531, "tests_passed": true, "error": null}
+{"code": " fr\"^\\{letter}\"", "compilation_passed": true, "time": 0.015638113021850586, "tests_passed": false, "error": "IndexError"}
+{"code": " fr'^({letter}).+'", "compilation_passed": true, "time": 0.03400301933288574, "tests_passed": true, "error": null}
+{"code": " r'^{}'.format(letter)", "compilation_passed": true, "time": 0.03672385215759277, "tests_passed": true, "error": null}
+{"code": " fr\"^{letter.lower()}\"", "compilation_passed": true, "time": 0.03278470039367676, "tests_passed": true, "error": null}
+{"code": " re.compile('^' + letter)", "compilation_passed": true, "time": 0.013252019882202148, "tests_passed": false, "error": "NameError"}

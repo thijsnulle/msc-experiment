@@ -1,0 +1,28 @@
+{"code": " subprocess.check_output(", "compilation_passed": false, "time": 0.00032782554626464844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [\"wmic\", \"path\", \"win32_processor\", \"get\", \"%ProcessorName%\", \"/format:json\"]", "compilation_passed": false, "time": 0.0005300045013427734, "tests_passed": false, "error": "IndentationError"}
+{"code": " [\"wmic\", \"cpu\", \"get\", \"%ProcessorTime\", \"/FORMAT:json\"]", "compilation_passed": false, "time": 0.0004928112030029297, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"tasklist\"", "compilation_passed": false, "time": 0.0004100799560546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " subprocess.run([r\"wmic cpu get loadpercentage\"], capture_output=True, timeout=60)", "compilation_passed": false, "time": 0.00043702125549316406, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"WMIC CPU Get %CPU,%Percentage\"", "compilation_passed": false, "time": 0.0004048347473144531, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"tasklist | findstr /V python.exe | findstr /V Python.exe\"", "compilation_passed": false, "time": 0.000408172607421875, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"wmic cpu get loadpercentage\"", "compilation_passed": false, "time": 0.0002617835998535156, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"tasklist /fi \\\"cpuusage% > 0\\\" /fo csv\"", "compilation_passed": false, "time": 0.00041103363037109375, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"tasklist /v /fi 'cpuusage eq 1'\"", "compilation_passed": false, "time": 0.00041484832763671875, "tests_passed": false, "error": "IndentationError"}
+{"code": " ['tasklist', '/fi', 'user%cpu']", "compilation_passed": false, "time": 0.0004551410675048828, "tests_passed": false, "error": "IndentationError"}
+{"code": " ['wmic', 'cpu', 'get', '%', '/Value']", "compilation_passed": false, "time": 0.0004277229309082031, "tests_passed": false, "error": "IndentationError"}
+{"code": " 'wmic cpu get loadpercentage /all'", "compilation_passed": false, "time": 0.00040411949157714844, "tests_passed": false, "error": "IndentationError"}
+{"code": " [\"wmic\", \"cpu\", \"get\", \"PercentageCPU\", \"/FORMAT:csv\"]", "compilation_passed": false, "time": 0.0004200935363769531, "tests_passed": false, "error": "IndentationError"}
+{"code": " ['wmic', 'cpu', 'get', '%', '/FORM:list']", "compilation_passed": false, "time": 0.00045108795166015625, "tests_passed": false, "error": "IndentationError"}
+{"code": " [\"tasklist\", \"/fi\", f\"%CPU>={interval}\", \"/fo\", \"json\"]", "compilation_passed": false, "time": 0.0004820823669433594, "tests_passed": false, "error": "IndentationError"}
+{"code": " [\"wmic\", \"cpu\", \"get\", \"%ProcessorTime\"]", "compilation_passed": false, "time": 0.00045013427734375, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"WMIC cpuget get loadpercentage\"", "compilation_passed": false, "time": 0.0004038810729980469, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"wmic cpu get loadPercentage\"", "compilation_passed": false, "time": 0.0004520416259765625, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"WMIC cpu get %cpu\"", "compilation_passed": false, "time": 0.00044798851013183594, "tests_passed": false, "error": "IndentationError"}
+{"code": " subprocess.check_output([\"wmic cpu get LoadPercentage\"]).decode()", "compilation_passed": false, "time": 0.0004138946533203125, "tests_passed": false, "error": "IndentationError"}
+{"code": " [\"wmic\", \"cpu\", \"get\", \"PercentageCPU\"]", "compilation_passed": false, "time": 0.0004417896270751953, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"powershell.exe Get-CpuUsage\"", "compilation_passed": false, "time": 0.00032401084899902344, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"wmic cpu get loadpercentage /value | findstr /C:'.' > {0}\".format(logfile.name)", "compilation_passed": false, "time": 0.0003991127014160156, "tests_passed": false, "error": "IndentationError"}
+{"code": " 'powershell -NoProfile -ExecutionPolicy RemoteSigned -Command \"Get-Cpu | Select usagepercentage, time\"'", "compilation_passed": false, "time": 0.0003750324249267578, "tests_passed": false, "error": "IndentationError"}
+{"code": " 'for /l %%i in (0,1,20) do tasklist /cpu 1 | find /i \"python.exe\"'", "compilation_passed": false, "time": 0.00041103363037109375, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"WMIC CPU GET %processor_usage\"", "compilation_passed": false, "time": 0.00039386749267578125, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"wmic cpu get \" \\", "compilation_passed": false, "time": 0.00041413307189941406, "tests_passed": false, "error": "IndentationError"}

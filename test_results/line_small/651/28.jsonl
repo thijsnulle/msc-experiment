@@ -1,0 +1,15 @@
+{"code": " pd.DataFrame(df, dtype=str)", "compilation_passed": true, "time": 0.037938833236694336, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df)", "compilation_passed": true, "time": 0.03758692741394043, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(df, orient='columns')", "compilation_passed": true, "time": 0.03853797912597656, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df['Name'])", "compilation_passed": true, "time": 0.004937887191772461, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame([[int(df[\"Column1\"][i]) if df[\"Column1\"][i].isnumeric() else df[\"Column1\"][i]] for i in range(len(df[\"Column1\"]))])", "compilation_passed": true, "time": 0.011120796203613281, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame.from_dict(df)", "compilation_passed": true, "time": 0.03739118576049805, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(df, orient='index')", "compilation_passed": true, "time": 0.013445854187011719, "tests_passed": false, "error": "KeyError"}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.00490117073059082, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(df, columns=['name'])", "compilation_passed": true, "time": 0.01300191879272461, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(df).fillna(value='')", "compilation_passed": true, "time": 0.04001617431640625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([df])", "compilation_passed": true, "time": 0.013000011444091797, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df).astype(str)", "compilation_passed": true, "time": 0.03892993927001953, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(df).astype(str)", "compilation_passed": true, "time": 0.03845500946044922, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df).applymap(lambda x: str(x))", "compilation_passed": true, "time": 0.04093217849731445, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(df, orient=\"index\").astype(\"str\")", "compilation_passed": true, "time": 0.01460886001586914, "tests_passed": false, "error": "KeyError"}

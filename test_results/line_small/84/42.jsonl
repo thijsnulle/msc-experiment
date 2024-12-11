@@ -1,0 +1,16 @@
+{"code": " not isinstance(products, list):", "compilation_passed": true, "time": 0.016945838928222656, "tests_passed": true, "error": null}
+{"code": " not isinstance(products, list) or not all(isinstance(item, str) for item in products):", "compilation_passed": true, "time": 0.02259993553161621, "tests_passed": true, "error": null}
+{"code": " not isinstance(products, list) or any(not isinstance(product, str) for product in products):", "compilation_passed": true, "time": 0.020659923553466797, "tests_passed": true, "error": null}
+{"code": " not n_samples:", "compilation_passed": true, "time": 0.01600193977355957, "tests_passed": true, "error": null}
+{"code": " not isinstance(n_samples, int) or n_samples <= 0:", "compilation_passed": true, "time": 0.01580190658569336, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(products, list) or not all(isinstance(product, str) for product in products):", "compilation_passed": true, "time": 0.02248406410217285, "tests_passed": true, "error": null}
+{"code": " not isinstance(products, list) or not all(isinstance(name, str) for name in products):", "compilation_passed": true, "time": 0.02275824546813965, "tests_passed": true, "error": null}
+{"code": " not (isinstance(products, list) and all(isinstance(product, str) for product in products)):", "compilation_passed": true, "time": 0.023543834686279297, "tests_passed": true, "error": null}
+{"code": " not isinstance(products, list) or not all(isinstance(p, str) for p in products):", "compilation_passed": true, "time": 0.022882938385009766, "tests_passed": true, "error": null}
+{"code": " n_samples <= 0:", "compilation_passed": true, "time": 0.01637411117553711, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(products, list) and all(isinstance(product, str) for product in products):", "compilation_passed": true, "time": 0.0166928768157959, "tests_passed": false, "error": "TypeError"}
+{"code": " not (isinstance(n_samples, int) and n_samples > 0):", "compilation_passed": true, "time": 0.023231983184814453, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(products, list) or not all([isinstance(product, str) for product in products]):", "compilation_passed": true, "time": 0.02266383171081543, "tests_passed": true, "error": null}
+{"code": " not isinstance(products, list) or any([not isinstance(product, str) for product in products]):", "compilation_passed": true, "time": 0.020666122436523438, "tests_passed": true, "error": null}
+{"code": " not isinstance(products, (list, tuple, np.ndarray)):", "compilation_passed": true, "time": 0.01656198501586914, "tests_passed": true, "error": null}
+{"code": " isinstance(products, list) and all(isinstance(p, str) for p in products):", "compilation_passed": true, "time": 0.011918067932128906, "tests_passed": false, "error": "TypeError"}

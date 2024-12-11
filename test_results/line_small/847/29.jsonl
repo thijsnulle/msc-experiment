@@ -1,0 +1,12 @@
+{"code": " line.strip()", "compilation_passed": true, "time": 0.008757829666137695, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s]\", \"\", line) # Remove special characters", "compilation_passed": true, "time": 0.0064067840576171875, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z0-9]', '', line)", "compilation_passed": true, "time": 0.0065631866455078125, "tests_passed": true, "error": null}
+{"code": " re.sub('\\W+', '', line)  # Remove special characters from each line", "compilation_passed": true, "time": 0.006407022476196289, "tests_passed": true, "error": null}
+{"code": " re.sub('[^\\w\\s]', '', line)", "compilation_passed": true, "time": 0.005370140075683594, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^A-Za-z0-9 \\n]', '', line)", "compilation_passed": true, "time": 0.006201982498168945, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w]', '', line)", "compilation_passed": true, "time": 0.00681304931640625, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z]', '', line)", "compilation_passed": true, "time": 0.006073951721191406, "tests_passed": true, "error": null}
+{"code": " re.sub('[^0-9a-zA-Z]', '', line)", "compilation_passed": true, "time": 0.007009983062744141, "tests_passed": true, "error": null}
+{"code": " re.sub('[^0-9a-zA-Z ]+', '', line)  # Remove special characters, digits, and white space", "compilation_passed": true, "time": 0.005858182907104492, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z]+', '', line)", "compilation_passed": true, "time": 0.006154060363769531, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^A-Za-z0-9 ]+', '', line)", "compilation_passed": true, "time": 0.0059680938720703125, "tests_passed": true, "error": null}

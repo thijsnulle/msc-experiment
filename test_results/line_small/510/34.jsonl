@@ -1,0 +1,15 @@
+{"code": " list(diff)", "compilation_passed": true, "time": 0.009469985961914062, "tests_passed": true, "error": null}
+{"code": " \"\\n\".join(diff)", "compilation_passed": true, "time": 0.009779930114746094, "tests_passed": true, "error": null}
+{"code": " [line.strip() for line in diff if line.strip()]", "compilation_passed": true, "time": 0.009029150009155273, "tests_passed": true, "error": null}
+{"code": " ''.join(diff)", "compilation_passed": true, "time": 0.009012937545776367, "tests_passed": true, "error": null}
+{"code": " list(filter(lambda diff: diff.strip(), diff))", "compilation_passed": true, "time": 0.009348869323730469, "tests_passed": true, "error": null}
+{"code": " [line for line in diff if line[0] in [\" \", \"+\"]]", "compilation_passed": true, "time": 0.009201288223266602, "tests_passed": true, "error": null}
+{"code": " list(filter(lambda x: x != '? ', diff))", "compilation_passed": true, "time": 0.009562969207763672, "tests_passed": true, "error": null}
+{"code": " [line for line in diff if line.startswith('+') or line.startswith('-')]", "compilation_passed": true, "time": 0.005366086959838867, "tests_passed": true, "error": null}
+{"code": " [line for line in diff if line[0] != '?']", "compilation_passed": true, "time": 0.009563922882080078, "tests_passed": true, "error": null}
+{"code": " [x for x in diff if x.strip() != '']", "compilation_passed": true, "time": 0.009479999542236328, "tests_passed": true, "error": null}
+{"code": " [line for line in diff if not line.startswith(('?', '+', '-', ' '))]", "compilation_passed": true, "time": 0.013392925262451172, "tests_passed": true, "error": null}
+{"code": " ''.join(diff).strip()", "compilation_passed": true, "time": 0.009937763214111328, "tests_passed": true, "error": null}
+{"code": " list(filter(lambda x: x[0] != ' ', diff))", "compilation_passed": true, "time": 0.005893707275390625, "tests_passed": true, "error": null}
+{"code": " [line for line in diff if line.strip()]", "compilation_passed": true, "time": 0.009634971618652344, "tests_passed": true, "error": null}
+{"code": " [line for line in diff if not line.startswith(' ')]", "compilation_passed": true, "time": 0.006031990051269531, "tests_passed": true, "error": null}

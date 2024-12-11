@@ -1,0 +1,8 @@
+{"code": " choices(LETTERS, k=max_cols)", "compilation_passed": true, "time": 0.04422712326049805, "tests_passed": true, "error": null}
+{"code": " choices(LETTERS[:max_cols], k=max_cols)", "compilation_passed": true, "time": 0.014544248580932617, "tests_passed": true, "error": null}
+{"code": " [''.join(choices(LETTERS, k=max_cols)) for _ in range(max_cols)]", "compilation_passed": true, "time": 0.010077953338623047, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0075550079345703125, "tests_passed": false, "error": "ValueError"}
+{"code": " choices(LETTERS[:max_cols], k=len(L[0]))", "compilation_passed": true, "time": 0.013370990753173828, "tests_passed": true, "error": null}
+{"code": " [''.join(choices(LETTERS, k=4)) for _ in range(max_cols)]", "compilation_passed": true, "time": 0.013547182083129883, "tests_passed": true, "error": null}
+{"code": " [choices(LETTERS, k=max_cols) for i in range(len(L))]", "compilation_passed": true, "time": 0.0293581485748291, "tests_passed": true, "error": null}
+{"code": " choices(LETTERS[:max_cols], k=3)", "compilation_passed": true, "time": 0.01367807388305664, "tests_passed": true, "error": null}

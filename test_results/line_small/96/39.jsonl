@@ -1,0 +1,5 @@
+{"code": "extend([w.strip() for w in row])", "compilation_passed": true, "time": 0.01856684684753418, "tests_passed": true, "error": null}
+{"code": "extend(row)", "compilation_passed": true, "time": 0.0175931453704834, "tests_passed": true, "error": null}
+{"code": "append(row[0])", "compilation_passed": true, "time": 0.006241798400878906, "tests_passed": true, "error": null}
+{"code": "append(row)", "compilation_passed": true, "time": 0.010684013366699219, "tests_passed": false, "error": "TypeError"}
+{"code": "extend([word for word in row if word])", "compilation_passed": true, "time": 0.017077922821044922, "tests_passed": true, "error": null}

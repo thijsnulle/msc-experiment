@@ -1,0 +1,22 @@
+{"code": " df[TARGET].plot.hist()", "compilation_passed": true, "time": 0.0566868782043457, "tests_passed": true, "error": null}
+{"code": " df[TARGET].plot(kind='hist', title='Distribution of Target', figsize=(10, 5), grid=True, fontsize=8)", "compilation_passed": true, "time": 0.06922030448913574, "tests_passed": true, "error": null}
+{"code": " df[TARGET].hist(bins=50)", "compilation_passed": true, "time": 0.07542681694030762, "tests_passed": true, "error": null}
+{"code": " df[TARGET].hist()", "compilation_passed": true, "time": 0.047306060791015625, "tests_passed": true, "error": null}
+{"code": " df[TARGET].plot(kind='hist', title='Target variable histogram')", "compilation_passed": true, "time": 0.060166120529174805, "tests_passed": true, "error": null}
+{"code": " df[TARGET].plot(kind='hist', title='Target Distribution', bins=10, figsize=(8, 4))", "compilation_passed": true, "time": 0.05843710899353027, "tests_passed": true, "error": null}
+{"code": " df.plot.hist(x=TARGET)", "compilation_passed": true, "time": 0.08292388916015625, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='hist', title='Histogram of Target', rot=90)", "compilation_passed": true, "time": 0.09377193450927734, "tests_passed": true, "error": null}
+{"code": " df.groupby(TARGET).plot.hist(alpha=0.6, legend=True, figsize=(16, 4))", "compilation_passed": true, "time": 0.1762251853942871, "tests_passed": true, "error": null}
+{"code": " df.plot.hist(bins=20, subplots=True, layout=(1, 5), figsize=(20, 5))", "compilation_passed": true, "time": 0.060717105865478516, "tests_passed": false, "error": "ValueError"}
+{"code": " df[TARGET].plot(kind='hist')", "compilation_passed": true, "time": 0.059342145919799805, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='hist', figsize=(20, 5), subplots=True, layout=(5, 3), sharex=True)", "compilation_passed": true, "time": 0.311812162399292, "tests_passed": true, "error": null}
+{"code": " df[TARGET].plot.hist(bins=20, ec='black')", "compilation_passed": true, "time": 0.06732416152954102, "tests_passed": true, "error": null}
+{"code": " df[TARGET].plot.hist(bins=20)", "compilation_passed": true, "time": 0.06571006774902344, "tests_passed": true, "error": null}
+{"code": " df[TARGET].hist(bins=5)", "compilation_passed": true, "time": 0.04919910430908203, "tests_passed": true, "error": null}
+{"code": " df[TARGET].plot(kind='hist', title='Histogram of Target', figsize=(5, 3))", "compilation_passed": true, "time": 0.05752086639404297, "tests_passed": true, "error": null}
+{"code": " df[TARGET].hist(bins=10, alpha=0.5)", "compilation_passed": true, "time": 0.05082511901855469, "tests_passed": true, "error": null}
+{"code": " df[TARGET].hist(bins=20)", "compilation_passed": true, "time": 0.057927846908569336, "tests_passed": true, "error": null}
+{"code": " df[TARGET].hist(bins=20, figsize=(16, 8))", "compilation_passed": true, "time": 0.054181814193725586, "tests_passed": true, "error": null}
+{"code": " df[TARGET].hist(bins=10, figsize=(10, 5))", "compilation_passed": true, "time": 0.048480987548828125, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"hist\", bins=50)", "compilation_passed": true, "time": 0.22365808486938477, "tests_passed": true, "error": null}
+{"code": " df[TARGET].plot.hist(bins=20, edgecolor='black')", "compilation_passed": true, "time": 0.06481218338012695, "tests_passed": true, "error": null}

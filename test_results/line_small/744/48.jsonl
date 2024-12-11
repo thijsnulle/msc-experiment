@@ -1,0 +1,17 @@
+{"code": " pd.Series(dollar_words).value_counts()", "compilation_passed": true, "time": 0.008580923080444336, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=[[word, words.count(word)] for word in set(dollar_words)], columns=['Word', 'Frequency'])", "compilation_passed": true, "time": 0.008634090423583984, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.012096881866455078, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=[dollar_words], index=[\"$dollar\"])", "compilation_passed": true, "time": 0.008507966995239258, "tests_passed": true, "error": null}
+{"code": " pd.Series(words).value_counts()", "compilation_passed": true, "time": 0.007559061050415039, "tests_passed": true, "error": null}
+{"code": " Counter(dollar_words)", "compilation_passed": true, "time": 0.010525226593017578, "tests_passed": false, "error": "NameError"}
+{"code": " nltk.FreqDist(dollar_words)", "compilation_passed": true, "time": 0.005959987640380859, "tests_passed": true, "error": null}
+{"code": " [words.count(word) for word in dollar_words]", "compilation_passed": true, "time": 0.014618873596191406, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.008344173431396484, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(dollar_words).groupby(0, as_index=False).size().reset_index(name='Frequency')", "compilation_passed": true, "time": 0.013555049896240234, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(list(set(dollar_words)))", "compilation_passed": true, "time": 0.007813692092895508, "tests_passed": true, "error": null}
+{"code": " [text.count(word) for word in dollar_words]", "compilation_passed": true, "time": 0.011203765869140625, "tests_passed": false, "error": "AttributeError"}
+{"code": " [dollar_words.count(word) for word in set(dollar_words)]", "compilation_passed": true, "time": 0.011167287826538086, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series(dollar_words).value_counts().to_frame(\"Frequency\")", "compilation_passed": true, "time": 0.007844209671020508, "tests_passed": true, "error": null}
+{"code": " [words.count(w) for w in dollar_words]", "compilation_passed": true, "time": 0.011138916015625, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series(list(map(lambda x: x.count('$'), dollar_words)), index=dollar_words).to_frame(\"Frequency\").reset_index(drop=False).set_columns(['Word'])", "compilation_passed": true, "time": 0.011265039443969727, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series(dollar_words).value_counts().reset_index(name='Frequency').set_index(\"Word\")", "compilation_passed": true, "time": 0.011626958847045898, "tests_passed": false, "error": "KeyError"}

@@ -1,0 +1,8 @@
+{"code": " np.asarray(vectorizer.get_feature_names())", "compilation_passed": false, "time": 0.0003581047058105469, "tests_passed": false, "error": "IndentationError"}
+{"code": " vectorizer.get_feature_names()", "compilation_passed": false, "time": 0.0006310939788818359, "tests_passed": false, "error": "IndentationError"}
+{"code": " vectorizer.get_feature_names_out()", "compilation_passed": false, "time": 0.00028634071350097656, "tests_passed": false, "error": "IndentationError"}
+{"code": " [str(vectorizer.get_feature_names_out()[i]) for i in range(len(vectorizer.get_feature_names_out()))]", "compilation_passed": false, "time": 0.00032210350036621094, "tests_passed": false, "error": "IndentationError"}
+{"code": " [\" \".join(row.features) for row in X]", "compilation_passed": false, "time": 0.0003151893615722656, "tests_passed": false, "error": "IndentationError"}
+{"code": " [feature_names for feature_names, value in vectorizer.vocabulary_.items()]", "compilation_passed": false, "time": 0.00030803680419921875, "tests_passed": false, "error": "IndentationError"}
+{"code": " [f\"{i}_{j}\" for i, row in enumerate(vectorizer.get_feature_names_out()) for j in range(n)]", "compilation_passed": false, "time": 0.0005099773406982422, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.array(vectorizer.get_feature_names())", "compilation_passed": false, "time": 0.00036406517028808594, "tests_passed": false, "error": "IndentationError"}

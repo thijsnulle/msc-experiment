@@ -1,0 +1,22 @@
+{"code": " []", "compilation_passed": true, "time": 0.01730203628540039, "tests_passed": false, "error": "AttributeError"}
+{"code": " {LABELS[i]: [randint(*integer_range) for _ in range(randint(1, 10))] for i in range(num_types)}", "compilation_passed": true, "time": 0.015662670135498047, "tests_passed": false, "error": "AttributeError"}
+{"code": " [randint(integer_range[0], integer_range[1]) for _ in range(num_types)]", "compilation_passed": true, "time": 0.015243053436279297, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.016543865203857422, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({\"Type\": [randint(0, integer_range[1]) for _ in range(num_types)]})", "compilation_passed": true, "time": 0.028026103973388672, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(index=range(randint(0, integer_range[1] - integer_range[0])), data=dict(Type=LABELS))", "compilation_passed": true, "time": 0.007724761962890625, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Type': range(num_types)}, index=pd.range(num_types))", "compilation_passed": true, "time": 0.006950855255126953, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.016685009002685547, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(index=LABELS, columns=[i for i in range(10)])", "compilation_passed": true, "time": 0.05617213249206543, "tests_passed": true, "error": null}
+{"code": " [randint(*integer_range) for _ in range(num_types)]", "compilation_passed": true, "time": 0.015933752059936523, "tests_passed": false, "error": "AttributeError"}
+{"code": " [", "compilation_passed": false, "time": 0.0001380443572998047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.Series([randint(integer_range[0], integer_range[1]) for i in range(num_types)], index=LABELS).sort_values(ascending=False)", "compilation_passed": true, "time": 0.025751113891601562, "tests_passed": true, "error": null}
+{"code": " pd.Series(randint(*integer_range) for _ in range(num_types * 100)).value_counts().sort_index()", "compilation_passed": true, "time": 0.1708989143371582, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.00016617774963378906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {LABELS[i]: [randint(*integer_range) for _ in range(randint(*integer_range))] for i in range(num_types)}", "compilation_passed": true, "time": 0.01505422592163086, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series({'value': [randint(*integer_range) for _ in range(num_types)]})", "compilation_passed": true, "time": 0.017277240753173828, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00016617774963378906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {label: [randint(integer_range[0], integer_range[1]) for _ in range(10)]", "compilation_passed": false, "time": 0.00034880638122558594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'value': [randint(*integer_range) for i in range(num_types)] for j in range(integer_range[1] - integer_range[0] + 1)})", "compilation_passed": true, "time": 0.028272151947021484, "tests_passed": true, "error": null}
+{"code": " pd.Series(randint(integer_range[0], integer_range[1]) for i in range(num_types))", "compilation_passed": true, "time": 0.024905920028686523, "tests_passed": true, "error": null}
+{"code": " {label: randint(*integer_range) for label in LABELS}", "compilation_passed": true, "time": 0.016676902770996094, "tests_passed": false, "error": "AttributeError"}
+{"code": " [randint(integer_range[0], integer_range[1]) for i in range(num_types)]", "compilation_passed": true, "time": 0.01643991470336914, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,23 @@
+{"code": " df.select_dtypes(include=[int, float])", "compilation_passed": true, "time": 0.30267810821533203, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=np.number).columns", "compilation_passed": true, "time": 0.24642109870910645, "tests_passed": true, "error": null}
+{"code": " [col for col in df.columns if df[col].dtypes.name in [\"float64\", \"int64\"]]", "compilation_passed": true, "time": 0.013519048690795898, "tests_passed": false, "error": "AttributeError"}
+{"code": " [c for c in df.columns if df[c].dtype in [np.number, np.number]]", "compilation_passed": true, "time": 0.012809991836547852, "tests_passed": false, "error": "AttributeError"}
+{"code": " list(df.select_dtypes(include=np.number).columns)", "compilation_passed": true, "time": 0.012453794479370117, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.select_dtypes(include=[np.number, np.bool_]).columns.tolist()", "compilation_passed": true, "time": 0.029104948043823242, "tests_passed": false, "error": "AttributeError"}
+{"code": " [col for col in df.columns if df[col].dtypes.name in [\"float64\", \"int64\", \"int32\"]]", "compilation_passed": true, "time": 0.03729367256164551, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.select_dtypes(np.number).columns", "compilation_passed": true, "time": 0.3064901828765869, "tests_passed": true, "error": null}
+{"code": " [c for c in df.select_dtypes(include=np.number).columns]", "compilation_passed": true, "time": 0.022356033325195312, "tests_passed": false, "error": "AttributeError"}
+{"code": " [col for col in df.columns if df[col].dtype.kind in 'ifu']", "compilation_passed": true, "time": 0.01746511459350586, "tests_passed": false, "error": "AttributeError"}
+{"code": " [col for col in df.columns if df[col].dtype.kind in \"uifc\"]", "compilation_passed": true, "time": 0.012906074523925781, "tests_passed": false, "error": "AttributeError"}
+{"code": " [col for col in df.columns if df[col].dtypes.name in [\"int64\", \"float64\"]]", "compilation_passed": true, "time": 0.012504816055297852, "tests_passed": false, "error": "AttributeError"}
+{"code": " [col for col in df.select_dtypes(include=[\"number\"])]", "compilation_passed": true, "time": 0.02188706398010254, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.select_dtypes(include=[np.number]).columns", "compilation_passed": true, "time": 0.2492218017578125, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=[np.number])", "compilation_passed": true, "time": 0.23829007148742676, "tests_passed": true, "error": null}
+{"code": " [col for col in df.columns if df[col].dtype.kind in \"ui\"]", "compilation_passed": true, "time": 0.014479875564575195, "tests_passed": false, "error": "AttributeError"}
+{"code": " [c for c in df.columns if df[c].dtypes.name in 'int64 u':'int32 u']", "compilation_passed": false, "time": 0.0007660388946533203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.select_dtypes(include='number')", "compilation_passed": true, "time": 0.24280500411987305, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=['float64', 'int64']).columns.tolist()", "compilation_passed": true, "time": 0.03264880180358887, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.select_dtypes(np.number)", "compilation_passed": true, "time": 0.40996789932250977, "tests_passed": true, "error": null}
+{"code": " [c for c in df.columns if df[c].dtypes.name in ['int64', 'float64']]", "compilation_passed": true, "time": 0.013940095901489258, "tests_passed": false, "error": "AttributeError"}
+{"code": " [c for c in df.columns if df[c].dtypes.name.lower() in ('float', 'int')]", "compilation_passed": true, "time": 0.012691974639892578, "tests_passed": false, "error": "AttributeError"}
+{"code": " [col for col in df.columns if df[col].dtype.kind in \"iuf\"]", "compilation_passed": true, "time": 0.014882087707519531, "tests_passed": false, "error": "AttributeError"}

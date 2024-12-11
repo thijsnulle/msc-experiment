@@ -1,0 +1,5 @@
+{"code": " sum(my_list)", "compilation_passed": true, "time": 0.02238321304321289, "tests_passed": true, "error": null}
+{"code": " len(glob.glob(os.path.join(file_dir, f\"*\" + file_ext)))", "compilation_passed": true, "time": 0.029326200485229492, "tests_passed": true, "error": null}
+{"code": " len(glob.glob(os.path.join(file_dir, '*' + file_ext)))", "compilation_passed": true, "time": 0.027514219284057617, "tests_passed": true, "error": null}
+{"code": " sum([int(file.split('.')[0]) for file in glob.glob(file_dir + '*' + file_ext)])", "compilation_passed": true, "time": 0.031599998474121094, "tests_passed": false, "error": "ValueError"}
+{"code": " len(glob.glob(os.path.join(file_dir, f'*.{file_ext}')))", "compilation_passed": true, "time": 0.030961990356445312, "tests_passed": false, "error": "FileNotFoundError"}

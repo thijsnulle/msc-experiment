@@ -1,0 +1,29 @@
+{"code": "check_output('python%s -c \"import sys;sys.stdout.write(str(sys.version.split()[0]))\"' %", "compilation_passed": false, "time": 0.00020313262939453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "check_output(f'export PATH=$PATH:$PATH_TO_APPEND', shell=True)", "compilation_passed": true, "time": 0.0047190189361572266, "tests_passed": true, "error": null}
+{"code": "run([", "compilation_passed": false, "time": 0.0001342296600341797, "tests_passed": false, "error": "SyntaxError"}
+{"code": "call(['/usr/bin/python{}'.format(python_version), '-c', 'import sys; sys.path.append(\"{}\")'.format(path_to_append)])", "compilation_passed": true, "time": 0.024580955505371094, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "check_call(", "compilation_passed": false, "time": 0.0001800060272216797, "tests_passed": false, "error": "SyntaxError"}
+{"code": "check_call(f\"python3.{python_version} -m pip install virtualenv\")", "compilation_passed": true, "time": 0.022144079208374023, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "run(['sudo', 'sysctl', '-w', 'kern.maxproc=100000'], check=True)", "compilation_passed": true, "time": 0.004786252975463867, "tests_passed": true, "error": null}
+{"code": "call([sys.executable, '-m', 'venv', '.venv', '--system-site-packages'])", "compilation_passed": true, "time": 1.0100698471069336, "tests_passed": false, "error": "TimeoutError"}
+{"code": "call(['/usr/bin/env', 'which', 'python3.8'])", "compilation_passed": true, "time": 0.035803794860839844, "tests_passed": true, "error": null}
+{"code": "run(['which', 'python', python_version], stdout=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.0045588016510009766, "tests_passed": true, "error": null}
+{"code": "check_call([sys.executable, '-m', 'pip', 'install', '--upgrade', 'setuptools'])", "compilation_passed": true, "time": 1.0120277404785156, "tests_passed": false, "error": "TimeoutError"}
+{"code": "check_output(f\"\"\"", "compilation_passed": false, "time": 0.00015115737915039062, "tests_passed": false, "error": "SyntaxError"}
+{"code": "run(['/path/to/python',", "compilation_passed": false, "time": 0.00012421607971191406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "call(['sudo', 'update-alternatives', '--set', 'python', f'python{python_version}'])", "compilation_passed": true, "time": 1.014768123626709, "tests_passed": false, "error": "TimeoutError"}
+{"code": "check_output(f'python3.{python_version} --version')", "compilation_passed": true, "time": 0.005895137786865234, "tests_passed": true, "error": null}
+{"code": "check_call(['sudo', '-i', 'which', 'python{0}'.format(python_version)])", "compilation_passed": true, "time": 1.0154590606689453, "tests_passed": false, "error": "TimeoutError"}
+{"code": "check_call(['python', '-m', 'ensurepip'])", "compilation_passed": true, "time": 0.026731014251708984, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "call(['python', '-', '--version'], stdout=subprocess.PIPE)", "compilation_passed": true, "time": 0.024306297302246094, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "call(['sudo', 'alternatives', '--install', '/usr/bin/python', '/usr/bin/python3', f'/usr/bin/python{python_version}', '/usr/bin/python{python_version}'])", "compilation_passed": true, "time": 1.0159080028533936, "tests_passed": false, "error": "TimeoutError"}
+{"code": "run([f'python{python_version}-venv', '.', '--system-site-packages'], check=True)", "compilation_passed": true, "time": 0.005135297775268555, "tests_passed": true, "error": null}
+{"code": "check_call(['sudo', 'alternatives', 'install', '-s', '-m', f\"python{python_version}\",", "compilation_passed": false, "time": 0.0001881122589111328, "tests_passed": false, "error": "SyntaxError"}
+{"code": "call(['/usr/bin/sudo', '--preserve-env', 'python3', f\"-{python_version}\"])", "compilation_passed": true, "time": 1.0154390335083008, "tests_passed": false, "error": "TimeoutError"}
+{"code": "check_output(['python', '-c', f\"import sys, os, subprocess; \\", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "SyntaxError"}
+{"code": "check_call(['python', '-m', 'pip', 'install', '--upgrade', 'pip'])", "compilation_passed": true, "time": 0.026272058486938477, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "call(f\"\"\"", "compilation_passed": false, "time": 0.0001761913299560547, "tests_passed": false, "error": "SyntaxError"}
+{"code": "check_call([f'python{python_version}.exe', '-m', 'pip', 'install', 'pipenv'], env=os.environ)", "compilation_passed": true, "time": 0.007131099700927734, "tests_passed": false, "error": "NameError"}
+{"code": "check_output(['which', 'python%s' % python_version])", "compilation_passed": true, "time": 0.004781961441040039, "tests_passed": true, "error": null}
+{"code": "check_output(['python', f'--version'])", "compilation_passed": true, "time": 0.0042569637298583984, "tests_passed": true, "error": null}
+{"code": "check_call(['sudo', 'update-alternatives', '--install', '/usr/bin/python python', python_version, '/usr/bin/python' + python_version])", "compilation_passed": true, "time": 1.0158836841583252, "tests_passed": false, "error": "TimeoutError"}

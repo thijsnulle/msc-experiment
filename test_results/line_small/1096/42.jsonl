@@ -1,0 +1,6 @@
+{"code": " os.path.abspath(filename)", "compilation_passed": true, "time": 0.00443267822265625, "tests_passed": true, "error": null}
+{"code": " filename", "compilation_passed": true, "time": 0.004664897918701172, "tests_passed": true, "error": null}
+{"code": " os.path.realpath(filename)", "compilation_passed": true, "time": 0.004837751388549805, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.path.dirname(__file__), filename)", "compilation_passed": true, "time": 0.010497093200683594, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.join(os.getcwd(), filename)", "compilation_passed": true, "time": 0.004563093185424805, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.path.abspath(os.getcwd()), filename)", "compilation_passed": true, "time": 0.004091978073120117, "tests_passed": true, "error": null}

@@ -1,0 +1,16 @@
+{"code": " [sum(combined_dict[k]) / len(combined_dict[k]) for k in combined_dict]", "compilation_passed": true, "time": 0.010914087295532227, "tests_passed": false, "error": "AttributeError"}
+{"code": " [sum(values) / len(values) for values in combined_dict.values()]", "compilation_passed": true, "time": 0.012507200241088867, "tests_passed": false, "error": "AttributeError"}
+{"code": " [sum(v) / len(v) for v in combined_dict.values()]", "compilation_passed": true, "time": 0.01157379150390625, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.010761022567749023, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.010743856430053711, "tests_passed": false, "error": "ValueError"}
+{"code": " [sum(d) / len(d) for d in zip(*combined_dict.values())]", "compilation_passed": true, "time": 0.011174917221069336, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(key, sum(value) / len(value)) for key, value in combined_dict.items()]", "compilation_passed": true, "time": 0.010504007339477539, "tests_passed": false, "error": "AttributeError"}
+{"code": " [sum(d) / len(d) for d in combined_dict.values()]", "compilation_passed": true, "time": 0.010647058486938477, "tests_passed": false, "error": "AttributeError"}
+{"code": " {k: sum(v) / len(v) for k, v in combined_dict.items()}", "compilation_passed": true, "time": 0.6172688007354736, "tests_passed": true, "error": null}
+{"code": " [(k, sum(v) / len(v)) for k, v in combined_dict.items()]", "compilation_passed": true, "time": 0.010743141174316406, "tests_passed": false, "error": "AttributeError"}
+{"code": " [sum(v) / len(v) if v else None for k, v in combined_dict.items()]", "compilation_passed": true, "time": 0.012621879577636719, "tests_passed": false, "error": "AttributeError"}
+{"code": " [sum(s)/len(s) for s in combined_dict.values()]", "compilation_passed": true, "time": 0.018455982208251953, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(k, sum(v)/len(v)) for k, v in combined_dict.items()]", "compilation_passed": true, "time": 0.019229888916015625, "tests_passed": false, "error": "AttributeError"}
+{"code": " {student: sum(scores) / len(scores) for student, scores in combined_dict.items()}", "compilation_passed": true, "time": 0.6959438323974609, "tests_passed": true, "error": null}
+{"code": " [round(sum(scores) / len(scores), 2) for scores in combined_dict.values()]", "compilation_passed": true, "time": 0.01987290382385254, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(name, sum(scores)/len(scores)) for name, scores in combined_dict.items()]", "compilation_passed": true, "time": 0.018583059310913086, "tests_passed": false, "error": "AttributeError"}

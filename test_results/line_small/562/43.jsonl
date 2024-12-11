@@ -1,0 +1,9 @@
+{"code": " not filepath:", "compilation_passed": true, "time": 0.017347097396850586, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(filepath, str):", "compilation_passed": true, "time": 0.09303903579711914, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " filepath is None:", "compilation_passed": true, "time": 0.024667739868164062, "tests_passed": false, "error": "OSError"}
+{"code": " filepath == \"\":", "compilation_passed": true, "time": 0.017951011657714844, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(filepath, str) or not filepath:", "compilation_passed": true, "time": 0.01385498046875, "tests_passed": false, "error": "TypeError"}
+{"code": " filepath is None or not isinstance(filepath, str):", "compilation_passed": true, "time": 0.07157683372497559, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " filepath == '':", "compilation_passed": true, "time": 0.023958921432495117, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(filepath, str):", "compilation_passed": true, "time": 0.022768735885620117, "tests_passed": false, "error": "TypeError"}
+{"code": " not filepath or not isinstance(filepath, str):", "compilation_passed": true, "time": 0.017419099807739258, "tests_passed": false, "error": "TypeError"}

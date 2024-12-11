@@ -1,0 +1,10 @@
+{"code": " pd.to_datetime(df['Date'])", "compilation_passed": true, "time": 0.23595595359802246, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df['Date'])", "compilation_passed": true, "time": 0.02261829376220703, "tests_passed": false, "error": "ValueError"}
+{"code": " df['Date'].astype('string')", "compilation_passed": true, "time": 0.22932672500610352, "tests_passed": true, "error": null}
+{"code": " df['Date'].apply(pd.to_datetime)", "compilation_passed": true, "time": 0.279094934463501, "tests_passed": true, "error": null}
+{"code": " df['Date'].dt.date", "compilation_passed": true, "time": 0.01873183250427246, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.to_numeric(df['Date'], errors='coerce')", "compilation_passed": true, "time": 0.29157090187072754, "tests_passed": true, "error": null}
+{"code": " df['Date'].str.split('/')", "compilation_passed": true, "time": 0.24845600128173828, "tests_passed": true, "error": null}
+{"code": " df['Date'].astype(str)", "compilation_passed": true, "time": 0.25303196907043457, "tests_passed": true, "error": null}
+{"code": " pd.to_datetime(df['Date'], errors='coerce')", "compilation_passed": true, "time": 0.24994277954101562, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df['Date'], errors='raise')", "compilation_passed": true, "time": 0.029391050338745117, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,9 @@
+{"code": " f\"{excel_file_path}/{file_name}\"", "compilation_passed": true, "time": 0.03411388397216797, "tests_passed": true, "error": null}
+{"code": " os.path.join(excel_file_path, file_name)", "compilation_passed": true, "time": 0.03180098533630371, "tests_passed": true, "error": null}
+{"code": " load_workbook(f\"{excel_file_path}/{file_name}\", data_only=True)", "compilation_passed": true, "time": 0.0174100399017334, "tests_passed": false, "error": "TypeError"}
+{"code": " excel_file_path + '/' + file_name", "compilation_passed": true, "time": 0.036412954330444336, "tests_passed": true, "error": null}
+{"code": " excel_file_path + \"/\" + file_name", "compilation_passed": true, "time": 0.03241682052612305, "tests_passed": true, "error": null}
+{"code": " load_workbook(os.path.join(excel_file_path, file_name))", "compilation_passed": true, "time": 0.017606019973754883, "tests_passed": false, "error": "TypeError"}
+{"code": " os.path.join(excel_file_path, f\"{file_name}\")", "compilation_passed": true, "time": 0.036229848861694336, "tests_passed": true, "error": null}
+{"code": " excel_file_path + file_name", "compilation_passed": true, "time": 0.012516975402832031, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " load_workbook(excel_file_path + file_name, read_only=True)", "compilation_passed": true, "time": 0.0200650691986084, "tests_passed": false, "error": "FileNotFoundError"}

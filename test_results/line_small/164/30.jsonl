@@ -1,0 +1,29 @@
+{"code": " [f'Group {i}' for i in range(num_labels)]", "compilation_passed": true, "time": 0.006962299346923828, "tests_passed": true, "error": null}
+{"code": " [f\"Category{i}\" for i in range(1, num_labels + 1)]", "compilation_passed": true, "time": 0.007570743560791016, "tests_passed": true, "error": null}
+{"code": " [\"label_%s\" % i for i in range(num_labels)]", "compilation_passed": true, "time": 0.0075190067291259766, "tests_passed": true, "error": null}
+{"code": " [\"cat%d\" % i for i in range(num_labels)]", "compilation_passed": true, "time": 0.007271766662597656, "tests_passed": true, "error": null}
+{"code": " ['cat_'+str(i+1) for i in range(num_labels)]", "compilation_passed": true, "time": 0.007942914962768555, "tests_passed": true, "error": null}
+{"code": " ['group_A', 'group_B']", "compilation_passed": true, "time": 0.013944149017333984, "tests_passed": false, "error": "ValueError"}
+{"code": " ['category_' + str(i) for i in range(num_labels)]", "compilation_passed": true, "time": 0.006530046463012695, "tests_passed": true, "error": null}
+{"code": " ['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'C10', 'C11', 'C12', 'C13', 'C14', 'C15',", "compilation_passed": false, "time": 0.00043010711669921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [f\"Column_{i}\" for i in range(num_labels)]", "compilation_passed": true, "time": 0.008568048477172852, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(pd.random.randint(*data_range, num_labels),", "compilation_passed": false, "time": 0.00021696090698242188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.013022184371948242, "tests_passed": false, "error": "ValueError"}
+{"code": " ['col1']", "compilation_passed": true, "time": 0.023166894912719727, "tests_passed": false, "error": "ValueError"}
+{"code": " [\"C1\", \"C2\", \"C3\"]", "compilation_passed": true, "time": 0.015234947204589844, "tests_passed": false, "error": "ValueError"}
+{"code": " ['A', 'B']", "compilation_passed": true, "time": 0.01699376106262207, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.MultiIndex.from_product([[\"Race\", \"Gender\", \"Age\"], range(1, num_labels + 1)])", "compilation_passed": true, "time": 0.015092134475708008, "tests_passed": false, "error": "ValueError"}
+{"code": " ['Group 1', 'Group 2', 'Group 3', 'Group 4', 'Group 5']", "compilation_passed": true, "time": 0.013785123825073242, "tests_passed": false, "error": "ValueError"}
+{"code": " [f\"Column{i}\" for i in range(1, 101)]", "compilation_passed": true, "time": 0.013580083847045898, "tests_passed": false, "error": "ValueError"}
+{"code": " ['column_{}'.format(i) for i in range(num_labels)]", "compilation_passed": true, "time": 0.007779121398925781, "tests_passed": true, "error": null}
+{"code": " ['A', 'B', 'C', 'D', 'E']", "compilation_passed": true, "time": 0.014218330383300781, "tests_passed": false, "error": "ValueError"}
+{"code": " [f\"Column {i}\" for i in range(1, num_labels+1)]", "compilation_passed": true, "time": 0.007904052734375, "tests_passed": true, "error": null}
+{"code": " [f\"Label{i}\" for i in range(num_labels)]", "compilation_passed": true, "time": 0.008038043975830078, "tests_passed": true, "error": null}
+{"code": " [\"Candy 1\", \"Candy 2\", \"Candy 3\", \"Candy 4\", \"Candy 5\"]", "compilation_passed": true, "time": 0.012140035629272461, "tests_passed": false, "error": "ValueError"}
+{"code": " [f\"Column {x}\" for x in range(1, num_labels + 1)]", "compilation_passed": true, "time": 0.008024215698242188, "tests_passed": true, "error": null}
+{"code": " ['label_1', 'label_2', 'label_3']", "compilation_passed": true, "time": 0.012330293655395508, "tests_passed": false, "error": "ValueError"}
+{"code": " ['col1'] * num_labels", "compilation_passed": true, "time": 0.016155004501342773, "tests_passed": true, "error": null}
+{"code": " ['Data1', 'Data2']", "compilation_passed": true, "time": 0.021843910217285156, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(columns=['Category', 'Data'])", "compilation_passed": true, "time": 0.014909029006958008, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.random.uniform(*data_range, size=(num_labels, 2))).T", "compilation_passed": true, "time": 0.016956806182861328, "tests_passed": false, "error": "ValueError"}
+{"code": " ['Group A', 'Group B', 'Group C']", "compilation_passed": true, "time": 0.01860189437866211, "tests_passed": false, "error": "ValueError"}

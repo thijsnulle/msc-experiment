@@ -1,0 +1,17 @@
+{"code": " isinstance(input_string, str) and isinstance(verify_hash, str) and verify_hash is not None:", "compilation_passed": true, "time": 0.009475946426391602, "tests_passed": false, "error": "AttributeError"}
+{"code": " isinstance(input_string, str) and isinstance(verify_hash, str) and verify_hash == hashlib.sha256(", "compilation_passed": false, "time": 0.00015211105346679688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " verify_hash is not None:", "compilation_passed": true, "time": 0.006743907928466797, "tests_passed": false, "error": "AttributeError"}
+{"code": " not (isinstance(input_string, str) and isinstance(verify_hash, str)):", "compilation_passed": true, "time": 0.006833076477050781, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(input_string, str) or (verify_hash is not None and not isinstance(verify_hash, str)):", "compilation_passed": true, "time": 0.0014908313751220703, "tests_passed": true, "error": null}
+{"code": " verify_hash is None or not isinstance(verify_hash, str):", "compilation_passed": true, "time": 0.007111787796020508, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(input_string, str) and (verify_hash is None or isinstance(verify_hash, str)):", "compilation_passed": true, "time": 0.006950855255126953, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(input_string, str):", "compilation_passed": true, "time": 0.0015611648559570312, "tests_passed": true, "error": null}
+{"code": " verify_hash is not None and not isinstance(verify_hash, str):", "compilation_passed": true, "time": 0.00913381576538086, "tests_passed": false, "error": "AttributeError"}
+{"code": " verify_hash:", "compilation_passed": true, "time": 0.007754087448120117, "tests_passed": false, "error": "AttributeError"}
+{"code": " isinstance(input_string, str):", "compilation_passed": true, "time": 0.007314920425415039, "tests_passed": false, "error": "TypeError"}
+{"code": " type(input_string) != str:", "compilation_passed": true, "time": 0.0014660358428955078, "tests_passed": true, "error": null}
+{"code": " type(input_string) is not str:", "compilation_passed": true, "time": 0.001653909683227539, "tests_passed": true, "error": null}
+{"code": " type(input_string) != str or type(verify_hash) != str:", "compilation_passed": true, "time": 0.008606195449829102, "tests_passed": false, "error": "TypeError"}
+{"code": " verify_hash is None:", "compilation_passed": true, "time": 0.007677793502807617, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(input_string, str) and verify_hash is None:", "compilation_passed": true, "time": 0.007622241973876953, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(input_string, str) and verify_hash is not None:", "compilation_passed": true, "time": 0.007049083709716797, "tests_passed": false, "error": "AttributeError"}

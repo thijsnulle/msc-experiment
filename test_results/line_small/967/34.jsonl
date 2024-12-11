@@ -1,0 +1,7 @@
+{"code": " func(X)", "compilation_passed": true, "time": 0.2933931350708008, "tests_passed": true, "error": null}
+{"code": " [func(x) for x in X]", "compilation_passed": true, "time": 0.3186931610107422, "tests_passed": true, "error": null}
+{"code": " np.array(func(X))", "compilation_passed": true, "time": 0.3183310031890869, "tests_passed": true, "error": null}
+{"code": " np.vectorize(func)(X)", "compilation_passed": true, "time": 0.3344559669494629, "tests_passed": true, "error": null}
+{"code": " [func(i) for i in X]", "compilation_passed": true, "time": 0.33400511741638184, "tests_passed": true, "error": null}
+{"code": " np.zeros_like(X)", "compilation_passed": true, "time": 0.3241260051727295, "tests_passed": true, "error": null}
+{"code": " np.array([func(x) for x in X])", "compilation_passed": true, "time": 0.33956313133239746, "tests_passed": true, "error": null}

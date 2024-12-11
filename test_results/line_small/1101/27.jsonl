@@ -1,0 +1,13 @@
+{"code": " [f for f in glob.glob(f\"{test_dir}/*.py\")]", "compilation_passed": true, "time": 0.0640261173248291, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(os.path.join(test_dir, \"*.py\"))", "compilation_passed": true, "time": 0.06530189514160156, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(\"%s/*.py\" % test_dir)", "compilation_passed": true, "time": 0.06641983985900879, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(\"%s*.py\" % test_dir)", "compilation_passed": true, "time": 0.024910688400268555, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(test_dir, \"*\", \"*.py\"))", "compilation_passed": true, "time": 0.016191959381103516, "tests_passed": true, "error": null}
+{"code": " glob.glob(f\"{test_dir}/*.py\")", "compilation_passed": true, "time": 0.08087396621704102, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(test_dir + \"/*.py\")", "compilation_passed": true, "time": 0.07202720642089844, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(test_dir + \"**/*.py\", recursive=True)", "compilation_passed": true, "time": 0.07847809791564941, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(f\"{test_dir}/*\")", "compilation_passed": true, "time": 0.07366585731506348, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(test_dir + '*.py')", "compilation_passed": true, "time": 0.014488935470581055, "tests_passed": true, "error": null}
+{"code": " glob.glob(f\"{os.path.dirname(test_dir)}/*.py\")", "compilation_passed": true, "time": 0.014441967010498047, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(test_dir, '*.py'))", "compilation_passed": true, "time": 0.05768084526062012, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(os.path.join(os.path.abspath(test_dir), \"*.py\"))", "compilation_passed": true, "time": 0.0832211971282959, "tests_passed": false, "error": "FileNotFoundError"}

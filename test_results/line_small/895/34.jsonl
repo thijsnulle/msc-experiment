@@ -1,0 +1,23 @@
+{"code": "hist(array, density=True)", "compilation_passed": true, "time": 0.2301640510559082, "tests_passed": true, "error": null}
+{"code": "bar(array, np.ones_like(array), width=1)", "compilation_passed": true, "time": 1.016732931137085, "tests_passed": false, "error": "TimeoutError"}
+{"code": "set_title(\"Histogram of Random Values\")", "compilation_passed": true, "time": 0.17754507064819336, "tests_passed": true, "error": null}
+{"code": "hist(array, density=True, bins=50, label=\"Histogram\")", "compilation_passed": true, "time": 0.3366982936859131, "tests_passed": true, "error": null}
+{"code": "hist(array, bins=50, label=\"Histogram\")", "compilation_passed": true, "time": 0.33955812454223633, "tests_passed": true, "error": null}
+{"code": "hist(array, bins=10, color='cornflowerblue', alpha=0.5)", "compilation_passed": true, "time": 0.32918524742126465, "tests_passed": true, "error": null}
+{"code": "hist(array, bins=50, rwidth=1, color='gray', edgecolor='black', alpha=0.7, density=True, label='Histogram of Random Values')", "compilation_passed": true, "time": 0.3483719825744629, "tests_passed": true, "error": null}
+{"code": "hist(array)", "compilation_passed": true, "time": 0.22114014625549316, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(1, 501), np.histogram(array)[0], alpha=0.4)", "compilation_passed": true, "time": 0.04678916931152344, "tests_passed": false, "error": "ValueError"}
+{"code": "hist(array, bins=15, label=\"Histogram of Random Values\")", "compilation_passed": true, "time": 0.2321012020111084, "tests_passed": true, "error": null}
+{"code": "hist(array, bins=50)", "compilation_passed": true, "time": 0.32657909393310547, "tests_passed": true, "error": null}
+{"code": "hist(array, bins=100)", "compilation_passed": true, "time": 0.47768115997314453, "tests_passed": true, "error": null}
+{"code": "hist(array, bins=50, color='pink')", "compilation_passed": true, "time": 0.34008002281188965, "tests_passed": true, "error": null}
+{"code": "hist(array, density=True, color='blue', alpha=0.5, label='Histogram')", "compilation_passed": true, "time": 0.22289395332336426, "tests_passed": true, "error": null}
+{"code": "hist(array, density=True), ax.set_title('Histogram of Random Values'), ax.set_xlabel('Val'), ax.set_ylabel('Freq'), \\", "compilation_passed": true, "time": 0.2231438159942627, "tests_passed": true, "error": null}
+{"code": "hist(array, density=True), histtype='stepfilled', alpha=0.5, label='Histogram'", "compilation_passed": false, "time": 0.00020384788513183594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "hist(array, bins=200)", "compilation_passed": true, "time": 0.758674144744873, "tests_passed": true, "error": null}
+{"code": "hist(array, bins=30, density=True)", "compilation_passed": true, "time": 0.26973891258239746, "tests_passed": true, "error": null}
+{"code": "hist(array, bins=20)", "compilation_passed": true, "time": 0.24726200103759766, "tests_passed": true, "error": null}
+{"code": "hist(array, bins=30)", "compilation_passed": true, "time": 0.27086901664733887, "tests_passed": true, "error": null}
+{"code": "hist(array, bins=25)", "compilation_passed": true, "time": 0.26145100593566895, "tests_passed": true, "error": null}
+{"code": "hist(array, bins=10, color='red')", "compilation_passed": true, "time": 0.22350621223449707, "tests_passed": true, "error": null}
+{"code": "bar(array, 1, width=1, edgecolor='black')", "compilation_passed": true, "time": 1.0178370475769043, "tests_passed": false, "error": "TimeoutError"}

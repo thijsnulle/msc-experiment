@@ -1,0 +1,21 @@
+{"code": " [(root.tag, root.text) for child in root.getchildren()]", "compilation_passed": true, "time": 0.012493133544921875, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.011033058166503906, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00015735626220703125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " root.find('.').find('.').text", "compilation_passed": true, "time": 0.010602951049804688, "tests_passed": false, "error": "TypeError"}
+{"code": " [\"{},{}\".format(elem.tag, elem.text) for elem in root]", "compilation_passed": true, "time": 0.010626792907714844, "tests_passed": true, "error": null}
+{"code": " root.findall('element')", "compilation_passed": true, "time": 0.010176897048950195, "tests_passed": true, "error": null}
+{"code": " root.findall(\".//element\")", "compilation_passed": true, "time": 0.010245084762573242, "tests_passed": true, "error": null}
+{"code": " [root.attrib.get(\"name\"), root.text.strip()]", "compilation_passed": true, "time": 0.010783910751342773, "tests_passed": false, "error": "AttributeError"}
+{"code": " ET.tostring(root)", "compilation_passed": true, "time": 0.012357950210571289, "tests_passed": false, "error": "_csv.Error"}
+{"code": " root.findtext(\".\")", "compilation_passed": true, "time": 0.010879039764404297, "tests_passed": true, "error": null}
+{"code": " root.find('data')", "compilation_passed": true, "time": 0.009846925735473633, "tests_passed": false, "error": "TypeError"}
+{"code": " [elem.text for elem in root.iter('element')]", "compilation_passed": true, "time": 0.010689973831176758, "tests_passed": true, "error": null}
+{"code": " root.find('.')", "compilation_passed": true, "time": 0.010856866836547852, "tests_passed": true, "error": null}
+{"code": " root.find('element')", "compilation_passed": true, "time": 0.010586261749267578, "tests_passed": false, "error": "TypeError"}
+{"code": " ET.tostring(root).decode().strip('<>\\n').replace('\"', '\\\\\"')", "compilation_passed": true, "time": 0.010885953903198242, "tests_passed": true, "error": null}
+{"code": " [{'element': element.text} for element in root]", "compilation_passed": true, "time": 0.010035276412963867, "tests_passed": true, "error": null}
+{"code": " [root.attrib['name']] + [elem.text for elem in root.iter() if elem.text]", "compilation_passed": true, "time": 0.010293960571289062, "tests_passed": false, "error": "KeyError"}
+{"code": " [element.text for element in root]", "compilation_passed": true, "time": 0.012206077575683594, "tests_passed": true, "error": null}
+{"code": " root.findall(\"./*\")", "compilation_passed": true, "time": 0.01155400276184082, "tests_passed": true, "error": null}
+{"code": " [(child.tag, child.text) for child in root]", "compilation_passed": true, "time": 0.011500120162963867, "tests_passed": true, "error": null}
+{"code": " root.findall('.//element/text()')", "compilation_passed": true, "time": 0.014000892639160156, "tests_passed": false, "error": "KeyError"}

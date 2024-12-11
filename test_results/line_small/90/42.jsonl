@@ -1,0 +1,7 @@
+{"code": " lat2 - lat1", "compilation_passed": true, "time": 0.0030930042266845703, "tests_passed": true, "error": null}
+{"code": " math.sin((lat2 - lat1) / 2)**2", "compilation_passed": true, "time": 0.01001429557800293, "tests_passed": false, "error": "TypeError"}
+{"code": " math.radians(lat2 - lat1)", "compilation_passed": true, "time": 0.006759166717529297, "tests_passed": false, "error": "TypeError"}
+{"code": " lat1 - lat2", "compilation_passed": true, "time": 0.003403186798095703, "tests_passed": true, "error": null}
+{"code": " math.sin((lat2 - lat1) / 2.0) ** 2", "compilation_passed": true, "time": 0.007420063018798828, "tests_passed": false, "error": "TypeError"}
+{"code": " math.radians(coord2[0] - coord1[0])", "compilation_passed": true, "time": 0.003721952438354492, "tests_passed": true, "error": null}
+{"code": " (lat2-lat1) / 2", "compilation_passed": true, "time": 0.006520986557006836, "tests_passed": false, "error": "TypeError"}

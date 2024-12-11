@@ -1,0 +1,17 @@
+{"code": "axhline(color='black', linewidth=0.5)", "compilation_passed": true, "time": 0.2422647476196289, "tests_passed": true, "error": null}
+{"code": "plot(outliers['closing_price'], color='red', label='Outliers')", "compilation_passed": true, "time": 0.24791908264160156, "tests_passed": true, "error": null}
+{"code": "scatter(outliers['closing_price'], color='red', marker='x', label='Outliers')", "compilation_passed": true, "time": 0.05184483528137207, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(outliers['closing_price'], color='red', label='Outlier')", "compilation_passed": true, "time": 0.2506718635559082, "tests_passed": true, "error": null}
+{"code": "axhline(y=z_threshold, color='red', label='Outlier')", "compilation_passed": true, "time": 0.250882625579834, "tests_passed": true, "error": null}
+{"code": "scatter(outliers['closing_price'], color='red', label='Outliers')", "compilation_passed": true, "time": 0.053495168685913086, "tests_passed": false, "error": "TypeError"}
+{"code": "axhline(y=z_threshold*2, color='orange', label='Upper Boundary', linewidth=2)", "compilation_passed": true, "time": 0.24889397621154785, "tests_passed": true, "error": null}
+{"code": "plot(outliers['closing_price'], color='orange', label='Outliers')", "compilation_passed": true, "time": 0.298677921295166, "tests_passed": true, "error": null}
+{"code": "scatter(", "compilation_passed": false, "time": 0.0002589225769042969, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(outliers['closing_price'], color='orange', label='Outlier')", "compilation_passed": true, "time": 0.25310492515563965, "tests_passed": true, "error": null}
+{"code": "scatter(outliers['closing_price'], np.zeros(len(outliers)), color='red', label='Outlier')", "compilation_passed": true, "time": 0.26813197135925293, "tests_passed": true, "error": null}
+{"code": "scatter(df.index, df['closing_price'], marker='o', alpha=0.2, color='red', label='Outliers')", "compilation_passed": true, "time": 0.33011317253112793, "tests_passed": true, "error": null}
+{"code": "scatter(df['closing_price'], df['Z_score'], c='red', marker='x', s=100)", "compilation_passed": true, "time": 0.3416290283203125, "tests_passed": true, "error": null}
+{"code": "plot(outliers['closing_price'], color='red', marker='o', label='Outliers')", "compilation_passed": true, "time": 0.30219006538391113, "tests_passed": true, "error": null}
+{"code": "scatter(outliers.index, outliers['closing_price'], color='red', label='Outliers')", "compilation_passed": true, "time": 0.27256131172180176, "tests_passed": true, "error": null}
+{"code": "plot(outliers['closing_price'], color='red', marker='o', label='Outlier')", "compilation_passed": true, "time": 0.28666019439697266, "tests_passed": true, "error": null}
+{"code": "axhline(y=df['closing_price'].mean(), color='orange', label='Mean')", "compilation_passed": true, "time": 0.283519983291626, "tests_passed": true, "error": null}

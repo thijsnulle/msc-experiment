@@ -1,0 +1,11 @@
+{"code": "plot(X, y_int, label=\"Integral of \" + func.__name__ + f\"(x)\")", "compilation_passed": true, "time": 0.29296302795410156, "tests_passed": true, "error": null}
+{"code": "plot(X, y_int, label=f\"Integral of {func.__name__}(x)\")", "compilation_passed": true, "time": 0.3113579750061035, "tests_passed": true, "error": null}
+{"code": "plot(X, y_int, label=f\"{func.__name__}(x)\")", "compilation_passed": true, "time": 0.309812068939209, "tests_passed": true, "error": null}
+{"code": "plot(X, y_int, label=f\"{func.__name__}(x) integral\")", "compilation_passed": true, "time": 0.3240232467651367, "tests_passed": true, "error": null}
+{"code": "plot(X, y_int, label=\"Integral of {func.__name__}(x)\")", "compilation_passed": true, "time": 0.06808900833129883, "tests_passed": true, "error": null}
+{"code": "plot(X, y_int, label=\"Integral of {}\".format(func.__name__))", "compilation_passed": true, "time": 1.8094189167022705, "tests_passed": true, "error": null}
+{"code": "plot(X, y_int, label=\"Integral\")", "compilation_passed": true, "time": 0.0735781192779541, "tests_passed": true, "error": null}
+{"code": "plot(X, y_int, label=\"Integral of \" + f\"{func.__name__}(x)\")", "compilation_passed": true, "time": 0.33173704147338867, "tests_passed": true, "error": null}
+{"code": "plot(X, y_int, label=f\"{func.__name__}(x) integrated\")", "compilation_passed": true, "time": 0.32326197624206543, "tests_passed": true, "error": null}
+{"code": "plot(X, y_int, label=\"Integral of \"+f\"{func.__name__}(x)\")", "compilation_passed": true, "time": 0.33212709426879883, "tests_passed": true, "error": null}
+{"code": "plot(X, y_int, label=f\"{func.__name__}(x)\", ls='--')", "compilation_passed": true, "time": 0.3405139446258545, "tests_passed": true, "error": null}

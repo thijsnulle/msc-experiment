@@ -1,0 +1,4 @@
+{"code": "append([key, quantity, price, profit])", "compilation_passed": true, "time": 0.1105048656463623, "tests_passed": true, "error": null}
+{"code": "append([key] + [quantity, price, profit])", "compilation_passed": true, "time": 0.11037588119506836, "tests_passed": true, "error": null}
+{"code": "append([key, quantity, price, profit, 0, 0])", "compilation_passed": true, "time": 0.008643865585327148, "tests_passed": false, "error": "ValueError"}
+{"code": "append([key, quantity, price, profit,", "compilation_passed": false, "time": 0.00028204917907714844, "tests_passed": false, "error": "SyntaxError"}

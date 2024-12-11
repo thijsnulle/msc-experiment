@@ -1,0 +1,11 @@
+{"code": " in glob(os.path.join(src_folder, '*.txt')):", "compilation_passed": true, "time": 0.7669789791107178, "tests_passed": true, "error": null}
+{"code": " in glob(os.path.join(src_folder, '*')):", "compilation_passed": true, "time": 0.7336959838867188, "tests_passed": true, "error": null}
+{"code": " in glob(f'{src_folder}/*.txt'):", "compilation_passed": true, "time": 0.7034711837768555, "tests_passed": true, "error": null}
+{"code": "path in glob(os.path.join(src_folder, '*')):", "compilation_passed": true, "time": 0.014948129653930664, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " in glob(f\"{src_folder}/*.txt\"):", "compilation_passed": true, "time": 0.7363381385803223, "tests_passed": true, "error": null}
+{"code": "_path in glob(os.path.join(src_folder, '*')):", "compilation_passed": true, "time": 0.01583409309387207, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " in glob(os.path.join(src_folder, \"*\")):", "compilation_passed": true, "time": 0.7686400413513184, "tests_passed": true, "error": null}
+{"code": " in glob(f\"{src_folder}/*\"):", "compilation_passed": true, "time": 0.7743978500366211, "tests_passed": true, "error": null}
+{"code": "_name in glob(os.path.join(src_folder, '*')):", "compilation_passed": true, "time": 0.023073196411132812, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " in glob(f'{src_folder}/*'):", "compilation_passed": true, "time": 0.7352950572967529, "tests_passed": true, "error": null}
+{"code": " in sorted(glob(os.path.join(src_folder, \"*\"))):", "compilation_passed": true, "time": 0.7498829364776611, "tests_passed": true, "error": null}

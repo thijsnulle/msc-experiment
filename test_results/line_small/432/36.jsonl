@@ -1,0 +1,23 @@
+{"code": " sns.heatmap(contingency_table, xticklabels=df[column2], yticklabels=df[column1], annot=True, cmap='Blues')", "compilation_passed": true, "time": 0.09732508659362793, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, annot=True)", "compilation_passed": true, "time": 0.33626794815063477, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, annot=True, cmap=\"Blues\", linewidths=.5)", "compilation_passed": true, "time": 0.3544600009918213, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(", "compilation_passed": false, "time": 0.00021505355834960938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(data=contingency_table, xticklabels=contingency_table.columns, yticklabels=contingency_table.index, annot=True, fmt=\"d\")", "compilation_passed": true, "time": 0.3515019416809082, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table)", "compilation_passed": true, "time": 0.32382678985595703, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, annot=True, cmap=\"Blues\")", "compilation_passed": true, "time": 0.3358762264251709, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(data=contingency_table, annot=True)", "compilation_passed": true, "time": 0.35424089431762695, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, cmap='Blues')", "compilation_passed": true, "time": 0.3288588523864746, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, cmap='YlOrRd', xticklabels=contingency_table.columns, yticklabels=contingency_table.index)", "compilation_passed": true, "time": 0.3600890636444092, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, annot=True, cbar=True)", "compilation_passed": true, "time": 0.36870813369750977, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, cmap=\"YlGnBu\")", "compilation_passed": true, "time": 0.3199198246002197, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, annot=True, cmap='Blues', cbar_kws={\"label\": \"Observations\"})", "compilation_passed": true, "time": 0.3447000980377197, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, cbar_kws={'label': 'Count'})", "compilation_passed": true, "time": 0.3346138000488281, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, xticklabels=contingency_table.columns, yticklabels=contingency_table.index)", "compilation_passed": true, "time": 0.36106228828430176, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table,", "compilation_passed": false, "time": 0.0002486705780029297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(contingency_table, annot=True, cmap=\"coolwarm\")", "compilation_passed": true, "time": 0.34378504753112793, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, cmap='coolwarm', annot=True, cbar_kws={\"label\": \"count\", \"size\": 10})", "compilation_passed": true, "time": 0.06518793106079102, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.heatmap(contingency_table, cmap=\"RdYlGn_r\", annot=True, fmt=\"g\", linewidths=2.5, linecolor=\"white\")", "compilation_passed": true, "time": 0.33205199241638184, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, cmap=\"Blues\")", "compilation_passed": true, "time": 0.34154391288757324, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, annot=True, cbar=False, linewidths=1)", "compilation_passed": true, "time": 0.21657085418701172, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, cbar=False)", "compilation_passed": true, "time": 0.20804309844970703, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(contingency_table, annot=True, cmap='RdBu_r', vmin=-1, vmax=1)", "compilation_passed": true, "time": 0.3606100082397461, "tests_passed": true, "error": null}

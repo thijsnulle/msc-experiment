@@ -1,0 +1,11 @@
+{"code": "hist(", "compilation_passed": false, "time": 0.0003619194030761719, "tests_passed": false, "error": "SyntaxError"}
+{"code": "hist(df[column_name], bins=unique_values_count, edgecolor=\"black\", alpha=0.7)", "compilation_passed": true, "time": 0.24395108222961426, "tests_passed": true, "error": null}
+{"code": "barh(df[column_name].unique(), df[column_name].value_counts(), color=\"black\", alpha=0.7)", "compilation_passed": true, "time": 0.2195901870727539, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Distribution of values in {column_name}\")", "compilation_passed": true, "time": 0.20362591743469238, "tests_passed": true, "error": null}
+{"code": "bar(", "compilation_passed": false, "time": 0.00027108192443847656, "tests_passed": false, "error": "SyntaxError"}
+{"code": "hist(df[column_name], bins=unique_values_count)", "compilation_passed": true, "time": 0.22050976753234863, "tests_passed": true, "error": null}
+{"code": "bar(df[column_name].value_counts().index, df[column_name].value_counts(), color='black', alpha=0.7)", "compilation_passed": true, "time": 0.2248668670654297, "tests_passed": true, "error": null}
+{"code": "hist(df[column_name], bins=unique_values_count, edgecolor='black', alpha=0.7)", "compilation_passed": true, "time": 0.22101807594299316, "tests_passed": true, "error": null}
+{"code": "hist(df[column_name], bins=unique_values_count, edgecolor=\"k\", alpha=0.7)", "compilation_passed": true, "time": 0.21837997436523438, "tests_passed": true, "error": null}
+{"code": "barh(", "compilation_passed": false, "time": 0.0002949237823486328, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_title(message)", "compilation_passed": true, "time": 0.21906828880310059, "tests_passed": true, "error": null}

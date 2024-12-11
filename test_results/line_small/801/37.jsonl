@@ -1,0 +1,17 @@
+{"code": " data.dtype.names is not None:", "compilation_passed": true, "time": 0.008908748626708984, "tests_passed": false, "error": "ValueError"}
+{"code": " data.dtype.names is None:", "compilation_passed": true, "time": 0.012796878814697266, "tests_passed": false, "error": "TypeError"}
+{"code": " len(np.atleast_1d(data)) == 1:", "compilation_passed": true, "time": 0.0071201324462890625, "tests_passed": true, "error": null}
+{"code": " len(np.atleast_1d(data)) > 0:", "compilation_passed": true, "time": 0.008318901062011719, "tests_passed": false, "error": "ValueError"}
+{"code": " len(data) == 1:", "compilation_passed": true, "time": 0.011432170867919922, "tests_passed": false, "error": "TypeError"}
+{"code": " len(np.atleast_1d(data[0])) == 0:", "compilation_passed": true, "time": 0.011330127716064453, "tests_passed": false, "error": "IndexError"}
+{"code": " data.dtype is None:", "compilation_passed": true, "time": 0.012614965438842773, "tests_passed": false, "error": "TypeError"}
+{"code": " len(np.atleast_1d(data[0])) > 0:", "compilation_passed": true, "time": 0.008865833282470703, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(data, np.ndarray):", "compilation_passed": true, "time": 0.011143207550048828, "tests_passed": false, "error": "TypeError"}
+{"code": " not all(isinstance(row, collections.Iterable) for row in data):", "compilation_passed": true, "time": 0.008790016174316406, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(data, np.ndarray):", "compilation_passed": true, "time": 0.008515119552612305, "tests_passed": false, "error": "ValueError"}
+{"code": " data is not None:", "compilation_passed": true, "time": 0.008231878280639648, "tests_passed": false, "error": "ValueError"}
+{"code": " data.dtype is None or data.dtype.names is None:", "compilation_passed": true, "time": 0.011218070983886719, "tests_passed": false, "error": "TypeError"}
+{"code": " not (len(np.atleast_1d(data)) == len(data['Name'])):", "compilation_passed": true, "time": 0.008183002471923828, "tests_passed": false, "error": "ValueError"}
+{"code": " data.dtype.names == None:", "compilation_passed": true, "time": 0.011615991592407227, "tests_passed": false, "error": "TypeError"}
+{"code": " not data.dtype.names:", "compilation_passed": true, "time": 0.01173710823059082, "tests_passed": false, "error": "TypeError"}
+{"code": " not np.issubdtype(np.array(data).dtype, np.number):", "compilation_passed": true, "time": 0.008752822875976562, "tests_passed": false, "error": "ValueError"}

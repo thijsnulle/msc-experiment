@@ -1,0 +1,20 @@
+{"code": " cv2.drawSegments(img, [kmeans.cluster_centers_[i]], [mask])", "compilation_passed": true, "time": 0.018427133560180664, "tests_passed": false, "error": "AttributeError"}
+{"code": " cv2.cvtColor(np.array(segmented_image[mask]), cv2.COLOR_RGB2BGR)", "compilation_passed": true, "time": 0.012600898742675781, "tests_passed": true, "error": null}
+{"code": " np.where(mask, segmented_image, img)", "compilation_passed": true, "time": 0.018791913986206055, "tests_passed": false, "error": "ValueError"}
+{"code": " mask * segmented_image", "compilation_passed": true, "time": 0.028536081314086914, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(mask * segmented_image, dtype=np.uint8)", "compilation_passed": true, "time": 0.017583847045898438, "tests_passed": false, "error": "ValueError"}
+{"code": " cv2.cvtColor(img[mask], cv2.COLOR_RGB2RGB)", "compilation_passed": true, "time": 0.029850006103515625, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.zeros_like(img)", "compilation_passed": true, "time": 0.016000032424926758, "tests_passed": true, "error": null}
+{"code": " np.zeros_like(img, dtype=np.uint8)", "compilation_passed": true, "time": 0.018342971801757812, "tests_passed": true, "error": null}
+{"code": " np.where(mask[:, :, np.newaxis],", "compilation_passed": false, "time": 0.0005545616149902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " cv2.cvtColor(mask[..., np.newaxis] * img, cv2.COLOR_GRAY2RGB)", "compilation_passed": true, "time": 0.018882036209106445, "tests_passed": false, "error": ""}
+{"code": " cv2.drawingUtil.draw_circle(img.copy(), img.shape[:2],", "compilation_passed": false, "time": 0.0004200935363769531, "tests_passed": false, "error": "SyntaxError"}
+{"code": " cv2.imencode('.jpg', (mask * segmented_image).astype(np.uint8))[1].tobytes()", "compilation_passed": true, "time": 0.01787400245666504, "tests_passed": false, "error": "ValueError"}
+{"code": " img * mask.reshape(img.shape[:2] + (1,))", "compilation_passed": true, "time": 0.011353015899658203, "tests_passed": true, "error": null}
+{"code": " cv2.imshow('cluster' + str(i), np.where(mask, segmented_image, img))", "compilation_passed": true, "time": 0.017914772033691406, "tests_passed": false, "error": "ValueError"}
+{"code": " segmented_image.copy()", "compilation_passed": true, "time": 0.010902881622314453, "tests_passed": true, "error": null}
+{"code": " np.zeros(img.shape, dtype=np.uint8)", "compilation_passed": true, "time": 0.011573076248168945, "tests_passed": true, "error": null}
+{"code": " segmented_image[mask]", "compilation_passed": true, "time": 0.012731790542602539, "tests_passed": true, "error": null}
+{"code": " img.copy()", "compilation_passed": true, "time": 0.011668920516967773, "tests_passed": true, "error": null}
+{"code": " np.zeros(img.shape[:2] + (3,))", "compilation_passed": true, "time": 0.01012420654296875, "tests_passed": true, "error": null}
+{"code": " cv2.applyColorMap(mask.astype('uint8') * 255, cv2.COLORMAP_JET)", "compilation_passed": true, "time": 0.0127410888671875, "tests_passed": true, "error": null}

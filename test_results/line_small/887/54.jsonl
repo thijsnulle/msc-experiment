@@ -1,0 +1,8 @@
+{"code": " [int(i) for i in T1]", "compilation_passed": true, "time": 0.02020883560180664, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(val) for val in itertools.chain(*T1)]", "compilation_passed": true, "time": 0.012060165405273438, "tests_passed": false, "error": "TypeError"}
+{"code": " []", "compilation_passed": true, "time": 0.007756710052490234, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*T1))", "compilation_passed": true, "time": 0.00931096076965332, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(elem) for elem in itertools.chain(*T1)]", "compilation_passed": true, "time": 0.008744239807128906, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(i) for row in T1 for i in row]", "compilation_passed": true, "time": 0.008476972579956055, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(int, itertools.chain(*T1)))", "compilation_passed": true, "time": 0.008095979690551758, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(row) for row in T1]", "compilation_passed": true, "time": 0.01260685920715332, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,12 @@
+{"code": " X_test, y_train, y_test = train_test_split(", "compilation_passed": false, "time": 0.00022292137145996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)", "compilation_passed": true, "time": 0.030035972595214844, "tests_passed": false, "error": "ValueError"}
+{"code": " X_test, y_train, y_test = train_test_split(X, y, test_size=0.15)  # Use a train/validation split of 15%", "compilation_passed": true, "time": 0.028502941131591797, "tests_passed": true, "error": null}
+{"code": " X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)", "compilation_passed": true, "time": 0.031115055084228516, "tests_passed": true, "error": null}
+{"code": " X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)", "compilation_passed": true, "time": 0.029755830764770508, "tests_passed": true, "error": null}
+{"code": " X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)", "compilation_passed": true, "time": 0.009567022323608398, "tests_passed": false, "error": "ValueError"}
+{"code": " X_test, y_train, y_test = train_test_split(X, y, test_size=0.15, random_state=42)", "compilation_passed": true, "time": 0.03074812889099121, "tests_passed": true, "error": null}
+{"code": " X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42, stratify=y)  # Train and test data", "compilation_passed": true, "time": 0.019211769104003906, "tests_passed": false, "error": "ValueError"}
+{"code": " X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)  # Operate on the DataFrame", "compilation_passed": true, "time": 0.019471168518066406, "tests_passed": false, "error": "ValueError"}
+{"code": " X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)  # Using sklearn to split the data", "compilation_passed": true, "time": 0.03205990791320801, "tests_passed": true, "error": null}
+{"code": " X_test, y_train, y_test = train_test_split(X, y, random_state=42)", "compilation_passed": true, "time": 0.02294611930847168, "tests_passed": false, "error": "ValueError"}
+{"code": " X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)  # Use the train_test_split function", "compilation_passed": true, "time": 0.020778894424438477, "tests_passed": false, "error": "ValueError"}

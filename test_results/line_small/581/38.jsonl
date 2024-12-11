@@ -1,0 +1,23 @@
+{"code": " []", "compilation_passed": true, "time": 0.08066391944885254, "tests_passed": false, "error": "ValueError"}
+{"code": " [math.sin(i / frequency) for i in x_values]", "compilation_passed": true, "time": 0.6687331199645996, "tests_passed": true, "error": null}
+{"code": " [math.sin(2 * math.pi * frequency * t / size) for t in x_values]", "compilation_passed": true, "time": 0.705272912979126, "tests_passed": true, "error": null}
+{"code": " np.sin(2 * PI / size * (x_values + random.random())) * random.uniform(0, 2)", "compilation_passed": true, "time": 0.39581894874572754, "tests_passed": false, "error": "ZeroDivisionError"}
+{"code": " [random.random() for _ in range(size)]", "compilation_passed": true, "time": 0.6587531566619873, "tests_passed": true, "error": null}
+{"code": " np.sin(2 * np.pi * frequency * x_values / size)", "compilation_passed": true, "time": 0.5950217247009277, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00021696090698242188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [math.sin(2 * frequency * i) for i in x_values]", "compilation_passed": true, "time": 0.6394200325012207, "tests_passed": true, "error": null}
+{"code": " [random.random()*2-1 for i in range(size)]", "compilation_passed": true, "time": 0.6820919513702393, "tests_passed": true, "error": null}
+{"code": " [math.sin(2*math.pi*(frequency/RANGE)*i) for i in x_values]", "compilation_passed": true, "time": 0.613166093826294, "tests_passed": true, "error": null}
+{"code": " [math.sin(2 * PI * frequency * i) for i in x_values]", "compilation_passed": true, "time": 0.7273828983306885, "tests_passed": true, "error": null}
+{"code": " np.sin(x_values)", "compilation_passed": true, "time": 0.691065788269043, "tests_passed": true, "error": null}
+{"code": " [math.sin(i*frequency/size*2*PI) for i in x_values]", "compilation_passed": true, "time": 0.6447851657867432, "tests_passed": true, "error": null}
+{"code": " [math.sin(freq * x) for x in x_values]", "compilation_passed": true, "time": 0.010335922241210938, "tests_passed": false, "error": "NameError"}
+{"code": " [(math.sin((frequency * 2 * np.pi) / (size * 1000)) * 3.0) / 3 * np.sin(2 * np.pi * (x_value / 1000)) for x_value in x_values]", "compilation_passed": true, "time": 0.6599001884460449, "tests_passed": true, "error": null}
+{"code": " [math.sin(2 * math.pi * frequency * i / size) for i in range(size)]", "compilation_passed": true, "time": 0.6255695819854736, "tests_passed": true, "error": null}
+{"code": " [0] * size", "compilation_passed": true, "time": 0.6079061031341553, "tests_passed": true, "error": null}
+{"code": " [random.uniform(0, PI * 2) for _ in range(SIZE)]", "compilation_passed": true, "time": 0.07367610931396484, "tests_passed": false, "error": "ValueError"}
+{"code": " [math.sin(i * PI / size) for i in x_values]", "compilation_passed": true, "time": 0.7721662521362305, "tests_passed": true, "error": null}
+{"code": " np.sin(frequency * np.arange(0, size) / size)", "compilation_passed": true, "time": 0.7731680870056152, "tests_passed": true, "error": null}
+{"code": " np.sin(frequency * x_values)", "compilation_passed": true, "time": 0.6681220531463623, "tests_passed": true, "error": null}
+{"code": " [math.sin(x * 2 * PI * frequency) for x in x_values]", "compilation_passed": true, "time": 0.6650638580322266, "tests_passed": true, "error": null}
+{"code": " [math.sin(2 * math.pi * frequency * x / size) for x in x_values]", "compilation_passed": true, "time": 0.6934561729431152, "tests_passed": true, "error": null}

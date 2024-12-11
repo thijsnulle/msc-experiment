@@ -1,0 +1,10 @@
+{"code": " pd.read_csv(csv_file_path, usecols=[col1_name, col2_name])", "compilation_passed": true, "time": 0.248460054397583, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path)", "compilation_passed": true, "time": 0.22941899299621582, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path, index_col=None)", "compilation_passed": true, "time": 0.23851394653320312, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path, index_col=False)", "compilation_passed": true, "time": 0.23221707344055176, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path,", "compilation_passed": false, "time": 0.00016498565673828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_csv(csv_file_path, header=0)", "compilation_passed": true, "time": 0.22904396057128906, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path, index_col=0)", "compilation_passed": true, "time": 0.24245071411132812, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path, index_col=col1_name)", "compilation_passed": true, "time": 0.24590396881103516, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path, usecols=[col1_name, col2_name], header=0)", "compilation_passed": true, "time": 0.2450120449066162, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path, dtype={\"column1\": str, \"column2\": str})", "compilation_passed": true, "time": 0.23360514640808105, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": " padding.PKCS7(128).padder()", "compilation_passed": true, "time": 0.25873708724975586, "tests_passed": true, "error": null}
+{"code": " padding.PKCS1v15()", "compilation_passed": true, "time": 0.10530805587768555, "tests_passed": false, "error": "AttributeError"}
+{"code": " padding.PKCS1v15().padder()", "compilation_passed": true, "time": 0.027371883392333984, "tests_passed": false, "error": "AttributeError"}
+{"code": " padding.PKCS1v15().padder(aes_key)", "compilation_passed": true, "time": 0.060910940170288086, "tests_passed": false, "error": "AttributeError"}
+{"code": " padding.PKCS1v15().padder(data)", "compilation_passed": true, "time": 0.018252134323120117, "tests_passed": false, "error": "AttributeError"}
+{"code": " padding.PKCS7(algorithms.AES.block_size).padder()", "compilation_passed": true, "time": 0.27620506286621094, "tests_passed": true, "error": null}
+{"code": " padding.PKCS7(16).padder()", "compilation_passed": true, "time": 0.23020577430725098, "tests_passed": false, "error": "ValueError"}
+{"code": " padding.PKCS7(algorithms.AES().block_size).padder(data)", "compilation_passed": true, "time": 0.04588913917541504, "tests_passed": false, "error": "TypeError"}
+{"code": " padding.PKCS7(cipher.algorithm.block_size).padder()", "compilation_passed": true, "time": 0.629547119140625, "tests_passed": true, "error": null}

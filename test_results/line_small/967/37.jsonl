@@ -1,0 +1,12 @@
+{"code": "plot(X, y, label='sin(x)')", "compilation_passed": true, "time": 0.12522411346435547, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label=f'{func.__name__}(x)')", "compilation_passed": true, "time": 0.3125791549682617, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label=f\"{func.__name__}\")", "compilation_passed": true, "time": 0.32324886322021484, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label=f\"{func.__name__}(x)\")", "compilation_passed": true, "time": 0.3132338523864746, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label=\"func\")", "compilation_passed": true, "time": 0.07033586502075195, "tests_passed": true, "error": null}
+{"code": "plot(X, y)", "compilation_passed": true, "time": 0.07200002670288086, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(X, y, label=\"sin(x)\")", "compilation_passed": true, "time": 0.13532614707946777, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label=f'func: {func.__name__}')", "compilation_passed": true, "time": 0.32735610008239746, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label=r\"$\"+func.__name__+\"(x)$\")", "compilation_passed": true, "time": 0.3237950801849365, "tests_passed": true, "error": null}
+{"code": "plot(X, y, 'o', label='sin(x)')", "compilation_passed": true, "time": 0.14627599716186523, "tests_passed": true, "error": null}
+{"code": "plot(X, y, 'k', label='sin(x)')", "compilation_passed": true, "time": 0.13852810859680176, "tests_passed": true, "error": null}
+{"code": "plot(X, y, 'o', label=f\"{func.__name__}\")", "compilation_passed": true, "time": 0.3413519859313965, "tests_passed": true, "error": null}

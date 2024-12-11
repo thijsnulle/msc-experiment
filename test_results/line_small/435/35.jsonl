@@ -1,0 +1,7 @@
+{"code": " not (name in EMPLOYEES):", "compilation_passed": true, "time": 0.026037931442260742, "tests_passed": true, "error": null}
+{"code": " name not in EMPLOYEES:", "compilation_passed": true, "time": 0.025542736053466797, "tests_passed": true, "error": null}
+{"code": " not isinstance(name, str):", "compilation_passed": true, "time": 0.010479211807250977, "tests_passed": true, "error": null}
+{"code": " not all([name.lower() in EMPLOYEES for name in [name, \"John\", \"Alice\", \"Bob\", \"Charlie\", \"David\"]]):", "compilation_passed": true, "time": 0.011168956756591797, "tests_passed": false, "error": "ValueError"}
+{"code": " name in EMPLOYEES:", "compilation_passed": true, "time": 0.01444101333618164, "tests_passed": false, "error": "ValueError"}
+{"code": " name.title() not in EMPLOYEES:", "compilation_passed": true, "time": 0.011105060577392578, "tests_passed": true, "error": null}
+{"code": " not (", "compilation_passed": false, "time": 0.00016188621520996094, "tests_passed": false, "error": "SyntaxError"}

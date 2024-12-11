@@ -1,0 +1,5 @@
+{"code": " given_date + timedelta(days=1)", "compilation_passed": true, "time": 0.0057408809661865234, "tests_passed": true, "error": null}
+{"code": " given_date.date() + timedelta(days=1)", "compilation_passed": true, "time": 0.0037941932678222656, "tests_passed": true, "error": null}
+{"code": " (given_date + timedelta(days=1)).date()", "compilation_passed": true, "time": 0.003548860549926758, "tests_passed": true, "error": null}
+{"code": " given_date + timedelta(1)", "compilation_passed": true, "time": 0.003992795944213867, "tests_passed": true, "error": null}
+{"code": " (given_date + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)", "compilation_passed": true, "time": 0.003793001174926758, "tests_passed": true, "error": null}

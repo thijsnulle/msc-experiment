@@ -1,0 +1,8 @@
+{"code": " [", "compilation_passed": false, "time": 0.0004892349243164062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [\"top\", \"-bn1\", \"-d\", \"1\", \"-c\", \"-u\", \"0\"]", "compilation_passed": true, "time": 0.08693933486938477, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " [\"sar\", \"-n\", \"CPU\", \"-o\", LOGFILE_PATH]", "compilation_passed": true, "time": 0.07576298713684082, "tests_passed": true, "error": null}
+{"code": " [\"top\", \"-b\", \"-n\", \"1\"]", "compilation_passed": true, "time": 0.08601903915405273, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " [\"sar\", \"1\"]", "compilation_passed": true, "time": 0.07144999504089355, "tests_passed": true, "error": null}
+{"code": " [\"iowait\", \"-p\", str(os.getpid())]", "compilation_passed": true, "time": 0.07336568832397461, "tests_passed": true, "error": null}
+{"code": " [\"iostat\", \"-P\", \"1\", \"-c\", \"0\"]", "compilation_passed": true, "time": 0.09101295471191406, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " [\"/proc/cpuinfo\", \"--interval\", str(interval), \"--output\", \"json\"]", "compilation_passed": true, "time": 0.07052063941955566, "tests_passed": true, "error": null}

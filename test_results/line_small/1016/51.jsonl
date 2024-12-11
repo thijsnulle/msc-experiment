@@ -1,0 +1,21 @@
+{"code": "hist(img_array.ravel(), 256)", "compilation_passed": true, "time": 0.7192368507385254, "tests_passed": true, "error": null}
+{"code": "hist(img_array, bins=256, range=(0, 255), edgecolor=\"w\", linewidth=0)", "compilation_passed": true, "time": 1.0124900341033936, "tests_passed": false, "error": "TimeoutError"}
+{"code": "hist(img_array.ravel(), bins=256)", "compilation_passed": true, "time": 0.7583019733428955, "tests_passed": true, "error": null}
+{"code": "hist(img_array.ravel(), bins=256, density=True, edgecolor=\"white\")", "compilation_passed": true, "time": 0.6847531795501709, "tests_passed": true, "error": null}
+{"code": "hist(img_array, bins=256, density=True)", "compilation_passed": true, "time": 1.0114331245422363, "tests_passed": false, "error": "TimeoutError"}
+{"code": "hist(img_array, bins=255)", "compilation_passed": true, "time": 1.012789011001587, "tests_passed": false, "error": "TimeoutError"}
+{"code": "hist(img_array, bins=256, density=True, linewidth=0, rwidth=1, edgecolor=\"black\")", "compilation_passed": true, "time": 1.012768030166626, "tests_passed": false, "error": "TimeoutError"}
+{"code": "hist(img_array.flatten(), bins=256, density=True)", "compilation_passed": true, "time": 0.7395079135894775, "tests_passed": true, "error": null}
+{"code": "hist(img_array.flatten(), bins=256)", "compilation_passed": true, "time": 0.680649995803833, "tests_passed": true, "error": null}
+{"code": "hist(img_array.flatten(), bins=256)  # Adjust the number of bins as needed", "compilation_passed": true, "time": 0.6916689872741699, "tests_passed": true, "error": null}
+{"code": "hist(img_array, bins=256)", "compilation_passed": true, "time": 1.0112559795379639, "tests_passed": false, "error": "TimeoutError"}
+{"code": "hist(img_array.ravel(), bins=256, color=\"b\", ec=\"b\", lw=2, alpha=0.5)", "compilation_passed": true, "time": 0.7613871097564697, "tests_passed": true, "error": null}
+{"code": "hist(img_array, bins=256, histtype='bar', rwidth=1, ec='black', alpha=0.5)", "compilation_passed": true, "time": 1.011000156402588, "tests_passed": false, "error": "TimeoutError"}
+{"code": "hist(img_array, bins=256, density=True, rwidth=0.95)", "compilation_passed": true, "time": 1.0113890171051025, "tests_passed": false, "error": "TimeoutError"}
+{"code": "hist(img_array, bins=256, density=True, edgecolor=\"white\", linewidth=0.5)", "compilation_passed": true, "time": 1.0146918296813965, "tests_passed": false, "error": "TimeoutError"}
+{"code": "hist(img_array, bins=128, density=True)", "compilation_passed": true, "time": 1.0168027877807617, "tests_passed": false, "error": "TimeoutError"}
+{"code": "hist(img_array.ravel(), bins=256, histtype=\"bar\")", "compilation_passed": true, "time": 1.0288019180297852, "tests_passed": false, "error": "TimeoutError"}
+{"code": "hist(img_array.flatten(), bins=256, color=\"red\", alpha=0.75)", "compilation_passed": true, "time": 0.6994068622589111, "tests_passed": true, "error": null}
+{"code": "hist(img_array, bins=256, edgecolor=\"black\", linewidth=1.0)", "compilation_passed": true, "time": 1.0124289989471436, "tests_passed": false, "error": "TimeoutError"}
+{"code": "hist(img_array.ravel(), bins=256, color=\"#FF0000\", rwidth=1)", "compilation_passed": true, "time": 0.7219560146331787, "tests_passed": true, "error": null}
+{"code": "hist(img_array.ravel(), 256, label=\"histogram\")", "compilation_passed": true, "time": 0.6995158195495605, "tests_passed": true, "error": null}

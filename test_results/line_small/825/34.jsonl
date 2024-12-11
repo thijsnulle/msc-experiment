@@ -1,0 +1,12 @@
+{"code": " all_combinations", "compilation_passed": true, "time": 0.0038127899169921875, "tests_passed": true, "error": null}
+{"code": " all_combinations[np.random.randint(0, len(all_combinations) - 1)]", "compilation_passed": true, "time": 0.003831148147583008, "tests_passed": true, "error": null}
+{"code": " np.random.choice(all_combinations, size=10, replace=False)", "compilation_passed": true, "time": 0.004058122634887695, "tests_passed": true, "error": null}
+{"code": " all_combinations[:10]", "compilation_passed": true, "time": 0.0036590099334716797, "tests_passed": true, "error": null}
+{"code": " np.random.choice(all_combinations, 10)", "compilation_passed": true, "time": 0.008109807968139648, "tests_passed": true, "error": null}
+{"code": " np.random.choice(all_combinations, 10, replace=False)", "compilation_passed": true, "time": 0.004292011260986328, "tests_passed": true, "error": null}
+{"code": " [all_combinations[np.random.randint(0, len(all_combinations))] for _ in range(10)]", "compilation_passed": true, "time": 0.00494384765625, "tests_passed": true, "error": null}
+{"code": " np.random.choice(all_combinations, size=10)", "compilation_passed": true, "time": 0.007968902587890625, "tests_passed": true, "error": null}
+{"code": " [all_combinations[i] for i in np.random.choice(len(all_combinations), 10)]", "compilation_passed": true, "time": 0.004990816116333008, "tests_passed": true, "error": null}
+{"code": " list(np.random.choice(all_combinations, 10, replace=False))", "compilation_passed": true, "time": 0.004016876220703125, "tests_passed": true, "error": null}
+{"code": " [all_combinations[i] for i in np.random.choice(len(all_combinations), size=10, replace=False)]", "compilation_passed": true, "time": 0.0046689510345458984, "tests_passed": true, "error": null}
+{"code": " list(np.random.choice(all_combinations, size=10))", "compilation_passed": true, "time": 0.007862091064453125, "tests_passed": true, "error": null}

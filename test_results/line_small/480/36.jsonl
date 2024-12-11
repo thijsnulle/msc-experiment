@@ -1,0 +1,9 @@
+{"code": " in df[\"Original String\"]:", "compilation_passed": true, "time": 0.0057201385498046875, "tests_passed": true, "error": null}
+{"code": " in df['Original String']:", "compilation_passed": true, "time": 0.0056269168853759766, "tests_passed": true, "error": null}
+{"code": " in df['Original String'].str.split(r','):", "compilation_passed": true, "time": 0.006696939468383789, "tests_passed": false, "error": "TypeError"}
+{"code": " in df['Original String'].values:", "compilation_passed": true, "time": 0.006639003753662109, "tests_passed": true, "error": null}
+{"code": " in df.Original_String:", "compilation_passed": true, "time": 0.009695768356323242, "tests_passed": false, "error": "AttributeError"}
+{"code": " in df['Original String'].str.split(', '):", "compilation_passed": true, "time": 0.0055387020111083984, "tests_passed": false, "error": "TypeError"}
+{"code": " in df[\"Original String\"].values:", "compilation_passed": true, "time": 0.005523204803466797, "tests_passed": true, "error": null}
+{"code": " in df.Original_String.apply(str.lower):", "compilation_passed": true, "time": 0.006081819534301758, "tests_passed": false, "error": "AttributeError"}
+{"code": " in df.Original_String.str.split(r',(?=(?:[^\"]|\"[^\"]*\")*$)', regex=True):", "compilation_passed": true, "time": 0.005281925201416016, "tests_passed": false, "error": "AttributeError"}

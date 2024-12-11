@@ -1,0 +1,7 @@
+{"code": " hash_obj.hexdigest()", "compilation_passed": true, "time": 0.0034301280975341797, "tests_passed": true, "error": null}
+{"code": " hash_obj.digest()", "compilation_passed": true, "time": 0.00934910774230957, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " binascii.hexlify(hash_obj.digest())", "compilation_passed": true, "time": 0.008418083190917969, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " binascii.hexlify(hash_obj.digest()).decode('utf-8')", "compilation_passed": true, "time": 0.003480195999145508, "tests_passed": true, "error": null}
+{"code": " binascii.b2a_hex(hash_obj.digest())", "compilation_passed": true, "time": 0.009470939636230469, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " binascii.hexlify(hash_obj.digest()).decode()", "compilation_passed": true, "time": 0.003246784210205078, "tests_passed": true, "error": null}
+{"code": " binascii.b2a_base64(hash_obj.digest())", "compilation_passed": true, "time": 0.008682966232299805, "tests_passed": false, "error": "sqlite3.OperationalError"}

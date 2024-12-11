@@ -1,0 +1,19 @@
+{"code": " df[list(df.columns)[:-1]]", "compilation_passed": true, "time": 0.028036117553710938, "tests_passed": true, "error": null}
+{"code": " df[[\"feature\"]]  # Explicitly using pd", "compilation_passed": true, "time": 0.018167972564697266, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df.columns.difference([target])]  # Excluding target variable from X", "compilation_passed": true, "time": 0.02031421661376953, "tests_passed": true, "error": null}
+{"code": " df.drop(target, axis=1)  # axis=1 is default, if there is only one feature", "compilation_passed": true, "time": 0.015130758285522461, "tests_passed": true, "error": null}
+{"code": " df.drop(target, axis=1)", "compilation_passed": true, "time": 0.015234947204589844, "tests_passed": true, "error": null}
+{"code": " df['feature'].values", "compilation_passed": true, "time": 0.017598867416381836, "tests_passed": false, "error": "KeyError"}
+{"code": " df[['feature']]", "compilation_passed": true, "time": 0.007143259048461914, "tests_passed": false, "error": "KeyError"}
+{"code": " df.drop(columns=[target])", "compilation_passed": true, "time": 0.015444278717041016, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=[target], axis=1)", "compilation_passed": true, "time": 0.01510310173034668, "tests_passed": true, "error": null}
+{"code": " df[['feature']]  # Explicitly using pd", "compilation_passed": true, "time": 0.00844120979309082, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df.columns[:-1]]", "compilation_passed": true, "time": 0.015276908874511719, "tests_passed": true, "error": null}
+{"code": " df.loc[:, 'feature']", "compilation_passed": true, "time": 0.02550029754638672, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df.columns.difference([target])]", "compilation_passed": true, "time": 0.016093969345092773, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 0:-1]", "compilation_passed": true, "time": 0.014076948165893555, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 0:df.shape[1] - 1]", "compilation_passed": true, "time": 0.014171838760375977, "tests_passed": true, "error": null}
+{"code": " df.loc[:, df.columns != target]", "compilation_passed": true, "time": 0.022735118865966797, "tests_passed": true, "error": null}
+{"code": " df.drop([target], axis=1)", "compilation_passed": true, "time": 0.01640605926513672, "tests_passed": true, "error": null}
+{"code": " df[list(df.columns[:-1])]", "compilation_passed": true, "time": 0.017159223556518555, "tests_passed": true, "error": null}
+{"code": " df[df.columns[:-1]]  # drop target variable", "compilation_passed": true, "time": 0.015706777572631836, "tests_passed": true, "error": null}

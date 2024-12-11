@@ -1,0 +1,10 @@
+{"code": " []", "compilation_passed": true, "time": 0.010460853576660156, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.where(array[0] == target_value)[0]", "compilation_passed": true, "time": 0.00818490982055664, "tests_passed": true, "error": null}
+{"code": " np.where(array == target_value)[0]", "compilation_passed": true, "time": 0.013159990310668945, "tests_passed": true, "error": null}
+{"code": " np.where(array==target_value)[0]", "compilation_passed": true, "time": 0.013836860656738281, "tests_passed": true, "error": null}
+{"code": " np.where(array[:, 0] == target_value)[0]", "compilation_passed": true, "time": 0.008231163024902344, "tests_passed": true, "error": null}
+{"code": " np.where(array[:,0] == target_value)[0]", "compilation_passed": true, "time": 0.00838613510131836, "tests_passed": true, "error": null}
+{"code": " np.array([i for i, row in enumerate(array) if row[0] == target_value])", "compilation_passed": true, "time": 0.007573127746582031, "tests_passed": true, "error": null}
+{"code": " np.argwhere(array == target_value).flatten()", "compilation_passed": true, "time": 0.017254114151000977, "tests_passed": true, "error": null}
+{"code": " [i for i, x in enumerate(array) if x[0] == target_value]", "compilation_passed": true, "time": 0.009797096252441406, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.argwhere(array == target_value).squeeze()", "compilation_passed": true, "time": 1.0390501022338867, "tests_passed": true, "error": null}

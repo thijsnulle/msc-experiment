@@ -1,0 +1,29 @@
+{"code": "value_counts(normalize=True)[value] == 1 / unique_values_count", "compilation_passed": true, "time": 0.05158209800720215, "tests_passed": false, "error": "NameError"}
+{"code": "count(i) == total_values // unique_values_count for i in range(unique_values_count)", "compilation_passed": true, "time": 0.047371864318847656, "tests_passed": false, "error": "TypeError"}
+{"code": "value_counts().iloc[:unique_values_count] == df[column_name].value_counts()[0])", "compilation_passed": false, "time": 0.000141143798828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "value_counts() == df[column_name].value_counts(dropna=False)", "compilation_passed": true, "time": 0.13203716278076172, "tests_passed": true, "error": null}
+{"code": "value_counts().iloc[:unique_values_count].eq(", "compilation_passed": false, "time": 0.00022602081298828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "nunique() == unique_values_count for _ in range(total_values))", "compilation_passed": false, "time": 0.00014901161193847656, "tests_passed": false, "error": "SyntaxError"}
+{"code": "value_counts().iloc[0] == total_values / unique_values_count for _ in range(unique_values_count))", "compilation_passed": false, "time": 0.0001800060272216797, "tests_passed": false, "error": "SyntaxError"}
+{"code": "value_counts()[i] == total_values / unique_values_count for i in", "compilation_passed": false, "time": 0.00036406517028808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "value_counts()[value] == total_values / unique_values_count", "compilation_passed": true, "time": 0.05293011665344238, "tests_passed": false, "error": "NameError"}
+{"code": "value_counts().iloc[0] == df[column_name].value_counts().iloc[-1] for _ in", "compilation_passed": false, "time": 0.0005228519439697266, "tests_passed": false, "error": "SyntaxError"}
+{"code": "value_counts().iloc[:unique_values_count] == total_values / unique_values_count", "compilation_passed": true, "time": 0.22709083557128906, "tests_passed": true, "error": null}
+{"code": "value_counts().iloc[0] == df[column_name].nunique()", "compilation_passed": true, "time": 0.05384016036987305, "tests_passed": false, "error": "TypeError"}
+{"code": "value_counts() == df[column_name].value_counts().iloc[:unique_values_count]", "compilation_passed": true, "time": 0.14450287818908691, "tests_passed": true, "error": null}
+{"code": "value_counts().iloc[0] == total_values / unique_values_count for _ in range(unique_values_count)", "compilation_passed": true, "time": 0.23069500923156738, "tests_passed": true, "error": null}
+{"code": "is_monotonic_increasing", "compilation_passed": true, "time": 0.062165021896362305, "tests_passed": false, "error": "TypeError"}
+{"code": "value_counts()[value] == total_values / unique_values_count for value in df[column_name].unique())", "compilation_passed": false, "time": 0.0002219676971435547, "tests_passed": false, "error": "SyntaxError"}
+{"code": "value_counts().iloc[0] == total_values / unique_values_count", "compilation_passed": true, "time": 0.0538640022277832, "tests_passed": false, "error": "TypeError"}
+{"code": "value_counts() / total_values == df[column_name].iloc[0]", "compilation_passed": true, "time": 0.08661031723022461, "tests_passed": true, "error": null}
+{"code": "value_counts().iloc[0] == df[column_name].value_counts()[x]", "compilation_passed": true, "time": 0.0439608097076416, "tests_passed": false, "error": "NameError"}
+{"code": "value_counts()[x] == total_values / unique_values_count", "compilation_passed": true, "time": 0.04710078239440918, "tests_passed": false, "error": "NameError"}
+{"code": "value_counts().iloc[0] / total_values == 1 / unique_values_count", "compilation_passed": true, "time": 0.049432992935180664, "tests_passed": false, "error": "TypeError"}
+{"code": "value_counts(dropna=False).iloc[0] == total_values / unique_values_count", "compilation_passed": true, "time": 0.053112030029296875, "tests_passed": false, "error": "TypeError"}
+{"code": "value_counts()[i] == total_values / unique_values_count for i in df[column_name].value_counts().index", "compilation_passed": true, "time": 0.23109078407287598, "tests_passed": true, "error": null}
+{"code": "value_counts(normalize=True) == df[column_name].value_counts(normalize=True, dropna=False)", "compilation_passed": true, "time": 0.13185691833496094, "tests_passed": true, "error": null}
+{"code": "value_counts(normalize=True).iloc[0] == 0.1", "compilation_passed": true, "time": 0.04554915428161621, "tests_passed": false, "error": "TypeError"}
+{"code": "value_counts(dropna=False) == unique_values_count", "compilation_passed": true, "time": 0.08946371078491211, "tests_passed": true, "error": null}
+{"code": "value_counts().iloc[0] == df[column_name].value_counts().iloc[-1] for i in", "compilation_passed": false, "time": 0.0002760887145996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": "value_counts()[i] == df[column_name].value_counts().iloc[0]", "compilation_passed": true, "time": 0.045950889587402344, "tests_passed": false, "error": "NameError"}
+{"code": "value_counts().values == df[column_name].value_counts().iloc[0] for _ in range(unique_values_count))", "compilation_passed": false, "time": 0.00018095970153808594, "tests_passed": false, "error": "SyntaxError"}

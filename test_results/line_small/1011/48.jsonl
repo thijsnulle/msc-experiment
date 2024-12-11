@@ -1,0 +1,20 @@
+{"code": "barh(groupby_data.index, groupby_data)", "compilation_passed": true, "time": 0.06409096717834473, "tests_passed": true, "error": null}
+{"code": "bar(groupby_data.index, groupby_data.values, width=0.4, alpha=0.8, label=\"Mean of value_column\")", "compilation_passed": true, "time": 0.22623801231384277, "tests_passed": true, "error": null}
+{"code": "bar(", "compilation_passed": false, "time": 0.00026226043701171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "barh(df.index, groupby_data.values, tick_label=df.index)", "compilation_passed": true, "time": 0.06287407875061035, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(groupby_data.index, groupby_data.values, width=0.4, color=\"red\")", "compilation_passed": true, "time": 0.2442631721496582, "tests_passed": true, "error": null}
+{"code": "bar(groupby_data.index, groupby_data.values)", "compilation_passed": true, "time": 0.23395109176635742, "tests_passed": true, "error": null}
+{"code": "bar(groupby_data.index, groupby_data.values, width=0.4)", "compilation_passed": true, "time": 0.23672890663146973, "tests_passed": true, "error": null}
+{"code": "bar(groupby_data.index, groupby_data, label='Grouped Mean')", "compilation_passed": true, "time": 0.23957419395446777, "tests_passed": true, "error": null}
+{"code": "barh(groupby_data.index, groupby_data.values)", "compilation_passed": true, "time": 0.05447697639465332, "tests_passed": true, "error": null}
+{"code": "barh(groupby_data.index, groupby_data.values, label=f\"{col1_name}\", linewidth=0)", "compilation_passed": true, "time": 0.06081795692443848, "tests_passed": true, "error": null}
+{"code": "bar(groupby_data.index, groupby_data, width=0.8, color='green', label='Mean')", "compilation_passed": true, "time": 0.2381138801574707, "tests_passed": true, "error": null}
+{"code": "bar(groupby_data.index, groupby_data.values, width=0.4, label=\"Mean of \"+col2_name, color='green')", "compilation_passed": true, "time": 0.2279071807861328, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Mean of {col2_name} Grouped by {col1_name}\")", "compilation_passed": true, "time": 0.04920315742492676, "tests_passed": true, "error": null}
+{"code": "barh(groupby_data.index, groupby_data, color=\"blue\")", "compilation_passed": true, "time": 0.06612992286682129, "tests_passed": true, "error": null}
+{"code": "bar(groupby_data.index, groupby_data.values, label=col2_name, width=0.4, alpha=0.6)", "compilation_passed": true, "time": 0.24686312675476074, "tests_passed": true, "error": null}
+{"code": "barh(groupby_data.index, groupby_data.values, color='blue')", "compilation_passed": true, "time": 0.0675051212310791, "tests_passed": true, "error": null}
+{"code": "bar(groupby_data.index, groupby_data)", "compilation_passed": true, "time": 0.22963285446166992, "tests_passed": true, "error": null}
+{"code": "bar(groupby_data.index, groupby_data.values, color='blue')", "compilation_passed": true, "time": 0.24847698211669922, "tests_passed": true, "error": null}
+{"code": "bar(groupby_data.index, groupby_data.values, width=0.5)", "compilation_passed": true, "time": 0.261915922164917, "tests_passed": true, "error": null}
+{"code": "bar(groupby_data.index, groupby_data, label=\"Grouped Mean\")", "compilation_passed": true, "time": 0.2520711421966553, "tests_passed": true, "error": null}

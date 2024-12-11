@@ -1,0 +1,6 @@
+{"code": " num_gaussians < 1:", "compilation_passed": true, "time": 0.013112068176269531, "tests_passed": true, "error": null}
+{"code": " num_gaussians <= 0:", "compilation_passed": true, "time": 0.010912895202636719, "tests_passed": true, "error": null}
+{"code": " num_gaussians > len(word_freqs):", "compilation_passed": true, "time": 0.010416984558105469, "tests_passed": true, "error": null}
+{"code": " num_gaussians > len(word_freqs.keys()):", "compilation_passed": true, "time": 0.010020732879638672, "tests_passed": true, "error": null}
+{"code": " len(words) > num_gaussians:", "compilation_passed": true, "time": 0.008295059204101562, "tests_passed": false, "error": "ValueError"}
+{"code": " len(word_freqs) > num_gaussians:", "compilation_passed": true, "time": 0.008213996887207031, "tests_passed": false, "error": "ValueError"}

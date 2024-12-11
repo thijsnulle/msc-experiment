@@ -1,0 +1,22 @@
+{"code": "set_xticks(list(range(len(locations))))", "compilation_passed": true, "time": 0.12049412727355957, "tests_passed": true, "error": null}
+{"code": "set_xticks(locations)", "compilation_passed": true, "time": 0.07694888114929199, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": "legend(labels=items)", "compilation_passed": true, "time": 0.11992096900939941, "tests_passed": true, "error": null}
+{"code": "legend(loc='upper right')", "compilation_passed": true, "time": 0.13001084327697754, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(locations)", "compilation_passed": true, "time": 0.12166500091552734, "tests_passed": true, "error": null}
+{"code": "set(xlabel='Location', ylabel='Item Count')", "compilation_passed": true, "time": 0.1242818832397461, "tests_passed": true, "error": null}
+{"code": "legend(title='Items', loc='upper left')", "compilation_passed": true, "time": 1.3034780025482178, "tests_passed": false, "error": "TimeoutError"}
+{"code": "legend(title=None, loc='upper left', bbox_to_anchor=(1, 1), ncol=len(items))", "compilation_passed": true, "time": 0.1321871280670166, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Location')", "compilation_passed": true, "time": 0.12475991249084473, "tests_passed": true, "error": null}
+{"code": "legend(bbox_to_anchor=(1.0, 1.0), loc='upper left')", "compilation_passed": true, "time": 0.13871192932128906, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(0, len(locations)))", "compilation_passed": true, "time": 0.06309723854064941, "tests_passed": false, "error": "NameError"}
+{"code": "set_xticks(item_count_df.columns.get_level_values(0))", "compilation_passed": true, "time": 0.06638813018798828, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": "set_xticks(range(1, len(locations)+1))", "compilation_passed": true, "time": 0.12695813179016113, "tests_passed": true, "error": null}
+{"code": "legend.remove()", "compilation_passed": true, "time": 0.0616147518157959, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_xticklabels(items)", "compilation_passed": true, "time": 0.1356370449066162, "tests_passed": true, "error": null}
+{"code": "set_xticks(ax.get_xticklabels())", "compilation_passed": true, "time": 0.06970429420471191, "tests_passed": false, "error": "TypeError"}
+{"code": "legend(loc='upper right', title='Item')", "compilation_passed": true, "time": 0.12679195404052734, "tests_passed": true, "error": null}
+{"code": "set(xlabel='Location', ylabel='Count')", "compilation_passed": true, "time": 0.26953983306884766, "tests_passed": true, "error": null}
+{"code": "legend(items, locations, title='Location')", "compilation_passed": true, "time": 0.12508583068847656, "tests_passed": true, "error": null}
+{"code": "legend(loc='upper left', bbox_to_anchor=(1, 1))", "compilation_passed": true, "time": 0.1276710033416748, "tests_passed": true, "error": null}
+{"code": "legend(items, loc='upper left')", "compilation_passed": true, "time": 0.14666175842285156, "tests_passed": true, "error": null}
+{"code": "set(xticks=ax.get_xticks(), yticks=ax.get_yticks())", "compilation_passed": true, "time": 0.13885807991027832, "tests_passed": true, "error": null}

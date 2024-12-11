@@ -1,0 +1,4 @@
+{"code": "rmtree(os.path.join(source_dir, file))", "compilation_passed": true, "time": 0.015236854553222656, "tests_passed": false, "error": "NotADirectoryError"}
+{"code": "rmtree(os.path.join(source_dir, file), ignore_errors=True)", "compilation_passed": true, "time": 0.015505075454711914, "tests_passed": true, "error": null}
+{"code": "rmtree(source_dir)", "compilation_passed": true, "time": 0.016811132431030273, "tests_passed": true, "error": null}
+{"code": "move(os.path.join(source_dir, file), target_dir)", "compilation_passed": true, "time": 0.01712632179260254, "tests_passed": true, "error": null}

@@ -1,0 +1,15 @@
+{"code": " pd.DataFrame.from_dict(result, orient=\"index\", columns=[\"mean\", \"median\"])", "compilation_passed": true, "time": 0.012274980545043945, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(result, orient=\"index\").sort_index()", "compilation_passed": true, "time": 0.033598899841308594, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(result, orient=\"index\")", "compilation_passed": true, "time": 0.007367849349975586, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(result).reindex(sorted(stats.keys()), axis=1)", "compilation_passed": true, "time": 0.008356094360351562, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(result, index=all_keys).sort_index()", "compilation_passed": true, "time": 0.011674165725708008, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(result)", "compilation_passed": true, "time": 0.0077362060546875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=result).T.sort_index()", "compilation_passed": true, "time": 0.03062129020690918, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(result).sort_index()", "compilation_passed": true, "time": 0.007967948913574219, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(result)", "compilation_passed": true, "time": 0.00888204574584961, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(result).T.sort_index()", "compilation_passed": true, "time": 0.030047893524169922, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(result, index=all_keys)", "compilation_passed": true, "time": 0.008147239685058594, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(result).T", "compilation_passed": true, "time": 0.007924079895019531, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(result).reindex(all_keys)", "compilation_passed": true, "time": 0.007590770721435547, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(result).reindex_frames(all_keys)", "compilation_passed": true, "time": 0.008839845657348633, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame.from_dict(result).reindex(all_keys)", "compilation_passed": true, "time": 0.008259296417236328, "tests_passed": true, "error": null}

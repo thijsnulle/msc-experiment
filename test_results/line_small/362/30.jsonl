@@ -1,0 +1,5 @@
+{"code": " not os.path.isfile(original_file_location):", "compilation_passed": true, "time": 0.010025978088378906, "tests_passed": false, "error": "ModuleNotFoundError"}
+{"code": " not os.path.exists(original_file_location):", "compilation_passed": true, "time": 0.6008203029632568, "tests_passed": false, "error": "ModuleNotFoundError"}
+{"code": " os.path.isfile(original_file_location) is False:", "compilation_passed": true, "time": 0.10783600807189941, "tests_passed": true, "error": null}
+{"code": " os.path.exists(original_file_location):", "compilation_passed": true, "time": 0.021017074584960938, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.isfile(original_file_location):", "compilation_passed": true, "time": 0.02117300033569336, "tests_passed": false, "error": "FileNotFoundError"}

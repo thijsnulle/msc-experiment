@@ -1,0 +1,9 @@
+{"code": " re.search(keyword, line):", "compilation_passed": true, "time": 0.003822803497314453, "tests_passed": true, "error": null}
+{"code": " re.search(r'\\b{}\\b'.format(keyword), line):", "compilation_passed": true, "time": 0.0039691925048828125, "tests_passed": true, "error": null}
+{"code": " re.search(r\"\\b{}\\b\".format(keyword), line):", "compilation_passed": true, "time": 0.004567861557006836, "tests_passed": true, "error": null}
+{"code": " re.search(f'(^[A-Z]{1}):.*{keyword}', line):", "compilation_passed": true, "time": 0.013631820678710938, "tests_passed": true, "error": null}
+{"code": " keyword in line:", "compilation_passed": true, "time": 0.004181861877441406, "tests_passed": true, "error": null}
+{"code": " re.search(f\".*{keyword}.*\", line):", "compilation_passed": true, "time": 0.005434751510620117, "tests_passed": true, "error": null}
+{"code": " re.search(r'\\b' + keyword + r'\\b', line) is not None:", "compilation_passed": true, "time": 0.003631114959716797, "tests_passed": true, "error": null}
+{"code": " re.search(f\"{keyword}\", line):", "compilation_passed": true, "time": 0.0038747787475585938, "tests_passed": true, "error": null}
+{"code": " re.search(f'(?i){keyword}', line):", "compilation_passed": true, "time": 0.004319190979003906, "tests_passed": true, "error": null}

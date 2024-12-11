@@ -1,0 +1,4 @@
+{"code": "append(row)", "compilation_passed": true, "time": 0.007536172866821289, "tests_passed": true, "error": null}
+{"code": "append(dict(row))", "compilation_passed": true, "time": 0.008270025253295898, "tests_passed": true, "error": null}
+{"code": "append(json.dumps(row))", "compilation_passed": true, "time": 0.009367942810058594, "tests_passed": false, "error": "TypeError"}
+{"code": "append(json.loads(json.dumps(row)))", "compilation_passed": true, "time": 0.009098052978515625, "tests_passed": true, "error": null}

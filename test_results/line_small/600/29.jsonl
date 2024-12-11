@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame(df)", "compilation_passed": true, "time": 0.03343629837036133, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df['Word'])", "compilation_passed": true, "time": 0.014026880264282227, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame.from_dict(df)", "compilation_passed": true, "time": 0.03543496131896973, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df['Word'], columns=['Word'])", "compilation_passed": true, "time": 0.03506898880004883, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df, index=[0])", "compilation_passed": true, "time": 0.027216672897338867, "tests_passed": false, "error": "ValueError"}

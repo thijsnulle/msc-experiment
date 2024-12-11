@@ -1,0 +1,10 @@
+{"code": " []", "compilation_passed": true, "time": 0.0228121280670166, "tests_passed": false, "error": "TypeError"}
+{"code": " np.mean(data_matrix, axis = 1)", "compilation_passed": true, "time": 0.07416009902954102, "tests_passed": true, "error": null}
+{"code": " np.mean(data_matrix, axis=1)", "compilation_passed": true, "time": 0.07033109664916992, "tests_passed": true, "error": null}
+{"code": " [np.mean(row) for row in data_matrix]", "compilation_passed": true, "time": 0.0248260498046875, "tests_passed": false, "error": "TypeError"}
+{"code": " data_matrix.mean(axis=0)", "compilation_passed": true, "time": 0.07558298110961914, "tests_passed": true, "error": null}
+{"code": " data_matrix.mean(axis=1)", "compilation_passed": true, "time": 0.08322620391845703, "tests_passed": true, "error": null}
+{"code": " np.mean(data_matrix, axis = 0)", "compilation_passed": true, "time": 0.0723869800567627, "tests_passed": true, "error": null}
+{"code": " data_matrix.mean(axis=1)  # Calculate the mean for each row", "compilation_passed": true, "time": 0.07435965538024902, "tests_passed": true, "error": null}
+{"code": " np.mean(data_matrix, axis=0)", "compilation_passed": true, "time": 0.07741498947143555, "tests_passed": true, "error": null}
+{"code": " [np.mean(x) for x in data_matrix]", "compilation_passed": true, "time": 0.02845597267150879, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,26 @@
+{"code": " not predefined_counts.equals(category_counts):", "compilation_passed": true, "time": 0.1294550895690918, "tests_passed": true, "error": null}
+{"code": " (predefined_counts == category_counts).all():", "compilation_passed": true, "time": 0.013234853744506836, "tests_passed": false, "error": "ValueError"}
+{"code": " (predefined_counts == predefined_counts.iloc[0]).all():", "compilation_passed": true, "time": 0.12665700912475586, "tests_passed": true, "error": null}
+{"code": " predefined_counts[CATEGORIES[0]] == predefined_counts[CATEGORIES[1]] == predefined_counts[CATEGORIES[2]]:", "compilation_passed": true, "time": 0.12768268585205078, "tests_passed": true, "error": null}
+{"code": " not predefined_counts[CATEGORIES].equals(predefined_counts):", "compilation_passed": true, "time": 0.11726593971252441, "tests_passed": true, "error": null}
+{"code": " predefined_counts.iloc[0] != predefined_counts.iloc[1] == predefined_counts.iloc[2] == predefined_counts.iloc[3] == predefined_counts.iloc[4]:", "compilation_passed": true, "time": 0.14822602272033691, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.equals(pd.Series(CATEGORIES)):", "compilation_passed": true, "time": 0.15244102478027344, "tests_passed": true, "error": null}
+{"code": " (predefined_counts == predefined_counts.mean()).all():", "compilation_passed": true, "time": 0.11661982536315918, "tests_passed": true, "error": null}
+{"code": " predefined_counts.sum() < 10:", "compilation_passed": true, "time": 0.15225696563720703, "tests_passed": true, "error": null}
+{"code": " (predefined_counts / len(data_list)).max() < 0.9:", "compilation_passed": true, "time": 0.15607213973999023, "tests_passed": true, "error": null}
+{"code": " predefined_counts[\"A\"] == predefined_counts[\"B\"] == predefined_counts[\"C\"] == predefined_counts[\"D\"] == predefined_counts[\"E\"]:", "compilation_passed": true, "time": 0.11598992347717285, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.index.is_unique:", "compilation_passed": true, "time": 0.1174309253692627, "tests_passed": true, "error": null}
+{"code": " not predefined_counts[\"A\"] or not predefined_counts[\"B\"] or not predefined_counts[\"C\"]:", "compilation_passed": true, "time": 0.12035822868347168, "tests_passed": true, "error": null}
+{"code": " predefined_counts.dtype == \"object\":", "compilation_passed": true, "time": 0.5882208347320557, "tests_passed": true, "error": null}
+{"code": " sum(predefined_counts) != len(predefined_counts):", "compilation_passed": true, "time": 0.16183805465698242, "tests_passed": true, "error": null}
+{"code": " not (predefined_counts / category_counts).equals(pd.Series([1.0] * len(predefined_counts))):", "compilation_passed": true, "time": 0.1581733226776123, "tests_passed": true, "error": null}
+{"code": " (predefined_counts / predefined_counts.sum()).all() < 0.5:", "compilation_passed": true, "time": 0.11652588844299316, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.equals(predefined_counts.iloc[0]):", "compilation_passed": true, "time": 0.1591498851776123, "tests_passed": true, "error": null}
+{"code": " not all(predefined_counts == predefined_counts.iloc[0]):", "compilation_passed": true, "time": 0.19075894355773926, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.equals(CATEGORIES):", "compilation_passed": true, "time": 0.1661968231201172, "tests_passed": true, "error": null}
+{"code": " (predefined_counts.min() == predefined_counts.max()) and (not (predefined_counts == 1).any()):", "compilation_passed": true, "time": 0.12253689765930176, "tests_passed": true, "error": null}
+{"code": " predefined_counts.iloc[0] != predefined_counts.iloc[1]:", "compilation_passed": true, "time": 0.15965700149536133, "tests_passed": true, "error": null}
+{"code": " predefined_counts.sum() != predefined_counts.count():", "compilation_passed": true, "time": 0.15985918045043945, "tests_passed": true, "error": null}
+{"code": " (predefined_counts == 1).all():", "compilation_passed": true, "time": 0.12942886352539062, "tests_passed": true, "error": null}
+{"code": " predefined_counts.iloc[0] == predefined_counts.iloc[1]:", "compilation_passed": true, "time": 0.12421894073486328, "tests_passed": true, "error": null}
+{"code": " len(predefined_counts) != len(CATEGORIES):", "compilation_passed": true, "time": 0.13078594207763672, "tests_passed": true, "error": null}

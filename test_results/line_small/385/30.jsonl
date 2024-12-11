@@ -1,0 +1,11 @@
+{"code": " []", "compilation_passed": true, "time": 0.0028951168060302734, "tests_passed": true, "error": null}
+{"code": " [fruit_dict[key] for key in fruit_dict.keys()]", "compilation_passed": true, "time": 0.011608123779296875, "tests_passed": false, "error": "TypeError"}
+{"code": " [fruit_dict[fruit] for fruit in fruit_dict]", "compilation_passed": true, "time": 0.010081052780151367, "tests_passed": false, "error": "TypeError"}
+{"code": " [fruit_dict[f] for f in fruit_dict]", "compilation_passed": true, "time": 0.009631156921386719, "tests_passed": false, "error": "TypeError"}
+{"code": " list(fruit_dict.values())", "compilation_passed": true, "time": 0.011250019073486328, "tests_passed": false, "error": "TypeError"}
+{"code": " FRUITS", "compilation_passed": true, "time": 0.030772924423217773, "tests_passed": true, "error": null}
+{"code": " [fruit for person, fruit in fruit_dict.items()]", "compilation_passed": true, "time": 0.010505199432373047, "tests_passed": false, "error": "TypeError"}
+{"code": " [v for k, v in fruit_dict.items()]", "compilation_passed": true, "time": 0.00880885124206543, "tests_passed": false, "error": "TypeError"}
+{"code": " list(FRUITS)", "compilation_passed": true, "time": 0.030936002731323242, "tests_passed": true, "error": null}
+{"code": " [i for i in fruit_dict.values()]", "compilation_passed": true, "time": 0.010051965713500977, "tests_passed": false, "error": "TypeError"}
+{"code": " [value for values in fruit_dict.values() for value in values]", "compilation_passed": true, "time": 0.020862102508544922, "tests_passed": false, "error": "TypeError"}

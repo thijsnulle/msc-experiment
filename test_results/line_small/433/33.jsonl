@@ -1,0 +1,10 @@
+{"code": " hmac.new(secret_key.encode(), decoded_msg.encode(), hashlib.sha1).hexdigest()", "compilation_passed": true, "time": 0.014953851699829102, "tests_passed": false, "error": "AttributeError"}
+{"code": " hmac.new(", "compilation_passed": false, "time": 0.00017070770263671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " hmac.new(bytes(secret_key, 'utf-8'), decoded_msg.encode(), hashlib.sha1).digest()", "compilation_passed": true, "time": 0.010498046875, "tests_passed": false, "error": "AttributeError"}
+{"code": " hmac.new(secret_key.encode(), decoded_msg.encode(), hashlib.sha1).digest()", "compilation_passed": true, "time": 0.010277986526489258, "tests_passed": false, "error": "AttributeError"}
+{"code": " hmac.new(secret_key.encode(), decoded_msg.encode(), digestmod=hashlib.sha1).digest()", "compilation_passed": true, "time": 0.01025700569152832, "tests_passed": false, "error": "AttributeError"}
+{"code": " hmac.new(secret_key, decoded_msg.encode(), hashlib.sha1).digest()", "compilation_passed": true, "time": 0.011794805526733398, "tests_passed": false, "error": "TypeError"}
+{"code": " hmac.new(secret_key.encode(), msg=decoded_msg.encode(), digestmod=hashlib.sha1).digest()", "compilation_passed": true, "time": 0.010394811630249023, "tests_passed": false, "error": "AttributeError"}
+{"code": " hmac.new(secret_key.encode('utf-8'), decoded_msg.encode('utf-8'), hashlib.sha1).digest()", "compilation_passed": true, "time": 0.010649919509887695, "tests_passed": false, "error": "AttributeError"}
+{"code": " hmac.new(secret_key.encode(), digestmod=hashlib.sha1).hexdigest()", "compilation_passed": true, "time": 0.010029792785644531, "tests_passed": false, "error": "AttributeError"}
+{"code": " hmac.new(secret_key.encode(), msg=decoded_msg.encode(), digestmod=hashlib.sha1).hexdigest()", "compilation_passed": true, "time": 0.009778261184692383, "tests_passed": false, "error": "AttributeError"}

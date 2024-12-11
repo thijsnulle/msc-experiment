@@ -1,0 +1,9 @@
+{"code": " utc_datetime", "compilation_passed": true, "time": 0.00799417495727539, "tests_passed": false, "error": "TypeError"}
+{"code": " utc_datetime.timestamp()", "compilation_passed": true, "time": 0.003983974456787109, "tests_passed": true, "error": null}
+{"code": " utc_datetime.astimezone(tz=pytz.timezone('UTC'))", "compilation_passed": true, "time": 0.005337953567504883, "tests_passed": false, "error": "TypeError"}
+{"code": " utc_datetime.strftime(\"%d/%m/%Y %H:%M:%S\")", "compilation_passed": true, "time": 0.0037932395935058594, "tests_passed": true, "error": null}
+{"code": " utc_datetime.strftime(\"%Y-%m-%d %H:%M:%S\")", "compilation_passed": true, "time": 0.0038149356842041016, "tests_passed": true, "error": null}
+{"code": " utc_datetime.isoformat()", "compilation_passed": true, "time": 0.0020761489868164062, "tests_passed": true, "error": null}
+{"code": " str(utc_datetime)", "compilation_passed": true, "time": 0.003896951675415039, "tests_passed": true, "error": null}
+{"code": " utc_datetime.astimezone(pytz.UTC)", "compilation_passed": true, "time": 0.005403041839599609, "tests_passed": false, "error": "TypeError"}
+{"code": " utc_datetime.strftime(\"%Y-%m-%dT%H:%M:%S.%fZ\")", "compilation_passed": true, "time": 0.0036628246307373047, "tests_passed": true, "error": null}

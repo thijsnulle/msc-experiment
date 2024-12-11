@@ -1,0 +1,8 @@
+{"code": " not isinstance(start_date, datetime):", "compilation_passed": true, "time": 0.008441925048828125, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(start_date, datetime) or not isinstance(end_date, datetime):", "compilation_passed": true, "time": 0.006763935089111328, "tests_passed": true, "error": null}
+{"code": " not isinstance(start_date, datetime.datetime):", "compilation_passed": true, "time": 0.006412982940673828, "tests_passed": false, "error": "AttributeError"}
+{"code": " start_date and end_date and isinstance(start_date, datetime) and isinstance(end_date, datetime):", "compilation_passed": true, "time": 0.00518488883972168, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(seed, int):", "compilation_passed": true, "time": 0.005680084228515625, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(seed, int) or (isinstance(start_date, datetime) and isinstance(end_date, datetime)):", "compilation_passed": true, "time": 0.005450010299682617, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(start_date, datetime) and isinstance(end_date, datetime) and start_date < end_date:", "compilation_passed": true, "time": 0.005606889724731445, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(start_date, datetime):", "compilation_passed": true, "time": 0.005031108856201172, "tests_passed": false, "error": "ValueError"}

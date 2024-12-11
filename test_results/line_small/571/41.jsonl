@@ -1,0 +1,12 @@
+{"code": " not os.path.isdir(os.path.split(file_path)[0]):", "compilation_passed": true, "time": 0.014822959899902344, "tests_passed": false, "error": "TypeError"}
+{"code": " not os.path.isfile(file_path):", "compilation_passed": true, "time": 0.011367321014404297, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(file_path, str) or not file_path:", "compilation_passed": true, "time": 0.01049494743347168, "tests_passed": true, "error": null}
+{"code": " not isinstance(file_path, str):", "compilation_passed": true, "time": 0.011713027954101562, "tests_passed": true, "error": null}
+{"code": " not isinstance(file_path, str) or not file_path.strip():", "compilation_passed": true, "time": 0.010957002639770508, "tests_passed": true, "error": null}
+{"code": " not file_path:", "compilation_passed": true, "time": 0.012695074081420898, "tests_passed": true, "error": null}
+{"code": " not isinstance(file_path, str) or not os.path.isdir(os.path.split(file_path)[0]):", "compilation_passed": true, "time": 0.011290788650512695, "tests_passed": false, "error": "ValueError"}
+{"code": " not file_path.endswith(\".csv\"):", "compilation_passed": true, "time": 0.011209964752197266, "tests_passed": false, "error": "AttributeError"}
+{"code": " not os.path.exists(file_path):", "compilation_passed": true, "time": 0.010983943939208984, "tests_passed": false, "error": "ValueError"}
+{"code": " not os.path.isdir(os.path.dirname(file_path)):", "compilation_passed": true, "time": 0.013056755065917969, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(file_path, str) or not os.access(file_path, os.W_OK):", "compilation_passed": true, "time": 0.013165950775146484, "tests_passed": false, "error": "ValueError"}
+{"code": " not os.path.iswritable(file_path):", "compilation_passed": true, "time": 0.010855913162231445, "tests_passed": false, "error": "AttributeError"}

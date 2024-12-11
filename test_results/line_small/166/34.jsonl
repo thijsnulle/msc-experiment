@@ -1,0 +1,11 @@
+{"code": " not isinstance(start_date, datetime):", "compilation_passed": true, "time": 0.002941131591796875, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " isinstance(start_date, datetime):", "compilation_passed": true, "time": 0.001837015151977539, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " start_date.tzinfo is None:", "compilation_passed": true, "time": 0.0015077590942382812, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " not isinstance(start_date, datetime.datetime):", "compilation_passed": true, "time": 0.0017619132995605469, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " not isinstance(start_date, datetime) or start_date.tzinfo is None:", "compilation_passed": true, "time": 0.001499176025390625, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " type(start_date) is not datetime:", "compilation_passed": true, "time": 0.0014908313751220703, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " type(start_date) != datetime:", "compilation_passed": true, "time": 0.0012540817260742188, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " not isinstance(start_date, datetime) or start_date > end_date:", "compilation_passed": true, "time": 0.0015900135040283203, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " type(start_date) != datetime or type(end_date) != datetime:", "compilation_passed": true, "time": 0.0013797283172607422, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " not isinstance(start_date, datetime.date):", "compilation_passed": true, "time": 0.0014448165893554688, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " start_date.__class__ != datetime:", "compilation_passed": true, "time": 0.0013039112091064453, "tests_passed": false, "error": "No module named 'holidays'"}

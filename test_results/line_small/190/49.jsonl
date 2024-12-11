@@ -1,0 +1,24 @@
+{"code": " []", "compilation_passed": true, "time": 0.010910987854003906, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " next(dr).keys()  # Get the keys of the first row in csv file", "compilation_passed": true, "time": 0.009248971939086914, "tests_passed": true, "error": null}
+{"code": " next(dr)", "compilation_passed": true, "time": 0.012907981872558594, "tests_passed": true, "error": null}
+{"code": " [name for name in dr.fieldnames]  # Get column names from the CSV", "compilation_passed": true, "time": 0.02706003189086914, "tests_passed": true, "error": null}
+{"code": " [', '.join(col) for col in zip(*next(dr))]", "compilation_passed": true, "time": 0.010716915130615234, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " \", \".join(dr.fieldnames)  # Convert field names into a string, with commas", "compilation_passed": true, "time": 0.011446952819824219, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " [x for x in dr.fieldnames]", "compilation_passed": true, "time": 0.021565914154052734, "tests_passed": true, "error": null}
+{"code": " ['id', 'name']", "compilation_passed": true, "time": 0.011469125747680664, "tests_passed": false, "error": "sqlite3.ProgrammingError"}
+{"code": " [field_name for field_name in dr.fieldnames]", "compilation_passed": true, "time": 0.026477813720703125, "tests_passed": true, "error": null}
+{"code": " \", \".join(['\"' + name + '\"' for name in dr.fieldnames])", "compilation_passed": true, "time": 0.010335922241210938, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " [", "compilation_passed": false, "time": 0.0005590915679931641, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [\"name\", \"id\"]", "compilation_passed": true, "time": 0.010725021362304688, "tests_passed": false, "error": "sqlite3.ProgrammingError"}
+{"code": " dr.fieldnames", "compilation_passed": true, "time": 0.025053024291992188, "tests_passed": true, "error": null}
+{"code": " [field[0] for field in dr.fieldnames]", "compilation_passed": true, "time": 0.020698070526123047, "tests_passed": false, "error": "KeyError"}
+{"code": " [k for k in dr.fieldnames]", "compilation_passed": true, "time": 0.024033784866333008, "tests_passed": true, "error": null}
+{"code": " [col[0].upper() for col in dr.fieldnames]", "compilation_passed": true, "time": 0.021352052688598633, "tests_passed": false, "error": "KeyError"}
+{"code": " [c[0] for c in dr.fieldnames]  # Get column names", "compilation_passed": true, "time": 0.019495010375976562, "tests_passed": false, "error": "KeyError"}
+{"code": " ','.join(dr.fieldnames)", "compilation_passed": true, "time": 0.010845184326171875, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " [x['name'] for x in dr.fieldnames]", "compilation_passed": true, "time": 0.014256715774536133, "tests_passed": false, "error": "TypeError"}
+{"code": " [\"id\", \"name\"]", "compilation_passed": true, "time": 0.011379003524780273, "tests_passed": false, "error": "sqlite3.ProgrammingError"}
+{"code": " ', '.join(dr.fieldnames)", "compilation_passed": true, "time": 0.012090682983398438, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " [field['name'] for field in dr.field_names]", "compilation_passed": true, "time": 0.01270294189453125, "tests_passed": false, "error": "AttributeError"}
+{"code": " ', '.join([name for name in dr.fieldnames])", "compilation_passed": true, "time": 0.012207984924316406, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " ','.join([\"'\" + col + \"'\" for col in dr.fieldnames])", "compilation_passed": true, "time": 0.023617982864379883, "tests_passed": false, "error": "sqlite3.OperationalError"}

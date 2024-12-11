@@ -1,0 +1,13 @@
+{"code": " \"SHA256 ({} bytes) - \".format(os.path.getsize(request)) + sha256_hash.hexdigest()", "compilation_passed": true, "time": 0.013599872589111328, "tests_passed": true, "error": null}
+{"code": " sha256_hash.hexdigest()", "compilation_passed": true, "time": 0.031992197036743164, "tests_passed": true, "error": null}
+{"code": " b\"SHA256 hash of file: \" + sha256_hash.hexdigest().encode()", "compilation_passed": true, "time": 0.016048192977905273, "tests_passed": true, "error": null}
+{"code": " \"SHA256 (\" + request + \"): \" + sha256_hash.hexdigest()", "compilation_passed": true, "time": 0.01408839225769043, "tests_passed": true, "error": null}
+{"code": " \"SHA256 hash of %s: %s\" % (request, sha256_hash.hexdigest())", "compilation_passed": true, "time": 0.01420283317565918, "tests_passed": true, "error": null}
+{"code": " f\"SHA256:{sha256_hash.hexdigest()}\"", "compilation_passed": true, "time": 0.015005111694335938, "tests_passed": true, "error": null}
+{"code": " \"SHA256: \" + sha256_hash.hexdigest()", "compilation_passed": true, "time": 0.014077901840209961, "tests_passed": true, "error": null}
+{"code": " f\"SHA256: {sha256_hash.hexdigest()}\"", "compilation_passed": true, "time": 0.013822078704833984, "tests_passed": true, "error": null}
+{"code": " b\"SHA256 hash: \" + sha256_hash.hexdigest().encode(\"utf-8\")", "compilation_passed": true, "time": 0.013315916061401367, "tests_passed": true, "error": null}
+{"code": " \"File found and SHA256 hash: {}\".format(sha256_hash.hexdigest())", "compilation_passed": true, "time": 0.013633966445922852, "tests_passed": true, "error": null}
+{"code": " sha256_hash.digest().hex()", "compilation_passed": true, "time": 0.03246593475341797, "tests_passed": true, "error": null}
+{"code": " str(sha256_hash.hexdigest())", "compilation_passed": true, "time": 0.03155779838562012, "tests_passed": true, "error": null}
+{"code": " sha256_hash.digest()", "compilation_passed": true, "time": 0.013402223587036133, "tests_passed": true, "error": null}

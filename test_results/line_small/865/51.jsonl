@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame({'Item': items, 'Normalized Count': counts_normalized, 'Normalized Weight': weights_normalized})", "compilation_passed": false, "time": 0.0003120899200439453, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({", "compilation_passed": true, "time": 0.0699472427368164, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(index=range(len(items)))", "compilation_passed": false, "time": 0.0002090930938720703, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Item': items,", "compilation_passed": true, "time": 0.06662726402282715, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(zip(items, counts_normalized, weights_normalized), columns=['Item', 'Normalized Count', 'Normalized Weight'])", "compilation_passed": false, "time": 0.0002307891845703125, "tests_passed": false, "error": "IndentationError"}

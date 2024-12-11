@@ -1,0 +1,14 @@
+{"code": " list(sheet.values)", "compilation_passed": true, "time": 0.03212285041809082, "tests_passed": true, "error": null}
+{"code": " sheet.values", "compilation_passed": true, "time": 0.03151416778564453, "tests_passed": true, "error": null}
+{"code": " [row.values for row in sheet.iter_rows()]", "compilation_passed": true, "time": 0.019208192825317383, "tests_passed": false, "error": "AttributeError"}
+{"code": " list(sheet.rows)", "compilation_passed": true, "time": 0.018194913864135742, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00020003318786621094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [list(row) for row in sheet.rows]", "compilation_passed": true, "time": 0.015350580215454102, "tests_passed": true, "error": null}
+{"code": " [row for row in sheet.rows]", "compilation_passed": true, "time": 0.014232158660888672, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.01390218734741211, "tests_passed": true, "error": null}
+{"code": " sheet.cell_values", "compilation_passed": true, "time": 0.015126705169677734, "tests_passed": false, "error": "AttributeError"}
+{"code": " [[cell.value for cell in row] for row in sheet.rows]", "compilation_passed": true, "time": 0.03360486030578613, "tests_passed": true, "error": null}
+{"code": " sheet.iter_rows()", "compilation_passed": true, "time": 0.013586759567260742, "tests_passed": true, "error": null}
+{"code": " [sheet.rows]", "compilation_passed": true, "time": 0.0157320499420166, "tests_passed": true, "error": null}
+{"code": " list(sheet.iter_rows())", "compilation_passed": true, "time": 0.01775383949279785, "tests_passed": true, "error": null}
+{"code": " list(sheet.iter_rows(values_only=True))", "compilation_passed": true, "time": 0.03207087516784668, "tests_passed": true, "error": null}

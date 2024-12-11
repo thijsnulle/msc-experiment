@@ -1,0 +1,21 @@
+{"code": " not j == 'url':", "compilation_passed": true, "time": 0.0065839290618896484, "tests_passed": true, "error": null}
+{"code": " j[1]:", "compilation_passed": true, "time": 0.006192922592163086, "tests_passed": true, "error": null}
+{"code": " j == \"http://google.com\":", "compilation_passed": true, "time": 0.006234884262084961, "tests_passed": true, "error": null}
+{"code": " regex.match(j) is not None:", "compilation_passed": true, "time": 0.0013072490692138672, "tests_passed": true, "error": null}
+{"code": " re.match(regex, j) is not None:", "compilation_passed": true, "time": 0.0014200210571289062, "tests_passed": true, "error": null}
+{"code": " isinstance(l_res[j], str):", "compilation_passed": true, "time": 0.006115913391113281, "tests_passed": true, "error": null}
+{"code": " len(j) == 0:", "compilation_passed": true, "time": 0.005928754806518555, "tests_passed": true, "error": null}
+{"code": " regex.match(j):", "compilation_passed": true, "time": 0.0013051033020019531, "tests_passed": true, "error": null}
+{"code": " regex.search(j) is not None:", "compilation_passed": true, "time": 0.0019638538360595703, "tests_passed": true, "error": null}
+{"code": " regex.match(l_res[j]):", "compilation_passed": true, "time": 0.008654117584228516, "tests_passed": false, "error": "TypeError"}
+{"code": " re.match(regex, j):", "compilation_passed": true, "time": 0.001447916030883789, "tests_passed": true, "error": null}
+{"code": " len(re.findall(regex, j)) > 0:", "compilation_passed": true, "time": 0.0013861656188964844, "tests_passed": true, "error": null}
+{"code": " type(l_res[j]) != int:", "compilation_passed": true, "time": 0.006413936614990234, "tests_passed": true, "error": null}
+{"code": " re.match(regex, j) != None:", "compilation_passed": true, "time": 0.0015327930450439453, "tests_passed": true, "error": null}
+{"code": " regex.search(j):", "compilation_passed": true, "time": 0.0012929439544677734, "tests_passed": true, "error": null}
+{"code": " regex.match(j['url']):", "compilation_passed": true, "time": 0.009580850601196289, "tests_passed": false, "error": "TypeError"}
+{"code": " not regex.match(j):", "compilation_passed": true, "time": 0.0059320926666259766, "tests_passed": true, "error": null}
+{"code": " regex.match(j) != None:", "compilation_passed": true, "time": 0.0012319087982177734, "tests_passed": true, "error": null}
+{"code": " re.search(regex, j):", "compilation_passed": true, "time": 0.0014028549194335938, "tests_passed": true, "error": null}
+{"code": " j != \"url\":", "compilation_passed": true, "time": 0.009421825408935547, "tests_passed": true, "error": null}
+{"code": " 'value' in j:", "compilation_passed": true, "time": 0.005594015121459961, "tests_passed": true, "error": null}

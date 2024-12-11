@@ -1,0 +1,18 @@
+{"code": "show()", "compilation_passed": true, "time": 0.322376012802124, "tests_passed": true, "error": null}
+{"code": "tight_layout()", "compilation_passed": true, "time": 0.46785688400268555, "tests_passed": true, "error": null}
+{"code": "title(\"Football Match Results\")", "compilation_passed": true, "time": 0.32401108741760254, "tests_passed": true, "error": null}
+{"code": "suptitle(f'Football Results (Goals={goals}, Penalties={penalties}, Penalty Cost={penalty_cost})')", "compilation_passed": true, "time": 0.32404613494873047, "tests_passed": true, "error": null}
+{"code": "suptitle(f'Football match results: {teams} with {penalties} penalties')", "compilation_passed": true, "time": 0.4088907241821289, "tests_passed": true, "error": null}
+{"code": "legend(loc='upper left', bbox_to_anchor=(1, 1))", "compilation_passed": true, "time": 0.33433103561401367, "tests_passed": true, "error": null}
+{"code": "legend(loc='lower center', bbox_to_anchor=(0.5, -0.2), ncol=3, fancybox=True, shadow=True)", "compilation_passed": true, "time": 0.36592912673950195, "tests_passed": true, "error": null}
+{"code": "xticks(rotation=30)", "compilation_passed": true, "time": 0.309276819229126, "tests_passed": true, "error": null}
+{"code": "xticks(rotation=90)", "compilation_passed": true, "time": 0.3284018039703369, "tests_passed": true, "error": null}
+{"code": "xticks(results_df['Team'], results_df['Team'], rotation=90)", "compilation_passed": true, "time": 0.08217120170593262, "tests_passed": false, "error": "Name"}
+{"code": "xlabel(\"Teams\")", "compilation_passed": true, "time": 0.314838171005249, "tests_passed": true, "error": null}
+{"code": "xlabel('Team')", "compilation_passed": true, "time": 0.46529507637023926, "tests_passed": true, "error": null}
+{"code": "title('Football match results')", "compilation_passed": true, "time": 0.3117690086364746, "tests_passed": true, "error": null}
+{"code": "title('Match Results')", "compilation_passed": true, "time": 0.32363200187683105, "tests_passed": true, "error": null}
+{"code": "ylabel('Points')", "compilation_passed": true, "time": 0.31847500801086426, "tests_passed": true, "error": null}
+{"code": "legend(labels=TEAMS, loc='upper center', ncol=5, bbox_to_anchor=(0, 1))", "compilation_passed": true, "time": 0.3233969211578369, "tests_passed": true, "error": null}
+{"code": "title(f'Football Match Results - {teams}')", "compilation_passed": true, "time": 0.3460268974304199, "tests_passed": true, "error": null}
+{"code": "legend(handles=[plt.Line2D([], [], label='Goals'), plt.Line2D([], [], label='Penalty Costs')])", "compilation_passed": true, "time": 0.33438801765441895, "tests_passed": true, "error": null}

@@ -1,0 +1,22 @@
+{"code": " plt.barh(report_df.index, report_df[\"Count\"], color=\"darkorange\")", "compilation_passed": true, "time": 0.0620880126953125, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(report_df.index, report_df.Count, color=\"white\")", "compilation_passed": true, "time": 0.0816183090209961, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(report_df.index, report_df.values)", "compilation_passed": true, "time": 0.06250119209289551, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.bar(report_df.index.values, report_df[\"Count\"])", "compilation_passed": true, "time": 0.07540297508239746, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(report_df.index, report_df[\"Count\"], color='blue', edgecolor='black', linewidth=0.5)", "compilation_passed": true, "time": 0.06622600555419922, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(report_df.index, report_df.Count)", "compilation_passed": true, "time": 0.0782921314239502, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.barh(report_df.index, report_df[\"Count\"])", "compilation_passed": true, "time": 0.07615900039672852, "tests_passed": false, "error": "AttributeError"}
+{"code": " report_df.plot.bar(figsize=(3, 4), title=\"Grade Distribution\")", "compilation_passed": true, "time": 0.5607700347900391, "tests_passed": true, "error": null}
+{"code": " plt.bar(report_df.index, report_df[\"Count\"])", "compilation_passed": true, "time": 0.09002900123596191, "tests_passed": false, "error": "AttributeError"}
+{"code": " report_df.plot.bar(title=\"Grade Distribution\")", "compilation_passed": true, "time": 0.5883309841156006, "tests_passed": true, "error": null}
+{"code": " plt.bar(report_df.index, report_df[\"Count\"], width=0.5)", "compilation_passed": true, "time": 0.07184886932373047, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(range(1, len(possible_grades) + 1), report_df[\"Count\"].values, width=1, align=\"center\", linewidth=0.3)", "compilation_passed": true, "time": 0.07636117935180664, "tests_passed": false, "error": "AttributeError"}
+{"code": " report_df.plot.bar(rot=0, figsize=(5, 3))", "compilation_passed": true, "time": 0.09531092643737793, "tests_passed": true, "error": null}
+{"code": " plt.bar(report_df.index.values, report_df.values)", "compilation_passed": true, "time": 0.08801007270812988, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.bar(range(len(report_df)), report_df[\"Count\"])", "compilation_passed": true, "time": 0.07975316047668457, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.subplots(figsize=(10, 4))[1]", "compilation_passed": true, "time": 0.10095715522766113, "tests_passed": true, "error": null}
+{"code": " plt.bar(report_df.index.values, report_df.values, color=\"teal\")", "compilation_passed": true, "time": 0.05908679962158203, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.16068005561828613, "tests_passed": true, "error": null}
+{"code": " report_df.plot.barh(color=\"r\")", "compilation_passed": true, "time": 0.11905574798583984, "tests_passed": true, "error": null}
+{"code": " plt.subplots(1, figsize=(4, 3))[1]", "compilation_passed": true, "time": 0.10026812553405762, "tests_passed": true, "error": null}
+{"code": " plt.barh(range(len(report_df)), report_df[\"Count\"], align=\"center\")", "compilation_passed": true, "time": 0.07334399223327637, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(range(5), report_df.iloc[:5, \"Count\"].values)", "compilation_passed": true, "time": 0.013483762741088867, "tests_passed": false, "error": "ValueError"}

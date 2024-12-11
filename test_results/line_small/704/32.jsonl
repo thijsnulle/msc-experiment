@@ -1,0 +1,10 @@
+{"code": " []", "compilation_passed": true, "time": 0.003364086151123047, "tests_passed": true, "error": null}
+{"code": " list(combinations(columns, 2))", "compilation_passed": true, "time": 0.007574796676635742, "tests_passed": true, "error": null}
+{"code": " list()", "compilation_passed": true, "time": 0.003123044967651367, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00017380714416503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [col1 + col2 for col1, col2 in combinations(columns, 2) if corr_matrix[col1][col2] >= MIN_PERCENTAGE]", "compilation_passed": true, "time": 0.00764012336730957, "tests_passed": true, "error": null}
+{"code": " [combo for combo in combinations(columns, 2) if corr_matrix[combo].max() > percentage]", "compilation_passed": true, "time": 0.029523134231567383, "tests_passed": false, "error": "KeyError"}
+{"code": " [tuple(col) for col in combinations(columns, 2) if corr_matrix[col].max() >= MIN_PERCENTAGE]", "compilation_passed": true, "time": 0.027826309204101562, "tests_passed": false, "error": "KeyError"}
+{"code": " [(col1, col2) for col1, col2 in combinations(columns, 2)", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " combinations(columns, 2)", "compilation_passed": true, "time": 0.009719133377075195, "tests_passed": false, "error": "AttributeError"}
+{"code": " [tuple(c) for c in combinations(columns, 2) if abs(corr_matrix[c].max()) >= percentage]", "compilation_passed": true, "time": 0.029020071029663086, "tests_passed": false, "error": "KeyError"}

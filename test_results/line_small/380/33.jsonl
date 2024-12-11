@@ -1,0 +1,10 @@
+{"code": " match.group(1)", "compilation_passed": true, "time": 0.00948786735534668, "tests_passed": true, "error": null}
+{"code": " '.' + match.group(1)", "compilation_passed": true, "time": 0.007723093032836914, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, match.group(1))", "compilation_passed": true, "time": 0.009566068649291992, "tests_passed": true, "error": null}
+{"code": " directory + '/' + match.group(1)", "compilation_passed": true, "time": 0.009449005126953125, "tests_passed": true, "error": null}
+{"code": " directory + '/' + match[0]", "compilation_passed": true, "time": 0.008800983428955078, "tests_passed": true, "error": null}
+{"code": " match[1]", "compilation_passed": true, "time": 0.011063814163208008, "tests_passed": false, "error": "shutil.Error"}
+{"code": " '{}/{}'.format(directory, match.group(1))", "compilation_passed": true, "time": 0.010185003280639648, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, match[0])", "compilation_passed": true, "time": 0.008519887924194336, "tests_passed": true, "error": null}
+{"code": " directory + '/' + match[1]", "compilation_passed": true, "time": 0.010586738586425781, "tests_passed": true, "error": null}
+{"code": " '.'.join(match.groups())", "compilation_passed": true, "time": 0.010620832443237305, "tests_passed": false, "error": "shutil.Error"}

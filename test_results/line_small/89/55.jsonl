@@ -1,0 +1,15 @@
+{"code": "subplot(2, 1, 1)", "compilation_passed": true, "time": 0.40380406379699707, "tests_passed": true, "error": null}
+{"code": "scatter(data_copy[:, 0], data_copy[:, 1])", "compilation_passed": true, "time": 0.41277003288269043, "tests_passed": true, "error": null}
+{"code": "subplot(1, 2, 1)", "compilation_passed": true, "time": 0.39227795600891113, "tests_passed": true, "error": null}
+{"code": "scatter(data_copy[:, 0], data_copy[:, 1], label='Data with Outliers')", "compilation_passed": true, "time": 0.4034581184387207, "tests_passed": true, "error": null}
+{"code": "scatter(data_copy[:, column], data_copy[:, column + 1])", "compilation_passed": true, "time": 0.05142402648925781, "tests_passed": false, "error": "IndexError"}
+{"code": "scatter(data[:, 0], data[:, 1], label='Data with Outliers')", "compilation_passed": true, "time": 0.38556408882141113, "tests_passed": true, "error": null}
+{"code": "scatter(standardized_data[:, 0], standardized_data[:, 1], label='Data')", "compilation_passed": true, "time": 0.05192399024963379, "tests_passed": false, "error": "IndexError"}
+{"code": "scatter(data_copy[:, 0], data_copy[:, 1], alpha=0.6)", "compilation_passed": true, "time": 0.40791869163513184, "tests_passed": true, "error": null}
+{"code": "scatter(column_data, standardized_data, c='b')", "compilation_passed": true, "time": 0.4361000061035156, "tests_passed": true, "error": null}
+{"code": "plot(data, c='b', marker='.', label='Data with Outliers')", "compilation_passed": true, "time": 0.4125990867614746, "tests_passed": true, "error": null}
+{"code": "scatter(data_copy[:, 0], data_copy[:, 1], label=\"Data with Outliers\")", "compilation_passed": true, "time": 1.8480942249298096, "tests_passed": true, "error": null}
+{"code": "scatter(data[:, 0], data[:, 1], c='green', alpha=0.5)", "compilation_passed": true, "time": 0.395488977432251, "tests_passed": true, "error": null}
+{"code": "subplot(211)", "compilation_passed": true, "time": 0.41599321365356445, "tests_passed": true, "error": null}
+{"code": "scatter(standardized_data[:, 0], standardized_data[:, 1], s=30, c='b')", "compilation_passed": true, "time": 0.0782020092010498, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(column_data, 'b')", "compilation_passed": true, "time": 0.4381380081176758, "tests_passed": true, "error": null}

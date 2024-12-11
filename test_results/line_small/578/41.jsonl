@@ -1,0 +1,10 @@
+{"code": " isinstance(value, str):", "compilation_passed": true, "time": 0.008450984954833984, "tests_passed": true, "error": null}
+{"code": " key in ['id', 'name', 'company', 'location', 'bio', 'public_repos', 'public_gists', 'followers', 'following',", "compilation_passed": false, "time": 0.0002110004425048828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " key != 'url':", "compilation_passed": true, "time": 0.014635086059570312, "tests_passed": false, "error": "TypeError"}
+{"code": " key == 'name':", "compilation_passed": true, "time": 0.005752086639404297, "tests_passed": true, "error": null}
+{"code": " key == 'login':  # This key will have Unicode data", "compilation_passed": true, "time": 0.013634920120239258, "tests_passed": true, "error": null}
+{"code": " key == 'bio':  # This will normalize all string values for a given key", "compilation_passed": true, "time": 0.011195182800292969, "tests_passed": true, "error": null}
+{"code": " value and isinstance(value, str):", "compilation_passed": true, "time": 0.00805807113647461, "tests_passed": true, "error": null}
+{"code": " key in ('name', 'company', 'location', 'blog', 'bio', 'created_at', 'url', 'updated_at'):", "compilation_passed": true, "time": 0.00549769401550293, "tests_passed": true, "error": null}
+{"code": " key == 'name' or isinstance(value, str):", "compilation_passed": true, "time": 0.006000995635986328, "tests_passed": true, "error": null}
+{"code": " key != 'repositories':", "compilation_passed": true, "time": 0.012542963027954102, "tests_passed": false, "error": "TypeError"}

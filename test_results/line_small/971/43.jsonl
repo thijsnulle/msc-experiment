@@ -1,0 +1,6 @@
+{"code": " not directory_path:", "compilation_passed": true, "time": 0.01610112190246582, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not os.path.exists(directory_path):", "compilation_passed": true, "time": 0.03775930404663086, "tests_passed": false, "error": "NotADirectoryError"}
+{"code": " not os.path.isdir(directory_path):", "compilation_passed": true, "time": 0.020770788192749023, "tests_passed": true, "error": null}
+{"code": " directory_path == '':", "compilation_passed": true, "time": 0.01640772819519043, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.exists(directory_path) == False:", "compilation_passed": true, "time": 0.02702188491821289, "tests_passed": false, "error": "NotADirectoryError"}
+{"code": " directory_path == \"\":", "compilation_passed": true, "time": 0.018864154815673828, "tests_passed": false, "error": "FileNotFoundError"}

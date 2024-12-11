@@ -1,0 +1,16 @@
+{"code": " text.translate(str.maketrans('', '', PUNCTUATION))", "compilation_passed": true, "time": 0.007583141326904297, "tests_passed": false, "error": "TypeError"}
+{"code": " ''.join(char for char in text if char not in PUNCTUATION)", "compilation_passed": true, "time": 0.0014548301696777344, "tests_passed": true, "error": null}
+{"code": " ''.join(ch for ch in text if ch not in PUNCTUATION)", "compilation_passed": true, "time": 0.0014240741729736328, "tests_passed": true, "error": null}
+{"code": " text.replace(\"\".join(PUNCTUATION), \"\")", "compilation_passed": true, "time": 0.0043888092041015625, "tests_passed": true, "error": null}
+{"code": " \"\".join(char for char in text if char not in PUNCTUATION)", "compilation_passed": true, "time": 0.0014848709106445312, "tests_passed": true, "error": null}
+{"code": " ''.join([char for char in text if char not in PUNCTUATION])", "compilation_passed": true, "time": 0.002190113067626953, "tests_passed": true, "error": null}
+{"code": " ''.join(letter for letter in text if letter not in PUNCTUATION)", "compilation_passed": true, "time": 0.002198934555053711, "tests_passed": true, "error": null}
+{"code": " text.replace(\" \", \"\")", "compilation_passed": true, "time": 0.004801034927368164, "tests_passed": true, "error": null}
+{"code": " ''.join(c for c in text if c not in PUNCTUATION)", "compilation_passed": true, "time": 0.0015799999237060547, "tests_passed": true, "error": null}
+{"code": " ''.join([i for i in text if i not in PUNCTUATION])", "compilation_passed": true, "time": 0.0021860599517822266, "tests_passed": true, "error": null}
+{"code": " text.translate(None, PUNCTUATION)", "compilation_passed": true, "time": 0.007880210876464844, "tests_passed": false, "error": "TypeError"}
+{"code": " re.sub(f'[{PUNCTUATION}]', '', text)", "compilation_passed": true, "time": 0.0043866634368896484, "tests_passed": true, "error": null}
+{"code": " ' '.join(c for c in text if c not in PUNCTUATION)", "compilation_passed": true, "time": 0.004063129425048828, "tests_passed": true, "error": null}
+{"code": " re.sub('[' + re.escape(PUNCTUATION) + ']', ' ', text)", "compilation_passed": true, "time": 0.008227109909057617, "tests_passed": false, "error": "TypeError"}
+{"code": " \"\".join(ch for ch in text if ch not in PUNCTUATION)", "compilation_passed": true, "time": 0.001600027084350586, "tests_passed": true, "error": null}
+{"code": " re.sub(\"[%s]\" % re.escape(PUNCTUATION), ' ', text)", "compilation_passed": true, "time": 0.006685972213745117, "tests_passed": false, "error": "TypeError"}

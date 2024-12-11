@@ -1,0 +1,17 @@
+{"code": " re.findall(pattern, json_str)", "compilation_passed": true, "time": 0.005486965179443359, "tests_passed": true, "error": null}
+{"code": " Counter(re.findall(pattern, json.dumps(data)))", "compilation_passed": true, "time": 0.005188941955566406, "tests_passed": true, "error": null}
+{"code": " [url for url in re.findall(pattern, json_str)]", "compilation_passed": true, "time": 0.005593776702880859, "tests_passed": true, "error": null}
+{"code": " {url: 0 for url in re.findall(pattern, json_str)}", "compilation_passed": true, "time": 0.005215167999267578, "tests_passed": true, "error": null}
+{"code": " re.findall(pattern, json.dumps(data))", "compilation_passed": true, "time": 0.005682945251464844, "tests_passed": true, "error": null}
+{"code": " {url: 0 for url in re.findall(pattern, data['website'])}", "compilation_passed": true, "time": 0.007014274597167969, "tests_passed": true, "error": null}
+{"code": " [match.group(0) for match in re.finditer(pattern, json_str)]", "compilation_passed": true, "time": 0.00905299186706543, "tests_passed": true, "error": null}
+{"code": " [match.group(0) for match in re.finditer(pattern, json_str) if match.group(0)]", "compilation_passed": true, "time": 0.006893634796142578, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0014872550964355469, "tests_passed": true, "error": null}
+{"code": " {url.replace(\"https://\",\"\").replace(\"http://\",\"\").replace(\"www.\",\"\").replace(\"www\",\"\") for url in re.findall(pattern, json_str)}", "compilation_passed": true, "time": 0.005796194076538086, "tests_passed": true, "error": null}
+{"code": " Counter(re.findall(pattern, json.dumps(data, sort_keys=True)))", "compilation_passed": true, "time": 0.006471157073974609, "tests_passed": true, "error": null}
+{"code": " re.findall(pattern, str(data))", "compilation_passed": true, "time": 0.005506038665771484, "tests_passed": true, "error": null}
+{"code": " Counter(re.findall(pattern, str(data)))", "compilation_passed": true, "time": 0.0055239200592041016, "tests_passed": true, "error": null}
+{"code": " Counter(re.findall(pattern, json.dumps(data, sort_keys=True, default=lambda obj: str(obj))))", "compilation_passed": true, "time": 0.0054280757904052734, "tests_passed": true, "error": null}
+{"code": " re.findall(pattern, data[\"website\"])", "compilation_passed": true, "time": 0.005549192428588867, "tests_passed": true, "error": null}
+{"code": " re.findall(pattern, data['website'])", "compilation_passed": true, "time": 0.005537986755371094, "tests_passed": true, "error": null}
+{"code": " {url.strip(): 0 for url in re.findall(pattern, str(data))}", "compilation_passed": true, "time": 0.0050792694091796875, "tests_passed": true, "error": null}

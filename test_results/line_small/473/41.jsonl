@@ -1,0 +1,15 @@
+{"code": "plot(walk, color=next(color_cycle))", "compilation_passed": true, "time": 0.9854991436004639, "tests_passed": true, "error": null}
+{"code": "plot(range(1, n_steps + 1), walk, color=next(color_cycle))", "compilation_passed": true, "time": 1.024543046951294, "tests_passed": false, "error": "TimeoutError"}
+{"code": "plot(np.arange(1, n_steps+1), walk, color=next(color_cycle), label=f\"Walk {_+1}\")", "compilation_passed": true, "time": 1.0153071880340576, "tests_passed": false, "error": "TimeoutError"}
+{"code": "plot(walk, next(color_cycle))", "compilation_passed": true, "time": 1.0665428638458252, "tests_passed": true, "error": null}
+{"code": "plot(range(n_steps), walk, color=next(color_cycle))", "compilation_passed": true, "time": 0.36420726776123047, "tests_passed": true, "error": null}
+{"code": "plot(walk, color=next(color_cycle), label=\"walk\")", "compilation_passed": true, "time": 0.36741185188293457, "tests_passed": true, "error": null}
+{"code": "plot(walk, next(color_cycle), label=f\"Walk {_ + 1}\")", "compilation_passed": true, "time": 0.37109827995300293, "tests_passed": true, "error": null}
+{"code": "plot(np.arange(walk.size + 1), walk, color=next(color_cycle))", "compilation_passed": true, "time": 0.03791093826293945, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(walk, next(color_cycle), label=\"Random walk\")", "compilation_passed": true, "time": 0.8229718208312988, "tests_passed": true, "error": null}
+{"code": "plot(np.arange(n_steps), walk, color=next(color_cycle))", "compilation_passed": true, "time": 0.35771703720092773, "tests_passed": true, "error": null}
+{"code": "plot(walk, next(color_cycle), lw=1, alpha=0.5)", "compilation_passed": true, "time": 0.36861681938171387, "tests_passed": true, "error": null}
+{"code": "plot(walk, next(color_cycle), label=f\"Walk #{n_walks}\", linewidth=4)", "compilation_passed": true, "time": 0.8855242729187012, "tests_passed": true, "error": null}
+{"code": "plot(walk, color=next(color_cycle), linewidth=0.5)", "compilation_passed": true, "time": 0.37247586250305176, "tests_passed": true, "error": null}
+{"code": "plot(walk, color=next(color_cycle), lw=0.5, alpha=0.5)", "compilation_passed": true, "time": 0.3860819339752197, "tests_passed": true, "error": null}
+{"code": "plot(walk, color=next(color_cycle), alpha=0.7)", "compilation_passed": true, "time": 0.9148540496826172, "tests_passed": true, "error": null}

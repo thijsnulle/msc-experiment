@@ -1,0 +1,24 @@
+{"code": " n < 1:", "compilation_passed": true, "time": 0.004829883575439453, "tests_passed": true, "error": null}
+{"code": " isinstance(value, int):", "compilation_passed": true, "time": 0.015614032745361328, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " value < 0 or value > 1:", "compilation_passed": true, "time": 0.011078357696533203, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " isinstance(n, int) and n > 0 and isinstance(value, float) and value >= 0:", "compilation_passed": true, "time": 0.005455732345581055, "tests_passed": true, "error": null}
+{"code": " n < 1 or n > 100:", "compilation_passed": true, "time": 0.005415201187133789, "tests_passed": true, "error": null}
+{"code": " not (type(n) == type(value) == int):", "compilation_passed": true, "time": 0.005595207214355469, "tests_passed": true, "error": null}
+{"code": " n <= 0 or n > 10 or not isinstance(value, int) or value < 0:", "compilation_passed": true, "time": 0.005787849426269531, "tests_passed": true, "error": null}
+{"code": " n < 10 or n > 100:", "compilation_passed": true, "time": 0.005652904510498047, "tests_passed": true, "error": null}
+{"code": " not (isinstance(value, float) and isinstance(n, int)):", "compilation_passed": true, "time": 0.009457111358642578, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " not isinstance(n, int):", "compilation_passed": true, "time": 0.01071476936340332, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " (n < 10 or n > 100) or (value < 0 or value > 1):", "compilation_passed": true, "time": 0.007551908493041992, "tests_passed": true, "error": null}
+{"code": " n > 10:", "compilation_passed": true, "time": 0.010130882263183594, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " n < 10:", "compilation_passed": true, "time": 0.005908966064453125, "tests_passed": true, "error": null}
+{"code": " (n <= 0 or n > 10000) or (value < 0 or value > 1):", "compilation_passed": true, "time": 0.005908012390136719, "tests_passed": true, "error": null}
+{"code": " n < 0:", "compilation_passed": true, "time": 0.010771036148071289, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " n < 2 or n > 10 or value < 0 or value > 1:", "compilation_passed": true, "time": 0.007408857345581055, "tests_passed": true, "error": null}
+{"code": " not isinstance(n, int) or not isinstance(value, float):", "compilation_passed": true, "time": 0.010692834854125977, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " n < 10 or not value >= 0 or value > 1:", "compilation_passed": true, "time": 0.0057830810546875, "tests_passed": true, "error": null}
+{"code": " isinstance(n, int) and isinstance(value, float):", "compilation_passed": true, "time": 0.006107807159423828, "tests_passed": true, "error": null}
+{"code": " (not isinstance(value, float)) or value > 1.0 or value < 0.0:", "compilation_passed": true, "time": 0.010544776916503906, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " not isinstance(n, int) or n < 0:", "compilation_passed": true, "time": 0.010648727416992188, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " value < 0:", "compilation_passed": true, "time": 0.011771917343139648, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " value > 1 or value < 0:", "compilation_passed": true, "time": 0.009996891021728516, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " n > 1000 or value > 1 or value < 0:", "compilation_passed": true, "time": 0.010104179382324219, "tests_passed": false, "error": "statistics.StatisticsError"}

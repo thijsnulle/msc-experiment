@@ -1,0 +1,4 @@
+{"code": " np.random.choice(products)", "compilation_passed": true, "time": 0.02184438705444336, "tests_passed": true, "error": null}
+{"code": " np.random.choice(products, p=np.random.rand(len(products)))", "compilation_passed": true, "time": 0.014492273330688477, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.choice(products, size=1)[0]", "compilation_passed": true, "time": 0.025004148483276367, "tests_passed": true, "error": null}
+{"code": " np.random.choice(products, 1).item()", "compilation_passed": true, "time": 0.02563786506652832, "tests_passed": true, "error": null}

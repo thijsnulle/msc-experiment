@@ -1,0 +1,7 @@
+{"code": "append((team, team_goals, penalty_cost))", "compilation_passed": true, "time": 0.011819124221801758, "tests_passed": true, "error": null}
+{"code": "append({'Team': team, 'Goals': team_goals, 'Penalty Cost': penalty_cost})", "compilation_passed": true, "time": 0.01246500015258789, "tests_passed": true, "error": null}
+{"code": "append([team, team_goals, penalty_cost])", "compilation_passed": true, "time": 0.012185811996459961, "tests_passed": true, "error": null}
+{"code": "append((team, team_goals, team_penalties))", "compilation_passed": true, "time": 0.014080047607421875, "tests_passed": true, "error": null}
+{"code": "append((team, team_goals, team_penalties, penalty_cost))", "compilation_passed": true, "time": 0.008033990859985352, "tests_passed": false, "error": "ValueError"}
+{"code": "append({", "compilation_passed": false, "time": 0.0002281665802001953, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append(f\"{team}: {team_goals} goals, {team_penalties} penalties, {penalty_cost} dollars\")", "compilation_passed": true, "time": 0.008929967880249023, "tests_passed": false, "error": "ValueError"}

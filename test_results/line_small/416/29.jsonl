@@ -1,0 +1,25 @@
+{"code": " not df.columns.is_unique:", "compilation_passed": true, "time": 0.14078807830810547, "tests_passed": true, "error": null}
+{"code": " not df.empty:", "compilation_passed": true, "time": 0.10629701614379883, "tests_passed": true, "error": null}
+{"code": " df.empty or not df.select_dtypes(include=[\"number\"]).columns.isin([column]).any():", "compilation_passed": true, "time": 0.10775399208068848, "tests_passed": true, "error": null}
+{"code": " len(df.columns) == 0 or df.select_dtypes(\"object\").empty:", "compilation_passed": true, "time": 0.11071991920471191, "tests_passed": true, "error": null}
+{"code": " not df.empty and df[column].dtype.name.lower() == 'object':", "compilation_passed": true, "time": 0.10538983345031738, "tests_passed": true, "error": null}
+{"code": " df.empty or not df[column].is_numeric():", "compilation_passed": true, "time": 0.008439064025878906, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.empty or df[column].nunumeric() == 0:", "compilation_passed": true, "time": 0.008367776870727539, "tests_passed": false, "error": "AttributeError"}
+{"code": " len(df.columns) == 0:", "compilation_passed": true, "time": 0.11547112464904785, "tests_passed": true, "error": null}
+{"code": " not df.columns:  # if no columns, return None", "compilation_passed": true, "time": 0.008339881896972656, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or df[column].dtype == object:", "compilation_passed": true, "time": 0.12094998359680176, "tests_passed": true, "error": null}
+{"code": " len(df) == 0:", "compilation_passed": true, "time": 0.1042928695678711, "tests_passed": true, "error": null}
+{"code": " df.empty or df[column].apply(pd.Series).isna().all():", "compilation_passed": true, "time": 0.010615110397338867, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or df[~df.apply(pd.Series.is_numeric)].empty:", "compilation_passed": true, "time": 0.008340120315551758, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.empty or not df.select_dtypes(include=np.number).columns.isin([column]).any():", "compilation_passed": true, "time": 0.10434389114379883, "tests_passed": true, "error": null}
+{"code": " df.empty or not df.select_dtypes(include=['number']).columns.isin([column]).all():", "compilation_passed": true, "time": 0.10255312919616699, "tests_passed": true, "error": null}
+{"code": " len(df) == 0 or not df.select_dtypes(include=[np.number]).columns.isin(", "compilation_passed": false, "time": 0.00020599365234375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not any(col.isnumeric() for col in df.columns):", "compilation_passed": true, "time": 0.10712599754333496, "tests_passed": true, "error": null}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.11828899383544922, "tests_passed": true, "error": null}
+{"code": " df.empty or df[column].dtype.name not in [\"int64\", \"float64\"]:", "compilation_passed": true, "time": 0.12305593490600586, "tests_passed": true, "error": null}
+{"code": " df.empty or not df.select_dtypes(include=\"number\").columns.isin([column]).all():", "compilation_passed": true, "time": 0.12147998809814453, "tests_passed": true, "error": null}
+{"code": " df.empty or not df[column].apply(pd.core.dtypes.is_numeric_dtype).all():", "compilation_passed": true, "time": 0.008330821990966797, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.empty or df[column].dtype.name not in \"float32\":", "compilation_passed": true, "time": 0.11922788619995117, "tests_passed": true, "error": null}
+{"code": " len(df.columns) == 0 or df[column].isnull().all():", "compilation_passed": true, "time": 0.10801100730895996, "tests_passed": true, "error": null}
+{"code": " df.empty or not df.columns.map(pd.Series(df.columns).str.isdigit()).any():", "compilation_passed": true, "time": 0.1279468536376953, "tests_passed": true, "error": null}
+{"code": " df.empty or df[column].dtype.kind not in \"biufc\":", "compilation_passed": true, "time": 0.12145471572875977, "tests_passed": true, "error": null}

@@ -1,0 +1,10 @@
+{"code": " df['X']", "compilation_passed": true, "time": 0.026327133178710938, "tests_passed": false, "error": "ValueError"}
+{"code": " df[['X']]", "compilation_passed": true, "time": 0.015292882919311523, "tests_passed": true, "error": null}
+{"code": " df[COLUMNS[0]]", "compilation_passed": true, "time": 0.009366035461425781, "tests_passed": false, "error": "ValueError"}
+{"code": " df.X", "compilation_passed": true, "time": 0.010396957397460938, "tests_passed": false, "error": "ValueError"}
+{"code": " df.values[:, :2]", "compilation_passed": true, "time": 0.010009050369262695, "tests_passed": false, "error": "ValueError"}
+{"code": " df['X'].values", "compilation_passed": true, "time": 0.013077974319458008, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " df.iloc[:, 0]", "compilation_passed": true, "time": 0.009485006332397461, "tests_passed": false, "error": "ValueError"}
+{"code": " df['X'].to_numpy().reshape(-1, 1)", "compilation_passed": true, "time": 0.010348081588745117, "tests_passed": true, "error": null}
+{"code": " df['X'].values.reshape(-1, 1)", "compilation_passed": true, "time": 0.010987043380737305, "tests_passed": true, "error": null}
+{"code": " df['X'].to_numpy()", "compilation_passed": true, "time": 0.012772083282470703, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}

@@ -1,0 +1,18 @@
+{"code": " pd.DataFrame(dict(", "compilation_passed": false, "time": 0.00031113624572753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"x\": np.random.uniform(-1, 1, N),", "compilation_passed": false, "time": 0.00019693374633789062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"x\": np.random.randn(N),", "compilation_passed": false, "time": 0.00019216537475585938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"x\": np.random.random(N), \"y\": np.random.random(N), \"category\": all_categories})", "compilation_passed": false, "time": 0.00045490264892578125, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({\"x\": np.random.uniform(0, 1, N), \"y\": np.random.uniform(0, 1, N), \"category\": all_categories})", "compilation_passed": false, "time": 0.0003192424774169922, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(np.random.randn(N, 2), columns=[\"x\", \"y\"], index=range(N))", "compilation_passed": false, "time": 0.0002868175506591797, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({\"x\": np.random.uniform(), \"y\": np.random.uniform(), \"category\": all_categories})", "compilation_passed": false, "time": 0.0002949237823486328, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(", "compilation_passed": true, "time": 0.7521860599517822, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"x\": np.random.randn(N), \"y\": np.random.randn(N), \"category\": all_categories})", "compilation_passed": false, "time": 0.0002849102020263672, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(np.random.rand(N, 2), columns=[\"x\", \"y\"], index=range(N))", "compilation_passed": false, "time": 0.0002880096435546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({\"x\": np.random.random(N), \"y\": np.random.random(N),", "compilation_passed": false, "time": 0.0001938343048095703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=[\"x\", \"y\", \"category\"])", "compilation_passed": false, "time": 0.0003008842468261719, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'x': np.random.uniform(-1, 1, N),", "compilation_passed": false, "time": 0.0003349781036376953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"x\": np.random.rand(N), \"y\": np.random.rand(N), \"category\": all_categories})", "compilation_passed": false, "time": 0.00030994415283203125, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(np.random.rand(N, 2), columns=[\"x\", \"y\"])", "compilation_passed": false, "time": 0.0002951622009277344, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({\"x\": np.random.random(N),", "compilation_passed": false, "time": 0.00037932395935058594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.randn(N, 2), columns=[\"x\", \"y\"])", "compilation_passed": false, "time": 0.0003199577331542969, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dict(x=np.random.normal(loc=1, scale=0.5, size=N), y=np.random.normal(loc=-1, scale=0.25, size=N), category=all_categories))", "compilation_passed": false, "time": 0.0004177093505859375, "tests_passed": false, "error": "IndentationError"}

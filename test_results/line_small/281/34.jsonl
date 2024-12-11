@@ -1,0 +1,5 @@
+{"code": " IP_REGEX.findall(content)", "compilation_passed": true, "time": 0.005905866622924805, "tests_passed": true, "error": null}
+{"code": " re.findall(IP_REGEX, content)", "compilation_passed": true, "time": 0.005452871322631836, "tests_passed": true, "error": null}
+{"code": " [IP_REGEX.findall(line)[0] for line in content.splitlines()]", "compilation_passed": true, "time": 0.017132043838500977, "tests_passed": false, "error": "IndexError"}
+{"code": " set(IP_REGEX.findall(content))", "compilation_passed": true, "time": 0.006082057952880859, "tests_passed": true, "error": null}
+{"code": " [IP_REGEX.search(line).group() for line in content.splitlines()]", "compilation_passed": true, "time": 0.01834702491760254, "tests_passed": false, "error": "AttributeError"}

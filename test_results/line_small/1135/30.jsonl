@@ -1,0 +1,12 @@
+{"code": " sorted(repos, key=repos.get)", "compilation_passed": true, "time": 0.014521121978759766, "tests_passed": false, "error": "AttributeError"}
+{"code": " sorted(repos.items(), key=lambda x: x[1])", "compilation_passed": true, "time": 0.009742975234985352, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.OrderedDict(sorted(repos.items(), key=lambda x: x[1]))", "compilation_passed": true, "time": 0.0036919116973876953, "tests_passed": true, "error": null}
+{"code": " sorted(repos, key=lambda k: repos[k])", "compilation_passed": true, "time": 0.009661197662353516, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.OrderedDict(sorted(repos.items(), key=lambda kv: kv[1]))", "compilation_passed": true, "time": 0.0036628246307373047, "tests_passed": true, "error": null}
+{"code": " sorted(repos, key=lambda name: repos[name])", "compilation_passed": true, "time": 0.01073908805847168, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.OrderedDict(sorted(repos.items(), key=lambda x: x[1], reverse=True))", "compilation_passed": true, "time": 0.0034399032592773438, "tests_passed": true, "error": null}
+{"code": " sorted(repos, key=lambda x: repos[x], reverse=True)", "compilation_passed": true, "time": 0.010040998458862305, "tests_passed": false, "error": "AttributeError"}
+{"code": " sorted(repos, key=lambda x: repos[x])", "compilation_passed": true, "time": 0.011565685272216797, "tests_passed": false, "error": "AttributeError"}
+{"code": " sorted(repos.keys(), key=repos.get)", "compilation_passed": true, "time": 0.010758161544799805, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.OrderedDict(sorted(repos.items(), key=lambda t: t[1]))", "compilation_passed": true, "time": 0.0034770965576171875, "tests_passed": true, "error": null}
+{"code": " sorted(repos.keys(), key=lambda x: repos[x])", "compilation_passed": true, "time": 0.010441064834594727, "tests_passed": false, "error": "AttributeError"}

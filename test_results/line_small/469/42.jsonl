@@ -1,0 +1,11 @@
+{"code": " Counter([g.upper() for g in student_grades])", "compilation_passed": true, "time": 0.5321030616760254, "tests_passed": true, "error": null}
+{"code": " Counter([g.upper() for g in student_grades if g in possible_grades])", "compilation_passed": true, "time": 0.4696338176727295, "tests_passed": true, "error": null}
+{"code": " Counter(student_grades)", "compilation_passed": true, "time": 0.47582411766052246, "tests_passed": true, "error": null}
+{"code": " Counter(", "compilation_passed": false, "time": 0.00023984909057617188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Counter(g.upper() for g in student_grades)", "compilation_passed": true, "time": 0.5879838466644287, "tests_passed": true, "error": null}
+{"code": " Counter([grade for grade in student_grades if grade.upper() in possible_grades])", "compilation_passed": true, "time": 0.4796450138092041, "tests_passed": true, "error": null}
+{"code": " Counter(s.upper() for s in student_grades if s.upper() in possible_grades)", "compilation_passed": true, "time": 0.5691049098968506, "tests_passed": true, "error": null}
+{"code": " pd.Series(Counter([g.upper() for g in student_grades]), index=possible_grades)", "compilation_passed": true, "time": 0.19384074211120605, "tests_passed": true, "error": null}
+{"code": " Counter([grade.upper() for grade in student_grades if grade.upper() in possible_grades])", "compilation_passed": true, "time": 0.5717160701751709, "tests_passed": true, "error": null}
+{"code": " Counter(s.upper() for s in student_grades)", "compilation_passed": true, "time": 0.5946252346038818, "tests_passed": true, "error": null}
+{"code": " pd.Series(Counter(student_grades)).sort_index()", "compilation_passed": true, "time": 0.49654293060302734, "tests_passed": true, "error": null}

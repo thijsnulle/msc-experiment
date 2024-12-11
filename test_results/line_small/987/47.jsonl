@@ -1,0 +1,10 @@
+{"code": " pd.Series(data, index=[\"index\"])", "compilation_passed": true, "time": 0.011588096618652344, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Series(data)", "compilation_passed": true, "time": 0.2199690341949463, "tests_passed": true, "error": null}
+{"code": " data", "compilation_passed": true, "time": 0.009728193283081055, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series(data, name=\"value\")", "compilation_passed": true, "time": 0.04006600379943848, "tests_passed": true, "error": null}
+{"code": " pd.Series(data, name=\"Original Data\")", "compilation_passed": true, "time": 0.041045188903808594, "tests_passed": true, "error": null}
+{"code": " data[\"values\"]", "compilation_passed": true, "time": 0.009204864501953125, "tests_passed": false, "error": "TypeError"}
+{"code": " data['values']", "compilation_passed": true, "time": 0.00994729995727539, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(data, dtype=\"float64\")", "compilation_passed": true, "time": 0.240401029586792, "tests_passed": true, "error": null}
+{"code": " data.values", "compilation_passed": true, "time": 0.008982181549072266, "tests_passed": false, "error": "AttributeError"}
+{"code": " data.get(\"values\")", "compilation_passed": true, "time": 0.009857177734375, "tests_passed": false, "error": "AttributeError"}

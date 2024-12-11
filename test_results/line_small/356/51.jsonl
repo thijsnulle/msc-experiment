@@ -1,0 +1,21 @@
+{"code": " ax.pcolor(x, y, Z, cmap=plt.cm.RdBu)", "compilation_passed": true, "time": 0.12212610244750977, "tests_passed": true, "error": null}
+{"code": " ax.pcolor(x, y, Z)", "compilation_passed": true, "time": 0.11451292037963867, "tests_passed": true, "error": null}
+{"code": " plt.pcolormesh(x, y, Z, shading='auto')", "compilation_passed": true, "time": 0.12292003631591797, "tests_passed": true, "error": null}
+{"code": " ax.pcolor(x, y, np.angle(Z), cmap='hsv', vmin=-np.pi, vmax=np.pi)", "compilation_passed": true, "time": 0.12129998207092285, "tests_passed": true, "error": null}
+{"code": " ax.pcolor(x, y, Z, cmap='magma', shading='auto')", "compilation_passed": true, "time": 0.15845298767089844, "tests_passed": true, "error": null}
+{"code": " ax.pcolor(x, y, Z, cmap='gray')", "compilation_passed": true, "time": 0.1262528896331787, "tests_passed": true, "error": null}
+{"code": " plt.Circle((0, 0), 1, color='black', linewidth=2)", "compilation_passed": true, "time": 0.05952620506286621, "tests_passed": false, "error": "AttributeError"}
+{"code": " ax.pcolormesh(x, y, Z, cmap='jet')  # Adjusted to use cmap='jet' instead of 'jet_r'", "compilation_passed": true, "time": 0.11793994903564453, "tests_passed": true, "error": null}
+{"code": " ax.pcolormesh(x, y, Z)", "compilation_passed": true, "time": 0.10497212409973145, "tests_passed": true, "error": null}
+{"code": " ax.pcolormesh(x, y, Z, cmap='rainbow', shading='flat')", "compilation_passed": true, "time": 0.039357900619506836, "tests_passed": false, "error": "TypeError"}
+{"code": " ax.pcolormesh(x, y, Z, cmap='RdBu', rmap='RdBu')", "compilation_passed": true, "time": 0.04681086540222168, "tests_passed": false, "error": "AttributeError"}
+{"code": " ax.pcolormesh(x, y, Z, shading='flat')  # Adjusted to add shading", "compilation_passed": true, "time": 0.04493594169616699, "tests_passed": false, "error": "TypeError"}
+{"code": " ax.pcolormesh(x, y, Z, cmap=\"jet\")", "compilation_passed": true, "time": 0.1046762466430664, "tests_passed": true, "error": null}
+{"code": " plt.Circle((0, 0), radius=1)", "compilation_passed": true, "time": 0.048880815505981445, "tests_passed": false, "error": "AttributeError"}
+{"code": " ax.pcolormesh(x, y, Z, cmap='brg')", "compilation_passed": true, "time": 0.11708974838256836, "tests_passed": true, "error": null}
+{"code": " ax.pcolor(x, y, Z, cmap='rainbow')", "compilation_passed": true, "time": 0.11490201950073242, "tests_passed": true, "error": null}
+{"code": " ax.pcolor(x, y, Z, cmap='RdBu', norm=plt.Normalize())", "compilation_passed": true, "time": 0.1141669750213623, "tests_passed": true, "error": null}
+{"code": " ax.pcolormesh(x, y, Z, shading=\"gouraud\")", "compilation_passed": true, "time": 0.116912841796875, "tests_passed": true, "error": null}
+{"code": " ax.pcolor(x, y, Z, cmap=\"twilight_shifted\", vmin=-np.pi, vmax=np.pi)", "compilation_passed": true, "time": 0.09625077247619629, "tests_passed": true, "error": null}
+{"code": " ax.pcolormesh(x, y, Z, vmin=0, vmax=2*np.pi)", "compilation_passed": true, "time": 0.09942507743835449, "tests_passed": true, "error": null}
+{"code": " ax.pcolor(x, y, Z, cmap='jet')", "compilation_passed": true, "time": 0.11134886741638184, "tests_passed": true, "error": null}

@@ -1,0 +1,10 @@
+{"code": " pd.crosstab(index=data[col1], columns=data[col2], aggfunc='count')", "compilation_passed": true, "time": 0.01186370849609375, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.crosstab(data[col1], data[col2], rownames=col1, colnames=col2, dropna=True)", "compilation_passed": true, "time": 0.009098052978515625, "tests_passed": true, "error": null}
+{"code": " chi2_contingency(pd.crosstab(data[col1], data[col2]))", "compilation_passed": true, "time": 0.013091087341308594, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.crosstab(data[col1], data[col2])", "compilation_passed": true, "time": 0.02149033546447754, "tests_passed": true, "error": null}
+{"code": " pd.crosstab(data[col1], data[col2], dropna=False)", "compilation_passed": true, "time": 0.02198314666748047, "tests_passed": true, "error": null}
+{"code": " pd.crosstab(data[col1], data[col2]).dropna(how='all')", "compilation_passed": true, "time": 0.02353191375732422, "tests_passed": true, "error": null}
+{"code": " chi2_contingency([data.groupby([col1, col2]).size().values, [40, 60, 40, 60]])", "compilation_passed": true, "time": 0.010001182556152344, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.crosstab(data[col1], data[col2],", "compilation_passed": false, "time": 0.0002770423889160156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.crosstab(data[col1], data[col2]).to_numpy()", "compilation_passed": true, "time": 0.01997089385986328, "tests_passed": true, "error": null}
+{"code": " np.array([[len(data.loc[data[col1] == x, col2]) for x in data[col1].unique()] for y in data[col2].unique()])", "compilation_passed": true, "time": 0.008754968643188477, "tests_passed": true, "error": null}

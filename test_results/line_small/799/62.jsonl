@@ -1,0 +1,13 @@
+{"code": " max([len(row) for row in L])", "compilation_passed": true, "time": 0.045638322830200195, "tests_passed": true, "error": null}
+{"code": " max(len(row) for row in L)", "compilation_passed": true, "time": 0.04562807083129883, "tests_passed": true, "error": null}
+{"code": " 3", "compilation_passed": true, "time": 0.02034902572631836, "tests_passed": false, "error": "ValueError"}
+{"code": " len(L[0])", "compilation_passed": true, "time": 0.044096946716308594, "tests_passed": true, "error": null}
+{"code": " max([len(i) for i in L])", "compilation_passed": true, "time": 0.04374885559082031, "tests_passed": true, "error": null}
+{"code": " max(len(L[row]) for row in range(len(L)))", "compilation_passed": true, "time": 0.04786372184753418, "tests_passed": true, "error": null}
+{"code": " max(len(col) for col in L)", "compilation_passed": true, "time": 0.045068979263305664, "tests_passed": true, "error": null}
+{"code": " max(map(len, L))", "compilation_passed": true, "time": 0.04503226280212402, "tests_passed": true, "error": null}
+{"code": " len(max(L, key=len))", "compilation_passed": true, "time": 0.04529380798339844, "tests_passed": true, "error": null}
+{"code": " 100", "compilation_passed": true, "time": 0.007645845413208008, "tests_passed": false, "error": "ValueError"}
+{"code": " max([len(l) for l in L])", "compilation_passed": true, "time": 0.045120954513549805, "tests_passed": true, "error": null}
+{"code": " max(len(i) for i in L)", "compilation_passed": true, "time": 0.0439448356628418, "tests_passed": true, "error": null}
+{"code": " max(len(x) for x in L)", "compilation_passed": true, "time": 0.044609785079956055, "tests_passed": true, "error": null}

@@ -1,0 +1,10 @@
+{"code": " glob.glob(os.path.join(my_path, '*' + ext))", "compilation_passed": true, "time": 0.010980844497680664, "tests_passed": true, "error": null}
+{"code": " glob.glob(f'{my_path}/**/*{ext}', recursive=True)", "compilation_passed": true, "time": 0.013839960098266602, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(my_path, f'**/*{ext}'))", "compilation_passed": true, "time": 0.009064912796020508, "tests_passed": true, "error": null}
+{"code": " glob.glob(f'*{ext}')", "compilation_passed": true, "time": 0.012403011322021484, "tests_passed": true, "error": null}
+{"code": " glob.glob(f\"{my_path}/*{ext}\")", "compilation_passed": true, "time": 0.01154184341430664, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(my_path, f'*.{ext}'))", "compilation_passed": true, "time": 0.008727073669433594, "tests_passed": true, "error": null}
+{"code": " glob.glob(my_path + '/*' + ext)", "compilation_passed": true, "time": 0.009287834167480469, "tests_passed": true, "error": null}
+{"code": " glob.glob(f\"{my_path}/**/*{ext}\", recursive=True)", "compilation_passed": true, "time": 0.013237953186035156, "tests_passed": true, "error": null}
+{"code": " glob.glob(f'**/*{ext}', recursive=True)", "compilation_passed": true, "time": 0.023130178451538086, "tests_passed": true, "error": null}
+{"code": " glob.glob(my_path + '/**/*' + ext, recursive=True)", "compilation_passed": true, "time": 0.012646198272705078, "tests_passed": true, "error": null}

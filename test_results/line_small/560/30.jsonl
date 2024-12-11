@@ -1,0 +1,21 @@
+{"code": " list(set([d.split('-')[0] for d in data_entries]))", "compilation_passed": true, "time": 0.14054036140441895, "tests_passed": true, "error": null}
+{"code": " list(dict.fromkeys(data_entries))", "compilation_passed": true, "time": 0.0073969364166259766, "tests_passed": false, "error": "ValueError"}
+{"code": " list(set(months_data))", "compilation_passed": true, "time": 0.010272026062011719, "tests_passed": false, "error": "ValueError"}
+{"code": " [int(d[2:]) for d in months_data]", "compilation_passed": true, "time": 0.010339021682739258, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.unique(pd.to_datetime(data_entries,format='%Y-%m-%d'))", "compilation_passed": true, "time": 0.02210402488708496, "tests_passed": false, "error": "    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this."}
+{"code": " set(months_data)", "compilation_passed": true, "time": 0.00791788101196289, "tests_passed": false, "error": "ValueError"}
+{"code": " set([d.split('-')[0] for d in data_entries])", "compilation_passed": true, "time": 0.14277887344360352, "tests_passed": true, "error": null}
+{"code": " list(map(int, set(map(lambda d: d.split('-')[0], data_entries))))", "compilation_passed": true, "time": 0.14999699592590332, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.007581233978271484, "tests_passed": false, "error": "ValueError"}
+{"code": " list(set([int(d.split('-')[0]) for d in data_entries]))", "compilation_passed": true, "time": 0.1437389850616455, "tests_passed": true, "error": null}
+{"code": " set(d[2:4] for d in data_entries)", "compilation_passed": true, "time": 0.04965496063232422, "tests_passed": true, "error": null}
+{"code": " set([d[0:4] for d in data_entries])", "compilation_passed": true, "time": 0.15250086784362793, "tests_passed": true, "error": null}
+{"code": " list(set([d[2:4] for d in data_entries]))", "compilation_passed": true, "time": 0.05419182777404785, "tests_passed": true, "error": null}
+{"code": " [d.split('-')[0] for d in data_entries]", "compilation_passed": true, "time": 0.00751495361328125, "tests_passed": false, "error": "ValueError"}
+{"code": " list(set(m.split('-')[0] for m in months_data))", "compilation_passed": true, "time": 0.007703065872192383, "tests_passed": false, "error": "ValueError"}
+{"code": " set([d[0] for d in data_entries])", "compilation_passed": true, "time": 0.05138087272644043, "tests_passed": true, "error": null}
+{"code": " list(map(int, set(d.split('-')[0] for d in data_entries)))", "compilation_passed": true, "time": 0.1560230255126953, "tests_passed": true, "error": null}
+{"code": " list(set(d.split('-')[0] for d in data_entries))", "compilation_passed": true, "time": 0.18915605545043945, "tests_passed": true, "error": null}
+{"code": " set(d.split('-')[0] for d in data_entries)", "compilation_passed": true, "time": 0.17896604537963867, "tests_passed": true, "error": null}
+{"code": " set([int(d.split('-')[0]) for d in data_entries])", "compilation_passed": true, "time": 0.15306377410888672, "tests_passed": true, "error": null}
+{"code": " sorted(set(months_data), reverse=True)", "compilation_passed": true, "time": 0.012901782989501953, "tests_passed": false, "error": "ValueError"}

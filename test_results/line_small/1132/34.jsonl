@@ -1,0 +1,8 @@
+{"code": " hashlib.sha256(salted_password.encode())", "compilation_passed": true, "time": 0.013611078262329102, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(salted_password.encode()).hexdigest()", "compilation_passed": true, "time": 0.012520790100097656, "tests_passed": false, "error": "TypeError"}
+{"code": " base64.b64encode(hashlib.sha256(salted_password.encode()).digest()).decode()", "compilation_passed": true, "time": 0.010464191436767578, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(salted_password.encode('utf-8')).digest()", "compilation_passed": true, "time": 0.0050411224365234375, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(salted_password.encode()).digest()", "compilation_passed": true, "time": 0.005437135696411133, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(hashlib.sha256(salted_password.encode(\"utf-8\")).digest())", "compilation_passed": true, "time": 0.007239103317260742, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(salted_password.encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.010042190551757812, "tests_passed": false, "error": "TypeError"}
+{"code": " base64.b64encode(hashlib.sha256(salted_password).digest())", "compilation_passed": true, "time": 0.009386062622070312, "tests_passed": false, "error": "TypeError"}

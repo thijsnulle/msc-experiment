@@ -1,0 +1,8 @@
+{"code": " stats.norm(mu, sigma).rvs(num_samples)", "compilation_passed": true, "time": 1.6141307353973389, "tests_passed": true, "error": null}
+{"code": " stats.norm.rvs(mu, sigma, size=num_samples)", "compilation_passed": true, "time": 0.2177259922027588, "tests_passed": true, "error": null}
+{"code": " stats.norm.rvs(mu, sigma, num_samples)", "compilation_passed": true, "time": 0.23308181762695312, "tests_passed": true, "error": null}
+{"code": " np.random.normal(mu, sigma, num_samples)", "compilation_passed": true, "time": 0.2277059555053711, "tests_passed": true, "error": null}
+{"code": " np.random.normal(loc = mu, scale = sigma, size = num_samples)", "compilation_passed": true, "time": 0.003593921661376953, "tests_passed": false, "error": "'Rectangle:kwdoc'"}
+{"code": " stats.norm.rvs(loc=mu, scale=sigma, size=num_samples)", "compilation_passed": true, "time": 0.003537893295288086, "tests_passed": false, "error": "'Rectangle:kwdoc'"}
+{"code": " stats.norm.rvs(size=num_samples, loc=mu, scale=sigma)", "compilation_passed": true, "time": 0.003899812698364258, "tests_passed": false, "error": "'Rectangle:kwdoc'"}
+{"code": " np.random.normal(loc=mu, scale=sigma, size=num_samples)", "compilation_passed": true, "time": 0.0037779808044433594, "tests_passed": false, "error": "'Rectangle:kwdoc'"}

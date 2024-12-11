@@ -1,0 +1,10 @@
+{"code": " pd.DataFrame(data, columns=[\"Score\", \"Category\"])", "compilation_passed": true, "time": 0.0054738521575927734, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=[\"Score\", \"Category\"])  # Creating a Pandas DataFrame from the extracted data", "compilation_passed": true, "time": 0.005384922027587891, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=['Score', 'Category'])  # Converting the data into a DataFrame", "compilation_passed": true, "time": 0.005178928375244141, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data)  # Convert the data to a DataFrame", "compilation_passed": true, "time": 0.011480093002319336, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=[\"Score\", \"Category\"]).astype({\"Score\": \"Int64\"})  # Convert the scores to integers", "compilation_passed": true, "time": 0.009475231170654297, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data).astype({\"Score\": \"int64\", \"Category\": \"object\"})  # Creating a Pandas DataFrame", "compilation_passed": true, "time": 0.007719993591308594, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=['Score', 'Category'])", "compilation_passed": true, "time": 0.004964113235473633, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data)  # Converting to a Pandas DataFrame", "compilation_passed": true, "time": 0.00786590576171875, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=[\"Score\", \"Category\"])  # Creating a dataframe with extracted data", "compilation_passed": true, "time": 0.005368947982788086, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=[\"Score\", \"Category\"])  # Converting to DataFrame", "compilation_passed": true, "time": 0.005512237548828125, "tests_passed": true, "error": null}

@@ -1,0 +1,24 @@
+{"code": " df.groupby(['x', 'y', 'z']).size()", "compilation_passed": true, "time": 0.019366979598999023, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Series(1, index=df.index)", "compilation_passed": true, "time": 0.006680965423583984, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(['x', 'y', 'z']).size().reset_index(name='count').groupby('count')[['x', 'y', 'z']].to_dict(orient='records')", "compilation_passed": true, "time": 0.013738155364990234, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.groupby(['x', 'y', 'z']).count()", "compilation_passed": true, "time": 0.008704900741577148, "tests_passed": false, "error": "ValueError"}
+{"code": " {col: Counter(df[col].values) for col in df.columns}", "compilation_passed": true, "time": 0.0041408538818359375, "tests_passed": true, "error": null}
+{"code": " {'x': df['x'].value_counts(),", "compilation_passed": false, "time": 0.0001380443572998047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {col: df[col].value_counts() for col in ['x', 'y', 'z']}", "compilation_passed": true, "time": 0.011395931243896484, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby([\"x\", \"y\", \"z\"]).size().reset_index(name=\"count\")", "compilation_passed": true, "time": 0.012144088745117188, "tests_passed": false, "error": "ValueError"}
+{"code": " {}", "compilation_passed": true, "time": 0.003935575485229492, "tests_passed": true, "error": null}
+{"code": " df.groupby([\"x\", \"y\", \"z\"]).size().reset_index(name=\"count\").to_dict(\"list\")", "compilation_passed": true, "time": 0.007585763931274414, "tests_passed": true, "error": null}
+{"code": " {'x': Counter(df['x']), 'y': Counter(df['y']), 'z': Counter(df['z'])}", "compilation_passed": true, "time": 0.008116006851196289, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby('x, y, z').size().reset_index(name='count')", "compilation_passed": true, "time": 0.0069391727447509766, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(df.columns.values[:3]).size()", "compilation_passed": true, "time": 0.0067958831787109375, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(['x', 'y', 'z']).size().reset_index(name='counts')", "compilation_passed": true, "time": 0.007672786712646484, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(['x', 'y', 'z'], as_index=False).size()", "compilation_passed": true, "time": 0.007357120513916016, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(by=['x', 'y', 'z']).size().to_dict()", "compilation_passed": true, "time": 0.005862712860107422, "tests_passed": true, "error": null}
+{"code": " df.groupby([\"x\", \"y\", \"z\"]).size().reset_index(name=\"count\").to_dict(\"index\")", "compilation_passed": true, "time": 0.006767988204956055, "tests_passed": true, "error": null}
+{"code": " Counter()", "compilation_passed": true, "time": 0.00379180908203125, "tests_passed": true, "error": null}
+{"code": " Counter(df[[\"x\", \"y\", \"z\"]].columns)", "compilation_passed": true, "time": 0.014505863189697266, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(['x', 'y', 'z']).size().reset_index(name='count')", "compilation_passed": true, "time": 0.007636070251464844, "tests_passed": false, "error": "ValueError"}
+{"code": " df.applymap(Counter)", "compilation_passed": true, "time": 0.026205062866210938, "tests_passed": false, "error": "TypeError"}
+{"code": " {col: df[col].value_counts() for col in df}", "compilation_passed": true, "time": 0.006653785705566406, "tests_passed": true, "error": null}
+{"code": " df.groupby(['x', 'y', 'z']).size().reset_index(name='Count')", "compilation_passed": true, "time": 0.007128000259399414, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(list(df.columns)).size()", "compilation_passed": true, "time": 0.009569883346557617, "tests_passed": false, "error": "ValueError"}

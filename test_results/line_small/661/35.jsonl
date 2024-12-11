@@ -1,0 +1,22 @@
+{"code": " pd.DataFrame(data, columns=['x', 'y'])", "compilation_passed": true, "time": 0.003290891647338867, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(data, columns = [x[i] for i in range(len(x))])", "compilation_passed": true, "time": 0.003170013427734375, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(data, columns=np.concatenate((x[0], y[0])))", "compilation_passed": true, "time": 0.0040760040283203125, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.003004789352416992, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(data=np.array(data), columns=np.concatenate(labels + labels), index=np.arange(1, len(labels)+1))", "compilation_passed": true, "time": 0.002998828887939453, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(data, columns=labels)", "compilation_passed": true, "time": 0.002989053726196289, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(data, columns=np.concatenate((np.array(x), np.array(y))))", "compilation_passed": true, "time": 0.003895998001098633, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(data, index=labels, columns=labels)", "compilation_passed": true, "time": 0.00323486328125, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(data=np.stack(data).T, columns=labels)", "compilation_passed": true, "time": 0.0030510425567626953, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(data, index=labels)", "compilation_passed": true, "time": 0.002870798110961914, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(np.transpose(data), columns=labels)", "compilation_passed": true, "time": 0.0034558773040771484, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(data, columns=np.concatenate((labels, labels)))", "compilation_passed": true, "time": 0.00286102294921875, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(data, index=x[0], columns=y[0])", "compilation_passed": true, "time": 0.0033469200134277344, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(data, columns = LABELS + LABELS)", "compilation_passed": true, "time": 0.0036919116973876953, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(data, index=labels, columns=pd.MultiIndex.from_arrays([x, y]),", "compilation_passed": false, "time": 0.00022101402282714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.concat(data, axis=1)", "compilation_passed": true, "time": 0.003092050552368164, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(np.array(data).T, columns=labels)", "compilation_passed": true, "time": 0.00325775146484375, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " pd.DataFrame(np.array(data).T, index=labels, columns=x[0])", "compilation_passed": true, "time": 0.013236045837402344, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.array(data).T)", "compilation_passed": true, "time": 0.2687361240386963, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, index=labels, columns=np.arange(1, 7))", "compilation_passed": true, "time": 0.3123493194580078, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.vstack(data), columns=labels)", "compilation_passed": true, "time": 0.01495981216430664, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, labels)", "compilation_passed": true, "time": 1.0181810855865479, "tests_passed": false, "error": "TimeoutError"}

@@ -1,0 +1,13 @@
+{"code": " []", "compilation_passed": true, "time": 0.001991748809814453, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " [dt for dt in dates if dt.weekday() not in [5, 6] and dt not in country_holidays]", "compilation_passed": true, "time": 0.0019428730010986328, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " [date for date in dates if date.weekday() < 5 and date not in country_holidays.keys()]", "compilation_passed": true, "time": 0.00144195556640625, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " [date for date in dates if date.isoweekday() not in [5, 6] and date not in country_holidays]", "compilation_passed": true, "time": 0.0013060569763183594, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " [day for day in dates if day.weekday() < 5 and day not in country_holidays]", "compilation_passed": true, "time": 0.0015621185302734375, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " [", "compilation_passed": false, "time": 0.000263214111328125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [day for day in dates if day.weekday() <= 4 and day not in country_holidays]", "compilation_passed": true, "time": 0.0012841224670410156, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " [date for date in dates", "compilation_passed": false, "time": 0.00021004676818847656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [d for d in dates if d.weekday() < 5 and d.date() not in country_holidays]", "compilation_passed": true, "time": 0.0013890266418457031, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " [date for date in dates if date.isoweekday() not in [6, 7] and date not in country_holidays]", "compilation_passed": true, "time": 0.001316070556640625, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " [day for day in dates if day.weekday() not in [5, 6] and day not in country_holidays]", "compilation_passed": true, "time": 0.0014159679412841797, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " [d for d in dates if d.weekday() <= 5 and d not in country_holidays]", "compilation_passed": true, "time": 0.0013089179992675781, "tests_passed": false, "error": "No module named 'holidays'"}
+{"code": " [date for date in dates if date.weekday() not in [5,6] and date not in country_holidays.keys()]", "compilation_passed": true, "time": 0.0013859272003173828, "tests_passed": false, "error": "No module named 'holidays'"}

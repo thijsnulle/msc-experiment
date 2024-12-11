@@ -1,0 +1,20 @@
+{"code": " not url.lower().endswith(\".zip\"):", "compilation_passed": true, "time": 0.01605081558227539, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " download_path.endswith(\"/\"):", "compilation_passed": true, "time": 0.00758814811706543, "tests_passed": true, "error": null}
+{"code": " os.path.isfile(download_path + url.split('/')[-1]):", "compilation_passed": true, "time": 0.012535810470581055, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not isinstance(url, str):", "compilation_passed": true, "time": 0.010927677154541016, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not os.path.exists(download_path):", "compilation_passed": true, "time": 0.008616209030151367, "tests_passed": true, "error": null}
+{"code": " not url.endswith(\".zip\"):", "compilation_passed": true, "time": 0.012977838516235352, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not url.startswith(\"https://\"):", "compilation_passed": true, "time": 0.011934995651245117, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " download_path is None:", "compilation_passed": true, "time": 0.010711193084716797, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " download_path[-1] != \"/\":  # check if path ends with /", "compilation_passed": true, "time": 0.011380910873413086, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " url.startswith(\"http://\") or url.startswith(\"https://\"):", "compilation_passed": true, "time": 0.007639169692993164, "tests_passed": true, "error": null}
+{"code": " not url:", "compilation_passed": true, "time": 0.015129804611206055, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " download_path[-1] != '/':  # Ensure that the provided download_path ends with a '/'", "compilation_passed": true, "time": 0.010489940643310547, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not url.endswith('.zip'):", "compilation_passed": true, "time": 0.011703014373779297, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " url.split(\".\")[-1] == \"zip\":", "compilation_passed": true, "time": 0.006997108459472656, "tests_passed": true, "error": null}
+{"code": " not url.startswith(\"http\"):", "compilation_passed": true, "time": 0.01780104637145996, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " download_path[-1] not in ('/', '\\\\'):", "compilation_passed": true, "time": 0.018704891204833984, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " url is None:", "compilation_passed": true, "time": 0.015018224716186523, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not download_path.endswith(\"/\"):", "compilation_passed": true, "time": 0.010814905166625977, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not url.startswith(\"https\"):", "compilation_passed": true, "time": 0.017251014709472656, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " url is None or download_path is None:", "compilation_passed": true, "time": 0.010416746139526367, "tests_passed": false, "error": "FileNotFoundError"}

@@ -1,0 +1,18 @@
+{"code": " dict(map(lambda k: (k, math.sin(counter[k])), counter.elements()))", "compilation_passed": true, "time": 0.00170135498046875, "tests_passed": true, "error": null}
+{"code": " {key: math.sin(value) for key, value in counter.items()}", "compilation_passed": true, "time": 0.0017311573028564453, "tests_passed": true, "error": null}
+{"code": " {key: math.sin(counter[key]) for key in counter}", "compilation_passed": true, "time": 0.0015349388122558594, "tests_passed": true, "error": null}
+{"code": " {k: math.sin(math.radians(v)) for k, v in counter.items()}", "compilation_passed": true, "time": 0.004130125045776367, "tests_passed": true, "error": null}
+{"code": " dict(map(lambda item: (item[0], math.sin(item[1])), counter.most_common()))", "compilation_passed": true, "time": 0.002061128616333008, "tests_passed": true, "error": null}
+{"code": " {key: math.sin(math.radians(value)) for key, value in counter.items()}", "compilation_passed": true, "time": 0.004456996917724609, "tests_passed": true, "error": null}
+{"code": " dict(map(lambda item: [math.sin(item[1]), item[0]], counter.most_common()))", "compilation_passed": true, "time": 0.004698276519775391, "tests_passed": true, "error": null}
+{"code": " dict(map(lambda item: (item[0], math.sin(item[1])), counter.items()))", "compilation_passed": true, "time": 0.0015442371368408203, "tests_passed": true, "error": null}
+{"code": " {key: round(math.sin(math.radians(counter[key])), 4) for key in counter}", "compilation_passed": true, "time": 0.004728078842163086, "tests_passed": true, "error": null}
+{"code": " {key: math.sin(math.radians(val)) for key, val in counter.items()}", "compilation_passed": true, "time": 0.004480123519897461, "tests_passed": true, "error": null}
+{"code": " {key: round(math.sin(math.radians(value)), 4) for key, value in counter.items()}", "compilation_passed": true, "time": 0.0041429996490478516, "tests_passed": true, "error": null}
+{"code": " {k: math.sin(v) for k, v in counter.items()}", "compilation_passed": true, "time": 0.0016410350799560547, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.0001270771026611328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {key: math.sin(math.radians(counter[key])) for key in counter.keys()}", "compilation_passed": true, "time": 0.004012107849121094, "tests_passed": true, "error": null}
+{"code": " dict((key, math.sin(math.radians(value))) for key, value in counter.items())", "compilation_passed": true, "time": 0.0038878917694091797, "tests_passed": true, "error": null}
+{"code": " {key: math.sin(counter[key]) for key in counter.keys()}", "compilation_passed": true, "time": 0.0017740726470947266, "tests_passed": true, "error": null}
+{"code": " {k: math.sin(counter[k]) for k in counter}", "compilation_passed": true, "time": 0.001657247543334961, "tests_passed": true, "error": null}
+{"code": " {key: math.sin(math.degrees(value)) for key, value in counter.items()}", "compilation_passed": true, "time": 0.00391077995300293, "tests_passed": true, "error": null}

@@ -1,0 +1,19 @@
+{"code": " pd.Series(car_dict)", "compilation_passed": true, "time": 0.01266789436340332, "tests_passed": false, "error": "ValueError"}
+{"code": " list(car_dict.keys())", "compilation_passed": true, "time": 0.014123916625976562, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame.from_dict(car_dict, orient=\"index\", columns=[\"Car\", \"Color\"])", "compilation_passed": true, "time": 0.009018898010253906, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(car_dict, index=list(car_dict.keys()))", "compilation_passed": true, "time": 0.08776712417602539, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(car_dict, orient=\"index\")", "compilation_passed": true, "time": 0.06750106811523438, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(car_dict.items(), columns=['Car', 'Color'])", "compilation_passed": true, "time": 0.23540806770324707, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(car_dict, orient='index')", "compilation_passed": true, "time": 0.0954442024230957, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(car_dict)", "compilation_passed": true, "time": 0.01110982894897461, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(car_dict.items())", "compilation_passed": true, "time": 0.05832505226135254, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(car_dict, index=range(len(car_dict))).rename(columns={\"Car\": \"Car\", \"Color\": \"Color\"})", "compilation_passed": true, "time": 0.053870201110839844, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(car_dict, orient='index').reset_index(name='Car')", "compilation_passed": true, "time": 0.009614229202270508, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(list(car_dict.items()), columns=[\"Car\", \"Color\"])", "compilation_passed": true, "time": 0.24879002571105957, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=car_dict, columns=['Car', 'Color'])", "compilation_passed": true, "time": 0.10159492492675781, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(car_dict)", "compilation_passed": true, "time": 0.018218994140625, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(car_dict, index=[0])", "compilation_passed": true, "time": 0.0849759578704834, "tests_passed": true, "error": null}
+{"code": " pd.Series(car_dict).reset_index()", "compilation_passed": true, "time": 0.08896112442016602, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(car_dict, index=['Car'])", "compilation_passed": true, "time": 0.06076693534851074, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(car_dict, index=['car'])", "compilation_passed": true, "time": 0.05806469917297363, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(car_dict, index = [\"car\"])", "compilation_passed": true, "time": 0.05387401580810547, "tests_passed": true, "error": null}

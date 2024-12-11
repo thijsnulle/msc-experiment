@@ -1,0 +1,11 @@
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.011341094970703125, "tests_passed": false, "error": "shutil.Error"}
+{"code": " pd.DataFrame(data, columns=['a', 'b'], index=range(len(data)))", "compilation_passed": true, "time": 0.008651018142700195, "tests_passed": false, "error": "shutil.Error"}
+{"code": " pd.DataFrame.from_dict(data)", "compilation_passed": true, "time": 0.009202003479003906, "tests_passed": false, "error": "shutil.Error"}
+{"code": " pd.DataFrame(data, columns=['Source'])", "compilation_passed": true, "time": 0.009381771087646484, "tests_passed": false, "error": "shutil.Error"}
+{"code": " pd.DataFrame(data, columns=['a', 'b'])", "compilation_passed": true, "time": 0.012719869613647461, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=data[0].keys())  # Use keys of first row as column names", "compilation_passed": true, "time": 0.010162830352783203, "tests_passed": false, "error": "shutil.Error"}
+{"code": " pd.DataFrame.from_dict(data, orient='index')", "compilation_passed": true, "time": 0.009907960891723633, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(data, columns=['a', 'b', 'Source'])", "compilation_passed": true, "time": 0.008799076080322266, "tests_passed": false, "error": "shutil.Error"}
+{"code": " pd.DataFrame(data, columns=['a', 'b', 'c'])", "compilation_passed": true, "time": 0.008537769317626953, "tests_passed": false, "error": "shutil.Error"}
+{"code": " pd.DataFrame(data, columns=data[0].keys())", "compilation_passed": true, "time": 0.009329080581665039, "tests_passed": false, "error": "shutil.Error"}
+{"code": " pd.DataFrame(data, columns=[\"a\", \"b\"])", "compilation_passed": true, "time": 0.008741140365600586, "tests_passed": false, "error": "shutil.Error"}

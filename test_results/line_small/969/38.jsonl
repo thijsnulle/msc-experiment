@@ -1,0 +1,14 @@
+{"code": " df.isna().values.any():", "compilation_passed": true, "time": 0.012749671936035156, "tests_passed": true, "error": null}
+{"code": " df.empty or (df.isnull()).values.any():", "compilation_passed": true, "time": 0.012130975723266602, "tests_passed": true, "error": null}
+{"code": " not df.index.is_monotonic:", "compilation_passed": true, "time": 0.013177871704101562, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.014961004257202148, "tests_passed": true, "error": null}
+{"code": " df.isnull().values.any():", "compilation_passed": true, "time": 0.012253284454345703, "tests_passed": true, "error": null}
+{"code": " df.isnull().any().any():", "compilation_passed": true, "time": 0.016937971115112305, "tests_passed": true, "error": null}
+{"code": " df.empty or df.isnull().values.any():", "compilation_passed": true, "time": 0.012020111083984375, "tests_passed": true, "error": null}
+{"code": " df.shape[1] == 0:", "compilation_passed": true, "time": 0.012729883193969727, "tests_passed": true, "error": null}
+{"code": " not df.isnull().any().all():", "compilation_passed": true, "time": 0.019916057586669922, "tests_passed": false, "error": "ValueError"}
+{"code": " df.isna().any().any():", "compilation_passed": true, "time": 0.014811992645263672, "tests_passed": true, "error": null}
+{"code": " df.empty or df.isna().any().any():", "compilation_passed": true, "time": 0.013346195220947266, "tests_passed": true, "error": null}
+{"code": " df.empty or df.isna().values.any():", "compilation_passed": true, "time": 0.011833906173706055, "tests_passed": true, "error": null}
+{"code": " df.shape[0] == 0:", "compilation_passed": true, "time": 0.015107870101928711, "tests_passed": true, "error": null}
+{"code": " df.empty or np.isnan(df).any().any():", "compilation_passed": true, "time": 0.012948989868164062, "tests_passed": true, "error": null}

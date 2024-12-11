@@ -1,0 +1,8 @@
+{"code": " df[FEATURES]", "compilation_passed": true, "time": 0.02684783935546875, "tests_passed": true, "error": null}
+{"code": " df.drop([TARGET], axis=1)", "compilation_passed": true, "time": 0.0227200984954834, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=TARGET)", "compilation_passed": true, "time": 0.02334427833557129, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=[TARGET])", "compilation_passed": true, "time": 0.02353191375732422, "tests_passed": true, "error": null}
+{"code": " df.loc[:, FEATURES]", "compilation_passed": true, "time": 0.023104190826416016, "tests_passed": true, "error": null}
+{"code": " df[FEATURES].values", "compilation_passed": true, "time": 0.0188601016998291, "tests_passed": true, "error": null}
+{"code": " df.drop(TARGET, axis=1)", "compilation_passed": true, "time": 0.023421287536621094, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :-1]", "compilation_passed": true, "time": 0.022957801818847656, "tests_passed": true, "error": null}

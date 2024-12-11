@@ -1,0 +1,15 @@
+{"code": " df.iloc[:, :3]", "compilation_passed": true, "time": 0.0308229923248291, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, df.columns != target_column]  # Exclude the target column", "compilation_passed": true, "time": 0.03239083290100098, "tests_passed": true, "error": null}
+{"code": " df.drop(target_column, axis=1)", "compilation_passed": true, "time": 0.037220001220703125, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :-1]", "compilation_passed": true, "time": 0.02945709228515625, "tests_passed": true, "error": null}
+{"code": " df.loc[:, df.columns != target_column]", "compilation_passed": true, "time": 0.03143763542175293, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=target_column, axis=1)", "compilation_passed": true, "time": 0.030665874481201172, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=[target_column], axis=1)", "compilation_passed": true, "time": 0.03174877166748047, "tests_passed": true, "error": null}
+{"code": " df.loc[:, df.columns[:-1]]  # All columns except target column", "compilation_passed": true, "time": 0.03424191474914551, "tests_passed": true, "error": null}
+{"code": " df[columns[:-1]]", "compilation_passed": true, "time": 0.03067493438720703, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :-1]  # Using iloc to exclude target column", "compilation_passed": true, "time": 0.028615951538085938, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=target_column, axis=1)  # drop target column from X", "compilation_passed": true, "time": 0.030790090560913086, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=[target_column])", "compilation_passed": true, "time": 0.033820152282714844, "tests_passed": true, "error": null}
+{"code": " df[columns[:-1]]  # X: data without target column", "compilation_passed": true, "time": 0.03288674354553223, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 0:3]  # Get the columns for X (independent features)", "compilation_passed": true, "time": 0.030953168869018555, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, df.columns != target_column]  # X is a DataFrame with the columns except target column", "compilation_passed": true, "time": 0.03266716003417969, "tests_passed": true, "error": null}

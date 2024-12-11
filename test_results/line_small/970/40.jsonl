@@ -1,0 +1,19 @@
+{"code": "arange(1, len(data_sorted) + 1) / len(data_sorted) * 100", "compilation_passed": true, "time": 0.07199287414550781, "tests_passed": true, "error": null}
+{"code": "arange(1, len(data_sorted) + 1) / len(data_sorted)", "compilation_passed": true, "time": 0.11029291152954102, "tests_passed": true, "error": null}
+{"code": "arange(1, data_sorted.shape[0] + 1) / data_sorted.shape[0]", "compilation_passed": true, "time": 0.11281991004943848, "tests_passed": true, "error": null}
+{"code": "arange(len(data_sorted)) / len(data_sorted)", "compilation_passed": true, "time": 0.07598400115966797, "tests_passed": true, "error": null}
+{"code": "arange(len(data_sorted)) + 1) / len(data_sorted)", "compilation_passed": false, "time": 0.0002181529998779297, "tests_passed": false, "error": "IndentationError"}
+{"code": "arange(len(data_sorted), dtype=float) + 1.0", "compilation_passed": true, "time": 0.06436729431152344, "tests_passed": true, "error": null}
+{"code": "arange(data_sorted.size) + 1) / (data_sorted.size + 1)", "compilation_passed": false, "time": 0.0001780986785888672, "tests_passed": false, "error": "IndentationError"}
+{"code": "cumsum(np.ones_like(data_sorted) / len(data_sorted)) - np.concatenate(([0], np.diff(data_sorted)))", "compilation_passed": true, "time": 0.12313294410705566, "tests_passed": true, "error": null}
+{"code": "arange(1, data.shape[0] + 1) * 100.0 / (data.shape[0] + 1.0)", "compilation_passed": true, "time": 0.07039999961853027, "tests_passed": true, "error": null}
+{"code": "arange(1, data.size + 1) / data.size * 100", "compilation_passed": true, "time": 0.07570981979370117, "tests_passed": true, "error": null}
+{"code": "arange(1, len(data_sorted) + 1) / len(data_sorted))", "compilation_passed": false, "time": 0.00018286705017089844, "tests_passed": false, "error": "IndentationError"}
+{"code": "arange(1, data_sorted.size + 1) / data_sorted.size", "compilation_passed": true, "time": 0.14049577713012695, "tests_passed": true, "error": null}
+{"code": "arange(data.size, dtype=data.dtype) + 1", "compilation_passed": true, "time": 0.07506680488586426, "tests_passed": true, "error": null}
+{"code": "arange(data_sorted.size) + 1) / data_sorted.size", "compilation_passed": false, "time": 0.00021076202392578125, "tests_passed": false, "error": "IndentationError"}
+{"code": "arange(data_sorted.size) / data_sorted.size + 1 / data_sorted.size", "compilation_passed": true, "time": 0.11957788467407227, "tests_passed": true, "error": null}
+{"code": "arange(data.size) + 1.0", "compilation_passed": true, "time": 0.07652902603149414, "tests_passed": true, "error": null}
+{"code": "arange(1, data_sorted.shape[0] + 1) -", "compilation_passed": false, "time": 0.00023174285888671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "arange(len(data_sorted) + 1) - 1", "compilation_passed": true, "time": 0.06931376457214355, "tests_passed": true, "error": null}
+{"code": "arange(len(data_sorted)) + 1", "compilation_passed": true, "time": 0.06156015396118164, "tests_passed": true, "error": null}

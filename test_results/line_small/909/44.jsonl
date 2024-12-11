@@ -1,0 +1,18 @@
+{"code": " pd.DataFrame({'Letter': flattened_list, 'Category': expanded_categories})", "compilation_passed": true, "time": 0.002527952194213867, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(zip(flattened_list, expanded_categories)), columns=['Letter', 'Category'])", "compilation_passed": true, "time": 0.004174709320068359, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(expanded_categories, index=range(len(letters)), columns=['Category'])", "compilation_passed": true, "time": 0.004982948303222656, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Letter': flattened_list,", "compilation_passed": false, "time": 0.000308990478515625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(list(zip(flattened_list, expanded_categories))).set_index('Letter')", "compilation_passed": true, "time": 0.006687164306640625, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(expanded_categories, index=range(len(expanded_categories)), columns=['Category'])", "compilation_passed": true, "time": 0.0037620067596435547, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(zip(flattened_list, expanded_categories)).set_index(0).rename(columns={0: 'Letter', 1: 'Category'})", "compilation_passed": true, "time": 0.005839109420776367, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(zip(flattened_list, expanded_categories)).set_index('Letter')", "compilation_passed": true, "time": 0.005164146423339844, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(list(zip(expanded_categories, flattened_list)), columns=['Category', 'Letter'])", "compilation_passed": true, "time": 0.004323005676269531, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Letter': flattened_list, 'Category': expanded_categories})", "compilation_passed": true, "time": 0.005187034606933594, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(zip(flattened_list, expanded_categories)), columns=['Letter', 'Category'])", "compilation_passed": true, "time": 0.020169973373413086, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(expanded_categories, index=range(len(letters)), columns=['Category'])", "compilation_passed": true, "time": 0.0102081298828125, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Letter': flattened_list,", "compilation_passed": false, "time": 0.0005791187286376953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(list(zip(flattened_list, expanded_categories))).set_index('Letter')", "compilation_passed": true, "time": 0.010333061218261719, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(expanded_categories, index=range(len(expanded_categories)), columns=['Category'])", "compilation_passed": true, "time": 0.0071032047271728516, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(zip(flattened_list, expanded_categories)).set_index(0).rename(columns={0: 'Letter', 1: 'Category'})", "compilation_passed": true, "time": 0.01188516616821289, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(zip(flattened_list, expanded_categories)).set_index('Letter')", "compilation_passed": true, "time": 0.00911712646484375, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(list(zip(expanded_categories, flattened_list)), columns=['Category', 'Letter'])", "compilation_passed": true, "time": 0.008152961730957031, "tests_passed": true, "error": null}

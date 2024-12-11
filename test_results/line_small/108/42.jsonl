@@ -1,0 +1,27 @@
+{"code": " ValueError(f\"Invalid 'df' object. It must be a DataFrame with 'group', 'date', and 'value' columns.\")", "compilation_passed": true, "time": 0.3000311851501465, "tests_passed": true, "error": null}
+{"code": " ValueError(\"Invalid 'df', missing or invalid columns.\")", "compilation_passed": true, "time": 0.296964168548584, "tests_passed": true, "error": null}
+{"code": " ValueError(f'Invalid DataFrame: Expected columns are {required_columns}')", "compilation_passed": true, "time": 0.29509830474853516, "tests_passed": true, "error": null}
+{"code": " ValueError(\"'df' must be a DataFrame with columns 'group', 'date', and 'value'.\")", "compilation_passed": true, "time": 0.2862892150878906, "tests_passed": true, "error": null}
+{"code": " ValueError('Input DataFrame must contain the following columns: group, date, value')", "compilation_passed": true, "time": 0.2961239814758301, "tests_passed": true, "error": null}
+{"code": " ValueError(f\"'df' must be a DataFrame with the following columns: {', '.join(required_columns)}\")", "compilation_passed": true, "time": 0.2840719223022461, "tests_passed": true, "error": null}
+{"code": " ValueError(\"Invalid data. 'df' must be a pandas DataFrame with columns 'group', 'date', and 'value'.\")", "compilation_passed": true, "time": 0.2851221561431885, "tests_passed": true, "error": null}
+{"code": " ValueError(f\"df must be a DataFrame with the required columns: {required_columns}\")", "compilation_passed": true, "time": 0.28902125358581543, "tests_passed": true, "error": null}
+{"code": " ValueError('Invalid data type or format for the dataframe.')", "compilation_passed": true, "time": 0.2936990261077881, "tests_passed": true, "error": null}
+{"code": " ValueError('Invalid data format: Expected a DataFrame with columns \"group\", \"date\", and \"value\".')", "compilation_passed": true, "time": 0.2873349189758301, "tests_passed": true, "error": null}
+{"code": " ValueError('df must be a DataFrame with columns: group, date, and value')", "compilation_passed": true, "time": 0.305523157119751, "tests_passed": true, "error": null}
+{"code": " ValueError(f\"'df' must be a DataFrame object with the following columns: {', '.join(required_columns)}\")", "compilation_passed": true, "time": 0.2903311252593994, "tests_passed": true, "error": null}
+{"code": " ValueError(f\"Invalid 'df' type. Expected a DataFrame, got {type(df)}. Required columns: {', '.join(required_columns)}\")", "compilation_passed": true, "time": 0.2919149398803711, "tests_passed": true, "error": null}
+{"code": " ValueError(\"Invalid 'df'. Must be a DataFrame with columns 'group', 'date', and 'value'.\")", "compilation_passed": true, "time": 0.28389906883239746, "tests_passed": true, "error": null}
+{"code": " ValueError(\"Invalid data type for df.\")", "compilation_passed": true, "time": 0.3182997703552246, "tests_passed": true, "error": null}
+{"code": " ValueError('Invalid DataFrame. Please ensure that it has columns \"group\", \"date\", and \"value\".')", "compilation_passed": true, "time": 0.31020212173461914, "tests_passed": true, "error": null}
+{"code": " ValueError(f\"Invalid 'df': {df.to_string()}\")", "compilation_passed": true, "time": 0.2457571029663086, "tests_passed": false, "error": "AttributeError"}
+{"code": " ValueError(\"df must be a DataFrame with the following columns: \" + \", \".join(required_columns))", "compilation_passed": true, "time": 0.29374074935913086, "tests_passed": true, "error": null}
+{"code": " ValueError(\"Invalid data. 'df' must be a DataFrame with columns 'group', 'date', and 'value'.\")", "compilation_passed": true, "time": 0.2993478775024414, "tests_passed": true, "error": null}
+{"code": " ValueError('Invalid input. Expected DataFrame with columns \"group\", \"date\", and \"value\".')", "compilation_passed": true, "time": 0.30893421173095703, "tests_passed": true, "error": null}
+{"code": " ValueError(f'Invalid '", "compilation_passed": false, "time": 0.00036525726318359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ValueError(f\"Invalid DataFrame input: Missing columns '{required_columns}'.\")", "compilation_passed": true, "time": 0.3362269401550293, "tests_passed": true, "error": null}
+{"code": " ValueError(f\"Invalid 'df' input. Required columns: {', '.join(required_columns)}\")", "compilation_passed": true, "time": 0.3227121829986572, "tests_passed": true, "error": null}
+{"code": " ValueError('df must be a DataFrame with columns \"group\", \"date\", and \"value\".')", "compilation_passed": true, "time": 0.3311460018157959, "tests_passed": true, "error": null}
+{"code": " ValueError(\"df must be a DataFrame with columns 'group', 'date', and 'value'.\")", "compilation_passed": true, "time": 0.3163766860961914, "tests_passed": true, "error": null}
+{"code": " ValueError('Invalid input.')", "compilation_passed": true, "time": 0.323131799697876, "tests_passed": true, "error": null}
+{"code": " ValueError(f\"Expected a DataFrame with columns {required_columns}, received {df.columns}\")", "compilation_passed": true, "time": 0.25640201568603516, "tests_passed": false, "error": "AttributeError"}

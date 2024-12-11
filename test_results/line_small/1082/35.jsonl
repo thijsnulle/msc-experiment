@@ -1,0 +1,23 @@
+{"code": " df[\"Grade\"].map({'A': 1, 'A+': 2, 'B': 3, 'B+': 4, 'C': 5, 'C+': 6, 'D': 7, 'D+': 8,", "compilation_passed": false, "time": 0.0005612373352050781, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.Categorical(df[\"Grade\"]).cat.codes", "compilation_passed": true, "time": 0.019970178604125977, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[\"Grade\"].map({\"A+\": 4, \"A\": 3, \"A-\": 2, \"B+\": 1, \"B\": 0, \"B-\": -1, \"C+\": -2, \"C\": -3, \"C-\": -4})", "compilation_passed": true, "time": 0.03740692138671875, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Grade\"].map({", "compilation_passed": false, "time": 0.0004210472106933594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[\"Grade\"].map({\"A+\": 1, \"A\": 2, \"A-\": 3, \"B+\": 4, \"B\": 5, \"B-\": 6, \"C+\": 7, \"C\": 8,", "compilation_passed": false, "time": 0.0005099773406982422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.factorize(df[\"Grade\"])[1]", "compilation_passed": true, "time": 0.0202481746673584, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Categorical(df[\"Grade\"]).codes", "compilation_passed": true, "time": 0.011219978332519531, "tests_passed": true, "error": null}
+{"code": " pd.Categorical(df[\"Grade\"], categories=[\"A\", \"B\", \"C\", \"D\", \"F\"], ordered=False).codes", "compilation_passed": true, "time": 0.009690284729003906, "tests_passed": true, "error": null}
+{"code": " df[\"Grade\"].map({\"A+\": 10, \"A\": 9, \"A-\": 8, \"B+\": 7, \"B\": 6, \"B-\": 5, \"C+\": 4, \"C\": 3, \"C-\": 2, \"D+\": 1})", "compilation_passed": true, "time": 0.021804094314575195, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Grade\"].map({\"A+\": 4, \"A\": 3, \"B+\": 2, \"B\": 1, \"C+\": 0, \"C\": -1, \"D+\": -2, \"D\": -3, \"F\": -4})", "compilation_passed": true, "time": 0.020899057388305664, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Grade\"].apply(", "compilation_passed": false, "time": 0.0004661083221435547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[\"Grade\"].replace({\"A+\": 1, \"A\": 2, \"A-\": 3, \"B+\": 4, \"B\": 5, \"B-\": 6, \"C+\": 7, \"C\": 8, \"C-\": 9, \"D+\": 10, \"D\": 11, \"D-\": 12, \"F\": 0})", "compilation_passed": true, "time": 0.022216081619262695, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " df[\"Grade\"].map({\"A+\": 4.0, \"A\": 4.0, \"A-\": 3.7, \"B+\": 3.3, \"B\": 3.0,", "compilation_passed": false, "time": 0.0003809928894042969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[\"Grade\"].apply(encode_grades)", "compilation_passed": true, "time": 0.018823862075805664, "tests_passed": false, "error": "NameError"}
+{"code": " df[\"Grade\"].replace({'A': 1, 'A+': 2, 'B': 3, 'B+': 4, 'C': 5, 'C+': 6,", "compilation_passed": false, "time": 0.0002961158752441406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.Categorical(", "compilation_passed": false, "time": 0.00024080276489257812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[\"Grade\"].map({'A+': 3, 'A': 2, 'A-': 1, 'B+': 4, 'B': 3, 'B-': 2, 'C+': 5, 'C': 4, 'C-': 3, 'D+': 6, 'D': 5, 'D-': 4, 'E': 1, 'F': 0})", "compilation_passed": true, "time": 0.018819808959960938, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Grade\"].replace({'A': 4, 'A+': 4.5, 'B': 3, 'B+': 3.5, 'C': 2, 'C+': 2.5, 'D': 1, 'D+': 1.5})", "compilation_passed": true, "time": 0.011616230010986328, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " df[\"Grade\"].map({\"A+\": 4, \"A\": 4, \"A-\": 3, \"B+\": 2, \"B\": 2, \"B-\": 1, \"C+\": 0, \"C\": 0, \"C-\": -1, \"D+\": -2, \"D\": -2, \"D-\": -3})", "compilation_passed": true, "time": 0.011512041091918945, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Grade\"].apply(encode)", "compilation_passed": true, "time": 0.012437820434570312, "tests_passed": false, "error": "NameError"}
+{"code": " df[\"Grade\"].apply(lambda x: {", "compilation_passed": false, "time": 0.00016808509826660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[\"Grade\"].map({\"A+\": 9, \"A\": 8, \"A-\": 7, \"B+\": 6, \"B\": 5, \"B-\": 4, \"C+\": 3, \"C\": 2, \"C-\": 1,", "compilation_passed": false, "time": 0.0001990795135498047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[\"Grade\"].apply(lambda x: ord(x) - ord(\"A\") + 1)  # Encodes grades into numerical values", "compilation_passed": true, "time": 0.021286964416503906, "tests_passed": false, "error": "TypeError"}

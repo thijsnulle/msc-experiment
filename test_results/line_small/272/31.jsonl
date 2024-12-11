@@ -1,0 +1,9 @@
+{"code": " pdict = cgi.parse_header(self.headers.get('Content-Type', ''))", "compilation_passed": true, "time": 0.018212080001831055, "tests_passed": true, "error": null}
+{"code": " clength, fext = cgi.parse_header(self.headers.get('content-type', ''))", "compilation_passed": true, "time": 0.01751399040222168, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_headers(self.headers.get('content-type'))", "compilation_passed": true, "time": 0.01890420913696289, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_header(self.headers.get('content-type', ''))", "compilation_passed": true, "time": 0.019624948501586914, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_header(self.headers.get(\"content-type\", \"\"))", "compilation_passed": true, "time": 0.02212381362915039, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_header(self.headers.get('content-type'))", "compilation_passed": true, "time": 0.021806001663208008, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_headers(self.headers.get(\"content-type\", \"\"))", "compilation_passed": true, "time": 0.021546125411987305, "tests_passed": true, "error": null}
+{"code": " clength, fext = self.headers.getheaders('content-type')", "compilation_passed": true, "time": 0.02359485626220703, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_headers(self.headers.get('Content-Type', ''))", "compilation_passed": true, "time": 0.021602153778076172, "tests_passed": true, "error": null}

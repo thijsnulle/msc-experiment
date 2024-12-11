@@ -1,0 +1,16 @@
+{"code": "f\"MD5 Hash: {binascii.hexlify(md5_hash).decode('utf-8')}\")", "compilation_passed": true, "time": 0.019720792770385742, "tests_passed": true, "error": null}
+{"code": "\"MD5 Hash: \", binascii.hexlify(md5_hash))", "compilation_passed": true, "time": 0.019984960556030273, "tests_passed": true, "error": null}
+{"code": "\"MD5 Hash: {}\".format(binascii.hexlify(md5_hash).decode()))", "compilation_passed": true, "time": 0.01986980438232422, "tests_passed": true, "error": null}
+{"code": "\"MD5 Hash:\", binascii.hexlify(md5_hash))", "compilation_passed": true, "time": 0.019695043563842773, "tests_passed": true, "error": null}
+{"code": "f\"MD5 Hash: {binascii.hexlify(md5_hash).decode()}\")", "compilation_passed": true, "time": 0.018112897872924805, "tests_passed": true, "error": null}
+{"code": "f\"MD5 Hash: {binascii.hexlify(md5_hash)}\")", "compilation_passed": true, "time": 0.019463062286376953, "tests_passed": true, "error": null}
+{"code": "f'MD5 Hash: {binascii.b2a_hex(md5_hash)}')", "compilation_passed": true, "time": 0.020038127899169922, "tests_passed": true, "error": null}
+{"code": "f'MD5 Hash: {binascii.hexlify(md5_hash).decode()}')", "compilation_passed": true, "time": 0.016562938690185547, "tests_passed": true, "error": null}
+{"code": "\"MD5 Hash: {}\".format(binascii.hexlify(md5_hash)))", "compilation_passed": true, "time": 0.018273115158081055, "tests_passed": true, "error": null}
+{"code": "\"MD5 Hash: \" + binascii.hexlify(md5_hash))", "compilation_passed": true, "time": 0.01845693588256836, "tests_passed": false, "error": "TypeError"}
+{"code": "\"MD5 Hash: %s\" % binascii.hexlify(md5_hash))", "compilation_passed": true, "time": 0.026095151901245117, "tests_passed": true, "error": null}
+{"code": "\"MD5 Hash: {0}\".format(binascii.hexlify(md5_hash)))", "compilation_passed": true, "time": 0.01896190643310547, "tests_passed": true, "error": null}
+{"code": "\"MD5 Hash:\", binascii.hexlify(md5_hash).decode('utf-8'))", "compilation_passed": true, "time": 0.018229007720947266, "tests_passed": true, "error": null}
+{"code": "f\"MD5 Hash: {binascii.hexlify(md5_hash).decode('ascii')}\")", "compilation_passed": true, "time": 0.01636981964111328, "tests_passed": true, "error": null}
+{"code": "f'MD5 Hash: {binascii.hexlify(md5_hash).decode(\"utf-8\")}')", "compilation_passed": true, "time": 0.021970033645629883, "tests_passed": true, "error": null}
+{"code": "f'MD5 Hash: {binascii.hexlify(md5_hash)}')", "compilation_passed": true, "time": 0.01909923553466797, "tests_passed": true, "error": null}

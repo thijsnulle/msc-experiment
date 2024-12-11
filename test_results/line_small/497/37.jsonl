@@ -1,0 +1,18 @@
+{"code": " datetime.utcnow() - timedelta(days=days_in_past)", "compilation_passed": true, "time": 0.002050161361694336, "tests_passed": true, "error": null}
+{"code": " datetime.now(pytz.utc).date() - timedelta(days=days_in_past)", "compilation_passed": true, "time": 0.0019991397857666016, "tests_passed": true, "error": null}
+{"code": " datetime.now(pytz.UTC) - timedelta(days=days_in_past)", "compilation_passed": true, "time": 0.0017399787902832031, "tests_passed": true, "error": null}
+{"code": " datetime.now(pytz.utc) - timedelta(days=days_in_past)", "compilation_passed": true, "time": 0.0015490055084228516, "tests_passed": true, "error": null}
+{"code": " datetime.now(pytz.timezone('UTC')) - timedelta(days=days_in_past)", "compilation_passed": true, "time": 0.001680135726928711, "tests_passed": true, "error": null}
+{"code": " datetime.now(pytz.timezone(\"UTC\"))", "compilation_passed": true, "time": 0.0034608840942382812, "tests_passed": true, "error": null}
+{"code": " datetime.now() - timedelta(days=days_in_past)", "compilation_passed": true, "time": 0.0014889240264892578, "tests_passed": true, "error": null}
+{"code": " datetime.today().replace(tzinfo=pytz.UTC)", "compilation_passed": true, "time": 0.0033643245697021484, "tests_passed": true, "error": null}
+{"code": " datetime.now().replace(tzinfo=pytz.utc) - timedelta(days=days_in_past)", "compilation_passed": true, "time": 0.0016109943389892578, "tests_passed": true, "error": null}
+{"code": " datetime.utcnow().replace(tzinfo=pytz.utc) - timedelta(days=days_in_past)", "compilation_passed": true, "time": 0.0016810894012451172, "tests_passed": true, "error": null}
+{"code": " datetime.now(tz=pytz.utc).replace(", "compilation_passed": false, "time": 0.00014901161193847656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " datetime.utcnow().replace(tzinfo=pytz.utc)", "compilation_passed": true, "time": 0.003612041473388672, "tests_passed": true, "error": null}
+{"code": " datetime.now(pytz.utc).date()", "compilation_passed": true, "time": 0.0033550262451171875, "tests_passed": true, "error": null}
+{"code": " datetime.now(pytz.UTC).replace(hour=0, minute=0, second=0, microsecond=0) - timedelta(days=days_in_past)", "compilation_passed": true, "time": 0.0016031265258789062, "tests_passed": true, "error": null}
+{"code": " datetime.now(pytz.UTC).date() - timedelta(days=days_in_past)", "compilation_passed": true, "time": 0.0015060901641845703, "tests_passed": true, "error": null}
+{"code": " datetime.utcnow().replace(tzinfo=pytz.UTC) - timedelta(days=days_in_past)", "compilation_passed": true, "time": 0.0015816688537597656, "tests_passed": true, "error": null}
+{"code": " datetime.now(tz=pytz.UTC) - timedelta(days=days_in_past)", "compilation_passed": true, "time": 0.0016717910766601562, "tests_passed": true, "error": null}
+{"code": " datetime.today() - timedelta(days=days_in_past)", "compilation_passed": true, "time": 0.0018470287322998047, "tests_passed": true, "error": null}

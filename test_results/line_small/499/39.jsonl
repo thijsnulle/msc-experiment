@@ -1,0 +1,4 @@
+{"code": "write(row_index, col_index, col)", "compilation_passed": true, "time": 0.00834202766418457, "tests_passed": true, "error": null}
+{"code": "write(row_index, col_index, str(col))", "compilation_passed": true, "time": 0.009309053421020508, "tests_passed": true, "error": null}
+{"code": "write(row_index, col_index, xlwt.XHTMLWriter.cell_value(col))", "compilation_passed": true, "time": 0.004973888397216797, "tests_passed": false, "error": "AttributeError"}
+{"code": "write(row_index, col_index, xlwt.Formula(col))", "compilation_passed": true, "time": 0.00882101058959961, "tests_passed": false, "error": "AttributeError"}

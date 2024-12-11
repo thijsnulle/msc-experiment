@@ -1,0 +1,9 @@
+{"code": " {}", "compilation_passed": true, "time": 0.009072065353393555, "tests_passed": false, "error": "KeyError"}
+{"code": " {team: {day: None for day in range(days_diff)} for team in teams}", "compilation_passed": true, "time": 0.007475852966308594, "tests_passed": false, "error": "TypeError"}
+{"code": " {", "compilation_passed": false, "time": 0.00027298927307128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {team: [0.1 * random.random() for _ in range(days_diff)] for team in teams}", "compilation_passed": true, "time": 0.04478907585144043, "tests_passed": true, "error": null}
+{"code": " {team: [random.random() + 0.1 for i in range(days_diff + 1)] for team in teams}", "compilation_passed": true, "time": 0.042938232421875, "tests_passed": false, "error": "ValueError"}
+{"code": " {team: [] for team in teams}", "compilation_passed": true, "time": 0.007270097732543945, "tests_passed": false, "error": "IndexError"}
+{"code": " {t: [random.random() for _ in range(days_diff)] for t in teams}", "compilation_passed": true, "time": 0.051283836364746094, "tests_passed": true, "error": null}
+{"code": " {t: [] for t in teams}", "compilation_passed": true, "time": 0.008518218994140625, "tests_passed": false, "error": "IndexError"}
+{"code": " {team: {} for team in teams}", "compilation_passed": true, "time": 0.007238864898681641, "tests_passed": false, "error": "KeyError"}

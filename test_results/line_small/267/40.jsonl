@@ -1,0 +1,27 @@
+{"code": "plot(time, fft, label='FFT')", "compilation_passed": true, "time": 0.142653226852417, "tests_passed": true, "error": null}
+{"code": "plot(time, fft, c='blue')", "compilation_passed": true, "time": 0.1384720802307129, "tests_passed": true, "error": null}
+{"code": "plot(np.arange(-len(signal) / 2 + 1, len(signal) / 2), 20.0 * np.log10(abs(fft)),", "compilation_passed": false, "time": 0.0002760887145996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(np.linspace(-0.5, 0.5, 1024, endpoint=False), np.real(fft), 'b')", "compilation_passed": true, "time": 0.0397028923034668, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(np.fftfreq(2 * sample_rate, 1 / sample_rate)[:len(fft)] * sample_rate, 20 * np.log10(abs(fft)), 'x-', lw=2)", "compilation_passed": true, "time": 0.032665252685546875, "tests_passed": false, "error": "AttributeError"}
+{"code": "plot(np.linspace(0, sample_rate, len(fft), False), np.abs(fft))", "compilation_passed": true, "time": 0.1419057846069336, "tests_passed": true, "error": null}
+{"code": "plot(time, signal, label='Original signal')", "compilation_passed": true, "time": 0.14118599891662598, "tests_passed": true, "error": null}
+{"code": "plot(fft, color='g')", "compilation_passed": true, "time": 0.1442887783050537, "tests_passed": true, "error": null}
+{"code": "plot(np.abs(fft), 'r', label='FFT')", "compilation_passed": true, "time": 0.14386296272277832, "tests_passed": true, "error": null}
+{"code": "plot(fft, 'b')", "compilation_passed": true, "time": 0.142869234085083, "tests_passed": true, "error": null}
+{"code": "plot(np.linspace(-0.5, 0.5, fft.shape[0]), np.abs(fft))", "compilation_passed": true, "time": 0.14335918426513672, "tests_passed": true, "error": null}
+{"code": "plot(np.linspace(-0.5, 0.5, len(fft) // 2 + 1), np.abs(fft[0:len(fft) // 2 + 1]))", "compilation_passed": true, "time": 0.14153766632080078, "tests_passed": true, "error": null}
+{"code": "plot(np.linspace(-sample_rate / 2, sample_rate / 2, len(fft)), 20 * np.log10(np.abs(fft)), lw=1)", "compilation_passed": true, "time": 0.1486210823059082, "tests_passed": true, "error": null}
+{"code": "plot(time, fft)", "compilation_passed": true, "time": 0.1450059413909912, "tests_passed": true, "error": null}
+{"code": "plot(fft.real, fft.imag)", "compilation_passed": true, "time": 0.1477060317993164, "tests_passed": true, "error": null}
+{"code": "plot(time, signal, label='Signal')", "compilation_passed": true, "time": 0.15083098411560059, "tests_passed": true, "error": null}
+{"code": "set_title('FFT of the signal')", "compilation_passed": true, "time": 0.13799762725830078, "tests_passed": true, "error": null}
+{"code": "plot(np.abs(fft), label=\"FFT\")", "compilation_passed": true, "time": 0.1496126651763916, "tests_passed": true, "error": null}
+{"code": "plot(fft, 'b', linewidth=3, label='FFT')", "compilation_passed": true, "time": 0.149885892868042, "tests_passed": true, "error": null}
+{"code": "plot(time, signal)", "compilation_passed": true, "time": 0.14851617813110352, "tests_passed": true, "error": null}
+{"code": "plot(np.linspace(-sample_rate / 2, sample_rate / 2, len(fft)),", "compilation_passed": false, "time": 0.0005042552947998047, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(np.log10(np.abs(fft)), label='FFT')", "compilation_passed": true, "time": 0.15082097053527832, "tests_passed": true, "error": null}
+{"code": "set(title='FFT of the signal', xlabel='Frequency', ylabel='Amplitude')", "compilation_passed": true, "time": 0.15384173393249512, "tests_passed": true, "error": null}
+{"code": "plot(fft, color='black', lw=4)", "compilation_passed": true, "time": 0.15928292274475098, "tests_passed": true, "error": null}
+{"code": "plot(time, signal, 'k-', label='Original signal')", "compilation_passed": true, "time": 0.16580891609191895, "tests_passed": true, "error": null}
+{"code": "plot(np.linspace(0, sample_rate / 2, fft.size / 2), 2 * np.abs(fft))", "compilation_passed": true, "time": 0.03686785697937012, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(np.arange(-2048, 2048), fft, lw=2)", "compilation_passed": true, "time": 0.034445762634277344, "tests_passed": false, "error": "ValueError"}

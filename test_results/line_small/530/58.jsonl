@@ -1,0 +1,21 @@
+{"code": " np.arange(min_age, max_age + 1)", "compilation_passed": true, "time": 0.23780083656311035, "tests_passed": true, "error": null}
+{"code": " np.arange(min_age, max_age + 1, 1)", "compilation_passed": true, "time": 0.26044511795043945, "tests_passed": true, "error": null}
+{"code": " np.arange(min_age, max_age + 0.5, 0.5)", "compilation_passed": true, "time": 0.2577033042907715, "tests_passed": true, "error": null}
+{"code": " [int(i) for i in np.arange(min_age, max_age, 1)]", "compilation_passed": true, "time": 0.12970376014709473, "tests_passed": false, "error": "ValueError"}
+{"code": " np.arange(min_age, max_age, 1)", "compilation_passed": true, "time": 0.0980079174041748, "tests_passed": false, "error": "ValueError"}
+{"code": " np.linspace(min_age, max_age, 20)", "compilation_passed": true, "time": 0.3139510154724121, "tests_passed": true, "error": null}
+{"code": " np.arange(min_age, max_age+1)", "compilation_passed": true, "time": 0.2546529769897461, "tests_passed": true, "error": null}
+{"code": " np.arange(min_age, max_age, 0.5)", "compilation_passed": true, "time": 0.26538705825805664, "tests_passed": true, "error": null}
+{"code": " np.arange(min_age, max_age, 1).astype(int)", "compilation_passed": true, "time": 0.05801725387573242, "tests_passed": false, "error": "ValueError"}
+{"code": " np.linspace(min_age, max_age, int(max_age - min_age) + 2)", "compilation_passed": true, "time": 0.2537877559661865, "tests_passed": true, "error": null}
+{"code": " np.linspace(min_age, max_age, max_age + 1 - min_age, endpoint=True)", "compilation_passed": true, "time": 0.015908002853393555, "tests_passed": false, "error": "TypeError"}
+{"code": " np.linspace(min_age, max_age, len(duplicate_names) + 1, endpoint=True)", "compilation_passed": true, "time": 0.31577229499816895, "tests_passed": true, "error": null}
+{"code": " np.linspace(min_age, max_age, len(duplicates_df))", "compilation_passed": true, "time": 0.26317405700683594, "tests_passed": true, "error": null}
+{"code": " np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np.linspace(min_age, max_age, len(np", "compilation_passed": false, "time": 0.0006878376007080078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.arange(min_age, max_age+1, 1)", "compilation_passed": true, "time": 0.34474706649780273, "tests_passed": true, "error": null}
+{"code": " np.linspace(min_age, max_age, 10)", "compilation_passed": true, "time": 0.4028778076171875, "tests_passed": true, "error": null}
+{"code": " np.arange(min_age, max_age + 1, 0.5)", "compilation_passed": true, "time": 0.2896749973297119, "tests_passed": true, "error": null}
+{"code": " [int(x) for x in np.linspace(min_age, max_age, 15)]", "compilation_passed": true, "time": 0.2973508834838867, "tests_passed": true, "error": null}
+{"code": " np.linspace(min_age, max_age, 11)", "compilation_passed": true, "time": 0.29206418991088867, "tests_passed": true, "error": null}
+{"code": " [int(min_age), int(min_age + 0.5)]", "compilation_passed": true, "time": 0.2715451717376709, "tests_passed": true, "error": null}
+{"code": " np.linspace(min_age, max_age, max_age - min_age + 1).astype(int)", "compilation_passed": true, "time": 0.01295924186706543, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,4 @@
+{"code": " json.dumps(data)", "compilation_passed": true, "time": 0.003665924072265625, "tests_passed": true, "error": null}
+{"code": " json.dumps(data).encode()", "compilation_passed": true, "time": 0.005362987518310547, "tests_passed": false, "error": "AttributeError"}
+{"code": " json.dumps(data).encode(\"utf-8\")", "compilation_passed": true, "time": 0.005267143249511719, "tests_passed": false, "error": "AttributeError"}
+{"code": " json.dumps(data).encode('utf-8')", "compilation_passed": true, "time": 0.0060422420501708984, "tests_passed": false, "error": "AttributeError"}

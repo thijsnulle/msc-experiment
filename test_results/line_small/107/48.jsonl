@@ -1,0 +1,25 @@
+{"code": "scatter(X['date'], X['value'], c=y_kmeans, cmap='tab10')", "compilation_passed": true, "time": 0.10917186737060547, "tests_passed": true, "error": null}
+{"code": "scatter(X['date'], X['value'], c=y_kmeans, cmap='rainbow', alpha=0.5, edgecolor='black', linewidth=0.5)", "compilation_passed": true, "time": 0.16441607475280762, "tests_passed": true, "error": null}
+{"code": "scatter(X.groupby('group').first().index, X['value'], c=y_kmeans, marker='o')", "compilation_passed": true, "time": 0.0772709846496582, "tests_passed": false, "error": "KeyError"}
+{"code": "scatter(X['date'], X['value'], c=y_kmeans, cmap='viridis', s=50, alpha=1)", "compilation_passed": true, "time": 0.11072087287902832, "tests_passed": true, "error": null}
+{"code": "scatter(X['date'], X['value'], c=y_kmeans)", "compilation_passed": true, "time": 0.11008596420288086, "tests_passed": true, "error": null}
+{"code": "scatter(X.date, X.value, c=y_kmeans, cmap='rainbow')", "compilation_passed": true, "time": 0.12124490737915039, "tests_passed": true, "error": null}
+{"code": "scatter(df['date'], df['value'], c=y_kmeans)", "compilation_passed": true, "time": 0.11155390739440918, "tests_passed": true, "error": null}
+{"code": "scatter(X['date'], X['value'], c=y_kmeans, cmap='hsv')", "compilation_passed": true, "time": 0.11214900016784668, "tests_passed": true, "error": null}
+{"code": "scatter(X['date'], X['value'], c=y_kmeans, cmap=\"Spectral_r\", alpha=0.5)", "compilation_passed": true, "time": 0.11876201629638672, "tests_passed": true, "error": null}
+{"code": "scatter(X['date'], X['value'], c=y_kmeans, cmap='brg',", "compilation_passed": false, "time": 0.00036406517028808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "scatter(X['date'], X['value'], c=y_kmeans, cmap='Spectral')", "compilation_passed": true, "time": 0.1058509349822998, "tests_passed": true, "error": null}
+{"code": "scatter(df.date, df.value, c=y_kmeans, cmap=\"Spectral\", linewidths=0.5)", "compilation_passed": true, "time": 0.11544609069824219, "tests_passed": true, "error": null}
+{"code": "scatter(X['date'], X['value'], c=y_kmeans, s=30, cmap='hsv', alpha=0.5, label=\"Clustered Data\")", "compilation_passed": true, "time": 0.12272477149963379, "tests_passed": true, "error": null}
+{"code": "scatter(", "compilation_passed": false, "time": 0.0003368854522705078, "tests_passed": false, "error": "SyntaxError"}
+{"code": "scatter(X.groupby('group')['date'].transform('mean'), X['value'], c=y_kmeans, cmap='jet', linewidths=0.5)", "compilation_passed": true, "time": 0.07876825332641602, "tests_passed": false, "error": "KeyError"}
+{"code": "scatter(X.loc[:, 'date'], X.loc[:, 'value'], c=y_kmeans)", "compilation_passed": true, "time": 0.12489795684814453, "tests_passed": true, "error": null}
+{"code": "scatter(X.iloc[:, 0], X.iloc[:, 1], c=y_kmeans, cmap='tab10')", "compilation_passed": true, "time": 0.16333270072937012, "tests_passed": true, "error": null}
+{"code": "scatter(X.groupby(\"group\")[\"date\"].apply(pd.Grouper()).resample(\"QS\", closed=\"left\").mean(), X.groupby(\"group\")[\"value\"].apply(pd.Grouper()).resample(\"QS\", closed=\"left\").mean(), c=y_kmeans, s=100)", "compilation_passed": true, "time": 0.1171872615814209, "tests_passed": false, "error": "KeyError"}
+{"code": "scatter(X['date'], X['value'], c=y_kmeans, cmap='viridis')", "compilation_passed": true, "time": 0.19076013565063477, "tests_passed": true, "error": null}
+{"code": "scatter(X['date'], X['value'], c=y_kmeans, cmap='jet', s=50, edgecolor='black')", "compilation_passed": true, "time": 0.11800980567932129, "tests_passed": true, "error": null}
+{"code": "scatter(X['date'], X['value'], c=y_kmeans, s=20)", "compilation_passed": true, "time": 0.11609005928039551, "tests_passed": true, "error": null}
+{"code": "scatter(X.date, X.value, c=y_kmeans, cmap='viridis')", "compilation_passed": true, "time": 0.11954092979431152, "tests_passed": true, "error": null}
+{"code": "scatter(X['date'], X['value'], c=y_kmeans, cmap='brg')", "compilation_passed": true, "time": 0.11484384536743164, "tests_passed": true, "error": null}
+{"code": "scatter(X['date'], X['value'], c=y_kmeans, s=75, alpha=1.0, edgecolor='black', lw=1)", "compilation_passed": true, "time": 0.11316800117492676, "tests_passed": true, "error": null}
+{"code": "scatter(X.groupby('group')['date'].apply(pd.Series.dt.toordinal), X['value'], c=y_kmeans)", "compilation_passed": true, "time": 0.11132407188415527, "tests_passed": false, "error": "KeyError"}

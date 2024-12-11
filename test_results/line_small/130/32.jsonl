@@ -1,0 +1,21 @@
+{"code": " binascii.a2b_hex(hex_str) + salt", "compilation_passed": true, "time": 0.012334108352661133, "tests_passed": false, "error": "binascii.Error"}
+{"code": " hex_str.encode('utf-8') + salt", "compilation_passed": true, "time": 0.0015430450439453125, "tests_passed": true, "error": null}
+{"code": " hex_str + salt", "compilation_passed": true, "time": 0.009927034378051758, "tests_passed": false, "error": "TypeError"}
+{"code": " salt + base64.b16decode(hex_str.encode(\"utf-8\"))", "compilation_passed": true, "time": 0.013141870498657227, "tests_passed": false, "error": "binascii.Error"}
+{"code": " hex_str.encode() + salt", "compilation_passed": true, "time": 0.0015099048614501953, "tests_passed": true, "error": null}
+{"code": " salt + binascii.unhexlify(hex_str)", "compilation_passed": true, "time": 0.009579181671142578, "tests_passed": false, "error": "binascii.Error"}
+{"code": " salt + bytes.fromhex(hex_str)", "compilation_passed": true, "time": 0.010046005249023438, "tests_passed": false, "error": "ValueError"}
+{"code": " hex_str.encode()", "compilation_passed": true, "time": 0.0016949176788330078, "tests_passed": true, "error": null}
+{"code": " salt + hex_str.encode()", "compilation_passed": true, "time": 0.0014598369598388672, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_str) + salt", "compilation_passed": true, "time": 0.008636951446533203, "tests_passed": false, "error": "binascii.Error"}
+{"code": " salt + binascii.a2b_hex(hex_str)", "compilation_passed": true, "time": 0.009348869323730469, "tests_passed": false, "error": "binascii.Error"}
+{"code": " hex_str.encode(\"utf-8\")", "compilation_passed": true, "time": 0.001986980438232422, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(bytes.fromhex(hex_str)) + salt", "compilation_passed": true, "time": 0.010245084762573242, "tests_passed": false, "error": "ValueError"}
+{"code": " hex_str.encode('ascii') + salt", "compilation_passed": true, "time": 0.001669168472290039, "tests_passed": true, "error": null}
+{"code": " salt + b\"\\0\" + binascii.unhexlify(hex_str)", "compilation_passed": true, "time": 0.009315967559814453, "tests_passed": false, "error": "binascii.Error"}
+{"code": " hex_str.encode('utf-8')", "compilation_passed": true, "time": 0.0017499923706054688, "tests_passed": true, "error": null}
+{"code": " base64.b16decode(hex_str)", "compilation_passed": true, "time": 0.009460926055908203, "tests_passed": false, "error": "binascii.Error"}
+{"code": " base64.b64decode(hex_str) + salt", "compilation_passed": true, "time": 0.001744985580444336, "tests_passed": true, "error": null}
+{"code": " base64.b16decode(hex_str.upper()) + salt", "compilation_passed": true, "time": 0.010663032531738281, "tests_passed": false, "error": "binascii.Error"}
+{"code": " salt + base64.b16decode(hex_str)", "compilation_passed": true, "time": 0.009688854217529297, "tests_passed": false, "error": "binascii.Error"}
+{"code": " salt + b\"\\x00\" + hex_str.encode()", "compilation_passed": true, "time": 0.001817941665649414, "tests_passed": true, "error": null}

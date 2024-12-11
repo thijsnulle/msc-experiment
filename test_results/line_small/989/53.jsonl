@@ -1,0 +1,6 @@
+{"code": " \"\".join(random.choice(characters) for _ in range(length))", "compilation_passed": true, "time": 0.022243022918701172, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(characters) for _ in range(length))", "compilation_passed": true, "time": 0.02344489097595215, "tests_passed": true, "error": null}
+{"code": " random.choice(characters) * length", "compilation_passed": true, "time": 0.023934125900268555, "tests_passed": true, "error": null}
+{"code": " \"\"", "compilation_passed": true, "time": 0.006910085678100586, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choices(characters, k=length))", "compilation_passed": true, "time": 0.020043134689331055, "tests_passed": true, "error": null}
+{"code": " random.sample(characters, length)", "compilation_passed": true, "time": 0.006658077239990234, "tests_passed": true, "error": null}

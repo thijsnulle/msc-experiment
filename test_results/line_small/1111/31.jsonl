@@ -1,0 +1,7 @@
+{"code": " animal_dict.copy()", "compilation_passed": true, "time": 0.005630970001220703, "tests_passed": true, "error": null}
+{"code": " dict()", "compilation_passed": true, "time": 0.0013968944549560547, "tests_passed": true, "error": null}
+{"code": " {k: v for k, v in animal_dict.items() if k in ANIMAL}", "compilation_passed": true, "time": 0.0018298625946044922, "tests_passed": true, "error": null}
+{"code": " {animal : animal_dict[animal] for animal in ANIMAL if animal in animal_dict}", "compilation_passed": true, "time": 0.0013079643249511719, "tests_passed": true, "error": null}
+{"code": " copy.deepcopy(animal_dict)", "compilation_passed": true, "time": 0.006415128707885742, "tests_passed": false, "error": "NameError"}
+{"code": " {key: value for key, value in animal_dict.items() if key in ANIMAL}", "compilation_passed": true, "time": 0.0013828277587890625, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.0012049674987792969, "tests_passed": true, "error": null}

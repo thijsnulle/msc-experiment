@@ -1,0 +1,8 @@
+{"code": " pd.DataFrame(data, columns=('Value',))", "compilation_passed": true, "time": 0.03439903259277344, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Value': data})", "compilation_passed": true, "time": 0.03418874740600586, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Value\": data})", "compilation_passed": true, "time": 0.034451961517333984, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=[\"Value\"])", "compilation_passed": true, "time": 0.03468489646911621, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=['Value'])", "compilation_passed": true, "time": 0.03220987319946289, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.008201122283935547, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, columns = ['Value'])", "compilation_passed": true, "time": 0.03276419639587402, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.005784034729003906, "tests_passed": false, "error": "KeyError"}

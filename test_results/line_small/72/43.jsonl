@@ -1,0 +1,11 @@
+{"code": " df, plt.hist(df['median'])", "compilation_passed": true, "time": 0.023672819137573242, "tests_passed": true, "error": null}
+{"code": " df, None", "compilation_passed": true, "time": 0.01708507537841797, "tests_passed": true, "error": null}
+{"code": " df, df[\"median\"].apply(plt.hist)", "compilation_passed": true, "time": 0.03446173667907715, "tests_passed": true, "error": null}
+{"code": " df, df[\"median\"].plot(kind = 'hist')", "compilation_passed": true, "time": 0.07959485054016113, "tests_passed": true, "error": null}
+{"code": " df, df.hist(column='median')", "compilation_passed": true, "time": 0.04935765266418457, "tests_passed": true, "error": null}
+{"code": " df, df['median'].plot.hist()", "compilation_passed": true, "time": 0.08228778839111328, "tests_passed": true, "error": null}
+{"code": " df, df[\"list\"].apply(lambda x: plt.hist(x, bins=10, density=True)[0])", "compilation_passed": true, "time": 0.03469085693359375, "tests_passed": true, "error": null}
+{"code": " df, df[\"median\"].apply(np.histogram)[1]", "compilation_passed": true, "time": 0.01847219467163086, "tests_passed": true, "error": null}
+{"code": " df, plt.hist(df['median'], bins = 20)", "compilation_passed": true, "time": 0.028570890426635742, "tests_passed": true, "error": null}
+{"code": " df, plt.hist(df['median'], bins=30, edgecolor='black')", "compilation_passed": true, "time": 0.05372786521911621, "tests_passed": true, "error": null}
+{"code": " df, df['list'].apply(pd.DataFrame(df['list'].apply(lambda l: l[0]).value_counts()).plot.bar())", "compilation_passed": true, "time": 0.0444340705871582, "tests_passed": false, "error": "TypeError"}

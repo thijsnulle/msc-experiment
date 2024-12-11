@@ -1,0 +1,17 @@
+{"code": " np.array(chain.from_iterable(L))", "compilation_passed": true, "time": 0.014503955841064453, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([np.array(item) for item in L])", "compilation_passed": true, "time": 0.2514321804046631, "tests_passed": true, "error": null}
+{"code": " np.array(list(chain(*L)))", "compilation_passed": true, "time": 0.2621581554412842, "tests_passed": true, "error": null}
+{"code": " np.array(list(chain.from_iterable(L)))", "compilation_passed": true, "time": 0.26090288162231445, "tests_passed": true, "error": null}
+{"code": " np.array([list(chain(*x)) for x in L])", "compilation_passed": true, "time": 0.010004043579101562, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(list(chain(*L))).reshape((-1, 3))", "compilation_passed": true, "time": 0.11554908752441406, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([l for l in L if len(l) > 1]).reshape(-1, len(L[0]))", "compilation_passed": true, "time": 0.26508021354675293, "tests_passed": true, "error": null}
+{"code": " np.array([np.array(l).reshape(-1,1) for l in L])", "compilation_passed": true, "time": 0.2570328712463379, "tests_passed": true, "error": null}
+{"code": " np.array([[i, j] for i in L[0] for j in L[1] if i != j])", "compilation_passed": true, "time": 0.2592780590057373, "tests_passed": true, "error": null}
+{"code": " list(chain.from_iterable(L))", "compilation_passed": true, "time": 0.26790595054626465, "tests_passed": true, "error": null}
+{"code": " np.array(L)", "compilation_passed": true, "time": 0.26458001136779785, "tests_passed": true, "error": null}
+{"code": " np.array([x for x in chain.from_iterable(L)]).reshape(-1, 1)", "compilation_passed": true, "time": 0.2589230537414551, "tests_passed": true, "error": null}
+{"code": " np.array(chain(*L))", "compilation_passed": true, "time": 0.007781028747558594, "tests_passed": false, "error": "TypeError"}
+{"code": " list(chain(*L))", "compilation_passed": true, "time": 0.2601180076599121, "tests_passed": true, "error": null}
+{"code": " np.asarray(list(chain(*L)))  # flatten and convert to 1D array", "compilation_passed": true, "time": 0.2650330066680908, "tests_passed": true, "error": null}
+{"code": " np.array([num for nums in L for num in nums]).reshape(-1, 1)", "compilation_passed": true, "time": 0.2875540256500244, "tests_passed": true, "error": null}
+{"code": " np.array(chain.from_iterable(L)).reshape(len(L), -1)", "compilation_passed": true, "time": 0.007928133010864258, "tests_passed": false, "error": "ValueError"}

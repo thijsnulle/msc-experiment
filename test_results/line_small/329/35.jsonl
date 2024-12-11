@@ -1,0 +1,3 @@
+{"code": " re.findall(regex_pattern, text)", "compilation_passed": true, "time": 0.01389002799987793, "tests_passed": true, "error": null}
+{"code": " [match for match in re.findall(regex_pattern, text)]", "compilation_passed": true, "time": 0.01392674446105957, "tests_passed": true, "error": null}
+{"code": " [match.group() for match in re.finditer(regex_pattern, text)]", "compilation_passed": true, "time": 0.014904022216796875, "tests_passed": true, "error": null}

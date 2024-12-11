@@ -1,0 +1,7 @@
+{"code": " {'mean': np.mean(v), 'median': np.median(v)} for k, v in stats.items()", "compilation_passed": true, "time": 0.24160099029541016, "tests_passed": true, "error": null}
+{"code": " {\"mean\": np.mean(v), \"median\": np.median(v)} for k, v in stats.items()", "compilation_passed": true, "time": 0.24117207527160645, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.0002181529998779297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {\"mean\": np.mean(stats[k]), \"median\": np.median(stats[k])}", "compilation_passed": true, "time": 0.008715152740478516, "tests_passed": false, "error": "NameError"}
+{"code": " {\"mean\": np.mean(stats[k]), \"median\": np.median(stats[k])} for k in stats", "compilation_passed": true, "time": 0.2398366928100586, "tests_passed": true, "error": null}
+{"code": " {\"mean\": np.mean(v), \"median\": np.median(v)}", "compilation_passed": true, "time": 0.008826971054077148, "tests_passed": false, "error": "NameError"}
+{"code": " {\"mean\": np.mean(stats[k]), \"median\": np.median(stats[k])} for k in stats.keys()", "compilation_passed": true, "time": 0.24097990989685059, "tests_passed": true, "error": null}

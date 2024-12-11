@@ -1,0 +1,19 @@
+{"code": " Mail(", "compilation_passed": true, "time": 0.0012981891632080078, "tests_passed": false, "error": "No module named 'sendgrid'"}
+{"code": " Mail(to_email=recipient_email, subject=\"List of files in directory\", body=f\"List of files in '{dir}': {file_list_str}\")", "compilation_passed": false, "time": 0.0002338886260986328, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"Files in {dir} ({len(file_list)}): {file_list_str}\"", "compilation_passed": false, "time": 0.00022792816162109375, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"Hello,\\n\\nThe following files have been found in the directory: {file_list_str}\\n\\nThank you!\"", "compilation_passed": false, "time": 0.0001919269561767578, "tests_passed": false, "error": "IndentationError"}
+{"code": " Mail(to_email=recipient_email,", "compilation_passed": true, "time": 0.0012788772583007812, "tests_passed": false, "error": "No module named 'sendgrid'"}
+{"code": " f\"Here is a list of files in the directory {dir}:\\n{file_list_str}\"", "compilation_passed": false, "time": 0.0002040863037109375, "tests_passed": false, "error": "IndentationError"}
+{"code": " Mail(to_email=recipient_email, from_email=\"YOUR_EMAIL\", subject=\"Here are the files!\", html_content=file_list_str)", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "IndentationError"}
+{"code": " Mail(to=recipient_email, subject=f'Here is the list of files in your directory: {dir}', body=f'Here is the list of files in your directory: {dir}\\n{file_list_str}')", "compilation_passed": false, "time": 0.00021696090698242188, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"The following files were found in the directory: \\n{file_list_str}\"", "compilation_passed": false, "time": 0.0001888275146484375, "tests_passed": false, "error": "IndentationError"}
+{"code": " Mail(from_email='YOUR_EMAIL',", "compilation_passed": false, "time": 0.0010457038879394531, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"The following files exist in the {dir} directory:\\n\\n{file_list_str}\"", "compilation_passed": false, "time": 0.00020384788513183594, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"{os.path.basename(dir)}: {file_list_str}\"", "compilation_passed": false, "time": 0.00022101402282714844, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"This is the list of files in directory '{dir}':\\n{file_list_str}\"", "compilation_passed": false, "time": 0.00021910667419433594, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"List of files in '{dir}': {file_list_str}\"", "compilation_passed": false, "time": 0.0002129077911376953, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"The following files were found in '{dir}': {file_list_str}\"", "compilation_passed": false, "time": 0.0001888275146484375, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"Your directory contains the following files: \\n{file_list_str}.\"", "compilation_passed": false, "time": 0.0001888275146484375, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"This is a list of all files in directory {dir}: {file_list_str}.\"", "compilation_passed": false, "time": 0.00019288063049316406, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"The following files are present in {dir}: {file_list_str}\"", "compilation_passed": false, "time": 0.00019311904907226562, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"You are receiving this message because you have successfully run the task.\\n\\n\" \\", "compilation_passed": false, "time": 0.00017976760864257812, "tests_passed": false, "error": "SyntaxError"}

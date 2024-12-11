@@ -1,0 +1,4 @@
+{"code": " img.rotate(angle)", "compilation_passed": true, "time": 0.16226410865783691, "tests_passed": true, "error": null}
+{"code": " img.rotate(angle, expand=True)", "compilation_passed": true, "time": 1.1015219688415527, "tests_passed": false, "error": "TimeoutError"}
+{"code": " img.rotate(angle, Image.BILINEAR, expand=True)", "compilation_passed": true, "time": 0.1728048324584961, "tests_passed": true, "error": null}
+{"code": " img.rotate(angle, Image.Resampling.LANCZOS, expand=True)", "compilation_passed": true, "time": 0.06124591827392578, "tests_passed": false, "error": "ValueError"}

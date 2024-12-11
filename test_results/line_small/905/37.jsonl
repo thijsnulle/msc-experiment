@@ -1,0 +1,6 @@
+{"code": " [row for row in reader]", "compilation_passed": true, "time": 0.011630058288574219, "tests_passed": true, "error": null}
+{"code": " list(reader)", "compilation_passed": true, "time": 0.013582229614257812, "tests_passed": true, "error": null}
+{"code": " [list(row) for row in reader]", "compilation_passed": true, "time": 0.009807825088500977, "tests_passed": true, "error": null}
+{"code": " [row for row in reader][1:]", "compilation_passed": true, "time": 0.010524988174438477, "tests_passed": true, "error": null}
+{"code": " list(reader)[1:]", "compilation_passed": true, "time": 0.011185884475708008, "tests_passed": true, "error": null}
+{"code": " [next(reader)] + list(reader)", "compilation_passed": true, "time": 0.009793996810913086, "tests_passed": true, "error": null}

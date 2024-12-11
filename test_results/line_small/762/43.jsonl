@@ -1,0 +1,18 @@
+{"code": " '.'.join((directory_name, 'zip'))", "compilation_passed": true, "time": 0.01966571807861328, "tests_passed": true, "error": null}
+{"code": " zipfile.ZipFile(directory_name + '.zip', 'w')", "compilation_passed": true, "time": 0.01437520980834961, "tests_passed": false, "error": "ValueError"}
+{"code": " \"{0}.zip\".format(directory_name)", "compilation_passed": true, "time": 0.019008874893188477, "tests_passed": true, "error": null}
+{"code": " directory_name + '.zip'", "compilation_passed": true, "time": 0.017638683319091797, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory_name, f'{directory_name}.zip')", "compilation_passed": true, "time": 0.0064449310302734375, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory_name, f\"{directory_name}.zip\")", "compilation_passed": true, "time": 0.006097078323364258, "tests_passed": true, "error": null}
+{"code": " f\"{directory_name}.zip\"", "compilation_passed": true, "time": 0.017446041107177734, "tests_passed": true, "error": null}
+{"code": " zipfile.ZipFile(os.path.join(directory_name, directory_name + '.zip'), mode='w')", "compilation_passed": true, "time": 0.011559009552001953, "tests_passed": false, "error": "ValueError"}
+{"code": " directory_name + \".zip\"", "compilation_passed": true, "time": 0.0185239315032959, "tests_passed": true, "error": null}
+{"code": " \"{}.zip\".format(directory_name)", "compilation_passed": true, "time": 0.017305850982666016, "tests_passed": true, "error": null}
+{"code": " directory_name+'.zip'", "compilation_passed": true, "time": 0.01805710792541504, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory_name, 'latin_files.zip')", "compilation_passed": true, "time": 0.0071599483489990234, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory_name, '.'.join([os.path.basename(directory_name), 'zip']))", "compilation_passed": true, "time": 0.007844924926757812, "tests_passed": true, "error": null}
+{"code": " zipfile.zipfile.ZipFile(os.path.join(directory_name, \"{}.zip\".format(directory_name)), mode='w', compression=zipfile.ZIP_DEFLATED)", "compilation_passed": true, "time": 0.008530855178833008, "tests_passed": false, "error": "AttributeError"}
+{"code": " os.path.join(directory_name, directory_name + '.zip')", "compilation_passed": true, "time": 0.007135152816772461, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory_name, '.'.join(file_names))", "compilation_passed": true, "time": 0.007202863693237305, "tests_passed": true, "error": null}
+{"code": " zipfile.ZipFile(directory_name+'.zip', 'w', zipfile.ZIP_DEFLATED)", "compilation_passed": true, "time": 0.011295795440673828, "tests_passed": false, "error": "ValueError"}
+{"code": " os.path.join(directory_name, '.'.join([directory_name, 'zip']))", "compilation_passed": true, "time": 0.006994009017944336, "tests_passed": true, "error": null}

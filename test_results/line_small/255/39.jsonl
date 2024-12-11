@@ -1,0 +1,10 @@
+{"code": " [func(x) for func in FUNCTIONS]", "compilation_passed": true, "time": 0.10318207740783691, "tests_passed": false, "error": "ValueError"}
+{"code": " FUNCTIONS[func_index](x)", "compilation_passed": true, "time": 0.29983997344970703, "tests_passed": true, "error": null}
+{"code": " np.zeros(len(x))", "compilation_passed": true, "time": 0.13753485679626465, "tests_passed": true, "error": null}
+{"code": " [FUNCTIONS[func_index](x) for x in x]", "compilation_passed": true, "time": 0.273331880569458, "tests_passed": true, "error": null}
+{"code": " [FUNCTIONS[func_index](_x) for _x in x]", "compilation_passed": true, "time": 0.2875096797943115, "tests_passed": true, "error": null}
+{"code": " np.sin(x * (3./45 if func_index == 0 else (3./45) if func_index == 1 else 3./45))", "compilation_passed": true, "time": 0.14430594444274902, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, 1, 1000)", "compilation_passed": true, "time": 0.15381288528442383, "tests_passed": true, "error": null}
+{"code": " np.zeros(1000)", "compilation_passed": true, "time": 0.1549539566040039, "tests_passed": true, "error": null}
+{"code": " np.zeros(x.size)", "compilation_passed": true, "time": 0.15485310554504395, "tests_passed": true, "error": null}
+{"code": " np.array([FUNCTIONS[func_index](z) for z in x])", "compilation_passed": true, "time": 0.3566000461578369, "tests_passed": true, "error": null}

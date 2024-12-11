@@ -1,0 +1,21 @@
+{"code": " sorted(counter.most_common(), key=lambda tup: tup[0])[0][0]", "compilation_passed": true, "time": 0.00777888298034668, "tests_passed": true, "error": null}
+{"code": " sorted(counter.most_common(2)[0][0],", "compilation_passed": false, "time": 0.00028395652770996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted(list(map(str,", "compilation_passed": false, "time": 0.0002892017364501953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted(set(data[col]))", "compilation_passed": true, "time": 0.007100820541381836, "tests_passed": true, "error": null}
+{"code": " sorted(list(counter.most_common(2)[0][0]))", "compilation_passed": true, "time": 0.006781816482543945, "tests_passed": true, "error": null}
+{"code": " sorted(list(counter.most_common(2)[0][0]),", "compilation_passed": false, "time": 0.0002727508544921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted(list(set(counter)))", "compilation_passed": true, "time": 0.0059583187103271484, "tests_passed": true, "error": null}
+{"code": " sorted(counter.most_common(2))[0][0]", "compilation_passed": true, "time": 0.007077932357788086, "tests_passed": true, "error": null}
+{"code": " sorted(counter.most_common(2)[0][0])[0]", "compilation_passed": true, "time": 0.0061986446380615234, "tests_passed": true, "error": null}
+{"code": " sorted(list(counter.most_common(2)[0][0]))[0]", "compilation_passed": true, "time": 0.006111860275268555, "tests_passed": true, "error": null}
+{"code": " sorted(np.unique(data[col]), reverse=True)", "compilation_passed": true, "time": 0.0070781707763671875, "tests_passed": true, "error": null}
+{"code": " sorted(list(map(str, np.atleast_1d(counter.most_common(2)[0][0]))))", "compilation_passed": true, "time": 0.006369113922119141, "tests_passed": true, "error": null}
+{"code": " sorted(list(map(lambda x: x[0], counter.most_common(2))))", "compilation_passed": true, "time": 0.00612187385559082, "tests_passed": true, "error": null}
+{"code": " sorted(data[col])[0]", "compilation_passed": true, "time": 0.006656169891357422, "tests_passed": true, "error": null}
+{"code": " sorted(counter.most_common(2)[0][0])", "compilation_passed": true, "time": 0.005941152572631836, "tests_passed": true, "error": null}
+{"code": " sorted(", "compilation_passed": false, "time": 0.0002751350402832031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted(list(map(int,", "compilation_passed": false, "time": 0.00028014183044433594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted(np.atleast_1d(counter.most_common(2)[0][0]))", "compilation_passed": true, "time": 0.006579160690307617, "tests_passed": true, "error": null}
+{"code": " sorted(np.array(data[col]).tolist())[0]", "compilation_passed": true, "time": 0.0069561004638671875, "tests_passed": true, "error": null}
+{"code": " sorted(counter.most_common(), key=lambda x: x[0])[0][0]", "compilation_passed": true, "time": 0.00701904296875, "tests_passed": true, "error": null}
+{"code": " sorted(counter.most_common(2),", "compilation_passed": false, "time": 0.00026679039001464844, "tests_passed": false, "error": "SyntaxError"}

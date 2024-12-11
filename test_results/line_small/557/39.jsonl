@@ -1,0 +1,7 @@
+{"code": " sum(scores) / len(scores)", "compilation_passed": true, "time": 0.04748272895812988, "tests_passed": false, "error": "ZeroDivisionError"}
+{"code": " np.mean(scores)", "compilation_passed": true, "time": 0.08058595657348633, "tests_passed": true, "error": null}
+{"code": " sum(scores) / (len(scores) + 1)", "compilation_passed": true, "time": 0.003589153289794922, "tests_passed": false, "error": "TypeError"}
+{"code": " np.nanmean(scores)", "compilation_passed": true, "time": 0.05469679832458496, "tests_passed": true, "error": null}
+{"code": " sum(scores) / len(scores) if scores else np.nan", "compilation_passed": true, "time": 0.05554318428039551, "tests_passed": true, "error": null}
+{"code": " np.mean(scores) if len(scores) > 1 else np.nan", "compilation_passed": true, "time": 0.13480687141418457, "tests_passed": true, "error": null}
+{"code": " np.mean(scores) if scores else np.nan", "compilation_passed": true, "time": 0.08620381355285645, "tests_passed": true, "error": null}

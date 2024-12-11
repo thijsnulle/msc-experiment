@@ -1,0 +1,10 @@
+{"code": " top_k == 0:", "compilation_passed": true, "time": 0.03157186508178711, "tests_passed": true, "error": null}
+{"code": " len(text_dict) < 1:", "compilation_passed": true, "time": 0.028041839599609375, "tests_passed": true, "error": null}
+{"code": " top_k > len(word_keys):", "compilation_passed": true, "time": 0.029407978057861328, "tests_passed": true, "error": null}
+{"code": " len(word_keys) < 1:", "compilation_passed": true, "time": 0.029496192932128906, "tests_passed": true, "error": null}
+{"code": " top_k > len(text_dict):", "compilation_passed": true, "time": 0.028734207153320312, "tests_passed": true, "error": null}
+{"code": " len(word_keys) == 0:", "compilation_passed": true, "time": 0.028417110443115234, "tests_passed": true, "error": null}
+{"code": " not isinstance(top_k, int):", "compilation_passed": true, "time": 0.031455039978027344, "tests_passed": true, "error": null}
+{"code": " top_k > 50:", "compilation_passed": true, "time": 0.031713008880615234, "tests_passed": true, "error": null}
+{"code": " top_k > 10:", "compilation_passed": true, "time": 0.03320789337158203, "tests_passed": true, "error": null}
+{"code": " not word_keys or not text_dict:", "compilation_passed": true, "time": 0.030256032943725586, "tests_passed": true, "error": null}

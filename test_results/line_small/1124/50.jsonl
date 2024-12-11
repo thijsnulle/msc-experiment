@@ -1,0 +1,9 @@
+{"code": " soup.find('title').text", "compilation_passed": true, "time": 0.010893106460571289, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('title')", "compilation_passed": true, "time": 0.003975868225097656, "tests_passed": true, "error": null}
+{"code": " soup.find('title').get_text()", "compilation_passed": true, "time": 0.009823083877563477, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('title').string", "compilation_passed": true, "time": 0.010898828506469727, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.title.string if soup.title else \"No title tag found in the webpage.\"", "compilation_passed": true, "time": 0.011429071426391602, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.title.text", "compilation_passed": true, "time": 0.01031804084777832, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.title", "compilation_passed": true, "time": 0.0036737918853759766, "tests_passed": true, "error": null}
+{"code": " soup.title.string", "compilation_passed": true, "time": 0.01430511474609375, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('title').string.strip()", "compilation_passed": true, "time": 0.012830018997192383, "tests_passed": false, "error": "AttributeError"}

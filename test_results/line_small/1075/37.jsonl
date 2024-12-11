@@ -1,0 +1,6 @@
+{"code": "astype(int)", "compilation_passed": true, "time": 0.015265941619873047, "tests_passed": true, "error": null}
+{"code": "astype(\"int64\")", "compilation_passed": true, "time": 0.015990018844604492, "tests_passed": true, "error": null}
+{"code": "astype(\"timedelta64[ms]\")", "compilation_passed": true, "time": 0.007859945297241211, "tests_passed": true, "error": null}
+{"code": "astype(\"timedelta64[s]\").total_seconds()", "compilation_passed": true, "time": 0.008379936218261719, "tests_passed": false, "error": "AttributeError"}
+{"code": "astype(\"float64\")", "compilation_passed": true, "time": 0.014674901962280273, "tests_passed": true, "error": null}
+{"code": "astype(\"timedelta64[s]\")", "compilation_passed": true, "time": 0.01371622085571289, "tests_passed": true, "error": null}

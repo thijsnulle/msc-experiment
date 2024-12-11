@@ -1,0 +1,4 @@
+{"code": "path_to_append).mkdir(parents=True, exist_ok=True)", "compilation_passed": true, "time": 0.006860971450805664, "tests_passed": true, "error": null}
+{"code": "path_to_append).mkdir(exist_ok=True)", "compilation_passed": true, "time": 0.006414175033569336, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "path_to_append).mkdir(exist_ok=True, parents=True)", "compilation_passed": true, "time": 0.006445884704589844, "tests_passed": true, "error": null}
+{"code": "path_to_append).parent.mkdir(parents=True, exist_ok=True)", "compilation_passed": true, "time": 0.003834962844848633, "tests_passed": true, "error": null}

@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(array, columns=COLUMNS)", "compilation_passed": true, "time": 0.34510016441345215, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(array)", "compilation_passed": true, "time": 0.04160904884338379, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(array, index=[\"row0\", \"row1\"], columns=COLUMNS)", "compilation_passed": true, "time": 0.046623945236206055, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(array, index=None, columns=COLUMNS)", "compilation_passed": true, "time": 0.3595409393310547, "tests_passed": true, "error": null}

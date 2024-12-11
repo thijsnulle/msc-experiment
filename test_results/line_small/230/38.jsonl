@@ -1,0 +1,15 @@
+{"code": " df is None or not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.37918591499328613, "tests_passed": true, "error": null}
+{"code": " isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.006239175796508789, "tests_passed": false, "error": "AttributeError"}
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.36388301849365234, "tests_passed": true, "error": null}
+{"code": " type(df) is not pd.core.frame.DataFrame:", "compilation_passed": true, "time": 0.36950206756591797, "tests_passed": true, "error": null}
+{"code": " 'Name' not in df.columns:", "compilation_passed": true, "time": 0.07955384254455566, "tests_passed": false, "error": "AttributeError"}
+{"code": " df is None:", "compilation_passed": true, "time": 0.37342214584350586, "tests_passed": true, "error": null}
+{"code": " type(df) is not pd.DataFrame:", "compilation_passed": true, "time": 0.378007173538208, "tests_passed": true, "error": null}
+{"code": " isinstance(df, pd.DataFrame) and df.keys().isin([COLUMNS]):", "compilation_passed": true, "time": 0.0346379280090332, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 0.35935473442077637, "tests_passed": true, "error": null}
+{"code": " type(df) != pd.DataFrame:", "compilation_passed": true, "time": 0.39618921279907227, "tests_passed": true, "error": null}
+{"code": " df.empty or not all(col in df.columns for col in COLUMNS):", "compilation_passed": true, "time": 0.009075164794921875, "tests_passed": false, "error": "AttributeError"}
+{"code": " df is not None:", "compilation_passed": true, "time": 0.0066530704498291016, "tests_passed": false, "error": "AttributeError"}
+{"code": " type(df) is not pd.core.frame.DataFrame or not list(df.columns) == COLUMNS:", "compilation_passed": true, "time": 0.28869104385375977, "tests_passed": true, "error": null}
+{"code": " df.empty or df is None or df[COLUMNS[0]].isnull().any():", "compilation_passed": true, "time": 0.08548998832702637, "tests_passed": false, "error": "AttributeError"}
+{"code": " isinstance(df, pd.core.frame.DataFrame) and all(key in df.columns for key in COLUMNS):", "compilation_passed": true, "time": 0.1055288314819336, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,9 @@
+{"code": " not all(isinstance(pattern, str) for pattern in patterns):", "compilation_passed": true, "time": 0.002040863037109375, "tests_passed": true, "error": null}
+{"code": " len(patterns) > 1:", "compilation_passed": true, "time": 0.009557008743286133, "tests_passed": false, "error": "TypeError"}
+{"code": " any(not isinstance(pattern, str) for pattern in patterns):", "compilation_passed": true, "time": 0.0018498897552490234, "tests_passed": true, "error": null}
+{"code": " len(patterns) != 5:", "compilation_passed": true, "time": 0.010113000869750977, "tests_passed": false, "error": "TypeError"}
+{"code": " not all(isinstance(p, str) for p in patterns):", "compilation_passed": true, "time": 0.0016028881072998047, "tests_passed": true, "error": null}
+{"code": " not patterns:", "compilation_passed": true, "time": 0.008703947067260742, "tests_passed": false, "error": "TypeError"}
+{"code": " len(patterns) == 0:", "compilation_passed": true, "time": 0.00893092155456543, "tests_passed": false, "error": "TypeError"}
+{"code": " len(string) < len(patterns):", "compilation_passed": true, "time": 0.008668899536132812, "tests_passed": false, "error": "TypeError"}
+{"code": " len(patterns) > 0:", "compilation_passed": true, "time": 0.008059024810791016, "tests_passed": false, "error": "TypeError"}

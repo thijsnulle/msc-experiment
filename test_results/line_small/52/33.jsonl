@@ -1,0 +1,4 @@
+{"code": " [word for word in words if word not in STOPWORDS]", "compilation_passed": true, "time": 0.005261659622192383, "tests_passed": true, "error": null}
+{"code": " [w for w in words if w not in STOPWORDS]", "compilation_passed": true, "time": 0.0062220096588134766, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in words if word not in STOPWORDS]", "compilation_passed": true, "time": 0.007533073425292969, "tests_passed": true, "error": null}
+{"code": " [word.strip(\".,?!\") for word in words]", "compilation_passed": true, "time": 0.013596057891845703, "tests_passed": true, "error": null}

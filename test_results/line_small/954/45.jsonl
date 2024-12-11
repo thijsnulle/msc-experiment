@@ -1,0 +1,29 @@
+{"code": " re.compile(fr\"\\b{word}\\b\")", "compilation_passed": true, "time": 0.01059722900390625, "tests_passed": true, "error": null}
+{"code": " re.compile(word.replace(' ', '( |_|__)'))", "compilation_passed": true, "time": 0.009766817092895508, "tests_passed": true, "error": null}
+{"code": " fr\"\\b{word.lower()}\\b\"", "compilation_passed": true, "time": 0.005082845687866211, "tests_passed": false, "error": "AttributeError"}
+{"code": " fr\"\\b{re.escape(word)}\\b\"", "compilation_passed": true, "time": 0.004756927490234375, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(\"\\\\b{}\\\\b\".format(word))", "compilation_passed": true, "time": 0.013003110885620117, "tests_passed": true, "error": null}
+{"code": " r'(?<=\\S){}(?=\\S)'.format(re.escape(word))", "compilation_passed": true, "time": 0.0053119659423828125, "tests_passed": false, "error": "AttributeError"}
+{"code": " fr\"\\b({word})\\b\"", "compilation_passed": true, "time": 0.004871845245361328, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r\"\\s+\", \"_\", word)", "compilation_passed": true, "time": 0.0057909488677978516, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"(?<={word} |{word}\\b)(?:_| )+({word})(?:_| )+(?={word} |{word}\\b)\"", "compilation_passed": true, "time": 0.005342960357666016, "tests_passed": false, "error": "AttributeError"}
+{"code": " fr'\\b({word})\\b'", "compilation_passed": true, "time": 0.005013227462768555, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'([A-Za-z]+) (\\1)'", "compilation_passed": true, "time": 0.0049059391021728516, "tests_passed": false, "error": "AttributeError"}
+{"code": " fr\"\\b({re.escape(word).replace(' ', r'\\s+')})\"", "compilation_passed": false, "time": 0.0001361370086669922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " rf\"\\b{word}\\b\"", "compilation_passed": true, "time": 0.005568027496337891, "tests_passed": false, "error": "AttributeError"}
+{"code": " fr\"\\b{word}\\b\"", "compilation_passed": true, "time": 0.0058248043060302734, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'\\b' + re.escape(word) + r'\\b'", "compilation_passed": true, "time": 0.005438089370727539, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'\\b{}\\b'.format(word)", "compilation_passed": true, "time": 0.0050771236419677734, "tests_passed": false, "error": "AttributeError"}
+{"code": " \"(?<=[a-zA-Z0-9]){}(?=[a-zA-Z0-9])\".format(word)", "compilation_passed": true, "time": 0.005415916442871094, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'\\s'.join(re.escape(word).split(' '))", "compilation_passed": true, "time": 0.005307197570800781, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'\\b' + word + r'\\b')", "compilation_passed": true, "time": 0.011744976043701172, "tests_passed": true, "error": null}
+{"code": " r'(' + word + r')'", "compilation_passed": true, "time": 0.005329132080078125, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\s+\" + re.escape(word) + r\"\\s+\"", "compilation_passed": true, "time": 0.0052449703216552734, "tests_passed": false, "error": "AttributeError"}
+{"code": " fr\"\\b({re.escape(word).strip(' _().,!@?'))\"", "compilation_passed": false, "time": 0.00017595291137695312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " re.compile(r'\\s*' + word + r'\\s*')", "compilation_passed": true, "time": 0.012755870819091797, "tests_passed": true, "error": null}
+{"code": " re.escape(word).replace(r\"\\w\", \".*\")", "compilation_passed": true, "time": 0.005702972412109375, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r\"\\b{}\\b\".format(re.escape(word)), re.IGNORECASE)", "compilation_passed": true, "time": 0.012654781341552734, "tests_passed": true, "error": null}
+{"code": " r\"\\b{}\\b\".format(word)", "compilation_passed": true, "time": 0.00504612922668457, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'\\b({})\\b'.format(re.escape(word))", "compilation_passed": true, "time": 0.004845142364501953, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r\"[\\s]+\", r\"\\1_\\2\", word)", "compilation_passed": true, "time": 0.005324840545654297, "tests_passed": false, "error": "re.error"}
+{"code": " r\"(?:^| )\" + word + r\"(?:$| )\"", "compilation_passed": true, "time": 0.00489497184753418, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,12 @@
+{"code": " [chr(ord('A') + i) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.008331775665283203, "tests_passed": true, "error": null}
+{"code": " [chr(ord(\"A\") + i) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.008256912231445312, "tests_passed": true, "error": null}
+{"code": " [chr(65+i) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.007624387741088867, "tests_passed": true, "error": null}
+{"code": " [chr(i) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.00648808479309082, "tests_passed": true, "error": null}
+{"code": " [chr(ord('A') + i) for i in range(len(array))]", "compilation_passed": true, "time": 0.00882720947265625, "tests_passed": false, "error": "ValueError"}
+{"code": " [chr(97+i) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.0066759586334228516, "tests_passed": true, "error": null}
+{"code": " [chr(ord(\"A\")+i) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.00767207145690918, "tests_passed": true, "error": null}
+{"code": " [chr(97 + i) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.0067250728607177734, "tests_passed": true, "error": null}
+{"code": " [chr(i+65) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.008325815200805664, "tests_passed": true, "error": null}
+{"code": " [chr(ord('A')+i) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.007535219192504883, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.010723114013671875, "tests_passed": false, "error": "ValueError"}
+{"code": " [chr(i + ord('A')) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.007463216781616211, "tests_passed": true, "error": null}

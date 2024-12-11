@@ -1,0 +1,10 @@
+{"code": " pd.read_csv(csv_file_path, parse_dates=True, infer_datetime_format=True)", "compilation_passed": true, "time": 0.011445999145507812, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path, engine='python')", "compilation_passed": true, "time": 0.011349916458129883, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path)", "compilation_passed": true, "time": 0.010983943939208984, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path,", "compilation_passed": false, "time": 0.00019669532775878906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_csv(csv_file_path, parse_dates=[column_name])", "compilation_passed": true, "time": 0.011234045028686523, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path, header=0)", "compilation_passed": true, "time": 0.011056900024414062, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path, parse_dates=[column_name], date_parser=column_name)", "compilation_passed": true, "time": 0.019729137420654297, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.read_csv(csv_file_path, sep=\",\")", "compilation_passed": true, "time": 0.011440038681030273, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_path, parse_dates=[column_name], date_parser=date_parser(column_name, date_format))", "compilation_passed": true, "time": 0.011457204818725586, "tests_passed": false, "error": "NameError"}
+{"code": " pd.read_csv(csv_file_path, index_col=0, parse_dates=column_name)", "compilation_passed": true, "time": 0.012508869171142578, "tests_passed": false, "error": "TypeError"}

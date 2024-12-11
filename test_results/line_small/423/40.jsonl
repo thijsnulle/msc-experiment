@@ -1,0 +1,15 @@
+{"code": " np.array(255 * (img > threshold), dtype=np.uint8)", "compilation_passed": true, "time": 0.006251096725463867, "tests_passed": true, "error": null}
+{"code": " np.where(img <= threshold, 0, 1)", "compilation_passed": true, "time": 0.006694793701171875, "tests_passed": true, "error": null}
+{"code": " np.where(img > threshold, 255, 0)", "compilation_passed": true, "time": 0.005671262741088867, "tests_passed": true, "error": null}
+{"code": " cv2.threshold(img, threshold, 255, cv2.THRESH_BINARY)[1]", "compilation_passed": true, "time": 0.006342887878417969, "tests_passed": true, "error": null}
+{"code": " np.where(img < threshold, 0, 255)", "compilation_passed": true, "time": 0.006384849548339844, "tests_passed": true, "error": null}
+{"code": " img <= threshold", "compilation_passed": true, "time": 0.01438283920288086, "tests_passed": true, "error": null}
+{"code": " np.zeros(img.shape, np.uint8)", "compilation_passed": true, "time": 0.01298379898071289, "tests_passed": true, "error": null}
+{"code": " np.where(img <= threshold, 0, 255)", "compilation_passed": true, "time": 0.007341146469116211, "tests_passed": true, "error": null}
+{"code": " img > threshold", "compilation_passed": true, "time": 0.010200977325439453, "tests_passed": true, "error": null}
+{"code": " (img > threshold).astype(int)", "compilation_passed": true, "time": 0.00855398178100586, "tests_passed": true, "error": null}
+{"code": " np.where(img > threshold, 255, 0).astype(np.uint8)", "compilation_passed": true, "time": 0.005786895751953125, "tests_passed": true, "error": null}
+{"code": " cv2.threshold(img, threshold, 255, cv2.THRESH_BINARY)", "compilation_passed": true, "time": 0.009593963623046875, "tests_passed": false, "error": "ValueError"}
+{"code": " np.where(img > threshold, 1, 0)", "compilation_passed": true, "time": 0.00793910026550293, "tests_passed": true, "error": null}
+{"code": " np.where(img < threshold, 0, 1)", "compilation_passed": true, "time": 0.008931636810302734, "tests_passed": true, "error": null}
+{"code": " (np.abs(img - threshold) >= 128).astype(np.uint8)", "compilation_passed": true, "time": 0.009470939636230469, "tests_passed": true, "error": null}

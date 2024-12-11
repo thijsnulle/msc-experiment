@@ -1,0 +1,4 @@
+{"code": " data[column1]", "compilation_passed": true, "time": 0.1111459732055664, "tests_passed": true, "error": null}
+{"code": " data[column1].to_numpy()", "compilation_passed": true, "time": 0.10838603973388672, "tests_passed": true, "error": null}
+{"code": " data[column1].values.copy()", "compilation_passed": true, "time": 0.11029911041259766, "tests_passed": true, "error": null}
+{"code": " data[column1].values", "compilation_passed": true, "time": 0.0032639503479003906, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_parser_CAPI' (most likely due to a circular import)"}

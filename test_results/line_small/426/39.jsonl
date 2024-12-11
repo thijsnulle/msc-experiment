@@ -1,0 +1,18 @@
+{"code": " (img > threshold) * 255", "compilation_passed": true, "time": 0.009325027465820312, "tests_passed": true, "error": null}
+{"code": " np.zeros_like(img)", "compilation_passed": true, "time": 0.010593891143798828, "tests_passed": true, "error": null}
+{"code": " np.where(img > threshold, 1, 0)", "compilation_passed": true, "time": 0.011216163635253906, "tests_passed": true, "error": null}
+{"code": " cv2.threshold(img, threshold, 255, cv2.THRESH_BINARY)", "compilation_passed": true, "time": 0.01699519157409668, "tests_passed": false, "error": ""}
+{"code": " np.where(img > threshold, 255, 0)", "compilation_passed": true, "time": 0.007175922393798828, "tests_passed": true, "error": null}
+{"code": " np.zeros(img.shape, dtype=np.uint8)", "compilation_passed": true, "time": 0.010807991027832031, "tests_passed": true, "error": null}
+{"code": " np.where(img <= threshold, 0, 255)", "compilation_passed": true, "time": 0.0076351165771484375, "tests_passed": true, "error": null}
+{"code": " np.zeros(img.shape, np.uint8)", "compilation_passed": true, "time": 0.010509967803955078, "tests_passed": true, "error": null}
+{"code": " np.where(img >= threshold, 255, 0)", "compilation_passed": true, "time": 0.00746917724609375, "tests_passed": true, "error": null}
+{"code": " np.where(img < threshold, 0, 255)", "compilation_passed": true, "time": 0.008546113967895508, "tests_passed": true, "error": null}
+{"code": " np.full(img.shape, 0, dtype=np.uint8)", "compilation_passed": true, "time": 0.011726856231689453, "tests_passed": true, "error": null}
+{"code": " img > threshold", "compilation_passed": true, "time": 0.01688694953918457, "tests_passed": false, "error": ""}
+{"code": " np.array(img > threshold, dtype=np.uint8)", "compilation_passed": true, "time": 0.010689973831176758, "tests_passed": true, "error": null}
+{"code": " np.array(img) > threshold", "compilation_passed": true, "time": 0.016871929168701172, "tests_passed": false, "error": ""}
+{"code": " cv2.threshold(img, threshold, 255, cv2.THRESH_BINARY)[1]", "compilation_passed": true, "time": 0.008316278457641602, "tests_passed": true, "error": null}
+{"code": " np.array([[0 if pixel < threshold else 255 for pixel in row] for row in img])", "compilation_passed": true, "time": 0.009219169616699219, "tests_passed": true, "error": null}
+{"code": " np.array(img > threshold, np.uint8)", "compilation_passed": true, "time": 0.011158943176269531, "tests_passed": true, "error": null}
+{"code": " img < threshold", "compilation_passed": true, "time": 0.01642012596130371, "tests_passed": false, "error": ""}

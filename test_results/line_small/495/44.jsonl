@@ -1,0 +1,20 @@
+{"code": "Groceries = np.random.randint(low=0, high=100, size=days)", "compilation_passed": true, "time": 0.016868114471435547, "tests_passed": true, "error": null}
+{"code": "Groceries = np.random.randint(0, 101, days)", "compilation_passed": true, "time": 0.019979000091552734, "tests_passed": true, "error": null}
+{"code": "index = pd.DatetimeIndex(df[\"date\"])", "compilation_passed": true, "time": 0.016499042510986328, "tests_passed": true, "error": null}
+{"code": "index.name = \"date\"", "compilation_passed": true, "time": 0.016484975814819336, "tests_passed": true, "error": null}
+{"code": "index = pd.to_datetime(df[\"date\"])", "compilation_passed": true, "time": 0.015568733215332031, "tests_passed": true, "error": null}
+{"code": "loc[\"Groceries\"] = np.random.randint(0, 101, size=(days,))", "compilation_passed": true, "time": 0.011269807815551758, "tests_passed": false, "error": "ValueError"}
+{"code": "index = date_rng", "compilation_passed": true, "time": 0.017248868942260742, "tests_passed": true, "error": null}
+{"code": "set_index(\"date\", inplace=True)", "compilation_passed": true, "time": 0.041153907775878906, "tests_passed": true, "error": null}
+{"code": "index = pd.to_datetime(df.index)", "compilation_passed": true, "time": 0.01685023307800293, "tests_passed": true, "error": null}
+{"code": "loc[:, \"Groceries\"] = np.random.randint(0, 100, days)", "compilation_passed": true, "time": 0.01755213737487793, "tests_passed": true, "error": null}
+{"code": "Groceries = np.random.randint(0, 100, len(date_rng))", "compilation_passed": true, "time": 0.01782393455505371, "tests_passed": true, "error": null}
+{"code": "index = pd.to_datetime(df.date)", "compilation_passed": true, "time": 0.01836419105529785, "tests_passed": true, "error": null}
+{"code": "index = pd.to_datetime(df[\"date\"], utc=True)", "compilation_passed": true, "time": 0.016398906707763672, "tests_passed": true, "error": null}
+{"code": "Groceries = np.random.randint(0, 101, size=days)", "compilation_passed": true, "time": 0.016106128692626953, "tests_passed": true, "error": null}
+{"code": "loc[:, \"Groceries\"] = 100 * np.random.random((days,))", "compilation_passed": true, "time": 0.015563011169433594, "tests_passed": true, "error": null}
+{"code": "index = df[\"date\"]", "compilation_passed": true, "time": 0.015397787094116211, "tests_passed": true, "error": null}
+{"code": "index = date_rng.day", "compilation_passed": true, "time": 0.015326261520385742, "tests_passed": true, "error": null}
+{"code": "Groceries = 101 + np.random.choice(range(0, 101), size=days, replace=True)", "compilation_passed": true, "time": 0.015483856201171875, "tests_passed": true, "error": null}
+{"code": "index = date_rng.date", "compilation_passed": true, "time": 0.023675918579101562, "tests_passed": true, "error": null}
+{"code": "index = pd.Index(df.date.dt.strftime('%Y-%m-%d'))", "compilation_passed": true, "time": 0.01594710350036621, "tests_passed": true, "error": null}

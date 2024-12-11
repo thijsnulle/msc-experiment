@@ -1,0 +1,7 @@
+{"code": " np.array(", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.array([x for x in data if x > avg])", "compilation_passed": true, "time": 0.03928089141845703, "tests_passed": true, "error": null}
+{"code": " data[data > avg]", "compilation_passed": true, "time": 0.042258262634277344, "tests_passed": true, "error": null}
+{"code": " np.sort(data)[data > avg]", "compilation_passed": true, "time": 0.0393979549407959, "tests_passed": true, "error": null}
+{"code": " np.sort(data[data > avg])", "compilation_passed": true, "time": 0.03805398941040039, "tests_passed": true, "error": null}
+{"code": " np.sort(np.where(data > avg, data, np.inf))", "compilation_passed": true, "time": 0.040457963943481445, "tests_passed": true, "error": null}
+{"code": " np.where(data > avg)", "compilation_passed": true, "time": 0.01857280731201172, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,17 @@
+{"code": " []", "compilation_passed": true, "time": 0.2632486820220947, "tests_passed": true, "error": null}
+{"code": " generate_plots(df)", "compilation_passed": true, "time": 0.013108968734741211, "tests_passed": false, "error": "NameError"}
+{"code": " sample(list(itertools.permutations(COLUMNS, 2)), n_plots)", "compilation_passed": true, "time": 0.012375831604003906, "tests_passed": false, "error": "NameError"}
+{"code": " sample(df.columns.tolist(), n_plots)", "compilation_passed": true, "time": 0.09698176383972168, "tests_passed": true, "error": null}
+{"code": " [plt.scatter(df[col_a], df[col_b]) for col_a, col_b in sample(COLUMNS, k=n_plots)]", "compilation_passed": true, "time": 0.016358137130737305, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 0.00026988983154296875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [plt.scatter(*sample(df.columns, 2), marker='o', s=5) for _ in range(n_plots)]", "compilation_passed": true, "time": 0.016080141067504883, "tests_passed": false, "error": "TypeError"}
+{"code": " [plt.scatter(df[c_1], df[c_2]) for c_1, c_2 in sample(COLUMNS, k=n_plots)]", "compilation_passed": true, "time": 0.015369892120361328, "tests_passed": false, "error": "ValueError"}
+{"code": " sample(df[COLUMNS].columns, n_plots)", "compilation_passed": true, "time": 0.011610031127929688, "tests_passed": false, "error": "TypeError"}
+{"code": " [plot_scatter(sample(COLUMNS, 2), df) for _ in range(n_plots)]", "compilation_passed": true, "time": 0.01542520523071289, "tests_passed": false, "error": "NameError"}
+{"code": " sample([plt.scatter(x1, y1, color='r') for x1, y1 in zip(*np.random.randint(0, 100, size=(n_plots, 2)))], n_plots)", "compilation_passed": true, "time": 0.10086989402770996, "tests_passed": true, "error": null}
+{"code": " [plt.scatter(*sample(COLUMNS, 2)) for _ in range(n_plots)]", "compilation_passed": true, "time": 0.09963417053222656, "tests_passed": true, "error": null}
+{"code": " sample(df[COLUMNS].itertuples(index=False), n_plots)", "compilation_passed": true, "time": 0.012794017791748047, "tests_passed": false, "error": "TypeError"}
+{"code": " [plot_scatter(df, *sample(COLUMNS, 2)) for _ in range(n_plots)]", "compilation_passed": true, "time": 0.015465021133422852, "tests_passed": false, "error": "NameError"}
+{"code": " sample([(x, y) for x in COLUMNS for y in COLUMNS], n_plots)", "compilation_passed": true, "time": 0.09677410125732422, "tests_passed": true, "error": null}
+{"code": " [plt.scatter(*sample(df.columns, 2)) for _ in range(n_plots)]", "compilation_passed": true, "time": 0.015251874923706055, "tests_passed": false, "error": "TypeError"}
+{"code": " sample(list(df.columns), k=min(len(df.columns), n_plots))", "compilation_passed": true, "time": 0.09856295585632324, "tests_passed": true, "error": null}

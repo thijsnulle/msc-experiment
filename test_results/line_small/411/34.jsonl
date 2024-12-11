@@ -1,0 +1,7 @@
+{"code": " df.to_dict(orient=\"index\")", "compilation_passed": true, "time": 0.008208036422729492, "tests_passed": true, "error": null}
+{"code": " df.to_dict()", "compilation_passed": true, "time": 0.011427879333496094, "tests_passed": true, "error": null}
+{"code": " df.to_dict(orient=\"records\")", "compilation_passed": true, "time": 0.007550954818725586, "tests_passed": true, "error": null}
+{"code": " df.to_dict(orient=\"list\")", "compilation_passed": true, "time": 0.007745981216430664, "tests_passed": true, "error": null}
+{"code": " df.to_dict(orient=\"columns\")", "compilation_passed": true, "time": 0.01548314094543457, "tests_passed": false, "error": "ValueError"}
+{"code": " df.to_dict(\"split\")", "compilation_passed": true, "time": 0.008674860000610352, "tests_passed": true, "error": null}
+{"code": " df.to_dict(\"records\")", "compilation_passed": true, "time": 0.007943868637084961, "tests_passed": true, "error": null}

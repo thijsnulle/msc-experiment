@@ -1,0 +1,9 @@
+{"code": " pd.DatetimeIndex(df['Date']).month.astype(str).astype(int)", "compilation_passed": true, "time": 0.8551669120788574, "tests_passed": true, "error": null}
+{"code": " df['Date'].dt.month_name()", "compilation_passed": true, "time": 1.0143580436706543, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DatetimeIndex(df['Date']).month", "compilation_passed": true, "time": 1.0144116878509521, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df['Date'].dt.month", "compilation_passed": true, "time": 1.0180580615997314, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.to_datetime(df['Date']).dt.month_name()", "compilation_passed": true, "time": 3.515748977661133, "tests_passed": true, "error": null}
+{"code": " df['Date'].dt.month_name().str[0:3]", "compilation_passed": true, "time": 1.0091679096221924, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df['Date'].dt.month_name()[0:3]", "compilation_passed": true, "time": 0.02383589744567871, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Categorical(df['Date'].dt.month_name(), categories=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'])", "compilation_passed": true, "time": 0.016260147094726562, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DatetimeIndex(df['Date'], freq='M').month_name()", "compilation_passed": true, "time": 0.024559974670410156, "tests_passed": false, "error": "ValueError"}

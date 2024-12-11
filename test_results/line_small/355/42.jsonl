@@ -1,0 +1,7 @@
+{"code": "= window", "compilation_passed": true, "time": 0.4883871078491211, "tests_passed": true, "error": null}
+{"code": "= window  # Apply the Hann window", "compilation_passed": true, "time": 0.5013070106506348, "tests_passed": true, "error": null}
+{"code": "= window  # Multiply the complex wave by the Hann window", "compilation_passed": true, "time": 0.5207118988037109, "tests_passed": true, "error": null}
+{"code": "= window[:, np.newaxis]", "compilation_passed": true, "time": 0.009105920791625977, "tests_passed": false, "error": "ValueError"}
+{"code": "= window  # Apply the Hann window to the wave", "compilation_passed": true, "time": 0.5863039493560791, "tests_passed": true, "error": null}
+{"code": "= window[:, None]", "compilation_passed": true, "time": 0.009038209915161133, "tests_passed": false, "error": "ValueError"}
+{"code": "= window[..., np.newaxis]  # Multiply the wave by the Hann window", "compilation_passed": true, "time": 0.008105039596557617, "tests_passed": false, "error": "ValueError"}

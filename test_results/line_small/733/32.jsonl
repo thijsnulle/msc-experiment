@@ -1,0 +1,13 @@
+{"code": " content.lower()", "compilation_passed": true, "time": 0.008007287979125977, "tests_passed": true, "error": null}
+{"code": " re.sub('[.,]', '', content).split(' ')", "compilation_passed": true, "time": 0.0017826557159423828, "tests_passed": true, "error": null}
+{"code": " content.strip(string.whitespace)", "compilation_passed": true, "time": 0.006384849548339844, "tests_passed": true, "error": null}
+{"code": " re.sub('[%s]' % re.escape(string.punctuation), ' ', content)", "compilation_passed": true, "time": 0.013618946075439453, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\w+', r' ', content)", "compilation_passed": true, "time": 0.006181955337524414, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s+\", \" \", content)", "compilation_passed": true, "time": 0.006573915481567383, "tests_passed": true, "error": null}
+{"code": " content.strip()", "compilation_passed": true, "time": 0.005553722381591797, "tests_passed": true, "error": null}
+{"code": " content.lower().strip()", "compilation_passed": true, "time": 0.005366802215576172, "tests_passed": true, "error": null}
+{"code": " re.split(\"\\W+\", content)", "compilation_passed": true, "time": 0.009360790252685547, "tests_passed": true, "error": null}
+{"code": " content.replace(\"'\", \"\")", "compilation_passed": true, "time": 0.005594730377197266, "tests_passed": true, "error": null}
+{"code": " content.replace('?', '').replace('.', '').replace('!', '')", "compilation_passed": true, "time": 0.005269050598144531, "tests_passed": true, "error": null}
+{"code": " content.replace(\"\\n\", \" \").replace(\"\\t\", \" \").strip()", "compilation_passed": true, "time": 0.005800962448120117, "tests_passed": true, "error": null}
+{"code": " content.replace(\"\\n\", \" \").replace(\".\", \" \").strip()", "compilation_passed": true, "time": 0.007021188735961914, "tests_passed": true, "error": null}

@@ -1,0 +1,17 @@
+{"code": " [word for word in word_keys if freq_dict.get(word, 0) >= 1]", "compilation_passed": true, "time": 0.014236211776733398, "tests_passed": false, "error": "ValueError"}
+{"code": " freq_dict.most_common(top_k)", "compilation_passed": true, "time": 0.02950286865234375, "tests_passed": true, "error": null}
+{"code": " [word for word in word_keys if freq_dict[word] in frequencies]", "compilation_passed": true, "time": 0.01332402229309082, "tests_passed": false, "error": "ValueError"}
+{"code": " sorted(word_keys, key=freq_dict.get, reverse=True)[:top_k]", "compilation_passed": true, "time": 0.013801097869873047, "tests_passed": false, "error": "ValueError"}
+{"code": " frequencies[:top_k]", "compilation_passed": true, "time": 0.012352943420410156, "tests_passed": false, "error": "TypeError"}
+{"code": " [word for word in word_keys[:top_k] if word in freq_dict]", "compilation_passed": true, "time": 0.012253999710083008, "tests_passed": false, "error": "ValueError"}
+{"code": " word_keys[:top_k]", "compilation_passed": true, "time": 0.012379169464111328, "tests_passed": false, "error": "ValueError"}
+{"code": " Counter(word_keys).most_common(top_k)", "compilation_passed": true, "time": 0.009863853454589844, "tests_passed": true, "error": null}
+{"code": " [word_keys[i] for i in range(top_k) if word_keys[i] in freq_dict]", "compilation_passed": true, "time": 0.01234579086303711, "tests_passed": false, "error": "ValueError"}
+{"code": " Counter(freq_dict).most_common(top_k)", "compilation_passed": true, "time": 0.027781248092651367, "tests_passed": true, "error": null}
+{"code": " sorted(freq_dict, key=freq_dict.get, reverse=True)[0:top_k]", "compilation_passed": true, "time": 0.012373924255371094, "tests_passed": false, "error": "ValueError"}
+{"code": " [word for word, count in freq_dict.items()]", "compilation_passed": true, "time": 0.012525081634521484, "tests_passed": false, "error": "ValueError"}
+{"code": " sorted(freq_dict, key=freq_dict.get, reverse=True)[:top_k]", "compilation_passed": true, "time": 0.013504981994628906, "tests_passed": false, "error": "ValueError"}
+{"code": " [word for word, freq in zip(word_keys, frequencies) if freq > 0]", "compilation_passed": true, "time": 0.013057947158813477, "tests_passed": false, "error": "ValueError"}
+{"code": " {word: freq for word, freq in zip(word_keys, frequencies) if freq > 0}", "compilation_passed": true, "time": 0.010780096054077148, "tests_passed": true, "error": null}
+{"code": " sorted(freq_dict.keys(), key=freq_dict.get, reverse=True)[:top_k]", "compilation_passed": true, "time": 0.013147115707397461, "tests_passed": false, "error": "ValueError"}
+{"code": " {word: freq for word, freq in freq_dict.most_common(top_k)}", "compilation_passed": true, "time": 0.031842947006225586, "tests_passed": true, "error": null}

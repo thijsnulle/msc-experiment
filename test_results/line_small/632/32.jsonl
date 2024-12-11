@@ -1,0 +1,6 @@
+{"code": " in df.to_dict(orient='records'):", "compilation_passed": true, "time": 0.01544499397277832, "tests_passed": true, "error": null}
+{"code": " in df.to_dict('records'):", "compilation_passed": true, "time": 0.015745878219604492, "tests_passed": true, "error": null}
+{"code": " in df.itertuples(index=False):", "compilation_passed": true, "time": 0.013911724090576172, "tests_passed": true, "error": null}
+{"code": " in df.to_json(orient='records', lines=True, indent=None):", "compilation_passed": true, "time": 0.05782198905944824, "tests_passed": true, "error": null}
+{"code": " in df.itertuples(index=True):", "compilation_passed": true, "time": 0.015858173370361328, "tests_passed": true, "error": null}
+{"code": " in df.iterrows():", "compilation_passed": true, "time": 0.014003992080688477, "tests_passed": false, "error": "TypeError"}

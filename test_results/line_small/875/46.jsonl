@@ -1,0 +1,6 @@
+{"code": " seed is not None:", "compilation_passed": true, "time": 0.010539770126342773, "tests_passed": true, "error": null}
+{"code": " seed:", "compilation_passed": true, "time": 0.009435892105102539, "tests_passed": true, "error": null}
+{"code": " len(columns) != len(next(iter(data))):", "compilation_passed": true, "time": 0.02032303810119629, "tests_passed": false, "error": "StopIteration"}
+{"code": " not isinstance(columns, list) or not isinstance(data, list):", "compilation_passed": true, "time": 0.015257835388183594, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, list):", "compilation_passed": true, "time": 0.009719133377075195, "tests_passed": true, "error": null}
+{"code": " not pd.Series(data).apply(lambda x: isinstance(x, tuple)).all():", "compilation_passed": true, "time": 0.010393857955932617, "tests_passed": true, "error": null}

@@ -1,0 +1,12 @@
+{"code": " pd.DataFrame({\"a\": a, \"b\": b})", "compilation_passed": true, "time": 0.028805255889892578, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"x\": a, \"y\": b})", "compilation_passed": true, "time": 0.017916202545166016, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'a': a, 'b': b})", "compilation_passed": true, "time": 0.017937898635864258, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(list(zip(a, b)))", "compilation_passed": true, "time": 0.011834859848022461, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'x': a, 'y': b})", "compilation_passed": true, "time": 0.018683195114135742, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'A': a, 'B': b})", "compilation_passed": true, "time": 0.0194091796875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(dict(x=a, y=b))", "compilation_passed": true, "time": 0.018085718154907227, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(list(zip(a, b)), columns=['x', 'y'])", "compilation_passed": true, "time": 0.01731109619140625, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"A\": a, \"B\": b})", "compilation_passed": true, "time": 0.021121978759765625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(a, columns=['x'])", "compilation_passed": true, "time": 0.017515897750854492, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(a)", "compilation_passed": true, "time": 0.00728607177734375, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(a, columns=[\"a\"])", "compilation_passed": true, "time": 0.01842212677001953, "tests_passed": false, "error": "KeyError"}

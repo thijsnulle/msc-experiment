@@ -1,0 +1,6 @@
+{"code": " salt, base64.b64encode(hashed_password)", "compilation_passed": true, "time": 0.07257604598999023, "tests_passed": false, "error": "binascii.Error"}
+{"code": " base64.b64encode(salt), base64.b64encode(hashed_password)", "compilation_passed": true, "time": 0.6108207702636719, "tests_passed": true, "error": null}
+{"code": " salt, hashed_password", "compilation_passed": true, "time": 0.06856203079223633, "tests_passed": false, "error": "binascii.Error"}
+{"code": " (salt, hashed_password)", "compilation_passed": true, "time": 0.06731677055358887, "tests_passed": false, "error": "binascii.Error"}
+{"code": " (base64.b64encode(salt), base64.b64encode(hashed_password))", "compilation_passed": true, "time": 0.6081328392028809, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(salt).decode(), base64.b64encode(hashed_password).decode()", "compilation_passed": true, "time": 0.06397581100463867, "tests_passed": true, "error": null}

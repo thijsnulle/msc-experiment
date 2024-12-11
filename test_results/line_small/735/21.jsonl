@@ -1,0 +1,4 @@
+{"code": " list(chain(*L))", "compilation_passed": true, "time": 0.002373933792114258, "tests_passed": true, "error": null}
+{"code": " list(chain.from_iterable(L))", "compilation_passed": true, "time": 0.0025391578674316406, "tests_passed": true, "error": null}
+{"code": " chain(*L)", "compilation_passed": true, "time": 0.013792991638183594, "tests_passed": false, "error": "TypeError"}
+{"code": " chain.from_iterable(L)", "compilation_passed": true, "time": 0.009654998779296875, "tests_passed": false, "error": "TypeError"}

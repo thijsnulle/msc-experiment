@@ -1,0 +1,11 @@
+{"code": " column_data.to_dict(orient=\"index\")", "compilation_passed": false, "time": 0.00033092498779296875, "tests_passed": false, "error": "IndentationError"}
+{"code": " {", "compilation_passed": true, "time": 0.42740297317504883, "tests_passed": true, "error": null}
+{"code": " column_data.sum()", "compilation_passed": false, "time": 0.0003299713134765625, "tests_passed": false, "error": "IndentationError"}
+{"code": " dict(", "compilation_passed": false, "time": 0.00029277801513671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " column_data.sum(), column_data.mean(), column_data.min(), column_data.max()", "compilation_passed": false, "time": 0.0002579689025878906, "tests_passed": false, "error": "IndentationError"}
+{"code": " {\"sum\": column_data.sum(), \"mean\": column_data.mean(), \"min\": column_data.min(), \"max\": column_data.max()}", "compilation_passed": false, "time": 0.0003190040588378906, "tests_passed": false, "error": "IndentationError"}
+{"code": " {}", "compilation_passed": false, "time": 0.0002300739288330078, "tests_passed": false, "error": "IndentationError"}
+{"code": " (", "compilation_passed": false, "time": 0.0003032684326171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dict()", "compilation_passed": false, "time": 0.0002810955047607422, "tests_passed": false, "error": "IndentationError"}
+{"code": " column_data.groupby(by=\"Date\").agg(", "compilation_passed": false, "time": 0.00024199485778808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " column_data.mean(), column_data.min(), column_data.max(), column_data.sum()", "compilation_passed": false, "time": 0.0002512931823730469, "tests_passed": false, "error": "IndentationError"}

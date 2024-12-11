@@ -1,0 +1,3 @@
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.09020376205444336, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 0.09256291389465332, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or (\"group\" not in df.columns) or (\"date\" not in df.columns):", "compilation_passed": true, "time": 0.14044594764709473, "tests_passed": true, "error": null}

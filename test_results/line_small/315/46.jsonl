@@ -1,0 +1,11 @@
+{"code": " sg.client.mail.send.post(", "compilation_passed": false, "time": 0.0002288818359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sg.send(message)", "compilation_passed": true, "time": 0.001344919204711914, "tests_passed": false, "error": "No module named 'sendgrid'"}
+{"code": " sg.mail.send(message)", "compilation_passed": true, "time": 0.0013689994812011719, "tests_passed": false, "error": "No module named 'sendgrid'"}
+{"code": " sg.client.mail.send.post(mail_object=message)", "compilation_passed": true, "time": 0.0012569427490234375, "tests_passed": false, "error": "No module named 'sendgrid'"}
+{"code": " sg.client.mail.send.post(body=message.body)", "compilation_passed": true, "time": 0.0014460086822509766, "tests_passed": false, "error": "No module named 'sendgrid'"}
+{"code": " sg.client.mail.send.post(body=message.to_dict())", "compilation_passed": true, "time": 0.0013659000396728516, "tests_passed": false, "error": "No module named 'sendgrid'"}
+{"code": " sg.client.mail.send.post(request_body=message.to_dict())", "compilation_passed": true, "time": 0.0013201236724853516, "tests_passed": false, "error": "No module named 'sendgrid'"}
+{"code": " sg.client.mail.send.post(request_body=message.get())", "compilation_passed": true, "time": 0.0012869834899902344, "tests_passed": false, "error": "No module named 'sendgrid'"}
+{"code": " sg.client.mail.send.post(body=message.get())", "compilation_passed": true, "time": 0.0012919902801513672, "tests_passed": false, "error": "No module named 'sendgrid'"}
+{"code": " sg.client.mail.send.post(mail=message)", "compilation_passed": true, "time": 0.0013527870178222656, "tests_passed": false, "error": "No module named 'sendgrid'"}
+{"code": " sg.client.mail.send.post(mail_content=message)", "compilation_passed": true, "time": 0.0015497207641601562, "tests_passed": false, "error": "No module named 'sendgrid'"}

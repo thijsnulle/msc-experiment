@@ -1,0 +1,7 @@
+{"code": " df[\"Area_Float\"].values.reshape(-1, 1)", "compilation_passed": true, "time": 0.02204608917236328, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 1:]", "compilation_passed": true, "time": 0.01910400390625, "tests_passed": false, "error": ""}
+{"code": " df.drop(\"Price\", axis=1)", "compilation_passed": true, "time": 0.022976160049438477, "tests_passed": false, "error": "ValueError"}
+{"code": " df[[\"Area_Float\"]]", "compilation_passed": true, "time": 0.023333072662353516, "tests_passed": true, "error": null}
+{"code": " df[\"Area_Float\"]", "compilation_passed": true, "time": 0.007555961608886719, "tests_passed": false, "error": "ValueError"}
+{"code": " df[['Area_Float']]", "compilation_passed": true, "time": 0.02884197235107422, "tests_passed": true, "error": null}
+{"code": " df[\"Area_Float\"].to_numpy().reshape(-1, 1)", "compilation_passed": true, "time": 0.0188291072845459, "tests_passed": true, "error": null}

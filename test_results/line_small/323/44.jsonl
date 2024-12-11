@@ -1,0 +1,9 @@
+{"code": " len(word_freqs) > num_gaussians:", "compilation_passed": true, "time": 0.011433124542236328, "tests_passed": false, "error": "Exception"}
+{"code": " num_gaussians > len(word_freqs):", "compilation_passed": true, "time": 0.009557008743286133, "tests_passed": true, "error": null}
+{"code": " len(words) <= num_gaussians:", "compilation_passed": true, "time": 0.009274005889892578, "tests_passed": true, "error": null}
+{"code": " num_gaussians > len(set(words)):", "compilation_passed": true, "time": 0.00963902473449707, "tests_passed": true, "error": null}
+{"code": " len(word_freqs) < num_gaussians:", "compilation_passed": true, "time": 0.009444236755371094, "tests_passed": true, "error": null}
+{"code": " num_gaussians > len(word_freqs.keys()):", "compilation_passed": true, "time": 0.00967097282409668, "tests_passed": true, "error": null}
+{"code": " num_gaussians >= len(word_freqs):", "compilation_passed": true, "time": 0.00929403305053711, "tests_passed": true, "error": null}
+{"code": " len(word_freqs.keys()) < num_gaussians:", "compilation_passed": true, "time": 0.00989389419555664, "tests_passed": true, "error": null}
+{"code": " len(set(words)) > num_gaussians:", "compilation_passed": true, "time": 0.00818777084350586, "tests_passed": false, "error": "Exception"}

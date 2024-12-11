@@ -1,0 +1,21 @@
+{"code": "asarray(", "compilation_passed": false, "time": 0.00011706352233886719, "tests_passed": false, "error": "SyntaxError"}
+{"code": "array(", "compilation_passed": false, "time": 0.00010919570922851562, "tests_passed": false, "error": "SyntaxError"}
+{"code": "array([datetime.datetime.strptime(t1, TIME_FORMAT) - datetime.datetime.strptime(t2, TIME_FORMAT)", "compilation_passed": false, "time": 8.487701416015625e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": "array([datetime.strptime(time, TIME_FORMAT) - datetime.strptime(time_string, TIME_FORMAT) for time_string in time_strings])", "compilation_passed": true, "time": 0.011876106262207031, "tests_passed": false, "error": "AttributeError"}
+{"code": "array([", "compilation_passed": false, "time": 0.0001342296600341797, "tests_passed": false, "error": "SyntaxError"}
+{"code": "array([datetime.datetime.strptime(time_string, TIME_FORMAT)", "compilation_passed": false, "time": 7.700920104980469e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": "array([datetime.datetime.strptime(s, TIME_FORMAT)", "compilation_passed": false, "time": 8.082389831542969e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": "array([datetime.strptime(x, TIME_FORMAT) for x in time_strings])", "compilation_passed": true, "time": 0.011109113693237305, "tests_passed": false, "error": "AttributeError"}
+{"code": "array([datetime.datetime.strptime(s, TIME_FORMAT) for s in time_strings])", "compilation_passed": true, "time": 0.008210897445678711, "tests_passed": false, "error": "ValueError"}
+{"code": "asarray([", "compilation_passed": false, "time": 0.00010514259338378906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "array([datetime.strptime(time, TIME_FORMAT) - datetime.strptime(time, TIME_FORMAT) for time in time_strings]) * 1000000", "compilation_passed": true, "time": 0.010829925537109375, "tests_passed": false, "error": "AttributeError"}
+{"code": "array([datetime.strptime(x, TIME_FORMAT) - datetime.strptime(y, TIME_FORMAT) for x, y in zip(time_strings[1:], time_strings)])", "compilation_passed": true, "time": 0.013358116149902344, "tests_passed": false, "error": "AttributeError"}
+{"code": "array([datetime.datetime.strptime(ts, TIME_FORMAT) for ts in time_strings])[1:]", "compilation_passed": true, "time": 0.008016824722290039, "tests_passed": false, "error": "ValueError"}
+{"code": "array([datetime.datetime.strptime(dt1, TIME_FORMAT) for dt1 in time_strings]) -", "compilation_passed": false, "time": 0.00018668174743652344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "asarray([datetime.datetime.strptime(ts, TIME_FORMAT) for ts in time_strings])", "compilation_passed": true, "time": 0.008060216903686523, "tests_passed": false, "error": "ValueError"}
+{"code": "asarray([datetime.datetime.strptime(x, TIME_FORMAT) for x in time_strings]) -", "compilation_passed": false, "time": 0.00015091896057128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "array([datetime.strptime(x, TIME_FORMAT) for x in time_strings]) -", "compilation_passed": false, "time": 0.0001499652862548828, "tests_passed": false, "error": "SyntaxError"}
+{"code": "array([datetime.datetime.strptime(x, TIME_FORMAT) for x in time_strings])", "compilation_passed": true, "time": 0.009539127349853516, "tests_passed": false, "error": "ValueError"}
+{"code": "array([datetime.strptime(ts, TIME_FORMAT) for ts in time_strings])", "compilation_passed": true, "time": 0.011114835739135742, "tests_passed": false, "error": "AttributeError"}
+{"code": "diff([", "compilation_passed": false, "time": 0.00013208389282226562, "tests_passed": false, "error": "SyntaxError"}
+{"code": "array([datetime.strptime(time_strings[i], TIME_FORMAT)", "compilation_passed": false, "time": 8.177757263183594e-05, "tests_passed": false, "error": "SyntaxError"}

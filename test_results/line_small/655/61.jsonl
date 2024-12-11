@@ -1,0 +1,26 @@
+{"code": " sorted([(feature_names[i], topic[i]) for i in range(len(feature_names))", "compilation_passed": false, "time": 0.00039005279541015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted(", "compilation_passed": false, "time": 0.00038123130798339844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted([feature_names[idx] for idx, component_weight in enumerate(topic) if component_weight > 0.0],", "compilation_passed": false, "time": 0.0004849433898925781, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.0276491641998291, "tests_passed": true, "error": null}
+{"code": " [(feature_names[idx], float(weight)) for (idx, weight) in enumerate(topic) if weight > 0]", "compilation_passed": true, "time": 0.02291107177734375, "tests_passed": true, "error": null}
+{"code": " sorted(zip(feature_names, topic.toarray().flatten()),", "compilation_passed": false, "time": 0.00038886070251464844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [feature_names[i] for i in np.argsort(topic)][::-1][:3]", "compilation_passed": true, "time": 0.012334108352661133, "tests_passed": false, "error": "NameError"}
+{"code": " sorted([(feature_names[i], topic[i]) for i in topic.argsort()[::-1]],", "compilation_passed": false, "time": 0.00041103363037109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [feature_names[i]", "compilation_passed": false, "time": 0.0003819465637207031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted([feature_names[i] for i in topic.argsort()[::-1]], key=lambda x: abs(", "compilation_passed": false, "time": 0.00043010711669921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [feature_names[idx] for idx in sorted(topic.argsort()[-num_topics:])[::-1]]", "compilation_passed": true, "time": 0.022548913955688477, "tests_passed": true, "error": null}
+{"code": " [(feature_names[idx], topic.get(idx, 0)) for idx in topic.argsort()[-10:][::-1] if", "compilation_passed": false, "time": 0.0004150867462158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted(feature_names,", "compilation_passed": false, "time": 0.0003809928894042969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [feature_names[i] for i in topic.argsort()[::-1][:num_topics]]", "compilation_passed": true, "time": 0.023726940155029297, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0003330707550048828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted(zip(feature_names, topic), key=lambda x: x[1])[-1:]", "compilation_passed": true, "time": 0.022436141967773438, "tests_passed": true, "error": null}
+{"code": " sorted([(feature_names[i], topic[i])", "compilation_passed": false, "time": 0.0004029273986816406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [feature_names[index] for index in np.argsort(topic)[:-num_topics - 1:-1]]", "compilation_passed": true, "time": 0.012293815612792969, "tests_passed": false, "error": "NameError"}
+{"code": " [feature_names[idx] for idx in range(len(feature_names))", "compilation_passed": false, "time": 0.0004031658172607422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(zip(feature_names, topic.toarray().ravel()))", "compilation_passed": true, "time": 0.012300968170166016, "tests_passed": false, "error": "AttributeError"}
+{"code": " sorted(zip(feature_names, topic.round(3)),", "compilation_passed": false, "time": 0.0003371238708496094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted(feature_names, key=lambda x: topic[feature_names.index(x)], reverse=True)[:5]", "compilation_passed": true, "time": 0.01512908935546875, "tests_passed": false, "error": "AttributeError"}
+{"code": " sorted(feature_names[np.argsort(topic.toarray())[-1:]])", "compilation_passed": true, "time": 0.012066841125488281, "tests_passed": false, "error": "NameError"}
+{"code": " [feature_names[idx] for idx in sorted(topic.argsort(), reverse=True)[0:num_topics]]", "compilation_passed": true, "time": 0.022433042526245117, "tests_passed": true, "error": null}
+{"code": " [feature_names[i] for i in topic.argsort()[:-2-1:-1]]", "compilation_passed": true, "time": 0.022669076919555664, "tests_passed": true, "error": null}
+{"code": " [feature_names[i] for i in range(len(feature_names)) if", "compilation_passed": false, "time": 0.0005581378936767578, "tests_passed": false, "error": "SyntaxError"}

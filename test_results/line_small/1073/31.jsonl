@@ -1,0 +1,16 @@
+{"code": " [time.strptime(x, time_format).tm_sec for x in time_strings]", "compilation_passed": true, "time": 0.40935659408569336, "tests_passed": true, "error": null}
+{"code": " [int(time.strftime(time_format, time.strptime(time_string, time_format))[11:19].split(\":\")[2]) for time_string in time_strings]", "compilation_passed": true, "time": 0.2939260005950928, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00023484230041503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.07690286636352539, "tests_passed": true, "error": null}
+{"code": " [int(time.strftime('%S', time.strptime(t, time_format))) for t in time_strings]", "compilation_passed": true, "time": 1.5121068954467773, "tests_passed": true, "error": null}
+{"code": " [float(t.split(\".\")[-1]) for t in time_strings]", "compilation_passed": true, "time": 0.2987949848175049, "tests_passed": true, "error": null}
+{"code": " [float(datetime.strptime(s, time_format).strftime(\"%S.%f\")) for s in time_strings]", "compilation_passed": true, "time": 0.01399087905883789, "tests_passed": false, "error": "NameError"}
+{"code": " [time.strptime(t, time_format).tm_sec for t in time_strings]", "compilation_passed": true, "time": 0.3115410804748535, "tests_passed": true, "error": null}
+{"code": " [datetime.strptime(x, time_format).timestamp() for x in time_strings]", "compilation_passed": true, "time": 0.013334035873413086, "tests_passed": false, "error": "NameError"}
+{"code": " [datetime.datetime.strptime(t, time_format).timestamp() for t in time_strings]", "compilation_passed": true, "time": 0.012575149536132812, "tests_passed": false, "error": "NameError"}
+{"code": " [time.strptime(s, time_format).tm_sec for s in time_strings]", "compilation_passed": true, "time": 0.30127406120300293, "tests_passed": true, "error": null}
+{"code": " [datetime.datetime.strptime(t, time_format).second for t in time_strings]", "compilation_passed": true, "time": 0.014483928680419922, "tests_passed": false, "error": "NameError"}
+{"code": " [time.strptime(t, time_format).second for t in time_strings]", "compilation_passed": true, "time": 0.0138702392578125, "tests_passed": false, "error": "AttributeError"}
+{"code": " [int(time.strftime(\"%S\", time.strptime(s, time_format))) for s in time_strings]", "compilation_passed": true, "time": 0.3236711025238037, "tests_passed": true, "error": null}
+{"code": " [parse(t, time_format).second for t in time_strings]", "compilation_passed": true, "time": 0.017505168914794922, "tests_passed": false, "error": "NameError"}
+{"code": " [datetime.strptime(t, time_format).timestamp() for t in time_strings]", "compilation_passed": true, "time": 0.012798070907592773, "tests_passed": false, "error": "NameError"}

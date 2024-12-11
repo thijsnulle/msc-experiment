@@ -1,0 +1,4 @@
+{"code": "append((site, category, response, value))", "compilation_passed": true, "time": 0.015816926956176758, "tests_passed": false, "error": "AttributeError"}
+{"code": "append([site, category, response, value])", "compilation_passed": true, "time": 0.018348217010498047, "tests_passed": false, "error": "AttributeError"}
+{"code": "append({", "compilation_passed": false, "time": 0.0002880096435546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append({'Site': site, 'Category': category, 'Response': response, 'Value': value})", "compilation_passed": true, "time": 0.0360567569732666, "tests_passed": true, "error": null}

@@ -1,0 +1,24 @@
+{"code": " df.apply(lambda col: np.count_nonzero(col))", "compilation_passed": true, "time": 0.2579829692840576, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: x.value_counts()).fillna(0)", "compilation_passed": true, "time": 0.12794184684753418, "tests_passed": true, "error": null}
+{"code": " df.sum(axis=0).astype(int)", "compilation_passed": true, "time": 0.2572672367095947, "tests_passed": true, "error": null}
+{"code": " df.loc[:, :].astype(int).sum(axis=0)", "compilation_passed": true, "time": 0.25023698806762695, "tests_passed": true, "error": null}
+{"code": " df.count()", "compilation_passed": true, "time": 0.25132107734680176, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: x.count())", "compilation_passed": true, "time": 0.25194382667541504, "tests_passed": true, "error": null}
+{"code": " df.count().iloc[0, :]", "compilation_passed": true, "time": 0.05370593070983887, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " df.apply(lambda col: col.ne(0).sum())", "compilation_passed": true, "time": 0.27881908416748047, "tests_passed": true, "error": null}
+{"code": " df.isin(np.array([0])).sum().astype(int)", "compilation_passed": true, "time": 0.259688138961792, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: len(x[x != 0].index))", "compilation_passed": true, "time": 0.263124942779541, "tests_passed": true, "error": null}
+{"code": " np.sum(df.notnull(), axis=0)", "compilation_passed": true, "time": 0.2542858123779297, "tests_passed": true, "error": null}
+{"code": " df.eq(0).sum(axis=0)", "compilation_passed": true, "time": 0.25656867027282715, "tests_passed": true, "error": null}
+{"code": " df.notnull().sum()", "compilation_passed": true, "time": 0.26588892936706543, "tests_passed": true, "error": null}
+{"code": " df.nunique().sort_values(ascending=False)", "compilation_passed": true, "time": 0.2846710681915283, "tests_passed": true, "error": null}
+{"code": " df.loc[:, :].sum().tolist()", "compilation_passed": true, "time": 0.05702495574951172, "tests_passed": false, "error": "AttributeError"}
+{"code": " [df[column].value_counts().sum() for column in COLUMNS]", "compilation_passed": true, "time": 0.05828595161437988, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.astype(int).sum(axis=0).astype(int).to_dict()", "compilation_passed": true, "time": 0.05277395248413086, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.apply(np.count_nonzero)", "compilation_passed": true, "time": 0.27396726608276367, "tests_passed": true, "error": null}
+{"code": " df.count(axis='columns')", "compilation_passed": true, "time": 0.1029360294342041, "tests_passed": true, "error": null}
+{"code": " df.count(axis=0)", "compilation_passed": true, "time": 0.273618221282959, "tests_passed": true, "error": null}
+{"code": " df.apply(pd.value_counts).fillna(0)", "compilation_passed": true, "time": 0.12431097030639648, "tests_passed": true, "error": null}
+{"code": " df.loc[:, df.any()].count()", "compilation_passed": true, "time": 0.2724032402038574, "tests_passed": true, "error": null}
+{"code": " df.isin(np.array([0, 1])).sum(axis=0)", "compilation_passed": true, "time": 0.27837300300598145, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: x.sum(), axis=0)", "compilation_passed": true, "time": 0.27709197998046875, "tests_passed": true, "error": null}

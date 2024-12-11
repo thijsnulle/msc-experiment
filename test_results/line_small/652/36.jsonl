@@ -1,0 +1,23 @@
+{"code": "hist(indices, bins=5, density=True, color='blue', alpha=0.7)", "compilation_passed": true, "time": 0.019296884536743164, "tests_passed": true, "error": null}
+{"code": "figure()", "compilation_passed": true, "time": 0.2128159999847412, "tests_passed": true, "error": null}
+{"code": "title('Indices: N/A')", "compilation_passed": true, "time": 0.00335693359375, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(10, 4))", "compilation_passed": true, "time": 0.1969301700592041, "tests_passed": true, "error": null}
+{"code": "hist(indices, bins=15)", "compilation_passed": true, "time": 0.04470372200012207, "tests_passed": true, "error": null}
+{"code": "bar([\"mean\", \"var\", \"skew\", \"kurt\"], [\"N/A\" for _ in range(4)])", "compilation_passed": true, "time": 0.08451199531555176, "tests_passed": true, "error": null}
+{"code": "plot(indices, array[indices, 1:])", "compilation_passed": true, "time": 0.012161016464233398, "tests_passed": false, "error": "TypeError"}
+{"code": "bar(range(3), [0, 0, 0])", "compilation_passed": true, "time": 0.011498212814331055, "tests_passed": true, "error": null}
+{"code": "bar(array[0], array[1])", "compilation_passed": true, "time": 0.012039899826049805, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(len(indices)), indices, color='blue')", "compilation_passed": true, "time": 0.0058438777923583984, "tests_passed": true, "error": null}
+{"code": "title('Task Function')", "compilation_passed": true, "time": 0.0027849674224853516, "tests_passed": true, "error": null}
+{"code": "bar([\"mean\", \"variance\", \"skewness\", \"kurtosis\"], [\"N/A\", \"N/A\", \"N/A\", \"N/A\"])", "compilation_passed": true, "time": 0.014338016510009766, "tests_passed": true, "error": null}
+{"code": "hist(indices, bins=15, density=True, color='r')", "compilation_passed": true, "time": 0.044200897216796875, "tests_passed": true, "error": null}
+{"code": "hist(indices)", "compilation_passed": true, "time": 0.030876874923706055, "tests_passed": true, "error": null}
+{"code": "bar(indices, [1] * len(indices))", "compilation_passed": true, "time": 0.005572080612182617, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(len(array)), len(indices) * np.ones(len(array)))", "compilation_passed": true, "time": 0.014245033264160156, "tests_passed": true, "error": null}
+{"code": "hist(indices, density=True)", "compilation_passed": true, "time": 0.0297849178314209, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(len(array)), np.ones(len(array)),", "compilation_passed": false, "time": 0.00026297569274902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "hist(indices, bins=10)", "compilation_passed": true, "time": 0.030307769775390625, "tests_passed": true, "error": null}
+{"code": "title('Distribution of indices')", "compilation_passed": true, "time": 0.002872943878173828, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 4), [len(indices)] * 3)", "compilation_passed": true, "time": 0.011348962783813477, "tests_passed": true, "error": null}
+{"code": "scatter(indices, array[indices, 1:])", "compilation_passed": true, "time": 0.012629032135009766, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": "figure(figsize=(4, 3))", "compilation_passed": true, "time": 0.24312090873718262, "tests_passed": true, "error": null}

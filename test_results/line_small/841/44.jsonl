@@ -1,0 +1,21 @@
+{"code": " ' '.join(text.split())  # Remove multiple spaces", "compilation_passed": true, "time": 0.0016889572143554688, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s+\", ' ', text)", "compilation_passed": true, "time": 0.0022919178009033203, "tests_passed": true, "error": null}
+{"code": " text.translate(str.maketrans('', '', string.punctuation))", "compilation_passed": true, "time": 0.002039670944213867, "tests_passed": true, "error": null}
+{"code": " text.split()", "compilation_passed": true, "time": 0.00864100456237793, "tests_passed": false, "error": "AttributeError"}
+{"code": " ''.join(c for c in text if c.isalnum() or c == ' ')", "compilation_passed": true, "time": 0.0019218921661376953, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w]+', ' ', text).strip()", "compilation_passed": true, "time": 0.0027420520782470703, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]+', '', text)", "compilation_passed": true, "time": 0.0018999576568603516, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)", "compilation_passed": true, "time": 0.001928091049194336, "tests_passed": true, "error": null}
+{"code": " re.sub('[.,:;?!]', '', text).strip()", "compilation_passed": true, "time": 0.0019598007202148438, "tests_passed": true, "error": null}
+{"code": " ' '.join(text.split())", "compilation_passed": true, "time": 0.0017309188842773438, "tests_passed": true, "error": null}
+{"code": " re.sub('[,.;:!?]', '', text).strip()", "compilation_passed": true, "time": 0.0017189979553222656, "tests_passed": true, "error": null}
+{"code": " ''.join([c for c in text if c in string.ascii_letters + string.digits])", "compilation_passed": true, "time": 0.007867813110351562, "tests_passed": true, "error": null}
+{"code": " text.replace(\"'\", \"\")", "compilation_passed": true, "time": 0.001544952392578125, "tests_passed": true, "error": null}
+{"code": " re.sub('\\s+', ' ', text)", "compilation_passed": true, "time": 0.001828908920288086, "tests_passed": true, "error": null}
+{"code": " text.split() if text else []", "compilation_passed": true, "time": 0.00861811637878418, "tests_passed": false, "error": "AttributeError"}
+{"code": " ''.join([i for i in text if i not in string.punctuation])", "compilation_passed": true, "time": 0.0024099349975585938, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\x00-\\x7F]+', '', text)", "compilation_passed": true, "time": 0.001734018325805664, "tests_passed": true, "error": null}
+{"code": " text.strip(string.punctuation)", "compilation_passed": true, "time": 0.0015769004821777344, "tests_passed": true, "error": null}
+{"code": " text.replace('-', ' ')", "compilation_passed": true, "time": 0.0017161369323730469, "tests_passed": true, "error": null}
+{"code": " text.split(' ')", "compilation_passed": true, "time": 0.010500192642211914, "tests_passed": false, "error": "AttributeError"}
+{"code": " text.replace('\\n', ' ')", "compilation_passed": true, "time": 0.0015969276428222656, "tests_passed": true, "error": null}

@@ -1,0 +1,18 @@
+{"code": " inspect.islambda(f)", "compilation_passed": true, "time": 0.011238813400268555, "tests_passed": false, "error": "AttributeError"}
+{"code": " inspect.isfunction(f)", "compilation_passed": true, "time": 0.012518882751464844, "tests_passed": false, "error": "TypeError"}
+{"code": " callable(f) and spec.args == []", "compilation_passed": true, "time": 0.011880159378051758, "tests_passed": false, "error": "TypeError"}
+{"code": " inspect.isroutine(f)", "compilation_passed": true, "time": 0.010058403015136719, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(f, partial)", "compilation_passed": true, "time": 0.010816097259521484, "tests_passed": false, "error": "NameError"}
+{"code": " callable(f)", "compilation_passed": true, "time": 0.011045217514038086, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(f, lambda x: x)", "compilation_passed": true, "time": 0.011327028274536133, "tests_passed": false, "error": "TypeError"}
+{"code": " spec.annotations.get('return', None) is None", "compilation_passed": true, "time": 0.011315107345581055, "tests_passed": false, "error": "TypeError"}
+{"code": " inspect.isgeneratorfunction(f) or inspect.isasyncgenfunction(f) or inspect.iscoroutinefunction(f)", "compilation_passed": true, "time": 0.009827852249145508, "tests_passed": false, "error": "TypeError"}
+{"code": " inspect.isfunction(f) and not inspect.ismethod(f)", "compilation_passed": true, "time": 0.010926008224487305, "tests_passed": false, "error": "TypeError"}
+{"code": " inspect.isfunction(f) or inspect.ismethod(f)", "compilation_passed": true, "time": 0.010571718215942383, "tests_passed": false, "error": "TypeError"}
+{"code": " inspect.isfunction(f) or inspect.isbuiltin(f)", "compilation_passed": true, "time": 0.010512113571166992, "tests_passed": false, "error": "TypeError"}
+{"code": " (spec.args == [])", "compilation_passed": true, "time": 0.01014089584350586, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(f, types.LambdaType)", "compilation_passed": true, "time": 0.01032400131225586, "tests_passed": false, "error": "NameError"}
+{"code": " False", "compilation_passed": true, "time": 0.010875225067138672, "tests_passed": false, "error": "TypeError"}
+{"code": " inspect.isfunction(f) or inspect.isbuiltin(f) or inspect.ismethod(f) or inspect.isclass(f)", "compilation_passed": true, "time": 0.012499809265136719, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(f, lambda f: True)", "compilation_passed": true, "time": 0.01637887954711914, "tests_passed": false, "error": "TypeError"}
+{"code": " (not inspect.isfunction(f)) and inspect.isfunction(f)", "compilation_passed": true, "time": 0.01724696159362793, "tests_passed": false, "error": "TypeError"}

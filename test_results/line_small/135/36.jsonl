@@ -1,0 +1,21 @@
+{"code": " isinstance(df, pd.DataFrame) and len(df.columns) > 0:", "compilation_passed": true, "time": 0.09649205207824707, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(df, pd.DataFrame) or not df.columns:", "compilation_passed": true, "time": 0.009390115737915039, "tests_passed": false, "error": "ValueError"}
+{"code": " df.ndim == 1 or (df.ndim == 2 and df.shape[1] == 1):", "compilation_passed": true, "time": 0.008790016174316406, "tests_passed": false, "error": "IndexError"}
+{"code": " isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.00929403305053711, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df, pd.DataFrame) or not df.columns.tolist():", "compilation_passed": true, "time": 0.15074491500854492, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.009120941162109375, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(df, pd.DataFrame) or df.empty or not list(df.columns):", "compilation_passed": true, "time": 0.15383219718933105, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or df.empty:", "compilation_passed": true, "time": 0.1528937816619873, "tests_passed": true, "error": null}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.05923819541931152, "tests_passed": false, "error": "AttributeError"}
+{"code": " not isinstance(df, pd.DataFrame) or len(df.columns) < 1:", "compilation_passed": true, "time": 0.15980887413024902, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 0.008934974670410156, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(df, pd.DataFrame) or len(df.columns) == 0:", "compilation_passed": true, "time": 0.16037988662719727, "tests_passed": true, "error": null}
+{"code": " isinstance(df, pd.DataFrame) is False or df.empty:", "compilation_passed": true, "time": 0.1538829803466797, "tests_passed": true, "error": null}
+{"code": " df.ndim < 2 or df.columns.size == 0:", "compilation_passed": true, "time": 0.058866024017333984, "tests_passed": false, "error": "AttributeError"}
+{"code": " isinstance(df, pd.Series):", "compilation_passed": true, "time": 0.009112834930419922, "tests_passed": false, "error": "IndexError"}
+{"code": " isinstance(df, pd.DataFrame) and len(df.columns) > 0:", "compilation_passed": true, "time": 0.013844013214111328, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(df, pd.DataFrame) or not df.columns:", "compilation_passed": true, "time": 0.01663494110107422, "tests_passed": false, "error": "ValueError"}
+{"code": " df.ndim == 1 or (df.ndim == 2 and df.shape[1] == 1):", "compilation_passed": true, "time": 0.016352176666259766, "tests_passed": false, "error": "IndexError"}
+{"code": " isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.016731739044189453, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df, pd.DataFrame) or not df.columns.tolist():", "compilation_passed": true, "time": 0.16846704483032227, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.016621112823486328, "tests_passed": false, "error": "IndexError"}

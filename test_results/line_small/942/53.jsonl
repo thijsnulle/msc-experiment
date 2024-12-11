@@ -1,0 +1,27 @@
+{"code": "plot(x='Date', y='Sales', kind='bar', ax=ax)", "compilation_passed": true, "time": 0.5033471584320068, "tests_passed": true, "error": null}
+{"code": "plot(kind='bar', ax=ax, rot=0)", "compilation_passed": true, "time": 0.631709098815918, "tests_passed": true, "error": null}
+{"code": "plot(kind='bar', ax=ax, color='g')", "compilation_passed": true, "time": 0.6533949375152588, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', ax=ax, kind='bar', color='green', rot=30)", "compilation_passed": true, "time": 0.5371541976928711, "tests_passed": true, "error": null}
+{"code": "plot(kind='barh', x='Category', y='Sales', ax=ax, color='blue', rot=90)", "compilation_passed": true, "time": 0.5384719371795654, "tests_passed": true, "error": null}
+{"code": "groupby(['Category']).sum().plot(kind='bar', ax=ax, rot=90)", "compilation_passed": true, "time": 0.08646106719970703, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(kind='bar', ax=ax, title='Sales Report', x='Date', y='Sales', rot=0, ylim=(0, 500))", "compilation_passed": true, "time": 0.5385088920593262, "tests_passed": true, "error": null}
+{"code": "plot(kind='bar', stacked=True, ax=ax, title='Sales Report', figsize=(12, 8))", "compilation_passed": true, "time": 0.05561375617980957, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": "plot(x='Date', y='Sales', ax=ax, kind='bar', stacked=True, rot=0)", "compilation_passed": true, "time": 0.5477650165557861, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', kind='bar', ax=ax, rot=25)", "compilation_passed": true, "time": 0.5380260944366455, "tests_passed": true, "error": null}
+{"code": "plot(kind='bar', ax=ax, x='Date', y='Sales', color='blue', rot=45)", "compilation_passed": true, "time": 0.5720210075378418, "tests_passed": true, "error": null}
+{"code": "plot(kind='bar', ax=ax, rot=0, color='green', alpha=0.8, stacked=True)", "compilation_passed": true, "time": 0.05886578559875488, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": "plot(x='Date', y='Sales', ax=ax, kind='bar')", "compilation_passed": true, "time": 0.5357792377471924, "tests_passed": true, "error": null}
+{"code": "plot(kind='barh', x='Category', y='Sales', ax=ax, figsize=(10, 8))", "compilation_passed": true, "time": 0.6853358745574951, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', ax=ax, kind='bar', rot=90, alpha=0.75)", "compilation_passed": true, "time": 0.5431208610534668, "tests_passed": true, "error": null}
+{"code": "plot(kind='line', ax=ax, x='Date', y='Sales', color='blue', marker='o', markersize=5,", "compilation_passed": false, "time": 0.0004930496215820312, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(kind='bar', ax=ax, rot=0, figsize=(12, 8), color='red')", "compilation_passed": true, "time": 0.6402881145477295, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', kind='bar', ax=ax, color='#661D4F', rot=0)", "compilation_passed": true, "time": 0.5472760200500488, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', ax=ax, marker='o')", "compilation_passed": true, "time": 0.3880808353424072, "tests_passed": true, "error": null}
+{"code": "groupby('Category').mean().plot(", "compilation_passed": false, "time": 0.0008640289306640625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(kind='bar', ax=ax, rot=45)", "compilation_passed": true, "time": 0.6772210597991943, "tests_passed": true, "error": null}
+{"code": "plot(kind='bar', ax=ax)", "compilation_passed": true, "time": 0.6748557090759277, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', kind='bar', ax=ax, rot=45, width=.9, color='#319394')", "compilation_passed": true, "time": 0.5931260585784912, "tests_passed": true, "error": null}
+{"code": "plot(kind='bar', x='Date', y='Sales', ax=ax)", "compilation_passed": true, "time": 0.8989918231964111, "tests_passed": true, "error": null}
+{"code": "plot(y=['Sales'], kind='bar', ax=ax, rot=45, color='blue', width=0.4)", "compilation_passed": true, "time": 0.5654218196868896, "tests_passed": true, "error": null}
+{"code": "plot(kind='bar', y='Sales', ax=ax, title=\"Sales Report\")", "compilation_passed": true, "time": 0.558509111404419, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', ax=ax, marker='o', markersize=8, linestyle='')", "compilation_passed": true, "time": 0.4299440383911133, "tests_passed": true, "error": null}

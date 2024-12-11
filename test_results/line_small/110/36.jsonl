@@ -1,0 +1,7 @@
+{"code": " resampled_df['Sales'].isnull().all():", "compilation_passed": true, "time": 0.22487378120422363, "tests_passed": true, "error": null}
+{"code": " len(resampled_df) == 0:", "compilation_passed": true, "time": 0.22419977188110352, "tests_passed": true, "error": null}
+{"code": " resampled_df.empty:", "compilation_passed": true, "time": 0.24383902549743652, "tests_passed": true, "error": null}
+{"code": " not resampled_df.empty:", "compilation_passed": true, "time": 0.014113903045654297, "tests_passed": false, "error": "ValueError"}
+{"code": " not resampled_df['Sales'].dropna().any():", "compilation_passed": true, "time": 0.24388813972473145, "tests_passed": true, "error": null}
+{"code": " not len(resampled_df):", "compilation_passed": true, "time": 0.24076509475708008, "tests_passed": true, "error": null}
+{"code": " len(resampled_df.index) == 0:", "compilation_passed": true, "time": 0.2597482204437256, "tests_passed": true, "error": null}

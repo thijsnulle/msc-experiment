@@ -1,0 +1,7 @@
+{"code": " not isinstance(data[0], list)", "compilation_passed": false, "time": 0.00022602081298828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (", "compilation_passed": true, "time": 0.009940147399902344, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(isinstance(row, list) and len(row) == 6 for row in data)", "compilation_passed": false, "time": 0.00023698806762695312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (not isinstance(data[0], list) or len(data[0]) != 6)", "compilation_passed": false, "time": 0.0002048015594482422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (not isinstance(data[0], list) or (len(data[0]) != 6))) or (len(data) == 0):", "compilation_passed": false, "time": 0.00026798248291015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (len(data[0]) < 6 or len(data[0]) > 7)", "compilation_passed": false, "time": 0.00021696090698242188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (not isinstance(data[0], list) or len(data[0]) < 6)", "compilation_passed": false, "time": 0.00017404556274414062, "tests_passed": false, "error": "SyntaxError"}

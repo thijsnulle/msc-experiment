@@ -1,0 +1,7 @@
+{"code": " df['Score'].mean()", "compilation_passed": true, "time": 0.009066104888916016, "tests_passed": false, "error": "IndexError"}
+{"code": " df['Score'].groupby(df['Name']).mean()", "compilation_passed": true, "time": 0.011495351791381836, "tests_passed": true, "error": null}
+{"code": " df.groupby('Name')['Score'].mean()", "compilation_passed": true, "time": 0.010898113250732422, "tests_passed": true, "error": null}
+{"code": " pd.Series(data['Score']).groupby(data['Name']).mean()", "compilation_passed": true, "time": 0.010673999786376953, "tests_passed": true, "error": null}
+{"code": " df.Score.mean()", "compilation_passed": true, "time": 0.010848760604858398, "tests_passed": false, "error": "IndexError"}
+{"code": " pd.Series({k: round(np.mean(v), 2) for k, v in data['Score'].groupby(df['Name'])})", "compilation_passed": true, "time": 0.018707275390625, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series(df['Score'].mean(), index=df['Name'])", "compilation_passed": true, "time": 0.012336969375610352, "tests_passed": false, "error": "ValueError"}

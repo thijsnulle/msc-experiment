@@ -1,0 +1,11 @@
+{"code": " sales * np.random.uniform(profit_margin_min, profit_margin_max)", "compilation_passed": true, "time": 0.020934104919433594, "tests_passed": true, "error": null}
+{"code": " sales * (1 + np.random.uniform(profit_margin_min, profit_margin_max))", "compilation_passed": true, "time": 0.014451980590820312, "tests_passed": true, "error": null}
+{"code": " sales * np.random.randint(profit_margin_min, profit_margin_max) / 100", "compilation_passed": true, "time": 0.021046876907348633, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.uniform(sales * profit_margin_min, sales * profit_margin_max)", "compilation_passed": true, "time": 0.0204012393951416, "tests_passed": true, "error": null}
+{"code": " sales * np.random.randint(profit_margin_min * sales, profit_margin_max * sales + 1)", "compilation_passed": true, "time": 0.01580977439880371, "tests_passed": true, "error": null}
+{"code": " sales * (1 + (np.random.uniform(profit_margin_min, profit_margin_max)))", "compilation_passed": true, "time": 0.015375137329101562, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(profit_margin_min, profit_margin_max) * sales", "compilation_passed": true, "time": 0.024405956268310547, "tests_passed": true, "error": null}
+{"code": " sales * np.random.randint(int(sales_lower * profit_margin_min), int(sales_upper * profit_margin_max) + 1) / sales", "compilation_passed": true, "time": 0.016437053680419922, "tests_passed": true, "error": null}
+{"code": " sales * (1 + np.random.rand() * (profit_margin_max - profit_margin_min) + profit_margin_min)", "compilation_passed": true, "time": 0.018695831298828125, "tests_passed": true, "error": null}
+{"code": " sales * (np.random.uniform(profit_margin_min, profit_margin_max) / 100)", "compilation_passed": true, "time": 0.015518903732299805, "tests_passed": true, "error": null}
+{"code": " sales * (1 - np.random.uniform(profit_margin_min, profit_margin_max))", "compilation_passed": true, "time": 0.017644882202148438, "tests_passed": true, "error": null}

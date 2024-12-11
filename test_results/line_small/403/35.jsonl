@@ -1,0 +1,4 @@
+{"code": " Image.open(img_path)", "compilation_passed": true, "time": 0.008397102355957031, "tests_passed": true, "error": null}
+{"code": " cv2.imread(img_path)", "compilation_passed": true, "time": 0.021421194076538086, "tests_passed": false, "error": "AttributeError"}
+{"code": " Image.open(img_path).convert('RGB')", "compilation_passed": true, "time": 0.007637977600097656, "tests_passed": true, "error": null}
+{"code": " Image.open(img_path).convert(\"RGB\")", "compilation_passed": true, "time": 0.007436990737915039, "tests_passed": true, "error": null}

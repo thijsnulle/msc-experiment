@@ -1,0 +1,5 @@
+{"code": " []", "compilation_passed": true, "time": 0.015353202819824219, "tests_passed": false, "error": "ValueError"}
+{"code": " [randint(0, 100) for _ in range(len(COURSES))]", "compilation_passed": true, "time": 0.012179851531982422, "tests_passed": true, "error": null}
+{"code": " [randint(0, 100) for _ in COURSES]", "compilation_passed": true, "time": 0.012642145156860352, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 101, len(COURSES))", "compilation_passed": true, "time": 0.009053945541381836, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " {course: randint(0, 100) for course in COURSES}", "compilation_passed": true, "time": 0.010228157043457031, "tests_passed": false, "error": "TypeError"}

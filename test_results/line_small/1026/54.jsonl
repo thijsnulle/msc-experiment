@@ -1,0 +1,20 @@
+{"code": " or (", "compilation_passed": false, "time": 0.00022721290588378906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " or (np.std(group1) < 1e-8 or np.std(group2) < 1e-8):", "compilation_passed": true, "time": 0.28975510597229004, "tests_passed": true, "error": null}
+{"code": " or (np.nan_to_num(group1).size < 2) or (np.nan_to_num(group2).size < 2):", "compilation_passed": true, "time": 0.29631495475769043, "tests_passed": true, "error": null}
+{"code": " and len(group1) > 1 or len(group1) < 2 or len(group2) < 2:", "compilation_passed": true, "time": 0.2830312252044678, "tests_passed": true, "error": null}
+{"code": " and (len(group1) >= 2 or len(group2) >= 2):", "compilation_passed": true, "time": 0.29074978828430176, "tests_passed": true, "error": null}
+{"code": " and not (", "compilation_passed": false, "time": 0.0002548694610595703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " or (len(group1) < 2 or len(group2) < 2):", "compilation_passed": true, "time": 0.2897469997406006, "tests_passed": true, "error": null}
+{"code": " or (group1.size < 2 or group2.size < 2):", "compilation_passed": true, "time": 0.28612399101257324, "tests_passed": true, "error": null}
+{"code": " or (np.var(group1) < 1e-8) or (np.var(group2) < 1e-8):", "compilation_passed": true, "time": 0.29172396659851074, "tests_passed": true, "error": null}
+{"code": " or (len(group1) < 2) or (len(group2) < 2):", "compilation_passed": true, "time": 0.2992441654205322, "tests_passed": true, "error": null}
+{"code": " or len(group1) < 2 or len(group2) < 2:", "compilation_passed": true, "time": 0.2913992404937744, "tests_passed": true, "error": null}
+{"code": " :", "compilation_passed": true, "time": 0.3027021884918213, "tests_passed": true, "error": null}
+{"code": " and not np.all(np.isnan(group1)):", "compilation_passed": true, "time": 0.3059070110321045, "tests_passed": true, "error": null}
+{"code": " or np.any(np.isnan(group1)) or np.any(np.isnan(group2)):", "compilation_passed": true, "time": 0.21367192268371582, "tests_passed": false, "error": "ValueError"}
+{"code": " or (np.var(group1) < 1e-8 or np.var(group2) < 1e-8):", "compilation_passed": true, "time": 0.3595442771911621, "tests_passed": true, "error": null}
+{"code": " and len(group1) >= 2:", "compilation_passed": true, "time": 0.3003699779510498, "tests_passed": true, "error": null}
+{"code": " or np.max(np.var([group1, group2])) < 1e-8:", "compilation_passed": true, "time": 0.301908016204834, "tests_passed": true, "error": null}
+{"code": " -> None:", "compilation_passed": false, "time": 0.0002899169921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " and group1.size <= 2:", "compilation_passed": true, "time": 0.31301307678222656, "tests_passed": true, "error": null}
+{"code": " or (np.array(group1).size < 2 or np.array(group2).size < 2):", "compilation_passed": true, "time": 0.3226358890533447, "tests_passed": true, "error": null}

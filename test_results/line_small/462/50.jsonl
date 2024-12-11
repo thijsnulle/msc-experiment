@@ -1,0 +1,22 @@
+{"code": " df[\"Category\"].value_counts().plot.bar(rot=0, title=\"Category Counts\")", "compilation_passed": false, "time": 0.00034689903259277344, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot.bar(title=\"Category Counts\")", "compilation_passed": false, "time": 0.00026226043701171875, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"Category\")[\"Value\"].sum().plot.bar(title=\"Category Counts\", grid=True)", "compilation_passed": false, "time": 0.00026226043701171875, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot.bar()", "compilation_passed": false, "time": 0.0003681182861328125, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.plot.bar(x=\"Category\", y=\"Value\", legend=False)", "compilation_passed": false, "time": 0.00022983551025390625, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.Value.value_counts().plot(kind=\"bar\", title=\"Category Counts\")", "compilation_passed": false, "time": 0.0002598762512207031, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.plot.bar(x=\"Category\", y=\"Value\", title=\"Category Counts\")", "compilation_passed": false, "time": 0.000392913818359375, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.pivot_table(index=\"Category\", values=\"Value\").plot.bar(", "compilation_passed": true, "time": 0.09292292594909668, "tests_passed": false, "error": "KeyError"}
+{"code": " df.value_counts(\"Category\").plot(kind=\"bar\", title=\"Category Counts\", rot=0)", "compilation_passed": false, "time": 0.00023293495178222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot(kind=\"bar\")", "compilation_passed": false, "time": 0.00034308433532714844, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.plot.bar(y=\"Category\", x=\"Value\", rot=0)", "compilation_passed": false, "time": 0.00022792816162109375, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.pivot_table(index=\"Category\", values=\"Value\", aggfunc=\"count\").plot.bar()", "compilation_passed": false, "time": 0.00026988983154296875, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot.bar(color=\"c\")", "compilation_passed": false, "time": 0.0002727508544921875, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.plot.bar(x=\"Category\", y=\"Value\", rot=0, title=\"Category Counts\")", "compilation_passed": false, "time": 0.0002319812774658203, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.plot.bar(title=\"Category Counts\")", "compilation_passed": false, "time": 0.0002639293670654297, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.plot.bar(y=\"Category\", figsize=(10, 5), title=\"Category Counts\", rot=45, fontsize=12)", "compilation_passed": false, "time": 0.0002930164337158203, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.plot.bar(x=\"Category\", y=\"Value\", color=\"Category\", title=\"Category Counts\", figsize=(10, 5))", "compilation_passed": false, "time": 0.0003781318664550781, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot(kind=\"bar\", rot=0, title=\"Category Counts\")", "compilation_passed": false, "time": 0.0002739429473876953, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.plot.bar(y=\"Value\", title=\"Category Counts\")", "compilation_passed": false, "time": 0.0002167224884033203, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot(kind=\"bar\", title=\"Category Counts\", legend=False)", "compilation_passed": false, "time": 0.00028705596923828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.plot.bar(title=\"Category Counts\", x=\"Category\", y=\"Value\")", "compilation_passed": false, "time": 0.00026297569274902344, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot.bar(", "compilation_passed": true, "time": 0.3998868465423584, "tests_passed": true, "error": null}

@@ -1,0 +1,10 @@
+{"code": " ['Sample' + str(i) for i in range(1, num_samples + 1)]", "compilation_passed": true, "time": 1.015270709991455, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.random.randint(100, size=(num_samples, num_features))", "compilation_passed": true, "time": 0.01000213623046875, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.randint(1, 10, (num_samples, len(FEATURES)))", "compilation_passed": true, "time": 0.017267942428588867, "tests_passed": false, "error": "ValueError"}
+{"code": " [str(i) for i in range(1, num_samples + 1)]", "compilation_passed": true, "time": 0.04614400863647461, "tests_passed": false, "error": "RuntimeError"}
+{"code": " np.random.normal(size=[num_samples, len(FEATURES)])", "compilation_passed": true, "time": 0.01019287109375, "tests_passed": false, "error": "ValueError"}
+{"code": " [f\"Sample{i}\" for i in range(1, num_samples + 1)]", "compilation_passed": true, "time": 0.03377413749694824, "tests_passed": false, "error": "RuntimeError"}
+{"code": " ['Samples' + str(i) for i in range(1, num_samples + 1)]", "compilation_passed": true, "time": 0.03381514549255371, "tests_passed": false, "error": "RuntimeError"}
+{"code": " np.random.randint(1, 100, size=[num_samples, num_features])", "compilation_passed": true, "time": 0.009088993072509766, "tests_passed": false, "error": "ValueError"}
+{"code": " [np.random.randint(100, size=(num_samples, 1)) for feature in FEATURES]", "compilation_passed": true, "time": 0.017808914184570312, "tests_passed": false, "error": "NotImplementedError"}
+{"code": " np.random.rand(num_samples, num_features)", "compilation_passed": true, "time": 0.010525941848754883, "tests_passed": false, "error": "ValueError"}

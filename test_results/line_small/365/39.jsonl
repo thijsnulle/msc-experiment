@@ -1,0 +1,7 @@
+{"code": "dump(counts, f)", "compilation_passed": true, "time": 0.008133172988891602, "tests_passed": true, "error": null}
+{"code": "dump(dict(counts.items()), f)", "compilation_passed": true, "time": 0.0032770633697509766, "tests_passed": true, "error": null}
+{"code": "dump(dict(counts), f)", "compilation_passed": true, "time": 0.0031239986419677734, "tests_passed": true, "error": null}
+{"code": "dump(counts, f, indent=4)", "compilation_passed": true, "time": 0.0030448436737060547, "tests_passed": true, "error": null}
+{"code": "dump(counts, f, indent=2)", "compilation_passed": true, "time": 0.003486156463623047, "tests_passed": true, "error": null}
+{"code": "dump({word: counts[word] for word in selected_words}, f)", "compilation_passed": true, "time": 0.003350973129272461, "tests_passed": true, "error": null}
+{"code": "dump(dict(counts), f, indent=4)", "compilation_passed": true, "time": 0.004601955413818359, "tests_passed": true, "error": null}

@@ -1,0 +1,28 @@
+{"code": " np.around(solutions, precision)", "compilation_passed": true, "time": 0.0010530948638916016, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " list(map(lambda x: complex(np.round(x, precision)), solutions))", "compilation_passed": true, "time": 0.0012722015380859375, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [(np.round(solution, precision) + 0j) for solution in solutions]", "compilation_passed": true, "time": 0.0020890235900878906, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [round(complex(s), precision) for s in solutions]", "compilation_passed": true, "time": 0.0011930465698242188, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [round(complex(solution), precision) for solution in solutions]", "compilation_passed": true, "time": 0.0012710094451904297, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " tuple(map(lambda x: round(x, precision), solutions))", "compilation_passed": true, "time": 0.0011723041534423828, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " tuple(solutions[0].evalf(precision))", "compilation_passed": true, "time": 0.0011630058288574219, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " tuple(complex(round(solution, precision), 0) for solution in solutions)", "compilation_passed": true, "time": 0.0012097358703613281, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [complex(round(s, precision), 0) for s in solutions]", "compilation_passed": true, "time": 0.001135110855102539, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [complex(round(solution, precision), 0) for solution in solutions]", "compilation_passed": true, "time": 0.0010862350463867188, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [complex(round(sol, precision), 0) for sol in solutions]", "compilation_passed": true, "time": 0.0010790824890136719, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [complex(round(s.real, precision), round(s.imag, precision)) for s in solutions]", "compilation_passed": true, "time": 0.0010900497436523438, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [round(complex(solution.evalf(n=precision)), precision) for solution in solutions]", "compilation_passed": true, "time": 0.0010590553283691406, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [(round(i, precision) + 0j) for i in solutions]", "compilation_passed": true, "time": 0.0010769367218017578, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [complex(round(solution.real, precision), round(solution.imag, precision))", "compilation_passed": false, "time": 0.000202178955078125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " tuple(complex(round(solution.real, precision), round(solution.imag, precision)) for solution in solutions)", "compilation_passed": true, "time": 0.0010743141174316406, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " np.round(solutions, precision)", "compilation_passed": true, "time": 0.0010600090026855469, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [s.evalf(precision) for s in solutions]", "compilation_passed": true, "time": 0.001241922378540039, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [(round(solution.real, precision) + 0j * round(solution.imag, precision)) for solution in solutions]", "compilation_passed": true, "time": 0.0013179779052734375, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " tuple(round(solution, precision) for solution in solutions)", "compilation_passed": true, "time": 0.0011467933654785156, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " tuple(np.round(solutions[i], precision) for i in range(len(solutions)))", "compilation_passed": true, "time": 0.0012810230255126953, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " list(map(lambda solution: (solution.real.round(precision) + 1j*solution.imag.round(precision)), solutions))", "compilation_passed": true, "time": 0.001316070556640625, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " tuple(round(complex(solution), precision) for solution in solutions)", "compilation_passed": true, "time": 0.0012581348419189453, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [solutions[0].evalf(n=precision), solutions[1].evalf(n=precision)]", "compilation_passed": true, "time": 0.0012271404266357422, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [(round(solution.real, precision) + 1j * round(solution.imag, precision)) for solution in solutions]", "compilation_passed": true, "time": 0.0010998249053955078, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [round(complex(i), precision) for i in solutions]", "compilation_passed": true, "time": 0.0011191368103027344, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " tuple([round(sol.evalf(), precision) for sol in solutions])", "compilation_passed": true, "time": 0.0010581016540527344, "tests_passed": false, "error": "No module named 'sympy'"}
+{"code": " [round(solution, precision) for solution in solutions]", "compilation_passed": true, "time": 0.0010371208190917969, "tests_passed": false, "error": "No module named 'sympy'"}

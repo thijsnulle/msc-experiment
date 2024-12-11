@@ -1,0 +1,13 @@
+{"code": " df['Y']", "compilation_passed": true, "time": 0.020513057708740234, "tests_passed": true, "error": null}
+{"code": " df['Y']  # Extracting column 'Y' as a Series", "compilation_passed": true, "time": 0.017145156860351562, "tests_passed": true, "error": null}
+{"code": " df[['Y']]", "compilation_passed": true, "time": 0.01914811134338379, "tests_passed": true, "error": null}
+{"code": " pd.Series(df['Y'])  # Extracting column 'Y' as a Series", "compilation_passed": true, "time": 0.014931201934814453, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df[['Y']])  # Extracting column 'Y' as a DataFrame", "compilation_passed": true, "time": 0.019364118576049805, "tests_passed": true, "error": null}
+{"code": " df[['Y']]  # Extracting column 'Y' as a Series", "compilation_passed": true, "time": 0.01814413070678711, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df['Y'])  # Extracting column 'Y' as a DataFrame", "compilation_passed": true, "time": 0.01948404312133789, "tests_passed": true, "error": null}
+{"code": " df['Y']  # Extracting column 'Y' as a NumPy array", "compilation_passed": true, "time": 0.015068769454956055, "tests_passed": true, "error": null}
+{"code": " df['Y']  # Extracting column 'Y' as a Pandas Series", "compilation_passed": true, "time": 0.015278816223144531, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df['Y'], columns=['Y'])  # Extracting column 'Y' as a DataFrame", "compilation_passed": true, "time": 0.02049112319946289, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df['Y'])   # Extracting column 'Y' as a DataFrame", "compilation_passed": true, "time": 0.018374919891357422, "tests_passed": true, "error": null}
+{"code": " df[['Y']]  # Extracting column 'Y' as a DataFrame", "compilation_passed": true, "time": 0.017961978912353516, "tests_passed": true, "error": null}
+{"code": " df['Y']                 # Extracting column 'Y' as a Series", "compilation_passed": true, "time": 0.013817787170410156, "tests_passed": true, "error": null}

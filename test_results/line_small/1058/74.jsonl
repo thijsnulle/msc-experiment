@@ -1,0 +1,17 @@
+{"code": "xticks(rotation=45, ha=\"right\")", "compilation_passed": true, "time": 0.7589690685272217, "tests_passed": true, "error": null}
+{"code": "xticks(rotation=45)", "compilation_passed": true, "time": 0.7576501369476318, "tests_passed": true, "error": null}
+{"code": "xticks(rotation=90)", "compilation_passed": true, "time": 0.7650771141052246, "tests_passed": true, "error": null}
+{"code": "xticks(rotation=45, fontsize=10)", "compilation_passed": true, "time": 0.7643759250640869, "tests_passed": true, "error": null}
+{"code": "xticks(fontsize=10, rotation=35, ha=\"right\")", "compilation_passed": true, "time": 0.7502601146697998, "tests_passed": true, "error": null}
+{"code": "xticks(range(len(pairs)), pairs, rotation=45, ha=\"right\")", "compilation_passed": true, "time": 0.7540872097015381, "tests_passed": true, "error": null}
+{"code": "xticks(fontsize=7, rotation=80)", "compilation_passed": true, "time": 0.7516682147979736, "tests_passed": true, "error": null}
+{"code": "xlabel(\"Shape and Color\")", "compilation_passed": true, "time": 0.7459220886230469, "tests_passed": true, "error": null}
+{"code": "xticks(rotation=70, fontsize=\"x-small\")", "compilation_passed": true, "time": 0.8646938800811768, "tests_passed": true, "error": null}
+{"code": "xticks(fontsize=6, rotation=90)", "compilation_passed": true, "time": 0.8870890140533447, "tests_passed": true, "error": null}
+{"code": "xticks(rotation=45, ha=\"right\", fontsize=12)", "compilation_passed": true, "time": 0.8716740608215332, "tests_passed": true, "error": null}
+{"code": "xticks(rotation=30)", "compilation_passed": true, "time": 1.0187740325927734, "tests_passed": false, "error": "TimeoutError"}
+{"code": "xticks(fontsize=6)", "compilation_passed": true, "time": 0.7903358936309814, "tests_passed": true, "error": null}
+{"code": "xticks(fontsize=15)", "compilation_passed": true, "time": 0.8103160858154297, "tests_passed": true, "error": null}
+{"code": "xticks(range(num_pairs), [f\"{s}:{c}\" for s, c in itertools.product(SHAPES, COLORS)][:num_pairs])", "compilation_passed": true, "time": 0.8233401775360107, "tests_passed": true, "error": null}
+{"code": "xticks(fontsize=9, rotation=60)", "compilation_passed": true, "time": 0.8636081218719482, "tests_passed": true, "error": null}
+{"code": "title(f\"Unique shape-color pairs: {num_pairs}\")", "compilation_passed": true, "time": 0.987238883972168, "tests_passed": true, "error": null}

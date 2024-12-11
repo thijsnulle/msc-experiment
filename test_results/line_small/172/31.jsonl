@@ -1,0 +1,4 @@
+{"code": " datetime.fromisoformat(datetime_str)", "compilation_passed": true, "time": 0.001294851303100586, "tests_passed": true, "error": null}
+{"code": " datetime.strptime(datetime_str, '%Y-%m-%dT%H:%M:%S')", "compilation_passed": true, "time": 0.001560211181640625, "tests_passed": true, "error": null}
+{"code": " datetime.strptime(datetime_str, \"%Y-%m-%dT%H:%M:%S\")", "compilation_passed": true, "time": 0.0012927055358886719, "tests_passed": true, "error": null}
+{"code": " datetime.strptime(datetime_str, '%Y-%m-%dT%H:%M:%S').astimezone(pytz.timezone('UTC'))", "compilation_passed": true, "time": 0.012359142303466797, "tests_passed": false, "error": "NameError"}

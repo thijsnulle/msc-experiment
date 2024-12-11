@@ -1,0 +1,21 @@
+{"code": " pd.DataFrame(duplicates)", "compilation_passed": true, "time": 0.015021800994873047, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame.from_dict(duplicates)", "compilation_passed": true, "time": 0.01464700698852539, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(duplicates.items(), columns=[\"Duplicate\", \"Count\"])", "compilation_passed": true, "time": 0.18542003631591797, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(duplicates.keys()), columns=[\"col1\", \"col2\", \"col3\"])", "compilation_passed": true, "time": 0.016308307647705078, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(list(duplicates.items()), columns=[\"duplicates\", \"count\"])", "compilation_passed": true, "time": 0.2081131935119629, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(duplicates.items())", "compilation_passed": true, "time": 0.2028951644897461, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(duplicates, orient=\"index\")", "compilation_passed": true, "time": 0.20308303833007812, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(duplicates.items()))", "compilation_passed": true, "time": 0.18382692337036133, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(duplicates, orient=\"index\", columns=[\"Count\"])", "compilation_passed": true, "time": 0.2116072177886963, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Duplicate Rows\": list(duplicates.keys())})", "compilation_passed": true, "time": 0.01584911346435547, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(duplicates.items(), columns=[\"Duplicate Rows\", \"Count\"])", "compilation_passed": true, "time": 0.21421575546264648, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(duplicates.items()), columns=[\"Row\", \"Count\"])", "compilation_passed": true, "time": 0.21809792518615723, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(duplicates, orient='index')", "compilation_passed": true, "time": 0.20489001274108887, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(duplicates, orient=\"index\", columns=[\"Count\"]).T.sort_values(\"Count\")", "compilation_passed": true, "time": 0.013875007629394531, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(dict(duplicates))", "compilation_passed": true, "time": 0.013808250427246094, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(list(duplicates.items()), columns=[\"Duplicate row\", \"Count\"])", "compilation_passed": true, "time": 0.19305205345153809, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(duplicates.items()).T.rename(columns={0: \"duplicates\", 1: \"count\"})", "compilation_passed": true, "time": 0.014951944351196289, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(list(duplicates.keys()), columns=[\"first\", \"last\", \"city\"])", "compilation_passed": true, "time": 0.014394044876098633, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame.from_dict(duplicates, orient=\"index\", columns=[\"count\"])", "compilation_passed": true, "time": 0.2084510326385498, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_records(duplicates, index=[\"first\", \"second\", \"third\"])", "compilation_passed": true, "time": 0.20214605331420898, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(duplicates.items()), columns=[\"Name\", \"Age\", \"City\", \"Count\"])", "compilation_passed": true, "time": 0.015316963195800781, "tests_passed": false, "error": "ValueError"}

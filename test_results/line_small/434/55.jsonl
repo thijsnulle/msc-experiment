@@ -1,0 +1,16 @@
+{"code": " re.findall(r\"\\S+\", segment)", "compilation_passed": true, "time": 0.012151002883911133, "tests_passed": false, "error": "ValueError"}
+{"code": " segment.split(\" \")", "compilation_passed": true, "time": 0.01204991340637207, "tests_passed": false, "error": "ValueError"}
+{"code": " segment.split()", "compilation_passed": true, "time": 0.013351202011108398, "tests_passed": false, "error": "ValueError"}
+{"code": " re.findall(r\"(\\d+)\\s+(\\d+)\\s+(\\S+)\\s+(\\d+)\\s+(\\S.+)\", segment)[0]", "compilation_passed": true, "time": 0.028408050537109375, "tests_passed": false, "error": "IndexError"}
+{"code": " [element.strip() for element in re.split(r'\\s+', segment)]", "compilation_passed": true, "time": 0.01220703125, "tests_passed": false, "error": "ValueError"}
+{"code": " segment.split(maxsplit=5)", "compilation_passed": true, "time": 0.013402938842773438, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 0.0002548694610595703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " re.split(\" +\", segment)", "compilation_passed": true, "time": 0.014814138412475586, "tests_passed": false, "error": "ValueError"}
+{"code": " [elem.strip() for elem in re.split(r\"\\s+\", segment)]", "compilation_passed": true, "time": 0.01243901252746582, "tests_passed": false, "error": "ValueError"}
+{"code": " re.split(r'[\\s]+', segment)", "compilation_passed": true, "time": 0.012491941452026367, "tests_passed": false, "error": "ValueError"}
+{"code": " re.split(r'(\\s+)', segment)", "compilation_passed": true, "time": 0.013431072235107422, "tests_passed": false, "error": "ValueError"}
+{"code": " re.findall(r\"[A-Z0-9]+\", segment)", "compilation_passed": true, "time": 0.023710012435913086, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(\\d+)\\s+(\\d+)\\s+(\\w+)\\s+(\\d+)\\s+(.+)\", segment)[0]", "compilation_passed": true, "time": 0.028103113174438477, "tests_passed": false, "error": "IndexError"}
+{"code": " re.split(\"\\\\s+\", segment)", "compilation_passed": true, "time": 0.012300968170166016, "tests_passed": false, "error": "ValueError"}
+{"code": " re.findall(r'\\d+|\\D+', segment)", "compilation_passed": true, "time": 0.012506246566772461, "tests_passed": false, "error": "ValueError"}
+{"code": " re.findall(\"\\d+\", segment)", "compilation_passed": true, "time": 0.012270212173461914, "tests_passed": false, "error": "ValueError"}

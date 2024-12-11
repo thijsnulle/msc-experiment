@@ -1,0 +1,17 @@
+{"code": " pd.DataFrame.from_dict(report_data, orient='index').reset_index()", "compilation_passed": true, "time": 0.09333610534667969, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(report_data, index=['Grade'])", "compilation_passed": true, "time": 0.09001588821411133, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(report_data, index=[\"Grade\"])", "compilation_passed": true, "time": 0.11005902290344238, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(report_data, index=[\"Grade\"]).T", "compilation_passed": true, "time": 0.09876823425292969, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(report_data, orient=\"index\", columns=[\"Count\"]).rename_axis(\"Grade\").sort_index()", "compilation_passed": true, "time": 0.5706851482391357, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(report_data, orient=\"index\", columns=[\"Count\"])", "compilation_passed": true, "time": 0.5637538433074951, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(report_data, index=[\"Count\"]).T", "compilation_passed": true, "time": 0.5887508392333984, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(report_data, index=possible_grades)", "compilation_passed": true, "time": 0.12923908233642578, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(report_data, index=[\"Grade\"]).transpose()", "compilation_passed": true, "time": 0.11849212646484375, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(report_data, index=[\"Count\"])", "compilation_passed": true, "time": 0.10633516311645508, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(report_data)", "compilation_passed": true, "time": 0.013554811477661133, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data=report_data, index=[\"Grade\"])", "compilation_passed": true, "time": 0.09057998657226562, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(report_data, orient=\"index\", columns=[\"Count\"]).sort_index()", "compilation_passed": true, "time": 0.6067531108856201, "tests_passed": true, "error": null}
+{"code": " pd.Series(report_data, name='Grade').sort_index().rename('Count')", "compilation_passed": true, "time": 0.14833307266235352, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(report_data, orient='index').rename(columns={'Count': 'Number of Students'})", "compilation_passed": true, "time": 0.10703682899475098, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(report_data, index=[\"Count\"], columns=[\"Grade\"])", "compilation_passed": true, "time": 0.13909196853637695, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(report_data).set_index(\"Grade\")", "compilation_passed": true, "time": 0.014209985733032227, "tests_passed": false, "error": "ValueError"}

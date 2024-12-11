@@ -1,0 +1,7 @@
+{"code": " selected_df.shape[0] >= 3:", "compilation_passed": true, "time": 0.16046428680419922, "tests_passed": true, "error": null}
+{"code": " len(selected_df) >= 3:", "compilation_passed": true, "time": 0.1674509048461914, "tests_passed": true, "error": null}
+{"code": " selected_df.shape[0] > 2:", "compilation_passed": true, "time": 0.13432621955871582, "tests_passed": true, "error": null}
+{"code": " len(selected_df) > 2:", "compilation_passed": true, "time": 0.14119982719421387, "tests_passed": true, "error": null}
+{"code": " selected_df.shape[0] < 3:", "compilation_passed": true, "time": 0.031481266021728516, "tests_passed": false, "error": "ValueError"}
+{"code": " len(selected_df) < 3:", "compilation_passed": true, "time": 0.3112621307373047, "tests_passed": false, "error": "ValueError"}
+{"code": " selected_df.shape[0] > 3:", "compilation_passed": true, "time": 0.043066978454589844, "tests_passed": false, "error": "AttributeError"}

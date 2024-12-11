@@ -1,0 +1,29 @@
+{"code": "pd.Index(['Position %s' % i for i in range(1, len(unzipped_data[0]) + 1)]))", "compilation_passed": true, "time": 0.003930091857910156, "tests_passed": true, "error": null}
+{"code": "pd.MultiIndex.from_tuples(data_list, names=['Position', 'Field']))", "compilation_passed": true, "time": 0.010535001754760742, "tests_passed": false, "error": "ValueError"}
+{"code": "pd.Index(pd.Series(np.array(unzipped_data[0]))), name='Position')", "compilation_passed": true, "time": 0.005001068115234375, "tests_passed": false, "error": "TypeError"}
+{"code": "pd.Index([f'Position {i}' for i in range(len(mean_values))],", "compilation_passed": false, "time": 0.00034880638122558594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pd.Series(unzipped_data[0], index=pd.Series(list(range(len(unzipped_data)))),", "compilation_passed": false, "time": 0.0002849102020263672, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pd.Index(pd.arange(len(mean_values)), name=\"Position\"))", "compilation_passed": true, "time": 0.0051288604736328125, "tests_passed": false, "error": "AttributeError"}
+{"code": "pd.Index(['Position ' + str(i) for i in range(len(mean_values))], name='Position'))", "compilation_passed": true, "time": 0.003804922103881836, "tests_passed": true, "error": null}
+{"code": "pd.Index([f\"Position {i}\" for i in range(len(mean_values))], name='Position'))", "compilation_passed": true, "time": 0.003966093063354492, "tests_passed": true, "error": null}
+{"code": "pd.Index(['Position ' + str(i) for i in range(len(mean_values))]))", "compilation_passed": true, "time": 0.00374603271484375, "tests_passed": true, "error": null}
+{"code": "pd.Index(['Position' + str(i) for i in range(1, len(mean_values)+1)]))", "compilation_passed": true, "time": 0.010342836380004883, "tests_passed": false, "error": "KeyError"}
+{"code": "pd.MultiIndex.from_product([range(len(unzipped_data))],", "compilation_passed": false, "time": 0.0003490447998046875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "list('Position ' + str(i) for i in range(1, len(mean_values) + 1)))", "compilation_passed": true, "time": 0.003580331802368164, "tests_passed": true, "error": null}
+{"code": "pd.MultiIndex.from_tuples(zip(range(len(data_list)),", "compilation_passed": false, "time": 0.0005047321319580078, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pd.Index(['Position' + str(i) for i in range(len(unzipped_data))]))", "compilation_passed": true, "time": 0.010278701782226562, "tests_passed": false, "error": "KeyError"}
+{"code": "pd.MultiIndex.from_product([('Position', ),", "compilation_passed": false, "time": 0.0002892017364501953, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pd.Index(['Position' + str(i) for i in range(len(mean_values))], name='Position'),", "compilation_passed": false, "time": 0.0002880096435546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pd.Index(['Position' + str(i) for i in range(len(mean_values))],", "compilation_passed": false, "time": 0.0003070831298828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pd.MultiIndex.from_product([['Position'] + [str(i) for i in range(len(unzipped_data))]],", "compilation_passed": false, "time": 0.0003218650817871094, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pd.Index(['Position' + str(i) for i in range(1, len(mean_values) + 1)]))", "compilation_passed": true, "time": 0.010013818740844727, "tests_passed": false, "error": "KeyError"}
+{"code": "pd.Series(['Position ' + str(i) for i in range(len(mean_values))]))", "compilation_passed": true, "time": 0.004370927810668945, "tests_passed": true, "error": null}
+{"code": "pd.Index(", "compilation_passed": false, "time": 0.000286102294921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pd.MultiIndex.from_product(zip(range(1, len(data_list) + 1),", "compilation_passed": false, "time": 0.00045609474182128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pd.Index(pd.MultiIndex.from_arrays(unzipped_data, names=data_list[0]),", "compilation_passed": false, "time": 0.0003039836883544922, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pd.Index(pd.Series(np.arange(len(mean_values))), name='Position', dtype='string'))", "compilation_passed": true, "time": 0.010560989379882812, "tests_passed": false, "error": "KeyError"}
+{"code": "pd.Index(pd.arange(len(mean_values)), name='Position'))", "compilation_passed": true, "time": 0.00468897819519043, "tests_passed": false, "error": "AttributeError"}
+{"code": "pd.Index(['Position {}'.format(i) for i in range(len(mean_values))], name='Position'))", "compilation_passed": true, "time": 0.0037376880645751953, "tests_passed": true, "error": null}
+{"code": "pd.Index(pd.Series(unzipped_data[0]).apply(str).values, name='Position'))", "compilation_passed": true, "time": 0.01065206527709961, "tests_passed": false, "error": "KeyError"}
+{"code": "pd.Index(['Position' + str(i) for i in range(len(unzipped_data))], name='Position'))", "compilation_passed": true, "time": 0.009725093841552734, "tests_passed": false, "error": "KeyError"}
+{"code": "pd.Series(['Position {}'.format(i) for i in range(len(unzipped_data))]))", "compilation_passed": true, "time": 0.00504302978515625, "tests_passed": true, "error": null}

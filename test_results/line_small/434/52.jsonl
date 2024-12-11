@@ -1,0 +1,14 @@
+{"code": " s.strip().split(\"\\n\")", "compilation_passed": true, "time": 0.02089405059814453, "tests_passed": true, "error": null}
+{"code": " s.splitlines()", "compilation_passed": true, "time": 0.02083611488342285, "tests_passed": true, "error": null}
+{"code": " [segment.strip() for segment in s.strip().splitlines()]", "compilation_passed": true, "time": 0.02061009407043457, "tests_passed": true, "error": null}
+{"code": " re.split(\"\\\\n|\\\\s+\", s)", "compilation_passed": true, "time": 0.011850118637084961, "tests_passed": false, "error": "ValueError"}
+{"code": " s.strip().split(\"\\\\n\")", "compilation_passed": true, "time": 0.01713705062866211, "tests_passed": true, "error": null}
+{"code": " re.split('\\n+', s)", "compilation_passed": true, "time": 0.020226001739501953, "tests_passed": true, "error": null}
+{"code": " s.split(\"\\n\")", "compilation_passed": true, "time": 0.020149946212768555, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\n(.+)', s)", "compilation_passed": true, "time": 0.012979984283447266, "tests_passed": true, "error": null}
+{"code": " s.split('\\n')", "compilation_passed": true, "time": 0.022659778594970703, "tests_passed": true, "error": null}
+{"code": " re.split(r'\\n', s)", "compilation_passed": true, "time": 0.019949913024902344, "tests_passed": true, "error": null}
+{"code": " s.split(\"\\\\n\")", "compilation_passed": true, "time": 0.01674795150756836, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\n+\", s)", "compilation_passed": true, "time": 0.019926071166992188, "tests_passed": true, "error": null}
+{"code": " s.strip().split('\\n')", "compilation_passed": true, "time": 0.0197451114654541, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\n\", s)", "compilation_passed": true, "time": 0.019659996032714844, "tests_passed": true, "error": null}

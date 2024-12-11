@@ -1,0 +1,17 @@
+{"code": " hashlib.sha512(password.encode('utf-8')).digest()", "compilation_passed": true, "time": 0.009629964828491211, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " hashlib.sha1(password.encode()).hexdigest()", "compilation_passed": true, "time": 0.011008739471435547, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha1(password.encode()).digest()", "compilation_passed": true, "time": 0.009668827056884766, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " hashlib.md5(password.encode()).digest()", "compilation_passed": true, "time": 0.008975982666015625, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " hashlib.sha256(password.encode('utf-8')).digest()", "compilation_passed": true, "time": 0.005287885665893555, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(password.encode()).digest()", "compilation_passed": true, "time": 0.005384922027587891, "tests_passed": true, "error": null}
+{"code": " hashlib.sha1(password.encode('utf-8')).digest()[:len(data)]", "compilation_passed": true, "time": 0.009140968322753906, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " hashlib.sha256(password.encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.011194705963134766, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.md5(password.encode('utf-8')).digest()", "compilation_passed": true, "time": 0.008745908737182617, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " hashlib.sha1(password.encode('utf-8')).digest()", "compilation_passed": true, "time": 0.008713960647583008, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " hashlib.md5(password.encode()).hexdigest()[:16]", "compilation_passed": true, "time": 0.010416030883789062, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha224(password.encode()).hexdigest()", "compilation_passed": true, "time": 0.011574745178222656, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.md5(password.encode()).hexdigest()[:32]", "compilation_passed": true, "time": 0.01070713996887207, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.md5(password.encode()).hexdigest()", "compilation_passed": true, "time": 0.01092982292175293, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.md5(password.encode()).hexdigest()[:len(data)]", "compilation_passed": true, "time": 0.010670185089111328, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(password.encode()).digest()[:16]", "compilation_passed": true, "time": 0.0067369937896728516, "tests_passed": true, "error": null}
+{"code": " hashlib.sha1(password.encode()).digest()[:len(key)]", "compilation_passed": true, "time": 0.008306741714477539, "tests_passed": false, "error": "UnboundLocalError"}

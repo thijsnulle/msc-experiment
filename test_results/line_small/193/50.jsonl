@@ -1,0 +1,20 @@
+{"code": " str(col)] = [choice(range(10)) for _ in range(rows)]", "compilation_passed": true, "time": 0.007996797561645508, "tests_passed": true, "error": null}
+{"code": " str(col)] = np.random.randint(0, 10, size=(rows, 1)).astype(data_type)", "compilation_passed": true, "time": 0.009876012802124023, "tests_passed": false, "error": "ValueError"}
+{"code": " str(col)] = [np.random.randint(0, 10) for _ in range(rows)]", "compilation_passed": true, "time": 0.00789499282836914, "tests_passed": true, "error": null}
+{"code": " str(col)] = [", "compilation_passed": false, "time": 0.00024890899658203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [choice(list(range(10))) for _ in range(rows)]", "compilation_passed": true, "time": 0.007675886154174805, "tests_passed": true, "error": null}
+{"code": " str(col)] = np.random.randint(0, 10, size=rows)", "compilation_passed": true, "time": 0.008231878280639648, "tests_passed": true, "error": null}
+{"code": " str(col)] = np.random.randint(0, 10, size=rows).astype(data_type)", "compilation_passed": true, "time": 0.0068302154541015625, "tests_passed": true, "error": null}
+{"code": " str(col)] = np.random.choice(range(10), size=rows)", "compilation_passed": true, "time": 0.007007122039794922, "tests_passed": true, "error": null}
+{"code": " str(col)] = [0] + [np.random.choice(range(10)) for _ in range(rows - 1)]", "compilation_passed": true, "time": 0.00899195671081543, "tests_passed": true, "error": null}
+{"code": " str(col)] = [random.random() for _ in range(rows)]", "compilation_passed": true, "time": 0.013127803802490234, "tests_passed": false, "error": "NameError"}
+{"code": " str(col)] = [np.random.randint(0, 10) if data_type == int else np.random.random() * 10 for _ in", "compilation_passed": false, "time": 0.0003151893615722656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [choice([int, float])() for _ in range(rows)]", "compilation_passed": true, "time": 0.007595062255859375, "tests_passed": true, "error": null}
+{"code": " str(col)] = [0 if x % 2 == 0 else round(np.random.random(), 2) for x in range(rows)]", "compilation_passed": true, "time": 0.00989985466003418, "tests_passed": true, "error": null}
+{"code": " str(col)] = [np.random.randint(10) for _ in range(rows)]", "compilation_passed": true, "time": 0.007908105850219727, "tests_passed": true, "error": null}
+{"code": " str(col)] = [choice([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]) for _ in range(rows)]", "compilation_passed": true, "time": 0.008282899856567383, "tests_passed": true, "error": null}
+{"code": " str(col)] = np.random.choice([int, float], size=rows)", "compilation_passed": true, "time": 0.008134841918945312, "tests_passed": true, "error": null}
+{"code": " str(col)] = np.random.choice(np.arange(10), size=(rows,))", "compilation_passed": true, "time": 0.008614063262939453, "tests_passed": true, "error": null}
+{"code": " str(col)] = list(np.random.choice(list(range(10)), size=rows))", "compilation_passed": true, "time": 0.008663654327392578, "tests_passed": true, "error": null}
+{"code": " str(col)] = np.random.randint(0, 10, rows).astype('int64')", "compilation_passed": true, "time": 0.006590127944946289, "tests_passed": true, "error": null}
+{"code": " str(col)] = [np.random.random() * 10 for _ in range(rows)]", "compilation_passed": true, "time": 0.009157896041870117, "tests_passed": true, "error": null}

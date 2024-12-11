@@ -1,0 +1,17 @@
+{"code": " list(map(lambda x: (x, math.exp(x)), x_values))", "compilation_passed": true, "time": 1.6891589164733887, "tests_passed": true, "error": null}
+{"code": " [(x, math.exp(x)) for x in x_values]", "compilation_passed": true, "time": 0.8962371349334717, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.32155919075012207, "tests_passed": true, "error": null}
+{"code": " map(lambda x: (x, math.exp(x)), x_values)", "compilation_passed": true, "time": 0.898684024810791, "tests_passed": true, "error": null}
+{"code": " zip(x_values, np.exp(x_values))", "compilation_passed": true, "time": 0.9105861186981201, "tests_passed": true, "error": null}
+{"code": " (", "compilation_passed": false, "time": 0.0001747608184814453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [*zip(x_values, np.exp(x_values))]", "compilation_passed": true, "time": 0.9128670692443848, "tests_passed": true, "error": null}
+{"code": " [(x, math.e ** x) for x in x_values]", "compilation_passed": true, "time": 0.9139280319213867, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0002002716064453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (x_values, np.exp(x_values))", "compilation_passed": true, "time": 0.05324816703796387, "tests_passed": false, "error": "ValueError"}
+{"code": " [(x, np.exp(x)) for x in x_values]", "compilation_passed": true, "time": 0.9119160175323486, "tests_passed": true, "error": null}
+{"code": " ((x, math.exp(x)) for x in x_values)", "compilation_passed": true, "time": 0.9030978679656982, "tests_passed": true, "error": null}
+{"code": " zip(x_values, map(math.exp, x_values))", "compilation_passed": true, "time": 0.9125618934631348, "tests_passed": true, "error": null}
+{"code": " [tuple(map(np.exp, x_values))]", "compilation_passed": true, "time": 0.0553288459777832, "tests_passed": false, "error": "ValueError"}
+{"code": " ((x, math.e ** x) for x in x_values)", "compilation_passed": true, "time": 0.8997330665588379, "tests_passed": true, "error": null}
+{"code": " (zip(x_values, map(math.exp, x_values)))", "compilation_passed": true, "time": 0.9119930267333984, "tests_passed": true, "error": null}
+{"code": " np.vectorize(math.exp)(x_values)", "compilation_passed": true, "time": 0.0643610954284668, "tests_passed": false, "error": "TypeError"}

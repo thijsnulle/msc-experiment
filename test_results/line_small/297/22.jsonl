@@ -1,0 +1,18 @@
+{"code": " dict(collections.Counter([sum(i) for i in combinations]))", "compilation_passed": true, "time": 0.0016751289367675781, "tests_passed": true, "error": null}
+{"code": " [sum(x) for x in combinations]", "compilation_passed": true, "time": 0.0015358924865722656, "tests_passed": true, "error": null}
+{"code": " {sum(subset) for subset in combinations}", "compilation_passed": true, "time": 0.006600856781005859, "tests_passed": true, "error": null}
+{"code": " {sum(combinations[i]) for i in range(len(combinations))}", "compilation_passed": true, "time": 0.005944967269897461, "tests_passed": true, "error": null}
+{"code": " {sum(item) for item in combinations}", "compilation_passed": true, "time": 0.005810260772705078, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*combinations))", "compilation_passed": true, "time": 0.00586700439453125, "tests_passed": true, "error": null}
+{"code": " list(map(sum, combinations))", "compilation_passed": true, "time": 0.001394033432006836, "tests_passed": true, "error": null}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.006864070892333984, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.005828857421875, "tests_passed": true, "error": null}
+{"code": " [sum(element) for element in combinations]", "compilation_passed": true, "time": 0.0014879703521728516, "tests_passed": true, "error": null}
+{"code": " map(lambda x: sum(x), combinations)", "compilation_passed": true, "time": 0.0015609264373779297, "tests_passed": true, "error": null}
+{"code": " collections.defaultdict(int)", "compilation_passed": true, "time": 0.006203174591064453, "tests_passed": true, "error": null}
+{"code": " [sum(c) for c in combinations]", "compilation_passed": true, "time": 0.0014481544494628906, "tests_passed": true, "error": null}
+{"code": " set()", "compilation_passed": true, "time": 0.005439043045043945, "tests_passed": true, "error": null}
+{"code": " [sum(combination) for combination in combinations]", "compilation_passed": true, "time": 0.0014388561248779297, "tests_passed": true, "error": null}
+{"code": " collections.Counter(sum(comb) for comb in combinations)", "compilation_passed": true, "time": 0.0014548301696777344, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0058460235595703125, "tests_passed": true, "error": null}
+{"code": " [sum(subset) for subset in combinations]", "compilation_passed": true, "time": 0.0014319419860839844, "tests_passed": true, "error": null}

@@ -1,0 +1,23 @@
+{"code": " axs = plt.subplots(1, len(x), figsize=(8,4), dpi=100, gridspec_kw={\"wspace\": 0, \"hspace\": 0, \"left\": 0, \"right\": 0})", "compilation_passed": true, "time": 0.10930585861206055, "tests_passed": false, "error": "ValueError"}
+{"code": " axes = plt.subplots(len(x), sharex=True, figsize=(12, len(x) / 2))", "compilation_passed": true, "time": 0.16897010803222656, "tests_passed": false, "error": "NameError"}
+{"code": " ax = plt.subplots(ncols=3)", "compilation_passed": true, "time": 0.18832778930664062, "tests_passed": false, "error": "AttributeError"}
+{"code": " ax = plt.subplots()", "compilation_passed": true, "time": 0.2587418556213379, "tests_passed": true, "error": null}
+{"code": " axes = plt.subplots(1, len(x), figsize=(10, 5), constrained_layout=True)", "compilation_passed": true, "time": 0.17282605171203613, "tests_passed": false, "error": "NameError"}
+{"code": " axes = plt.subplots(nrows=len(x), ncols=1, sharex=True)", "compilation_passed": true, "time": 0.18499994277954102, "tests_passed": false, "error": "NameError"}
+{"code": " axs = plt.subplots(1, len(x))", "compilation_passed": true, "time": 0.20137286186218262, "tests_passed": false, "error": "NameError"}
+{"code": " axs = plt.subplots(1, len(x), figsize=(8, 4), dpi=300)", "compilation_passed": true, "time": 0.16341090202331543, "tests_passed": false, "error": "NameError"}
+{"code": " ax = plt.subplots(figsize=(15, 10), nrows=3, ncols=2)", "compilation_passed": true, "time": 0.22753286361694336, "tests_passed": false, "error": "AttributeError"}
+{"code": " axs = plt.subplots(1, len(x), figsize=(10, 5), constrained_layout=True, sharey=True)", "compilation_passed": true, "time": 0.19312286376953125, "tests_passed": false, "error": "NameError"}
+{"code": " axs = plt.subplots(len(labels))", "compilation_passed": true, "time": 0.1299448013305664, "tests_passed": false, "error": "NameError"}
+{"code": " axs = plt.subplots(1, len(x), figsize=(10, 5))", "compilation_passed": true, "time": 0.17613887786865234, "tests_passed": false, "error": "NameError"}
+{"code": " axs = plt.subplots(1, len(x), figsize=(12, 5))", "compilation_passed": true, "time": 0.13123679161071777, "tests_passed": false, "error": "NameError"}
+{"code": " axs = plt.subplots(1, len(x), figsize=(15, 5))", "compilation_passed": true, "time": 0.14506006240844727, "tests_passed": false, "error": "NameError"}
+{"code": " axs = plt.subplots(3, 1, figsize=(4.8, 1.8), sharex=True)", "compilation_passed": true, "time": 0.17343902587890625, "tests_passed": false, "error": "NameError"}
+{"code": " axes = plt.subplots(nrows=3, ncols=1, sharex=True, figsize=(15, 5))", "compilation_passed": true, "time": 0.18206310272216797, "tests_passed": false, "error": "NameError"}
+{"code": " axs = plt.subplots(ncols=3, nrows=1)", "compilation_passed": true, "time": 0.16331720352172852, "tests_passed": false, "error": "NameError"}
+{"code": " axes = plt.subplots(ncols=3)", "compilation_passed": true, "time": 0.17210817337036133, "tests_passed": false, "error": "NameError"}
+{"code": " axs = plt.subplots(nrows=len(x), ncols=1)", "compilation_passed": true, "time": 0.1574690341949463, "tests_passed": false, "error": "NameError"}
+{"code": " axes = plt.subplots(1, len(x))", "compilation_passed": true, "time": 0.1326301097869873, "tests_passed": false, "error": "NameError"}
+{"code": " axs = plt.subplots(nrows=len(x), ncols=1, figsize=(8, 10))", "compilation_passed": true, "time": 0.12284588813781738, "tests_passed": false, "error": "NameError"}
+{"code": " axs = plt.subplots(len(x), sharex=True, figsize=(15, 10),", "compilation_passed": false, "time": 0.00023508071899414062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " axs = plt.subplots(len(x), figsize=(16, 16))", "compilation_passed": true, "time": 0.14052605628967285, "tests_passed": false, "error": "NameError"}

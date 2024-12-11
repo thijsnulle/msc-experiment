@@ -1,0 +1,28 @@
+{"code": " df.groupby('group').mean().reset_index()", "compilation_passed": true, "time": 0.019419193267822266, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('group').value.resample(freq).transform(decomposition_model)", "compilation_passed": true, "time": 0.019113779067993164, "tests_passed": false, "error": "ValueError"}
+{"code": " df.rename({'value': 'value'}, axis='columns')", "compilation_passed": true, "time": 0.28722476959228516, "tests_passed": true, "error": null}
+{"code": " df.pivot_table(values='value', index='date', columns='group')", "compilation_passed": true, "time": 0.028414011001586914, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(['group']).agg({'value': decomposition_model})", "compilation_passed": true, "time": 0.011399030685424805, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.groupby('group').agg(pd.Series(lambda x: x.mean()))", "compilation_passed": true, "time": 0.011745691299438477, "tests_passed": false, "error": "KeyError"}
+{"code": " df.sort_values('date')", "compilation_passed": true, "time": 0.28411006927490234, "tests_passed": true, "error": null}
+{"code": " df.groupby('group')[['value']]", "compilation_passed": true, "time": 0.011494874954223633, "tests_passed": false, "error": "IndexError"}
+{"code": " df.groupby('group').apply(lambda x: x['value'])", "compilation_passed": true, "time": 0.02663564682006836, "tests_passed": false, "error": "KeyError"}
+{"code": " df.sort_index()", "compilation_passed": true, "time": 0.2889089584350586, "tests_passed": true, "error": null}
+{"code": " df.groupby('group').agg({'value': ['mean', 'std', 'skew']})", "compilation_passed": true, "time": 0.019273042678833008, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby(['group']).agg({'value': [pd.to_numeric, np.mean, 'size']})", "compilation_passed": true, "time": 0.011040925979614258, "tests_passed": false, "error": "NameError"}
+{"code": " df.astype({'group': 'category', 'value': 'int64'}).groupby(['group']).transform('mean')", "compilation_passed": true, "time": 0.08222413063049316, "tests_passed": true, "error": null}
+{"code": " df.resample(freq).ffill()", "compilation_passed": true, "time": 0.2933220863342285, "tests_passed": true, "error": null}
+{"code": " df.groupby('group')[['value']].resample(freq).agg(['mean']).reset_index()", "compilation_passed": true, "time": 0.0190579891204834, "tests_passed": false, "error": "TypeError"}
+{"code": " df.astype('float64')", "compilation_passed": true, "time": 0.020976781845092773, "tests_passed": false, "error": "ValueError"}
+{"code": " df.loc['2022-01-01': '2022-01-14']", "compilation_passed": true, "time": 0.08750581741333008, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={'value': 'value'})", "compilation_passed": true, "time": 0.32873010635375977, "tests_passed": true, "error": null}
+{"code": " df.astype({'value':'float'})", "compilation_passed": true, "time": 0.29506492614746094, "tests_passed": true, "error": null}
+{"code": " df.resample(freq).groupby('group').resample(freq).agg('mean').dropna()", "compilation_passed": true, "time": 0.015028953552246094, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.resample(freq).mean()", "compilation_passed": true, "time": 0.025907039642333984, "tests_passed": false, "error": "TypeError"}
+{"code": " df.astype({'value': float})", "compilation_passed": true, "time": 0.34008073806762695, "tests_passed": true, "error": null}
+{"code": " df.groupby('group').apply(lambda x: x.set_index('date'))", "compilation_passed": true, "time": 0.013449907302856445, "tests_passed": false, "error": "KeyError"}
+{"code": " df.astype({'value': 'float64'})", "compilation_passed": true, "time": 0.3117218017578125, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={'value': 'value_ts'})", "compilation_passed": true, "time": 0.022094011306762695, "tests_passed": false, "error": "KeyError"}
+{"code": " df.resample(freq).interpolate()", "compilation_passed": true, "time": 0.24972915649414062, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby('group')[['value']].agg('prod') if decomposition_model == 'multiplicative' else df.prod()", "compilation_passed": true, "time": 0.013292789459228516, "tests_passed": false, "error": "TypeError"}
+{"code": " df.sort_values('group')", "compilation_passed": true, "time": 0.011761903762817383, "tests_passed": false, "error": "ValueError"}

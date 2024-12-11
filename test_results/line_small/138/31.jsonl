@@ -1,0 +1,15 @@
+{"code": " df.groupby('Letters')['Letters'].count()", "compilation_passed": true, "time": 0.0627748966217041, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Letters']).count()", "compilation_passed": true, "time": 0.00818181037902832, "tests_passed": false, "error": "TypeError"}
+{"code": " df['Letters'].value_counts()", "compilation_passed": true, "time": 0.06531882286071777, "tests_passed": true, "error": null}
+{"code": " df.groupby('Letters')['Letters'].count().rename('Frequency')", "compilation_passed": true, "time": 0.06818103790283203, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Letters\")[\"Letters\"].count().to_dict()", "compilation_passed": true, "time": 0.009072065353393555, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.groupby('Letters').size().sort_index()", "compilation_passed": true, "time": 0.06577897071838379, "tests_passed": true, "error": null}
+{"code": " df.groupby('Letters').size().astype(int).sort_values(ascending=False).values", "compilation_passed": true, "time": 0.008000850677490234, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.groupby(\"Letters\")[\"Letters\"].count().sort_values().reset_index()", "compilation_passed": true, "time": 0.008832931518554688, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('Letters').size().value_counts()", "compilation_passed": true, "time": 0.03828096389770508, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Letters\").count()", "compilation_passed": true, "time": 0.008497238159179688, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby(['Letters']).size()", "compilation_passed": true, "time": 0.06923604011535645, "tests_passed": true, "error": null}
+{"code": " df.groupby('Letters').size().values", "compilation_passed": true, "time": 0.007611751556396484, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.groupby('Letters').size()", "compilation_passed": true, "time": 0.0710599422454834, "tests_passed": true, "error": null}
+{"code": " df.groupby('Letters').size().reset_index()", "compilation_passed": true, "time": 0.1392059326171875, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Letters']).size().rename('Frequency').reset_index(name='Frequency')", "compilation_passed": true, "time": 0.10398411750793457, "tests_passed": true, "error": null}

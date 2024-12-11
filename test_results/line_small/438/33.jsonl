@@ -1,0 +1,18 @@
+{"code": " or len(numbers) == 0:", "compilation_passed": true, "time": 0.3306558132171631, "tests_passed": false, "error": "TypeError"}
+{"code": " or any(isinstance(item, str) for item in numbers):", "compilation_passed": true, "time": 0.4083261489868164, "tests_passed": true, "error": null}
+{"code": " and not isinstance(numbers[0], np.ndarray) or not isinstance(numbers[0], np.number):", "compilation_passed": true, "time": 0.008517742156982422, "tests_passed": false, "error": "NameError"}
+{"code": " or not numbers:", "compilation_passed": true, "time": 0.34533214569091797, "tests_passed": false, "error": "TypeError"}
+{"code": " or len(numbers) < 100:", "compilation_passed": true, "time": 0.008445024490356445, "tests_passed": false, "error": "TypeError"}
+{"code": " or not all(item >= 0 for item in numbers):", "compilation_passed": true, "time": 0.26612210273742676, "tests_passed": false, "error": "TypeError"}
+{"code": " or any(num < 0 for num in numbers):", "compilation_passed": true, "time": 0.27874088287353516, "tests_passed": false, "error": "TypeError"}
+{"code": " and len(numbers) > 0:", "compilation_passed": true, "time": 0.4564528465270996, "tests_passed": true, "error": null}
+{"code": " or len(numbers) < 1:", "compilation_passed": true, "time": 0.373262882232666, "tests_passed": false, "error": "TypeError"}
+{"code": " and not isinstance(file_path, str):", "compilation_passed": true, "time": 0.5492899417877197, "tests_passed": true, "error": null}
+{"code": " or len(numbers) < 10:", "compilation_passed": true, "time": 0.3042571544647217, "tests_passed": false, "error": "TypeError"}
+{"code": " or len(numbers) != 100:", "compilation_passed": true, "time": 0.010226964950561523, "tests_passed": false, "error": "TypeError"}
+{"code": " or len(numbers) < 3:", "compilation_passed": true, "time": 0.39656519889831543, "tests_passed": false, "error": "TypeError"}
+{"code": " or not os.path.exists(file_path):", "compilation_passed": true, "time": 0.008420944213867188, "tests_passed": false, "error": "TypeError"}
+{"code": " or len(numbers) < 2:", "compilation_passed": true, "time": 0.41155385971069336, "tests_passed": false, "error": "TypeError"}
+{"code": " and numbers:", "compilation_passed": true, "time": 0.5005600452423096, "tests_passed": true, "error": null}
+{"code": " or not all(0 <= item <= 1 for item in numbers):", "compilation_passed": true, "time": 0.011430025100708008, "tests_passed": false, "error": "TypeError"}
+{"code": " or not file_path.endswith(\".pkl\"):", "compilation_passed": true, "time": 0.5168840885162354, "tests_passed": true, "error": null}

@@ -1,0 +1,30 @@
+{"code": " np.sin(2 * np.pi * sample_rate * time) * signal", "compilation_passed": true, "time": 0.2087388038635254, "tests_passed": false, "error": "ValueError"}
+{"code": " np.cos(2 * np.pi * 2 * sample_rate * time / sample_rate) * signal", "compilation_passed": true, "time": 0.006234884262084961, "tests_passed": false, "error": "ValueError"}
+{"code": " np.sin(2 * np.pi * 200 * time) * signal", "compilation_passed": true, "time": 0.005629777908325195, "tests_passed": false, "error": "ValueError"}
+{"code": " signal / np.max(np.abs(signal)) * 32767", "compilation_passed": true, "time": 0.12891483306884766, "tests_passed": true, "error": null}
+{"code": " np.sin(2 * np.pi * 1 * time)", "compilation_passed": true, "time": 0.12819504737854004, "tests_passed": true, "error": null}
+{"code": " np.sin(2 * np.pi * 4 * signal)", "compilation_passed": true, "time": 0.12111020088195801, "tests_passed": true, "error": null}
+{"code": " np.sin(2 * np.pi * 2 * sample_rate * time)", "compilation_passed": true, "time": 0.12643194198608398, "tests_passed": true, "error": null}
+{"code": " signal * np.sin(2 * np.pi * sample_rate * time)", "compilation_passed": true, "time": 0.005732059478759766, "tests_passed": false, "error": "ValueError"}
+{"code": " np.cos(2 * np.pi * 4 * time) + np.sin(2 * np.pi * 8 * time)", "compilation_passed": true, "time": 0.12879014015197754, "tests_passed": true, "error": null}
+{"code": " np.sin(2 * np.pi * 1 / sample_rate * time) * np.sqrt(sample_rate)", "compilation_passed": true, "time": 0.12895894050598145, "tests_passed": true, "error": null}
+{"code": " np.convolve(signal, [1, -1])  # Prevent DC", "compilation_passed": true, "time": 0.12517690658569336, "tests_passed": true, "error": null}
+{"code": " np.cos(2 * np.pi * 2000 * time)", "compilation_passed": true, "time": 0.13012099266052246, "tests_passed": true, "error": null}
+{"code": " signal * np.exp(-2 * np.pi * 1j * time)", "compilation_passed": true, "time": 0.0073947906494140625, "tests_passed": false, "error": "ValueError"}
+{"code": " signal.astype(np.float64)", "compilation_passed": true, "time": 0.13030719757080078, "tests_passed": true, "error": null}
+{"code": " np.interp(time, time, signal)", "compilation_passed": true, "time": 0.009454011917114258, "tests_passed": false, "error": "ValueError"}
+{"code": " np.sin(2 * np.pi * np.sum(signal * time) * 0.001)", "compilation_passed": true, "time": 0.0065097808837890625, "tests_passed": false, "error": "ValueError"}
+{"code": " signal * np.exp(-1j * 2 * np.pi * time)", "compilation_passed": true, "time": 0.0059661865234375, "tests_passed": false, "error": "ValueError"}
+{"code": " np.cos(2 * np.pi * 4 * time) * signal", "compilation_passed": true, "time": 0.5354199409484863, "tests_passed": false, "error": "ValueError"}
+{"code": " signal * np.exp(-2 * np.pi * 1j * signal / sample_rate * time)", "compilation_passed": true, "time": 0.005542278289794922, "tests_passed": false, "error": "ValueError"}
+{"code": " signal + np.exp(2j * np.pi * sample_rate * time)", "compilation_passed": true, "time": 0.006747007369995117, "tests_passed": false, "error": "ValueError"}
+{"code": " signal * np.sin(2 * np.pi * 2 * time)", "compilation_passed": true, "time": 0.005307912826538086, "tests_passed": false, "error": "ValueError"}
+{"code": " np.cumsum(signal)", "compilation_passed": true, "time": 0.13228106498718262, "tests_passed": true, "error": null}
+{"code": " signal * np.exp(1j * 2 * np.pi * 0.75 * time)", "compilation_passed": true, "time": 0.0056340694427490234, "tests_passed": false, "error": "ValueError"}
+{"code": " np.sin(2 * np.pi * 1 * time) + np.sin(2 * np.pi * 2 * time) + np.sin(2 * np.pi * 3 * time)", "compilation_passed": true, "time": 0.13594794273376465, "tests_passed": true, "error": null}
+{"code": " np.sin(2 * np.pi * 10 * time) + np.random.normal(scale=0.3, size=len(time))", "compilation_passed": true, "time": 0.15423107147216797, "tests_passed": true, "error": null}
+{"code": " np.cos(2 * np.pi * 20 * time)", "compilation_passed": true, "time": 0.13713502883911133, "tests_passed": true, "error": null}
+{"code": " signal + np.random.randn(len(signal)) / len(signal)", "compilation_passed": true, "time": 0.13392400741577148, "tests_passed": true, "error": null}
+{"code": " np.sin(2 * np.pi * 50 * time) + 1 + np.sin(2 * np.pi * 100 * time)", "compilation_passed": true, "time": 0.14522910118103027, "tests_passed": true, "error": null}
+{"code": " signal * np.sin(2 * np.pi * np.fft.ifftshift(np.fft.fftshift(signal)) * time)", "compilation_passed": true, "time": 0.004915952682495117, "tests_passed": false, "error": "ValueError"}
+{"code": " signal / np.sum(signal ** 2) * np.sum(time ** 2)", "compilation_passed": true, "time": 0.13965201377868652, "tests_passed": true, "error": null}

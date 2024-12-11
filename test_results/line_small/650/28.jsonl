@@ -1,0 +1,21 @@
+{"code": " datetime(next_year, 1, 1, tzinfo=tz).replace(tzinfo=None)  # New year's day in the specified timezone", "compilation_passed": true, "time": 0.010308027267456055, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime(year=next_year, month=1, day=1).replace(tzinfo=tz)", "compilation_passed": true, "time": 0.0018460750579833984, "tests_passed": true, "error": null}
+{"code": " datetime(year=next_year, month=given_date.month, day=given_date.day)", "compilation_passed": true, "time": 0.00888824462890625, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime(next_year, 1, 1, 0, 0, 0, 0, tz)", "compilation_passed": true, "time": 0.0016071796417236328, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, given_date.month, given_date.day)  # New Year's Day in the next year", "compilation_passed": true, "time": 0.009280920028686523, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime(next_year, given_date.month, given_date.day, given_date.hour, given_date.minute,", "compilation_passed": false, "time": 0.0002930164337158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " datetime(next_year, 1, 1, 0, 0, 0, 0, tz=tz)", "compilation_passed": true, "time": 0.009363889694213867, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime(next_year, given_date.month, given_date.day)  # Get the new year for the given date", "compilation_passed": true, "time": 0.01003408432006836, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime(next_year, given_date.month, given_date.day, given_date.hour, given_date.minute, given_date.second, given_date.microsecond, given_date.tzinfo)", "compilation_passed": true, "time": 0.0016970634460449219, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, given_date.month, given_date.day, given_date.hour, given_date.minute, given_date.second, given_date.microsecond)", "compilation_passed": true, "time": 0.009745121002197266, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime(next_year, given_date.month, given_date.day, 0, 0, 0, tzinfo=tz)", "compilation_passed": true, "time": 0.0017170906066894531, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, given_date.month, given_date.day)", "compilation_passed": true, "time": 0.009085893630981445, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime(next_year, given_date.month, given_date.day, 0, 0, 0, 0, pytz.UTC)", "compilation_passed": true, "time": 0.001584768295288086, "tests_passed": true, "error": null}
+{"code": " datetime(year=next_year, month=1, day=1, tzinfo=tz)", "compilation_passed": true, "time": 0.0015130043029785156, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, 1, 1, 0, 0, 0, 0)", "compilation_passed": true, "time": 0.009291887283325195, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime(next_year, given_date.month, given_date.day, tzinfo=tz)", "compilation_passed": true, "time": 0.0014190673828125, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, 1, 1).astimezone(tz)  # Create the new year datetime in given timezone", "compilation_passed": true, "time": 0.0017180442810058594, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, 1, 1).replace(tzinfo=tz)", "compilation_passed": true, "time": 0.0013959407806396484, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, given_date.month, given_date.day, given_date.hour, given_date.minute, given_date.second)", "compilation_passed": true, "time": 0.010207891464233398, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime(next_year, 1, 1, tzinfo=tz)", "compilation_passed": true, "time": 0.0014979839324951172, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, given_date.month, given_date.day).replace(tzinfo=tz)", "compilation_passed": true, "time": 0.0015490055084228516, "tests_passed": true, "error": null}

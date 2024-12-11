@@ -1,0 +1,17 @@
+{"code": "scatter(numbers, [i for i in range(n)])", "compilation_passed": true, "time": 0.01056218147277832, "tests_passed": true, "error": null}
+{"code": "scatter(x=numbers, y=numbers)", "compilation_passed": true, "time": 0.011146068572998047, "tests_passed": true, "error": null}
+{"code": "plot(numbers, linewidth=2)", "compilation_passed": true, "time": 0.005515098571777344, "tests_passed": true, "error": null}
+{"code": "plot(numbers)", "compilation_passed": true, "time": 0.004728794097900391, "tests_passed": true, "error": null}
+{"code": "plot(numbers, 'bo-')", "compilation_passed": true, "time": 0.005249738693237305, "tests_passed": true, "error": null}
+{"code": "scatter(numbers, ['.'] * len(numbers), color='red')", "compilation_passed": true, "time": 0.014345884323120117, "tests_passed": true, "error": null}
+{"code": "plot(numbers, 'b-')", "compilation_passed": true, "time": 0.005259990692138672, "tests_passed": true, "error": null}
+{"code": "plot(numbers, 'r-')", "compilation_passed": true, "time": 0.004645109176635742, "tests_passed": true, "error": null}
+{"code": "scatter(range(10), numbers, c='blue')", "compilation_passed": true, "time": 0.009198904037475586, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(numbers, \"b\")", "compilation_passed": true, "time": 0.0053141117095947266, "tests_passed": true, "error": null}
+{"code": "title('Distribution of Random Numbers')", "compilation_passed": true, "time": 0.004243135452270508, "tests_passed": true, "error": null}
+{"code": "scatter(numbers, colors='b')", "compilation_passed": true, "time": 0.010129213333129883, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(numbers, 'r.', label='generated')", "compilation_passed": true, "time": 0.00537109375, "tests_passed": true, "error": null}
+{"code": "bar(range(n), numbers, width=1, edgecolor='black')", "compilation_passed": true, "time": 0.019870996475219727, "tests_passed": true, "error": null}
+{"code": "bar(x=range(len(greater_avg)), height=greater_avg, color='red')", "compilation_passed": true, "time": 0.011048078536987305, "tests_passed": true, "error": null}
+{"code": "plot(numbers, 'b')", "compilation_passed": true, "time": 0.0056531429290771484, "tests_passed": true, "error": null}
+{"code": "bar(range(len(numbers)), numbers, color='r')", "compilation_passed": true, "time": 0.018863916397094727, "tests_passed": true, "error": null}

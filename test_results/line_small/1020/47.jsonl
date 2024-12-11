@@ -1,0 +1,5 @@
+{"code": " chardet.detect(content)", "compilation_passed": true, "time": 0.006248950958251953, "tests_passed": false, "error": "TypeError"}
+{"code": " chardet.detect(content).get('encoding')", "compilation_passed": true, "time": 0.005446195602416992, "tests_passed": true, "error": null}
+{"code": " chardet.detect(content).get(\"encoding\")", "compilation_passed": true, "time": 0.0055119991302490234, "tests_passed": true, "error": null}
+{"code": " chardet.detect(content)['encoding']", "compilation_passed": true, "time": 0.005189180374145508, "tests_passed": true, "error": null}
+{"code": " chardet.detect(content)[\"encoding\"]", "compilation_passed": true, "time": 0.005287885665893555, "tests_passed": true, "error": null}

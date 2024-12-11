@@ -1,0 +1,24 @@
+{"code": " df is None or len(df) < 1 or len(df.iloc[0][COLUMNS[1]]) < 1:", "compilation_passed": true, "time": 0.26830410957336426, "tests_passed": true, "error": null}
+{"code": " (df == None or df.empty) or len(df) < 1:", "compilation_passed": true, "time": 0.015960216522216797, "tests_passed": false, "error": "ValueError"}
+{"code": " df is None or df.empty or df[COLUMNS[1]].iloc[0].empty:", "compilation_passed": true, "time": 0.010746240615844727, "tests_passed": false, "error": "AttributeError"}
+{"code": " len(df) <= 1 or not all(column in df.columns for column in COLUMNS):", "compilation_passed": true, "time": 0.26549506187438965, "tests_passed": true, "error": null}
+{"code": " len(df) == 0 or not all(isinstance(val, list) for val in df.iloc[:, 1].values):", "compilation_passed": true, "time": 0.2758748531341553, "tests_passed": true, "error": null}
+{"code": " not df or not df.columns == COLUMNS:", "compilation_passed": true, "time": 0.009700775146484375, "tests_passed": false, "error": "ValueError"}
+{"code": " not (df.empty or df.columns != COLUMNS):", "compilation_passed": true, "time": 0.009684324264526367, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.24133706092834473, "tests_passed": true, "error": null}
+{"code": " len(df) == 0 or df.iloc[0]['Value'] is None:", "compilation_passed": true, "time": 0.23902416229248047, "tests_passed": true, "error": null}
+{"code": " not df.empty and df[COLUMNS[1]].apply(lambda x: isinstance(x, list) and len(x) > 1).any():", "compilation_passed": true, "time": 0.008915185928344727, "tests_passed": false, "error": "ValueError"}
+{"code": " plot:", "compilation_passed": true, "time": 0.017364978790283203, "tests_passed": true, "error": null}
+{"code": " len(df) < 1 or len(df.columns) != 2 or not all(COLUMNS[i] in df.columns for i in range(len(COLUMNS))):", "compilation_passed": true, "time": 0.24050211906433105, "tests_passed": true, "error": null}
+{"code": " (df.empty or 'Value' not in df.columns):", "compilation_passed": true, "time": 0.23617792129516602, "tests_passed": true, "error": null}
+{"code": " not df.empty:", "compilation_passed": true, "time": 0.014250993728637695, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or df[COLUMNS[1]].isna().all():", "compilation_passed": true, "time": 0.23305320739746094, "tests_passed": true, "error": null}
+{"code": " df.empty or df['Value'].empty:", "compilation_passed": true, "time": 0.24617886543273926, "tests_passed": true, "error": null}
+{"code": " len(df) == 0:", "compilation_passed": true, "time": 0.2347409725189209, "tests_passed": true, "error": null}
+{"code": " df.empty or len(df['Value']) < 2:", "compilation_passed": true, "time": 0.2561671733856201, "tests_passed": true, "error": null}
+{"code": " len(df) <= 1:", "compilation_passed": true, "time": 0.22951388359069824, "tests_passed": true, "error": null}
+{"code": " len(df.index) <= 0:", "compilation_passed": true, "time": 0.26697587966918945, "tests_passed": true, "error": null}
+{"code": " not df or not df.columns == ['Date', 'Value']:", "compilation_passed": true, "time": 0.009891271591186523, "tests_passed": false, "error": "ValueError"}
+{"code": " (df.empty", "compilation_passed": false, "time": 0.00032329559326171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not len(df) or not df.columns.isin([COLUMNS]).all():", "compilation_passed": true, "time": 0.016122817993164062, "tests_passed": false, "error": "ValueError"}
+{"code": " df is None or len(df) == 0:", "compilation_passed": true, "time": 0.2937772274017334, "tests_passed": true, "error": null}

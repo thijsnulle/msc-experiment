@@ -1,0 +1,18 @@
+{"code": "set_xlabel('Letter')", "compilation_passed": true, "time": 0.11346197128295898, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Letter\")", "compilation_passed": true, "time": 0.11396980285644531, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(len(letter_positions)))", "compilation_passed": true, "time": 0.12071394920349121, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(1, len(ALPHABET)+1, step=1))", "compilation_passed": true, "time": 0.20529699325561523, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(len(letter_positions)) + 0.5)", "compilation_passed": true, "time": 0.1205899715423584, "tests_passed": true, "error": null}
+{"code": "set_title('Word positions')", "compilation_passed": true, "time": 0.11767911911010742, "tests_passed": true, "error": null}
+{"code": "set_title('Word Position Chart')", "compilation_passed": true, "time": 0.12005829811096191, "tests_passed": true, "error": null}
+{"code": "set_title('Word Positions in English Alphabet')", "compilation_passed": true, "time": 0.12157011032104492, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(len(ALPHABET)) + 1)", "compilation_passed": true, "time": 0.21139192581176758, "tests_passed": true, "error": null}
+{"code": "set_xlim([0, len(ALPHABET)])", "compilation_passed": true, "time": 0.12790417671203613, "tests_passed": true, "error": null}
+{"code": "set_title(\"Position of each letter in the word\")", "compilation_passed": true, "time": 0.12361407279968262, "tests_passed": true, "error": null}
+{"code": "set_xticks(range(len(letter_positions)))", "compilation_passed": true, "time": 0.13187313079833984, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(0, len(letter_positions), 2))", "compilation_passed": true, "time": 0.13129496574401855, "tests_passed": true, "error": null}
+{"code": "set_title(f'Letters positions in word {word}')", "compilation_passed": true, "time": 0.13609600067138672, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(len(letter_positions)), ALPHABET)", "compilation_passed": true, "time": 0.044814109802246094, "tests_passed": false, "error": "ValueError"}
+{"code": "set_xticks(range(1, len(letter_positions) + 1))", "compilation_passed": true, "time": 0.1455390453338623, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(1, len(letter_positions) + 1))", "compilation_passed": true, "time": 0.14107203483581543, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Letter Position\")", "compilation_passed": true, "time": 0.13247895240783691, "tests_passed": true, "error": null}

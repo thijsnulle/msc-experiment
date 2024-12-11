@@ -1,0 +1,15 @@
+{"code": " list_of_lists[0] + list_of_lists[1] + list_of_lists[2] + list_of_lists[3] + list_of_lists[4] + list_of_lists[5] + list_of_lists[6] + list_of_lists[7]", "compilation_passed": true, "time": 0.004842996597290039, "tests_passed": false, "error": "'Rectangle:kwdoc'"}
+{"code": " []", "compilation_passed": true, "time": 0.004026174545288086, "tests_passed": false, "error": "'Rectangle:kwdoc'"}
+{"code": " [element for sublist in list_of_lists for element in sublist]", "compilation_passed": true, "time": 0.004225969314575195, "tests_passed": false, "error": "'Rectangle:kwdoc'"}
+{"code": " np.concatenate(list_of_lists)", "compilation_passed": true, "time": 0.004081010818481445, "tests_passed": false, "error": "'Rectangle:kwdoc'"}
+{"code": " [i for sublist in list_of_lists for i in sublist]", "compilation_passed": true, "time": 0.008455753326416016, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(list_of_lists, [])", "compilation_passed": true, "time": 0.008636951446533203, "tests_passed": false, "error": "TypeError"}
+{"code": " [x + y for x, y in zip(*list_of_lists)]", "compilation_passed": true, "time": 0.011223077774047852, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 0.00011324882507324219, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.concatenate([np.array(x) for x in list_of_lists])", "compilation_passed": true, "time": 0.008311986923217773, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(list_of_lists).flatten()", "compilation_passed": true, "time": 0.008637189865112305, "tests_passed": false, "error": "TypeError"}
+{"code": " list_of_lists[0]", "compilation_passed": true, "time": 0.009420156478881836, "tests_passed": false, "error": "TypeError"}
+{"code": " [item for sublist in list_of_lists for item in sublist]", "compilation_passed": true, "time": 0.009227991104125977, "tests_passed": false, "error": "TypeError"}
+{"code": " list()", "compilation_passed": true, "time": 0.008464813232421875, "tests_passed": false, "error": "TypeError"}
+{"code": " list_of_lists[0] + list_of_lists[1] + list_of_lists[2]", "compilation_passed": true, "time": 0.00912618637084961, "tests_passed": false, "error": "TypeError"}
+{"code": " [x for row in list_of_lists for x in row]", "compilation_passed": true, "time": 0.010169029235839844, "tests_passed": false, "error": "TypeError"}

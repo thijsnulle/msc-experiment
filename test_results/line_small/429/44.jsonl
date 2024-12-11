@@ -1,0 +1,24 @@
+{"code": "DataFrame(X_new.T.dot(X_new)),", "compilation_passed": true, "time": 0.4796750545501709, "tests_passed": true, "error": null}
+{"code": "DataFrame(np.corrcoef(X_new.T)),", "compilation_passed": true, "time": 0.012466907501220703, "tests_passed": false, "error": "NameError"}
+{"code": "DataFrame(pd.cov(X_new.T, x=True, y=False, rowvar=True, colvar=True, method=None, min_count=1, normalize=False)),", "compilation_passed": true, "time": 0.012840032577514648, "tests_passed": false, "error": "AttributeError"}
+{"code": "DataFrame(pd.corr(X_new, axis=0)),", "compilation_passed": true, "time": 0.01278376579284668, "tests_passed": false, "error": "AttributeError"}
+{"code": "DataFrame(np.dot(X_new.T, X_new),", "compilation_passed": false, "time": 0.0002720355987548828, "tests_passed": false, "error": "SyntaxError"}
+{"code": "DataFrame(np.corrcoef(X_new)),", "compilation_passed": true, "time": 0.01247406005859375, "tests_passed": false, "error": "NameError"}
+{"code": "DataFrame(np.corrcoef(X_new.T, rowvar=False), dtype=\"float32\"),", "compilation_passed": true, "time": 0.01442408561706543, "tests_passed": false, "error": "NameError"}
+{"code": "DataFrame(", "compilation_passed": false, "time": 0.000225067138671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "DataFrame(X_new.T, index=features, columns=features),", "compilation_passed": true, "time": 0.012407779693603516, "tests_passed": false, "error": "ValueError"}
+{"code": "DataFrame(selector.fit(X, y).transform(X_new)),", "compilation_passed": true, "time": 0.021178245544433594, "tests_passed": false, "error": "ValueError"}
+{"code": "DataFrame(X_new, columns=selected_features).corr(),", "compilation_passed": true, "time": 0.5227620601654053, "tests_passed": true, "error": null}
+{"code": "DataFrame(pd.corr(X_new.T, xlim=(-1, 1)), columns=selected_features),", "compilation_passed": true, "time": 0.012315750122070312, "tests_passed": false, "error": "AttributeError"}
+{"code": "DataFrame(pd.corr(X_new.T, axis=0)).T,", "compilation_passed": true, "time": 0.012112855911254883, "tests_passed": false, "error": "AttributeError"}
+{"code": "DataFrame(X_new.T, index=X_new.index, columns=selected_features),", "compilation_passed": true, "time": 0.012385129928588867, "tests_passed": false, "error": "AttributeError"}
+{"code": "DataFrame(X_new.T @ X_new / X_new.shape[0], index=selected_features),", "compilation_passed": true, "time": 0.4867119789123535, "tests_passed": true, "error": null}
+{"code": "DataFrame(pd.corr(X_new, method=\"spearman\")),", "compilation_passed": true, "time": 0.012187004089355469, "tests_passed": false, "error": "AttributeError"}
+{"code": "DataFrame(np.corrcoef(X_new), index=selected_features, columns=selected_features),", "compilation_passed": true, "time": 0.01203298568725586, "tests_passed": false, "error": "NameError"}
+{"code": "DataFrame(X_new, columns=selected_features, index=df.index),", "compilation_passed": true, "time": 0.5034470558166504, "tests_passed": true, "error": null}
+{"code": "DataFrame(selector.transform(X), columns=selected_features),", "compilation_passed": true, "time": 0.5058548450469971, "tests_passed": true, "error": null}
+{"code": "DataFrame(X_new),", "compilation_passed": true, "time": 0.5250470638275146, "tests_passed": true, "error": null}
+{"code": "DataFrame(pd.corr(X_new, X, method=\"pearson\")).T,", "compilation_passed": true, "time": 0.012581825256347656, "tests_passed": false, "error": "AttributeError"}
+{"code": "DataFrame(np.dot(X_new, X_new.T) / len(df)),", "compilation_passed": true, "time": 0.014341115951538086, "tests_passed": false, "error": "NameError"}
+{"code": "DataFrame(np.dot(X_new.T, X_new)),", "compilation_passed": true, "time": 0.012552976608276367, "tests_passed": false, "error": "NameError"}
+{"code": "DataFrame(X_new).corr(),", "compilation_passed": true, "time": 0.5488061904907227, "tests_passed": true, "error": null}

@@ -1,0 +1,7 @@
+{"code": " df[df['Word'].str.match(regex, na=False)]", "compilation_passed": true, "time": 0.03380107879638672, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.match(regex)]", "compilation_passed": true, "time": 0.034523963928222656, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.contains(regex)]", "compilation_passed": true, "time": 0.038353919982910156, "tests_passed": true, "error": null}
+{"code": " df.loc[df['Word'].str.match(regex)]", "compilation_passed": true, "time": 0.03724384307861328, "tests_passed": true, "error": null}
+{"code": " df[df[\"Word\"].str.startswith(regex)]", "compilation_passed": true, "time": 0.0152587890625, "tests_passed": false, "error": "IndexError"}
+{"code": " df.loc[df['Word'].str.contains(regex)]", "compilation_passed": true, "time": 0.0363459587097168, "tests_passed": true, "error": null}
+{"code": " df[df.Word.str.match(regex)]", "compilation_passed": true, "time": 0.032128095626831055, "tests_passed": true, "error": null}

@@ -1,0 +1,12 @@
+{"code": " base64.b64encode(json_data.encode('ascii'))", "compilation_passed": true, "time": 0.0022668838500976562, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode())", "compilation_passed": true, "time": 0.0021440982818603516, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode('ascii')).decode('ascii')", "compilation_passed": true, "time": 0.002445220947265625, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode(encoding='ascii'))", "compilation_passed": true, "time": 0.0021953582763671875, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode(\"ascii\"))", "compilation_passed": true, "time": 0.002176046371459961, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode(\"ASCII\")).decode()", "compilation_passed": true, "time": 0.0023109912872314453, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode('ASCII'))", "compilation_passed": true, "time": 0.002279043197631836, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode(\"ascii\")).decode(\"ascii\")", "compilation_passed": true, "time": 0.002125978469848633, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(bytes(json_data, 'ascii')).decode('ascii')", "compilation_passed": true, "time": 0.0022499561309814453, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode('ASCII')).decode('ASCII')", "compilation_passed": true, "time": 0.0022029876708984375, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode()).decode()", "compilation_passed": true, "time": 0.002768993377685547, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(bytes(json_data, \"utf-8\")).decode(\"ascii\")", "compilation_passed": true, "time": 0.002599000930786133, "tests_passed": true, "error": null}

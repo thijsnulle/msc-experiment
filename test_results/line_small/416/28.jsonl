@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.10654830932617188, "tests_passed": true, "error": null}
+{"code": " data.copy()", "compilation_passed": true, "time": 0.008128166198730469, "tests_passed": false, "error": "AttributeError"}
+{"code": " data", "compilation_passed": true, "time": 0.008643150329589844, "tests_passed": false, "error": "AttributeError"}
+{"code": " data.drop(column, axis=1)", "compilation_passed": true, "time": 0.008100032806396484, "tests_passed": false, "error": "AttributeError"}
+{"code": " data.loc[:, data.apply(lambda x: not pd.api.types.is_numeric_dtype(x), axis=0)]", "compilation_passed": true, "time": 0.008025169372558594, "tests_passed": false, "error": "AttributeError"}

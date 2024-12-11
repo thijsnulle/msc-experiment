@@ -1,0 +1,19 @@
+{"code": " tz == \"UTC\" or re.match(utc_offset_regex, tz):", "compilation_passed": false, "time": 0.00024580955505371094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pytz.all_timezones.count(tz) or re.match(utc_offset_regex, tz):", "compilation_passed": false, "time": 0.0002551078796386719, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pytz.utc.zone in tz:", "compilation_passed": false, "time": 0.00036835670471191406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " tz == \"UTC\":", "compilation_passed": false, "time": 0.00023293495178222656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pytz.common_timezones_set.isdisjoint(set(pytz.all_timezones)):", "compilation_passed": false, "time": 0.0002522468566894531, "tests_passed": false, "error": "SyntaxError"}
+{"code": " tz == \"UTC\" or re.fullmatch(utc_offset_regex, tz):", "compilation_passed": false, "time": 0.0002510547637939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " tz not in pytz.all_timezones and not re.search(utc_offset_regex, tz):", "compilation_passed": false, "time": 0.00023984909057617188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " tz in pytz.all_timezones or re.match(utc_offset_regex, tz):", "compilation_passed": false, "time": 0.000247955322265625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " re.match(utc_offset_regex, tz):", "compilation_passed": false, "time": 0.00023484230041503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pytz.all_timezones_set.issuperset([tz]):", "compilation_passed": false, "time": 0.0002300739288330078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not isinstance(tz, pytz.tzinfo.BaseTzInfo):", "compilation_passed": false, "time": 0.00023293495178222656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (", "compilation_passed": true, "time": 0.020546913146972656, "tests_passed": true, "error": null}
+{"code": " not pytz.all_timezones or re.match(utc_offset_regex, tz):", "compilation_passed": false, "time": 0.00024008750915527344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " tz == \"UTC\" and not re.search(utc_offset_regex, tz):", "compilation_passed": false, "time": 0.000247955322265625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " re.match(utc_offset_regex, tz) and tz not in validated_timezones:", "compilation_passed": false, "time": 0.0002498626708984375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pytz.all_timezones or re.match(utc_offset_regex, tz):", "compilation_passed": false, "time": 0.0002460479736328125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (tz not in pytz.all_timezones and not re.match(utc_offset_regex, tz)) or (", "compilation_passed": true, "time": 0.009572267532348633, "tests_passed": true, "error": null}
+{"code": " pytz.all_timezones_set & {tz} or re.match(utc_offset_regex, tz):", "compilation_passed": false, "time": 0.0002567768096923828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not tz:", "compilation_passed": false, "time": 0.00023818016052246094, "tests_passed": false, "error": "SyntaxError"}

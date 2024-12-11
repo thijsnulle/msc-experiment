@@ -1,0 +1,22 @@
+{"code": " plt.hist(sums, bins='auto', density=True)", "compilation_passed": true, "time": 0.02152085304260254, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums)", "compilation_passed": true, "time": 0.03130698204040527, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, density=True, bins=10, alpha=0.5)[0]", "compilation_passed": true, "time": 0.03277015686035156, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, bins=max(sums), alpha=0.75)", "compilation_passed": true, "time": 0.047863006591796875, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.hist(sums)[0]", "compilation_passed": true, "time": 0.03135824203491211, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, bins=range(min(sums), max(sums) + 1), color='blue'", "compilation_passed": false, "time": 0.0002129077911376953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.hist(sums, bins=30, density=True)", "compilation_passed": true, "time": 0.08302903175354004, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, bins=100, density=True, edgecolor='black')[0]", "compilation_passed": true, "time": 0.27451610565185547, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, bins=30, density=True)[0]", "compilation_passed": true, "time": 0.08687186241149902, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, bins='auto')[0]", "compilation_passed": true, "time": 0.018281936645507812, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, bins=10, density=True)", "compilation_passed": true, "time": 0.030597686767578125, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, bins=50)[0]", "compilation_passed": true, "time": 0.13506603240966797, "tests_passed": true, "error": null}
+{"code": " plt.subplot(1, 1, 1)", "compilation_passed": true, "time": 0.0016529560089111328, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, bins=25)", "compilation_passed": true, "time": 0.06842303276062012, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, bins=10, density=True)[0]", "compilation_passed": true, "time": 0.03064584732055664, "tests_passed": true, "error": null}
+{"code": " plt.subplots()[1]", "compilation_passed": true, "time": 0.11913180351257324, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, density=True, bins=8)", "compilation_passed": true, "time": 0.0257568359375, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, bins=len(elements) // subset_size)", "compilation_passed": true, "time": 0.009633064270019531, "tests_passed": false, "error": "ZeroDivisionError"}
+{"code": " plt.hist(sums, bins=range(min(sums), max(sums)+1), density=True, histtype='bar')[0]", "compilation_passed": true, "time": 0.030627012252807617, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, bins=1000)", "compilation_passed": true, "time": 1.0190918445587158, "tests_passed": false, "error": "TimeoutError"}
+{"code": " plt.hist(sums, bins=50, range=(min(sums), max(sums)))[0]", "compilation_passed": true, "time": 0.13426494598388672, "tests_passed": true, "error": null}
+{"code": " plt.hist(sums, bins=max(np.floor(np.sqrt(len(sums))), 1))[0]", "compilation_passed": true, "time": 0.005570888519287109, "tests_passed": false, "error": "TypeError"}

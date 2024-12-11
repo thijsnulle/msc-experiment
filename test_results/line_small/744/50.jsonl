@@ -1,0 +1,4 @@
+{"code": " df", "compilation_passed": true, "time": 0.005400180816650391, "tests_passed": true, "error": null}
+{"code": " df.reset_index(drop=True)", "compilation_passed": true, "time": 0.005924701690673828, "tests_passed": true, "error": null}
+{"code": " df.set_index(\"Word\")", "compilation_passed": true, "time": 0.022602081298828125, "tests_passed": false, "error": "KeyError"}
+{"code": " df.sort_values(by='Frequency', ascending=False)", "compilation_passed": true, "time": 0.007835149765014648, "tests_passed": true, "error": null}

@@ -1,0 +1,7 @@
+{"code": " data_copy[:, column]", "compilation_passed": true, "time": 0.39820218086242676, "tests_passed": true, "error": null}
+{"code": " data[:, column].copy()", "compilation_passed": true, "time": 0.4049210548400879, "tests_passed": true, "error": null}
+{"code": " data[:, column]", "compilation_passed": true, "time": 0.4354541301727295, "tests_passed": true, "error": null}
+{"code": " data_copy[:, column].astype(np.float64)", "compilation_passed": true, "time": 0.3929128646850586, "tests_passed": true, "error": null}
+{"code": " np.asarray(data_copy[:, column])", "compilation_passed": true, "time": 0.43413209915161133, "tests_passed": true, "error": null}
+{"code": " np.array([data_copy[:, column]]).T", "compilation_passed": true, "time": 0.4006929397583008, "tests_passed": true, "error": null}
+{"code": " np.atleast_2d(data[:, column])", "compilation_passed": true, "time": 0.4151928424835205, "tests_passed": true, "error": null}

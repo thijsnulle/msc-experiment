@@ -1,0 +1,16 @@
+{"code": " subprocess.Popen([file_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, shell=True)", "compilation_passed": true, "time": 0.00945591926574707, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(file, shell=True)", "compilation_passed": true, "time": 0.008163213729858398, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(file_path, shell=True, stdin=subprocess.PIPE)", "compilation_passed": true, "time": 0.004759073257446289, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([file_path])", "compilation_passed": true, "time": 0.009299039840698242, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([file_path], stdout=subprocess.PIPE)", "compilation_passed": true, "time": 0.008322000503540039, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(file_path, shell=True)", "compilation_passed": true, "time": 0.0040988922119140625, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([file_path], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.008363008499145508, "tests_passed": true, "error": null}
+{"code": " subprocess.run([file_path], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, check=True, shell=True)", "compilation_passed": true, "time": 0.009532928466796875, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([file_path], shell=True)", "compilation_passed": true, "time": 0.008141040802001953, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([file_path],", "compilation_passed": false, "time": 0.00018787384033203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.Popen([file_path], shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)", "compilation_passed": true, "time": 0.008669853210449219, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(", "compilation_passed": false, "time": 0.00031304359436035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.Popen(file_path)", "compilation_passed": true, "time": 0.003786802291870117, "tests_passed": true, "error": null}
+{"code": " subprocess.run(file_path, shell=True, check=True)", "compilation_passed": true, "time": 0.009093999862670898, "tests_passed": true, "error": null}
+{"code": " subprocess.run([file_path], capture_output=True)", "compilation_passed": true, "time": 0.011137008666992188, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([file_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)", "compilation_passed": true, "time": 0.007879257202148438, "tests_passed": true, "error": null}

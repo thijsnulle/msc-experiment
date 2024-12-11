@@ -1,0 +1,29 @@
+{"code": " np.count_nonzero(np.in1d(LEAP_SECONDS, (current_date.year, given_date.year)))", "compilation_passed": true, "time": 0.006854057312011719, "tests_passed": true, "error": null}
+{"code": " np.interp(current_date.year, LEAP_SECONDS, LEAP_SECONDS) - given_date.year", "compilation_passed": true, "time": 0.007277965545654297, "tests_passed": true, "error": null}
+{"code": " np.sum(np.in1d(LEAP_SECONDS,", "compilation_passed": false, "time": 0.00024199485778808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " LEAP_SECONDS[np.intersect1d(LEAP_SECONDS, np.arange(given_date.year, current_date.year + 1))]", "compilation_passed": true, "time": 0.010248899459838867, "tests_passed": false, "error": "TypeError"}
+{"code": " LEAP_SECONDS[(given_date.year < LEAP_SECONDS) & (LEAP_SECONDS < current_date.year)]", "compilation_passed": true, "time": 0.010254859924316406, "tests_passed": false, "error": "TypeError"}
+{"code": " np.count_nonzero((LEAP_SECONDS >= given_date.year) & (LEAP_SECONDS <= current_date.year))", "compilation_passed": true, "time": 0.0021331310272216797, "tests_passed": true, "error": null}
+{"code": " np.sum(np.isin(LEAP_SECONDS, np.arange(given_date.year, current_date.year + 1)))", "compilation_passed": true, "time": 0.002254009246826172, "tests_passed": true, "error": null}
+{"code": " np.intersect1d(", "compilation_passed": false, "time": 0.000209808349609375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " len(np.intersect1d(LEAP_SECONDS, [given_date.year, current_date.year]))", "compilation_passed": true, "time": 0.006551980972290039, "tests_passed": true, "error": null}
+{"code": " LEAP_SECONDS[(LEAP_SECONDS >= given_date.year) & (LEAP_SECONDS <= current_date.year)].size", "compilation_passed": true, "time": 0.002128124237060547, "tests_passed": true, "error": null}
+{"code": " np.intersect1d(LEAP_SECONDS, (current_date.year, given_date.year))", "compilation_passed": true, "time": 0.010326147079467773, "tests_passed": false, "error": "TypeError"}
+{"code": " np.intersect1d(LEAP_SECONDS, np.arange(given_date.year, current_date.year))", "compilation_passed": true, "time": 0.009556055068969727, "tests_passed": false, "error": "TypeError"}
+{"code": " np.intersect1d(LEAP_SECONDS, np.arange(", "compilation_passed": false, "time": 0.0002300739288330078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " LEAP_SECONDS[(current_date.year - given_date.year) > 0]", "compilation_passed": true, "time": 0.010189056396484375, "tests_passed": false, "error": "TypeError"}
+{"code": " np.sum(np.in1d(LEAP_SECONDS, [given_date.year]))", "compilation_passed": true, "time": 0.006165027618408203, "tests_passed": true, "error": null}
+{"code": " LEAP_SECONDS[(LEAP_SECONDS > given_date.year) & (LEAP_SECONDS < current_date.year)]", "compilation_passed": true, "time": 0.009837150573730469, "tests_passed": false, "error": "TypeError"}
+{"code": " np.count_nonzero(np.isin(LEAP_SECONDS, given_date.year))", "compilation_passed": true, "time": 0.006412029266357422, "tests_passed": true, "error": null}
+{"code": " LEAP_SECONDS[np.where((given_date.year < LEAP_SECONDS) & (LEAP_SECONDS < current_date.year))]", "compilation_passed": true, "time": 0.010005950927734375, "tests_passed": false, "error": "TypeError"}
+{"code": " np.sum(", "compilation_passed": false, "time": 0.00022983551025390625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.count_nonzero(LEAP_SECONDS > given_date.year)", "compilation_passed": true, "time": 0.0020661354064941406, "tests_passed": true, "error": null}
+{"code": " len([y for y in LEAP_SECONDS if y < given_date.year or y > current_date.year])", "compilation_passed": true, "time": 0.006083011627197266, "tests_passed": true, "error": null}
+{"code": " np.interp(current_date.year, LEAP_SECONDS, 0)", "compilation_passed": true, "time": 0.009984016418457031, "tests_passed": false, "error": "ValueError"}
+{"code": " sum(", "compilation_passed": false, "time": 0.00021004676818847656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.count_nonzero(np.isin(LEAP_SECONDS, (given_date.year, current_date.year)))", "compilation_passed": true, "time": 0.006357908248901367, "tests_passed": true, "error": null}
+{"code": " len(np.intersect1d(LEAP_SECONDS, np.array([given_date.year, current_date.year])))", "compilation_passed": true, "time": 0.00748896598815918, "tests_passed": true, "error": null}
+{"code": " np.intersect1d(LEAP_SECONDS, [given_date.year, current_date.year])", "compilation_passed": true, "time": 0.01581430435180664, "tests_passed": false, "error": "TypeError"}
+{"code": " (current_date.year - given_date.year) * 366", "compilation_passed": true, "time": 0.0063288211822509766, "tests_passed": true, "error": null}
+{"code": " LEAP_SECONDS[(LEAP_SECONDS > given_date) & (LEAP_SECONDS <= current_date)]", "compilation_passed": true, "time": 0.011109113693237305, "tests_passed": false, "error": "TypeError"}
+{"code": " (current_date.year - given_date.year) * 365 + (", "compilation_passed": false, "time": 0.00027179718017578125, "tests_passed": false, "error": "SyntaxError"}

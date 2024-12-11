@@ -1,0 +1,22 @@
+{"code": " {}", "compilation_passed": false, "time": 0.0003178119659423828, "tests_passed": false, "error": "IndentationError"}
+{"code": " []", "compilation_passed": false, "time": 0.0001857280731201172, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[] for _ in range(num_columns)]", "compilation_passed": false, "time": 0.00017380714416503906, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(combinations, columns=['Color:State' for _ in range(num_columns)])", "compilation_passed": false, "time": 0.00016379356384277344, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Color:State': combinations},", "compilation_passed": false, "time": 0.0002598762512207031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {f'Color:State_{i}': [f\"{col}:{stat}\" for col, stat in combinations[:i]] for i in range(1, num_columns + 1)}", "compilation_passed": false, "time": 0.0002288818359375, "tests_passed": false, "error": "IndentationError"}
+{"code": " {f\"Color:State {i}\": [\"{}:{}\".format(color, state) for (color, state) in combinations[i * num_columns:(i + 1) * num_columns]] for i in range(num_columns)}", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[':'.join(combination) for _ in range(num_columns)] for combination in combinations]", "compilation_passed": false, "time": 0.0002448558807373047, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(combinations, columns=list(itertools.product(['Color', 'State'], range(num_columns))))", "compilation_passed": false, "time": 0.0002028942108154297, "tests_passed": false, "error": "IndentationError"}
+{"code": " [\" \".join(item) for item in combinations]", "compilation_passed": false, "time": 0.0002040863037109375, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(combinations[:num_columns * len(combinations) // num_columns], columns=[f\"Color:State {i + 1}\" for i in range(num_columns)])", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[':'.join(item) for item in combination] for combination in combinations]", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[':'.join(combination) for combination in combinations[i:i+num_columns] if len(combination) > 1]", "compilation_passed": false, "time": 0.00019598007202148438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {f\"Color:State {i}\": pd.Series(combinations[i*num_columns:(i+1)*num_columns])", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [combinations[i:i + num_columns] for i in range(0, len(combinations), num_columns)]", "compilation_passed": false, "time": 0.00019788742065429688, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(combinations, columns=list(f'Color:State {i + 1}' for i in range(num_columns)))", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(combinations[:num_columns*2])", "compilation_passed": false, "time": 0.0001761913299560547, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(combinations[:num_columns * len(combinations) // num_columns])", "compilation_passed": false, "time": 0.00015473365783691406, "tests_passed": false, "error": "IndentationError"}
+{"code": " {f'Color:State {col+1}': [f\"{color}:{state}\" for color, state in combinations[col:col+num_columns]] for col in range(num_columns)}", "compilation_passed": false, "time": 0.0002281665802001953, "tests_passed": false, "error": "IndentationError"}
+{"code": " [c + \":\" + s for c, s in combinations[:num_columns]]", "compilation_passed": false, "time": 0.00015807151794433594, "tests_passed": false, "error": "IndentationError"}
+{"code": " [\", \".join(combination) for combination in combinations[:num_columns * len(colors)]]", "compilation_passed": false, "time": 0.0002071857452392578, "tests_passed": false, "error": "IndentationError"}
+{"code": " [['' for _ in range(num_columns)] for _ in range(len(combinations))]", "compilation_passed": false, "time": 0.0001659393310546875, "tests_passed": false, "error": "IndentationError"}

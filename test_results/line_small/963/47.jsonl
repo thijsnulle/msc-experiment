@@ -1,0 +1,19 @@
+{"code": "_path in glob.glob(os.path.join(source_directory, f\"*.{extension}\")):", "compilation_passed": false, "time": 0.0002880096435546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " in glob.glob(os.path.join(source_directory, f\"*.{extension}\")):", "compilation_passed": false, "time": 0.00028061866760253906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " in glob.glob(os.path.join(source_directory, f\"*{extension}\")):", "compilation_passed": false, "time": 0.00028586387634277344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " in glob.glob(f\"{source_directory}/*{extension}\"):", "compilation_passed": false, "time": 0.0002810955047607422, "tests_passed": false, "error": "SyntaxError"}
+{"code": "_name in glob.glob(os.path.join(source_directory, f\"*{extension}\")):", "compilation_passed": false, "time": 0.00025391578674316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "path in glob.iglob(f\"{source_directory}/*{extension}\"):", "compilation_passed": false, "time": 0.0002911090850830078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " in glob.iglob(f\"{source_directory}/**/*{extension}\", recursive=True):", "compilation_passed": false, "time": 0.00028967857360839844, "tests_passed": false, "error": "SyntaxError"}
+{"code": "_path in glob.glob(os.path.join(source_directory, \"*\" + extension)):", "compilation_passed": false, "time": 0.00028395652770996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " in glob.glob(source_directory + \"/*\" + extension):", "compilation_passed": false, "time": 0.0002779960632324219, "tests_passed": false, "error": "SyntaxError"}
+{"code": "_path in Path(source_directory).rglob(extension):", "compilation_passed": false, "time": 0.00028014183044433594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "_path in glob.glob(f\"{source_directory}/*{extension}\"):", "compilation_passed": false, "time": 0.0002930164337158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": "path in glob.glob(f\"{source_directory}/*{extension}\"):", "compilation_passed": false, "time": 0.0002899169921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " in glob.glob(os.path.join(source_directory, f\"*\" + extension)):", "compilation_passed": false, "time": 0.0002899169921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "_path in glob.glob(os.path.join(source_directory, f\"*.{extension.lstrip('.')}\")):", "compilation_passed": false, "time": 0.0002949237823486328, "tests_passed": false, "error": "SyntaxError"}
+{"code": "_path in glob.glob(os.path.join(source_directory, f\"*{extension}\")):", "compilation_passed": false, "time": 0.0002830028533935547, "tests_passed": false, "error": "SyntaxError"}
+{"code": "_name in glob.glob(f\"{source_directory}/**/*{extension}\", recursive=True):", "compilation_passed": false, "time": 0.0002980232238769531, "tests_passed": false, "error": "SyntaxError"}
+{"code": "path in glob.glob(os.path.join(source_directory, f\"*{extension}\")):", "compilation_passed": false, "time": 0.00032901763916015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "path in glob.glob(os.path.join(source_directory, f\"*.{extension}\")):", "compilation_passed": false, "time": 0.00028967857360839844, "tests_passed": false, "error": "SyntaxError"}
+{"code": "_name in glob.glob(os.path.join(source_directory, f\"*.{extension}\")):", "compilation_passed": false, "time": 0.0002532005310058594, "tests_passed": false, "error": "SyntaxError"}

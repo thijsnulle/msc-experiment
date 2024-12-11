@@ -1,0 +1,22 @@
+{"code": "swarmplot(data=df, x='Type', y=s1.name, hue=s2.name, ax=ax, dashes=[\"solid\", (1.5, 1.5)])", "compilation_passed": true, "time": 0.0894930362701416, "tests_passed": false, "error": "ValueError"}
+{"code": "swarmplot(ax=ax, data=df, x='Type', y=s1.name)", "compilation_passed": true, "time": 0.25223207473754883, "tests_passed": true, "error": null}
+{"code": "swarmplot(data=df, x='Type', y=s1.name)", "compilation_passed": true, "time": 0.252730131149292, "tests_passed": true, "error": null}
+{"code": "swarmplot(ax=ax, data=df, x=\"Type\", y=s1.name, inner=\"none\")", "compilation_passed": true, "time": 0.04765486717224121, "tests_passed": false, "error": "AttributeError"}
+{"code": "swarmplot(ax=ax, data=df, x=\"Type\", y=s1.name)", "compilation_passed": true, "time": 0.24335479736328125, "tests_passed": true, "error": null}
+{"code": "swarmplot(x=\"Type\", y=s1.name, data=df, ax=ax,", "compilation_passed": false, "time": 0.0002751350402832031, "tests_passed": false, "error": "SyntaxError"}
+{"code": "swarmplot(data=df, x='Type', y='value')", "compilation_passed": true, "time": 0.031219005584716797, "tests_passed": false, "error": "ValueError"}
+{"code": "swarmplot(data=df, x=s1.name, y=s1.name, hue='Type')", "compilation_passed": true, "time": 0.31055212020874023, "tests_passed": true, "error": null}
+{"code": "swarmplot(data=df, x='Type', y=df.columns[0], ax=ax,", "compilation_passed": false, "time": 0.00027680397033691406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "swarmplot(", "compilation_passed": false, "time": 0.0002510547637939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": "swarmplot(data=df, x=\"Type\", y=s1.name, hue=s2.name, ax=ax)", "compilation_passed": true, "time": 0.21351313591003418, "tests_passed": true, "error": null}
+{"code": "swarmplot(x='Type', y=df[df['Type'] == 'Series1'].index, data=df, hue='Type', ax=ax)", "compilation_passed": true, "time": 0.04482102394104004, "tests_passed": false, "error": "ValueError"}
+{"code": "swarmplot(x=\"Type\", y=s1.name, data=df, ax=ax, linewidth=2, color='g')", "compilation_passed": true, "time": 0.23623991012573242, "tests_passed": true, "error": null}
+{"code": "swarmplot(x='Type', y='Index', data=df, ax=ax, hue=\"Type\")", "compilation_passed": true, "time": 0.025279998779296875, "tests_passed": false, "error": "ValueError"}
+{"code": "swarmplot(data=df, x=\"Type\", y=s1.name, ax=ax, hue=s1.name)", "compilation_passed": true, "time": 0.27465295791625977, "tests_passed": true, "error": null}
+{"code": "swarmplot(data=df, x=\"Type\", y=s2.name, hue=s2.name, ax=ax, size=8)", "compilation_passed": true, "time": 0.27021002769470215, "tests_passed": true, "error": null}
+{"code": "swarmplot(data=df, x=\"Type\", y=s1.name, hue=s1.name, ax=ax)", "compilation_passed": true, "time": 0.2637660503387451, "tests_passed": true, "error": null}
+{"code": "swarmplot(data=df, x=\"Type\", y=s1.name, ax=ax, size=2)", "compilation_passed": true, "time": 0.24602580070495605, "tests_passed": true, "error": null}
+{"code": "swarmplot(x=df['Type'], y=df[s1.name], hue=df[s2.name], palette='Blues', ax=ax, linewidth=0.75)", "compilation_passed": true, "time": 0.21144676208496094, "tests_passed": true, "error": null}
+{"code": "swarmplot(data=df, x=\"Type\", y=df.columns[0], ax=ax)", "compilation_passed": true, "time": 0.2543652057647705, "tests_passed": true, "error": null}
+{"code": "swarmplot(data=df, x='Type', y=s1.name, hue='Type')", "compilation_passed": true, "time": 0.23648405075073242, "tests_passed": true, "error": null}
+{"code": "swarmplot(data=df, x=\"Type\", y=df.index, hue=df.name, palette=\"bright\")", "compilation_passed": true, "time": 0.02513909339904785, "tests_passed": false, "error": "AttributeError"}

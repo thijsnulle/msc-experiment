@@ -1,0 +1,22 @@
+{"code": " ''.join(BRACKETS[random.randint(0, len(BRACKETS) - 1)] for _ in range(length))", "compilation_passed": true, "time": 0.0019450187683105469, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choice(BRACKETS) for _ in range(length))", "compilation_passed": true, "time": 0.002317190170288086, "tests_passed": true, "error": null}
+{"code": " \"\".join([random.choice(BRACKETS) for _ in range(length)])", "compilation_passed": true, "time": 0.0016491413116455078, "tests_passed": true, "error": null}
+{"code": " ''.join([random.choice(BRACKETS) for _ in range(length)])", "compilation_passed": true, "time": 0.0024709701538085938, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(BRACKETS) for _ in range(length))", "compilation_passed": true, "time": 0.0018498897552490234, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choice(BRACKETS) if random.random() < 0.65 else", "compilation_passed": false, "time": 0.00013780593872070312, "tests_passed": false, "error": "SyntaxError"}
+{"code": "_string = ''", "compilation_passed": true, "time": 0.004027843475341797, "tests_passed": false, "error": "TypeError"}
+{"code": " \"\".join([", "compilation_passed": false, "time": 0.00012993812561035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\".join(BRACKETS[random.randint(0, len(BRACKETS) - 1)] for i in range(length))", "compilation_passed": true, "time": 0.0017001628875732422, "tests_passed": true, "error": null}
+{"code": " \"\".join([random.choice(BRACKETS) for i in range(length)])", "compilation_passed": true, "time": 0.0014028549194335938, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(BRACKETS) if", "compilation_passed": false, "time": 0.00011801719665527344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ''.join(BRACKETS[random.randint(0, 3)]", "compilation_passed": false, "time": 0.0002200603485107422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\".join(random.choices(BRACKETS, k=length))", "compilation_passed": true, "time": 0.001383066177368164, "tests_passed": true, "error": null}
+{"code": " \"\".join(", "compilation_passed": false, "time": 0.00011277198791503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\".join(random.choice(BRACKETS) if random.random() < 0.5", "compilation_passed": false, "time": 0.00011873245239257812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ''.join(random.choice(BRACKETS)", "compilation_passed": false, "time": 0.00010585784912109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\".join(random.choice(BRACKETS) if random.randint(0, 1)", "compilation_passed": false, "time": 0.00011491775512695312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ''.join(", "compilation_passed": false, "time": 0.00011181831359863281, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\".join(BRACKETS[random.randint(0, len(BRACKETS) - 1)] for _ in range(length))", "compilation_passed": true, "time": 0.0016388893127441406, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(BRACKETS) if random.randint(0, 10) > 9 else chr(random.randint(97, 122)) for _ in range(length))", "compilation_passed": true, "time": 0.0018239021301269531, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choice(BRACKETS) for i in range(length))", "compilation_passed": true, "time": 0.0015499591827392578, "tests_passed": true, "error": null}
+{"code": " \"\".join([random.choice(BRACKETS)", "compilation_passed": false, "time": 0.00013685226440429688, "tests_passed": false, "error": "SyntaxError"}

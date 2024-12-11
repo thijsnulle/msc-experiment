@@ -1,0 +1,8 @@
+{"code": " df[['date', 'value']]", "compilation_passed": true, "time": 0.10450196266174316, "tests_passed": true, "error": null}
+{"code": " df[['date', 'value']].values", "compilation_passed": true, "time": 0.06496500968933105, "tests_passed": false, "error": "IndexError"}
+{"code": " df[['date', 'value']].to_numpy()", "compilation_passed": true, "time": 0.06878900527954102, "tests_passed": false, "error": "IndexError"}
+{"code": " df.groupby('group').agg({'value': 'mean'}).reset_index()", "compilation_passed": true, "time": 0.012980937957763672, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('group')[['date', 'value']].apply(lambda x: x.iloc[:, 1]).reset_index(drop=True)", "compilation_passed": true, "time": 0.011874198913574219, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('group')['date', 'value'].agg('mean')", "compilation_passed": true, "time": 0.009793996810913086, "tests_passed": false, "error": "ValueError"}
+{"code": " df.iloc[:, 2:].values", "compilation_passed": true, "time": 0.07656097412109375, "tests_passed": false, "error": "IndexError"}
+{"code": " df.loc[:, ['value', 'date']]", "compilation_passed": true, "time": 0.12252020835876465, "tests_passed": true, "error": null}

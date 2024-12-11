@@ -1,0 +1,18 @@
+{"code": "set(xlabel='Date', ylabel='Temperature (\u00b0C)', title='Temperature Trend')", "compilation_passed": true, "time": 0.2710731029510498, "tests_passed": true, "error": null}
+{"code": "set(xlabel=\"Date\", ylabel=\"Temperature (\u00b0C)\",", "compilation_passed": false, "time": 0.00027108192443847656, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_xticklabels(dates, rotation=90)", "compilation_passed": true, "time": 0.053327083587646484, "tests_passed": true, "error": null}
+{"code": "set(", "compilation_passed": false, "time": 0.0002849102020263672, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_xticks(dates)", "compilation_passed": true, "time": 0.04589486122131348, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Date\")", "compilation_passed": true, "time": 0.2911982536315918, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(dates)", "compilation_passed": true, "time": 0.05081439018249512, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Date', fontsize=10)", "compilation_passed": true, "time": 0.2934079170227051, "tests_passed": true, "error": null}
+{"code": "set_title(\"Temperature Trend\")", "compilation_passed": true, "time": 0.0449528694152832, "tests_passed": true, "error": null}
+{"code": "set(xlabel='Date', ylabel='Temperature (\u00b0C)',", "compilation_passed": false, "time": 0.00030612945556640625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_ylabel(\"Temperature (\u00b0C)\")", "compilation_passed": true, "time": 0.047669172286987305, "tests_passed": true, "error": null}
+{"code": "set(title='Temperature Trend')", "compilation_passed": true, "time": 0.04847216606140137, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Date')", "compilation_passed": true, "time": 0.32345128059387207, "tests_passed": true, "error": null}
+{"code": "set_title('Temperature Trend')", "compilation_passed": true, "time": 0.044438838958740234, "tests_passed": true, "error": null}
+{"code": "set(title=\"Temperature Trend\", xlabel=\"Date\", ylabel=\"Temperature (\u00b0C)\")", "compilation_passed": true, "time": 0.3181459903717041, "tests_passed": true, "error": null}
+{"code": "set_xticks([datetime.now().date() - timedelta(days=i) for i in range(days_in_past)])", "compilation_passed": true, "time": 0.05606508255004883, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([date.strftime(\"%Y-%m-%d\") for date in dates])", "compilation_passed": true, "time": 0.05197620391845703, "tests_passed": true, "error": null}
+{"code": "set(xlabel='Date', ylabel='Temperature (\u00b0C)')", "compilation_passed": true, "time": 0.33976316452026367, "tests_passed": true, "error": null}

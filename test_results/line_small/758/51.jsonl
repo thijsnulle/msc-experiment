@@ -1,0 +1,10 @@
+{"code": " rng.choice(countries, num_samples)", "compilation_passed": true, "time": 0.00618290901184082, "tests_passed": true, "error": null}
+{"code": " rng.choice(countries, size=num_samples)", "compilation_passed": true, "time": 0.00569605827331543, "tests_passed": true, "error": null}
+{"code": " [\"Russia\", \"China\", \"USA\", \"India\", \"Brazil\"]", "compilation_passed": true, "time": 0.012151002883911133, "tests_passed": false, "error": "ValueError"}
+{"code": " rng.choice(countries, num_samples, replace=False)", "compilation_passed": true, "time": 0.009716033935546875, "tests_passed": false, "error": "ValueError"}
+{"code": " rng.choice(countries, size=num_samples, replace=True)", "compilation_passed": true, "time": 0.006051778793334961, "tests_passed": true, "error": null}
+{"code": " rng.choice(countries, size=num_samples, replace=False)", "compilation_passed": true, "time": 0.00932621955871582, "tests_passed": false, "error": "ValueError"}
+{"code": " countries", "compilation_passed": true, "time": 0.007188081741333008, "tests_passed": false, "error": "ValueError"}
+{"code": " list(countries)", "compilation_passed": true, "time": 0.007016897201538086, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(rng.choice(countries, size=num_samples))", "compilation_passed": true, "time": 0.005457878112792969, "tests_passed": true, "error": null}
+{"code": " [s.lower().strip() for s in countries]", "compilation_passed": true, "time": 0.007195949554443359, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,23 @@
+{"code": " df[selected_columns].plot(kind='scatter', grid=True, title=f\"Random plots: {', '.join(selected_columns)}\", figsize=(10, 6))", "compilation_passed": true, "time": 0.026758909225463867, "tests_passed": false, "error": "ValueError"}
+{"code": " df[selected_columns[0]].plot(ax=plt.subplots(1,1)[1])", "compilation_passed": true, "time": 0.04975104331970215, "tests_passed": false, "error": "TypeError"}
+{"code": " df.plot(kind='scatter', x=selected_columns[0], y=selected_columns[1])", "compilation_passed": true, "time": 0.27513909339904785, "tests_passed": true, "error": null}
+{"code": " df[selected_columns].plot(kind=\"scatter\", subplots=False, legend=False)", "compilation_passed": true, "time": 0.012885808944702148, "tests_passed": false, "error": "ValueError"}
+{"code": " df.plot.scatter(selected_columns[0], selected_columns[1], alpha=0.5, linewidth=0)", "compilation_passed": true, "time": 0.27220988273620605, "tests_passed": true, "error": null}
+{"code": " df.plot(x=selected_columns[0], y=selected_columns[1], style='ro-')", "compilation_passed": true, "time": 0.013134956359863281, "tests_passed": false, "error": "TypeError"}
+{"code": " df.plot.scatter(x=selected_columns[0], y=selected_columns[1])", "compilation_passed": true, "time": 0.27616310119628906, "tests_passed": true, "error": null}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.00882720947265625, "tests_passed": true, "error": null}
+{"code": " df.plot(", "compilation_passed": false, "time": 0.0002377033233642578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.subplots()[1]", "compilation_passed": true, "time": 0.21685194969177246, "tests_passed": true, "error": null}
+{"code": " df.plot(subplots=True, sharex='col', sharey='col', subplot_kw={'aspect': 'equal'})", "compilation_passed": true, "time": 0.012888193130493164, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.scatter(*zip(*df[selected_columns].values), alpha=0.1)", "compilation_passed": true, "time": 0.011706829071044922, "tests_passed": false, "error": "TypeError"}
+{"code": " df[selected_columns].plot.scatter(x=selected_columns[0], y=selected_columns[1], alpha=0.5)", "compilation_passed": true, "time": 0.27676987648010254, "tests_passed": true, "error": null}
+{"code": " df[selected_columns].plot(kind='scatter')", "compilation_passed": true, "time": 0.012035131454467773, "tests_passed": false, "error": "ValueError"}
+{"code": " df[selected_columns].plot(kind='scatter', grid=False)", "compilation_passed": true, "time": 0.01243901252746582, "tests_passed": false, "error": "ValueError"}
+{"code": " df[selected_columns].plot(marker='.', markersize=10, cmap='Set1', legend=False)", "compilation_passed": true, "time": 0.012974739074707031, "tests_passed": false, "error": "TypeError"}
+{"code": " df[selected_columns].plot.scatter(alpha=0.3, grid=True)", "compilation_passed": true, "time": 0.01223301887512207, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.scatter(*df[selected_columns].itertuples(index=False).values)", "compilation_passed": true, "time": 0.012106180191040039, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[selected_columns[0]].plot.scatter(df[selected_columns[1]])", "compilation_passed": true, "time": 0.011432886123657227, "tests_passed": false, "error": "TypeError"}
+{"code": " df[selected_columns].plot(kind=\"scatter\")", "compilation_passed": true, "time": 0.012279748916625977, "tests_passed": false, "error": "ValueError"}
+{"code": " df.plot.scatter(selected_columns[0], selected_columns[1])", "compilation_passed": true, "time": 0.27794408798217773, "tests_passed": true, "error": null}
+{"code": " df[selected_columns].plot.scatter()", "compilation_passed": true, "time": 0.0117340087890625, "tests_passed": false, "error": "TypeError"}
+{"code": " df[selected_columns].plot(kind='scatter', markers=['o', 'x', '*', '+', '<', '>', '|'])", "compilation_passed": true, "time": 0.012188911437988281, "tests_passed": false, "error": "ValueError"}

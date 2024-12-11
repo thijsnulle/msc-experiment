@@ -1,0 +1,23 @@
+{"code": " df[df['Title'].apply(pattern.search).astype(bool)]", "compilation_passed": true, "time": 0.09467601776123047, "tests_passed": true, "error": null}
+{"code": " df[df['Title'].str.contains(pattern)]", "compilation_passed": true, "time": 0.0932769775390625, "tests_passed": true, "error": null}
+{"code": " df.Title.apply(lambda t: pattern.search(t) is not None)", "compilation_passed": true, "time": 0.010835886001586914, "tests_passed": false, "error": "KeyError"}
+{"code": " df.loc[df['Title'].str.contains(pattern), ['Views', 'Likes']]", "compilation_passed": true, "time": 0.027540922164916992, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df['Title'].apply(lambda title: bool(pattern.search(title)))]", "compilation_passed": true, "time": 0.0871286392211914, "tests_passed": true, "error": null}
+{"code": " df.Title.str.contains(pattern)", "compilation_passed": true, "time": 0.01203298568725586, "tests_passed": false, "error": "KeyError"}
+{"code": " df['Title'].apply(pattern.search).map(lambda s: s is not None)", "compilation_passed": true, "time": 0.011536121368408203, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df['Title'].apply(lambda s: pattern.search(s))]", "compilation_passed": true, "time": 0.011884927749633789, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df['Title'].apply(pattern.search)]", "compilation_passed": true, "time": 0.011442899703979492, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df['Title'].apply(lambda x: pattern.search(x))]", "compilation_passed": true, "time": 0.011052131652832031, "tests_passed": false, "error": "KeyError"}
+{"code": " df.loc[", "compilation_passed": false, "time": 0.0001971721649169922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.loc[pattern.search(df['Title']), ['Views', 'Likes']]", "compilation_passed": true, "time": 0.01123809814453125, "tests_passed": false, "error": "TypeError"}
+{"code": " df[df['Title'].apply(lambda title: pattern.search(title))]['Title'].str.lower()", "compilation_passed": true, "time": 0.010561943054199219, "tests_passed": false, "error": "KeyError"}
+{"code": " df.loc[pattern.search(df['Title']), ['Title', 'Likes', 'Views']]", "compilation_passed": true, "time": 0.009998083114624023, "tests_passed": false, "error": "TypeError"}
+{"code": " df.loc[df['Title'].str.lower().str.contains(pattern.pattern, flags=re.IGNORECASE)]", "compilation_passed": true, "time": 0.09345674514770508, "tests_passed": true, "error": null}
+{"code": " df.loc[pattern.search(df.Title)].Title", "compilation_passed": true, "time": 0.010912418365478516, "tests_passed": false, "error": "TypeError"}
+{"code": " df[~df['Title'].str.contains(pattern)]", "compilation_passed": true, "time": 0.026767969131469727, "tests_passed": true, "error": null}
+{"code": " df[df['Title'].apply(lambda x: re.search(pattern, x))]", "compilation_passed": true, "time": 0.010853052139282227, "tests_passed": false, "error": "KeyError"}
+{"code": " df.loc[df['Title'].apply(pattern.search)]", "compilation_passed": true, "time": 0.013010978698730469, "tests_passed": false, "error": "KeyError"}
+{"code": " df.Title.str.lower().str.contains(pattern)", "compilation_passed": true, "time": 0.012289047241210938, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df['Views'] > 500]['Title'].str.lower().apply(lambda x: pattern.search(x)).dropna().index", "compilation_passed": true, "time": 0.011383056640625, "tests_passed": false, "error": "IndexError"}
+{"code": " df.loc[pattern.search(df['Title'])]", "compilation_passed": true, "time": 0.010743141174316406, "tests_passed": false, "error": "TypeError"}
+{"code": " df['Title'].map(pattern.findall).apply(lambda x: len(x) > 0)", "compilation_passed": true, "time": 0.01646280288696289, "tests_passed": false, "error": "KeyError"}

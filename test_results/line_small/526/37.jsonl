@@ -1,0 +1,11 @@
+{"code": " list(data[0].keys())", "compilation_passed": true, "time": 0.017729997634887695, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.010040044784545898, "tests_passed": true, "error": null}
+{"code": " set([key for row in data for key in row.keys()])", "compilation_passed": true, "time": 0.03384089469909668, "tests_passed": true, "error": null}
+{"code": " [key for keys in data for key in keys]", "compilation_passed": true, "time": 0.040244102478027344, "tests_passed": true, "error": null}
+{"code": " set()", "compilation_passed": true, "time": 0.007225990295410156, "tests_passed": true, "error": null}
+{"code": " set([k for d in data for k in d])", "compilation_passed": true, "time": 0.03009319305419922, "tests_passed": true, "error": null}
+{"code": " [key for key, val in data[0].items() if pd.api.types.is_numeric_dtype(val)]", "compilation_passed": true, "time": 0.007111072540283203, "tests_passed": true, "error": null}
+{"code": " list(set([key for d in data for key in d]))", "compilation_passed": true, "time": 0.030462026596069336, "tests_passed": true, "error": null}
+{"code": " [k for d in data for k in d.keys()]", "compilation_passed": true, "time": 0.04028511047363281, "tests_passed": true, "error": null}
+{"code": " sorted([d.keys() for d in data])", "compilation_passed": true, "time": 0.009058952331542969, "tests_passed": false, "error": "TypeError"}
+{"code": " data[0].keys()", "compilation_passed": true, "time": 0.01336216926574707, "tests_passed": true, "error": null}

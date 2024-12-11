@@ -1,0 +1,13 @@
+{"code": " json.loads(request.data)", "compilation_passed": true, "time": 0.0013499259948730469, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " request.get_json()", "compilation_passed": true, "time": 0.0015480518341064453, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " json.loads(request.form['data'])", "compilation_passed": true, "time": 0.0012416839599609375, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " json.loads(request.data.decode('utf-8'))", "compilation_passed": true, "time": 0.0012187957763671875, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " request.get_json(force=True)", "compilation_passed": true, "time": 0.0015680789947509766, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " json.loads(request.data.decode())", "compilation_passed": true, "time": 0.0013427734375, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " json.dumps(request.form)", "compilation_passed": true, "time": 0.0012001991271972656, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " request.json", "compilation_passed": true, "time": 0.0014090538024902344, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " request.form", "compilation_passed": true, "time": 0.0011866092681884766, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " json.loads(request.get_data())", "compilation_passed": true, "time": 0.0013837814331054688, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " json.loads(request.get_data(as_text=True))", "compilation_passed": true, "time": 0.001811981201171875, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " json.loads(request.get_data().decode())", "compilation_passed": true, "time": 0.0012066364288330078, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " json.loads(request.form.get('data'))", "compilation_passed": true, "time": 0.0012311935424804688, "tests_passed": false, "error": "[Errno 2] No such file or directory"}

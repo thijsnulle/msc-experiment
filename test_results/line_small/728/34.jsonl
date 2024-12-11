@@ -1,0 +1,7 @@
+{"code": " file.read()", "compilation_passed": true, "time": 0.014883756637573242, "tests_passed": true, "error": null}
+{"code": " csv.reader(file, delimiter=delimiter)", "compilation_passed": true, "time": 0.011530160903930664, "tests_passed": false, "error": "AttributeError"}
+{"code": " file.read().split('\\n')", "compilation_passed": true, "time": 0.012550115585327148, "tests_passed": false, "error": "AttributeError"}
+{"code": " file.readlines()", "compilation_passed": true, "time": 0.017930030822753906, "tests_passed": false, "error": "TypeError"}
+{"code": " csv.DictReader(file, delimiter=delimiter)", "compilation_passed": true, "time": 0.012677907943725586, "tests_passed": false, "error": "AttributeError"}
+{"code": " file.read().rstrip('\\n')", "compilation_passed": true, "time": 0.01227116584777832, "tests_passed": true, "error": null}
+{"code": " file.read().strip().split('\\n')[1:-1]", "compilation_passed": true, "time": 0.011945962905883789, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,21 @@
+{"code": "info(f'data {data}')", "compilation_passed": true, "time": 0.0014088153839111328, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(f\"Received data: {data}\")", "compilation_passed": true, "time": 0.0012509822845458984, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(f'Received data: {data}')", "compilation_passed": true, "time": 0.0012269020080566406, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(json.dumps(data))", "compilation_passed": true, "time": 0.0014090538024902344, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info('Request data: {}'.format(data))", "compilation_passed": true, "time": 0.0013432502746582031, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(\"Received JSON data: {}\".format(json.dumps(data, indent=4)))", "compilation_passed": true, "time": 0.0012822151184082031, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(\"received: {}\".format(data))", "compilation_passed": true, "time": 0.0012543201446533203, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(json.dumps(data, indent=4))", "compilation_passed": true, "time": 0.0012810230255126953, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(f'Request data: {data}')", "compilation_passed": true, "time": 0.001317739486694336, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(f\"{data=}\")", "compilation_passed": true, "time": 0.0013477802276611328, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(data)", "compilation_passed": true, "time": 0.0012159347534179688, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(f'Received JSON data: {data}')", "compilation_passed": true, "time": 0.001313924789428711, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(f\"Request: {data}\")", "compilation_passed": true, "time": 0.0013129711151123047, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(f\"Received {data}\")", "compilation_passed": true, "time": 0.0013997554779052734, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info('Request data: ' + json.dumps(data))", "compilation_passed": true, "time": 0.001219034194946289, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(f\"POST request received with data: {data}\")", "compilation_passed": true, "time": 0.0011987686157226562, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info(f\"request: {json.dumps(data)}\")", "compilation_passed": true, "time": 0.0012569427490234375, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info('Request data: {}'.format(json.dumps(data)))", "compilation_passed": true, "time": 0.001255035400390625, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info('Request data:' + str(data))", "compilation_passed": true, "time": 0.0012018680572509766, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info('{}: {}'.format(request.method, json.dumps(data)))", "compilation_passed": true, "time": 0.0012061595916748047, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": "info('Received data: ' + json.dumps(data))", "compilation_passed": true, "time": 0.001190185546875, "tests_passed": false, "error": "[Errno 2] No such file or directory"}

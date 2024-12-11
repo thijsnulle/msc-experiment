@@ -1,0 +1,6 @@
+{"code": " df.select_dtypes(include='number').columns.tolist()", "compilation_passed": true, "time": 0.03449296951293945, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include='number')", "compilation_passed": true, "time": 0.021548748016357422, "tests_passed": false, "error": "ValueError"}
+{"code": " df.select_dtypes(include='number').columns", "compilation_passed": true, "time": 0.03468728065490723, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include='number').columns.to_list()", "compilation_passed": true, "time": 0.03525280952453613, "tests_passed": true, "error": null}
+{"code": " list(df.select_dtypes(include='number').columns)", "compilation_passed": true, "time": 0.03568005561828613, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include='number').columns.values", "compilation_passed": true, "time": 0.034670114517211914, "tests_passed": true, "error": null}

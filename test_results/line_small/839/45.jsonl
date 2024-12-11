@@ -1,0 +1,8 @@
+{"code": " csv.writer(csv_file, delimiter=';')", "compilation_passed": true, "time": 0.010905027389526367, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.writer(csv_file)", "compilation_passed": true, "time": 0.009927988052368164, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.writer(csv_file, delimiter=',', quotechar='\"')", "compilation_passed": true, "time": 0.011445045471191406, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.writer(csv_file, delimiter=',')", "compilation_passed": true, "time": 0.01134490966796875, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.DictWriter(csv_file, fieldnames=FIELDS)", "compilation_passed": true, "time": 0.016927003860473633, "tests_passed": true, "error": null}
+{"code": " csv.DictWriter(csv_file, FIELDS)", "compilation_passed": true, "time": 0.017649173736572266, "tests_passed": true, "error": null}
+{"code": " csv.writer(csv_file, delimiter=',', quotechar='\"', quoting=csv.QUOTE_MINIMAL)", "compilation_passed": true, "time": 0.011161088943481445, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.writer(csv_file, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)", "compilation_passed": true, "time": 0.005831241607666016, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,17 @@
+{"code": " df.empty:", "compilation_passed": true, "time": 0.013499021530151367, "tests_passed": false, "error": "TypeError"}
+{"code": " df.empty or df.isna().any().any():", "compilation_passed": true, "time": 0.012121200561523438, "tests_passed": false, "error": "TypeError"}
+{"code": " df.empty or df.isna().any():", "compilation_passed": true, "time": 0.013213872909545898, "tests_passed": false, "error": "ValueError"}
+{"code": " df.isnull().any().any():", "compilation_passed": true, "time": 0.016183137893676758, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.039031028747558594, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df) == 0:", "compilation_passed": true, "time": 0.011898040771484375, "tests_passed": false, "error": "TypeError"}
+{"code": " not df.isna().any().any() or df.isna().any().any():", "compilation_passed": true, "time": 0.01268911361694336, "tests_passed": false, "error": "TypeError"}
+{"code": " not pd.core.dtypes.common.is_numeric_dtype(df):", "compilation_passed": true, "time": 0.016978979110717773, "tests_passed": false, "error": "TypeError"}
+{"code": " df.empty or df.isnull().any().any():", "compilation_passed": true, "time": 0.018194913864135742, "tests_passed": false, "error": "TypeError"}
+{"code": " df.empty or df.isna().values.any():", "compilation_passed": true, "time": 0.012280702590942383, "tests_passed": false, "error": "TypeError"}
+{"code": " not df.info().dtypes.values.all().any():", "compilation_passed": true, "time": 0.025938987731933594, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.empty or df.isnull().values.any():", "compilation_passed": true, "time": 0.012059926986694336, "tests_passed": false, "error": "TypeError"}
+{"code": " df is None:", "compilation_passed": true, "time": 0.019020795822143555, "tests_passed": false, "error": "ValueError"}
+{"code": " not (df.columns.dtypes == 'float64').all():", "compilation_passed": true, "time": 0.014600276947021484, "tests_passed": false, "error": "AttributeError"}
+{"code": " df is None or df.empty:", "compilation_passed": true, "time": 0.012817859649658203, "tests_passed": false, "error": "TypeError"}
+{"code": " not (df.dtypes == 'float64').all():", "compilation_passed": true, "time": 0.01478719711303711, "tests_passed": false, "error": "TypeError"}
+{"code": " df.empty or df.isna().all().all():", "compilation_passed": true, "time": 0.013137102127075195, "tests_passed": false, "error": "TypeError"}

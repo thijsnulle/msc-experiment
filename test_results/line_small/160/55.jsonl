@@ -1,0 +1,6 @@
+{"code": " p_value = stats.normaltest(df['Average'])", "compilation_passed": true, "time": 0.12861919403076172, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " p = stats.normaltest(df['Average'])", "compilation_passed": true, "time": 0.2201709747314453, "tests_passed": true, "error": null}
+{"code": " _ = stats.normaltest(df['Average'])", "compilation_passed": true, "time": 0.15373802185058594, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " p_val = stats.normaltest(df['Average'])", "compilation_passed": true, "time": 0.16021513938903809, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " p, _ = stats.normaltest(df['Average'])", "compilation_passed": true, "time": 0.1591198444366455, "tests_passed": false, "error": "ValueError"}
+{"code": " p, dof, _ = stats.normaltest(df['Average'])", "compilation_passed": true, "time": 0.15731215476989746, "tests_passed": false, "error": "ValueError"}

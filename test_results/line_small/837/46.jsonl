@@ -1,0 +1,9 @@
+{"code": " scaler.fit_transform(df[[columns[i]]])", "compilation_passed": true, "time": 0.04225277900695801, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df[columns[i]].values.reshape(-1, 1))", "compilation_passed": true, "time": 0.01795196533203125, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df[columns[i]].values.reshape(n_rows, 1))", "compilation_passed": true, "time": 0.01779913902282715, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df.iloc[:, [i]])", "compilation_passed": true, "time": 0.05770111083984375, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df[columns[i]][:])", "compilation_passed": true, "time": 0.023151874542236328, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(df[columns[i]][:, np.newaxis])", "compilation_passed": true, "time": 0.020606040954589844, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(df[columns[i].reshape(-1, 1)])", "compilation_passed": true, "time": 0.019825220108032227, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(df[columns[i]].reshape(n_rows, 1))", "compilation_passed": true, "time": 0.01277613639831543, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(df[columns[i]].values.reshape(-1,1))", "compilation_passed": true, "time": 0.017368078231811523, "tests_passed": true, "error": null}

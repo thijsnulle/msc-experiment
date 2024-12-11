@@ -1,0 +1,11 @@
+{"code": " in Path(source_dir).iterdir():", "compilation_passed": true, "time": 0.0283510684967041, "tests_passed": true, "error": null}
+{"code": " in Path(source_dir).glob(\"*\" + extension):", "compilation_passed": true, "time": 0.03793692588806152, "tests_passed": true, "error": null}
+{"code": " in Path(source_dir).rglob(extension):", "compilation_passed": true, "time": 0.0075228214263916016, "tests_passed": true, "error": null}
+{"code": " in Path(source_dir).glob(extension):", "compilation_passed": true, "time": 0.007180690765380859, "tests_passed": true, "error": null}
+{"code": " in Path(source_dir).glob(f'**/*{extension}'):", "compilation_passed": true, "time": 0.03907513618469238, "tests_passed": true, "error": null}
+{"code": " in Path(source_dir).glob(\"**/*\" + extension):", "compilation_passed": true, "time": 0.03794360160827637, "tests_passed": true, "error": null}
+{"code": " in os.listdir(source_dir):", "compilation_passed": true, "time": 0.013000965118408203, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " in Path(source_dir).glob(f'*{extension}'):", "compilation_passed": true, "time": 0.03756594657897949, "tests_passed": true, "error": null}
+{"code": " in Path(source_dir).glob(f\"*.{extension}\"):", "compilation_passed": true, "time": 0.007759809494018555, "tests_passed": true, "error": null}
+{"code": " in Path(source_dir).glob(f'*.{extension}'):", "compilation_passed": true, "time": 0.007603168487548828, "tests_passed": true, "error": null}
+{"code": " in Path(source_dir).rglob('*' + extension):", "compilation_passed": true, "time": 0.03836512565612793, "tests_passed": true, "error": null}

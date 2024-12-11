@@ -1,0 +1,5 @@
+{"code": " sorted(data_dict.items(), key=operator.itemgetter(1), reverse=True)", "compilation_passed": true, "time": 0.010718107223510742, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted(data_dict.items(), key=lambda x: counter[x[1]], reverse=True)", "compilation_passed": true, "time": 0.013543844223022461, "tests_passed": true, "error": null}
+{"code": " sorted(counter.items(), key=operator.itemgetter(1), reverse=True)", "compilation_passed": true, "time": 0.008259057998657227, "tests_passed": true, "error": null}
+{"code": " collections.OrderedDict(sorted(counter.items(), key=operator.itemgetter(1), reverse=True))", "compilation_passed": true, "time": 0.011013984680175781, "tests_passed": true, "error": null}
+{"code": " sorted(", "compilation_passed": false, "time": 0.00018405914306640625, "tests_passed": false, "error": "SyntaxError"}

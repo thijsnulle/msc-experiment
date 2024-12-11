@@ -1,0 +1,9 @@
+{"code": " df[\"Weight_String\"].map(float)", "compilation_passed": true, "time": 0.030570030212402344, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[\"Weight_String\"], errors=\"coerce\")", "compilation_passed": true, "time": 0.03444504737854004, "tests_passed": true, "error": null}
+{"code": " [float(weight) for weight in df[\"Weight_String\"]]", "compilation_passed": true, "time": 0.029499053955078125, "tests_passed": true, "error": null}
+{"code": " df[\"Weight_String\"].apply(lambda x: float(x))", "compilation_passed": true, "time": 0.03274202346801758, "tests_passed": true, "error": null}
+{"code": " df[\"Weight_String\"].astype(float)", "compilation_passed": true, "time": 0.03382301330566406, "tests_passed": true, "error": null}
+{"code": " df[\"Weight_String\"].apply(float)", "compilation_passed": true, "time": 0.032282114028930664, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[\"Weight_String\"])", "compilation_passed": true, "time": 0.03232407569885254, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[\"Weight_String\"], errors='coerce')", "compilation_passed": true, "time": 0.0314021110534668, "tests_passed": true, "error": null}
+{"code": " df[\"Weight_String\"].map(lambda x: float(x))", "compilation_passed": true, "time": 0.034974098205566406, "tests_passed": true, "error": null}

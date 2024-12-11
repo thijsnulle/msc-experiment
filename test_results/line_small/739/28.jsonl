@@ -1,0 +1,29 @@
+{"code": " struct.unpack(\"<Q\", bytes.fromhex(hex_key))[0] / (2 ** 64)", "compilation_passed": true, "time": 0.013390779495239258, "tests_passed": false, "error": "struct.error"}
+{"code": " random.randint(-2**31, 2**31) * (2 ** 31) / (2 ** 64)", "compilation_passed": true, "time": 0.004986763000488281, "tests_passed": true, "error": null}
+{"code": " struct.unpack(", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " struct.unpack('f', struct.pack('<I', int(hex_key, 16)))", "compilation_passed": true, "time": 0.009793996810913086, "tests_passed": false, "error": "TypeError"}
+{"code": " struct.unpack('f', struct.pack('H', int(hex_key, 16)))[0]", "compilation_passed": true, "time": 0.010272026062011719, "tests_passed": false, "error": "struct.error"}
+{"code": " struct.unpack(\"f\", bytearray.fromhex(hex_key))[0]", "compilation_passed": true, "time": 0.004423856735229492, "tests_passed": true, "error": null}
+{"code": " struct.unpack(\"<I\", bytearray.fromhex(hex_key))[0] / (2 ** 32)", "compilation_passed": true, "time": 0.004343986511230469, "tests_passed": true, "error": null}
+{"code": " random.choice(struct.unpack('<f', struct.pack('I', int(hex_key, 16))))", "compilation_passed": true, "time": 0.001641988754272461, "tests_passed": true, "error": null}
+{"code": " random.choice(map(int, hex_key.split(\":\")))[1:8]", "compilation_passed": true, "time": 0.010119915008544922, "tests_passed": false, "error": "TypeError"}
+{"code": " random.uniform(1.0, 100.0)", "compilation_passed": true, "time": 0.0044858455657958984, "tests_passed": true, "error": null}
+{"code": " struct.unpack('<d', bytes.fromhex(hex_key))[0]", "compilation_passed": true, "time": 0.009721994400024414, "tests_passed": false, "error": "struct.error"}
+{"code": " struct.unpack(\"f\", hex_key.encode())[0]", "compilation_passed": true, "time": 0.009406805038452148, "tests_passed": false, "error": "struct.error"}
+{"code": " struct.unpack(\"f\", bytes.fromhex(hex_key))[0]", "compilation_passed": true, "time": 0.004095315933227539, "tests_passed": true, "error": null}
+{"code": " struct.unpack(\"<Q\", struct.pack(\"HH\", int(hex_key, 16), int(hex_key, 16)))[0] / 2 ** 64", "compilation_passed": true, "time": 0.009984016418457031, "tests_passed": false, "error": "struct.error"}
+{"code": " struct.unpack(\"<L\", hex_key.encode())[0] / 2 ** 32", "compilation_passed": true, "time": 0.009650230407714844, "tests_passed": false, "error": "struct.error"}
+{"code": " random.uniform(0, 1) * struct.unpack('<f', struct.pack('<I', int(hex_key, 16)))[0]", "compilation_passed": true, "time": 0.004945039749145508, "tests_passed": true, "error": null}
+{"code": " struct.unpack('f', struct.pack('I', int(hex_key, 16)))", "compilation_passed": true, "time": 0.009589910507202148, "tests_passed": false, "error": "TypeError"}
+{"code": " struct.unpack('d', bytes.fromhex(hex_key))[0]", "compilation_passed": true, "time": 0.010592937469482422, "tests_passed": false, "error": "struct.error"}
+{"code": " random.randrange(100000000) / 100000000", "compilation_passed": true, "time": 0.004712104797363281, "tests_passed": true, "error": null}
+{"code": " float.fromhex(hex_key)", "compilation_passed": true, "time": 0.004765987396240234, "tests_passed": true, "error": null}
+{"code": " struct.unpack('<f', struct.pack(", "compilation_passed": false, "time": 0.0002288818359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " struct.unpack(\">d\", bytes.fromhex(hex_key))[0]", "compilation_passed": true, "time": 0.00976705551147461, "tests_passed": false, "error": "struct.error"}
+{"code": " random.choice(struct.unpack('16H', bytearray.fromhex(hex_key)))", "compilation_passed": true, "time": 0.009898900985717773, "tests_passed": false, "error": "struct.error"}
+{"code": " round(random.random(), 2) * random.choice([1, -1])", "compilation_passed": true, "time": 0.0050487518310546875, "tests_passed": true, "error": null}
+{"code": " struct.unpack('d', struct.pack('Q', int(hex_key, 16)))[-1]", "compilation_passed": true, "time": 0.0043179988861083984, "tests_passed": true, "error": null}
+{"code": " random.randint(0, 2**64-1) / 1.0", "compilation_passed": true, "time": 0.005169868469238281, "tests_passed": true, "error": null}
+{"code": " struct.unpack('<f', hex_key.encode())[0]", "compilation_passed": true, "time": 0.009770393371582031, "tests_passed": false, "error": "struct.error"}
+{"code": " struct.unpack('f', bytes.fromhex(hex_key))[0]", "compilation_passed": true, "time": 0.00481104850769043, "tests_passed": true, "error": null}
+{"code": " struct.unpack(\"d\", struct.pack(\"Q\", int(hex_key, 16)))[0]", "compilation_passed": true, "time": 0.005008220672607422, "tests_passed": true, "error": null}

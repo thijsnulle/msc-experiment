@@ -1,0 +1,14 @@
+{"code": " set(CATEGORIES) - set(all_categories)", "compilation_passed": true, "time": 0.011317014694213867, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " np.array([category for category in CATEGORIES if category not in guaranteed_categories])", "compilation_passed": true, "time": 0.011218070983886719, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([x for x in CATEGORIES if x not in guaranteed_categories])", "compilation_passed": true, "time": 0.012140035629272461, "tests_passed": false, "error": "ValueError"}
+{"code": " np.setdiff1d(CATEGORIES, guaranteed_categories)", "compilation_passed": true, "time": 0.011410951614379883, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.choice(CATEGORIES, N - len(guaranteed_categories), replace=False)", "compilation_passed": true, "time": 0.011095046997070312, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(CATEGORIES)", "compilation_passed": true, "time": 0.010078907012939453, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.choice(CATEGORIES, N-len(CATEGORIES), replace=False)", "compilation_passed": true, "time": 0.014023065567016602, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.choice(list(set(CATEGORIES) - set(guaranteed_categories)), N-len(guaranteed_categories), replace=False)", "compilation_passed": true, "time": 0.012248992919921875, "tests_passed": false, "error": "ValueError"}
+{"code": " CATEGORIES.copy()", "compilation_passed": true, "time": 0.010902166366577148, "tests_passed": false, "error": "ValueError"}
+{"code": " np.setdiff1d(CATEGORIES, guaranteed_categories, assume_unique=True)", "compilation_passed": true, "time": 0.011427164077758789, "tests_passed": false, "error": "ValueError"}
+{"code": " list(CATEGORIES)", "compilation_passed": true, "time": 0.009417057037353516, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([cat for cat in CATEGORIES if cat not in guaranteed_categories])", "compilation_passed": true, "time": 0.010501861572265625, "tests_passed": false, "error": "ValueError"}
+{"code": " list(set(CATEGORIES) - set(guaranteed_categories))", "compilation_passed": true, "time": 0.009373903274536133, "tests_passed": false, "error": "ValueError"}
+{"code": " list(set(CATEGORIES) - set(all_categories))", "compilation_passed": true, "time": 0.009528160095214844, "tests_passed": false, "error": "UnboundLocalError"}

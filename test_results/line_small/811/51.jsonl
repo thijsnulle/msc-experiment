@@ -1,0 +1,14 @@
+{"code": " [positions[randint(0, len(positions) - 1)] for _ in range(sample_size)]", "compilation_passed": true, "time": 0.01237034797668457, "tests_passed": true, "error": null}
+{"code": " [(i, col) for (i, col) in random.sample(positions, sample_size)]", "compilation_passed": true, "time": 0.015871286392211914, "tests_passed": false, "error": "NameError"}
+{"code": " random.sample(positions, sample_size)", "compilation_passed": true, "time": 0.015192270278930664, "tests_passed": false, "error": "NameError"}
+{"code": " sorted(random.sample(positions, sample_size))", "compilation_passed": true, "time": 0.0158693790435791, "tests_passed": false, "error": "NameError"}
+{"code": " [randint(0, len(positions)-1) for _ in range(sample_size)]", "compilation_passed": true, "time": 0.011777877807617188, "tests_passed": true, "error": null}
+{"code": " sample(positions, k=sample_size)", "compilation_passed": true, "time": 0.015461921691894531, "tests_passed": false, "error": "NameError"}
+{"code": " list(set(randint(0, len(positions) - 1) for _ in range(sample_size)))", "compilation_passed": true, "time": 0.011693239212036133, "tests_passed": true, "error": null}
+{"code": " sample(positions, sample_size)", "compilation_passed": true, "time": 0.014703989028930664, "tests_passed": false, "error": "NameError"}
+{"code": " list(np.random.choice(len(positions), sample_size, replace=False))", "compilation_passed": true, "time": 0.013948917388916016, "tests_passed": false, "error": "NameError"}
+{"code": " [positions[randint(0, len(positions)-1)] for _ in range(sample_size)]", "compilation_passed": true, "time": 0.014504194259643555, "tests_passed": true, "error": null}
+{"code": " sorted(randint(0, len(positions) - 1) for _ in range(sample_size))", "compilation_passed": true, "time": 0.012026786804199219, "tests_passed": true, "error": null}
+{"code": " list(", "compilation_passed": false, "time": 0.0003361701965332031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted(randint(0, len(positions)-1) for _ in range(sample_size))", "compilation_passed": true, "time": 0.011881113052368164, "tests_passed": true, "error": null}
+{"code": " set(random.sample(positions, sample_size))", "compilation_passed": true, "time": 0.015906095504760742, "tests_passed": false, "error": "NameError"}

@@ -1,0 +1,11 @@
+{"code": " []", "compilation_passed": false, "time": 0.00023412704467773438, "tests_passed": false, "error": "IndentationError"}
+{"code": " [(int(score), category) for score, category in matches]", "compilation_passed": false, "time": 0.00019407272338867188, "tests_passed": false, "error": "IndentationError"}
+{"code": " [{\"Score\": int(score), \"Category\": cat} for (score, cat) in matches]", "compilation_passed": false, "time": 0.00016307830810546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(matches, columns=[\"Score\", \"Category\"])", "compilation_passed": false, "time": 0.00014400482177734375, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(matches)", "compilation_passed": false, "time": 0.0001647472381591797, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[match[0].strip(), match[1].strip()] for match in matches]", "compilation_passed": false, "time": 0.00019407272338867188, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[int(match[0]), match[1]] for match in matches]", "compilation_passed": false, "time": 0.00016617774963378906, "tests_passed": false, "error": "IndentationError"}
+{"code": " [(int(score), category.strip()) for score, category in matches]", "compilation_passed": false, "time": 0.00021600723266601562, "tests_passed": false, "error": "IndentationError"}
+{"code": " [match for match in matches]", "compilation_passed": false, "time": 0.00013494491577148438, "tests_passed": false, "error": "IndentationError"}
+{"code": " [(int(match[0]), match[1]) for match in matches]", "compilation_passed": false, "time": 0.00015687942504882812, "tests_passed": false, "error": "IndentationError"}
+{"code": " [match[0].strip() for match in matches]", "compilation_passed": false, "time": 0.0002529621124267578, "tests_passed": false, "error": "IndentationError"}

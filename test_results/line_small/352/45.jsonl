@@ -1,0 +1,17 @@
+{"code": " {word: text_dict[word] for word in word_keys}", "compilation_passed": true, "time": 0.03092479705810547, "tests_passed": true, "error": null}
+{"code": " collections.Counter(text_dict)", "compilation_passed": true, "time": 0.008086681365966797, "tests_passed": false, "error": "NameError"}
+{"code": " sorted(text_dict.most_common(top_k), key=lambda x: x[1], reverse=True)", "compilation_passed": true, "time": 0.009622573852539062, "tests_passed": false, "error": "TypeError"}
+{"code": " Counter(text_dict)", "compilation_passed": true, "time": 0.029550790786743164, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.007635831832885742, "tests_passed": false, "error": "ValueError"}
+{"code": " Counter(word_keys)", "compilation_passed": true, "time": 0.02884817123413086, "tests_passed": true, "error": null}
+{"code": " collections.Counter(text_dict).most_common(top_k)", "compilation_passed": true, "time": 0.007246971130371094, "tests_passed": false, "error": "NameError"}
+{"code": " {k: v for k, v in sorted(text_dict.items(), key=lambda x: (-x[1], x[0]))}", "compilation_passed": true, "time": 0.03125715255737305, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.030137062072753906, "tests_passed": true, "error": null}
+{"code": " Counter(text_dict[key] for key in word_keys if key in text_dict)", "compilation_passed": true, "time": 0.030577898025512695, "tests_passed": true, "error": null}
+{"code": " Counter(text_dict).most_common(top_k)", "compilation_passed": true, "time": 0.008332967758178711, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.Counter([key for key in word_keys if key in text_dict])", "compilation_passed": true, "time": 0.007594108581542969, "tests_passed": false, "error": "NameError"}
+{"code": " {word: text_dict[word] for word in word_keys if word in text_dict}", "compilation_passed": true, "time": 0.03399991989135742, "tests_passed": true, "error": null}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.008008003234863281, "tests_passed": false, "error": "NameError"}
+{"code": " {k: v for k, v in text_dict.most_common(top_k)}", "compilation_passed": true, "time": 0.03319883346557617, "tests_passed": true, "error": null}
+{"code": " Counter(text_dict[key] for key in word_keys)", "compilation_passed": true, "time": 0.03574490547180176, "tests_passed": true, "error": null}
+{"code": " dict(Counter(word_keys) & text_dict)", "compilation_passed": true, "time": 0.0316929817199707, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": " df.groupby('Name')", "compilation_passed": true, "time": 0.009537935256958008, "tests_passed": true, "error": null}
+{"code": " df.groupby('Name').mean()", "compilation_passed": true, "time": 0.015146255493164062, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(by='Name').mean()", "compilation_passed": true, "time": 0.009902000427246094, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('Name').aggregate(mean)", "compilation_passed": true, "time": 0.013202905654907227, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(by='Name')", "compilation_passed": true, "time": 0.008697032928466797, "tests_passed": true, "error": null}
+{"code": " df.groupby('Name')['Score'].agg(mean).reset_index()", "compilation_passed": true, "time": 0.011204242706298828, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('Name')['Score'].agg([np.mean])", "compilation_passed": true, "time": 0.01051783561706543, "tests_passed": false, "error": "NameError"}
+{"code": " df.groupby('Name')['Score'].mean()", "compilation_passed": true, "time": 0.010686159133911133, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby('Name', as_index=False)", "compilation_passed": true, "time": 0.009375810623168945, "tests_passed": true, "error": null}

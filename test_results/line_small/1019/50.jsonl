@@ -1,0 +1,21 @@
+{"code": " image.comment", "compilation_passed": true, "time": 0.009689092636108398, "tests_passed": true, "error": null}
+{"code": " codecs.getreader(from_encoding)(image.comment)", "compilation_passed": true, "time": 0.007935047149658203, "tests_passed": true, "error": null}
+{"code": " image.info.get('comment', '')", "compilation_passed": true, "time": 0.010309934616088867, "tests_passed": true, "error": null}
+{"code": " image.comment.split(b'=')[-1].decode(from_encoding).strip()", "compilation_passed": true, "time": 0.012125968933105469, "tests_passed": false, "error": "TypeError"}
+{"code": " image.comment.split(';')[-1]", "compilation_passed": true, "time": 0.011015176773071289, "tests_passed": false, "error": "TypeError"}
+{"code": " image.comment.strip()", "compilation_passed": true, "time": 0.0076291561126708984, "tests_passed": true, "error": null}
+{"code": " image.comment.split(\"/\")[1]", "compilation_passed": true, "time": 0.010620832443237305, "tests_passed": false, "error": "TypeError"}
+{"code": " image.comment.encode('cp1251').decode('utf8')", "compilation_passed": true, "time": 0.007173061370849609, "tests_passed": true, "error": null}
+{"code": " image.comment or \"\"", "compilation_passed": true, "time": 0.008244991302490234, "tests_passed": true, "error": null}
+{"code": " image.comment.split(\";\", 1)[0]  # Try to get the first comment", "compilation_passed": true, "time": 0.012119054794311523, "tests_passed": false, "error": "TypeError"}
+{"code": " image.comment.strip() or image.info[\"comment\"] or \"\"", "compilation_passed": true, "time": 0.007592201232910156, "tests_passed": true, "error": null}
+{"code": " image.info.get(\"comment\", \"\")", "compilation_passed": true, "time": 0.008214950561523438, "tests_passed": true, "error": null}
+{"code": " codecs.decode(image.comment, from_encoding) or \"\"", "compilation_passed": true, "time": 0.009953022003173828, "tests_passed": false, "error": "TypeError"}
+{"code": " image.comment.split(\";\")[0].replace(\"Comment: \", \"\")", "compilation_passed": true, "time": 0.012354135513305664, "tests_passed": false, "error": "TypeError"}
+{"code": " image.comment.decode(from_encoding)", "compilation_passed": true, "time": 0.008179903030395508, "tests_passed": true, "error": null}
+{"code": " codecs.encode(image.comment, from_encoding, to_encoding).decode()", "compilation_passed": true, "time": 0.011822938919067383, "tests_passed": false, "error": "TypeError"}
+{"code": " image.comment.split(';')[1] if image.comment else ''", "compilation_passed": true, "time": 0.012542009353637695, "tests_passed": false, "error": "TypeError"}
+{"code": " image.comment if image.comment is not None else \"\"", "compilation_passed": true, "time": 0.0076389312744140625, "tests_passed": true, "error": null}
+{"code": " image.comment.decode(to_encoding)", "compilation_passed": true, "time": 0.00765681266784668, "tests_passed": true, "error": null}
+{"code": " codecs.getreader(to_encoding)(image.info.get('comment', ''))", "compilation_passed": true, "time": 0.00747990608215332, "tests_passed": true, "error": null}
+{"code": " image.comment.split(\";\")[0]", "compilation_passed": true, "time": 0.012171030044555664, "tests_passed": false, "error": "TypeError"}

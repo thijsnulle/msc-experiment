@@ -1,0 +1,23 @@
+{"code": " np.isnan(np.sum(group1)) == len(group1) or np.isnan(np.sum(group2)) == len(group2):", "compilation_passed": false, "time": 0.0002319812774658203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.any(np.isnan(group1)) or np.any(np.isnan(group2)):", "compilation_passed": false, "time": 0.00020575523376464844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " group1.size == 0 or group2.size == 0 or np.all(np.isnan(group1)) or np.all(np.isnan(group2)):", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not group1.size or np.isnan(group1).all():", "compilation_passed": false, "time": 0.00024890899658203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.all(np.isnan(group1)) or np.all(np.isnan(group2)):", "compilation_passed": false, "time": 0.00032520294189453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.isnan(group1).all() or group1.size == 0 or np.isnan(group2).all() or group2.size == 0:", "compilation_passed": false, "time": 0.0002739429473876953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.all(np.isnan(group1)) or np.all(np.isnan(group2)) or not group1.size or not group2.size:", "compilation_passed": false, "time": 0.00024819374084472656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.isnan(np.nan_count(group1)) or np.isnan(np.nan_count(group2)) or \\", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not len(group1) or np.all(np.isnan(group1)) or len(group2) == 0 or np.all(np.isnan(group2)):", "compilation_passed": false, "time": 0.0002219676971435547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (group1.size == 0) or (group1.size == 1 and np.isnan(group1).all()):", "compilation_passed": false, "time": 0.0002491474151611328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (np.all(np.isnan(group1)) or group1.size < 2 or np.all(np.isnan(group2)) or group2.size < 2):", "compilation_passed": false, "time": 0.0003418922424316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " len(group1) == 0:", "compilation_passed": false, "time": 0.000244140625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.all(np.isnan(group1)) or np.all(np.isnan(group2)) or np.size(group1) < 2 or np.size(group2) < 2 or np.var(group1) < 1e-8 or np.var(group2) < 1e-8:", "compilation_passed": false, "time": 0.0003058910369873047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " len(group1) == 0 or len(group2) == 0:", "compilation_passed": false, "time": 0.00025200843811035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (group1.size == 0) or (group2.size == 0):", "compilation_passed": false, "time": 0.0003371238708496094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " group1.size < 2 or (group1 == group1.max()).all() or (group2 == group2.max()).all():", "compilation_passed": false, "time": 0.0002701282501220703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (len(group1) == 0 or np.isnan(group1).all()", "compilation_passed": false, "time": 0.0002567768096923828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " len(group1) == 0 or (len(group1) == 1 and np.isnan(group1[0])) \\", "compilation_passed": false, "time": 0.00022292137145996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not group1.size or np.all(np.isnan(group1)) or not group2.size or np.all(np.isnan(group2)):", "compilation_passed": false, "time": 0.00022792816162109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (group1.size == 0) or (np.all(np.isnan(group1))):", "compilation_passed": false, "time": 0.00023984909057617188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.all(np.isnan(group1)) or np.all(np.isnan(group2)) or group1.size < 2 or group2.size < 2:", "compilation_passed": false, "time": 0.0003447532653808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.any(np.isnan(group1)) or np.any(np.isnan(group2)) or group1.size == 0 or group2.size == 0:", "compilation_passed": false, "time": 0.0005550384521484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " group1.size == 0 or group2.size == 0:", "compilation_passed": false, "time": 0.00019407272338867188, "tests_passed": false, "error": "SyntaxError"}

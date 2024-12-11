@@ -1,0 +1,4 @@
+{"code": " df.set_index('Date')", "compilation_passed": true, "time": 0.22242212295532227, "tests_passed": true, "error": null}
+{"code": " df.sort_values(by='Date')", "compilation_passed": true, "time": 0.016645193099975586, "tests_passed": false, "error": "TypeError"}
+{"code": " df.sort_values('Date')", "compilation_passed": true, "time": 0.018900156021118164, "tests_passed": false, "error": "TypeError"}
+{"code": " df.sort_values('Date', ascending=True)", "compilation_passed": true, "time": 0.013654947280883789, "tests_passed": false, "error": "TypeError"}

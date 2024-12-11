@@ -1,0 +1,23 @@
+{"code": " re.compile(r\"^\\[?(?P<timestamp>[^]]*)\\]?\\s*?(?P<message>.+)\")", "compilation_passed": true, "time": 0.022477149963378906, "tests_passed": false, "error": "ValueError"}
+{"code": " re.compile(", "compilation_passed": false, "time": 0.0002548694610595703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " r\"(?P<log_type>\\w+): \\[(?P<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})\\] - (?P<message>.*)\"", "compilation_passed": true, "time": 0.017692089080810547, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"(\\w+): \\[(.*?) (.*?)]\\s- (.*)\")", "compilation_passed": true, "time": 0.016943693161010742, "tests_passed": false, "error": "ValueError"}
+{"code": " re.compile(r'\\w+: \\[(.*?)\\] - (.*)')  # regular expression to match the log entry format", "compilation_passed": true, "time": 0.01859307289123535, "tests_passed": false, "error": "ValueError"}
+{"code": " re.compile(r'(\\w+): \\[([\\d]{4}-[\\d]{2}-[\\d]{2} [\\d]{2}:[\\d]{2}:[\\d]{2})] - (.+))')", "compilation_passed": true, "time": 0.019346237182617188, "tests_passed": false, "error": "re.error"}
+{"code": " re.compile(r'(?P<message_type>[A-Z]+): (?P<timestamp>\\d+-\\d+-\\d+ \\d+:\\d+:\\d+) - (?P<message>.*)')", "compilation_passed": true, "time": 0.014514923095703125, "tests_passed": false, "error": "ValueError"}
+{"code": " r\"^(INFO|DEBUG|ERROR): \\[(?P<timestamp>.*?)\\] - (?P<message>.*)\"", "compilation_passed": true, "time": 0.021028995513916016, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"^(\\w+): \\[(.*?)\\] - (.*)$\")", "compilation_passed": true, "time": 0.025948286056518555, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(?P<message_type>\\w+): \\[(?P<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})\\] - (?P<message>.+)')", "compilation_passed": true, "time": 0.023266077041625977, "tests_passed": true, "error": null}
+{"code": " r\"(?P<type>\\S{2,4})\\:(?P<timestamp>\\S{19})\\-(?P<message>.+)\"", "compilation_passed": true, "time": 0.012576103210449219, "tests_passed": false, "error": "ValueError"}
+{"code": " re.compile(r\"^(\\S+):\\s*(?:\\[\\s*(?P<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})\\s*\\])?(?: - (?P<message>.*))?$\")", "compilation_passed": true, "time": 0.0207979679107666, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"(.+): \\[(.+) (.+?)\\] - (.+)\")", "compilation_passed": true, "time": 0.012509822845458984, "tests_passed": false, "error": "ValueError"}
+{"code": " re.compile(r'(ERROR|WARNING|INFO)\\s-\\s(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}) - (.*)')", "compilation_passed": true, "time": 0.020992040634155273, "tests_passed": false, "error": "ValueError"}
+{"code": " re.compile(r'^(\\w+): \\[(.+)\\] - (.*)')", "compilation_passed": true, "time": 0.021456003189086914, "tests_passed": true, "error": null}
+{"code": " r'^(?P<type>[A-Z]+): \\[(?P<timestamp>.*?)\\] - (?P<message>.*)$'", "compilation_passed": true, "time": 0.020987987518310547, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"(\\w+):\\s*\\[\\s*(\\d{4}-\\d{2}-\\d{2}\\s+\\d{2}:\\d{2}:\\d{2})\\s*\\]\\s-?\\s(.*)\")", "compilation_passed": true, "time": 0.03175687789916992, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(?P<type>[A-Z]): \\[(?P<timestamp>[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2})] - (?P<message>.+))')", "compilation_passed": true, "time": 0.013180017471313477, "tests_passed": false, "error": "re.error"}
+{"code": " re.compile(r\"\\w+: \\[(.*?)\\] - (.*)\")", "compilation_passed": true, "time": 0.01540517807006836, "tests_passed": false, "error": "ValueError"}
+{"code": " r'^(\\w+): \\[([\\d\\w:\\-]+)\\] - (.+)$'", "compilation_passed": true, "time": 0.013934850692749023, "tests_passed": false, "error": "ValueError"}
+{"code": " re.compile(r'(?P<message_type>[A-Z]+) .* - (?P<message>.*)')", "compilation_passed": true, "time": 0.01553797721862793, "tests_passed": false, "error": "ValueError"}
+{"code": " re.compile(r\"([^\\s]+)\\s-\\s(.*)\")", "compilation_passed": true, "time": 0.017309904098510742, "tests_passed": false, "error": "ValueError"}
+{"code": " re.compile(r'(?P<type>[A-Z]+)\\: \\[(?P<timestamp>(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})) - )(?P<message>[^\\n].*)\\]')", "compilation_passed": true, "time": 0.013062715530395508, "tests_passed": false, "error": "re.error"}

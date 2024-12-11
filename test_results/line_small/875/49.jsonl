@@ -1,0 +1,4 @@
+{"code": " fill_missing:", "compilation_passed": true, "time": 0.009696006774902344, "tests_passed": true, "error": null}
+{"code": " fill_missing and any(isinstance(elem, int) or isinstance(elem, float) for elem in df.columns):", "compilation_passed": true, "time": 0.010830879211425781, "tests_passed": true, "error": null}
+{"code": " fill_missing and any(pd.isna(elem) for elem in df['Occupation']):", "compilation_passed": true, "time": 0.010372161865234375, "tests_passed": true, "error": null}
+{"code": " fill_missing and df.isnull().any():", "compilation_passed": true, "time": 0.01898336410522461, "tests_passed": false, "error": "ValueError"}

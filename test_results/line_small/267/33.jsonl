@@ -1,0 +1,22 @@
+{"code": " np.zeros(2**20)  # Length of the signal is 2^20", "compilation_passed": true, "time": 0.33795595169067383, "tests_passed": false, "error": "MemoryError"}
+{"code": " np.zeros((sample_rate,), dtype=np.float64)", "compilation_passed": true, "time": 1.6715610027313232, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.cumsum([data.get(key, 0) for key in data])", "compilation_passed": true, "time": 0.14421892166137695, "tests_passed": true, "error": null}
+{"code": " np.array([data[key] for key in sorted(data.keys())])", "compilation_passed": true, "time": 0.14032483100891113, "tests_passed": true, "error": null}
+{"code": " np.zeros(4096, np.float64)", "compilation_passed": true, "time": 1.6482439041137695, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.array([data[key] for key in data.keys()])", "compilation_passed": true, "time": 0.13920283317565918, "tests_passed": true, "error": null}
+{"code": " np.sum([value ** 2 for value in data.values()])", "compilation_passed": true, "time": 0.12885093688964844, "tests_passed": true, "error": null}
+{"code": " np.array([data[key] for key in data])", "compilation_passed": true, "time": 0.5995891094207764, "tests_passed": true, "error": null}
+{"code": " np.array([data[key] if key in data else 0 for key in ['key1', 'key2', 'key3']])", "compilation_passed": true, "time": 0.14379644393920898, "tests_passed": true, "error": null}
+{"code": " np.array(list(data.values()), dtype=np.float64)", "compilation_passed": true, "time": 0.14351391792297363, "tests_passed": true, "error": null}
+{"code": " np.zeros(data['n'])", "compilation_passed": true, "time": 0.004660129547119141, "tests_passed": false, "error": "KeyError"}
+{"code": " []", "compilation_passed": true, "time": 0.00481104850769043, "tests_passed": false, "error": "ValueError"}
+{"code": " [data[key] for key in sorted(data)]", "compilation_passed": true, "time": 0.14458894729614258, "tests_passed": true, "error": null}
+{"code": " sum(value ** 2 for value in data.values())", "compilation_passed": true, "time": 0.1336808204650879, "tests_passed": true, "error": null}
+{"code": " [10**5 * np.exp(-(k**2) / 80000) for k in range(-500, 500)]", "compilation_passed": true, "time": 1.0812811851501465, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.array([data[key] * np.cos(2 * np.pi * sample_rate * 0.5 * freq / sample_rate) for freq in range(8000)])", "compilation_passed": true, "time": 0.006724119186401367, "tests_passed": false, "error": "NameError"}
+{"code": " np.cumsum(list(data.values()))", "compilation_passed": true, "time": 0.14751672744750977, "tests_passed": true, "error": null}
+{"code": " sum(value * np.sin(2 * np.pi * frequency / sample_rate * time)", "compilation_passed": false, "time": 0.00019288063049316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.zeros(256)", "compilation_passed": true, "time": 1.0292258262634277, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.array([data[key] * np.sin(2 * np.pi * freq * sample_rate / sample_rate) for key in data])", "compilation_passed": true, "time": 0.006587982177734375, "tests_passed": false, "error": "NameError"}
+{"code": " np.zeros(256, dtype=np.float32)", "compilation_passed": true, "time": 1.0306010246276855, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sum(value ** 2 for key, value in data.items())", "compilation_passed": true, "time": 0.14762616157531738, "tests_passed": true, "error": null}

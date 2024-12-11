@@ -1,0 +1,8 @@
+{"code": " pd.to_datetime(df['Date'])", "compilation_passed": true, "time": 0.769050121307373, "tests_passed": true, "error": null}
+{"code": " pd.to_datetime(df['Date'], format='%Y-%m-%d')", "compilation_passed": true, "time": 1.0146286487579346, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.to_datetime(df.Date)", "compilation_passed": true, "time": 1.0364799499511719, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df['Date'].dt.strftime(\"%Y-%m-%d\")", "compilation_passed": true, "time": 0.02068305015563965, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['Date'].dt.strftime('%Y-%m-%d')", "compilation_passed": true, "time": 0.014255046844482422, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['Date'].dt.strftime(\"%m/%d/%y\")", "compilation_passed": true, "time": 0.010568857192993164, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.to_datetime(df['Date'], unit='s')", "compilation_passed": true, "time": 0.020426034927368164, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.to_datetime(df['Date'], format='%m/%d/%Y')", "compilation_passed": true, "time": 0.020272254943847656, "tests_passed": false, "error": "    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this."}

@@ -1,0 +1,25 @@
+{"code": " df[col].dtype in (int, float):", "compilation_passed": true, "time": 0.25970911979675293, "tests_passed": true, "error": null}
+{"code": " df[col].dtypes in [int, float, np.float64]:", "compilation_passed": true, "time": 0.06723570823669434, "tests_passed": false, "error": "NameError"}
+{"code": " df[col].dtype == \"int64\" or df[col].dtype == \"float64\":", "compilation_passed": true, "time": 0.25963807106018066, "tests_passed": true, "error": null}
+{"code": " df[col].dtype == \"object\":", "compilation_passed": true, "time": 0.3040430545806885, "tests_passed": true, "error": null}
+{"code": " df[col].dtypes == 'int64':", "compilation_passed": true, "time": 0.2647089958190918, "tests_passed": true, "error": null}
+{"code": " df[col].dtypes == np.object_:", "compilation_passed": true, "time": 0.08085823059082031, "tests_passed": false, "error": "NameError"}
+{"code": " df[col].dtypes == 'object':", "compilation_passed": true, "time": 0.3109922409057617, "tests_passed": true, "error": null}
+{"code": " df[col].dtype == \"int64\" or df[col].dtype == \"uint64\":", "compilation_passed": true, "time": 0.26346898078918457, "tests_passed": true, "error": null}
+{"code": " df[col].dtype.name == \"int64\":", "compilation_passed": true, "time": 0.25834083557128906, "tests_passed": true, "error": null}
+{"code": " df[col].dtype.name == 'category':", "compilation_passed": true, "time": 0.3224000930786133, "tests_passed": true, "error": null}
+{"code": " df[col].dtype in ['int64', 'float64']:", "compilation_passed": true, "time": 0.2714719772338867, "tests_passed": true, "error": null}
+{"code": " df[col].dtype == \"object\" or df[col].dtype == \"category\":", "compilation_passed": true, "time": 0.3173849582672119, "tests_passed": true, "error": null}
+{"code": " df[col].dtypes in [int, float]:", "compilation_passed": true, "time": 0.2630488872528076, "tests_passed": true, "error": null}
+{"code": " pd.api.types.is_numeric_dtype(df[col]):", "compilation_passed": true, "time": 0.28907132148742676, "tests_passed": true, "error": null}
+{"code": " df[col].dtype.name == \"category\":", "compilation_passed": true, "time": 0.32842493057250977, "tests_passed": true, "error": null}
+{"code": " df[col].dtypes == \"int64\":", "compilation_passed": true, "time": 0.26358985900878906, "tests_passed": true, "error": null}
+{"code": " df[col].dtype.name == 'object':  # categorical", "compilation_passed": true, "time": 0.311690092086792, "tests_passed": true, "error": null}
+{"code": " df[col].dtypes.name.startswith('num'):", "compilation_passed": true, "time": 0.3198258876800537, "tests_passed": true, "error": null}
+{"code": " df[col].dtype.name == 'int64':", "compilation_passed": true, "time": 0.2568929195404053, "tests_passed": true, "error": null}
+{"code": " df[col].dtype == 'number':", "compilation_passed": true, "time": 1.0165939331054688, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df[col].dtype == 'int64' or df[col].dtype == 'float64':", "compilation_passed": true, "time": 0.27886223793029785, "tests_passed": true, "error": null}
+{"code": " df[col].dtype == 'object':", "compilation_passed": true, "time": 0.31872987747192383, "tests_passed": true, "error": null}
+{"code": " df[col].dtype.name == \"object\":", "compilation_passed": true, "time": 0.3055269718170166, "tests_passed": true, "error": null}
+{"code": " isinstance(df[col][0], int) or isinstance(df[col][0], float):", "compilation_passed": true, "time": 1.2004129886627197, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df[col].dtype.name == 'object':", "compilation_passed": true, "time": 0.31911301612854004, "tests_passed": true, "error": null}

@@ -1,0 +1,18 @@
+{"code": " \" \".join(sentences)", "compilation_passed": true, "time": 0.0018641948699951172, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s+\", \" \", \" \".join(sentences))", "compilation_passed": true, "time": 0.0019998550415039062, "tests_passed": true, "error": null}
+{"code": " \" \".join(re.sub(r'\\s+', ' ', sentence) for sentence in sentences).lower().strip()", "compilation_passed": true, "time": 0.0018389225006103516, "tests_passed": true, "error": null}
+{"code": " \" \".join(re.sub(\"[^a-zA-Z ]\", \"\", sentence) for sentence in sentences).strip()", "compilation_passed": true, "time": 0.005609989166259766, "tests_passed": true, "error": null}
+{"code": " \" \".join(sentences).strip(\" .\")", "compilation_passed": true, "time": 0.006231069564819336, "tests_passed": true, "error": null}
+{"code": " \" \".join(sentences).replace(\" .\", \".\").replace(\". \", \".\")", "compilation_passed": true, "time": 0.005959987640380859, "tests_passed": true, "error": null}
+{"code": " re.sub(' +', ' ', ' '.join(sentences).strip())", "compilation_passed": true, "time": 0.0018460750579833984, "tests_passed": true, "error": null}
+{"code": " \" \".join(sentences).strip().replace(\" .\", \".\").replace(\". \", \".\")", "compilation_passed": true, "time": 0.005387067794799805, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+[.]', '.', \" \".join(sentences)).strip()", "compilation_passed": true, "time": 0.002192974090576172, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"(\\s+|\\.+)(?=\\s+)\", r\"\", \" \".join(sentences))", "compilation_passed": true, "time": 0.006118059158325195, "tests_passed": true, "error": null}
+{"code": " \" \".join(re.sub(r\"[^\\w\\s]+\", \" \", sentence) for sentence in sentences)", "compilation_passed": true, "time": 0.006801128387451172, "tests_passed": true, "error": null}
+{"code": " \" \".join(sentences).replace(\"  \", \" \").replace(\". \", \".\")", "compilation_passed": true, "time": 0.006021022796630859, "tests_passed": true, "error": null}
+{"code": " \" \".join(sentences).strip()", "compilation_passed": true, "time": 0.0019447803497314453, "tests_passed": true, "error": null}
+{"code": " \" \".join(re.sub(\"[^a-zA-Z0-9]\", \" \", sentence) for sentence in sentences)", "compilation_passed": true, "time": 0.0059359073638916016, "tests_passed": true, "error": null}
+{"code": " \" \".join(sentences).replace(\"  \", \" \").replace(\" .\", \".\").replace(\". \", \".\").lower()", "compilation_passed": true, "time": 0.0059278011322021484, "tests_passed": true, "error": null}
+{"code": " \" \".join(sentences).strip().replace(\"  \", \" \")", "compilation_passed": true, "time": 0.0018649101257324219, "tests_passed": true, "error": null}
+{"code": " \" \".join(re.sub(r\"[^a-zA-Z ]\", \"\", sentence) for sentence in sentences)", "compilation_passed": true, "time": 0.0061719417572021484, "tests_passed": true, "error": null}
+{"code": " \" \".join(sentences).strip().replace(\"..\", \".\")", "compilation_passed": true, "time": 0.0016858577728271484, "tests_passed": true, "error": null}

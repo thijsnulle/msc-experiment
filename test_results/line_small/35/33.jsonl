@@ -1,0 +1,12 @@
+{"code": " df.replace(np.nan, 0)", "compilation_passed": true, "time": 0.014935970306396484, "tests_passed": false, "error": "NameError"}
+{"code": " df.fillna(0)", "compilation_passed": true, "time": 0.15372896194458008, "tests_passed": true, "error": null}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.1554868221282959, "tests_passed": true, "error": null}
+{"code": " df.replace(0, np.nan)", "compilation_passed": true, "time": 0.009507179260253906, "tests_passed": false, "error": "NameError"}
+{"code": " df.replace(target_values, 0)", "compilation_passed": true, "time": 0.14528608322143555, "tests_passed": true, "error": null}
+{"code": " df.replace({col: np.zeros(df.shape[0], dtype='int32')", "compilation_passed": false, "time": 0.0001690387725830078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.replace({'E':target_values}, value=0, inplace=False)", "compilation_passed": true, "time": 0.1544508934020996, "tests_passed": true, "error": null}
+{"code": " df.loc[:, list(df.columns) + list(target_values)]", "compilation_passed": true, "time": 0.017140865325927734, "tests_passed": false, "error": "KeyError"}
+{"code": " df.replace(to_replace=target_values, value=0, regex=False, inplace=False)", "compilation_passed": true, "time": 0.15700101852416992, "tests_passed": true, "error": null}
+{"code": " df.replace({'A': target_values}, axis=0)", "compilation_passed": true, "time": 0.01018977165222168, "tests_passed": false, "error": "TypeError"}
+{"code": " df.replace(target_values, np.nan)", "compilation_passed": true, "time": 0.010912895202636719, "tests_passed": false, "error": "NameError"}
+{"code": " df.replace(to_replace=list(target_values), value=0)", "compilation_passed": true, "time": 0.1552278995513916, "tests_passed": true, "error": null}

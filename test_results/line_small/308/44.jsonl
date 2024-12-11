@@ -1,0 +1,24 @@
+{"code": " df.mean(axis=1)", "compilation_passed": true, "time": 0.045797109603881836, "tests_passed": true, "error": null}
+{"code": " df[FIELDS_ALL].mean(axis=1)", "compilation_passed": true, "time": 0.05242276191711426, "tests_passed": true, "error": null}
+{"code": " df.mean(axis='columns')", "compilation_passed": true, "time": 0.05019092559814453, "tests_passed": true, "error": null}
+{"code": " [mean(row) for row in df[FIELDS_ALL]]", "compilation_passed": true, "time": 0.02766108512878418, "tests_passed": false, "error": "TypeError"}
+{"code": " df.apply(mean, axis=1)", "compilation_passed": true, "time": 0.061058998107910156, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :len(FIELDS)].apply(mean, axis=1)", "compilation_passed": true, "time": 0.06269478797912598, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 5:].apply(mean, axis=1)", "compilation_passed": true, "time": 0.02914881706237793, "tests_passed": true, "error": null}
+{"code": " df[FIELDS_ALL].groupby(level=0).mean()", "compilation_passed": true, "time": 0.019999027252197266, "tests_passed": false, "error": "ValueError"}
+{"code": " [mean(grade) for grade in df[FIELDS].mean(axis=1)]", "compilation_passed": true, "time": 0.022129058837890625, "tests_passed": false, "error": "TypeError"}
+{"code": " [mean(df[field]) for field in FIELDS]", "compilation_passed": true, "time": 0.017129898071289062, "tests_passed": false, "error": "ValueError"}
+{"code": " df[FIELDS].mean(axis=1)", "compilation_passed": true, "time": 0.05014610290527344, "tests_passed": true, "error": null}
+{"code": " df.loc[:, FIELDS_ALL].mean(axis=1)", "compilation_passed": true, "time": 0.062367916107177734, "tests_passed": true, "error": null}
+{"code": " df.loc[:, FIELDS].apply(mean)", "compilation_passed": true, "time": 0.022511959075927734, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: mean(x[FIELDS]), axis=1, result_type='expand')", "compilation_passed": true, "time": 0.20790672302246094, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, FIELDS].apply(lambda x: mean(x), axis=1)", "compilation_passed": true, "time": 0.015214204788208008, "tests_passed": false, "error": "IndexError"}
+{"code": " df[FIELDS].mean(axis = 1)", "compilation_passed": true, "time": 0.05174612998962402, "tests_passed": true, "error": null}
+{"code": " df.loc[STUDENTS].mean(axis=1)", "compilation_passed": true, "time": 0.051300048828125, "tests_passed": true, "error": null}
+{"code": " df[FIELDS_ALL].apply(mean, axis=1)", "compilation_passed": true, "time": 0.06492495536804199, "tests_passed": true, "error": null}
+{"code": " df[FIELDS].apply(mean)", "compilation_passed": true, "time": 0.025433063507080078, "tests_passed": true, "error": null}
+{"code": " df[FIELDS_ALL].sum(axis=1) / len(FIELDS_ALL)", "compilation_passed": true, "time": 0.046523094177246094, "tests_passed": true, "error": null}
+{"code": " df[FIELDS].apply(lambda x: mean(x))", "compilation_passed": true, "time": 0.022220134735107422, "tests_passed": true, "error": null}
+{"code": " df[FIELDS_ALL].apply(mean)", "compilation_passed": true, "time": 0.02072000503540039, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: mean([df[field] for field in x.index]), axis=1)", "compilation_passed": true, "time": 0.026822805404663086, "tests_passed": false, "error": "TypeError"}
+{"code": " df.iloc[:, 1:].apply(mean, axis=1)", "compilation_passed": true, "time": 0.029144763946533203, "tests_passed": true, "error": null}

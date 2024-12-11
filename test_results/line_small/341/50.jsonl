@@ -1,0 +1,11 @@
+{"code": "boxplot(x=df[col], ax=axes[1])", "compilation_passed": true, "time": 0.2647988796234131, "tests_passed": true, "error": null}
+{"code": "boxplot(y=df[col], ax=axes[1])", "compilation_passed": true, "time": 0.2578139305114746, "tests_passed": true, "error": null}
+{"code": "boxplot(x=df[col], ax=axes[1])  # Using seaborn's boxplot for numerical data", "compilation_passed": true, "time": 0.26350998878479004, "tests_passed": true, "error": null}
+{"code": "boxplot(x=df[col], ax=axes[1], showfliers=False)  # Using seaborn's boxplot function for numerical data", "compilation_passed": true, "time": 0.2592959403991699, "tests_passed": true, "error": null}
+{"code": "boxplot(data=df, x=col, y='value')", "compilation_passed": true, "time": 0.17150092124938965, "tests_passed": false, "error": "ValueError"}
+{"code": "boxplot(x=df[col], ax=axes[1], color='#0080FF')", "compilation_passed": true, "time": 0.2635009288787842, "tests_passed": true, "error": null}
+{"code": "boxplot(y=df[col], ax=axes[1])  # Using matplotlib's boxplot function for numerical data", "compilation_passed": true, "time": 0.26790881156921387, "tests_passed": true, "error": null}
+{"code": "boxplot(x=df[col], ax=axes[1])  # Using seaborn's boxplot function for numerical data", "compilation_passed": true, "time": 0.28194212913513184, "tests_passed": true, "error": null}
+{"code": "boxplot(data=df, y=col, ax=axes[1])", "compilation_passed": true, "time": 0.26900386810302734, "tests_passed": true, "error": null}
+{"code": "boxplot(y=df[col], ax=axes[1])  # Using seaborn's boxplot function for numerical data", "compilation_passed": true, "time": 0.27829718589782715, "tests_passed": true, "error": null}
+{"code": "boxplot(x=df[col], ax=axes[1], fliersize=0)", "compilation_passed": true, "time": 0.2818868160247803, "tests_passed": true, "error": null}

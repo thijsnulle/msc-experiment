@@ -1,0 +1,20 @@
+{"code": " np.linspace(start_time, end_time, (end_time - start_time) / step + 1)", "compilation_passed": true, "time": 0.009545326232910156, "tests_passed": false, "error": "TypeError"}
+{"code": " []", "compilation_passed": true, "time": 0.009490966796875, "tests_passed": false, "error": "TypeError"}
+{"code": " np.arange(start_time, end_time, step)", "compilation_passed": true, "time": 0.8461709022521973, "tests_passed": true, "error": null}
+{"code": " list()", "compilation_passed": true, "time": 0.010689020156860352, "tests_passed": false, "error": "TypeError"}
+{"code": " [datetime.datetime.fromtimestamp(start_time/1000.0 + i*step/1000.0).strftime(\"%Y-%m-%d %H:%M:%S.%f\") for i in range((end_time - start_time)//step)]", "compilation_passed": true, "time": 0.010119915008544922, "tests_passed": false, "error": "AttributeError"}
+{"code": " [i for i in np.arange(start_time, end_time, step)]", "compilation_passed": true, "time": 0.874643087387085, "tests_passed": true, "error": null}
+{"code": " [int(start_time + step * x) for x in range(0, (int((end_time - start_time) / step) + 1))]", "compilation_passed": true, "time": 0.8616950511932373, "tests_passed": true, "error": null}
+{"code": " np.linspace(start_time, end_time, int((end_time - start_time) / step) + 1).tolist()", "compilation_passed": true, "time": 0.852625846862793, "tests_passed": true, "error": null}
+{"code": " [start_time + step*i for i in range(int((end_time - start_time)/step) + 1)]", "compilation_passed": true, "time": 0.877730131149292, "tests_passed": true, "error": null}
+{"code": " [datetime.datetime.utcfromtimestamp(start_time + step * i) for i in range((end_time - start_time) // step)]", "compilation_passed": true, "time": 0.010255098342895508, "tests_passed": false, "error": "AttributeError"}
+{"code": " [int(start_time + (i * step)) for i in range((end_time - start_time) // step + 1)]", "compilation_passed": true, "time": 0.8868269920349121, "tests_passed": true, "error": null}
+{"code": " [start_time + i * step for i in range((end_time - start_time) // step)]", "compilation_passed": true, "time": 0.8911542892456055, "tests_passed": true, "error": null}
+{"code": " [start_time]", "compilation_passed": true, "time": 0.43734002113342285, "tests_passed": true, "error": null}
+{"code": " [datetime.fromtimestamp(start_time / 1000.0 + i * step / 1000.0) for i in range(int((end_time - start_time) / step))]", "compilation_passed": true, "time": 0.008546113967895508, "tests_passed": false, "error": "TypeError"}
+{"code": " np.arange(start_time, end_time + step, step)", "compilation_passed": true, "time": 0.8846559524536133, "tests_passed": true, "error": null}
+{"code": " [i for i in range(start_time, end_time, step)]", "compilation_passed": true, "time": 0.8763151168823242, "tests_passed": true, "error": null}
+{"code": " pd.date_range(", "compilation_passed": false, "time": 0.0002598762512207031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(range(start_time, end_time, step))", "compilation_passed": true, "time": 0.897172212600708, "tests_passed": true, "error": null}
+{"code": " [datetime.datetime.fromtimestamp(start_time / 1000.0 + i * step / 1000.0) for i in range(int((end_time - start_time) / step))]", "compilation_passed": true, "time": 0.010261058807373047, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.date_range(start=datetime.fromtimestamp(start_time / 1000),", "compilation_passed": false, "time": 0.0002560615539550781, "tests_passed": false, "error": "SyntaxError"}

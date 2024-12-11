@@ -1,0 +1,17 @@
+{"code": " json.dumps([title], indent=4)", "compilation_passed": true, "time": 0.002341032028198242, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " json.dumps({\"title\": title})", "compilation_passed": true, "time": 0.0020956993103027344, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " {", "compilation_passed": false, "time": 0.000225067138671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {\"title\": title}", "compilation_passed": true, "time": 0.0019040107727050781, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " json.dumps({\"title\": title or \"None\"}, indent=4)", "compilation_passed": true, "time": 0.001689910888671875, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " json.dumps({'title': title})", "compilation_passed": true, "time": 0.0015249252319335938, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " {'url': url, 'title': title}", "compilation_passed": true, "time": 0.001561880111694336, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " {'title': title} if title else {'title': None}", "compilation_passed": true, "time": 0.0019237995147705078, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " {'Title': title}", "compilation_passed": true, "time": 0.0014421939849853516, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " [{\"title\": title}]", "compilation_passed": true, "time": 0.0013089179992675781, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " json.dumps({\"url\": url, \"title\": title})", "compilation_passed": true, "time": 0.0015769004821777344, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " json.dumps(title, indent=4)", "compilation_passed": true, "time": 0.0014688968658447266, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " {'title': title}", "compilation_passed": true, "time": 0.001561880111694336, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " [{", "compilation_passed": false, "time": 0.00017595291137695312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {\"Title\": title}", "compilation_passed": true, "time": 0.0014629364013671875, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " [{'url': url, 'title': title}]", "compilation_passed": true, "time": 0.0013661384582519531, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " json.dumps({\"title\": title}, indent=4)", "compilation_passed": true, "time": 0.0016758441925048828, "tests_passed": false, "error": "No module named 'bs4'"}

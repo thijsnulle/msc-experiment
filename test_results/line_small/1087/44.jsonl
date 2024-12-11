@@ -1,0 +1,12 @@
+{"code": "probplot(sample, dist='norm', plot=plt)", "compilation_passed": true, "time": 0.5700840950012207, "tests_passed": true, "error": null}
+{"code": "probplot(sample, dist=\"norm\", plot=plt.gca())", "compilation_passed": true, "time": 0.6192870140075684, "tests_passed": true, "error": null}
+{"code": "probplot(sample, dist='norm', plot=True)", "compilation_passed": true, "time": 0.055966854095458984, "tests_passed": false, "error": "AttributeError"}
+{"code": "probplot(sample, dist='norm', plot=plt, fit=True, rk=False)", "compilation_passed": true, "time": 0.05259394645690918, "tests_passed": false, "error": "TypeError"}
+{"code": "probplot(sample, plot=True)", "compilation_passed": true, "time": 0.06400704383850098, "tests_passed": false, "error": "AttributeError"}
+{"code": "probplot(sample, dist=\"norm\", plot=plt, fit=False)", "compilation_passed": true, "time": 0.5982351303100586, "tests_passed": true, "error": null}
+{"code": "probplot(sample, dist=\"norm\", plot=plt.figure())", "compilation_passed": true, "time": 0.04758191108703613, "tests_passed": false, "error": "AttributeError"}
+{"code": "probplot(sample, dist=\"norm\", plot=plt)", "compilation_passed": true, "time": 0.5525228977203369, "tests_passed": true, "error": null}
+{"code": "probplot(sample, dist=\"norm\", plot=True)", "compilation_passed": true, "time": 0.054061174392700195, "tests_passed": false, "error": "AttributeError"}
+{"code": "probplot(sample, dist=\"norm\", plot=plt, rool=True)", "compilation_passed": true, "time": 0.07466602325439453, "tests_passed": false, "error": "TypeError"}
+{"code": "probplot(sample, plot=True, dist=stats.norm)", "compilation_passed": true, "time": 0.08279299736022949, "tests_passed": false, "error": "AttributeError"}
+{"code": "probplot(sample, line=True, plot=plt)", "compilation_passed": true, "time": 0.07866501808166504, "tests_passed": false, "error": "TypeError"}

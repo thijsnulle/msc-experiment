@@ -1,0 +1,20 @@
+{"code": " [list(map(lambda x: x.strip(), match)) for match in matches]", "compilation_passed": true, "time": 0.010005950927734375, "tests_passed": false, "error": "ValueError"}
+{"code": " []", "compilation_passed": true, "time": 0.06302404403686523, "tests_passed": true, "error": null}
+{"code": " [tuple(map(lambda x: x.strip(), match.split(\",\"))) for match in matches]", "compilation_passed": true, "time": 0.015443086624145508, "tests_passed": false, "error": "AttributeError"}
+{"code": " [list(map(str.strip, match)) for match in matches]", "compilation_passed": true, "time": 0.00927424430847168, "tests_passed": false, "error": "ValueError"}
+{"code": " [m for m in matches if m is not None]", "compilation_passed": true, "time": 0.008387088775634766, "tests_passed": false, "error": "ValueError"}
+{"code": " [match for match in matches]", "compilation_passed": true, "time": 0.009361982345581055, "tests_passed": false, "error": "ValueError"}
+{"code": " [(name.strip(), email.strip(), age.strip(), country.strip()) for name, email, age, country in matches]", "compilation_passed": true, "time": 0.010941028594970703, "tests_passed": false, "error": "ValueError"}
+{"code": " [re.split(r\", +\", x) for x in matches]", "compilation_passed": true, "time": 0.015839099884033203, "tests_passed": false, "error": "TypeError"}
+{"code": " [", "compilation_passed": false, "time": 0.000209808349609375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [dict(zip(COLUMN_NAMES, match)) for match in matches]", "compilation_passed": true, "time": 0.008764982223510742, "tests_passed": false, "error": "ValueError"}
+{"code": " {}", "compilation_passed": true, "time": 0.008563995361328125, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame([match[0].split(\", \") for match in matches])", "compilation_passed": true, "time": 0.008402347564697266, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame.from_records(matches, columns=COLUMN_NAMES)", "compilation_passed": true, "time": 0.025454044342041016, "tests_passed": false, "error": "ValueError"}
+{"code": " [[cols.strip() for cols in match] for match in matches]", "compilation_passed": true, "time": 0.011441230773925781, "tests_passed": false, "error": "ValueError"}
+{"code": " [{k: v.strip() for k, v in zip(COLUMN_NAMES, m)} for m in matches]", "compilation_passed": true, "time": 0.021214008331298828, "tests_passed": false, "error": "ValueError"}
+{"code": " [tuple(x.strip() for x in y) for y in zip(*matches)]", "compilation_passed": true, "time": 0.020998001098632812, "tests_passed": false, "error": "TypeError"}
+{"code": " [{\"Name\": x[0], \"Email\": x[1], \"Age\": x[2], \"Country\": x[3]} for x in matches]", "compilation_passed": true, "time": 0.01741504669189453, "tests_passed": false, "error": "ValueError"}
+{"code": " [row.split(', ') for row in matches]", "compilation_passed": true, "time": 0.023809194564819336, "tests_passed": false, "error": "AttributeError"}
+{"code": " [{\"Name\": match[0], \"Email\": match[1], \"Age\": match[2], \"Country\": match[3]} for match in matches]", "compilation_passed": true, "time": 0.009959220886230469, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame([[name, email, age, country] for name, email, age, country in matches])", "compilation_passed": true, "time": 0.012559890747070312, "tests_passed": false, "error": "ValueError"}

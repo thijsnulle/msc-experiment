@@ -1,0 +1,13 @@
+{"code": " 0", "compilation_passed": true, "time": 0.00717616081237793, "tests_passed": true, "error": null}
+{"code": " sum([math.pow(elem, 2) for elem in list_])", "compilation_passed": true, "time": 0.00861501693725586, "tests_passed": true, "error": null}
+{"code": " np.sum(list_**2)", "compilation_passed": true, "time": 0.01059412956237793, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(np.square(np.asarray(list_)))", "compilation_passed": true, "time": 0.007222890853881836, "tests_passed": true, "error": null}
+{"code": " 0.", "compilation_passed": true, "time": 0.007130146026611328, "tests_passed": true, "error": null}
+{"code": " np.square(POSSIBLE_NUMBERS[np.array(list_) - 1]).sum()", "compilation_passed": true, "time": 0.010226249694824219, "tests_passed": false, "error": "IndexError"}
+{"code": " 0.0", "compilation_passed": true, "time": 0.007608175277709961, "tests_passed": true, "error": null}
+{"code": " np.sum([n**2 for n in list_])", "compilation_passed": true, "time": 0.006162881851196289, "tests_passed": true, "error": null}
+{"code": " sum(i * i for i in list_)", "compilation_passed": true, "time": 0.005653858184814453, "tests_passed": true, "error": null}
+{"code": " sum([math.pow(x, 2) for x in list_])", "compilation_passed": true, "time": 0.005721092224121094, "tests_passed": true, "error": null}
+{"code": " sum(", "compilation_passed": false, "time": 0.00013709068298339844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.sum(np.square(np.array(list_)))", "compilation_passed": true, "time": 0.0056018829345703125, "tests_passed": true, "error": null}
+{"code": " np.square(np.array(list_)).sum()", "compilation_passed": true, "time": 0.005537986755371094, "tests_passed": true, "error": null}

@@ -1,0 +1,16 @@
+{"code": " list(range(1, 7))", "compilation_passed": true, "time": 0.42481207847595215, "tests_passed": true, "error": null}
+{"code": " (1, 2, 3, 4, 5, 6)", "compilation_passed": true, "time": 0.4562869071960449, "tests_passed": true, "error": null}
+{"code": " range(1, 7)  # Six-sided dice", "compilation_passed": true, "time": 0.46245574951171875, "tests_passed": true, "error": null}
+{"code": " list(range(6 * num_dice + 1))", "compilation_passed": true, "time": 0.5039360523223877, "tests_passed": true, "error": null}
+{"code": " range(1, 7)", "compilation_passed": true, "time": 0.4445788860321045, "tests_passed": true, "error": null}
+{"code": " [1,2,3,4,5,6]", "compilation_passed": true, "time": 0.4735288619995117, "tests_passed": true, "error": null}
+{"code": " range(num_dice * 1, num_dice * 6 + 1)", "compilation_passed": true, "time": 0.5048320293426514, "tests_passed": true, "error": null}
+{"code": " list(range(num_dice * 6 + 1))", "compilation_passed": true, "time": 0.5171341896057129, "tests_passed": true, "error": null}
+{"code": " [1, 2, 3, 4, 5, 6]", "compilation_passed": true, "time": 0.47034621238708496, "tests_passed": true, "error": null}
+{"code": " list(range(1, 6 * num_dice + 1))  # Possible values of the sum of the dice rolls", "compilation_passed": true, "time": 0.5256609916687012, "tests_passed": true, "error": null}
+{"code": " set(range(1, 19))  # 18 values, 2^6 - 1, and 10 for 10000", "compilation_passed": true, "time": 0.013424873352050781, "tests_passed": false, "error": "TypeError"}
+{"code": " set(range(num_dice*1, (num_dice * 6) + 1))", "compilation_passed": true, "time": 0.020090818405151367, "tests_passed": false, "error": "TypeError"}
+{"code": " range(1, 19)", "compilation_passed": true, "time": 0.5449128150939941, "tests_passed": true, "error": null}
+{"code": " range(1, 19) # range(1, 7)", "compilation_passed": true, "time": 0.6223428249359131, "tests_passed": true, "error": null}
+{"code": " range(num_dice * 1, (num_dice + 1) * 6)", "compilation_passed": true, "time": 0.5526978969573975, "tests_passed": true, "error": null}
+{"code": " list(range(1, num_dice * 6 + 1))", "compilation_passed": true, "time": 1.0118436813354492, "tests_passed": false, "error": "TimeoutError"}

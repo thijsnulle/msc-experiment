@@ -1,0 +1,8 @@
+{"code": "scatter(xy_scaled[:, 0], xy_scaled[:, 1], label=labels[i])", "compilation_passed": true, "time": 0.1247258186340332, "tests_passed": true, "error": null}
+{"code": "plot(xy_scaled[:, 0], xy_scaled[:, 1], label=labels[i])", "compilation_passed": true, "time": 0.1513071060180664, "tests_passed": true, "error": null}
+{"code": "plot(xy_scaled, labels[i], marker='o')", "compilation_passed": true, "time": 0.04810905456542969, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(xy_scaled, label=labels[i])", "compilation_passed": true, "time": 0.1699080467224121, "tests_passed": true, "error": null}
+{"code": "plot(x[i], y[i], label=labels[i])", "compilation_passed": true, "time": 0.1542971134185791, "tests_passed": true, "error": null}
+{"code": "plot(x[i], y[i], 'ro', label=labels[i])", "compilation_passed": true, "time": 0.15662693977355957, "tests_passed": true, "error": null}
+{"code": "scatter(xy_scaled[:, 0], xy_scaled[:, 1], label=labels[i])  # Plot scatter plot with labels", "compilation_passed": true, "time": 0.12987184524536133, "tests_passed": true, "error": null}
+{"code": "plot(xy_scaled, labels[i])", "compilation_passed": true, "time": 0.05424618721008301, "tests_passed": false, "error": "ValueError"}

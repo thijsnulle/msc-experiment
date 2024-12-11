@@ -1,0 +1,19 @@
+{"code": " np.isnan(df['value'].iloc[0]) or np.isnan(df['value'].iloc[-1]):", "compilation_passed": true, "time": 0.011439085006713867, "tests_passed": false, "error": "NameError"}
+{"code": " np.any(np.isnan(df['value'])):", "compilation_passed": true, "time": 0.010573148727416992, "tests_passed": false, "error": "NameError"}
+{"code": " df['value'].isna().any():", "compilation_passed": true, "time": 0.28719210624694824, "tests_passed": true, "error": null}
+{"code": " pd.isnull(df['value']).any():", "compilation_passed": true, "time": 0.2786130905151367, "tests_passed": true, "error": null}
+{"code": " df['value'].isnull().any() or not df['value'].notna().all():", "compilation_passed": true, "time": 0.3115050792694092, "tests_passed": true, "error": null}
+{"code": " df['value'].isnull().any():", "compilation_passed": true, "time": 0.2857499122619629, "tests_passed": true, "error": null}
+{"code": " df.isnull().values.any():", "compilation_passed": true, "time": 0.288053035736084, "tests_passed": true, "error": null}
+{"code": " pd.isna(df['value']).any() or df['value'].dtypes != 'int64':", "compilation_passed": true, "time": 0.2905900478363037, "tests_passed": true, "error": null}
+{"code": " df['value'].isna().any() or df['value'].dtype != 'int64':", "compilation_passed": true, "time": 0.28833723068237305, "tests_passed": true, "error": null}
+{"code": " not df['value'].isin([-np.inf, np.inf]).all():", "compilation_passed": true, "time": 0.010404109954833984, "tests_passed": false, "error": "NameError"}
+{"code": " df['value'].isnull().any() or pd.isna(df['value']).any():", "compilation_passed": true, "time": 0.2877182960510254, "tests_passed": true, "error": null}
+{"code": " pd.isnull(df).any():", "compilation_passed": true, "time": 0.019086122512817383, "tests_passed": false, "error": "ValueError"}
+{"code": " (df['value'].isna()).any():", "compilation_passed": true, "time": 0.3200409412384033, "tests_passed": true, "error": null}
+{"code": " np.isnan(df['value'].values).any():", "compilation_passed": true, "time": 0.01263570785522461, "tests_passed": false, "error": "NameError"}
+{"code": " df['value'].isnull().any() or df['value'].dtypes != 'float64':", "compilation_passed": true, "time": 0.010597944259643555, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.isna(df['value'].iloc[0]).any():", "compilation_passed": true, "time": 0.014827966690063477, "tests_passed": false, "error": "AttributeError"}
+{"code": " not df['value'].isin().all():", "compilation_passed": true, "time": 0.011471033096313477, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.isnull(df['value']).any() or not df['value'].dtype.name.lower() in ['int64', 'float64']:", "compilation_passed": true, "time": 0.32020092010498047, "tests_passed": true, "error": null}
+{"code": " (df['value'].isna() | pd.isna(df['value'])).any():", "compilation_passed": true, "time": 0.30318284034729004, "tests_passed": true, "error": null}

@@ -1,0 +1,4 @@
+{"code": "append(sentence)", "compilation_passed": true, "time": 0.0017390251159667969, "tests_passed": true, "error": null}
+{"code": "append(sentence.lower())", "compilation_passed": true, "time": 0.001806020736694336, "tests_passed": true, "error": null}
+{"code": "append(sentence.replace(\". \", \" \"))", "compilation_passed": true, "time": 0.001901865005493164, "tests_passed": true, "error": null}
+{"code": "append(re.sub(r'\\W', \"\", sentence))", "compilation_passed": true, "time": 0.006824016571044922, "tests_passed": true, "error": null}

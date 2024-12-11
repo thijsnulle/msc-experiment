@@ -1,0 +1,16 @@
+{"code": " df.plot.bar(x=\"value\", y=\"count\")", "compilation_passed": true, "time": 0.014339923858642578, "tests_passed": false, "error": "KeyError"}
+{"code": " df.plot.bar()", "compilation_passed": true, "time": 0.20525193214416504, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"bar\", rot=0)", "compilation_passed": true, "time": 0.2176060676574707, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(rot=90, rot_count=0)", "compilation_passed": true, "time": 0.06849384307861328, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot.bar(y=1)", "compilation_passed": true, "time": 0.016878128051757812, "tests_passed": false, "error": "KeyError"}
+{"code": " df.plot.bar(rot=0)", "compilation_passed": true, "time": 0.21397995948791504, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(figsize=(12, 6), title='Duplicate Rows')", "compilation_passed": true, "time": 0.24039077758789062, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='bar', rot=0)", "compilation_passed": true, "time": 0.19603681564331055, "tests_passed": true, "error": null}
+{"code": " plt.bar(df.index.values, df.values, align=\"center\")", "compilation_passed": true, "time": 0.08079099655151367, "tests_passed": false, "error": "TypeError"}
+{"code": " df.plot.bar(y=df.columns[0])", "compilation_passed": true, "time": 0.214796781539917, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='bar')", "compilation_passed": true, "time": 0.215576171875, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='Value', y='Count', figsize=(12, 6), title='Duplicate Rows', grid=True)", "compilation_passed": true, "time": 0.014635086059570312, "tests_passed": false, "error": "KeyError"}
+{"code": " plt.bar(df.columns, df.iloc[:,0], width=0.4, align=\"center\",", "compilation_passed": false, "time": 0.00037407875061035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.bar(df.columns, df.values)", "compilation_passed": true, "time": 0.06344914436340332, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.bar(range(len(df)), df.iloc[:, 0], color='red')", "compilation_passed": true, "time": 1.0562613010406494, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.plot(kind='bar', rot=90, title='Duplicate Rows')", "compilation_passed": true, "time": 0.22122645378112793, "tests_passed": true, "error": null}

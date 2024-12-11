@@ -1,0 +1,17 @@
+{"code": "set_title(f\"Normalized Data of {last_col_name}\")", "compilation_passed": true, "time": 0.1074991226196289, "tests_passed": true, "error": null}
+{"code": "set(title=f'Normalized Data of {last_col_name}', xlabel='Index', ylabel='Normalized Value')", "compilation_passed": true, "time": 0.5906651020050049, "tests_passed": true, "error": null}
+{"code": "bar(normalized_df.index, normalized_df.iloc[:, -1],", "compilation_passed": false, "time": 0.00028204917907714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_title('Normalized Data of %s' % last_col_name)", "compilation_passed": true, "time": 0.11134099960327148, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(len(normalized_df)), normalized_values, width=1)", "compilation_passed": true, "time": 0.04275202751159668, "tests_passed": false, "error": "TypeError"}
+{"code": "hist(normalized_df[last_col_name], bins=20)", "compilation_passed": true, "time": 0.15414190292358398, "tests_passed": true, "error": null}
+{"code": "set(title='Normalized Data',", "compilation_passed": false, "time": 0.00026917457580566406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "bar(df.index, normalized_df[last_col_name])", "compilation_passed": true, "time": 0.32512688636779785, "tests_passed": true, "error": null}
+{"code": "set_title(f'Normalized Data of {last_col_name}')", "compilation_passed": true, "time": 0.11290287971496582, "tests_passed": true, "error": null}
+{"code": "hist(normalized_df[last_col_name], bins=bins, density=True)", "compilation_passed": true, "time": 0.03328728675842285, "tests_passed": false, "error": "NameError"}
+{"code": "hist(normalized_df[last_col_name], bins=20, label=last_col_name)", "compilation_passed": true, "time": 0.1585249900817871, "tests_passed": true, "error": null}
+{"code": "plot(normalized_df[last_col_name])", "compilation_passed": true, "time": 0.1163172721862793, "tests_passed": true, "error": null}
+{"code": "hist(normalized_df[last_col_name], bins=bins, density=True, histtype='stepfilled', color='gray', alpha=0.75)", "compilation_passed": true, "time": 0.03477668762207031, "tests_passed": false, "error": "NameError"}
+{"code": "set_title('Normalized Data of ' + last_col_name)", "compilation_passed": true, "time": 0.11408209800720215, "tests_passed": true, "error": null}
+{"code": "bar(normalized_df[last_col_name], color='blue')", "compilation_passed": true, "time": 0.0362091064453125, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(normalized_df[last_col_name], label=f'Normalized Data of {last_col_name}')", "compilation_passed": true, "time": 0.11872005462646484, "tests_passed": true, "error": null}
+{"code": "bar(range(len(df)), normalized_df[last_col_name], width=0.4)", "compilation_passed": true, "time": 0.33165812492370605, "tests_passed": true, "error": null}

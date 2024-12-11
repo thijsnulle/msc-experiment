@@ -1,0 +1,7 @@
+{"code": "set_xlabel(\"Values\")", "compilation_passed": true, "time": 0.2152860164642334, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Distribution of values in {column_name}\")", "compilation_passed": true, "time": 0.21023011207580566, "tests_passed": true, "error": null}
+{"code": "set(", "compilation_passed": false, "time": 0.0002880096435546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_xticks(df[column_name].unique())", "compilation_passed": true, "time": 0.21637892723083496, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(0, len(df[column_name].unique()), 2))", "compilation_passed": true, "time": 0.09279990196228027, "tests_passed": false, "error": "NameError"}
+{"code": "set_xticks(list(df[column_name].unique()))", "compilation_passed": true, "time": 0.24591612815856934, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([str(x) for x in df[column_name].unique()])", "compilation_passed": true, "time": 0.23804497718811035, "tests_passed": true, "error": null}

@@ -1,0 +1,18 @@
+{"code": " combined_df.drop_duplicates()", "compilation_passed": true, "time": 0.014684915542602539, "tests_passed": true, "error": null}
+{"code": " combined_df.loc[combined_df.isin(dataframes[0]).any(axis=1), :]", "compilation_passed": true, "time": 0.013966083526611328, "tests_passed": true, "error": null}
+{"code": " combined_df.drop_duplicates(keep='first', ignore_index=True)", "compilation_passed": true, "time": 0.013645172119140625, "tests_passed": true, "error": null}
+{"code": " combined_df[combined_df.groupby(list(col_names)).size() > 1]", "compilation_passed": true, "time": 0.01812601089477539, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " combined_df.loc[combined_df.drop_duplicates().index].reset_index(drop=True)", "compilation_passed": true, "time": 0.013916015625, "tests_passed": true, "error": null}
+{"code": " combined_df[combined_df.duplicated()]", "compilation_passed": true, "time": 0.013435840606689453, "tests_passed": true, "error": null}
+{"code": " combined_df[combined_df.apply(lambda row: len(row.dropna()) == 3, axis=1).all()]", "compilation_passed": true, "time": 0.01985001564025879, "tests_passed": false, "error": "KeyError"}
+{"code": " combined_df.iloc[0:3]", "compilation_passed": true, "time": 0.009279966354370117, "tests_passed": true, "error": null}
+{"code": " combined_df.drop_duplicates().reset_index(drop=True)", "compilation_passed": true, "time": 0.01363515853881836, "tests_passed": true, "error": null}
+{"code": " combined_df.drop_duplicates(keep='first')", "compilation_passed": true, "time": 0.013257980346679688, "tests_passed": true, "error": null}
+{"code": " combined_df.drop_duplicates().sort_index()", "compilation_passed": true, "time": 0.013859033584594727, "tests_passed": true, "error": null}
+{"code": " combined_df.groupby(list(combined_df.columns)).first().reset_index(drop=True)", "compilation_passed": true, "time": 0.011285066604614258, "tests_passed": true, "error": null}
+{"code": " combined_df[pd.Series(dataframes).all(axis=1)]", "compilation_passed": true, "time": 0.01998424530029297, "tests_passed": false, "error": "ValueError"}
+{"code": " combined_df.loc[combined_df.apply(lambda x: all(x == x[0]), axis=1)]", "compilation_passed": true, "time": 0.009869813919067383, "tests_passed": true, "error": null}
+{"code": " combined_df.iloc[0:3, :]", "compilation_passed": true, "time": 0.009445905685424805, "tests_passed": true, "error": null}
+{"code": " combined_df[combined_df.drop_duplicates().columns].values", "compilation_passed": true, "time": 0.009216070175170898, "tests_passed": false, "error": "AttributeError"}
+{"code": " combined_df.loc[combined_df.isin(dataframes[0]).any(axis=1)]", "compilation_passed": true, "time": 0.010666131973266602, "tests_passed": true, "error": null}
+{"code": " pd.common_index(dataframes)", "compilation_passed": true, "time": 0.008706092834472656, "tests_passed": false, "error": "AttributeError"}

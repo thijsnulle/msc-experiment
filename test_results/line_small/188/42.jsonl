@@ -1,0 +1,11 @@
+{"code": "append((location, value['Lat'], value['Lon']))", "compilation_passed": true, "time": 0.02264714241027832, "tests_passed": false, "error": "KeyError"}
+{"code": "append(value)", "compilation_passed": true, "time": 0.04050779342651367, "tests_passed": false, "error": "KeyError"}
+{"code": "append((location, (value['Lat'], value['Lon'])))", "compilation_passed": true, "time": 0.013360977172851562, "tests_passed": false, "error": "KeyError"}
+{"code": "append([value['Lat'], value['Lon'], location])", "compilation_passed": true, "time": 0.013785839080810547, "tests_passed": false, "error": "KeyError"}
+{"code": "append((location, (float(value['Lat']), float(value['Lon']))))", "compilation_passed": true, "time": 0.013295888900756836, "tests_passed": false, "error": "KeyError"}
+{"code": "append((location, value))", "compilation_passed": true, "time": 0.013387918472290039, "tests_passed": false, "error": "KeyError"}
+{"code": "append({location: value})", "compilation_passed": true, "time": 0.015205860137939453, "tests_passed": false, "error": "ValueError"}
+{"code": "append([value['Lat'], value['Lon']])", "compilation_passed": true, "time": 0.015071868896484375, "tests_passed": false, "error": "KeyError"}
+{"code": "append({'loc': [value['Lat'], value['Lon']], 'popup': f\"{location} - coordinates\"})", "compilation_passed": true, "time": 0.014878034591674805, "tests_passed": false, "error": "ValueError"}
+{"code": "append((location, {'Lat': value['Lat'], 'Lon': value['Lon']}))", "compilation_passed": true, "time": 0.013241052627563477, "tests_passed": false, "error": "KeyError"}
+{"code": "append({", "compilation_passed": false, "time": 0.00025916099548339844, "tests_passed": false, "error": "SyntaxError"}

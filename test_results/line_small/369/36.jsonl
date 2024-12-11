@@ -1,0 +1,11 @@
+{"code": " np.exp(-(x - mu) ** 2 / (2 * std ** 2)) / np.sqrt(2 * np.pi) / std", "compilation_passed": true, "time": 0.14176201820373535, "tests_passed": true, "error": null}
+{"code": " stats.norm.pdf(x, mu, std)", "compilation_passed": true, "time": 0.1443769931793213, "tests_passed": true, "error": null}
+{"code": " plt.plot(x, stats.norm.pdf(x, mu, std), 'r-', lw=2)", "compilation_passed": true, "time": 0.04283499717712402, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.plot(x, stats.norm.pdf(x, mu, std), 'k')", "compilation_passed": true, "time": 0.03749704360961914, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.plot(x, stats.norm.pdf(x, mu, std), 'r-')", "compilation_passed": true, "time": 0.03619718551635742, "tests_passed": false, "error": "ValueError"}
+{"code": " np.exp(-(x - mu)**2 / (2 * std**2)) / (std * np.sqrt(2 * np.pi))", "compilation_passed": true, "time": 0.1488330364227295, "tests_passed": true, "error": null}
+{"code": " plt.plot(x, stats.norm.pdf(x, mu, std), 'r', alpha=0.5, label=r'$\\mu = {}$,  $\\sigma = {}$'.format(round(mu, 2), round(std, 2)))", "compilation_passed": true, "time": 0.03896808624267578, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.plot(x, stats.norm.pdf(x, mu, std), color='r', alpha=0.5, linewidth=2, label='pdf')", "compilation_passed": true, "time": 0.03950810432434082, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.plot(x, stats.norm.pdf(x, mu, std), color='g', linewidth=3, linestyle='--')", "compilation_passed": true, "time": 0.03923797607421875, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.plot(x, stats.norm.pdf(x, mu, std))", "compilation_passed": true, "time": 0.0380861759185791, "tests_passed": false, "error": "ValueError"}
+{"code": " ax.plot(x, stats.norm.pdf(x, mu, std), color='r', alpha=0.5, linewidth=2)", "compilation_passed": true, "time": 0.04256296157836914, "tests_passed": false, "error": "ValueError"}

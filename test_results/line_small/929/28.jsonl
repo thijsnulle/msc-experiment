@@ -1,0 +1,7 @@
+{"code": " stats.entropy(difference, base=2)", "compilation_passed": true, "time": 0.0072040557861328125, "tests_passed": true, "error": null}
+{"code": " stats.entropy(difference)", "compilation_passed": true, "time": 0.0043010711669921875, "tests_passed": true, "error": null}
+{"code": " stats.entropy(difference.reshape(-1, len(difference)))", "compilation_passed": true, "time": 0.012578010559082031, "tests_passed": false, "error": "ValueError"}
+{"code": " stats.entropy(difference.astype(int))", "compilation_passed": true, "time": 0.0041658878326416016, "tests_passed": true, "error": null}
+{"code": " stats.entropy(difference.astype(float), base=2)", "compilation_passed": true, "time": 0.006222963333129883, "tests_passed": true, "error": null}
+{"code": " -np.sum(difference * np.log(difference))", "compilation_passed": true, "time": 0.0073108673095703125, "tests_passed": true, "error": null}
+{"code": " stats.entropy(difference.astype(float))", "compilation_passed": true, "time": 0.004481792449951172, "tests_passed": true, "error": null}

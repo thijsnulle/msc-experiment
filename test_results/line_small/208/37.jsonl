@@ -1,0 +1,19 @@
+{"code": " np.random.randint(2, size=elements) * 2 - 1  # Generate random steps", "compilation_passed": true, "time": 0.4049079418182373, "tests_passed": true, "error": null}
+{"code": " np.random.choice([-1, 1], elements)", "compilation_passed": true, "time": 0.412614107131958, "tests_passed": true, "error": null}
+{"code": " np.zeros(elements, dtype=np.int)", "compilation_passed": true, "time": 0.01081705093383789, "tests_passed": false, "error": "    https"}
+{"code": " []", "compilation_passed": true, "time": 0.08494901657104492, "tests_passed": true, "error": null}
+{"code": " np.random.randint(-1, 2, elements)", "compilation_passed": true, "time": 0.06840705871582031, "tests_passed": true, "error": null}
+{"code": " np.random.choice([-1, 1], elements, p=[1.0 / 3, 2.0 / 3])", "compilation_passed": true, "time": 0.11366391181945801, "tests_passed": true, "error": null}
+{"code": " np.random.choice([-1, 1], elements, replace=True)", "compilation_passed": true, "time": 0.3960120677947998, "tests_passed": true, "error": null}
+{"code": " np.random.randint(-1, 1, elements)", "compilation_passed": true, "time": 0.06952595710754395, "tests_passed": true, "error": null}
+{"code": " [1 if np.random.rand() > 0.5 else -1 for _ in range(elements)]", "compilation_passed": true, "time": 0.06870079040527344, "tests_passed": true, "error": null}
+{"code": " np.random.choice([-1, 1], size=elements)", "compilation_passed": true, "time": 0.43209409713745117, "tests_passed": true, "error": null}
+{"code": " 2 * np.random.choice([-1, 1], elements, p=[0.5, 0.5])", "compilation_passed": true, "time": 0.06959795951843262, "tests_passed": true, "error": null}
+{"code": " 2 * np.random.randint(-1, 1, elements)", "compilation_passed": true, "time": 0.09704279899597168, "tests_passed": true, "error": null}
+{"code": " np.random.choice([1, -1], elements)", "compilation_passed": true, "time": 0.07117009162902832, "tests_passed": true, "error": null}
+{"code": " 2 * (np.random.randint(2, size=elements) - 1)  # Generate random steps", "compilation_passed": true, "time": 0.06922602653503418, "tests_passed": true, "error": null}
+{"code": " np.random.randint(2, size=elements)", "compilation_passed": true, "time": 0.13361883163452148, "tests_passed": true, "error": null}
+{"code": " np.random.choice([-1, 1], elements, p=[0.5, 0.5])", "compilation_passed": true, "time": 0.06844806671142578, "tests_passed": true, "error": null}
+{"code": " [1 if np.random.choice([0, 1], p=[0.5, 0.5]) == 1 else -1 for i in range(elements)]", "compilation_passed": true, "time": 0.07200407981872559, "tests_passed": true, "error": null}
+{"code": " 2 * np.random.randint(0, 2, elements, dtype=int) - 1", "compilation_passed": true, "time": 0.3960757255554199, "tests_passed": true, "error": null}
+{"code": " 2 * elements * (np.random.random_sample((elements,)) > 0.5) - 1", "compilation_passed": true, "time": 0.10337305068969727, "tests_passed": true, "error": null}

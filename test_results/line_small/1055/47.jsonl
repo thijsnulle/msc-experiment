@@ -1,0 +1,29 @@
+{"code": "State{i+1}\": [c+\":\"+s for c, s in combinations[:num_columns*i]]", "compilation_passed": false, "time": 0.0001881122589111328, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {col + 1}\": [item[0] + \":\" + item[1] for item in combinations[col:col + num_columns]]", "compilation_passed": false, "time": 0.00020933151245117188, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i + 1}\": [\"\".join(combination) for combination in combinations[i:i + num_columns] if combination]", "compilation_passed": false, "time": 0.00018215179443359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i}\": list(itertools.product(*combinations[:i]))", "compilation_passed": false, "time": 0.00020885467529296875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i + 1}\": [f\"{color}:{state}\" for color, state in combinations[: i + 1] if color and state]", "compilation_passed": false, "time": 0.00023102760314941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i}\": list(map(lambda c: f\"{c},{s}\", combinations[i*num_columns: (i+1)*num_columns]))", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State_{i + 1}\": [item[0] + \": \" + item[1] for item in combinations[i * num_columns:(i + 1) * num_columns]]", "compilation_passed": false, "time": 0.0003731250762939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i + 1}\": [", "compilation_passed": true, "time": 0.0027539730072021484, "tests_passed": true, "error": null}
+{"code": "State {i}\": [\" \".join(combo) for combo in combinations[i:i + num_columns] if combo[0] is not None]", "compilation_passed": false, "time": 0.00019216537475585938, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i + 1}\": \" \".join(combination)", "compilation_passed": false, "time": 0.0001709461212158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i + 1}\": [f\"{color}:{state}\" for color, state in combinations[i * num_columns:(i + 1) * num_columns]]", "compilation_passed": false, "time": 0.00021409988403320312, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i+1}\": [f\"{color}:{state}\" for color, state in combinations[i:i+num_columns] if color or state]", "compilation_passed": false, "time": 0.0002219676971435547, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i}\": [", "compilation_passed": true, "time": 0.014988899230957031, "tests_passed": false, "error": "KeyError"}
+{"code": "State {i + 1}\": [f\"{color}:{state}\" for color, state in combinations[:num_columns]]", "compilation_passed": false, "time": 0.0001900196075439453, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State_{i + 1}\": [", "compilation_passed": true, "time": 0.014808893203735352, "tests_passed": false, "error": "KeyError"}
+{"code": "State_{i}\": [f\"{c}:{s}\" for (c, s) in combinations[:(num_columns * i)]", "compilation_passed": false, "time": 0.000186920166015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State{i}\": [f\"{color}:{state}\" for color, state in combinations[i::num_columns] if color]", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State_{i}\": \"\\t\".join(combination) for i, combination in enumerate(combinations[:num_columns*2])", "compilation_passed": false, "time": 0.00025200843811035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {col + 1}\": [", "compilation_passed": true, "time": 0.009129047393798828, "tests_passed": false, "error": "NameError"}
+{"code": "State {i}\": [c + \": \" + s for c, s in combinations[:num_columns * i]]", "compilation_passed": false, "time": 0.00017833709716796875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State_{col+1}\": [c + ':' + s for c, s in combinations]", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State_{i + 1}\": combinations[:num_columns * (i + 1)]", "compilation_passed": false, "time": 0.00016379356384277344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i}\": [combo[0] + \": \" + combo[1] for combo in combinations[i * num_columns:i * num_columns + num_columns]]", "compilation_passed": false, "time": 0.00018906593322753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {col + 1}\": [f\"{color}:{state}\" for color, state in combinations[col]", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i+1}\": [", "compilation_passed": true, "time": 0.0029420852661132812, "tests_passed": true, "error": null}
+{"code": "State {i}\": [col + ':' + state for col, state in combinations[i::num_columns]]", "compilation_passed": false, "time": 0.00020003318786621094, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i + 1}\": pd.Series(", "compilation_passed": false, "time": 0.00011491775512695312, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i+1}\": \" \".join([f\"{color}:{state}\" for color, state in combinations[i*num_columns:(i+1)*num_columns]])", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "State {i+1}\": [c + \":\" + s for (c, s) in combinations[i*num_columns:(i+1)*num_columns]]", "compilation_passed": false, "time": 0.00018978118896484375, "tests_passed": false, "error": "SyntaxError"}

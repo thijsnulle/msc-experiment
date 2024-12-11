@@ -1,0 +1,2 @@
+{"code": " df.replace(dct)", "compilation_passed": true, "time": 0.009813070297241211, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: dct[x] if x in dct else x)", "compilation_passed": true, "time": 0.00992584228515625, "tests_passed": true, "error": null}

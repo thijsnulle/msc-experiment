@@ -1,0 +1,10 @@
+{"code": " df[df['Word'].str.lower().str.match(regex)]", "compilation_passed": true, "time": 0.023881912231445312, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.contains(regex)]", "compilation_passed": true, "time": 0.023260831832885742, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.match(regex)]", "compilation_passed": true, "time": 0.024173736572265625, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].apply(lambda x: re.match(regex, x))]", "compilation_passed": true, "time": 0.01827383041381836, "tests_passed": false, "error": "NameError"}
+{"code": " df[df['Word'].apply(lambda x: re.search(regex, x))]", "compilation_passed": true, "time": 0.012063980102539062, "tests_passed": false, "error": "NameError"}
+{"code": " df.loc[df['Word'].str.contains(regex)]", "compilation_passed": true, "time": 0.025063037872314453, "tests_passed": true, "error": null}
+{"code": " df.loc[df['Word'].str.match(regex)]", "compilation_passed": true, "time": 0.023820161819458008, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.lower().str.contains(regex)]", "compilation_passed": true, "time": 0.024473905563354492, "tests_passed": true, "error": null}
+{"code": " df[df[\"Word\"].str.match(regex)]", "compilation_passed": true, "time": 0.023591041564941406, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].apply(lambda x: bool(re.match(regex, x)))]", "compilation_passed": true, "time": 0.012277841567993164, "tests_passed": false, "error": "NameError"}

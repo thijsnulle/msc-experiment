@@ -1,0 +1,27 @@
+{"code": " int(np.random.randint(1, max_range)) if city in CITIES else -1", "compilation_passed": true, "time": 0.2852449417114258, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, max_range) if city in CITIES else -1", "compilation_passed": true, "time": 0.275738000869751, "tests_passed": true, "error": null}
+{"code": " np.random.choice(CITIES) if city in CITIES else -1", "compilation_passed": true, "time": 0.06198596954345703, "tests_passed": false, "error": "TypeError"}
+{"code": " np.random.randint(1, max_range + 1) if city in city_dict.values() else -1", "compilation_passed": true, "time": 0.18499207496643066, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, max_range) if city in CITIES else -1 for city in city_dict", "compilation_passed": true, "time": 0.10343599319458008, "tests_passed": true, "error": null}
+{"code": " random.randint(1, max_range)", "compilation_passed": true, "time": 0.012688875198364258, "tests_passed": false, "error": "NameError"}
+{"code": " random.randint(1, max_range) if city in city_dict.values() else -1 for city in CITIES", "compilation_passed": true, "time": 0.013697147369384766, "tests_passed": false, "error": "NameError"}
+{"code": " np.random.randint(1, max_range + 1) if city in CITIES else -1 for city in city_dict.values()", "compilation_passed": true, "time": 0.8743600845336914, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, max_range) if city in CITIES else -1 for city, _ in city_dict.items()", "compilation_passed": true, "time": 0.10944414138793945, "tests_passed": true, "error": null}
+{"code": " np.random.choice(max_range) if city in CITIES else -1 for city in CITIES", "compilation_passed": true, "time": 0.10683202743530273, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, max_range + 1) if city in CITIES else -1", "compilation_passed": true, "time": 0.28090596199035645, "tests_passed": true, "error": null}
+{"code": " np.random.choice(list(city_dict.values()))", "compilation_passed": true, "time": 0.059458017349243164, "tests_passed": false, "error": "TypeError"}
+{"code": " int(np.random.uniform(0, max_range) if city in CITIES else -1)", "compilation_passed": true, "time": 0.10489487648010254, "tests_passed": true, "error": null}
+{"code": " int(np.random.uniform(1, max_range)) if city in city_dict else -1", "compilation_passed": true, "time": 0.10046815872192383, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, max_range) if city in CITIES else -1 for city in CITIES", "compilation_passed": true, "time": 0.10213494300842285, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, max_range + 1) if city in CITIES else -1 for city in CITIES", "compilation_passed": true, "time": 0.1135408878326416, "tests_passed": true, "error": null}
+{"code": " random.choice(max_range if city in CITIES else -1)", "compilation_passed": true, "time": 0.013103723526000977, "tests_passed": false, "error": "NameError"}
+{"code": " np.random.randint(1, max_range, size=None) if city in CITIES else -1 for city in CITIES", "compilation_passed": true, "time": 0.10913300514221191, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, max_range) if city in CITIES else -1", "compilation_passed": true, "time": 0.11414504051208496, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, max_range) if city in city_dict.values() else -1 for city in CITIES", "compilation_passed": true, "time": 0.1009531021118164, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, max_range) if city in city_dict.values() else -1", "compilation_passed": true, "time": 0.20709562301635742, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, max_range)", "compilation_passed": true, "time": 0.20409393310546875, "tests_passed": true, "error": null}
+{"code": " int(np.random.randint(1, max_range + 1)) if city in CITIES else -1 for city in CITIES", "compilation_passed": true, "time": 0.10864901542663574, "tests_passed": true, "error": null}
+{"code": " (np.random.randint(1, max_range) if city in CITIES else -1)", "compilation_passed": true, "time": 0.325610876083374, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=1, high=max_range) if city in CITIES else -1", "compilation_passed": true, "time": 0.33285999298095703, "tests_passed": true, "error": null}
+{"code": " int(", "compilation_passed": false, "time": 0.00016880035400390625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.randint(1, max_range+1) if city in CITIES else -1", "compilation_passed": true, "time": 0.30877208709716797, "tests_passed": true, "error": null}

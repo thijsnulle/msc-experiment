@@ -1,0 +1,6 @@
+{"code": " [c for c in required_columns if c not in df.columns]", "compilation_passed": true, "time": 0.6608321666717529, "tests_passed": true, "error": null}
+{"code": " set(required_columns) - set(df.columns)", "compilation_passed": true, "time": 0.08153486251831055, "tests_passed": true, "error": null}
+{"code": " [col for col in required_columns if col not in df.columns]", "compilation_passed": true, "time": 0.08159899711608887, "tests_passed": true, "error": null}
+{"code": " [column for column in required_columns if column not in df]", "compilation_passed": true, "time": 0.07885408401489258, "tests_passed": true, "error": null}
+{"code": " [column for column in required_columns if column not in df.columns]", "compilation_passed": true, "time": 0.07831192016601562, "tests_passed": true, "error": null}
+{"code": " [col for col in required_columns if col not in df]", "compilation_passed": true, "time": 0.08135986328125, "tests_passed": true, "error": null}

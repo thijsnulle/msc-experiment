@@ -1,0 +1,19 @@
+{"code": "bar(df.index, df[\"column1_normalized\"], width=0.8, label='Normalized Data')", "compilation_passed": true, "time": 0.05387067794799805, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(df[\"column1\"], \"ro\", label='Original Data')", "compilation_passed": true, "time": 0.23690485954284668, "tests_passed": true, "error": null}
+{"code": "plot(df[\"column1_normalized\"], \"o\")", "compilation_passed": true, "time": 0.2380516529083252, "tests_passed": true, "error": null}
+{"code": "plot(df[\"column1_normalized\"])", "compilation_passed": true, "time": 0.2351691722869873, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df[\"column1_normalized\"])", "compilation_passed": true, "time": 0.25105714797973633, "tests_passed": true, "error": null}
+{"code": "bar(df.index, df[\"column1_normalized\"], color=\"blue\")", "compilation_passed": true, "time": 0.05978798866271973, "tests_passed": false, "error": "IndexError"}
+{"code": "bar(df.index, df[\"column1_normalized\"])", "compilation_passed": true, "time": 0.05590319633483887, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(df[\"column1\"], label='Original')", "compilation_passed": true, "time": 0.27029871940612793, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df[\"column1_normalized\"], label=\"Normalized Column 1\", color='red')", "compilation_passed": true, "time": 0.40689897537231445, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df[\"column1_normalized\"], label=\"Normalized column 1\")", "compilation_passed": true, "time": 0.24112319946289062, "tests_passed": true, "error": null}
+{"code": "set_title(\"Plot Title :  Normalized Column 1\")", "compilation_passed": true, "time": 0.0494081974029541, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(df[\"column1_normalized\"].index, df[\"column1_normalized\"].values)", "compilation_passed": true, "time": 0.2363588809967041, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df[\"column1_normalized\"], marker=\"o\", linewidth=0.5)", "compilation_passed": true, "time": 0.2527501583099365, "tests_passed": true, "error": null}
+{"code": "plot(df[\"column1\"], df[\"column1_normalized\"])", "compilation_passed": true, "time": 0.255281925201416, "tests_passed": true, "error": null}
+{"code": "plot(df[\"column1\"], label=\"Original\")", "compilation_passed": true, "time": 0.25089383125305176, "tests_passed": true, "error": null}
+{"code": "plot(df[\"column1_normalized\"], label='Normalized Data')", "compilation_passed": true, "time": 0.25461816787719727, "tests_passed": true, "error": null}
+{"code": "bar(", "compilation_passed": false, "time": 0.00022912025451660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(df[\"column1_normalized\"], label='Normalized Column 1')", "compilation_passed": true, "time": 0.25272083282470703, "tests_passed": true, "error": null}
+{"code": "plot(df[\"index\"], df[\"column1_normalized\"])", "compilation_passed": true, "time": 0.06855297088623047, "tests_passed": false, "error": "KeyError"}

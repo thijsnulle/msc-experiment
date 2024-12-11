@@ -1,0 +1,11 @@
+{"code": " str(utc_datetime)", "compilation_passed": true, "time": 0.005815029144287109, "tests_passed": true, "error": null}
+{"code": " str(utc_datetime.strftime(\"%Y-%m-%d %H:%M:%S\"))", "compilation_passed": true, "time": 0.00177001953125, "tests_passed": true, "error": null}
+{"code": " str(utc_datetime.replace(microsecond=0).isoformat())", "compilation_passed": true, "time": 0.009716033935546875, "tests_passed": true, "error": null}
+{"code": " utc_datetime.strftime('%Y-%m-%d %H:%M:%S')", "compilation_passed": true, "time": 0.001856088638305664, "tests_passed": true, "error": null}
+{"code": " utc_datetime.strftime(\"%Y-%m-%d %H:%M:%S\")", "compilation_passed": true, "time": 0.001771688461303711, "tests_passed": true, "error": null}
+{"code": " str(utc_datetime.strftime('%Y-%m-%d %H:%M:%S'))", "compilation_passed": true, "time": 0.002054929733276367, "tests_passed": true, "error": null}
+{"code": " datetime.strftime(utc_datetime, \"%Y-%m-%d %H:%M:%S\")", "compilation_passed": true, "time": 0.0019288063049316406, "tests_passed": true, "error": null}
+{"code": " str(utc_datetime.astimezone(timezone.utc))", "compilation_passed": true, "time": 0.00923919677734375, "tests_passed": false, "error": "NameError"}
+{"code": " utc_datetime.strftime('%Y%m%d%H%M%S')", "compilation_passed": true, "time": 0.00636601448059082, "tests_passed": true, "error": null}
+{"code": " utc_datetime.strftime('%Y-%m-%d %H:%M:%S %z')", "compilation_passed": true, "time": 0.005822896957397461, "tests_passed": true, "error": null}
+{"code": " str(utc_datetime.replace(microsecond=0))", "compilation_passed": true, "time": 0.006283998489379883, "tests_passed": true, "error": null}

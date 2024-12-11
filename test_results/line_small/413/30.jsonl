@@ -1,0 +1,18 @@
+{"code": "config['MAIL_USE_SSL'] = bool(os.getenv('MAIL_USE_SSL', False))", "compilation_passed": true, "time": 0.00803828239440918, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME')", "compilation_passed": true, "time": 0.0070972442626953125, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME', '')", "compilation_passed": true, "time": 0.007054805755615234, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USE_SSL'] = str(os.getenv('MAIL_USE_SSL', False)) == 'True'", "compilation_passed": true, "time": 0.006913900375366211, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', 'true')", "compilation_passed": true, "time": 0.005009889602661133, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USE_TLS'] = bool(os.getenv('MAIL_USE_TLS', False))", "compilation_passed": true, "time": 0.008620023727416992, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', True)", "compilation_passed": true, "time": 0.004936933517456055, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME', 'root')", "compilation_passed": true, "time": 0.007158994674682617, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', False)", "compilation_passed": true, "time": 0.006671905517578125, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USE_SSL'] = os.getenv('MAIL_USE_SSL', 'false').lower() == 'true'", "compilation_passed": true, "time": 0.008109807968139648, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', 'False') == 'True'", "compilation_passed": true, "time": 0.0074350833892822266, "tests_passed": true, "error": null}
+{"code": "config['MAIL_DEFAULT_SENDER'] = os.getenv('MAIL_DEFAULT_SENDER', 'email@example.com')", "compilation_passed": true, "time": 0.007409811019897461, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USE_TLS'] = bool(os.getenv('MAIL_USE_TLS', True))", "compilation_passed": true, "time": 0.004945993423461914, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USE_TLS'] = (os.getenv('MAIL_USE_TLS', 'false').lower() in ('true', '1', 'on', 'yes'))", "compilation_passed": true, "time": 0.007878303527832031, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME', 'test')", "compilation_passed": true, "time": 0.00735020637512207, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USE_TLS'] = str(os.getenv('MAIL_USE_TLS', False)).lower() == 'true'", "compilation_passed": true, "time": 0.006983757019042969, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USE_SSL'] = (os.getenv('MAIL_USE_SSL', 'off') == 'on')", "compilation_passed": true, "time": 0.006834745407104492, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', 'false') == 'true'", "compilation_passed": true, "time": 0.007134914398193359, "tests_passed": true, "error": null}

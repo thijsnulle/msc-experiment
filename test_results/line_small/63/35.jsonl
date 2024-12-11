@@ -1,0 +1,7 @@
+{"code": " df['Color'].value_counts()", "compilation_passed": true, "time": 0.250471830368042, "tests_passed": true, "error": null}
+{"code": " df.groupby('Color')['Color'].count()", "compilation_passed": true, "time": 0.06121373176574707, "tests_passed": true, "error": null}
+{"code": " df.groupby('Color')['Car'].count().sort_values(ascending=False).reset_index(name='Count')", "compilation_passed": true, "time": 0.07541489601135254, "tests_passed": false, "error": "TypeError"}
+{"code": " df.Color.value_counts()", "compilation_passed": true, "time": 0.27233219146728516, "tests_passed": true, "error": null}
+{"code": " df.groupby('Color').size()", "compilation_passed": true, "time": 0.06588602066040039, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Color']).size().reset_index(name='Count')", "compilation_passed": true, "time": 0.057752132415771484, "tests_passed": false, "error": "TypeError"}
+{"code": " df['Color'].value_counts().sort_index()", "compilation_passed": true, "time": 0.07413291931152344, "tests_passed": true, "error": null}

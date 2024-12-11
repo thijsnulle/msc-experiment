@@ -1,0 +1,8 @@
+{"code": " df[columns].apply(np.cbrt)", "compilation_passed": true, "time": 0.21397995948791504, "tests_passed": true, "error": null}
+{"code": " np.cbrt(df[columns])", "compilation_passed": true, "time": 0.19725370407104492, "tests_passed": true, "error": null}
+{"code": " np.cbrt(df[columns].values)", "compilation_passed": true, "time": 0.10494089126586914, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.cbrt(value) for value in df[columns]]", "compilation_passed": true, "time": 0.1345369815826416, "tests_passed": false, "error": "TypeError"}
+{"code": " (df[columns]**1.0/3.0).apply(lambda x: int(x))", "compilation_passed": true, "time": 0.1276261806488037, "tests_passed": false, "error": "TypeError"}
+{"code": " df[columns[0]]**(1.0/3.0)", "compilation_passed": true, "time": 0.10560488700866699, "tests_passed": false, "error": "AttributeError"}
+{"code": " (df[columns] ** (1.0/3.0)).round(3)", "compilation_passed": true, "time": 0.09283590316772461, "tests_passed": true, "error": null}
+{"code": " df[columns]", "compilation_passed": true, "time": 0.13269805908203125, "tests_passed": true, "error": null}

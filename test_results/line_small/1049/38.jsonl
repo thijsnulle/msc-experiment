@@ -1,0 +1,8 @@
+{"code": " [line.replace('\\t', ' ') for line in lines]", "compilation_passed": true, "time": 0.005073070526123047, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'\\t', ' ', line) for line in lines]", "compilation_passed": true, "time": 0.004687070846557617, "tests_passed": true, "error": null}
+{"code": " [line.replace('\\\\t', ' ') for line in lines]", "compilation_passed": true, "time": 0.014349937438964844, "tests_passed": true, "error": null}
+{"code": " [re.sub('\\t', ' ', line) for line in lines]", "compilation_passed": true, "time": 0.006403207778930664, "tests_passed": true, "error": null}
+{"code": " [line.strip().replace('\\t', ' ') for line in lines]", "compilation_passed": true, "time": 0.00671696662902832, "tests_passed": true, "error": null}
+{"code": " [line.replace(\"\\t\", \" \") for line in lines]", "compilation_passed": true, "time": 0.00586700439453125, "tests_passed": true, "error": null}
+{"code": " [line.replace(\"\\\\t\", \" \") for line in lines]", "compilation_passed": true, "time": 0.014365196228027344, "tests_passed": true, "error": null}
+{"code": " [re.sub(' +', ' ', line) for line in lines]", "compilation_passed": true, "time": 0.014056921005249023, "tests_passed": true, "error": null}

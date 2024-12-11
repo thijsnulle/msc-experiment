@@ -1,0 +1,23 @@
+{"code": "run(['python3', py_script], stdout=subprocess.PIPE)", "compilation_passed": true, "time": 0.3870117664337158, "tests_passed": true, "error": null}
+{"code": "call([sys.executable, py_script])", "compilation_passed": true, "time": 0.015484809875488281, "tests_passed": false, "error": "NameError"}
+{"code": "call([\"python\", py_script])", "compilation_passed": true, "time": 0.06458234786987305, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "run(['python3', py_script])", "compilation_passed": true, "time": 0.3803572654724121, "tests_passed": true, "error": null}
+{"code": "run(['python3', py_script], stdout=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.3903639316558838, "tests_passed": true, "error": null}
+{"code": "run([\"python3\", py_script])", "compilation_passed": true, "time": 0.4027979373931885, "tests_passed": true, "error": null}
+{"code": "run(['python', py_script], check=True)", "compilation_passed": true, "time": 0.08496689796447754, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "check_call(['python', py_script])", "compilation_passed": true, "time": 0.08042716979980469, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "run([sys.executable, py_script])", "compilation_passed": true, "time": 0.02226400375366211, "tests_passed": false, "error": "NameError"}
+{"code": "call(f'python3 {py_script}', shell=True)", "compilation_passed": true, "time": 0.55531907081604, "tests_passed": true, "error": null}
+{"code": "run([\"python\", py_script], check=True)", "compilation_passed": true, "time": 0.0733039379119873, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "call(", "compilation_passed": false, "time": 0.0003287792205810547, "tests_passed": false, "error": "SyntaxError"}
+{"code": "call(args=[py_script, test_dir])", "compilation_passed": true, "time": 0.07115912437438965, "tests_passed": false, "error": "PermissionError"}
+{"code": "check_call([sys.executable, py_script])", "compilation_passed": true, "time": 0.022217988967895508, "tests_passed": false, "error": "NameError"}
+{"code": "run([\"python3\", py_script], capture_output=True)", "compilation_passed": true, "time": 0.4273488521575928, "tests_passed": true, "error": null}
+{"code": "run(['python3', py_script], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.4103209972381592, "tests_passed": true, "error": null}
+{"code": "check_call([\"python3\", py_script])", "compilation_passed": true, "time": 0.12041282653808594, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "check_call(['python3', py_script])", "compilation_passed": true, "time": 0.11458992958068848, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "call(['python', py_script])", "compilation_passed": true, "time": 0.05748915672302246, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "call(['python3', py_script])", "compilation_passed": true, "time": 0.6331582069396973, "tests_passed": true, "error": null}
+{"code": "call(\"python3 \" + py_script, shell=True)", "compilation_passed": true, "time": 0.5567841529846191, "tests_passed": true, "error": null}
+{"code": "check_output('python3 ' + py_script, shell=True)", "compilation_passed": true, "time": 0.26073217391967773, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "run([\"python\", py_script])", "compilation_passed": true, "time": 0.08226513862609863, "tests_passed": false, "error": "FileNotFoundError"}

@@ -1,0 +1,26 @@
+{"code": "n, e) = generate_keypair()", "compilation_passed": true, "time": 0.009067058563232422, "tests_passed": false, "error": "NameError"}
+{"code": "public_key_bytes, private_key_bytes) = generate_keys(1024)", "compilation_passed": true, "time": 0.009134054183959961, "tests_passed": false, "error": "NameError"}
+{"code": "file_name, extension) = os.path.splitext(file_path)", "compilation_passed": true, "time": 0.009196043014526367, "tests_passed": false, "error": "NameError"}
+{"code": "public, private) = rsa.generate_private_key(", "compilation_passed": false, "time": 0.00018215179443359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "file, file_ext) = os.path.splitext(file_path)", "compilation_passed": true, "time": 0.009131908416748047, "tests_passed": false, "error": "NameError"}
+{"code": "public_key_path, private_key_path) = os.path.split(os.path.abspath(file_path))", "compilation_passed": true, "time": 0.009018659591674805, "tests_passed": false, "error": "NameError"}
+{"code": "public_key_file, private_key_file) = generate_keypair(file_path)", "compilation_passed": true, "time": 0.008870124816894531, "tests_passed": false, "error": "NameError"}
+{"code": "public_key, private_key) = rsa.newkeys(2048, backend=default_backend())", "compilation_passed": true, "time": 0.009217977523803711, "tests_passed": false, "error": "TypeError"}
+{"code": "pub_key, priv_key) = generate_keys()", "compilation_passed": true, "time": 0.008584022521972656, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, private_key) = rsa.newkeys(2048)", "compilation_passed": true, "time": 1.0184590816497803, "tests_passed": false, "error": "TimeoutError"}
+{"code": "key_size, encrypted_data, iv, key) = None, None, None, None", "compilation_passed": true, "time": 0.009487152099609375, "tests_passed": false, "error": "NameError"}
+{"code": "public_key, private_key) = generate_keys(public_exponent=65537)", "compilation_passed": true, "time": 0.009228944778442383, "tests_passed": false, "error": "NameError"}
+{"code": "key_size, key_mod) = rsa.newkeys(2048, default_backend())", "compilation_passed": true, "time": 1.0085723400115967, "tests_passed": false, "error": "TimeoutError"}
+{"code": "pub_key, priv_key) = generate_rsa_key_pair()", "compilation_passed": true, "time": 0.008430004119873047, "tests_passed": false, "error": "NameError"}
+{"code": "filename, extension) = os.path.splitext(file_path)", "compilation_passed": true, "time": 0.00900578498840332, "tests_passed": false, "error": "NameError"}
+{"code": "public_key_path, private_key_path, encrypted_file_path, encrypted_key_file_path) = \\", "compilation_passed": true, "time": 0.00774693489074707, "tests_passed": false, "error": "ValueError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(512, random=os.urandom)", "compilation_passed": true, "time": 0.008028984069824219, "tests_passed": false, "error": "TypeError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(1024, default_backend())", "compilation_passed": true, "time": 1.0093879699707031, "tests_passed": false, "error": "TimeoutError"}
+{"code": "pub_key, priv_key) = generate_rsa_keys(bits=2048, e=65537)", "compilation_passed": true, "time": 0.009190082550048828, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(512, default_backend())", "compilation_passed": true, "time": 0.28117799758911133, "tests_passed": true, "error": null}
+{"code": "", "compilation_passed": false, "time": 0.00014209747314453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pub_key, priv_key, modulus, private_exp, public_exp) = generate_keys()", "compilation_passed": true, "time": 0.023216962814331055, "tests_passed": false, "error": "NameError"}
+{"code": "key_size,) = range(2048, 2049)", "compilation_passed": true, "time": 0.017292022705078125, "tests_passed": false, "error": "NameError"}
+{"code": "public_key, private_key) = rsa.newkeys(2048, default_backend())", "compilation_passed": true, "time": 1.0083847045898438, "tests_passed": false, "error": "TimeoutError"}
+{"code": "pub_key, priv_key, modulus, private_exponent, public_exponent) = generate_rsa_keys(key_length=2048)", "compilation_passed": true, "time": 0.008824825286865234, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = rsa.new_keys(1024, default_backend())", "compilation_passed": true, "time": 0.008021831512451172, "tests_passed": false, "error": "AttributeError"}

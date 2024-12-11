@@ -1,0 +1,21 @@
+{"code": " re.split(r'\\s+', line.strip(), maxsplit=1)", "compilation_passed": true, "time": 0.0035886764526367188, "tests_passed": true, "error": null}
+{"code": " re.split('\\W+', line)", "compilation_passed": true, "time": 0.0044972896575927734, "tests_passed": true, "error": null}
+{"code": " line.strip().split(\":\")", "compilation_passed": true, "time": 0.00414586067199707, "tests_passed": true, "error": null}
+{"code": " line.strip().split(' ')", "compilation_passed": true, "time": 0.004452943801879883, "tests_passed": true, "error": null}
+{"code": " line.split(' ')", "compilation_passed": true, "time": 0.004172086715698242, "tests_passed": true, "error": null}
+{"code": " re.split(r':| ', line.strip())", "compilation_passed": true, "time": 0.00407719612121582, "tests_passed": true, "error": null}
+{"code": " re.split(r'\\s+', line.strip())", "compilation_passed": true, "time": 0.0036170482635498047, "tests_passed": true, "error": null}
+{"code": " line.strip().split(':')", "compilation_passed": true, "time": 0.004477977752685547, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\d{2}:\\d{2}:\\d{2} |ERROR|WARNING)', line)", "compilation_passed": true, "time": 0.0038483142852783203, "tests_passed": true, "error": null}
+{"code": " re.split('\\W+', line.strip())", "compilation_passed": true, "time": 0.0039250850677490234, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\d{2}:\\d{2}:\\d{2}\", line)", "compilation_passed": true, "time": 0.004470109939575195, "tests_passed": true, "error": null}
+{"code": " re.search(r'(.+) : (.+)\\[(.+)\\] (.*)', line)", "compilation_passed": true, "time": 0.012631893157958984, "tests_passed": false, "error": "TypeError"}
+{"code": " line.split(keyword)", "compilation_passed": true, "time": 0.0037457942962646484, "tests_passed": true, "error": null}
+{"code": " line.split(\":\")", "compilation_passed": true, "time": 0.0037200450897216797, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(?<=[\\W])(?P<keyword>\\w+)(?=[\\W])', line)", "compilation_passed": true, "time": 0.003715991973876953, "tests_passed": true, "error": null}
+{"code": " re.split(r'(?:\\d+:\\d+:\\d+)\\s+(.*)', line)", "compilation_passed": true, "time": 0.004181861877441406, "tests_passed": true, "error": null}
+{"code": " line.split()", "compilation_passed": true, "time": 0.0034470558166503906, "tests_passed": true, "error": null}
+{"code": " re.split(r' : ', line.strip())", "compilation_passed": true, "time": 0.003937959671020508, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+(?= :)', line.strip())", "compilation_passed": true, "time": 0.004347324371337891, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(?<=[0-9]{2}:)[0-9]{2}:[0-9]{2} +(.*?) +(.*?)', line)", "compilation_passed": true, "time": 0.004396915435791016, "tests_passed": true, "error": null}
+{"code": " re.search(r'([0-9]{2}:[0-9]{2}:[0-9]{2}).+?(.*)', line)", "compilation_passed": true, "time": 0.016476869583129883, "tests_passed": false, "error": "TypeError"}

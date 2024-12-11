@@ -1,0 +1,9 @@
+{"code": " response.headers[\"Content-Disposition\"].split('\"')[1]", "compilation_passed": true, "time": 0.013836145401000977, "tests_passed": false, "error": "KeyError"}
+{"code": " os.path.basename(response.url)", "compilation_passed": true, "time": 0.007860898971557617, "tests_passed": true, "error": null}
+{"code": " os.path.join(download_path, os.path.basename(url))", "compilation_passed": true, "time": 0.008047819137573242, "tests_passed": true, "error": null}
+{"code": " url.split(\"/\")[-1]", "compilation_passed": true, "time": 0.00820302963256836, "tests_passed": true, "error": null}
+{"code": " response.url.split('/')[-1]", "compilation_passed": true, "time": 0.021198034286499023, "tests_passed": false, "error": "IsADirectoryError"}
+{"code": " os.path.basename(url)", "compilation_passed": true, "time": 0.007063865661621094, "tests_passed": true, "error": null}
+{"code": " response.url.split(\"/\")[-1]", "compilation_passed": true, "time": 0.013956785202026367, "tests_passed": false, "error": "OSError"}
+{"code": " url.split('/')[-1]", "compilation_passed": true, "time": 0.008253097534179688, "tests_passed": true, "error": null}
+{"code": " response.url.rsplit('/', 1)[-1]", "compilation_passed": true, "time": 0.01788020133972168, "tests_passed": false, "error": "OSError"}

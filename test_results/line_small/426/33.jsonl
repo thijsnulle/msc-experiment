@@ -1,0 +1,11 @@
+{"code": " not os.path.exists(image_path):", "compilation_passed": true, "time": 0.017862796783447266, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " not (0 <= threshold <= 255):", "compilation_passed": true, "time": 0.014720678329467773, "tests_passed": false, "error": "TypeError"}
+{"code": " not os.path.isfile(image_path):", "compilation_passed": true, "time": 0.012128114700317383, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " not isinstance(threshold, int):", "compilation_passed": true, "time": 0.009472846984863281, "tests_passed": true, "error": null}
+{"code": " not isinstance(image_path, str) or not os.path.exists(image_path):", "compilation_passed": true, "time": 0.01266622543334961, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " not (isinstance(threshold, int) and threshold in range(0, 256)):", "compilation_passed": true, "time": 0.007727861404418945, "tests_passed": true, "error": null}
+{"code": " os.path.exists(image_path):", "compilation_passed": true, "time": 0.015160083770751953, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(image_path, str) or not os.path.isfile(image_path):", "compilation_passed": true, "time": 0.014303922653198242, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " not isinstance(image_path, str):", "compilation_passed": true, "time": 0.013486862182617188, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " threshold < 0 or threshold > 255:", "compilation_passed": true, "time": 0.013550043106079102, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(threshold, int) or not 0 <= threshold <= 255:", "compilation_passed": true, "time": 0.007476806640625, "tests_passed": true, "error": null}

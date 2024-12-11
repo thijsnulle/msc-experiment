@@ -1,0 +1,20 @@
+{"code": " '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/'", "compilation_passed": true, "time": 0.18597698211669922, "tests_passed": true, "error": null}
+{"code": " \"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/=\"", "compilation_passed": true, "time": 0.22867584228515625, "tests_passed": true, "error": null}
+{"code": " {i: alphabet[i] for i in range(len(alphabet))}", "compilation_passed": true, "time": 0.23636627197265625, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.0001552104949951172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/\"", "compilation_passed": true, "time": 0.2719428539276123, "tests_passed": true, "error": null}
+{"code": " np.arange(from_base, to_base + 1)", "compilation_passed": true, "time": 0.060913801193237305, "tests_passed": false, "error": "IndexError"}
+{"code": " str.maketrans(alphabet, '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/', ' \\n\\t')", "compilation_passed": true, "time": 0.04910683631896973, "tests_passed": false, "error": "KeyError"}
+{"code": " dict(zip(alphabet, range(len(alphabet))))", "compilation_passed": true, "time": 0.07027888298034668, "tests_passed": false, "error": "KeyError"}
+{"code": " str.maketrans('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz', '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')", "compilation_passed": true, "time": 0.042249202728271484, "tests_passed": false, "error": "KeyError"}
+{"code": " [\"A\", \"B\", \"C\", \"D\", \"E\", \"F\", \"G\", \"H\", \"I\", \"J\", \"K\", \"L\", \"M\", \"N\", \"O\", \"P\", \"Q\", \"R\", \"S\", \"T\", \"U\", \"V\", \"W\", \"X\", \"Y\", \"Z\", \"a\", \"b\", \"c\", \"d\", \"e\", \"f\", \"g\", \"h\", \"i\", \"j\", \"k\", \"l\", \"m\", \"n\", \"o\", \"p\", \"q\", \"r\", \"s\", \"t\", \"u\", \"v\", \"w\", \"x\", \"y\", \"z\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"+\", \"/\"]", "compilation_passed": true, "time": 0.29643893241882324, "tests_passed": true, "error": null}
+{"code": " {base: i for i, base in enumerate(alphabet)}", "compilation_passed": true, "time": 0.045256853103637695, "tests_passed": false, "error": "KeyError"}
+{"code": " base64.b64encode(alphabet.encode()).decode()", "compilation_passed": true, "time": 0.3043558597564697, "tests_passed": true, "error": null}
+{"code": " str.maketrans(alphabet, \"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/=\")", "compilation_passed": true, "time": 0.019259929656982422, "tests_passed": false, "error": "ValueError"}
+{"code": " np.char.array(list(alphabet))", "compilation_passed": true, "time": 0.20574522018432617, "tests_passed": true, "error": null}
+{"code": " 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='", "compilation_passed": true, "time": 0.3641197681427002, "tests_passed": true, "error": null}
+{"code": " str.maketrans(\"\", \"\", alphabet)", "compilation_passed": true, "time": 0.07301998138427734, "tests_passed": false, "error": "KeyError"}
+{"code": " [", "compilation_passed": false, "time": 0.00012803077697753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'0': 'A', '1': 'B', '2': 'C', '3': 'D', '4': 'E', '5': 'F', '6': 'G', '7': 'H', '8': 'I', '9': 'J', '10': 'K', '11': 'L', '12': 'M', '13': 'N', '14': 'O', '15': 'P', '16': 'Q', '17': 'R', '18': 'S', '19': 'T', '20': 'U', '21': 'V', '22': 'W', '23': 'X', '24': 'Y', '25': 'Z', '26': 'a', '27': 'b', '28': 'c', '29': 'd', '30': 'e', '31': 'f', '32': 'g', '3", "compilation_passed": false, "time": 0.0001652240753173828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'", "compilation_passed": true, "time": 0.23714399337768555, "tests_passed": true, "error": null}
+{"code": " base64.standard_b64decode(alphabet.encode())", "compilation_passed": true, "time": 0.04974079132080078, "tests_passed": false, "error": "TypeError"}

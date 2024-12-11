@@ -1,0 +1,8 @@
+{"code": " re.sub(r'\\s+', ' ', unescaped_string).strip()", "compilation_passed": true, "time": 0.0011599063873291016, "tests_passed": true, "error": null}
+{"code": " ' '.join(unescaped_string.split())", "compilation_passed": true, "time": 0.0012121200561523438, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', unescaped_string.strip())", "compilation_passed": true, "time": 0.0010230541229248047, "tests_passed": true, "error": null}
+{"code": " re.sub(' +', ' ', unescaped_string).strip()", "compilation_passed": true, "time": 0.0010101795196533203, "tests_passed": true, "error": null}
+{"code": " ' '.join(re.findall(r'[\\w\\s]+', unescaped_string)).strip()", "compilation_passed": true, "time": 0.004022836685180664, "tests_passed": true, "error": null}
+{"code": " re.sub(' +', ' ', unescaped_string.strip())", "compilation_passed": true, "time": 0.0010538101196289062, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s{2,}', ' ', unescaped_string.strip())", "compilation_passed": true, "time": 0.0010631084442138672, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s{2,}', ' ', unescaped_string).strip()", "compilation_passed": true, "time": 0.0012869834899902344, "tests_passed": true, "error": null}

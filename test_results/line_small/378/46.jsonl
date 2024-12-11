@@ -1,0 +1,7 @@
+{"code": " glob.glob(os.path.join(data_dir, '*.csv'))", "compilation_passed": true, "time": 0.0319058895111084, "tests_passed": true, "error": null}
+{"code": " sorted(glob.glob(f\"{data_dir}/*.csv\"))", "compilation_passed": true, "time": 0.026383161544799805, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(data_dir, \"*.csv\"))", "compilation_passed": true, "time": 0.029394865036010742, "tests_passed": true, "error": null}
+{"code": " [file for file in glob.glob(os.path.join(data_dir, '*.csv'))]", "compilation_passed": true, "time": 0.028184890747070312, "tests_passed": true, "error": null}
+{"code": " sorted(glob.glob(os.path.join(data_dir, '*.csv')))", "compilation_passed": true, "time": 0.029719114303588867, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(data_dir, \"**/*.csv\"), recursive=True)", "compilation_passed": true, "time": 0.028930187225341797, "tests_passed": true, "error": null}
+{"code": " glob.glob(data_dir + '*.csv')", "compilation_passed": true, "time": 0.02811408042907715, "tests_passed": true, "error": null}

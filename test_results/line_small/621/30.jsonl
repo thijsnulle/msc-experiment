@@ -1,0 +1,20 @@
+{"code": "scatter(data, standardized_data, color='b')", "compilation_passed": true, "time": 0.0355222225189209, "tests_passed": false, "error": "IndexError"}
+{"code": "scatter(standardized_data, [1]*len(standardized_data))", "compilation_passed": true, "time": 0.036431074142456055, "tests_passed": false, "error": "IndexError"}
+{"code": "bar(np.arange(len(standardized_data)), standardized_data.flatten())", "compilation_passed": true, "time": 0.04056501388549805, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(standardized_data, \".-\")", "compilation_passed": true, "time": 0.14355206489562988, "tests_passed": true, "error": null}
+{"code": "hist(standardized_data)", "compilation_passed": true, "time": 0.04127693176269531, "tests_passed": false, "error": "IndexError"}
+{"code": "hist(standardized_data, bins=10)", "compilation_passed": true, "time": 0.04261207580566406, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(standardized_data)", "compilation_passed": true, "time": 0.14241313934326172, "tests_passed": true, "error": null}
+{"code": "scatter(standardized_data, [i for i in range(len(standardized_data))])", "compilation_passed": true, "time": 0.03314089775085449, "tests_passed": false, "error": "IndexError"}
+{"code": "bar(range(1, data.shape[0] + 1), standardized_data)", "compilation_passed": true, "time": 0.05231308937072754, "tests_passed": false, "error": "TypeError"}
+{"code": "bar(np.arange(len(standardized_data)), standardized_data)", "compilation_passed": true, "time": 0.03839421272277832, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(standardized_data, np.zeros_like(data), c=\"red\")", "compilation_passed": true, "time": 0.035423994064331055, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(standardized_data, label='standardized data')", "compilation_passed": true, "time": 0.15354585647583008, "tests_passed": true, "error": null}
+{"code": "set_title('Standardized Data')", "compilation_passed": true, "time": 0.03490090370178223, "tests_passed": false, "error": "IndexError"}
+{"code": "boxplot(standardized_data)", "compilation_passed": true, "time": 0.03903317451477051, "tests_passed": true, "error": null}
+{"code": "scatter(np.arange(len(data)), standardized_data)", "compilation_passed": true, "time": 0.03981971740722656, "tests_passed": false, "error": "IndexError"}
+{"code": "set_title('Standardized data')", "compilation_passed": true, "time": 0.06626200675964355, "tests_passed": false, "error": "IndexError"}
+{"code": "set_title(\"Standardized Values\")", "compilation_passed": true, "time": 0.03720593452453613, "tests_passed": false, "error": "IndexError"}
+{"code": "scatter(data, standardized_data)", "compilation_passed": true, "time": 0.03904414176940918, "tests_passed": false, "error": "IndexError"}
+{"code": "scatter(standardized_data, standardized_data, s=1)", "compilation_passed": true, "time": 0.03483104705810547, "tests_passed": false, "error": "IndexError"}
+{"code": "scatter(standardized_data[:, 0], standardized_data[:, 1], marker='.')", "compilation_passed": true, "time": 0.0425562858581543, "tests_passed": false, "error": "IndexError"}

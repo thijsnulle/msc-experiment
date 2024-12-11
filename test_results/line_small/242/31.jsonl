@@ -1,0 +1,7 @@
+{"code": " not os.path.exists(image_path):", "compilation_passed": true, "time": 0.020505905151367188, "tests_passed": false, "error": "ValueError"}
+{"code": " not os.path.isfile(image_path):", "compilation_passed": true, "time": 0.013915300369262695, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(kernel_size, int) or kernel_size <= 0:", "compilation_passed": true, "time": 0.053732872009277344, "tests_passed": true, "error": null}
+{"code": " os.path.isfile(image_path):", "compilation_passed": true, "time": 0.02237701416015625, "tests_passed": false, "error": "ValueError"}
+{"code": " kernel_size < 1:", "compilation_passed": true, "time": 0.08578610420227051, "tests_passed": false, "error": ""}
+{"code": " not isinstance(kernel_size, int) or kernel_size < 1:", "compilation_passed": true, "time": 0.049858808517456055, "tests_passed": true, "error": null}
+{"code": " not isinstance(kernel_size, int) or kernel_size < 0:", "compilation_passed": true, "time": 0.061061859130859375, "tests_passed": false, "error": ""}

@@ -1,0 +1,16 @@
+{"code": " 'jquery' in file:", "compilation_passed": true, "time": 0.01191401481628418, "tests_passed": true, "error": null}
+{"code": " \"jquery\" in file.lower():  # 'jquery' is lowercased to handle file names with capital 'J'", "compilation_passed": true, "time": 0.012170076370239258, "tests_passed": true, "error": null}
+{"code": " 'jquery' in file.lower():", "compilation_passed": true, "time": 0.013738870620727539, "tests_passed": true, "error": null}
+{"code": " file.endswith('.js'):  # Only consider .js files", "compilation_passed": true, "time": 0.009279966354370117, "tests_passed": true, "error": null}
+{"code": " file.lower().find(\"jquery\") > -1:", "compilation_passed": true, "time": 0.014238834381103516, "tests_passed": true, "error": null}
+{"code": " file.lower().startswith('jquery') and file.lower().endswith('.js'):", "compilation_passed": true, "time": 0.009526968002319336, "tests_passed": true, "error": null}
+{"code": " \"jquery\" in file:", "compilation_passed": true, "time": 0.011746883392333984, "tests_passed": true, "error": null}
+{"code": " file.lower().find('jquery') != -1:", "compilation_passed": true, "time": 0.012308835983276367, "tests_passed": true, "error": null}
+{"code": " file.startswith(\"jquery\") or file.endswith(\".js\"):", "compilation_passed": true, "time": 0.01038217544555664, "tests_passed": true, "error": null}
+{"code": " file.startswith('jquery'):", "compilation_passed": true, "time": 0.011327981948852539, "tests_passed": true, "error": null}
+{"code": " file.startswith(\"jquery\"):", "compilation_passed": true, "time": 0.013705968856811523, "tests_passed": true, "error": null}
+{"code": " 'jquery' in file.lower():  # Case-insensitive search", "compilation_passed": true, "time": 0.011393070220947266, "tests_passed": true, "error": null}
+{"code": " file.endswith(\".js\") and \"jquery\" in file:", "compilation_passed": true, "time": 0.011335134506225586, "tests_passed": true, "error": null}
+{"code": " file.lower().find('jquery') != -1 and os.path.isfile(os.path.join(directory, file)):", "compilation_passed": true, "time": 0.006489276885986328, "tests_passed": true, "error": null}
+{"code": " file.lower().find('jquery') > 0:", "compilation_passed": true, "time": 0.0066640377044677734, "tests_passed": true, "error": null}
+{"code": " file.startswith('jquery') or file.endswith('.min.js') or file.endswith('.map'):", "compilation_passed": true, "time": 0.012317895889282227, "tests_passed": true, "error": null}

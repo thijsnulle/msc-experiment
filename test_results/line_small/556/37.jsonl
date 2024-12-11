@@ -1,0 +1,14 @@
+{"code": " \"\".join(np.random.choice(letters, size=string_length))", "compilation_passed": true, "time": 0.014868974685668945, "tests_passed": false, "error": "ValueError"}
+{"code": " ''.join(np.random.choice(letters, string_length))", "compilation_passed": true, "time": 0.015357017517089844, "tests_passed": false, "error": "ValueError"}
+{"code": " ''.join(random.choice(letters) for _ in range(string_length))", "compilation_passed": true, "time": 0.0023910999298095703, "tests_passed": true, "error": null}
+{"code": " ''", "compilation_passed": true, "time": 0.005084037780761719, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(letters) for i in range(string_length))", "compilation_passed": true, "time": 0.0019741058349609375, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choices(letters))[:string_length]", "compilation_passed": true, "time": 0.0051958560943603516, "tests_passed": true, "error": null}
+{"code": " \"\".join(np.random.choice(letters, string_length, replace=False))", "compilation_passed": true, "time": 0.012387990951538086, "tests_passed": false, "error": "ValueError"}
+{"code": " ''.join([letters[int(np.random.randint(0, len(letters)))]", "compilation_passed": false, "time": 0.001069784164428711, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ''.join([letters[np.random.choice(range(len(letters)))] for _ in range(string_length)])", "compilation_passed": true, "time": 0.004668712615966797, "tests_passed": true, "error": null}
+{"code": " \"\".join(np.random.choice(letters, string_length))", "compilation_passed": true, "time": 0.01214599609375, "tests_passed": false, "error": "ValueError"}
+{"code": " ''.join([random.choice(letters) for _ in range(string_length)])", "compilation_passed": true, "time": 0.0019490718841552734, "tests_passed": true, "error": null}
+{"code": " ''.join(random.sample(letters, string_length))", "compilation_passed": true, "time": 0.011330842971801758, "tests_passed": false, "error": "ValueError"}
+{"code": " \"\".join(random.choice(letters) for _ in range(string_length))", "compilation_passed": true, "time": 0.0019960403442382812, "tests_passed": true, "error": null}
+{"code": " ''.join(np.random.choice(letters, string_length, replace=False))", "compilation_passed": true, "time": 0.012282133102416992, "tests_passed": false, "error": "ValueError"}

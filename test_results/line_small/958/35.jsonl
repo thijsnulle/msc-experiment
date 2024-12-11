@@ -1,0 +1,6 @@
+{"code": " ''.join(random.sample(word[1:-1], len(word[1:-1])))", "compilation_passed": true, "time": 0.016021013259887695, "tests_passed": false, "error": "TypeError"}
+{"code": " list(word[1:-1])", "compilation_passed": true, "time": 0.0021927356719970703, "tests_passed": true, "error": null}
+{"code": " random.sample(word[1:-1], len(word) - 2)", "compilation_passed": true, "time": 0.002202749252319336, "tests_passed": true, "error": null}
+{"code": " word[1:-1]", "compilation_passed": true, "time": 0.012743949890136719, "tests_passed": false, "error": "TypeError"}
+{"code": " ''.join(random.sample(word[1:-1], len(word)-2))", "compilation_passed": true, "time": 0.01289677619934082, "tests_passed": false, "error": "TypeError"}
+{"code": " random.sample(word[1:-1], len(word[1:-1]))", "compilation_passed": true, "time": 0.0025649070739746094, "tests_passed": true, "error": null}

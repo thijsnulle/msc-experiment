@@ -1,0 +1,10 @@
+{"code": "move(file_name, Path(target_dir))", "compilation_passed": true, "time": 0.04229617118835449, "tests_passed": true, "error": null}
+{"code": "move(str(file_name), target_dir)", "compilation_passed": true, "time": 0.03888821601867676, "tests_passed": true, "error": null}
+{"code": "move(file_name, target_dir)", "compilation_passed": true, "time": 0.03818106651306152, "tests_passed": true, "error": null}
+{"code": "move(file_name, f'{target_dir}{file_name.stem}{file_name.suffix}')", "compilation_passed": true, "time": 0.008859872817993164, "tests_passed": true, "error": null}
+{"code": "move(file_name, Path(target_dir).joinpath(file_name.name))", "compilation_passed": true, "time": 0.036546945571899414, "tests_passed": true, "error": null}
+{"code": "move(str(file_name), Path(target_dir))", "compilation_passed": true, "time": 0.03818917274475098, "tests_passed": true, "error": null}
+{"code": "move(file_name, Path(target_dir) + Path(extension))", "compilation_passed": true, "time": 0.009854793548583984, "tests_passed": false, "error": "TypeError"}
+{"code": "move(str(file_name), str(Path(target_dir) / file_name.stem))", "compilation_passed": true, "time": 0.009773969650268555, "tests_passed": true, "error": null}
+{"code": "move(file_name, f\"{target_dir}{file_name}\")", "compilation_passed": true, "time": 0.009996891021728516, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "move(file_name, Path(target_dir, file_name.name))", "compilation_passed": true, "time": 0.037589073181152344, "tests_passed": true, "error": null}

@@ -1,0 +1,11 @@
+{"code": " (end_date_np - start_date_np).days", "compilation_passed": true, "time": 0.015443086624145508, "tests_passed": false, "error": "AttributeError"}
+{"code": " (end_date_np - start_date_np).days + 1", "compilation_passed": true, "time": 0.008430004119873047, "tests_passed": false, "error": "AttributeError"}
+{"code": " (end_date_np - start_date_np).astype(np.int64) + 1", "compilation_passed": true, "time": 0.006577253341674805, "tests_passed": true, "error": null}
+{"code": " int(abs((end_date_np - start_date_np).total_seconds()) // (60 * 60 * 24))", "compilation_passed": true, "time": 0.00865626335144043, "tests_passed": false, "error": "AttributeError"}
+{"code": " (end_date_np - start_date_np).astype(np.timedelta64).days", "compilation_passed": true, "time": 0.00805974006652832, "tests_passed": false, "error": "AttributeError"}
+{"code": " (end_date_np - start_date_np).astype(int).total_days + 1", "compilation_passed": true, "time": 0.007936954498291016, "tests_passed": false, "error": "AttributeError"}
+{"code": " int(np.timedelta64(end_date_np - start_date_np, 'D').total_seconds() / (24 * 3600))", "compilation_passed": true, "time": 0.008467912673950195, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.busday_count(start_date_np, end_date_np)", "compilation_passed": true, "time": 0.0079498291015625, "tests_passed": false, "error": "TypeError"}
+{"code": " int((end_date_np - start_date_np).days)", "compilation_passed": true, "time": 0.007915019989013672, "tests_passed": false, "error": "AttributeError"}
+{"code": " (end_date_np - start_date_np).astype('timedelta64[D]').astype(int)", "compilation_passed": true, "time": 0.009655952453613281, "tests_passed": false, "error": "ValueError"}
+{"code": " int((end_date_np - start_date_np).total_days) + 1", "compilation_passed": true, "time": 0.007938861846923828, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,11 @@
+{"code": " requests.get(API_URL + user)", "compilation_passed": true, "time": 0.004200935363769531, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"{API_URL}{user}/repos\")", "compilation_passed": true, "time": 0.0031919479370117188, "tests_passed": true, "error": null}
+{"code": " requests.get(f'{API_URL}{user}', timeout=10)", "compilation_passed": true, "time": 0.0033500194549560547, "tests_passed": true, "error": null}
+{"code": " requests.get(f'{API_URL}{user}/repos')", "compilation_passed": true, "time": 0.003638029098510742, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"{API_URL}{user}\")", "compilation_passed": true, "time": 0.003298044204711914, "tests_passed": true, "error": null}
+{"code": " requests.get(API_URL + user + \"?per_page=100\").json()", "compilation_passed": true, "time": 0.00999593734741211, "tests_passed": false, "error": "TypeError"}
+{"code": " requests.get(f\"{API_URL}{user}/\")", "compilation_passed": true, "time": 0.003374814987182617, "tests_passed": true, "error": null}
+{"code": " requests.get(API_URL+user)", "compilation_passed": true, "time": 0.0037429332733154297, "tests_passed": true, "error": null}
+{"code": " requests.get(API_URL + user + '/repos', timeout = 5)", "compilation_passed": true, "time": 0.004340171813964844, "tests_passed": true, "error": null}
+{"code": " requests.get(f'{API_URL}{user}')", "compilation_passed": true, "time": 0.0033719539642333984, "tests_passed": true, "error": null}
+{"code": " requests.get(API_URL + user)  # Make a GET request to the GitHub API for the given user", "compilation_passed": true, "time": 0.003342151641845703, "tests_passed": true, "error": null}

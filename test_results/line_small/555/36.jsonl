@@ -1,0 +1,26 @@
+{"code": "plot(df['A'], df['B'])", "compilation_passed": true, "time": 0.017750978469848633, "tests_passed": true, "error": null}
+{"code": "title('Correlation Coefficient of A and B')", "compilation_passed": true, "time": 0.017269611358642578, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['B'], color='r')", "compilation_passed": true, "time": 0.019076108932495117, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['A'], 'r')", "compilation_passed": true, "time": 0.018925189971923828, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['B'], 'r', linewidth=1.0)", "compilation_passed": true, "time": 0.01780414581298828, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], stats.linregress(df['A'], df['B']).intercept + stats.linregress(df['A'], df['B']).slope * df['A'])", "compilation_passed": true, "time": 0.020251035690307617, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(df['A'], df['B'], linestyle='-', color='green')", "compilation_passed": true, "time": 0.01839900016784668, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], stats.linregress(df['A'], df['B']).intercept + df['A'], color='red')", "compilation_passed": true, "time": 0.013595819473266602, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(df['A'], a + b, '--')", "compilation_passed": true, "time": 0.022270917892456055, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(df['A'], df['B'], 'r')", "compilation_passed": true, "time": 0.019006967544555664, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['A'].apply(lambda x: a_func(x)), c='r')", "compilation_passed": true, "time": 0.02911210060119629, "tests_passed": false, "error": "NameError"}
+{"code": "plot(np.array(df['A']),", "compilation_passed": false, "time": 0.0002129077911376953, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(np.linspace(df['A'].min(), df['A'].max(), 1000), np.poly1d(np.polyfit(df['A'], df['B'], 1))(np.linspace(df['A'].min(), df['A'].max(), 1000)))", "compilation_passed": true, "time": 0.020398855209350586, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['B'], linestyle='-', color='red', linewidth=1)", "compilation_passed": true, "time": 0.01854681968688965, "tests_passed": true, "error": null}
+{"code": "title(f'Correlation between A and B: {correlation}')", "compilation_passed": true, "time": 0.017799854278564453, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], stats.linregress(df['A'], df['B']).intercept + df['A'] * stats.linregress(df['A'], df['B']).slope, c='r')", "compilation_passed": true, "time": 0.014957189559936523, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(df['A'], df['A'], c='red')", "compilation_passed": true, "time": 0.019958972930908203, "tests_passed": true, "error": null}
+{"code": "plot([min(a), max(a)], [min(b), max(b)], c='black')", "compilation_passed": true, "time": 0.02012801170349121, "tests_passed": true, "error": null}
+{"code": "plot(np.linspace(min(a), max(a), 100), stats.linregress(df['A'], df['B']).intercept + stats.linregress(df['A'], df['B']).slope * np.linspace(min(a), max(a), 100))", "compilation_passed": true, "time": 0.014490842819213867, "tests_passed": false, "error": "ValueError"}
+{"code": "title('Task 1')", "compilation_passed": true, "time": 0.018153905868530273, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['A'].apply(lambda x: a[x] + 2), 'r-')", "compilation_passed": true, "time": 0.015543937683105469, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(df['A'], np.poly1d([1, correlation])(df['A']))", "compilation_passed": true, "time": 0.021774768829345703, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], np.poly1d([1, 0])(df['A']))", "compilation_passed": true, "time": 0.021012067794799805, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], stats.linregress(df['A'], df['B']).intercept + df['A'], 'k--')", "compilation_passed": true, "time": 0.015020132064819336, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(np.linspace(np.min(df['A']), np.max(df['A']), 100),", "compilation_passed": false, "time": 0.00018787384033203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(df['A'], df['A'] + df['B'])", "compilation_passed": true, "time": 0.02157115936279297, "tests_passed": true, "error": null}

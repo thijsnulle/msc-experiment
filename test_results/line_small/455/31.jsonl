@@ -1,0 +1,9 @@
+{"code": " np.random.normal(mean, std_dev, n)", "compilation_passed": true, "time": 1.0094871520996094, "tests_passed": false, "error": "TimeoutError"}
+{"code": " stats.norm(mean, std_dev).rvs(n)", "compilation_passed": true, "time": 0.357943058013916, "tests_passed": true, "error": null}
+{"code": " stats.norm.rvs(loc=mean, scale=std_dev, size=n)", "compilation_passed": true, "time": 0.35703015327453613, "tests_passed": true, "error": null}
+{"code": " stats.norm.rvs(mean, std_dev, size=n)", "compilation_passed": true, "time": 0.5213031768798828, "tests_passed": true, "error": null}
+{"code": " np.random.normal(loc=mean, scale=std_dev, size=n)", "compilation_passed": true, "time": 0.3998279571533203, "tests_passed": true, "error": null}
+{"code": " stats.norm.rvs(loc=mean, scale=std_dev, size=n, random_state=2023)", "compilation_passed": true, "time": 0.39058828353881836, "tests_passed": true, "error": null}
+{"code": " stats.norm.rvs(mean, std_dev, n)", "compilation_passed": true, "time": 0.39354491233825684, "tests_passed": true, "error": null}
+{"code": " stats.norm.rvs(loc=mean, scale=std_dev, size=n, random_state=1234)", "compilation_passed": true, "time": 0.38271594047546387, "tests_passed": true, "error": null}
+{"code": " stats.norm.rvs(mean=mean, std=std_dev, size=n)", "compilation_passed": true, "time": 0.01522517204284668, "tests_passed": false, "error": "TypeError"}

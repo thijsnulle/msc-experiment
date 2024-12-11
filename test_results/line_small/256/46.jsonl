@@ -1,0 +1,18 @@
+{"code": " ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(password_length))", "compilation_passed": true, "time": 0.013035058975219727, "tests_passed": false, "error": "NameError"}
+{"code": " ''.join(random.choice(ascii_lowercase + digits) for _ in range(password_length))", "compilation_passed": true, "time": 0.013705968856811523, "tests_passed": false, "error": "NameError"}
+{"code": " ''.join(random.choices(string.ascii_letters + string.digits, k=password_length))", "compilation_passed": true, "time": 0.009434938430786133, "tests_passed": false, "error": "NameError"}
+{"code": " \"\".join(random.choice(string.ascii_lowercase + string.digits) for _ in range(password_length))", "compilation_passed": true, "time": 0.014667034149169922, "tests_passed": false, "error": "NameError"}
+{"code": " ''.join(random.choices(string.ascii_lowercase + string.digits, k=password_length))", "compilation_passed": true, "time": 0.009630918502807617, "tests_passed": false, "error": "NameError"}
+{"code": " \"\".join(random.choice(ascii_lowercase + digits) for _ in range(password_length))", "compilation_passed": true, "time": 0.012696981430053711, "tests_passed": false, "error": "NameError"}
+{"code": " ''.join(random.SystemRandom().choice(string.ascii_lowercase + string.digits) for _ in range(password_length))", "compilation_passed": true, "time": 0.013379096984863281, "tests_passed": false, "error": "NameError"}
+{"code": " \"\".join(random.SystemRandom().choice(string.ascii_lowercase + string.digits)", "compilation_passed": false, "time": 0.0004458427429199219, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\".join(random.choices(string.ascii_lowercase + string.digits, k=password_length))", "compilation_passed": true, "time": 0.009324073791503906, "tests_passed": false, "error": "NameError"}
+{"code": " ''.join([random.choice(string.ascii_lowercase + string.digits) for _ in range(password_length)])", "compilation_passed": true, "time": 0.014199972152709961, "tests_passed": false, "error": "NameError"}
+{"code": " \"\".join(", "compilation_passed": false, "time": 0.00023484230041503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\".join([random.choice(string.ascii_lowercase + string.digits) for i in range(password_length)])", "compilation_passed": true, "time": 0.013476848602294922, "tests_passed": false, "error": "NameError"}
+{"code": " ''.join(random.choice(string.ascii_lowercase + string.digits) for i in range(password_length))", "compilation_passed": true, "time": 0.014168024063110352, "tests_passed": false, "error": "NameError"}
+{"code": " ''.join(random.choice(", "compilation_passed": false, "time": 0.0002980232238769531, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ''.join(random.choices(", "compilation_passed": false, "time": 0.00020813941955566406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ''.join(", "compilation_passed": false, "time": 0.00023293495178222656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(password_length))", "compilation_passed": true, "time": 0.013116121292114258, "tests_passed": false, "error": "NameError"}
+{"code": " ''.join(random.SystemRandom().choice(", "compilation_passed": false, "time": 0.00024008750915527344, "tests_passed": false, "error": "SyntaxError"}

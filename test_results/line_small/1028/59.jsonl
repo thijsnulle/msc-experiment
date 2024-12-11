@@ -1,0 +1,12 @@
+{"code": " subprocess.run(command, capture_output=True, timeout=3, check=True).stdout", "compilation_passed": true, "time": 0.08888506889343262, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(command, stderr=subprocess.STDOUT).decode(\"utf-8\")", "compilation_passed": true, "time": 0.0892488956451416, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(command)", "compilation_passed": true, "time": 0.08847188949584961, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(command).decode(\"utf-8\")", "compilation_passed": true, "time": 0.08597683906555176, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(command, stderr=subprocess.STDOUT)", "compilation_passed": true, "time": 0.0887908935546875, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(command, stderr=subprocess.STDOUT,", "compilation_passed": false, "time": 0.0004558563232421875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.check_output(", "compilation_passed": false, "time": 0.0005681514739990234, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.check_output(command, stderr=subprocess.STDOUT, encoding=\"utf-8\")", "compilation_passed": true, "time": 0.08507323265075684, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.run(command, capture_output=True, text=True, check=True)", "compilation_passed": true, "time": 0.09455299377441406, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(command).decode()", "compilation_passed": true, "time": 0.08681297302246094, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.run(", "compilation_passed": false, "time": 0.0005550384521484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.check_output(command).decode(\"utf-8\").strip()", "compilation_passed": true, "time": 0.08582305908203125, "tests_passed": false, "error": "subprocess.CalledProcessError"}

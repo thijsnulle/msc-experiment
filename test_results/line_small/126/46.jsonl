@@ -1,0 +1,6 @@
+{"code": " np.bincount(counts).argmax()", "compilation_passed": true, "time": 0.01256704330444336, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts)", "compilation_passed": true, "time": 0.006826877593994141, "tests_passed": true, "error": null}
+{"code": " max(set(counts), key=counts.count)", "compilation_passed": true, "time": 0.01239919662475586, "tests_passed": true, "error": null}
+{"code": " stats.mode(counts)", "compilation_passed": true, "time": 0.019982099533081055, "tests_passed": false, "error": "NameError"}
+{"code": " None", "compilation_passed": true, "time": 0.012445211410522461, "tests_passed": true, "error": null}
+{"code": " max(counts, key=counts.count)", "compilation_passed": true, "time": 0.006439208984375, "tests_passed": true, "error": null}

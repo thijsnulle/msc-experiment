@@ -1,0 +1,4 @@
+{"code": " scaler.fit_transform(xy)", "compilation_passed": true, "time": 0.15674281120300293, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(xy)  # Fit the scaler and transform the data", "compilation_passed": true, "time": 0.15656805038452148, "tests_passed": true, "error": null}
+{"code": " scaler.transform(xy)", "compilation_passed": true, "time": 0.042024850845336914, "tests_passed": false, "error": "sklearn.exceptions.NotFittedError"}
+{"code": " scaler.fit_transform(xy)  # Standardize the data using the scaler", "compilation_passed": true, "time": 0.16419601440429688, "tests_passed": true, "error": null}

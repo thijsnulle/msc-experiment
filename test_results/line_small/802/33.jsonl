@@ -1,0 +1,5 @@
+{"code": " list(itertools.chain.from_iterable(matrix))", "compilation_passed": true, "time": 0.002518892288208008, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*matrix))", "compilation_passed": true, "time": 0.0020089149475097656, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*matrix))  # Flatten the 2D array", "compilation_passed": true, "time": 0.0018742084503173828, "tests_passed": true, "error": null}
+{"code": " [matrix[i][j] for i in range(dimension) for j in range(dimension)]", "compilation_passed": true, "time": 0.002321004867553711, "tests_passed": true, "error": null}
+{"code": " [item for sublist in matrix for item in sublist]", "compilation_passed": true, "time": 0.0017142295837402344, "tests_passed": true, "error": null}

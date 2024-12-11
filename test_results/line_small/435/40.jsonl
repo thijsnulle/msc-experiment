@@ -1,0 +1,19 @@
+{"code": "\"Name Age Code Salary Bio Job Title\".split(),", "compilation_passed": true, "time": 0.010660171508789062, "tests_passed": false, "error": "ValueError"}
+{"code": "pd.Series(", "compilation_passed": false, "time": 0.0002751350402832031, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pd.Index(", "compilation_passed": false, "time": 0.0003180503845214844, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pd.Index([\"Name\", \"Age\", \"Code\", \"Salary\", \"Bio\", \"Job Title\"]),", "compilation_passed": true, "time": 0.02390885353088379, "tests_passed": true, "error": null}
+{"code": "list(\"Name Age Code Salary Bio Job Title\".split()),", "compilation_passed": true, "time": 0.011275053024291992, "tests_passed": false, "error": "ValueError"}
+{"code": "list(\"Name Age Code Salary Bio Job Title\"),", "compilation_passed": true, "time": 0.010659217834472656, "tests_passed": false, "error": "ValueError"}
+{"code": "pd.DataFrame(", "compilation_passed": false, "time": 0.0002732276916503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "list(\"Name Age Code Salary Bio Job Title\").split(),", "compilation_passed": true, "time": 0.012093067169189453, "tests_passed": false, "error": "AttributeError"}
+{"code": "\"Name,Age,Code,Salary,Bio,Job Title\",", "compilation_passed": true, "time": 0.010747909545898438, "tests_passed": false, "error": "TypeError"}
+{"code": "pd.MultiIndex.from_tuples(", "compilation_passed": false, "time": 0.00028204917907714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": "{\"Name\", \"Age\", \"Code\", \"Salary\", \"Bio\", \"Job Title\"},", "compilation_passed": true, "time": 0.011452913284301758, "tests_passed": false, "error": "ValueError"}
+{"code": "", "compilation_passed": false, "time": 0.0002357959747314453, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pd.DataFrame(columns=[\"Name\", \"Age\", \"Code\", \"Salary\", \"Bio\", \"Job Title\"]).columns,", "compilation_passed": true, "time": 0.06104087829589844, "tests_passed": true, "error": null}
+{"code": "\"Name Age Code Salary Bio Job Title\".split()", "compilation_passed": true, "time": 0.01323080062866211, "tests_passed": false, "error": "ValueError"}
+{"code": "\"Name, Age, Code, Salary, Bio, Job Title\".split(\", \"),", "compilation_passed": true, "time": 0.02859187126159668, "tests_passed": true, "error": null}
+{"code": "pd.MultiIndex(", "compilation_passed": false, "time": 0.00028395652770996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": "('Name', 'Age', 'Code', 'Salary', 'Bio', 'Job Title')", "compilation_passed": true, "time": 0.028432846069335938, "tests_passed": true, "error": null}
+{"code": "\"Name Age Code Salary Bio Job Title\".split(\" \"),", "compilation_passed": true, "time": 0.011632919311523438, "tests_passed": false, "error": "ValueError"}
+{"code": "pd.MultiIndex.from_tuples([(\"Name\", \"\"),", "compilation_passed": false, "time": 0.00018310546875, "tests_passed": false, "error": "SyntaxError"}

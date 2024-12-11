@@ -1,0 +1,9 @@
+{"code": " []", "compilation_passed": true, "time": 0.019491195678710938, "tests_passed": false, "error": "IndexError"}
+{"code": " list(itertools.chain.from_iterable([int(i) for i in element if i.isdigit()] for element in T1))", "compilation_passed": true, "time": 0.012989282608032227, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(number) for number_tuple in T1 for number in number_tuple]", "compilation_passed": true, "time": 0.015022754669189453, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(i) for i in itertools.chain.from_iterable(T1)]", "compilation_passed": true, "time": 0.012389183044433594, "tests_passed": false, "error": "TypeError"}
+{"code": " list()", "compilation_passed": true, "time": 0.016767263412475586, "tests_passed": false, "error": "IndexError"}
+{"code": " [int(x) for i in T1 for x in i]", "compilation_passed": true, "time": 0.014639854431152344, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(x) for t in T1 for x in t]", "compilation_passed": true, "time": 0.01211690902709961, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(i) for i in itertools.chain(*T1)]", "compilation_passed": true, "time": 0.013427972793579102, "tests_passed": false, "error": "TypeError"}
+{"code": " list(itertools.chain(*(int(i) for i in t)))", "compilation_passed": true, "time": 0.0124359130859375, "tests_passed": false, "error": "NameError"}

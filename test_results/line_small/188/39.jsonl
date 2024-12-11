@@ -1,0 +1,13 @@
+{"code": " {k: v if isinstance(v, dict) else geolocator.geocode(v) for k, v in dic.items()}", "compilation_passed": true, "time": 0.01904892921447754, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.015334844589233398, "tests_passed": false, "error": "AttributeError"}
+{"code": " {name: value for name, value in dic.items() if isinstance(value, dict)}", "compilation_passed": true, "time": 0.014448165893554688, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.04973196983337402, "tests_passed": true, "error": null}
+{"code": " {name: coords if isinstance(coords, dict) else geolocator.geocode(coords)", "compilation_passed": false, "time": 0.00023126602172851562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {location: dic[location] for location in dic.keys() if isinstance(dic[location], dict)}", "compilation_passed": true, "time": 0.013656854629516602, "tests_passed": false, "error": "AttributeError"}
+{"code": " {key: value", "compilation_passed": false, "time": 0.00019979476928710938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {name: {'Lat': lat, 'Lon': lon} if isinstance(value, dict)", "compilation_passed": false, "time": 0.0001361370086669922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {location_name: (coords[\"Lat\"], coords[\"Lon\"]) if isinstance(coords, dict) else (geolocator.geocode(address).latitude, geolocator.geocode(address).longitude) for location_name, coords in dic.items()}", "compilation_passed": true, "time": 0.015980005264282227, "tests_passed": false, "error": "NameError"}
+{"code": " {name: (loc['Lat'], loc['Lon']) if isinstance(loc, dict) else geolocator.geocode(loc)", "compilation_passed": false, "time": 0.0002548694610595703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {", "compilation_passed": false, "time": 0.00019407272338867188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {name: {'Lat': str(lat), 'Lon': str(lon)} for (name, {'Lat': lat, 'Lon': lon}) in dic.items()}", "compilation_passed": false, "time": 0.0002040863037109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {k: v if type(v) == dict else geolocator.geocode(v) for k, v in dic.items()}", "compilation_passed": true, "time": 0.012966156005859375, "tests_passed": false, "error": "AttributeError"}

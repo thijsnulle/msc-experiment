@@ -1,0 +1,26 @@
+{"code": "plot(x_fit, func(x_fit, *popt), label=f\"a={popt[0]:.2f}, b={popt[1]:.2f}, c={popt[2]:.2f}\")", "compilation_passed": true, "time": 0.1297321319580078, "tests_passed": true, "error": null}
+{"code": "plot(x_data, y_data, 'o', x_fit, func(x_fit, *popt), '-')", "compilation_passed": true, "time": 0.15990400314331055, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), label=\"Fitting function\")", "compilation_passed": true, "time": 0.13344097137451172, "tests_passed": true, "error": null}
+{"code": "plot(x_data, y_data, 'o', label='Data')", "compilation_passed": true, "time": 0.1528491973876953, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), 'r', label='Fit: a=%5.3f, b=%5.3f, c=%5.3f' % tuple(popt))", "compilation_passed": true, "time": 0.14496397972106934, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), label='fit')", "compilation_passed": true, "time": 0.13056588172912598, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), \"--\")", "compilation_passed": true, "time": 0.14036107063293457, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), color='red')", "compilation_passed": true, "time": 0.12131619453430176, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), c='r')", "compilation_passed": true, "time": 0.12197995185852051, "tests_passed": true, "error": null}
+{"code": "plot(x_data, y_data, \"o\", label=\"Data\")", "compilation_passed": true, "time": 0.13362812995910645, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), 'b-', lw=2)", "compilation_passed": true, "time": 0.13146686553955078, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), color='orange')", "compilation_passed": true, "time": 0.1291520595550537, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), 'r', label='fitting function')", "compilation_passed": true, "time": 0.13377690315246582, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), label='Fit')", "compilation_passed": true, "time": 0.1231071949005127, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), 'r')", "compilation_passed": true, "time": 0.12315177917480469, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), 'r-', label='Fitted curve')", "compilation_passed": true, "time": 0.1405649185180664, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), '--')", "compilation_passed": true, "time": 0.15250420570373535, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt))", "compilation_passed": true, "time": 0.12498807907104492, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), 'k-', label=f\"Fitting function: a={popt[0]:.6f}, b={popt[1]:.6f}, c={popt[2]:.6f}\")", "compilation_passed": true, "time": 0.13190913200378418, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), \"-\", label=f\"Exponential fit with parameters: {', '.join(map(lambda x: str(x), popt))}\")", "compilation_passed": true, "time": 0.14357662200927734, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), 'r', label='Fitted line')", "compilation_passed": true, "time": 0.13073205947875977, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), c='g')", "compilation_passed": true, "time": 0.13716793060302734, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), label='Fitted function')", "compilation_passed": true, "time": 0.12195587158203125, "tests_passed": true, "error": null}
+{"code": "plot(x_data, y_data, \"ro\")", "compilation_passed": true, "time": 0.11985611915588379, "tests_passed": true, "error": null}
+{"code": "plot(x_data, y_data, 'ro')", "compilation_passed": true, "time": 0.11997294425964355, "tests_passed": true, "error": null}
+{"code": "plot(x_fit, func(x_fit, *popt), 'r', label=f'Fitting function: y=a*exp(-b*x)+c')", "compilation_passed": true, "time": 0.1219487190246582, "tests_passed": true, "error": null}

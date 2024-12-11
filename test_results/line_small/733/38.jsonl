@@ -1,0 +1,7 @@
+{"code": " [word for word in words if word not in STOPWORDS]", "compilation_passed": true, "time": 0.0017299652099609375, "tests_passed": true, "error": null}
+{"code": " len(set(words) - STOPWORDS)", "compilation_passed": true, "time": 0.011273860931396484, "tests_passed": false, "error": "TypeError"}
+{"code": " len(words) - len(STOPWORDS.intersection(set(words)))", "compilation_passed": true, "time": 0.011311054229736328, "tests_passed": false, "error": "TypeError"}
+{"code": " set(words) - STOPWORDS", "compilation_passed": true, "time": 0.0015251636505126953, "tests_passed": true, "error": null}
+{"code": " len([word for word in words if word not in STOPWORDS])", "compilation_passed": true, "time": 0.008533954620361328, "tests_passed": false, "error": "TypeError"}
+{"code": " [word for word in words if not word in STOPWORDS]", "compilation_passed": true, "time": 0.0017371177673339844, "tests_passed": true, "error": null}
+{"code": " len(list(set(words) - STOPWORDS))", "compilation_passed": true, "time": 0.009104728698730469, "tests_passed": false, "error": "TypeError"}

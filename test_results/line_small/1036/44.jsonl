@@ -1,0 +1,28 @@
+{"code": "plot([point, point], [df[df[\"Type\"] == \"Series1\"].index[0], df[df[\"Type\"] == \"Series2\"].index[-1]], \"r--\", linewidth=1.5)", "compilation_passed": true, "time": 0.2570922374725342, "tests_passed": true, "error": null}
+{"code": "axvline(point, color=\"r\", linestyle=\"--\")", "compilation_passed": true, "time": 0.2559990882873535, "tests_passed": true, "error": null}
+{"code": "axvline(point, color=\"red\", linestyle=\"--\")", "compilation_passed": true, "time": 0.2519068717956543, "tests_passed": true, "error": null}
+{"code": "axvline(point, color=\"red\", linestyle=\"-\", linewidth=1.5)", "compilation_passed": true, "time": 0.25018978118896484, "tests_passed": true, "error": null}
+{"code": "axvline(point, color='red', linewidth=2, linestyle='--')", "compilation_passed": true, "time": 0.2513737678527832, "tests_passed": true, "error": null}
+{"code": "plot([point, point], [-0.0001, 0], color='red', linewidth=0.2)", "compilation_passed": true, "time": 0.25330305099487305, "tests_passed": true, "error": null}
+{"code": "axhline(point, ls=\"--\", color=\"red\", lw=2)", "compilation_passed": true, "time": 0.24805283546447754, "tests_passed": true, "error": null}
+{"code": "plot([point, point], [\"Type1\", \"Type2\"], \"-.\", linewidth=1.5, color=\"red\", markersize=4)", "compilation_passed": true, "time": 0.25010108947753906, "tests_passed": true, "error": null}
+{"code": "plot([point, point], [df1[\"Series1\"].min(), df2[\"Series2\"].min()], \"-r\", linewidth=2, alpha=0.5)", "compilation_passed": true, "time": 0.2638118267059326, "tests_passed": true, "error": null}
+{"code": "axvline(point, color=\"r\", linestyle=\"--\", linewidth=2)", "compilation_passed": true, "time": 0.25350499153137207, "tests_passed": true, "error": null}
+{"code": "axvline(point, linestyle='dashed', color='red')", "compilation_passed": true, "time": 0.25361013412475586, "tests_passed": true, "error": null}
+{"code": "axvline(point, color='r', ls='--', alpha=0.5)", "compilation_passed": true, "time": 0.25402283668518066, "tests_passed": true, "error": null}
+{"code": "axvline(point, color='red', linestyle='--')", "compilation_passed": true, "time": 0.24533891677856445, "tests_passed": true, "error": null}
+{"code": "axvline(x=point, c='r', ls='--')", "compilation_passed": true, "time": 0.24460911750793457, "tests_passed": true, "error": null}
+{"code": "plot([point, point], [\"Type1\", \"Type2\"], \"r--\", linewidth=1)", "compilation_passed": true, "time": 0.2576138973236084, "tests_passed": true, "error": null}
+{"code": "axhline(point, color='r', ls='--')", "compilation_passed": true, "time": 0.25327420234680176, "tests_passed": true, "error": null}
+{"code": "plot(point, \"r\", linewidth=1)", "compilation_passed": true, "time": 0.25536298751831055, "tests_passed": true, "error": null}
+{"code": "axvline(point, color='red', ls='--', alpha=0.5)", "compilation_passed": true, "time": 0.2562439441680908, "tests_passed": true, "error": null}
+{"code": "axvline(point, c='red', ls='--')", "compilation_passed": true, "time": 0.2623331546783447, "tests_passed": true, "error": null}
+{"code": "plot([point, point], [\"Series1\", \"Series2\"], color='r', linewidth=4, linestyle=\"--\")", "compilation_passed": true, "time": 0.2637810707092285, "tests_passed": true, "error": null}
+{"code": "axvline(point, color='r', ls='-', lw=1, alpha=0.5)", "compilation_passed": true, "time": 1.0399699211120605, "tests_passed": false, "error": "TimeoutError"}
+{"code": "plot([point, point], [-2, 5], linewidth=5, linestyle='dashed', color='red')", "compilation_passed": true, "time": 0.2477738857269287, "tests_passed": true, "error": null}
+{"code": "axvline(point, color='r', linestyle='--')", "compilation_passed": true, "time": 0.2525339126586914, "tests_passed": true, "error": null}
+{"code": "axhline(y=point, color=\"r\", linestyle=\"--\")", "compilation_passed": true, "time": 0.25005507469177246, "tests_passed": true, "error": null}
+{"code": "axvline(x=point, color=\"red\", ls=\"--\")", "compilation_passed": true, "time": 0.2520310878753662, "tests_passed": true, "error": null}
+{"code": "hlines(point, 0, 1, color='red', linestyle='--')", "compilation_passed": true, "time": 0.24457120895385742, "tests_passed": true, "error": null}
+{"code": "hlines(point, xmin=0, xmax=len(s1), linestyle='--', color='r')", "compilation_passed": true, "time": 0.2567138671875, "tests_passed": true, "error": null}
+{"code": "axhline(point, color='red', linewidth=1, linestyle='-', alpha=0.7)", "compilation_passed": true, "time": 0.25409722328186035, "tests_passed": true, "error": null}

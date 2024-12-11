@@ -1,0 +1,8 @@
+{"code": " data_df['Value'].mean()", "compilation_passed": true, "time": 0.01456904411315918, "tests_passed": false, "error": "IndexError"}
+{"code": " round(data_df['Value'].mean(), 3)", "compilation_passed": true, "time": 0.009538888931274414, "tests_passed": false, "error": "IndexError"}
+{"code": " data_df.Value.mean()", "compilation_passed": true, "time": 0.01047825813293457, "tests_passed": false, "error": "IndexError"}
+{"code": " round(data_df.mean(), 3)", "compilation_passed": true, "time": 0.009669780731201172, "tests_passed": false, "error": "IndexError"}
+{"code": " round(data_df.mean().loc['Value'], 3)", "compilation_passed": true, "time": 0.00999593734741211, "tests_passed": false, "error": "IndexError"}
+{"code": " round(data_df.mean().values[0], 3)", "compilation_passed": true, "time": 0.010650873184204102, "tests_passed": false, "error": "IndexError"}
+{"code": " data_df.mean()", "compilation_passed": true, "time": 0.010875225067138672, "tests_passed": false, "error": "IndexError"}
+{"code": " data_df.mean()['Value']", "compilation_passed": true, "time": 0.009655237197875977, "tests_passed": false, "error": "IndexError"}

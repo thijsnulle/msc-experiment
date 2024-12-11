@@ -1,0 +1,19 @@
+{"code": " pd.read_html(StringIO(str(table)), encoding=\"utf-8\")[0]", "compilation_passed": true, "time": 0.008415937423706055, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)))[0]", "compilation_passed": true, "time": 0.007380008697509766, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)))", "compilation_passed": true, "time": 0.01347804069519043, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)), index_col=None, header=False)", "compilation_passed": true, "time": 0.014950990676879883, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.read_html(StringIO(str(table)))  # Convert the table HTML content to a Pandas DataFrame", "compilation_passed": true, "time": 0.013310909271240234, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)))  # Read HTML data using read_html() function", "compilation_passed": true, "time": 0.014040231704711914, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)))[0]  # Read the table from a string, converting it into a DataFrame", "compilation_passed": true, "time": 0.008796930313110352, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)), header=[0])[0]", "compilation_passed": true, "time": 0.00868988037109375, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)), header=0, index_col=0, na_values=\"\", parse_dates=False)", "compilation_passed": true, "time": 0.015035152435302734, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)))[0]  # Convert HTML table to DataFrame", "compilation_passed": true, "time": 0.008620023727416992, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)), header=[0, 1], index_col=False)[0]", "compilation_passed": true, "time": 0.022103071212768555, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_html(StringIO(str(table)), header=0)[0]", "compilation_passed": true, "time": 0.007776021957397461, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(table.prettify()), converters={'Age': str})[0]", "compilation_passed": true, "time": 0.008612871170043945, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)), header=[0, 1])[0]", "compilation_passed": true, "time": 0.008546829223632812, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)), header=0, index_col=None)[0]", "compilation_passed": true, "time": 0.009128093719482422, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)))[0]  # Extract table data", "compilation_passed": true, "time": 0.0075948238372802734, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)), na_values=[\"-\"], header=None)[0]", "compilation_passed": true, "time": 0.0077419281005859375, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)), header=1, index_col=0, na_values='nan', keep_default_na=False)", "compilation_passed": true, "time": 0.01389002799987793, "tests_passed": true, "error": null}
+{"code": " pd.read_html(StringIO(str(table)), header=1, index_col=0)[0]", "compilation_passed": true, "time": 0.012856245040893555, "tests_passed": true, "error": null}

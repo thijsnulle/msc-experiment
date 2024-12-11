@@ -1,0 +1,9 @@
+{"code": "plot(df.index, df[fruit], label=fruit)", "compilation_passed": true, "time": 0.22568583488464355, "tests_passed": true, "error": null}
+{"code": "plot(df[fruit])", "compilation_passed": true, "time": 0.09471297264099121, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df[fruit])", "compilation_passed": true, "time": 0.09448504447937012, "tests_passed": true, "error": null}
+{"code": "plot(range(len(df)), df[fruit], label=fruit)", "compilation_passed": true, "time": 0.24510908126831055, "tests_passed": true, "error": null}
+{"code": "plot(df['time'], df[fruit])", "compilation_passed": true, "time": 0.02400684356689453, "tests_passed": false, "error": "KeyError"}
+{"code": "bar(df.index, df[fruit])", "compilation_passed": true, "time": 0.05714106559753418, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(range(len(df.index)), df[fruit], label=fruit)", "compilation_passed": true, "time": 0.25899386405944824, "tests_passed": true, "error": null}
+{"code": "plot(range(len(df[fruit])), df[fruit])", "compilation_passed": true, "time": 0.09734487533569336, "tests_passed": true, "error": null}
+{"code": "bar(range(len(df[fruit])), df[fruit], width=1, alpha=0.5, label=fruit)", "compilation_passed": true, "time": 0.058779239654541016, "tests_passed": false, "error": "IndexError"}

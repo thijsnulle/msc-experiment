@@ -1,0 +1,24 @@
+{"code": " encrypted_file.split('.encrypted')[0] + '_key.encrypted'", "compilation_passed": true, "time": 0.06419181823730469, "tests_passed": false, "error": "TypeError"}
+{"code": " encryptor.update(iv + aes_key) + encryptor.finalize()", "compilation_passed": true, "time": 0.10129117965698242, "tests_passed": false, "error": "cryptography.exceptions.AlreadyFinalized"}
+{"code": " file_path + '.encrypted.aes_key'", "compilation_passed": true, "time": 0.035375118255615234, "tests_passed": false, "error": "TypeError"}
+{"code": " os.urandom(48)", "compilation_passed": true, "time": 0.5618801116943359, "tests_passed": true, "error": null}
+{"code": " b64encode(aes_key).decode('utf-8')", "compilation_passed": true, "time": 0.03106403350830078, "tests_passed": false, "error": "TypeError"}
+{"code": " priv_key.encrypt(aes_key, mode=rsa.OAEP(mgf=rsa.MGF1(algorithm=hashlib.sha1()), algorithm=hashlib.sha1(), label=None))", "compilation_passed": true, "time": 0.036145925521850586, "tests_passed": false, "error": "AttributeError"}
+{"code": " pub_key.encrypt(aes_key, padding.OAEP(mgf=padding.MGF1(algorithm=algorithms.SHA256()),", "compilation_passed": false, "time": 0.0004429817199707031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " file_path + '.encryptedkey'", "compilation_passed": true, "time": 0.0355069637298584, "tests_passed": false, "error": "TypeError"}
+{"code": " priv_key.encrypt(aes_key, backend=default_backend())", "compilation_passed": true, "time": 0.07802176475524902, "tests_passed": false, "error": "AttributeError"}
+{"code": " b64encode(pub_key.public_bytes(encoding=serialization.Encoding.DER,", "compilation_passed": false, "time": 0.0003561973571777344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " os.urandom(16)", "compilation_passed": true, "time": 0.26990699768066406, "tests_passed": true, "error": null}
+{"code": " file_path + '.encrypted_aes_key'", "compilation_passed": true, "time": 0.06192517280578613, "tests_passed": false, "error": "TypeError"}
+{"code": " str(b64encode(iv), 'utf-8') + ',' + str(b64encode(aes_key), 'utf-8') + ',' + str(", "compilation_passed": false, "time": 0.0003509521484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " file_path + '.encrypted'", "compilation_passed": true, "time": 0.035490989685058594, "tests_passed": false, "error": "TypeError"}
+{"code": " file_path + '.encrypted_key'", "compilation_passed": true, "time": 0.0493321418762207, "tests_passed": false, "error": "TypeError"}
+{"code": " encrypted_file + '.encrypted'", "compilation_passed": true, "time": 0.0751490592956543, "tests_passed": false, "error": "TypeError"}
+{"code": " os.urandom(32)", "compilation_passed": true, "time": 0.36618900299072266, "tests_passed": true, "error": null}
+{"code": " rsa.encrypt(aes_key, pub_key)", "compilation_passed": true, "time": 0.37656092643737793, "tests_passed": true, "error": null}
+{"code": " 'encrypted_aes_key.encrypted'", "compilation_passed": true, "time": 0.018620014190673828, "tests_passed": false, "error": "TypeError"}
+{"code": " aes_key + iv", "compilation_passed": true, "time": 0.49942922592163086, "tests_passed": true, "error": null}
+{"code": " b64encode(priv_key.public_key().encrypt(aes_key, None))", "compilation_passed": true, "time": 0.0768289566040039, "tests_passed": false, "error": "AttributeError"}
+{"code": " b64encode(iv + cipher.iv + encryptor.tag).decode()", "compilation_passed": true, "time": 0.25876283645629883, "tests_passed": false, "error": "AttributeError"}
+{"code": " b64encode(priv_key.public_key().encrypt(aes_key, default_backend()))", "compilation_passed": true, "time": 0.11566424369812012, "tests_passed": false, "error": "AttributeError"}
+{"code": " b64encode(encrypted_data).decode()", "compilation_passed": true, "time": 0.0867149829864502, "tests_passed": false, "error": "TypeError"}

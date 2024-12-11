@@ -1,0 +1,6 @@
+{"code": "set_xticks(indices + 0.5)", "compilation_passed": true, "time": 0.11408472061157227, "tests_passed": true, "error": null}
+{"code": "set_xticks(indices)", "compilation_passed": true, "time": 0.11049985885620117, "tests_passed": true, "error": null}
+{"code": "set_xticks(indices + (0.5 - 0.5 * len(mystrings)) / 2)", "compilation_passed": true, "time": 0.1051168441772461, "tests_passed": true, "error": null}
+{"code": "set_xticks(indices, words, rotation=30, ha='right')", "compilation_passed": true, "time": 0.11118125915527344, "tests_passed": true, "error": null}
+{"code": "set(xlabel='Word', ylabel='Frequency', title=\"Frequency plot of replaced words\")", "compilation_passed": true, "time": 0.19268393516540527, "tests_passed": true, "error": null}
+{"code": "set_xticks(indices, words)", "compilation_passed": true, "time": 1.4913899898529053, "tests_passed": false, "error": "TimeoutError"}

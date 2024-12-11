@@ -1,0 +1,7 @@
+{"code": " sum(math.sqrt(float(n)) for n in numbers)", "compilation_passed": true, "time": 0.004165172576904297, "tests_passed": true, "error": null}
+{"code": " len(numbers)", "compilation_passed": true, "time": 0.0014300346374511719, "tests_passed": true, "error": null}
+{"code": " len(numbers)  # Get the count of all integers and floats", "compilation_passed": true, "time": 0.001611948013305664, "tests_passed": true, "error": null}
+{"code": " sum([1 if isinstance(eval(num), int) else 0 for num in numbers])", "compilation_passed": true, "time": 0.0064640045166015625, "tests_passed": true, "error": null}
+{"code": " sum(map(int, numbers))  # Count integers and floats", "compilation_passed": true, "time": 0.00819706916809082, "tests_passed": false, "error": "ValueError"}
+{"code": " sum(1 for num in numbers if not num.isdigit())", "compilation_passed": true, "time": 0.003665924072265625, "tests_passed": true, "error": null}
+{"code": " len(numbers)  # Calculate the total count", "compilation_passed": true, "time": 0.0016367435455322266, "tests_passed": true, "error": null}

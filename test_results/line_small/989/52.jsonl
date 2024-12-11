@@ -1,0 +1,15 @@
+{"code": " [random.choice(string.ascii_letters) for _ in range(length)]", "compilation_passed": true, "time": 0.029317140579223633, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.010032892227172852, "tests_passed": false, "error": "IndexError"}
+{"code": " [random.choice(string.ascii_letters) for i in range(length)]", "compilation_passed": true, "time": 0.029793977737426758, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choices(string.ascii_letters + string.digits, k=length))", "compilation_passed": true, "time": 0.02695298194885254, "tests_passed": true, "error": null}
+{"code": " [random.choice(string.ascii_letters + string.digits + string.punctuation) for _ in range(length)]", "compilation_passed": true, "time": 0.03165102005004883, "tests_passed": true, "error": null}
+{"code": " string.ascii_letters + string.digits + string.punctuation", "compilation_passed": true, "time": 0.01911306381225586, "tests_passed": true, "error": null}
+{"code": " \"\".join(", "compilation_passed": false, "time": 0.0002963542938232422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ''.join(", "compilation_passed": false, "time": 0.0003199577331542969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(set(random.choice(string.ascii_letters + string.digits) for _ in range(length)))", "compilation_passed": true, "time": 0.03213024139404297, "tests_passed": true, "error": null}
+{"code": " random.choices(string.ascii_letters, k=length)", "compilation_passed": true, "time": 0.029065847396850586, "tests_passed": true, "error": null}
+{"code": " random.choices(string.ascii_letters + string.digits + string.punctuation, k=length)", "compilation_passed": true, "time": 0.028127193450927734, "tests_passed": true, "error": null}
+{"code": " random.sample(string.ascii_letters + string.digits + string.punctuation, length)", "compilation_passed": true, "time": 0.03249192237854004, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(string.ascii_letters + string.digits + string.punctuation) for _ in range(length))", "compilation_passed": true, "time": 0.03214883804321289, "tests_passed": true, "error": null}
+{"code": " list(string.ascii_letters + string.digits + string.punctuation)", "compilation_passed": true, "time": 0.020339012145996094, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choice(string.ascii_letters + string.digits + string.punctuation)", "compilation_passed": false, "time": 0.00031113624572753906, "tests_passed": false, "error": "SyntaxError"}

@@ -1,0 +1,15 @@
+{"code": " not isinstance(news_articles, list):", "compilation_passed": true, "time": 0.04323101043701172, "tests_passed": true, "error": null}
+{"code": " not news_articles:", "compilation_passed": true, "time": 0.010812044143676758, "tests_passed": false, "error": "ValueError"}
+{"code": " not all([(key in ['title', 'title_url', 'id', 'category'] for key in article.keys()) for article in news_articles]):", "compilation_passed": true, "time": 0.037674903869628906, "tests_passed": true, "error": null}
+{"code": " len(news_articles) == 0:", "compilation_passed": true, "time": 0.019893646240234375, "tests_passed": false, "error": "ValueError"}
+{"code": " not all([isinstance(n, dict) for n in news_articles]):", "compilation_passed": true, "time": 0.037183284759521484, "tests_passed": true, "error": null}
+{"code": " not all(key in news_article.keys() for news_article in news_articles):", "compilation_passed": true, "time": 0.016595840454101562, "tests_passed": false, "error": "NameError"}
+{"code": " len(news_articles) < 1:", "compilation_passed": true, "time": 0.011485815048217773, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(news_article.keys() == {'title', 'title_url', 'id', 'category'} for news_article in news_articles):", "compilation_passed": true, "time": 0.03275012969970703, "tests_passed": true, "error": null}
+{"code": " not all([isinstance(item, dict) for item in news_articles]):", "compilation_passed": true, "time": 0.038715362548828125, "tests_passed": true, "error": null}
+{"code": " len(news_articles) <= 0:", "compilation_passed": true, "time": 0.015604972839355469, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(key in news_articles[0] for key in ['title', 'title_url', 'id', 'category']):", "compilation_passed": true, "time": 0.022726058959960938, "tests_passed": false, "error": "IndexError"}
+{"code": " any(not isinstance(article, dict) for article in news_articles):", "compilation_passed": true, "time": 0.0363919734954834, "tests_passed": true, "error": null}
+{"code": " not all(article.keys() == {'title', 'title_url', 'id', 'category'} for article in news_articles):", "compilation_passed": true, "time": 0.0319368839263916, "tests_passed": true, "error": null}
+{"code": " not all([k in news_articles[0] for k in ['title', 'title_url', 'id', 'category']]):", "compilation_passed": true, "time": 0.012778997421264648, "tests_passed": false, "error": "IndexError"}
+{"code": " len(news_articles) < 2:", "compilation_passed": true, "time": 0.014531850814819336, "tests_passed": false, "error": "ValueError"}

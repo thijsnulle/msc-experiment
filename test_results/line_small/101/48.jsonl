@@ -1,0 +1,28 @@
+{"code": " sns.heatmap(corr, annot=True, cbar=True, fmt=\".2f\", cbar_kws={\"shrink\": 0.7}, vmin=0, vmax=1, cmap=\"RdBu_r\")", "compilation_passed": true, "time": 1.021178960800171, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.gca()  # Set the current axis to ax", "compilation_passed": true, "time": 1.035797119140625, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, cmap='Blues', square=True, linewidths=.5, cbar_kws={'label': 'Correlation'}, vmax=.5, annot_kws={'fontsize': 10})", "compilation_passed": true, "time": 1.0297160148620605, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, fmt=\".2f\", vmin=-1, vmax=1, center=0, square=True, linewidths=0.5, cbar_kws={\"shrink\": 0.5})", "compilation_passed": true, "time": 1.0247149467468262, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, fmt='.2f', cmap='Blues', cbar=True)", "compilation_passed": true, "time": 1.0243380069732666, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, vmin=-1, vmax=1, center=0, cmap=\"RdYlGn\", linewidths=.5, cbar_kws={'shrink': .85}, square=True)", "compilation_passed": true, "time": 1.01774001121521, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, fmt=\".2f\", linewidths=.5, cmap=\"YlGnBu\")", "compilation_passed": true, "time": 1.0223588943481445, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, cmap=\"YlGnBu\", annot=True, fmt=\".2f\",", "compilation_passed": false, "time": 0.0005497932434082031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(corr, vmin=-1, vmax=1, linewidths=1.5, annot=True, cmap=\"RdYlGn\")", "compilation_passed": true, "time": 1.0189518928527832, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, cmap='RdBu', center=0, linewidths=0.5, vmax=0.45, square=True)", "compilation_passed": true, "time": 1.0353598594665527, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.gca()", "compilation_passed": true, "time": 1.0276648998260498, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(", "compilation_passed": false, "time": 0.0004451274871826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(corr, annot=True, linewidths=.5, fmt=\".2f\", cmap=\"Blues\")  # Optional: add annotation values to the heatmap", "compilation_passed": true, "time": 1.0241899490356445, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, cmap=\"Blues\", vmax=1, vmin=-1, fmt=\"\", linewidths=0.5, cbar_kws={\"shrink\": 0.75})", "compilation_passed": true, "time": 1.0256340503692627, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, cmap=\"Reds\", annot_kws={\"size\": 10})", "compilation_passed": true, "time": 1.0165960788726807, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, cmap='Blues', vmin=-1, vmax=1, linewidths=0.5, square=True)", "compilation_passed": true, "time": 1.0257840156555176, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, cmap='RdYlGn_r')", "compilation_passed": true, "time": 1.023879051208496, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, vmin=-1, vmax=1, square=True, annot=True, cbar=True)  # square=True to show all the labels", "compilation_passed": true, "time": 1.025331974029541, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, cmap=\"RdBu_r\", center=0.01)", "compilation_passed": true, "time": 1.021256923675537, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 1.027907133102417, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, fmt=\".3f\", cmap=\"RdBu_r\")  # Use different colors and annotate the values with the number in the heatmap", "compilation_passed": true, "time": 1.029055118560791, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, linewidths=.5, cbar=False, fmt='.2f')", "compilation_passed": true, "time": 1.0323472023010254, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, cmap=\"Reds\", vmin=0, vmax=1, square=True, linewidths=0.5, linecolor='White', fmt='.2f', cbar_kws={'shrink': 0.7}, cbar_ticksize=5)", "compilation_passed": true, "time": 0.8729000091552734, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, fmt=\".2f\", linewidths=.5, cmap=\"YlOrRd\")", "compilation_passed": true, "time": 1.0270462036132812, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, cmap=\"RdYlGn\", annot=True, annot_kws={\"size\": 8}, square=True)", "compilation_passed": true, "time": 1.0417420864105225, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, annot=True, cmap=\"Reds\", linewidths=0.5, cbar_kws={\"label\": \"Correlation\"}, vmax=1)  # annotate the heatmap with positive correlation", "compilation_passed": true, "time": 1.0290250778198242, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr, cmap='Greys', center=0, annot=True)  # Center of heatmap at 0", "compilation_passed": true, "time": 1.012692928314209, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 1.0174479484558105, "tests_passed": false, "error": "ValueError"}

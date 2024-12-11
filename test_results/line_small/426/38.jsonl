@@ -1,0 +1,8 @@
+{"code": " Image.open(image_path)", "compilation_passed": true, "time": 0.018656015396118164, "tests_passed": false, "error": "TypeError"}
+{"code": " cv2.imread(image_path)", "compilation_passed": true, "time": 0.01105499267578125, "tests_passed": true, "error": null}
+{"code": " np.asarray(Image.open(image_path))", "compilation_passed": true, "time": 0.009489059448242188, "tests_passed": true, "error": null}
+{"code": " Image.open(image_path).convert('L')", "compilation_passed": true, "time": 0.014001846313476562, "tests_passed": false, "error": "TypeError"}
+{"code": " Image.open(image_path).convert('L')  # convert image to grayscale", "compilation_passed": true, "time": 0.014708995819091797, "tests_passed": false, "error": "TypeError"}
+{"code": " cv2.imread(image_path, 1)", "compilation_passed": true, "time": 0.011374950408935547, "tests_passed": true, "error": null}
+{"code": " cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)", "compilation_passed": true, "time": 0.007405757904052734, "tests_passed": true, "error": null}
+{"code": " Image.open(image_path).convert('L')  # Loads an 8-bit, RGB, or RGBA image", "compilation_passed": true, "time": 0.01737689971923828, "tests_passed": false, "error": "TypeError"}

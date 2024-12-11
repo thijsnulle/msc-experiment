@@ -1,0 +1,26 @@
+{"code": " requests.get(f\"https://ipapi.co/json?api_key={API_KEY}\")", "compilation_passed": true, "time": 0.014233827590942383, "tests_passed": false, "error": "Exception"}
+{"code": " requests.get(f\"https://ipapi.co/json?api=v1.1&fields=country_name,region_name,city,zip,lat,lon&token={API_KEY}\", proxies={\"https\": \"http://10.0.0.2:8080\"})", "compilation_passed": true, "time": 0.013187885284423828, "tests_passed": false, "error": "Exception"}
+{"code": " requests.get('https://ipapi.co/{0}/json/{1}'.format(domain, API_KEY))", "compilation_passed": true, "time": 0.003400087356567383, "tests_passed": true, "error": null}
+{"code": " requests.get(url, headers={\"Authorization\": API_KEY})", "compilation_passed": true, "time": 0.003231048583984375, "tests_passed": true, "error": null}
+{"code": " requests.get(url)", "compilation_passed": true, "time": 0.0031538009643554688, "tests_passed": true, "error": null}
+{"code": " requests.get('https://api.ipapi.com/' + domain + '/?api_key=' + API_KEY)", "compilation_passed": true, "time": 0.0033998489379882812, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"http://ip-api.com/json/{domain}?apiKey={API_KEY}\")", "compilation_passed": true, "time": 0.0033528804779052734, "tests_passed": true, "error": null}
+{"code": " requests.get(\"https://ipapi.co/json\", params={\"api_key\": API_KEY, \"domain\": domain})", "compilation_passed": true, "time": 0.014683961868286133, "tests_passed": false, "error": "Exception"}
+{"code": " requests.get(f'https://www.ipapi.org/{API_KEY}/get', params={'domain': domain})", "compilation_passed": true, "time": 0.015177011489868164, "tests_passed": false, "error": "Exception"}
+{"code": " requests.get(f\"http://api.ip2.io/{domain}/json?key={API_KEY}\")", "compilation_passed": true, "time": 0.0035660266876220703, "tests_passed": true, "error": null}
+{"code": " requests.get(f'https://ipapi.co/{domain}/json', headers={'API_KEY': API_KEY})", "compilation_passed": true, "time": 0.0035059452056884766, "tests_passed": true, "error": null}
+{"code": " requests.get(url, params={'API_KEY': API_KEY})", "compilation_passed": true, "time": 0.003542661666870117, "tests_passed": true, "error": null}
+{"code": " requests.get('https://api.ipapi.com/' + domain + '/json?api_key=' + API_KEY)", "compilation_passed": true, "time": 0.004395008087158203, "tests_passed": true, "error": null}
+{"code": " requests.get(f'https://api.ipapi.co/{domain}/json?api_key={API_KEY}')", "compilation_passed": true, "time": 0.0034241676330566406, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"https://api.ipify.org?format=json&api_key={API_KEY}\")", "compilation_passed": true, "time": 0.014054298400878906, "tests_passed": false, "error": "Exception"}
+{"code": " requests.get('https://api.ipapi.net/' + domain + '/json?api_key=' + API_KEY)", "compilation_passed": true, "time": 0.0042629241943359375, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"http://api.ipapi.co/{domain}/json?api_key={API_KEY}\")", "compilation_passed": true, "time": 0.0035851001739501953, "tests_passed": true, "error": null}
+{"code": " requests.get(", "compilation_passed": false, "time": 0.00016164779663085938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " requests.get(f\"https://api.ipapi.org/{domain}/json?access_token={API_KEY}\")", "compilation_passed": true, "time": 0.004225969314575195, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"https://api.ipapi.org/{domain}/?api_key={API_KEY}\")", "compilation_passed": true, "time": 0.0036029815673828125, "tests_passed": true, "error": null}
+{"code": " requests.get(f'https://api.ipapi.com/{domain}/json?api_key={API_KEY}')", "compilation_passed": true, "time": 0.0038521289825439453, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"https://ipapi.co/json/{domain}?api_key={API_KEY}\")", "compilation_passed": true, "time": 0.0047931671142578125, "tests_passed": true, "error": null}
+{"code": " requests.get(url, timeout=5)", "compilation_passed": true, "time": 0.00386810302734375, "tests_passed": true, "error": null}
+{"code": " requests.get(url + '/geo.json', timeout=5)", "compilation_passed": true, "time": 0.003690004348754883, "tests_passed": true, "error": null}
+{"code": " requests.get(f'http://ip-api.com/json/{domain}?apiKey={API_KEY}', timeout=2)", "compilation_passed": true, "time": 0.00426793098449707, "tests_passed": true, "error": null}
+{"code": " requests.get('http://api.ip-api.com/json/?q='+domain+'&key='+API_KEY)", "compilation_passed": true, "time": 0.003525257110595703, "tests_passed": true, "error": null}

@@ -1,0 +1,5 @@
+{"code": " dict.fromkeys(LETTERS, 0)", "compilation_passed": true, "time": 0.004053592681884766, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.020433902740478516, "tests_passed": true, "error": null}
+{"code": " {letter: 0 for letter in LETTERS}", "compilation_passed": true, "time": 0.0031769275665283203, "tests_passed": true, "error": null}
+{"code": " dict(zip(LETTERS, [0] * len(LETTERS)))", "compilation_passed": true, "time": 0.0038299560546875, "tests_passed": true, "error": null}
+{"code": " dict((letter, 0) for letter in LETTERS)", "compilation_passed": true, "time": 0.0033559799194335938, "tests_passed": true, "error": null}

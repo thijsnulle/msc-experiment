@@ -1,0 +1,6 @@
+{"code": " file.read().split()", "compilation_passed": true, "time": 0.007834911346435547, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', file.read())", "compilation_passed": true, "time": 0.00974273681640625, "tests_passed": false, "error": "NameError"}
+{"code": " file.read().lower().split()", "compilation_passed": true, "time": 0.0063741207122802734, "tests_passed": true, "error": null}
+{"code": " nltk.word_tokenize(file.read())", "compilation_passed": true, "time": 0.025211811065673828, "tests_passed": false, "error": ""}
+{"code": " [word.lower() for word in file.read().split() if word.lower() not in STOPWORDS]", "compilation_passed": true, "time": 0.007504940032958984, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in nltk.wordpunct_tokenize(file.read())]", "compilation_passed": true, "time": 0.006766796112060547, "tests_passed": true, "error": null}

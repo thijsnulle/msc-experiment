@@ -1,0 +1,23 @@
+{"code": "set_yticks(np.linspace(0, radius, 10))", "compilation_passed": true, "time": 0.20061492919921875, "tests_passed": true, "error": null}
+{"code": "set_yticks([0, 2])", "compilation_passed": true, "time": 0.18186712265014648, "tests_passed": true, "error": null}
+{"code": "grid(False)", "compilation_passed": true, "time": 0.1779770851135254, "tests_passed": true, "error": null}
+{"code": "set_yticks(np.linspace(0, 5, 6))", "compilation_passed": true, "time": 0.19280505180358887, "tests_passed": true, "error": null}
+{"code": "set_yticks([1.0, 1.5, 2.0])", "compilation_passed": true, "time": 0.1833817958831787, "tests_passed": true, "error": null}
+{"code": "set(rgrids=[radius * 0.5, radius])", "compilation_passed": true, "time": 0.18641376495361328, "tests_passed": true, "error": null}
+{"code": "grid(True, 'y')", "compilation_passed": true, "time": 0.0394289493560791, "tests_passed": false, "error": "ValueError"}
+{"code": "set_rmax(radius)", "compilation_passed": true, "time": 0.18017196655273438, "tests_passed": true, "error": null}
+{"code": "set_thetagrids(np.arange(0, 360, 30), labels=[str(i) for i in np.arange(0, 360, 30)], fontsize='medium')", "compilation_passed": true, "time": 0.22431731224060059, "tests_passed": true, "error": null}
+{"code": "grid(True)", "compilation_passed": true, "time": 0.18572163581848145, "tests_passed": true, "error": null}
+{"code": "set_xticks([0, 0.5, 1])", "compilation_passed": true, "time": 0.19311785697937012, "tests_passed": true, "error": null}
+{"code": "set_thetagrids(np.arange(0, 360, 45), labels=[], rotation=0,", "compilation_passed": false, "time": 0.0002181529998779297, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_yticklabels([])", "compilation_passed": true, "time": 0.2078840732574463, "tests_passed": true, "error": null}
+{"code": "set_yticks([0.5 * radius, 1, 1.5, 2])", "compilation_passed": true, "time": 0.19553208351135254, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.linspace(0, 2 * np.pi, 5))", "compilation_passed": true, "time": 0.2053070068359375, "tests_passed": true, "error": null}
+{"code": "set_yticks([0.5, 1.5, 2.5])", "compilation_passed": true, "time": 0.19524478912353516, "tests_passed": true, "error": null}
+{"code": "set_yticklabels(['{0:.1f}'.format(i) for i in np.linspace(0, 2 * np.pi, 9)])", "compilation_passed": true, "time": 0.21483325958251953, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([], visible=False)", "compilation_passed": true, "time": 0.2126908302307129, "tests_passed": true, "error": null}
+{"code": "set_yticklabels([str(x) for x in range(1, 1000, 10)])", "compilation_passed": true, "time": 0.21169614791870117, "tests_passed": true, "error": null}
+{"code": "set_yticklabels(['-'] + list(np.linspace(radius, 0, 9)))", "compilation_passed": true, "time": 0.21464991569519043, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([''] * len(ax.get_xticklabels()),", "compilation_passed": false, "time": 0.00023317337036132812, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_yticks(np.linspace(0, radius * 2, 10))", "compilation_passed": true, "time": 0.22898197174072266, "tests_passed": true, "error": null}
+{"code": "set_yticklabels(['0%'])", "compilation_passed": true, "time": 0.2275848388671875, "tests_passed": true, "error": null}

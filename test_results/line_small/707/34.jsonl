@@ -1,0 +1,7 @@
+{"code": " open('IntCol.json', 'w') as file:", "compilation_passed": true, "time": 0.011532068252563477, "tests_passed": false, "error": "NameError"}
+{"code": " open('IntCol.json', 'w') as f:", "compilation_passed": true, "time": 0.018262863159179688, "tests_passed": false, "error": "NameError"}
+{"code": " open('IntCol.json', 'w') as outfile:", "compilation_passed": true, "time": 0.013704061508178711, "tests_passed": false, "error": "NameError"}
+{"code": " open(\"IntCol.json\", \"w\") as f:", "compilation_passed": true, "time": 0.014608144760131836, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(os.path.dirname(__file__), 'IntCol.json'), 'w') as f:", "compilation_passed": true, "time": 0.009245872497558594, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join('data', 'IntCol.json'), 'w') as f:", "compilation_passed": true, "time": 0.011363029479980469, "tests_passed": false, "error": "NameError"}
+{"code": " open(\"IntCol.json\", \"w\")", "compilation_passed": false, "time": 0.000148773193359375, "tests_passed": false, "error": "SyntaxError"}

@@ -1,0 +1,28 @@
+{"code": " df.groupby(\"name\")[\"age\"].apply(set).apply(lambda x: len(x) > 1)", "compilation_passed": false, "time": 0.0002791881561279297, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('name').agg({'age': lambda x: x.drop_duplicates()})['age']", "compilation_passed": false, "time": 0.0002760887145996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.name.duplicated(keep=False)", "compilation_passed": false, "time": 0.00026488304138183594, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"name\"].value_counts() > 1", "compilation_passed": false, "time": 0.00026297569274902344, "tests_passed": false, "error": "IndentationError"}
+{"code": " set(df[\"name\"].duplicated())", "compilation_passed": false, "time": 0.0002849102020263672, "tests_passed": false, "error": "IndentationError"}
+{"code": " set()", "compilation_passed": false, "time": 0.0003190040588378906, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"name\"].value_counts() >= 2", "compilation_passed": false, "time": 0.00028514862060546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby([\"name\"]).size().sort_values(ascending=False).index[1:]", "compilation_passed": false, "time": 0.00035500526428222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.name.duplicated()", "compilation_passed": false, "time": 0.00028324127197265625, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(df.groupby(\"name\").agg({\"age\": list}))", "compilation_passed": false, "time": 0.0002810955047607422, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[df.duplicated()][[\"name\", \"age\"]]", "compilation_passed": false, "time": 0.00024700164794921875, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(df.duplicated()).groupby(\"name\").any()", "compilation_passed": false, "time": 0.00028395652770996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"name\").size().index.tolist()", "compilation_passed": false, "time": 0.00028395652770996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(df.groupby(\"name\").apply(pd.DataFrame).reset_index())", "compilation_passed": false, "time": 0.0002930164337158203, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"name\").size() >= 2", "compilation_passed": false, "time": 0.00030303001403808594, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.unique(df.name)", "compilation_passed": false, "time": 0.0002760887145996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.duplicated(keep=False)", "compilation_passed": false, "time": 0.00023293495178222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[df[\"name\"].duplicated(keep=False)]", "compilation_passed": false, "time": 0.00025200843811035156, "tests_passed": false, "error": "IndentationError"}
+{"code": " list(df.groupby(\"name\")[\"age\"].agg({'count': np.count_nonzero})", "compilation_passed": false, "time": 0.0002460479736328125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby(\"name\")[\"age\"].nunique().loc[lambda x: x > 1]", "compilation_passed": false, "time": 0.00030112266540527344, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"name\")[\"name\"].transform(\"count\").drop_duplicates().astype(bool)", "compilation_passed": false, "time": 0.0002810955047607422, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.duplicated(subset=\"name\")", "compilation_passed": false, "time": 0.00045800209045410156, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('name')['age'].apply(list).value_counts().reset_index()", "compilation_passed": false, "time": 0.0002548694610595703, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[df[\"name\"].duplicated()][\"name\"]", "compilation_passed": false, "time": 0.0003428459167480469, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.unique(df[\"name\"])", "compilation_passed": false, "time": 0.00025391578674316406, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"name\")[[\"name\", \"age\"]].count()[\"age\"].value_counts()", "compilation_passed": false, "time": 0.0003020763397216797, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"name\")[\"age\"].apply(list).value_counts().loc[lambda x: x >= 2].index", "compilation_passed": false, "time": 0.0002810955047607422, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"name\"].duplicated()", "compilation_passed": false, "time": 0.00023412704467773438, "tests_passed": false, "error": "IndentationError"}

@@ -1,0 +1,7 @@
+{"code": "writerow({'IP Address': ip.str})", "compilation_passed": true, "time": 0.01704716682434082, "tests_passed": false, "error": "AttributeError"}
+{"code": "writerow({'IP Address': str(ip)})", "compilation_passed": true, "time": 0.011307001113891602, "tests_passed": true, "error": null}
+{"code": "writerow({'IP Address': ip})", "compilation_passed": true, "time": 0.01235508918762207, "tests_passed": true, "error": null}
+{"code": "writerow(dict(IP_Address=ip.compressed))", "compilation_passed": true, "time": 0.014722824096679688, "tests_passed": false, "error": "ValueError"}
+{"code": "writerow({'IP Address': ip.compressed})", "compilation_passed": true, "time": 0.012758016586303711, "tests_passed": true, "error": null}
+{"code": "writerow(dict(IP Address=str(ip)))", "compilation_passed": false, "time": 0.0002079010009765625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "writerow({'IP Address': ip.packed})", "compilation_passed": true, "time": 0.011083126068115234, "tests_passed": true, "error": null}

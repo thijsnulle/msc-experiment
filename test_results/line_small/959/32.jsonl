@@ -1,0 +1,11 @@
+{"code": " chr(random.randint(97, 122))", "compilation_passed": true, "time": 0.001744985580444336, "tests_passed": true, "error": null}
+{"code": " chr(random.randint(ord('a'), ord('z')))", "compilation_passed": true, "time": 0.0016880035400390625, "tests_passed": true, "error": null}
+{"code": " chr(random.randrange(97, 123))", "compilation_passed": true, "time": 0.0018134117126464844, "tests_passed": true, "error": null}
+{"code": " random.choice(string.ascii_lowercase)", "compilation_passed": true, "time": 0.0016379356384277344, "tests_passed": true, "error": null}
+{"code": " chr(ord(c) + random.randint(1, 25))", "compilation_passed": true, "time": 0.005162954330444336, "tests_passed": true, "error": null}
+{"code": " string.ascii_lowercase[random.randint(0, 25)]", "compilation_passed": true, "time": 0.0017840862274169922, "tests_passed": true, "error": null}
+{"code": " chr(random.randrange(ord('a'), ord('z') + 1))", "compilation_passed": true, "time": 0.0017549991607666016, "tests_passed": true, "error": null}
+{"code": " chr(random.randrange(ord('a'), ord('z')+1))", "compilation_passed": true, "time": 0.0018038749694824219, "tests_passed": true, "error": null}
+{"code": " chr(random.choice(range(97, 123)))", "compilation_passed": true, "time": 0.0017399787902832031, "tests_passed": true, "error": null}
+{"code": " chr(random.choice(range(ord(\"a\"), ord(\"z\") + 1)))", "compilation_passed": true, "time": 0.0018031597137451172, "tests_passed": true, "error": null}
+{"code": " chr(ord('a') + random.randint(0, 25))", "compilation_passed": true, "time": 0.001703023910522461, "tests_passed": true, "error": null}

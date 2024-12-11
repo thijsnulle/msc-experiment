@@ -1,0 +1,22 @@
+{"code": " not 'target' in df.columns:", "compilation_passed": true, "time": 0.0077037811279296875, "tests_passed": false, "error": "ValueError"}
+{"code": " target_column not in columns:", "compilation_passed": true, "time": 0.0341191291809082, "tests_passed": true, "error": null}
+{"code": " len(df.shape) == 1:", "compilation_passed": true, "time": 0.032155752182006836, "tests_passed": true, "error": null}
+{"code": " len(df) < 2:  # Check if data is at least 2 samples long", "compilation_passed": true, "time": 0.03513026237487793, "tests_passed": true, "error": null}
+{"code": " target_column in columns:", "compilation_passed": true, "time": 0.009035110473632812, "tests_passed": false, "error": "ValueError"}
+{"code": " target_column not in df.columns:", "compilation_passed": true, "time": 0.03279304504394531, "tests_passed": true, "error": null}
+{"code": " not isinstance(target_column, str):", "compilation_passed": true, "time": 0.03279685974121094, "tests_passed": true, "error": null}
+{"code": " target_column in df.columns:", "compilation_passed": true, "time": 0.008852958679199219, "tests_passed": false, "error": "ValueError"}
+{"code": " target_column not in df:", "compilation_passed": true, "time": 0.0330049991607666, "tests_passed": true, "error": null}
+{"code": " len(df) == 0:", "compilation_passed": true, "time": 0.03307795524597168, "tests_passed": true, "error": null}
+{"code": " len(columns) != 5:", "compilation_passed": true, "time": 0.009011983871459961, "tests_passed": false, "error": "ValueError"}
+{"code": " target_column == 'target':", "compilation_passed": true, "time": 0.03372526168823242, "tests_passed": true, "error": null}
+{"code": " len(df[target_column].unique()) == 1:", "compilation_passed": true, "time": 0.03614997863769531, "tests_passed": true, "error": null}
+{"code": " len(df.columns) == 1:", "compilation_passed": true, "time": 0.03274893760681152, "tests_passed": true, "error": null}
+{"code": " len(df[target_column].unique()) != 2:  # Check for binary target values", "compilation_passed": true, "time": 0.01585698127746582, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df[target_column]) >= 4:", "compilation_passed": true, "time": 0.020254135131835938, "tests_passed": false, "error": "ValueError"}
+{"code": " 'target' in df.columns:", "compilation_passed": true, "time": 0.03424406051635742, "tests_passed": true, "error": null}
+{"code": " df[target_column].isna().any():", "compilation_passed": true, "time": 0.03531813621520996, "tests_passed": true, "error": null}
+{"code": " len(df.index) < 5:", "compilation_passed": true, "time": 0.010045766830444336, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df[target_column]) <= 1:", "compilation_passed": true, "time": 0.0345311164855957, "tests_passed": true, "error": null}
+{"code": " not isinstance(df.index, pd.RangeIndex):", "compilation_passed": true, "time": 0.03350472450256348, "tests_passed": true, "error": null}
+{"code": " len(columns) <= 4:", "compilation_passed": true, "time": 0.008453845977783203, "tests_passed": false, "error": "ValueError"}

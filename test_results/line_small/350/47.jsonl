@@ -1,0 +1,18 @@
+{"code": " subprocess.Popen(", "compilation_passed": false, "time": 0.00041794776916503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.Popen(['gzip', '-c', file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.25443196296691895, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(['gzip', file],", "compilation_passed": false, "time": 0.00040602684020996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.Popen(['gzip', file], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.7486579418182373, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(['gzip', '-9', '-f', file], stdout=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.7060980796813965, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(f'gzip \"{file}\"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.8101277351379395, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(['gzip', '-9', file])", "compilation_passed": true, "time": 0.7686278820037842, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(['gzip', file], stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.7542769908905029, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(['gzip', '-9', '-f', file],", "compilation_passed": false, "time": 0.00042510032653808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.Popen(['gzip', file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.7787399291992188, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(['gzip', '-n', file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.7500989437103271, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(['gzip', '--best', file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.7504100799560547, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(['gzip', '-f', file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.7814469337463379, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(['gzip', '-c', file],", "compilation_passed": false, "time": 0.0003039836883544922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.Popen(['gzip', file], stdout=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.7666428089141846, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(f'gzip -c \"{file}\" > \"{dst_folder}/{os.path.basename(file)}.gz\"',", "compilation_passed": false, "time": 0.0004057884216308594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.Popen(['gzip', '--force', '--stdout', file], stdout=subprocess.PIPE)", "compilation_passed": true, "time": 0.2673468589782715, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(['gzip', '-9', file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.6519718170166016, "tests_passed": true, "error": null}

@@ -1,0 +1,23 @@
+{"code": " np.zeros((x.size, y.size), dtype=complex)  # Create a complex array", "compilation_passed": true, "time": 0.05176591873168945, "tests_passed": false, "error": "TypeError"}
+{"code": " []", "compilation_passed": true, "time": 0.01019287109375, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([complex(xx, yy) for xx, yy in zip(x, y)])", "compilation_passed": true, "time": 0.011754751205444336, "tests_passed": false, "error": "IndexError"}
+{"code": " np.zeros((x.size, y.size))  # Initialise the 2D array for phase values", "compilation_passed": true, "time": 0.12909913063049316, "tests_passed": true, "error": null}
+{"code": " cmath.phase(np.exp(1.0j*x)+y)", "compilation_passed": true, "time": 0.011384963989257812, "tests_passed": false, "error": "TypeError"}
+{"code": " np.zeros((len(x), len(y)), dtype=complex)", "compilation_passed": true, "time": 0.05087900161743164, "tests_passed": false, "error": "TypeError"}
+{"code": " np.zeros((len(x), len(y)))", "compilation_passed": true, "time": 0.11225533485412598, "tests_passed": true, "error": null}
+{"code": " cmath.polar(x, y)", "compilation_passed": true, "time": 0.008396148681640625, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([complex(xi, yi) for xi, yi in zip(x, y)])", "compilation_passed": true, "time": 0.00893712043762207, "tests_passed": false, "error": "IndexError"}
+{"code": " np.empty([x.size, y.size])", "compilation_passed": true, "time": 0.106201171875, "tests_passed": true, "error": null}
+{"code": " np.zeros(x.size * y.size, dtype=complex)", "compilation_passed": true, "time": 0.008798837661743164, "tests_passed": false, "error": "IndexError"}
+{"code": " np.array([cmath.phase(complex(xi, yi)) for xi, yi in zip(x, y)])", "compilation_passed": true, "time": 0.008899927139282227, "tests_passed": false, "error": "IndexError"}
+{"code": " np.zeros((len(x), len(y)), dtype=complex)  # Initialize the array", "compilation_passed": true, "time": 0.04079794883728027, "tests_passed": false, "error": "TypeError"}
+{"code": " np.zeros(x.shape, dtype=complex)", "compilation_passed": true, "time": 0.008938074111938477, "tests_passed": false, "error": "IndexError"}
+{"code": " np.empty([len(x), len(y)], dtype=complex)", "compilation_passed": true, "time": 0.04457402229309082, "tests_passed": false, "error": "TypeError"}
+{"code": " np.empty((len(x), len(y)), dtype=np.complex_)", "compilation_passed": true, "time": 0.044255733489990234, "tests_passed": false, "error": "TypeError"}
+{"code": " cmath.phase(np.exp(1j * x * y))", "compilation_passed": true, "time": 0.010735750198364258, "tests_passed": false, "error": "TypeError"}
+{"code": " np.zeros([len(x), len(y)], dtype=complex)", "compilation_passed": true, "time": 0.05083107948303223, "tests_passed": false, "error": "TypeError"}
+{"code": " np.empty((x.size, y.size), dtype=np.complex_)", "compilation_passed": true, "time": 0.047914981842041016, "tests_passed": false, "error": "TypeError"}
+{"code": " cmath.phase(np.array(x + y * 1.0j, dtype=complex))", "compilation_passed": true, "time": 0.010584115982055664, "tests_passed": false, "error": "TypeError"}
+{"code": " np.empty(x.shape + (y.shape[0],), dtype=complex)", "compilation_passed": true, "time": 0.050868988037109375, "tests_passed": false, "error": "TypeError"}
+{"code": " cmath.phase(complex(x, y))", "compilation_passed": true, "time": 0.00865316390991211, "tests_passed": false, "error": "TypeError"}
+{"code": " np.empty(x.shape + y.shape, dtype=complex)", "compilation_passed": true, "time": 0.046807050704956055, "tests_passed": false, "error": "TypeError"}

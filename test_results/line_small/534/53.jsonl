@@ -1,0 +1,9 @@
+{"code": " new_num[::-1]", "compilation_passed": true, "time": 0.20986080169677734, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(new_num.encode('utf-8')).decode('utf-8')", "compilation_passed": true, "time": 0.20810413360595703, "tests_passed": true, "error": null}
+{"code": " base64.b64decode(new_num[::-1].encode('utf-8'))", "compilation_passed": true, "time": 0.0866849422454834, "tests_passed": false, "error": "binascii.Error"}
+{"code": " base64.b64encode(sign_number(num, private_key)).decode()", "compilation_passed": true, "time": 0.023453950881958008, "tests_passed": false, "error": "NameError"}
+{"code": " ''.join(reversed(new_num))", "compilation_passed": true, "time": 0.24056601524353027, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(private_key.sign(new_num.encode(), padding.PKCS1v15(), hashes.SHA256())).decode('utf-8')", "compilation_passed": true, "time": 0.19149017333984375, "tests_passed": true, "error": null}
+{"code": " np.flipud(new_num)", "compilation_passed": true, "time": 0.055685997009277344, "tests_passed": false, "error": "ValueError"}
+{"code": " new_num[::-1].encode('utf-8')", "compilation_passed": true, "time": 0.0205690860748291, "tests_passed": false, "error": "TypeError"}
+{"code": " new_num[::-1].replace(' ', '0')", "compilation_passed": true, "time": 0.37127089500427246, "tests_passed": true, "error": null}

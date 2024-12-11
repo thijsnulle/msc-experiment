@@ -1,0 +1,5 @@
+{"code": " []", "compilation_passed": true, "time": 0.0064792633056640625, "tests_passed": true, "error": null}
+{"code": " [word.lower().strip(PUNCTUATION) for word in words]", "compilation_passed": true, "time": 0.0013167858123779297, "tests_passed": true, "error": null}
+{"code": " [word.strip(PUNCTUATION).lower() for word in words]", "compilation_passed": true, "time": 0.0014111995697021484, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'[%s]+' % re.escape(PUNCTUATION), '', word).lower() for word in words]", "compilation_passed": true, "time": 0.0014240741729736328, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in words if word != '']", "compilation_passed": true, "time": 0.005964994430541992, "tests_passed": true, "error": null}

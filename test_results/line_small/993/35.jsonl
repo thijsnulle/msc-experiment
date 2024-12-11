@@ -1,0 +1,27 @@
+{"code": "hist(word_counts, bins=20)", "compilation_passed": true, "time": 0.40517592430114746, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=10)", "compilation_passed": true, "time": 0.33696484565734863, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=10)  # Plot histogram with bins=10", "compilation_passed": true, "time": 0.3515970706939697, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, density=True)", "compilation_passed": true, "time": 0.30541014671325684, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=range(20, 60, 2), color='blue')", "compilation_passed": true, "time": 0.32138609886169434, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=range(0, max(word_counts)+2), edgecolor='black')", "compilation_passed": true, "time": 0.34014105796813965, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, density=True, bins=20)  # Plot the histogram", "compilation_passed": true, "time": 0.3688361644744873, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=10, density=True)", "compilation_passed": true, "time": 0.35549020767211914, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=40, label=\"Histogram\")", "compilation_passed": true, "time": 0.4199209213256836, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=20, density=True)", "compilation_passed": true, "time": 0.38707804679870605, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=10, range=(1, len(words)))", "compilation_passed": true, "time": 0.37914490699768066, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=40, density=True)", "compilation_passed": true, "time": 0.4173569679260254, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=\"auto\", alpha=0.5)", "compilation_passed": true, "time": 0.13956809043884277, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=\"auto\")", "compilation_passed": true, "time": 0.13918471336364746, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins='auto', color='darkred'", "compilation_passed": false, "time": 0.0002448558807373047, "tests_passed": false, "error": "SyntaxError"}
+{"code": "hist(word_counts, density=True, bins=20)", "compilation_passed": true, "time": 0.40686702728271484, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=100)", "compilation_passed": true, "time": 0.5455601215362549, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=40, color='grey')", "compilation_passed": true, "time": 0.4551990032196045, "tests_passed": true, "error": null}
+{"code": "hist(word_counts)", "compilation_passed": true, "time": 0.4043278694152832, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=max(int(100*len(word_counts) ** 0.3), 10))", "compilation_passed": true, "time": 0.6958370208740234, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=15, color='g')  # Plot the histogram with custom bins", "compilation_passed": true, "time": 0.3849170207977295, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=15)", "compilation_passed": true, "time": 0.19058585166931152, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins='auto', density=True)", "compilation_passed": true, "time": 0.07086896896362305, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=100, density=True, alpha=0.7)", "compilation_passed": true, "time": 0.416928768157959, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=30, density=True)  # Set histogram properties", "compilation_passed": true, "time": 0.23037314414978027, "tests_passed": true, "error": null}
+{"code": "hist([len(word) for word in words if word], bins=100)  # Histogram", "compilation_passed": true, "time": 0.39276599884033203, "tests_passed": true, "error": null}
+{"code": "hist(word_counts, bins=20, color='g')", "compilation_passed": true, "time": 0.21275877952575684, "tests_passed": true, "error": null}

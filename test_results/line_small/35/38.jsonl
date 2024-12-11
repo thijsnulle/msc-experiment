@@ -1,0 +1,12 @@
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.05464792251586914, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.gca(), sns.distplot(df.sum(axis=1), bins=20, kde=False)", "compilation_passed": true, "time": 0.1885828971862793, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.gca(), plt.gcf()", "compilation_passed": true, "time": 0.05361509323120117, "tests_passed": true, "error": null}
+{"code": " plt.gca().get_figure().axes[0].get_children()[-1].get_children()[0].get_children()[0]", "compilation_passed": true, "time": 0.05647397041320801, "tests_passed": false, "error": "IndexError"}
+{"code": " plt.gcf().axes, plt.gca()", "compilation_passed": true, "time": 0.15465617179870605, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.gca(), plt.gcf().axes.flatten()[1]", "compilation_passed": true, "time": 0.05923914909362793, "tests_passed": false, "error": "AttributeError"}
+{"code": " ax", "compilation_passed": true, "time": 0.05963778495788574, "tests_passed": false, "error": "NameError"}
+{"code": " plt.gca(), plt.gca().get_figure().subplots_adjust(bottom=0.25)", "compilation_passed": true, "time": 0.05845189094543457, "tests_passed": true, "error": null}
+{"code": " plt.gca(), sns.color_palette()", "compilation_passed": true, "time": 0.05752134323120117, "tests_passed": true, "error": null}
+{"code": " plt.axes(), ax", "compilation_passed": true, "time": 0.06917977333068848, "tests_passed": false, "error": "NameError"}
+{"code": " plt.gca(), plt.gcf().axes[0]", "compilation_passed": true, "time": 0.16148090362548828, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.gcf().axes", "compilation_passed": true, "time": 0.05889725685119629, "tests_passed": false, "error": "ValueError"}

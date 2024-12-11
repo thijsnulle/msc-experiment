@@ -1,0 +1,14 @@
+{"code": " os.path.join(directory, f'file{i}.txt')", "compilation_passed": true, "time": 0.03093695640563965, "tests_passed": true, "error": null}
+{"code": " f\"{i}.txt\"", "compilation_passed": true, "time": 0.007831096649169922, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, str(i) + '.txt')", "compilation_passed": true, "time": 0.03412985801696777, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, f'file_{i}.txt')", "compilation_passed": true, "time": 0.05300593376159668, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, 'file_' + str(i) + '.txt')", "compilation_passed": true, "time": 0.04322314262390137, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, 'file_' + str(i))", "compilation_passed": true, "time": 0.01477503776550293, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, str(i))", "compilation_passed": true, "time": 0.008800029754638672, "tests_passed": true, "error": null}
+{"code": " f\"{directory}/file_{i}.txt\"", "compilation_passed": true, "time": 0.03621101379394531, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, f'file_{i + 1}.txt')", "compilation_passed": true, "time": 0.03364920616149902, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, f\"file{i}.txt\")", "compilation_passed": true, "time": 0.03841209411621094, "tests_passed": true, "error": null}
+{"code": " f\"{directory}/{i}.txt\"", "compilation_passed": true, "time": 0.04478573799133301, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, 'file{}.txt'.format(i))", "compilation_passed": true, "time": 0.04708981513977051, "tests_passed": true, "error": null}
+{"code": " f\"file{i}.txt\"", "compilation_passed": true, "time": 0.011176824569702148, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, str(i) + \".txt\")", "compilation_passed": true, "time": 0.04902076721191406, "tests_passed": true, "error": null}

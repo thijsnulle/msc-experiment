@@ -1,0 +1,11 @@
+{"code": " glob.glob(src_dir + os.sep + '*.' + ext)", "compilation_passed": true, "time": 0.006911039352416992, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(src_dir, f'*.{ext}'))", "compilation_passed": true, "time": 0.006803035736083984, "tests_passed": true, "error": null}
+{"code": " glob.glob(f\"{src_dir}/*.{ext}\")", "compilation_passed": true, "time": 0.006666898727416992, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(src_dir, f'*{ext}'))", "compilation_passed": true, "time": 0.007745027542114258, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(src_dir, f\"*.{ext}\"))", "compilation_passed": true, "time": 0.0076067447662353516, "tests_passed": true, "error": null}
+{"code": " glob.glob(f\"{src_dir}/**/*.{ext}\", recursive=True)", "compilation_passed": true, "time": 0.0067861080169677734, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(src_dir, '*.' + ext))", "compilation_passed": true, "time": 0.0066339969635009766, "tests_passed": true, "error": null}
+{"code": " glob.glob(f\"{src_dir}/test_file*.{ext}\")", "compilation_passed": true, "time": 0.007275104522705078, "tests_passed": true, "error": null}
+{"code": " glob.glob(src_dir + os.path.sep + \"*.\" + ext)", "compilation_passed": true, "time": 0.006553173065185547, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(src_dir, f\"*{ext}.*\"))", "compilation_passed": true, "time": 0.007966041564941406, "tests_passed": true, "error": null}
+{"code": " glob.glob(src_dir + \"/*.\" + ext)", "compilation_passed": true, "time": 0.0077037811279296875, "tests_passed": true, "error": null}

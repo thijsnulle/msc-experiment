@@ -1,0 +1,14 @@
+{"code": " test_data = train_test_split(data_df, test_size=test_size, random_state=random.randint(0, 10000))", "compilation_passed": true, "time": 0.03466391563415527, "tests_passed": true, "error": null}
+{"code": " test_data = train_test_split(data_df, test_size=test_size)", "compilation_passed": true, "time": 0.03250288963317871, "tests_passed": true, "error": null}
+{"code": " test_data = train_test_split(data_df, test_size=test_size, random_state=42, shuffle=True)", "compilation_passed": true, "time": 0.03488898277282715, "tests_passed": true, "error": null}
+{"code": " test_data = train_test_split(data_df, test_size=test_size, random_state=0, shuffle=False)", "compilation_passed": true, "time": 0.03199291229248047, "tests_passed": true, "error": null}
+{"code": " test_data = train_test_split(data_df, test_size=test_size, shuffle=False, random_state=0)", "compilation_passed": true, "time": 0.03309226036071777, "tests_passed": true, "error": null}
+{"code": " test_data = train_test_split(data_df, test_size=test_size, random_state=random.randint(0, 100))", "compilation_passed": true, "time": 0.03356623649597168, "tests_passed": true, "error": null}
+{"code": " test_data = train_test_split(data_df, test_size=test_size, random_state=0, shuffle=True)", "compilation_passed": true, "time": 0.03457522392272949, "tests_passed": true, "error": null}
+{"code": " test_data = train_test_split(data_df, test_size=test_size, random_state=0)", "compilation_passed": true, "time": 0.033308982849121094, "tests_passed": true, "error": null}
+{"code": " test_data = train_test_split(data_df, test_size=test_size, random_state=101)", "compilation_passed": true, "time": 0.03344583511352539, "tests_passed": true, "error": null}
+{"code": " test_data = train_test_split(data_df, test_size=test_size, random_state=100)", "compilation_passed": true, "time": 0.03371596336364746, "tests_passed": true, "error": null}
+{"code": " test_data = train_test_split(", "compilation_passed": false, "time": 0.0002510547637939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " test_data = train_test_split(data_df, test_size=test_size, random_state=0, stratify=data_df['Value'])", "compilation_passed": true, "time": 0.008190155029296875, "tests_passed": false, "error": "ValueError"}
+{"code": " test_data = train_test_split(data_df, test_size=test_size, shuffle=False), \\", "compilation_passed": false, "time": 0.00020313262939453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " test_data = train_test_split(data_df, test_size=test_size, random_state=42)", "compilation_passed": true, "time": 0.03361105918884277, "tests_passed": true, "error": null}

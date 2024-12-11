@@ -1,0 +1,11 @@
+{"code": " {", "compilation_passed": true, "time": 0.005059003829956055, "tests_passed": true, "error": null}
+{"code": " {'mean': np.mean(data), 'median': np.median(data), 'mode': stats.mode(data).mode}", "compilation_passed": false, "time": 0.0002281665802001953, "tests_passed": false, "error": "IndentationError"}
+{"code": " {\"mean\": np.mean(data),", "compilation_passed": true, "time": 0.004870891571044922, "tests_passed": true, "error": null}
+{"code": " {'mean': np.mean(data), 'median': np.median(data), 'mode': stats.mode(data)}", "compilation_passed": false, "time": 0.00021123886108398438, "tests_passed": false, "error": "IndentationError"}
+{"code": " {'mean': np.mean(data),", "compilation_passed": true, "time": 0.004641056060791016, "tests_passed": true, "error": null}
+{"code": " {'mean': np.mean(data), 'median': np.median(data), 'mode': stats.mode(data)[0]}", "compilation_passed": false, "time": 0.00022983551025390625, "tests_passed": false, "error": "IndentationError"}
+{"code": " dict(mean=np.mean(data), median=np.median(data), mode=stats.mode(data))", "compilation_passed": false, "time": 0.00032830238342285156, "tests_passed": false, "error": "IndentationError"}
+{"code": " {\"mean\": np.mean(data), \"median\": np.median(data), \"mode\": stats.mode(data)[0]}", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "IndentationError"}
+{"code": " {'mean': sum(data)/len(data),", "compilation_passed": true, "time": 0.005049228668212891, "tests_passed": true, "error": null}
+{"code": " stats.describe(data)", "compilation_passed": false, "time": 0.00022602081298828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " {'mean': np.mean(data), 'median': np.median(data), 'mode': stats.mode(data)[0][0]}", "compilation_passed": false, "time": 0.0001990795135498047, "tests_passed": false, "error": "IndentationError"}

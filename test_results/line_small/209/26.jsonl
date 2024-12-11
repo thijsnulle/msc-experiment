@@ -1,0 +1,22 @@
+{"code": " sorted([(i[0], i[1]) for i in data], key=itemgetter(1))", "compilation_passed": true, "time": 0.009493112564086914, "tests_passed": false, "error": "TypeError"}
+{"code": " []", "compilation_passed": true, "time": 0.009652853012084961, "tests_passed": false, "error": "TypeError"}
+{"code": " [", "compilation_passed": false, "time": 0.00019812583923339844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(zip(*data))", "compilation_passed": true, "time": 0.008949041366577148, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(data)", "compilation_passed": true, "time": 0.24454903602600098, "tests_passed": true, "error": null}
+{"code": " data", "compilation_passed": true, "time": 0.010467052459716797, "tests_passed": false, "error": "TypeError"}
+{"code": " [max_tuple] + data", "compilation_passed": true, "time": 0.012881278991699219, "tests_passed": false, "error": "TypeError"}
+{"code": " [d for d in data if d[1] == max_tuple[1]]", "compilation_passed": true, "time": 0.010608911514282227, "tests_passed": false, "error": "TypeError"}
+{"code": " data[:]", "compilation_passed": true, "time": 0.009402275085449219, "tests_passed": false, "error": "TypeError"}
+{"code": " [('x', 'y')] + [(max_tuple,)] + [(data,)]", "compilation_passed": true, "time": 0.0102081298828125, "tests_passed": false, "error": "TypeError"}
+{"code": " [(data[index][0], data[index][1])", "compilation_passed": false, "time": 0.00016999244689941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(tuple_[0], tuple_[1]) for tuple_ in data]", "compilation_passed": true, "time": 0.009525060653686523, "tests_passed": false, "error": "TypeError"}
+{"code": " [(x[0], x[1], 'o') for x in data]", "compilation_passed": true, "time": 0.009411096572875977, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted(data, key=lambda t: t[1])", "compilation_passed": true, "time": 0.008700132369995117, "tests_passed": false, "error": "TypeError"}
+{"code": " list(data)", "compilation_passed": true, "time": 0.00927591323852539, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted(data, key=itemgetter(1))", "compilation_passed": true, "time": 0.00878000259399414, "tests_passed": false, "error": "TypeError"}
+{"code": " [max_tuple] + [x for x in data if x[1] != max_tuple[1]]", "compilation_passed": true, "time": 0.009848833084106445, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(tuple, data))", "compilation_passed": true, "time": 0.009229898452758789, "tests_passed": false, "error": "TypeError"}
+{"code": " [(i[0], i[1]) for i in data if i[1] != max_tuple[1]]", "compilation_passed": true, "time": 0.009100914001464844, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(lambda x: (x[0], x[1]), data))", "compilation_passed": true, "time": 0.009883880615234375, "tests_passed": false, "error": "TypeError"}
+{"code": " data.copy()", "compilation_passed": true, "time": 0.008980989456176758, "tests_passed": false, "error": "TypeError"}
+{"code": " [max_tuple, data[0]]", "compilation_passed": true, "time": 0.008996963500976562, "tests_passed": false, "error": "TypeError"}

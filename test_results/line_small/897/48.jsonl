@@ -1,0 +1,27 @@
+{"code": "bar(np.arange(1, 7), frequencies, align='center')", "compilation_passed": true, "time": 0.39273905754089355, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(1, 7), frequencies, align=\"center\", color=\"#DCDCDC\")", "compilation_passed": true, "time": 0.38741612434387207, "tests_passed": true, "error": null}
+{"code": "bar(x=np.arange(1, 7), height=frequencies)", "compilation_passed": true, "time": 0.38500308990478516, "tests_passed": true, "error": null}
+{"code": "bar(", "compilation_passed": false, "time": 0.0002288818359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "bar(range(1, 7), frequencies, width=0.7, align='center')", "compilation_passed": true, "time": 0.37401795387268066, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(1, 7), frequencies, width=1, align='center')", "compilation_passed": true, "time": 0.37988996505737305, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 7), frequencies, width=1, color='C1')", "compilation_passed": true, "time": 0.3750190734863281, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 7), frequencies, color='g')", "compilation_passed": true, "time": 0.36835718154907227, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 7), frequencies, color=\"black\")", "compilation_passed": true, "time": 0.36853599548339844, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(1, 7), frequencies, width=1, align=\"center\")", "compilation_passed": true, "time": 0.3742332458496094, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(1, 7), frequencies, width=1, align=\"edge\")", "compilation_passed": true, "time": 0.38088083267211914, "tests_passed": true, "error": null}
+{"code": "bar(NUMBERS[1:], frequencies, width=0.5)  # excluding 0 as dice starts from 1", "compilation_passed": true, "time": 0.09035181999206543, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(NUMBERS[1:], frequencies, width=0.75)  # Excluding 0 as dice starts from 1", "compilation_passed": true, "time": 0.06348896026611328, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(list(range(1, 7)), frequencies, width=0.5)", "compilation_passed": true, "time": 0.39597201347351074, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 7), frequencies, width=0.8, align='edge')", "compilation_passed": true, "time": 0.39397311210632324, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(1, len(frequencies) + 1), frequencies, align='center')", "compilation_passed": true, "time": 0.40511178970336914, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 7), frequencies, align='center')", "compilation_passed": true, "time": 0.3809030055999756, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 7), frequencies, color='blue', alpha=0.5)", "compilation_passed": true, "time": 0.37992000579833984, "tests_passed": true, "error": null}
+{"code": "bar(NUMBERS[1:], frequencies, label=\"Histogram\")", "compilation_passed": true, "time": 0.13033080101013184, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(np.arange(1, 7), frequencies, width=0.5)", "compilation_passed": true, "time": 0.38553404808044434, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 7), frequencies)", "compilation_passed": true, "time": 0.393779993057251, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(1, 7), frequencies, width=1, alpha=0.5, color='#54595F', label='Frequency')", "compilation_passed": true, "time": 0.3772251605987549, "tests_passed": true, "error": null}
+{"code": "bar(list(range(1, len(NUMBERS) + 1)), frequencies, align='center')", "compilation_passed": true, "time": 0.42777585983276367, "tests_passed": true, "error": null}
+{"code": "bar(NUMBERS[1:], frequencies, align='center', width=0.4, label=\"Dice Frequencies\")", "compilation_passed": true, "time": 0.07798290252685547, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(np.arange(2, 7), frequencies, width=0.8)", "compilation_passed": true, "time": 0.06608104705810547, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(np.arange(2, 7), frequencies, width=1, label='Histogram')", "compilation_passed": true, "time": 0.0737462043762207, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(np.arange(1, 7), frequencies)", "compilation_passed": true, "time": 0.40912485122680664, "tests_passed": true, "error": null}

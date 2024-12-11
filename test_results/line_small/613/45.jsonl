@@ -1,0 +1,12 @@
+{"code": " scores_df['Score'].clip(GOALS_RANGE[0], GOALS_RANGE[1])", "compilation_passed": true, "time": 0.2821052074432373, "tests_passed": true, "error": null}
+{"code": " scores_df['Score'].clip(min=GOALS_RANGE[0], max=GOALS_RANGE[1])", "compilation_passed": true, "time": 0.01776409149169922, "tests_passed": false, "error": "TypeError"}
+{"code": " scores_df['Score'].clip(*GOALS_RANGE)", "compilation_passed": true, "time": 0.3216240406036377, "tests_passed": true, "error": null}
+{"code": " scores_df['Score'].clip(low=GOALS_RANGE[0], high=GOALS_RANGE[1])", "compilation_passed": true, "time": 0.020555973052978516, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.clip(scores_df['Score'], *GOALS_RANGE)", "compilation_passed": true, "time": 0.021090984344482422, "tests_passed": false, "error": "AttributeError"}
+{"code": " scores_df['Score'].clip(lower=GOALS_RANGE[0], upper=GOALS_RANGE[1])", "compilation_passed": true, "time": 0.5812749862670898, "tests_passed": true, "error": null}
+{"code": " np.clip(scores_df['Score'], *GOALS_RANGE)", "compilation_passed": true, "time": 0.019855976104736328, "tests_passed": false, "error": "NameError"}
+{"code": " scores_df['Score'].clip(*GOALS_RANGE)  # Clip scores within -10 to 10", "compilation_passed": true, "time": 0.36081719398498535, "tests_passed": true, "error": null}
+{"code": " scores_df['Score'].clip(*GOALS_RANGE, inplace=False)", "compilation_passed": true, "time": 0.1451408863067627, "tests_passed": true, "error": null}
+{"code": " np.clip(scores_df['Score'], GOALS_RANGE[0], GOALS_RANGE[1])", "compilation_passed": true, "time": 0.009414911270141602, "tests_passed": false, "error": "NameError"}
+{"code": " scores_df['Score'].clip(min=-10, max=10)", "compilation_passed": true, "time": 0.01739192008972168, "tests_passed": false, "error": "TypeError"}
+{"code": " np.clip(scores_df['Score'], *GOALS_RANGE)  # clip values to stay within range", "compilation_passed": true, "time": 0.005858182907104492, "tests_passed": false, "error": "NameError"}

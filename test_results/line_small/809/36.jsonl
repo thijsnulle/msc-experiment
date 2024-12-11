@@ -1,0 +1,22 @@
+{"code": " np.split(data, n_clusters, axis=0)", "compilation_passed": true, "time": 0.010591983795166016, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.where(labels == i)[0] for i in range(kmeans.n_clusters)]", "compilation_passed": true, "time": 0.010220766067504883, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.where(labels == i)[0] for i in range(n_clusters)]", "compilation_passed": true, "time": 0.009743213653564453, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.where(labels == i)[0] for i in range(kmeans.n_clusters_)]", "compilation_passed": true, "time": 0.015250921249389648, "tests_passed": false, "error": "AttributeError"}
+{"code": " {k: np.where(labels == k)[0] for k in range(kmeans.n_clusters)}", "compilation_passed": true, "time": 0.006757020950317383, "tests_passed": true, "error": null}
+{"code": " np.split(data, n_clusters)", "compilation_passed": true, "time": 0.006935834884643555, "tests_passed": false, "error": "AttributeError"}
+{"code": " {i: list() for i in range(n_clusters)}", "compilation_passed": true, "time": 0.006804943084716797, "tests_passed": true, "error": null}
+{"code": " [data[labels == i] for i in range(n_clusters)]", "compilation_passed": true, "time": 0.006819963455200195, "tests_passed": false, "error": "AttributeError"}
+{"code": " {l: np.where(labels == l)[0] for l in np.unique(labels)}", "compilation_passed": true, "time": 0.0058248043060302734, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.006993770599365234, "tests_passed": true, "error": null}
+{"code": " {i: np.where(labels == i)[0] for i in range(kmeans.n_clusters)}", "compilation_passed": true, "time": 0.005955219268798828, "tests_passed": true, "error": null}
+{"code": " {i: np.where(labels == i)[0] for i in range(n_clusters)}", "compilation_passed": true, "time": 0.005959033966064453, "tests_passed": true, "error": null}
+{"code": " [np.where(labels == label)[0] for label in range(kmeans.n_clusters)]", "compilation_passed": true, "time": 0.006929874420166016, "tests_passed": false, "error": "AttributeError"}
+{"code": " [[] for _ in range(kmeans.n_clusters)]", "compilation_passed": true, "time": 0.006723880767822266, "tests_passed": true, "error": null}
+{"code": " np.split(data, labels, axis=0)", "compilation_passed": true, "time": 0.0068509578704833984, "tests_passed": true, "error": null}
+{"code": " [np.where(labels == i) for i in range(n_clusters)]", "compilation_passed": true, "time": 0.006966114044189453, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.007176876068115234, "tests_passed": true, "error": null}
+{"code": " dict()", "compilation_passed": true, "time": 0.006779909133911133, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.00014495849609375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [[] for _ in range(n_clusters)]", "compilation_passed": true, "time": 0.006919145584106445, "tests_passed": true, "error": null}
+{"code": " [np.where(labels == i) for i in range(kmeans.n_clusters)]", "compilation_passed": true, "time": 0.007030010223388672, "tests_passed": true, "error": null}
+{"code": " [np.where(labels==i)[0] for i in range(kmeans.n_clusters_)]", "compilation_passed": true, "time": 0.010571956634521484, "tests_passed": false, "error": "AttributeError"}

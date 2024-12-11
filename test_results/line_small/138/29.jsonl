@@ -1,0 +1,7 @@
+{"code": " isinstance(df, pd.DataFrame) and 'Letters' in df.columns:", "compilation_passed": true, "time": 0.007730960845947266, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.031271934509277344, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.core.generic.DataFrame):", "compilation_passed": true, "time": 0.007700204849243164, "tests_passed": false, "error": "AttributeError"}
+{"code": " isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 0.007607221603393555, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 0.0334320068359375, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or 'Letters' not in df.columns:", "compilation_passed": true, "time": 0.07214903831481934, "tests_passed": true, "error": null}
+{"code": " isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.008162975311279297, "tests_passed": false, "error": "ValueError"}

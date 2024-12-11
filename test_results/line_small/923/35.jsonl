@@ -1,0 +1,4 @@
+{"code": " num_records > len(person_names):", "compilation_passed": true, "time": 0.011321067810058594, "tests_passed": false, "error": "IndexError"}
+{"code": " len(person_names) < num_records:", "compilation_passed": true, "time": 0.010021686553955078, "tests_passed": false, "error": "IndexError"}
+{"code": " len(person_names) < num_records or len(email_domains) < num_records:", "compilation_passed": true, "time": 0.010499954223632812, "tests_passed": false, "error": "ValueError"}
+{"code": " num_records > len(person_names) or num_records > len(email_domains):", "compilation_passed": true, "time": 0.009977102279663086, "tests_passed": false, "error": "ValueError"}

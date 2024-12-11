@@ -1,0 +1,24 @@
+{"code": "set_rlabel_position(-45)", "compilation_passed": true, "time": 0.16841602325439453, "tests_passed": true, "error": null}
+{"code": "grid()", "compilation_passed": true, "time": 0.16574692726135254, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(0, 181, 45))", "compilation_passed": true, "time": 0.18201184272766113, "tests_passed": true, "error": null}
+{"code": "set_rlabel_position(135)", "compilation_passed": true, "time": 0.20439505577087402, "tests_passed": true, "error": null}
+{"code": "set_thetamin(0)", "compilation_passed": true, "time": 0.1694180965423584, "tests_passed": true, "error": null}
+{"code": "set_theta_zero_location(\"N\")", "compilation_passed": true, "time": 0.1702868938446045, "tests_passed": true, "error": null}
+{"code": "set_yticks(np.linspace(0, num_turns * 2 * math.pi, 5))", "compilation_passed": true, "time": 0.18401408195495605, "tests_passed": true, "error": null}
+{"code": "set_rmax(num_turns * 45)", "compilation_passed": true, "time": 0.1697862148284912, "tests_passed": true, "error": null}
+{"code": "set(", "compilation_passed": false, "time": 0.00015020370483398438, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_rlabel_position(num_turns * 45)", "compilation_passed": true, "time": 0.1940159797668457, "tests_passed": true, "error": null}
+{"code": "set_rmax(num_turns * 2 * math.pi)", "compilation_passed": true, "time": 0.1645030975341797, "tests_passed": true, "error": null}
+{"code": "set_thetagrids(np.arange(0, 360, 45), labels=[''])", "compilation_passed": true, "time": 0.06189608573913574, "tests_passed": false, "error": "ValueError"}
+{"code": "grid(True)", "compilation_passed": true, "time": 0.16582608222961426, "tests_passed": true, "error": null}
+{"code": "set_thetagrids(np.arange(0, num_turns*45, 45))", "compilation_passed": true, "time": 0.2927548885345459, "tests_passed": true, "error": null}
+{"code": "set(theta=\"linear\", rlabel_position=135.0)", "compilation_passed": true, "time": 0.05316615104675293, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_rlabel_position(-90)", "compilation_passed": true, "time": 0.16561388969421387, "tests_passed": true, "error": null}
+{"code": "set_thetagrids([0, 45, 90, 135, 180, 225, 270, 315])", "compilation_passed": true, "time": 0.21138978004455566, "tests_passed": true, "error": null}
+{"code": "set_rticks([0, num_turns * 2 * math.pi])", "compilation_passed": true, "time": 0.1747298240661621, "tests_passed": true, "error": null}
+{"code": "set(theta=theta, rmax=4, rmin=0, xlabel=r\"\\theta [rad]\", ylabel=r\"r\")", "compilation_passed": true, "time": 0.06415176391601562, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_thetagrids(np.arange(0, num_turns * 2 * math.pi + 1, 45))", "compilation_passed": true, "time": 0.9480729103088379, "tests_passed": true, "error": null}
+{"code": "set_rticks(np.arange(0, num_turns * 45 + 45, 45))", "compilation_passed": true, "time": 0.29586005210876465, "tests_passed": true, "error": null}
+{"code": "set_yticks(np.arange(0, 4 * num_turns + 1, 4))", "compilation_passed": true, "time": 0.2968780994415283, "tests_passed": true, "error": null}
+{"code": "set_rlim(0, num_turns)", "compilation_passed": true, "time": 0.1785142421722412, "tests_passed": true, "error": null}
+{"code": "set_rlabel_position(45.0 * num_turns)", "compilation_passed": true, "time": 0.2514340877532959, "tests_passed": true, "error": null}

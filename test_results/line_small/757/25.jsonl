@@ -1,0 +1,6 @@
+{"code": " vectorized_reverse(arr)", "compilation_passed": true, "time": 0.0017080307006835938, "tests_passed": true, "error": null}
+{"code": " vectorized_reverse(arr, otypes=[np.ndarray])", "compilation_passed": true, "time": 0.017206907272338867, "tests_passed": false, "error": "TypeError"}
+{"code": " vectorized_reverse(arr, otypes=[np.object_])", "compilation_passed": true, "time": 0.016517162322998047, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(vectorized_reverse(arr))", "compilation_passed": true, "time": 0.0017960071563720703, "tests_passed": true, "error": null}
+{"code": " now.strftime('%Y-%m-%d %H:%M:%S') + ':' + str(vectorized_reverse(arr))", "compilation_passed": true, "time": 0.00797414779663086, "tests_passed": true, "error": null}
+{"code": " now.timestamp()", "compilation_passed": true, "time": 0.006887197494506836, "tests_passed": true, "error": null}

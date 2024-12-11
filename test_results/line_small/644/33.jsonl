@@ -1,0 +1,8 @@
+{"code": " base64.b64encode(bytes(encrypted_bytes)).decode()", "compilation_passed": true, "time": 0.005209922790527344, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(bytes(encrypted_bytes))", "compilation_passed": true, "time": 0.008533954620361328, "tests_passed": false, "error": "TypeError"}
+{"code": " base64.b64encode(bytearray(encrypted_bytes)).decode()", "compilation_passed": true, "time": 0.006105899810791016, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(encrypted_bytes)", "compilation_passed": true, "time": 0.011210918426513672, "tests_passed": false, "error": "TypeError"}
+{"code": " base64.b85encode(bytes(encrypted_bytes))", "compilation_passed": true, "time": 0.008675098419189453, "tests_passed": false, "error": "TypeError"}
+{"code": " base64.b64encode(encrypted_bytes).decode()", "compilation_passed": true, "time": 0.007780313491821289, "tests_passed": false, "error": "TypeError"}
+{"code": " base64.urlsafe_b64encode(bytes(encrypted_bytes)).decode()", "compilation_passed": true, "time": 0.008725881576538086, "tests_passed": false, "error": "binascii.Error"}
+{"code": " base64.b64encode(bytearray(encrypted_bytes))", "compilation_passed": true, "time": 0.008291959762573242, "tests_passed": false, "error": "TypeError"}

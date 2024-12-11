@@ -1,0 +1,27 @@
+{"code": "boxplot(ax=ax, data=df[[last_col]])", "compilation_passed": true, "time": 0.17319893836975098, "tests_passed": true, "error": null}
+{"code": "boxplot(x=last_col, data=df, ax=ax)", "compilation_passed": true, "time": 0.1531200408935547, "tests_passed": true, "error": null}
+{"code": "boxplot(y=last_col, data=df, ax=ax)", "compilation_passed": true, "time": 0.15339899063110352, "tests_passed": true, "error": null}
+{"code": "boxplot(df[last_col])", "compilation_passed": true, "time": 0.15185308456420898, "tests_passed": true, "error": null}
+{"code": "boxplot(y=df[last_col], ax=ax)", "compilation_passed": true, "time": 0.15261578559875488, "tests_passed": true, "error": null}
+{"code": "boxplot(df[last_col], ax=ax)", "compilation_passed": true, "time": 0.151961088180542, "tests_passed": true, "error": null}
+{"code": "boxplot(x=last_col, y=df.columns[:-1], data=df, ax=ax)", "compilation_passed": true, "time": 0.05155038833618164, "tests_passed": false, "error": "ValueError"}
+{"code": "boxplot(x=last_col, y=df.columns[:-1], data=df, ax=ax, showfliers=False)", "compilation_passed": true, "time": 0.03391098976135254, "tests_passed": false, "error": "ValueError"}
+{"code": "boxplot(x=last_col, y=df.columns, data=df, ax=ax)", "compilation_passed": true, "time": 0.035965919494628906, "tests_passed": false, "error": "ValueError"}
+{"code": "boxplot(data=df, y=last_col, ax=ax, showfliers=False)", "compilation_passed": true, "time": 0.14918184280395508, "tests_passed": true, "error": null}
+{"code": "boxplot(x=last_col, y=df.iloc[:,-1], ax=ax, data=df)", "compilation_passed": true, "time": 0.6653780937194824, "tests_passed": true, "error": null}
+{"code": "boxplot(x=last_col, y=df.columns[-2], data=df, ax=ax, showfliers=False)", "compilation_passed": true, "time": 0.5960540771484375, "tests_passed": true, "error": null}
+{"code": "boxplot(ax=ax, x=last_col, data=df, showfliers=False)", "compilation_passed": true, "time": 0.14861416816711426, "tests_passed": true, "error": null}
+{"code": "boxplot(data=df, y=last_col, ax=ax)", "compilation_passed": true, "time": 0.15577101707458496, "tests_passed": true, "error": null}
+{"code": "boxplot(x=last_col, y=df[last_col], ax=ax)", "compilation_passed": true, "time": 0.03514719009399414, "tests_passed": false, "error": "ValueError"}
+{"code": "boxplot(y=last_col, x=df.index, data=df, ax=ax)", "compilation_passed": true, "time": 1.0181388854980469, "tests_passed": false, "error": "TimeoutError"}
+{"code": "boxplot(ax=ax, data=df, y=last_col)", "compilation_passed": true, "time": 0.15974187850952148, "tests_passed": true, "error": null}
+{"code": "boxplot(data=df, y=last_col)", "compilation_passed": true, "time": 0.15735292434692383, "tests_passed": true, "error": null}
+{"code": "boxplot(y=last_col, x='ID', data=df, ax=ax)", "compilation_passed": true, "time": 0.036459922790527344, "tests_passed": false, "error": "ValueError"}
+{"code": "boxplot(data=df, x=last_col, ax=ax, showfliers=False)", "compilation_passed": true, "time": 0.15440082550048828, "tests_passed": true, "error": null}
+{"code": "boxplot(data=df, x=last_col, ax=ax)", "compilation_passed": true, "time": 0.1571671962738037, "tests_passed": true, "error": null}
+{"code": "boxplot(ax=ax, data=df[[last_col]])", "compilation_passed": true, "time": 0.21111702919006348, "tests_passed": true, "error": null}
+{"code": "boxplot(x=last_col, data=df, ax=ax)", "compilation_passed": true, "time": 0.16570520401000977, "tests_passed": true, "error": null}
+{"code": "boxplot(y=last_col, data=df, ax=ax)", "compilation_passed": true, "time": 0.16735005378723145, "tests_passed": true, "error": null}
+{"code": "boxplot(df[last_col])", "compilation_passed": true, "time": 0.16701269149780273, "tests_passed": true, "error": null}
+{"code": "boxplot(y=df[last_col], ax=ax)", "compilation_passed": true, "time": 0.16622424125671387, "tests_passed": true, "error": null}
+{"code": "boxplot(df[last_col], ax=ax)", "compilation_passed": true, "time": 0.171173095703125, "tests_passed": true, "error": null}

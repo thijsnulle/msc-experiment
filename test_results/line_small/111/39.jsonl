@@ -1,0 +1,23 @@
+{"code": " df.pivot(index='Month', columns='Day', values='Temperature')", "compilation_passed": true, "time": 1.112548828125, "tests_passed": true, "error": null}
+{"code": " (", "compilation_passed": false, "time": 0.0005199909210205078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.pivot_table('Temperature', index=['Month', 'Day'], columns='Time')", "compilation_passed": true, "time": 1.0135228633880615, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(values='Temperature', index=['Month'], columns=['Day'])", "compilation_passed": true, "time": 1.0150110721588135, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(values='Temperature', index='Month', columns='Day')", "compilation_passed": true, "time": 1.0135822296142578, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(values='Temperature', index=['Month', 'Day'], columns='Time')", "compilation_passed": true, "time": 1.0147325992584229, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(index=['Day', 'Month'], columns=['Time'], values='Temperature', aggfunc='mean')", "compilation_passed": true, "time": 1.0172741413116455, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(index=['Month', 'Day'], values='Temperature', aggfunc='mean')", "compilation_passed": true, "time": 1.013875961303711, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(index=['Date', 'Day'], values='Temperature', aggfunc=np.mean)", "compilation_passed": true, "time": 1.0110647678375244, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(index='Month', columns='Day', values='Temperature', aggfunc=np.mean)", "compilation_passed": true, "time": 0.4464380741119385, "tests_passed": true, "error": null}
+{"code": " df.pivot_table('Temperature', 'Month', 'Day')", "compilation_passed": true, "time": 1.0140049457550049, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table('Temperature', index='Day', columns='Month')", "compilation_passed": true, "time": 1.0097081661224365, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(index='Day', columns='Month', values='Temperature')", "compilation_passed": true, "time": 1.0092787742614746, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(index=['Month', 'Day'], columns='Time', values='Temperature')", "compilation_passed": true, "time": 1.0123229026794434, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(index=['Day'], values=['Temperature'], aggfunc=np.median)", "compilation_passed": true, "time": 1.0202713012695312, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(index=['Month', 'Day'], columns=['Time'], values=['Temperature'], aggfunc='mean')", "compilation_passed": true, "time": 1.0106549263000488, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(index='Month', columns='Day', values='Temperature', fill_value=0)", "compilation_passed": true, "time": 1.0088329315185547, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(index='Month', columns='Day', values='Temperature', aggfunc='mean')", "compilation_passed": true, "time": 1.009498119354248, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.pivot_table(df, index=['Month', 'Day'], values='Temperature', aggfunc='mean')", "compilation_passed": true, "time": 1.0098118782043457, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(values='Temperature', index='Time', columns='Month')", "compilation_passed": true, "time": 1.0095338821411133, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.pivot_table(index='Time', values='Temperature', columns='Month').reorder_levels(['Time'])", "compilation_passed": true, "time": 0.014914274215698242, "tests_passed": false, "error": "TypeError"}
+{"code": " df.pivot_table(values='Temperature', index=['Month', 'Day'], aggfunc='mean')", "compilation_passed": true, "time": 1.0087101459503174, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.pivot_table(df, values='Temperature', index=['Month', 'Day'], aggfunc='mean', fill_value=np.nan)", "compilation_passed": true, "time": 1.01230788230896, "tests_passed": false, "error": "TimeoutError"}

@@ -1,0 +1,14 @@
+{"code": " url.split('/')[2].split('.')", "compilation_passed": true, "time": 0.008445978164672852, "tests_passed": false, "error": "TypeError"}
+{"code": " url.split(\"//\")[1].split(\"/\")[0]", "compilation_passed": true, "time": 0.004509925842285156, "tests_passed": true, "error": null}
+{"code": " urllib.parse.urlparse(url).netloc", "compilation_passed": true, "time": 0.0031850337982177734, "tests_passed": true, "error": null}
+{"code": " urllib.parse.urlparse(url).netloc.split(\".\")", "compilation_passed": true, "time": 0.007952690124511719, "tests_passed": false, "error": "TypeError"}
+{"code": " re.search(r'(?:http|https):\\/\\/([^/]+)', url).group(1)", "compilation_passed": true, "time": 0.0024552345275878906, "tests_passed": true, "error": null}
+{"code": " urlparse.urlparse(url).netloc", "compilation_passed": true, "time": 0.008172750473022461, "tests_passed": false, "error": "NameError"}
+{"code": " re.findall(r'(?<=www\\.)([^.]+)', url)", "compilation_passed": true, "time": 0.007878303527832031, "tests_passed": false, "error": "TypeError"}
+{"code": " url.split('/')[2]", "compilation_passed": true, "time": 0.0029637813568115234, "tests_passed": true, "error": null}
+{"code": " urlparse(url).netloc.split(':')[0]", "compilation_passed": true, "time": 0.007178068161010742, "tests_passed": false, "error": "NameError"}
+{"code": " url.split('//')[-1].split('.')", "compilation_passed": true, "time": 0.008558034896850586, "tests_passed": false, "error": "TypeError"}
+{"code": " urllib.parse.urlparse(url).netloc.split(':')[0]", "compilation_passed": true, "time": 0.0022420883178710938, "tests_passed": true, "error": null}
+{"code": " urllib.parse.urlparse(url).netloc.split('.')", "compilation_passed": true, "time": 0.007231950759887695, "tests_passed": false, "error": "TypeError"}
+{"code": " urllib.parse.urlparse(url).netloc.split('@', 1)[0]  # Extracting the domain part from the URL", "compilation_passed": true, "time": 0.002950906753540039, "tests_passed": true, "error": null}
+{"code": " re.search(r'([^/]+)\\.(.*)$', url)", "compilation_passed": true, "time": 0.004977703094482422, "tests_passed": true, "error": null}

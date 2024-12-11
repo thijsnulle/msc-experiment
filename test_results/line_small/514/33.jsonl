@@ -1,0 +1,12 @@
+{"code": " df.sum()", "compilation_passed": true, "time": 0.34488487243652344, "tests_passed": true, "error": null}
+{"code": " df.sum(axis=1, skipna=False)", "compilation_passed": true, "time": 0.0766911506652832, "tests_passed": true, "error": null}
+{"code": " [sum(row) for row in df.values.T]", "compilation_passed": true, "time": 0.032022953033447266, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.sum(axis=0)", "compilation_passed": true, "time": 0.3509371280670166, "tests_passed": true, "error": null}
+{"code": " df.sum(axis=1)", "compilation_passed": true, "time": 0.07782387733459473, "tests_passed": true, "error": null}
+{"code": " [df[col].sum() for col in df.columns]", "compilation_passed": true, "time": 0.03414106369018555, "tests_passed": false, "error": "AttributeError"}
+{"code": " [sum(col) for col in df.columns]", "compilation_passed": true, "time": 0.009802103042602539, "tests_passed": false, "error": "TypeError"}
+{"code": " [sum(row) for row in zip(*array)]", "compilation_passed": true, "time": 0.031265974044799805, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.sum(axis=1, skipna=True)", "compilation_passed": true, "time": 0.07832908630371094, "tests_passed": true, "error": null}
+{"code": " df.apply(sum)", "compilation_passed": true, "time": 0.3330729007720947, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.03151297569274902, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.apply(np.sum)", "compilation_passed": true, "time": 0.007622957229614258, "tests_passed": false, "error": "NameError"}

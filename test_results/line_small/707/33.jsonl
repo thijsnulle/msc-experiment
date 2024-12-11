@@ -1,0 +1,5 @@
+{"code": " df['IntCol'].tolist()", "compilation_passed": true, "time": 0.014967918395996094, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " list(df['IntCol'])", "compilation_passed": true, "time": 0.019314289093017578, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " df['IntCol'].values.tolist()", "compilation_passed": true, "time": 0.018864870071411133, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " df['IntCol'].to_list()", "compilation_passed": true, "time": 0.01790308952331543, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " list(df['IntCol'].astype(str))", "compilation_passed": true, "time": 0.013480186462402344, "tests_passed": false, "error": "numpy._core._exceptions._UFuncNoLoopError"}

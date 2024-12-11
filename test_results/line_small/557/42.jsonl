@@ -1,0 +1,26 @@
+{"code": "figure(figsize=(12, 6))", "compilation_passed": true, "time": 0.06920504570007324, "tests_passed": true, "error": null}
+{"code": "title(f\"Average similarity scores for strings in {s_list}.\")", "compilation_passed": true, "time": 0.09007596969604492, "tests_passed": true, "error": null}
+{"code": "plot(s_list, avg_scores)", "compilation_passed": true, "time": 0.0889890193939209, "tests_passed": true, "error": null}
+{"code": "figure()", "compilation_passed": true, "time": 0.04015374183654785, "tests_passed": true, "error": null}
+{"code": "cla()", "compilation_passed": true, "time": 0.059548139572143555, "tests_passed": true, "error": null}
+{"code": "title('Similarity plot')", "compilation_passed": true, "time": 0.05004382133483887, "tests_passed": true, "error": null}
+{"code": "plot(range(1, len(avg_scores) + 1), avg_scores, color='black', marker='o', markersize=4, linewidth=1)", "compilation_passed": true, "time": 0.05424094200134277, "tests_passed": true, "error": null}
+{"code": "title('Average similarity score of strings')", "compilation_passed": true, "time": 0.05378389358520508, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(6, 5))", "compilation_passed": true, "time": 0.038388967514038086, "tests_passed": true, "error": null}
+{"code": "title(\"Similarity plot\")", "compilation_passed": true, "time": 0.05322003364562988, "tests_passed": true, "error": null}
+{"code": "bar(range(len(avg_scores)), avg_scores)", "compilation_passed": true, "time": 0.05335426330566406, "tests_passed": true, "error": null}
+{"code": "plot(s_list, avg_scores, marker='x')", "compilation_passed": true, "time": 0.05374479293823242, "tests_passed": true, "error": null}
+{"code": "boxplot(avg_scores)", "compilation_passed": true, "time": 0.057492971420288086, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(len(s_list)), avg_scores, align='center')", "compilation_passed": true, "time": 0.05617499351501465, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(16, 10))", "compilation_passed": true, "time": 0.12756991386413574, "tests_passed": true, "error": null}
+{"code": "bar(range(len(s_list)), avg_scores)", "compilation_passed": true, "time": 0.14432096481323242, "tests_passed": true, "error": null}
+{"code": "plot(range(len(s_list)), avg_scores)", "compilation_passed": true, "time": 0.14496898651123047, "tests_passed": true, "error": null}
+{"code": "plot(s_list, avg_scores, '-o')", "compilation_passed": true, "time": 0.1436903476715088, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(10, 5))", "compilation_passed": true, "time": 0.05319499969482422, "tests_passed": true, "error": null}
+{"code": "plot(avg_scores)", "compilation_passed": true, "time": 0.060151100158691406, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(len(s_list)), avg_scores)", "compilation_passed": true, "time": 0.06153607368469238, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(16, 4))", "compilation_passed": true, "time": 0.061631202697753906, "tests_passed": true, "error": null}
+{"code": "plot([i for i in range(len(s_list))], avg_scores)", "compilation_passed": true, "time": 0.06841182708740234, "tests_passed": true, "error": null}
+{"code": "title(\"Average Sequence Matcher similarity scores\")", "compilation_passed": true, "time": 0.07912778854370117, "tests_passed": true, "error": null}
+{"code": "bar(list(range(1, len(s_list) + 1)), avg_scores)", "compilation_passed": true, "time": 0.08658695220947266, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(8, 8))", "compilation_passed": true, "time": 0.062081098556518555, "tests_passed": true, "error": null}

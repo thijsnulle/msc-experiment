@@ -1,0 +1,20 @@
+{"code": " text.strip()", "compilation_passed": true, "time": 0.006798982620239258, "tests_passed": true, "error": null}
+{"code": " text.lower()", "compilation_passed": true, "time": 0.006386756896972656, "tests_passed": true, "error": null}
+{"code": " ''.join(c if c in string.punctuation else '_' for c in text)", "compilation_passed": true, "time": 0.006023883819580078, "tests_passed": true, "error": null}
+{"code": " text.strip().lower()", "compilation_passed": true, "time": 0.005756855010986328, "tests_passed": true, "error": null}
+{"code": " text.translate(str.maketrans('', '', string.punctuation))", "compilation_passed": true, "time": 0.0025620460510253906, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z0-9 ]+', ' ', text)", "compilation_passed": true, "time": 0.006063222885131836, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[!@#$%^&*(),.?\\\":{}|<>]\", \" \", text)", "compilation_passed": true, "time": 0.00764012336730957, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[\\s\\t\\n]+', '_', text)", "compilation_passed": true, "time": 0.006124973297119141, "tests_passed": true, "error": null}
+{"code": " re.sub('[^\\w\\s]+', '', text)", "compilation_passed": true, "time": 0.0026121139526367188, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s]\", \"\", text)", "compilation_passed": true, "time": 0.0027570724487304688, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text)", "compilation_passed": true, "time": 0.0028269290924072266, "tests_passed": true, "error": null}
+{"code": " re.sub('['+string.punctuation+']', '', text)", "compilation_passed": true, "time": 0.0029959678649902344, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', text)", "compilation_passed": true, "time": 0.0058629512786865234, "tests_passed": true, "error": null}
+{"code": " ''.join(char if char.isalnum() else ' ' for char in text)", "compilation_passed": true, "time": 0.0065898895263671875, "tests_passed": true, "error": null}
+{"code": " text.replace(' ', '_').replace('\\t', '__').replace('\\n', '___')", "compilation_passed": true, "time": 0.005833148956298828, "tests_passed": true, "error": null}
+{"code": " text.replace('_', ' ')", "compilation_passed": true, "time": 0.007559061050415039, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]+', ' ', text).strip()", "compilation_passed": true, "time": 0.006444215774536133, "tests_passed": true, "error": null}
+{"code": " text.lower().translate({ord(c): '_' for c in string.punctuation}).replace(' ', '__').replace('\\n', '___')", "compilation_passed": true, "time": 0.005970954895019531, "tests_passed": true, "error": null}
+{"code": " text.translate(str.maketrans(string.punctuation, '_' * len(string.punctuation)))", "compilation_passed": true, "time": 0.0061948299407958984, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\W+\", \"\", text)", "compilation_passed": true, "time": 0.005756855010986328, "tests_passed": true, "error": null}

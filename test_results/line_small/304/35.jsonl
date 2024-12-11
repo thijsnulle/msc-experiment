@@ -1,0 +1,8 @@
+{"code": " df.empty:", "compilation_passed": true, "time": 0.1584000587463379, "tests_passed": true, "error": null}
+{"code": " not len(df):", "compilation_passed": true, "time": 0.16225409507751465, "tests_passed": true, "error": null}
+{"code": " len(df) == 0:", "compilation_passed": true, "time": 0.16809487342834473, "tests_passed": true, "error": null}
+{"code": " df.empty:  # empty DataFrame", "compilation_passed": true, "time": 0.1630721092224121, "tests_passed": true, "error": null}
+{"code": " not df.empty:", "compilation_passed": true, "time": 0.01045083999633789, "tests_passed": false, "error": "KeyError"}
+{"code": " len(df) == 0: # No data to process", "compilation_passed": true, "time": 0.16829276084899902, "tests_passed": true, "error": null}
+{"code": " len(df.index) == 0:", "compilation_passed": true, "time": 0.17264413833618164, "tests_passed": true, "error": null}
+{"code": " len(df.index) <= 0: # checks the length of the index, 0 or 1 is ok", "compilation_passed": true, "time": 0.17467117309570312, "tests_passed": true, "error": null}

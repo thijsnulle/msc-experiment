@@ -1,0 +1,8 @@
+{"code": " dict(Counter(frequencies).most_common(top_k))", "compilation_passed": true, "time": 0.008157014846801758, "tests_passed": false, "error": "AttributeError"}
+{"code": " dict(zip(word_keys, frequencies))", "compilation_passed": true, "time": 0.008501052856445312, "tests_passed": false, "error": "AttributeError"}
+{"code": " Counter(frequencies)", "compilation_passed": true, "time": 0.010055065155029297, "tests_passed": true, "error": null}
+{"code": " {word: frequency for word, frequency in zip(word_keys, frequencies)}", "compilation_passed": true, "time": 0.0071637630462646484, "tests_passed": false, "error": "AttributeError"}
+{"code": " {word: freq for word, freq in zip(word_keys, frequencies)}", "compilation_passed": true, "time": 0.007237911224365234, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.Counter(frequencies)", "compilation_passed": true, "time": 0.007144927978515625, "tests_passed": false, "error": "NameError"}
+{"code": " {word_keys[i]: frequencies[i] for i in range(top_k)}", "compilation_passed": true, "time": 0.008060216903686523, "tests_passed": false, "error": "AttributeError"}
+{"code": " dict(Counter(frequencies))", "compilation_passed": true, "time": 0.009242773056030273, "tests_passed": false, "error": "AttributeError"}

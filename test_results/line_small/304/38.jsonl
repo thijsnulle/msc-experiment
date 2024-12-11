@@ -1,0 +1,21 @@
+{"code": " df.set_index('Date')", "compilation_passed": true, "time": 0.02116107940673828, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('Date')['Value'].apply(list).reset_index(name='Value')", "compilation_passed": true, "time": 0.022706270217895508, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('Date').apply(lambda x: pd.Series(x['Value'].tolist()).apply(lambda x: [x])).reset_index(drop=True)", "compilation_passed": true, "time": 0.014330863952636719, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(df['Value'].apply(tuple), columns=['Value_1', 'Value_2', 'Value_3'])", "compilation_passed": true, "time": 0.01098322868347168, "tests_passed": false, "error": "ValueError"}
+{"code": " df.pivot_table(values='Value', index='Date', columns='Date')", "compilation_passed": true, "time": 0.04064583778381348, "tests_passed": false, "error": "TypeError"}
+{"code": " df.set_index(\"Date\")", "compilation_passed": true, "time": 0.010073184967041016, "tests_passed": false, "error": "ValueError"}
+{"code": " df.pivot_table('Value', index='Date', columns='Value')", "compilation_passed": true, "time": 0.028755903244018555, "tests_passed": false, "error": "TypeError"}
+{"code": " df.sort_values('Date')", "compilation_passed": true, "time": 0.01199793815612793, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('Date')['Value'].apply(list).reset_index()", "compilation_passed": true, "time": 0.010989189147949219, "tests_passed": false, "error": "ValueError"}
+{"code": " df.rename(columns={'Value': 'Value'})", "compilation_passed": true, "time": 0.010202884674072266, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(pd.concat([df, df[['Date', 'Value']].apply(lambda x: list(x), axis=1)].explode('Value'), axis=1))", "compilation_passed": true, "time": 0.009747028350830078, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(df.groupby('Date')['Value'].transform('mean'))", "compilation_passed": true, "time": 0.014245033264160156, "tests_passed": false, "error": "TypeError"}
+{"code": " df.rename(columns={'Value':'Value_0'})", "compilation_passed": true, "time": 0.010102033615112305, "tests_passed": false, "error": "ValueError"}
+{"code": " df.set_index(['Date'])", "compilation_passed": true, "time": 0.009595870971679688, "tests_passed": false, "error": "ValueError"}
+{"code": " df.rename(columns={'Value':'value'})", "compilation_passed": true, "time": 0.010843992233276367, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('Date').agg({'Value': pd.Series.mean}).reset_index()", "compilation_passed": true, "time": 0.011932849884033203, "tests_passed": false, "error": "TypeError"}
+{"code": " df.sort_values(['Date'])", "compilation_passed": true, "time": 0.010431051254272461, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('Date')['Value'].apply(lambda x: pd.Series(x, dtype='float32').to_numpy()).reset_index()", "compilation_passed": true, "time": 0.011511087417602539, "tests_passed": false, "error": "ValueError"}
+{"code": " df.sort_values('Date').set_index('Date')", "compilation_passed": true, "time": 0.009851932525634766, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Date': pd.DatetimeIndex(df['Date'])}).merge(df, on='Date')", "compilation_passed": true, "time": 0.015469074249267578, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Date': pd.to_datetime(df.Date), 'Value': [pd.DataFrame(v) for v in df['Value'].values]})", "compilation_passed": true, "time": 0.010569095611572266, "tests_passed": false, "error": "ValueError"}

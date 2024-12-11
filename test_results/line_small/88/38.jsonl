@@ -1,0 +1,15 @@
+{"code": " pd.date_range(start=start_date, end=end_date, freq='D')", "compilation_passed": true, "time": 0.013276815414428711, "tests_passed": false, "error": "TypeError"}
+{"code": " np.random.randint(0, 500, (100,))", "compilation_passed": true, "time": 0.007828950881958008, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00018310546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.randint(50, size=(31,)),", "compilation_passed": false, "time": 0.00020575523376464844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.randint(0, 500, size=256), index=pd.date_range(start=start_date, end=end_date))", "compilation_passed": true, "time": 0.007867813110351562, "tests_passed": false, "error": "ValueError"}
+{"code": " []", "compilation_passed": true, "time": 0.3129880428314209, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.01236104965209961, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({\"Date\": [], \"Sales\": []})", "compilation_passed": true, "time": 0.007964134216308594, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(low=0, high=500, size=50)", "compilation_passed": true, "time": 0.007683992385864258, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({}, index=pd.date_range(start_date, end_date))", "compilation_passed": true, "time": 0.00841522216796875, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.date_range(start_date, end_date, freq='D')", "compilation_passed": true, "time": 0.008231878280639648, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(index=pd.date_range(start_date, end_date),", "compilation_passed": false, "time": 0.0001919269561767578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {}", "compilation_passed": true, "time": 0.009392261505126953, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00017833709716796875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(index=pd.date_range(start_date, end_date, freq='D'))", "compilation_passed": true, "time": 0.008265972137451172, "tests_passed": false, "error": "AttributeError"}

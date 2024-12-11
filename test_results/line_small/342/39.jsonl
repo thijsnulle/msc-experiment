@@ -1,0 +1,19 @@
+{"code": " f\"{pattern.format(replaced)}\"", "compilation_passed": true, "time": 0.0057830810546875, "tests_passed": true, "error": null}
+{"code": " f\"{{{replaced}}}\"", "compilation_passed": true, "time": 0.005396842956542969, "tests_passed": true, "error": null}
+{"code": " '{0}'.format(replaced)", "compilation_passed": true, "time": 0.004658937454223633, "tests_passed": true, "error": null}
+{"code": " f\"{pattern % replaced}\"", "compilation_passed": true, "time": 0.00748896598815918, "tests_passed": false, "error": "TypeError"}
+{"code": " string.Template('%{0}%').substitute({'0': replaced})", "compilation_passed": true, "time": 0.0016012191772460938, "tests_passed": true, "error": null}
+{"code": " \"{0}\".format(replaced)", "compilation_passed": true, "time": 0.005099773406982422, "tests_passed": true, "error": null}
+{"code": " string.Template(\"%{0}%\").safe_substitute(locals())", "compilation_passed": true, "time": 0.0017559528350830078, "tests_passed": true, "error": null}
+{"code": " f\"%{replaced}%\"", "compilation_passed": true, "time": 0.0017330646514892578, "tests_passed": true, "error": null}
+{"code": " \"%{}%\".format(replaced)", "compilation_passed": true, "time": 0.0014681816101074219, "tests_passed": true, "error": null}
+{"code": " string.Template(pattern).safe_substitute(v=replaced)", "compilation_passed": true, "time": 0.005264759063720703, "tests_passed": true, "error": null}
+{"code": " string.Template('$').substitute({'0': replaced})", "compilation_passed": true, "time": 0.009559869766235352, "tests_passed": false, "error": "ValueError"}
+{"code": " f\"{{0}}\".format(replaced)", "compilation_passed": true, "time": 0.006605863571166992, "tests_passed": true, "error": null}
+{"code": " f'%{replaced}%'", "compilation_passed": true, "time": 0.002038717269897461, "tests_passed": true, "error": null}
+{"code": " string.Template('%{0}%').safe_substitute({'0': replaced})", "compilation_passed": true, "time": 0.0015521049499511719, "tests_passed": true, "error": null}
+{"code": " string.Template(\"%{0}%\").safe_substitute(dict(zip([\"0\"], [replaced])))", "compilation_passed": true, "time": 0.0017142295837402344, "tests_passed": true, "error": null}
+{"code": " \"%{0}%\".format(replaced)", "compilation_passed": true, "time": 0.0014948844909667969, "tests_passed": true, "error": null}
+{"code": " string.Formatter().format('%{0}%', replaced)", "compilation_passed": true, "time": 0.001634836196899414, "tests_passed": true, "error": null}
+{"code": " f\"%%{{{replaced}}}\"", "compilation_passed": true, "time": 0.004818916320800781, "tests_passed": true, "error": null}
+{"code": " string.Template('${0}').safe_substitute(locals())", "compilation_passed": true, "time": 0.005094766616821289, "tests_passed": true, "error": null}

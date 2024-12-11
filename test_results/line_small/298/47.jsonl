@@ -1,0 +1,29 @@
+{"code": " plt.bar(df['Date'], df.iloc[:,1:].values)", "compilation_passed": true, "time": 0.09850716590881348, "tests_passed": false, "error": "ValueError"}
+{"code": " df.plot(title='Scaled Values Over Time', x='Date', y='Value')", "compilation_passed": true, "time": 0.08898401260375977, "tests_passed": false, "error": "KeyError"}
+{"code": " df.set_index('Date').iloc[:,-1].plot(title='Scaled Values Over Time')", "compilation_passed": true, "time": 0.19510984420776367, "tests_passed": true, "error": null}
+{"code": " df.iloc[:,1:].plot.bar(subplots=True, rot=0, x='Date', ylabel='Scaled Value')", "compilation_passed": true, "time": 0.10145711898803711, "tests_passed": false, "error": "KeyError"}
+{"code": " df.iloc[:,-1:].plot.bar()", "compilation_passed": true, "time": 0.2828981876373291, "tests_passed": true, "error": null}
+{"code": " df.plot.bar('Date', 'Value')", "compilation_passed": true, "time": 0.07652497291564941, "tests_passed": false, "error": "KeyError"}
+{"code": " df.loc[:,'Date':'Scaled Value'].plot(title='Scaled Values Over Time',", "compilation_passed": false, "time": 0.0002796649932861328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[COLUMNS].plot()", "compilation_passed": true, "time": 0.06286406517028809, "tests_passed": false, "error": "KeyError"}
+{"code": " plt.bar(df['Date'], df.iloc[:,2:])", "compilation_passed": true, "time": 0.09162068367004395, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[COLUMNS[1:]][COLUMNS[1:]].plot()", "compilation_passed": true, "time": 0.08602595329284668, "tests_passed": false, "error": "KeyError"}
+{"code": " df.iloc[:,1:].plot.bar(title='Scaled Values Over Time', x='Date', rot=0, ylabel='Scaled Value')", "compilation_passed": true, "time": 0.10043072700500488, "tests_passed": false, "error": "KeyError"}
+{"code": " plt.bar(df['Date'], df[df.columns[1:]].sum(axis=1), width=np.diff(df['Date'])[0], color='blue')", "compilation_passed": true, "time": 0.0638420581817627, "tests_passed": false, "error": "NameError"}
+{"code": " plt.bar(df['Date'], df['Value'])", "compilation_passed": true, "time": 0.07876801490783691, "tests_passed": false, "error": "KeyError"}
+{"code": " plt.bar(df['Date'], df[1], label='Scaled Value')", "compilation_passed": true, "time": 0.09496593475341797, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[['Date', 'Value']].plot.bar(x='Date', y='Value', rot=0, title='Scaled Values Over Time',", "compilation_passed": false, "time": 0.00028514862060546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.bar(df['Date'], df.iloc[:,1:], width=1, color='blue', edgecolor='white', linewidth=0.5)", "compilation_passed": true, "time": 0.08428502082824707, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.bar(df['Date'], df[1:])", "compilation_passed": true, "time": 0.10846996307373047, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.bar(df['Date'], df.iloc[:,1:])", "compilation_passed": true, "time": 0.07042407989501953, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.bar(df['Date'], df['Value'].apply(np.mean))", "compilation_passed": true, "time": 0.11463665962219238, "tests_passed": false, "error": "KeyError"}
+{"code": " df[1:].plot(kind='bar')", "compilation_passed": true, "time": 0.3192868232727051, "tests_passed": true, "error": null}
+{"code": " df.iloc[:,1:].boxplot()", "compilation_passed": true, "time": 0.1698741912841797, "tests_passed": true, "error": null}
+{"code": " df.iloc[:,1:].plot.bar(stacked=True)", "compilation_passed": true, "time": 0.30202531814575195, "tests_passed": true, "error": null}
+{"code": " plt.bar(df.iloc[:,0], df.iloc[:,1:])", "compilation_passed": true, "time": 0.0971519947052002, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.subplot(1, 1, 1)", "compilation_passed": true, "time": 0.1482410430908203, "tests_passed": true, "error": null}
+{"code": " df.iloc[:,1:].plot(", "compilation_passed": false, "time": 0.0006799697875976562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.1997220516204834, "tests_passed": true, "error": null}
+{"code": " plt.bar(df['Date'], df.iloc[:,1:], color='c')", "compilation_passed": true, "time": 0.09855890274047852, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.bar(df.index, df.iloc[:,1:], width=1, label='Scaled')", "compilation_passed": true, "time": 0.10281968116760254, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.bar(df['Date'], df.iloc[:,1:], label='Scaled Value')", "compilation_passed": true, "time": 0.10840392112731934, "tests_passed": false, "error": "ValueError"}

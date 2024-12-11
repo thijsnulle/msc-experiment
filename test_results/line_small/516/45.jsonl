@@ -1,0 +1,15 @@
+{"code": " df[[\"A\", \"B\", \"C\", \"D\"]].values", "compilation_passed": true, "time": 1.0065889358520508, "tests_passed": false, "error": ""}
+{"code": " df.iloc[:, :4]", "compilation_passed": true, "time": 0.016788959503173828, "tests_passed": true, "error": null}
+{"code": " df[[\"A\", \"B\", \"C\", \"D\"]]", "compilation_passed": true, "time": 0.019544601440429688, "tests_passed": true, "error": null}
+{"code": " sm.add_constant(df[COLUMNS[:-1]])", "compilation_passed": true, "time": 0.029561996459960938, "tests_passed": true, "error": null}
+{"code": " df.loc[:, [\"A\", \"B\", \"C\", \"D\"]]", "compilation_passed": true, "time": 0.02030491828918457, "tests_passed": true, "error": null}
+{"code": " df[COLUMNS[:-1]]", "compilation_passed": true, "time": 0.021785974502563477, "tests_passed": true, "error": null}
+{"code": " df[COLUMNS[1:5]].to_numpy()", "compilation_passed": true, "time": 0.020820140838623047, "tests_passed": false, "error": "TypeError"}
+{"code": " sm.add_constant(df[[\"A\", \"B\", \"C\", \"D\"]])", "compilation_passed": true, "time": 0.028942108154296875, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, [0, 1, 2, 3]]", "compilation_passed": true, "time": 0.018398046493530273, "tests_passed": true, "error": null}
+{"code": " df.drop(\"Response\", axis=1)", "compilation_passed": true, "time": 0.018227815628051758, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :-1]", "compilation_passed": true, "time": 0.017212867736816406, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :4]  # Independent variables", "compilation_passed": true, "time": 0.017323970794677734, "tests_passed": true, "error": null}
+{"code": " sm.add_constant(df[COLUMNS[:4]])", "compilation_passed": true, "time": 0.0294189453125, "tests_passed": true, "error": null}
+{"code": " df[[\"A\", \"B\", \"C\", \"D\"]].copy()", "compilation_passed": true, "time": 0.01963210105895996, "tests_passed": true, "error": null}
+{"code": " df[COLUMNS[:-1]].values", "compilation_passed": true, "time": 0.016254901885986328, "tests_passed": false, "error": "TypeError"}

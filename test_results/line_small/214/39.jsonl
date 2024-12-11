@@ -1,0 +1,8 @@
+{"code": " j, k] = random.randint(range_low, range_high)", "compilation_passed": true, "time": 0.27272510528564453, "tests_passed": true, "error": null}
+{"code": " j, k] = range_low + random.randint(range_high - range_low)", "compilation_passed": true, "time": 0.012893915176391602, "tests_passed": false, "error": "TypeError"}
+{"code": " j, k] = np.random.randint(low=range_low, high=range_high)", "compilation_passed": true, "time": 1.0137338638305664, "tests_passed": false, "error": "TimeoutError"}
+{"code": " j, k] = np.random.randint(range_low, range_high)", "compilation_passed": true, "time": 1.0092880725860596, "tests_passed": false, "error": "TimeoutError"}
+{"code": " j, k] = np.random.randint(range_low, range_high + 1)", "compilation_passed": true, "time": 1.0098521709442139, "tests_passed": false, "error": "TimeoutError"}
+{"code": " j, k] = np.random.randint(low=range_low, high=range_high+1)", "compilation_passed": true, "time": 1.0102100372314453, "tests_passed": false, "error": "TimeoutError"}
+{"code": " j, k] = np.random.randint(range_low, range_high, dtype=np.uint8)", "compilation_passed": true, "time": 1.0092759132385254, "tests_passed": false, "error": "TimeoutError"}
+{"code": " j, k] = np.uint8(random.randint(range_low, range_high))", "compilation_passed": true, "time": 0.34009695053100586, "tests_passed": true, "error": null}

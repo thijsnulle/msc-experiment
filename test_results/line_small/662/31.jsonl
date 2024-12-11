@@ -1,0 +1,23 @@
+{"code": " pca.fit_transform(np.column_stack([x[i], y[i]]))", "compilation_passed": true, "time": 0.48090291023254395, "tests_passed": true, "error": null}
+{"code": " pca.fit_transform(np.hstack([x[i], y[i]]))", "compilation_passed": true, "time": 0.11395621299743652, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " pca.fit_transform(np.vstack((x[i], y[i])).T)", "compilation_passed": true, "time": 0.4953329563140869, "tests_passed": true, "error": null}
+{"code": " pca.fit_transform(x[i], y[i])", "compilation_passed": true, "time": 0.10768890380859375, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " x[i], y[i]", "compilation_passed": true, "time": 0.4629528522491455, "tests_passed": true, "error": null}
+{"code": " np.concatenate((x[i], y[i]))", "compilation_passed": true, "time": 0.09501910209655762, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " ax.scatter(x[i], y[i], label=labels[i])", "compilation_passed": true, "time": 0.11049270629882812, "tests_passed": false, "error": "TypeError"}
+{"code": " np.transpose(np.vstack([x[i],y[i]]))", "compilation_passed": true, "time": 0.547501802444458, "tests_passed": true, "error": null}
+{"code": " pca.fit_transform(x[i].reshape(-1, 3), y[i].reshape(-1, 1))", "compilation_passed": true, "time": 0.12943577766418457, "tests_passed": false, "error": "ValueError"}
+{"code": " pca.fit_transform(np.vstack([x[i], y[i]]).T)", "compilation_passed": true, "time": 0.46960997581481934, "tests_passed": true, "error": null}
+{"code": " x[i].reshape((-1, 2))", "compilation_passed": true, "time": 0.17134428024291992, "tests_passed": false, "error": "ValueError"}
+{"code": " pca.fit_transform(x[i])", "compilation_passed": true, "time": 0.0883479118347168, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.hstack([x[i], y[i]])", "compilation_passed": true, "time": 0.12906432151794434, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " list(zip(x[i], y[i]))", "compilation_passed": true, "time": 0.5839188098907471, "tests_passed": true, "error": null}
+{"code": " pca.fit_transform(np.concatenate((x[i].reshape(-1,1), y[i].reshape(-1,1)), axis=1))", "compilation_passed": true, "time": 0.4548470973968506, "tests_passed": true, "error": null}
+{"code": " pca.fit_transform(np.concatenate((x[i].T, y[i].T), axis=0))", "compilation_passed": true, "time": 0.09804201126098633, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " list(zip(pca.fit_transform(x[i]), pca.fit_transform(y[i])))", "compilation_passed": true, "time": 0.07966113090515137, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " pca.fit_transform([x[i], y[i]])", "compilation_passed": true, "time": 0.39269375801086426, "tests_passed": true, "error": null}
+{"code": " np.hstack((x[i], y[i]))", "compilation_passed": true, "time": 0.0838167667388916, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.concatenate((x[i], y[i]), axis=1)", "compilation_passed": true, "time": 0.06896209716796875, "tests_passed": false, "error": "numpy.exceptions.AxisError"}
+{"code": " pca.fit_transform([[x[i]],[y[i]]])", "compilation_passed": true, "time": 0.09559392929077148, "tests_passed": false, "error": "ValueError"}
+{"code": " pca.fit_transform(np.vstack([x[i],y[i]]).T)", "compilation_passed": true, "time": 0.4048740863800049, "tests_passed": true, "error": null}
+{"code": " pca.fit_transform(x[i].T)", "compilation_passed": true, "time": 0.09325003623962402, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}

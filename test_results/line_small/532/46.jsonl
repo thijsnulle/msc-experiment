@@ -1,0 +1,25 @@
+{"code": " not duplicates.empty and len(duplicates_counter) == 1:", "compilation_passed": true, "time": 0.05882406234741211, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " not duplicates or duplicates[\"value\"].isna().all():", "compilation_passed": true, "time": 0.009987115859985352, "tests_passed": false, "error": "ValueError"}
+{"code": " len(duplicates_counter) == 0:", "compilation_passed": true, "time": 0.09175586700439453, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " len(duplicates_counter) == 1:", "compilation_passed": true, "time": 0.04218482971191406, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " duplicates.empty or duplicates[\"value\"].nunique() == 1:", "compilation_passed": true, "time": 0.055837154388427734, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " duplicates_counter.most_common(1)[0][1] == 1:", "compilation_passed": true, "time": 0.009923219680786133, "tests_passed": false, "error": "IndexError"}
+{"code": " not duplicates.empty:", "compilation_passed": true, "time": 0.04185795783996582, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " len(duplicates_counter) == 0 or Counter(duplicates[\"value\"])[duplicates[\"value\"].iloc[0]] == len(duplicates):", "compilation_passed": true, "time": 0.0504610538482666, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " duplicates.empty or len(duplicates_counter) == 1:", "compilation_passed": true, "time": 0.04830527305603027, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " duplicates_counter.total() == 0:", "compilation_passed": true, "time": 0.009620904922485352, "tests_passed": false, "error": "AttributeError"}
+{"code": " len(duplicates) == 0:", "compilation_passed": true, "time": 0.037030935287475586, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " len(duplicates) == 0 or list(duplicates_counter.values()) == [1]:", "compilation_passed": true, "time": 0.03633713722229004, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " duplicates_counter == Counter([]):", "compilation_passed": true, "time": 0.038197994232177734, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " len(duplicates_counter) == 0 or (len(duplicates_counter) == 1 and list(duplicates_counter.values())[0] == 1):", "compilation_passed": true, "time": 0.035531044006347656, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " not duplicates:", "compilation_passed": true, "time": 0.00888824462890625, "tests_passed": false, "error": "ValueError"}
+{"code": " not duplicates.empty and len(duplicates_counter) > 1:", "compilation_passed": true, "time": 0.07156491279602051, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " duplicates_counter == Counter({1}) or duplicates_counter == Counter({2}):", "compilation_passed": true, "time": 0.056615352630615234, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " not duplicates.empty and duplicates[\"value\"].nunique() != 1:", "compilation_passed": true, "time": 0.045983076095581055, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " duplicates[\"value\"].isnull().any() or duplicates_counter.most_common(1)[0][1] == len(duplicates):", "compilation_passed": true, "time": 0.009021282196044922, "tests_passed": false, "error": "IndexError"}
+{"code": " len(duplicates) < 2 or len(set(duplicates[\"value\"])) < 2:", "compilation_passed": true, "time": 0.047014713287353516, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " not duplicates_counter or duplicates_counter.most_common(1)[0][1] == 1:", "compilation_passed": true, "time": 0.034864187240600586, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " duplicates.empty or duplicates[\"value\"].value_counts().iloc[0] == 1:", "compilation_passed": true, "time": 0.03575420379638672, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " len(duplicates_counter.values()) == 1:", "compilation_passed": true, "time": 0.034780263900756836, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " duplicates.empty or len(duplicates_counter.keys()) == 1:", "compilation_passed": true, "time": 0.045169830322265625, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " not duplicates_counter:", "compilation_passed": true, "time": 0.04219198226928711, "tests_passed": false, "error": "FloatingPointError"}

@@ -1,0 +1,14 @@
+{"code": " np.sin(x) + noise_level*np.random.randn(array_length)", "compilation_passed": true, "time": 0.1138300895690918, "tests_passed": true, "error": null}
+{"code": " np.sin(x) + noise_level*(np.random.randn(array_length))", "compilation_passed": true, "time": 0.11649203300476074, "tests_passed": true, "error": null}
+{"code": " np.sin(x) + np.random.normal(scale=noise_level, size=array_length)", "compilation_passed": true, "time": 0.11767292022705078, "tests_passed": true, "error": null}
+{"code": " np.sin(x) + np.random.normal(0, noise_level, array_length)", "compilation_passed": true, "time": 0.11394619941711426, "tests_passed": true, "error": null}
+{"code": " 3 * np.sin(x) + 0.5 * np.random.normal(size=array_length) * noise_level", "compilation_passed": true, "time": 0.07861590385437012, "tests_passed": true, "error": null}
+{"code": " np.sin(x) + np.random.normal(size=array_length)*noise_level", "compilation_passed": true, "time": 0.0777740478515625, "tests_passed": true, "error": null}
+{"code": " np.sin(x)", "compilation_passed": true, "time": 0.17984795570373535, "tests_passed": true, "error": null}
+{"code": " np.sin(x) + noise_level * np.random.normal(size=array_length)", "compilation_passed": true, "time": 0.08812499046325684, "tests_passed": true, "error": null}
+{"code": " np.sin(x) + np.random.normal(0, noise_level, len(x))", "compilation_passed": true, "time": 0.0859827995300293, "tests_passed": true, "error": null}
+{"code": " np.sin(x) + np.random.normal(0.0, noise_level, array_length)", "compilation_passed": true, "time": 0.0841062068939209, "tests_passed": true, "error": null}
+{"code": " np.sin(x) + noise_level*np.random.normal(size=array_length)", "compilation_passed": true, "time": 0.0862429141998291, "tests_passed": true, "error": null}
+{"code": " 2*np.pi * np.sin(x)", "compilation_passed": true, "time": 0.20080327987670898, "tests_passed": true, "error": null}
+{"code": " 10*np.sin(x) + noise_level*np.random.normal(0, 1, array_length)", "compilation_passed": true, "time": 0.08760619163513184, "tests_passed": true, "error": null}
+{"code": " np.sin(x) + noise_level*np.random.normal(scale=1, size=array_length)", "compilation_passed": true, "time": 0.0877830982208252, "tests_passed": true, "error": null}

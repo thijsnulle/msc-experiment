@@ -1,0 +1,20 @@
+{"code": " sns.boxplot(x=\"Fruit\", y=\"Sales\", hue=\"Day\", data=result_df)", "compilation_passed": true, "time": 0.7376151084899902, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(y='Sales', x='Fruit', data=result_df)", "compilation_passed": true, "time": 0.33110976219177246, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x='Fruit', y='Sales', hue='Day', data=result_df)", "compilation_passed": true, "time": 0.8916552066802979, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x=\"Fruit\", y=\"Sales\", data=result_df)", "compilation_passed": true, "time": 0.4827561378479004, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x='Day', y='Sales', data=result_df)", "compilation_passed": true, "time": 0.48427295684814453, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(y=\"Fruit\", x=\"Day\", data=result_df)", "compilation_passed": true, "time": 0.024755239486694336, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.boxplot(x=\"Fruit\", y=\"Sales\", hue=\"Day\", data=result_df, orient=\"h\")", "compilation_passed": true, "time": 1.95517897605896, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.boxplot(x='Fruit', y='Sales', data=result_df)", "compilation_passed": true, "time": 0.5725100040435791, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(data=sales_data, x='Day', y='Sales')", "compilation_passed": true, "time": 0.5727260112762451, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x='Sales', y='Fruit', data=result_df, facet_col='Day')", "compilation_passed": true, "time": 0.03407883644104004, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.boxplot(x='Day', y='Sales', hue='Fruit', data=result_df)", "compilation_passed": true, "time": 1.0152380466461182, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.boxplot(y='Sales', x='Day', data=result_df)", "compilation_passed": true, "time": 0.7508449554443359, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x='Fruit', y='Sales', hue='Day', data=result_df, order=['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry'])", "compilation_passed": true, "time": 1.0123541355133057, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.boxplot(x='Sales', y='Fruit', data=result_df)", "compilation_passed": true, "time": 0.9129040241241455, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x='Fruit', y='Sales', hue='Day', data=result_df, showfliers=False)", "compilation_passed": true, "time": 1.0146911144256592, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.boxplot(data=result_df, x='Fruit', y='Sales', hue='Day', palette='rainbow')", "compilation_passed": true, "time": 1.0119202136993408, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.boxplot(x=\"Fruit\", y=\"Sales\", hue=\"Day\", data=result_df, palette='Blues',", "compilation_passed": false, "time": 0.0004329681396484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.boxplot(x='Fruit', y='Sales', data=result_df, showfliers=False)", "compilation_passed": true, "time": 1.0141611099243164, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.boxplot(y=\"Fruit\", x=\"Sales\", data=result_df, showfliers=False, orient='h', color='blue', showfliers=False)", "compilation_passed": false, "time": 0.0023648738861083984, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.boxplot(data=result_df, x=\"Fruit\", y=\"Sales\")", "compilation_passed": true, "time": 1.0136029720306396, "tests_passed": false, "error": "TimeoutError"}

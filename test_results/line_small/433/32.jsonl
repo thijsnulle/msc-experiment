@@ -1,0 +1,7 @@
+{"code": " base64.b64decode(s)", "compilation_passed": true, "time": 0.011691093444824219, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.b64decode(s.encode())", "compilation_passed": true, "time": 0.010566234588623047, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.b64decode(s.encode('ascii'))", "compilation_passed": true, "time": 0.010316133499145508, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.b64decode(s.encode('utf-8'))", "compilation_passed": true, "time": 0.01222681999206543, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.b64decode(s).decode()", "compilation_passed": true, "time": 0.001255035400390625, "tests_passed": true, "error": null}
+{"code": " base64.b64decode(s.encode('utf-8')).decode('utf-8')", "compilation_passed": true, "time": 0.0013408660888671875, "tests_passed": true, "error": null}
+{"code": " base64.b64decode(s.encode()).decode()", "compilation_passed": true, "time": 0.001336812973022461, "tests_passed": true, "error": null}

@@ -1,0 +1,11 @@
+{"code": " [matched_words[i] if i < len(matched_words) else word for i, word in enumerate(words)]", "compilation_passed": false, "time": 0.0002372264862060547, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word for word in words if word not in matched_words]", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "IndentationError"}
+{"code": " \" \".join(matched_words)", "compilation_passed": false, "time": 0.00020623207092285156, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word for word in words if not re.search(pattern, word)]", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "IndentationError"}
+{"code": " [matched_words.pop() if word.isalpha() else word for word in words]", "compilation_passed": false, "time": 0.00021600723266601562, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word for word in words if not re.search(pattern, word) or word == '']", "compilation_passed": false, "time": 0.00022220611572265625, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word for word in words if word not in matched_words][::-1]", "compilation_passed": false, "time": 0.00022125244140625, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word if re.search(pattern, word) else word for word in words]", "compilation_passed": false, "time": 0.0002167224884033203, "tests_passed": false, "error": "IndentationError"}
+{"code": " words[:len(words)-len(matched_words)] + matched_words", "compilation_passed": false, "time": 0.0001990795135498047, "tests_passed": false, "error": "IndentationError"}
+{"code": " [matched_words[0]] + [word for word in words if word not in matched_words]", "compilation_passed": false, "time": 0.0002162456512451172, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word for word in words if word not in matched_words] + matched_words", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "IndentationError"}

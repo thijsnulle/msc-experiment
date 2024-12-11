@@ -1,0 +1,13 @@
+{"code": " scaler.fit_transform(l.reshape(-1, 1))", "compilation_passed": true, "time": 0.00451207160949707, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(np.array(l).reshape(1,-1)).flatten()", "compilation_passed": true, "time": 0.0052852630615234375, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(l[:, None])", "compilation_passed": true, "time": 0.004403114318847656, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(l.reshape(-1, 1)).reshape(l.shape)", "compilation_passed": true, "time": 0.004457950592041016, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(l.reshape(1,-1))", "compilation_passed": true, "time": 0.007938146591186523, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(l.reshape(-1,1))", "compilation_passed": true, "time": 0.004477024078369141, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(l)", "compilation_passed": true, "time": 0.01970696449279785, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " scaler.fit_transform(l.reshape(-1, 1)).reshape(-1)", "compilation_passed": true, "time": 0.004505157470703125, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(np.array(l).reshape(-1, 1))", "compilation_passed": true, "time": 0.004830121994018555, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(l.reshape(1, -1))", "compilation_passed": true, "time": 0.007966995239257812, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(l.reshape((-1, 1)))", "compilation_passed": true, "time": 0.004501819610595703, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(l.reshape(1,-1)).reshape(-1)", "compilation_passed": true, "time": 0.005176067352294922, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(l[:, np.newaxis])", "compilation_passed": true, "time": 0.004343986511230469, "tests_passed": true, "error": null}

@@ -1,0 +1,5 @@
+{"code": " random.choice(['Team A', 'Team B', 'Team C', 'Team D', 'Team E'])", "compilation_passed": true, "time": 0.00638890266418457, "tests_passed": true, "error": null}
+{"code": " random.choice([row['team1'], row['team2']])", "compilation_passed": true, "time": 0.006562709808349609, "tests_passed": true, "error": null}
+{"code": " random.choice(['team1', 'team2'])", "compilation_passed": true, "time": 0.00594782829284668, "tests_passed": true, "error": null}
+{"code": " np.random.choice(['Team A', 'Team B', 'Team C', 'Team D', 'Team E'])", "compilation_passed": true, "time": 0.00992727279663086, "tests_passed": false, "error": "NameError"}
+{"code": " np.random.choice([row['team1'], row['team2']])", "compilation_passed": true, "time": 0.010539054870605469, "tests_passed": false, "error": "NameError"}

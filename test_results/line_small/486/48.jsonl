@@ -1,0 +1,19 @@
+{"code": "set_xlabel(\"Time\")", "compilation_passed": true, "time": 0.12176394462585449, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([datetime.fromtimestamp(s / 1000).strftime(\"%Y-%m-%d %H:%M:%S\")", "compilation_passed": false, "time": 0.0003879070281982422, "tests_passed": false, "error": "SyntaxError"}
+{"code": "xaxis.set_major_formatter(", "compilation_passed": false, "time": 0.00032210350036621094, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_xticklabels(ax.get_xticklabels(), rotation=40, ha=\"right\")", "compilation_passed": true, "time": 0.13635683059692383, "tests_passed": true, "error": null}
+{"code": "set(xlabel=\"Time (milliseconds)\", ylabel=\"Value (samples)\")", "compilation_passed": true, "time": 0.1150968074798584, "tests_passed": true, "error": null}
+{"code": "set_title(\"Time Series\")", "compilation_passed": true, "time": 0.11388015747070312, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(", "compilation_passed": false, "time": 0.0003571510314941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_xticklabels(df.index, rotation=45)", "compilation_passed": true, "time": 0.11954212188720703, "tests_passed": false, "error": "ValueError"}
+{"code": "set_title(f\"Time Series Plot with a Step of {step}ms and Trend {trend:.3f}\")", "compilation_passed": true, "time": 0.12024402618408203, "tests_passed": true, "error": null}
+{"code": "set(", "compilation_passed": false, "time": 0.0003437995910644531, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_title('Time series plot')", "compilation_passed": true, "time": 0.11523199081420898, "tests_passed": true, "error": null}
+{"code": "set_ylabel(\"Value\")", "compilation_passed": true, "time": 0.8734471797943115, "tests_passed": true, "error": null}
+{"code": "xaxis.set_major_formatter(plt.NullFormatter())", "compilation_passed": true, "time": 0.1130669116973877, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(df.index.map(datetime.fromtimestamp))", "compilation_passed": true, "time": 0.1196601390838623, "tests_passed": false, "error": "ValueError"}
+{"code": "xaxis.set_major_locator(mticker.FixedLocator(timestamps))", "compilation_passed": true, "time": 0.11819171905517578, "tests_passed": false, "error": "NameError"}
+{"code": "set(title=\"Time Series\", xlabel=\"Time\", ylabel=\"Value\")", "compilation_passed": true, "time": 0.8738818168640137, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Random time series with a step of {step}ms\")", "compilation_passed": true, "time": 0.1215980052947998, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(timestamps.astype(\"datetime64[ms]\").astype(str).astype(datetime.datetime))", "compilation_passed": true, "time": 0.14249801635742188, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_xlabel('Time')", "compilation_passed": true, "time": 0.11975789070129395, "tests_passed": true, "error": null}

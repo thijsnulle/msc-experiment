@@ -1,0 +1,5 @@
+{"code": " PUNCTUATIONS.sub(' ', text)", "compilation_passed": true, "time": 0.009027957916259766, "tests_passed": false, "error": "AttributeError"}
+{"code": " PUNCTUATIONS.sub(' ', text).strip()", "compilation_passed": true, "time": 0.00902104377746582, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub('[%s]+' % PUNCTUATIONS, ' ', text)", "compilation_passed": true, "time": 0.0014538764953613281, "tests_passed": true, "error": null}
+{"code": " PUNCTUATIONS.sub('', text)", "compilation_passed": true, "time": 0.008998870849609375, "tests_passed": false, "error": "AttributeError"}
+{"code": " text.translate(str.maketrans(\"\", \"\", PUNCTUATIONS))", "compilation_passed": true, "time": 0.0016021728515625, "tests_passed": true, "error": null}

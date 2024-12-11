@@ -1,0 +1,12 @@
+{"code": " df.drop('c', axis=1, errors='ignore')", "compilation_passed": true, "time": 0.011997222900390625, "tests_passed": true, "error": null}
+{"code": " df.drop(['c'], axis=1, errors='ignore')", "compilation_passed": true, "time": 0.011368989944458008, "tests_passed": true, "error": null}
+{"code": " df.drop('c', axis=1, errors=\"ignore\")", "compilation_passed": true, "time": 0.01145792007446289, "tests_passed": true, "error": null}
+{"code": " df.drop(\"c\", axis=1, errors='ignore')", "compilation_passed": true, "time": 0.01138615608215332, "tests_passed": true, "error": null}
+{"code": " df.drop(columns='c', errors='ignore')", "compilation_passed": true, "time": 0.011640071868896484, "tests_passed": true, "error": null}
+{"code": " df.drop(columns='c', errors='ignore', axis=1)", "compilation_passed": true, "time": 0.01289510726928711, "tests_passed": true, "error": null}
+{"code": " df.drop('c', axis=1)", "compilation_passed": true, "time": 0.013019084930419922, "tests_passed": false, "error": "KeyError"}
+{"code": " df.drop(columns=['c'], errors='ignore')", "compilation_passed": true, "time": 0.011442899703979492, "tests_passed": true, "error": null}
+{"code": " df.drop('c', axis=1) if 'c' in df.columns else df", "compilation_passed": true, "time": 0.010924100875854492, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=[\"c\"])", "compilation_passed": true, "time": 0.013089179992675781, "tests_passed": false, "error": "KeyError"}
+{"code": " df.drop(columns=\"c\", errors=\"ignore\")", "compilation_passed": true, "time": 0.011327981948852539, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=['c'])", "compilation_passed": true, "time": 0.013031959533691406, "tests_passed": false, "error": "KeyError"}

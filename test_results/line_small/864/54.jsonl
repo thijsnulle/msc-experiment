@@ -1,0 +1,21 @@
+{"code": " pd.DataFrame({\"Total Count\": total_counts.values(), \"Average Count\": avg_counts.values()})", "compilation_passed": false, "time": 0.00027489662170410156, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Total Count': total_counts, 'Average Count': avg_counts})", "compilation_passed": false, "time": 0.00035190582275390625, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(", "compilation_passed": true, "time": 0.009192943572998047, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Total Count': [total_counts[fruit] for fruit in fruits],", "compilation_passed": false, "time": 0.0002701282501220703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(data={'Total Count': total_counts, 'Average Count': avg_counts}, index=fruits)", "compilation_passed": false, "time": 0.00026488304138183594, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Total Count': total_counts.values(), 'Average Count': avg_counts.values()},", "compilation_passed": true, "time": 0.01034092903137207, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Total Count': total_counts, 'Average Count': avg_counts}, index=unique_values)", "compilation_passed": false, "time": 0.00026917457580566406, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(index=fruits)", "compilation_passed": false, "time": 0.0002589225769042969, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(index=fruits,", "compilation_passed": false, "time": 0.0018610954284667969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=['Total Count', 'Average Count'])", "compilation_passed": false, "time": 0.0002598762512207031, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(index=unique_values, columns=['Total Count', 'Average Count'])", "compilation_passed": false, "time": 0.0002541542053222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Total Count': total_counts, 'Average Count': avg_counts}, index=fruits)", "compilation_passed": false, "time": 0.00023293495178222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Total Count': total_counts.values(),", "compilation_passed": false, "time": 0.0002918243408203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(index=unique_values)", "compilation_passed": false, "time": 0.00021791458129882812, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(total_counts, index=fruits)", "compilation_passed": false, "time": 0.0002789497375488281, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(total_counts.items(), columns=['Total Count', 'Average Count'])", "compilation_passed": false, "time": 0.00021982192993164062, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Total Count': list(total_counts.values()),", "compilation_passed": false, "time": 0.0003070831298828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(index=unique_values,", "compilation_passed": false, "time": 0.0021021366119384766, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame([total_counts, avg_counts], index=[\"Total Count\", \"Average Count\"],", "compilation_passed": false, "time": 0.0017299652099609375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(total_counts, index=fruits).T", "compilation_passed": false, "time": 0.00021505355834960938, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(columns=['Total Count', 'Average Count'], index=unique_values)", "compilation_passed": false, "time": 0.00022482872009277344, "tests_passed": false, "error": "IndentationError"}

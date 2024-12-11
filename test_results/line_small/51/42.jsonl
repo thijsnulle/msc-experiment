@@ -1,0 +1,4 @@
+{"code": " KMeans(n_clusters=3)", "compilation_passed": true, "time": 0.12120223045349121, "tests_passed": true, "error": null}
+{"code": " KMeans(n_clusters=3, random_state=42)", "compilation_passed": true, "time": 0.12497925758361816, "tests_passed": true, "error": null}
+{"code": " KMeans(n_clusters=3, random_state=0)", "compilation_passed": true, "time": 0.13805437088012695, "tests_passed": true, "error": null}
+{"code": " KMeans(n_clusters=3, random_state=0).fit(selected_df[[\"Age\", \"Height\"]])", "compilation_passed": true, "time": 0.04759621620178223, "tests_passed": false, "error": "AttributeError"}

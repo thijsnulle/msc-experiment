@@ -1,0 +1,19 @@
+{"code": " pd.Series(np.zeros(7), index=DAYS_OF_WEEK)", "compilation_passed": true, "time": 0.008752822875976562, "tests_passed": true, "error": null}
+{"code": " pd.Series(data=np.zeros(7), index=DAYS_OF_WEEK)", "compilation_passed": true, "time": 0.0038480758666992188, "tests_passed": true, "error": null}
+{"code": " np.zeros(len(DAYS_OF_WEEK))", "compilation_passed": true, "time": 0.0037899017333984375, "tests_passed": true, "error": null}
+{"code": " pd.Series([weekdays.count(day_index) for day_index in range(7)], index=DAYS_OF_WEEK)", "compilation_passed": true, "time": 0.0044078826904296875, "tests_passed": true, "error": null}
+{"code": " np.zeros(7)", "compilation_passed": true, "time": 0.003960132598876953, "tests_passed": true, "error": null}
+{"code": " [0] * 7", "compilation_passed": true, "time": 0.004313945770263672, "tests_passed": true, "error": null}
+{"code": " np.zeros(7, dtype=np.int32)", "compilation_passed": true, "time": 0.004011869430541992, "tests_passed": true, "error": null}
+{"code": " pd.Series(0, index=range(7))", "compilation_passed": true, "time": 0.0051190853118896484, "tests_passed": true, "error": null}
+{"code": " pd.Series(weekdays).value_counts()", "compilation_passed": true, "time": 0.004371166229248047, "tests_passed": true, "error": null}
+{"code": " np.bincount(weekdays)", "compilation_passed": true, "time": 0.00651097297668457, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Series(", "compilation_passed": false, "time": 0.00018286705017089844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.Series([weekdays.count(day) for day in range(7)], index=DAYS_OF_WEEK)", "compilation_passed": true, "time": 0.004907846450805664, "tests_passed": true, "error": null}
+{"code": " pd.Series(0, index=DAYS_OF_WEEK)", "compilation_passed": true, "time": 0.0046808719635009766, "tests_passed": true, "error": null}
+{"code": " np.zeros(7, dtype=int)", "compilation_passed": true, "time": 0.0042819976806640625, "tests_passed": true, "error": null}
+{"code": " pd.Series(data=np.bincount(weekdays, minlength=7), index=DAYS_OF_WEEK)", "compilation_passed": true, "time": 0.004412174224853516, "tests_passed": true, "error": null}
+{"code": " np.zeros(7, dtype=np.int64)", "compilation_passed": true, "time": 0.004409074783325195, "tests_passed": true, "error": null}
+{"code": " pd.Series(dtype=int)", "compilation_passed": true, "time": 0.004317045211791992, "tests_passed": true, "error": null}
+{"code": " pd.Series([0] * 7, index=DAYS_OF_WEEK)", "compilation_passed": true, "time": 0.004411935806274414, "tests_passed": true, "error": null}
+{"code": " pd.Series(DAYS_OF_WEEK).set_index('Monday').fillna(0).loc[weekdays]", "compilation_passed": true, "time": 0.005508899688720703, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,6 @@
+{"code": " df.copy()", "compilation_passed": true, "time": 0.007467985153198242, "tests_passed": true, "error": null}
+{"code": " df.replace(dct)", "compilation_passed": true, "time": 0.01046299934387207, "tests_passed": true, "error": null}
+{"code": " df.applymap(dct.get)", "compilation_passed": true, "time": 0.007397890090942383, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: x.map(dct), axis=1)", "compilation_passed": true, "time": 0.012743949890136719, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: dct[x])", "compilation_passed": true, "time": 0.007114887237548828, "tests_passed": true, "error": null}
+{"code": " df.applymap(dct)", "compilation_passed": true, "time": 0.0105133056640625, "tests_passed": false, "error": "TypeError"}

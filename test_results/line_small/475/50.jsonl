@@ -1,0 +1,8 @@
+{"code": " type(data) is not pd.DataFrame or type(date_format) is not str or type(country) is not str:", "compilation_passed": true, "time": 0.028345108032226562, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, pd.DataFrame):", "compilation_passed": true, "time": 0.033702850341796875, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(data, pd.DataFrame):", "compilation_passed": true, "time": 0.007341861724853516, "tests_passed": false, "error": "ValueError"}
+{"code": " type(country) not in [str, ]:", "compilation_passed": true, "time": 0.02772998809814453, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(data, pd.DataFrame) and isinstance(data['dates'], pd.Series):", "compilation_passed": true, "time": 0.008286237716674805, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(data, pd.DataFrame) or not isinstance(date_format, str) or country not in country_codes:", "compilation_passed": true, "time": 0.02916884422302246, "tests_passed": true, "error": null}
+{"code": " type(data) is not pd.DataFrame:", "compilation_passed": true, "time": 0.03442215919494629, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(data, pd.DataFrame) or 'dates' not in data.columns or not isinstance(date_format, str) or country not in country_codes:", "compilation_passed": true, "time": 0.029366731643676758, "tests_passed": true, "error": null}

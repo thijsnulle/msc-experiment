@@ -1,0 +1,9 @@
+{"code": "scatter(x, y)", "compilation_passed": true, "time": 0.0330350399017334, "tests_passed": true, "error": null}
+{"code": "scatter(x, y, s=30)", "compilation_passed": true, "time": 0.0369873046875, "tests_passed": true, "error": null}
+{"code": "scatter(x, y, label='Data')", "compilation_passed": true, "time": 0.03270721435546875, "tests_passed": true, "error": null}
+{"code": "scatter(x, y, color='r')", "compilation_passed": true, "time": 0.03314614295959473, "tests_passed": true, "error": null}
+{"code": "plot(x, y, 'o')", "compilation_passed": true, "time": 0.10794401168823242, "tests_passed": true, "error": null}
+{"code": "plot(x, y, \"ro\")", "compilation_passed": true, "time": 1.0024032592773438, "tests_passed": false, "error": ""}
+{"code": "plot(x, y, 'ro')", "compilation_passed": true, "time": 0.0032622814178466797, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_parser_CAPI' (most likely due to a circular import)"}
+{"code": "plot(x, y, 'o', color=\"blue\", label='Data')", "compilation_passed": true, "time": 0.0032110214233398438, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_parser_CAPI' (most likely due to a circular import)"}
+{"code": "scatter(x, y, s=10, c='red')", "compilation_passed": true, "time": 0.0035581588745117188, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_parser_CAPI' (most likely due to a circular import)"}

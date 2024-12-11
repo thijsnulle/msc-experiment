@@ -1,0 +1,7 @@
+{"code": " salt + password", "compilation_passed": true, "time": 0.01000666618347168, "tests_passed": false, "error": "TypeError"}
+{"code": " salt.encode('utf-8') + password.encode('utf-8')", "compilation_passed": true, "time": 0.0011749267578125, "tests_passed": true, "error": null}
+{"code": " salt.join(password)", "compilation_passed": true, "time": 0.009782075881958008, "tests_passed": false, "error": "TypeError"}
+{"code": " password + salt", "compilation_passed": true, "time": 0.008813858032226562, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(salt + password).hexdigest()", "compilation_passed": true, "time": 0.008978843688964844, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(salt.encode('utf-8') + password.encode('utf-8')).digest()", "compilation_passed": true, "time": 0.001283884048461914, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(salt.encode('utf-8') + password.encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.009093999862670898, "tests_passed": false, "error": "TypeError"}

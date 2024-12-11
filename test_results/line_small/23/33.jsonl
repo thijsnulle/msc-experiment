@@ -1,0 +1,10 @@
+{"code": " [abs(val - THRESHOLD) for val in combined]", "compilation_passed": true, "time": 0.0015017986297607422, "tests_passed": true, "error": null}
+{"code": " np.abs(combined - THRESHOLD)", "compilation_passed": true, "time": 0.008529186248779297, "tests_passed": false, "error": "TypeError"}
+{"code": " [abs(val-THRESHOLD) for val in combined]", "compilation_passed": true, "time": 0.0013768672943115234, "tests_passed": true, "error": null}
+{"code": " [abs(num - THRESHOLD) for num in combined]", "compilation_passed": true, "time": 0.001499176025390625, "tests_passed": true, "error": null}
+{"code": " [abs(x - THRESHOLD) for x in combined]", "compilation_passed": true, "time": 0.0013546943664550781, "tests_passed": true, "error": null}
+{"code": " np.array([np.abs(np.subtract(a, THRESHOLD)) if a is not None else None for a in combined])", "compilation_passed": true, "time": 0.0015118122100830078, "tests_passed": true, "error": null}
+{"code": " [(np.abs(x - THRESHOLD), i) for i, x in enumerate(combined)]", "compilation_passed": true, "time": 0.0048830509185791016, "tests_passed": true, "error": null}
+{"code": " [(abs(val - THRESHOLD), val) for val in combined]", "compilation_passed": true, "time": 0.00488591194152832, "tests_passed": true, "error": null}
+{"code": " [abs(x-THRESHOLD) for x in combined if isinstance(x,(int,float,complex))]", "compilation_passed": true, "time": 0.0018150806427001953, "tests_passed": true, "error": null}
+{"code": " [(abs(x - THRESHOLD), i) for i, x in enumerate(combined)]", "compilation_passed": true, "time": 0.0051801204681396484, "tests_passed": true, "error": null}

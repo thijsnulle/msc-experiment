@@ -1,0 +1,25 @@
+{"code": " text.lower()", "compilation_passed": true, "time": 0.00735783576965332, "tests_passed": true, "error": null}
+{"code": " \"\".join(", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\".join(random.choice((c.upper(), c.lower())) if random.randint(0, 99) < 50 else c", "compilation_passed": false, "time": 0.0003619194030761719, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\".join(random.choice((c.lower(), c.upper())) for c in text)", "compilation_passed": true, "time": 0.002835988998413086, "tests_passed": true, "error": null}
+{"code": " text.strip()", "compilation_passed": true, "time": 0.006375789642333984, "tests_passed": true, "error": null}
+{"code": " text.replace(\"__\", \"__\")", "compilation_passed": true, "time": 0.0059850215911865234, "tests_passed": true, "error": null}
+{"code": " [random.choice([\"\", k]) for k in text]", "compilation_passed": true, "time": 0.00633692741394043, "tests_passed": true, "error": null}
+{"code": " \"\".join(char.upper() if random.choice((0, 1)) else char for char in text)", "compilation_passed": true, "time": 0.002911806106567383, "tests_passed": true, "error": null}
+{"code": " [char.upper() if random.randint(0, 1) else char.lower() for char in text]", "compilation_passed": true, "time": 0.005849123001098633, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00021910667419433594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\".join([c.upper() if random.random() < .5 else c for c in text])", "compilation_passed": true, "time": 0.0026030540466308594, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.sample([i.upper() if random.random() < 0.5 else i.lower() for i in text], len(text)))", "compilation_passed": true, "time": 0.00656890869140625, "tests_passed": true, "error": null}
+{"code": " \"\".join([(random.choice([c.upper(), c.lower()]) if random.randint(0, 9) % 2 else c) for c in text])", "compilation_passed": true, "time": 0.0033416748046875, "tests_passed": true, "error": null}
+{"code": " \"\".join(c if random.choice((True, False)) else c.upper() for c in text)", "compilation_passed": true, "time": 0.00279998779296875, "tests_passed": true, "error": null}
+{"code": " \"\".join([x.upper() if random.random() < 0.5 else x for x in text])", "compilation_passed": true, "time": 0.0024471282958984375, "tests_passed": true, "error": null}
+{"code": " [c.upper() if random.random() < 0.5 else c for c in list(text)]", "compilation_passed": true, "time": 0.0060460567474365234, "tests_passed": true, "error": null}
+{"code": " text.upper()", "compilation_passed": true, "time": 0.006148099899291992, "tests_passed": true, "error": null}
+{"code": " \"\".join([char if random.random() < 0.5 else char.upper() for char in text])", "compilation_passed": true, "time": 0.0033452510833740234, "tests_passed": true, "error": null}
+{"code": " \"\".join(\"\" if c.upper() == c else c for c in text if random.random() > 0.5)", "compilation_passed": true, "time": 0.007884979248046875, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choice([c.upper(), c]) if random.random() < 0.5 else c for c in text)", "compilation_passed": true, "time": 0.0027971267700195312, "tests_passed": true, "error": null}
+{"code": " \"\".join(c.upper() if random.randint(0, 100) > 50 else c for c in text)", "compilation_passed": true, "time": 0.002816915512084961, "tests_passed": true, "error": null}
+{"code": " \"\".join([c.upper() if random.choice([True, False]) else c for c in text])", "compilation_passed": true, "time": 0.0025599002838134766, "tests_passed": true, "error": null}
+{"code": " \"\".join([(c.upper() if random.random() > .5 else c) for c in text])", "compilation_passed": true, "time": 0.0026781558990478516, "tests_passed": true, "error": null}
+{"code": " \"\".join([random.choice([c.upper(), c.lower()]) if random.random() < 0.5 else c", "compilation_passed": false, "time": 0.00023508071899414062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\".join(char if random.random() > 0.5 else char.upper() for char in text)", "compilation_passed": true, "time": 0.002742767333984375, "tests_passed": true, "error": null}

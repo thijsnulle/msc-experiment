@@ -1,0 +1,20 @@
+{"code": " isinstance(from_user_values[0], (int, float)):", "compilation_passed": true, "time": 0.009533882141113281, "tests_passed": false, "error": "ValueError"}
+{"code": " np.isnan(from_user_values).any():", "compilation_passed": true, "time": 0.0050067901611328125, "tests_passed": true, "error": null}
+{"code": " isinstance(from_user_values[0], str):", "compilation_passed": true, "time": 0.0045928955078125, "tests_passed": true, "error": null}
+{"code": " all(isinstance(d, (int, float)) for d in from_user_values):", "compilation_passed": true, "time": 0.009091854095458984, "tests_passed": false, "error": "ValueError"}
+{"code": " np.all([np.isnan(from_user_values[0])]) or np.all([np.isnan(from_user_values[-1])]):", "compilation_passed": true, "time": 0.004220008850097656, "tests_passed": true, "error": null}
+{"code": " isinstance(from_user_values[0], int):", "compilation_passed": true, "time": 0.004708051681518555, "tests_passed": true, "error": null}
+{"code": " len(from_user_values) == 1:", "compilation_passed": true, "time": 0.008717060089111328, "tests_passed": false, "error": "ValueError"}
+{"code": " np.issubdtype(from_user_values.dtype, np.integer) and np.issubdtype(from_user_values.dtype, np.floating):", "compilation_passed": true, "time": 0.004452943801879883, "tests_passed": true, "error": null}
+{"code": " np.issubdtype(from_user_values.dtype, np.number):", "compilation_passed": true, "time": 0.007606029510498047, "tests_passed": false, "error": "ValueError"}
+{"code": " not np.issubdtype(from_user_values.dtype, np.number):", "compilation_passed": true, "time": 0.0044057369232177734, "tests_passed": true, "error": null}
+{"code": " from_user_values.dtype == object:  # Check if all elements are string", "compilation_passed": true, "time": 0.004907131195068359, "tests_passed": true, "error": null}
+{"code": " from_user_values.dtype.kind == 'f':", "compilation_passed": true, "time": 0.009908914566040039, "tests_passed": false, "error": "ValueError"}
+{"code": " np.issubdtype(from_user_values.dtype, np.integer):", "compilation_passed": true, "time": 0.008758068084716797, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(from_user_values[0], float) and np.isnan(from_user_values[0]):", "compilation_passed": true, "time": 0.004436969757080078, "tests_passed": true, "error": null}
+{"code": " all(isinstance(val, (int, float)) for val in from_user_values):", "compilation_passed": true, "time": 0.00920414924621582, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(from_user_values, np.ndarray):", "compilation_passed": true, "time": 0.004786014556884766, "tests_passed": true, "error": null}
+{"code": " np.isreal(from_user_values).all():", "compilation_passed": true, "time": 0.00801706314086914, "tests_passed": false, "error": "ValueError"}
+{"code": " all(np.issubdtype(type(x), int) or np.issubdtype(type(x), float) for x in from_user_values):", "compilation_passed": true, "time": 0.007776021957397461, "tests_passed": false, "error": "ValueError"}
+{"code": " type(from_user_values[0]) == int:", "compilation_passed": true, "time": 0.004081010818481445, "tests_passed": true, "error": null}
+{"code": " np.all(np.isreal(from_user_values)):", "compilation_passed": true, "time": 0.007621288299560547, "tests_passed": false, "error": "ValueError"}

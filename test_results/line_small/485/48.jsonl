@@ -1,0 +1,11 @@
+{"code": " pytz.utc", "compilation_passed": true, "time": 0.1539440155029297, "tests_passed": true, "error": null}
+{"code": " pytz.timezone(\"UTC\")", "compilation_passed": true, "time": 0.1584010124206543, "tests_passed": true, "error": null}
+{"code": " start_date.replace(tzinfo=pytz.UTC)", "compilation_passed": true, "time": 0.011547088623046875, "tests_passed": false, "error": "AttributeError"}
+{"code": " pytz.UTC", "compilation_passed": true, "time": 0.16747617721557617, "tests_passed": true, "error": null}
+{"code": " datetime.now(pytz.timezone(\"UTC\"))", "compilation_passed": true, "time": 0.01087808609008789, "tests_passed": false, "error": "AttributeError"}
+{"code": " None", "compilation_passed": true, "time": 0.010622978210449219, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.now(pytz.utc).replace(tzinfo=None)", "compilation_passed": true, "time": 0.010804176330566406, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.now(pytz.UTC).replace(tzinfo=None)  # Current time in UTC", "compilation_passed": true, "time": 0.01203608512878418, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.utcnow().astimezone(pytz.timezone(\"UTC\"))", "compilation_passed": true, "time": 0.010706901550292969, "tests_passed": false, "error": "AttributeError"}
+{"code": " pytz.timezone(TIMEZONES[0])", "compilation_passed": true, "time": 0.17061924934387207, "tests_passed": true, "error": null}
+{"code": " datetime.utcnow().replace(tzinfo=pytz.utc).astimezone()", "compilation_passed": true, "time": 0.012708902359008789, "tests_passed": false, "error": "AttributeError"}

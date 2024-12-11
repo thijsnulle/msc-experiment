@@ -1,0 +1,13 @@
+{"code": " extracted_text.encode(to_encoding)", "compilation_passed": true, "time": 0.018573760986328125, "tests_passed": true, "error": null}
+{"code": " codecs.decode(extracted_text, from_encoding, 'replace').encode(to_encoding).decode('utf8', 'replace')", "compilation_passed": true, "time": 0.009922027587890625, "tests_passed": true, "error": null}
+{"code": " extracted_text.encode(to_encoding).decode(to_encoding)", "compilation_passed": true, "time": 0.013672113418579102, "tests_passed": true, "error": null}
+{"code": " extracted_text.decode(to_encoding)", "compilation_passed": true, "time": 0.009701251983642578, "tests_passed": true, "error": null}
+{"code": " extracted_text.decode(from_encoding).encode(to_encoding)", "compilation_passed": true, "time": 0.008665084838867188, "tests_passed": true, "error": null}
+{"code": " codecs.decode(extracted_text, from_encoding)", "compilation_passed": true, "time": 0.011071920394897461, "tests_passed": true, "error": null}
+{"code": " extracted_text.decode(from_encoding)", "compilation_passed": true, "time": 0.009269952774047852, "tests_passed": true, "error": null}
+{"code": " extracted_text.encode(from_encoding).decode(to_encoding)", "compilation_passed": true, "time": 0.009325265884399414, "tests_passed": true, "error": null}
+{"code": " extracted_text.decode(to_encoding, errors=\"ignore\")", "compilation_passed": true, "time": 0.009594917297363281, "tests_passed": true, "error": null}
+{"code": " extracted_text.encode(from_encoding, \"ignore\").decode(to_encoding)", "compilation_passed": true, "time": 0.007899284362792969, "tests_passed": true, "error": null}
+{"code": " codecs.decode(extracted_text.encode(from_encoding), to_encoding)", "compilation_passed": true, "time": 0.008172035217285156, "tests_passed": true, "error": null}
+{"code": " codecs.getdecoder(to_encoding)(extracted_text)[0]", "compilation_passed": true, "time": 0.009851932525634766, "tests_passed": true, "error": null}
+{"code": " extracted_text.encode(to_encoding).decode(from_encoding)", "compilation_passed": true, "time": 0.00935506820678711, "tests_passed": true, "error": null}

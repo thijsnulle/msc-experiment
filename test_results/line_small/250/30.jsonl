@@ -1,0 +1,18 @@
+{"code": " [sum(values) / len(values) for values in zip(*unzipped_data[1:])]", "compilation_passed": true, "time": 0.007334232330322266, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.008166790008544922, "tests_passed": true, "error": null}
+{"code": " {f\"Position {i}\": np.nanmean(vals) for i, vals in enumerate(unzipped_data, start=1)}", "compilation_passed": true, "time": 0.025242328643798828, "tests_passed": false, "error": "TypeError"}
+{"code": " {f'Position {i+1}': np.nanmean(list(map(lambda x: x[1], unzipped_data[i]))) for i in range(len(unzipped_data[0]))}", "compilation_passed": true, "time": 0.018848657608032227, "tests_passed": false, "error": "IndexError"}
+{"code": " dict()", "compilation_passed": true, "time": 0.0065610408782958984, "tests_passed": true, "error": null}
+{"code": " {f'Position {i}': np.nanmean(x) for i, x in enumerate(unzipped_data)}", "compilation_passed": true, "time": 0.013757944107055664, "tests_passed": false, "error": "TypeError"}
+{"code": " {f\"Position {i + 1}\": np.nanmean(data_list[i + 1]) for i in range(len(unzipped_data) - 1)}", "compilation_passed": true, "time": 0.022430896759033203, "tests_passed": false, "error": "TypeError"}
+{"code": " [np.nanmean(values) for values in unzipped_data]", "compilation_passed": true, "time": 0.01811695098876953, "tests_passed": false, "error": "TypeError"}
+{"code": " {f\"Position {i}\": np.mean(values) for i, values in enumerate(unzipped_data, 1)}", "compilation_passed": true, "time": 0.013720035552978516, "tests_passed": false, "error": "TypeError"}
+{"code": " {f\"Position {i + 1}\": np.mean(data) for i, data in enumerate(unzipped_data)}", "compilation_passed": true, "time": 0.014441967010498047, "tests_passed": false, "error": "TypeError"}
+{"code": " {", "compilation_passed": false, "time": 0.00014209747314453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.006834268569946289, "tests_passed": true, "error": null}
+{"code": " np.array([np.nanmean(i) for i in unzipped_data])", "compilation_passed": true, "time": 0.014419794082641602, "tests_passed": false, "error": "TypeError"}
+{"code": " np.mean(unzipped_data, axis=1)", "compilation_passed": true, "time": 0.011130809783935547, "tests_passed": false, "error": "TypeError"}
+{"code": " [(position, np.nanmean(values)) for position, values in enumerate(unzipped_data, start=1)]", "compilation_passed": true, "time": 0.013798236846923828, "tests_passed": false, "error": "TypeError"}
+{"code": " {f'Position {i+1}': np.mean(list(map(float, list(zip(*unzipped_data))[i+1])))", "compilation_passed": false, "time": 0.0001571178436279297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [np.nanmean(row) for row in unzipped_data]", "compilation_passed": true, "time": 0.016192913055419922, "tests_passed": false, "error": "TypeError"}
+{"code": " {f\"Position {i}\": np.nanmean(unzipped_data[i][1:]) for i in range(len(unzipped_data))}", "compilation_passed": true, "time": 0.014467000961303711, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,6 @@
+{"code": " {}", "compilation_passed": true, "time": 0.0070209503173828125, "tests_passed": false, "error": "KeyError"}
+{"code": " collections.defaultdict(list)", "compilation_passed": true, "time": 0.00177001953125, "tests_passed": true, "error": null}
+{"code": " dict()", "compilation_passed": true, "time": 0.004579067230224609, "tests_passed": false, "error": "KeyError"}
+{"code": " dict((v, list(k for k, v in animal_dict.items() if v == key)) for key, value in animal_dict.items())", "compilation_passed": true, "time": 0.006234169006347656, "tests_passed": false, "error": "NameError"}
+{"code": " {value: key for key, value in animal_dict.items()}", "compilation_passed": true, "time": 0.00462794303894043, "tests_passed": false, "error": "AttributeError"}
+{"code": " {value: [key] for key, value in animal_dict.items()}", "compilation_passed": true, "time": 0.0035037994384765625, "tests_passed": true, "error": null}

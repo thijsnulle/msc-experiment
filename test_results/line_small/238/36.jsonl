@@ -1,0 +1,11 @@
+{"code": " df.copy()", "compilation_passed": true, "time": 0.4183340072631836, "tests_passed": true, "error": null}
+{"code": " df.copy()  # to avoid changing the original data", "compilation_passed": true, "time": 0.3918910026550293, "tests_passed": true, "error": null}
+{"code": " StandardScaler().fit_transform(df)", "compilation_passed": true, "time": 0.0373382568359375, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop_duplicates('Name')", "compilation_passed": true, "time": 0.39115023612976074, "tests_passed": true, "error": null}
+{"code": " df.copy()  # to avoid modifying the original dataframe", "compilation_passed": true, "time": 0.3648030757904053, "tests_passed": true, "error": null}
+{"code": " df.copy()  # Make a copy of the original data", "compilation_passed": true, "time": 0.3670830726623535, "tests_passed": true, "error": null}
+{"code": " StandardScaler().fit_transform(df.drop_duplicates())", "compilation_passed": true, "time": 0.017002105712890625, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop_duplicates(subset=['Name'])", "compilation_passed": true, "time": 0.3608996868133545, "tests_passed": true, "error": null}
+{"code": " StandardScaler().fit_transform(df[[\"Age\", \"Score\"]])", "compilation_passed": true, "time": 0.023092031478881836, "tests_passed": false, "error": "IndexError"}
+{"code": " df.copy()  # Create a copy of the DataFrame", "compilation_passed": true, "time": 0.3622448444366455, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(['Name'])", "compilation_passed": true, "time": 0.36202192306518555, "tests_passed": true, "error": null}

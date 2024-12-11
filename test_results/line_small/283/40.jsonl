@@ -1,0 +1,7 @@
+{"code": " key in data:", "compilation_passed": true, "time": 0.01883411407470703, "tests_passed": true, "error": null}
+{"code": " isinstance(data, dict):", "compilation_passed": true, "time": 0.012923002243041992, "tests_passed": false, "error": "KeyError"}
+{"code": " isinstance(data, list):", "compilation_passed": true, "time": 0.01083683967590332, "tests_passed": true, "error": null}
+{"code": " key in data.keys():", "compilation_passed": true, "time": 0.019655942916870117, "tests_passed": true, "error": null}
+{"code": " data.get(key) is not None:", "compilation_passed": true, "time": 0.019369125366210938, "tests_passed": true, "error": null}
+{"code": " key not in data:", "compilation_passed": true, "time": 0.013543844223022461, "tests_passed": false, "error": "KeyError"}
+{"code": " data:", "compilation_passed": true, "time": 0.012893915176391602, "tests_passed": false, "error": "KeyError"}

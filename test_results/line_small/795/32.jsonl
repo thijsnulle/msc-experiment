@@ -1,0 +1,22 @@
+{"code": " 0", "compilation_passed": true, "time": 0.0011489391326904297, "tests_passed": true, "error": null}
+{"code": " sum([int(x) for x in dq if x.isnumeric()])", "compilation_passed": true, "time": 0.01184391975402832, "tests_passed": false, "error": "AttributeError"}
+{"code": " sum(map(lambda x: math.isnumeric(x), dq))", "compilation_passed": true, "time": 0.011171102523803711, "tests_passed": false, "error": "AttributeError"}
+{"code": " sum(x if x.isnumeric() else 0 for x in dq)", "compilation_passed": true, "time": 0.01088094711303711, "tests_passed": false, "error": "AttributeError"}
+{"code": " sum([int(x) for x in dq if x.isdigit()])", "compilation_passed": true, "time": 0.01064920425415039, "tests_passed": false, "error": "AttributeError"}
+{"code": " sum([float(num) for num in dq if num.isdigit() or num.replace('.', '', 1).isdigit()])", "compilation_passed": true, "time": 0.011250972747802734, "tests_passed": false, "error": "AttributeError"}
+{"code": " sum(elem for elem in dq if elem.isnumeric())", "compilation_passed": true, "time": 0.011008977890014648, "tests_passed": false, "error": "AttributeError"}
+{"code": " sum([float(element) for element in dq if isinstance(element, (int, float))])", "compilation_passed": true, "time": 0.0014600753784179688, "tests_passed": true, "error": null}
+{"code": " sum(num for num in dq if isinstance(num, int))", "compilation_passed": true, "time": 0.0013949871063232422, "tests_passed": true, "error": null}
+{"code": " sum(", "compilation_passed": false, "time": 0.00013494491577148438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sum(map(lambda x: 0 if math.isnan(x) or math.isinf(x) else x, dq))", "compilation_passed": true, "time": 0.010514020919799805, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(element for element in dq if not math.isnan(element))", "compilation_passed": true, "time": 0.010802030563354492, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(float(n) for n in dq if dq.index(n) != 1)", "compilation_passed": true, "time": 0.011326074600219727, "tests_passed": false, "error": "ValueError"}
+{"code": " sum(num for num in dq if isinstance(num, (int, float)))", "compilation_passed": true, "time": 0.0014178752899169922, "tests_passed": true, "error": null}
+{"code": " sum(elem for elem in dq if isinstance(elem, int) or isinstance(elem, float))", "compilation_passed": true, "time": 0.0012371540069580078, "tests_passed": true, "error": null}
+{"code": " sum(num for num in l if isinstance(num, (int, float, complex)))", "compilation_passed": true, "time": 0.0013737678527832031, "tests_passed": true, "error": null}
+{"code": " sum([float(i) for i in dq if i.isnumeric()])", "compilation_passed": true, "time": 0.010739803314208984, "tests_passed": false, "error": "AttributeError"}
+{"code": " sum(float(x) for x in dq if x.isnumeric())", "compilation_passed": true, "time": 0.011235952377319336, "tests_passed": false, "error": "AttributeError"}
+{"code": " sum(x for x in dq if isinstance(x, (int, float)))", "compilation_passed": true, "time": 0.0014619827270507812, "tests_passed": true, "error": null}
+{"code": " sum(float(x) for x in dq if isinstance(x, float) or isinstance(x, int))", "compilation_passed": true, "time": 0.0012729167938232422, "tests_passed": true, "error": null}
+{"code": " sum([num for num in dq if isinstance(num, int) or isinstance(num, float)])", "compilation_passed": true, "time": 0.0014789104461669922, "tests_passed": true, "error": null}
+{"code": " sum([float(x) for x in dq if not isinstance(x, str)])", "compilation_passed": true, "time": 0.011070013046264648, "tests_passed": false, "error": "TypeError"}

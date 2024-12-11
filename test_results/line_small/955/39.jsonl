@@ -1,0 +1,24 @@
+{"code": " re.sub(word, '_'.join(word.split()).lower(), text, flags=re.I)", "compilation_passed": true, "time": 0.07254910469055176, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s\", \"_\", word, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.01735091209411621, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s+\", \"_\", word, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.017522811889648438, "tests_passed": true, "error": null}
+{"code": " text.replace(word, word.replace(\" \", \"_\"))", "compilation_passed": true, "time": 0.018194913864135742, "tests_passed": true, "error": null}
+{"code": " re.sub(rf\"\\b{word}\\b\", word.replace(\" \", \"_\"), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.1112818717956543, "tests_passed": true, "error": null}
+{"code": " text.replace(word.strip(), '_'.join(re.split('\\s+', word.strip())).strip())", "compilation_passed": true, "time": 0.017772197723388672, "tests_passed": true, "error": null}
+{"code": " re.sub(rf\"\\b{word.replace(' ', '_')}\\b\", f\"{word}\", text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.039289236068725586, "tests_passed": true, "error": null}
+{"code": " re.sub(word.upper(), word.replace(\" \", \"_\").upper(), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.016927003860473633, "tests_passed": true, "error": null}
+{"code": " text.replace(word, word.replace(' ', '_'))", "compilation_passed": true, "time": 0.018056869506835938, "tests_passed": true, "error": null}
+{"code": " text.replace(\" \" + word + \" \", \"_\" + word + \"_\")", "compilation_passed": true, "time": 0.018934965133666992, "tests_passed": true, "error": null}
+{"code": " text.replace(\" \".join(word.split(\"_\")), word.replace(\" \", \"_\"))", "compilation_passed": true, "time": 0.01628589630126953, "tests_passed": true, "error": null}
+{"code": " re.sub(word, word.replace(' ', '_'), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.11005806922912598, "tests_passed": true, "error": null}
+{"code": " re.sub(' '.join(word.split()), '_', text)", "compilation_passed": true, "time": 0.01633620262145996, "tests_passed": true, "error": null}
+{"code": " re.sub(fr' +{word}+ +', word.replace(' ', '_'), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.018457889556884766, "tests_passed": true, "error": null}
+{"code": " re.sub(rf\"\\b{word}\\b\", word.replace(' ', '_'), text)", "compilation_passed": true, "time": 0.0183408260345459, "tests_passed": true, "error": null}
+{"code": " re.sub(f' {word.replace(\" \", \"_\")} ', '_', text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.01632523536682129, "tests_passed": true, "error": null}
+{"code": " re.sub(r' '.join(re.escape(word).split()), \"_\", text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.01999211311340332, "tests_passed": true, "error": null}
+{"code": " text.replace(word, '_'.join(word.split()))", "compilation_passed": true, "time": 0.029431819915771484, "tests_passed": true, "error": null}
+{"code": " re.sub(r' ' + word.lower() + r'\\b', r'_', text)", "compilation_passed": true, "time": 0.026149988174438477, "tests_passed": true, "error": null}
+{"code": " text.replace(\" \".join(re.findall(word, text, flags=re.IGNORECASE)), word.replace(\" \", \"_\"))", "compilation_passed": true, "time": 0.03090834617614746, "tests_passed": true, "error": null}
+{"code": " re.sub(' '.join(word.split()).upper(), '_'.join(word.split()), text)", "compilation_passed": true, "time": 0.01993393898010254, "tests_passed": true, "error": null}
+{"code": " re.sub(word, word.replace(\" \", \"_\"), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.1227409839630127, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s+\", r\"_\", word, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.018440961837768555, "tests_passed": true, "error": null}
+{"code": " re.sub(word, '_'.join(word.split()), text)", "compilation_passed": true, "time": 0.01967167854309082, "tests_passed": true, "error": null}

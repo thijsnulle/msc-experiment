@@ -1,0 +1,27 @@
+{"code": " df[['value', 'date']]", "compilation_passed": true, "time": 1.0340311527252197, "tests_passed": false, "error": "ValueError"}
+{"code": " df.select_dtypes(include='number')", "compilation_passed": true, "time": 1.011451005935669, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('group')['value'].mean().reset_index()", "compilation_passed": true, "time": 0.020566940307617188, "tests_passed": false, "error": "ValueError"}
+{"code": " df.rename(columns={\"value\": \"Value\"}).groupby(\"group\")[\"Value\"].apply(lambda x: x.iloc[-1]).reset_index(name=\"Value\")", "compilation_passed": true, "time": 0.01808905601501465, "tests_passed": false, "error": "ValueError"}
+{"code": " df.rename(columns={'date': 'timestamp'})", "compilation_passed": true, "time": 0.021806955337524414, "tests_passed": false, "error": "ValueError"}
+{"code": " df.pivot_table(index='group', columns='date', values='value', aggfunc='mean').reset_index()", "compilation_passed": true, "time": 0.02724623680114746, "tests_passed": false, "error": "ValueError"}
+{"code": " df.rename(columns={'value': 'value_numeric'}).copy()", "compilation_passed": true, "time": 0.015320777893066406, "tests_passed": false, "error": "ValueError"}
+{"code": " df[['value']].copy()", "compilation_passed": true, "time": 1.010418176651001, "tests_passed": false, "error": "ValueError"}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.015989065170288086, "tests_passed": false, "error": "ValueError"}
+{"code": " df[['date', 'value']].copy()", "compilation_passed": true, "time": 1.0101380348205566, "tests_passed": false, "error": "ValueError"}
+{"code": " df.loc[:, ['value', 'date']].copy()", "compilation_passed": true, "time": 1.017470121383667, "tests_passed": false, "error": "ValueError"}
+{"code": " df.select_dtypes(include=['int', 'float'])", "compilation_passed": true, "time": 1.0094609260559082, "tests_passed": false, "error": "ValueError"}
+{"code": " df[['date', 'value']]", "compilation_passed": true, "time": 1.0121028423309326, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop('date', axis=1)", "compilation_passed": true, "time": 0.014198064804077148, "tests_passed": false, "error": "ValueError"}
+{"code": " df.select_dtypes(include=[np.number])", "compilation_passed": true, "time": 1.0104498863220215, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('group').agg(", "compilation_passed": false, "time": 0.0004673004150390625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby('group')['value'].agg(['mean', 'median', 'count', 'min', 'max', 'std', 'skew'])", "compilation_passed": true, "time": 1.0100250244140625, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('group')['value'].transform('mean')", "compilation_passed": true, "time": 0.016547203063964844, "tests_passed": false, "error": "ValueError"}
+{"code": " df[['group', 'date', 'value']]", "compilation_passed": true, "time": 0.034399986267089844, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('group').transform(lambda x: x.mean())", "compilation_passed": true, "time": 1.0111680030822754, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop(columns=['group', 'date'])", "compilation_passed": true, "time": 1.0125339031219482, "tests_passed": false, "error": "ValueError"}
+{"code": " df[['value']]", "compilation_passed": true, "time": 1.0194790363311768, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop(columns=['date'])", "compilation_passed": true, "time": 0.023611068725585938, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(['group']).transform('mean').drop(columns=['date'])", "compilation_passed": true, "time": 1.4336788654327393, "tests_passed": false, "error": "ValueError"}
+{"code": " df.select_dtypes(include=np.number)", "compilation_passed": true, "time": 1.0116081237792969, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop(columns='date')", "compilation_passed": true, "time": 0.022192716598510742, "tests_passed": false, "error": "ValueError"}
+{"code": " df.pivot_table(index='group', columns='date', values='value', aggfunc='mean', fill_value=0).dropna()", "compilation_passed": true, "time": 1.0228569507598877, "tests_passed": false, "error": "ValueError"}

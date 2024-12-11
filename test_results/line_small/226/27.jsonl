@@ -1,0 +1,5 @@
+{"code": " np.arange(range_start, range_end, step)", "compilation_passed": true, "time": 0.9048631191253662, "tests_passed": true, "error": null}
+{"code": " np.arange(range_start, range_end + step, step)", "compilation_passed": true, "time": 0.3645181655883789, "tests_passed": true, "error": null}
+{"code": " np.arange(range_start, range_end + 1, step)", "compilation_passed": true, "time": 0.3891489505767822, "tests_passed": true, "error": null}
+{"code": " np.linspace(range_start, range_end, int((range_end-range_start)/step))", "compilation_passed": true, "time": 0.35723280906677246, "tests_passed": true, "error": null}
+{"code": " [value for value in np.arange(range_start, range_end, step)]", "compilation_passed": true, "time": 0.905858039855957, "tests_passed": true, "error": null}

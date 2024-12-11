@@ -1,0 +1,5 @@
+{"code": "write(os.path.join(source_dir, file))", "compilation_passed": true, "time": 0.010246038436889648, "tests_passed": true, "error": null}
+{"code": "write(os.path.join(source_dir, file), arcname=file)", "compilation_passed": true, "time": 0.017210960388183594, "tests_passed": true, "error": null}
+{"code": "write(os.path.join(source_dir, file), file)", "compilation_passed": true, "time": 0.01684093475341797, "tests_passed": true, "error": null}
+{"code": "write(os.path.join(source_dir, file), compress_type=zipfile.ZIP_DEFLATED)", "compilation_passed": true, "time": 0.010860204696655273, "tests_passed": true, "error": null}
+{"code": "write(os.path.join(source_dir, file), os.path.basename(file))", "compilation_passed": true, "time": 0.017220735549926758, "tests_passed": true, "error": null}

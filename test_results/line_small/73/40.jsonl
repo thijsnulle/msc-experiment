@@ -1,0 +1,28 @@
+{"code": " df.plot(kind=\"bar\", rot=0, figsize=(14, 4))", "compilation_passed": true, "time": 0.16414904594421387, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='email', y='sum', rot=0, fontsize=12)", "compilation_passed": true, "time": 0.06985282897949219, "tests_passed": true, "error": null}
+{"code": " df[['sum', 'mean', 'var']].plot.bar(figsize=(14, 3))", "compilation_passed": true, "time": 0.16554021835327148, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"bar\", x='email', figsize=(16, 9),", "compilation_passed": false, "time": 0.00029397010803222656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot.bar(x='email', y=['sum', 'mean', 'var'])", "compilation_passed": true, "time": 0.165938138961792, "tests_passed": true, "error": null}
+{"code": " df[['sum', 'mean', 'var']].plot(kind='bar', figsize=(10, 5))", "compilation_passed": true, "time": 0.17284798622131348, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"bar\", rot=0, title=\"List Sum, Mean, Variance\")", "compilation_passed": true, "time": 0.16179108619689941, "tests_passed": true, "error": null}
+{"code": " df[['sum', 'mean', 'var']].plot.bar(rot=0)", "compilation_passed": true, "time": 0.9103491306304932, "tests_passed": true, "error": null}
+{"code": " df[\"list\"].plot.bar()", "compilation_passed": true, "time": 0.03177785873413086, "tests_passed": false, "error": "TypeError"}
+{"code": " df.plot.bar(x='email')", "compilation_passed": true, "time": 0.16836881637573242, "tests_passed": true, "error": null}
+{"code": " df[['sum', 'mean', 'var']].plot(kind='bar', rot=45)", "compilation_passed": true, "time": 0.16060614585876465, "tests_passed": true, "error": null}
+{"code": " df['sum'].plot.bar()", "compilation_passed": true, "time": 0.04472684860229492, "tests_passed": true, "error": null}
+{"code": " df[['sum', 'mean', 'var']].plot(kind='bar')", "compilation_passed": true, "time": 0.1699380874633789, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='bar', title='Sum, mean, and var for emails')", "compilation_passed": true, "time": 0.17107105255126953, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='bar', figsize=(16,8))", "compilation_passed": true, "time": 0.17656612396240234, "tests_passed": true, "error": null}
+{"code": " plt.bar(df.index, df['sum'], label='sum')", "compilation_passed": true, "time": 0.020793676376342773, "tests_passed": true, "error": null}
+{"code": " df.plot.bar()", "compilation_passed": true, "time": 0.16629719734191895, "tests_passed": true, "error": null}
+{"code": " df['list'].plot.bar(figsize=(10, 5))", "compilation_passed": true, "time": 0.020762205123901367, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.bar([\"Sum\", \"Mean\", \"Var\"], df[['sum', 'mean', 'var']])", "compilation_passed": true, "time": 0.027472972869873047, "tests_passed": false, "error": "TypeError"}
+{"code": " df[\"list\"].plot(kind='bar', title='List Sum, Mean, and Variance', rot=90, figsize=(16, 9), fontsize=14)", "compilation_passed": true, "time": 0.022259950637817383, "tests_passed": false, "error": "TypeError"}
+{"code": " df.plot(kind='bar')", "compilation_passed": true, "time": 0.16911888122558594, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x=\"email\", y=[\"sum\", \"mean\", \"var\"])", "compilation_passed": true, "time": 0.17509031295776367, "tests_passed": true, "error": null}
+{"code": " df.boxplot(column=['sum', 'mean', 'var'], vert=False, figsize=(20, 10))", "compilation_passed": true, "time": 0.031144142150878906, "tests_passed": true, "error": null}
+{"code": " df.plot(x='email', y=['sum', 'mean', 'var'], kind='barh')", "compilation_passed": true, "time": 0.1740880012512207, "tests_passed": true, "error": null}
+{"code": " df[['sum', 'mean', 'var']].plot.bar()", "compilation_passed": true, "time": 0.1755518913269043, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(['sum', 'mean', 'var'])", "compilation_passed": true, "time": 0.022252798080444336, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.subplots(figsize=(14,8))", "compilation_passed": true, "time": 0.04853701591491699, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[\"list\"].plot(kind=\"bar\", color=\"g\")", "compilation_passed": true, "time": 0.025104045867919922, "tests_passed": false, "error": "TypeError"}

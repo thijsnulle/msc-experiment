@@ -1,0 +1,6 @@
+{"code": " mode_value, mode_count", "compilation_passed": true, "time": 0.0039920806884765625, "tests_passed": true, "error": null}
+{"code": " (mode_value, mode_count)", "compilation_passed": true, "time": 0.003935813903808594, "tests_passed": true, "error": null}
+{"code": " np.array(mode_value), mode_count", "compilation_passed": true, "time": 0.005591154098510742, "tests_passed": true, "error": null}
+{"code": " np.array([mode_value, mode_count])", "compilation_passed": true, "time": 0.009088993072509766, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([mode_value]), np.array([mode_count])", "compilation_passed": true, "time": 0.0032927989959716797, "tests_passed": true, "error": null}
+{"code": " (np.array([mode_value]), int(mode_count))", "compilation_passed": true, "time": 0.0030901432037353516, "tests_passed": true, "error": null}

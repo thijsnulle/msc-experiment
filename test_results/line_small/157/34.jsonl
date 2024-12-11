@@ -1,0 +1,8 @@
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.2407538890838623, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=['feature_%d' % i for i in range(data.shape[1])])", "compilation_passed": true, "time": 0.2535078525543213, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=range(len(data[0])))", "compilation_passed": true, "time": 0.23775100708007812, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=list(\"ABCDEFGHIJ\")).apply(np.nanmean, axis=1)", "compilation_passed": true, "time": 0.00991201400756836, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, columns=list(map(chr, range(65, 73))))", "compilation_passed": true, "time": 0.2662961483001709, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data).apply(np.mean, axis=1)", "compilation_passed": true, "time": 0.007688999176025391, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(data, columns=list(map(str, range(data.shape[1]))))", "compilation_passed": true, "time": 0.24145102500915527, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data).copy()", "compilation_passed": true, "time": 0.2429828643798828, "tests_passed": true, "error": null}

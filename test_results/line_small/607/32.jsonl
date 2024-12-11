@@ -1,0 +1,26 @@
+{"code": " df.drop([n for n in df.columns if len(set(n.split(' '))) < len(COLUMNS)])", "compilation_passed": true, "time": 0.01164698600769043, "tests_passed": false, "error": "KeyError"}
+{"code": " df.rename(columns={c: c for c in COLUMNS})", "compilation_passed": true, "time": 0.2747800350189209, "tests_passed": true, "error": null}
+{"code": " df[[COLUMNS[i] for i, _ in enumerate(tuples[0])]]", "compilation_passed": true, "time": 0.012505054473876953, "tests_passed": false, "error": "IndexError"}
+{"code": " df.loc[df.columns.isin(list(zip(*tuples))[0])]", "compilation_passed": true, "time": 0.012272119522094727, "tests_passed": false, "error": "IndexError"}
+{"code": " df.rename(columns={COLUMNS[0]: 'A', COLUMNS[1]: 'B', COLUMNS[2]: 'C', COLUMNS[3]: 'D', COLUMNS[4]: 'E'})", "compilation_passed": true, "time": 0.27133727073669434, "tests_passed": true, "error": null}
+{"code": " df.loc[df.columns.isin(tuple(tuples[0]))]", "compilation_passed": true, "time": 0.011674880981445312, "tests_passed": false, "error": "IndexError"}
+{"code": " df.rename(columns={COLUMNS[i]: COLUMNS[i] for i in range(len(COLUMNS))}, errors='ignore')", "compilation_passed": true, "time": 0.2772641181945801, "tests_passed": true, "error": null}
+{"code": " df[[col for col in COLUMNS if any(col in tuple_) for tuple_ in tuples]]", "compilation_passed": true, "time": 0.015655040740966797, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " df.replace({key: 0 for key in df.columns})", "compilation_passed": true, "time": 0.26427483558654785, "tests_passed": true, "error": null}
+{"code": " df.loc[:, COLUMNS]", "compilation_passed": true, "time": 0.2651050090789795, "tests_passed": true, "error": null}
+{"code": " df.loc[:, df.columns.isin(set(tuples[0]))]", "compilation_passed": true, "time": 0.011748790740966797, "tests_passed": false, "error": "IndexError"}
+{"code": " df.iloc[tuples[0][0], :]", "compilation_passed": true, "time": 0.010969877243041992, "tests_passed": false, "error": "IndexError"}
+{"code": " df.drop(tuples)", "compilation_passed": true, "time": 0.09259510040283203, "tests_passed": false, "error": "KeyError"}
+{"code": " df.loc[tuple(df.columns.isin(COLUMNS))]", "compilation_passed": true, "time": 0.517545223236084, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " df.loc[df[COLUMNS[0]].isin(df[COLUMNS[1]])]", "compilation_passed": true, "time": 0.09420108795166016, "tests_passed": true, "error": null}
+{"code": " df.loc[:, list(df.columns.intersection(*tuples))]", "compilation_passed": true, "time": 0.011252880096435547, "tests_passed": false, "error": "TypeError"}
+{"code": " df[[column for column in COLUMNS if tuple(column)]]", "compilation_passed": true, "time": 0.27101898193359375, "tests_passed": true, "error": null}
+{"code": " df[[COLUMNS[i] for i in range(len(COLUMNS))]]", "compilation_passed": true, "time": 0.27211594581604004, "tests_passed": true, "error": null}
+{"code": " df[COLUMNS]", "compilation_passed": true, "time": 0.27176380157470703, "tests_passed": true, "error": null}
+{"code": " df.loc[df.columns.isin(COLUMNS)]", "compilation_passed": true, "time": 0.015228033065795898, "tests_passed": false, "error": "IndexError"}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.27085208892822266, "tests_passed": true, "error": null}
+{"code": " df.loc[df[COLUMNS[0]].isin([t[0] for t in tuples]), COLUMNS[1:]]", "compilation_passed": true, "time": 0.06449484825134277, "tests_passed": false, "error": "KeyError"}
+{"code": " df.rename(columns={COLUMNS[i]: str(COLUMNS[i]) for i in range(len(COLUMNS))})", "compilation_passed": true, "time": 0.2706601619720459, "tests_passed": true, "error": null}
+{"code": " df.iloc[tuple(map(lambda x: list(df.columns).index(x), tuples[0]))]", "compilation_passed": true, "time": 0.01123189926147461, "tests_passed": false, "error": "IndexError"}
+{"code": " df.loc[df.iloc[:, 0].isin(tuples[0]), df.iloc[:, 1:].columns]", "compilation_passed": true, "time": 0.011474847793579102, "tests_passed": false, "error": "IndexError"}
+{"code": " df.loc[:, [col for col in COLUMNS if col in df]]", "compilation_passed": true, "time": 0.2760498523712158, "tests_passed": true, "error": null}

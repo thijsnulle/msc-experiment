@@ -1,0 +1,19 @@
+{"code": " df.set_index('date')", "compilation_passed": true, "time": 0.2990720272064209, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'group': df['group'], 'date': df['date'], 'value': df['value']})", "compilation_passed": true, "time": 0.016122102737426758, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(df.groupby('group')[['date', 'value']].resample('W').first().fillna(0))", "compilation_passed": true, "time": 0.013831853866577148, "tests_passed": false, "error": "TypeError"}
+{"code": " df.rename(columns={'value': 'y'})", "compilation_passed": true, "time": 0.011755943298339844, "tests_passed": false, "error": "TypeError"}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.013196229934692383, "tests_passed": false, "error": "TypeError"}
+{"code": " df.reset_index()", "compilation_passed": true, "time": 0.012954235076904297, "tests_passed": false, "error": "TypeError"}
+{"code": " df.reset_index().set_index('date')", "compilation_passed": true, "time": 0.283660888671875, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={'date': 'time'})", "compilation_passed": true, "time": 0.011355161666870117, "tests_passed": false, "error": "TypeError"}
+{"code": " df.rename(columns={'value': 'value'})", "compilation_passed": true, "time": 0.01111912727355957, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby(\"group\").resample(freq).agg(pd.Series.mean)", "compilation_passed": true, "time": 0.011075019836425781, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby('group')['value'].resample(freq).agg(['mean', 'sum', 'min', 'max'])", "compilation_passed": true, "time": 0.010820865631103516, "tests_passed": false, "error": "TypeError"}
+{"code": " df.sort_values(by='date', ascending=True)", "compilation_passed": true, "time": 0.010048151016235352, "tests_passed": false, "error": "TypeError"}
+{"code": " df.assign(date=pd.to_datetime(df['date'], format='%Y-%m-%d'))", "compilation_passed": true, "time": 0.011918067932128906, "tests_passed": false, "error": "TypeError"}
+{"code": " df[['value']].set_index(['group', 'date'])", "compilation_passed": true, "time": 0.01888108253479004, "tests_passed": false, "error": "KeyError"}
+{"code": " df.set_index('date').groupby('group')", "compilation_passed": true, "time": 0.01954793930053711, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00033092498779296875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[[\"group\", \"date\", \"value\"]]", "compilation_passed": true, "time": 0.0113677978515625, "tests_passed": false, "error": "TypeError"}
+{"code": " df.copy()  # To avoid modifying the original DataFrame", "compilation_passed": true, "time": 0.011679887771606445, "tests_passed": false, "error": "TypeError"}
+{"code": " df.set_index(\"date\")", "compilation_passed": true, "time": 0.4107060432434082, "tests_passed": true, "error": null}

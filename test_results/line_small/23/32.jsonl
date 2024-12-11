@@ -1,0 +1,19 @@
+{"code": " [x for x in list(zip_longest(l1,l2)) if x[0] is not None]", "compilation_passed": true, "time": 0.011146068572998047, "tests_passed": true, "error": null}
+{"code": " list(zip_longest(l1, l2))", "compilation_passed": true, "time": 0.009234189987182617, "tests_passed": true, "error": null}
+{"code": " list(zip_longest(l1,l2,fillvalue=None))", "compilation_passed": true, "time": 0.008183002471923828, "tests_passed": true, "error": null}
+{"code": " [val for val in zip_longest(l1, l2) if val[0] and val[1]]", "compilation_passed": true, "time": 0.008583784103393555, "tests_passed": true, "error": null}
+{"code": " np.array(list(zip_longest(l1,l2)))", "compilation_passed": true, "time": 0.009331941604614258, "tests_passed": false, "error": "ValueError"}
+{"code": " list(zip_longest(l1, l2, fillvalue = None))", "compilation_passed": true, "time": 0.006301403045654297, "tests_passed": true, "error": null}
+{"code": " list(zip_longest(l1, l2, fillvalue=0))", "compilation_passed": true, "time": 0.008554935455322266, "tests_passed": true, "error": null}
+{"code": " zip_longest(l1, l2, fillvalue=THRESHOLD)", "compilation_passed": true, "time": 0.008759021759033203, "tests_passed": false, "error": "TypeError"}
+{"code": " list(zip_longest(l1,l2, fillvalue=None))", "compilation_passed": true, "time": 0.005017995834350586, "tests_passed": true, "error": null}
+{"code": " zip_longest(l1, l2)", "compilation_passed": true, "time": 0.009654998779296875, "tests_passed": false, "error": "TypeError"}
+{"code": " zip_longest(l1, l2, fillvalue=None)", "compilation_passed": true, "time": 0.008394002914428711, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(list(zip_longest(l1, l2, fillvalue=None)))", "compilation_passed": true, "time": 0.005048036575317383, "tests_passed": false, "error": "ValueError"}
+{"code": " zip_longest(l1, l2, fillvalue=0)", "compilation_passed": true, "time": 0.008229970932006836, "tests_passed": false, "error": "TypeError"}
+{"code": " [*zip_longest(l1, l2)]", "compilation_passed": true, "time": 0.005276918411254883, "tests_passed": true, "error": null}
+{"code": " zip_longest(l1, l2) # combine two lists together, padding with None if one list is shorter than the other", "compilation_passed": true, "time": 0.008550167083740234, "tests_passed": false, "error": "TypeError"}
+{"code": " [", "compilation_passed": false, "time": 0.00012421607971191406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.008219242095947266, "tests_passed": false, "error": "ValueError"}
+{"code": " list(zip_longest(l1,l2, fillvalue=np.nan))", "compilation_passed": true, "time": 0.0052490234375, "tests_passed": true, "error": null}
+{"code": " [x for x in zip_longest(l1, l2)]", "compilation_passed": true, "time": 0.0055429935455322266, "tests_passed": true, "error": null}

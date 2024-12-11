@@ -1,0 +1,19 @@
+{"code": " not ('subject' in email_data and", "compilation_passed": false, "time": 0.00029277801513671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " 'subject' not in email_data or 'message' not in email_data or 'to' not in email_data:", "compilation_passed": true, "time": 0.017657041549682617, "tests_passed": true, "error": null}
+{"code": " 'to' not in email_data or 'subject' not in email_data or 'message' not in email_data:", "compilation_passed": true, "time": 0.018323898315429688, "tests_passed": true, "error": null}
+{"code": " not isinstance(email_data, dict):", "compilation_passed": true, "time": 0.014308929443359375, "tests_passed": false, "error": "KeyError"}
+{"code": " not set(['subject', 'message', 'to']).issubset(set(email_data.keys())):", "compilation_passed": true, "time": 0.016984939575195312, "tests_passed": true, "error": null}
+{"code": " \"subject\" not in email_data:", "compilation_passed": true, "time": 0.017997026443481445, "tests_passed": false, "error": "KeyError"}
+{"code": " not all([key in email_data for key in ['subject', 'message', 'to']]):", "compilation_passed": true, "time": 0.016847848892211914, "tests_passed": true, "error": null}
+{"code": " not set(('subject', 'message', 'to')).issubset(set(email_data.keys())):", "compilation_passed": true, "time": 0.01746082305908203, "tests_passed": true, "error": null}
+{"code": " not all(key in email_data for key in ['subject', 'message', 'to']):", "compilation_passed": true, "time": 0.01627635955810547, "tests_passed": true, "error": null}
+{"code": " \"subject\" in email_data and \"message\" in email_data and \"to\" in email_data:", "compilation_passed": true, "time": 0.009923934936523438, "tests_passed": true, "error": null}
+{"code": " ('to' not in email_data) or ('subject' not in email_data) or ('message' in email_data):", "compilation_passed": true, "time": 0.009525060653686523, "tests_passed": true, "error": null}
+{"code": " 'to' not in email_data or 'message' not in email_data or 'subject' not in email_data:", "compilation_passed": true, "time": 0.01618504524230957, "tests_passed": true, "error": null}
+{"code": " not ('subject' in email_data and 'message' in email_data and 'to' in email_data):", "compilation_passed": true, "time": 0.01871776580810547, "tests_passed": true, "error": null}
+{"code": " not all(key in email_data for key in ('subject', 'message', 'to')):", "compilation_passed": true, "time": 0.016386032104492188, "tests_passed": true, "error": null}
+{"code": " (", "compilation_passed": false, "time": 0.0003108978271484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ('subject' not in email_data or 'message' not in email_data or 'to' not in email_data):", "compilation_passed": true, "time": 0.019306182861328125, "tests_passed": true, "error": null}
+{"code": " not (len(email_data) > 0 and 'subject' in email_data and 'message' in email_data and 'to' in email_data):", "compilation_passed": true, "time": 0.01602005958557129, "tests_passed": true, "error": null}
+{"code": " ('subject' not in email_data or", "compilation_passed": false, "time": 0.0003657341003417969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " 'subject' not in email_data:", "compilation_passed": true, "time": 0.019106626510620117, "tests_passed": false, "error": "KeyError"}

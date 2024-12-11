@@ -1,0 +1,26 @@
+{"code": " [datetime.now().strftime('%H:%M'), WEATHER_CONDITIONS[randint(0, 4)]]", "compilation_passed": true, "time": 0.02115917205810547, "tests_passed": true, "error": null}
+{"code": " ['{:02d}:00'.format(i), WEATHER_CONDITIONS[randint(0, 4)]]", "compilation_passed": true, "time": 0.020472049713134766, "tests_passed": true, "error": null}
+{"code": " [datetime.now().time().strftime(\"%H:%M\"), WEATHER_CONDITIONS[randint(0, 4)]]", "compilation_passed": true, "time": 0.020461082458496094, "tests_passed": true, "error": null}
+{"code": " [datetime.now(), WEATHER_CONDITIONS[randint(0, len(WEATHER_CONDITIONS) - 1)]]", "compilation_passed": true, "time": 0.016757965087890625, "tests_passed": true, "error": null}
+{"code": " [datetime.now().time(), WEATHER_CONDITIONS[randint(0, 4)]]", "compilation_passed": true, "time": 0.02001214027404785, "tests_passed": true, "error": null}
+{"code": " ['{}:00'.format(i + 6), WEATHER_CONDITIONS[randint(0, len(WEATHER_CONDITIONS) - 1)]]", "compilation_passed": true, "time": 0.021103858947753906, "tests_passed": true, "error": null}
+{"code": " [f\"{i} hour{randint(0, 23)}\",", "compilation_passed": false, "time": 0.0006039142608642578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ['10:{}'.format(i), WEATHER_CONDITIONS[randint(0, 4)]]", "compilation_passed": true, "time": 0.02097916603088379, "tests_passed": true, "error": null}
+{"code": " ['%d:00' % (i + 1), WEATHER_CONDITIONS[randint(0, 4)]]", "compilation_passed": true, "time": 0.020587921142578125, "tests_passed": true, "error": null}
+{"code": " [datetime.now(), randint(0, len(WEATHER_CONDITIONS) - 1)]", "compilation_passed": true, "time": 0.016396045684814453, "tests_passed": true, "error": null}
+{"code": " [datetime.now().replace(second=0, microsecond=0).strftime(\"%H:%M:%S\"),", "compilation_passed": false, "time": 0.0005831718444824219, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [str(datetime.now()), WEATHER_CONDITIONS[randint(0, len(WEATHER_CONDITIONS) - 1)]]", "compilation_passed": true, "time": 0.016937971115112305, "tests_passed": true, "error": null}
+{"code": " ['{}:{}'.format(datetime.now().strftime(\"%H:%M\"),", "compilation_passed": false, "time": 0.0005838871002197266, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ['{}:00'.format(randint(0, 23)), WEATHER_CONDITIONS[randint(0, 4)]]", "compilation_passed": true, "time": 0.02027606964111328, "tests_passed": true, "error": null}
+{"code": " [datetime.now().replace(minute=0, second=0, microsecond=0) + timedelta(hours=i).strftime('%d/%m/%y, %H:%M:%S'),", "compilation_passed": false, "time": 0.0003867149353027344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [str(datetime.now().time()),", "compilation_passed": false, "time": 0.00034308433532714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [datetime.now() + timedelta(hours=i), WEATHER_CONDITIONS[randint(0, 4)]]", "compilation_passed": true, "time": 0.015340089797973633, "tests_passed": false, "error": "NameError"}
+{"code": " [datetime.now().strftime('%H:%M'), WEATHER_CONDITIONS[randint(0, len(WEATHER_CONDITIONS)-1)]]", "compilation_passed": true, "time": 0.02086186408996582, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.02034735679626465, "tests_passed": true, "error": null}
+{"code": " [datetime.now().strftime(\"%H:%M:%S\"), WEATHER_CONDITIONS[randint(0, len(WEATHER_CONDITIONS) - 1)]]", "compilation_passed": true, "time": 0.021222829818725586, "tests_passed": true, "error": null}
+{"code": " [datetime.now().replace(hour=randint(0, 23), minute=randint(0, 59), second=randint(0, 59)).strftime('%H:%M'), randint(1, len(WEATHER_CONDITIONS))-1]", "compilation_passed": true, "time": 0.02085113525390625, "tests_passed": true, "error": null}
+{"code": " [str(datetime.now()), WEATHER_CONDITIONS[randint(0, 4)]]", "compilation_passed": true, "time": 0.020607948303222656, "tests_passed": true, "error": null}
+{"code": " [datetime.now(), WEATHER_CONDITIONS[randint(0, 4)]]", "compilation_passed": true, "time": 0.021033048629760742, "tests_passed": true, "error": null}
+{"code": " [datetime.now(), randint(0, 4)]", "compilation_passed": true, "time": 0.0210421085357666, "tests_passed": true, "error": null}
+{"code": " [datetime.now().strftime(\"%H:%M:%S\"), WEATHER_CONDITIONS[randint(0, 4)]]", "compilation_passed": true, "time": 0.02068018913269043, "tests_passed": true, "error": null}
+{"code": " ['{}:00'.format(12 + i), WEATHER_CONDITIONS[randint(0, 4)]]", "compilation_passed": true, "time": 0.02085709571838379, "tests_passed": true, "error": null}

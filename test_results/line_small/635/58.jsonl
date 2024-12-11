@@ -1,0 +1,14 @@
+{"code": " X.toarray()", "compilation_passed": true, "time": 0.00988912582397461, "tests_passed": false, "error": ""}
+{"code": " np.array(X.toarray())", "compilation_passed": true, "time": 0.013330936431884766, "tests_passed": false, "error": ""}
+{"code": " X.todense()", "compilation_passed": true, "time": 0.011440038681030273, "tests_passed": false, "error": ""}
+{"code": " X.toarray()  # Co-occurrence matrix", "compilation_passed": true, "time": 0.009788274765014648, "tests_passed": false, "error": ""}
+{"code": " np.array_split(X.todense().tolist(), X.shape[0])  # Splitting the matrix into individual rows", "compilation_passed": true, "time": 0.010701656341552734, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(X.todense(), columns=vectorizer.get_feature_names())", "compilation_passed": true, "time": 0.009958744049072266, "tests_passed": false, "error": ""}
+{"code": " X.toarray()  # Convert to numpy array", "compilation_passed": true, "time": 0.009466171264648438, "tests_passed": false, "error": ""}
+{"code": " X.todense().reshape(-1)", "compilation_passed": true, "time": 0.011379003524780273, "tests_passed": false, "error": ""}
+{"code": " X.toarray()[0]  # Convert count matrix to numpy array", "compilation_passed": true, "time": 0.00940084457397461, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names_out())", "compilation_passed": true, "time": 0.011133909225463867, "tests_passed": false, "error": ""}
+{"code": " X.toarray()[0]", "compilation_passed": true, "time": 0.00995492935180664, "tests_passed": false, "error": ""}
+{"code": " X.toarray()  # Convert sparse matrix to dense array", "compilation_passed": true, "time": 0.010800838470458984, "tests_passed": false, "error": ""}
+{"code": " np.array(X.toarray()).squeeze()", "compilation_passed": true, "time": 0.011369943618774414, "tests_passed": false, "error": ""}
+{"code": " X.toarray().T  # Convert to a 2D square matrix", "compilation_passed": true, "time": 0.009202003479003906, "tests_passed": false, "error": ""}

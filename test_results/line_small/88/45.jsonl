@@ -1,0 +1,23 @@
+{"code": " df.plot.line()", "compilation_passed": true, "time": 0.2913200855255127, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Date\", y=\"Sales\")", "compilation_passed": true, "time": 0.3085300922393799, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"line\", xlabel=\"Date\", ylabel=\"Sales\")", "compilation_passed": true, "time": 0.28977108001708984, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Date\", y=\"Sales\", kind=\"bar\", rot=0, grid=True, title=\"Sales by day\", figsize=(12, 5))", "compilation_passed": true, "time": 0.33965396881103516, "tests_passed": true, "error": null}
+{"code": " df[\"Sales\"].plot()", "compilation_passed": true, "time": 0.014314889907836914, "tests_passed": false, "error": "TypeError"}
+{"code": " df.plot.line(x=\"Date\", y=\"Sales\")", "compilation_passed": true, "time": 0.3224036693572998, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(rot=90)", "compilation_passed": true, "time": 0.3857860565185547, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Date\", y=\"Sales\", kind=\"line\", figsize=(20, 10))", "compilation_passed": true, "time": 0.31699514389038086, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Date', y='Sales')", "compilation_passed": true, "time": 0.31865501403808594, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Date', y='Sales', title=\"Sales Over Time\")", "compilation_passed": true, "time": 0.3134472370147705, "tests_passed": true, "error": null}
+{"code": " df.plot.hist(bins=5, rot=45)", "compilation_passed": true, "time": 0.3172130584716797, "tests_passed": true, "error": null}
+{"code": " df[\"Date\"].plot.hist()", "compilation_passed": true, "time": 0.08925795555114746, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(rot=0, color=\"red\", figsize=(12, 8))", "compilation_passed": true, "time": 0.40921807289123535, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"bar\", rot=0)", "compilation_passed": true, "time": 0.4042088985443115, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"bar\", rot=0, figsize=(15, 5))", "compilation_passed": true, "time": 0.40657711029052734, "tests_passed": true, "error": null}
+{"code": " df.plot.line(x=\"Date\", y=\"Sales\", figsize=(20, 5), title=\"Sales Over Time\")", "compilation_passed": true, "time": 0.32607197761535645, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='line', x='Date', y='Sales', title='Sales over time', figsize=(16, 8))", "compilation_passed": true, "time": 0.40796971321105957, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Date\", y=\"Sales\", kind=\"bar\")", "compilation_passed": true, "time": 0.37584900856018066, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(\"Date\", \"Sales\")", "compilation_passed": true, "time": 0.37084484100341797, "tests_passed": true, "error": null}
+{"code": " df.plot.bar()", "compilation_passed": true, "time": 0.4175138473510742, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Date\", y=\"Sales\", title=\"Sales over Time\",", "compilation_passed": false, "time": 0.00026488304138183594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot.bar(x=\"Date\", rot=0)", "compilation_passed": true, "time": 2.252384901046753, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Date\", y=\"Sales\", kind=\"bar\", rot=0)", "compilation_passed": true, "time": 0.3701171875, "tests_passed": true, "error": null}

@@ -1,0 +1,11 @@
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.0332949161529541, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or df.empty:", "compilation_passed": true, "time": 0.02498602867126465, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.core.generic.NDFrame) or df.empty:", "compilation_passed": true, "time": 0.0226590633392334, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or df.empty or col1 not in df.columns or col2 not in df.columns:", "compilation_passed": true, "time": 0.5011677742004395, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or len(df) == 0:", "compilation_passed": true, "time": 0.02300572395324707, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.core.frame.DataFrame) or df.empty or not col1 in df.columns:", "compilation_passed": true, "time": 0.023839950561523438, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 0.024068117141723633, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or df.empty or col1 not in df.columns:", "compilation_passed": true, "time": 0.023440837860107422, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or len(df) == 0 or col1 not in df.columns or col2 not in df.columns:", "compilation_passed": true, "time": 0.5086872577667236, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or df.empty or not (col1 in df.columns and col2 in df.columns):", "compilation_passed": true, "time": 0.504601001739502, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or not df.empty or col1 not in df or col2 not in df:", "compilation_passed": true, "time": 0.009903192520141602, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,20 @@
+{"code": " (any(char in PUNCTUATION for char in word))]", "compilation_passed": true, "time": 0.007530689239501953, "tests_passed": true, "error": null}
+{"code": " any(char in punctuation_set for char in word)]", "compilation_passed": true, "time": 0.00932002067565918, "tests_passed": true, "error": null}
+{"code": " set(word).issubset(punctuation_set)]", "compilation_passed": true, "time": 0.0047512054443359375, "tests_passed": true, "error": null}
+{"code": " set(word) <= punctuation_set]", "compilation_passed": true, "time": 0.004402875900268555, "tests_passed": true, "error": null}
+{"code": " any(letter in PUNCTUATION for letter in word)]", "compilation_passed": true, "time": 0.010033845901489258, "tests_passed": true, "error": null}
+{"code": " set(word).issubset(PUNCTUATION)]", "compilation_passed": true, "time": 0.004583835601806641, "tests_passed": true, "error": null}
+{"code": " all(char in PUNCTUATION for char in word)]", "compilation_passed": true, "time": 0.004716157913208008, "tests_passed": true, "error": null}
+{"code": " (word.startswith('$') and set(word[1:]) <= punctuation_set)]", "compilation_passed": true, "time": 0.005209922790527344, "tests_passed": true, "error": null}
+{"code": " any(char in PUNCTUATION for char in word) and", "compilation_passed": false, "time": 0.0002040863037109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " word in PUNCTUATION and word[0].isupper() and word[0] != '$']", "compilation_passed": true, "time": 0.006088972091674805, "tests_passed": true, "error": null}
+{"code": " set(word.lower()).issubset(punctuation_set)]", "compilation_passed": true, "time": 0.004932880401611328, "tests_passed": true, "error": null}
+{"code": " any(c in PUNCTUATION for c in word)]", "compilation_passed": true, "time": 0.006093740463256836, "tests_passed": true, "error": null}
+{"code": " set(word.lower()).issubset(PUNCTUATION)]", "compilation_passed": true, "time": 0.005558967590332031, "tests_passed": true, "error": null}
+{"code": " any(letter in PUNCTUATION for letter in word) and word.lower().startswith('$')]", "compilation_passed": true, "time": 0.006315708160400391, "tests_passed": true, "error": null}
+{"code": " (set(word) - punctuation_set)]", "compilation_passed": true, "time": 0.006531715393066406, "tests_passed": true, "error": null}
+{"code": " (set(word) <= punctuation_set or not word)]", "compilation_passed": true, "time": 0.004148006439208984, "tests_passed": true, "error": null}
+{"code": " any(char in PUNCTUATION for char in word)]", "compilation_passed": true, "time": 0.006349802017211914, "tests_passed": true, "error": null}
+{"code": " any([char in PUNCTUATION for char in word])]", "compilation_passed": true, "time": 0.006268739700317383, "tests_passed": true, "error": null}
+{"code": " all(char in punctuation_set for char in word)]", "compilation_passed": true, "time": 0.004106998443603516, "tests_passed": true, "error": null}
+{"code": " any(char in word for char in punctuation_set)]", "compilation_passed": true, "time": 0.006155967712402344, "tests_passed": true, "error": null}

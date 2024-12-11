@@ -1,0 +1,6 @@
+{"code": " len(group2) == 0", "compilation_passed": true, "time": 0.27767300605773926, "tests_passed": true, "error": null}
+{"code": " np.any(np.isnan(group1))", "compilation_passed": true, "time": 0.203049898147583, "tests_passed": false, "error": "ValueError"}
+{"code": " np.all(np.isnan(group1))", "compilation_passed": true, "time": 0.27604198455810547, "tests_passed": true, "error": null}
+{"code": " np.isnan(np.sum(group1)) == len(group1)", "compilation_passed": true, "time": 0.3016688823699951, "tests_passed": true, "error": null}
+{"code": " len(group1) < 2", "compilation_passed": true, "time": 0.2773170471191406, "tests_passed": true, "error": null}
+{"code": " np.isnan(group1).all()", "compilation_passed": true, "time": 0.3136420249938965, "tests_passed": true, "error": null}

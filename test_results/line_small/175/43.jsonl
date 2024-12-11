@@ -1,0 +1,17 @@
+{"code": " interesting_videos.reset_index(drop=True)", "compilation_passed": true, "time": 0.08723998069763184, "tests_passed": true, "error": null}
+{"code": " interesting_videos.sort_values('Likes', ascending=False)", "compilation_passed": true, "time": 0.030714035034179688, "tests_passed": true, "error": null}
+{"code": " interesting_videos.groupby('Title').agg({'Likes': 'sum', 'Views': 'sum'})", "compilation_passed": true, "time": 0.030800819396972656, "tests_passed": false, "error": "KeyError"}
+{"code": " interesting_videos.copy()", "compilation_passed": true, "time": 0.09383797645568848, "tests_passed": true, "error": null}
+{"code": " interesting_videos.loc[interesting_videos['Title'].str.contains('how') | interesting_videos['Title'].str.contains('what')]", "compilation_passed": true, "time": 0.03679203987121582, "tests_passed": false, "error": "IndexError"}
+{"code": " interesting_videos.sort_values(by='Likes', ascending=False)", "compilation_passed": true, "time": 0.03212904930114746, "tests_passed": true, "error": null}
+{"code": " interesting_videos.loc[:, ['Views', 'Likes']]", "compilation_passed": true, "time": 0.026976585388183594, "tests_passed": false, "error": "KeyError"}
+{"code": " interesting_videos[['Likes', 'Views']]", "compilation_passed": true, "time": 0.027240991592407227, "tests_passed": false, "error": "KeyError"}
+{"code": " interesting_videos.reset_index()", "compilation_passed": true, "time": 0.08716678619384766, "tests_passed": true, "error": null}
+{"code": " interesting_videos[['Views', 'Likes']]", "compilation_passed": true, "time": 0.02673482894897461, "tests_passed": false, "error": "KeyError"}
+{"code": " interesting_videos.groupby('Title').agg({'Likes': lambda x: x.mean(), 'Views': lambda x: x.mean()})", "compilation_passed": true, "time": 0.03299307823181152, "tests_passed": false, "error": "KeyError"}
+{"code": " interesting_videos.sort_values(['Likes'], ascending=False)", "compilation_passed": true, "time": 0.031996965408325195, "tests_passed": true, "error": null}
+{"code": " interesting_videos.set_index('Views').sort_index()", "compilation_passed": true, "time": 0.025426149368286133, "tests_passed": false, "error": "KeyError"}
+{"code": " interesting_videos[['Title', 'Likes', 'Views']]", "compilation_passed": true, "time": 0.08711719512939453, "tests_passed": true, "error": null}
+{"code": " interesting_videos.drop_duplicates()", "compilation_passed": true, "time": 0.09128332138061523, "tests_passed": true, "error": null}
+{"code": " interesting_videos.sort_values('Views', ascending=False)", "compilation_passed": true, "time": 0.029859066009521484, "tests_passed": true, "error": null}
+{"code": " interesting_videos.groupby('Title')['Likes'].apply(lambda x: x / df['Views'].iloc[0])", "compilation_passed": true, "time": 0.03602099418640137, "tests_passed": false, "error": "KeyError"}

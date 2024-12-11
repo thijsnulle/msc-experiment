@@ -1,0 +1,6 @@
+{"code": " open(file_path, \"rb\") as f:", "compilation_passed": true, "time": 0.3415699005126953, "tests_passed": true, "error": null}
+{"code": " open(file_path, 'rb') as f:", "compilation_passed": true, "time": 0.40757107734680176, "tests_passed": true, "error": null}
+{"code": " open(file_path, \"rb\") as file:", "compilation_passed": true, "time": 0.11046075820922852, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_path, 'rb') as file:", "compilation_passed": true, "time": 0.10499215126037598, "tests_passed": false, "error": "NameError"}
+{"code": " open('private.pem', 'rb') as file:", "compilation_passed": true, "time": 0.15140295028686523, "tests_passed": false, "error": "NameError"}
+{"code": " open('private.pem', 'rb') as keyfile:", "compilation_passed": true, "time": 0.1753857135772705, "tests_passed": false, "error": "NameError"}

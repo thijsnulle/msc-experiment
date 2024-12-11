@@ -1,0 +1,6 @@
+{"code": " goals[team]", "compilation_passed": true, "time": 0.002712726593017578, "tests_passed": false, "error": "AttributeError"}
+{"code": " goals.get(team, 0)", "compilation_passed": true, "time": 0.003134012222290039, "tests_passed": false, "error": "AttributeError"}
+{"code": " goals.get(team) if goals.get(team) else 0", "compilation_passed": true, "time": 0.0023012161254882812, "tests_passed": false, "error": "AttributeError"}
+{"code": " goals.get(team)", "compilation_passed": true, "time": 0.002377033233642578, "tests_passed": false, "error": "AttributeError"}
+{"code": " goals.get(team) or 0", "compilation_passed": true, "time": 0.002360105514526367, "tests_passed": false, "error": "AttributeError"}
+{"code": " goals.get(team) if goals else None", "compilation_passed": true, "time": 0.002370119094848633, "tests_passed": false, "error": "AttributeError"}

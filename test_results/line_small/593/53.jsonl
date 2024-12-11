@@ -1,0 +1,9 @@
+{"code": " pd.read_csv(FILE_PATH)", "compilation_passed": true, "time": 0.003117084503173828, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_csv(FILE_PATH, skiprows=1)", "compilation_passed": true, "time": 0.0030670166015625, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_csv(FILE_PATH, index_col=0)", "compilation_passed": true, "time": 0.0027458667755126953, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_csv(FILE_PATH, index_col='Time', parse_dates=['Time'])", "compilation_passed": true, "time": 0.0028753280639648438, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_csv(FILE_PATH, index_col=0, parse_dates=['Time'])", "compilation_passed": true, "time": 0.002753019332885742, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_csv(FILE_PATH, header=1, parse_dates=[0])", "compilation_passed": true, "time": 0.002769947052001953, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_csv(FILE_PATH, skiprows=1, header=None)", "compilation_passed": true, "time": 0.00379180908203125, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_csv(FILE_PATH, header=1, index_col=0, parse_dates=['Time'])", "compilation_passed": true, "time": 0.002735137939453125, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_csv(FILE_PATH, names=VEHICLE_TYPES, index_col=0)", "compilation_passed": true, "time": 0.0027587413787841797, "tests_passed": false, "error": "AttributeError"}

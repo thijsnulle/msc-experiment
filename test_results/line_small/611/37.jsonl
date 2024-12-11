@@ -1,0 +1,26 @@
+{"code": "plot(selected_columns[0], selected_columns[1], kind='line', ax=plt.gca(), rot=0, alpha=0.25)", "compilation_passed": true, "time": 0.09516286849975586, "tests_passed": true, "error": null}
+{"code": "plot(x=selected_columns[0], y=selected_columns[1])", "compilation_passed": true, "time": 2.0863239765167236, "tests_passed": true, "error": null}
+{"code": "plot(selected_columns[0], selected_columns[1], label=f'{selected_columns[0]} vs {selected_columns[1]}', figsize=(10, 10),", "compilation_passed": false, "time": 0.0003199577331542969, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(x=selected_columns[0], y=selected_columns[1],", "compilation_passed": false, "time": 0.0003132820129394531, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(x=selected_columns[0], y=selected_columns[1], figsize=(8, 6), grid=True)", "compilation_passed": true, "time": 0.9161558151245117, "tests_passed": true, "error": null}
+{"code": "plot(selected_columns, selected_columns)", "compilation_passed": true, "time": 0.017872095108032227, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(x=selected_columns[0], y=selected_columns[1], figsize=(5,3), grid=True)", "compilation_passed": true, "time": 0.45089268684387207, "tests_passed": true, "error": null}
+{"code": "plot(selected_columns[0], selected_columns[1], title=f'Column 1: {selected_columns[0]}, Column 2: {selected_columns[1]}')", "compilation_passed": true, "time": 0.9765100479125977, "tests_passed": true, "error": null}
+{"code": "plot(kind='line', legend=False, x=selected_columns[0], y=selected_columns[1])", "compilation_passed": true, "time": 0.4022808074951172, "tests_passed": true, "error": null}
+{"code": "plot(selected_columns[0], selected_columns[1], xlabel=selected_columns[0], ylabel=selected_columns[1], title=selected_columns[0] + \" vs \" + selected_columns[1])", "compilation_passed": true, "time": 0.4104890823364258, "tests_passed": true, "error": null}
+{"code": "plot(subplots=(1, 2), sharex=True,", "compilation_passed": false, "time": 0.00024008750915527344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(x=selected_columns[0], y=selected_columns[1], title='Random Line Plot')", "compilation_passed": true, "time": 0.4288461208343506, "tests_passed": true, "error": null}
+{"code": "plot(selected_columns[0], selected_columns[1], figsize=(15, 5), subplots=True,", "compilation_passed": false, "time": 0.00031495094299316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(selected_columns, selected_columns, kind='line')", "compilation_passed": true, "time": 0.0197598934173584, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(x=selected_columns[0], y=selected_columns[1], marker='.')", "compilation_passed": true, "time": 0.4500279426574707, "tests_passed": true, "error": null}
+{"code": "plot(selected_columns[0], selected_columns[1], kind='line', grid=True)", "compilation_passed": true, "time": 0.4481008052825928, "tests_passed": true, "error": null}
+{"code": "plot(x=selected_columns[0], y=selected_columns[1], style='.-')", "compilation_passed": true, "time": 1.2528331279754639, "tests_passed": true, "error": null}
+{"code": "plot(subplots=True, x=selected_columns[0], y=selected_columns[1], legend=False)", "compilation_passed": true, "time": 0.5595598220825195, "tests_passed": true, "error": null}
+{"code": "plot(selected_columns[0], selected_columns[1])", "compilation_passed": true, "time": 0.45761775970458984, "tests_passed": true, "error": null}
+{"code": "plot(x=selected_columns[0], y=selected_columns[1], xlabel=selected_columns[0], ylabel=selected_columns[1])", "compilation_passed": true, "time": 0.4541130065917969, "tests_passed": true, "error": null}
+{"code": "plot(selected_columns[0], selected_columns[1], figsize=(8, 4), title=f\"{selected_columns[0]} vs {selected_columns[1]}\")", "compilation_passed": true, "time": 0.4594390392303467, "tests_passed": true, "error": null}
+{"code": "plot(column=selected_columns[0], secondary_y=selected_columns[1], grid=True, title=f\"{selected_columns[0]} vs {selected_columns[1]}\")", "compilation_passed": true, "time": 0.610832929611206, "tests_passed": true, "error": null}
+{"code": "plot.line(selected_columns, secondary_y=selected_columns, grid=False)", "compilation_passed": true, "time": 0.011573076248168945, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(kind='line', y=selected_columns, x=COLUMNS[0],", "compilation_passed": false, "time": 0.0002727508544921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(selected_columns, ax=plt.gca())", "compilation_passed": true, "time": 0.0106658935546875, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(x=selected_columns[0], y=selected_columns[1], figsize=(8, 4),", "compilation_passed": false, "time": 0.0002460479736328125, "tests_passed": false, "error": "SyntaxError"}

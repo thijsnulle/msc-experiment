@@ -1,0 +1,22 @@
+{"code": " df[df['value'].duplicated()]", "compilation_passed": true, "time": 0.0578920841217041, "tests_passed": true, "error": null}
+{"code": " df.value.duplicated()", "compilation_passed": true, "time": 0.013370990753173828, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby('value')['value'].count().loc[lambda x: x >= 2]", "compilation_passed": true, "time": 0.023687362670898438, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(\"value\").count().loc[lambda df: df[\"value\"].isin(df.index)]", "compilation_passed": true, "time": 0.026608943939208984, "tests_passed": false, "error": "KeyError"}
+{"code": " df['value'].duplicated(keep=False)", "compilation_passed": true, "time": 0.01211404800415039, "tests_passed": false, "error": "KeyError"}
+{"code": " df.duplicated(keep=False)", "compilation_passed": true, "time": 0.010602951049804688, "tests_passed": false, "error": "KeyError"}
+{"code": " df['value'].drop_duplicates()", "compilation_passed": true, "time": 0.019947052001953125, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby('value')['value'].count() >= 2", "compilation_passed": true, "time": 0.02237391471862793, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby('value').size().sort_values().head()", "compilation_passed": true, "time": 0.020203113555908203, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(\"value\").size().loc[lambda x: x > 1].index.tolist()", "compilation_passed": true, "time": 0.01129770278930664, "tests_passed": false, "error": "TypeError"}
+{"code": " df.value.duplicated(keep=False)", "compilation_passed": true, "time": 0.009181022644042969, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(\"value\").size().idxmax()", "compilation_passed": true, "time": 0.008976221084594727, "tests_passed": false, "error": "IndexError"}
+{"code": " df.groupby('value')['value'].size().sort_values()", "compilation_passed": true, "time": 0.01739215850830078, "tests_passed": false, "error": "KeyError"}
+{"code": " df.loc[df['value'].duplicated(), 'value']", "compilation_passed": true, "time": 0.018728971481323242, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby('value').count().value.head()", "compilation_passed": true, "time": 0.009571075439453125, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['value'].value_counts()", "compilation_passed": true, "time": 0.020473957061767578, "tests_passed": false, "error": "KeyError"}
+{"code": " df.duplicated()", "compilation_passed": true, "time": 0.012803792953491211, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby('value').size().sort_values().reset_index(name='count')", "compilation_passed": true, "time": 0.027539968490600586, "tests_passed": true, "error": null}
+{"code": " df['value'].duplicated()", "compilation_passed": true, "time": 0.018417835235595703, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df.value.duplicated()]", "compilation_passed": true, "time": 0.03567004203796387, "tests_passed": true, "error": null}
+{"code": " df.groupby('value').size().reset_index(name='counts')", "compilation_passed": true, "time": 0.022248029708862305, "tests_passed": true, "error": null}
+{"code": " df['value'].value_counts().loc[lambda x: x > 1]", "compilation_passed": true, "time": 0.016458988189697266, "tests_passed": false, "error": "KeyError"}

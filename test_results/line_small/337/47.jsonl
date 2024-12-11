@@ -1,0 +1,21 @@
+{"code": "bar(index[i], mean, width=0.3, color=COLORS[i % len(COLORS)], yerr=std)", "compilation_passed": true, "time": 0.18594884872436523, "tests_passed": true, "error": null}
+{"code": "bar(index[i], mean, yerr=std, color=COLORS[i % 3])", "compilation_passed": true, "time": 0.17747783660888672, "tests_passed": true, "error": null}
+{"code": "bar(", "compilation_passed": false, "time": 0.0003561973571777344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "bar(index[i], mean, yerr=std,", "compilation_passed": false, "time": 0.00055694580078125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "bar(index + i, mean, width=0.5, color=COLORS[i % len(COLORS)], yerr=std)", "compilation_passed": true, "time": 0.5108170509338379, "tests_passed": true, "error": null}
+{"code": "bar(index + i * 0.2, mean, width=0.4, yerr=std, color=COLORS[i % 3])", "compilation_passed": true, "time": 0.5913217067718506, "tests_passed": true, "error": null}
+{"code": "bar(index[i], mean, width=0.5, color=COLORS[i % len(COLORS)], yerr=std)", "compilation_passed": true, "time": 0.4774479866027832, "tests_passed": true, "error": null}
+{"code": "bar(index + i * 0.3, mean, width=0.2, color=COLORS[i % len(COLORS)], yerr=std)", "compilation_passed": true, "time": 0.5589041709899902, "tests_passed": true, "error": null}
+{"code": "bar(index, mean, width=1, alpha=0.6, color=COLORS[i % len(COLORS)], yerr=std)", "compilation_passed": true, "time": 0.5641491413116455, "tests_passed": true, "error": null}
+{"code": "bar(index[i], mean, width=1, yerr=std, color=COLORS[i % len(COLORS)], label='%s' % mean)", "compilation_passed": true, "time": 0.5305800437927246, "tests_passed": true, "error": null}
+{"code": "bar(index + i / 2, [mean, mean + std, mean - std], align='center', color=COLORS[i % len(COLORS)])", "compilation_passed": true, "time": 0.18344712257385254, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(index[i], mean, std * 2, color=COLORS[i % len(COLORS)], label=group_col)", "compilation_passed": true, "time": 0.4977080821990967, "tests_passed": true, "error": null}
+{"code": "barh(index, mean, color=COLORS[i % len(COLORS)], yerr=std)", "compilation_passed": true, "time": 0.6037490367889404, "tests_passed": true, "error": null}
+{"code": "bar(index[i], mean, yerr=std, color=COLORS[i % len(COLORS)], width=0.3, edgecolor='k', linewidth=0.8)", "compilation_passed": true, "time": 0.5124502182006836, "tests_passed": true, "error": null}
+{"code": "bar(index, mean, width=0.8, align='center', color=COLORS[i % len(COLORS)],", "compilation_passed": false, "time": 0.0005431175231933594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "bar(index[i], mean, std * 2, color=COLORS[i % len(COLORS)], yerr=std * 2, capsize=5)", "compilation_passed": true, "time": 0.5714991092681885, "tests_passed": true, "error": null}
+{"code": "bar(index + i / num_groups, mean, yerr=std, color=COLORS[i], width=1 / num_groups, label=mean.name)", "compilation_passed": true, "time": 0.015034198760986328, "tests_passed": false, "error": "AttributeError"}
+{"code": "bar(index + i, [mean], yerr=[std], color=COLORS[i % len(COLORS)],", "compilation_passed": false, "time": 0.00040984153747558594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "barh(index, mean, color=COLORS[i % len(COLORS)],", "compilation_passed": false, "time": 0.0004980564117431641, "tests_passed": false, "error": "SyntaxError"}
+{"code": "barh(index[i], mean, xerr=2 * std, color=COLORS[i % len(COLORS)], align='center')", "compilation_passed": true, "time": 0.6333129405975342, "tests_passed": true, "error": null}
+{"code": "bar(index + (i * 0.4), mean, yerr=std, width=0.4, color=COLORS[i % len(COLORS)],", "compilation_passed": false, "time": 0.0005540847778320312, "tests_passed": false, "error": "SyntaxError"}

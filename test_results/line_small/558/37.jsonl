@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame(standardized_values, index=[col for col in columns], columns=columns)", "compilation_passed": true, "time": 0.043805837631225586, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(standardized_values, columns=columns)", "compilation_passed": true, "time": 0.44019603729248047, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(standardized_values.T, columns=columns)", "compilation_passed": true, "time": 0.04556608200073242, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(standardized_values, index=columns)", "compilation_passed": true, "time": 0.04795503616333008, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data=standardized_values, columns=columns)", "compilation_passed": true, "time": 0.4332561492919922, "tests_passed": true, "error": null}

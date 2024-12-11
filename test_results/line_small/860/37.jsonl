@@ -1,0 +1,5 @@
+{"code": " re.findall(pattern, rand_str)", "compilation_passed": true, "time": 0.008163213729858398, "tests_passed": true, "error": null}
+{"code": " [m.group(0) for m in re.finditer(pattern, rand_str)]", "compilation_passed": true, "time": 0.008357048034667969, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.01202702522277832, "tests_passed": true, "error": null}
+{"code": " [m.group() for m in re.finditer(pattern, rand_str)]", "compilation_passed": true, "time": 0.008697986602783203, "tests_passed": true, "error": null}
+{"code": " [match.group() for match in re.finditer(pattern, rand_str)]", "compilation_passed": true, "time": 0.008443832397460938, "tests_passed": true, "error": null}

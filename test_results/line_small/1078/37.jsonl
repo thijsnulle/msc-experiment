@@ -1,0 +1,23 @@
+{"code": " np.all(counts == counts[0])", "compilation_passed": true, "time": 0.6010727882385254, "tests_passed": true, "error": null}
+{"code": " np.allclose(counts, counts[0])", "compilation_passed": true, "time": 0.5775861740112305, "tests_passed": true, "error": null}
+{"code": " True", "compilation_passed": true, "time": 0.24383306503295898, "tests_passed": true, "error": null}
+{"code": " True if np.array_equal(counts, counts[0]) else False", "compilation_passed": true, "time": 0.09718108177185059, "tests_passed": true, "error": null}
+{"code": " np.array_equal(counts, np.full_like(counts, 1))", "compilation_passed": true, "time": 0.1549549102783203, "tests_passed": true, "error": null}
+{"code": " all(counts[0] == count for count in counts)", "compilation_passed": true, "time": 0.5951478481292725, "tests_passed": true, "error": null}
+{"code": " all(counts == counts[0])", "compilation_passed": true, "time": 0.5523080825805664, "tests_passed": true, "error": null}
+{"code": " (counts == counts[0]).all()", "compilation_passed": true, "time": 0.5436878204345703, "tests_passed": true, "error": null}
+{"code": " False", "compilation_passed": true, "time": 0.1153268814086914, "tests_passed": true, "error": null}
+{"code": " (counts == counts.max())", "compilation_passed": true, "time": 0.11835193634033203, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array_equal(counts, counts[0] * len(counts))", "compilation_passed": true, "time": 0.1071922779083252, "tests_passed": true, "error": null}
+{"code": " len(unique) == len(np.unique(arr))", "compilation_passed": true, "time": 0.24708890914916992, "tests_passed": true, "error": null}
+{"code": " np.all(counts == np.max(counts))", "compilation_passed": true, "time": 0.5607008934020996, "tests_passed": true, "error": null}
+{"code": " np.isclose(np.diff(counts), 0).all()", "compilation_passed": true, "time": 0.5761489868164062, "tests_passed": true, "error": null}
+{"code": " np.allclose(counts, counts[0], equal_nan=True)", "compilation_passed": true, "time": 0.8590269088745117, "tests_passed": true, "error": null}
+{"code": " (len(arr) == len(counts)) and (counts[0] == counts)", "compilation_passed": true, "time": 0.13752102851867676, "tests_passed": true, "error": null}
+{"code": " len(unique) == len(arr) and np.max(counts) == np.min(counts)", "compilation_passed": true, "time": 0.12462615966796875, "tests_passed": true, "error": null}
+{"code": " len(unique) == 1 and counts[0] == len(arr)", "compilation_passed": true, "time": 0.1511669158935547, "tests_passed": true, "error": null}
+{"code": " len(unique) == len(arr)", "compilation_passed": true, "time": 0.11966824531555176, "tests_passed": true, "error": null}
+{"code": " np.array_equal(counts, counts[0])", "compilation_passed": true, "time": 0.20894980430603027, "tests_passed": true, "error": null}
+{"code": " np.array_equal(counts, np.ones_like(counts))", "compilation_passed": true, "time": 0.1748647689819336, "tests_passed": true, "error": null}
+{"code": " len(unique) == 1", "compilation_passed": true, "time": 0.11801385879516602, "tests_passed": true, "error": null}
+{"code": " np.count_nonzero(counts == np.max(counts)) == len(counts)", "compilation_passed": true, "time": 0.7702991962432861, "tests_passed": true, "error": null}

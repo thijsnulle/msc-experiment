@@ -1,0 +1,19 @@
+{"code": " df[\"Text\"].apply(str.strip)  # Remove leading/trailing spaces", "compilation_passed": true, "time": 0.15037894248962402, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].astype(\"str\")", "compilation_passed": true, "time": 0.15497899055480957, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].fillna(\"\")", "compilation_passed": true, "time": 0.15357708930969238, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].astype(str)", "compilation_passed": true, "time": 0.15278005599975586, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].str.strip().str.lower().str.replace(\"\\n\", \" \")", "compilation_passed": true, "time": 0.15604686737060547, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].apply(lambda x: x.strip())", "compilation_passed": true, "time": 0.15633893013000488, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].str.lower()", "compilation_passed": true, "time": 0.1606731414794922, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].apply(str)", "compilation_passed": true, "time": 0.15666723251342773, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].apply(lambda x: x.lower())", "compilation_passed": true, "time": 0.16188502311706543, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].apply(lambda x: x.lower() if not pd.isna(x) else \"\")", "compilation_passed": true, "time": 0.6955900192260742, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].apply(lambda s: \" \".join([w for w in s.split() if w not in STOP_WORDS]))", "compilation_passed": true, "time": 0.16471004486083984, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].apply(str)  # Convert text values to strings", "compilation_passed": true, "time": 0.16492199897766113, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].str.strip()", "compilation_passed": true, "time": 0.16164517402648926, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].map(lambda x: x.strip().replace(\"\\n\", \"\").lower())", "compilation_passed": true, "time": 0.16343975067138672, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].apply(lambda x: \" \".join([word for word in x.split() if word.lower() not in STOP_WORDS]))", "compilation_passed": true, "time": 0.17034173011779785, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].str.lower().str.replace(r'[^a-zA-Z\\s]+', '', regex=True).str.strip()", "compilation_passed": true, "time": 0.04708075523376465, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].map(lambda x: x.lower())", "compilation_passed": true, "time": 0.1735520362854004, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].str.lower().str.strip().str.replace(\"[^a-z]\", \"\")", "compilation_passed": true, "time": 0.17876195907592773, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].str.replace(\"\\n\", \" \")", "compilation_passed": true, "time": 0.7143397331237793, "tests_passed": true, "error": null}

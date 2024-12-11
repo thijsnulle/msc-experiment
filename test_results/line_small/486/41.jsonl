@@ -1,0 +1,23 @@
+{"code": " pd.DataFrame({'Time': timestamps})", "compilation_passed": true, "time": 0.010241985321044922, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0002269744873046875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'timestamp': timestamps})", "compilation_passed": true, "time": 0.00835275650024414, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(index=pd.date_range(start_time, timestamps[-1], freq='ms'))", "compilation_passed": true, "time": 0.008890867233276367, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0002741813659667969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.008618831634521484, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.random.normal(size=(len(timestamps), 1)), columns=[\"value\"])", "compilation_passed": true, "time": 0.007740020751953125, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Time': timestamps,", "compilation_passed": false, "time": 0.00024509429931640625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.normal(size=(len(timestamps), 1)), index=timestamps)", "compilation_passed": true, "time": 0.009971141815185547, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(timestamps, columns=['Time'])", "compilation_passed": true, "time": 0.00826406478881836, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(index=pd.to_datetime(timestamps))", "compilation_passed": true, "time": 0.009351968765258789, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.random.normal(0, 1, size=(len(timestamps), 1)))", "compilation_passed": true, "time": 0.008282899856567383, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Time': timestamps, 'Value': np.random.normal(size=timestamps.shape)})", "compilation_passed": true, "time": 0.6021649837493896, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Time\": timestamps,", "compilation_passed": false, "time": 0.0002627372741699219, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.normal(loc=1, scale=0.5, size=(len(timestamps), 1)) * trend, columns=['Value'])", "compilation_passed": true, "time": 0.008166790008544922, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.random.normal(np.zeros(len(timestamps)), 100, len(timestamps)), index=timestamps)", "compilation_passed": true, "time": 0.008292913436889648, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Time': timestamps}, index=timestamps)", "compilation_passed": true, "time": 0.00762486457824707, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.random.normal(0, 1, len(timestamps) * trend) * trend + trend, timestamps)", "compilation_passed": true, "time": 0.013012170791625977, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame({'Timestamp': timestamps})", "compilation_passed": true, "time": 0.008079051971435547, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.random.normal(20, 5, timestamps.size) * trend)", "compilation_passed": true, "time": 0.008234977722167969, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(timestamps, columns=[\"Time\"])", "compilation_passed": true, "time": 0.00808095932006836, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.random.normal(loc=0, scale=1, size=timestamps.size), index=timestamps, columns=['Value'])", "compilation_passed": true, "time": 0.007719993591308594, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.random.normal(1, 0.001, len(timestamps)), index=timestamps)", "compilation_passed": true, "time": 0.008402824401855469, "tests_passed": false, "error": "ValueError"}

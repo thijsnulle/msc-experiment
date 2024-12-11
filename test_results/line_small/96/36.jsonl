@@ -1,0 +1,23 @@
+{"code": " open(csv_file, \"r\") as f:", "compilation_passed": true, "time": 0.01653575897216797, "tests_passed": true, "error": null}
+{"code": " open(csv_file, encoding=\"utf-8\") as file:", "compilation_passed": true, "time": 0.008807897567749023, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_file, encoding='utf-8', newline='') as csv_file:", "compilation_passed": true, "time": 0.009201765060424805, "tests_passed": false, "error": "NameError"}
+{"code": " csv.reader(open(csv_file, newline='', delimiter=csv_delimiter), skipinitialspace=True,", "compilation_passed": false, "time": 0.00015115737915039062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " open(csv_file, \"r\") as file:", "compilation_passed": true, "time": 0.007981061935424805, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_file) as csv_file:", "compilation_passed": true, "time": 0.008201122283935547, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_file, \"r\", encoding='utf-8') as f:", "compilation_passed": true, "time": 0.016603946685791016, "tests_passed": true, "error": null}
+{"code": " open(csv_file, 'rt') as file:", "compilation_passed": true, "time": 0.008068084716796875, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_file, 'r') as csvfile:", "compilation_passed": true, "time": 0.008758068084716797, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_file, mode='r') as csv_file:", "compilation_passed": true, "time": 0.00795888900756836, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_file, encoding='utf8', mode=\"r\") as f:", "compilation_passed": true, "time": 0.016142845153808594, "tests_passed": true, "error": null}
+{"code": " open(csv_file, 'r') as f:", "compilation_passed": true, "time": 0.016047000885009766, "tests_passed": true, "error": null}
+{"code": " open(csv_file, mode='r') as file:", "compilation_passed": true, "time": 0.008910179138183594, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_file, \"r\", newline='') as f:", "compilation_passed": true, "time": 0.017565011978149414, "tests_passed": true, "error": null}
+{"code": " csv.reader(open(csv_file, 'r'), delimiter=csv_delimiter) as csv_reader:", "compilation_passed": true, "time": 0.008368968963623047, "tests_passed": false, "error": "AttributeError"}
+{"code": " open(csv_file, 'r') as file:", "compilation_passed": true, "time": 0.009131193161010742, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_file, 'r', encoding='utf-8') as file:", "compilation_passed": true, "time": 0.008285999298095703, "tests_passed": false, "error": "NameError"}
+{"code": " csv.reader(csv_file, delimiter=csv_delimiter, quotechar='\"', quoting=csv.QUOTE_MINIMAL, skipinitialspace=True) as f:", "compilation_passed": true, "time": 0.00800013542175293, "tests_passed": false, "error": "AttributeError"}
+{"code": " open(csv_file, 'r') as csv_file:", "compilation_passed": true, "time": 0.00960993766784668, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_file) as file:", "compilation_passed": true, "time": 0.009870052337646484, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_file, \"r\", encoding=\"utf8\") as csv_file:", "compilation_passed": true, "time": 0.008399009704589844, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_file, newline=\"\") as csvfile:", "compilation_passed": true, "time": 0.00912618637084961, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_file, newline='') as csv_file_handle:", "compilation_passed": true, "time": 0.00929403305053711, "tests_passed": false, "error": "NameError"}

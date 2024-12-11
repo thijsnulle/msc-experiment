@@ -1,0 +1,8 @@
+{"code": " 0", "compilation_passed": true, "time": 0.009457111358642578, "tests_passed": true, "error": null}
+{"code": " sum([letter_weight_dict[char] for char in subseq])", "compilation_passed": true, "time": 0.0010712146759033203, "tests_passed": true, "error": null}
+{"code": " sum([letter_weight_dict[letter] for letter in subseq])", "compilation_passed": true, "time": 0.0012040138244628906, "tests_passed": true, "error": null}
+{"code": " sum(letter_weight_dict[letter] for letter in subseq)", "compilation_passed": true, "time": 0.0013420581817626953, "tests_passed": true, "error": null}
+{"code": " sum(letter_weight_dict[c] for c in subseq)", "compilation_passed": true, "time": 0.001161336898803711, "tests_passed": true, "error": null}
+{"code": " sum(letter_weight_dict[l] for l in subseq)", "compilation_passed": true, "time": 0.0017468929290771484, "tests_passed": true, "error": null}
+{"code": " sum(letter_weight_dict.get(letter, 0) for letter in subseq)", "compilation_passed": true, "time": 0.001332998275756836, "tests_passed": true, "error": null}
+{"code": " sum([letter_weight_dict.get(letter, 0) for letter in subseq])", "compilation_passed": true, "time": 0.0011332035064697266, "tests_passed": true, "error": null}

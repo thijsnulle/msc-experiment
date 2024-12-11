@@ -1,0 +1,10 @@
+{"code": " df.empty:", "compilation_passed": true, "time": 0.25801992416381836, "tests_passed": true, "error": null}
+{"code": " not df.empty:", "compilation_passed": true, "time": 0.009019136428833008, "tests_passed": false, "error": "ZeroDivisionError"}
+{"code": " df.empty or column_name not in df.columns:", "compilation_passed": true, "time": 0.22445321083068848, "tests_passed": true, "error": null}
+{"code": " df.empty or not column_name in df:", "compilation_passed": true, "time": 0.22114801406860352, "tests_passed": true, "error": null}
+{"code": " df.empty or column_name not in df:", "compilation_passed": true, "time": 0.22788619995117188, "tests_passed": true, "error": null}
+{"code": " not df:", "compilation_passed": true, "time": 0.007679939270019531, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or df[column_name].isnull().all():", "compilation_passed": true, "time": 0.2324841022491455, "tests_passed": true, "error": null}
+{"code": " len(df) == 0 or column_name not in df:", "compilation_passed": true, "time": 0.2221379280090332, "tests_passed": true, "error": null}
+{"code": " not df:  # Checks if DataFrame is empty", "compilation_passed": true, "time": 0.007081031799316406, "tests_passed": false, "error": "ValueError"}
+{"code": " not df.empty and column_name in df.columns:", "compilation_passed": true, "time": 0.007506132125854492, "tests_passed": false, "error": "ZeroDivisionError"}

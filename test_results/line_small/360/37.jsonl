@@ -1,0 +1,6 @@
+{"code": " not os.path.exists(file_location):", "compilation_passed": true, "time": 0.13592886924743652, "tests_passed": true, "error": null}
+{"code": " os.path.isfile(file_location):", "compilation_passed": true, "time": 0.021029233932495117, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not os.path.isfile(file_location):", "compilation_passed": true, "time": 0.12497711181640625, "tests_passed": true, "error": null}
+{"code": " os.path.exists(file_location):", "compilation_passed": true, "time": 0.01716303825378418, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.exists(file_location) is False:", "compilation_passed": true, "time": 0.1382591724395752, "tests_passed": true, "error": null}
+{"code": " os.path.isfile(file_location) is False:", "compilation_passed": true, "time": 0.13040590286254883, "tests_passed": true, "error": null}

@@ -1,0 +1,13 @@
+{"code": " len(greater_avg)", "compilation_passed": true, "time": 0.005676984786987305, "tests_passed": true, "error": null}
+{"code": " sum(1 for x in greater_avg if x >= value)", "compilation_passed": true, "time": 0.004869222640991211, "tests_passed": true, "error": null}
+{"code": " sum(1 for x in numbers[bpoint:] if x >= value)", "compilation_passed": true, "time": 0.0049169063568115234, "tests_passed": true, "error": null}
+{"code": " sum(1 for x in greater_avg if x > value)", "compilation_passed": true, "time": 0.005300045013427734, "tests_passed": true, "error": null}
+{"code": " len([x for x in numbers[bpoint:] if x >= value])", "compilation_passed": true, "time": 0.005090951919555664, "tests_passed": true, "error": null}
+{"code": " sum(x >= value for x in numbers)", "compilation_passed": true, "time": 0.006293058395385742, "tests_passed": true, "error": null}
+{"code": " bpoint - len(greater_avg)", "compilation_passed": true, "time": 0.008304119110107422, "tests_passed": true, "error": null}
+{"code": " len(greater_avg) + bpoint", "compilation_passed": true, "time": 0.006949186325073242, "tests_passed": true, "error": null}
+{"code": " len(numbers) - bpoint", "compilation_passed": true, "time": 0.005352973937988281, "tests_passed": true, "error": null}
+{"code": " len(greater_avg) if len(greater_avg) < bpoint else bpoint", "compilation_passed": true, "time": 0.006231069564819336, "tests_passed": true, "error": null}
+{"code": " len([x for x in greater_avg if x >= value])", "compilation_passed": true, "time": 0.006450176239013672, "tests_passed": true, "error": null}
+{"code": " bpoint - bisect.bisect_left(numbers, value)", "compilation_passed": true, "time": 0.006482839584350586, "tests_passed": true, "error": null}
+{"code": " len(greater_avg) if value < avg else bpoint", "compilation_passed": true, "time": 0.0064411163330078125, "tests_passed": true, "error": null}

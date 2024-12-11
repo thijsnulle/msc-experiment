@@ -1,0 +1,27 @@
+{"code": " ':'.join(sys.path)", "compilation_passed": true, "time": 0.010666847229003906, "tests_passed": false, "error": "TypeError"}
+{"code": " path_to_append if isinstance(path_to_append, list) else [path_to_append]", "compilation_passed": true, "time": 0.014243125915527344, "tests_passed": false, "error": "TypeError"}
+{"code": " str(PATH_TO_APPEND)", "compilation_passed": true, "time": 0.006914854049682617, "tests_passed": true, "error": null}
+{"code": " config_file + '::'", "compilation_passed": true, "time": 0.007297039031982422, "tests_passed": true, "error": null}
+{"code": " ','.join(sys.path)", "compilation_passed": true, "time": 0.010354280471801758, "tests_passed": false, "error": "TypeError"}
+{"code": " 'path_to_append = ' + str(path_to_append)", "compilation_passed": true, "time": 0.007570981979370117, "tests_passed": true, "error": null}
+{"code": " path_to_append if path_to_append is None else f'sys.path.append(\"{path_to_append}\")'", "compilation_passed": true, "time": 0.008344173431396484, "tests_passed": true, "error": null}
+{"code": " config['DEFAULT']['path_to_append']", "compilation_passed": true, "time": 0.010564088821411133, "tests_passed": false, "error": "KeyError"}
+{"code": " \"PATH_TO_APPEND\" if config_file == CONFIG_FILE else \"path_to_append\"", "compilation_passed": true, "time": 0.007809877395629883, "tests_passed": true, "error": null}
+{"code": " '\\n\\n'.join(sys.path)", "compilation_passed": true, "time": 0.01081538200378418, "tests_passed": false, "error": "TypeError"}
+{"code": " 'PATH_TO_APPEND'", "compilation_passed": true, "time": 0.007586002349853516, "tests_passed": true, "error": null}
+{"code": " str(path_to_append).replace('\\\\', '/')", "compilation_passed": true, "time": 0.011212825775146484, "tests_passed": true, "error": null}
+{"code": " ' '.join(sys.path)", "compilation_passed": true, "time": 0.009799957275390625, "tests_passed": false, "error": "TypeError"}
+{"code": " path_to_append if isinstance(path_to_append, str) else ','.join(path_to_append)", "compilation_passed": true, "time": 0.006659030914306641, "tests_passed": true, "error": null}
+{"code": " \"'%s'\" % ':'.join(sys.path)", "compilation_passed": true, "time": 0.010516166687011719, "tests_passed": false, "error": "TypeError"}
+{"code": " str(path_to_append)", "compilation_passed": true, "time": 0.011745929718017578, "tests_passed": true, "error": null}
+{"code": " '/'.join(path_to_append.split('/')[1:])", "compilation_passed": true, "time": 0.007030010223388672, "tests_passed": true, "error": null}
+{"code": " f\"{path_to_append}\"", "compilation_passed": true, "time": 0.011206865310668945, "tests_passed": true, "error": null}
+{"code": " '\\n'.join(sys.path)", "compilation_passed": true, "time": 0.010088205337524414, "tests_passed": false, "error": "TypeError"}
+{"code": " path_to_append if isinstance(path_to_append, str) else ', '.join(path_to_append)", "compilation_passed": true, "time": 0.010771989822387695, "tests_passed": true, "error": null}
+{"code": " 'DEFAULT[path_to_append]'", "compilation_passed": true, "time": 0.007319927215576172, "tests_passed": true, "error": null}
+{"code": " config_file + '[' + config.DEFAULTSECT + ']' + '\\n' + \\", "compilation_passed": true, "time": 0.010224103927612305, "tests_passed": false, "error": "AttributeError"}
+{"code": " 'path_to_append'", "compilation_passed": true, "time": 0.00717616081237793, "tests_passed": true, "error": null}
+{"code": " 'DEFAULT'", "compilation_passed": true, "time": 0.006749868392944336, "tests_passed": true, "error": null}
+{"code": " f'path_to_append={PATH_TO_APPEND}'", "compilation_passed": true, "time": 0.008667945861816406, "tests_passed": true, "error": null}
+{"code": " 'path_to_append' if path_to_append is None else path_to_append", "compilation_passed": true, "time": 0.01409006118774414, "tests_passed": false, "error": "TypeError"}
+{"code": " 'sys.path'", "compilation_passed": true, "time": 0.00855398178100586, "tests_passed": true, "error": null}

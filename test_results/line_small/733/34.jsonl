@@ -1,0 +1,11 @@
+{"code": " content[:-1]", "compilation_passed": true, "time": 0.0021088123321533203, "tests_passed": true, "error": null}
+{"code": " [w for w in content if not w.lower() in STOPWORDS]", "compilation_passed": true, "time": 0.01071310043334961, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s+$\", \"\", \" \".join(content))", "compilation_passed": true, "time": 0.007451057434082031, "tests_passed": true, "error": null}
+{"code": " [w for w in content[:-1] if w not in STOPWORDS]", "compilation_passed": true, "time": 0.0017631053924560547, "tests_passed": true, "error": null}
+{"code": " content[0:-1]", "compilation_passed": true, "time": 0.0016601085662841797, "tests_passed": true, "error": null}
+{"code": " [w.lower() for w in content if w not in STOPWORDS]", "compilation_passed": true, "time": 0.005171060562133789, "tests_passed": true, "error": null}
+{"code": " content[:len(content) - 1]", "compilation_passed": true, "time": 0.0016512870788574219, "tests_passed": true, "error": null}
+{"code": " content[0:len(content)-1]", "compilation_passed": true, "time": 0.0017888545989990234, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00037026405334472656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [word for word in content if word not in STOPWORDS]", "compilation_passed": true, "time": 0.007150888442993164, "tests_passed": true, "error": null}
+{"code": " [w for w in content if w not in STOPWORDS]", "compilation_passed": true, "time": 0.007848978042602539, "tests_passed": true, "error": null}

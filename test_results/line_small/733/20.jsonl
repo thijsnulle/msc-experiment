@@ -1,0 +1,22 @@
+{"code": " set(stopwords.words('english'))", "compilation_passed": false, "time": 0.00012111663818359375, "tests_passed": false, "error": "IndentationError"}
+{"code": " frozenset(", "compilation_passed": false, "time": 0.00017213821411132812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\"\"", "compilation_passed": false, "time": 7.82012939453125e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " set(open(\"/usr/share/dict/words\", \"r\").read().split())", "compilation_passed": false, "time": 0.00011515617370605469, "tests_passed": false, "error": "IndentationError"}
+{"code": " set(string.punctuation).union(", "compilation_passed": false, "time": 0.00018310546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ['a', 'about', 'above', 'after', 'again', 'against', 'all',", "compilation_passed": false, "time": 0.00025773048400878906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ['a', 'about', 'above', 'abst', 'accordance', 'according',", "compilation_passed": false, "time": 0.00018525123596191406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " 'the and this with that for from about an at by on to have ' \\", "compilation_passed": false, "time": 0.00011801719665527344, "tests_passed": false, "error": "IndentationError"}
+{"code": " '''a about above after ago again against all am an and any are arer", "compilation_passed": false, "time": 6.103515625e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " string.punctuation + string.ascii_letters + string.digits", "compilation_passed": false, "time": 9.703636169433594e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " set(\"a, and, are, as, at, be, been, before, being, below,", "compilation_passed": false, "time": 6.985664367675781e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " frozenset(string.punctuation +", "compilation_passed": false, "time": 0.00016880035400390625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'a', 'about', 'above', 'across', 'after', 'all', 'almost', 'alone', 'along', 'already', 'also', 'although', 'always', 'among', 'an', 'and', 'any', 'are', 'aren\\'t', 'as', 'aside', 'ask', 'at', 'away', 'because', 'before', 'being', 'below', 'between', 'both', 'but', 'by', 'can\\'t', 'cannot', 'come', 'could', 'couldn\\'t', 'despite', 'did', 'didn\\'t', 'do', 'does', 'doesn\\'t', 'doing', 'don\\'t', 'down', 'during', 'each', 'early', 'either', 'else', 'elsewhere', 'enough', 'especially', 'et', 'even', 'evenly'", "compilation_passed": false, "time": 0.0002319812774658203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " re.compile(r\"(\\w[\\w'-]*\\s*(?:\\b[\" + string.punctuation + r\"]))\")", "compilation_passed": false, "time": 0.00010704994201660156, "tests_passed": false, "error": "IndentationError"}
+{"code": " ['a', 'an', 'and', 'are', 'as', 'at', 'be', 'been',", "compilation_passed": false, "time": 0.00017309188842773438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {", "compilation_passed": false, "time": 0.00017786026000976562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'a',", "compilation_passed": false, "time": 0.00018143653869628906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ['i', 'me', 'my', 'myself', 'we', 'our', 'ours',", "compilation_passed": false, "time": 0.00018262863159179688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [", "compilation_passed": false, "time": 0.0002880096435546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ['the', 'i', 'a', 'an', 'this', 'am', 'is', 'are', 'are',", "compilation_passed": false, "time": 0.0002276897430419922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " re.compile('|'.join(map(re.escape, string.punctuation)))", "compilation_passed": false, "time": 0.00017118453979492188, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.sub(r\"\\s+'|'s\", ' ', open(\"/usr/share/dict/american-english.txt\").read().lower())", "compilation_passed": false, "time": 0.00015306472778320312, "tests_passed": false, "error": "IndentationError"}

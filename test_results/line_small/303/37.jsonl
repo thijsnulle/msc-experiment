@@ -1,0 +1,28 @@
+{"code": " 0.9749279121818237 + math.sin(math.radians(years_since_moon_phase_year / 4.7 * 12))", "compilation_passed": true, "time": 0.0048601627349853516, "tests_passed": true, "error": null}
+{"code": " 1 + np.sin((years_since_moon_phase_year * math.pi) / 7) / 2", "compilation_passed": true, "time": 0.004822969436645508, "tests_passed": true, "error": null}
+{"code": " (years_since_moon_phase_year / 7) % 1", "compilation_passed": true, "time": 0.002832174301147461, "tests_passed": true, "error": null}
+{"code": " 1.0 - math.sin(years_since_moon_phase_year * 2 * math.pi / 7) / 2 + 0.5", "compilation_passed": true, "time": 0.004112958908081055, "tests_passed": true, "error": null}
+{"code": " (((np.floor(years_since_moon_phase_year / 7) % 7) / 6) + math.floor(years_since_moon_phase_year / 7) + years_since_moon_phase_year % 7) / 14", "compilation_passed": true, "time": 0.0054247379302978516, "tests_passed": true, "error": null}
+{"code": " math.fmod(years_since_moon_phase_year * 7 + (converted_date.month / 12.0), 7)", "compilation_passed": true, "time": 0.0021140575408935547, "tests_passed": true, "error": null}
+{"code": " math.sin(2 * np.pi / 7 * years_since_moon_phase_year) / 2 + 0.5", "compilation_passed": true, "time": 0.0016880035400390625, "tests_passed": true, "error": null}
+{"code": " (", "compilation_passed": false, "time": 0.0002651214599609375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " 1 - (years_since_moon_phase_year * (1 - 1 / 7.0))", "compilation_passed": true, "time": 0.004600048065185547, "tests_passed": true, "error": null}
+{"code": " years_since_moon_phase_year % 7 / 7", "compilation_passed": true, "time": 0.002190113067626953, "tests_passed": true, "error": null}
+{"code": " math.atan((years_since_moon_phase_year + 1) / (1 + years_since_moon_phase_year)) / math.pi", "compilation_passed": true, "time": 0.0019631385803222656, "tests_passed": true, "error": null}
+{"code": " math.sin(math.radians(years_since_moon_phase_year * 365.25)) / 2 + .5", "compilation_passed": true, "time": 0.001856088638305664, "tests_passed": true, "error": null}
+{"code": " 0.", "compilation_passed": true, "time": 0.0018718242645263672, "tests_passed": true, "error": null}
+{"code": " ((1 + math.sin(2 * math.pi / 7 * years_since_moon_phase_year)) / 2)", "compilation_passed": true, "time": 0.0017230510711669922, "tests_passed": true, "error": null}
+{"code": " (2 * math.pi * (years_since_moon_phase_year % 7) / 7.0)", "compilation_passed": true, "time": 0.004462718963623047, "tests_passed": true, "error": null}
+{"code": " math.fmod(years_since_moon_phase_year / 7.0, 1.0)", "compilation_passed": true, "time": 0.0016672611236572266, "tests_passed": true, "error": null}
+{"code": " 2 * math.pi / 7 * years_since_moon_phase_year", "compilation_passed": true, "time": 0.004024982452392578, "tests_passed": true, "error": null}
+{"code": " math.floor(years_since_moon_phase_year / 7)", "compilation_passed": true, "time": 0.004473209381103516, "tests_passed": true, "error": null}
+{"code": " 1 - 0.2 * math.sin(", "compilation_passed": false, "time": 0.0002300739288330078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.abs(4.366 * (2 * np.pi * years_since_moon_phase_year) / (29.53058868 * 365))", "compilation_passed": true, "time": 0.0018241405487060547, "tests_passed": true, "error": null}
+{"code": " math.sin(2 * math.pi / 7 * years_since_moon_phase_year) / 2 + 0.5", "compilation_passed": true, "time": 0.0019350051879882812, "tests_passed": true, "error": null}
+{"code": " 1 - math.sin(2 * math.pi / 7 * (years_since_moon_phase_year % 7)) / 2", "compilation_passed": true, "time": 0.004555225372314453, "tests_passed": true, "error": null}
+{"code": " (converted_date.timetuple().tm_yday - 1 - (moon_phase_year - 1987) * 364) / 364", "compilation_passed": true, "time": 0.004209041595458984, "tests_passed": true, "error": null}
+{"code": " math.fmod(years_since_moon_phase_year / 7, 1)", "compilation_passed": true, "time": 0.0019080638885498047, "tests_passed": true, "error": null}
+{"code": " math.ceil(np.clip(years_since_moon_phase_year / 7, 0, 1))", "compilation_passed": true, "time": 0.0025038719177246094, "tests_passed": true, "error": null}
+{"code": " math.fmod(years_since_moon_phase_year, 7.0) / 7.0", "compilation_passed": true, "time": 0.001712799072265625, "tests_passed": true, "error": null}
+{"code": " (years_since_moon_phase_year % 7) / 7", "compilation_passed": true, "time": 0.0019268989562988281, "tests_passed": true, "error": null}
+{"code": " 1 - (math.sin(math.radians((years_since_moon_phase_year % 7) * 28.30)) / 2)", "compilation_passed": true, "time": 0.001955747604370117, "tests_passed": true, "error": null}

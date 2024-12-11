@@ -1,0 +1,8 @@
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.017444849014282227, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=COLUMNS)", "compilation_passed": true, "time": 0.39963507652282715, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data) if len(data) > 0 else pd.DataFrame()", "compilation_passed": true, "time": 0.01358175277709961, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data).dropna(subset=[column], how='any')", "compilation_passed": true, "time": 0.011579036712646484, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data) if data else pd.DataFrame()", "compilation_passed": true, "time": 0.013854026794433594, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=data, columns=COLUMNS)", "compilation_passed": true, "time": 0.4057040214538574, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=data) if len(data) > 0 else pd.DataFrame({col: np.nan for col in COLUMNS})", "compilation_passed": true, "time": 0.014536857604980469, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data) if len(data) > 0 else pd.DataFrame([])", "compilation_passed": true, "time": 0.012108802795410156, "tests_passed": false, "error": "KeyError"}

@@ -1,0 +1,16 @@
+{"code": " len(name) == 0:", "compilation_passed": true, "time": 0.018898963928222656, "tests_passed": false, "error": "TypeError"}
+{"code": " name is None:", "compilation_passed": true, "time": 0.07226419448852539, "tests_passed": true, "error": null}
+{"code": " len(name) < len(filename):", "compilation_passed": true, "time": 0.01982903480529785, "tests_passed": false, "error": "TypeError"}
+{"code": " len(filename) > len(name) or name is None:", "compilation_passed": true, "time": 0.0182037353515625, "tests_passed": false, "error": "TypeError"}
+{"code": " len(name) < len(filename) - len('.csv'):", "compilation_passed": true, "time": 0.01943206787109375, "tests_passed": false, "error": "TypeError"}
+{"code": " os.path.getsize(os.path.join(directory, filename)) > 0:", "compilation_passed": true, "time": 0.07570409774780273, "tests_passed": true, "error": null}
+{"code": " name is None or len(name) < len(filename):", "compilation_passed": true, "time": 0.07181286811828613, "tests_passed": true, "error": null}
+{"code": " name is None or len(os.path.getsize(filename)) > len(os.path.getsize(name)):", "compilation_passed": true, "time": 0.049645185470581055, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " name is None or os.path.getsize(os.path.join(directory, filename)) > os.path.getsize(os.path.join(directory, name)):", "compilation_passed": true, "time": 0.07055902481079102, "tests_passed": true, "error": null}
+{"code": " name is None or len(filename) > len(name):", "compilation_passed": true, "time": 0.07076001167297363, "tests_passed": true, "error": null}
+{"code": " name is None or len(os.path.splitext(filename)[0]) > len(name):", "compilation_passed": true, "time": 0.07193875312805176, "tests_passed": true, "error": null}
+{"code": " name is None or os.path.getsize(directory + '/' + filename) > os.path.getsize(directory + '/' + name):", "compilation_passed": true, "time": 0.07367324829101562, "tests_passed": true, "error": null}
+{"code": " name is None or len(os.path.getsize(os.path.join(directory, filename))) > len(os.path.getsize(os.path.join(directory, name))):", "compilation_passed": true, "time": 0.054038047790527344, "tests_passed": false, "error": "TypeError"}
+{"code": " len(name) < len(filename) and filename[:-4].isdigit():", "compilation_passed": true, "time": 0.019175052642822266, "tests_passed": false, "error": "TypeError"}
+{"code": " len(name) < len(filename[:-4]):", "compilation_passed": true, "time": 0.020138978958129883, "tests_passed": false, "error": "TypeError"}
+{"code": " name is None or len(os.path.join(directory, filename).split('.')[0]) > len(name):", "compilation_passed": true, "time": 0.07158613204956055, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": " code_to_product.get(code, None)", "compilation_passed": true, "time": 0.020569801330566406, "tests_passed": true, "error": null}
+{"code": " None", "compilation_passed": true, "time": 0.02078080177307129, "tests_passed": true, "error": null}
+{"code": " code_to_product.get(code, random.choice(products))", "compilation_passed": true, "time": 0.019561052322387695, "tests_passed": true, "error": null}
+{"code": " code_to_product.setdefault(code, random.choice(products))", "compilation_passed": true, "time": 0.020907878875732422, "tests_passed": true, "error": null}
+{"code": " code_to_product.get(code, random.sample(products, 1)[0])", "compilation_passed": true, "time": 0.019431114196777344, "tests_passed": true, "error": null}
+{"code": " code_to_product.get(code, products[random.randrange(len(products))])", "compilation_passed": true, "time": 0.0218050479888916, "tests_passed": true, "error": null}
+{"code": " code_to_product.setdefault(code, products.pop())", "compilation_passed": true, "time": 0.020939111709594727, "tests_passed": true, "error": null}
+{"code": " code_to_product.get(code)", "compilation_passed": true, "time": 0.019781112670898438, "tests_passed": true, "error": null}
+{"code": " code_to_product.get(code, \"\") or random.choice(products)", "compilation_passed": true, "time": 0.02301621437072754, "tests_passed": true, "error": null}

@@ -1,0 +1,20 @@
+{"code": " [word.lower() for word in dollar_prefixed_words if len(word) > 1]", "compilation_passed": true, "time": 0.0013239383697509766, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.lower() for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.0011839866638183594, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.lower().strip('$') for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.0014851093292236328, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.lower().strip('$') for word in dollar_prefixed_words if word != '$']", "compilation_passed": true, "time": 0.001260995864868164, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.lower() for word in dollar_prefixed_words if word.isalpha()]", "compilation_passed": true, "time": 0.0011141300201416016, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [w.lower() for w in dollar_prefixed_words]", "compilation_passed": true, "time": 0.0009288787841796875, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.lower() for word in dollar_prefixed_words if word.lower() != '$$']", "compilation_passed": true, "time": 0.0009310245513916016, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.strip(\"$\") for word in dollar_prefixed_words if word.strip(\"$\")]", "compilation_passed": true, "time": 0.0010738372802734375, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " []", "compilation_passed": true, "time": 0.0008182525634765625, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.lower() for word in dollar_prefixed_words if not word.isdigit()]", "compilation_passed": true, "time": 0.0008080005645751953, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.lower() for word in dollar_prefixed_words if word.lower() != '$']", "compilation_passed": true, "time": 0.0007901191711425781, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.strip(\"$\") for word in dollar_prefixed_words if word.strip()]", "compilation_passed": true, "time": 0.0008141994476318359, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.replace(\"$\", \"\") for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.0012500286102294922, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word[1:] for word in dollar_prefixed_words if word[0] == '$']", "compilation_passed": true, "time": 0.0008637905120849609, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.lower().strip(\"$\") for word in dollar_prefixed_words if word.strip(\"$\")]", "compilation_passed": true, "time": 0.0010249614715576172, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word[1:] for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.0007979869842529297, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.lower() for word in dollar_prefixed_words if len(word.strip('$')) > 0]", "compilation_passed": true, "time": 0.0008192062377929688, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [w.lower() for w in dollar_prefixed_words if w.lower() != '$']", "compilation_passed": true, "time": 0.0009281635284423828, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.replace('$', '') for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.0008471012115478516, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word[1:].lower() if word[1:].isalpha() else \"\" for word in dollar_prefixed_words if word.startswith('$')]", "compilation_passed": true, "time": 0.0008409023284912109, "tests_passed": false, "error": "No module named 'nltk'"}

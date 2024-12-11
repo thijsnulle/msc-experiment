@@ -1,0 +1,7 @@
+{"code": " any(number < 0 for number in numbers):", "compilation_passed": true, "time": 0.0016558170318603516, "tests_passed": true, "error": null}
+{"code": " not all(number >= 0 for number in numbers):", "compilation_passed": true, "time": 0.0018579959869384766, "tests_passed": true, "error": null}
+{"code": " not all(0 <= number for number in numbers):", "compilation_passed": true, "time": 0.0016281604766845703, "tests_passed": true, "error": null}
+{"code": " len(numbers) == 0:", "compilation_passed": true, "time": 0.010212898254394531, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(number > -1 for number in numbers):", "compilation_passed": true, "time": 0.0016100406646728516, "tests_passed": true, "error": null}
+{"code": " not numbers:", "compilation_passed": true, "time": 0.014597892761230469, "tests_passed": false, "error": "ValueError"}
+{"code": " len(numbers) > 0 and (not all(number >= 0 for number in numbers)):", "compilation_passed": true, "time": 0.0017681121826171875, "tests_passed": true, "error": null}

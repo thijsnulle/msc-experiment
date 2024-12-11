@@ -1,0 +1,16 @@
+{"code": " re.sub('[^A-Za-z0-9 ]+', '', text)", "compilation_passed": true, "time": 0.003778696060180664, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s]\", \"\", text)", "compilation_passed": true, "time": 0.0034291744232177734, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z0-9 ]', '', text)", "compilation_passed": true, "time": 0.003871917724609375, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', text)", "compilation_passed": true, "time": 0.003384828567504883, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\W|\\d+\", \" \", text).strip()", "compilation_passed": true, "time": 0.01296091079711914, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s]\", \" \", text)", "compilation_passed": true, "time": 0.003165006637573242, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\W\", \" \", text).strip()", "compilation_passed": true, "time": 0.003419160842895508, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\W+\", \" \", text)", "compilation_passed": true, "time": 0.0031321048736572266, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[\\W_]+\", \" \", text)", "compilation_passed": true, "time": 0.0034508705139160156, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z0-9\\s]', '', text)", "compilation_passed": true, "time": 0.0032520294189453125, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text)", "compilation_passed": true, "time": 0.0032160282135009766, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z\\s]', '', text)", "compilation_passed": true, "time": 0.01276397705078125, "tests_passed": true, "error": null}
+{"code": " re.sub('[\\W_]+', ' ', text)", "compilation_passed": true, "time": 0.003384113311767578, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^a-zA-Z\\s]+\", \"\", text)", "compilation_passed": true, "time": 0.012637853622436523, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z ]+', '', text)", "compilation_passed": true, "time": 0.012540102005004883, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\W+\", \" \", text).lower()", "compilation_passed": true, "time": 0.0034160614013671875, "tests_passed": true, "error": null}

@@ -1,0 +1,29 @@
+{"code": " analyzed_df.pivot(index=COLUMNS[:-1], columns=COLUMNS[-1], values='col1').astype(int)", "compilation_passed": true, "time": 0.014927864074707031, "tests_passed": false, "error": "pandas.errors.IntCastingNaNError"}
+{"code": " analyzed_df.pivot_table(index=COLUMNS[:-1], columns=COLUMNS[-1])", "compilation_passed": true, "time": 0.020592927932739258, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.crosstab(df[COLUMNS[0]], df[COLUMNS[1]], values=COLUMNS[-1], aggfunc='count')", "compilation_passed": true, "time": 0.37875890731811523, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot_table(index=COLUMNS[:-1], columns=COLUMNS[-1], aggfunc='size', fill_value=0)", "compilation_passed": true, "time": 0.38604187965393066, "tests_passed": true, "error": null}
+{"code": " analyzed_df.rename(columns={COLUMNS[-1]: 'uniques_count'})", "compilation_passed": true, "time": 0.4771749973297119, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot(index=COLUMNS[:-1], columns=COLUMNS[-1], values='col3')", "compilation_passed": true, "time": 0.44733095169067383, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot_table(index=COLUMNS[:-1], columns=COLUMNS[-1], values='col1', aggfunc='count')", "compilation_passed": true, "time": 0.01819777488708496, "tests_passed": false, "error": "ValueError"}
+{"code": " analyzed_df.rename({COLUMNS[-1]: 'count'})", "compilation_passed": true, "time": 0.49620509147644043, "tests_passed": true, "error": null}
+{"code": " analyzed_df.set_index(COLUMNS[:-1])", "compilation_passed": true, "time": 0.5552680492401123, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot(columns=COLUMNS[-1])", "compilation_passed": true, "time": 0.5754218101501465, "tests_passed": true, "error": null}
+{"code": " analyzed_df.sort_values(by=COLUMNS[-1], ascending=False).reset_index(drop=True)", "compilation_passed": true, "time": 0.6228642463684082, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot_table(index='col1', columns='col2', values=COLUMNS[-1], aggfunc='mean')", "compilation_passed": true, "time": 1.0153639316558838, "tests_passed": false, "error": "TimeoutError"}
+{"code": " analyzed_df.groupby(COLUMNS[:-1], as_index=False)['col3'].value_counts().sort_values(by='col3').reset_index()", "compilation_passed": true, "time": 0.6905009746551514, "tests_passed": true, "error": null}
+{"code": " analyzed_df.rename(columns={COLUMNS[-1]: 'n_unique_vals'})", "compilation_passed": true, "time": 0.7180130481719971, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot(index=COLUMNS[:-1], columns=COLUMNS[-1], values='nunique')", "compilation_passed": true, "time": 0.025758981704711914, "tests_passed": false, "error": "KeyError"}
+{"code": " analyzed_df.rename(columns={COLUMNS[-1]: 'freq'})", "compilation_passed": true, "time": 0.7867717742919922, "tests_passed": true, "error": null}
+{"code": " analyzed_df.sort_values(COLUMNS[-1], ascending=False)", "compilation_passed": true, "time": 0.8974590301513672, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot(index='col1', columns='col2', values=COLUMNS[-1]).reset_index()", "compilation_passed": true, "time": 1.0118052959442139, "tests_passed": false, "error": "TimeoutError"}
+{"code": " analyzed_df.sort_values(by='nunique', ascending=False)", "compilation_passed": true, "time": 0.013520002365112305, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.melt(analyzed_df, id_vars='col2', var_name='col3')", "compilation_passed": true, "time": 0.0142059326171875, "tests_passed": false, "error": "ValueError"}
+{"code": " analyzed_df.rename(columns={COLUMNS[-1]: 'Count'})", "compilation_passed": true, "time": 0.9748270511627197, "tests_passed": true, "error": null}
+{"code": " analyzed_df.rename(columns={COLUMNS[-1]: 'count'})", "compilation_passed": true, "time": 0.9622828960418701, "tests_passed": true, "error": null}
+{"code": " analyzed_df.set_index(COLUMNS[:-1])[COLUMNS[-1]]", "compilation_passed": true, "time": 0.0185546875, "tests_passed": false, "error": "IndexError"}
+{"code": " analyzed_df.pivot(index=COLUMNS[0], columns=COLUMNS[1], values=COLUMNS[-1]).sort_index(axis=1)", "compilation_passed": true, "time": 1.011969804763794, "tests_passed": false, "error": "TimeoutError"}
+{"code": " analyzed_df.melt(value_name='N')", "compilation_passed": true, "time": 0.014748096466064453, "tests_passed": false, "error": "ValueError"}
+{"code": " analyzed_df.pivot_table(index=COLUMNS[:-1], columns=COLUMNS[-1]).reset_index()", "compilation_passed": true, "time": 1.0102229118347168, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(analyzed_df.groupby(COLUMNS[:-1])[COLUMNS[-1]].value_counts(dropna=False).rename(COLUMNS[-1]).reset_index(), columns=COLUMNS)", "compilation_passed": true, "time": 0.01386713981628418, "tests_passed": false, "error": "ValueError"}
+{"code": " analyzed_df.sort_values(by=COLUMNS[-1])", "compilation_passed": true, "time": 1.0148279666900635, "tests_passed": false, "error": "TimeoutError"}
+{"code": " analyzed_df.pivot_table(index=COLUMNS[0], columns=COLUMNS[1], values=COLUMNS[-1])", "compilation_passed": true, "time": 1.010965347290039, "tests_passed": false, "error": "TimeoutError"}

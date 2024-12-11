@@ -1,0 +1,8 @@
+{"code": " df[column_name].str.replace('\\n', '<br />')", "compilation_passed": true, "time": 0.027302265167236328, "tests_passed": true, "error": null}
+{"code": " df[column_name].replace('\\n', '<br />')", "compilation_passed": true, "time": 0.024651050567626953, "tests_passed": true, "error": null}
+{"code": " df[column_name].str.replace(r\"\\n\", \"<br />\")", "compilation_passed": true, "time": 0.026961803436279297, "tests_passed": true, "error": null}
+{"code": " df[column_name].replace('\\n', '<br>')", "compilation_passed": true, "time": 0.025702953338623047, "tests_passed": true, "error": null}
+{"code": " df[column_name].str.replace(r'\\n', '<br />')", "compilation_passed": true, "time": 0.024786949157714844, "tests_passed": true, "error": null}
+{"code": " df[column_name].map(lambda x: x.replace('\\n', '<br />'))", "compilation_passed": true, "time": 0.02651190757751465, "tests_passed": true, "error": null}
+{"code": " df[column_name].str.replace(\"\\n\", \"<br />\")", "compilation_passed": true, "time": 0.026615142822265625, "tests_passed": true, "error": null}
+{"code": " df[column_name].apply(lambda x: x.replace('\\n', '<br />'))", "compilation_passed": true, "time": 0.02655196189880371, "tests_passed": true, "error": null}

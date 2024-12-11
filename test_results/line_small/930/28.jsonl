@@ -1,0 +1,22 @@
+{"code": " word is None:", "compilation_passed": true, "time": 0.00521397590637207, "tests_passed": true, "error": null}
+{"code": " any(char in string.digits + string.punctuation for char in word):", "compilation_passed": true, "time": 0.0014150142669677734, "tests_passed": true, "error": null}
+{"code": " len(word) < 2:", "compilation_passed": true, "time": 0.006696939468383789, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(c.isalpha() for c in word):", "compilation_passed": true, "time": 0.0013911724090576172, "tests_passed": true, "error": null}
+{"code": " not all(char.isalpha() for char in word):", "compilation_passed": true, "time": 0.0013530254364013672, "tests_passed": true, "error": null}
+{"code": " word:", "compilation_passed": true, "time": 0.006475687026977539, "tests_passed": false, "error": "ValueError"}
+{"code": " set(word) - set(POSSIBLE_LETTERS):", "compilation_passed": true, "time": 0.007411003112792969, "tests_passed": false, "error": "ValueError"}
+{"code": " any(letter not in string.ascii_letters for letter in word):", "compilation_passed": true, "time": 0.0014011859893798828, "tests_passed": true, "error": null}
+{"code": " not all(ch.isalpha() for ch in word):", "compilation_passed": true, "time": 0.0014002323150634766, "tests_passed": true, "error": null}
+{"code": " not all(c in POSSIBLE_LETTERS for c in word):", "compilation_passed": true, "time": 0.006321907043457031, "tests_passed": false, "error": "ValueError"}
+{"code": " not all([char in string.ascii_lowercase for char in word]):", "compilation_passed": true, "time": 0.0014889240264892578, "tests_passed": true, "error": null}
+{"code": " not all([i in string.ascii_lowercase for i in word]):", "compilation_passed": true, "time": 0.0015149116516113281, "tests_passed": true, "error": null}
+{"code": " not all([letter in string.ascii_letters for letter in word]):", "compilation_passed": true, "time": 0.0013680458068847656, "tests_passed": true, "error": null}
+{"code": " len(word) == 0 or len(word) == 1 or len(word) > 10:", "compilation_passed": true, "time": 0.0067751407623291016, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(c in string.ascii_letters for c in word):", "compilation_passed": true, "time": 0.0013689994812011719, "tests_passed": true, "error": null}
+{"code": " any(i not in string.ascii_letters for i in word):", "compilation_passed": true, "time": 0.0013799667358398438, "tests_passed": true, "error": null}
+{"code": " set(word) - set(string.ascii_lowercase) != set():", "compilation_passed": true, "time": 0.0013668537139892578, "tests_passed": true, "error": null}
+{"code": " word.isalnum() is False:", "compilation_passed": true, "time": 0.007256031036376953, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(char in string.ascii_letters for char in word):", "compilation_passed": true, "time": 0.0014338493347167969, "tests_passed": true, "error": null}
+{"code": " not word.isalpha():", "compilation_passed": true, "time": 0.006170034408569336, "tests_passed": false, "error": "ValueError"}
+{"code": " set(word).difference(set(string.ascii_letters)):", "compilation_passed": true, "time": 0.0015149116516113281, "tests_passed": true, "error": null}
+{"code": " word == '':", "compilation_passed": true, "time": 0.006453037261962891, "tests_passed": false, "error": "ValueError"}

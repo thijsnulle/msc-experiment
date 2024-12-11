@@ -1,0 +1,16 @@
+{"code": " pd.DataFrame(counter, index=['MenuItem'])", "compilation_passed": true, "time": 0.005178213119506836, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'MenuItem': counter.keys(), 'Count': counter.values()})", "compilation_passed": true, "time": 0.005702972412109375, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(counter.items())", "compilation_passed": true, "time": 0.00574183464050293, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(zip(counter.keys(), counter.values())))", "compilation_passed": true, "time": 0.005316019058227539, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(counter.items(), columns=['MenuItem', 'Count'])", "compilation_passed": true, "time": 0.004870891571044922, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'MenuItem': list(counter.keys()), 'Count': list(counter.values())})", "compilation_passed": true, "time": 0.00535893440246582, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(counter, orient='index', columns=['Count'])", "compilation_passed": true, "time": 0.005042076110839844, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(zip(counter.keys(), counter.values())), columns = ['MenuItem', 'Count'])", "compilation_passed": true, "time": 0.004949092864990234, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(counter, orient=\"index\").reset_index(name=\"Count\")", "compilation_passed": true, "time": 0.008085012435913086, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00015592575073242188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(dict(MenuItem=counter.keys(), Count=counter.values()), index=list(counter.keys()))", "compilation_passed": true, "time": 0.005168914794921875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Menu Items': counter.keys(), 'Count': counter.values()})", "compilation_passed": true, "time": 0.0048520565032958984, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(dict(Counter(flat_list)), index=['MenuItem'])", "compilation_passed": true, "time": 0.0051610469818115234, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(counter).T", "compilation_passed": true, "time": 0.007410764694213867, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(counter.most_common(), columns=['MenuItem', 'Count'])", "compilation_passed": true, "time": 0.005040884017944336, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(dict(counter), index=['MenuItem']).T", "compilation_passed": true, "time": 0.010761022567749023, "tests_passed": true, "error": null}

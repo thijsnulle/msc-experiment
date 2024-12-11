@@ -1,0 +1,15 @@
+{"code": " [ALPHANUMERIC.sub(' ', text).lower().split() for text in texts]", "compilation_passed": true, "time": 0.013606786727905273, "tests_passed": false, "error": "AttributeError"}
+{"code": " [ALPHANUMERIC.sub(' ', text.lower()).strip() for text in texts]", "compilation_passed": true, "time": 0.02324199676513672, "tests_passed": true, "error": null}
+{"code": " [ALPHANUMERIC.sub(' ', t).lower().split() for t in texts]", "compilation_passed": true, "time": 0.011628150939941406, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.005829811096191406, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0001990795135498047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [ALPHANUMERIC.sub(' ', t.lower()).strip().split(' ') for t in texts]  # Clean the texts", "compilation_passed": true, "time": 0.012035131454467773, "tests_passed": false, "error": "AttributeError"}
+{"code": " [ALPHANUMERIC.sub(' ', text).lower() for text in texts]", "compilation_passed": true, "time": 0.024307966232299805, "tests_passed": true, "error": null}
+{"code": " [ALPHANUMERIC.sub(' ', text.lower()).split() for text in texts]", "compilation_passed": true, "time": 0.011793136596679688, "tests_passed": false, "error": "AttributeError"}
+{"code": " [ALPHANUMERIC.sub(' ', text.lower()) for text in texts]", "compilation_passed": true, "time": 0.02224111557006836, "tests_passed": true, "error": null}
+{"code": " [ALPHANUMERIC.sub('', text.lower()).strip() for text in texts if text.strip()]", "compilation_passed": true, "time": 0.008402109146118164, "tests_passed": false, "error": "ValueError"}
+{"code": " [ALPHANUMERIC.sub('', doc.lower()).split() for doc in texts]", "compilation_passed": true, "time": 0.011970043182373047, "tests_passed": false, "error": "AttributeError"}
+{"code": " [ALPHANUMERIC.sub(' ', text.lower()).strip()", "compilation_passed": false, "time": 0.00021004676818847656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [ALPHANUMERIC.sub('', text).lower().strip() for text in texts]", "compilation_passed": true, "time": 0.008368968963623047, "tests_passed": false, "error": "ValueError"}
+{"code": " [ALPHANUMERIC.sub('', text).lower().split() for text in texts]", "compilation_passed": true, "time": 0.011305809020996094, "tests_passed": false, "error": "AttributeError"}
+{"code": " [ALPHANUMERIC.sub('', s).lower().split() for s in texts]", "compilation_passed": true, "time": 0.011522054672241211, "tests_passed": false, "error": "AttributeError"}

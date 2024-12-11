@@ -1,0 +1,22 @@
+{"code": " np.rint(df[\"age\"])", "compilation_passed": true, "time": 0.24149727821350098, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].round().astype(int)", "compilation_passed": true, "time": 0.3365170955657959, "tests_passed": true, "error": null}
+{"code": " np.rint(df[\"age\"]).astype(int)", "compilation_passed": true, "time": 0.3323338031768799, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].round(0)", "compilation_passed": true, "time": 0.26778483390808105, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].round()", "compilation_passed": true, "time": 0.33717775344848633, "tests_passed": true, "error": null}
+{"code": " np.floor(df[\"age\"])", "compilation_passed": true, "time": 0.3478240966796875, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(int)", "compilation_passed": true, "time": 0.29369401931762695, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].astype(int)", "compilation_passed": true, "time": 0.28101110458374023, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[\"age\"].astype(str)).astype(int)", "compilation_passed": true, "time": 1.1130540370941162, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df[\"age\"].apply(round)", "compilation_passed": true, "time": 0.32924318313598633, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(lambda x: round(x))  # Round ages to the nearest integer", "compilation_passed": true, "time": 0.28738880157470703, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(np.round)", "compilation_passed": true, "time": 0.2724151611328125, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[\"age\"]).astype(int)", "compilation_passed": true, "time": 0.2588841915130615, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(lambda x: round(x))", "compilation_passed": true, "time": 0.28006505966186523, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(np.int32)", "compilation_passed": true, "time": 0.2665722370147705, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(lambda x: np.int32(np.rint(x)))", "compilation_passed": true, "time": 0.27150511741638184, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(lambda x: int(np.floor(x)))", "compilation_passed": true, "time": 0.29859113693237305, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(lambda age: round(age // 1) if isinstance(age, float) else int(age))", "compilation_passed": true, "time": 0.27553486824035645, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(np.floor)", "compilation_passed": true, "time": 0.32303881645202637, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[\"age\"], errors=\"coerce\").round(0).astype(int)", "compilation_passed": true, "time": 0.44333600997924805, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(lambda x: round(x) if isinstance(x, float) else x)", "compilation_passed": true, "time": 0.2678852081298828, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(int).round(0)", "compilation_passed": true, "time": 0.2660257816314697, "tests_passed": true, "error": null}

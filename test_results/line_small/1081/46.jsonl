@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.032958030700683594, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, index=[\"a\", \"b\", \"c\", \"d\", \"e\"])", "compilation_passed": true, "time": 0.008999824523925781, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data=data)", "compilation_passed": true, "time": 0.0371549129486084, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, index=range(len(data[\"Weight_String\"])))", "compilation_passed": true, "time": 0.03284096717834473, "tests_passed": true, "error": null}

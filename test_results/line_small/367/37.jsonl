@@ -1,0 +1,4 @@
+{"code": " [activity_counts.get(day, 0) for day in days]", "compilation_passed": true, "time": 0.08052682876586914, "tests_passed": true, "error": null}
+{"code": " list(activity_counts.values())", "compilation_passed": true, "time": 0.023591279983520508, "tests_passed": false, "error": "ValueError"}
+{"code": " [activity_counts[day] for day in days]", "compilation_passed": true, "time": 0.07206296920776367, "tests_passed": true, "error": null}
+{"code": " [activity_counts.get(day) for day in days]", "compilation_passed": true, "time": 0.027695894241333008, "tests_passed": false, "error": "TypeError"}

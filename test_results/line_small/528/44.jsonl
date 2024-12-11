@@ -1,0 +1,21 @@
+{"code": " plt.bar(range(len(duplicates)), list(duplicates.values()), align='center')", "compilation_passed": true, "time": 0.37644100189208984, "tests_passed": true, "error": null}
+{"code": " plt.bar(", "compilation_passed": false, "time": 0.00023794174194335938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.bar(duplicates.keys(), duplicates.values(), align='center')", "compilation_passed": true, "time": 0.09389615058898926, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.bar(duplicates.keys(), duplicates.values())", "compilation_passed": true, "time": 0.07361888885498047, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.barh(range(len(duplicates)), duplicates.values(), align=\"center\", color='blue')", "compilation_passed": true, "time": 0.3859999179840088, "tests_passed": true, "error": null}
+{"code": " plt.figure().add_subplot()", "compilation_passed": true, "time": 0.3860452175140381, "tests_passed": true, "error": null}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.4130980968475342, "tests_passed": true, "error": null}
+{"code": " plt.bar(duplicates, duplicates.values())", "compilation_passed": true, "time": 0.08119606971740723, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.bar(range(len(duplicates)), [count for _, count in duplicates.most_common()])", "compilation_passed": true, "time": 0.36893200874328613, "tests_passed": true, "error": null}
+{"code": " plt.bar(range(len(duplicates)), [count for count in duplicates.values()], align=\"center\")", "compilation_passed": true, "time": 0.39420104026794434, "tests_passed": true, "error": null}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.3906433582305908, "tests_passed": true, "error": null}
+{"code": " plt.figure().add_subplot(1, 1, 1)", "compilation_passed": true, "time": 0.3914449214935303, "tests_passed": true, "error": null}
+{"code": " plt.subplots().ax[0]", "compilation_passed": true, "time": 0.06175708770751953, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.barh(range(len(duplicates)), duplicates.values(), align='center',", "compilation_passed": false, "time": 0.00024819374084472656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.bar(list(duplicates.keys()), duplicates.values())", "compilation_passed": true, "time": 0.07841897010803223, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.bar(duplicates, height=1, align=\"center\", color=\"red\")", "compilation_passed": true, "time": 0.06440210342407227, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.barh(duplicates.keys(), duplicates.values())", "compilation_passed": true, "time": 0.07835912704467773, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.bar(duplicates.keys(), duplicates.values(), width=0.75, color=\"green\")", "compilation_passed": true, "time": 0.10383176803588867, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.subplots()[1]", "compilation_passed": true, "time": 0.4078707695007324, "tests_passed": true, "error": null}
+{"code": " plt.bar(list(duplicates.keys()), list(duplicates.values()), width=0.5)", "compilation_passed": true, "time": 0.07284188270568848, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.bar(duplicates, height=1, width=0.8, color='gray')", "compilation_passed": true, "time": 0.07331204414367676, "tests_passed": false, "error": "TypeError"}

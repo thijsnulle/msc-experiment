@@ -1,0 +1,11 @@
+{"code": " open(FILE_NAME, 'wb') as f:", "compilation_passed": true, "time": 0.008910894393920898, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(os.path.join(\"files\", FILE_NAME), \"wb\") as fp:", "compilation_passed": true, "time": 0.005319833755493164, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " open(FILE_NAME, \"wb\") as f:", "compilation_passed": true, "time": 0.005163908004760742, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(os.path.join(os.getcwd(), FILE_NAME), 'wb') as f:", "compilation_passed": true, "time": 0.005160093307495117, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(FILE_NAME, 'wb') as file:", "compilation_passed": true, "time": 0.003962993621826172, "tests_passed": true, "error": null}
+{"code": " open(os.path.join(os.path.dirname(os.path.abspath(__file__)), FILE_NAME), 'wb') as file:", "compilation_passed": true, "time": 0.0043561458587646484, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(os.getcwd(), FILE_NAME), 'wb') as file:", "compilation_passed": true, "time": 0.004569053649902344, "tests_passed": true, "error": null}
+{"code": " open(FILE_NAME, \"wb\") as file:", "compilation_passed": true, "time": 0.0040700435638427734, "tests_passed": true, "error": null}
+{"code": " open(os.path.join(get_user_directory(), FILE_NAME), 'wb') as f:", "compilation_passed": true, "time": 0.004246950149536133, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(os.path.dirname(os.path.abspath(__file__)), FILE_NAME), 'wb') as f:", "compilation_passed": true, "time": 0.004119873046875, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(os.path.dirname(__file__), FILE_NAME), 'wb') as file:", "compilation_passed": true, "time": 0.003957986831665039, "tests_passed": false, "error": "NameError"}

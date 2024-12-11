@@ -1,0 +1,17 @@
+{"code": " re.sub(r\", \" + random_substring, \"\", s)", "compilation_passed": false, "time": 0.00023293495178222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.sub(rf\", \\s{random_substring}\\s\", \"\", s)", "compilation_passed": false, "time": 0.0003819465637207031, "tests_passed": false, "error": "IndentationError"}
+{"code": " \", \".join(substrings[:substrings.index(random_substring)] +", "compilation_passed": true, "time": 0.005864858627319336, "tests_passed": false, "error": "TypeError"}
+{"code": " \", \".join([s for s in substrings if s != random_substring])", "compilation_passed": false, "time": 0.0002422332763671875, "tests_passed": false, "error": "IndentationError"}
+{"code": " \", \".join([x for x in substrings if x != random_substring])", "compilation_passed": false, "time": 0.0002281665802001953, "tests_passed": false, "error": "IndentationError"}
+{"code": " s.replace(random_substring, \"\")", "compilation_passed": false, "time": 0.0002200603485107422, "tests_passed": false, "error": "IndentationError"}
+{"code": " \", \".join([ss for ss in substrings if ss != random_substring])", "compilation_passed": false, "time": 0.0002570152282714844, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.sub(\", ,\", \",\", f\"{random_substring},\")", "compilation_passed": false, "time": 0.00023794174194335938, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"{random_substring}, {', '.join(substrings[:-1])}\"", "compilation_passed": false, "time": 0.00023221969604492188, "tests_passed": false, "error": "IndentationError"}
+{"code": " \", \".join(substrings[:-1]) + \", \" + random_substring", "compilation_passed": false, "time": 0.0002989768981933594, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.sub(r'\\b' + re.escape(random_substring) + r'\\b', random_substring, s)", "compilation_passed": false, "time": 0.00022101402282714844, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\", {random_substring}\".join(substrings)", "compilation_passed": false, "time": 0.00022101402282714844, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.sub(f\", {random_substring}\", \"\", s)", "compilation_passed": false, "time": 0.0002219676971435547, "tests_passed": false, "error": "IndentationError"}
+{"code": " \", \".join(substring for substring in substrings if substring != random_substring)", "compilation_passed": false, "time": 0.00022602081298828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " \", \".join(s.split(\",\") for s in substrings if s != random_substring)", "compilation_passed": false, "time": 0.0003752708435058594, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.sub(r'(?<!\\S)[\\s,]?{}(?!\\S)[\\s,]?'.format(random_substring), \"\", s)", "compilation_passed": false, "time": 0.00022292137145996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " s.replace(random_substring, '')", "compilation_passed": false, "time": 0.00021195411682128906, "tests_passed": false, "error": "IndentationError"}

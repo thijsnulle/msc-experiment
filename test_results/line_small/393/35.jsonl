@@ -1,0 +1,18 @@
+{"code": "probplot(samples, dist='norm', plot=plt)", "compilation_passed": true, "time": 0.2779867649078369, "tests_passed": true, "error": null}
+{"code": "probplot(samples, dist=stats.norm(mu, sigma), plot=plt)", "compilation_passed": true, "time": 0.2768666744232178, "tests_passed": true, "error": null}
+{"code": "probplot(samples, plot=plt, dist=\"norm\", stats=True)", "compilation_passed": true, "time": 0.06160879135131836, "tests_passed": false, "error": "TypeError"}
+{"code": "probplot(samples, fit=True, plot=True)", "compilation_passed": true, "time": 0.06853985786437988, "tests_passed": false, "error": "AttributeError"}
+{"code": "probplot(samples, plot=plt, fit=True)", "compilation_passed": true, "time": 0.2701990604400635, "tests_passed": true, "error": null}
+{"code": "probplot(samples, dist='norm', plot=plt, fit=False)", "compilation_passed": true, "time": 0.26651692390441895, "tests_passed": true, "error": null}
+{"code": "probplot(samples, dist=None, plot=fig)", "compilation_passed": true, "time": 0.045800209045410156, "tests_passed": false, "error": "AttributeError"}
+{"code": "probplot(samples, plot=fig, dist=stats.norm(mu, sigma))", "compilation_passed": true, "time": 0.04409599304199219, "tests_passed": false, "error": "AttributeError"}
+{"code": "probplot(samples, dist='norm', plot=plt, rk=1)", "compilation_passed": true, "time": 0.04798388481140137, "tests_passed": false, "error": "TypeError"}
+{"code": "probplot(samples, plot=plt)", "compilation_passed": true, "time": 0.2708878517150879, "tests_passed": true, "error": null}
+{"code": "probplot(samples, dist='norm', plot=fig)", "compilation_passed": true, "time": 0.0444331169128418, "tests_passed": false, "error": "AttributeError"}
+{"code": "probplot(samples, plot=True)", "compilation_passed": true, "time": 0.047122955322265625, "tests_passed": false, "error": "AttributeError"}
+{"code": "probplot(samples, dist=\"norm\", plot=fig)", "compilation_passed": true, "time": 0.04402303695678711, "tests_passed": false, "error": "AttributeError"}
+{"code": "probplot(samples, plot=plt, dist=stats.norm)", "compilation_passed": true, "time": 0.27341580390930176, "tests_passed": true, "error": null}
+{"code": "probplot(samples, dist=stats.norm, plot=True)", "compilation_passed": true, "time": 0.04368019104003906, "tests_passed": false, "error": "AttributeError"}
+{"code": "probplot(samples, plot=plt, dist='norm')", "compilation_passed": true, "time": 0.27650904655456543, "tests_passed": true, "error": null}
+{"code": "probplot(samples, dist=\"norm\", plot=plt)", "compilation_passed": true, "time": 0.2565028667449951, "tests_passed": true, "error": null}
+{"code": "probplot(samples, dist='norm', plot=True)", "compilation_passed": true, "time": 0.044921159744262695, "tests_passed": false, "error": "AttributeError"}

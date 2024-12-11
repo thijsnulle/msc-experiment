@@ -1,0 +1,15 @@
+{"code": " df[columns[0]] > height", "compilation_passed": true, "time": 0.0225369930267334, "tests_passed": false, "error": "KeyError"}
+{"code": " df[(df['Height'] > height) & (df['Weight'] < weight)]", "compilation_passed": true, "time": 0.05773806571960449, "tests_passed": false, "error": "KeyError"}
+{"code": " df[columns]", "compilation_passed": true, "time": 0.01551675796508789, "tests_passed": true, "error": null}
+{"code": " df[df[columns[1]] > height & df[columns[2]] < weight]", "compilation_passed": true, "time": 0.021870136260986328, "tests_passed": false, "error": "ValueError"}
+{"code": " df.loc[(df[columns[2]] > weight) & (df[columns[1]] < height), columns]", "compilation_passed": true, "time": 0.01859879493713379, "tests_passed": true, "error": null}
+{"code": " df.loc[(df['Height'] > height) & (df['Weight'] < weight)]", "compilation_passed": true, "time": 0.06386590003967285, "tests_passed": false, "error": "KeyError"}
+{"code": " df.loc[(df['Height'] >= height) & (df['Weight'] <= weight), columns]", "compilation_passed": true, "time": 0.0482790470123291, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df[columns[1]] > height]", "compilation_passed": true, "time": 0.009273052215576172, "tests_passed": true, "error": null}
+{"code": " df.loc[(df[columns[1]] > height) & (df[columns[2]] < weight)]", "compilation_passed": true, "time": 0.012314796447753906, "tests_passed": true, "error": null}
+{"code": " df.loc[df[columns[1]] > height, df[columns[2]] < weight]", "compilation_passed": true, "time": 0.018587112426757812, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " df[df[columns[1]] > height and df[columns[2]] < weight]", "compilation_passed": true, "time": 0.012951850891113281, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df[columns[1]] > height][df[columns[2]] < weight]", "compilation_passed": true, "time": 0.01478123664855957, "tests_passed": true, "error": null}
+{"code": " df[(df[columns[1]] > height) & (df[columns[2]] < weight)]", "compilation_passed": true, "time": 0.015022754669189453, "tests_passed": true, "error": null}
+{"code": " df.loc[df[columns[0]].isin(height) & df[columns[1]].isin(weight)]", "compilation_passed": true, "time": 0.04010605812072754, "tests_passed": false, "error": "TypeError"}
+{"code": " df[df[columns[1]] >= height]", "compilation_passed": true, "time": 0.019205093383789062, "tests_passed": true, "error": null}

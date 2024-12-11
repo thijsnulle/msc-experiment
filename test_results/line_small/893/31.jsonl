@@ -1,0 +1,5 @@
+{"code": "append(time(hour, minute))", "compilation_passed": true, "time": 0.0017409324645996094, "tests_passed": true, "error": null}
+{"code": "append(time.fromordinal(1 + (hour * 60 + minute) // 24))", "compilation_passed": true, "time": 0.007624149322509766, "tests_passed": false, "error": "AttributeError"}
+{"code": "append(time.replace(hour, minute))", "compilation_passed": true, "time": 0.0070726871490478516, "tests_passed": false, "error": "TypeError"}
+{"code": "append(time.fromordinal(time.max.toordinal() - (time.max - time.min).days - hour + minute))", "compilation_passed": true, "time": 0.01006007194519043, "tests_passed": false, "error": "AttributeError"}
+{"code": "append(time.fromisoformat(f\"2021-{log[0:7]}T{hour}:{minute}\"))", "compilation_passed": true, "time": 0.0070421695709228516, "tests_passed": false, "error": "ValueError"}

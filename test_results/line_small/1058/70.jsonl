@@ -1,0 +1,8 @@
+{"code": " min(num_pairs, max_pairs)", "compilation_passed": true, "time": 0.7742950916290283, "tests_passed": true, "error": null}
+{"code": " min(max(1, num_pairs), max_pairs)", "compilation_passed": true, "time": 0.7973330020904541, "tests_passed": true, "error": null}
+{"code": " max(1, min(num_pairs, max_pairs))", "compilation_passed": true, "time": 0.7488179206848145, "tests_passed": true, "error": null}
+{"code": " min(max_pairs, max(1, num_pairs))", "compilation_passed": true, "time": 0.7556228637695312, "tests_passed": true, "error": null}
+{"code": " max(min(num_pairs, max_pairs), 1)", "compilation_passed": true, "time": 1.0340301990509033, "tests_passed": false, "error": "TimeoutError"}
+{"code": " max(1, min(max_pairs, num_pairs))", "compilation_passed": true, "time": 0.7491612434387207, "tests_passed": true, "error": null}
+{"code": " min(max_pairs, num_pairs) if num_pairs > 0 else 1", "compilation_passed": true, "time": 0.8692879676818848, "tests_passed": true, "error": null}
+{"code": " min(max(num_pairs, 1), max_pairs)", "compilation_passed": true, "time": 0.8468079566955566, "tests_passed": true, "error": null}

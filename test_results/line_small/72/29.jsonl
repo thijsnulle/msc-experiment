@@ -1,0 +1,15 @@
+{"code": " \"\"", "compilation_passed": true, "time": 0.0750119686126709, "tests_passed": false, "error": "IsADirectoryError"}
+{"code": " max(os.listdir(directory), key=os.path.getmtime)", "compilation_passed": true, "time": 0.018716096878051758, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.listdir(directory)", "compilation_passed": true, "time": 0.0676119327545166, "tests_passed": false, "error": "TypeError"}
+{"code": " get_name(directory)", "compilation_passed": true, "time": 0.019150257110595703, "tests_passed": false, "error": "NameError"}
+{"code": " None", "compilation_passed": true, "time": 0.07309603691101074, "tests_passed": true, "error": null}
+{"code": " max([os.path.basename(path) for path in os.listdir(directory) if path.endswith(\".csv\")])", "compilation_passed": true, "time": 0.07233810424804688, "tests_passed": false, "error": "ValueError"}
+{"code": " 'median_plot_histogram'", "compilation_passed": true, "time": 0.018558025360107422, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " ''", "compilation_passed": true, "time": 0.0720679759979248, "tests_passed": false, "error": "IsADirectoryError"}
+{"code": " 'median_plot'", "compilation_passed": true, "time": 0.021000146865844727, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.join(directory,'data','email_data.csv')", "compilation_passed": true, "time": 0.019533157348632812, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.join(directory, 'data', '*.csv')", "compilation_passed": true, "time": 0.020437002182006836, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " []", "compilation_passed": true, "time": 0.06992101669311523, "tests_passed": false, "error": "TypeError"}
+{"code": " np.empty(1)", "compilation_passed": true, "time": 0.07320117950439453, "tests_passed": false, "error": "TypeError"}
+{"code": " max(os.listdir(directory), key=os.path.getsize)", "compilation_passed": true, "time": 0.019550800323486328, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " max(os.path.join(directory,file) for file in os.listdir(directory) if file.endswith('.csv'))", "compilation_passed": true, "time": 0.023255109786987305, "tests_passed": false, "error": "FileNotFoundError"}

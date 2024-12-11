@@ -1,0 +1,12 @@
+{"code": " defaultdict(lambda: defaultdict(dict))", "compilation_passed": true, "time": 0.00896000862121582, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(list)", "compilation_passed": true, "time": 0.23754596710205078, "tests_passed": true, "error": null}
+{"code": " defaultdict(lambda: defaultdict(int))", "compilation_passed": true, "time": 0.00863790512084961, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(lambda: defaultdict(lambda: defaultdict(int)))", "compilation_passed": true, "time": 0.008928060531616211, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(lambda: defaultdict(float))", "compilation_passed": true, "time": 0.00917673110961914, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(lambda: defaultdict(list))", "compilation_passed": true, "time": 0.0096282958984375, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.00898885726928711, "tests_passed": false, "error": "KeyError"}
+{"code": " defaultdict(dict)", "compilation_passed": true, "time": 0.008814811706542969, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(lambda: {'mean': 0, 'median': 0})", "compilation_passed": true, "time": 0.009329795837402344, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(lambda: {\"mean\": None, \"median\": None})", "compilation_passed": true, "time": 0.008887052536010742, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(lambda: {\"mean\": 0, \"median\": 0})", "compilation_passed": true, "time": 0.008552789688110352, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(lambda: {\"mean\": np.mean(data), \"median\": np.median(data)})", "compilation_passed": true, "time": 0.013035774230957031, "tests_passed": false, "error": "TypeError"}

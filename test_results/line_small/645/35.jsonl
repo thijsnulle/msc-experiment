@@ -1,0 +1,5 @@
+{"code": " pd.read_csv(filename)", "compilation_passed": true, "time": 0.007498025894165039, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, error_bad_lines=False, on_bad_lines=\"skip\")", "compilation_passed": true, "time": 0.0107269287109375, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.read_csv(filename, encoding=\"ISO-8859-1\")", "compilation_passed": true, "time": 0.008009910583496094, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, engine='python')", "compilation_passed": true, "time": 0.007666826248168945, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, sep='\\t', encoding='utf-8')", "compilation_passed": true, "time": 0.007081031799316406, "tests_passed": true, "error": null}

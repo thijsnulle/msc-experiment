@@ -1,0 +1,5 @@
+{"code": " pd.concat([merged_df, df], ignore_index=True, sort=False)", "compilation_passed": true, "time": 0.033435821533203125, "tests_passed": true, "error": null}
+{"code": " pd.concat([merged_df, df], ignore_index=True)", "compilation_passed": true, "time": 0.040743112564086914, "tests_passed": true, "error": null}
+{"code": " pd.concat([merged_df, df])", "compilation_passed": true, "time": 0.0295867919921875, "tests_passed": true, "error": null}
+{"code": " merged_df.append(df)", "compilation_passed": true, "time": 0.014681100845336914, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.concat([merged_df, df], axis=0, ignore_index=True)", "compilation_passed": true, "time": 0.03432202339172363, "tests_passed": true, "error": null}

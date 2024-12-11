@@ -1,0 +1,5 @@
+{"code": " [item for sublist in list_of_menuitems for item in sublist]", "compilation_passed": true, "time": 0.0012810230255126953, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*list_of_menuitems))", "compilation_passed": true, "time": 0.0011920928955078125, "tests_passed": true, "error": null}
+{"code": " itertools.chain.from_iterable(list_of_menuitems)", "compilation_passed": true, "time": 0.0014858245849609375, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.006961822509765625, "tests_passed": false, "error": "ValueError"}
+{"code": " list(itertools.chain.from_iterable(list_of_menuitems))", "compilation_passed": true, "time": 0.001377105712890625, "tests_passed": true, "error": null}
