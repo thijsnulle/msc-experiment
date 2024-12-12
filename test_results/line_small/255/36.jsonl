@@ -1,0 +1,8 @@
+{"code": " not isinstance(ax, matplotlib.axes._axes.Axes):", "compilation_passed": true, "time": 0.2881641387939453, "tests_passed": true, "error": null}
+{"code": " type(ax) != matplotlib.axes._axes.Axes:", "compilation_passed": true, "time": 0.10234594345092773, "tests_passed": false, "error": "ValueError"}
+{"code": " type(ax) is not matplotlib.axes._axes.Axes:", "compilation_passed": true, "time": 0.10048413276672363, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(ax, Axes):", "compilation_passed": true, "time": 0.05073094367980957, "tests_passed": false, "error": "NameError"}
+{"code": " not isinstance(ax, matplotlib.projections.polar.PolarAxes):", "compilation_passed": true, "time": 0.28642702102661133, "tests_passed": true, "error": null}
+{"code": " not isinstance(ax, matplotlib.axes._subplots.AxesSubplot):", "compilation_passed": true, "time": 0.05104494094848633, "tests_passed": false, "error": "AttributeError"}
+{"code": " isinstance(ax, matplotlib.axes._axes.Axes):", "compilation_passed": true, "time": 0.05437302589416504, "tests_passed": false, "error": "AttributeError"}
+{"code": " isinstance(ax, matplotlib.axes._axes.Axes) == False:", "compilation_passed": true, "time": 0.2950160503387451, "tests_passed": true, "error": null}

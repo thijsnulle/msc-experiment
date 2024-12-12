@@ -1,0 +1,10 @@
+{"code": " pd.Series(walk).describe().to_dict()", "compilation_passed": true, "time": 0.0692300796508789, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.Series(walk).describe()", "compilation_passed": true, "time": 0.12838387489318848, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.Series(", "compilation_passed": false, "time": 0.0002410411834716797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " walk.describe(percentiles=[0.05, 0.25, 0.5, 0.75, 0.95])", "compilation_passed": true, "time": 0.010626077651977539, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series({'count': walk.size,", "compilation_passed": false, "time": 0.0002639293670654297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " walk.describe()", "compilation_passed": true, "time": 0.010621070861816406, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series({'count': len(walk),", "compilation_passed": false, "time": 0.00022077560424804688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"value\": walk, \"count\": elements, \"mean\": walk.mean(),", "compilation_passed": false, "time": 0.0003211498260498047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0002589225769042969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.Series(np.arange(elements + 1), index=[elements]).apply(", "compilation_passed": false, "time": 0.0002589225769042969, "tests_passed": false, "error": "SyntaxError"}

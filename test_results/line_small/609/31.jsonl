@@ -1,0 +1,14 @@
+{"code": " list(combinations(COLUMNS, 2))", "compilation_passed": true, "time": 1.023453950881958, "tests_passed": false, "error": "TimeoutError"}
+{"code": " list(combinations(df.columns, 2))", "compilation_passed": true, "time": 1.0986807346343994, "tests_passed": true, "error": null}
+{"code": " [c for c in combinations(COLUMNS, 2) if c not in plots]", "compilation_passed": true, "time": 1.0479300022125244, "tests_passed": true, "error": null}
+{"code": " [c for c in combinations(df, 3) if np.all(np.in1d(c, df.values))]", "compilation_passed": true, "time": 0.01858210563659668, "tests_passed": true, "error": null}
+{"code": " combinations(COLUMNS, 2)", "compilation_passed": true, "time": 0.013709783554077148, "tests_passed": false, "error": "TypeError"}
+{"code": " [", "compilation_passed": false, "time": 0.00022125244140625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " combinations(df.columns, 2)", "compilation_passed": true, "time": 0.013242006301879883, "tests_passed": false, "error": "TypeError"}
+{"code": " []", "compilation_passed": true, "time": 0.016884803771972656, "tests_passed": true, "error": null}
+{"code": " combinations(list(df.columns), 2)", "compilation_passed": true, "time": 0.015540838241577148, "tests_passed": false, "error": "TypeError"}
+{"code": " list(itertools.combinations(COLUMNS, 2))", "compilation_passed": true, "time": 0.014917850494384766, "tests_passed": false, "error": "NameError"}
+{"code": " [list(comb) for comb in combinations(COLUMNS, 2)]", "compilation_passed": true, "time": 1.0111780166625977, "tests_passed": false, "error": "TimeoutError"}
+{"code": " [c for i in range(len(COLUMNS)) for c in combinations(COLUMNS, i)]", "compilation_passed": true, "time": 0.014691829681396484, "tests_passed": false, "error": "IndexError"}
+{"code": " combinations(df[COLUMNS].columns, 2)", "compilation_passed": true, "time": 0.014180183410644531, "tests_passed": false, "error": "TypeError"}
+{"code": " [c for c in combinations(COLUMNS, 2)]", "compilation_passed": true, "time": 1.7886343002319336, "tests_passed": false, "error": "TimeoutError"}

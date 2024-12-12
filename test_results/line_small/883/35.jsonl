@@ -1,0 +1,12 @@
+{"code": " df[(df['B'] > 50) & (df['C'] == 900)]", "compilation_passed": true, "time": 0.01175236701965332, "tests_passed": true, "error": null}
+{"code": " df[(df[column_a] != 0) & (df[column_b] > 50) & (df[column_c] == 900)]", "compilation_passed": true, "time": 0.012061119079589844, "tests_passed": true, "error": null}
+{"code": " df[df[column_b] > 50]", "compilation_passed": true, "time": 0.011732101440429688, "tests_passed": true, "error": null}
+{"code": " df.loc[df['B'] > 50 & df['C'] == 900]", "compilation_passed": true, "time": 0.010653018951416016, "tests_passed": false, "error": "ValueError"}
+{"code": " df.loc[df[column_b] > 50 & df[column_c] == 900]", "compilation_passed": true, "time": 0.008678197860717773, "tests_passed": false, "error": "ValueError"}
+{"code": " df.loc[df[column_b] > 50, df[column_c] == 900]", "compilation_passed": true, "time": 0.010343790054321289, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " df[df[column_b] > 50 & df[column_c] == 900]", "compilation_passed": true, "time": 0.008677959442138672, "tests_passed": false, "error": "ValueError"}
+{"code": " df[(df[column_b] > 50) & (df[column_c] == 900)]", "compilation_passed": true, "time": 0.010390043258666992, "tests_passed": true, "error": null}
+{"code": " df[df[column_b] > 50].copy()", "compilation_passed": true, "time": 0.01293492317199707, "tests_passed": true, "error": null}
+{"code": " df[df[column_b] > 50].reset_index(drop=True)", "compilation_passed": true, "time": 0.012495994567871094, "tests_passed": true, "error": null}
+{"code": " df.loc[(df[column_a] != \"\") & (df[column_b] > 50) & (df[column_c] == 900)]", "compilation_passed": true, "time": 0.010322093963623047, "tests_passed": true, "error": null}
+{"code": " df.loc[(df[column_b] > 50) & (df[column_c] == 900)]", "compilation_passed": true, "time": 0.010040044784545898, "tests_passed": true, "error": null}

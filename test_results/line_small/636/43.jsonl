@@ -1,0 +1,26 @@
+{"code": " plt.barh(", "compilation_passed": false, "time": 0.00032711029052734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.bar(range(len(COLUMNS)), counts, align='center')", "compilation_passed": true, "time": 0.11468887329101562, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(range(len(counts)), counts)", "compilation_passed": true, "time": 0.09902596473693848, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(df.columns, counts)", "compilation_passed": true, "time": 0.10565710067749023, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot.bar(stacked=True, color='red')", "compilation_passed": true, "time": 0.19286894798278809, "tests_passed": true, "error": null}
+{"code": " df.plot.bar()", "compilation_passed": true, "time": 0.19147205352783203, "tests_passed": true, "error": null}
+{"code": " df.plot.barh(legend=False, rot=0)", "compilation_passed": true, "time": 0.22056317329406738, "tests_passed": true, "error": null}
+{"code": " df.style.background_gradient(cmap='cool').hide_index().set_dtype(None).align(\"right\", is_title_offset=True).plot.bar(stacked=True)", "compilation_passed": true, "time": 0.14705204963684082, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(COLUMNS, counts, color='red', alpha=0.5, width=0.9)", "compilation_passed": true, "time": 0.1019129753112793, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot.barh(rot=90, figsize=(16, 8), color='salmon')", "compilation_passed": true, "time": 0.1935880184173584, "tests_passed": true, "error": null}
+{"code": " df.style.highlight_null('black').bar_corner(", "compilation_passed": false, "time": 0.00037980079650878906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.gca()  # Get the current Axes object", "compilation_passed": true, "time": 0.09444117546081543, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(rot=0, grid=True)", "compilation_passed": true, "time": 0.19496488571166992, "tests_passed": true, "error": null}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.09009313583374023, "tests_passed": true, "error": null}
+{"code": " df.style.bar(color='#5DA5D6', align='edge').apply(lambda df: (df.where(df > 0).count() / rows) * 100).count().unstack(-1).sort_index(ascending=False).cumsum().cumsum()", "compilation_passed": true, "time": 0.055685997009277344, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.barh(COLUMNS, counts, color='purple')", "compilation_passed": true, "time": 0.10213994979858398, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(kind='bar')", "compilation_passed": true, "time": 0.20599794387817383, "tests_passed": true, "error": null}
+{"code": " plt.subplots(figsize=(15, 5))[1]", "compilation_passed": true, "time": 0.1018979549407959, "tests_passed": true, "error": null}
+{"code": " plt.bar(range(len(counts)), counts.values, align='center', color='blue')", "compilation_passed": true, "time": 0.12508916854858398, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(range(1, len(COLUMNS) + 1), counts)", "compilation_passed": true, "time": 0.1090080738067627, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.style.background_gradient(cmap='Reds').set_properties(**{'text-align': 'center'}).bar(", "compilation_passed": false, "time": 0.0003299713134765625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot.bar(subplots=False, figsize=(5, 3))", "compilation_passed": true, "time": 0.20418381690979004, "tests_passed": true, "error": null}
+{"code": " df.astype(bool).plot.bar(rot=0, figsize=(12, 8))", "compilation_passed": true, "time": 0.0569610595703125, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.bar(x=range(len(COLUMNS)), height=counts, linewidth=0.5, color='y')", "compilation_passed": true, "time": 0.10258221626281738, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot.bar(rot=0, legend=False, subplots=False, grid=False, title='Non-Zero Value Counts')", "compilation_passed": true, "time": 0.20351266860961914, "tests_passed": true, "error": null}
+{"code": " plt.bar(range(len(COLUMNS)), counts.values)", "compilation_passed": true, "time": 0.09415674209594727, "tests_passed": false, "error": "AttributeError"}

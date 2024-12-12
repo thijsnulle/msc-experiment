@@ -1,0 +1,17 @@
+{"code": " pd.read_csv(os.path.join(directory, name))", "compilation_passed": true, "time": 0.07133984565734863, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(os.path.join(directory,name))", "compilation_passed": true, "time": 0.07479715347290039, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(f'{directory}/{name}')", "compilation_passed": true, "time": 0.07035493850708008, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(directory + '/' + name)", "compilation_passed": true, "time": 0.07366585731506348, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(directory + '/' + name,  names = ['email', 'list'])", "compilation_passed": true, "time": 0.02570509910583496, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(f'{directory}/{name}', index_col = 0)", "compilation_passed": true, "time": 0.024950742721557617, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(os.path.join(directory, name), sep=',', dtype=str)", "compilation_passed": true, "time": 0.07562398910522461, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(os.path.join(directory, name), sep=\";\", usecols=[0, 1])", "compilation_passed": true, "time": 0.024545907974243164, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(directory + name)", "compilation_passed": true, "time": 0.019247055053710938, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " pd.read_csv(directory + '/' + name, dtype = {'list': str, 'email': str})", "compilation_passed": true, "time": 0.07345914840698242, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(os.path.join(directory, name)).astype(str)", "compilation_passed": true, "time": 0.07184481620788574, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(directory + os.sep + name, engine = 'python')", "compilation_passed": true, "time": 0.07882070541381836, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(directory + name, index_col='email')", "compilation_passed": true, "time": 0.01970672607421875, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " pd.read_csv(f\"{directory}/{name}\",", "compilation_passed": false, "time": 0.0002751350402832031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_csv(os.path.join(directory, name), names = ['email', 'list'])", "compilation_passed": true, "time": 0.024409055709838867, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(directory + '/' + name, names = ['email', 'list'])", "compilation_passed": true, "time": 0.023652076721191406, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(directory + '\\\\' + name, usecols=['email', 'list'])", "compilation_passed": true, "time": 0.018359661102294922, "tests_passed": false, "error": "FileNotFoundError"}

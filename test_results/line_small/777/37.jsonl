@@ -1,0 +1,10 @@
+{"code": "chmod(extract_path, 0o777)", "compilation_passed": true, "time": 0.011945247650146484, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "makedirs(extract_path, exist_ok=True)", "compilation_passed": true, "time": 0.010833978652954102, "tests_passed": true, "error": null}
+{"code": "remove(file_path)", "compilation_passed": true, "time": 0.012225866317749023, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "remove(file_path)  # Remove the extracted zip file", "compilation_passed": true, "time": 0.013397216796875, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "makedirs(extract_path, exist_ok=True)  # Create directory if it doesn't exist", "compilation_passed": true, "time": 0.010556936264038086, "tests_passed": true, "error": null}
+{"code": "chmod(extract_path, 0o700)", "compilation_passed": true, "time": 0.015496015548706055, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "remove(file_path)  # Remove the zip file after extracting.", "compilation_passed": true, "time": 0.012897014617919922, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "chmod(extract_path, 0o755)", "compilation_passed": true, "time": 0.012617111206054688, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "rmdir(directory)", "compilation_passed": true, "time": 0.013403892517089844, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "makedirs(extract_path, exist_ok=True)  # create the directory if it does not exist.", "compilation_passed": true, "time": 0.0104827880859375, "tests_passed": true, "error": null}

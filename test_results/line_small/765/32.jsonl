@@ -1,0 +1,5 @@
+{"code": " os.path.join(target_dir, os.path.basename(file))", "compilation_passed": true, "time": 0.008582830429077148, "tests_passed": true, "error": null}
+{"code": " Path(target_dir) / Path(file).name", "compilation_passed": true, "time": 0.008399248123168945, "tests_passed": true, "error": null}
+{"code": " f\"{target_dir}/{Path(file).name}\"", "compilation_passed": true, "time": 0.008896827697753906, "tests_passed": true, "error": null}
+{"code": " Path(file).name", "compilation_passed": true, "time": 0.006518125534057617, "tests_passed": true, "error": null}
+{"code": " Path(target_dir) / Path(file).stem", "compilation_passed": true, "time": 0.008130788803100586, "tests_passed": true, "error": null}

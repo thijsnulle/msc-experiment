@@ -1,0 +1,5 @@
+{"code": " items is None:", "compilation_passed": true, "time": 0.0622248649597168, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.2454969882965088, "tests_passed": true, "error": null}
+{"code": " isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.007597208023071289, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(df, pd.DataFrame) and ('Item' in df.columns) and ('Location' in df.columns):", "compilation_passed": true, "time": 0.008213996887207031, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(df, pd.DataFrame) is False:", "compilation_passed": true, "time": 0.27274084091186523, "tests_passed": true, "error": null}

@@ -1,0 +1,8 @@
+{"code": " []", "compilation_passed": true, "time": 0.0043070316314697266, "tests_passed": true, "error": null}
+{"code": " [''.join(random.choice(LETTERS) for _ in range(word_length)) for _ in range(num_words)]", "compilation_passed": true, "time": 0.0012679100036621094, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0001583099365234375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [''.join(random.choice(LETTERS) for _ in range(word_length))", "compilation_passed": false, "time": 0.00015282630920410156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [\"\".join([LETTERS[random.randrange(0, 26)] for _ in range(word_length)]) for _ in range(num_words)]", "compilation_passed": true, "time": 0.0011780261993408203, "tests_passed": true, "error": null}
+{"code": " [\"\".join(random.choices(LETTERS, k=word_length)) for _ in range(num_words)]", "compilation_passed": true, "time": 0.0015101432800292969, "tests_passed": true, "error": null}
+{"code": " [random.choices(LETTERS, k=word_length) for i in range(num_words)]", "compilation_passed": true, "time": 0.004846811294555664, "tests_passed": true, "error": null}
+{"code": " [\"\".join(random.choice(LETTERS) for _ in range(word_length)) for _ in range(num_words)]", "compilation_passed": true, "time": 0.0017347335815429688, "tests_passed": true, "error": null}

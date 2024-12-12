@@ -1,0 +1,15 @@
+{"code": " [(letter, ALPHABET.index(letter)+1) for letter in word]", "compilation_passed": true, "time": 0.0037670135498046875, "tests_passed": true, "error": null}
+{"code": " [(letter, ALPHABET.index(letter)) for letter in word]", "compilation_passed": true, "time": 0.003631114959716797, "tests_passed": true, "error": null}
+{"code": " [(letter, ALPHABET.index(letter) + 1) for letter in word]", "compilation_passed": true, "time": 0.003713846206665039, "tests_passed": true, "error": null}
+{"code": " [ALPHABET.index(letter) + 1 for letter in word]", "compilation_passed": true, "time": 0.002412080764770508, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.004722118377685547, "tests_passed": false, "error": "IndexError"}
+{"code": " [ALPHABET.index(x) + 1 for x in word]", "compilation_passed": true, "time": 0.0023260116577148438, "tests_passed": true, "error": null}
+{"code": " [(letter, i+1) for i, letter in enumerate(word)]", "compilation_passed": true, "time": 0.0030701160430908203, "tests_passed": true, "error": null}
+{"code": " [ALPHABET.index(c) + 1 for c in word]", "compilation_passed": true, "time": 0.002601146697998047, "tests_passed": true, "error": null}
+{"code": " [ALPHABET.index(letter) for letter in word]", "compilation_passed": true, "time": 0.0028409957885742188, "tests_passed": true, "error": null}
+{"code": " [ALPHABET.index(i) + 1 for i in word]", "compilation_passed": true, "time": 0.002135038375854492, "tests_passed": true, "error": null}
+{"code": " list(map(lambda letter: (letter, ALPHABET.index(letter)), word))", "compilation_passed": true, "time": 0.003149747848510742, "tests_passed": true, "error": null}
+{"code": " [ALPHABET.index(char) + 1 for char in word]", "compilation_passed": true, "time": 0.0025839805603027344, "tests_passed": true, "error": null}
+{"code": " [(word[i], ALPHABET.index(word[i])) for i in range(len(word))]", "compilation_passed": true, "time": 0.0031201839447021484, "tests_passed": true, "error": null}
+{"code": " [(ALPHABET[i], i + 1) for i in range(len(ALPHABET))]", "compilation_passed": true, "time": 0.0031518936157226562, "tests_passed": true, "error": null}
+{"code": " [(letter, i) for i, letter in enumerate(word)]", "compilation_passed": true, "time": 0.003229856491088867, "tests_passed": true, "error": null}

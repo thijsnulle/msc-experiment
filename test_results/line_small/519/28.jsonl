@@ -1,0 +1,14 @@
+{"code": " pd.DataFrame.from_dict(data, orient='index', columns=['apple', 'banana', 'cherry', 'durian'])", "compilation_passed": true, "time": 0.008347034454345703, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.04499197006225586, "tests_passed": false, "error": "IndexError"}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.2215259075164795, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(data, orient=\"index\")", "compilation_passed": true, "time": 0.008059978485107422, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(data, index=pd.date_range('20200101', '20201231'))", "compilation_passed": true, "time": 0.009347200393676758, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'apple': 10, 'banana': 15, 'cherry': 12, 'durian': 0})", "compilation_passed": true, "time": 0.008416891098022461, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({k: pd.Series(d.values(), name=k) for k, d in data.items()})", "compilation_passed": true, "time": 0.007409811019897461, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(data, index=pd.RangeIndex(len(data)))", "compilation_passed": true, "time": 0.18886780738830566, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame({k: [v] for k, v in data[0].items()})", "compilation_passed": true, "time": 0.16451597213745117, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=data)", "compilation_passed": true, "time": 0.2527029514312744, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(data)", "compilation_passed": true, "time": 0.2383120059967041, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, dtype=int).fillna(0)", "compilation_passed": true, "time": 0.008505105972290039, "tests_passed": false, "error": "pandas.errors.IntCastingNaNError"}
+{"code": " pd.DataFrame(data, columns=list(data[0].keys()))", "compilation_passed": true, "time": 0.15209007263183594, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data).replace([np.nan, 0, None, np.inf], 0).astype(\"Int64\")", "compilation_passed": true, "time": 0.008933067321777344, "tests_passed": false, "error": "NameError"}

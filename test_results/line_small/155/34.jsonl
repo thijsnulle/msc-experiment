@@ -1,0 +1,5 @@
+{"code": " df.mean(axis=1)", "compilation_passed": true, "time": 0.09772682189941406, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda row: row.mean(), axis=1)", "compilation_passed": true, "time": 0.09688186645507812, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :8].mean(axis=1)", "compilation_passed": true, "time": 0.09768390655517578, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda row: np.mean(row), axis=1)", "compilation_passed": true, "time": 0.11750984191894531, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: (x.sum()) / 8, axis=1)", "compilation_passed": true, "time": 0.11289286613464355, "tests_passed": true, "error": null}

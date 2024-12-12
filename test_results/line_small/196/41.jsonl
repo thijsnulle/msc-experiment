@@ -1,0 +1,21 @@
+{"code": " sns.histplot(random_numbers, kde=False, bins=range_limit)", "compilation_passed": true, "time": 0.36466360092163086, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.histplot(random_numbers)", "compilation_passed": true, "time": 0.36492919921875, "tests_passed": true, "error": null}
+{"code": " plt.axvspan(0, length, facecolor='red', alpha=0.5)", "compilation_passed": true, "time": 0.1345961093902588, "tests_passed": false, "error": "IndexError"}
+{"code": " sns.distplot(random_numbers, bins=range_limit)", "compilation_passed": true, "time": 0.4140777587890625, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.distplot(random_numbers, kde=False, bw_method='scott')", "compilation_passed": true, "time": 0.04642891883850098, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.distplot(random_numbers, kde=False)", "compilation_passed": true, "time": 0.19921493530273438, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.distplot(random_numbers, bins=range_limit, kde=False)", "compilation_passed": true, "time": 0.28906893730163574, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.histplot(random_numbers, kde=True, color=\"blue\")", "compilation_passed": true, "time": 0.45473575592041016, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data=random_numbers)", "compilation_passed": true, "time": 0.3750879764556885, "tests_passed": true, "error": null}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.13315200805664062, "tests_passed": false, "error": "IndexError"}
+{"code": " sns.distplot(random_numbers, color='#1f77b4', hist=True, kde=False, rug=True, rug_kwargs={\"marker\": \"x\"},", "compilation_passed": false, "time": 0.00031304359436035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.bar(range(length), random_numbers, width=1, edgecolor=\"white\")", "compilation_passed": true, "time": 0.6254720687866211, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.histplot(random_numbers, kde=True, bins=30)", "compilation_passed": true, "time": 0.3147430419921875, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.distplot(random_numbers, kde=False, bins=range_limit)", "compilation_passed": true, "time": 0.29134702682495117, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.hist(random_numbers, bins=\"auto\", density=True)", "compilation_passed": true, "time": 0.05455803871154785, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.distplot(random_numbers,", "compilation_passed": false, "time": 0.00022411346435546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.distplot(random_numbers)", "compilation_passed": true, "time": 0.2722587585449219, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.histplot(random_numbers, bins=50, kde=True)", "compilation_passed": true, "time": 0.3714261054992676, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.histplot(data=random_numbers, kde=True)", "compilation_passed": true, "time": 0.44144392013549805, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data=random_numbers, kws={'bins': range_limit, 'color': 'green'})", "compilation_passed": true, "time": 0.05517888069152832, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.15608000755310059, "tests_passed": false, "error": "IndexError"}

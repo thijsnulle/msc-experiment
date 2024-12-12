@@ -1,0 +1,10 @@
+{"code": " np.array(segmented_image.reshape(img.shape), dtype=np.uint8)", "compilation_passed": true, "time": 0.010981321334838867, "tests_passed": true, "error": null}
+{"code": " np.uint8(segmented_image.copy())", "compilation_passed": true, "time": 0.01920914649963379, "tests_passed": false, "error": "ValueError"}
+{"code": " np.reshape(segmented_image, img.shape)", "compilation_passed": true, "time": 0.015882015228271484, "tests_passed": true, "error": null}
+{"code": " cv2.vectorToImage(segmented_image.reshape(img.shape[0], img.shape[1], -1))", "compilation_passed": true, "time": 0.018846988677978516, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.uint8(segmented_image)", "compilation_passed": true, "time": 0.01781177520751953, "tests_passed": false, "error": "ValueError"}
+{"code": " segmented_image.reshape(img.shape)", "compilation_passed": true, "time": 0.025201082229614258, "tests_passed": true, "error": null}
+{"code": " np.uint8(segmented_image.reshape(img.shape))", "compilation_passed": true, "time": 0.011635780334472656, "tests_passed": true, "error": null}
+{"code": " np.expand_dims(segmented_image, axis=0).astype(pixels.dtype)", "compilation_passed": true, "time": 0.019198894500732422, "tests_passed": false, "error": "ValueError"}
+{"code": " np.uint8(segmented_image).reshape(img.shape)", "compilation_passed": true, "time": 0.010740280151367188, "tests_passed": true, "error": null}
+{"code": " cv2.resize(segmented_image, img.shape[:2])", "compilation_passed": true, "time": 0.026585817337036133, "tests_passed": false, "error": "ValueError"}

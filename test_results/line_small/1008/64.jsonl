@@ -1,0 +1,8 @@
+{"code": " soup.find(\"table\", attrs={\"id\": table_id})", "compilation_passed": true, "time": 0.010601043701171875, "tests_passed": true, "error": null}
+{"code": " soup.find(id=table_id)", "compilation_passed": true, "time": 0.008747100830078125, "tests_passed": true, "error": null}
+{"code": " soup.find('table', {'id': table_id})", "compilation_passed": true, "time": 0.00840306282043457, "tests_passed": true, "error": null}
+{"code": " soup.find(\"table\", id=table_id)", "compilation_passed": true, "time": 0.007483959197998047, "tests_passed": true, "error": null}
+{"code": " soup.find(\"table\", {\"id\": table_id})", "compilation_passed": true, "time": 0.007519721984863281, "tests_passed": true, "error": null}
+{"code": " soup.find(\"table\", id=table_id)  # Search for the HTML table with the specified 'table_id'", "compilation_passed": true, "time": 0.007620096206665039, "tests_passed": true, "error": null}
+{"code": " soup.find('table', id=table_id)", "compilation_passed": true, "time": 0.007421255111694336, "tests_passed": true, "error": null}
+{"code": " soup.find('table', attrs={\"id\": table_id})", "compilation_passed": true, "time": 0.007454872131347656, "tests_passed": true, "error": null}

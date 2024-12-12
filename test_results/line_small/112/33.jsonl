@@ -1,0 +1,6 @@
+{"code": " df['Status'].value_counts()", "compilation_passed": true, "time": 0.4284639358520508, "tests_passed": true, "error": null}
+{"code": " df.groupby('Status').size()", "compilation_passed": true, "time": 0.361591100692749, "tests_passed": true, "error": null}
+{"code": " df['Status'].value_counts().sort_values(ascending=False)", "compilation_passed": true, "time": 0.3561873435974121, "tests_passed": true, "error": null}
+{"code": " df.groupby('Status').size().reset_index(name='counts')", "compilation_passed": true, "time": 0.10790395736694336, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('Status').size().reset_index(name='Count')", "compilation_passed": true, "time": 0.10570001602172852, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(\"Status\").size().to_dict()", "compilation_passed": true, "time": 0.15081787109375, "tests_passed": false, "error": "AttributeError"}

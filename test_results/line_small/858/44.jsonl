@@ -1,0 +1,6 @@
+{"code": " [random.choice(LETTERS) for i in range(n)]", "compilation_passed": true, "time": 0.0023229122161865234, "tests_passed": true, "error": null}
+{"code": " [random.choice(LETTERS) for _ in range(n)]", "compilation_passed": true, "time": 0.0019071102142333984, "tests_passed": true, "error": null}
+{"code": " random.sample(LETTERS, n)", "compilation_passed": true, "time": 0.011848926544189453, "tests_passed": false, "error": "ValueError"}
+{"code": " random.choices(LETTERS, k=n)", "compilation_passed": true, "time": 0.006417751312255859, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(LETTERS) for _ in range(n))", "compilation_passed": true, "time": 0.0018620491027832031, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.005616903305053711, "tests_passed": true, "error": null}

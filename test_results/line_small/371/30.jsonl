@@ -1,0 +1,10 @@
+{"code": " pd.DataFrame(l_scaled)", "compilation_passed": true, "time": 0.005506038665771484, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(l_scaled, columns=[\"Scaled Values\"])", "compilation_passed": true, "time": 0.0045490264892578125, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(l_scaled, columns=['Scaled Values'])", "compilation_passed": true, "time": 0.004621028900146484, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(l_scaled.reshape(-1, 1), columns=['Scaled Values'])", "compilation_passed": true, "time": 0.004284858703613281, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Scaled Values': l_scaled})", "compilation_passed": true, "time": 0.007431745529174805, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data=l_scaled)", "compilation_passed": true, "time": 0.004935741424560547, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Scaled Values': l_scaled.tolist()})", "compilation_passed": true, "time": 0.004902839660644531, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=l_scaled, columns=['Scaled Values'])", "compilation_passed": true, "time": 0.004816293716430664, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(l_scaled.reshape(-1, 1))", "compilation_passed": true, "time": 0.0048923492431640625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.005243778228759766, "tests_passed": true, "error": null}

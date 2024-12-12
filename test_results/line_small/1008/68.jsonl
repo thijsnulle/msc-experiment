@@ -1,0 +1,7 @@
+{"code": " len(table.find_all(\"tr\")) == 0:", "compilation_passed": true, "time": 0.007499217987060547, "tests_passed": true, "error": null}
+{"code": " table.find_all(\"tr\") == []:", "compilation_passed": true, "time": 0.007605075836181641, "tests_passed": true, "error": null}
+{"code": " table.find_all(\"tr\"):", "compilation_passed": true, "time": 0.023669004440307617, "tests_passed": false, "error": "ImportError"}
+{"code": " not any(\"tr\" in t.get(\"class\", \"\") for t in table.find_all(\"table\")):", "compilation_passed": true, "time": 0.010448217391967773, "tests_passed": true, "error": null}
+{"code": " not table.find_all(\"tr\"):", "compilation_passed": true, "time": 0.008675098419189453, "tests_passed": true, "error": null}
+{"code": " not any(s for s in soup.find_all(\"tr\")):", "compilation_passed": true, "time": 0.00847482681274414, "tests_passed": true, "error": null}
+{"code": " table.find(\"tr\") is None:", "compilation_passed": true, "time": 0.007471323013305664, "tests_passed": true, "error": null}

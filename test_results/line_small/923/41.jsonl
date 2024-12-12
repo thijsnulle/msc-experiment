@@ -1,0 +1,25 @@
+{"code": " re.sub(r'@', r'[at]', f\"{name}@{random.choice(email_domains)}\")", "compilation_passed": true, "time": 0.0037908554077148438, "tests_passed": true, "error": null}
+{"code": " name + \"@\" + random.choice(email_domains)", "compilation_passed": true, "time": 0.0033478736877441406, "tests_passed": true, "error": null}
+{"code": " random.choice(email_domains)", "compilation_passed": true, "time": 0.0032210350036621094, "tests_passed": true, "error": null}
+{"code": " _clean_email(name.split(' ')[0] + '@' + re.search(r'[\\w]+([\\.][\\w]+)?', name.lower().strip(' ')).group())", "compilation_passed": true, "time": 0.007859945297241211, "tests_passed": false, "error": "NameError"}
+{"code": " f\"{name[0]}@{random.choice(email_domains)}\"", "compilation_passed": true, "time": 0.003107786178588867, "tests_passed": true, "error": null}
+{"code": " f\"{name.lower()}@{random.choice(email_domains)}\"", "compilation_passed": true, "time": 0.0032761096954345703, "tests_passed": true, "error": null}
+{"code": " name.split(\" \")", "compilation_passed": true, "time": 0.0037889480590820312, "tests_passed": true, "error": null}
+{"code": " name.lower() + \"@\" + random.choice(email_domains)", "compilation_passed": true, "time": 0.0032629966735839844, "tests_passed": true, "error": null}
+{"code": " re.sub(\"@\", \"[at]\", name) + \"@\" + random.choice(email_domains)", "compilation_passed": true, "time": 0.003123760223388672, "tests_passed": true, "error": null}
+{"code": " f\"{name.lower().replace(' ', '')[0]}{random.randint(1000000, 9999999)}@{random.choice(email_domains)}\"", "compilation_passed": true, "time": 0.003056764602661133, "tests_passed": true, "error": null}
+{"code": " name + '@' + email_domains[random.randint(0, len(email_domains) - 1)]", "compilation_passed": true, "time": 0.0033121109008789062, "tests_passed": true, "error": null}
+{"code": " f\"{name.replace(' ','').lower()}@{random.choice(email_domains).replace('@', '[at]')}\"", "compilation_passed": true, "time": 0.003036975860595703, "tests_passed": true, "error": null}
+{"code": " name.lower().replace(\" \", \"\") + \"@\" + email_domains[random.randint(0, len(email_domains) - 1)]", "compilation_passed": true, "time": 0.003120899200439453, "tests_passed": true, "error": null}
+{"code": " _generate_email(name, email_domains)", "compilation_passed": true, "time": 0.007401227951049805, "tests_passed": false, "error": "NameError"}
+{"code": " f\"{name.lower()}@{random.choice(email_domains).lower()}\"", "compilation_passed": true, "time": 0.0036280155181884766, "tests_passed": true, "error": null}
+{"code": " name + '@' + random.choice(email_domains)", "compilation_passed": true, "time": 0.0030059814453125, "tests_passed": true, "error": null}
+{"code": " name.split()", "compilation_passed": true, "time": 0.0030908584594726562, "tests_passed": true, "error": null}
+{"code": " name.lower().replace(\" \", \"_\") + '@' + random.choice(email_domains)", "compilation_passed": true, "time": 0.0030052661895751953, "tests_passed": true, "error": null}
+{"code": " generate_email(name)", "compilation_passed": true, "time": 0.007548809051513672, "tests_passed": false, "error": "NameError"}
+{"code": " generate_email(name, email_domains)", "compilation_passed": true, "time": 0.008033037185668945, "tests_passed": false, "error": "NameError"}
+{"code": " \"{}@{}\".format(name.lower().replace(\" \", \"\"), random.choice(email_domains))", "compilation_passed": true, "time": 0.0031790733337402344, "tests_passed": true, "error": null}
+{"code": " f\"{name.lower()}[at]{random.choice(email_domains).lower()}\"", "compilation_passed": true, "time": 0.003239154815673828, "tests_passed": true, "error": null}
+{"code": " name.lower() + '@' + random.choice(email_domains)", "compilation_passed": true, "time": 0.0033080577850341797, "tests_passed": true, "error": null}
+{"code": " name.replace(\" \", \".\") + \"@\" + random.choice(email_domains)", "compilation_passed": true, "time": 0.0030841827392578125, "tests_passed": true, "error": null}
+{"code": " name.replace('@', '[at]')", "compilation_passed": true, "time": 0.005277872085571289, "tests_passed": true, "error": null}

@@ -1,0 +1,6 @@
+{"code": "writeheader()", "compilation_passed": true, "time": 0.017488718032836914, "tests_passed": true, "error": null}
+{"code": "writerows(data)", "compilation_passed": true, "time": 0.017522811889648438, "tests_passed": true, "error": null}
+{"code": "writerow({'Column': 'Name'})", "compilation_passed": true, "time": 0.015208959579467773, "tests_passed": false, "error": "ValueError"}
+{"code": "writerow(reader.fieldnames)", "compilation_passed": true, "time": 0.01908397674560547, "tests_passed": false, "error": "AttributeError"}
+{"code": "writerow(dict((key, fieldnames[i])", "compilation_passed": false, "time": 0.0002899169921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "writerow(dict(zip(fieldnames, fieldnames)))", "compilation_passed": true, "time": 0.012330055236816406, "tests_passed": true, "error": null}

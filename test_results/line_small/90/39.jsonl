@@ -1,0 +1,11 @@
+{"code": " lon1 = coord1[0], coord1[1]", "compilation_passed": true, "time": 0.0067501068115234375, "tests_passed": true, "error": null}
+{"code": " lon1 = coord1", "compilation_passed": true, "time": 0.006365060806274414, "tests_passed": true, "error": null}
+{"code": " lon1 = math.radians(coord1[0]), math.radians(coord1[1])", "compilation_passed": true, "time": 0.003056049346923828, "tests_passed": true, "error": null}
+{"code": " lng1 = math.radians(coord1[0]), math.radians(coord1[1])", "compilation_passed": true, "time": 0.013943910598754883, "tests_passed": false, "error": "NameError"}
+{"code": " lon1 = np.radians(coord1)", "compilation_passed": true, "time": 0.003498077392578125, "tests_passed": true, "error": null}
+{"code": " lng1 = coord1", "compilation_passed": true, "time": 0.013948202133178711, "tests_passed": false, "error": "NameError"}
+{"code": " long1 = math.radians(coord1[0]), math.radians(coord1[1])", "compilation_passed": true, "time": 0.0171358585357666, "tests_passed": false, "error": "NameError"}
+{"code": " lon1, lat2, lon2 = np.deg2rad(coord1), np.deg2rad(coord2)", "compilation_passed": true, "time": 0.014651060104370117, "tests_passed": false, "error": "ValueError"}
+{"code": " lon1 = (coord1[0] * math.pi / 180.0, coord1[1] * math.pi / 180.0)", "compilation_passed": true, "time": 0.00391387939453125, "tests_passed": true, "error": null}
+{"code": " lon1 = (math.radians(coord1[0]), math.radians(coord1[1]))", "compilation_passed": true, "time": 0.003734111785888672, "tests_passed": true, "error": null}
+{"code": " lng1 = coord1[0], coord1[1]", "compilation_passed": true, "time": 0.01458597183227539, "tests_passed": false, "error": "NameError"}

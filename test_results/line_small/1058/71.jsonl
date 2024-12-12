@@ -1,0 +1,10 @@
+{"code": " []", "compilation_passed": true, "time": 0.055692195892333984, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00047898292541503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(itertools.product(SHAPES, COLORS))", "compilation_passed": true, "time": 0.04907512664794922, "tests_passed": false, "error": "ValueError"}
+{"code": " itertools.product(SHAPES, COLORS, repeat=num_pairs)", "compilation_passed": true, "time": 1.0081121921539307, "tests_passed": false, "error": ""}
+{"code": " itertools.product(SHAPES, COLORS)", "compilation_passed": true, "time": 0.05740809440612793, "tests_passed": true, "error": null}
+{"code": " [(s, c) for s in SHAPES for c in COLORS]", "compilation_passed": true, "time": 0.054963111877441406, "tests_passed": false, "error": "ValueError"}
+{"code": " [(x, y) for x in SHAPES for y in COLORS]", "compilation_passed": true, "time": 0.041750192642211914, "tests_passed": false, "error": "ValueError"}
+{"code": " itertools.product(COLORS, SHAPES)", "compilation_passed": true, "time": 0.05685019493103027, "tests_passed": true, "error": null}
+{"code": " [f\"{shape}:{color}\" for shape in SHAPES for color in COLORS]", "compilation_passed": true, "time": 1.0317862033843994, "tests_passed": false, "error": "TimeoutError"}
+{"code": " itertools.combinations(COLORS, num_pairs)", "compilation_passed": true, "time": 0.06094694137573242, "tests_passed": true, "error": null}

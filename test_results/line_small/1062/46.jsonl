@@ -1,0 +1,28 @@
+{"code": "index = pd.date_range(\"2020-1-1\", periods=len(row_sums))", "compilation_passed": true, "time": 0.1914200782775879, "tests_passed": true, "error": null}
+{"code": "set_index(pd.date_range(start=\"2020-01-01\", end=pd.to_datetime(df.index[-1], unit=\"D\"),", "compilation_passed": false, "time": 0.00024175643920898438, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_index(pd.date_range(\"2020-01-01\", periods=arr.shape[0]), inplace=True)", "compilation_passed": true, "time": 0.19480180740356445, "tests_passed": true, "error": null}
+{"code": "plot.bar()", "compilation_passed": true, "time": 0.36899399757385254, "tests_passed": true, "error": null}
+{"code": "index = pd.date_range(start='2020-01-01', end=df.index[-1].date(), freq='d')", "compilation_passed": true, "time": 0.009353876113891602, "tests_passed": false, "error": "AttributeError"}
+{"code": "index = pd.date_range(\"2020-01-01\", periods=len(row_sums), freq=\"D\")", "compilation_passed": true, "time": 0.1920146942138672, "tests_passed": true, "error": null}
+{"code": "plot.line(x=\"Sum\")", "compilation_passed": true, "time": 0.010432004928588867, "tests_passed": false, "error": "TypeError"}
+{"code": "index = pd.date_range(start='2020-01-01', freq='D', periods=len(row_sums))", "compilation_passed": true, "time": 0.28286218643188477, "tests_passed": true, "error": null}
+{"code": "plot(x=\"Sum\"), df.plot(x=\"Sum\", y=\"Sum\", style=\"-\", ax=ax)", "compilation_passed": true, "time": 0.010228872299194336, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(figsize=(10, 5), title=\"Time Series of Row Sums\", ylabel=\"Sum\", date_index=True)", "compilation_passed": true, "time": 0.06026291847229004, "tests_passed": false, "error": "AttributeError"}
+{"code": "plot()", "compilation_passed": true, "time": 0.4368247985839844, "tests_passed": true, "error": null}
+{"code": "set_index(pd.date_range(\"2020-01-01\", periods=len(row_sums), freq=\"d\"), inplace=True)", "compilation_passed": true, "time": 0.21607494354248047, "tests_passed": true, "error": null}
+{"code": "plot.line(x='Sum')", "compilation_passed": true, "time": 0.010111808776855469, "tests_passed": false, "error": "TypeError"}
+{"code": "index = pd.date_range(\"2020-01-01\", freq=\"D\", periods=row_sums.shape[0])", "compilation_passed": true, "time": 0.20383095741271973, "tests_passed": true, "error": null}
+{"code": "index = pd.date_range(\"2020-01-01\", periods=len(arr), freq=\"D\")", "compilation_passed": true, "time": 0.21574687957763672, "tests_passed": true, "error": null}
+{"code": "index = pd.date_range(\"2020-01-01\", periods=len(row_sums), freq=\"d\")", "compilation_passed": true, "time": 0.2410571575164795, "tests_passed": true, "error": null}
+{"code": "reset_index(drop=True, inplace=True)", "compilation_passed": true, "time": 0.2692220211029053, "tests_passed": true, "error": null}
+{"code": "plot(kind=\"line\", figsize=(10, 5))", "compilation_passed": true, "time": 0.4565999507904053, "tests_passed": true, "error": null}
+{"code": "set_index(pd.date_range(start=\"2020-01-01\", periods=len(row_sums), freq=\"D\"))", "compilation_passed": true, "time": 0.2777829170227051, "tests_passed": true, "error": null}
+{"code": "index = pd.date_range(start=\"2020-01-01\", periods=len(row_sums), freq=\"D\")", "compilation_passed": true, "time": 0.22197198867797852, "tests_passed": true, "error": null}
+{"code": "plot(subplots=True)", "compilation_passed": true, "time": 0.42630505561828613, "tests_passed": true, "error": null}
+{"code": "index = pd.date_range(start=\"2020-01-01\", periods=df.shape[0], freq=\"D\")", "compilation_passed": true, "time": 0.20656299591064453, "tests_passed": true, "error": null}
+{"code": "index = pd.date_range(start=\"2020-01-01\", periods=len(df), freq=\"D\")", "compilation_passed": true, "time": 0.20704102516174316, "tests_passed": true, "error": null}
+{"code": "plot(kind=\"line\", title=\"Time Series of Row Sums\",", "compilation_passed": false, "time": 0.0002300739288330078, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_index(pd.date_range(\"Jan 1, 2020\", periods=len(df), freq=\"D\"), inplace=True)", "compilation_passed": true, "time": 0.20602917671203613, "tests_passed": true, "error": null}
+{"code": "plot.line(\"Date\", title=\"Time Series of Row Sums\", datetime_format=\"%d %b\")", "compilation_passed": true, "time": 0.022027015686035156, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(", "compilation_passed": false, "time": 0.00035309791564941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_index(pd.date_range(\"2020-01-01\", freq=\"D\", periods=arr.shape[1]), inplace=True)", "compilation_passed": true, "time": 0.009387969970703125, "tests_passed": false, "error": "ValueError"}

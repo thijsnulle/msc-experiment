@@ -1,0 +1,8 @@
+{"code": " np.vstack([matrix1, matrix2])", "compilation_passed": true, "time": 0.004579782485961914, "tests_passed": true, "error": null}
+{"code": " np.concatenate((matrix1, matrix2), axis=1)", "compilation_passed": true, "time": 0.003944873809814453, "tests_passed": true, "error": null}
+{"code": " np.column_stack([matrix1, matrix2])", "compilation_passed": true, "time": 0.0042378902435302734, "tests_passed": true, "error": null}
+{"code": " np.vstack((matrix1, matrix2))", "compilation_passed": true, "time": 0.003918170928955078, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(matrix1, columns=matrix2)", "compilation_passed": true, "time": 0.022288084030151367, "tests_passed": false, "error": "ValueError"}
+{"code": " np.column_stack((matrix1, matrix2))", "compilation_passed": true, "time": 0.0041048526763916016, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00013494491577148438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.hstack([matrix1, matrix2])", "compilation_passed": true, "time": 0.003732919692993164, "tests_passed": true, "error": null}

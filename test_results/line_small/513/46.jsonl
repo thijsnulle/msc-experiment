@@ -1,0 +1,6 @@
+{"code": " ('Date', 'Steps', 'Calories Burned', 'Distance Walked')", "compilation_passed": true, "time": 0.4185831546783447, "tests_passed": true, "error": null}
+{"code": " ['Date', 'Steps', 'Calories Burned', 'Distance Walked']", "compilation_passed": true, "time": 0.43755078315734863, "tests_passed": true, "error": null}
+{"code": " [\"Date\", \"Steps\", \"Calories Burned\", \"Distance Walked\"]", "compilation_passed": true, "time": 0.4396028518676758, "tests_passed": true, "error": null}
+{"code": " {'Steps': lambda x: x[1], 'Calories Burned': lambda x: x[2],", "compilation_passed": false, "time": 0.0001347064971923828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'Steps': lambda x: sum(x),", "compilation_passed": false, "time": 0.0001270771026611328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'Date': 0, 'Steps': 1, 'Calories Burned': 2, 'Distance Walked': 3}", "compilation_passed": true, "time": 0.4809279441833496, "tests_passed": true, "error": null}

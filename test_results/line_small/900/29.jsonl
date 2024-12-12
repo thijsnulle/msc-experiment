@@ -1,0 +1,10 @@
+{"code": " not isinstance(d, list):", "compilation_passed": true, "time": 0.008867263793945312, "tests_passed": true, "error": null}
+{"code": " d is None:", "compilation_passed": true, "time": 0.0037250518798828125, "tests_passed": true, "error": null}
+{"code": " not d:", "compilation_passed": true, "time": 0.006582975387573242, "tests_passed": false, "error": "ValueError"}
+{"code": " d and all(isinstance(d_, dict) for d_ in d):", "compilation_passed": true, "time": 0.0059278011322021484, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(d, list) or not all(isinstance(dic, dict) for dic in d):", "compilation_passed": true, "time": 0.0039899349212646484, "tests_passed": true, "error": null}
+{"code": " not isinstance(d, list) or not all(isinstance(i, dict) for i in d):", "compilation_passed": true, "time": 0.004261016845703125, "tests_passed": true, "error": null}
+{"code": " not isinstance(d, list) or not all(isinstance(item, dict) for item in d):", "compilation_passed": true, "time": 0.004091739654541016, "tests_passed": true, "error": null}
+{"code": " isinstance(d, list):", "compilation_passed": true, "time": 0.00656580924987793, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(d, list) or any(not isinstance(x, dict) for x in d):", "compilation_passed": true, "time": 0.004007816314697266, "tests_passed": true, "error": null}
+{"code": " not isinstance(d, list) or any(not isinstance(item, dict) for item in d):", "compilation_passed": true, "time": 0.0036649703979492188, "tests_passed": true, "error": null}

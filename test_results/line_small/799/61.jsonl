@@ -1,0 +1,15 @@
+{"code": " pd.Index(pd.Series(list('abcdefghijklmnopqrstuvwxyz')))", "compilation_passed": true, "time": 0.04668593406677246, "tests_passed": true, "error": null}
+{"code": " \"abcdefghijklmnopqrstuvwxyz\"", "compilation_passed": true, "time": 0.04564309120178223, "tests_passed": true, "error": null}
+{"code": " [chr(ord('a')+i) for i in range(26)]", "compilation_passed": true, "time": 0.04464316368103027, "tests_passed": true, "error": null}
+{"code": " list(string.ascii_lowercase)", "compilation_passed": true, "time": 0.007481098175048828, "tests_passed": false, "error": "NameError"}
+{"code": " [chr(ord('a') + i) for i in range(26)]", "compilation_passed": true, "time": 0.04424118995666504, "tests_passed": true, "error": null}
+{"code": " 'abcdefghijklmnopqrstuvwxyz'", "compilation_passed": true, "time": 0.04390287399291992, "tests_passed": true, "error": null}
+{"code": " string.ascii_lowercase", "compilation_passed": true, "time": 0.0072062015533447266, "tests_passed": false, "error": "NameError"}
+{"code": " [chr(i) for i in range(ord('a'), ord('z') + 1)]", "compilation_passed": true, "time": 0.04533672332763672, "tests_passed": true, "error": null}
+{"code": " [\"a\", \"b\", \"c\", \"d\", \"e\", \"f\", \"g\", \"h\", \"i\", \"j\", \"k\", \"l\", \"m\", \"n\", \"o\", \"p\", \"q\", \"r\", \"s\", \"t\",", "compilation_passed": false, "time": 0.00023603439331054688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list('abcdefghijklmnopqrstuvwxyz')", "compilation_passed": true, "time": 0.044347286224365234, "tests_passed": true, "error": null}
+{"code": " list(\"abcdefghijklmnopqrstuvwxyz\")", "compilation_passed": true, "time": 0.045300960540771484, "tests_passed": true, "error": null}
+{"code": " [c for c in string.ascii_lowercase]", "compilation_passed": true, "time": 0.007426023483276367, "tests_passed": false, "error": "NameError"}
+{"code": " [chr(ord('a')+c) for c in range(26)]", "compilation_passed": true, "time": 0.0441741943359375, "tests_passed": true, "error": null}
+{"code": " [chr(97+i) for i in range(26)]", "compilation_passed": true, "time": 0.04429173469543457, "tests_passed": true, "error": null}
+{"code": " ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',", "compilation_passed": false, "time": 0.00023102760314941406, "tests_passed": false, "error": "SyntaxError"}

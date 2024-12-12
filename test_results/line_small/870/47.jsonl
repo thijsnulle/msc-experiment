@@ -1,0 +1,30 @@
+{"code": " list(map(lambda row: pd.DataFrame({'Mean Value': [np.nan if np.isnan(value) else value for value in row]}),", "compilation_passed": false, "time": 0.00030112266540527344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [np.nanmean([value for value in row if pd.isna(value) or pd.isnumeric(value)]) for row in unzipped_data[1:]]", "compilation_passed": true, "time": 0.007760047912597656, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.nanmean(x[1:]) for x in unzipped_data if pd.api.types.is_number(x[0])]", "compilation_passed": true, "time": 0.0039119720458984375, "tests_passed": true, "error": null}
+{"code": " [np.nanmean(col) if np.issubdtype(col.dtype, np.number) else np.nan for col in unzipped_data[1:]]", "compilation_passed": true, "time": 0.006691932678222656, "tests_passed": false, "error": "AttributeError"}
+{"code": " [pd.Series(row[1:]).dropna().mean() for row in unzipped_data]", "compilation_passed": true, "time": 0.018238067626953125, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series([mean(value) for value in unzipped_data]).dropna()", "compilation_passed": true, "time": 0.006730079650878906, "tests_passed": false, "error": "NameError"}
+{"code": " [np.nanmean([v for v in row if pd.isnumeric(v)]) for row in unzipped_data[1:]]", "compilation_passed": true, "time": 0.008111953735351562, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.mean(row[1:]) for row in unzipped_data if isinstance(row[0], (int, float))]", "compilation_passed": true, "time": 0.004186153411865234, "tests_passed": true, "error": null}
+{"code": " [np.mean([i for i in row if isinstance(i, (int, float))]) for row in unzipped_data[1:]]", "compilation_passed": true, "time": 0.003969907760620117, "tests_passed": true, "error": null}
+{"code": " [np.nanmean(list(map(float, values))) for values in unzipped_data if is_numeric(values)]", "compilation_passed": true, "time": 0.007177829742431641, "tests_passed": false, "error": "NameError"}
+{"code": " [np.mean(vals) for vals in unzipped_data[1:]]", "compilation_passed": true, "time": 0.00400996208190918, "tests_passed": true, "error": null}
+{"code": " np.nanmean(np.array([column for column in unzipped_data if np.issubdtype(column.dtype, np.number)]), axis=0)", "compilation_passed": true, "time": 0.006438016891479492, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.nan_to_num(np.mean(row[1:]), where=row[0].isdigit())) for row in unzipped_data]", "compilation_passed": false, "time": 0.0001690387725830078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [np.nanmean(row[1:]) for row in unzipped_data if np.isnumeric(row[0])]", "compilation_passed": true, "time": 0.008878231048583984, "tests_passed": false, "error": "AttributeError"}
+{"code": " list(map(lambda x: np.nanmean(list(filter(np.number.isreal, x))), unzipped_data[1:]))", "compilation_passed": true, "time": 0.006855964660644531, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.nanmean(col[1:]) for col in unzipped_data]", "compilation_passed": true, "time": 0.006691932678222656, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " list(map(np.mean, unzipped_data[1:]))", "compilation_passed": true, "time": 0.004416227340698242, "tests_passed": true, "error": null}
+{"code": " [np.nanmean([value for value in row[1:] if np.isreal(value)]) for row in unzipped_data]", "compilation_passed": true, "time": 0.003686189651489258, "tests_passed": true, "error": null}
+{"code": " list(map(pd.DataFrame.mean, map(pd.to_numeric, unzipped_data[1:])))", "compilation_passed": true, "time": 0.005237102508544922, "tests_passed": false, "error": "TypeError"}
+{"code": " [np.nanmean(column[1:]) for column in unzipped_data]", "compilation_passed": true, "time": 0.006955146789550781, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " [np.nanmean([item[i] for item in unzipped_data if np.isreal(item[i])]) for i in range(1, len(unzipped_data[0]))]", "compilation_passed": true, "time": 0.0037670135498046875, "tests_passed": true, "error": null}
+{"code": " [np.mean([value for value in row if pd.isnumeric(value)]) for row in unzipped_data[1:]]", "compilation_passed": true, "time": 0.00785517692565918, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.nanmean(col) if np.issubdtype(col.dtype, np.number) else np.nan for col in zip(*unzipped_data)]", "compilation_passed": true, "time": 0.00738215446472168, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.nanmean(num_data) for num_data in unzipped_data[1:]]", "compilation_passed": true, "time": 0.0036919116973876953, "tests_passed": true, "error": null}
+{"code": " [np.nanmean(column) for column in unzipped_data[1:]]", "compilation_passed": true, "time": 0.003634929656982422, "tests_passed": true, "error": null}
+{"code": " [np.mean(value) for value in unzipped_data[1:]]", "compilation_passed": true, "time": 0.0038559436798095703, "tests_passed": true, "error": null}
+{"code": " [np.mean(values[1:]) for values in unzipped_data if isinstance(values[0], (int, float))]", "compilation_passed": true, "time": 0.0040357112884521484, "tests_passed": true, "error": null}
+{"code": " [np.nanmean([x for x in row if pd.isnull(x) or pd.isnumber(x)])", "compilation_passed": false, "time": 0.00030517578125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [np.nanmean(values) for values in unzipped_data[1:]]", "compilation_passed": true, "time": 0.004105091094970703, "tests_passed": true, "error": null}
+{"code": " [np.nanmean(np.ma.masked_invalid(row)[1:]) for row in unzipped_data]", "compilation_passed": true, "time": 0.011252880096435547, "tests_passed": false, "error": "TypeError"}

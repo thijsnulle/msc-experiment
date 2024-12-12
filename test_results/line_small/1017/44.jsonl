@@ -1,0 +1,8 @@
+{"code": " df.drop(columns=[target_column])", "compilation_passed": true, "time": 0.4543023109436035, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=[target_column], inplace=False)", "compilation_passed": true, "time": 0.4466249942779541, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=target_column)", "compilation_passed": true, "time": 0.4446430206298828, "tests_passed": true, "error": null}
+{"code": " df.drop(target_column, axis=1)", "compilation_passed": true, "time": 0.44425415992736816, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=target_column, axis=1)", "compilation_passed": true, "time": 0.4429662227630615, "tests_passed": true, "error": null}
+{"code": " df.drop([target_column], axis=1)", "compilation_passed": true, "time": 0.44826698303222656, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=[target_column, 'Date'])", "compilation_passed": true, "time": 0.014037609100341797, "tests_passed": false, "error": "KeyError"}
+{"code": " df.drop(columns=[target_column], axis=1)", "compilation_passed": true, "time": 0.44515466690063477, "tests_passed": true, "error": null}

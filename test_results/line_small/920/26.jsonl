@@ -1,0 +1,7 @@
+{"code": " df.corr()", "compilation_passed": true, "time": 1.020895004272461, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df.corr(),", "compilation_passed": false, "time": 0.00015497207641601562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.corr(method='pearson')", "compilation_passed": true, "time": 1.0111973285675049, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df.corr(), cmap='RdYlBu', annot=True, linewidths=.5, cbar_kws={'cmap': 'RdYlBu'})", "compilation_passed": true, "time": 0.5570182800292969, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(", "compilation_passed": false, "time": 0.0002391338348388672, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(df.corr(), annot=True, cmap='coolwarm', center=0,", "compilation_passed": false, "time": 0.0002288818359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.corr(method=\"pearson\")", "compilation_passed": true, "time": 1.0357482433319092, "tests_passed": false, "error": "TimeoutError"}

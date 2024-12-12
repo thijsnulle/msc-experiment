@@ -1,0 +1,8 @@
+{"code": "bar(days, counts)", "compilation_passed": true, "time": 0.09873390197753906, "tests_passed": true, "error": null}
+{"code": "bar(range(len(days)), counts)", "compilation_passed": true, "time": 0.09105086326599121, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 8), counts, tickers=days, label='Activities')", "compilation_passed": true, "time": 0.009755849838256836, "tests_passed": false, "error": "AttributeError"}
+{"code": "bar(days, counts, label='Weekly Activities')", "compilation_passed": true, "time": 0.0901329517364502, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 8), counts)", "compilation_passed": true, "time": 0.09231305122375488, "tests_passed": true, "error": null}
+{"code": "bar(range(len(counts)), counts)", "compilation_passed": true, "time": 0.0911717414855957, "tests_passed": true, "error": null}
+{"code": "bar(days, counts, align='center')", "compilation_passed": true, "time": 0.09750509262084961, "tests_passed": true, "error": null}
+{"code": "bar(days, counts, label='Number of Activities')", "compilation_passed": true, "time": 0.0914759635925293, "tests_passed": true, "error": null}

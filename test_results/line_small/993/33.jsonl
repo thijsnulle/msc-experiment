@@ -1,0 +1,12 @@
+{"code": " ax = plt.subplots()", "compilation_passed": true, "time": 0.43878602981567383, "tests_passed": true, "error": null}
+{"code": " ax = plt.subplots(1, 1)", "compilation_passed": true, "time": 0.4004850387573242, "tests_passed": true, "error": null}
+{"code": " bins, patches = plt.hist(word_counts, bins=np.arange(0, max(word_counts) + 1.0, 1.0))", "compilation_passed": true, "time": 0.008451700210571289, "tests_passed": false, "error": "ValueError"}
+{"code": " bins, patches = plt.hist(word_counts, 150, normed=True)", "compilation_passed": true, "time": 0.10607218742370605, "tests_passed": false, "error": "AttributeError"}
+{"code": " ax = plt.subplots(figsize=(8, 3))", "compilation_passed": true, "time": 0.41408419609069824, "tests_passed": true, "error": null}
+{"code": " ax = plt.subplots(1, 2)", "compilation_passed": true, "time": 0.09974408149719238, "tests_passed": true, "error": null}
+{"code": " bins, patches = plt.hist(word_counts, bins=50, density=True, color='red', alpha=0.5)", "compilation_passed": true, "time": 0.05413699150085449, "tests_passed": false, "error": "NameError"}
+{"code": " ax = plt.subplots(1)", "compilation_passed": true, "time": 0.45751309394836426, "tests_passed": true, "error": null}
+{"code": " ax = plt.subplots(figsize=(5, 1.5))", "compilation_passed": true, "time": 0.4067420959472656, "tests_passed": true, "error": null}
+{"code": " ax = plt.subplots(figsize=(6, 5))", "compilation_passed": true, "time": 0.23444414138793945, "tests_passed": true, "error": null}
+{"code": " bins, patches = plt.hist(word_counts, 50, alpha=0.5, density=True)", "compilation_passed": true, "time": 0.05054521560668945, "tests_passed": false, "error": "NameError"}
+{"code": " ax = plt.subplots(1, figsize=(10, 6))", "compilation_passed": true, "time": 0.23146510124206543, "tests_passed": true, "error": null}

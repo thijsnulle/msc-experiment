@@ -1,0 +1,14 @@
+{"code": " blake3.hash(json_req_data).hexdigest()", "compilation_passed": true, "time": 0.007338047027587891, "tests_passed": false, "error": "AttributeError"}
+{"code": " blake3.blake3(json_req_data.encode()).hexdigest()", "compilation_passed": true, "time": 0.0020799636840820312, "tests_passed": true, "error": null}
+{"code": " blake3.blake3.hash(json_req_data).hexdigest()", "compilation_passed": true, "time": 0.005727052688598633, "tests_passed": false, "error": "AttributeError"}
+{"code": " blake3.hash(json_req_data.encode()).hexdigest()", "compilation_passed": true, "time": 0.0055522918701171875, "tests_passed": false, "error": "AttributeError"}
+{"code": " blake3.blake3(json_req_data).hexdigest()", "compilation_passed": true, "time": 0.006101846694946289, "tests_passed": false, "error": "TypeError"}
+{"code": " str(blake3.hash(json_req_data.encode()).hexdigest())", "compilation_passed": true, "time": 0.006306171417236328, "tests_passed": false, "error": "AttributeError"}
+{"code": " blake3.blake3(json_req_data.encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.0018870830535888672, "tests_passed": true, "error": null}
+{"code": " str(blake3.blake3(json_req_data.encode()).digest())", "compilation_passed": true, "time": 0.0040912628173828125, "tests_passed": true, "error": null}
+{"code": " blake3.hash(json_req_data.encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.006695985794067383, "tests_passed": false, "error": "AttributeError"}
+{"code": " str(blake3.blake3(json_req_data.encode(), hash_type=blake3.HashType.HEX).digest(), 'utf-8')", "compilation_passed": true, "time": 0.0055999755859375, "tests_passed": false, "error": "AttributeError"}
+{"code": " blake3.hash(json_req_data.encode()).hex()", "compilation_passed": true, "time": 0.00594019889831543, "tests_passed": false, "error": "AttributeError"}
+{"code": " blake3.blake3(json_req_data.encode(), digest_size=64).hexdigest()", "compilation_passed": true, "time": 0.00558781623840332, "tests_passed": false, "error": "TypeError"}
+{"code": " blake3.blake3.hash(json_req_data.encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.005774259567260742, "tests_passed": false, "error": "AttributeError"}
+{"code": " str(blake3.hash(json_req_data.encode(\"utf-8\")).hexdigest())", "compilation_passed": true, "time": 0.005587100982666016, "tests_passed": false, "error": "AttributeError"}

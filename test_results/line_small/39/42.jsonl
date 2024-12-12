@@ -1,0 +1,27 @@
+{"code": " significant_indices, _, _ = ttest_1samp(means, popmean=population_mean)", "compilation_passed": true, "time": 0.014024972915649414, "tests_passed": false, "error": "ValueError"}
+{"code": " significant_indices, _ = ttest_1samp(data_matrix, popmean=population_mean)", "compilation_passed": true, "time": 0.019870996475219727, "tests_passed": false, "error": "ValueError"}
+{"code": " pvals = ttest_1samp(means, popmean=population_mean, axis=0)", "compilation_passed": true, "time": 0.015091896057128906, "tests_passed": false, "error": "NameError"}
+{"code": " significant_indices, _, _ = ttest_1samp(data_matrix,", "compilation_passed": false, "time": 0.0001819133758544922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " p_values = ttest_1samp(means, popmean=population_mean)", "compilation_passed": true, "time": 0.02112579345703125, "tests_passed": false, "error": "NameError"}
+{"code": " significant_indices, pvalues, _ = ttest_1samp(data_matrix, popmean=population_mean)", "compilation_passed": true, "time": 0.024306297302246094, "tests_passed": false, "error": "ValueError"}
+{"code": " pvalue_list, _, _ = np.apply_along_axis(lambda row: ttest_1samp(row, population_mean), 1, data_matrix)", "compilation_passed": true, "time": 0.016954898834228516, "tests_passed": false, "error": "ValueError"}
+{"code": " pvals = ttest_1samp(data_matrix, population_mean)", "compilation_passed": true, "time": 0.014115095138549805, "tests_passed": false, "error": "NameError"}
+{"code": " pvalue, _, _ = ttest_1samp(means, population_mean)", "compilation_passed": true, "time": 0.015698909759521484, "tests_passed": false, "error": "ValueError"}
+{"code": " pval, _, _ = ttest_1samp(means, popmean=population_mean)", "compilation_passed": true, "time": 0.015846967697143555, "tests_passed": false, "error": "ValueError"}
+{"code": " pvalues = ttest_1samp(data_matrix, mean=population_mean)", "compilation_passed": true, "time": 0.021564006805419922, "tests_passed": false, "error": "TypeError"}
+{"code": " pvalues = ttest_1samp(means, popmean=population_mean)", "compilation_passed": true, "time": 0.014889955520629883, "tests_passed": false, "error": "NameError"}
+{"code": " pval, _, _ = ttest_1samp(means, population_mean)", "compilation_passed": true, "time": 0.014979124069213867, "tests_passed": false, "error": "ValueError"}
+{"code": " p_values = ttest_1samp(data_matrix, means[0])", "compilation_passed": true, "time": 0.013643980026245117, "tests_passed": false, "error": "NameError"}
+{"code": " indices = ttest_1samp(means, popmean=population_mean, axis=None, equal_var=True, nan_policy='propagate')", "compilation_passed": true, "time": 0.013595104217529297, "tests_passed": false, "error": "TypeError"}
+{"code": " pvalue_list = ttest_1samp(means, popmean=population_mean, axis=0)", "compilation_passed": true, "time": 0.015074014663696289, "tests_passed": false, "error": "NameError"}
+{"code": " pvalues = ttest_1samp(data_matrix, popmean=population_mean)", "compilation_passed": true, "time": 0.015571832656860352, "tests_passed": false, "error": "NameError"}
+{"code": " pvals = ttest_1samp(data_matrix, popmean=population_mean, axis=1, alternative='two-sided')", "compilation_passed": true, "time": 0.014470100402832031, "tests_passed": false, "error": "NameError"}
+{"code": " significant_indices = ttest_1samp(data_matrix, popmean=population_mean)", "compilation_passed": true, "time": 0.013921022415161133, "tests_passed": false, "error": "NameError"}
+{"code": " significant_indices, _ = ttest_1samp(means, popmean=population_mean)", "compilation_passed": true, "time": 0.013822793960571289, "tests_passed": false, "error": "ValueError"}
+{"code": " means, pvals, _, _ = ttest_1samp(data_matrix, popmean=population_mean)", "compilation_passed": true, "time": 0.014059066772460938, "tests_passed": false, "error": "ValueError"}
+{"code": " pvalues = zip(*(ttest_1samp(means, popmean=population_mean, nan_policy='propagate') for means in means))", "compilation_passed": true, "time": 0.017894983291625977, "tests_passed": false, "error": "NameError"}
+{"code": " p_values = ttest_1samp(data_matrix, population_mean, axis=1)", "compilation_passed": true, "time": 0.014605998992919922, "tests_passed": false, "error": "NameError"}
+{"code": " pvals = ttest_1samp(data_matrix, popmean=population_mean)", "compilation_passed": true, "time": 0.015972137451171875, "tests_passed": false, "error": "NameError"}
+{"code": " p_values = ttest_1samp(data_matrix, popmean=population_mean, axis=1)", "compilation_passed": true, "time": 0.014016866683959961, "tests_passed": false, "error": "NameError"}
+{"code": " significant_indices = ttest_1samp(means, population_mean, axis=0, alt='two-sided', axis=-1, nan_policy='propagate')", "compilation_passed": false, "time": 0.0022521018981933594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pvals = ttest_1samp(means, population_mean)", "compilation_passed": true, "time": 0.024084806442260742, "tests_passed": false, "error": "NameError"}

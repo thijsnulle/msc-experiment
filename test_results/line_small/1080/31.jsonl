@@ -1,0 +1,9 @@
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.02998805046081543, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=data)", "compilation_passed": true, "time": 0.03126192092895508, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=DATA)", "compilation_passed": true, "time": 0.026733875274658203, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, index=None)", "compilation_passed": true, "time": 0.023602008819580078, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=data, columns=[\"Area_String\", \"Price\"])", "compilation_passed": true, "time": 0.025130033493041992, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=['Area_String', 'Price'])", "compilation_passed": true, "time": 0.023849010467529297, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(data)", "compilation_passed": true, "time": 0.02587103843688965, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, index=[\"Area_String\"])", "compilation_passed": true, "time": 0.011399269104003906, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, index=[0])", "compilation_passed": true, "time": 0.007910966873168945, "tests_passed": false, "error": "ValueError"}

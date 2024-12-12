@@ -1,0 +1,4 @@
+{"code": " pca.fit_transform(df_numeric.values)", "compilation_passed": true, "time": 0.019114971160888672, "tests_passed": true, "error": null}
+{"code": " pca.fit_transform(df_numeric)", "compilation_passed": true, "time": 0.01828932762145996, "tests_passed": true, "error": null}
+{"code": " pca.fit_transform(df_numeric.to_numpy())", "compilation_passed": true, "time": 0.022572040557861328, "tests_passed": true, "error": null}
+{"code": " pca.fit_transform(df_numeric.T).T", "compilation_passed": true, "time": 0.021596908569335938, "tests_passed": false, "error": "ValueError"}

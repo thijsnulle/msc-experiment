@@ -1,0 +1,18 @@
+{"code": " df1.merge(df2, left_on=\"id\", right_on=\"id\")", "compilation_passed": true, "time": 0.327913761138916, "tests_passed": true, "error": null}
+{"code": " pd.merge(df1, df2, on='id')", "compilation_passed": true, "time": 0.3377871513366699, "tests_passed": true, "error": null}
+{"code": " df1.merge(df2, how='inner', on='id')", "compilation_passed": true, "time": 0.34640002250671387, "tests_passed": true, "error": null}
+{"code": " pd.merge(df1, df2, on=\"id\")", "compilation_passed": true, "time": 0.3506028652191162, "tests_passed": true, "error": null}
+{"code": " pd.merge(df1, df2, on='id')[['feature1', column2]].groupby(", "compilation_passed": false, "time": 0.00019288063049316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df1.merge(df2, on='id', how='outer').sort_values(['id', column1, column2])", "compilation_passed": true, "time": 0.33976221084594727, "tests_passed": true, "error": null}
+{"code": " df1.merge(df2, how=\"inner\", on=\"id\")", "compilation_passed": true, "time": 0.33008313179016113, "tests_passed": true, "error": null}
+{"code": " df1.merge(df2, on=\"id\")", "compilation_passed": true, "time": 0.3326582908630371, "tests_passed": true, "error": null}
+{"code": " df1.merge(df2, on='id')", "compilation_passed": true, "time": 0.3353097438812256, "tests_passed": true, "error": null}
+{"code": " df1.merge(df2, on=\"id\", how=\"inner\")", "compilation_passed": true, "time": 0.3678581714630127, "tests_passed": true, "error": null}
+{"code": " pd.merge(df1, df2, on=\"id\", how=\"inner\")", "compilation_passed": true, "time": 0.3190882205963135, "tests_passed": true, "error": null}
+{"code": " df1.merge(df2, on=\"id\", how=\"left\")", "compilation_passed": true, "time": 0.33528709411621094, "tests_passed": true, "error": null}
+{"code": " pd.merge(df1, df2, how=\"left\", on=\"id\")", "compilation_passed": true, "time": 0.3500549793243408, "tests_passed": true, "error": null}
+{"code": " pd.merge(df1, df2, how=\"inner\", on=\"id\")", "compilation_passed": true, "time": 0.34496116638183594, "tests_passed": true, "error": null}
+{"code": " pd.merge(df1, df2, left_on=column1, right_on=column2)", "compilation_passed": true, "time": 0.018267154693603516, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.merge(df1, df2, how=\"outer\", on=\"id\").drop_duplicates()", "compilation_passed": true, "time": 0.3323531150817871, "tests_passed": true, "error": null}
+{"code": " pd.merge(", "compilation_passed": false, "time": 0.0002040863037109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.merge(df1, df2, left_on=\"id\", right_on=\"id\")", "compilation_passed": true, "time": 0.34376025199890137, "tests_passed": true, "error": null}

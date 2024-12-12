@@ -1,0 +1,25 @@
+{"code": " pd.Series(randint(0, 100) for _ in range(num_rows))", "compilation_passed": true, "time": 0.04218888282775879, "tests_passed": true, "error": null}
+{"code": " {label: randint(rand_range[0], rand_range[1]) for label in labels}", "compilation_passed": true, "time": 0.03217196464538574, "tests_passed": false, "error": "AttributeError"}
+{"code": " {cat: [randint(*rand_range) for _ in range(num_rows)] for cat in labels}", "compilation_passed": true, "time": 0.03167605400085449, "tests_passed": false, "error": "AttributeError"}
+{"code": " {label: randint(*rand_range) for label in labels}", "compilation_passed": true, "time": 0.0314939022064209, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(randint(0, 100) for _ in range(num_rows))", "compilation_passed": true, "time": 0.04268193244934082, "tests_passed": true, "error": null}
+{"code": " [randint(rand_range[0], rand_range[1]) for _ in range(num_rows)]", "compilation_passed": true, "time": 0.030837059020996094, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'A': [randint(rand_range[0], rand_range[1]) for _ in range(num_rows)],", "compilation_passed": false, "time": 0.00024390220642089844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'A': [randint(*rand_range) for _ in range(num_rows)],", "compilation_passed": false, "time": 0.00021696090698242188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {cat: randint(rand_range[0], rand_range[1]) for cat in labels}", "compilation_passed": true, "time": 0.03190183639526367, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(0, index=labels, columns=['num'])", "compilation_passed": true, "time": 0.040985822677612305, "tests_passed": true, "error": null}
+{"code": " [randint(*rand_range) for _ in range(num_rows)]", "compilation_passed": true, "time": 0.03437399864196777, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'A': [randint(*rand_range) for _ in range(num_rows)],", "compilation_passed": false, "time": 0.00023484230041503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {cat: [randint(rand_range[0], rand_range[1]) for _ in range(num_rows)] for cat in labels}", "compilation_passed": true, "time": 0.032028913497924805, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(randint(rand_range[0], rand_range[1]) for _ in range(num_rows))", "compilation_passed": true, "time": 0.04138612747192383, "tests_passed": true, "error": null}
+{"code": " {category: [randint(*rand_range) for _ in range(num_rows)] for category in labels}", "compilation_passed": true, "time": 0.03147315979003906, "tests_passed": false, "error": "AttributeError"}
+{"code": " [[randint(*rand_range) for _ in range(num_rows)] for _ in labels]", "compilation_passed": true, "time": 0.0316767692565918, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.03256797790527344, "tests_passed": false, "error": "AttributeError"}
+{"code": " {label: [randint(*rand_range) for _ in range(num_rows)] for label in labels}", "compilation_passed": true, "time": 0.03257608413696289, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.03202009201049805, "tests_passed": false, "error": "AttributeError"}
+{"code": " {label: [randint(rand_range[0], rand_range[1]) for _ in range(num_rows)] for label in labels}", "compilation_passed": true, "time": 0.03245711326599121, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'Category': labels, 'Value': randint(*rand_range) for _ in range(num_rows)})", "compilation_passed": false, "time": 0.0002758502960205078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {", "compilation_passed": false, "time": 0.00016498565673828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [[randint(*rand_range) for _ in range(num_rows)] for _ in range(len(labels))]", "compilation_passed": true, "time": 0.03244209289550781, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series(labels, name=\"Category\")", "compilation_passed": true, "time": 0.04459810256958008, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(randint(0, 100) for i in range(num_rows)).T", "compilation_passed": true, "time": 0.04542708396911621, "tests_passed": true, "error": null}

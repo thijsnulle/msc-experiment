@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame(sampled_rows, columns=col_names)", "compilation_passed": true, "time": 0.045656681060791016, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([row[:max_cols] for row in sampled_rows], columns=col_names)", "compilation_passed": true, "time": 0.044753074645996094, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([row for row in sampled_rows])", "compilation_passed": true, "time": 0.010049819946289062, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_records(sampled_rows, columns=col_names)", "compilation_passed": true, "time": 0.04499983787536621, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([row for row in sampled_rows], columns=col_names)", "compilation_passed": true, "time": 0.0443720817565918, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([row for row in sampled_rows if len(row) <= max_cols])", "compilation_passed": true, "time": 0.009389162063598633, "tests_passed": true, "error": null}

@@ -1,0 +1,24 @@
+{"code": " [randint(0, len(l)-1) for _ in range(len(l))]", "compilation_passed": true, "time": 0.011149883270263672, "tests_passed": false, "error": "TypeError"}
+{"code": " [(randint(0, len(l[i]) - 1), randint(0, len(l[i]) - 1)) for i in range(len(l))]", "compilation_passed": true, "time": 0.0024099349975585938, "tests_passed": true, "error": null}
+{"code": " [randint(0, i) for i in range(len(l))]", "compilation_passed": true, "time": 0.0117340087890625, "tests_passed": false, "error": "TypeError"}
+{"code": " [(randint(0, len(x) - 1) for _ in range(n_groups)) for x in l]", "compilation_passed": true, "time": 0.012845993041992188, "tests_passed": false, "error": "ValueError"}
+{"code": " [randint(0, len(e)-n_groups) for e in l]", "compilation_passed": true, "time": 0.01683187484741211, "tests_passed": false, "error": "ValueError"}
+{"code": " []", "compilation_passed": true, "time": 0.007415056228637695, "tests_passed": true, "error": null}
+{"code": " [(randint(0, len(l[i]) - 1) if randint(0, n_groups - 1) == 0 else 0) for i in range(len(l))]", "compilation_passed": true, "time": 0.011108875274658203, "tests_passed": false, "error": "TypeError"}
+{"code": " [randint(0, len(item)) for item in l]", "compilation_passed": true, "time": 0.013701200485229492, "tests_passed": false, "error": "TypeError"}
+{"code": " [randint(0, len(s) - 1) for s in l]", "compilation_passed": true, "time": 0.010744810104370117, "tests_passed": false, "error": "TypeError"}
+{"code": " [(randint(0, len(elem)-1), randint(0, len(elem)-1)) for elem in l]", "compilation_passed": true, "time": 0.0018849372863769531, "tests_passed": true, "error": null}
+{"code": " [randint(0, len(element) - 1) for element in l]", "compilation_passed": true, "time": 0.013623952865600586, "tests_passed": false, "error": "TypeError"}
+{"code": " [randint(0, len(elem)) for elem in l]", "compilation_passed": true, "time": 0.012020111083984375, "tests_passed": false, "error": "TypeError"}
+{"code": " [randint(1, len(s)) for s in l]", "compilation_passed": true, "time": 0.012167215347290039, "tests_passed": false, "error": "TypeError"}
+{"code": " [randint(0, len(s)-1) for s in l]", "compilation_passed": true, "time": 0.011259078979492188, "tests_passed": false, "error": "TypeError"}
+{"code": " [(randint(0, len(l) - 1), randint(0, len(l) - 1)) for _ in range(n_groups)]", "compilation_passed": true, "time": 0.007264852523803711, "tests_passed": true, "error": null}
+{"code": " [randint(0, len(l) - 1) for _ in range(len(l))]", "compilation_passed": true, "time": 0.01371002197265625, "tests_passed": false, "error": "TypeError"}
+{"code": " [randint(0, len(element)-1) for element in l]", "compilation_passed": true, "time": 0.012154817581176758, "tests_passed": false, "error": "TypeError"}
+{"code": " [(randint(0, len(elem) - 1), randint(0, len(elem) - 1)) for elem in l]", "compilation_passed": true, "time": 0.0025148391723632812, "tests_passed": true, "error": null}
+{"code": " [randint(0, n_groups - 1) for _ in range(len(l))]", "compilation_passed": true, "time": 0.013553142547607422, "tests_passed": false, "error": "TypeError"}
+{"code": " [randint(0, len(elem) - 1) for elem in l]", "compilation_passed": true, "time": 0.010487794876098633, "tests_passed": false, "error": "TypeError"}
+{"code": " [randint(0, i - 1) for i in range(len(l), 0, -1)]", "compilation_passed": true, "time": 0.009608268737792969, "tests_passed": false, "error": "TypeError"}
+{"code": " [randint(1, len(s) - 1) for s in l]", "compilation_passed": true, "time": 0.013519287109375, "tests_passed": false, "error": "ValueError"}
+{"code": " [randint(1, n) for _ in l]", "compilation_passed": true, "time": 0.014198064804077148, "tests_passed": false, "error": "NameError"}
+{"code": " [randint(1, len(element)) for element in l]", "compilation_passed": true, "time": 0.010500192642211914, "tests_passed": false, "error": "TypeError"}

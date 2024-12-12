@@ -1,0 +1,9 @@
+{"code": " df[date_column].apply(lambda x: parse(x)).dt.year", "compilation_passed": true, "time": 0.019669055938720703, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[date_column].apply(parse)", "compilation_passed": true, "time": 0.02594780921936035, "tests_passed": true, "error": null}
+{"code": " pd.to_datetime(df[date_column])", "compilation_passed": true, "time": 0.027720928192138672, "tests_passed": true, "error": null}
+{"code": " df[date_column].apply(parse).dt.year", "compilation_passed": true, "time": 0.007296085357666016, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.to_datetime(df[date_column], errors='coerce')", "compilation_passed": true, "time": 0.024690866470336914, "tests_passed": true, "error": null}
+{"code": " df[date_column].apply(lambda x: parse(x))", "compilation_passed": true, "time": 0.02601170539855957, "tests_passed": true, "error": null}
+{"code": " df[date_column].map(parse)", "compilation_passed": true, "time": 0.02539968490600586, "tests_passed": true, "error": null}
+{"code": " df[date_column].map(parse).dt.year", "compilation_passed": true, "time": 0.007223844528198242, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[date_column].apply(lambda x: parse(x).strftime('%Y'))", "compilation_passed": true, "time": 0.00745391845703125, "tests_passed": false, "error": "AttributeError"}

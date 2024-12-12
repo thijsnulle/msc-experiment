@@ -1,0 +1,12 @@
+{"code": " f\"{line_hash[:10]}.txt\"", "compilation_passed": true, "time": 0.007295131683349609, "tests_passed": true, "error": null}
+{"code": " os.path.join(DIRECTORY, f\"{line_hash[:10]}.txt\")", "compilation_passed": true, "time": 0.008822202682495117, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " \"%s.txt\" % line_hash[0:10]", "compilation_passed": true, "time": 0.007169008255004883, "tests_passed": true, "error": null}
+{"code": " os.path.join(DIRECTORY, line_hash[:10] + \".txt\")", "compilation_passed": true, "time": 0.0075168609619140625, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " \".\".join([DIRECTORY, line_hash[:10], \"txt\"])", "compilation_passed": true, "time": 0.007580995559692383, "tests_passed": true, "error": null}
+{"code": " DIRECTORY + \"/\" + line_hash[0:10] + \".txt\"", "compilation_passed": true, "time": 0.007384061813354492, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " DIRECTORY + os.sep + line_hash[:10] + \".txt\"", "compilation_passed": true, "time": 0.007398128509521484, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " DIRECTORY + \"/\" + line_hash[:10] + \".txt\"", "compilation_passed": true, "time": 0.0073587894439697266, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " f\"./hashed_files/{line_hash[:10]}.txt\"", "compilation_passed": true, "time": 0.008081912994384766, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " line_hash[:10] + \".txt\"", "compilation_passed": true, "time": 0.008101940155029297, "tests_passed": true, "error": null}
+{"code": " \".\".join([DIRECTORY, line_hash[:10], \".txt\"])", "compilation_passed": true, "time": 0.008611679077148438, "tests_passed": true, "error": null}
+{"code": " f\"{line_hash[0:10]}.txt\"", "compilation_passed": true, "time": 0.006918907165527344, "tests_passed": true, "error": null}

@@ -1,0 +1,4 @@
+{"code": " counts, weights = zip(*data)", "compilation_passed": true, "time": 0.06868195533752441, "tests_passed": true, "error": null}
+{"code": " counts, weights = [], [], []", "compilation_passed": true, "time": 0.012280941009521484, "tests_passed": false, "error": "ValueError"}
+{"code": " counts, weights = list(zip(*data))", "compilation_passed": true, "time": 0.0672147274017334, "tests_passed": true, "error": null}
+{"code": " counts, weights = [row[0] for row in data], [row[1] for row in data], [row[2] for row in data]", "compilation_passed": true, "time": 0.06496906280517578, "tests_passed": true, "error": null}

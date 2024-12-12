@@ -1,0 +1,13 @@
+{"code": "row_sums - mean) / (std_dev + (std_dev == 0))", "compilation_passed": true, "time": 0.23083019256591797, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / std_dev if std_dev > 0 else np.zeros_like(row_sums)", "compilation_passed": true, "time": 0.22008800506591797, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / std_dev", "compilation_passed": true, "time": 0.03677511215209961, "tests_passed": false, "error": "ValueError"}
+{"code": "row_sums - mean) / (std_dev if std_dev else 1)", "compilation_passed": true, "time": 0.22393798828125, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / std_dev if std_dev != 0 else np.zeros(row_sums.shape)", "compilation_passed": true, "time": 0.23091506958007812, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / (std_dev if std_dev > 0 else 1)", "compilation_passed": true, "time": 0.22020602226257324, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / (std_dev if std_dev != 0 else 1)", "compilation_passed": true, "time": 0.23687386512756348, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / std_dev if std_dev > 0 else np.zeros_like(arr)", "compilation_passed": true, "time": 1.2803330421447754, "tests_passed": false, "error": "TimeoutError"}
+{"code": "row_sums - mean) / (std_dev or 1)", "compilation_passed": true, "time": 0.22985100746154785, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / (std_dev + 1e-8)", "compilation_passed": true, "time": 0.23639988899230957, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / (std_dev + np.finfo(float).eps)", "compilation_passed": true, "time": 0.23908782005310059, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / std_dev if std_dev else np.zeros(arr.shape)", "compilation_passed": true, "time": 0.05415701866149902, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / std_dev if std_dev != 0 else np.zeros_like(row_sums)", "compilation_passed": true, "time": 0.232496976852417, "tests_passed": true, "error": null}

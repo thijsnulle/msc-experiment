@@ -1,0 +1,18 @@
+{"code": " pd.read_sql(\"SELECT email, list FROM EmailData\", conn, index_col=\"email\")", "compilation_passed": true, "time": 0.057396888732910156, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"SELECT * FROM EmailData\", conn, index_col='email')", "compilation_passed": true, "time": 0.059213876724243164, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"SELECT email, list, sum(list) AS sum, mean(list) AS mean, variance(list) AS var FROM (SELECT email, list FROM EmailData) GROUP BY email\", conn)", "compilation_passed": true, "time": 0.020659923553466797, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql('select * from EmailData', conn)", "compilation_passed": true, "time": 0.16373300552368164, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"select email, list from EmailData\", conn)", "compilation_passed": true, "time": 0.17046117782592773, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"SELECT * FROM EmailData;\", conn)", "compilation_passed": true, "time": 0.16554808616638184, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(", "compilation_passed": false, "time": 0.00021076202392578125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_sql_query(\"select * from EmailData\", conn)", "compilation_passed": true, "time": 0.16550397872924805, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"SELECT email, list FROM EmailData\", conn)", "compilation_passed": true, "time": 0.16404509544372559, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"\"\"select * from EmailData\"\"\", conn)", "compilation_passed": true, "time": 0.16544723510742188, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"SELECT * FROM EmailData\", conn)", "compilation_passed": true, "time": 0.16638517379760742, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"select * from EmailData\", conn)", "compilation_passed": true, "time": 0.1710948944091797, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"\"\"SELECT email, list,", "compilation_passed": false, "time": 0.00016832351684570312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_sql_query('select email,list from EmailData', conn)", "compilation_passed": true, "time": 0.17079710960388184, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"SELECT * from EmailData\", conn)", "compilation_passed": true, "time": 0.16990208625793457, "tests_passed": true, "error": null}
+{"code": " pd.read_sql('SELECT * FROM EmailData', conn)", "compilation_passed": true, "time": 0.17710018157958984, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"\"\"", "compilation_passed": false, "time": 0.00018095970153808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_sql(\"SELECT email, list FROM EmailData\", conn, index_col=0)", "compilation_passed": true, "time": 0.017840147018432617, "tests_passed": false, "error": "KeyError"}

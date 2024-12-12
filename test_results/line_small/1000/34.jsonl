@@ -1,0 +1,8 @@
+{"code": " open(TARGET_JSON_FILE) as json_file:", "compilation_passed": true, "time": 0.011551141738891602, "tests_passed": false, "error": "NameError"}
+{"code": " open(TARGET_JSON_FILE) as file:", "compilation_passed": true, "time": 0.012188911437988281, "tests_passed": false, "error": "NameError"}
+{"code": " open(TARGET_JSON_FILE) as f:", "compilation_passed": true, "time": 0.017192840576171875, "tests_passed": true, "error": null}
+{"code": " open(TARGET_JSON_FILE, \"r\") as file:", "compilation_passed": true, "time": 0.012840032577514648, "tests_passed": false, "error": "NameError"}
+{"code": " open(TARGET_JSON_FILE, 'r') as file:", "compilation_passed": true, "time": 0.011831998825073242, "tests_passed": false, "error": "NameError"}
+{"code": " open(TARGET_JSON_FILE, 'r') as f:", "compilation_passed": true, "time": 0.0182492733001709, "tests_passed": true, "error": null}
+{"code": " open(TARGET_JSON_FILE, encoding='utf8') as f:", "compilation_passed": true, "time": 0.01926112174987793, "tests_passed": true, "error": null}
+{"code": " open(TARGET_JSON_FILE, \"r\") as f:", "compilation_passed": true, "time": 0.01787590980529785, "tests_passed": true, "error": null}

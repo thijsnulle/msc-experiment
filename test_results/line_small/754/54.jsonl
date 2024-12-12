@@ -1,0 +1,15 @@
+{"code": " datetime.now().strftime(DATE_FORMAT),", "compilation_passed": true, "time": 0.004760026931762695, "tests_passed": true, "error": null}
+{"code": " np.nan,", "compilation_passed": true, "time": 0.0072269439697265625, "tests_passed": false, "error": "IndexError"}
+{"code": " None", "compilation_passed": true, "time": 0.00681304931640625, "tests_passed": false, "error": "IndexError"}
+{"code": " datetime.strftime(datetime.now(), DATE_FORMAT)", "compilation_passed": true, "time": 0.0042209625244140625, "tests_passed": true, "error": null}
+{"code": " datetime.strptime(datetime.now().strftime(DATE_FORMAT), DATE_FORMAT)", "compilation_passed": true, "time": 0.014930248260498047, "tests_passed": false, "error": "TypeError"}
+{"code": " 'N/A'", "compilation_passed": true, "time": 0.006514787673950195, "tests_passed": true, "error": null}
+{"code": " np.nan", "compilation_passed": true, "time": 0.006314992904663086, "tests_passed": false, "error": "IndexError"}
+{"code": " datetime.strptime(datetime.now().strftime(DATE_FORMAT), DATE_FORMAT).strftime(DATE_FORMAT)", "compilation_passed": true, "time": 0.004281044006347656, "tests_passed": true, "error": null}
+{"code": " datetime.now().strftime(DATE_FORMAT)", "compilation_passed": true, "time": 0.0046100616455078125, "tests_passed": true, "error": null}
+{"code": " np.datetime64('now').astype('datetime64[us]')", "compilation_passed": true, "time": 0.008398056030273438, "tests_passed": false, "error": "TypeError"}
+{"code": " ' '.join(datetime.now().strftime(DATE_FORMAT).split(' ')[0:5]),", "compilation_passed": true, "time": 0.004352092742919922, "tests_passed": true, "error": null}
+{"code": " np.datetime64('now')", "compilation_passed": true, "time": 0.00675201416015625, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.strptime(datetime.now().strftime(DATE_FORMAT), DATE_FORMAT).replace(tzinfo=None).isoformat()", "compilation_passed": true, "time": 0.006675004959106445, "tests_passed": true, "error": null}
+{"code": " np.datetime64(datetime.now()).astype(np.datetime64)", "compilation_passed": true, "time": 0.008213043212890625, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.to_datetime('now').strftime(DATE_FORMAT),", "compilation_passed": true, "time": 0.008928060531616211, "tests_passed": true, "error": null}

@@ -1,0 +1,16 @@
+{"code": " list(set(predicates).intersection(predicate_functions.keys()))", "compilation_passed": true, "time": 0.006088972091674805, "tests_passed": true, "error": null}
+{"code": " list(set(predicates))", "compilation_passed": true, "time": 0.019164085388183594, "tests_passed": true, "error": null}
+{"code": " [predicate.lower() for predicate in predicates if predicate in predicate_functions]", "compilation_passed": true, "time": 0.008294105529785156, "tests_passed": true, "error": null}
+{"code": " [p for p in predicates if p in predicate_functions]", "compilation_passed": true, "time": 0.007154941558837891, "tests_passed": true, "error": null}
+{"code": " set(predicates)", "compilation_passed": true, "time": 0.020169973373413086, "tests_passed": true, "error": null}
+{"code": " list(filter(lambda x: x in predicate_functions, predicates))", "compilation_passed": true, "time": 0.0063631534576416016, "tests_passed": true, "error": null}
+{"code": " [predicate_functions[pred] for pred in predicates]", "compilation_passed": true, "time": 0.0105438232421875, "tests_passed": false, "error": "KeyError"}
+{"code": " predicates or []", "compilation_passed": true, "time": 0.018799304962158203, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.007030010223388672, "tests_passed": true, "error": null}
+{"code": " [predicate_functions[predicate] for predicate in predicates]", "compilation_passed": true, "time": 0.009840250015258789, "tests_passed": false, "error": "KeyError"}
+{"code": " set()", "compilation_passed": true, "time": 0.0066890716552734375, "tests_passed": true, "error": null}
+{"code": " set(predicate.lower() for predicate in predicates)", "compilation_passed": true, "time": 0.020105838775634766, "tests_passed": true, "error": null}
+{"code": " set(predicates).intersection(predicate_functions.keys())", "compilation_passed": true, "time": 0.007103919982910156, "tests_passed": true, "error": null}
+{"code": " set(predicates).intersection(predicate_functions)", "compilation_passed": true, "time": 0.00687098503112793, "tests_passed": true, "error": null}
+{"code": " [predicate for predicate in predicates if predicate in predicate_functions]", "compilation_passed": true, "time": 0.007063150405883789, "tests_passed": true, "error": null}
+{"code": " {k: predicates.count(k) for k in predicates if k in predicate_functions}", "compilation_passed": true, "time": 0.006969928741455078, "tests_passed": true, "error": null}

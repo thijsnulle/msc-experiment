@@ -1,0 +1,21 @@
+{"code": " re.sub(r\"[^a-zA-Z]\", \"\", word)", "compilation_passed": true, "time": 0.004613161087036133, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^A-Za-z]\", \"\", word.lower())", "compilation_passed": true, "time": 0.0020389556884765625, "tests_passed": true, "error": null}
+{"code": " ''.join(c for c in word.lower() if c.isalpha())", "compilation_passed": true, "time": 0.001219034194946289, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z]', '', word).lower()", "compilation_passed": true, "time": 0.0011839866638183594, "tests_passed": true, "error": null}
+{"code": " ''.join(re.findall(r'\\w', word.lower()))", "compilation_passed": true, "time": 0.0013740062713623047, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-z]', '', word.lower())", "compilation_passed": true, "time": 0.0016062259674072266, "tests_passed": true, "error": null}
+{"code": " \"\".join(char for char in word.lower() if char.isalpha())", "compilation_passed": true, "time": 0.0014028549194335938, "tests_passed": true, "error": null}
+{"code": " ''.join(c for c in word if c.isalpha()).lower()", "compilation_passed": true, "time": 0.0013971328735351562, "tests_passed": true, "error": null}
+{"code": " ''.join(re.findall(r'[A-Za-z]', word))", "compilation_passed": true, "time": 0.0040090084075927734, "tests_passed": true, "error": null}
+{"code": " ''.join(filter(str.isalpha, word.lower()))", "compilation_passed": true, "time": 0.0014679431915283203, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-z]+', '', word.lower())", "compilation_passed": true, "time": 0.0013611316680908203, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^a-zA-Z]\", \"\", word.lower())", "compilation_passed": true, "time": 0.0013592243194580078, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^a-z]\", \"\", word.lower())", "compilation_passed": true, "time": 0.0011620521545410156, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z]+', '', word.lower())", "compilation_passed": true, "time": 0.001947164535522461, "tests_passed": true, "error": null}
+{"code": " word.lower()", "compilation_passed": true, "time": 0.001302957534790039, "tests_passed": true, "error": null}
+{"code": " ''.join(c.lower() for c in re.sub('[^a-z]', '', word))", "compilation_passed": true, "time": 0.004214048385620117, "tests_passed": true, "error": null}
+{"code": " \"\".join(re.findall(\"[a-z]\", word.lower()))", "compilation_passed": true, "time": 0.0015480518341064453, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z]', '', word.lower())", "compilation_passed": true, "time": 0.001300811767578125, "tests_passed": true, "error": null}
+{"code": " \"\".join(re.findall(r\"[a-z]\", word.lower()))", "compilation_passed": true, "time": 0.0012669563293457031, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z]+', '', word).lower()", "compilation_passed": true, "time": 0.001196146011352539, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^A-Za-z]', '', word)", "compilation_passed": true, "time": 0.004063129425048828, "tests_passed": true, "error": null}

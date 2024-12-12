@@ -1,0 +1,21 @@
+{"code": " sum(math.sqrt(float(num)) for num in numbers)", "compilation_passed": true, "time": 0.0014519691467285156, "tests_passed": true, "error": null}
+{"code": " sum(map(math.sqrt, map(int, numbers)))", "compilation_passed": true, "time": 0.007597208023071289, "tests_passed": false, "error": "ValueError"}
+{"code": " sum(math.sqrt(float(x)) for x in numbers)", "compilation_passed": true, "time": 0.0019257068634033203, "tests_passed": true, "error": null}
+{"code": " sum(math.sqrt(float(num)) for num in numbers)  # Use floating-point numbers for sqrt", "compilation_passed": true, "time": 0.0015301704406738281, "tests_passed": true, "error": null}
+{"code": " sum([math.sqrt(float(n)) for n in numbers])", "compilation_passed": true, "time": 0.0019419193267822266, "tests_passed": true, "error": null}
+{"code": " sum(math.sqrt(float(num)) for num in numbers)  # Use floating-point numbers in addition to integers", "compilation_passed": true, "time": 0.0013339519500732422, "tests_passed": true, "error": null}
+{"code": " sum([math.sqrt(float(number)) for number in numbers])", "compilation_passed": true, "time": 0.0013687610626220703, "tests_passed": true, "error": null}
+{"code": " sum(math.sqrt(float(n)) for n in numbers)  # Use math module for square roots", "compilation_passed": true, "time": 0.0013508796691894531, "tests_passed": true, "error": null}
+{"code": " sum([math.sqrt(float(i)) for i in numbers])", "compilation_passed": true, "time": 0.0013120174407958984, "tests_passed": true, "error": null}
+{"code": " sum(math.sqrt(float(n)) for n in numbers)", "compilation_passed": true, "time": 0.0012798309326171875, "tests_passed": true, "error": null}
+{"code": " sum(map(math.sqrt, map(float, numbers)))", "compilation_passed": true, "time": 0.0017428398132324219, "tests_passed": true, "error": null}
+{"code": " sum(map(math.sqrt, map(int, numbers)))  # Map square roots of integers", "compilation_passed": true, "time": 0.006203889846801758, "tests_passed": false, "error": "ValueError"}
+{"code": " sum(map(math.sqrt, map(float, numbers)))  # Use map and float to get the square root of each number", "compilation_passed": true, "time": 0.0014841556549072266, "tests_passed": true, "error": null}
+{"code": " sum([math.sqrt(float(num)) for num in numbers])", "compilation_passed": true, "time": 0.001216888427734375, "tests_passed": true, "error": null}
+{"code": " sum(map(math.sqrt, map(float, numbers)))  # Use map function to convert strings to floats", "compilation_passed": true, "time": 0.001458883285522461, "tests_passed": true, "error": null}
+{"code": " sum(map(math.sqrt, map(int, numbers)))  # Calculate square roots of integers, and sum up", "compilation_passed": true, "time": 0.007509946823120117, "tests_passed": false, "error": "ValueError"}
+{"code": " sum(math.sqrt(float(n)) for n in numbers)  # Use floating-point numbers instead of integers", "compilation_passed": true, "time": 0.0012583732604980469, "tests_passed": true, "error": null}
+{"code": " sum(math.sqrt(float(number)) for number in numbers)", "compilation_passed": true, "time": 0.0016739368438720703, "tests_passed": true, "error": null}
+{"code": " sum(math.sqrt(float(number)) for number in numbers if not number.isdigit())", "compilation_passed": true, "time": 0.0037758350372314453, "tests_passed": true, "error": null}
+{"code": " sum(map(lambda x: math.sqrt(float(x)), numbers))  # Convert numbers to floats", "compilation_passed": true, "time": 0.0015659332275390625, "tests_passed": true, "error": null}
+{"code": " sum([math.sqrt(float(num)) for num in numbers])  # Use math.sqrt to calculate square root of each number", "compilation_passed": true, "time": 0.0011801719665527344, "tests_passed": true, "error": null}

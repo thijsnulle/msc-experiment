@@ -1,0 +1,25 @@
+{"code": "config.from_mapping(", "compilation_passed": false, "time": 0.00010895729064941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "config.update(", "compilation_passed": false, "time": 0.00010609626770019531, "tests_passed": false, "error": "SyntaxError"}
+{"code": "config.from_object('config.Config')", "compilation_passed": true, "time": 0.019030094146728516, "tests_passed": false, "error": "NameError"}
+{"code": "config.from_envvar(\"EMAIL_CONFIG\")", "compilation_passed": true, "time": 0.007576942443847656, "tests_passed": false, "error": "RuntimeError"}
+{"code": "config.from_object(app.config.get('APP_CONFIG'))", "compilation_passed": true, "time": 0.0070438385009765625, "tests_passed": false, "error": "KeyError"}
+{"code": "config.from_object('config.Default')", "compilation_passed": true, "time": 0.00755000114440918, "tests_passed": false, "error": "NameError"}
+{"code": "config.from_object(app.config.__class__)", "compilation_passed": true, "time": 0.0069162845611572266, "tests_passed": false, "error": "KeyError"}
+{"code": "config.from_object('config.DevelopmentConfig')", "compilation_passed": true, "time": 0.007107734680175781, "tests_passed": false, "error": "NameError"}
+{"code": "config.from_object(app.config.get('CONFIG', os.getenv('CONFIG', \"default\")))", "compilation_passed": true, "time": 0.00728607177734375, "tests_passed": false, "error": "ModuleNotFoundError"}
+{"code": "config.from_object(app.config.get(\"MAIL_CONFIG\"))", "compilation_passed": true, "time": 0.007449150085449219, "tests_passed": false, "error": "KeyError"}
+{"code": "config.from_object(\"config.Config\")", "compilation_passed": true, "time": 0.007261991500854492, "tests_passed": false, "error": "NameError"}
+{"code": "config.from_object(\"config\")", "compilation_passed": true, "time": 0.008029937744140625, "tests_passed": false, "error": "NameError"}
+{"code": "config.from_object(os.environ)", "compilation_passed": true, "time": 0.0075550079345703125, "tests_passed": false, "error": "KeyError"}
+{"code": "config[\"MAIL_SERVER\"] = os.environ.get(\"MAIL_SERVER\", \"localhost\")", "compilation_passed": true, "time": 0.006560087203979492, "tests_passed": true, "error": null}
+{"code": "config.from_object(\"flask_mail.default_config\")", "compilation_passed": true, "time": 0.011592864990234375, "tests_passed": false, "error": "ImportError"}
+{"code": "config.from_object(app.config.get(\"MAIL_CONFIG\", os.path.dirname(app.__file__) + \".cfg\"))", "compilation_passed": true, "time": 0.00728607177734375, "tests_passed": false, "error": "AttributeError"}
+{"code": "config.from_object(app.config.from_object(Mail))", "compilation_passed": true, "time": 0.008007049560546875, "tests_passed": false, "error": "KeyError"}
+{"code": "config.from_object(\"config.EmailConfig\")", "compilation_passed": true, "time": 0.007770061492919922, "tests_passed": false, "error": "NameError"}
+{"code": "config['MAIL_SERVER'] = os.environ.get('MAIL_SERVER', 'smtp.mailinator.com')", "compilation_passed": true, "time": 0.0057027339935302734, "tests_passed": true, "error": null}
+{"code": "config['MAIL_SERVER'] = os.environ.get('MAIL_SERVER', 'localhost')", "compilation_passed": true, "time": 0.007639884948730469, "tests_passed": true, "error": null}
+{"code": "config.from_object(os.environ.get('APP_SETTINGS'))", "compilation_passed": true, "time": 0.00835871696472168, "tests_passed": false, "error": "KeyError"}
+{"code": "config.from_object('config.EmailConfig')", "compilation_passed": true, "time": 0.0075130462646484375, "tests_passed": false, "error": "NameError"}
+{"code": "config.from_object('config.DefaultConfig')", "compilation_passed": true, "time": 0.007812023162841797, "tests_passed": false, "error": "NameError"}
+{"code": "config[\"MAIL_SERVER\"] = os.getenv(\"MAIL_SERVER\", \"localhost\")", "compilation_passed": true, "time": 0.0068399906158447266, "tests_passed": true, "error": null}
+{"code": "config.from_object(app.config.from_object('default_config'))", "compilation_passed": true, "time": 0.008653879165649414, "tests_passed": false, "error": "ModuleNotFoundError"}

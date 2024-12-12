@@ -1,0 +1,7 @@
+{"code": " ' '.join(stemmer.stem(word) for word in text.split())", "compilation_passed": true, "time": 0.004108905792236328, "tests_passed": true, "error": null}
+{"code": " ' '.join([stemmer.stem(word) for word in text.split()])", "compilation_passed": true, "time": 0.003378152847290039, "tests_passed": true, "error": null}
+{"code": " ' '.join([stemmer.stem(word) for word in text.split(' ')])", "compilation_passed": true, "time": 0.003385782241821289, "tests_passed": true, "error": null}
+{"code": " [stemmer.stem(word) for word in text.split()]", "compilation_passed": true, "time": 0.012215614318847656, "tests_passed": true, "error": null}
+{"code": " ' '.join([stemmer.stem(w) for w in text.split()])", "compilation_passed": true, "time": 0.0031659603118896484, "tests_passed": true, "error": null}
+{"code": " ' '.join(map(stemmer.stem, text.split()))", "compilation_passed": true, "time": 0.0031821727752685547, "tests_passed": true, "error": null}
+{"code": " \" \".join([stemmer.stem(word) for word in text.split()])", "compilation_passed": true, "time": 0.003281831741333008, "tests_passed": true, "error": null}

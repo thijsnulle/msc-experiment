@@ -1,0 +1,24 @@
+{"code": " data[col1].dtype.kind in \"iufmn\":", "compilation_passed": true, "time": 0.021234989166259766, "tests_passed": true, "error": null}
+{"code": " (data[col1].dtype.name != 'object') or (data[col2].dtype.name != 'object'):", "compilation_passed": true, "time": 0.022168874740600586, "tests_passed": true, "error": null}
+{"code": " data[col1].dtype != object or data[col2].dtype != object:", "compilation_passed": true, "time": 0.02158808708190918, "tests_passed": true, "error": null}
+{"code": " not (data[col1].apply(lambda x: pd.api.types.is_categorical_dtype(x)).all()) or \\", "compilation_passed": false, "time": 0.00021505355834960938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not np.array_equal(np.array(data[col1].unique()), [0, 1, 2, 3, 4]) and not np.array_equal(np.array(data[col2].unique()), [0, 1, 2, 3, 4]):", "compilation_passed": true, "time": 0.009446859359741211, "tests_passed": false, "error": "TypeError"}
+{"code": " not np.issubdtype(data[col1].dtype, np.number) or not np.issubdtype(data[col2].dtype, np.number):", "compilation_passed": true, "time": 0.008383989334106445, "tests_passed": false, "error": "TypeError"}
+{"code": " not data[col1].isin(['A', 'B']).all():", "compilation_passed": true, "time": 0.01906299591064453, "tests_passed": false, "error": "TypeError"}
+{"code": " data[col1].dtypes.name != 'object' or data[col2].dtypes.name != 'object':", "compilation_passed": true, "time": 0.021986961364746094, "tests_passed": true, "error": null}
+{"code": " data[col1].dtype.name != 'object' or data[col2].dtype.name != 'object':", "compilation_passed": true, "time": 0.022031784057617188, "tests_passed": true, "error": null}
+{"code": " data[col1].dtype.kind not in ['O', 'U'] or data[col2].dtype.kind not in ['O', 'U']:", "compilation_passed": true, "time": 0.022162914276123047, "tests_passed": true, "error": null}
+{"code": " pd.api.types.is_numeric_dtype(data[col1]):", "compilation_passed": true, "time": 0.021055936813354492, "tests_passed": true, "error": null}
+{"code": " data[col1].dtypes != object or data[col2].dtypes != object:", "compilation_passed": true, "time": 0.022752046585083008, "tests_passed": true, "error": null}
+{"code": " data[col1].dtype.name == 'int64':", "compilation_passed": true, "time": 0.03248095512390137, "tests_passed": false, "error": "ValueError"}
+{"code": " data[col1].dtypes.name == \"int64\" or data[col2].dtypes.name == \"int64\":", "compilation_passed": true, "time": 0.03208804130554199, "tests_passed": false, "error": "ValueError"}
+{"code": " data[col1].dtype.name == 'float64' or data[col2].dtype.name == 'float64':", "compilation_passed": true, "time": 0.022089242935180664, "tests_passed": true, "error": null}
+{"code": " (data[col1] != data[col1].dtypes) or (data[col2] != data[col2].dtypes):", "compilation_passed": true, "time": 0.009814023971557617, "tests_passed": false, "error": "ValueError"}
+{"code": " not (data[col1].dtypes == 'O') or not (data[col2].dtypes == 'O'):", "compilation_passed": true, "time": 0.02170586585998535, "tests_passed": true, "error": null}
+{"code": " data[col1].dtype.name.lower() not in ['category', 'object'] or data[col2].dtype.name.lower() not in ['category', 'object']:", "compilation_passed": true, "time": 0.024768829345703125, "tests_passed": true, "error": null}
+{"code": " data[col1].dtype.name not in ['object', 'string_', 'category'] or data[col2].dtype.name not in ['object', 'string_', 'category']:", "compilation_passed": true, "time": 0.02178788185119629, "tests_passed": true, "error": null}
+{"code": " data[col1].dtype.kind in 'iu':", "compilation_passed": true, "time": 0.03292584419250488, "tests_passed": false, "error": "ValueError"}
+{"code": " data[col1].dtype.name != 'category' or data[col2].dtype.name != 'category':", "compilation_passed": true, "time": 0.009315013885498047, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.api.types.is_numeric_dtype(data[col1]) or pd.api.types.is_numeric_dtype(data[col2]):", "compilation_passed": true, "time": 0.021821022033691406, "tests_passed": true, "error": null}
+{"code": " data[col1].dtype != 'category' or data[col2].dtype != 'category':", "compilation_passed": true, "time": 0.007988929748535156, "tests_passed": false, "error": "TypeError"}
+{"code": " (data[col1].dtype == np.float64) or (data[col1].dtype == np.int64):", "compilation_passed": true, "time": 0.0208740234375, "tests_passed": true, "error": null}

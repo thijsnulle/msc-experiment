@@ -1,0 +1,15 @@
+{"code": " download_path", "compilation_passed": true, "time": 0.007632255554199219, "tests_passed": true, "error": null}
+{"code": " extract_zip(file_name, download_path)", "compilation_passed": true, "time": 0.014869928359985352, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.join(download_path, os.path.splitext(os.path.basename(url))[0])", "compilation_passed": true, "time": 0.008755922317504883, "tests_passed": true, "error": null}
+{"code": " os.path.dirname(file_name)", "compilation_passed": true, "time": 0.007861852645874023, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(file_name)[0]", "compilation_passed": true, "time": 0.008355140686035156, "tests_passed": true, "error": null}
+{"code": " os.path.join(download_path, os.path.splitext(os.path.basename(file_name))[0])", "compilation_passed": true, "time": 0.007673978805541992, "tests_passed": true, "error": null}
+{"code": " os.path.join(download_path, \"extract\")", "compilation_passed": true, "time": 0.00863790512084961, "tests_passed": true, "error": null}
+{"code": " file_name", "compilation_passed": true, "time": 0.007421970367431641, "tests_passed": true, "error": null}
+{"code": " os.path.join(download_path, os.path.basename(url))", "compilation_passed": true, "time": 0.007902860641479492, "tests_passed": true, "error": null}
+{"code": " os.path.join(download_path, \"extract_dir\")", "compilation_passed": true, "time": 0.00915980339050293, "tests_passed": true, "error": null}
+{"code": " os.path.join(download_path, os.path.splitext(url)[0])", "compilation_passed": true, "time": 0.008759021759033203, "tests_passed": true, "error": null}
+{"code": " file_name.replace('.zip', '')", "compilation_passed": true, "time": 0.008368968963623047, "tests_passed": true, "error": null}
+{"code": " extract(file_name, download_path)", "compilation_passed": true, "time": 0.016171932220458984, "tests_passed": false, "error": "NameError"}
+{"code": " file_name[:-4]  # Trim the extension", "compilation_passed": true, "time": 0.010344266891479492, "tests_passed": true, "error": null}
+{"code": " extract_archive(file_name)", "compilation_passed": true, "time": 0.02303791046142578, "tests_passed": false, "error": "NameError"}

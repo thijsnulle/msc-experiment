@@ -1,0 +1,7 @@
+{"code": " categories[random.randint(0, len(categories)-1)]", "compilation_passed": true, "time": 0.016462087631225586, "tests_passed": true, "error": null}
+{"code": " random.choice(categories)", "compilation_passed": true, "time": 0.0154571533203125, "tests_passed": true, "error": null}
+{"code": " categories[random.randint(0, len(categories) - 1)]", "compilation_passed": true, "time": 0.016263723373413086, "tests_passed": true, "error": null}
+{"code": " np.random.choice(categories)", "compilation_passed": true, "time": 0.04406595230102539, "tests_passed": true, "error": null}
+{"code": " categories[_ % len(categories)]", "compilation_passed": true, "time": 0.014126062393188477, "tests_passed": true, "error": null}
+{"code": " categories[np.random.choice(len(categories), p=[0.3, 0.7])]", "compilation_passed": true, "time": 0.006458282470703125, "tests_passed": false, "error": "ValueError"}
+{"code": " categories[_]", "compilation_passed": true, "time": 0.005406856536865234, "tests_passed": false, "error": "IndexError"}

@@ -1,0 +1,18 @@
+{"code": " str(converted_date), str(to_tz)", "compilation_passed": true, "time": 0.0070650577545166016, "tests_passed": false, "error": "ValueError"}
+{"code": " str(converted_date), to_tz.zone", "compilation_passed": true, "time": 0.0050220489501953125, "tests_passed": false, "error": "ValueError"}
+{"code": " (str(converted_date), to_tz.zone)", "compilation_passed": true, "time": 0.005133152008056641, "tests_passed": false, "error": "ValueError"}
+{"code": " converted_date, str(to_tz)", "compilation_passed": true, "time": 0.004996776580810547, "tests_passed": false, "error": "TypeError"}
+{"code": " (str(converted_date), str(to_tz.zone))", "compilation_passed": true, "time": 0.005430698394775391, "tests_passed": false, "error": "ValueError"}
+{"code": " (str(converted_date), str(to_tz))", "compilation_passed": true, "time": 0.005423069000244141, "tests_passed": false, "error": "ValueError"}
+{"code": " (str(converted_date), to_tz)", "compilation_passed": true, "time": 0.004882097244262695, "tests_passed": false, "error": "ValueError"}
+{"code": " converted_date.isoformat(), to_tz.zone", "compilation_passed": true, "time": 0.004530906677246094, "tests_passed": false, "error": "ValueError"}
+{"code": " converted_date, to_tz", "compilation_passed": true, "time": 0.0045659542083740234, "tests_passed": false, "error": "TypeError"}
+{"code": " (converted_date.strftime('%Y-%m-%d %H:%M:%S'), to_tz.zone)", "compilation_passed": true, "time": 0.0021119117736816406, "tests_passed": true, "error": null}
+{"code": " converted_date.strftime('%Y-%m-%d %H:%M:%S'), to_tz.zone", "compilation_passed": true, "time": 0.0019390583038330078, "tests_passed": true, "error": null}
+{"code": " converted_date, to_tz.zone", "compilation_passed": true, "time": 0.0046541690826416016, "tests_passed": false, "error": "TypeError"}
+{"code": " converted_date.strftime('%Y-%m-%d %H:%M:%S %Z'), to_tz", "compilation_passed": true, "time": 0.005049943923950195, "tests_passed": false, "error": "ValueError"}
+{"code": " (converted_date.strftime(\"%Y-%m-%d %H:%M:%S\"), to_tz.zone)", "compilation_passed": true, "time": 0.0020122528076171875, "tests_passed": true, "error": null}
+{"code": " converted_date.isoformat(), to_tz", "compilation_passed": true, "time": 0.0071430206298828125, "tests_passed": false, "error": "ValueError"}
+{"code": " f\"{converted_date:%Y-%m-%d %H:%M:%S}, {to_tz.zone}\"", "compilation_passed": true, "time": 0.004775285720825195, "tests_passed": true, "error": null}
+{"code": " converted_date.strftime(\"%Y-%m-%d %H:%M:%S\"), to_tz", "compilation_passed": true, "time": 0.0049610137939453125, "tests_passed": true, "error": null}
+{"code": " converted_date.strftime(\"%Y-%m-%d %H:%M:%S\"), to_tz.zone", "compilation_passed": true, "time": 0.002180814743041992, "tests_passed": true, "error": null}

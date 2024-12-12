@@ -1,0 +1,8 @@
+{"code": " input_string.split('\\n')", "compilation_passed": true, "time": 0.006371021270751953, "tests_passed": true, "error": null}
+{"code": " input_string.splitlines()", "compilation_passed": true, "time": 0.005599021911621094, "tests_passed": true, "error": null}
+{"code": " input_string.split(\"\\n\")", "compilation_passed": true, "time": 0.00533294677734375, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[^\\n]+', input_string)", "compilation_passed": true, "time": 0.005276203155517578, "tests_passed": true, "error": null}
+{"code": " re.split('\\n+', input_string)", "compilation_passed": true, "time": 0.0055310726165771484, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\n+\", input_string)", "compilation_passed": true, "time": 0.005712032318115234, "tests_passed": true, "error": null}
+{"code": " input_string.strip().split('\\n')", "compilation_passed": true, "time": 0.005641937255859375, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\n+', ' ', input_string).strip().split(' ')", "compilation_passed": true, "time": 0.007542133331298828, "tests_passed": true, "error": null}

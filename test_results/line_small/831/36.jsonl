@@ -1,0 +1,12 @@
+{"code": " []", "compilation_passed": true, "time": 0.008940935134887695, "tests_passed": false, "error": "StopIteration"}
+{"code": " [", "compilation_passed": false, "time": 0.0001621246337890625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ((random.randint(range_start, range_end), random.randint(range_start, range_end)) for _ in range(pairs_count))", "compilation_passed": true, "time": 0.007723808288574219, "tests_passed": true, "error": null}
+{"code": " (random.randint(range_start, range_end), random.randint(range_start, range_end))", "compilation_passed": true, "time": 0.010412931442260742, "tests_passed": false, "error": "TypeError"}
+{"code": " (", "compilation_passed": false, "time": 0.00011301040649414062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " random.sample(range(range_start, range_end), pairs_count)", "compilation_passed": true, "time": 0.010865926742553711, "tests_passed": false, "error": "TypeError"}
+{"code": " [tuple(random.randint(range_start, range_end) for i in range(2)) for i in range(pairs_count)]", "compilation_passed": true, "time": 0.003976106643676758, "tests_passed": true, "error": null}
+{"code": " [(random.randint(range_start, range_end), random.randint(range_start, range_end))", "compilation_passed": false, "time": 0.00015091896057128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [((random.randint(range_start, range_end), random.randint(range_start, range_end))) for _ in range(pairs_count)]", "compilation_passed": true, "time": 0.003772735595703125, "tests_passed": true, "error": null}
+{"code": " [None] * pairs_count", "compilation_passed": true, "time": 0.009881973266601562, "tests_passed": false, "error": "TypeError"}
+{"code": " [(random.randint(range_start, range_end), random.randint(range_start, range_end)) for _ in range(pairs_count)]", "compilation_passed": true, "time": 0.0038819313049316406, "tests_passed": true, "error": null}
+{"code": " (random.uniform(range_start, range_end), random.uniform(range_start, range_end))", "compilation_passed": true, "time": 0.010466814041137695, "tests_passed": false, "error": "TypeError"}

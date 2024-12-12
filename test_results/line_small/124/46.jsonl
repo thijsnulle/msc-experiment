@@ -1,0 +1,14 @@
+{"code": " not all(isinstance(x, (int, float)) for x in my_list):", "compilation_passed": true, "time": 0.6385600566864014, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(x, (int, float)) for x in my_list):", "compilation_passed": true, "time": 0.5049889087677002, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(element, (int, float)) for element in my_list):", "compilation_passed": true, "time": 0.49991488456726074, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(num, (int, float)) for num in my_list):", "compilation_passed": true, "time": 0.8523552417755127, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(num, (int, float)) for num in my_list):", "compilation_passed": true, "time": 0.761620283126831, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(n, (int, float)) for n in my_list):", "compilation_passed": true, "time": 0.8309540748596191, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(x, int) for x in my_list):", "compilation_passed": true, "time": 0.8219809532165527, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(elem, (int, float)) for elem in my_list):", "compilation_passed": true, "time": 0.7694382667541504, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(elem, (int, float)) for elem in my_list):", "compilation_passed": true, "time": 0.830488920211792, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(el, (int, float)) for el in my_list):", "compilation_passed": true, "time": 0.9583950042724609, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(item, (int, float)) for item in my_list):", "compilation_passed": true, "time": 0.13820695877075195, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(x, int | float) for x in my_list):", "compilation_passed": true, "time": 0.005594015121459961, "tests_passed": false, "error": "TypeError"}
+{"code": " not all([isinstance(num, (int, float)) for num in my_list]):", "compilation_passed": true, "time": 0.5382988452911377, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(element, (int, float)) for element in my_list):", "compilation_passed": true, "time": 0.14140009880065918, "tests_passed": true, "error": null}

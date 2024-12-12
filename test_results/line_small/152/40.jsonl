@@ -1,0 +1,14 @@
+{"code": " []", "compilation_passed": true, "time": 0.008959054946899414, "tests_passed": true, "error": null}
+{"code": " [{", "compilation_passed": false, "time": 0.0001881122589111328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=STUDENTS)", "compilation_passed": true, "time": 0.009815216064453125, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0001342296600341797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.012563943862915039, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'Name': STUDENTS})", "compilation_passed": true, "time": 0.010951042175292969, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.01038980484008789, "tests_passed": false, "error": "AttributeError"}
+{"code": " {student: [] for student in STUDENTS}", "compilation_passed": true, "time": 0.012866973876953125, "tests_passed": false, "error": "AttributeError"}
+{"code": " {student: [randint(0, 100) for _ in range(len(COURSES))]", "compilation_passed": false, "time": 0.00029015541076660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [{'Name': student, 'Average Grade': round(randint(0, 100), 3)} for student in STUDENTS]", "compilation_passed": true, "time": 0.01099395751953125, "tests_passed": false, "error": "ValueError"}
+{"code": " {student: [randint(0, 100) for _ in range(len(COURSES))] for student in STUDENTS}", "compilation_passed": true, "time": 0.010683774948120117, "tests_passed": false, "error": "AttributeError"}
+{"code": " [[student] * len(courses) for student in STUDENTS]", "compilation_passed": true, "time": 0.015599966049194336, "tests_passed": false, "error": "NameError"}
+{"code": " [STUDENTS]", "compilation_passed": true, "time": 0.015679121017456055, "tests_passed": false, "error": "TypeError"}
+{"code": " [", "compilation_passed": false, "time": 0.00017404556274414062, "tests_passed": false, "error": "SyntaxError"}

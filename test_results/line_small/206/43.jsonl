@@ -1,0 +1,16 @@
+{"code": " file_name[:-4] + '.json'", "compilation_passed": true, "time": 0.007646083831787109, "tests_passed": true, "error": null}
+{"code": " file_name.replace('.csv', '.json')", "compilation_passed": true, "time": 0.007349967956542969, "tests_passed": true, "error": null}
+{"code": " file_name.replace(\"csv\", \"json\")", "compilation_passed": true, "time": 0.008365154266357422, "tests_passed": true, "error": null}
+{"code": " file_name.replace('csv', 'json')", "compilation_passed": true, "time": 0.007798194885253906, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(file_name)[0] + '.json'", "compilation_passed": true, "time": 0.008093118667602539, "tests_passed": true, "error": null}
+{"code": " f\"{file_name.replace('.csv', '.json')}\"", "compilation_passed": true, "time": 0.008285999298095703, "tests_passed": true, "error": null}
+{"code": " file_name.replace(\".csv\", \".json\")", "compilation_passed": true, "time": 0.007690906524658203, "tests_passed": true, "error": null}
+{"code": " file_name.rstrip('.csv') + '.json'", "compilation_passed": true, "time": 0.010499000549316406, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.path.dirname(file_name), f\"{os.path.basename(file_name)}.json\")", "compilation_passed": true, "time": 0.011182069778442383, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " file_name.split('.')[0] + '.json'", "compilation_passed": true, "time": 0.007880926132202148, "tests_passed": true, "error": null}
+{"code": " f\"{file_name}.json\"", "compilation_passed": true, "time": 0.011397838592529297, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.join(os.path.dirname(file_name), os.path.basename(file_name).replace('csv', 'json'))", "compilation_passed": true, "time": 0.007566213607788086, "tests_passed": true, "error": null}
+{"code": " f'{file_name.replace(\".csv\", \".json\")}'", "compilation_passed": true, "time": 0.008450746536254883, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(file_name)[0] + \".json\"", "compilation_passed": true, "time": 0.007751941680908203, "tests_passed": true, "error": null}
+{"code": " f\"{file_name.split('.')[0]}.json\"", "compilation_passed": true, "time": 0.0077250003814697266, "tests_passed": true, "error": null}
+{"code": " f\"{os.path.splitext(file_name)[0]}.json\"", "compilation_passed": true, "time": 0.008051872253417969, "tests_passed": true, "error": null}

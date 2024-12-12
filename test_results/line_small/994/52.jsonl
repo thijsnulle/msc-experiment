@@ -1,0 +1,5 @@
+{"code": " div.find(\"span\", class_=\"date\").text.strip() if div.find(\"span\", class_=\"date\") else \"No Date\"", "compilation_passed": false, "time": 0.0003001689910888672, "tests_passed": false, "error": "IndentationError"}
+{"code": " div.find(\"span\", class_=\"date\").text.strip() if div.find(\"span\",", "compilation_passed": false, "time": 0.0003199577331542969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (div.find(\"span\", class_=\"date\").text.strip() or \"No Date\")", "compilation_passed": false, "time": 0.00030303001403808594, "tests_passed": false, "error": "IndentationError"}
+{"code": " div.find(\"span\", class_=\"date\").text.strip() or \"No Date\"", "compilation_passed": false, "time": 0.0002999305725097656, "tests_passed": false, "error": "IndentationError"}
+{"code": " (", "compilation_passed": true, "time": 0.013959884643554688, "tests_passed": true, "error": null}

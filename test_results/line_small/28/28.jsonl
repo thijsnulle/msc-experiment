@@ -1,0 +1,8 @@
+{"code": " base64.b64encode(json_data.encode('utf-8'))", "compilation_passed": true, "time": 0.008396148681640625, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode('utf-8')).decode('utf-8')", "compilation_passed": true, "time": 0.003576040267944336, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode(\"utf-8\"))", "compilation_passed": true, "time": 0.007291078567504883, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode())", "compilation_passed": true, "time": 0.0072367191314697266, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(bytes(json_data, \"utf-8\"))", "compilation_passed": true, "time": 0.007151126861572266, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(bytes(json_data, 'utf-8'))", "compilation_passed": true, "time": 0.006912708282470703, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode()).decode()", "compilation_passed": true, "time": 0.003770112991333008, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode(\"utf-8\")).decode(\"utf-8\")", "compilation_passed": true, "time": 0.003751039505004883, "tests_passed": true, "error": null}

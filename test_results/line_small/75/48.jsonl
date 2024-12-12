@@ -1,0 +1,10 @@
+{"code": " len(df.index) != 0:", "compilation_passed": true, "time": 0.16850519180297852, "tests_passed": true, "error": null}
+{"code": " df.shape != (0, 0):", "compilation_passed": true, "time": 0.3150458335876465, "tests_passed": true, "error": null}
+{"code": " not (df.empty).all():", "compilation_passed": true, "time": 0.013159036636352539, "tests_passed": false, "error": "AttributeError"}
+{"code": " not df.empty:", "compilation_passed": true, "time": 0.4432840347290039, "tests_passed": true, "error": null}
+{"code": " len(df) > 0:", "compilation_passed": true, "time": 1.2595000267028809, "tests_passed": false, "error": "TimeoutError"}
+{"code": " not (df.empty):", "compilation_passed": true, "time": 0.5200471878051758, "tests_passed": true, "error": null}
+{"code": " len(df.index.to_list()) != 0:", "compilation_passed": true, "time": 0.5098798274993896, "tests_passed": true, "error": null}
+{"code": " df.size != 0:", "compilation_passed": true, "time": 0.7497320175170898, "tests_passed": true, "error": null}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.010551929473876953, "tests_passed": false, "error": "ValueError"}
+{"code": " not (df == 0).all():", "compilation_passed": true, "time": 0.014222145080566406, "tests_passed": false, "error": "ValueError"}

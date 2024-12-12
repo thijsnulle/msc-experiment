@@ -1,0 +1,30 @@
+{"code": " f\"    {parts[0]} : {parts[1]} : {parts[2]}\"", "compilation_passed": true, "time": 0.003468036651611328, "tests_passed": true, "error": null}
+{"code": " f\"    {parts[0]} :    {parts[1]} :    {parts[2]} :    {line.strip()}\"", "compilation_passed": true, "time": 0.0040531158447265625, "tests_passed": true, "error": null}
+{"code": " f\"{parts[1].ljust(20)}{parts[0]}: {parts[2]}\"", "compilation_passed": true, "time": 0.004100799560546875, "tests_passed": true, "error": null}
+{"code": " f\"{' ' * 20}{keyword} : {parts[1]} : {parts[2]}\"", "compilation_passed": true, "time": 0.00398707389831543, "tests_passed": true, "error": null}
+{"code": " f'    {parts[1]} : {parts[0]} : {parts[2]}'", "compilation_passed": true, "time": 0.0039119720458984375, "tests_passed": true, "error": null}
+{"code": " f\" {keyword} : {parts[1]} : {parts[2]} : {line.strip()}\"", "compilation_passed": true, "time": 0.003751993179321289, "tests_passed": true, "error": null}
+{"code": " f\"    {keyword} : {parts[1]} : {parts[2]} : {parts[0]}\"", "compilation_passed": true, "time": 0.0040509700775146484, "tests_passed": true, "error": null}
+{"code": " f\"    {parts[2]} : {parts[0]} : {parts[1]}\"", "compilation_passed": true, "time": 0.0043909549713134766, "tests_passed": true, "error": null}
+{"code": " f\"    {parts[0]} : {parts[1]} : {parts[2].strip()}\"", "compilation_passed": true, "time": 0.0037250518798828125, "tests_passed": true, "error": null}
+{"code": " f\"    {parts[0]} :    {parts[1]} :    {parts[2]}\"", "compilation_passed": true, "time": 0.003957986831665039, "tests_passed": true, "error": null}
+{"code": " f'{parts[0].strip() :<20}{parts[1].strip():<20}{parts[2].strip()}'", "compilation_passed": true, "time": 0.005336761474609375, "tests_passed": true, "error": null}
+{"code": " f\" {parts[2].strip()}\".rstrip()", "compilation_passed": true, "time": 0.010396003723144531, "tests_passed": true, "error": null}
+{"code": " f'    {parts[0]} : {parts[1]} : {parts[2]} :'", "compilation_passed": true, "time": 0.004068136215209961, "tests_passed": true, "error": null}
+{"code": " f\"    {parts[1]} : {parts[0]} : {parts[2]}\"", "compilation_passed": true, "time": 0.004065990447998047, "tests_passed": true, "error": null}
+{"code": " f\"{keyword :<20} : {parts[1] :<20} : {parts[2] :<20}\"", "compilation_passed": true, "time": 0.0037059783935546875, "tests_passed": true, "error": null}
+{"code": " f'{keyword} : {parts[1]} : {parts[2]}'.ljust(50)", "compilation_passed": true, "time": 0.003659963607788086, "tests_passed": true, "error": null}
+{"code": " f\"    {parts[1]} :    {parts[2]} :    {parts[0].strip()}\"", "compilation_passed": true, "time": 0.003828763961791992, "tests_passed": true, "error": null}
+{"code": " f\"{keyword.ljust(20)} : {parts[2].strip()}\"", "compilation_passed": true, "time": 0.003643035888671875, "tests_passed": true, "error": null}
+{"code": " f\"{parts[0]} : {parts[1]} : {parts[2]}\"", "compilation_passed": true, "time": 0.003464937210083008, "tests_passed": true, "error": null}
+{"code": " f\"    {parts[1]} : {parts[2]} : {parts[0]}\"", "compilation_passed": true, "time": 0.0037670135498046875, "tests_passed": true, "error": null}
+{"code": " f\"    {parts[1]} :    {parts[2]} :    {parts[0]}\"", "compilation_passed": true, "time": 0.003919839859008789, "tests_passed": true, "error": null}
+{"code": " f\" {keyword} : {parts[1]} : {parts[2]} : {parts[0].strip()}\"", "compilation_passed": true, "time": 0.0034401416778564453, "tests_passed": true, "error": null}
+{"code": " f'    {parts[0]:20} : {parts[1]:10} : {parts[2]}'", "compilation_passed": true, "time": 0.0037789344787597656, "tests_passed": true, "error": null}
+{"code": " f\"    {parts[1]} : {parts[2].strip()} : {parts[0]}\"", "compilation_passed": true, "time": 0.004415035247802734, "tests_passed": true, "error": null}
+{"code": " f\"    {parts[1]} : {parts[2]} : {parts[0].strip().replace(keyword, '')}\"", "compilation_passed": true, "time": 0.008340120315551758, "tests_passed": true, "error": null}
+{"code": " f\"{keyword : >10} : {parts[1]} : {parts[2]}\"", "compilation_passed": true, "time": 0.0038881301879882812, "tests_passed": true, "error": null}
+{"code": " f\"    {parts[1]} :    {parts[0]} :    {parts[2]}\"", "compilation_passed": true, "time": 0.0038530826568603516, "tests_passed": true, "error": null}
+{"code": " '    '.join([parts[1], parts[2], ' : '.join(parts[1:])])", "compilation_passed": true, "time": 0.009553909301757812, "tests_passed": true, "error": null}
+{"code": " f\"    {keyword : <15} : {parts[1]} : {parts[2]}\"", "compilation_passed": true, "time": 0.0038869380950927734, "tests_passed": true, "error": null}
+{"code": " f\"{keyword:>10} : {parts[1]}:{parts[2]} : {parts[2]}\"", "compilation_passed": true, "time": 0.0044901371002197266, "tests_passed": true, "error": null}

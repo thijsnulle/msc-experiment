@@ -1,0 +1,15 @@
+{"code": "scatter(xy[:, 0], xy[:, 1], label=labels[i])", "compilation_passed": true, "time": 0.5188219547271729, "tests_passed": true, "error": null}
+{"code": "scatter(xy_transformed[:, 0], xy_transformed[:, 1], label=labels[i])", "compilation_passed": true, "time": 0.47153520584106445, "tests_passed": true, "error": null}
+{"code": "scatter(xy_transformed[:, 0], xy_transformed[:, 1], c=labels[i])", "compilation_passed": true, "time": 0.08482813835144043, "tests_passed": false, "error": "ValueError"}
+{"code": "scatter(xy_transformed[:, 0], xy_transformed[:, 1], c=labels[i], cmap='tab10')", "compilation_passed": true, "time": 0.08698892593383789, "tests_passed": false, "error": "ValueError"}
+{"code": "scatter(xy_transformed[:,0], xy_transformed[:,1], label=labels[i], alpha=0.6)", "compilation_passed": true, "time": 0.4521150588989258, "tests_passed": true, "error": null}
+{"code": "scatter(xy_transformed[:,0], xy_transformed[:,1], s=50, label=labels[i])", "compilation_passed": true, "time": 0.5679471492767334, "tests_passed": true, "error": null}
+{"code": "scatter(xy_transformed[:, 0], xy_transformed[:, 1],", "compilation_passed": false, "time": 0.0012791156768798828, "tests_passed": false, "error": "SyntaxError"}
+{"code": "scatter(xy[:, 0], xy[:, 1], c=labels[i])", "compilation_passed": true, "time": 0.12844014167785645, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(xy_transformed[:, 0], xy_transformed[:, 1], label=labels[i])", "compilation_passed": true, "time": 0.47513508796691895, "tests_passed": true, "error": null}
+{"code": "plot(xy_transformed[:, 0], xy_transformed[:, 1], \"o\", label=labels[i])", "compilation_passed": true, "time": 0.39632201194763184, "tests_passed": true, "error": null}
+{"code": "scatter(xy_transformed[:,0], xy_transformed[:,1], label=labels[i])", "compilation_passed": true, "time": 0.40183305740356445, "tests_passed": true, "error": null}
+{"code": "scatter(x[i], y[i], c=labels[i])", "compilation_passed": true, "time": 0.08335995674133301, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(xy_transformed[:, 0], xy_transformed[:, 1], 'x', color=f\"C{i}\", label=labels[i])", "compilation_passed": true, "time": 0.40065598487854004, "tests_passed": true, "error": null}
+{"code": "plot(xy_transformed[:,0], xy_transformed[:,1], marker='x', label=labels[i])", "compilation_passed": true, "time": 0.37015485763549805, "tests_passed": true, "error": null}
+{"code": "scatter(xy[:, 0], xy[:, 1], color=labels[i])", "compilation_passed": true, "time": 0.11042404174804688, "tests_passed": false, "error": "ValueError"}

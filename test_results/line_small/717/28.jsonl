@@ -1,0 +1,25 @@
+{"code": " not sys.path:", "compilation_passed": true, "time": 0.0069370269775390625, "tests_passed": true, "error": null}
+{"code": " path_to_append in sys.path:", "compilation_passed": true, "time": 0.006708860397338867, "tests_passed": true, "error": null}
+{"code": " path_to_append not in sys.path:", "compilation_passed": true, "time": 0.006617069244384766, "tests_passed": true, "error": null}
+{"code": " sys.path.count(path_to_append) == 0:", "compilation_passed": true, "time": 0.0069239139556884766, "tests_passed": true, "error": null}
+{"code": " sys.path.__contains__(path_to_append) == False:", "compilation_passed": true, "time": 0.006449222564697266, "tests_passed": true, "error": null}
+{"code": " not isinstance(path_to_append, str):", "compilation_passed": true, "time": 0.006634950637817383, "tests_passed": true, "error": null}
+{"code": " path_to_append:", "compilation_passed": true, "time": 0.006856203079223633, "tests_passed": true, "error": null}
+{"code": " config_file is None:", "compilation_passed": true, "time": 0.00649714469909668, "tests_passed": true, "error": null}
+{"code": " 'sys' not in globals():", "compilation_passed": true, "time": 0.007017850875854492, "tests_passed": true, "error": null}
+{"code": " not isinstance(path_to_append, str) or not isinstance(config_file, str):", "compilation_passed": true, "time": 0.00687098503112793, "tests_passed": true, "error": null}
+{"code": " path_to_append is None:", "compilation_passed": true, "time": 0.00689387321472168, "tests_passed": true, "error": null}
+{"code": " not config_file.startswith(sys.path[0]):", "compilation_passed": true, "time": 0.006693840026855469, "tests_passed": true, "error": null}
+{"code": " not configparser.ConfigParser:", "compilation_passed": true, "time": 0.010493755340576172, "tests_passed": false, "error": "NameError"}
+{"code": " isinstance(path_to_append, str) and isinstance(config_file, str):", "compilation_passed": true, "time": 0.006879091262817383, "tests_passed": true, "error": null}
+{"code": " os.path.exists(config_file):", "compilation_passed": true, "time": 0.007142066955566406, "tests_passed": true, "error": null}
+{"code": " not isinstance(sys, type):", "compilation_passed": true, "time": 0.006330728530883789, "tests_passed": true, "error": null}
+{"code": " not (isinstance(path_to_append, str) and path_to_append):", "compilation_passed": true, "time": 0.006501197814941406, "tests_passed": true, "error": null}
+{"code": " config_file:", "compilation_passed": true, "time": 0.0065610408782958984, "tests_passed": true, "error": null}
+{"code": " not sys.path or not sys.path.__contains__(path_to_append):", "compilation_passed": true, "time": 0.006836891174316406, "tests_passed": true, "error": null}
+{"code": " config_file is not None:", "compilation_passed": true, "time": 0.00635981559753418, "tests_passed": true, "error": null}
+{"code": " not sys.path[0] == os.getcwd():", "compilation_passed": true, "time": 0.006597757339477539, "tests_passed": true, "error": null}
+{"code": " path_to_append.startswith('~'):", "compilation_passed": true, "time": 0.014081001281738281, "tests_passed": false, "error": "AttributeError"}
+{"code": " not os.path.isfile(config_file):", "compilation_passed": true, "time": 0.0064699649810791016, "tests_passed": true, "error": null}
+{"code": " sys.platform.startswith(\"linux\"):", "compilation_passed": true, "time": 0.006865978240966797, "tests_passed": true, "error": null}
+{"code": " path_to_append == '':", "compilation_passed": true, "time": 0.0065839290618896484, "tests_passed": true, "error": null}

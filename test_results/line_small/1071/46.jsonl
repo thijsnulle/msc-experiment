@@ -1,0 +1,19 @@
+{"code": " list(list_)", "compilation_passed": true, "time": 0.4336738586425781, "tests_passed": true, "error": null}
+{"code": " list(np.random.rand(len(list_)))", "compilation_passed": true, "time": 0.4674530029296875, "tests_passed": true, "error": null}
+{"code": " list(random.sample(list_, len(list_)))", "compilation_passed": true, "time": 0.3785231113433838, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 100, len(list_))", "compilation_passed": true, "time": 0.3729219436645508, "tests_passed": true, "error": null}
+{"code": " list_.copy()", "compilation_passed": true, "time": 0.376420259475708, "tests_passed": true, "error": null}
+{"code": " list_.copy() if len(list_) else None", "compilation_passed": true, "time": 0.3702280521392822, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, len(list_), len(list_))", "compilation_passed": true, "time": 0.06849002838134766, "tests_passed": false, "error": "ValueError"}
+{"code": " list_", "compilation_passed": true, "time": 0.39658379554748535, "tests_passed": true, "error": null}
+{"code": " np.random.random(len(list_))", "compilation_passed": true, "time": 0.3793628215789795, "tests_passed": true, "error": null}
+{"code": " [random.choice(list_) for _ in range(len(list_))]", "compilation_passed": true, "time": 0.387814998626709, "tests_passed": true, "error": null}
+{"code": " random.shuffle(list_)", "compilation_passed": true, "time": 0.06374883651733398, "tests_passed": false, "error": "TypeError"}
+{"code": " np.random.rand(len(list_))  # Randomize y-values", "compilation_passed": true, "time": 0.36556005477905273, "tests_passed": true, "error": null}
+{"code": " list(range(len(list_)))", "compilation_passed": true, "time": 0.39610981941223145, "tests_passed": true, "error": null}
+{"code": " shuffle(list_)", "compilation_passed": true, "time": 0.06948590278625488, "tests_passed": false, "error": "TypeError"}
+{"code": " list(shuffle(list_))", "compilation_passed": true, "time": 0.06861305236816406, "tests_passed": false, "error": "TypeError"}
+{"code": " np.arange(1, len(list_) + 1)", "compilation_passed": true, "time": 0.3716580867767334, "tests_passed": true, "error": null}
+{"code": " np.random.rand(len(list_))", "compilation_passed": true, "time": 0.38230395317077637, "tests_passed": true, "error": null}
+{"code": " list_[::]", "compilation_passed": true, "time": 0.3759491443634033, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, 100) for _ in range(len(list_))]", "compilation_passed": true, "time": 0.39254188537597656, "tests_passed": true, "error": null}

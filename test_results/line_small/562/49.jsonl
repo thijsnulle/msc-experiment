@@ -1,0 +1,18 @@
+{"code": " ctypes.create_string_buffer(b\"\")", "compilation_passed": true, "time": 0.022806882858276367, "tests_passed": false, "error": "AttributeError"}
+{"code": " libc.uname()", "compilation_passed": true, "time": 0.022674083709716797, "tests_passed": false, "error": "NameError"}
+{"code": " subprocess.check_output(\"uname -a\", shell=True).decode(\"utf-8\").split()", "compilation_passed": true, "time": 0.1203467845916748, "tests_passed": false, "error": "AttributeError"}
+{"code": " lib.uname()", "compilation_passed": true, "time": 0.09584999084472656, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " lib.sys_info()", "compilation_passed": true, "time": 0.09560775756835938, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.uname()", "compilation_passed": true, "time": 0.06962394714355469, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " lib.uname", "compilation_passed": true, "time": 0.08225822448730469, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " lib.sysname()", "compilation_passed": true, "time": 0.0804750919342041, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " lib.sysconf(20)  # 20 is _SC_SYSTEM_NAME", "compilation_passed": true, "time": 0.08043813705444336, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " sys.platform", "compilation_passed": true, "time": 0.019463777542114258, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output(\"uname\").decode().strip()", "compilation_passed": true, "time": 0.08374190330505371, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output(\"uname -a\", shell=True).decode(\"utf-8\")", "compilation_passed": true, "time": 0.10219907760620117, "tests_passed": false, "error": "AttributeError"}
+{"code": " libc.syscall(libc.SYS_uname)", "compilation_passed": true, "time": 0.022380828857421875, "tests_passed": false, "error": "NameError"}
+{"code": " ctypes.create_string_buffer(100)", "compilation_passed": true, "time": 0.02286982536315918, "tests_passed": false, "error": "AttributeError"}
+{"code": " ctypes.create_string_buffer(256)", "compilation_passed": true, "time": 0.025895118713378906, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output('uname').decode().strip()", "compilation_passed": true, "time": 0.09020805358886719, "tests_passed": false, "error": "AttributeError"}
+{"code": " lib.uname_s.replace(\"\\x00\", \"\")", "compilation_passed": true, "time": 0.07579278945922852, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " lib.sys_uname()", "compilation_passed": true, "time": 0.07480812072753906, "tests_passed": false, "error": "FileNotFoundError"}

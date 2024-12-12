@@ -1,0 +1,16 @@
+{"code": " re.sub(r'[^\\w\\s]', '', text)", "compilation_passed": true, "time": 0.022418975830078125, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W', ' ', text)", "compilation_passed": true, "time": 0.011273860931396484, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z0-9\\s]', '', text)", "compilation_passed": true, "time": 0.013744115829467773, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', text)", "compilation_passed": true, "time": 0.011239051818847656, "tests_passed": true, "error": null}
+{"code": " text.replace(\"'\", '')", "compilation_passed": true, "time": 0.01113581657409668, "tests_passed": true, "error": null}
+{"code": " text.replace('[^a-zA-Z0-9]', ' ')", "compilation_passed": true, "time": 0.011491060256958008, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z0-9\\s]', '', text)  # Remove non-alphabetic characters and digits", "compilation_passed": true, "time": 0.013386011123657227, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\d+', '', text)", "compilation_passed": true, "time": 0.012818098068237305, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text)  # Remove punctuations", "compilation_passed": true, "time": 0.013271093368530273, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-z\\s]', '', text)", "compilation_passed": true, "time": 0.011543989181518555, "tests_passed": true, "error": null}
+{"code": " text.replace(\".\", \"\")", "compilation_passed": true, "time": 0.011010169982910156, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\d+\", \"\", text)", "compilation_passed": true, "time": 0.011573076248168945, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text)  # Remove special characters and non-alphanumeric characters", "compilation_passed": true, "time": 0.013762712478637695, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text)  # remove punctuation", "compilation_passed": true, "time": 0.013727903366088867, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\d+', '', text)  # Remove numbers", "compilation_passed": true, "time": 0.011207818984985352, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z0-9]', ' ', text)", "compilation_passed": true, "time": 0.011223077774047852, "tests_passed": true, "error": null}

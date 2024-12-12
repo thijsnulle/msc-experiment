@@ -1,0 +1,19 @@
+{"code": " hashlib.pbkdf2_hmac(\"sha256\", password.encode('utf-8'), salt, 100000, 64)", "compilation_passed": true, "time": 0.1879560947418213, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(", "compilation_passed": false, "time": 0.00016808509826660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 10000, 100)", "compilation_passed": true, "time": 0.09169316291809082, "tests_passed": true, "error": null}
+{"code": " hashlib.pbkdf2_hmac(", "compilation_passed": false, "time": 0.00014090538024902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " hashlib.pbkdf2_hmac('sha-256', password.encode(), salt, 100000)", "compilation_passed": true, "time": 0.009307861328125, "tests_passed": false, "error": "ValueError"}
+{"code": " base64.b64encode(hashlib.pbkdf2_hmac(", "compilation_passed": false, "time": 0.0002849102020263672, "tests_passed": false, "error": "SyntaxError"}
+{"code": " hashlib.pbkdf2_hmac(\"sha256\", password.encode('utf-8'), salt, 100000)", "compilation_passed": true, "time": 0.598297119140625, "tests_passed": true, "error": null}
+{"code": " hashlib.pbkdf2_hmac(hash_name='sha256', password=password.encode('utf-8'),", "compilation_passed": false, "time": 0.00017118453979492188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " base64.b64encode(hashlib.pbkdf2_hmac(\"sha256\", password.encode(\"utf-8\"), salt, 10000))", "compilation_passed": true, "time": 0.07070112228393555, "tests_passed": true, "error": null}
+{"code": " hashlib.pbkdf2_hmac('sha-256', password.encode('utf-8'), salt, 100000)", "compilation_passed": true, "time": 0.009536027908325195, "tests_passed": false, "error": "ValueError"}
+{"code": " hashlib.pbkdf2_hmac(\"sha256\", password.encode(\"utf-8\"), salt, 100000, 32)", "compilation_passed": true, "time": 0.6035981178283691, "tests_passed": true, "error": null}
+{"code": " hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 100000)", "compilation_passed": true, "time": 0.6082477569580078, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(hashlib.pbkdf2_hmac('sha256', password.encode(), salt, 100000))", "compilation_passed": true, "time": 0.12322211265563965, "tests_passed": true, "error": null}
+{"code": " hashlib.pbkdf2_hmac('sha256', password.encode(), salt, 100000)", "compilation_passed": true, "time": 0.5967237949371338, "tests_passed": true, "error": null}
+{"code": " hashlib.pbkdf2_hmac('sha256', password.encode(), salt, 1000, 32)", "compilation_passed": true, "time": 0.06503510475158691, "tests_passed": true, "error": null}
+{"code": " hashlib.pbkdf2_hmac('sha-256', password.encode(), salt, 10000, base64.b64encode)", "compilation_passed": true, "time": 0.009685039520263672, "tests_passed": false, "error": "ValueError"}
+{"code": " hashlib.pbkdf2_hmac(\"sha256\", password, salt, 100000, key_length=32)", "compilation_passed": true, "time": 0.009490966796875, "tests_passed": false, "error": "TypeError"}
+{"code": " base64.b64encode(hashlib.pbkdf2_hmac(\"sha256\", password.encode('utf-8'), salt, 1000000))", "compilation_passed": true, "time": 0.6426880359649658, "tests_passed": true, "error": null}
+{"code": " hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 100000, base64.b64encode)", "compilation_passed": true, "time": 0.009518861770629883, "tests_passed": false, "error": "TypeError"}

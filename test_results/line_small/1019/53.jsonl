@@ -1,0 +1,7 @@
+{"code": " comment.decode(from_encoding).encode(to_encoding)", "compilation_passed": false, "time": 0.0004138946533203125, "tests_passed": false, "error": "IndentationError"}
+{"code": " comment.decode(to_encoding)", "compilation_passed": false, "time": 0.00043010711669921875, "tests_passed": false, "error": "IndentationError"}
+{"code": " comment.decode(\"utf8\").encode(from_encoding).decode(to_encoding)", "compilation_passed": false, "time": 0.0003478527069091797, "tests_passed": false, "error": "IndentationError"}
+{"code": " comment.decode(\"utf8\")", "compilation_passed": false, "time": 0.0003669261932373047, "tests_passed": false, "error": "IndentationError"}
+{"code": " comment.decode(\"utf-8\")", "compilation_passed": false, "time": 0.00026702880859375, "tests_passed": false, "error": "IndentationError"}
+{"code": " codecs.getreader(to_encoding)(comment).read()", "compilation_passed": false, "time": 0.00027108192443847656, "tests_passed": false, "error": "IndentationError"}
+{"code": " comment.decode(from_encoding)", "compilation_passed": false, "time": 0.0003070831298828125, "tests_passed": false, "error": "IndentationError"}

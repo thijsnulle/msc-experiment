@@ -1,0 +1,5 @@
+{"code": " open(os.path.join(directory, filename)) as f:", "compilation_passed": true, "time": 0.030392169952392578, "tests_passed": true, "error": null}
+{"code": " open(os.path.join(directory, filename), 'r') as f:", "compilation_passed": true, "time": 0.027637004852294922, "tests_passed": true, "error": null}
+{"code": " open(os.path.join(directory, filename)) as file:", "compilation_passed": true, "time": 0.0157010555267334, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(directory, filename), 'r', encoding='utf-8') as json_file:", "compilation_passed": true, "time": 0.016340970993041992, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(directory, filename), 'r') as file:", "compilation_passed": true, "time": 0.016395092010498047, "tests_passed": false, "error": "NameError"}

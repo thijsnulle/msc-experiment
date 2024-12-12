@@ -1,0 +1,12 @@
+{"code": " np.arange(len(signal)) / sample_rate", "compilation_passed": true, "time": 1.1323728561401367, "tests_passed": false, "error": ""}
+{"code": " np.linspace(0, signal.size / sample_rate, signal.size)", "compilation_passed": true, "time": 0.12825870513916016, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, len(signal) / sample_rate, len(signal))", "compilation_passed": true, "time": 0.12920308113098145, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, 10, signal.shape[0])", "compilation_passed": true, "time": 0.12702703475952148, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, len(signal), len(signal), endpoint=False)", "compilation_passed": true, "time": 0.1260082721710205, "tests_passed": true, "error": null}
+{"code": " np.arange(0, len(signal)) / sample_rate", "compilation_passed": true, "time": 0.13436412811279297, "tests_passed": true, "error": null}
+{"code": " np.arange(signal.size) / sample_rate", "compilation_passed": true, "time": 0.1299428939819336, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, len(signal), len(signal))", "compilation_passed": true, "time": 0.13285493850708008, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, len(signal)-1, len(signal))", "compilation_passed": true, "time": 0.13699889183044434, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, len(signal) - 1, len(signal))", "compilation_passed": true, "time": 0.15075993537902832, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, len(signal)/sample_rate, len(signal))", "compilation_passed": true, "time": 0.1348719596862793, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, len(signal) * 1.0 / sample_rate, len(signal))", "compilation_passed": true, "time": 0.13996291160583496, "tests_passed": true, "error": null}

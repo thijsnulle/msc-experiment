@@ -1,0 +1,17 @@
+{"code": " reader.fieldnames if reader.fieldnames else ['Name', 'Age']", "compilation_passed": true, "time": 0.022111892700195312, "tests_passed": true, "error": null}
+{"code": " reader.fieldnames", "compilation_passed": true, "time": 0.03597903251647949, "tests_passed": false, "error": "TypeError"}
+{"code": " reader.fieldnames or ['Row ' + str(i) for i in range(reader.line_num)]", "compilation_passed": true, "time": 0.017078876495361328, "tests_passed": true, "error": null}
+{"code": " reader.fieldnames or ['Name', 'Age']", "compilation_passed": true, "time": 0.01538991928100586, "tests_passed": true, "error": null}
+{"code": " reader.fieldnames if reader.fieldnames else ['Field0', 'Field1', 'Field2', 'Field3']", "compilation_passed": true, "time": 0.01691603660583496, "tests_passed": true, "error": null}
+{"code": " reader.fieldnames or [\"col_{}\".format(i) for i in range(1, reader.line_num)]", "compilation_passed": true, "time": 0.01999187469482422, "tests_passed": true, "error": null}
+{"code": " reader.fieldnames or ['col1', 'col2', 'col3', 'col4']", "compilation_passed": true, "time": 0.015509843826293945, "tests_passed": true, "error": null}
+{"code": " reader.fieldnames or ['col_{}'.format(i) for i in range(reader.line_num)]", "compilation_passed": true, "time": 0.01482701301574707, "tests_passed": true, "error": null}
+{"code": " reader.fieldnames or ['Col' + str(i + 1) for i in range(len(next(iter(reader))))]", "compilation_passed": true, "time": 0.02171611785888672, "tests_passed": false, "error": "StopIteration"}
+{"code": " reader.fieldnames or ['Key', 'Value']", "compilation_passed": true, "time": 0.014251232147216797, "tests_passed": true, "error": null}
+{"code": " reader.fieldnames or ['Col_1', 'Col_2', 'Col_3']", "compilation_passed": true, "time": 0.01760387420654297, "tests_passed": true, "error": null}
+{"code": " reader.fieldnames if reader.fieldnames is not None else [f'col_{i}' for i in range(reader.line_num)]", "compilation_passed": true, "time": 0.015450239181518555, "tests_passed": true, "error": null}
+{"code": " reader.fieldnames or ['col_{}'.format(i) for i in range(len(reader.reader.next()))]", "compilation_passed": true, "time": 0.02053093910217285, "tests_passed": false, "error": "AttributeError"}
+{"code": " reader.fieldnames or ['col1', 'col2']", "compilation_passed": true, "time": 0.016915082931518555, "tests_passed": true, "error": null}
+{"code": " reader.fieldnames or reader.fieldnames[:2]", "compilation_passed": true, "time": 0.01857590675354004, "tests_passed": false, "error": "TypeError"}
+{"code": " reader.fieldnames or ['col_' + str(i) for i in range(1, reader.line_num)]", "compilation_passed": true, "time": 0.014091014862060547, "tests_passed": true, "error": null}
+{"code": " reader.fieldnames if reader.fieldnames else ['Field1', 'Field2']", "compilation_passed": true, "time": 0.016562938690185547, "tests_passed": true, "error": null}

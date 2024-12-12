@@ -1,0 +1,19 @@
+{"code": " np.random.randint(sales_lower_bound, sales_upper_bound, size=len(data))", "compilation_passed": true, "time": 0.8246510028839111, "tests_passed": false, "error": "IndexError"}
+{"code": " list(np.random.randint(sales_lower_bound, sales_upper_bound, len(data)))", "compilation_passed": true, "time": 0.01246786117553711, "tests_passed": false, "error": "TypeError"}
+{"code": " np.random.randint(sales_lower_bound, sales_upper_bound, len(data))", "compilation_passed": true, "time": 0.012806177139282227, "tests_passed": false, "error": "IndexError"}
+{"code": " np.random.randint(low=sales_lower_bound, high=sales_upper_bound, size=len(data))", "compilation_passed": true, "time": 0.012096643447875977, "tests_passed": false, "error": "IndexError"}
+{"code": " list(map(lambda x: round(np.random.randint(sales_lower_bound, sales_upper_bound + 1), 0), np.random.uniform(0, 1000, 7 * len(fruits))))", "compilation_passed": true, "time": 0.012577056884765625, "tests_passed": false, "error": "TypeError"}
+{"code": " [np.random.randint(sales_lower_bound, sales_upper_bound, size=10) for _ in range(len(days))]", "compilation_passed": true, "time": 0.01216888427734375, "tests_passed": false, "error": "TypeError"}
+{"code": " [np.random.randint(sales_lower_bound, sales_upper_bound + 1, size=1000) for _ in data]", "compilation_passed": true, "time": 0.011822938919067383, "tests_passed": false, "error": "TypeError"}
+{"code": " [np.random.randint(sales_lower_bound, sales_upper_bound+1) for _ in range(len(data))]", "compilation_passed": true, "time": 0.013860940933227539, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0004277229309082031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.uniform(sales_lower_bound, sales_upper_bound, len(data))", "compilation_passed": true, "time": 0.014240026473999023, "tests_passed": false, "error": "IndexError"}
+{"code": " pd.DataFrame(np.random.randint(low=sales_lower_bound, high=sales_upper_bound, size=len(data)), columns=[\"Sales\"], index=data)", "compilation_passed": true, "time": 0.014668941497802734, "tests_passed": false, "error": "ValueError"}
+{"code": " [np.random.randint(sales_lower_bound, sales_upper_bound + 1) for _ in range(len(data))]", "compilation_passed": true, "time": 0.014120101928710938, "tests_passed": false, "error": "TypeError"}
+{"code": " [random.randint(sales_lower_bound, sales_upper_bound) for _ in range(len(data))]", "compilation_passed": true, "time": 0.016937971115112305, "tests_passed": false, "error": "NameError"}
+{"code": " pd.DataFrame(dict(data=[0] * 7 * len(fruits), index=days))", "compilation_passed": true, "time": 0.011574983596801758, "tests_passed": false, "error": "ValueError"}
+{"code": " []", "compilation_passed": true, "time": 0.01073312759399414, "tests_passed": false, "error": "TypeError"}
+{"code": " np.random.randint(sales_lower_bound, sales_upper_bound, (len(fruits), len(days)))", "compilation_passed": true, "time": 0.012122154235839844, "tests_passed": false, "error": "IndexError"}
+{"code": " np.random.uniform(sales_lower_bound, sales_upper_bound, size=len(data))", "compilation_passed": true, "time": 0.0125579833984375, "tests_passed": false, "error": "IndexError"}
+{"code": " [np.random.randint(sales_lower_bound, sales_upper_bound, 1)[0] for _ in data]", "compilation_passed": true, "time": 0.010581016540527344, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(np.random.randint(sales_lower_bound, sales_upper_bound, len(data)),", "compilation_passed": false, "time": 0.00038313865661621094, "tests_passed": false, "error": "SyntaxError"}

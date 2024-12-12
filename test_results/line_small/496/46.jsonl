@@ -1,0 +1,9 @@
+{"code": "set_title(f\"Temperature Trend: {days_in_past} days\")", "compilation_passed": true, "time": 0.04415583610534668, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([\"2024-03-28\", \"2024-03-29\", \"2024-03-30\", \"2024-03-31\",", "compilation_passed": false, "time": 0.0002429485321044922, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_title(\"Temperature Trend\")", "compilation_passed": true, "time": 0.29148387908935547, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([date.strftime(\"%Y-%m-%d\") for date in dates])", "compilation_passed": true, "time": 0.05086207389831543, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(dates, rotation=0, rotation_mode=\"anchor\", ha=\"center\", va=\"center\")", "compilation_passed": true, "time": 0.06038403511047363, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(dates, rotation=270)", "compilation_passed": true, "time": 0.0523381233215332, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(dates)", "compilation_passed": true, "time": 0.05665993690490723, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(dates, rotation=45, ha=\"right\", fontsize=8)", "compilation_passed": true, "time": 0.05181002616882324, "tests_passed": true, "error": null}
+{"code": "set_xticks([d.date() for d in dates])", "compilation_passed": true, "time": 0.05446910858154297, "tests_passed": false, "error": "AttributeError"}

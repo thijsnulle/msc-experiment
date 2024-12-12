@@ -1,0 +1,14 @@
+{"code": " re.findall('error', content, re.IGNORECASE)", "compilation_passed": true, "time": 0.013820171356201172, "tests_passed": true, "error": null}
+{"code": " re.findall(r'error', content.lower())", "compilation_passed": true, "time": 0.012782096862792969, "tests_passed": true, "error": null}
+{"code": " re.findall(r'error', content, re.IGNORECASE)", "compilation_passed": true, "time": 0.012994050979614258, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\berror\\b', content, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.010557889938354492, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"error\", content.lower())", "compilation_passed": true, "time": 0.013074159622192383, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\berror\\b', content, re.IGNORECASE)", "compilation_passed": true, "time": 0.011193990707397461, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\berror\\b', content.lower())", "compilation_passed": true, "time": 0.010861873626708984, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b(error)\\b', content, re.I)", "compilation_passed": true, "time": 0.011394023895263672, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"error\", content, re.I)", "compilation_passed": true, "time": 0.01218414306640625, "tests_passed": true, "error": null}
+{"code": " len(re.findall(r'error', content.lower()))", "compilation_passed": true, "time": 0.011487960815429688, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(r\"error\", content, re.IGNORECASE)", "compilation_passed": true, "time": 0.011893987655639648, "tests_passed": true, "error": null}
+{"code": " re.findall(\"error\", content, re.IGNORECASE)", "compilation_passed": true, "time": 0.011819601058959961, "tests_passed": true, "error": null}
+{"code": " re.findall('error', content.lower())", "compilation_passed": true, "time": 0.013560056686401367, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\berror\\b', content, re.I)", "compilation_passed": true, "time": 0.010637044906616211, "tests_passed": true, "error": null}

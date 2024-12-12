@@ -1,0 +1,20 @@
+{"code": " sns.distplot(df['Average'], bins=20, hist=True, kde=False, rug=True)", "compilation_passed": true, "time": 0.23189997673034668, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'], bins=20)", "compilation_passed": true, "time": 0.24927592277526855, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'], kde=True, rug=True, hist_kws={\"linewidth\": 15})", "compilation_passed": true, "time": 0.22880196571350098, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'])", "compilation_passed": true, "time": 0.2186908721923828, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df.Average)", "compilation_passed": true, "time": 0.2481698989868164, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'], kde=False)", "compilation_passed": true, "time": 0.16138172149658203, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'], bins=20, kde=True, label=\"Average Distribution\")", "compilation_passed": true, "time": 0.26538801193237305, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'], bins=20, kde=True, color=\"purple\", hist_kws={\"linewidth\": 15, 'alpha': 1})", "compilation_passed": true, "time": 0.2579209804534912, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'], kde=True, bins=20, color='#1f77b4', hist_kws={\"alpha\": 1})", "compilation_passed": true, "time": 0.2767369747161865, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'], hist=False)", "compilation_passed": true, "time": 0.23923993110656738, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'], rug=True), rug=True)", "compilation_passed": false, "time": 0.00032806396484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.distplot(df['Average'], kde=False, rug=True, rug_kwargs={\"saturation\": 0.5})", "compilation_passed": true, "time": 0.011377096176147461, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.distplot(df['Average'], kde=True, rug=True)", "compilation_passed": true, "time": 0.25036191940307617, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df.Average, hist=False, rug=True)", "compilation_passed": true, "time": 0.2583320140838623, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'], hist=False, kde=True, color=\"g\", label=\"Average\")", "compilation_passed": true, "time": 0.22807598114013672, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'], kde=False, rug=True)", "compilation_passed": true, "time": 0.21980905532836914, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'], kde=True, rug=True, bins=20)", "compilation_passed": true, "time": 0.26839208602905273, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'], kde=False, color='g')", "compilation_passed": true, "time": 0.25695180892944336, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['Average'], kde=False, color=\"red\",", "compilation_passed": false, "time": 0.00024390220642089844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.distplot(df['Average'], kde=True, hist_kws={\"color\": \"blue\"})", "compilation_passed": true, "time": 0.2283039093017578, "tests_passed": true, "error": null}

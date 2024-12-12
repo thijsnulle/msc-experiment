@@ -1,0 +1,9 @@
+{"code": " np.var(valid_group1) < 1e-8 or np.var(valid_group2) < 1e-8:", "compilation_passed": true, "time": 0.279987096786499, "tests_passed": true, "error": null}
+{"code": " abs(np.var(valid_group1) - np.var(valid_group2)) > 1e-8:", "compilation_passed": true, "time": 0.1994309425354004, "tests_passed": false, "error": "ValueError"}
+{"code": " np.var(valid_group1, ddof=1) < 1e-8 or np.var(valid_group2, ddof=1) < 1e-8:", "compilation_passed": true, "time": 0.2861647605895996, "tests_passed": true, "error": null}
+{"code": " np.std(valid_group1) < 1e-8 or np.std(valid_group2) < 1e-8:", "compilation_passed": true, "time": 0.28196191787719727, "tests_passed": true, "error": null}
+{"code": " np.var(valid_group1, ddof=0) < 1e-8 or np.var(valid_group2, ddof=0) < 1e-8:", "compilation_passed": true, "time": 0.2710130214691162, "tests_passed": true, "error": null}
+{"code": " abs(valid_group1.std()) < 1e-8 or abs(valid_group2.std()) < 1e-8:", "compilation_passed": true, "time": 0.2740180492401123, "tests_passed": true, "error": null}
+{"code": " np.isnan(np.var(valid_group1)) or np.isnan(np.var(valid_group2)):", "compilation_passed": true, "time": 0.23044395446777344, "tests_passed": true, "error": null}
+{"code": " abs(np.var(valid_group1) - np.var(valid_group2)) < 1e-8:", "compilation_passed": true, "time": 0.013794898986816406, "tests_passed": false, "error": "ValueError"}
+{"code": " np.std(valid_group1, ddof=1) < 1e-8 or np.std(valid_group2, ddof=1) < 1e-8:", "compilation_passed": true, "time": 0.314525842666626, "tests_passed": true, "error": null}

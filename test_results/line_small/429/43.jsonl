@@ -1,0 +1,28 @@
+{"code": " sns.heatmap(X_new.corr(), vmin=-1, vmax=1, center=0, fmt=\".1\", cmap=\"seismic\", annot=True)", "compilation_passed": false, "time": 0.0002868175506591797, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new.corr(), annot=True, cmap='RdBu_r', linewidths=0.5, cbar=False)", "compilation_passed": false, "time": 0.00035119056701660156, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(", "compilation_passed": true, "time": 0.5476469993591309, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(X_new, cmap='Reds', xticklabels=selected_features)", "compilation_passed": false, "time": 0.00026488304138183594, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new.corr(), vmin=-1, vmax=1, annot=True)", "compilation_passed": false, "time": 0.0003368854522705078, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(df[selected_features].corr(),", "compilation_passed": true, "time": 0.01301717758178711, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.heatmap(X_new.corr(), annot=True, vmin=-1, vmax=1, center=0, fmt='.2f', cmap='RdBu')", "compilation_passed": false, "time": 0.0002830028533935547, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new, cmap=\"YlOrRd\", annot=True)", "compilation_passed": false, "time": 0.0002899169921875, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new, cmap='RdBu')", "compilation_passed": false, "time": 0.0002601146697998047, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(selector.transform(X), annot=True)", "compilation_passed": false, "time": 0.0002758502960205078, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new.corr(), xticklabels=selected_features, yticklabels=selected_features, cmap=\"Blues\", annot=True)", "compilation_passed": false, "time": 0.0002760887145996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new.corr(), annot=True)", "compilation_passed": false, "time": 0.00025391578674316406, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new.corr(), annot=True, fmt=\".2f\")", "compilation_passed": false, "time": 0.00026297569274902344, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(df[features].corr(), cmap=\"YlOrRd\")", "compilation_passed": false, "time": 0.0002651214599609375, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new, cmap=\"coolwarm\", annot=True, fmt=\".2f\", linewidths=0.5, cbar_kws={\"shrink\": 0.5})", "compilation_passed": false, "time": 0.00029730796813964844, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new, cmap=\"RdBu\", linewidths=0.5, annot=True, fmt=\".2f\")", "compilation_passed": false, "time": 0.000270843505859375, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(pd.DataFrame(X_new), cmap=\"viridis\")", "compilation_passed": false, "time": 0.0002598762512207031, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new, cmap='Blues')", "compilation_passed": false, "time": 0.00025773048400878906, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(df[selected_features].corr(), vmin=-1, vmax=1)", "compilation_passed": false, "time": 0.00026798248291015625, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new.corr(), cmap='seismic')", "compilation_passed": false, "time": 0.00027298927307128906, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new.corr(), annot=True, cmap=\"YlGnBu\")", "compilation_passed": false, "time": 0.00026702880859375, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new, cmap='Blues', annot=True, linewidths=0.5, fmt='.2f', linecolor='white')", "compilation_passed": false, "time": 0.00037598609924316406, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new, annot=True, fmt=\".3f\", linewidths=.5, cbar_kws={\"shrink\": .75}, cbar_rotation=0, cbar_ax=None)", "compilation_passed": false, "time": 0.0002791881561279297, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new, cmap='coolwarm')", "compilation_passed": false, "time": 0.00026297569274902344, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new.corr(), annot=True, cmap=\"Blues\", fmt=\".2f\", linewidths=0.5, cbar_kws={\"shrink\": 0.7})", "compilation_passed": false, "time": 0.0003273487091064453, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new.corr(), annot=True, fmt=\"\", cmap=\"Blues\")", "compilation_passed": false, "time": 0.00027680397033691406, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(X_new.corr())", "compilation_passed": false, "time": 0.00025081634521484375, "tests_passed": false, "error": "IndentationError"}
+{"code": " sns.heatmap(selector.scores_, annot=True, fmt=\".2f\", linewidths=0, cmap=\"coolwarm\")", "compilation_passed": false, "time": 0.0003437995910644531, "tests_passed": false, "error": "IndentationError"}

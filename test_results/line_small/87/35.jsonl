@@ -1,0 +1,23 @@
+{"code": " choices(", "compilation_passed": false, "time": 0.00014019012451171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(products[i], ratings[i]) for i in range(len(products))]", "compilation_passed": true, "time": 0.007620096206665039, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Product\": products, \"Rating\": ratings})", "compilation_passed": true, "time": 0.008038997650146484, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.007163047790527344, "tests_passed": true, "error": null}
+{"code": " zip(products, ratings)", "compilation_passed": true, "time": 0.00741887092590332, "tests_passed": false, "error": "AttributeError"}
+{"code": " sorted(zip(choices(products, k=1000), choices(ratings, weights=weights)), key=lambda x: x[1], reverse=True)  # Generate 1000 random pairs of products and ratings based on weights.", "compilation_passed": true, "time": 0.005605936050415039, "tests_passed": true, "error": null}
+{"code": " dict(zip(products, choices(ratings, weights, k=len(products))))  # Generate a dict of product:rating pairs with weights", "compilation_passed": true, "time": 0.007151126861572266, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(product, choice(ratings, 1, p=weights)[0]) for product in products]", "compilation_passed": true, "time": 0.009904146194458008, "tests_passed": false, "error": "NameError"}
+{"code": " [(products[i], ratings[i]) for i in range(len(weights))]", "compilation_passed": true, "time": 0.005645751953125, "tests_passed": true, "error": null}
+{"code": " [(product, rating) for product, rating in zip(products, choices(ratings, weights=weights, k=len(products)))]", "compilation_passed": true, "time": 0.0056111812591552734, "tests_passed": true, "error": null}
+{"code": " list(zip(products, ratings))", "compilation_passed": true, "time": 0.0052449703216552734, "tests_passed": true, "error": null}
+{"code": " []  # list to store the generated pairs", "compilation_passed": true, "time": 0.007791042327880859, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0001480579376220703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(zip(products, choices(ratings, weights)))", "compilation_passed": true, "time": 0.006963014602661133, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(dict(Product=products, Rating=choices(ratings, weights, k=len(products))))  # Randomly generating ratings based on the provided weights", "compilation_passed": true, "time": 0.007098674774169922, "tests_passed": false, "error": "AttributeError"}
+{"code": " choices(a=products, weights=weights, k=len(ratings))", "compilation_passed": true, "time": 0.006431102752685547, "tests_passed": false, "error": "TypeError"}
+{"code": " zip(products, ratings, weights)  # Zip the product list, rating list, and weight list together", "compilation_passed": true, "time": 0.007505178451538086, "tests_passed": false, "error": "AttributeError"}
+{"code": " choices(list(zip(products, ratings)), weights=weights, k=len(products))", "compilation_passed": true, "time": 0.005280017852783203, "tests_passed": true, "error": null}
+{"code": " dict(zip(products, choices(ratings, weights=weights)))", "compilation_passed": true, "time": 0.007019996643066406, "tests_passed": false, "error": "AttributeError"}
+{"code": " {product: rating for product, rating in zip(products, choices(ratings, weights))}", "compilation_passed": true, "time": 0.007014751434326172, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(product, ratings[i]) for i in range(len(products))]  # Generating a list of (product, rating) tuples", "compilation_passed": true, "time": 0.009165048599243164, "tests_passed": false, "error": "NameError"}
+{"code": " [(product, rating) for product, rating in zip(products, ratings)]  # Create a list of pairs (product, rating)", "compilation_passed": true, "time": 0.005165815353393555, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.000141143798828125, "tests_passed": false, "error": "SyntaxError"}

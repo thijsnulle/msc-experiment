@@ -1,0 +1,14 @@
+{"code": "boxplot(data=df, x='Country', y='Score')", "compilation_passed": true, "time": 0.36437296867370605, "tests_passed": true, "error": null}
+{"code": "boxplot(x='Country', y='Score', data=df)", "compilation_passed": true, "time": 0.3639810085296631, "tests_passed": true, "error": null}
+{"code": "boxplot(x='Country', y='Score', data=df, showfliers=False)", "compilation_passed": true, "time": 0.3728818893432617, "tests_passed": true, "error": null}
+{"code": "boxplot(x='Country', y='Score', data=df, palette='rainbow')", "compilation_passed": true, "time": 1.0064928531646729, "tests_passed": false, "error": "AttributeError"}
+{"code": "boxplot(x='Country', y='Score', data=df, palette='tab10')", "compilation_passed": true, "time": 0.4038050174713135, "tests_passed": true, "error": null}
+{"code": "boxplot(y='Country', x='Score', data=df)", "compilation_passed": true, "time": 0.3654320240020752, "tests_passed": true, "error": null}
+{"code": "boxplot(y='Score', x='Country', data=df)", "compilation_passed": true, "time": 0.393294095993042, "tests_passed": true, "error": null}
+{"code": "boxplot(x=\"Country\", y=\"Score\", data=df)", "compilation_passed": true, "time": 0.3792409896850586, "tests_passed": true, "error": null}
+{"code": "boxplot(x=df['Country'], y=df['Score'])", "compilation_passed": true, "time": 0.38297200202941895, "tests_passed": true, "error": null}
+{"code": "boxplot(df['Score'], x=df['Country'])", "compilation_passed": true, "time": 0.1740889549255371, "tests_passed": false, "error": "AttributeError"}
+{"code": "boxplot(data=df, y='Score', x='Country')", "compilation_passed": true, "time": 0.44382309913635254, "tests_passed": true, "error": null}
+{"code": "boxplot(df.groupby('Country')['Score'].median())", "compilation_passed": true, "time": 0.3883659839630127, "tests_passed": true, "error": null}
+{"code": "boxplot(x='Country', y='Score', data=df, hue='Name')", "compilation_passed": true, "time": 0.439633846282959, "tests_passed": true, "error": null}
+{"code": "boxplot(data=df, y='Country', showfliers=False)", "compilation_passed": true, "time": 0.4037649631500244, "tests_passed": true, "error": null}

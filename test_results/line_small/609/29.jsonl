@@ -1,0 +1,9 @@
+{"code": " df.copy()", "compilation_passed": true, "time": 1.0114588737487793, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.drop(tuples, axis=0)  # removes specified rows from the DataFrame", "compilation_passed": true, "time": 0.011184215545654297, "tests_passed": false, "error": "KeyError"}
+{"code": " df[COLUMNS]", "compilation_passed": true, "time": 1.102797031402588, "tests_passed": true, "error": null}
+{"code": " df.copy()  # Create a copy to avoid modifying the original DataFrame", "compilation_passed": true, "time": 2.0612168312072754, "tests_passed": true, "error": null}
+{"code": " df.copy()  # make a copy of the DataFrame to manipulate in-place", "compilation_passed": true, "time": 1.011507272720337, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.copy()  # Create a copy of the original DataFrame", "compilation_passed": true, "time": 1.0193350315093994, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.copy()  # Make a copy of the original DataFrame to modify", "compilation_passed": true, "time": 1.0243158340454102, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df[list(set(COLUMNS) - set(tuples[0]))]", "compilation_passed": true, "time": 0.2505009174346924, "tests_passed": false, "error": "IndexError"}
+{"code": " df.drop(tuples, axis=0)", "compilation_passed": true, "time": 0.010360002517700195, "tests_passed": false, "error": "KeyError"}

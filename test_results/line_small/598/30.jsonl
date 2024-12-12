@@ -1,0 +1,8 @@
+{"code": " filtered_df['Word'].apply(len)", "compilation_passed": true, "time": 0.006114959716796875, "tests_passed": true, "error": null}
+{"code": " filtered_df['Word'].str.len().unique()", "compilation_passed": true, "time": 0.008870124816894531, "tests_passed": false, "error": "AttributeError"}
+{"code": " filtered_df['Word'].str.len()", "compilation_passed": true, "time": 0.005133152008056641, "tests_passed": true, "error": null}
+{"code": " filtered_df['Word'].map(len)", "compilation_passed": true, "time": 0.004884958267211914, "tests_passed": true, "error": null}
+{"code": " filtered_df['Word'].str.len().value_counts()", "compilation_passed": true, "time": 0.007380008697509766, "tests_passed": true, "error": null}
+{"code": " filtered_df['Word'].map(len).to_dict()", "compilation_passed": true, "time": 0.010757923126220703, "tests_passed": false, "error": "AttributeError"}
+{"code": " filtered_df['Word'].map(lambda x: len(x))", "compilation_passed": true, "time": 0.00494694709777832, "tests_passed": true, "error": null}
+{"code": " filtered_df['Word'].str.len().value_counts().to_dict()", "compilation_passed": true, "time": 0.010123968124389648, "tests_passed": false, "error": "AttributeError"}

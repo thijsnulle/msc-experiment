@@ -1,0 +1,7 @@
+{"code": " df[\"Quantity\"].astype(int)", "compilation_passed": true, "time": 0.022310972213745117, "tests_passed": true, "error": null}
+{"code": " df[\"Quantity\"].astype(\"Int32\")", "compilation_passed": true, "time": 0.021357059478759766, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df.Quantity, errors=\"coerce\")", "compilation_passed": true, "time": 0.019903898239135742, "tests_passed": true, "error": null}
+{"code": " df[\"Quantity\"].astype(\"int\")", "compilation_passed": true, "time": 0.021582841873168945, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[\"Quantity\"])", "compilation_passed": true, "time": 0.020557165145874023, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[\"Quantity\"], errors=\"coerce\")", "compilation_passed": true, "time": 0.023499011993408203, "tests_passed": true, "error": null}
+{"code": " df[\"Quantity\"].apply(lambda x: int(x))", "compilation_passed": true, "time": 0.020899057388305664, "tests_passed": true, "error": null}

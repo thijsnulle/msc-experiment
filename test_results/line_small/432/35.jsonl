@@ -1,0 +1,19 @@
+{"code": " chi2_contingency(", "compilation_passed": false, "time": 0.0002532005310058594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " chi2_contingency(df.groupby([column1, column2]).size().unstack())", "compilation_passed": true, "time": 0.01779031753540039, "tests_passed": false, "error": "ValueError"}
+{"code": " chi2_contingency(df[[column1, column2]].groupby([column1, column2]).count())[0]", "compilation_passed": true, "time": 0.01512289047241211, "tests_passed": false, "error": "ValueError"}
+{"code": " np.zeros((2, 2))", "compilation_passed": true, "time": 0.009955883026123047, "tests_passed": false, "error": "NameError"}
+{"code": " df[column1].value_counts(df[column2])", "compilation_passed": true, "time": 0.019090890884399414, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([[len(df[(df[column1] == feature)] & df[column2] == feature)] for feature in df[column1].unique()])", "compilation_passed": true, "time": 0.01009511947631836, "tests_passed": false, "error": "NameError"}
+{"code": " chi2_contingency(df[[column1, column2]].groupby([column1, column2]).size().to_numpy().reshape(2, -1))[1]", "compilation_passed": true, "time": 0.01136469841003418, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([[sum(df[column1] == val) for val in df[column1]] for col in df[column2]])", "compilation_passed": true, "time": 0.00964808464050293, "tests_passed": false, "error": "NameError"}
+{"code": " chi2_contingency(df[[column1, column2]].groupby([column1, column2]).count().values)[1]", "compilation_passed": true, "time": 0.011365890502929688, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.crosstab(df[column1], df[column2])", "compilation_passed": true, "time": 0.3359208106994629, "tests_passed": true, "error": null}
+{"code": " pd.crosstab(", "compilation_passed": false, "time": 0.00019979476928710938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " chi2_contingency(df.groupby([column1, column2])[\"id\"].count())[0]", "compilation_passed": true, "time": 0.01069498062133789, "tests_passed": false, "error": "ValueError"}
+{"code": " df[column1].value_counts(df[column2]).unstack()", "compilation_passed": true, "time": 0.010758161544799805, "tests_passed": false, "error": "ValueError"}
+{"code": " np.count_nonzero(df[[column1, column2]].values, axis=0)", "compilation_passed": true, "time": 0.009822845458984375, "tests_passed": false, "error": "NameError"}
+{"code": " np.array(df[[column1, column2]])", "compilation_passed": true, "time": 0.010998964309692383, "tests_passed": false, "error": "NameError"}
+{"code": " chi2_contingency(pd.crosstab(df[column1], df[column2]))[0]", "compilation_passed": true, "time": 0.014864921569824219, "tests_passed": false, "error": "ValueError"}
+{"code": " chi2_contingency(df[f\"{column1}__{column2}\"].value_counts().to_numpy())", "compilation_passed": true, "time": 0.03224325180053711, "tests_passed": false, "error": "KeyError"}
+{"code": " df[[column1, column2]].drop_duplicates().shape[0]", "compilation_passed": true, "time": 0.01060795783996582, "tests_passed": false, "error": "ValueError"}
+{"code": " chi2_contingency(pd.crosstab(df[column1], df[column2]))", "compilation_passed": true, "time": 0.014985084533691406, "tests_passed": false, "error": "ValueError"}

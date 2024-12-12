@@ -1,0 +1,8 @@
+{"code": " glob.glob('split_*')", "compilation_passed": true, "time": 0.22984790802001953, "tests_passed": true, "error": null}
+{"code": " glob.glob('split_*.csv')", "compilation_passed": true, "time": 0.0862419605255127, "tests_passed": true, "error": null}
+{"code": " glob.glob(f'split_*')", "compilation_passed": true, "time": 0.22615694999694824, "tests_passed": true, "error": null}
+{"code": " glob.glob(f'{os.path.basename(file).split(\".\")[0]}_*')", "compilation_passed": true, "time": 0.08751511573791504, "tests_passed": true, "error": null}
+{"code": " glob.glob(\"split_*.csv\")", "compilation_passed": true, "time": 0.0874779224395752, "tests_passed": true, "error": null}
+{"code": " glob.glob(\"split_*\")", "compilation_passed": true, "time": 0.22045588493347168, "tests_passed": true, "error": null}
+{"code": " glob.glob(f'{os.path.splitext(file)[0]}*')", "compilation_passed": true, "time": 0.0921330451965332, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(os.path.dirname(file), 'split_*'))", "compilation_passed": true, "time": 0.0880730152130127, "tests_passed": true, "error": null}

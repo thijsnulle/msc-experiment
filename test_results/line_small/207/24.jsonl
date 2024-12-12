@@ -1,0 +1,5 @@
+{"code": " json.loads(response.text)", "compilation_passed": true, "time": 0.010822296142578125, "tests_passed": false, "error": "NameError"}
+{"code": " response.json()", "compilation_passed": true, "time": 0.0033197402954101562, "tests_passed": true, "error": null}
+{"code": " json.dumps(response.json())", "compilation_passed": true, "time": 0.009979724884033203, "tests_passed": false, "error": "NameError"}
+{"code": " json.loads(response.content)", "compilation_passed": true, "time": 0.009598970413208008, "tests_passed": false, "error": "NameError"}
+{"code": " json.loads(response.content.decode())", "compilation_passed": true, "time": 0.00981903076171875, "tests_passed": false, "error": "NameError"}

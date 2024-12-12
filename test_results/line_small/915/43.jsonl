@@ -1,0 +1,27 @@
+{"code": "plot(df['closing_price'], 'o')", "compilation_passed": true, "time": 0.2582740783691406, "tests_passed": true, "error": null}
+{"code": "scatter(df['Index'], df['closing_price'], color='blue', label='Data Points')", "compilation_passed": true, "time": 0.06126689910888672, "tests_passed": false, "error": "KeyError"}
+{"code": "scatter(df.index, df['closing_price'], s=100, marker='o', label='Data')", "compilation_passed": true, "time": 0.2506701946258545, "tests_passed": true, "error": null}
+{"code": "scatter(df.index, df['closing_price'], marker='o')", "compilation_passed": true, "time": 0.24342107772827148, "tests_passed": true, "error": null}
+{"code": "scatter(outliers['Index'], outliers['closing_price'])", "compilation_passed": true, "time": 0.059658050537109375, "tests_passed": false, "error": "KeyError"}
+{"code": "scatter(df['closing_price'], df['Z_score'], c='blue', label='Data points')", "compilation_passed": true, "time": 0.24690890312194824, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Index')", "compilation_passed": true, "time": 0.26367807388305664, "tests_passed": true, "error": null}
+{"code": "scatter(outliers['Index'], outliers['closing_price'], label=\"Outliers\")", "compilation_passed": true, "time": 0.06566095352172852, "tests_passed": false, "error": "KeyError"}
+{"code": "scatter(df.index, df['closing_price'], c='C0', label='Points')", "compilation_passed": true, "time": 0.2587928771972656, "tests_passed": true, "error": null}
+{"code": "plot(df['closing_price'], label='Closing Price')", "compilation_passed": true, "time": 0.27011895179748535, "tests_passed": true, "error": null}
+{"code": "plot(df['closing_price'], '.', color='blue')", "compilation_passed": true, "time": 0.260530948638916, "tests_passed": true, "error": null}
+{"code": "plot(df['closing_price'])", "compilation_passed": true, "time": 0.23863983154296875, "tests_passed": true, "error": null}
+{"code": "scatter(df.index, df['closing_price'], s=50, marker='x', c=outliers['Z_score'])", "compilation_passed": true, "time": 0.06625103950500488, "tests_passed": false, "error": "ValueError"}
+{"code": "boxplot(outliers['Z_score'].values, sym='ro')", "compilation_passed": true, "time": 0.28055500984191895, "tests_passed": true, "error": null}
+{"code": "scatter(df['Index'], df['closing_price'])", "compilation_passed": true, "time": 0.1096041202545166, "tests_passed": false, "error": "KeyError"}
+{"code": "scatter(df['closing_price'], df['closing_price'], color='blue', label='Original Data')", "compilation_passed": true, "time": 0.40024399757385254, "tests_passed": true, "error": null}
+{"code": "plot(outliers['closing_price'], label='Outliers')", "compilation_passed": true, "time": 0.3215339183807373, "tests_passed": true, "error": null}
+{"code": "scatter(outliers['Index'], outliers['closing_price'], color='red')", "compilation_passed": true, "time": 0.08767008781433105, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(df['closing_price'], color='blue')", "compilation_passed": true, "time": 0.32410216331481934, "tests_passed": true, "error": null}
+{"code": "scatter(df['closing_price'], df['Z_score'], s=40, marker='x', alpha=0.5)", "compilation_passed": true, "time": 0.28449106216430664, "tests_passed": true, "error": null}
+{"code": "set_title('Outliers in Closing Prices')", "compilation_passed": true, "time": 0.28853392601013184, "tests_passed": true, "error": null}
+{"code": "scatter(outliers.index, outliers['closing_price'], color='green')", "compilation_passed": true, "time": 0.2824530601501465, "tests_passed": true, "error": null}
+{"code": "plot(df['closing_price'], label=\"Closing Prices\")", "compilation_passed": true, "time": 0.2789180278778076, "tests_passed": true, "error": null}
+{"code": "scatter(df['closing_price'], df['Z_score'], marker='o', s=80)", "compilation_passed": true, "time": 0.26653194427490234, "tests_passed": true, "error": null}
+{"code": "plot(df['Z_score'])", "compilation_passed": true, "time": 0.27275705337524414, "tests_passed": true, "error": null}
+{"code": "scatter(df['closing_price'], df['closing_price'], label='Normal')", "compilation_passed": true, "time": 0.30895400047302246, "tests_passed": true, "error": null}
+{"code": "scatter(outliers['Z_score'], outliers['closing_price'], color='red')", "compilation_passed": true, "time": 0.2897932529449463, "tests_passed": true, "error": null}

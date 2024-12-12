@@ -1,0 +1,4 @@
+{"code": " dict(Counter(urls).most_common(top_n))", "compilation_passed": true, "time": 0.0012841224670410156, "tests_passed": true, "error": null}
+{"code": " dict(Counter(urls)[:top_n])", "compilation_passed": true, "time": 0.008697271347045898, "tests_passed": false, "error": "TypeError"}
+{"code": " dict(Counter(urls[:top_n]))", "compilation_passed": true, "time": 0.005650997161865234, "tests_passed": true, "error": null}
+{"code": " dict(Counter(urls[:top_n]).most_common())", "compilation_passed": true, "time": 0.005705833435058594, "tests_passed": true, "error": null}

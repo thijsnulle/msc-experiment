@@ -1,0 +1,14 @@
+{"code": " []", "compilation_passed": true, "time": 0.009419918060302734, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(1, 101, size=(dimension, dimension))", "compilation_passed": true, "time": 0.0018398761749267578, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, 101, (dimension, dimension))", "compilation_passed": true, "time": 0.0017271041870117188, "tests_passed": true, "error": null}
+{"code": " [[random.randint(1, 100) for _ in range(dimension)] for _ in range(dimension)]", "compilation_passed": true, "time": 0.016810894012451172, "tests_passed": false, "error": "NameError"}
+{"code": " np.random.randint(1, 100, size=(dimension, dimension))", "compilation_passed": true, "time": 0.002028942108154297, "tests_passed": true, "error": null}
+{"code": " np.array(list(itertools.product([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63,", "compilation_passed": false, "time": 0.0003020763397216797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [[int(1 + np.random.random() * 100) for _ in range(dimension)] for _ in range(dimension)]", "compilation_passed": true, "time": 0.012150049209594727, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(list(itertools.product(range(1, 101), repeat=dimension))).reshape(dimension, dimension)", "compilation_passed": true, "time": 0.009348154067993164, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.randint(1, 100, (dimension, dimension))", "compilation_passed": true, "time": 0.0017590522766113281, "tests_passed": true, "error": null}
+{"code": " np.array([[np.random.randint(1, 100) for _ in range(dimension)] for _ in range(dimension)])", "compilation_passed": true, "time": 0.0019290447235107422, "tests_passed": true, "error": null}
+{"code": " np.array([list(itertools.product(range(1, 101), repeat=dimension))[np.random.choice(len(list(itertools.product(range(1, 101), repeat=dimension))), dimension)] for _ in range(dimension)])", "compilation_passed": true, "time": 0.01524662971496582, "tests_passed": false, "error": "TypeError"}
+{"code": " [[np.random.randint(1, 100) for _ in range(dimension)] for _ in range(dimension)]", "compilation_passed": true, "time": 0.009696006774902344, "tests_passed": false, "error": "AttributeError"}
+{"code": " [[np.random.randint(1, 100) for j in range(dimension)] for i in range(dimension)]", "compilation_passed": true, "time": 0.00947117805480957, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(list(itertools.product(range(1, 101), repeat=dimension)))", "compilation_passed": true, "time": 0.007113218307495117, "tests_passed": true, "error": null}

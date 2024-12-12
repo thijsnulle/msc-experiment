@@ -1,0 +1,20 @@
+{"code": " Counter()", "compilation_passed": true, "time": 0.011858940124511719, "tests_passed": false, "error": "Exception"}
+{"code": " []", "compilation_passed": true, "time": 0.009009838104248047, "tests_passed": false, "error": "Exception"}
+{"code": " [token.lower() for name in names for token in name.split(' ')]", "compilation_passed": true, "time": 0.0072650909423828125, "tests_passed": true, "error": null}
+{"code": " [token for name in names for token in name.lower().replace(\"-\", \" \").split(\" \") if token]", "compilation_passed": true, "time": 0.007756948471069336, "tests_passed": true, "error": null}
+{"code": " [w.strip() for w in ''.join(names).split()]", "compilation_passed": true, "time": 0.009773015975952148, "tests_passed": true, "error": null}
+{"code": " [w for name in names for w in name.split()]", "compilation_passed": true, "time": 0.010452032089233398, "tests_passed": true, "error": null}
+{"code": " [word for name in names for word in name.split()]", "compilation_passed": true, "time": 0.009720087051391602, "tests_passed": true, "error": null}
+{"code": " Counter(\" \".join(names).split())", "compilation_passed": true, "time": 0.009724855422973633, "tests_passed": true, "error": null}
+{"code": " Counter(sum([w.split() for w in names], []))", "compilation_passed": true, "time": 0.00997304916381836, "tests_passed": true, "error": null}
+{"code": " [word.lower() for name in names for word in re.findall(r'[a-z]+', name)]", "compilation_passed": true, "time": 0.007154941558837891, "tests_passed": true, "error": null}
+{"code": " [w.lower() for n in names for w in n.strip().split()]", "compilation_passed": true, "time": 0.007287025451660156, "tests_passed": true, "error": null}
+{"code": " Counter([w for name in names for w in name.split()])", "compilation_passed": true, "time": 0.009878158569335938, "tests_passed": true, "error": null}
+{"code": " [word.lower() for name in names for word in name.split()]", "compilation_passed": true, "time": 0.007441043853759766, "tests_passed": true, "error": null}
+{"code": " [name.split() for name in names]", "compilation_passed": true, "time": 0.008294105529785156, "tests_passed": false, "error": "TypeError"}
+{"code": " Counter([word.lower() for name in names for word in name.strip().split()])", "compilation_passed": true, "time": 0.0070989131927490234, "tests_passed": true, "error": null}
+{"code": " Counter(sum(", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [w for n in names for w in n.split()]", "compilation_passed": true, "time": 0.009686946868896484, "tests_passed": true, "error": null}
+{"code": " [w.strip() for name in names for w in name.lower().split()]", "compilation_passed": true, "time": 0.007124900817871094, "tests_passed": true, "error": null}
+{"code": " Counter(sum([get_words(name.lower()) for name in names], []))", "compilation_passed": true, "time": 0.011286020278930664, "tests_passed": false, "error": "NameError"}
+{"code": " [name.lower().split() for name in names if name]", "compilation_passed": true, "time": 0.008185148239135742, "tests_passed": false, "error": "TypeError"}

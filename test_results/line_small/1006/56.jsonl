@@ -1,0 +1,5 @@
+{"code": " extract_path", "compilation_passed": true, "time": 0.008738040924072266, "tests_passed": true, "error": null}
+{"code": " os.path.abspath(extract_path)", "compilation_passed": true, "time": 0.008516788482666016, "tests_passed": true, "error": null}
+{"code": " os.path.join(extract_path, os.path.basename(url))", "compilation_passed": true, "time": 0.0076448917388916016, "tests_passed": true, "error": null}
+{"code": " os.path.join(extract_path, os.path.basename(extract_path))", "compilation_passed": true, "time": 0.009067058563232422, "tests_passed": true, "error": null}
+{"code": " os.path.join(extract_path, zip_ref.namelist()[0])", "compilation_passed": true, "time": 0.007878780364990234, "tests_passed": true, "error": null}

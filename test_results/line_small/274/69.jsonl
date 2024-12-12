@@ -1,0 +1,5 @@
+{"code": "sendmail(smtp_username, msg['to'], msg.as_string())", "compilation_passed": true, "time": 0.02096104621887207, "tests_passed": true, "error": null}
+{"code": "sendmail(smtp_username, email_data['to'], msg.as_string())", "compilation_passed": true, "time": 0.0207521915435791, "tests_passed": true, "error": null}
+{"code": "sendmail(smtp_username, [email_data['to']], msg.as_string())", "compilation_passed": true, "time": 0.01783585548400879, "tests_passed": true, "error": null}
+{"code": "send_message(msg)", "compilation_passed": true, "time": 0.009720087051391602, "tests_passed": true, "error": null}
+{"code": "sendmail(smtp_username, msg['To'], msg.as_string())", "compilation_passed": true, "time": 0.019639015197753906, "tests_passed": true, "error": null}

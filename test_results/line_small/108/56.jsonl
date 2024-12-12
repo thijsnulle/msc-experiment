@@ -1,0 +1,14 @@
+{"code": " plt.plot(df)", "compilation_passed": true, "time": 0.01726531982421875, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.plot(result.trend, label=\"Trend\")", "compilation_passed": true, "time": 0.02650594711303711, "tests_passed": true, "error": null}
+{"code": " result.plot()", "compilation_passed": true, "time": 1.0226318836212158, "tests_passed": false, "error": "TimeoutError"}
+{"code": " result.plot(figsize=(12, 4))", "compilation_passed": true, "time": 0.01203012466430664, "tests_passed": false, "error": "TypeError"}
+{"code": " result.plot(figsize=(10, 5))", "compilation_passed": true, "time": 0.013408184051513672, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.gcf().gca()", "compilation_passed": true, "time": 0.0205380916595459, "tests_passed": true, "error": null}
+{"code": " plt.plot(result.seasonal, label='Seasonal')", "compilation_passed": true, "time": 0.022664785385131836, "tests_passed": true, "error": null}
+{"code": " df.plot()", "compilation_passed": true, "time": 0.2937631607055664, "tests_passed": true, "error": null}
+{"code": " plt.plot(df['value'])", "compilation_passed": true, "time": 0.02301192283630371, "tests_passed": true, "error": null}
+{"code": " df['value'].plot(title='Time Series Decomposition', ylabel='Value')", "compilation_passed": true, "time": 0.05584907531738281, "tests_passed": true, "error": null}
+{"code": " df['value'].plot(title='Time Series Decomposition', label='Value', figsize=(15, 7),", "compilation_passed": false, "time": 0.0003731250762939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.02032303810119629, "tests_passed": true, "error": null}
+{"code": " result.plot(figsize=(10, 8))", "compilation_passed": true, "time": 0.012331724166870117, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.03300285339355469, "tests_passed": true, "error": null}

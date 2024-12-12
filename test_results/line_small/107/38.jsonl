@@ -1,0 +1,14 @@
+{"code": " df.empty or \"value\" not in df.columns:", "compilation_passed": true, "time": 0.07409882545471191, "tests_passed": false, "error": "KeyError"}
+{"code": " len(df) == 0:", "compilation_passed": true, "time": 0.07838296890258789, "tests_passed": false, "error": "KeyError"}
+{"code": " not df:", "compilation_passed": true, "time": 0.00814509391784668, "tests_passed": false, "error": "ValueError"}
+{"code": " not df.empty and df.columns.isin([\"group\", \"date\", \"value\"]).all():", "compilation_passed": true, "time": 0.008370161056518555, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df) < 2:", "compilation_passed": true, "time": 0.0782158374786377, "tests_passed": false, "error": "KeyError"}
+{"code": " df.empty or not (\"group\" in df.columns) or not (\"date\" in df.columns) or not (\"value\" in df.columns):", "compilation_passed": true, "time": 0.10080575942993164, "tests_passed": true, "error": null}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.07746577262878418, "tests_passed": false, "error": "KeyError"}
+{"code": " not df.empty and all(", "compilation_passed": false, "time": 0.00014519691467285156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not df.empty and all(c in df.columns for c in [\"date\", \"value\"]):", "compilation_passed": true, "time": 0.008695602416992188, "tests_passed": false, "error": "ValueError"}
+{"code": " not df.empty:", "compilation_passed": true, "time": 0.008605003356933594, "tests_passed": false, "error": "ValueError"}
+{"code": " not df or not (\"date\" and \"value\") in df:", "compilation_passed": true, "time": 0.0083160400390625, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or df.columns != [\"group\", \"date\", \"value\"]:", "compilation_passed": true, "time": 0.010064840316772461, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df) == 0 or not all(column_name in df for column_name in [\"group\", \"date\", \"value\"]):", "compilation_passed": true, "time": 0.20554494857788086, "tests_passed": true, "error": null}
+{"code": " not df.empty and df.columns.to_list() == ['group', 'date', 'value']:", "compilation_passed": true, "time": 0.013310909271240234, "tests_passed": false, "error": "ValueError"}

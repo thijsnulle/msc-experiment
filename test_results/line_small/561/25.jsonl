@@ -1,0 +1,8 @@
+{"code": " parser.parse(date_str)", "compilation_passed": true, "time": 0.008620738983154297, "tests_passed": true, "error": null}
+{"code": " parser.parse(date_str).astimezone(from_tz)", "compilation_passed": true, "time": 0.009032964706420898, "tests_passed": true, "error": null}
+{"code": " parser.parse(date_str).replace(tzinfo=from_tz)", "compilation_passed": true, "time": 0.0035858154296875, "tests_passed": true, "error": null}
+{"code": " parser.parse(date_str, tzinfos={'UTC': pytz.UTC})", "compilation_passed": true, "time": 0.00811910629272461, "tests_passed": true, "error": null}
+{"code": " parser.parse(date_str, tzinfos={'UTC': pytz.utc, 'GMT': pytz.utc})", "compilation_passed": true, "time": 0.008450984954833984, "tests_passed": true, "error": null}
+{"code": " parser.parse(date_str, tzinfos={from_tz.zone: from_tz})", "compilation_passed": true, "time": 0.008066892623901367, "tests_passed": true, "error": null}
+{"code": " parser.parse(date_str, tzinfos={'UTC': from_tz})", "compilation_passed": true, "time": 0.0077228546142578125, "tests_passed": true, "error": null}
+{"code": " parser.parse(date_str, tzinfos={from_tz: from_tz})", "compilation_passed": true, "time": 0.008337974548339844, "tests_passed": true, "error": null}

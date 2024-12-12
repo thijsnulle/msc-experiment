@@ -1,0 +1,13 @@
+{"code": " pd.DataFrame(data, columns=[\"string\"])", "compilation_passed": true, "time": 0.024426937103271484, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.01145172119140625, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=[\"3letter_strings\"])", "compilation_passed": true, "time": 0.025582075119018555, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=[\"data\"])", "compilation_passed": true, "time": 0.03002309799194336, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=['string'])", "compilation_passed": true, "time": 0.02459430694580078, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=[\"random_string\"])", "compilation_passed": true, "time": 0.0244600772857666, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=[\"value\"])", "compilation_passed": true, "time": 0.024778127670288086, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"data\": data})", "compilation_passed": true, "time": 0.02490711212158203, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=[\"random_strings\"])", "compilation_passed": true, "time": 0.02379322052001953, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.Series(data).value_counts()", "compilation_passed": true, "time": 0.024379968643188477, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=[\"random\"])", "compilation_passed": true, "time": 0.02519392967224121, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data).groupby(data).count()", "compilation_passed": true, "time": 0.017682790756225586, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=['random'])", "compilation_passed": true, "time": 0.04034590721130371, "tests_passed": false, "error": "KeyError"}

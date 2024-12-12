@@ -1,0 +1,23 @@
+{"code": " pd.read_sql('select * from {}'.format(table_name), conn)", "compilation_passed": true, "time": 0.024270057678222656, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f\"SELECT * from {table_name}\", conn)", "compilation_passed": true, "time": 0.022285938262939453, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(f\"\"\"", "compilation_passed": false, "time": 0.00014495849609375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_sql(f\"select * from {table_name}\", conn)", "compilation_passed": true, "time": 0.023933887481689453, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(pd.read_sql_query(\"SELECT * FROM \"+table_name, conn))", "compilation_passed": true, "time": 0.020450830459594727, "tests_passed": true, "error": null}
+{"code": " pd.read_sql('select * from '+table_name, conn)", "compilation_passed": true, "time": 0.02196478843688965, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"SELECT * FROM \" + table_name, conn)", "compilation_passed": true, "time": 0.022915124893188477, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.012848854064941406, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.read_sql_table(table_name, conn)", "compilation_passed": true, "time": 0.016764163970947266, "tests_passed": false, "error": "NotImplementedError"}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name}\", conn)", "compilation_passed": true, "time": 0.022556066513061523, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(f\"SELECT * from {table_name}\", conn, index_col='id')", "compilation_passed": true, "time": 0.010788917541503906, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(", "compilation_passed": false, "time": 0.0002448558807373047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_sql(f'SELECT * from {table_name};', conn)", "compilation_passed": true, "time": 0.023396015167236328, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(f'select * from {table_name}', conn)", "compilation_passed": true, "time": 0.023099899291992188, "tests_passed": true, "error": null}
+{"code": " pd.read_sql('select * from %s' % table_name, conn)", "compilation_passed": true, "time": 0.022420883178710938, "tests_passed": true, "error": null}
+{"code": " pd.read_sql('SELECT * FROM {}.{}'.format(table_name, column_name), conn)", "compilation_passed": true, "time": 0.01272130012512207, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql_query(f'select * from {table_name}', conn)", "compilation_passed": true, "time": 0.02375507354736328, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(f'select * from {table_name} where {column_name} REGEXP ?', conn, params=[pattern])", "compilation_passed": true, "time": 0.011871099472045898, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql_query(f\"SELECT * from {table_name} WHERE {column_name} REGEXP '{pattern}';\", conn)", "compilation_passed": true, "time": 0.01183009147644043, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql(f'SELECT * FROM {table_name}', conn)", "compilation_passed": true, "time": 0.022496938705444336, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f'SELECT * FROM {table_name}', conn)", "compilation_passed": true, "time": 0.024179935455322266, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(\"select * from \" + table_name, conn)", "compilation_passed": true, "time": 0.023652076721191406, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f\"SELECT * FROM {table_name};\", conn)", "compilation_passed": true, "time": 0.02255988121032715, "tests_passed": true, "error": null}

@@ -1,0 +1,13 @@
+{"code": " log_file.replace('.log', '.csv')", "compilation_passed": true, "time": 0.018507957458496094, "tests_passed": true, "error": null}
+{"code": " 'log_data.csv'", "compilation_passed": true, "time": 0.017066001892089844, "tests_passed": true, "error": null}
+{"code": " log_file.replace('.log', '_data.csv')", "compilation_passed": true, "time": 0.018105030059814453, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.path.dirname(log_file), 'log_data.csv')", "compilation_passed": true, "time": 0.023279190063476562, "tests_passed": true, "error": null}
+{"code": " f\"{log_file}.csv\"", "compilation_passed": true, "time": 0.02437567710876465, "tests_passed": true, "error": null}
+{"code": " f'log_data.csv'", "compilation_passed": true, "time": 0.023698091506958008, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.getcwd(), f\"log_data.csv\")", "compilation_passed": true, "time": 0.020093202590942383, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.getcwd(), 'log_data.csv')", "compilation_passed": true, "time": 0.019406795501708984, "tests_passed": true, "error": null}
+{"code": " f\"log_data.csv\"", "compilation_passed": true, "time": 0.01901721954345703, "tests_passed": true, "error": null}
+{"code": " log_file[:-4] + \"_parsed.csv\"", "compilation_passed": true, "time": 0.020266056060791016, "tests_passed": true, "error": null}
+{"code": " f'{log_file[:-4]}_data.csv'", "compilation_passed": true, "time": 0.021116018295288086, "tests_passed": true, "error": null}
+{"code": " f'{log_file.split(\".\")[0]}.csv'", "compilation_passed": true, "time": 0.029733896255493164, "tests_passed": true, "error": null}
+{"code": " f\"{log_file[:-4]}_data.csv\"", "compilation_passed": true, "time": 0.021091938018798828, "tests_passed": true, "error": null}

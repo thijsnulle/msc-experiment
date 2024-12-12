@@ -1,0 +1,16 @@
+{"code": " selected_df[columns[1:]]", "compilation_passed": true, "time": 0.01058816909790039, "tests_passed": true, "error": null}
+{"code": " selected_df.loc[:, columns[1:]]", "compilation_passed": true, "time": 0.010483980178833008, "tests_passed": true, "error": null}
+{"code": " pd.get_dummies(selected_df[columns[0:-1]], drop_first=True)", "compilation_passed": true, "time": 0.01746392250061035, "tests_passed": true, "error": null}
+{"code": " selected_df[columns[0:2]]", "compilation_passed": true, "time": 0.0145111083984375, "tests_passed": true, "error": null}
+{"code": " selected_df[columns[1:]].values", "compilation_passed": true, "time": 0.012710332870483398, "tests_passed": true, "error": null}
+{"code": " sm.add_constant(selected_df[columns[1:]])", "compilation_passed": true, "time": 0.014570951461791992, "tests_passed": true, "error": null}
+{"code": " sm.add_constant(selected_df[columns[0:2]])", "compilation_passed": true, "time": 0.01848006248474121, "tests_passed": true, "error": null}
+{"code": " selected_df[columns[1:]]  # select all columns except for the dependent variable (column 0)", "compilation_passed": true, "time": 0.012486696243286133, "tests_passed": true, "error": null}
+{"code": " selected_df[columns[1:]]  # Drop the dependent variable from the column list", "compilation_passed": true, "time": 0.012142658233642578, "tests_passed": true, "error": null}
+{"code": " selected_df[columns[1:]]  # .reset_index(drop=True)", "compilation_passed": true, "time": 0.010282039642333984, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(selected_df[columns[1:]])", "compilation_passed": true, "time": 0.011712789535522461, "tests_passed": true, "error": null}
+{"code": " selected_df.drop(columns=columns[0], axis=1)", "compilation_passed": true, "time": 0.01169729232788086, "tests_passed": true, "error": null}
+{"code": " sm.add_constant(selected_df[[columns[0], columns[1]]])", "compilation_passed": true, "time": 0.028517723083496094, "tests_passed": true, "error": null}
+{"code": " selected_df[[col for col in selected_df.columns if col not in columns]]", "compilation_passed": true, "time": 0.019406795501708984, "tests_passed": true, "error": null}
+{"code": " selected_df[[columns[1], columns[2]]]", "compilation_passed": true, "time": 0.015803098678588867, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(selected_df[columns[0:2]])", "compilation_passed": true, "time": 0.018811941146850586, "tests_passed": true, "error": null}

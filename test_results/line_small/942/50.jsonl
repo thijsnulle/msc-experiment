@@ -1,0 +1,6 @@
+{"code": "append({'Date': date, 'Category': category, 'Sales': sales})", "compilation_passed": true, "time": 0.3579869270324707, "tests_passed": true, "error": null}
+{"code": "append([date.strftime(\"%Y-%m-%d\"), category, sales])", "compilation_passed": true, "time": 0.14575481414794922, "tests_passed": false, "error": "TypeError"}
+{"code": "append([date.strftime('%Y-%m-%d'), category, sales])", "compilation_passed": true, "time": 0.13988614082336426, "tests_passed": false, "error": "TypeError"}
+{"code": "append([date, category, sales])", "compilation_passed": true, "time": 0.3785359859466553, "tests_passed": true, "error": null}
+{"code": "append((date, category, sales))", "compilation_passed": true, "time": 0.3774747848510742, "tests_passed": true, "error": null}
+{"code": "append((date.strftime('%Y-%m-%d'), category, sales))", "compilation_passed": true, "time": 0.1609349250793457, "tests_passed": false, "error": "TypeError"}

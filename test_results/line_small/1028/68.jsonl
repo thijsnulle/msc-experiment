@@ -1,0 +1,21 @@
+{"code": " cpu_usage_line.split(\",\")[0].strip().replace('\"', \"\")", "compilation_passed": true, "time": 0.09035611152648926, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\",\")[-1].strip().replace('\"', \"\")", "compilation_passed": true, "time": 0.0895071029663086, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\",\")[-1]", "compilation_passed": true, "time": 0.08684229850769043, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " float(cpu_usage_line.split(\",\")[-1].strip())", "compilation_passed": true, "time": 0.08729004859924316, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split()[4]", "compilation_passed": true, "time": 0.08750391006469727, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split()[1]", "compilation_passed": true, "time": 0.08815598487854004, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\" \")[-1]", "compilation_passed": true, "time": 0.08806490898132324, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\",\")[-1].replace('\"', \"\")", "compilation_passed": true, "time": 0.08680129051208496, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split()[2].replace('\"', \"\")", "compilation_passed": true, "time": 0.08654284477233887, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\" \")[-1].strip().replace('\"', \"\")", "compilation_passed": true, "time": 0.08682870864868164, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\",\")[-1].strip()", "compilation_passed": true, "time": 0.08945322036743164, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\" \")[-2].replace('\"', \"\")", "compilation_passed": true, "time": 0.08962488174438477, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\",\")[-1].replace(\"\\n\", \"\").replace(", "compilation_passed": false, "time": 0.0006227493286132812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " cpu_usage_line.split(\" \")[-1].strip()", "compilation_passed": true, "time": 0.08590507507324219, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\",\")[-1].strip().replace(\"'\", \"\")", "compilation_passed": true, "time": 0.08635210990905762, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\",\")[2].strip().replace('\"', \"\")", "compilation_passed": true, "time": 0.08542585372924805, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\" \")[-2]", "compilation_passed": true, "time": 0.08652305603027344, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\",\")[-1].strip().replace(\"%\", \"\")", "compilation_passed": true, "time": 0.08541369438171387, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\",\")[1].strip().replace('\"', \"\")", "compilation_passed": true, "time": 0.0860893726348877, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\",\")[2].strip().replace(\"'\", \"\")", "compilation_passed": true, "time": 0.08614826202392578, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " cpu_usage_line.split(\" \")[-1].replace('\"', \"\")", "compilation_passed": true, "time": 0.08570194244384766, "tests_passed": false, "error": "subprocess.CalledProcessError"}

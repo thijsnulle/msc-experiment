@@ -1,0 +1,20 @@
+{"code": " len(counter) > 1:", "compilation_passed": true, "time": 0.009125947952270508, "tests_passed": true, "error": null}
+{"code": " len(counter.most_common(1)) > 0:", "compilation_passed": true, "time": 0.008426904678344727, "tests_passed": true, "error": null}
+{"code": " counter.most_common(1)[0][1] == counter.most_common(2)[1][1]:", "compilation_passed": true, "time": 0.007921934127807617, "tests_passed": true, "error": null}
+{"code": " counter.most_common(1)[0][1] == 1:", "compilation_passed": true, "time": 0.00696110725402832, "tests_passed": true, "error": null}
+{"code": " len(counter) == 1:", "compilation_passed": true, "time": 0.006999015808105469, "tests_passed": true, "error": null}
+{"code": " len(counter) != 0:", "compilation_passed": true, "time": 0.009051084518432617, "tests_passed": true, "error": null}
+{"code": " len(counter) == 0:", "compilation_passed": true, "time": 0.007944107055664062, "tests_passed": true, "error": null}
+{"code": " counter.most_common()[0][1] == counter.most_common()[1][1]:", "compilation_passed": true, "time": 0.006921052932739258, "tests_passed": true, "error": null}
+{"code": " len(np.atleast_1d(counter)) > 0:", "compilation_passed": true, "time": 0.00811910629272461, "tests_passed": true, "error": null}
+{"code": " len(np.atleast_1d(counter.most_common())) == 1:", "compilation_passed": true, "time": 0.007322788238525391, "tests_passed": true, "error": null}
+{"code": " len(data[col]) == counter.most_common(1)[0][1]:", "compilation_passed": true, "time": 0.007224082946777344, "tests_passed": true, "error": null}
+{"code": " len(counter.items()) == 1:", "compilation_passed": true, "time": 0.00705409049987793, "tests_passed": true, "error": null}
+{"code": " max(counter.values()) == counter[np.nanmax(data[col])]:", "compilation_passed": true, "time": 0.011363744735717773, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " len(counter) > 0:", "compilation_passed": true, "time": 0.008540868759155273, "tests_passed": true, "error": null}
+{"code": " len(counter.most_common()) > 1:", "compilation_passed": true, "time": 0.008238077163696289, "tests_passed": true, "error": null}
+{"code": " len(counter) != 1:", "compilation_passed": true, "time": 0.008072853088378906, "tests_passed": true, "error": null}
+{"code": " len(np.atleast_1d(np.array(counter.most_common()))) == 1:", "compilation_passed": true, "time": 0.00709080696105957, "tests_passed": true, "error": null}
+{"code": " len(np.atleast_1d(data)) == 1:", "compilation_passed": true, "time": 0.007731914520263672, "tests_passed": true, "error": null}
+{"code": " len(counter.keys()) == 1:", "compilation_passed": true, "time": 0.0070002079010009766, "tests_passed": true, "error": null}
+{"code": " counter.most_common(1):", "compilation_passed": true, "time": 0.008059024810791016, "tests_passed": true, "error": null}

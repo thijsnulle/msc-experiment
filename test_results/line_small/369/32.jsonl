@@ -1,0 +1,18 @@
+{"code": "hist(l, bins=10)", "compilation_passed": true, "time": 0.15778088569641113, "tests_passed": true, "error": null}
+{"code": "hist(l, normed=True)", "compilation_passed": true, "time": 0.053350210189819336, "tests_passed": false, "error": "AttributeError"}
+{"code": "hist(l, density=1)", "compilation_passed": true, "time": 0.20379900932312012, "tests_passed": true, "error": null}
+{"code": "hist(l, bins=50)", "compilation_passed": true, "time": 0.27909207344055176, "tests_passed": true, "error": null}
+{"code": "hist(l, density=True, histtype='step',", "compilation_passed": false, "time": 0.0001709461212158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": "hist(l)", "compilation_passed": true, "time": 0.1640160083770752, "tests_passed": true, "error": null}
+{"code": "hist(l, normed=True, bins=np.arange(0, 9, 0.1))", "compilation_passed": true, "time": 0.09407901763916016, "tests_passed": false, "error": "AttributeError"}
+{"code": "hist(l, density=True)", "compilation_passed": true, "time": 0.19596099853515625, "tests_passed": true, "error": null}
+{"code": "hist(l, bins=20)", "compilation_passed": true, "time": 0.20429587364196777, "tests_passed": true, "error": null}
+{"code": "hist(l,bins=50)", "compilation_passed": true, "time": 0.27280187606811523, "tests_passed": true, "error": null}
+{"code": "hist(l, bins=20, density=True)", "compilation_passed": true, "time": 0.20397281646728516, "tests_passed": true, "error": null}
+{"code": "hist(l, bins=10, density=True)", "compilation_passed": true, "time": 0.17378711700439453, "tests_passed": true, "error": null}
+{"code": "set_title(\"Fit results: mu={0:.2f}, std={1:.2f}\".format(stats.norm.mean(l), stats.norm.std(l)), fontsize=12)", "compilation_passed": true, "time": 0.03479790687561035, "tests_passed": false, "error": "TypeError"}
+{"code": "hist(l, bins=5)", "compilation_passed": true, "time": 0.15099000930786133, "tests_passed": true, "error": null}
+{"code": "hist(l, bins=15, density=True, edgecolor='black')", "compilation_passed": true, "time": 0.1873939037322998, "tests_passed": true, "error": null}
+{"code": "hist(l, 50)", "compilation_passed": true, "time": 0.27639198303222656, "tests_passed": true, "error": null}
+{"code": "hist(l, bins=np.arange(0, 10, 1))", "compilation_passed": true, "time": 0.16754388809204102, "tests_passed": true, "error": null}
+{"code": "hist(l, bins = 5)", "compilation_passed": true, "time": 0.16172385215759277, "tests_passed": true, "error": null}

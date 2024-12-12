@@ -1,0 +1,6 @@
+{"code": " Flask(app_name, instance_relative_config=False)", "compilation_passed": true, "time": 0.009567022323608398, "tests_passed": true, "error": null}
+{"code": " Flask(app_name)", "compilation_passed": true, "time": 0.010122060775756836, "tests_passed": true, "error": null}
+{"code": " Flask(app_name, instance_path=None)", "compilation_passed": true, "time": 0.00813603401184082, "tests_passed": true, "error": null}
+{"code": " Flask(__name__, instance_path=app_name)", "compilation_passed": true, "time": 0.033740997314453125, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Flask(__name__)", "compilation_passed": true, "time": 0.009466886520385742, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Flask(__name__, instance_path=os.path.dirname(app_name))", "compilation_passed": true, "time": 0.01290583610534668, "tests_passed": false, "error": "RuntimeError"}

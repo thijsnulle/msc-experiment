@@ -1,0 +1,6 @@
+{"code": " pd.Series(data[data_key])", "compilation_passed": true, "time": 0.01849985122680664, "tests_passed": false, "error": "KeyError"}
+{"code": " data[data_key]", "compilation_passed": true, "time": 0.015501022338867188, "tests_passed": false, "error": "KeyError"}
+{"code": " data[\"data\"][data_key]", "compilation_passed": true, "time": 0.014644145965576172, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data[data_key])", "compilation_passed": true, "time": 0.014238834381103516, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.Series(data[data_key], dtype=np.float64)", "compilation_passed": true, "time": 0.014260053634643555, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame([data[data_key]])", "compilation_passed": true, "time": 0.013005971908569336, "tests_passed": false, "error": "KeyError"}

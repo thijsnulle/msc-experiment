@@ -1,0 +1,17 @@
+{"code": " pd.Series(", "compilation_passed": false, "time": 0.00024080276489257812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[col].fillna(random.uniform(*num_range))", "compilation_passed": true, "time": 0.010149002075195312, "tests_passed": true, "error": null}
+{"code": " df[col].apply(", "compilation_passed": false, "time": 0.0003719329833984375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[col].fillna(", "compilation_passed": false, "time": 0.00040078163146972656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.Series(random.sample(num_range, len(df)), index=df.index)", "compilation_passed": true, "time": 0.012198925018310547, "tests_passed": true, "error": null}
+{"code": " df[col].astype('object')", "compilation_passed": true, "time": 0.019226789474487305, "tests_passed": true, "error": null}
+{"code": " df[col].astype('int64')", "compilation_passed": true, "time": 0.020693063735961914, "tests_passed": false, "error": "pandas.errors.IntCastingNaNError"}
+{"code": " random.randint(*num_range)", "compilation_passed": true, "time": 0.012109756469726562, "tests_passed": true, "error": null}
+{"code": " pd.Series([None if x is None else random.uniform(*num_range) for x in df[col]])", "compilation_passed": true, "time": 0.011214017868041992, "tests_passed": true, "error": null}
+{"code": " random.sample(range(num_range[0], num_range[1]), len(df[col]))", "compilation_passed": true, "time": 0.009193181991577148, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[col], errors='coerce')", "compilation_passed": true, "time": 0.011610746383666992, "tests_passed": true, "error": null}
+{"code": " random.sample(num_range, len(df))", "compilation_passed": true, "time": 0.009500980377197266, "tests_passed": true, "error": null}
+{"code": " pd.Series(random.choices(num_range, k=len(df)), dtype=int)", "compilation_passed": true, "time": 0.009374380111694336, "tests_passed": true, "error": null}
+{"code": " df[col].apply(lambda x: random.randint(*num_range) if pd.isnull(x) else x)", "compilation_passed": true, "time": 0.009696006774902344, "tests_passed": true, "error": null}
+{"code": " df[col].astype(float)", "compilation_passed": true, "time": 0.014728069305419922, "tests_passed": true, "error": null}
+{"code": " df[col].apply(random.random)", "compilation_passed": true, "time": 0.02146315574645996, "tests_passed": false, "error": "TypeError"}
+{"code": " random.uniform(*num_range)", "compilation_passed": true, "time": 0.009304046630859375, "tests_passed": true, "error": null}

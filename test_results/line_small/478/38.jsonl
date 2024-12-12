@@ -1,0 +1,19 @@
+{"code": "replace(f\"{random_substring}, \", \"\")", "compilation_passed": true, "time": 0.006203889846801758, "tests_passed": true, "error": null}
+{"code": "replace(f\", {random_substring}\", \"\")", "compilation_passed": true, "time": 0.008156061172485352, "tests_passed": true, "error": null}
+{"code": "replace(random_substring, \"\")", "compilation_passed": true, "time": 0.00561213493347168, "tests_passed": true, "error": null}
+{"code": "replace(random_substring, \"\").replace(\"  \", \" \")", "compilation_passed": true, "time": 0.006002902984619141, "tests_passed": true, "error": null}
+{"code": "replace(random_substring, \"\", 1).strip() if len(substrings) > 1 else s.strip()", "compilation_passed": true, "time": 0.006212711334228516, "tests_passed": true, "error": null}
+{"code": "replace(f\", {random_substring}\", \"\", 1).replace(random_substring, \"\", 1)", "compilation_passed": true, "time": 0.00722503662109375, "tests_passed": true, "error": null}
+{"code": "replace(random_substring, \"\", 1)", "compilation_passed": true, "time": 0.006175994873046875, "tests_passed": true, "error": null}
+{"code": "replace(random_substring, \"\").strip() + \", \" + random_substring", "compilation_passed": true, "time": 0.0058209896087646484, "tests_passed": true, "error": null}
+{"code": "replace(random_substring, \"\").replace(\" , \", \", \").strip()", "compilation_passed": true, "time": 0.008708715438842773, "tests_passed": true, "error": null}
+{"code": "replace(random_substring, \"\").strip()", "compilation_passed": true, "time": 0.007238149642944336, "tests_passed": true, "error": null}
+{"code": "replace(random_substring, \"\").replace(\" \", \"\")", "compilation_passed": true, "time": 0.006106138229370117, "tests_passed": true, "error": null}
+{"code": "replace(random_substring, \"\") if random_substring not in s.split(\", \") else s", "compilation_passed": true, "time": 0.0054509639739990234, "tests_passed": true, "error": null}
+{"code": "replace(random_substring, \"\").strip(),", "compilation_passed": false, "time": 0.00022983551025390625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "replace(random_substring, \"\").strip() if random_substring else s.strip()", "compilation_passed": true, "time": 0.006047964096069336, "tests_passed": true, "error": null}
+{"code": "replace(f\"{random_substring[0]}\", \"\").replace(f\"{random_substring[-1]}\", \"\")", "compilation_passed": true, "time": 0.006922006607055664, "tests_passed": true, "error": null}
+{"code": "replace(random_substring, \"\").strip().replace(\"  \", \" \")", "compilation_passed": true, "time": 0.00861215591430664, "tests_passed": true, "error": null}
+{"code": "replace(f\", {random_substring},\", f\", {random_substring},\")", "compilation_passed": true, "time": 0.006058931350708008, "tests_passed": true, "error": null}
+{"code": "replace(", "compilation_passed": false, "time": 0.00020384788513183594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "replace(random_substring, \"\").strip() if len(substrings) > 1 else s.strip()", "compilation_passed": true, "time": 0.005879878997802734, "tests_passed": true, "error": null}

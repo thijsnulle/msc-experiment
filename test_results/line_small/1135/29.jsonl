@@ -1,0 +1,12 @@
+{"code": " []", "compilation_passed": true, "time": 0.012299060821533203, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.OrderedDict()", "compilation_passed": true, "time": 0.006140947341918945, "tests_passed": true, "error": null}
+{"code": " data['repos']", "compilation_passed": true, "time": 0.009544849395751953, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted(data, key=lambda repo: repo['created_at'])", "compilation_passed": true, "time": 0.009479999542236328, "tests_passed": false, "error": "AttributeError"}
+{"code": " sorted(data, key=lambda x: x['created_at'])", "compilation_passed": true, "time": 0.00934290885925293, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(repo['name'], repo['created_at']) for repo in data]", "compilation_passed": true, "time": 0.009645938873291016, "tests_passed": false, "error": "AttributeError"}
+{"code": " [repo['name'] for repo in data]", "compilation_passed": true, "time": 0.010087966918945312, "tests_passed": false, "error": "AttributeError"}
+{"code": " [repo['name'] for repo in data if repo['name']]", "compilation_passed": true, "time": 0.010394096374511719, "tests_passed": false, "error": "AttributeError"}
+{"code": " data[\"repos\"]", "compilation_passed": true, "time": 0.010004043579101562, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted(data, key=lambda x: x['created_at'], reverse=True)", "compilation_passed": true, "time": 0.010873794555664062, "tests_passed": false, "error": "AttributeError"}
+{"code": " sorted(data, key = lambda item: item['created_at'])", "compilation_passed": true, "time": 0.011684179306030273, "tests_passed": false, "error": "AttributeError"}
+{"code": " sorted(data, key=lambda r: r['created_at'])", "compilation_passed": true, "time": 0.011895179748535156, "tests_passed": false, "error": "AttributeError"}

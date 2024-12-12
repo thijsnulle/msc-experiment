@@ -1,0 +1,24 @@
+{"code": " subprocess.Popen(backup_path, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.0070858001708984375, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(file_path, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.005541801452636719, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(backup_path, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.00723576545715332, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([file_path], shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.007342100143432617, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([file_path], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)", "compilation_passed": true, "time": 0.006433963775634766, "tests_passed": true, "error": null}
+{"code": " subprocess.run(", "compilation_passed": false, "time": 0.0002219676971435547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.Popen(file_path, shell=True, stdout=subprocess.PIPE)", "compilation_passed": true, "time": 0.006750822067260742, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([backup_path])", "compilation_passed": true, "time": 0.0067958831787109375, "tests_passed": true, "error": null}
+{"code": " subprocess.run([file_path, '-p'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.00935220718383789, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(backup_path, shell=True)", "compilation_passed": true, "time": 0.007417917251586914, "tests_passed": true, "error": null}
+{"code": " subprocess.run(file_path, shell=True, capture_output=True)", "compilation_passed": true, "time": 0.008820056915283203, "tests_passed": true, "error": null}
+{"code": " subprocess.run([backup_path], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)", "compilation_passed": true, "time": 0.007811069488525391, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([backup_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.006336688995361328, "tests_passed": true, "error": null}
+{"code": " subprocess.run([backup_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.009057044982910156, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([file_path],", "compilation_passed": false, "time": 0.00024199485778808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.Popen([file_path])", "compilation_passed": true, "time": 0.006673097610473633, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(backup_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)", "compilation_passed": true, "time": 0.007006168365478516, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([file_path], shell=True, stdout=subprocess.PIPE)", "compilation_passed": true, "time": 0.007892131805419922, "tests_passed": true, "error": null}
+{"code": " subprocess.run(file_path, shell=True)", "compilation_passed": true, "time": 0.009818077087402344, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(file_path, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)", "compilation_passed": true, "time": 0.006254911422729492, "tests_passed": true, "error": null}
+{"code": " subprocess.run([backup_path], capture_output=True, text=True)", "compilation_passed": true, "time": 0.008621931076049805, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([file_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding='utf8')", "compilation_passed": true, "time": 0.007308006286621094, "tests_passed": true, "error": null}
+{"code": " subprocess.run([backup_path], shell=True, check=True)", "compilation_passed": true, "time": 0.007868051528930664, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(", "compilation_passed": false, "time": 0.000244140625, "tests_passed": false, "error": "SyntaxError"}

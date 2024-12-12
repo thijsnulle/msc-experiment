@@ -1,0 +1,5 @@
+{"code": " hmac_obj.digest()", "compilation_passed": true, "time": 0.0053598880767822266, "tests_passed": true, "error": null}
+{"code": " hmac_obj.hexdigest()", "compilation_passed": true, "time": 0.0018661022186279297, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(hmac_obj.digest()).decode('utf-8')", "compilation_passed": true, "time": 0.007627010345458984, "tests_passed": false, "error": "NameError"}
+{"code": " base64.urlsafe_b64encode(hmac_obj.digest())", "compilation_passed": true, "time": 0.009508132934570312, "tests_passed": false, "error": "NameError"}
+{"code": " base64.b64encode(hmac_obj.digest()).decode()", "compilation_passed": true, "time": 0.00875401496887207, "tests_passed": false, "error": "NameError"}

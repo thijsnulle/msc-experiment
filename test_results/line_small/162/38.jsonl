@@ -1,0 +1,28 @@
+{"code": " np.arange(0, max(word_lengths), max(word_lengths) // 20)", "compilation_passed": true, "time": 0.17048978805541992, "tests_passed": false, "error": "ZeroDivisionError"}
+{"code": " np.arange(0, max(word_lengths) + 1)", "compilation_passed": true, "time": 0.5211529731750488, "tests_passed": true, "error": null}
+{"code": " [i for i in range(1, max(word_lengths)+1)]  # Create the bin boundaries", "compilation_passed": true, "time": 1.7874348163604736, "tests_passed": true, "error": null}
+{"code": " np.arange(min(word_lengths), max(word_lengths) + 1)", "compilation_passed": true, "time": 0.472851037979126, "tests_passed": true, "error": null}
+{"code": " np.arange(0, max(word_lengths) + 2, 2)  # Calculating bin edges", "compilation_passed": true, "time": 0.4775269031524658, "tests_passed": true, "error": null}
+{"code": " np.arange(min(word_lengths), max(word_lengths), 0.02)", "compilation_passed": true, "time": 0.8842370510101318, "tests_passed": true, "error": null}
+{"code": " np.arange(min(word_lengths), max(word_lengths), (max(word_lengths) - min(word_lengths)) * rwidth)", "compilation_passed": true, "time": 0.5891189575195312, "tests_passed": false, "error": "ZeroDivisionError"}
+{"code": " np.arange(0, max(word_lengths), max(word_lengths) * rwidth)", "compilation_passed": true, "time": 0.561687707901001, "tests_passed": true, "error": null}
+{"code": " np.arange(min(word_lengths), max(word_lengths) + 1)  # Compute the bins", "compilation_passed": true, "time": 0.5570399761199951, "tests_passed": true, "error": null}
+{"code": " np.arange(min(word_lengths), max(word_lengths)+1)", "compilation_passed": true, "time": 0.533825159072876, "tests_passed": true, "error": null}
+{"code": " range(min(word_lengths), max(word_lengths) + 1)  # Creating the histogram bins", "compilation_passed": true, "time": 0.604057788848877, "tests_passed": true, "error": null}
+{"code": " np.arange(0, max(word_lengths) + 1, 1)", "compilation_passed": true, "time": 0.5928590297698975, "tests_passed": true, "error": null}
+{"code": " np.arange(min(word_lengths)-2, max(word_lengths)+4, 2)", "compilation_passed": true, "time": 0.5547142028808594, "tests_passed": true, "error": null}
+{"code": " np.arange(1, len(word_lengths) + 1)", "compilation_passed": true, "time": 0.5586361885070801, "tests_passed": true, "error": null}
+{"code": " np.arange(min(word_lengths), max(word_lengths), 1)  # Creating the bins", "compilation_passed": true, "time": 0.5332760810852051, "tests_passed": true, "error": null}
+{"code": " np.arange(min(word_lengths), max(word_lengths), 1)", "compilation_passed": true, "time": 0.5602681636810303, "tests_passed": true, "error": null}
+{"code": " range(1, max(word_lengths) + 1)", "compilation_passed": true, "time": 0.6744372844696045, "tests_passed": true, "error": null}
+{"code": " np.arange(0, 45, 5)", "compilation_passed": true, "time": 0.58089280128479, "tests_passed": true, "error": null}
+{"code": " np.arange(1, max(word_lengths) + 2, 2)", "compilation_passed": true, "time": 0.6264750957489014, "tests_passed": true, "error": null}
+{"code": " np.arange(0, 20, 0.1)", "compilation_passed": true, "time": 0.9809219837188721, "tests_passed": true, "error": null}
+{"code": " np.arange(0, max(word_lengths) + 1, max(word_lengths) / 10)", "compilation_passed": true, "time": 0.6118981838226318, "tests_passed": true, "error": null}
+{"code": " range(min(word_lengths), max(word_lengths)+1)", "compilation_passed": true, "time": 2.429474115371704, "tests_passed": true, "error": null}
+{"code": " np.arange(0, max(word_lengths), (max(word_lengths) / 100))", "compilation_passed": true, "time": 0.7601001262664795, "tests_passed": true, "error": null}
+{"code": " np.arange(0, max(word_lengths), max(word_lengths) / 10)  # Calculate the optimal bin sizes based on the length of the longest word", "compilation_passed": true, "time": 0.6019511222839355, "tests_passed": true, "error": null}
+{"code": " range(min(word_lengths), max(word_lengths) + 1)", "compilation_passed": true, "time": 0.5859582424163818, "tests_passed": true, "error": null}
+{"code": " np.arange(min(word_lengths)-2, max(word_lengths)+3)  # +2 and -2 to avoid the empty bins", "compilation_passed": true, "time": 0.7099547386169434, "tests_passed": true, "error": null}
+{"code": " np.arange(min(word_lengths), max(word_lengths) + rwidth, rwidth)", "compilation_passed": true, "time": 0.7102956771850586, "tests_passed": true, "error": null}
+{"code": " np.arange(1, np.max(word_lengths)+1)", "compilation_passed": true, "time": 0.6958651542663574, "tests_passed": true, "error": null}

@@ -1,0 +1,11 @@
+{"code": " [{'Product': [x], 'Category': categories, 'Quantity Sold': random.randint(min_value, max_value), 'Revenue': random.randint(min_value, max_value) * 100} for x in product_list]", "compilation_passed": true, "time": 0.012799978256225586, "tests_passed": false, "error": "ValueError"}
+{"code": " {}", "compilation_passed": true, "time": 0.009985208511352539, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.00403594970703125, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns = ['Product', 'Category', 'Quantity Sold', 'Revenue'])", "compilation_passed": true, "time": 0.009511232376098633, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.009685993194580078, "tests_passed": false, "error": "AttributeError"}
+{"code": " [{", "compilation_passed": false, "time": 0.00012493133544921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [", "compilation_passed": false, "time": 0.00011873245239257812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [{\"Product\": random.choice(product_list),", "compilation_passed": false, "time": 0.00010800361633300781, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {", "compilation_passed": false, "time": 0.0001201629638671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [dict(zip(['Product', 'Category', 'Quantity Sold', 'Revenue'], ['', '', 0, 0] * len(product_list)))]", "compilation_passed": true, "time": 0.008820056915283203, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(columns=['Product', 'Category', 'Quantity Sold', 'Revenue'])", "compilation_passed": true, "time": 0.009472131729125977, "tests_passed": false, "error": "AttributeError"}

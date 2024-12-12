@@ -1,0 +1,29 @@
+{"code": "add_line(plt.Line2D(theta,", "compilation_passed": false, "time": 0.00018525123596191406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(theta, np.cos(theta) * radius, color=\"#888888\", lw=1,", "compilation_passed": false, "time": 0.0001971721649169922, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(radius * np.sin(theta), radius * np.cos(theta), c='k', linewidth=1)", "compilation_passed": true, "time": 0.03893709182739258, "tests_passed": true, "error": null}
+{"code": "set_rgrids([radius])", "compilation_passed": true, "time": 0.17604422569274902, "tests_passed": true, "error": null}
+{"code": "plot(radius * np.sin(theta), radius * np.cos(theta), linewidth=1.5)", "compilation_passed": true, "time": 0.039420127868652344, "tests_passed": true, "error": null}
+{"code": "plot(theta, radius, color='r', lw=1.5, alpha=0.5)", "compilation_passed": true, "time": 0.03975868225097656, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(radius * np.sin(theta), radius * np.cos(theta), lw=2,", "compilation_passed": false, "time": 0.00021576881408691406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(theta, np.abs(radius * np.sin(theta)), color='g', linewidth=2)", "compilation_passed": true, "time": 0.042482852935791016, "tests_passed": true, "error": null}
+{"code": "plot(theta, radius * np.sin(theta), color=\"b\", alpha=0.5, lw=2)", "compilation_passed": true, "time": 0.04133296012878418, "tests_passed": true, "error": null}
+{"code": "plot(theta, radius * np.ones_like(theta), 'k', lw=0.5)", "compilation_passed": true, "time": 0.18441319465637207, "tests_passed": true, "error": null}
+{"code": "plot(radius * np.cos(theta), radius * np.sin(theta), color='blue')", "compilation_passed": true, "time": 0.04024004936218262, "tests_passed": true, "error": null}
+{"code": "plot(theta, radius * np.sin(theta), lw=1.5)", "compilation_passed": true, "time": 0.04115700721740723, "tests_passed": true, "error": null}
+{"code": "plot(radius * np.cos(theta), radius * np.sin(theta))", "compilation_passed": true, "time": 0.04206991195678711, "tests_passed": true, "error": null}
+{"code": "plot(theta, radius, color='r', lw=1.25, alpha=1)", "compilation_passed": true, "time": 0.040879249572753906, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(theta, radius, c='k')", "compilation_passed": true, "time": 0.038919925689697266, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(theta, np.full_like(theta, radius), lw=3)", "compilation_passed": true, "time": 0.18268895149230957, "tests_passed": true, "error": null}
+{"code": "plot(radius * np.sin(theta), radius * np.cos(theta), lw=2)", "compilation_passed": true, "time": 0.04078793525695801, "tests_passed": true, "error": null}
+{"code": "plot(radius * np.cos(theta), radius * np.sin(theta), lw=2)", "compilation_passed": true, "time": 0.04131722450256348, "tests_passed": true, "error": null}
+{"code": "plot(theta, radius * np.sin(theta), 'r-', lw=1)", "compilation_passed": true, "time": 0.04438304901123047, "tests_passed": true, "error": null}
+{"code": "plot(theta, radius * np.ones_like(theta), color='k')", "compilation_passed": true, "time": 0.1860790252685547, "tests_passed": true, "error": null}
+{"code": "plot(theta, radius * np.ones_like(theta), color='black')", "compilation_passed": true, "time": 0.19268584251403809, "tests_passed": true, "error": null}
+{"code": "add_line(plt.Line2D(np.rad2deg(theta), np.rad2deg(radius * np.sin(theta) / np.cos(theta)), color='b'))", "compilation_passed": true, "time": 0.039038896560668945, "tests_passed": true, "error": null}
+{"code": "plot(theta, radius * np.cos(theta), color='b', linewidth=2,", "compilation_passed": false, "time": 0.0002079010009765625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(radius * np.sin(theta), radius * np.cos(theta), color='k')", "compilation_passed": true, "time": 0.042877912521362305, "tests_passed": true, "error": null}
+{"code": "plot(theta, radius * np.ones(len(theta)), color='b')", "compilation_passed": true, "time": 0.19082093238830566, "tests_passed": true, "error": null}
+{"code": "set_rticks([0.0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5])  # ***** DO NOT CHANGE ***** #", "compilation_passed": true, "time": 0.2210862636566162, "tests_passed": true, "error": null}
+{"code": "plot(theta, radius * np.ones(1000), lw=1)", "compilation_passed": true, "time": 0.19704532623291016, "tests_passed": true, "error": null}
+{"code": "plot(radius * np.cos(theta), radius * np.sin(theta), label='Circle')", "compilation_passed": true, "time": 0.5494499206542969, "tests_passed": true, "error": null}
+{"code": "plot(theta, radius * np.sin(theta), 'r')", "compilation_passed": true, "time": 0.040434837341308594, "tests_passed": true, "error": null}

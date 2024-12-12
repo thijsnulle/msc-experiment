@@ -1,0 +1,18 @@
+{"code": " []", "compilation_passed": true, "time": 0.006299018859863281, "tests_passed": false, "error": "IndexError"}
+{"code": " [item for sublist in L for item in sublist]", "compilation_passed": true, "time": 0.006139039993286133, "tests_passed": false, "error": "IndexError"}
+{"code": " [val for sublist in L for val in sublist]", "compilation_passed": true, "time": 0.005868673324584961, "tests_passed": false, "error": "IndexError"}
+{"code": " list(np.nditer(L,flags=[\"flatten_cells\"],order='C'))", "compilation_passed": true, "time": 0.0048220157623291016, "tests_passed": false, "error": "ValueError"}
+{"code": " sum(L, [])", "compilation_passed": true, "time": 0.005175113677978516, "tests_passed": false, "error": "IndexError"}
+{"code": " [n for row in L for n in row]", "compilation_passed": true, "time": 0.005335092544555664, "tests_passed": false, "error": "IndexError"}
+{"code": " [x for sublist in L for x in sublist]", "compilation_passed": true, "time": 0.005122661590576172, "tests_passed": false, "error": "IndexError"}
+{"code": " [x for row in L for x in row]", "compilation_passed": true, "time": 0.0054628849029541016, "tests_passed": false, "error": "IndexError"}
+{"code": " [i for inner in L for i in inner]", "compilation_passed": true, "time": 0.005769968032836914, "tests_passed": false, "error": "IndexError"}
+{"code": " [elem for sublist in L for elem in sublist]", "compilation_passed": true, "time": 0.005029916763305664, "tests_passed": false, "error": "IndexError"}
+{"code": " [l for ll in L for l in ll]", "compilation_passed": true, "time": 0.005097866058349609, "tests_passed": false, "error": "IndexError"}
+{"code": " np.array(L).flatten()", "compilation_passed": true, "time": 0.005342960357666016, "tests_passed": false, "error": "IndexError"}
+{"code": " sum(L,[]) # sum(L,[]) = L[0] + L[1] + L[2] + L[3]", "compilation_passed": true, "time": 0.005357027053833008, "tests_passed": false, "error": "IndexError"}
+{"code": " [num for sublist in L for num in sublist]", "compilation_passed": true, "time": 0.005953073501586914, "tests_passed": false, "error": "IndexError"}
+{"code": " [element for row in L for element in row]", "compilation_passed": true, "time": 0.00545501708984375, "tests_passed": false, "error": "IndexError"}
+{"code": " sum(L,[])", "compilation_passed": true, "time": 0.005308866500854492, "tests_passed": false, "error": "IndexError"}
+{"code": " np.array(sum(L, []))", "compilation_passed": true, "time": 0.00519108772277832, "tests_passed": false, "error": "IndexError"}
+{"code": " [element for sub in L for element in sub]", "compilation_passed": true, "time": 0.005913734436035156, "tests_passed": false, "error": "IndexError"}

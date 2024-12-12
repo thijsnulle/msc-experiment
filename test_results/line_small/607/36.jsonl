@@ -1,0 +1,4 @@
+{"code": " sample(COLUMNS, 2)", "compilation_passed": true, "time": 0.26331591606140137, "tests_passed": true, "error": null}
+{"code": " [sample(COLUMNS, 2)[0], sample(COLUMNS, 2)[1]]", "compilation_passed": true, "time": 0.2768220901489258, "tests_passed": true, "error": null}
+{"code": " sample(df.columns, 2)", "compilation_passed": true, "time": 0.013754129409790039, "tests_passed": false, "error": "TypeError"}
+{"code": " sample(df.columns.values, 2)", "compilation_passed": true, "time": 0.012989997863769531, "tests_passed": false, "error": "TypeError"}

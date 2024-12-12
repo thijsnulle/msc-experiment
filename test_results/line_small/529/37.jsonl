@@ -1,0 +1,12 @@
+{"code": " sum(random.choices(POSSIBLE_VALUES, k=num_dice))", "compilation_passed": true, "time": 0.010401010513305664, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(random.sample(POSSIBLE_VALUES, num_dice))", "compilation_passed": true, "time": 0.010602951049804688, "tests_passed": false, "error": "TypeError"}
+{"code": " random.choices(POSSIBLE_VALUES, k=num_dice)", "compilation_passed": true, "time": 0.4618961811065674, "tests_passed": true, "error": null}
+{"code": " sum([random.choice(POSSIBLE_VALUES) for _ in range(num_dice)])", "compilation_passed": true, "time": 0.009591102600097656, "tests_passed": false, "error": "TypeError"}
+{"code": " [random.choice(POSSIBLE_VALUES) for _ in range(num_dice)]", "compilation_passed": true, "time": 0.4546349048614502, "tests_passed": true, "error": null}
+{"code": " sorted([random.choice(POSSIBLE_VALUES) for _ in range(num_dice)])", "compilation_passed": true, "time": 0.44629478454589844, "tests_passed": true, "error": null}
+{"code": " random.choice(POSSIBLE_VALUES)", "compilation_passed": true, "time": 0.009557008743286133, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted(random.choices(POSSIBLE_VALUES, k=num_dice))", "compilation_passed": true, "time": 0.4691197872161865, "tests_passed": true, "error": null}
+{"code": " sum(random.choice(POSSIBLE_VALUES) for _ in range(num_dice))", "compilation_passed": true, "time": 0.012426137924194336, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(random.randint(1, 6) for _ in range(num_dice))", "compilation_passed": true, "time": 0.010372638702392578, "tests_passed": false, "error": "TypeError"}
+{"code": " [random.randint(1, 6) for _ in range(num_dice)]", "compilation_passed": true, "time": 0.47944116592407227, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.30617594718933105, "tests_passed": true, "error": null}

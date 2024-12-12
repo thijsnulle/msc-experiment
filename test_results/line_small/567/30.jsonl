@@ -1,0 +1,15 @@
+{"code": " pd.Series(data)", "compilation_passed": true, "time": 0.03648805618286133, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=['value'])", "compilation_passed": true, "time": 0.047505855560302734, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'Data': data})", "compilation_passed": true, "time": 0.03596210479736328, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=['Value'])", "compilation_passed": true, "time": 0.034049034118652344, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, index=['col1'])", "compilation_passed": true, "time": 0.00782918930053711, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.029422998428344727, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=data)", "compilation_passed": true, "time": 0.029880046844482422, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.030035972595214844, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=['data'])", "compilation_passed": true, "time": 0.036303043365478516, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'value': data})", "compilation_passed": true, "time": 0.03579282760620117, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(np.sort(data))", "compilation_passed": true, "time": 0.03199315071105957, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'Value': data})", "compilation_passed": true, "time": 0.036015987396240234, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'Value': data,", "compilation_passed": false, "time": 0.00020384788513183594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.Series(data).value_counts()", "compilation_passed": true, "time": 0.0394129753112793, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.Series(data, index=['value'])", "compilation_passed": true, "time": 0.007586002349853516, "tests_passed": false, "error": "ValueError"}

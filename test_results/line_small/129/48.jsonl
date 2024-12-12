@@ -1,0 +1,6 @@
+{"code": " soup.find('table')", "compilation_passed": true, "time": 0.009060859680175781, "tests_passed": true, "error": null}
+{"code": " soup.find(\"table\")", "compilation_passed": true, "time": 0.0072290897369384766, "tests_passed": true, "error": null}
+{"code": " soup.find_all('table')[0]", "compilation_passed": true, "time": 0.007355928421020508, "tests_passed": true, "error": null}
+{"code": " soup.find('table', {\"class\": \"wikitable sortable\"})", "compilation_passed": true, "time": 0.01651906967163086, "tests_passed": false, "error": "ValueError"}
+{"code": " soup.find('table', {'class': 'wikitable'})", "compilation_passed": true, "time": 0.016157865524291992, "tests_passed": false, "error": "ValueError"}
+{"code": " soup.find('table', class_='wikitable')", "compilation_passed": true, "time": 0.014400959014892578, "tests_passed": false, "error": "ValueError"}

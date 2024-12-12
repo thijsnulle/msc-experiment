@@ -1,0 +1,19 @@
+{"code": " data[col]", "compilation_passed": true, "time": 0.010042905807495117, "tests_passed": true, "error": null}
+{"code": " np.unique(np.sort(np.atleast_1d(data[col])))", "compilation_passed": true, "time": 0.007923364639282227, "tests_passed": true, "error": null}
+{"code": " data[col][0]", "compilation_passed": true, "time": 0.011898040771484375, "tests_passed": false, "error": "IndexError"}
+{"code": " data[0][col]", "compilation_passed": true, "time": 0.012344121932983398, "tests_passed": false, "error": "IndexError"}
+{"code": " np.array(data[0][col]).tolist()", "compilation_passed": true, "time": 0.011633157730102539, "tests_passed": false, "error": "IndexError"}
+{"code": " sorted(np.unique(data[col]))", "compilation_passed": true, "time": 0.009006738662719727, "tests_passed": true, "error": null}
+{"code": " np.atleast_1d(data[col])[0]", "compilation_passed": true, "time": 0.0075681209564208984, "tests_passed": true, "error": null}
+{"code": " np.atleast_1d(data)[col][0]", "compilation_passed": true, "time": 0.007519960403442383, "tests_passed": true, "error": null}
+{"code": " np.unique(data[col])[0]", "compilation_passed": true, "time": 0.007036924362182617, "tests_passed": true, "error": null}
+{"code": " str(data[col].item())", "compilation_passed": true, "time": 0.009114742279052734, "tests_passed": true, "error": null}
+{"code": " np.atleast_1d(data[col]).tolist()", "compilation_passed": true, "time": 0.00939798355102539, "tests_passed": true, "error": null}
+{"code": " np.array(list(map(str, np.unique(data[col]))))[0]", "compilation_passed": true, "time": 0.009221792221069336, "tests_passed": true, "error": null}
+{"code": " data.flat[0][col]", "compilation_passed": true, "time": 0.0069119930267333984, "tests_passed": true, "error": null}
+{"code": " list(np.unique(data[col]))", "compilation_passed": true, "time": 0.009177684783935547, "tests_passed": true, "error": null}
+{"code": " data.dtype.names[col]", "compilation_passed": true, "time": 0.011442899703979492, "tests_passed": false, "error": "TypeError"}
+{"code": " data[col].tolist()[0]", "compilation_passed": true, "time": 0.010980844497680664, "tests_passed": false, "error": "TypeError"}
+{"code": " np.atleast_1d(data)[0][col]", "compilation_passed": true, "time": 0.006757020950317383, "tests_passed": true, "error": null}
+{"code": " np.array(data[col][0])", "compilation_passed": true, "time": 0.01140904426574707, "tests_passed": false, "error": "IndexError"}
+{"code": " [data[col][0]]", "compilation_passed": true, "time": 0.011456012725830078, "tests_passed": false, "error": "IndexError"}

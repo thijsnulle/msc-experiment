@@ -1,0 +1,19 @@
+{"code": " matches.iloc[sampled_indices]  # Select only these indices", "compilation_passed": true, "time": 0.024780988693237305, "tests_passed": true, "error": null}
+{"code": " matches.iloc[sampled_indices]  # Subset the matches using the sampled indices", "compilation_passed": true, "time": 0.023109912872314453, "tests_passed": true, "error": null}
+{"code": " matches.iloc[sampled_indices]", "compilation_passed": true, "time": 0.022060871124267578, "tests_passed": true, "error": null}
+{"code": " matches.iloc[sampled_indices]  # Slice the DataFrame using the sampled indices", "compilation_passed": true, "time": 0.022758007049560547, "tests_passed": true, "error": null}
+{"code": " matches.iloc[sampled_indices]  # Use the indices to select the rows", "compilation_passed": true, "time": 0.022539138793945312, "tests_passed": true, "error": null}
+{"code": " matches.iloc[sampled_indices]  # Return a random sample of matches", "compilation_passed": true, "time": 0.022446870803833008, "tests_passed": true, "error": null}
+{"code": " matches.iloc[sampled_indices].reset_index(drop=True)  # Return a sample of matches with the indicated indices", "compilation_passed": true, "time": 0.023869991302490234, "tests_passed": true, "error": null}
+{"code": " matches.iloc[sampled_indices]  # Select the matches for the randomly selected indices", "compilation_passed": true, "time": 0.026798725128173828, "tests_passed": true, "error": null}
+{"code": " matches.iloc[sampled_indices]  # Extract the sampled rows", "compilation_passed": true, "time": 0.025020122528076172, "tests_passed": true, "error": null}
+{"code": " matches.iloc[sampled_indices]  # Select only the matching rows with indices", "compilation_passed": true, "time": 0.023057222366333008, "tests_passed": true, "error": null}
+{"code": " matches.iloc[sampled_indices]  # Use indices to select rows", "compilation_passed": true, "time": 0.024951696395874023, "tests_passed": true, "error": null}
+{"code": " matches.loc[sampled_indices]  # Return only the selected matches", "compilation_passed": true, "time": 0.03248190879821777, "tests_passed": false, "error": "KeyError"}
+{"code": " matches.iloc[sampled_indices].copy()  # Keep only the selected rows", "compilation_passed": true, "time": 0.02244710922241211, "tests_passed": true, "error": null}
+{"code": " matches.iloc[sampled_indices]  # Return the subset", "compilation_passed": true, "time": 0.02195596694946289, "tests_passed": true, "error": null}
+{"code": " matches.loc[sampled_indices]  # Select matching rows using indices", "compilation_passed": true, "time": 0.030504941940307617, "tests_passed": false, "error": "KeyError"}
+{"code": " matches.iloc[sampled_indices]  # Create a new DataFrame containing only the selected matches", "compilation_passed": true, "time": 0.02192401885986328, "tests_passed": true, "error": null}
+{"code": " matches.loc[sampled_indices, :]", "compilation_passed": true, "time": 0.027274131774902344, "tests_passed": false, "error": "KeyError"}
+{"code": " matches.iloc[sampled_indices]  # Select the matches at the randomly selected indices", "compilation_passed": true, "time": 0.022912979125976562, "tests_passed": true, "error": null}
+{"code": " matches.loc[sampled_indices]  # Filter the matches based on the selected indices", "compilation_passed": true, "time": 0.028543949127197266, "tests_passed": false, "error": "KeyError"}

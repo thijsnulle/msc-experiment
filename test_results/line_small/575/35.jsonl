@@ -1,0 +1,13 @@
+{"code": " pd.DataFrame(l, columns = [0])", "compilation_passed": true, "time": 0.01203608512878418, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(l).set_index(list(range(len(l))))", "compilation_passed": true, "time": 0.007110118865966797, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(l, columns = ['col'])", "compilation_passed": true, "time": 0.006354093551635742, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(l)", "compilation_passed": true, "time": 0.006080150604248047, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'row_index': range(len(l))})", "compilation_passed": true, "time": 0.006005287170410156, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(l, index=range(10))", "compilation_passed": true, "time": 0.008099079132080078, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(l, columns=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'])", "compilation_passed": true, "time": 0.009154081344604492, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(l, columns=[\"value\"])", "compilation_passed": true, "time": 0.00739288330078125, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(l, index=[0])", "compilation_passed": true, "time": 0.0071909427642822266, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame([l])", "compilation_passed": true, "time": 0.008467912673950195, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(l, index = ['group%s' % i for i in range(n_groups)])", "compilation_passed": true, "time": 0.007496833801269531, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(l, columns=['A'])", "compilation_passed": true, "time": 0.006278038024902344, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(l, columns=[0,1,2,3,4,5,6,7,8,9])", "compilation_passed": true, "time": 0.009156227111816406, "tests_passed": false, "error": "ValueError"}

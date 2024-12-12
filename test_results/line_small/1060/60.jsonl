@@ -1,0 +1,15 @@
+{"code": "set_xticklabels(", "compilation_passed": false, "time": 0.0004353523254394531, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_xticklabels(df[column_name].unique())", "compilation_passed": true, "time": 0.23347783088684082, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(df[column_name].unique(), rotation=45)", "compilation_passed": true, "time": 0.21356916427612305, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(list(df[column_name].unique()))", "compilation_passed": true, "time": 0.22016596794128418, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([str(x) for x in range(unique_values_count)])", "compilation_passed": true, "time": 0.21269989013671875, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(range(1, unique_values_count + 1))", "compilation_passed": true, "time": 0.21957111358642578, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Distribution of values in {column_name}\")", "compilation_passed": true, "time": 0.2199862003326416, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Values\")", "compilation_passed": true, "time": 0.21491003036499023, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([str(i) for i in range(unique_values_count)])", "compilation_passed": true, "time": 0.24421405792236328, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(df[column_name].unique().tolist())", "compilation_passed": true, "time": 0.22392988204956055, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(df[column_name].unique(), rotation=45, ha=\"right\", va=\"center\")", "compilation_passed": true, "time": 0.21563005447387695, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(df[column_name].unique(), rotation=45, ha=\"right\")", "compilation_passed": true, "time": 0.22478723526000977, "tests_passed": true, "error": null}
+{"code": "set_title(message)", "compilation_passed": true, "time": 0.24152183532714844, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(range(unique_values_count))", "compilation_passed": true, "time": 0.25202322006225586, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(df[column_name].value_counts().index, rotation=90)", "compilation_passed": true, "time": 0.20882678031921387, "tests_passed": true, "error": null}

@@ -1,0 +1,16 @@
+{"code": " sns.regplot(x=col1, y=col2, data=df, fit_reg=False)", "compilation_passed": true, "time": 0.02005934715270996, "tests_passed": true, "error": null}
+{"code": " sns.scatterplot(data=df, x=col1, y=col2)", "compilation_passed": true, "time": 0.051680803298950195, "tests_passed": true, "error": null}
+{"code": " sns.regplot(x=col1, y=col2, data=df, scatter=True, fit_reg=True)", "compilation_passed": true, "time": 0.5047810077667236, "tests_passed": true, "error": null}
+{"code": " sns.scatterplot(x=col1, y=col2, data=df)", "compilation_passed": true, "time": 0.04784107208251953, "tests_passed": true, "error": null}
+{"code": " sns.scatterplot(data=df, x=col1, y=col2, alpha=0.9)", "compilation_passed": true, "time": 0.046492815017700195, "tests_passed": true, "error": null}
+{"code": " sns.regplot(x=col1, y=col2, data=df)", "compilation_passed": true, "time": 0.5044810771942139, "tests_passed": true, "error": null}
+{"code": " sns.scatterplot(x=col1, y=col2, data=df, alpha=0.8)", "compilation_passed": true, "time": 0.04652094841003418, "tests_passed": true, "error": null}
+{"code": " sns.regplot(x=col1, y=col2, data=df, color=\"red\")", "compilation_passed": true, "time": 0.5002260208129883, "tests_passed": true, "error": null}
+{"code": " sns.scatterplot(data=df, x=col1, y=col2, size=20, edgecolor='black', linewidth=1)", "compilation_passed": true, "time": 0.05775189399719238, "tests_passed": true, "error": null}
+{"code": " sns.regplot(df[col1], df[col2])", "compilation_passed": true, "time": 0.010699987411499023, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.scatterplot(data=df, x=col1, y=col2, color=\"#005a9f\")", "compilation_passed": true, "time": 0.04216408729553223, "tests_passed": true, "error": null}
+{"code": " sns.regplot(data=df, x=col1, y=col2, fit_reg=True)", "compilation_passed": true, "time": 0.5074288845062256, "tests_passed": true, "error": null}
+{"code": " sns.scatterplot(data=df, x=col1, y=col2, marker=\"o\")", "compilation_passed": true, "time": 0.06436586380004883, "tests_passed": true, "error": null}
+{"code": " sns.scatterplot(data=df, x=col1, y=col2, hue='hue', palette=\"Set1\", size=\"size\")", "compilation_passed": true, "time": 0.03470730781555176, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.scatterplot(x=col1, y=col2, data=df, color=\"black\", edgecolor=\"white\")", "compilation_passed": true, "time": 0.040987253189086914, "tests_passed": true, "error": null}
+{"code": " sns.scatterplot(data=df, x=col1, y=col2, color=\"blue\")", "compilation_passed": true, "time": 0.0404050350189209, "tests_passed": true, "error": null}

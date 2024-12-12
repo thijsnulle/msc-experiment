@@ -1,0 +1,8 @@
+{"code": " all(not tokenized_text for tokenized_text in tokenized_texts):", "compilation_passed": true, "time": 0.0247342586517334, "tests_passed": true, "error": null}
+{"code": " not all(tokenized_texts):", "compilation_passed": true, "time": 0.022752046585083008, "tests_passed": true, "error": null}
+{"code": " not tokenized_texts:", "compilation_passed": true, "time": 0.010373115539550781, "tests_passed": false, "error": "ValueError"}
+{"code": " not any(tokenized_texts):", "compilation_passed": true, "time": 0.023974895477294922, "tests_passed": true, "error": null}
+{"code": " all(not text for text in tokenized_texts):", "compilation_passed": true, "time": 0.0222780704498291, "tests_passed": true, "error": null}
+{"code": " all(not text.strip() for text in tokenized_texts):", "compilation_passed": true, "time": 0.02271890640258789, "tests_passed": true, "error": null}
+{"code": " all(len(text) == 0 for text in tokenized_texts):", "compilation_passed": true, "time": 0.022518157958984375, "tests_passed": true, "error": null}
+{"code": " len(tokenized_texts) == 0:", "compilation_passed": true, "time": 0.009315013885498047, "tests_passed": false, "error": "ValueError"}

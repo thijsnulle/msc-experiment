@@ -1,0 +1,2 @@
+{"code": "config['MAIL_USE_SSL'] = os.getenv('MAIL_USE_SSL', False) == 'True'", "compilation_passed": true, "time": 0.007209062576293945, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USE_SSL'] = os.getenv('MAIL_USE_SSL', False == 'True')", "compilation_passed": true, "time": 0.007191658020019531, "tests_passed": false, "error": "KeyError"}

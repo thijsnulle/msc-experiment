@@ -1,0 +1,26 @@
+{"code": " plt.hist(img[:, :, i].flatten(),", "compilation_passed": false, "time": 0.0003459453582763672, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.hist(img[:, :, i].flatten(), 256, [0, 256], label=col, alpha=0.5)", "compilation_passed": true, "time": 0.21425294876098633, "tests_passed": false, "error": "ValueError"}
+{"code": " cv2.calcHist([img], [i], None, [256], [0, 256])", "compilation_passed": true, "time": 0.15953803062438965, "tests_passed": true, "error": null}
+{"code": " cv2.calcHist([img[:, :, i]], [0], None, [256], [0, 256])", "compilation_passed": true, "time": 0.15899896621704102, "tests_passed": true, "error": null}
+{"code": " plt.hist2d(img[:, :, i].flatten(), color='0.1')[0]", "compilation_passed": true, "time": 0.0867307186126709, "tests_passed": false, "error": "TypeError"}
+{"code": " np.histogram(img[:, :, i].flatten(), 256, colors=[col])[0]", "compilation_passed": true, "time": 0.059149980545043945, "tests_passed": false, "error": "TypeError"}
+{"code": " np.histogram(img[:, :, i].flatten(), 256, color=col)", "compilation_passed": true, "time": 0.06662774085998535, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.hist(img[:, :, i].flatten(), bins=8, color=col)", "compilation_passed": true, "time": 0.09106683731079102, "tests_passed": false, "error": "ValueError"}
+{"code": " ax.hist2d(img[:, :, i].flatten(), color=col, cmap=col)", "compilation_passed": true, "time": 0.07750821113586426, "tests_passed": false, "error": "TypeError"}
+{"code": " np.bincount(img[:, :, i].ravel())", "compilation_passed": true, "time": 0.08760404586791992, "tests_passed": false, "error": "ValueError"}
+{"code": " np.histogram(img[:, :, i].flatten(), 256,", "compilation_passed": false, "time": 0.00030493736267089844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.hist(img[:, :, i].flatten(), range=[0, 255], bins=20,", "compilation_passed": false, "time": 0.00030684471130371094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.hist(img[:, :, i].flatten(), 100, color=col)", "compilation_passed": true, "time": 0.12897682189941406, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.hist(img[:, :, i].flatten(), 256, colors=col, alpha=0.5)", "compilation_passed": true, "time": 0.22104120254516602, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.histogram(img[:, :, i].flatten(), bins=8, range=[0, 255])", "compilation_passed": true, "time": 0.07082390785217285, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.hist2d(img[:, :, i].flatten(), bins=128, cmap=col)", "compilation_passed": true, "time": 0.059745073318481445, "tests_passed": false, "error": "TypeError"}
+{"code": " ax.hist2d(img[:, :, i].ravel(), bins=256, cmap=col)", "compilation_passed": true, "time": 0.10269498825073242, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.hist(img[:, :, i].flatten(), 256, facecolor=col, alpha=0.5)", "compilation_passed": true, "time": 0.21154999732971191, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.hist(img[:, :, i].flatten(), 128, color=col, alpha=0.3, label=col)", "compilation_passed": true, "time": 0.15169620513916016, "tests_passed": false, "error": "ValueError"}
+{"code": " np.histogram(img[:, :, i].flatten(), 256, color='r')", "compilation_passed": true, "time": 0.07771492004394531, "tests_passed": false, "error": "TypeError"}
+{"code": " np.histogram(img[:, :, i].flatten(), 256, normed=True)", "compilation_passed": true, "time": 0.06552982330322266, "tests_passed": false, "error": "TypeError"}
+{"code": " np.histogram(img[:, :, i].ravel(), 256, (0, 256))", "compilation_passed": true, "time": 0.05850815773010254, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.hist(img[:, :, i].ravel(), 256, facecolor=col, alpha=0.75)", "compilation_passed": true, "time": 0.2161540985107422, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.hist(img[:, :, i].flatten(), 128, color=[col])[0]", "compilation_passed": true, "time": 0.14426875114440918, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.hist2d(img[:, :, i].ravel(), np.arange(0, 256, 8), bins=256, cmap='viridis',", "compilation_passed": false, "time": 0.0003731250762939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.hist(img[:,:,i].flatten(),", "compilation_passed": false, "time": 0.0002989768981933594, "tests_passed": false, "error": "SyntaxError"}

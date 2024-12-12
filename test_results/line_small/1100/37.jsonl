@@ -1,0 +1,19 @@
+{"code": " []", "compilation_passed": true, "time": 0.012182950973510742, "tests_passed": false, "error": "ValueError"}
+{"code": " [re.sub(r'https?://\\S+|@.+', ' ', text.strip()) for text in texts]", "compilation_passed": true, "time": 0.0060160160064697266, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'http\\S+|www\\S+|@\\S+', \"\", text) for text in texts]", "compilation_passed": true, "time": 0.005583763122558594, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'https?://\\S+|&amp;', ' ', text) for text in texts]", "compilation_passed": true, "time": 0.005415916442871094, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00016689300537109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [remove_urls(text) for text in texts]", "compilation_passed": true, "time": 0.012459993362426758, "tests_passed": false, "error": "NameError"}
+{"code": " [re.sub(\"\\S+://[^<]+\\S+\", \"\", text).strip() for text in texts]", "compilation_passed": true, "time": 0.005295753479003906, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+#]|[!*,]|'", "compilation_passed": false, "time": 0.00016689300537109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [re.sub(r\"https?://\\S+|@[^\\s]+|\\S+\", \"\", text).strip() for text in texts]", "compilation_passed": true, "time": 0.010128021240234375, "tests_passed": false, "error": "ValueError"}
+{"code": " [re.sub(r'https?://\\S+|@[\\w_-]+:[\\w_-]+|[\\w]*//[\\w]*//[\\w]*', '', text) for text in texts]", "compilation_passed": true, "time": 0.0055201053619384766, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'http\\S+', ' ', text) for text in texts]", "compilation_passed": true, "time": 0.005513906478881836, "tests_passed": true, "error": null}
+{"code": " [re.sub(r\"(?i)\\b((?:https?|ftp):\\/\\/)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b(?:[-a-zA-Z0-9()@:%_\\+.~#?&//=]*)\", \"\", text) for text in texts]", "compilation_passed": true, "time": 0.0071489810943603516, "tests_passed": true, "error": null}
+{"code": " [re.sub(r\"https?://\\S+|&nbsp;\", \"\", text) for text in texts]", "compilation_passed": true, "time": 0.00542902946472168, "tests_passed": true, "error": null}
+{"code": " [re.sub(r\"https?://\\S+|&gt;|&lt;|/?.+\", \" \", text) for text in texts]", "compilation_passed": true, "time": 0.009690046310424805, "tests_passed": false, "error": "ValueError"}
+{"code": " [re.sub(r'http[s]?://(?:[a-zA-Z]|[\\d]|[$-_@.&+]|[!*\\(\\),]|(?:#|%|@)[a-zA-Z\\d]|[^\\s])+', '', text) for text in texts]", "compilation_passed": true, "time": 0.005431175231933594, "tests_passed": true, "error": null}
+{"code": " [re.sub(r\"(https?://\\S+|www\\.\\S+)\", \" \", text) for text in texts]", "compilation_passed": true, "time": 0.00568389892578125, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'http\\S+|https\\S+|www\\S+', \"\", text, flags=re.IGNORECASE) for text in texts]", "compilation_passed": true, "time": 0.005311012268066406, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'https?:\\/\\/[^\\s]+', ' ', text) for text in texts]", "compilation_passed": true, "time": 0.005532026290893555, "tests_passed": true, "error": null}
+{"code": " [re.sub(r\"(?i)\\b((?:https?|ftp):\\/\\/)?(?:[a-z0-9]+(\\.[a-z0-9]+)<\\/b>)+\", \"\", text).strip()", "compilation_passed": false, "time": 0.00015997886657714844, "tests_passed": false, "error": "SyntaxError"}

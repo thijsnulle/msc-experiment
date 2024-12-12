@@ -1,0 +1,9 @@
+{"code": " json.dumps(", "compilation_passed": false, "time": 0.0006742477416992188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (", "compilation_passed": false, "time": 0.0006990432739257812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {", "compilation_passed": false, "time": 0.0006442070007324219, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"{time.time() - start_time},{cpu_usage} \\n\"", "compilation_passed": true, "time": 0.08895015716552734, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " f\"{time.time() - start_time:.3f}, {cpu_usage}%\"", "compilation_passed": true, "time": 0.08535027503967285, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " json.dumps({\"timestamp\": time.time(), \"cpu_usage\": cpu_usage})", "compilation_passed": true, "time": 0.08710002899169922, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " f\"{json.dumps(cpu_usage)},{time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))}\"", "compilation_passed": true, "time": 0.08463597297668457, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " f\"{time.time() - start_time:.3f}: {cpu_usage}%\"", "compilation_passed": true, "time": 0.0839695930480957, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " json.dumps({\"CPU Usage\": cpu_usage, \"Time\": time.time() - start_time})", "compilation_passed": true, "time": 0.08806800842285156, "tests_passed": false, "error": "subprocess.CalledProcessError"}

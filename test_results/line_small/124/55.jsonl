@@ -1,0 +1,20 @@
+{"code": "hist(random_list, bins=range(101))", "compilation_passed": true, "time": 0.18434524536132812, "tests_passed": true, "error": null}
+{"code": "hist(random_list, bins=100, label='Random Numbers')", "compilation_passed": true, "time": 0.242401123046875, "tests_passed": true, "error": null}
+{"code": "hist(random_list, bins=100, label='Random Number')", "compilation_passed": true, "time": 0.14047694206237793, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Number')", "compilation_passed": true, "time": 0.12407493591308594, "tests_passed": false, "error": "IndexError"}
+{"code": "set_title(\"Histogram of Random Numbers\")", "compilation_passed": true, "time": 0.1518850326538086, "tests_passed": false, "error": "IndexError"}
+{"code": "hist(random_list, bins=100)", "compilation_passed": true, "time": 0.27576708793640137, "tests_passed": true, "error": null}
+{"code": "hist(random_list)", "compilation_passed": true, "time": 0.16854500770568848, "tests_passed": true, "error": null}
+{"code": "hist(random_list, bins=100, color='#00c5ff')", "compilation_passed": true, "time": 0.297482967376709, "tests_passed": true, "error": null}
+{"code": "hist(random_list, bins=100, density=True)", "compilation_passed": true, "time": 0.30666327476501465, "tests_passed": true, "error": null}
+{"code": "bar([i + 0.5 for i in range(101)], [random_list.count(i) for i in range(101)], 0.9)", "compilation_passed": true, "time": 0.30806899070739746, "tests_passed": true, "error": null}
+{"code": "hist(random_list, bins=100, range=(1, 100))", "compilation_passed": true, "time": 0.33463311195373535, "tests_passed": true, "error": null}
+{"code": "hist(random_list, bins=50)", "compilation_passed": true, "time": 0.2728848457336426, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 101), [random_list.count(i) for i in range(1, 101)], width=0.8, color='#4D77FF')", "compilation_passed": true, "time": 0.31205129623413086, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 101), [random_list.count(number) for number in range(1, 101)], width=0.6, align=\"center\")", "compilation_passed": true, "time": 1.0836410522460938, "tests_passed": false, "error": "TimeoutError"}
+{"code": "set_title(f\"Histogram of Random Numbers\")", "compilation_passed": true, "time": 0.7620728015899658, "tests_passed": false, "error": "IndexError"}
+{"code": "set_title('Histogram of Random Numbers')", "compilation_passed": true, "time": 0.02737283706665039, "tests_passed": false, "error": "IndexError"}
+{"code": "hist(random_list, bins=100, edgecolor='white')", "compilation_passed": true, "time": 0.08092689514160156, "tests_passed": true, "error": null}
+{"code": "hist(random_list, bins=100, density=True, label='Random Numbers')", "compilation_passed": true, "time": 0.08142900466918945, "tests_passed": true, "error": null}
+{"code": "get_xaxis().set_visible(False)", "compilation_passed": true, "time": 0.027080774307250977, "tests_passed": false, "error": "IndexError"}
+{"code": "bar(random_list, [1 for _ in random_list])", "compilation_passed": true, "time": 0.03725171089172363, "tests_passed": true, "error": null}

@@ -1,0 +1,18 @@
+{"code": " df[\"Hours\"]", "compilation_passed": true, "time": 0.03630495071411133, "tests_passed": false, "error": "ValueError"}
+{"code": " df.iloc[:, [0]]", "compilation_passed": true, "time": 0.029834985733032227, "tests_passed": true, "error": null}
+{"code": " df.iloc[:,0].values.reshape(-1,1)", "compilation_passed": true, "time": 0.024491071701049805, "tests_passed": true, "error": null}
+{"code": " df['Hours'].to_numpy().reshape(-1,1)", "compilation_passed": true, "time": 0.02457714080810547, "tests_passed": true, "error": null}
+{"code": " df['Hours']", "compilation_passed": true, "time": 0.013314962387084961, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Hours\"].to_numpy().reshape(-1, 1)", "compilation_passed": true, "time": 0.029509305953979492, "tests_passed": true, "error": null}
+{"code": " df['Hours'].values.reshape(-1,1)", "compilation_passed": true, "time": 0.02597498893737793, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :-1]", "compilation_passed": true, "time": 0.03223085403442383, "tests_passed": true, "error": null}
+{"code": " df['Hours'].values", "compilation_passed": true, "time": 0.015480756759643555, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " df['Hours'].to_numpy().reshape(-1, 1)", "compilation_passed": true, "time": 0.025159358978271484, "tests_passed": true, "error": null}
+{"code": " df.iloc[:,0]", "compilation_passed": true, "time": 0.013889074325561523, "tests_passed": false, "error": "ValueError"}
+{"code": " df.loc[:, 'Hours'].values", "compilation_passed": true, "time": 0.014423847198486328, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " df.iloc[:, 0].values.reshape(-1, 1)", "compilation_passed": true, "time": 0.025314807891845703, "tests_passed": true, "error": null}
+{"code": " df['Hours'].to_numpy()", "compilation_passed": true, "time": 0.01287984848022461, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " df['Hours'].values.reshape(-1, 1)", "compilation_passed": true, "time": 0.024378061294555664, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 0]", "compilation_passed": true, "time": 0.013733148574829102, "tests_passed": false, "error": "ValueError"}
+{"code": " df[['Hours']]", "compilation_passed": true, "time": 0.03237318992614746, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :1].values", "compilation_passed": true, "time": 0.02863001823425293, "tests_passed": true, "error": null}

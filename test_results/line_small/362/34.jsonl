@@ -1,0 +1,4 @@
+{"code": " pd.read_excel(original_file_location, sheet_name=sheet_name)", "compilation_passed": true, "time": 0.010506868362426758, "tests_passed": false, "error": "ModuleNotFoundError"}
+{"code": " pd.read_excel(original_file_location, sheet_name=sheet_name, engine=\"xlrd\")", "compilation_passed": true, "time": 0.011009931564331055, "tests_passed": false, "error": "ModuleNotFoundError"}
+{"code": " pd.read_excel(original_file_location, sheet_name)", "compilation_passed": true, "time": 0.1115267276763916, "tests_passed": true, "error": null}
+{"code": " pd.ExcelFile(original_file_location).parse(sheet_name)", "compilation_passed": true, "time": 0.10670113563537598, "tests_passed": true, "error": null}

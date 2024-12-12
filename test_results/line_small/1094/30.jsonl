@@ -1,0 +1,8 @@
+{"code": " word_counts.most_common(5)", "compilation_passed": true, "time": 0.0011491775512695312, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " list(word_counts.items())", "compilation_passed": true, "time": 0.0009088516235351562, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " list(word_counts.most_common())[:5]", "compilation_passed": true, "time": 0.0010418891906738281, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word_counts[word] for word in sorted(word_counts, key=lambda word: word_counts[word], reverse=True)][0:5]", "compilation_passed": true, "time": 0.000946044921875, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [tuple(key, value) for key, value in word_counts.most_common(5)]", "compilation_passed": true, "time": 0.0008800029754638672, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " sorted(word_counts.items(), key=lambda x: x[1], reverse=True)[:5]", "compilation_passed": true, "time": 0.0008447170257568359, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " sorted(word_counts.items(), key=lambda x: -x[1])[:5]", "compilation_passed": true, "time": 0.0008797645568847656, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [(-count, word) for word, count in word_counts.most_common(5)]", "compilation_passed": true, "time": 0.0008380413055419922, "tests_passed": false, "error": "No module named 'nltk'"}

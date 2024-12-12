@@ -1,0 +1,5 @@
+{"code": " df.sort_values(by=[\"Profit\"], ascending=False)", "compilation_passed": true, "time": 0.024100303649902344, "tests_passed": true, "error": null}
+{"code": " df.sort_values(by=\"Profit\", ascending=False)", "compilation_passed": true, "time": 0.018032073974609375, "tests_passed": true, "error": null}
+{"code": " df.sort_values(\"Profit\", ascending=False)", "compilation_passed": true, "time": 0.018836021423339844, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Product\").sum().sort_values(\"Profit\", ascending=False)", "compilation_passed": true, "time": 0.015455961227416992, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Product\").agg([pd.sum, pd.mean, pd.max, pd.min, pd.prod, pd.std, pd.sum]).sort_values(by=[\"Profit\"], ascending=False)", "compilation_passed": true, "time": 0.015475988388061523, "tests_passed": false, "error": "AttributeError"}

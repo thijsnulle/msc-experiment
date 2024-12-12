@@ -1,0 +1,8 @@
+{"code": " in df['Original String'].values:", "compilation_passed": true, "time": 0.010523080825805664, "tests_passed": true, "error": null}
+{"code": " in df['Original String']:", "compilation_passed": true, "time": 0.008728265762329102, "tests_passed": true, "error": null}
+{"code": " in df[\"Original String\"]:", "compilation_passed": true, "time": 0.008665084838867188, "tests_passed": true, "error": null}
+{"code": " in df.Original_String:", "compilation_passed": true, "time": 0.007996082305908203, "tests_passed": false, "error": "AttributeError"}
+{"code": " in df[\"Original String\"].str.split(\", \"):", "compilation_passed": true, "time": 0.010274171829223633, "tests_passed": false, "error": "TypeError"}
+{"code": " in df.Original_String.values:", "compilation_passed": true, "time": 0.01034402847290039, "tests_passed": false, "error": "AttributeError"}
+{"code": " in df.Original String:", "compilation_passed": false, "time": 0.00017714500427246094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " in df[\"Original String\"].str.split(\", \").tolist():", "compilation_passed": true, "time": 0.008319854736328125, "tests_passed": false, "error": "TypeError"}

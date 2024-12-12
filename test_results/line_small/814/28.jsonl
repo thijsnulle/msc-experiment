@@ -1,0 +1,11 @@
+{"code": " not os.path.isdir(source_dir):", "compilation_passed": true, "time": 0.021756887435913086, "tests_passed": true, "error": null}
+{"code": " not os.path.exists(source_dir):", "compilation_passed": true, "time": 0.020360946655273438, "tests_passed": true, "error": null}
+{"code": " not os.path.exists(target_dir):", "compilation_passed": true, "time": 0.018538951873779297, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not re.match(file_pattern, '.\\\\.\\\\.\\\\ SomeDir\\\\'):", "compilation_passed": true, "time": 0.006761074066162109, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not source_dir:", "compilation_passed": true, "time": 0.02090907096862793, "tests_passed": true, "error": null}
+{"code": " not isinstance(source_dir, str) or not source_dir or not os.path.isdir(source_dir):", "compilation_passed": true, "time": 0.021854877471923828, "tests_passed": true, "error": null}
+{"code": " os.path.isdir(target_dir) is False:", "compilation_passed": true, "time": 0.018976211547851562, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.isdir(target_dir):", "compilation_passed": true, "time": 0.00670313835144043, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not re.search(file_pattern, source_dir):", "compilation_passed": true, "time": 0.007508993148803711, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not os.path.isdir(target_dir):", "compilation_passed": true, "time": 0.02055191993713379, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not os.path.isdir(source_dir) or not os.path.isdir(target_dir):", "compilation_passed": true, "time": 0.019779205322265625, "tests_passed": false, "error": "FileNotFoundError"}

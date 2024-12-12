@@ -1,0 +1,7 @@
+{"code": " [getattr(o, attr) for o in obj_list]", "compilation_passed": true, "time": 0.23773980140686035, "tests_passed": true, "error": null}
+{"code": " [getattr(obj, attr) for obj in obj_list]", "compilation_passed": true, "time": 0.23251891136169434, "tests_passed": true, "error": null}
+{"code": " [obj.value for obj in obj_list]", "compilation_passed": true, "time": 0.23293185234069824, "tests_passed": true, "error": null}
+{"code": " np.array([getattr(obj, attr) for obj in obj_list])", "compilation_passed": true, "time": 0.010678768157958984, "tests_passed": false, "error": "NameError"}
+{"code": " [obj.__dict__[attr] for obj in obj_list]", "compilation_passed": true, "time": 0.23650503158569336, "tests_passed": true, "error": null}
+{"code": " [getattr(x, attr) for x in obj_list]", "compilation_passed": true, "time": 0.24086809158325195, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.05858278274536133, "tests_passed": true, "error": null}

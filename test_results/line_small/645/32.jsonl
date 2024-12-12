@@ -1,0 +1,9 @@
+{"code": " not os.path.isfile(filename):", "compilation_passed": true, "time": 0.023274898529052734, "tests_passed": false, "error": "pandas.errors.EmptyDataError"}
+{"code": " filename == \"\":", "compilation_passed": true, "time": 0.01447296142578125, "tests_passed": false, "error": "pandas.errors.EmptyDataError"}
+{"code": " filename.endswith('.csv'):", "compilation_passed": true, "time": 0.0069789886474609375, "tests_passed": true, "error": null}
+{"code": " not filename.endswith('.csv'):", "compilation_passed": true, "time": 0.011823177337646484, "tests_passed": false, "error": "pandas.errors.EmptyDataError"}
+{"code": " os.path.isdir(filename):", "compilation_passed": true, "time": 0.012042999267578125, "tests_passed": false, "error": "pandas.errors.EmptyDataError"}
+{"code": " filename.endswith(\".csv\"):", "compilation_passed": true, "time": 0.007472038269042969, "tests_passed": true, "error": null}
+{"code": " os.path.getsize(filename) == 0:", "compilation_passed": true, "time": 0.007961750030517578, "tests_passed": true, "error": null}
+{"code": " filename[-4:] != \".csv\":", "compilation_passed": true, "time": 0.011911869049072266, "tests_passed": false, "error": "pandas.errors.EmptyDataError"}
+{"code": " not filename.endswith(\".csv\"):", "compilation_passed": true, "time": 0.011766195297241211, "tests_passed": false, "error": "pandas.errors.EmptyDataError"}

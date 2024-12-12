@@ -1,0 +1,19 @@
+{"code": "params[1] + model.params[2] * bins, color='g'", "compilation_passed": false, "time": 0.00037407875061035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": "predict(", "compilation_passed": false, "time": 0.0003268718719482422, "tests_passed": false, "error": "SyntaxError"}
+{"code": "fittedvalues, linewidth=2, color='g'", "compilation_passed": false, "time": 0.0005059242248535156, "tests_passed": false, "error": "SyntaxError"}
+{"code": "resid,", "compilation_passed": true, "time": 0.0043909549713134766, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": "params[1:], linewidth=2, color='g'", "compilation_passed": false, "time": 0.00044798851013183594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "fittedvalues,", "compilation_passed": true, "time": 0.004228830337524414, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": "fittedvalues + model.resid,", "compilation_passed": true, "time": 0.0050928592681884766, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": "params['bins'] * bins + model.params['np.power(bins, 2)'],", "compilation_passed": true, "time": 0.005142927169799805, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": "predict(pd.DataFrame({'bins': bins})),", "compilation_passed": true, "time": 0.005015134811401367, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": "fittedvalues + sigma * model.resid, linewidth=2, color='g'", "compilation_passed": false, "time": 0.0003540515899658203, "tests_passed": false, "error": "SyntaxError"}
+{"code": "predict(dict(bins=bins)), linewidth=2, color='g'", "compilation_passed": false, "time": 0.0006470680236816406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "predict(), linewidth=2, color='g'", "compilation_passed": false, "time": 0.0003581047058105469, "tests_passed": false, "error": "SyntaxError"}
+{"code": "params[0] + model.params[1]*bins + model.params[2]*np.power(bins, 2),", "compilation_passed": true, "time": 0.004496097564697266, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": "resid, linewidth=2, color='g'", "compilation_passed": false, "time": 0.0002951622009277344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "params[2:],", "compilation_passed": true, "time": 0.0046749114990234375, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": "fittedvalues + model.get_robuststandarderror(), linewidth=2, color='g'", "compilation_passed": false, "time": 0.0005340576171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "fittedvalues + sigma*(np.power(bins, 2)), linewidth=2, color='g'", "compilation_passed": false, "time": 0.0003039836883544922, "tests_passed": false, "error": "SyntaxError"}
+{"code": "params[0] + model.params[1] * bins + model.params[2] * \\", "compilation_passed": true, "time": 0.00504302978515625, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": "params[0] + model.params[1]*bins + model.params[2]*np.power(bins, 2), linewidth=2, color='g'", "compilation_passed": false, "time": 0.0005099773406982422, "tests_passed": false, "error": "SyntaxError"}

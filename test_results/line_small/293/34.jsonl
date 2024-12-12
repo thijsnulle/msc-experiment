@@ -1,0 +1,19 @@
+{"code": " list(map(sum, combinations))", "compilation_passed": true, "time": 0.034629106521606445, "tests_passed": true, "error": null}
+{"code": " list(map(lambda x: sum(x), combinations))", "compilation_passed": true, "time": 0.03677177429199219, "tests_passed": true, "error": null}
+{"code": " [sum(combinations[i]) for i in range(len(combinations))]", "compilation_passed": true, "time": 0.03469514846801758, "tests_passed": true, "error": null}
+{"code": " np.array([sum(comb) for comb in combinations])", "compilation_passed": true, "time": 0.0384829044342041, "tests_passed": false, "error": "ValueError"}
+{"code": " [np.sum(x) for x in combinations]", "compilation_passed": true, "time": 0.03781390190124512, "tests_passed": true, "error": null}
+{"code": " [np.sum(combination) for combination in combinations]", "compilation_passed": true, "time": 0.037383317947387695, "tests_passed": true, "error": null}
+{"code": " [np.sum(i) for i in combinations]", "compilation_passed": true, "time": 0.03480410575866699, "tests_passed": true, "error": null}
+{"code": " [sum(combination) for combination in combinations]", "compilation_passed": true, "time": 0.0343480110168457, "tests_passed": true, "error": null}
+{"code": " [sum(c) for c in combinations]", "compilation_passed": true, "time": 0.03572678565979004, "tests_passed": true, "error": null}
+{"code": " [sum(comb) for comb in combinations]", "compilation_passed": true, "time": 0.035095930099487305, "tests_passed": true, "error": null}
+{"code": " np.array([sum(s) for s in combinations])", "compilation_passed": true, "time": 0.038062095642089844, "tests_passed": false, "error": "ValueError"}
+{"code": " [sum(element) for element in combinations]", "compilation_passed": true, "time": 0.03728795051574707, "tests_passed": true, "error": null}
+{"code": " [sum(x) for x in combinations]", "compilation_passed": true, "time": 0.0329129695892334, "tests_passed": true, "error": null}
+{"code": " np.sum(combinations, axis=1)", "compilation_passed": true, "time": 0.03727316856384277, "tests_passed": false, "error": "ValueError"}
+{"code": " [sum(i) for i in combinations]", "compilation_passed": true, "time": 0.03326416015625, "tests_passed": true, "error": null}
+{"code": " [sum(s) for s in combinations]", "compilation_passed": true, "time": 0.03527188301086426, "tests_passed": true, "error": null}
+{"code": " [sum(combs) for combs in combinations]", "compilation_passed": true, "time": 0.033660173416137695, "tests_passed": true, "error": null}
+{"code": " [np.sum(elements) for elements in combinations]", "compilation_passed": true, "time": 0.03437399864196777, "tests_passed": true, "error": null}
+{"code": " [sum(subset) for subset in combinations]", "compilation_passed": true, "time": 0.03853011131286621, "tests_passed": true, "error": null}

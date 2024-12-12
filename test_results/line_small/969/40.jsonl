@@ -1,0 +1,16 @@
+{"code": " df.copy()", "compilation_passed": true, "time": 0.021155118942260742, "tests_passed": true, "error": null}
+{"code": " df.cumsum().sort_values(axis=1, ascending=True)", "compilation_passed": true, "time": 0.013029813766479492, "tests_passed": false, "error": "TypeError"}
+{"code": " df.cumsum()", "compilation_passed": true, "time": 0.013852119445800781, "tests_passed": true, "error": null}
+{"code": " df.cumsum() / df.cumsum().shift(1)", "compilation_passed": true, "time": 0.01958489418029785, "tests_passed": true, "error": null}
+{"code": " df.cumsum().ffill().rolling(3).apply(lambda x: x / x.sum(), raw=True)", "compilation_passed": true, "time": 0.02388310432434082, "tests_passed": false, "error": "TypeError"}
+{"code": " df.cumsum().rolling(window=2, min_periods=1).cumsum()", "compilation_passed": true, "time": 0.013309001922607422, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.cumsum().values", "compilation_passed": true, "time": 0.008497238159179688, "tests_passed": true, "error": null}
+{"code": " df.cumsum().copy()", "compilation_passed": true, "time": 0.011826753616333008, "tests_passed": true, "error": null}
+{"code": " df.cumsum().cummax()", "compilation_passed": true, "time": 0.02575516700744629, "tests_passed": true, "error": null}
+{"code": " df.cumsum().dropna().cumsum()", "compilation_passed": true, "time": 0.02457118034362793, "tests_passed": true, "error": null}
+{"code": " df.cumsum(axis=0)", "compilation_passed": true, "time": 0.011996030807495117, "tests_passed": true, "error": null}
+{"code": " df.cumsum().apply(lambda x: MinMaxScaler().fit_transform(np.expand_dims(x, axis=0))[0])", "compilation_passed": true, "time": 0.023704051971435547, "tests_passed": true, "error": null}
+{"code": " df.cumsum().div(df.sum(axis=0)).astype(float)", "compilation_passed": true, "time": 0.02116680145263672, "tests_passed": true, "error": null}
+{"code": " df.cumsum().div(df.cumsum()).reindex(df.index, copy=False)", "compilation_passed": true, "time": 0.019382953643798828, "tests_passed": true, "error": null}
+{"code": " df.cumsum().apply(pd.Series.cumsum)", "compilation_passed": true, "time": 0.024593830108642578, "tests_passed": true, "error": null}
+{"code": " df.cumsum() / df.cumsum().max()", "compilation_passed": true, "time": 0.0202639102935791, "tests_passed": true, "error": null}

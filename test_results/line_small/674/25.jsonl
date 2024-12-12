@@ -1,0 +1,9 @@
+{"code": " open(filename) as f:", "compilation_passed": true, "time": 0.010600090026855469, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(filename, 'r') as f:", "compilation_passed": true, "time": 0.011181831359863281, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(filename, 'r+') as f:", "compilation_passed": true, "time": 0.010673999786376953, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(filename) as file:", "compilation_passed": true, "time": 0.010538101196289062, "tests_passed": true, "error": null}
+{"code": " open(filename, 'r') as file:", "compilation_passed": true, "time": 0.015607118606567383, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, index_col=False, header=None) as df:", "compilation_passed": true, "time": 0.012191057205200195, "tests_passed": false, "error": "AttributeError"}
+{"code": " open(filename, \"r\") as f:", "compilation_passed": true, "time": 0.010859966278076172, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(filename, 'rb') as f:", "compilation_passed": true, "time": 0.010489940643310547, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " pd.read_csv(filename, nrows=0) as f:", "compilation_passed": true, "time": 0.011739253997802734, "tests_passed": false, "error": "AttributeError"}

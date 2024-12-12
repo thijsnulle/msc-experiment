@@ -1,0 +1,19 @@
+{"code": " [np.random.randint(15, 35) for i in range(days_in_past)]", "compilation_passed": true, "time": 0.2673780918121338, "tests_passed": true, "error": null}
+{"code": " np.random.randint(15, 36)", "compilation_passed": true, "time": 0.042511940002441406, "tests_passed": false, "error": "ValueError"}
+{"code": " [random.randint(15, 35) for _ in range(days_in_past)]", "compilation_passed": true, "time": 0.01584792137145996, "tests_passed": false, "error": "NameError"}
+{"code": " 15 + np.random.randint(10, size=len(dates))", "compilation_passed": true, "time": 0.2889559268951416, "tests_passed": true, "error": null}
+{"code": " np.random.randint(15, 35, days_in_past)", "compilation_passed": true, "time": 0.28186511993408203, "tests_passed": true, "error": null}
+{"code": " [15 + np.random.randint(11) for i in range(days_in_past)]", "compilation_passed": true, "time": 0.29030489921569824, "tests_passed": true, "error": null}
+{"code": " [np.random.randint(15, 36) for _ in dates]", "compilation_passed": true, "time": 0.3171830177307129, "tests_passed": true, "error": null}
+{"code": " [round(np.random.randint(15, 36), -1) for i in range(days_in_past)]", "compilation_passed": true, "time": 0.3092648983001709, "tests_passed": true, "error": null}
+{"code": " [np.random.randint(15, 36) for i in range(days_in_past)]", "compilation_passed": true, "time": 3.1845779418945312, "tests_passed": true, "error": null}
+{"code": " [15 + np.random.randint(31) for i in range(days_in_past)]", "compilation_passed": true, "time": 0.32679009437561035, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=15, high=35, size=days_in_past)", "compilation_passed": true, "time": 0.31159186363220215, "tests_passed": true, "error": null}
+{"code": " np.random.randint(15, 36, days_in_past)", "compilation_passed": true, "time": 0.34864306449890137, "tests_passed": true, "error": null}
+{"code": " [np.random.randint(15, 35) for _ in dates]", "compilation_passed": true, "time": 0.3741161823272705, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=15, high=36, size=days_in_past)", "compilation_passed": true, "time": 0.3260962963104248, "tests_passed": true, "error": null}
+{"code": " [int(15 + np.random.randint(15, 36)) for i in range(days_in_past)]", "compilation_passed": true, "time": 0.3400461673736572, "tests_passed": true, "error": null}
+{"code": " [15 + 15 * np.random.randint(0, 10) for _ in dates]", "compilation_passed": true, "time": 0.33470892906188965, "tests_passed": true, "error": null}
+{"code": " [np.random.randint(15, 36) for _ in range(days_in_past)]", "compilation_passed": true, "time": 0.34355711936950684, "tests_passed": true, "error": null}
+{"code": " 15 + 15 * np.random.rand(days_in_past)", "compilation_passed": true, "time": 0.3738858699798584, "tests_passed": true, "error": null}
+{"code": " [15 + np.random.randint(-5, 15) for i in range(days_in_past)]", "compilation_passed": true, "time": 0.3318452835083008, "tests_passed": true, "error": null}

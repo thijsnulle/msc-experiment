@@ -1,0 +1,30 @@
+{"code": "check_call(['split', '-d', '-a', '3', '-l', '2000', file, 'split_'])", "compilation_passed": true, "time": 0.22189092636108398, "tests_passed": true, "error": null}
+{"code": "check_call(['split', '-d', '-l', '10000', file, f'split_'])", "compilation_passed": true, "time": 0.2227630615234375, "tests_passed": true, "error": null}
+{"code": "check_call(f'split -l {300000} {file} split_', shell=True)", "compilation_passed": true, "time": 0.26146602630615234, "tests_passed": true, "error": null}
+{"code": "run(['split', '-d', '-a', '2', '-l', '2000', file, 'split_'])", "compilation_passed": true, "time": 0.2207779884338379, "tests_passed": true, "error": null}
+{"code": "check_call(['split', '--number=l/', '-a4', '--suffix-length=2', '-d', '-b', '6553600', '--additional-suffix=.csv', '--additional-suffix=', '-', file])", "compilation_passed": true, "time": 0.08612680435180664, "tests_passed": true, "error": null}
+{"code": "check_call([", "compilation_passed": false, "time": 0.0004012584686279297, "tests_passed": false, "error": "SyntaxError"}
+{"code": "check_call(['split', '--verbose', '-d', '-l', str(1000000000), file, 'split_'])", "compilation_passed": true, "time": 0.08721613883972168, "tests_passed": true, "error": null}
+{"code": "run([\"split\", \"-d\", \"-a\", \"2\", \"-l\", \"400\", \"-\", file], check=True)", "compilation_passed": true, "time": 1.0268747806549072, "tests_passed": true, "error": null}
+{"code": "check_call(['split', '-l', '100000', file, 'split_'])", "compilation_passed": true, "time": 0.225938081741333, "tests_passed": true, "error": null}
+{"code": "check_call(f\"split -l {get_file_lines(file)} '{file}' split_\")", "compilation_passed": true, "time": 0.023186922073364258, "tests_passed": true, "error": null}
+{"code": "check_call(\"split -l 500000 \" + file + \" split_\")", "compilation_passed": true, "time": 0.08036422729492188, "tests_passed": true, "error": null}
+{"code": "run([\"split\", \"-a\", \"4\", \"-d\", \",\", \"--lines=\" + str(random.randint(1, 30000)), file, \"split_\"], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.08736109733581543, "tests_passed": true, "error": null}
+{"code": "call(['split', file, 'split_'])", "compilation_passed": true, "time": 0.22267794609069824, "tests_passed": true, "error": null}
+{"code": "check_call(\"split --suffix-length=3 --additional-suffix=.csv --number=a,l:50 --input-file=\" + file, shell=True)", "compilation_passed": true, "time": 0.09975123405456543, "tests_passed": true, "error": null}
+{"code": "call('split -l 10000000 ' + file + ' split_')", "compilation_passed": true, "time": 0.08038687705993652, "tests_passed": true, "error": null}
+{"code": "call(['split', file, 'split_', '--additional', '--verbose', '--bytes', '24M'])", "compilation_passed": true, "time": 0.08608698844909668, "tests_passed": true, "error": null}
+{"code": "run(['split', '-d', '-l', '10000', file, 'split_'], check=True)", "compilation_passed": true, "time": 0.2186431884765625, "tests_passed": true, "error": null}
+{"code": "check_call(['split', '-l', '500', file, 'split_'])", "compilation_passed": true, "time": 0.21997904777526855, "tests_passed": true, "error": null}
+{"code": "check_output(['split', '-d', '--verbose', '--numeric-suffixes', '-l', '9000000', file])", "compilation_passed": true, "time": 0.08504986763000488, "tests_passed": true, "error": null}
+{"code": "check_call('split -d -l 30000 ' + file + ' split_', shell=True)", "compilation_passed": true, "time": 0.2545919418334961, "tests_passed": true, "error": null}
+{"code": "run(['split', file, '--additional-suffix=.split_', '--verbose'])", "compilation_passed": true, "time": 0.08697509765625, "tests_passed": true, "error": null}
+{"code": "check_call(['split', '-d', '--lines=1000000', file, 'split_'])", "compilation_passed": true, "time": 0.08551907539367676, "tests_passed": true, "error": null}
+{"code": "run(['split', file, '--number', '100'], check=True)", "compilation_passed": true, "time": 0.08244919776916504, "tests_passed": true, "error": null}
+{"code": "run(", "compilation_passed": false, "time": 0.0003209114074707031, "tests_passed": false, "error": "SyntaxError"}
+{"code": "run(['split', '-l', '2500', file, file + '_split_', '--additional-suffix=.csv'])", "compilation_passed": true, "time": 0.0854649543762207, "tests_passed": true, "error": null}
+{"code": "run([\"split\", file, \"--suffix-length=2\", \"--numeric-suffixes\", \"--additional-suffix=_split_\"], check=True, stdout=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.08909416198730469, "tests_passed": true, "error": null}
+{"code": "run(['split', file, 'split_'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.22235703468322754, "tests_passed": true, "error": null}
+{"code": "run(['split', file, '-', '-b', '200k'])", "compilation_passed": true, "time": 0.08600926399230957, "tests_passed": true, "error": null}
+{"code": "call(['split', '--number=+0', '--additional=1', '--verbose', '--numeric-suffixes', '--suffix-length=2', file, 'split_'])", "compilation_passed": true, "time": 0.08444690704345703, "tests_passed": true, "error": null}
+{"code": "run(['split', file, 'split_', str(random.randint(0, 1000000))])", "compilation_passed": true, "time": 0.08456611633300781, "tests_passed": true, "error": null}

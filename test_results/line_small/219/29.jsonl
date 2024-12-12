@@ -1,0 +1,6 @@
+{"code": " np.fft.fft(input_list)", "compilation_passed": true, "time": 0.015692949295043945, "tests_passed": false, "error": "TypeError"}
+{"code": " np.fft.fft(np.array(input_list) / 100.0)", "compilation_passed": true, "time": 0.008788824081420898, "tests_passed": false, "error": "TypeError"}
+{"code": " list(np.fft.fft(input_list, n=2**12))", "compilation_passed": true, "time": 0.008197307586669922, "tests_passed": false, "error": "TypeError"}
+{"code": " np.fft.fft(np.array(input_list))", "compilation_passed": true, "time": 0.008040189743041992, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(math.atan2, map(math.cos, map(math.atan2,", "compilation_passed": false, "time": 0.0001609325408935547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [np.fft.fft([x ** 2 for x in input_list]) for _ in range(len(input_list))]", "compilation_passed": true, "time": 0.008453845977783203, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,9 @@
+{"code": " kwargs.get('group1')  # Extract data from the 'group1' key", "compilation_passed": true, "time": 0.013543128967285156, "tests_passed": false, "error": "TypeError"}
+{"code": " kwargs['group1']", "compilation_passed": true, "time": 0.014470100402832031, "tests_passed": false, "error": "TypeError"}
+{"code": " kwargs['group1']  # Assign the 'group1' and 'group2' lists", "compilation_passed": true, "time": 0.014403104782104492, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(kwargs['group1'])", "compilation_passed": true, "time": 0.2906608581542969, "tests_passed": true, "error": null}
+{"code": " kwargs.get(\"group1\")", "compilation_passed": true, "time": 0.01368093490600586, "tests_passed": false, "error": "TypeError"}
+{"code": " kwargs.get('group1', [])  # Get the 'group1' list from the kwargs", "compilation_passed": true, "time": 0.01524496078491211, "tests_passed": false, "error": "TypeError"}
+{"code": " np.nan_to_num(kwargs['group1'])", "compilation_passed": true, "time": 0.19319915771484375, "tests_passed": true, "error": null}
+{"code": " kwargs.get('group1')", "compilation_passed": true, "time": 0.013255834579467773, "tests_passed": false, "error": "TypeError"}
+{"code": " kwargs.get(\"group1\")  # Get the 'group1' values", "compilation_passed": true, "time": 0.012648820877075195, "tests_passed": false, "error": "TypeError"}

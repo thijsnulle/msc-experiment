@@ -1,0 +1,6 @@
+{"code": " hex_string", "compilation_passed": true, "time": 0.0022690296173095703, "tests_passed": true, "error": null}
+{"code": " binascii.hexlify(decoded_str).decode(\"utf-8\")", "compilation_passed": true, "time": 0.005881786346435547, "tests_passed": false, "error": "TypeError"}
+{"code": " decoded_str", "compilation_passed": true, "time": 0.005432844161987305, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_string).decode(\"utf-8\")", "compilation_passed": true, "time": 0.004366159439086914, "tests_passed": true, "error": null}
+{"code": " binascii.b2a_hex(decoded_str.encode(\"utf-8\")).decode(\"utf-8\")", "compilation_passed": true, "time": 0.0023488998413085938, "tests_passed": true, "error": null}
+{"code": " binascii.hexlify(decoded_str).decode()", "compilation_passed": true, "time": 0.0060389041900634766, "tests_passed": false, "error": "TypeError"}

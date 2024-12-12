@@ -1,0 +1,12 @@
+{"code": " Texttable()", "compilation_passed": true, "time": 0.026503801345825195, "tests_passed": true, "error": null}
+{"code": " Texttable(max_width=100)", "compilation_passed": true, "time": 0.0270538330078125, "tests_passed": true, "error": null}
+{"code": " Texttable(max_width=45)", "compilation_passed": true, "time": 0.027334928512573242, "tests_passed": true, "error": null}
+{"code": " Texttable.fromRows(summary_data, '+-----------+------+---------+')", "compilation_passed": true, "time": 0.020056962966918945, "tests_passed": false, "error": "AttributeError"}
+{"code": " Texttable(\"+\" + \"=\" * (8 + 15 + 15 + 2) + \"+\",", "compilation_passed": false, "time": 0.0004279613494873047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Texttable.fromList(summary_data)", "compilation_passed": true, "time": 0.0211179256439209, "tests_passed": false, "error": "AttributeError"}
+{"code": " Texttable(\"\"\"", "compilation_passed": false, "time": 0.0002319812774658203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Texttable(max_width=-1)", "compilation_passed": true, "time": 0.026319026947021484, "tests_passed": true, "error": null}
+{"code": " Texttable(20)", "compilation_passed": true, "time": 0.01863408088684082, "tests_passed": true, "error": null}
+{"code": " Texttable.fromList(summary_data, header=[\"File\", \"Rows\", \"Columns\"])", "compilation_passed": true, "time": 0.020554780960083008, "tests_passed": false, "error": "AttributeError"}
+{"code": " Texttable.TextTable(10, 5)", "compilation_passed": true, "time": 0.0208590030670166, "tests_passed": false, "error": "AttributeError"}
+{"code": " Texttable.from_array(summary_data)", "compilation_passed": true, "time": 0.020060300827026367, "tests_passed": false, "error": "AttributeError"}

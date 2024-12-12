@@ -1,0 +1,4 @@
+{"code": "init_app(app)", "compilation_passed": true, "time": 0.012811899185180664, "tests_passed": false, "error": "RuntimeError"}
+{"code": "app = app", "compilation_passed": true, "time": 0.009865045547485352, "tests_passed": false, "error": "RuntimeError"}
+{"code": "app.config.update(MAIL_SERVER=smtp_server, MAIL_PORT=smtp_port, MAIL_USERNAME=smtp_user, MAIL_PASSWORD=smtp_password, MAIL_USE_TLS=True)", "compilation_passed": true, "time": 0.009747982025146484, "tests_passed": false, "error": "RuntimeError"}
+{"code": "app.config.from_object(app.config)", "compilation_passed": true, "time": 0.009881734848022461, "tests_passed": false, "error": "RuntimeError"}

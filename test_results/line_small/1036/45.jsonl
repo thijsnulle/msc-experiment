@@ -1,0 +1,18 @@
+{"code": "set_title(\"Overlap Between Series1 and Series2\")", "compilation_passed": true, "time": 0.24460291862487793, "tests_passed": true, "error": null}
+{"code": "set_title('Overlap Between {} and {}'.format(df1.columns[0], df2.columns[0]))", "compilation_passed": true, "time": 0.25769495964050293, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Overlap Between {s1.name} and {s2.name}\")", "compilation_passed": true, "time": 0.24556612968444824, "tests_passed": true, "error": null}
+{"code": "set_title('Overlap Between Series1 and Series2')", "compilation_passed": true, "time": 0.2527351379394531, "tests_passed": true, "error": null}
+{"code": "set_title(f'Overlap Between Series {s1.name} and {s2.name}')", "compilation_passed": true, "time": 0.023375988006591797, "tests_passed": true, "error": null}
+{"code": "set_xlabel(s1.name)", "compilation_passed": true, "time": 0.023460865020751953, "tests_passed": true, "error": null}
+{"code": "set(title=f\"Overlap Between {s1.name} and {s2.name}\",", "compilation_passed": false, "time": 0.00035309791564941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set(title=f'Overlap Between {s1.name} and {s2.name}')", "compilation_passed": true, "time": 0.25440168380737305, "tests_passed": true, "error": null}
+{"code": "set_title(f'Overlap Between {s1.name} and {s2.name}')", "compilation_passed": true, "time": 0.25824594497680664, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Overlap Between Series1 and Series2 ({len(intersection)})\")", "compilation_passed": true, "time": 0.023043155670166016, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Overlap Between Series{s1.name} and Series{s2.name}\")", "compilation_passed": true, "time": 0.023873090744018555, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Series 1\")", "compilation_passed": true, "time": 0.023540019989013672, "tests_passed": true, "error": null}
+{"code": "set(title=f\"Overlap Between {df1.columns[0]} and {df2.columns[0]}\")", "compilation_passed": true, "time": 0.26920318603515625, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Overlap Between Series1 and Series2 (Count = {len(intersection)})\")", "compilation_passed": true, "time": 0.024214982986450195, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Overlap Between {df1.columns[0]} and {df2.columns[0]}\")", "compilation_passed": true, "time": 0.2597770690917969, "tests_passed": true, "error": null}
+{"code": "set_ylabel(\"Data Type\")", "compilation_passed": true, "time": 0.026057958602905273, "tests_passed": true, "error": null}
+{"code": "set(", "compilation_passed": false, "time": 0.0003032684326171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_title(f'Overlap Between Series{df1.shape[0] + df2.shape[0]} and Series{df1.shape[1] + df2.shape[1]}')", "compilation_passed": true, "time": 0.023617029190063477, "tests_passed": true, "error": null}

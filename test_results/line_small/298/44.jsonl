@@ -1,0 +1,23 @@
+{"code": "loc[:, 'Scaled Value'] = scaler.fit_transform(df['Value'])", "compilation_passed": true, "time": 0.030471324920654297, "tests_passed": false, "error": "KeyError"}
+{"code": "iloc[:, 1:] = scaler.fit_transform(df.iloc[:, 1:])", "compilation_passed": true, "time": 0.3128631114959717, "tests_passed": true, "error": null}
+{"code": "loc[:, 'scaled_val'] = pd.Series(scaler.fit_transform(df['Value']), index=df.index)", "compilation_passed": true, "time": 0.029731035232543945, "tests_passed": false, "error": "KeyError"}
+{"code": "set_index('Date', inplace=True)", "compilation_passed": true, "time": 0.010205984115600586, "tests_passed": true, "error": null}
+{"code": "iloc[:, 2:] = scaler.fit_transform(df.iloc[:, 2:])", "compilation_passed": true, "time": 0.31163883209228516, "tests_passed": true, "error": null}
+{"code": "loc[:, 'Value'] = [scaler.fit_transform(pd.Series(val)) for val in df['Value']]", "compilation_passed": true, "time": 0.029196977615356445, "tests_passed": false, "error": "KeyError"}
+{"code": "iloc[:, 1:3] = scaler.fit_transform(df.iloc[:, 1:3])", "compilation_passed": true, "time": 0.3075430393218994, "tests_passed": true, "error": null}
+{"code": "loc[:, 'ScaledValue_1':'ScaledValue_3'] = scaler.fit_transform(df['ScaledValue'])", "compilation_passed": true, "time": 0.027925968170166016, "tests_passed": false, "error": "KeyError"}
+{"code": "iloc[:, 1:] = scaler.transform(df.iloc[:, 1:])", "compilation_passed": true, "time": 0.013503074645996094, "tests_passed": false, "error": "sklearn.exceptions.NotFittedError"}
+{"code": "loc[:, 'Value'] = scaler.fit_transform(df.loc[:, 'Value'])", "compilation_passed": true, "time": 0.02788233757019043, "tests_passed": false, "error": "KeyError"}
+{"code": "loc[:, 'Scaled Value'] = [scaler.transform(i) for i in df['Value']]", "compilation_passed": true, "time": 0.029144763946533203, "tests_passed": false, "error": "KeyError"}
+{"code": "loc[:, 'scaled_values'] = pd.DataFrame(scaler.fit_transform(df.loc[:, 'Value']))", "compilation_passed": true, "time": 0.04352092742919922, "tests_passed": false, "error": "KeyError"}
+{"code": "drop(columns='Date', inplace=True)", "compilation_passed": true, "time": 0.018639087677001953, "tests_passed": true, "error": null}
+{"code": "loc[:, 'ScaledValue'] = scaler.fit_transform(df['Value'])", "compilation_passed": true, "time": 0.04403400421142578, "tests_passed": false, "error": "KeyError"}
+{"code": "drop(['Date'], axis=1, inplace=True)", "compilation_passed": true, "time": 0.01797008514404297, "tests_passed": true, "error": null}
+{"code": "columns = COLUMNS + list(map(str, range(len(COLUMNS))))", "compilation_passed": true, "time": 0.2938220500946045, "tests_passed": true, "error": null}
+{"code": "loc[:, 'Scaled Value'] = [scaler.transform(x) for x in df['Value']]", "compilation_passed": true, "time": 0.04339194297790527, "tests_passed": false, "error": "KeyError"}
+{"code": "loc[:, 'Scaled Values'] = [scaler.fit_transform(val) for val in df['Value']]", "compilation_passed": true, "time": 0.043109893798828125, "tests_passed": false, "error": "KeyError"}
+{"code": "loc[:, 'Value'] = df.loc[:, 'Value'].apply(pd.Series)", "compilation_passed": true, "time": 0.04341912269592285, "tests_passed": false, "error": "KeyError"}
+{"code": "columns = COLUMNS", "compilation_passed": true, "time": 0.0300137996673584, "tests_passed": false, "error": "ValueError"}
+{"code": "set_index('Date')", "compilation_passed": true, "time": 0.36371612548828125, "tests_passed": true, "error": null}
+{"code": "iloc[:, 1:len(df.iloc[0, 1])] = scaler.fit_transform(df.iloc[:, 1:len(df.iloc[0, 1])])", "compilation_passed": true, "time": 0.02308821678161621, "tests_passed": false, "error": "TypeError"}
+{"code": "set_index(df['Date'], inplace=True)", "compilation_passed": true, "time": 0.3292241096496582, "tests_passed": true, "error": null}

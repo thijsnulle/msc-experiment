@@ -1,0 +1,16 @@
+{"code": " quantity, code, price, description = [elem.strip() for elem in elements]", "compilation_passed": true, "time": 0.01943802833557129, "tests_passed": true, "error": null}
+{"code": " qty, code, price, desc = [e.strip() for e in elements[:5]]", "compilation_passed": true, "time": 0.012876033782958984, "tests_passed": false, "error": "NameError"}
+{"code": " quantity, code, price, description = [e.strip() for e in elements]", "compilation_passed": true, "time": 0.02003192901611328, "tests_passed": true, "error": null}
+{"code": " quantity, code, price, description = elements", "compilation_passed": true, "time": 0.02069234848022461, "tests_passed": true, "error": null}
+{"code": " quantity, code, price = elements[:4]", "compilation_passed": true, "time": 0.013742923736572266, "tests_passed": false, "error": "NameError"}
+{"code": " quantity, code, price = elements[0], elements[1], elements[2], elements[3]", "compilation_passed": true, "time": 0.012115955352783203, "tests_passed": false, "error": "NameError"}
+{"code": " quantity, code, price, description = elements[0], elements[1], elements[2], elements[3], elements[4]", "compilation_passed": true, "time": 0.020732879638671875, "tests_passed": true, "error": null}
+{"code": " quantity, code, price, description = (", "compilation_passed": false, "time": 0.0003228187561035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " quantity, code, price, product = [element.strip() for element in elements]", "compilation_passed": true, "time": 0.011945962905883789, "tests_passed": false, "error": "NameError"}
+{"code": " qty, code, price, description = elements", "compilation_passed": true, "time": 0.01301121711730957, "tests_passed": false, "error": "NameError"}
+{"code": " quantity, code, price, description = elements[:5]", "compilation_passed": true, "time": 0.0214540958404541, "tests_passed": true, "error": null}
+{"code": " quantity, code, price, description = [", "compilation_passed": false, "time": 0.00031113624572753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " quantity, code, price, *description = elements", "compilation_passed": true, "time": 0.021899938583374023, "tests_passed": true, "error": null}
+{"code": " quantity, code, price, desc = elements", "compilation_passed": true, "time": 0.013193368911743164, "tests_passed": false, "error": "NameError"}
+{"code": " quantity, code, price, description = map(int, elements[0:5])", "compilation_passed": true, "time": 0.01241302490234375, "tests_passed": false, "error": "ValueError"}
+{"code": " quantity, code, price, description = map(lambda e: e.strip(), elements)", "compilation_passed": true, "time": 0.0195009708404541, "tests_passed": true, "error": null}

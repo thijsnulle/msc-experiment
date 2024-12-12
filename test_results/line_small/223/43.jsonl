@@ -1,0 +1,19 @@
+{"code": " [c for c in df.columns if df[c].dtypes == 'O']", "compilation_passed": true, "time": 0.009217023849487305, "tests_passed": true, "error": null}
+{"code": " [c for c in df.columns if df[c].dtype == 'object']", "compilation_passed": true, "time": 0.008879899978637695, "tests_passed": true, "error": null}
+{"code": " [col for col in df.columns if df[col].dtype == \"object\"]", "compilation_passed": true, "time": 0.008816957473754883, "tests_passed": true, "error": null}
+{"code": " [c for c in df.columns if df[c].dtypes == 'object']", "compilation_passed": true, "time": 0.009508132934570312, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(['object']).columns", "compilation_passed": true, "time": 0.009671211242675781, "tests_passed": true, "error": null}
+{"code": " [col for col in df.columns if df[col].dtypes == object]", "compilation_passed": true, "time": 0.009160041809082031, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=['object']).columns", "compilation_passed": true, "time": 0.00931096076965332, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=[\"object\"]).columns", "compilation_passed": true, "time": 0.009657859802246094, "tests_passed": true, "error": null}
+{"code": " [col for col in df.select_dtypes(include=['object']).columns]", "compilation_passed": true, "time": 0.009857892990112305, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(object).columns", "compilation_passed": true, "time": 0.009490966796875, "tests_passed": true, "error": null}
+{"code": " df.columns[df.dtypes == 'object']", "compilation_passed": true, "time": 0.009633064270019531, "tests_passed": true, "error": null}
+{"code": " df.columns[df.dtypes == object]", "compilation_passed": true, "time": 0.009553909301757812, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(\"object\").columns.to_list()", "compilation_passed": true, "time": 0.009147882461547852, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=['object']).columns.to_list()", "compilation_passed": true, "time": 0.009106874465942383, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=[\"object\"]).columns.to_list()", "compilation_passed": true, "time": 0.009612798690795898, "tests_passed": true, "error": null}
+{"code": " df.columns.tolist()", "compilation_passed": true, "time": 0.008652925491333008, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=['object']).columns.tolist()", "compilation_passed": true, "time": 0.00949406623840332, "tests_passed": true, "error": null}
+{"code": " list(df.columns)", "compilation_passed": true, "time": 0.008795976638793945, "tests_passed": true, "error": null}
+{"code": " [col for col in df.columns if df[col].dtypes == 'object']", "compilation_passed": true, "time": 0.008789539337158203, "tests_passed": true, "error": null}

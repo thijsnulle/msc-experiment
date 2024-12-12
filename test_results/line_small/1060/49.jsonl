@@ -1,0 +1,18 @@
+{"code": " pd.Series(df[column_name]).value_counts().iloc[0] == total_values / unique_values_count", "compilation_passed": false, "time": 0.0003371238708496094, "tests_passed": false, "error": "IndentationError"}
+{"code": " (df[column_name].nunique() / total_values) > 0.95", "compilation_passed": false, "time": 0.0002589225769042969, "tests_passed": false, "error": "IndentationError"}
+{"code": " total_values / unique_values_count == df[column_name].nunique()", "compilation_passed": false, "time": 0.0002601146697998047, "tests_passed": false, "error": "IndentationError"}
+{"code": " len(df[column_name]) / unique_values_count >= 0.8", "compilation_passed": false, "time": 0.0002608299255371094, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].value_counts() / total_values < 0.9", "compilation_passed": false, "time": 0.0002758502960205078, "tests_passed": false, "error": "IndentationError"}
+{"code": " unique_values_count / total_values < 0.05", "compilation_passed": false, "time": 0.00032591819763183594, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].nunique() / total_values == 1", "compilation_passed": false, "time": 0.0004649162292480469, "tests_passed": false, "error": "IndentationError"}
+{"code": " True", "compilation_passed": false, "time": 0.000247955322265625, "tests_passed": false, "error": "IndentationError"}
+{"code": " True if unique_values_count == total_values else False", "compilation_passed": false, "time": 0.0002560615539550781, "tests_passed": false, "error": "IndentationError"}
+{"code": " unique_values_count == total_values", "compilation_passed": false, "time": 0.0003371238708496094, "tests_passed": false, "error": "IndentationError"}
+{"code": " len(df[column_name].unique()) == unique_values_count", "compilation_passed": false, "time": 0.0002830028533935547, "tests_passed": false, "error": "IndentationError"}
+{"code": " (", "compilation_passed": true, "time": 0.05052804946899414, "tests_passed": false, "error": "ValueError"}
+{"code": " total_values == unique_values_count", "compilation_passed": false, "time": 0.0002951622009277344, "tests_passed": false, "error": "IndentationError"}
+{"code": " len(df[column_name].unique()) == 1", "compilation_passed": false, "time": 0.0002548694610595703, "tests_passed": false, "error": "IndentationError"}
+{"code": " (unique_values_count / total_values) < 0.05", "compilation_passed": false, "time": 0.0002498626708984375, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.bincount(df[column_name].values).sum() / total_values > 0.75", "compilation_passed": false, "time": 0.0002810955047607422, "tests_passed": false, "error": "IndentationError"}
+{"code": " (total_values / unique_values_count) == df[column_name].nunique()", "compilation_passed": false, "time": 0.00026297569274902344, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].value_counts(normalize=True).iloc[0] == 1", "compilation_passed": false, "time": 0.000308990478515625, "tests_passed": false, "error": "IndentationError"}

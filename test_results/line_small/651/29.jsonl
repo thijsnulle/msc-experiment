@@ -1,0 +1,18 @@
+{"code": " pd.DataFrame(dataframe.replace(to_replace=None, value=''))", "compilation_passed": true, "time": 0.008549928665161133, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe.astype(str)", "compilation_passed": true, "time": 0.03872418403625488, "tests_passed": true, "error": null}
+{"code": " dataframe.applymap(lambda x: str(x))", "compilation_passed": true, "time": 0.03959178924560547, "tests_passed": true, "error": null}
+{"code": " dataframe.convert_dtypes()", "compilation_passed": true, "time": 0.04130673408508301, "tests_passed": true, "error": null}
+{"code": " dataframe.replace({\"Column1\": lambda x: x.astype('str')})", "compilation_passed": true, "time": 0.04039812088012695, "tests_passed": true, "error": null}
+{"code": " dataframe.replace('nan', None)", "compilation_passed": true, "time": 0.03916597366333008, "tests_passed": true, "error": null}
+{"code": " dataframe.astype('str')", "compilation_passed": true, "time": 0.038469791412353516, "tests_passed": true, "error": null}
+{"code": " dataframe.replace(\"NaN\", np.nan)", "compilation_passed": true, "time": 0.005251169204711914, "tests_passed": false, "error": "NameError"}
+{"code": " dataframe.set_index('Column1')", "compilation_passed": true, "time": 0.018691062927246094, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(dataframe.fillna(0)).astype('str')", "compilation_passed": true, "time": 0.03871726989746094, "tests_passed": true, "error": null}
+{"code": " dataframe.applymap(str)", "compilation_passed": true, "time": 0.040528059005737305, "tests_passed": true, "error": null}
+{"code": " dataframe.fillna(\"\")", "compilation_passed": true, "time": 0.041934967041015625, "tests_passed": true, "error": null}
+{"code": " dataframe.rename(columns={'Column1': 'Col1'})", "compilation_passed": true, "time": 0.022021055221557617, "tests_passed": false, "error": "KeyError"}
+{"code": " dataframe.apply(lambda x: str(x) if pd.api.types.is_string_dtype(x) else x)", "compilation_passed": true, "time": 0.019093036651611328, "tests_passed": false, "error": "AttributeError"}
+{"code": " dataframe.fillna(0)", "compilation_passed": true, "time": 0.04512381553649902, "tests_passed": true, "error": null}
+{"code": " dataframe.rename(columns={'Column1': 'name'})", "compilation_passed": true, "time": 0.019665956497192383, "tests_passed": false, "error": "KeyError"}
+{"code": " dataframe.fillna(method='ffill')", "compilation_passed": true, "time": 0.04568815231323242, "tests_passed": true, "error": null}
+{"code": " dataframe.replace('', np.nan, inplace=True)", "compilation_passed": true, "time": 0.005321979522705078, "tests_passed": false, "error": "NameError"}

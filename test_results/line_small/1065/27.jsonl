@@ -1,0 +1,6 @@
+{"code": " fftpack.rfft(row_sums)", "compilation_passed": true, "time": 0.025438785552978516, "tests_passed": true, "error": null}
+{"code": " fftpack.fft(row_sums)", "compilation_passed": true, "time": 0.05670976638793945, "tests_passed": true, "error": null}
+{"code": " fftpack.fft(row_sums, axis=0)", "compilation_passed": true, "time": 0.06780791282653809, "tests_passed": true, "error": null}
+{"code": " np.abs(fftpack.fft(row_sums, axis=0))", "compilation_passed": true, "time": 0.061727046966552734, "tests_passed": true, "error": null}
+{"code": " fftpack.fft(row_sums, n=arr.shape[0])", "compilation_passed": true, "time": 0.06613898277282715, "tests_passed": true, "error": null}
+{"code": " np.abs(fftpack.fft(row_sums))", "compilation_passed": true, "time": 0.06319832801818848, "tests_passed": true, "error": null}

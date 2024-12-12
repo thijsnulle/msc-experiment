@@ -1,0 +1,16 @@
+{"code": " scaler.fit_transform(weights.reshape(-1, 1)).flatten()", "compilation_passed": true, "time": 0.012319087982177734, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(np.reshape(weights, (1, -1)))", "compilation_passed": true, "time": 0.012926101684570312, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(np.reshape(weights, (-1, 1)))", "compilation_passed": true, "time": 0.012674093246459961, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(weights.reshape(-1, 1))", "compilation_passed": true, "time": 0.015012025833129883, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(np.array(weights).reshape(-1, 1))", "compilation_passed": true, "time": 0.013025045394897461, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(np.reshape(weights, (-1, 1)) / counts)", "compilation_passed": true, "time": 0.012246131896972656, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(np.array(weights).reshape(-1,1))", "compilation_passed": true, "time": 0.011924028396606445, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(np.reshape(np.array(weights), (1, len(weights))))", "compilation_passed": true, "time": 0.012655973434448242, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(np.reshape(weights, (-1, 1))).flatten()", "compilation_passed": true, "time": 0.06782889366149902, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(np.reshape(weights, (-1, 1))).reshape(-1)", "compilation_passed": true, "time": 0.0719602108001709, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(np.expand_dims(weights, axis=1))", "compilation_passed": true, "time": 0.012822866439819336, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(np.reshape(weights, (len(weights), 1)))", "compilation_passed": true, "time": 0.012655973434448242, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(np.array(weights).reshape(-1, 1)).flatten()", "compilation_passed": true, "time": 0.06751513481140137, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(weights.reshape(-1,1))", "compilation_passed": true, "time": 0.011104106903076172, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(np.reshape(weights, (1,-1)))[0]", "compilation_passed": true, "time": 0.0785069465637207, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(np.reshape(weights, (1, len(weights)))).flatten()", "compilation_passed": true, "time": 0.07882308959960938, "tests_passed": true, "error": null}

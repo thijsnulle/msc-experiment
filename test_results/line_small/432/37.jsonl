@@ -1,0 +1,12 @@
+{"code": " p, dof, _ = chi2_contingency(contingency_table)", "compilation_passed": true, "time": 0.3296799659729004, "tests_passed": true, "error": null}
+{"code": " p, dof, expected = chi2_contingency(contingency_table)", "compilation_passed": true, "time": 0.3269917964935303, "tests_passed": true, "error": null}
+{"code": " p, _, _ = chi2_contingency(contingency_table, auto_dcorr=False)", "compilation_passed": true, "time": 0.0964200496673584, "tests_passed": false, "error": "TypeError"}
+{"code": " p, _, _ = chi2_contingency(contingency_table)", "compilation_passed": true, "time": 0.34148597717285156, "tests_passed": true, "error": null}
+{"code": " _, p, _, _ = chi2_contingency(contingency_table, correction=False)", "compilation_passed": true, "time": 0.09702014923095703, "tests_passed": false, "error": "ValueError"}
+{"code": " p, dof, ex = chi2_contingency(contingency_table)", "compilation_passed": true, "time": 0.351776123046875, "tests_passed": true, "error": null}
+{"code": " p, dof, expected = chi2_contingency(contingency_table, correction=False)", "compilation_passed": true, "time": 0.3422739505767822, "tests_passed": true, "error": null}
+{"code": " p, dof, _ = chi2_contingency(contingency_table, correction=False)", "compilation_passed": true, "time": 0.34026074409484863, "tests_passed": true, "error": null}
+{"code": " _, p, _, _ = chi2_contingency(contingency_table, alternative=\"two-sided\")", "compilation_passed": true, "time": 0.09814119338989258, "tests_passed": false, "error": "TypeError"}
+{"code": " _, _, _, _ = chi2_contingency(contingency_table)", "compilation_passed": true, "time": 0.09551286697387695, "tests_passed": false, "error": "ValueError"}
+{"code": " p, _, _ = chi2_contingency(contingency_table, auto_dock=True)", "compilation_passed": true, "time": 0.08828592300415039, "tests_passed": false, "error": "TypeError"}
+{"code": " _, p, _, _ = chi2_contingency(contingency_table)", "compilation_passed": true, "time": 0.09693408012390137, "tests_passed": false, "error": "ValueError"}

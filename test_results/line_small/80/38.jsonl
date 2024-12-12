@@ -1,0 +1,9 @@
+{"code": " render_template(\"index.html\", **data)", "compilation_passed": true, "time": 0.0012278556823730469, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " render_template('index.html', **data)", "compilation_passed": true, "time": 0.0013608932495117188, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " render_template('index.html', data=data)", "compilation_passed": true, "time": 0.0012607574462890625, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " render_template(\"index.html\", data=data)", "compilation_passed": true, "time": 0.0015599727630615234, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " render_template(\"index.html\", name=data['name'], age=data['age'])", "compilation_passed": true, "time": 0.0012149810791015625, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " render_template(\"index.html\", title=\"Home\", data=data)", "compilation_passed": true, "time": 0.0015697479248046875, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " render_template('index.html', name=data['name'], age=data['age'])", "compilation_passed": true, "time": 0.0013337135314941406, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " render_template(\"index.html\", title=\"Posts\", **data)", "compilation_passed": true, "time": 0.0012650489807128906, "tests_passed": false, "error": "[Errno 2] No such file or directory"}
+{"code": " render_template('index.html', data=json.dumps(data))", "compilation_passed": true, "time": 0.00119781494140625, "tests_passed": false, "error": "[Errno 2] No such file or directory"}

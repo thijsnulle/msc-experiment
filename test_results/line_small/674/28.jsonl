@@ -1,0 +1,14 @@
+{"code": " pd.read_csv(filename)", "compilation_passed": true, "time": 0.009374856948852539, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, header=None)", "compilation_passed": true, "time": 0.009610176086425781, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, sep='\\s', header=0, engine='python')", "compilation_passed": true, "time": 0.013113021850585938, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, header=None, dtype=str, parse_dates=True)", "compilation_passed": true, "time": 0.010071039199829102, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, sep=',')", "compilation_passed": true, "time": 0.009710073471069336, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, header=0)", "compilation_passed": true, "time": 0.014186859130859375, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, header=0, engine='python')", "compilation_passed": true, "time": 0.009566783905029297, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, header=0, index_col=0)", "compilation_passed": true, "time": 0.01199197769165039, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, header=0, error_bad_lines=False)", "compilation_passed": true, "time": 0.010952949523925781, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.read_csv(filename, index_col=0)", "compilation_passed": true, "time": 0.01063680648803711, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, index_col=None)", "compilation_passed": true, "time": 0.009454011917114258, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, sep=';')", "compilation_passed": true, "time": 0.010133028030395508, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(filename, header=0, engine='python',", "compilation_passed": false, "time": 0.00017714500427246094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_csv(filename, sep=\",\")", "compilation_passed": true, "time": 0.009784936904907227, "tests_passed": true, "error": null}

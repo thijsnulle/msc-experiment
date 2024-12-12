@@ -1,0 +1,5 @@
+{"code": " pd.to_datetime(df['Date'])", "compilation_passed": true, "time": 0.293734073638916, "tests_passed": true, "error": null}
+{"code": " df['Date'].astype(pd.to_datetime)", "compilation_passed": true, "time": 0.013835668563842773, "tests_passed": false, "error": "TypeError"}
+{"code": " df['Date'].apply(pd.to_datetime)", "compilation_passed": true, "time": 0.31774187088012695, "tests_passed": true, "error": null}
+{"code": " pd.to_datetime(df['Date'], format='%Y-%m-%d')", "compilation_passed": true, "time": 0.3150367736816406, "tests_passed": true, "error": null}
+{"code": " pd.to_datetime(df.Date)", "compilation_passed": true, "time": 0.009768009185791016, "tests_passed": false, "error": "AttributeError"}

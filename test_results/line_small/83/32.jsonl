@@ -1,0 +1,8 @@
+{"code": "config['MAIL_SERVER'] = smtp_server", "compilation_passed": true, "time": 0.01359701156616211, "tests_passed": false, "error": "RuntimeError"}
+{"code": "config.update({", "compilation_passed": false, "time": 0.00018596649169921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "config['SECRET_KEY'] = 'flask_secret_key'", "compilation_passed": true, "time": 0.009865999221801758, "tests_passed": false, "error": "RuntimeError"}
+{"code": "config.from_object('config')", "compilation_passed": true, "time": 0.009902000427246094, "tests_passed": false, "error": "RuntimeError"}
+{"code": "config.update(", "compilation_passed": false, "time": 0.00015091896057128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "config[\"MAIL_SERVER\"] = smtp_server", "compilation_passed": true, "time": 0.010397911071777344, "tests_passed": false, "error": "RuntimeError"}
+{"code": "config.update(MAIL_SERVER=smtp_server,", "compilation_passed": false, "time": 0.00014591217041015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "config.from_object('config.Config')", "compilation_passed": true, "time": 0.010107755661010742, "tests_passed": false, "error": "RuntimeError"}

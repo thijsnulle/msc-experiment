@@ -1,0 +1,6 @@
+{"code": " [word for word in text.split() if word not in stop_words]", "compilation_passed": true, "time": 0.01026296615600586, "tests_passed": false, "error": ""}
+{"code": " [word for word in text.split() if word.lower() not in stop_words]", "compilation_passed": true, "time": 0.009837865829467773, "tests_passed": false, "error": ""}
+{"code": " [word for word in text.split() if not word.lower() in stop_words]", "compilation_passed": true, "time": 0.009921073913574219, "tests_passed": false, "error": ""}
+{"code": " [w for w in text.split() if w.lower() not in stop_words]", "compilation_passed": true, "time": 0.010323047637939453, "tests_passed": false, "error": ""}
+{"code": " [w for w in text.split() if w not in stop_words]", "compilation_passed": true, "time": 0.009383201599121094, "tests_passed": false, "error": ""}
+{"code": " [word.lower() for word in text.split() if word not in stop_words]", "compilation_passed": true, "time": 0.009189128875732422, "tests_passed": false, "error": ""}

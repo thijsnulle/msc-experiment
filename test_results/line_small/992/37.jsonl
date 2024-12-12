@@ -1,0 +1,21 @@
+{"code": "execute(\"\"\"", "compilation_passed": false, "time": 0.000186920166015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute('CREATE TABLE IF NOT EXISTS paths ('", "compilation_passed": false, "time": 0.00018787384033203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute('SELECT path FROM paths')", "compilation_passed": true, "time": 0.009685754776000977, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute('CREATE TABLE IF NOT EXISTS AppendedPaths('", "compilation_passed": false, "time": 0.00017786026000976562, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS sys_path (path VARCHAR(255) UNIQUE)\")", "compilation_passed": true, "time": 0.016607046127319336, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute('''CREATE TABLE IF NOT EXISTS PATH_APPEND (PATH TEXT UNIQUE)''')", "compilation_passed": true, "time": 0.010921239852905273, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(\"SELECT * FROM sys_path_list\")", "compilation_passed": true, "time": 0.010214090347290039, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(\"\"\"CREATE TABLE IF NOT EXISTS PATH_TABLE", "compilation_passed": false, "time": 0.0003342628479003906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS appended_paths (path TEXT UNIQUE)\")", "compilation_passed": true, "time": 0.012398004531860352, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute('CREATE TABLE IF NOT EXISTS sys_path (path TEXT PRIMARY KEY NOT NULL)')", "compilation_passed": true, "time": 0.012722969055175781, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(\"SELECT value FROM sys.paths\")", "compilation_passed": true, "time": 0.010258913040161133, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute('CREATE TABLE IF NOT EXISTS AppendPaths (path TEXT)')", "compilation_passed": true, "time": 0.013361215591430664, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(\"\"\"CREATE TABLE IF NOT EXISTS append_sys_path(path TEXT PRIMARY KEY)\"\"\")", "compilation_passed": true, "time": 0.017335891723632812, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute('CREATE TABLE IF NOT EXISTS sys_paths(path TEXT, PRIMARY KEY (path))')", "compilation_passed": true, "time": 0.018532752990722656, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(\"\"\"CREATE TABLE IF NOT EXISTS PATH_TABLE(", "compilation_passed": false, "time": 0.00022912025451660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS PATH_TABLE (PATH text)\")", "compilation_passed": true, "time": 0.03735208511352539, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS append_db(path)\")", "compilation_passed": true, "time": 0.03810715675354004, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(\"\"\"CREATE TABLE IF NOT EXISTS append_path_to_sys_path", "compilation_passed": false, "time": 0.0009729862213134766, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute('''CREATE TABLE IF NOT EXISTS sys_path(path TEXT UNIQUE)''')", "compilation_passed": true, "time": 0.033483028411865234, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute('''CREATE TABLE IF NOT EXISTS APPEND_PATH", "compilation_passed": false, "time": 0.00031375885009765625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS paths (path TEXT)\")", "compilation_passed": true, "time": 0.031606197357177734, "tests_passed": true, "error": null}

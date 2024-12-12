@@ -1,0 +1,13 @@
+{"code": " []", "compilation_passed": true, "time": 0.14602994918823242, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.13894295692443848, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_entries, columns=['Month'])", "compilation_passed": true, "time": 0.14561700820922852, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([[datetime.strptime(d, '%Y-%m-%d'), float(v.strip())] for d, v in data_entries],", "compilation_passed": false, "time": 0.00023317337036132812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [d.split('-') for d in data_entries]", "compilation_passed": true, "time": 0.14481592178344727, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_entries, columns=['month', 'value'])", "compilation_passed": true, "time": 0.007668972015380859, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data_entries)", "compilation_passed": true, "time": 0.14447379112243652, "tests_passed": true, "error": null}
+{"code": " [tuple(entry.strip().split('-')) for entry in data_entries]", "compilation_passed": true, "time": 0.14606714248657227, "tests_passed": true, "error": null}
+{"code": " pd.Series([], dtype='float64')", "compilation_passed": true, "time": 0.1535799503326416, "tests_passed": true, "error": null}
+{"code": " [entry.split('-') for entry in data_entries]", "compilation_passed": true, "time": 0.14802193641662598, "tests_passed": true, "error": null}
+{"code": " [float(entry.split('-')[1]) for entry in data_entries]", "compilation_passed": true, "time": 0.15459609031677246, "tests_passed": true, "error": null}
+{"code": " [x for x in data_entries]", "compilation_passed": true, "time": 0.1781611442565918, "tests_passed": true, "error": null}
+{"code": " pd.Series(data_entries, dtype=\"object\")", "compilation_passed": true, "time": 0.1694929599761963, "tests_passed": true, "error": null}

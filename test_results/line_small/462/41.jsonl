@@ -1,0 +1,14 @@
+{"code": " pd.DataFrame(", "compilation_passed": true, "time": 0.32709693908691406, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(random.choices([\"a\", \"b\", \"c\", \"d\", \"e\"], k=num_rows),", "compilation_passed": true, "time": 0.011290311813354492, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(columns=[\"Category\", \"Value\"], index=range(num_rows))", "compilation_passed": false, "time": 0.0001609325408935547, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(data=[[random.choice(categories), random.randint(1, 100)] for _ in range(num_rows)])", "compilation_passed": false, "time": 0.0002257823944091797, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({\"Category\": [random.choice(categories) for i in range(num_rows)],", "compilation_passed": false, "time": 0.00018596649169921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00015687942504882812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Category': [], 'Value': []})", "compilation_passed": false, "time": 0.00030684471130371094, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Category': categories, 'Value': random.sample(range(1, 100), num_rows)})", "compilation_passed": false, "time": 0.00019979476928710938, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(index=range(num_rows), columns=[\"Category\", \"Value\"])", "compilation_passed": false, "time": 0.00020384788513183594, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(columns=[\"Category\", \"Value\"], data=[(category, random.randint(1, 100)) for category in categories])", "compilation_passed": false, "time": 0.00017309188842773438, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({\"Category\": [random.choice(categories) for _ in range(num_rows)],", "compilation_passed": false, "time": 0.00030112266540527344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=[\"Category\", \"Value\"])", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame()", "compilation_passed": false, "time": 0.00022792816162109375, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Category': [random.choice(categories) for _ in range(num_rows)], 'Value': [random.randint(1, 100) for _ in range(num_rows)]})", "compilation_passed": false, "time": 0.00023126602172851562, "tests_passed": false, "error": "IndentationError"}

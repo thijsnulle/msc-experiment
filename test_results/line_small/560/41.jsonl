@@ -1,0 +1,21 @@
+{"code": "set_title('Monthly Data for ' + data[0].split('-')[0], fontsize=18)", "compilation_passed": true, "time": 0.04717111587524414, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_xlabel('Month')", "compilation_passed": true, "time": 0.14383816719055176, "tests_passed": true, "error": null}
+{"code": "set_title(f'Monthly Data for {list(unique_years)[0]}')", "compilation_passed": true, "time": 0.047425031661987305, "tests_passed": true, "error": null}
+{"code": "set_title('Monthly Data for ' + str(int(list(unique_years)[0])), fontsize=18)", "compilation_passed": true, "time": 0.054325103759765625, "tests_passed": true, "error": null}
+{"code": "set_title(\"Monthly Data for \" + unique_years.pop())", "compilation_passed": true, "time": 0.05155682563781738, "tests_passed": false, "error": "IndexError"}
+{"code": "set_title(f\"Monthly Data for {list(unique_years)[0]}\")", "compilation_passed": true, "time": 0.04894399642944336, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Monthly Data for {data.split(',')[0].split('-')[0]}\")", "compilation_passed": true, "time": 0.04916667938232422, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(f'Monthly Data for {df.index.year}', fontsize=20)", "compilation_passed": true, "time": 0.05181002616882324, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(f\"Monthly Data for {int(data[0][0])}\", fontsize=20)", "compilation_passed": true, "time": 0.04910397529602051, "tests_passed": false, "error": "ValueError"}
+{"code": "set_title(f\"Monthly Data for {unique_years.pop()}\")", "compilation_passed": true, "time": 0.05047106742858887, "tests_passed": false, "error": "IndexError"}
+{"code": "set_title('Monthly Data for ' + data[0][0].strip('2022'))", "compilation_passed": true, "time": 0.05410313606262207, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Monthly data for {unique_years.pop()} year\")", "compilation_passed": true, "time": 0.057636260986328125, "tests_passed": false, "error": "IndexError"}
+{"code": "set_title('Monthly Data for ' + unique_years.pop(), fontsize=16)", "compilation_passed": true, "time": 0.04563021659851074, "tests_passed": false, "error": "IndexError"}
+{"code": "set_ylabel('Value')", "compilation_passed": true, "time": 0.046102046966552734, "tests_passed": true, "error": null}
+{"code": "set_title('Monthly Data for ' + str(unique_years))", "compilation_passed": true, "time": 0.053147077560424805, "tests_passed": true, "error": null}
+{"code": "set_title(f'Monthly Data for {data[0][0]}')", "compilation_passed": true, "time": 0.04748392105102539, "tests_passed": true, "error": null}
+{"code": "set_title(f'Monthly Data for {df.index[0].year}')", "compilation_passed": true, "time": 0.05418586730957031, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(f\"Monthly Data for {data[0][0]}\")", "compilation_passed": true, "time": 0.06905126571655273, "tests_passed": true, "error": null}
+{"code": "set_title(f'Monthly Data for {unique_years}')", "compilation_passed": true, "time": 0.06841778755187988, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Monthly Data for {int(df.index.values[0])}\", fontsize=20)", "compilation_passed": true, "time": 0.0723729133605957, "tests_passed": false, "error": "ValueError"}
+{"code": "set_title(f\"Monthly Data for {df['Month'].iloc[0].split()[0]}, {df['Month'].iloc[0].split()[1]} {df['Month'].iloc[0].split()[2]}\")", "compilation_passed": true, "time": 0.06576704978942871, "tests_passed": false, "error": "KeyError"}

@@ -1,0 +1,7 @@
+{"code": " urllib.parse.urlparse(url).netloc", "compilation_passed": true, "time": 0.0037109851837158203, "tests_passed": true, "error": null}
+{"code": " urlparse.urlparse(url).netloc", "compilation_passed": true, "time": 0.009608268737792969, "tests_passed": false, "error": "NameError"}
+{"code": " urlparse(url).netloc", "compilation_passed": true, "time": 0.009530067443847656, "tests_passed": false, "error": "NameError"}
+{"code": " urllib.parse.urlparse(url).netloc.lower()", "compilation_passed": true, "time": 0.0036559104919433594, "tests_passed": true, "error": null}
+{"code": " urllib.parse.urlparse(url).netloc.split('.')", "compilation_passed": true, "time": 0.01597905158996582, "tests_passed": false, "error": "Exception"}
+{"code": " urllib.parse.urlparse(url).hostname", "compilation_passed": true, "time": 0.004533052444458008, "tests_passed": true, "error": null}
+{"code": " url.split('/')[2]", "compilation_passed": true, "time": 0.003487110137939453, "tests_passed": true, "error": null}

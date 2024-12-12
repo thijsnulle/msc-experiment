@@ -1,0 +1,18 @@
+{"code": "word, int(count)) for word, count in zip(vectorizer.get_feature_names(), sum_words)", "compilation_passed": true, "time": 0.00991678237915039, "tests_passed": false, "error": "AttributeError"}
+{"code": "word, count)", "compilation_passed": true, "time": 0.009966135025024414, "tests_passed": false, "error": "NameError"}
+{"code": "word, sum_words[i]) for word, i in zip(vectorizer.get_feature_names(), range(len(vectorizer.get_feature_names())))", "compilation_passed": true, "time": 0.009994029998779297, "tests_passed": false, "error": "AttributeError"}
+{"code": "word, freq) for word, freq in zip(vectorizer.get_feature_names(), sum_words)", "compilation_passed": true, "time": 0.009897947311401367, "tests_passed": false, "error": "AttributeError"}
+{"code": "word, sum_words[i])", "compilation_passed": true, "time": 0.010231733322143555, "tests_passed": false, "error": "NameError"}
+{"code": "word, word_count[i].sum()) for word, i in vectorizer.vocabulary_.items()", "compilation_passed": true, "time": 0.06011009216308594, "tests_passed": false, "error": "IndexError"}
+{"code": "word, count / sum_words.sum()) for word, count in vectorizer.vocabulary_.items()", "compilation_passed": true, "time": 0.1589040756225586, "tests_passed": true, "error": null}
+{"code": "word, count) for word, count in zip(vectorizer.get_feature_names(), sum_words)", "compilation_passed": true, "time": 0.010237932205200195, "tests_passed": false, "error": "AttributeError"}
+{"code": "word, sum_words[word_count.indptr[i : i + 2]]) for i, word in enumerate(vectorizer.get_feature_names_out())", "compilation_passed": true, "time": 0.014785051345825195, "tests_passed": false, "error": "IndexError"}
+{"code": "word, count / sum_words.get(\"count\"))", "compilation_passed": true, "time": 0.010214805603027344, "tests_passed": false, "error": "NameError"}
+{"code": "word, sum_words[0][i])", "compilation_passed": true, "time": 0.01007699966430664, "tests_passed": false, "error": "NameError"}
+{"code": "word, int(word_count[word])) for word in vectorizer.get_feature_names()", "compilation_passed": true, "time": 0.009678840637207031, "tests_passed": false, "error": "AttributeError"}
+{"code": "word, sum_words[i]) for word, i in zip(vectorizer.get_feature_names_out(), range(sum_words.shape[0]))", "compilation_passed": true, "time": 0.018850088119506836, "tests_passed": false, "error": "TypeError"}
+{"code": "word, sum_words.get(word, 0) / word_count.shape[1])", "compilation_passed": true, "time": 0.009947061538696289, "tests_passed": false, "error": "NameError"}
+{"code": "word, sum_words[i]) for word, i in vectorizer.vocabulary_.items()", "compilation_passed": true, "time": 0.01242208480834961, "tests_passed": false, "error": "IndexError"}
+{"code": "word, int(count / sum_words[0] * 100)) for (word, count) in vectorizer.vocabulary_.items()", "compilation_passed": true, "time": 0.012591123580932617, "tests_passed": false, "error": "TypeError"}
+{"code": "word, count / sum_words.get(\"count_words\", 1))", "compilation_passed": true, "time": 0.010847806930541992, "tests_passed": false, "error": "NameError"}
+{"code": "word, count / sum_words) for (word, count) in zip(vectorizer.get_feature_names(), word_count.toarray())", "compilation_passed": true, "time": 0.010986089706420898, "tests_passed": false, "error": "AttributeError"}

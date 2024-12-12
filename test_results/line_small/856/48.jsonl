@@ -1,0 +1,26 @@
+{"code": " list(combinations(matrix, 2))", "compilation_passed": true, "time": 0.0040149688720703125, "tests_passed": true, "error": null}
+{"code": " reduce(lambda x, y: x + y, [combination for combination in combinations(matrix, 2)], 0)", "compilation_passed": true, "time": 0.0072019100189208984, "tests_passed": false, "error": "TypeError"}
+{"code": " [reduce(lambda x, y: x * y, pair) for pair in list(combinations(matrix.flatten(), 2))]", "compilation_passed": true, "time": 0.007132053375244141, "tests_passed": true, "error": null}
+{"code": " np.array(list(combinations(matrix.flatten(), 2)))", "compilation_passed": true, "time": 0.007012844085693359, "tests_passed": true, "error": null}
+{"code": " list(combinations(matrix.reshape(-1), 2))", "compilation_passed": true, "time": 0.00728607177734375, "tests_passed": true, "error": null}
+{"code": " [item for row in matrix for item in row]", "compilation_passed": true, "time": 0.0041310787200927734, "tests_passed": true, "error": null}
+{"code": " np.array(list(combinations(np.nditer(matrix), 2)))", "compilation_passed": true, "time": 0.007086277008056641, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.006124019622802734, "tests_passed": false, "error": "TypeError"}
+{"code": " list(combinations(range(len(matrix)), 2))", "compilation_passed": true, "time": 0.0035200119018554688, "tests_passed": true, "error": null}
+{"code": " list(combinations(matrix.flat, 2))", "compilation_passed": true, "time": 0.006939888000488281, "tests_passed": true, "error": null}
+{"code": " [i for i in combinations(np.reshape(matrix, (-1,)), 2) if i[0] <= i[1]]", "compilation_passed": true, "time": 0.004683971405029297, "tests_passed": true, "error": null}
+{"code": " set(reduce(lambda x, y: x + y,", "compilation_passed": false, "time": 0.0002608299255371094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(reduce(lambda x, y: x+y,", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [reduce((lambda x, y: x * y), combination)", "compilation_passed": false, "time": 0.00019311904907226562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(combinations(np.ravel(matrix), 2))", "compilation_passed": true, "time": 0.007096052169799805, "tests_passed": true, "error": null}
+{"code": " list(reduce(lambda x, y: x*y, combinations(matrix.flatten(), 2)))", "compilation_passed": true, "time": 0.006662130355834961, "tests_passed": false, "error": "TypeError"}
+{"code": " [pair for pair in list(combinations(range(shape[0] * shape[1]), 2))]", "compilation_passed": true, "time": 0.007050991058349609, "tests_passed": true, "error": null}
+{"code": " np.array(list(combinations(matrix, 2)))", "compilation_passed": true, "time": 0.0035979747772216797, "tests_passed": true, "error": null}
+{"code": " [item for pair in combinations(matrix, 2) for item in pair]", "compilation_passed": true, "time": 0.0034978389739990234, "tests_passed": true, "error": null}
+{"code": " list(combinations(matrix.ravel(), 2))", "compilation_passed": true, "time": 0.006841897964477539, "tests_passed": true, "error": null}
+{"code": " list(combinations(matrix.flatten(), 2))", "compilation_passed": true, "time": 0.007459878921508789, "tests_passed": true, "error": null}
+{"code": " [(a, b) for a, b in combinations(range(shape[0] + 1), 2)]", "compilation_passed": true, "time": 0.0038390159606933594, "tests_passed": true, "error": null}
+{"code": " reduce(lambda x, y: x + y, combinations(range(len(matrix)), 2))", "compilation_passed": true, "time": 0.0041539669036865234, "tests_passed": true, "error": null}
+{"code": " combinations(range(len(matrix)), 2)", "compilation_passed": true, "time": 0.0038018226623535156, "tests_passed": true, "error": null}
+{"code": " [x for x in combinations(matrix.ravel(), 2) if x[0] != x[1]]", "compilation_passed": true, "time": 0.006769895553588867, "tests_passed": true, "error": null}
+{"code": " reduce(lambda x, y: x * y, matrix)", "compilation_passed": true, "time": 0.0035409927368164062, "tests_passed": true, "error": null}

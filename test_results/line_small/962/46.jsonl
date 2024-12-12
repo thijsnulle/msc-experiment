@@ -1,0 +1,19 @@
+{"code": "path.join(source_directory, f\"*.{extension.lstrip('.')}\"), recursive=True", "compilation_passed": true, "time": 0.019089937210083008, "tests_passed": true, "error": null}
+{"code": "path.join(source_directory, \"**/*\" + extension),", "compilation_passed": true, "time": 0.0114898681640625, "tests_passed": true, "error": null}
+{"code": "path.join(source_directory, f\"*.{extension.lstrip('.')}\")", "compilation_passed": true, "time": 0.01863884925842285, "tests_passed": true, "error": null}
+{"code": "path.join(source_directory, \"*\" + extension), recursive=True", "compilation_passed": true, "time": 0.018864870071411133, "tests_passed": true, "error": null}
+{"code": "path.join(source_directory, f\"*.{extension}\")", "compilation_passed": true, "time": 0.011224031448364258, "tests_passed": true, "error": null}
+{"code": "path.join(", "compilation_passed": false, "time": 0.0001971721649169922, "tests_passed": false, "error": "SyntaxError"}
+{"code": "path.join(source_directory, \"*\" + extension))", "compilation_passed": false, "time": 0.000244140625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "path.join(source_directory, \"**/*.\" + extension, recursive=True)", "compilation_passed": true, "time": 0.010529041290283203, "tests_passed": false, "error": "TypeError"}
+{"code": "path.join(source_directory, f\"**/*{extension}\"),", "compilation_passed": true, "time": 0.010508060455322266, "tests_passed": true, "error": null}
+{"code": "path.join(source_directory, f\"*.{extension.strip('.')}\")", "compilation_passed": true, "time": 0.019958972930908203, "tests_passed": true, "error": null}
+{"code": "path.join(source_directory, \"*\" + extension)", "compilation_passed": true, "time": 0.020402908325195312, "tests_passed": true, "error": null}
+{"code": "path.join(source_directory, '*' + extension), recursive=True)", "compilation_passed": false, "time": 0.00015616416931152344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "path.join(source_directory, f\"*{extension}\"), recursive=True", "compilation_passed": true, "time": 0.019017934799194336, "tests_passed": true, "error": null}
+{"code": "path.join(source_directory, '*.' + extension)", "compilation_passed": true, "time": 0.011974811553955078, "tests_passed": true, "error": null}
+{"code": "path.join(source_directory, f\"*{extension}\")", "compilation_passed": true, "time": 0.018363237380981445, "tests_passed": true, "error": null}
+{"code": "path.join(source_directory, f'*.{extension.lstrip(\".\")}')", "compilation_passed": true, "time": 0.018858909606933594, "tests_passed": true, "error": null}
+{"code": "path.join(source_directory, \"**\", \"*\" + extension),", "compilation_passed": true, "time": 0.01130986213684082, "tests_passed": true, "error": null}
+{"code": "path.join(source_directory, f\"**/*{extension}\"), recursive=True", "compilation_passed": true, "time": 0.027497053146362305, "tests_passed": true, "error": null}
+{"code": "path.join(source_directory, \"**\", \"*\" + extension), recursive=True", "compilation_passed": true, "time": 0.02780008316040039, "tests_passed": true, "error": null}

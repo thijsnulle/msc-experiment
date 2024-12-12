@@ -1,0 +1,11 @@
+{"code": " []", "compilation_passed": true, "time": 0.0034050941467285156, "tests_passed": false, "error": "TypeError"}
+{"code": " [SequenceMatcher(None, s, t).ratio() for t in s_list]", "compilation_passed": true, "time": 0.0034780502319335938, "tests_passed": false, "error": "TypeError"}
+{"code": " [SequenceMatcher(None, t, s).ratio() for t in s_list]", "compilation_passed": true, "time": 0.003367185592651367, "tests_passed": false, "error": "TypeError"}
+{"code": " [SequenceMatcher(None, s, other).ratio() for other in s_list if other != s]", "compilation_passed": true, "time": 0.0600428581237793, "tests_passed": true, "error": null}
+{"code": " [SequenceMatcher(None, x, s).ratio() for x in s_list]", "compilation_passed": true, "time": 0.0032758712768554688, "tests_passed": false, "error": "TypeError"}
+{"code": " [SequenceMatcher(None, s, ss).ratio() for ss in s_list]", "compilation_passed": true, "time": 0.0029981136322021484, "tests_passed": false, "error": "TypeError"}
+{"code": " [SequenceMatcher(None, item, s).ratio() for item in s_list if item != s]", "compilation_passed": true, "time": 0.053417205810546875, "tests_passed": true, "error": null}
+{"code": " [SequenceMatcher(None, s, other).ratio() for other in s_list]", "compilation_passed": true, "time": 0.0028409957885742188, "tests_passed": false, "error": "TypeError"}
+{"code": " [SequenceMatcher(None, s, t).ratio() for t in s_list if t != s]", "compilation_passed": true, "time": 0.06054997444152832, "tests_passed": true, "error": null}
+{"code": " [SequenceMatcher(None, i, s).ratio() for i in s_list if s != i]", "compilation_passed": true, "time": 0.08733677864074707, "tests_passed": true, "error": null}
+{"code": " [SequenceMatcher(None, s, x).ratio() for x in s_list if s != x]", "compilation_passed": true, "time": 0.08905696868896484, "tests_passed": true, "error": null}

@@ -1,0 +1,11 @@
+{"code": " n_components > 0:", "compilation_passed": true, "time": 0.03791308403015137, "tests_passed": false, "error": "IndexError"}
+{"code": " n_components < 1:", "compilation_passed": true, "time": 0.007420778274536133, "tests_passed": false, "error": "TypeError"}
+{"code": " n_components < 0:", "compilation_passed": true, "time": 0.036486148834228516, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(n_components, int) or n_components < 1:", "compilation_passed": true, "time": 0.086669921875, "tests_passed": true, "error": null}
+{"code": " isinstance(n_components, int) and n_components > 0:", "compilation_passed": true, "time": 0.03444194793701172, "tests_passed": false, "error": "IndexError"}
+{"code": " n_components <= 0:", "compilation_passed": true, "time": 0.0074138641357421875, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(n_components, int) or n_components <= 0:", "compilation_passed": true, "time": 0.08781599998474121, "tests_passed": true, "error": null}
+{"code": " not (isinstance(data, pd.DataFrame)):", "compilation_passed": true, "time": 0.03711199760437012, "tests_passed": false, "error": "IndexError"}
+{"code": " isinstance(n_components, (int, np.integer)) and n_components > 0:", "compilation_passed": true, "time": 0.035340070724487305, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(n_components, int):", "compilation_passed": true, "time": 0.03471827507019043, "tests_passed": false, "error": "IndexError"}
+{"code": " isinstance(n_components, int):", "compilation_passed": true, "time": 0.007687807083129883, "tests_passed": false, "error": "ValueError"}

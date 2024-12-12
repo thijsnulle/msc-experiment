@@ -1,0 +1,12 @@
+{"code": " pd.DataFrame(top_words, columns=[\"Word\", \"Frequency\"])", "compilation_passed": true, "time": 0.0232393741607666, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(top_words, columns=[\"Word\", \"Count\"])", "compilation_passed": true, "time": 0.15344715118408203, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=top_words, columns=[\"Word\", \"Count\"])", "compilation_passed": true, "time": 0.15645909309387207, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0003540515899658203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(words_freq, columns=[\"word\", \"count\"])", "compilation_passed": true, "time": 0.020303726196289062, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(top_words, columns=[\"word\", \"count\"])", "compilation_passed": true, "time": 0.022442102432250977, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=top_words, columns=[\"Word\", \"Freq\"])", "compilation_passed": true, "time": 0.021157264709472656, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"Word\": [word for word, _ in top_words], \"Frequency\": [count for _, count in top_words]})", "compilation_passed": true, "time": 0.02034592628479004, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(words_freq, columns=[\"Word\", \"Frequency\"])", "compilation_passed": true, "time": 0.022133827209472656, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(words_freq, columns=[\"Word\", \"Count\"])", "compilation_passed": true, "time": 0.17023205757141113, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(top_words, columns=[\"Words\", \"Frequency\"])", "compilation_passed": true, "time": 0.021978139877319336, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"Words\": [word for word, _ in top_words], \"Frequency\": [count for _, count in top_words]})", "compilation_passed": true, "time": 0.021202802658081055, "tests_passed": false, "error": "KeyError"}

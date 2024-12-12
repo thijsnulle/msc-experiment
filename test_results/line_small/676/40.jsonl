@@ -1,0 +1,18 @@
+{"code": " pd.Series(df.apply(determine_winner, axis=1), dtype=object)", "compilation_passed": true, "time": 0.006593942642211914, "tests_passed": true, "error": null}
+{"code": " pd.Series(df.apply(determine_winner, axis=1))", "compilation_passed": true, "time": 0.006184816360473633, "tests_passed": true, "error": null}
+{"code": " pd.Series(determine_winner(df))", "compilation_passed": true, "time": 0.011342048645019531, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Series(data=determine_winner, index=df.index, name='winner')", "compilation_passed": true, "time": 0.004532337188720703, "tests_passed": true, "error": null}
+{"code": " pd.Series(determine_winner, index=df.index)", "compilation_passed": true, "time": 0.00418400764465332, "tests_passed": true, "error": null}
+{"code": " pd.Series(index=df.index, dtype='object')", "compilation_passed": true, "time": 0.004461050033569336, "tests_passed": true, "error": null}
+{"code": " pd.Series(data=df.apply(determine_winner, axis=1), index=df.index, name='winner')", "compilation_passed": true, "time": 0.00633692741394043, "tests_passed": true, "error": null}
+{"code": " pd.Series(index=df.index, dtype=object)", "compilation_passed": true, "time": 0.004242897033691406, "tests_passed": true, "error": null}
+{"code": " pd.Series(df.apply(determine_winner, axis=1), name='winner')", "compilation_passed": true, "time": 0.006331205368041992, "tests_passed": true, "error": null}
+{"code": " pd.Series(data=determine_winner(df), index=df.index)", "compilation_passed": true, "time": 0.007790088653564453, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Series(df['team1'].map(determine_winner), name='winner')", "compilation_passed": true, "time": 0.019381046295166016, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(data=[determine_winner(row) for _, row in df.iterrows()])", "compilation_passed": true, "time": 0.0063381195068359375, "tests_passed": true, "error": null}
+{"code": " pd.Series(df['team1'].apply(determine_winner))", "compilation_passed": true, "time": 0.013809919357299805, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(map(determine_winner, df.iterrows()), name='winner', index=df.index)", "compilation_passed": true, "time": 0.011911869049072266, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(map(determine_winner, df.to_dict('records')), name='winner', index=df.index)", "compilation_passed": true, "time": 0.008061885833740234, "tests_passed": true, "error": null}
+{"code": " pd.Series(df['team1'], index=df.index)", "compilation_passed": true, "time": 0.0051021575927734375, "tests_passed": true, "error": null}
+{"code": " df.apply(determine_winner, axis=1)", "compilation_passed": true, "time": 0.00712895393371582, "tests_passed": true, "error": null}
+{"code": " pd.Series(map(determine_winner, df.to_dict('records')), index=df.index, name='winner')", "compilation_passed": true, "time": 0.007868051528930664, "tests_passed": true, "error": null}

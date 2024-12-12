@@ -1,0 +1,18 @@
+{"code": " soup.find(\"title\").text", "compilation_passed": true, "time": 0.0025141239166259766, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.find(\"title\")", "compilation_passed": true, "time": 0.0018918514251708984, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.find(\"title\").text if soup.find(\"title\") is not None else \"None\"", "compilation_passed": true, "time": 0.001987934112548828, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.title.string if soup.title else None", "compilation_passed": true, "time": 0.0017910003662109375, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.find(\"title\").text if soup.find(\"title\") is not None else None", "compilation_passed": true, "time": 0.001772165298461914, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.find(\"h1\", text=re.compile(r\"\\w+\"))", "compilation_passed": true, "time": 0.0015039443969726562, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.find(\"title\").text.strip()", "compilation_passed": true, "time": 0.0013320446014404297, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.find(\"title\").string", "compilation_passed": true, "time": 0.0016429424285888672, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.find(\"title\").get_text().strip()", "compilation_passed": true, "time": 0.0013399124145507812, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.find(\"title\").get_text() if soup.find(\"title\") else \"None\"", "compilation_passed": true, "time": 0.0020439624786376953, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.find('title')", "compilation_passed": true, "time": 0.0013420581817626953, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.find(\"title\").get_text()", "compilation_passed": true, "time": 0.0014281272888183594, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.title.string", "compilation_passed": true, "time": 0.0016350746154785156, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.title.text if soup.title else \"None\"", "compilation_passed": true, "time": 0.0013349056243896484, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.find_all(\"title\")", "compilation_passed": true, "time": 0.0015420913696289062, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.find(\"title\").string if soup.find(\"title\") else None", "compilation_passed": true, "time": 0.0016241073608398438, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.title.get_text() if soup.title is not None else \"None\"", "compilation_passed": true, "time": 0.0014910697937011719, "tests_passed": false, "error": "No module named 'bs4'"}
+{"code": " soup.find(\"title\").get_text().strip() if soup.find(\"title\") else None", "compilation_passed": true, "time": 0.0015480518341064453, "tests_passed": false, "error": "No module named 'bs4'"}

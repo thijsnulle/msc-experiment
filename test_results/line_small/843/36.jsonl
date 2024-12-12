@@ -1,0 +1,13 @@
+{"code": " random.sample(WORD_LIST, sentence_len)", "compilation_passed": true, "time": 0.00994110107421875, "tests_passed": false, "error": "ValueError"}
+{"code": " random.choices(WORD_LIST, weights=[1, 2, 3, 4, 5, 6], k=sentence_len)", "compilation_passed": true, "time": 0.009135246276855469, "tests_passed": false, "error": "TypeError"}
+{"code": " ''", "compilation_passed": true, "time": 0.00556182861328125, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.009479999542236328, "tests_passed": false, "error": "TypeError"}
+{"code": " \"\".join(random.choice(WORD_LIST) for _ in range(sentence_len))", "compilation_passed": true, "time": 0.006632089614868164, "tests_passed": true, "error": null}
+{"code": " [random.choice(WORD_LIST) for _ in range(sentence_len)]", "compilation_passed": true, "time": 0.010478019714355469, "tests_passed": false, "error": "TypeError"}
+{"code": " \"\".join(random.choices(WORD_LIST, k=sentence_len))", "compilation_passed": true, "time": 0.0069692134857177734, "tests_passed": true, "error": null}
+{"code": " \"\"", "compilation_passed": true, "time": 0.006128787994384766, "tests_passed": true, "error": null}
+{"code": " \"\".join(", "compilation_passed": false, "time": 0.0001761913299560547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\".join(random.choice(WORD_LIST).lower() for _ in range(sentence_len))", "compilation_passed": true, "time": 0.004918098449707031, "tests_passed": true, "error": null}
+{"code": " [random.choice(WORD_LIST)]", "compilation_passed": true, "time": 0.009405136108398438, "tests_passed": false, "error": "TypeError"}
+{"code": " \"\".join([random.choice(WORD_LIST) for _ in range(sentence_len)])", "compilation_passed": true, "time": 0.005800008773803711, "tests_passed": true, "error": null}
+{"code": " ' '.join(random.choice(WORD_LIST) for _ in range(sentence_len))", "compilation_passed": true, "time": 0.005899667739868164, "tests_passed": true, "error": null}

@@ -1,0 +1,22 @@
+{"code": "call([sys.executable, script_path])", "compilation_passed": true, "time": 0.012282848358154297, "tests_passed": true, "error": null}
+{"code": "run(['python', script_path])", "compilation_passed": true, "time": 0.1356968879699707, "tests_passed": true, "error": null}
+{"code": "call([\"python\", script_path])", "compilation_passed": true, "time": 0.06761479377746582, "tests_passed": true, "error": null}
+{"code": "Popen(f'python3 {script_path}', shell=True, stdout=subprocess.PIPE)", "compilation_passed": true, "time": 0.12980890274047852, "tests_passed": true, "error": null}
+{"code": "Popen(script_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=timeout)", "compilation_passed": true, "time": 0.012524127960205078, "tests_passed": true, "error": null}
+{"code": "call([\"timeout\", str(timeout), script_path])", "compilation_passed": true, "time": 0.06924700736999512, "tests_passed": true, "error": null}
+{"code": "call(['python', script_path])", "compilation_passed": true, "time": 0.06840705871582031, "tests_passed": true, "error": null}
+{"code": "call(\"python \" + script_path, timeout=timeout, shell=True)", "compilation_passed": true, "time": 0.0857689380645752, "tests_passed": true, "error": null}
+{"code": "Popen(", "compilation_passed": false, "time": 0.000270843505859375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "check_output(f'python3 {script_path}', timeout=timeout)", "compilation_passed": true, "time": 0.11684703826904297, "tests_passed": true, "error": null}
+{"code": "call([sys.executable, script_path], timeout=timeout, shell=True)", "compilation_passed": true, "time": 0.010246038436889648, "tests_passed": true, "error": null}
+{"code": "call(f\"python {script_path}\", timeout=timeout, stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.06541109085083008, "tests_passed": true, "error": null}
+{"code": "check_call([script_path])", "compilation_passed": true, "time": 0.06934714317321777, "tests_passed": true, "error": null}
+{"code": "Popen([script_path])", "compilation_passed": true, "time": 0.12348294258117676, "tests_passed": true, "error": null}
+{"code": "call(script_path)", "compilation_passed": true, "time": 0.07585406303405762, "tests_passed": true, "error": null}
+{"code": "check_call([sys.executable, script_path])", "compilation_passed": true, "time": 0.010626792907714844, "tests_passed": true, "error": null}
+{"code": "run(f\"{script_path} {timeout}\", shell=True, timeout=timeout)", "compilation_passed": true, "time": 0.1638050079345703, "tests_passed": true, "error": null}
+{"code": "run(script_path, shell=True, timeout=timeout)", "compilation_passed": true, "time": 0.1672518253326416, "tests_passed": true, "error": null}
+{"code": "run([sys.executable, script_path], timeout=timeout,", "compilation_passed": false, "time": 0.00029277801513671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "Popen([script_path], timeout=timeout, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=False)", "compilation_passed": true, "time": 0.011815309524536133, "tests_passed": true, "error": null}
+{"code": "check_call(", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "run(script_path, timeout=timeout)", "compilation_passed": true, "time": 0.12445735931396484, "tests_passed": true, "error": null}

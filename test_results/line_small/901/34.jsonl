@@ -1,0 +1,12 @@
+{"code": " []", "compilation_passed": true, "time": 0.017121076583862305, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(d)", "compilation_passed": true, "time": 0.011447906494140625, "tests_passed": true, "error": null}
+{"code": "", "compilation_passed": true, "time": 0.010885000228881836, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.011779069900512695, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()  # Return empty DataFrame", "compilation_passed": true, "time": 0.010968923568725586, "tests_passed": true, "error": null}
+{"code": " None", "compilation_passed": true, "time": 0.011083126068115234, "tests_passed": true, "error": null}
+{"code": " d", "compilation_passed": true, "time": 0.011109113693237305, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()  # Return an empty DataFrame", "compilation_passed": true, "time": 0.011241912841796875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=d.keys())  # Return an empty DataFrame with the same column names as the input list", "compilation_passed": true, "time": 0.013165712356567383, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(columns=pd.DataFrame(d).columns)", "compilation_passed": true, "time": 0.011620044708251953, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([], columns=[\"x\", \"y\", \"z\"])  # Return an empty DataFrame", "compilation_passed": true, "time": 0.014636993408203125, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()  # Return an empty pandas DataFrame", "compilation_passed": true, "time": 0.011596918106079102, "tests_passed": true, "error": null}

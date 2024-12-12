@@ -1,0 +1,19 @@
+{"code": "xlabel(\"Time difference (s)\")", "compilation_passed": true, "time": 0.015673160552978516, "tests_passed": true, "error": null}
+{"code": "show()  # This will display the bar chart", "compilation_passed": true, "time": 0.014635086059570312, "tests_passed": true, "error": null}
+{"code": "show()", "compilation_passed": true, "time": 0.014248132705688477, "tests_passed": true, "error": null}
+{"code": "xticks(range(len(differences)), time_strings)", "compilation_passed": true, "time": 0.010496139526367188, "tests_passed": false, "error": "ValueError"}
+{"code": "xticks(np.arange(len(differences)), time_strings)", "compilation_passed": true, "time": 0.012038230895996094, "tests_passed": false, "error": "ValueError"}
+{"code": "xticks(np.arange(len(differences)), np.arange(len(differences)))", "compilation_passed": true, "time": 0.027190208435058594, "tests_passed": true, "error": null}
+{"code": "xticks([x for x in range(len(differences))], [str(x) for x in differences])", "compilation_passed": true, "time": 0.02505803108215332, "tests_passed": true, "error": null}
+{"code": "xticks([i for i in range(len(differences))])", "compilation_passed": true, "time": 0.026081085205078125, "tests_passed": true, "error": null}
+{"code": "xticks(np.arange(len(differences)), np.arange(len(differences)), rotation=45)", "compilation_passed": true, "time": 0.028038978576660156, "tests_passed": true, "error": null}
+{"code": "xlabel(\"time difference (sec.)\")", "compilation_passed": true, "time": 0.014347076416015625, "tests_passed": true, "error": null}
+{"code": "xlabel(\"Differences\")", "compilation_passed": true, "time": 0.01547384262084961, "tests_passed": true, "error": null}
+{"code": "xlabel(\"Bar Chart\")", "compilation_passed": true, "time": 0.016473054885864258, "tests_passed": true, "error": null}
+{"code": "title(\"Task 3 Output\")", "compilation_passed": true, "time": 0.017628908157348633, "tests_passed": true, "error": null}
+{"code": "xticks(range(len(differences)), time_strings, rotation=90)", "compilation_passed": true, "time": 0.011866092681884766, "tests_passed": false, "error": "ValueError"}
+{"code": "ylabel(\"Time difference (s)\")", "compilation_passed": true, "time": 0.014341115951538086, "tests_passed": true, "error": null}
+{"code": "xticks(np.arange(len(differences)), [f\"{d:%H:%M:%S.%f}\" for d in time_strings])", "compilation_passed": true, "time": 0.014206886291503906, "tests_passed": false, "error": "ValueError"}
+{"code": "xticks(np.arange(0, len(differences), 10), np.arange(1, len(differences) + 1, 10))", "compilation_passed": true, "time": 0.019564151763916016, "tests_passed": true, "error": null}
+{"code": "xticks(", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "xlabel(\"Time difference (seconds)\")", "compilation_passed": true, "time": 0.01641988754272461, "tests_passed": true, "error": null}

@@ -1,0 +1,6 @@
+{"code": " SALT_LENGTH < 0:", "compilation_passed": true, "time": 0.005931854248046875, "tests_passed": true, "error": null}
+{"code": " not isinstance(password, str):", "compilation_passed": true, "time": 0.01264500617980957, "tests_passed": false, "error": "ValueError"}
+{"code": " len(password) == 0:", "compilation_passed": true, "time": 0.01189875602722168, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(password, str) or len(password) < 4:", "compilation_passed": true, "time": 0.011201143264770508, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(password, str) == False or isinstance(PREFIX, str) == False:", "compilation_passed": true, "time": 0.012349843978881836, "tests_passed": false, "error": "ValueError"}
+{"code": " not SALT_LENGTH:", "compilation_passed": true, "time": 0.008585929870605469, "tests_passed": true, "error": null}

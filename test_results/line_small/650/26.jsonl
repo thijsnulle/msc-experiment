@@ -1,0 +1,16 @@
+{"code": " datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S')", "compilation_passed": true, "time": 0.012115955352783203, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.datetime.fromisoformat(date_str)", "compilation_passed": true, "time": 0.0086669921875, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.datetime.strptime(date_str, \"%Y-%m-%d %H:%M:%S\").date()", "compilation_passed": true, "time": 0.009188175201416016, "tests_passed": false, "error": "AttributeError"}
+{"code": " parse(date_str).replace(tzinfo=tz)", "compilation_passed": true, "time": 0.0015540122985839844, "tests_passed": true, "error": null}
+{"code": " parse(date_str)", "compilation_passed": true, "time": 0.009313106536865234, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.strptime(date_str, \"%Y-%m-%d %H:%M:%S\").astimezone(tz)", "compilation_passed": true, "time": 0.0012941360473632812, "tests_passed": true, "error": null}
+{"code": " datetime.strptime(date_str, \"%Y-%m-%d %H:%M:%S\")", "compilation_passed": true, "time": 0.009221792221069336, "tests_passed": false, "error": "TypeError"}
+{"code": " parse(date_str).replace(tzinfo=pytz.utc)", "compilation_passed": true, "time": 0.0013582706451416016, "tests_passed": true, "error": null}
+{"code": " datetime.datetime.strptime(date_str, \"%Y-%m-%d %H:%M:%S\").replace(tzinfo=pytz.UTC)", "compilation_passed": true, "time": 0.009207010269165039, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S').replace(tzinfo=tz)", "compilation_passed": true, "time": 0.0014719963073730469, "tests_passed": true, "error": null}
+{"code": " datetime.fromisoformat(date_str).astimezone(tz)", "compilation_passed": true, "time": 0.000965118408203125, "tests_passed": true, "error": null}
+{"code": " datetime.fromisoformat(date_str).replace(tzinfo=tz)", "compilation_passed": true, "time": 0.0011529922485351562, "tests_passed": true, "error": null}
+{"code": " parse(date_str).astimezone(tz)", "compilation_passed": true, "time": 0.0015981197357177734, "tests_passed": true, "error": null}
+{"code": " datetime.strptime(date_str, \"%Y-%m-%d %H:%M:%S\").replace(tzinfo=tz)", "compilation_passed": true, "time": 0.0011470317840576172, "tests_passed": true, "error": null}
+{"code": " datetime.strptime(date_str, \"%Y-%m-%d %H:%M:%S\").replace(tzinfo=pytz.UTC)", "compilation_passed": true, "time": 0.0014078617095947266, "tests_passed": true, "error": null}
+{"code": " datetime.datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S').replace(tzinfo=pytz.UTC)", "compilation_passed": true, "time": 0.010096311569213867, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,6 @@
+{"code": " not isinstance(dataframe, pd.DataFrame):", "compilation_passed": true, "time": 0.004972934722900391, "tests_passed": true, "error": null}
+{"code": " isinstance(dataframe, pd.DataFrame) and 'UnicodeString' in dataframe.columns:", "compilation_passed": true, "time": 0.010796070098876953, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(dataframe, pd.DataFrame) and \"UnicodeString\" in dataframe.columns:", "compilation_passed": true, "time": 0.010571002960205078, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(dataframe, pd.DataFrame):", "compilation_passed": true, "time": 0.011879920959472656, "tests_passed": false, "error": "TypeError"}
+{"code": " type(dataframe) is not pd.DataFrame:", "compilation_passed": true, "time": 0.004318952560424805, "tests_passed": true, "error": null}
+{"code": " dataframe.empty or type(dataframe) != pd.DataFrame or not 'UnicodeString' in dataframe:", "compilation_passed": true, "time": 0.01341700553894043, "tests_passed": false, "error": "TypeError"}

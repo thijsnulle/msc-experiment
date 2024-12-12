@@ -1,0 +1,23 @@
+{"code": " not isinstance(P, np.ndarray) or P.ndim != 2 or P.shape[1] != 3:", "compilation_passed": true, "time": 0.13120508193969727, "tests_passed": true, "error": null}
+{"code": " not isinstance(P, np.ndarray) or P.ndim != 2 or P.shape[0] != 3:", "compilation_passed": true, "time": 0.09793400764465332, "tests_passed": false, "error": "TypeError"}
+{"code": " P.ndim != 2 or T.ndim != 3:", "compilation_passed": true, "time": 0.14031577110290527, "tests_passed": true, "error": null}
+{"code": " type(P) is not np.ndarray or type(T) is not np.ndarray:", "compilation_passed": true, "time": 0.1301865577697754, "tests_passed": true, "error": null}
+{"code": " not (P.shape == (3, 3)):", "compilation_passed": true, "time": 0.09946227073669434, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(P, np.ndarray):", "compilation_passed": true, "time": 0.13136577606201172, "tests_passed": true, "error": null}
+{"code": " not isinstance(P, np.ndarray) or not isinstance(T, np.ndarray):", "compilation_passed": true, "time": 0.13846421241760254, "tests_passed": true, "error": null}
+{"code": " isinstance(P, np.ndarray) and len(P.shape) == 2:", "compilation_passed": true, "time": 0.009618997573852539, "tests_passed": false, "error": "TypeError"}
+{"code": " len(P.shape) == 2:", "compilation_passed": true, "time": 0.01016998291015625, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(P, np.ndarray) and P.shape[1] != 3:", "compilation_passed": true, "time": 0.13337993621826172, "tests_passed": true, "error": null}
+{"code": " P.shape[0] != 3:", "compilation_passed": true, "time": 0.10441184043884277, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(P, np.ndarray) or P.ndim != 2:", "compilation_passed": true, "time": 0.13218307495117188, "tests_passed": true, "error": null}
+{"code": " not (np.shape(P) == (3, 3) and np.shape(T) == (3, 3, 3)):", "compilation_passed": true, "time": 0.09794902801513672, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(P, np.ndarray):", "compilation_passed": true, "time": 0.011934041976928711, "tests_passed": false, "error": "TypeError"}
+{"code": " P.ndim != 2 or P.shape[1] != 3:", "compilation_passed": true, "time": 0.1336979866027832, "tests_passed": true, "error": null}
+{"code": " (isinstance(P, np.ndarray) and", "compilation_passed": false, "time": 0.0001220703125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (P.shape[1] != 3) or (T.shape[0] != 3) or (T.shape[1] != 3) or (T.shape[2] != 3):", "compilation_passed": true, "time": 0.12908101081848145, "tests_passed": true, "error": null}
+{"code": " P.shape != (3, 3):", "compilation_passed": true, "time": 0.10322189331054688, "tests_passed": false, "error": "TypeError"}
+{"code": " P.shape != (N, 3):", "compilation_passed": true, "time": 0.01341390609741211, "tests_passed": false, "error": "NameError"}
+{"code": " P.ndim != 2 or P[0, 0] != P.shape[0]:", "compilation_passed": true, "time": 0.009716987609863281, "tests_passed": false, "error": "TypeError"}
+{"code": " P.shape[1] != 3:", "compilation_passed": true, "time": 0.13145995140075684, "tests_passed": true, "error": null}
+{"code": " not isinstance(P, np.ndarray) or P.ndim != 2 or P.shape[0] != 3 or P.shape[1] != 3:", "compilation_passed": true, "time": 0.10715699195861816, "tests_passed": false, "error": "TypeError"}
+{"code": " P.shape[1] == 3 and T.shape == (3, 3, 3):", "compilation_passed": true, "time": 0.010529041290283203, "tests_passed": false, "error": "TypeError"}

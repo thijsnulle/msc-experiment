@@ -1,0 +1,13 @@
+{"code": " df[df[\"Word\"].str.match(regex)]", "compilation_passed": true, "time": 0.028137922286987305, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.match(regex)]", "compilation_passed": true, "time": 0.030829191207885742, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.startswith(regex)]", "compilation_passed": true, "time": 0.006850004196166992, "tests_passed": true, "error": null}
+{"code": " df.loc[df['Word'].str.match(regex)]", "compilation_passed": true, "time": 0.030804872512817383, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.contains(regex)]", "compilation_passed": true, "time": 0.03248715400695801, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.match(regex, case=False, regex=True)]", "compilation_passed": true, "time": 0.01880788803100586, "tests_passed": false, "error": "TypeError"}
+{"code": " df.loc[df['Word'].str.lower().str.match(regex)]", "compilation_passed": true, "time": 0.031271934509277344, "tests_passed": true, "error": null}
+{"code": " df.query('Word.str.match(regex)')", "compilation_passed": true, "time": 0.02467489242553711, "tests_passed": false, "error": "pandas.errors.UndefinedVariableError"}
+{"code": " df[df['Word'].str.match(regex, case=False)]", "compilation_passed": true, "time": 0.03155922889709473, "tests_passed": true, "error": null}
+{"code": " df.loc[df['Word'].str.lower().str.contains(regex)]", "compilation_passed": true, "time": 0.02838301658630371, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.lower().str.contains(regex)]", "compilation_passed": true, "time": 0.031842947006225586, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].apply(lambda word: re.match(regex, word))]", "compilation_passed": true, "time": 0.020719051361083984, "tests_passed": false, "error": "NameError"}
+{"code": " df[df['Word'].apply(lambda x: re.match(regex, x))]", "compilation_passed": true, "time": 0.017740249633789062, "tests_passed": false, "error": "NameError"}

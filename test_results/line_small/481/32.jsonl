@@ -1,0 +1,10 @@
+{"code": " [", "compilation_passed": false, "time": 0.00018906593322753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.009372949600219727, "tests_passed": true, "error": null}
+{"code": " [re.sub(r',\\s*', ', ', s).strip() for s in df[\"Original String\"]]", "compilation_passed": true, "time": 0.009967803955078125, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Original String\"].map(lambda x: \" \".join(re.findall(r\"(?:[^,\\s]+|[\\s,]+)\", x)))", "compilation_passed": true, "time": 0.00872492790222168, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.apply(", "compilation_passed": false, "time": 0.00016999244689941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[\"Original String\"].map(lambda x: re.sub(r'\\s+', ' ', x))", "compilation_passed": true, "time": 0.008942127227783203, "tests_passed": false, "error": "AttributeError"}
+{"code": " [re.sub(r'(?:,|\\s)\\s*(?:,|\\s)', r\" \\g<0> \", s).strip() for s in df['Original String']]", "compilation_passed": true, "time": 0.008900165557861328, "tests_passed": false, "error": "ValueError"}
+{"code": " [re.sub(r'\\s+', ' ', s) for s in df[\"Original String\"]]", "compilation_passed": true, "time": 0.008347749710083008, "tests_passed": false, "error": "ValueError"}
+{"code": " [re.sub(r'\\s*,\\s*', ', ', s).strip() for s in df['Original String']]", "compilation_passed": true, "time": 0.00847625732421875, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Original String\"].apply(lambda s: re.sub(r\"\\s+,\\s+\", \", \", s))", "compilation_passed": true, "time": 0.009039878845214844, "tests_passed": false, "error": "AttributeError"}

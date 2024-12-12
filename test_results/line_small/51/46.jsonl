@@ -1,0 +1,11 @@
+{"code": "scatter(selected_df[\"Age\"], selected_df[\"Height\"], c=selected_df[\"Cluster\"], cmap=plt.cm.hsv)", "compilation_passed": true, "time": 0.12622809410095215, "tests_passed": true, "error": null}
+{"code": "scatter(selected_df[\"Age\"], selected_df[\"Height\"], c=selected_df[\"Cluster\"], cmap='hsv')", "compilation_passed": true, "time": 0.1532878875732422, "tests_passed": true, "error": null}
+{"code": "scatter(selected_df[\"Age\"], selected_df[\"Height\"], c=selected_df[\"Cluster\"])", "compilation_passed": true, "time": 0.13655400276184082, "tests_passed": true, "error": null}
+{"code": "scatter(selected_df[\"Age\"], selected_df[\"Height\"], c=selected_df[\"Cluster\"], cmap=\"rainbow\")", "compilation_passed": true, "time": 0.13347101211547852, "tests_passed": true, "error": null}
+{"code": "scatter(selected_df[\"Age\"], selected_df[\"Height\"], c=selected_df[\"Cluster\"], cmap='Spectral')", "compilation_passed": true, "time": 0.12843585014343262, "tests_passed": true, "error": null}
+{"code": "scatter(x=selected_df[\"Age\"], y=selected_df[\"Height\"], c=selected_df[\"Cluster\"])", "compilation_passed": true, "time": 0.13627195358276367, "tests_passed": true, "error": null}
+{"code": "scatter(", "compilation_passed": false, "time": 0.0006411075592041016, "tests_passed": false, "error": "SyntaxError"}
+{"code": "scatter(x=\"Age\", y=\"Height\", c=selected_df[\"Cluster\"], cmap=\"jet\", data=selected_df)", "compilation_passed": true, "time": 0.13424015045166016, "tests_passed": true, "error": null}
+{"code": "scatter(selected_df['Age'], selected_df['Height'], c=selected_df['Cluster'])", "compilation_passed": true, "time": 0.1301889419555664, "tests_passed": true, "error": null}
+{"code": "scatter(selected_df['Age'], selected_df['Height'], c=selected_df['Cluster'], cmap='brg')", "compilation_passed": true, "time": 0.042092084884643555, "tests_passed": false, "error": "AttributeError"}
+{"code": "scatter(selected_df[\"Age\"], selected_df[\"Height\"], c=selected_df[\"Cluster\"], cmap='rainbow')", "compilation_passed": true, "time": 0.043966054916381836, "tests_passed": false, "error": "AttributeError"}

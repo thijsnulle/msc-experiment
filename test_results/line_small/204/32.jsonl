@@ -1,0 +1,5 @@
+{"code": " Counter(L).most_common(1)[0][0]", "compilation_passed": true, "time": 0.015477895736694336, "tests_passed": true, "error": null}
+{"code": " Counter(L).most_common()[0][0]", "compilation_passed": true, "time": 0.016572952270507812, "tests_passed": true, "error": null}
+{"code": " max(Counter(L), key=L.count)", "compilation_passed": true, "time": 0.01628708839416504, "tests_passed": true, "error": null}
+{"code": " max(Counter(L), key=lambda x: Counter(L)[x])", "compilation_passed": true, "time": 0.01577901840209961, "tests_passed": true, "error": null}
+{"code": " max(Counter(L).keys(), key=lambda k: Counter(L)[k])", "compilation_passed": true, "time": 0.01662588119506836, "tests_passed": true, "error": null}

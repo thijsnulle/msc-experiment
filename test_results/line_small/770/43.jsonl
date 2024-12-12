@@ -1,0 +1,12 @@
+{"code": " not (isinstance(num_samples, int) and num_samples > 0):", "compilation_passed": true, "time": 0.008870124816894531, "tests_passed": true, "error": null}
+{"code": " test_size < 2.0:", "compilation_passed": true, "time": 0.01321721076965332, "tests_passed": false, "error": "ValueError"}
+{"code": " random_seed is not None:", "compilation_passed": true, "time": 0.010957002639770508, "tests_passed": false, "error": "ValueError"}
+{"code": " random_seed is None:", "compilation_passed": true, "time": 0.015504121780395508, "tests_passed": false, "error": "ValueError"}
+{"code": " num_samples <= 2:", "compilation_passed": true, "time": 0.009295225143432617, "tests_passed": true, "error": null}
+{"code": " test_size <= 0:", "compilation_passed": true, "time": 0.009935140609741211, "tests_passed": true, "error": null}
+{"code": " test_size < 2:", "compilation_passed": true, "time": 0.014497995376586914, "tests_passed": false, "error": "ValueError"}
+{"code": " random_seed:", "compilation_passed": true, "time": 0.02343606948852539, "tests_passed": false, "error": "ValueError"}
+{"code": " num_samples < 2:", "compilation_passed": true, "time": 0.010762691497802734, "tests_passed": true, "error": null}
+{"code": " noise_strength < 0:", "compilation_passed": true, "time": 0.009248018264770508, "tests_passed": true, "error": null}
+{"code": " noise_strength < 0 or test_size < 2:", "compilation_passed": true, "time": 0.018154382705688477, "tests_passed": false, "error": "ValueError"}
+{"code": " noise_strength > 1:", "compilation_passed": true, "time": 0.03552103042602539, "tests_passed": false, "error": "ValueError"}

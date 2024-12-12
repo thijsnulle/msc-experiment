@@ -1,0 +1,12 @@
+{"code": " data_str.split(\",\")", "compilation_passed": true, "time": 0.005548954010009766, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_csv(data_str.split(\",\"), sep=separator)", "compilation_passed": true, "time": 0.007493734359741211, "tests_passed": false, "error": "ValueError"}
+{"code": " data_str.split(separator)", "compilation_passed": true, "time": 0.006789207458496094, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.fromstring(data_str, dtype=int, sep=separator)", "compilation_passed": true, "time": 0.4239170551300049, "tests_passed": true, "error": null}
+{"code": " data_str.replace(\" \", \"\").strip()", "compilation_passed": true, "time": 0.0057260990142822266, "tests_passed": false, "error": "AttributeError"}
+{"code": " data_str.strip()", "compilation_passed": true, "time": 0.0057811737060546875, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.0053310394287109375, "tests_passed": false, "error": "AttributeError"}
+{"code": " [int(s) for s in data_str.split(separator)]", "compilation_passed": true, "time": 0.005763053894042969, "tests_passed": false, "error": "AttributeError"}
+{"code": " [int(i) for i in data_str.split(separator)]", "compilation_passed": true, "time": 0.005468845367431641, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(data_str.split(separator))", "compilation_passed": true, "time": 0.39842796325683594, "tests_passed": false, "error": "ValueError"}
+{"code": " np.fromstring(data_str.strip(), dtype=int, sep=separator)", "compilation_passed": true, "time": 0.45308399200439453, "tests_passed": true, "error": null}
+{"code": " np.fromstring(data_str, sep=separator)", "compilation_passed": true, "time": 0.4509239196777344, "tests_passed": true, "error": null}

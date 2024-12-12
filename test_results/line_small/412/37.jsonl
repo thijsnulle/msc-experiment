@@ -1,0 +1,10 @@
+{"code": " {key: unicodedata.normalize('C', base64.b64decode(value).decode(ENCODING)) for key, value in data.items()}", "compilation_passed": true, "time": 0.020739078521728516, "tests_passed": false, "error": "ValueError"}
+{"code": " {}", "compilation_passed": true, "time": 0.012234926223754883, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.0001728534698486328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dict()", "compilation_passed": true, "time": 0.013416051864624023, "tests_passed": true, "error": null}
+{"code": " {key: base64.b64decode(value.encode(ENCODING)).decode(ENCODING).encode('utf-8').decode(ENCODING).encode('utf-8').decode('utf-8').encode(ENCODING).decode(ENCODING) for key, value in data.items()}", "compilation_passed": true, "time": 0.01710796356201172, "tests_passed": true, "error": null}
+{"code": " {k: _decode_base64(v) for k, v in data.items()}", "compilation_passed": true, "time": 0.016160964965820312, "tests_passed": false, "error": "NameError"}
+{"code": " {k: base64.b64decode(v.encode(ENCODING)).decode(ENCODING).replace('\\0', '') for k, v in data.items()}", "compilation_passed": true, "time": 0.01733708381652832, "tests_passed": true, "error": null}
+{"code": " {key: base64.b64decode(value.encode(ENCODING)).decode(ENCODING)", "compilation_passed": false, "time": 0.00018525123596191406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {k: base64.b64decode(v).decode(ENCODING) for k, v in data.items()}", "compilation_passed": true, "time": 0.01725316047668457, "tests_passed": true, "error": null}
+{"code": " {key: base64.b64decode(value).decode(ENCODING)", "compilation_passed": false, "time": 0.00017833709716796875, "tests_passed": false, "error": "SyntaxError"}

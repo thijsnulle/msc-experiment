@@ -1,0 +1,28 @@
+{"code": " \"Your IP rate limit has been exceeded\" in response.text", "compilation_passed": true, "time": 0.0016331672668457031, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"Rate limit exceeded. You've exceeded the rate limit.\" in response.text", "compilation_passed": true, "time": 0.0013701915740966797, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"x-ratelimit-remaining\" in response.headers", "compilation_passed": true, "time": 0.0015339851379394531, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " response.reason.startswith(\"API rate limit exceeded\")", "compilation_passed": true, "time": 0.0013740062713623047, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"Too many requests\" in response.text", "compilation_passed": true, "time": 0.0013208389282226562, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " response.headers[\"X-RateLimit-Remaining\"] < 25", "compilation_passed": true, "time": 0.0023620128631591797, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " repo_info[\"documentation_url\"] is not None", "compilation_passed": true, "time": 0.0013897418975830078, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"Your account has been disabled.\" in response.text", "compilation_passed": true, "time": 0.001458883285522461, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"Too many requests\" in response.content.decode(\"utf-8\")", "compilation_passed": true, "time": 0.001268148422241211, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " response.headers[\"Retry-After\"] is not None", "compilation_passed": true, "time": 0.001516103744506836, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"github.com\" in repo_info[\"documentation_url\"]", "compilation_passed": true, "time": 0.0013871192932128906, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " response.reason == \"API rate limit exceeded\"", "compilation_passed": true, "time": 0.001863241195678711, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"RatelimitExceeded\" in response.text", "compilation_passed": true, "time": 0.0012729167938232422, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"ratelimited\" in response.text.lower()", "compilation_passed": true, "time": 0.0014040470123291016, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"The GitHub API rate limit has been exceeded.\" in response.text", "compilation_passed": true, "time": 0.0014400482177734375, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"API rate limit exceeded\" in response.text", "compilation_passed": true, "time": 0.0014410018920898438, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"Your IP rate limit has been exceeded for this user\" in response.text", "compilation_passed": true, "time": 0.001238107681274414, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"You've hit your API rate limit\" in response.text", "compilation_passed": true, "time": 0.0017108917236328125, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"You have made too many requests within a one-minute period.\" in response.text", "compilation_passed": true, "time": 0.0012238025665283203, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"ratelimited\" in response.headers[\"content-type\"]", "compilation_passed": true, "time": 0.0012860298156738281, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " response.headers['X-RateLimit-Remaining'] < 5", "compilation_passed": true, "time": 0.0019369125366210938, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"rate limit exceeded for this endpoint\" in response.text", "compilation_passed": true, "time": 0.0018448829650878906, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"You've exceeded your global rate limit for requests in the last minute.\" in response.text", "compilation_passed": true, "time": 0.0012509822845458984, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"You arerate limited\" in response.text", "compilation_passed": true, "time": 0.0013203620910644531, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"Github API rate limit exceeded\" in response.text", "compilation_passed": true, "time": 0.0013692378997802734, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"Github API rate limit exceeded\" in response.content", "compilation_passed": true, "time": 0.0013780593872070312, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": " \"rate limit\" in response.text", "compilation_passed": true, "time": 1.0029730796813965, "tests_passed": false, "error": ""}
+{"code": " \"github.com/v0/rate_limit\" in repo_info", "compilation_passed": true, "time": 0.003278017044067383, "tests_passed": true, "error": null}

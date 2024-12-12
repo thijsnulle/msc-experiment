@@ -1,0 +1,17 @@
+{"code": " pd.DataFrame(data=[(round(uniform(min_value, max_value), 3), )] * n_data_points,", "compilation_passed": false, "time": 0.00016999244689941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00013899803161621094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [uniform(min_value, max_value) for _ in range(n_data_points)]", "compilation_passed": true, "time": 0.0064449310302734375, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.006006002426147461, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({column_name: [round(uniform(min_value, max_value), 3) for i in range(n_data_points)]})", "compilation_passed": true, "time": 0.0041599273681640625, "tests_passed": true, "error": null}
+{"code": " [round(uniform(min_value, max_value), 3) for i in range(n_data_points)]", "compilation_passed": true, "time": 0.003690004348754883, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.005258321762084961, "tests_passed": true, "error": null}
+{"code": " pd.Series([round(uniform(min_value, max_value), 3) for i in range(n_data_points)])", "compilation_passed": true, "time": 0.003690958023071289, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({column_name: [round(uniform(min_value, max_value), 3) for _ in range(n_data_points)]})", "compilation_passed": true, "time": 0.003975391387939453, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(uniform(min_value, max_value, (n_data_points, 1)), columns=[column_name])", "compilation_passed": true, "time": 0.007050991058349609, "tests_passed": false, "error": "TypeError"}
+{"code": " [round(uniform(min_value, max_value), 3) for _ in range(n_data_points)]", "compilation_passed": true, "time": 0.0033750534057617188, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(pd.Series([round(uniform(min_value, max_value), 3) for x in range(n_data_points)]))", "compilation_passed": true, "time": 0.007292270660400391, "tests_passed": false, "error": "IndexError"}
+{"code": " pd.DataFrame(index=range(n_data_points))", "compilation_passed": true, "time": 0.006800174713134766, "tests_passed": false, "error": "IndexError"}
+{"code": " pd.DataFrame([uniform(min_value, max_value) for _ in range(n_data_points)], columns=[column_name])", "compilation_passed": true, "time": 0.005856037139892578, "tests_passed": true, "error": null}
+{"code": " pd.Series(data=uniform(min_value, max_value, n_data_points), name=column_name).apply(lambda x: round(x, 3))", "compilation_passed": true, "time": 0.0066411495208740234, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([uniform(min_value, max_value) for _ in range(n_data_points)])", "compilation_passed": true, "time": 0.006510257720947266, "tests_passed": false, "error": "NameError"}
+{"code": " np.random.uniform(low=min_value, high=max_value, size=n_data_points)", "compilation_passed": true, "time": 0.006772279739379883, "tests_passed": false, "error": "NameError"}

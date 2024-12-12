@@ -1,0 +1,11 @@
+{"code": " False", "compilation_passed": true, "time": 0.007495880126953125, "tests_passed": true, "error": null}
+{"code": " backup_files(source_directory, backup_directory)", "compilation_passed": true, "time": 0.013633012771606445, "tests_passed": false, "error": "NameError"}
+{"code": " backup_files(source_directory, backup_directory, sorted_dict)", "compilation_passed": true, "time": 0.009245872497558594, "tests_passed": false, "error": "NameError"}
+{"code": " None", "compilation_passed": true, "time": 0.008005857467651367, "tests_passed": true, "error": null}
+{"code": " True", "compilation_passed": true, "time": 0.008233070373535156, "tests_passed": true, "error": null}
+{"code": " True if backup_directory and os.path.isdir(backup_directory) else False", "compilation_passed": true, "time": 0.007331132888793945, "tests_passed": true, "error": null}
+{"code": " True if shutil.copytree(source_directory, backup_directory, dirs_exist_ok=True) else False", "compilation_passed": true, "time": 0.010413885116577148, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " shutil.make_archive('backup', 'tar', source_directory, backup_directory)", "compilation_passed": true, "time": 0.01166224479675293, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " backup_directory_files(backup_directory, source_directory)", "compilation_passed": true, "time": 0.008744239807128906, "tests_passed": false, "error": "NameError"}
+{"code": " backup(source_directory, backup_directory)", "compilation_passed": true, "time": 0.008911848068237305, "tests_passed": false, "error": "NameError"}
+{"code": " copy_files(source_directory, backup_directory)", "compilation_passed": true, "time": 0.008599042892456055, "tests_passed": false, "error": "NameError"}

@@ -1,0 +1,19 @@
+{"code": " len(df) == 0 or ('Title' not in df.columns) or ('Content' not in df.columns):", "compilation_passed": true, "time": 0.013609886169433594, "tests_passed": false, "error": ""}
+{"code": " len(df) == 0:", "compilation_passed": true, "time": 0.01218104362487793, "tests_passed": false, "error": ""}
+{"code": " not df.columns.isin(['Title', 'Content']).all():", "compilation_passed": true, "time": 0.010945796966552734, "tests_passed": false, "error": ""}
+{"code": " not (df.columns.isin(['Title', 'Content']).all()):", "compilation_passed": true, "time": 0.011883974075317383, "tests_passed": false, "error": ""}
+{"code": " not isinstance(df, pd.DataFrame) or ('Title' not in df.columns) or ('Content' not in df.columns):", "compilation_passed": true, "time": 0.010685920715332031, "tests_passed": false, "error": ""}
+{"code": " df.empty or not all(col in df.columns for col in ['Title', 'Content']):", "compilation_passed": true, "time": 0.012616872787475586, "tests_passed": false, "error": ""}
+{"code": " not df.empty or df.columns.isin(['Title', 'Content']).all():", "compilation_passed": true, "time": 0.009256839752197266, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or 'Title' not in df or 'Content' not in df:", "compilation_passed": true, "time": 0.010269880294799805, "tests_passed": false, "error": ""}
+{"code": " not (df.empty or df['Title'].empty or df['Content'].empty):", "compilation_passed": true, "time": 0.00891876220703125, "tests_passed": false, "error": "ValueError"}
+{"code": " not df.empty or all(col in df for col in ['Title', 'Content']):", "compilation_passed": true, "time": 0.009933710098266602, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df, pd.DataFrame) or not set(df.columns).issubset(set(['Title', 'Content'])):", "compilation_passed": true, "time": 0.012418985366821289, "tests_passed": false, "error": ""}
+{"code": " not df or not (df.columns == ['Title', 'Content']).all().all():", "compilation_passed": true, "time": 0.009825944900512695, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df) == 0 or ('Title' not in df.columns or 'Content' not in df.columns):", "compilation_passed": true, "time": 0.010391950607299805, "tests_passed": false, "error": ""}
+{"code": " not df.empty or ('Title' in df and 'Content' in df):", "compilation_passed": true, "time": 0.008690357208251953, "tests_passed": false, "error": "ValueError"}
+{"code": " not df.empty or (df.Title is None) or (df.Content is None):", "compilation_passed": true, "time": 0.009206056594848633, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or df.columns.difference(['Title', 'Content']) != set():", "compilation_passed": true, "time": 0.010184049606323242, "tests_passed": false, "error": ""}
+{"code": " len(df) == 0 or 'Title' not in df or 'Content' not in df:", "compilation_passed": true, "time": 0.011841058731079102, "tests_passed": false, "error": ""}
+{"code": " df.empty or not (('Title' in df.columns) and ('Content' in df.columns)):", "compilation_passed": true, "time": 0.009719133377075195, "tests_passed": false, "error": ""}
+{"code": " df.empty or 'Title' not in df.columns or 'Content' not in df.columns:", "compilation_passed": true, "time": 0.010420799255371094, "tests_passed": false, "error": ""}

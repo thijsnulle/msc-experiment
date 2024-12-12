@@ -1,0 +1,12 @@
+{"code": " []", "compilation_passed": true, "time": 0.011935949325561523, "tests_passed": true, "error": null}
+{"code": " list(filter(lambda x: sum(x) == element, combinations_list))", "compilation_passed": true, "time": 0.020954132080078125, "tests_passed": true, "error": null}
+{"code": " [combination for combination in combinations_list", "compilation_passed": false, "time": 0.00015115737915039062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(map(lambda x: tuple(x), combinations_list))", "compilation_passed": true, "time": 0.00854182243347168, "tests_passed": true, "error": null}
+{"code": " list(", "compilation_passed": false, "time": 0.00016689300537109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [comb for comb in combinations_list if sum(comb) == element]", "compilation_passed": true, "time": 0.020493745803833008, "tests_passed": true, "error": null}
+{"code": " [combination for combination in combinations_list if sum(combination) == element]", "compilation_passed": true, "time": 0.019027233123779297, "tests_passed": true, "error": null}
+{"code": " [c for c in combinations_list if sum(c) == element]", "compilation_passed": true, "time": 0.020145177841186523, "tests_passed": true, "error": null}
+{"code": " list()", "compilation_passed": true, "time": 0.00847005844116211, "tests_passed": true, "error": null}
+{"code": " [combinations_list[i] for i in range(len(combinations_list)) if sum(combinations_list[i]) == element]", "compilation_passed": true, "time": 0.02033209800720215, "tests_passed": true, "error": null}
+{"code": " [(elem,) for elem in combinations_list if sum(elem) == element]", "compilation_passed": true, "time": 0.013134002685546875, "tests_passed": true, "error": null}
+{"code": " [(c[0], c[1], c[2]) for c in combinations_list if sum(c) == element]", "compilation_passed": true, "time": 0.01927971839904785, "tests_passed": true, "error": null}

@@ -1,0 +1,13 @@
+{"code": "scatter(df['Age'], df['Score'])", "compilation_passed": true, "time": 0.4116380214691162, "tests_passed": true, "error": null}
+{"code": "title(\"Scatter Plot of Standardized Age and Score\")", "compilation_passed": true, "time": 0.25087404251098633, "tests_passed": true, "error": null}
+{"code": "scatter(df['Age'], df['Score'], s=50)", "compilation_passed": true, "time": 0.3841209411621094, "tests_passed": true, "error": null}
+{"code": "scatter(df['Age'], df['Score'], s=df['Score'])", "compilation_passed": true, "time": 0.3600766658782959, "tests_passed": true, "error": null}
+{"code": "scatter('Age', 'Score', data=df)", "compilation_passed": true, "time": 0.3653419017791748, "tests_passed": true, "error": null}
+{"code": "scatter('Age', 'Score', data=df, c='blue')", "compilation_passed": true, "time": 0.3785519599914551, "tests_passed": true, "error": null}
+{"code": "scatter('Age (standardized)', 'Score (standardized)', data=df, s=df['Age (standardized)'].abs(), c='b')", "compilation_passed": true, "time": 0.09594893455505371, "tests_passed": false, "error": "KeyError"}
+{"code": "title('Scatter Plot of Standardized Age and Score')", "compilation_passed": true, "time": 0.25540876388549805, "tests_passed": true, "error": null}
+{"code": "scatter(df['Age'], df['Score'], label='Scatter Plot of Standardized Age and Score')", "compilation_passed": true, "time": 0.3895571231842041, "tests_passed": true, "error": null}
+{"code": "scatter('Age (standardized)', 'Score (standardized)', s=50, c='b', marker='o', alpha=0.7, label='Scatter Plot of Standardized Age and Score')", "compilation_passed": true, "time": 0.23845601081848145, "tests_passed": true, "error": null}
+{"code": "scatter('Age', 'Score', s=50, c='blue', alpha=0.5, data=df)", "compilation_passed": true, "time": 0.38813090324401855, "tests_passed": true, "error": null}
+{"code": "scatter(df.Age, df.Score)", "compilation_passed": true, "time": 0.3535349369049072, "tests_passed": true, "error": null}
+{"code": "scatter(x=df['Age'], y=df['Score'])", "compilation_passed": true, "time": 0.3435251712799072, "tests_passed": true, "error": null}

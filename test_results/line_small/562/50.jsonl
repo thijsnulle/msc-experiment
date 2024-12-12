@@ -1,0 +1,12 @@
+{"code": "f\"System: {uname.sysname}\")", "compilation_passed": true, "time": 0.09045982360839844, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "\"System:\", uname.system)", "compilation_passed": true, "time": 0.021774768829345703, "tests_passed": false, "error": "AttributeError"}
+{"code": "\"System: \", uname.sysname)", "compilation_passed": true, "time": 0.09197497367858887, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "\"System: {}\".format(uname.sysname))", "compilation_passed": true, "time": 0.08734488487243652, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "\"System:\", uname.sysname)", "compilation_passed": true, "time": 0.07194304466247559, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "\"System: {0}\".format(uname.sysname))", "compilation_passed": true, "time": 0.07854604721069336, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "\"System: \" + uname.sysname)", "compilation_passed": true, "time": 0.08419680595397949, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "\"System Name: {}\".format(uname.sysname))", "compilation_passed": true, "time": 0.07910609245300293, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "\"System Name: \" + uname.sysname)", "compilation_passed": true, "time": 0.07991814613342285, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "f\"System: {uname.system}\")", "compilation_passed": true, "time": 0.019804954528808594, "tests_passed": false, "error": "AttributeError"}
+{"code": "\"System: {0.sysname}\".format(uname))", "compilation_passed": true, "time": 0.08053708076477051, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "f'System: {uname.system}')", "compilation_passed": true, "time": 0.01639699935913086, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,23 @@
+{"code": " np.array(regression.intercept + regression.slope*df['var1'])", "compilation_passed": true, "time": 0.0071637630462646484, "tests_passed": true, "error": null}
+{"code": " np.array(df['var2']) * np.array(regression.slope) + np.array(regression.intercept)", "compilation_passed": true, "time": 0.006799221038818359, "tests_passed": true, "error": null}
+{"code": " np.array([regression.intercept + regression.slope * var1 for var1 in df['var1']])", "compilation_passed": true, "time": 0.005290985107421875, "tests_passed": true, "error": null}
+{"code": " np.array(np.array(df['var1']).reshape(-1, 1)).dot(regression.coef) + regression.intercept", "compilation_passed": true, "time": 0.007478952407836914, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(df['var1']) * regression.slope + regression.intercept", "compilation_passed": true, "time": 0.005728006362915039, "tests_passed": true, "error": null}
+{"code": " np.array(df['var1']) * regression.intercept + regression.slope * np.array(df['var2'])", "compilation_passed": true, "time": 0.006943941116333008, "tests_passed": true, "error": null}
+{"code": " np.array(regression.intercept + regression.slope * df['var1'])", "compilation_passed": true, "time": 0.006392240524291992, "tests_passed": true, "error": null}
+{"code": " np.array(regression.intercept) * np.ones(len(df))", "compilation_passed": true, "time": 0.006200075149536133, "tests_passed": true, "error": null}
+{"code": " regression.intercept + regression.slope * np.array(df['var1'])", "compilation_passed": true, "time": 0.005543947219848633, "tests_passed": true, "error": null}
+{"code": " np.array(regression.intercept) * np.array(df['var2']) + np.array(regression.slope) * np.array(", "compilation_passed": false, "time": 0.0001499652862548828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " regression.intercept + regression.slope * df['var1']", "compilation_passed": true, "time": 0.006208896636962891, "tests_passed": true, "error": null}
+{"code": " np.array(np.full_like(df['var1'], regression.intercept)) + np.array(np.full_like(df['var2'], regression.slope))", "compilation_passed": true, "time": 0.005958080291748047, "tests_passed": true, "error": null}
+{"code": " np.array(np.polyval(np.array(regression.intercept, dtype=np.int64) +", "compilation_passed": false, "time": 0.0001418590545654297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.array(regression.intercept + regression.slope * np.array(df.var1))", "compilation_passed": true, "time": 0.005675792694091797, "tests_passed": true, "error": null}
+{"code": " np.array([regression.slope * x + regression.intercept for x in df['var1']])", "compilation_passed": true, "time": 0.005173921585083008, "tests_passed": true, "error": null}
+{"code": " np.array(np.array(regression.intercept) + regression.slope * np.array(df['var1']))", "compilation_passed": true, "time": 0.005352020263671875, "tests_passed": true, "error": null}
+{"code": " np.array(regression.intercept) + np.array(regression.slope) * df['var2']", "compilation_passed": true, "time": 0.008718013763427734, "tests_passed": true, "error": null}
+{"code": " np.array(regression.intercept + regression.slope * np.array(df['var1']))", "compilation_passed": true, "time": 0.005410194396972656, "tests_passed": true, "error": null}
+{"code": " np.array(regression.intercept) + np.array(regression.slope) * df['var1']", "compilation_passed": true, "time": 0.0062792301177978516, "tests_passed": true, "error": null}
+{"code": " np.array(df['var1'], float) * regression.slope + regression.intercept", "compilation_passed": true, "time": 0.005207061767578125, "tests_passed": true, "error": null}
+{"code": " np.array([regression.intercept + regression.slope * x for x in df['var1']])", "compilation_passed": true, "time": 0.005583047866821289, "tests_passed": true, "error": null}
+{"code": " np.array(df['var1']) * np.array(regression.intercept) + \\", "compilation_passed": false, "time": 0.00014400482177734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.array(regression.intercept + regression.slope * df['var1']).reshape(-1, 1)", "compilation_passed": true, "time": 0.007763862609863281, "tests_passed": false, "error": "ValueError"}

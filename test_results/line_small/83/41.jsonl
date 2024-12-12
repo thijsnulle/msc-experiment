@@ -1,0 +1,26 @@
+{"code": " Message('Hello', sender='example@example.com', recipients=['example2@example.com'])", "compilation_passed": true, "time": 0.01946711540222168, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Hello, world!', sender='from@example.com', recipient='to@example.com')", "compilation_passed": true, "time": 0.010746955871582031, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Title', sender = ('From User', 'from_user@example.com'),", "compilation_passed": false, "time": 0.00023674964904785156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Hello world!',", "compilation_passed": false, "time": 0.0002560615539550781, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Test Email', sender='example@example.com',", "compilation_passed": false, "time": 0.00022792816162109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message(title='Test Message',", "compilation_passed": false, "time": 0.00022602081298828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message()", "compilation_passed": true, "time": 0.00994873046875, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message(\"Hello world!\",sender='user@example.com')", "compilation_passed": true, "time": 0.010516166687011719, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Hello world!', sender = 'admin@example.com',", "compilation_passed": false, "time": 0.0003628730773925781, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Hello World', sender='sender@example.com',", "compilation_passed": false, "time": 0.00021386146545410156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Welcome to my Mail app!', sender='your@example.com', recipients=['someone@example.com'])", "compilation_passed": true, "time": 0.009775876998901367, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message(", "compilation_passed": false, "time": 0.00028204917907714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Hello, this is a message from Flask Mail!', receiver=[])", "compilation_passed": true, "time": 0.011360645294189453, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Hello, world!',", "compilation_passed": false, "time": 0.0002510547637939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Hello, world!', sender='sender@example.com', recipients=['receiver@example.com'])", "compilation_passed": true, "time": 0.01004481315612793, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('This is a test email!', sender='sender@example.com', recipients=['recipient@example.com'])", "compilation_passed": true, "time": 0.010047197341918945, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Sample subject', sender='sender@example.com',", "compilation_passed": false, "time": 0.0004432201385498047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Test Email', sender='sender@example.com', recipients=['recipient@example.com'])", "compilation_passed": true, "time": 0.009791851043701172, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Email sent from Flask-Mail', sender=('Flask Mail App', 'noreply@flaskmail.example.com'), recipients=['jsmith@example.com', 'jsmith@example.com'])", "compilation_passed": true, "time": 0.009755849838256836, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Hello from flask-mail!',", "compilation_passed": false, "time": 0.0002532005310058594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Test Mail', sender='user@example.com',", "compilation_passed": false, "time": 0.0003192424774169922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('This is a test email', sender='test@test.com', recipients=['test@test.com'])", "compilation_passed": true, "time": 0.01030588150024414, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Hello from Flask Mail', sender='user@example.com',", "compilation_passed": false, "time": 0.0004048347473144531, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Test Email',", "compilation_passed": false, "time": 0.0002491474151611328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Test Mail', sender='smtp.example.com', recipients=['example@example.com'])", "compilation_passed": true, "time": 0.010041952133178711, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Test email from Flask-Mail',", "compilation_passed": false, "time": 0.00021505355834960938, "tests_passed": false, "error": "SyntaxError"}

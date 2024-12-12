@@ -1,0 +1,11 @@
+{"code": " df.mean(axis=1)", "compilation_passed": true, "time": 0.2011721134185791, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 1:8].apply(np.mean, axis=1)", "compilation_passed": true, "time": 0.06598877906799316, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 1:].apply(lambda x: x.mean(), axis=1)", "compilation_passed": true, "time": 0.07652616500854492, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :-1].mean(axis=1)", "compilation_passed": true, "time": 0.08978986740112305, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 1:].mean(axis=1)", "compilation_passed": true, "time": 0.0775458812713623, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :8].mean(axis=1)", "compilation_passed": true, "time": 0.23310112953186035, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda row: row.mean(), axis='columns')", "compilation_passed": true, "time": 0.2266521453857422, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 1:8].mean(axis=1)", "compilation_passed": true, "time": 0.08854889869689941, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 0:8].mean(axis=1)", "compilation_passed": true, "time": 0.22720003128051758, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 3:8].mean(axis=1)", "compilation_passed": true, "time": 0.09163403511047363, "tests_passed": true, "error": null}
+{"code": " df.apply(np.mean, axis=1)", "compilation_passed": true, "time": 0.25377893447875977, "tests_passed": true, "error": null}

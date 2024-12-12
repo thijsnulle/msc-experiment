@@ -1,0 +1,10 @@
+{"code": " {", "compilation_passed": false, "time": 0.00019884109497070312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (", "compilation_passed": false, "time": 0.00021886825561523438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " entry.stat()", "compilation_passed": true, "time": 0.02259993553161621, "tests_passed": true, "error": null}
+{"code": " (entry.name, entry.stat().st_size, entry.stat().st_ctime_ns, entry.stat().st_mtime_ns)", "compilation_passed": true, "time": 0.012086153030395508, "tests_passed": false, "error": "AttributeError"}
+{"code": " os.stat(entry.path)", "compilation_passed": true, "time": 0.02118682861328125, "tests_passed": true, "error": null}
+{"code": " (entry.name, entry.stat().st_size, entry.stat().st_ctime, entry.stat().st_mtime)", "compilation_passed": true, "time": 0.014783859252929688, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.011612176895141602, "tests_passed": false, "error": "AttributeError"}
+{"code": " (entry.name, entry.stat().st_size,", "compilation_passed": false, "time": 0.00021719932556152344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (entry.name, entry.stat().st_size, entry.stat().st_birthtime, entry.stat().st_mtime)", "compilation_passed": true, "time": 0.011896848678588867, "tests_passed": false, "error": "AttributeError"}
+{"code": " (entry.name, entry.stat().st_size, datetime.fromtimestamp(entry.stat().st_ctime, timezone.utc).isoformat(), datetime.fromtimestamp(entry.stat().st_mtime, timezone.utc).isoformat())", "compilation_passed": true, "time": 0.012293100357055664, "tests_passed": false, "error": "AttributeError"}

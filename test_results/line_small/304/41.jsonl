@@ -1,0 +1,18 @@
+{"code": "fit(df[1:])", "compilation_passed": true, "time": 0.00953984260559082, "tests_passed": false, "error": "TypeError"}
+{"code": "fit(df['Value'])", "compilation_passed": true, "time": 0.019309043884277344, "tests_passed": false, "error": "KeyError"}
+{"code": "fit(df.loc[:, '2021-01-01':'2021-01-31'])", "compilation_passed": true, "time": 0.02965712547302246, "tests_passed": false, "error": "KeyError"}
+{"code": "fit(df[['Date', 'Value']])", "compilation_passed": true, "time": 0.010186910629272461, "tests_passed": false, "error": "KeyError"}
+{"code": "fit(df[df.columns[1:]])", "compilation_passed": true, "time": 0.6895139217376709, "tests_passed": true, "error": null}
+{"code": "fit(df.loc[:, 'Date':'Value'])", "compilation_passed": true, "time": 0.022103071212768555, "tests_passed": false, "error": "KeyError"}
+{"code": "fit(df.iloc[:, 2:])", "compilation_passed": true, "time": 0.1650397777557373, "tests_passed": true, "error": null}
+{"code": "fit(df.loc[:, '2021-01-01': '2021-01-02'])", "compilation_passed": true, "time": 0.023421764373779297, "tests_passed": false, "error": "KeyError"}
+{"code": "fit(df)", "compilation_passed": true, "time": 0.010008811950683594, "tests_passed": false, "error": "TypeError"}
+{"code": "fit(df.loc[:, ['Date', 'Value']])", "compilation_passed": true, "time": 0.009777069091796875, "tests_passed": false, "error": "KeyError"}
+{"code": "fit(df[['Date', 'Value']].values)", "compilation_passed": true, "time": 0.010797977447509766, "tests_passed": false, "error": "KeyError"}
+{"code": "fit(df.drop('Date', axis=1))", "compilation_passed": true, "time": 0.1745319366455078, "tests_passed": true, "error": null}
+{"code": "fit(df[['Date', 'Value_0', 'Value_1', 'Value_2']])", "compilation_passed": true, "time": 0.009967803955078125, "tests_passed": false, "error": "KeyError"}
+{"code": "fit(df[['Date', 'Value_0', 'Value_1', 'Value_2']].values)", "compilation_passed": true, "time": 0.009485960006713867, "tests_passed": false, "error": "KeyError"}
+{"code": "fit(df[['Value']])", "compilation_passed": true, "time": 0.009741783142089844, "tests_passed": false, "error": "KeyError"}
+{"code": "fit(df.values)", "compilation_passed": true, "time": 0.009696006774902344, "tests_passed": false, "error": "TypeError"}
+{"code": "fit(df[['Date','Value']])", "compilation_passed": true, "time": 0.00968313217163086, "tests_passed": false, "error": "KeyError"}
+{"code": "fit(df.drop(['Date'], axis=1))", "compilation_passed": true, "time": 0.1752300262451172, "tests_passed": true, "error": null}

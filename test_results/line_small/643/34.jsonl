@@ -1,0 +1,28 @@
+{"code": " dataframe[col].astype('str')", "compilation_passed": false, "time": 0.000164031982421875, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.sub(data_pattern, lambda match: float(match.group(0).strip('><')), dataframe[col])", "compilation_passed": false, "time": 0.00026702880859375, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.array(", "compilation_passed": false, "time": 0.00015878677368164062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dataframe[col].apply(lambda x: _process_cell(x, data_pattern))", "compilation_passed": false, "time": 0.0001761913299560547, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].apply(lambda x: np.nan if not re.search(data_pattern, x) else float(re.search(data_pattern, x).group(0).replace('<','').replace('>','')))", "compilation_passed": false, "time": 0.0001761913299560547, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].apply(lambda x:", "compilation_passed": false, "time": 0.0002071857452392578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dataframe[col].apply(lambda x: re.findall(data_pattern, str(x))[0])", "compilation_passed": false, "time": 0.00015592575073242188, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].apply(lambda x: np.nan if re.match(data_pattern, str(x)) is None", "compilation_passed": false, "time": 0.00018310546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dataframe[col].apply(", "compilation_passed": false, "time": 0.00012612342834472656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dataframe[col].apply(lambda x: float(re.search(data_pattern, x).group(0).lstrip('>').rstrip('<')))", "compilation_passed": false, "time": 0.00016260147094726562, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].apply(lambda x: re.sub(data_pattern, 'NaN', str(x)))", "compilation_passed": false, "time": 0.0001480579376220703, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].apply(lambda x: re.sub(data_pattern, r\"\\1\", x) if re.search(data_pattern, x) else np.nan)", "compilation_passed": false, "time": 0.0001900196075439453, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.to_numeric(", "compilation_passed": false, "time": 0.0001671314239501953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dataframe[col].str.replace(data_pattern, '').fillna(np.nan)", "compilation_passed": false, "time": 0.00015687942504882812, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].apply(lambda x: re.search(data_pattern, x).group(0) if re.search(data_pattern, x) else np.nan)", "compilation_passed": false, "time": 0.00016999244689941406, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].astype(str).replace(r'\\d+', '', regex=True)", "compilation_passed": false, "time": 0.00017309188842773438, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].str.extract(data_pattern)", "compilation_passed": false, "time": 0.00013017654418945312, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].str.replace(data_pattern, 'NaN', regex=True).str.replace('NaN', np.nan)", "compilation_passed": false, "time": 0.00017786026000976562, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].map(", "compilation_passed": false, "time": 0.00012803077697753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dataframe[col].apply(lambda x: _re.sub(data_pattern, '', x) if _re.search(data_pattern, x) else np.nan)", "compilation_passed": false, "time": 0.0002880096435546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].replace('>', '', regex=True)", "compilation_passed": false, "time": 0.00015783309936523438, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.nan", "compilation_passed": false, "time": 0.00015091896057128906, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.to_numeric(pd.DataFrame.apply(dataframe, lambda row: re.sub(data_pattern, \"\", str(row[col])), axis=1).apply(pd.to_numeric), errors='coerce')", "compilation_passed": false, "time": 0.000202178955078125, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].apply(lambda x: re.findall(data_pattern, x)[0] if len(re.findall(data_pattern, x)) > 0 else np.nan)", "compilation_passed": false, "time": 0.00016808509826660156, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.sub(data_pattern, '', dataframe[col])", "compilation_passed": false, "time": 0.00013518333435058594, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].apply(lambda x: re.sub(data_pattern, r'\\1', x))", "compilation_passed": false, "time": 0.0001418590545654297, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].apply(lambda x: re.sub(data_pattern, '', x)).astype('float')", "compilation_passed": false, "time": 0.00014710426330566406, "tests_passed": false, "error": "IndentationError"}
+{"code": " dataframe[col].apply(lambda x: re.sub(data_pattern, x, '')).replace('nan', np.nan)", "compilation_passed": false, "time": 0.00014901161193847656, "tests_passed": false, "error": "IndentationError"}

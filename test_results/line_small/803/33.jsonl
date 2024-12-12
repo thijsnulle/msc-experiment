@@ -1,0 +1,29 @@
+{"code": " df.select_dtypes(include=[\"number\"]).isnull().values.any():", "compilation_passed": true, "time": 0.03494691848754883, "tests_passed": true, "error": null}
+{"code": " (", "compilation_passed": false, "time": 0.0001609325408935547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.isnull().sum().sum() != 0:", "compilation_passed": true, "time": 0.03560018539428711, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=[np.number]).shape[1] == 0:", "compilation_passed": true, "time": 0.018503904342651367, "tests_passed": false, "error": "NameError"}
+{"code": " all([df[col].dtype == 'int' or df[col].dtype == 'float' for col in df.columns]):", "compilation_passed": true, "time": 0.01935887336730957, "tests_passed": false, "error": "ValueError"}
+{"code": " not df.select_dtypes(include=[\"int\", \"float\"]).empty:", "compilation_passed": true, "time": 0.018947124481201172, "tests_passed": false, "error": "ValueError"}
+{"code": " not df[\"Age\"].dtype == int and df[\"Salary\"].dtype == int:", "compilation_passed": true, "time": 0.04545116424560547, "tests_passed": false, "error": "KeyError"}
+{"code": " df.dtypes.duplicated().any():", "compilation_passed": true, "time": 0.01970982551574707, "tests_passed": false, "error": "ValueError"}
+{"code": " df.info(verbose=False).dtypes[\"Age\"] == \"object\":", "compilation_passed": true, "time": 0.030098915100097656, "tests_passed": false, "error": "AttributeError"}
+{"code": " not df.select_dtypes(include=[\"number\"]).empty:", "compilation_passed": true, "time": 0.01895880699157715, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df.columns[1:]].dtypes[0] != np.number:", "compilation_passed": true, "time": 0.01917576789855957, "tests_passed": false, "error": "NameError"}
+{"code": " df.select_dtypes(include=['int','float']).empty:", "compilation_passed": true, "time": 0.03433990478515625, "tests_passed": true, "error": null}
+{"code": " not df.dtypes[\"Salary\"] == int:", "compilation_passed": true, "time": 0.04708600044250488, "tests_passed": false, "error": "KeyError"}
+{"code": " not df.select_dtypes(include=\"number\").empty:", "compilation_passed": true, "time": 0.018529653549194336, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df.columns[0]].apply(pd.to_numeric).count() == 0:", "compilation_passed": true, "time": 0.05420708656311035, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(x.dtype == \"int64\" or x.dtype == \"float64\" for x in df.columns):", "compilation_passed": true, "time": 0.02115011215209961, "tests_passed": false, "error": "AttributeError"}
+{"code": " len(df) < 2:", "compilation_passed": true, "time": 0.03856825828552246, "tests_passed": false, "error": "ValueError"}
+{"code": " df.info(", "compilation_passed": false, "time": 0.00013375282287597656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not df[df.apply(lambda x: x.dtype == int or x.dtype == float, axis=1)]:", "compilation_passed": true, "time": 0.05059027671813965, "tests_passed": false, "error": "ValueError"}
+{"code": " df.select_dtypes(include=[\"number\"]).empty:", "compilation_passed": true, "time": 0.03441572189331055, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=np.number).columns.size == 0:", "compilation_passed": true, "time": 0.020460128784179688, "tests_passed": false, "error": "NameError"}
+{"code": " df.columns.dtype != np.dtype(\"int64\") or df.columns.dtype != np.dtype(\"float64\"):", "compilation_passed": true, "time": 0.01966691017150879, "tests_passed": false, "error": "NameError"}
+{"code": " (df.dtypes[df.dtypes.apply(lambda x: x in ['int64', 'float64'])].values == df.dtypes.values).all():", "compilation_passed": true, "time": 0.020293235778808594, "tests_passed": false, "error": "ValueError"}
+{"code": " df.info().nunique().values.all() == 4:", "compilation_passed": true, "time": 0.021809101104736328, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.columns.dtype not in ['float64', 'int64']:", "compilation_passed": true, "time": 0.018607139587402344, "tests_passed": false, "error": "ValueError"}
+{"code": " not (df.select_dtypes(\"number\").apply(lambda x: x.dtype == \"number\")).all():", "compilation_passed": true, "time": 0.02171492576599121, "tests_passed": false, "error": "ValueError"}
+{"code": " not df.columns.isin(['Name', 'Age', 'Salary']).any():", "compilation_passed": true, "time": 0.03516697883605957, "tests_passed": true, "error": null}
+{"code": " df.nunique().sum() <= 2:", "compilation_passed": true, "time": 0.03745293617248535, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=\"number\").empty:", "compilation_passed": true, "time": 0.03534674644470215, "tests_passed": true, "error": null}

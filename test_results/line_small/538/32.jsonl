@@ -1,0 +1,27 @@
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name} WHERE type IN ('int', 'float')\", conn)", "compilation_passed": true, "time": 0.015500068664550781, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name} WHERE COLUMN_NAME IN ('col_1', 'col_2') AND COLUMN_NAME NOT IN ('id');\", conn)", "compilation_passed": true, "time": 0.014800071716308594, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name} WHERE id != 0\", conn)", "compilation_passed": true, "time": 0.21503996849060059, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name} WHERE type NOT LIKE '%id' AND type LIKE '%int%' LIMIT 2\", conn)", "compilation_passed": true, "time": 0.014573097229003906, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name} ORDER BY id\", conn)", "compilation_passed": true, "time": 0.20676875114440918, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f\"SELECT * FROM {table_name} ORDER BY id LIMIT 2\", conn)", "compilation_passed": true, "time": 0.059851884841918945, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name} WHERE column_name NOT IN ('id')\", conn)", "compilation_passed": true, "time": 0.01481008529663086, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql_query(", "compilation_passed": false, "time": 0.000186920166015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_sql(f'PRAGMA table_info({table_name})', conn, index_col=0, parse_dates=False, engine=sqlite3.Engine(conn, isolation_level='SERIALIZABLE', timeout=10))", "compilation_passed": true, "time": 0.014988899230957031, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name} ORDER BY ABS(first_column) LIMIT 2\", conn)", "compilation_passed": true, "time": 0.01445317268371582, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql(\"SELECT * FROM %s WHERE column_name NOT IN ('id')\" % table_name, conn)", "compilation_passed": true, "time": 0.014724016189575195, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name} WHERE col1 != 'id' AND col2 != 'id';\", conn)", "compilation_passed": true, "time": 0.014464139938354492, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name} WHERE id != 'id' AND 'age' NOT IN (SELECT DISTINCT('age'))\", conn)", "compilation_passed": true, "time": 0.015393972396850586, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_sql(f\"select * from {table_name} where Type NOT IN ('id')\", conn)", "compilation_passed": true, "time": 0.015042781829833984, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql('''", "compilation_passed": false, "time": 0.0001342296600341797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name}\", conn)", "compilation_passed": true, "time": 0.21297311782836914, "tests_passed": true, "error": null}
+{"code": " pd.read_sql('SELECT * FROM ' + table_name, conn, parse_dates=['timestamp'], index_col='id')", "compilation_passed": true, "time": 0.21181321144104004, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_table(table_name, conn, index_col='id')", "compilation_passed": true, "time": 0.014992952346801758, "tests_passed": false, "error": "NotImplementedError"}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name}\", conn, index_col=0,", "compilation_passed": false, "time": 0.0002129077911376953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_sql_query('''", "compilation_passed": false, "time": 0.0001590251922607422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_sql(f\"SELECT * FROM '{table_name}' WHERE column_number <= 2;\", conn)", "compilation_passed": true, "time": 0.016273021697998047, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql_query(f\"SELECT * FROM {table_name} WHERE column_name NOT IN ('id')\", conn)", "compilation_passed": true, "time": 0.014358997344970703, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql(f\"select * from {table_name} where type in ('number', 'integer');\", conn)", "compilation_passed": true, "time": 0.01510000228881836, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql(", "compilation_passed": false, "time": 0.00023293495178222656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_sql(\"\"\"", "compilation_passed": false, "time": 0.0001418590545654297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name} WHERE type IN ('string', 'integer');\", conn)", "compilation_passed": true, "time": 0.014539957046508789, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql(\"SELECT * FROM \" + table_name + \" WHERE DATATYPE = 'number'\", conn)", "compilation_passed": true, "time": 0.01573920249938965, "tests_passed": false, "error": "pandas.errors.DatabaseError"}

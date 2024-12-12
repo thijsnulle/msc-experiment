@@ -1,0 +1,22 @@
+{"code": " data.plot.bar(stacked=True, color=\"rgbykcm\")", "compilation_passed": true, "time": 0.1437830924987793, "tests_passed": false, "error": "ValueError"}
+{"code": " data.plot.bar(stacked=True)", "compilation_passed": true, "time": 0.13124990463256836, "tests_passed": true, "error": null}
+{"code": " data.plot(kind='bar', stacked=True, subplots=True, layout=('row', cols))", "compilation_passed": true, "time": 0.022552013397216797, "tests_passed": false, "error": "TypeError"}
+{"code": " data.plot.bar()", "compilation_passed": true, "time": 0.1306309700012207, "tests_passed": true, "error": null}
+{"code": " data.melt(value_name='value').pivot_table(values='value', index=\"variable\", columns='category')", "compilation_passed": true, "time": 0.019804954528808594, "tests_passed": false, "error": "KeyError"}
+{"code": " data.plot(kind='bar')", "compilation_passed": true, "time": 0.12911701202392578, "tests_passed": true, "error": null}
+{"code": " data.plot.barh(stacked=True)", "compilation_passed": true, "time": 0.12569808959960938, "tests_passed": true, "error": null}
+{"code": " data.stack().plot(kind=\"bar\", stacked=True)", "compilation_passed": true, "time": 0.17106890678405762, "tests_passed": true, "error": null}
+{"code": " data.plot(kind='bar', stacked=True, rot=0)", "compilation_passed": true, "time": 0.1277940273284912, "tests_passed": true, "error": null}
+{"code": " data.plot.bar(stacked=True, title=f\"{rows} rows x {cols} columns\")", "compilation_passed": true, "time": 0.11932802200317383, "tests_passed": true, "error": null}
+{"code": " data.stack().plot(kind='bar', stacked=True)", "compilation_passed": true, "time": 0.8501367568969727, "tests_passed": true, "error": null}
+{"code": " data.plot(kind='bar', stacked=True)", "compilation_passed": true, "time": 0.12767529487609863, "tests_passed": true, "error": null}
+{"code": " plt.figure().add_subplot(111)", "compilation_passed": true, "time": 0.014900922775268555, "tests_passed": true, "error": null}
+{"code": " data.stack().plot.bar()", "compilation_passed": true, "time": 0.1714160442352295, "tests_passed": true, "error": null}
+{"code": " data.plot(kind='bar', stacked=True, rot=0, color=None, subplots=False)", "compilation_passed": true, "time": 0.12955093383789062, "tests_passed": true, "error": null}
+{"code": " data.plot.barh(stacked=True, color=\"#378BCA\")", "compilation_passed": true, "time": 0.13816189765930176, "tests_passed": true, "error": null}
+{"code": " data.melt(value_name='value').pivot_table(index='variable', values='value').plot.bar()", "compilation_passed": true, "time": 0.04136991500854492, "tests_passed": true, "error": null}
+{"code": " data.plot.bar(stacked=True, title=\"Example plot\")", "compilation_passed": true, "time": 0.13051104545593262, "tests_passed": true, "error": null}
+{"code": " data.melt(id_vars=categories[:cols]).groupby(", "compilation_passed": false, "time": 0.00023603439331054688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " data.plot.barh(stacked=True, rot=90)", "compilation_passed": true, "time": 0.13976073265075684, "tests_passed": true, "error": null}
+{"code": " data.plot.bar(stacked=True, subplots=False, rot=0, title='')", "compilation_passed": true, "time": 0.13089704513549805, "tests_passed": true, "error": null}
+{"code": " data.plot.bar(stacked=True, rot=90)", "compilation_passed": true, "time": 0.12529206275939941, "tests_passed": true, "error": null}

@@ -1,0 +1,12 @@
+{"code": " df.loc[df['Age'] <= age, df['Height'] <= height]", "compilation_passed": true, "time": 0.023113250732421875, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " df[df['Age'] <= age & df['Height'] >= height]", "compilation_passed": true, "time": 0.016550779342651367, "tests_passed": false, "error": "ValueError"}
+{"code": " df[(df['Age'] <= age) & (df['Height'] >= height)]", "compilation_passed": true, "time": 0.014135122299194336, "tests_passed": true, "error": null}
+{"code": " df.loc[(df['Age'] <= age) & (df['Height'] >= height)]", "compilation_passed": true, "time": 0.0125579833984375, "tests_passed": true, "error": null}
+{"code": " df[df['Age'] <= age]", "compilation_passed": true, "time": 0.013265132904052734, "tests_passed": true, "error": null}
+{"code": " df.loc[df[\"Age\"] <= age, df[\"Height\"] <= height]", "compilation_passed": true, "time": 0.016941070556640625, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " df[df[\"Age\"] <= age]", "compilation_passed": true, "time": 0.013144969940185547, "tests_passed": true, "error": null}
+{"code": " df.loc[df['Age'] <= age, 'Height'].loc[df['Height'] >= height]", "compilation_passed": true, "time": 0.017549753189086914, "tests_passed": true, "error": null}
+{"code": " df.loc[df['Age'] <= age, df.loc[df['Height'] >= height, :]]", "compilation_passed": true, "time": 1.004403829574585, "tests_passed": false, "error": ""}
+{"code": " df.loc[df['Age'] <= age, df['Height'] >= height]", "compilation_passed": true, "time": 0.01927495002746582, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " df.loc[df['Age'] <= age, df.loc[df['Height'] >= height, 'Weight']]", "compilation_passed": true, "time": 0.017196178436279297, "tests_passed": false, "error": "KeyError"}
+{"code": " df.query('Age <= @age & Height >= @height')", "compilation_passed": true, "time": 0.01859307289123535, "tests_passed": true, "error": null}

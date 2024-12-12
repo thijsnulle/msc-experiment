@@ -1,0 +1,11 @@
+{"code": "handlers = []", "compilation_passed": true, "time": 0.005579948425292969, "tests_passed": true, "error": null}
+{"code": "shutdown()", "compilation_passed": true, "time": 0.012553215026855469, "tests_passed": false, "error": "AttributeError"}
+{"code": "removeHandler(handler)", "compilation_passed": true, "time": 0.005465030670166016, "tests_passed": true, "error": null}
+{"code": "handlers.clear()", "compilation_passed": true, "time": 0.005768299102783203, "tests_passed": true, "error": null}
+{"code": "handlers.pop()", "compilation_passed": true, "time": 0.0050847530364990234, "tests_passed": true, "error": null}
+{"code": "handlers[0].flush()", "compilation_passed": true, "time": 0.0050890445709228516, "tests_passed": true, "error": null}
+{"code": "handlers.pop(0)", "compilation_passed": true, "time": 0.005835056304931641, "tests_passed": true, "error": null}
+{"code": "handlers[0].doFmt(False)", "compilation_passed": true, "time": 0.011188030242919922, "tests_passed": false, "error": "AttributeError"}
+{"code": "handlers.remove(logger.handlers[0])", "compilation_passed": true, "time": 0.004873037338256836, "tests_passed": true, "error": null}
+{"code": "handlers[1].close", "compilation_passed": true, "time": 0.007066011428833008, "tests_passed": true, "error": null}
+{"code": "handlers[0].setFormatter(formatter)", "compilation_passed": true, "time": 0.006504058837890625, "tests_passed": true, "error": null}

@@ -1,0 +1,6 @@
+{"code": " str(col)] = [tuple(np.random.choice(range(10), size=np.random.randint(1, 6))) for _ in", "compilation_passed": true, "time": 0.008626937866210938, "tests_passed": true, "error": null}
+{"code": " str(col)] = tuple(np.random.choice(range(10), size=np.random.randint(1, 6)))", "compilation_passed": false, "time": 0.0003440380096435547, "tests_passed": false, "error": "IndentationError"}
+{"code": " str(col)] = tuple([tuple(np.random.choice(range(10), size=np.random.randint(1, 6))) for _ in", "compilation_passed": false, "time": 0.0003631114959716797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = tuple(np.random.choice(range(10), size=np.random.randint(1, 6)) for _ in range(rows))", "compilation_passed": false, "time": 0.0006709098815917969, "tests_passed": false, "error": "IndentationError"}
+{"code": " str(col)] = tuple(tuple(np.random.choice(range(10), size=np.random.randint(1, 6))) for _ in", "compilation_passed": false, "time": 0.00021982192993164062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [(choice(range(10)),)*np.random.randint(1, 6) for _ in range(rows)]", "compilation_passed": false, "time": 0.00039505958557128906, "tests_passed": false, "error": "IndentationError"}

@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame(combinations)", "compilation_passed": true, "time": 0.02715897560119629, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(combinations, columns=[\"a\", \"b\", \"c\"])", "compilation_passed": true, "time": 0.28745198249816895, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(combinations).rename(columns={0: 'a', 1: 'b', 2: 'c'})", "compilation_passed": true, "time": 0.28687572479248047, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(combinations, columns=['a', 'b', 'c'])", "compilation_passed": true, "time": 0.268265962600708, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(combinations).rename(columns={0: \"a\", 1: \"b\", 2: \"c\"})", "compilation_passed": true, "time": 0.2755711078643799, "tests_passed": true, "error": null}

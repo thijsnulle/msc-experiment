@@ -1,0 +1,6 @@
+{"code": " df.drop(columns=column, axis=1)", "compilation_passed": true, "time": 0.1167292594909668, "tests_passed": true, "error": null}
+{"code": " df.drop(column, axis=\"columns\")", "compilation_passed": true, "time": 0.10404396057128906, "tests_passed": true, "error": null}
+{"code": " df.drop(column, axis=1)", "compilation_passed": true, "time": 0.8635168075561523, "tests_passed": true, "error": null}
+{"code": " df.drop([column], axis=1)", "compilation_passed": true, "time": 0.10278010368347168, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=[column], errors='ignore')", "compilation_passed": true, "time": 0.12297415733337402, "tests_passed": true, "error": null}
+{"code": " df.drop(column, axis=\"columns\", inplace=False)", "compilation_passed": true, "time": 0.13165998458862305, "tests_passed": true, "error": null}

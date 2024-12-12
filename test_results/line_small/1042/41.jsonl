@@ -1,0 +1,10 @@
+{"code": " EmailMessage()", "compilation_passed": true, "time": 0.024033069610595703, "tests_passed": true, "error": null}
+{"code": " request.split(\" \")[0]", "compilation_passed": true, "time": 0.01768803596496582, "tests_passed": false, "error": "TypeError"}
+{"code": " request.split(\" \")[-1]", "compilation_passed": true, "time": 0.014760971069335938, "tests_passed": false, "error": "TypeError"}
+{"code": " request.split(\"\\n\")[1]", "compilation_passed": true, "time": 0.018220901489257812, "tests_passed": false, "error": "IndexError"}
+{"code": " request.split()", "compilation_passed": true, "time": 0.013338088989257812, "tests_passed": false, "error": "TypeError"}
+{"code": " request.split(\"\\n\\n\")[-1].strip()", "compilation_passed": true, "time": 0.011565208435058594, "tests_passed": false, "error": "TypeError"}
+{"code": " request.split(\"\\n\\n\")[0].decode(\"utf-8\")", "compilation_passed": true, "time": 0.013022899627685547, "tests_passed": false, "error": "AttributeError"}
+{"code": " request.split(\"|\")", "compilation_passed": true, "time": 0.011456012725830078, "tests_passed": false, "error": "TypeError"}
+{"code": " request.split(' ')[1]", "compilation_passed": true, "time": 0.011537790298461914, "tests_passed": false, "error": "IndexError"}
+{"code": " request.split(\",\")", "compilation_passed": true, "time": 0.01165008544921875, "tests_passed": false, "error": "TypeError"}

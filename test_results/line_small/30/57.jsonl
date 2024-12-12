@@ -1,0 +1,20 @@
+{"code": " not isinstance(data[key], type(INPUT_JSON['properties'][key]['type'])):", "compilation_passed": true, "time": 0.011491060256958008, "tests_passed": false, "error": "ValueError"}
+{"code": " key in INPUT_JSON['properties']:", "compilation_passed": true, "time": 0.011483907699584961, "tests_passed": false, "error": "ValueError"}
+{"code": " key not in INPUT_JSON['properties']:", "compilation_passed": true, "time": 0.004589080810546875, "tests_passed": true, "error": null}
+{"code": " isinstance(data[key], dict):", "compilation_passed": true, "time": 0.004309892654418945, "tests_passed": true, "error": null}
+{"code": " key in ['name', 'age'] and type(data[key]) != INPUT_JSON[\"properties\"][key]['type']:", "compilation_passed": true, "time": 0.004648923873901367, "tests_passed": true, "error": null}
+{"code": " INPUT_JSON[\"properties\"][key][\"type\"] not in type(data[key]):", "compilation_passed": true, "time": 0.01040792465209961, "tests_passed": false, "error": "TypeError"}
+{"code": " data[key]['type'] == 'number':", "compilation_passed": true, "time": 0.009850740432739258, "tests_passed": false, "error": "TypeError"}
+{"code": " key in data:", "compilation_passed": true, "time": 0.010311126708984375, "tests_passed": false, "error": "ValueError"}
+{"code": " data[key] is None:", "compilation_passed": true, "time": 0.004611968994140625, "tests_passed": true, "error": null}
+{"code": " type(data[key]) is not INPUT_JSON[\"properties\"][key][\"type\"]:", "compilation_passed": true, "time": 0.004802703857421875, "tests_passed": true, "error": null}
+{"code": " isinstance(INPUT_JSON['properties'][key]['type'], list):", "compilation_passed": true, "time": 0.004292011260986328, "tests_passed": true, "error": null}
+{"code": " isinstance(data[key], str):", "compilation_passed": true, "time": 0.01143193244934082, "tests_passed": false, "error": "ValueError"}
+{"code": " type(data[key]) != INPUT_JSON['properties'][key]['type']:", "compilation_passed": true, "time": 0.004399776458740234, "tests_passed": true, "error": null}
+{"code": " INPUT_JSON['type'] == \"object\" and not isinstance(data[key], dict):", "compilation_passed": true, "time": 0.011925935745239258, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(data[key], INPUT_JSON['properties'][key]['type']):", "compilation_passed": true, "time": 0.0051059722900390625, "tests_passed": true, "error": null}
+{"code": " INPUT_JSON['properties'][key]['type'] != type(data[key]):", "compilation_passed": true, "time": 0.005198955535888672, "tests_passed": true, "error": null}
+{"code": " INPUT_JSON['properties'][key]['type'] == 'string':", "compilation_passed": true, "time": 0.004940032958984375, "tests_passed": true, "error": null}
+{"code": " type(data[key]) is not INPUT_JSON['properties'][key]['type']:", "compilation_passed": true, "time": 0.004670381546020508, "tests_passed": true, "error": null}
+{"code": " key == \"email\" and not re.search(EMAIL_REGEX, data[key]):", "compilation_passed": true, "time": 0.0052700042724609375, "tests_passed": true, "error": null}
+{"code": " not INPUT_JSON['properties'][key]['type'] == type(data[key]):", "compilation_passed": true, "time": 0.005970954895019531, "tests_passed": true, "error": null}

@@ -1,0 +1,20 @@
+{"code": "bar(explained_variance_ratio.index, explained_variance_ratio)", "compilation_passed": true, "time": 0.038822174072265625, "tests_passed": false, "error": "AttributeError"}
+{"code": "bar(range(1,pca.n_components_+1), explained_variance_ratio)", "compilation_passed": true, "time": 0.15969109535217285, "tests_passed": true, "error": null}
+{"code": "set_title('Explained Variance Ratio of Principal Components')", "compilation_passed": true, "time": 0.09750509262084961, "tests_passed": true, "error": null}
+{"code": "bar(range(len(explained_variance_ratio)), explained_variance_ratio)", "compilation_passed": true, "time": 0.1692979335784912, "tests_passed": true, "error": null}
+{"code": "bar(range(1, pca.n_components_+1), explained_variance_ratio)", "compilation_passed": true, "time": 0.16534709930419922, "tests_passed": true, "error": null}
+{"code": "barh(range(len(explained_variance_ratio)), explained_variance_ratio, align='center')", "compilation_passed": true, "time": 0.10507893562316895, "tests_passed": true, "error": null}
+{"code": "bar(df['Date'], explained_variance_ratio, label='Explained variance ratio')", "compilation_passed": true, "time": 0.16946768760681152, "tests_passed": true, "error": null}
+{"code": "bar(range(1, len(explained_variance_ratio) + 1), explained_variance_ratio)", "compilation_passed": true, "time": 0.16754412651062012, "tests_passed": true, "error": null}
+{"code": "bar(range(1,len(explained_variance_ratio)+1), explained_variance_ratio, label='Explained Variance Ratio of Principal Components')", "compilation_passed": true, "time": 0.16887116432189941, "tests_passed": true, "error": null}
+{"code": "bar(range(1,len(explained_variance_ratio)+1), explained_variance_ratio, color='rgb')", "compilation_passed": true, "time": 0.05311989784240723, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(pca.components_.T[0], pca.components_.T[1])", "compilation_passed": true, "time": 0.10521411895751953, "tests_passed": true, "error": null}
+{"code": "bar(pca.explained_variance_ratio_.index, pca.explained_variance_ratio_, alpha=0.5, color='green')", "compilation_passed": true, "time": 0.03923606872558594, "tests_passed": false, "error": "AttributeError"}
+{"code": "barh(df.index, explained_variance_ratio)", "compilation_passed": true, "time": 0.1029658317565918, "tests_passed": true, "error": null}
+{"code": "bar(range(1, pca.n_components + 1), explained_variance_ratio)", "compilation_passed": true, "time": 0.03786611557006836, "tests_passed": false, "error": "TypeError"}
+{"code": "bar(range(len(explained_variance_ratio)), explained_variance_ratio, alpha=0.5, color='red', edgecolor='black')", "compilation_passed": true, "time": 0.1677858829498291, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(0, 1, 0.1), explained_variance_ratio, width=0.1)", "compilation_passed": true, "time": 0.04458904266357422, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(df['Date'], explained_variance_ratio)", "compilation_passed": true, "time": 0.17280888557434082, "tests_passed": true, "error": null}
+{"code": "bar(range(1, len(explained_variance_ratio)+1), explained_variance_ratio, color='red')", "compilation_passed": true, "time": 0.17150592803955078, "tests_passed": true, "error": null}
+{"code": "barh(list(df.iloc[:,1:]).columns, explained_variance_ratio)", "compilation_passed": true, "time": 0.041825056076049805, "tests_passed": false, "error": "AttributeError"}
+{"code": "bar(np.arange(len(explained_variance_ratio)), explained_variance_ratio, color='blue')", "compilation_passed": true, "time": 0.17235803604125977, "tests_passed": true, "error": null}

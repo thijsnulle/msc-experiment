@@ -1,0 +1,12 @@
+{"code": "execute(\"INSERT OR IGNORE INTO paths VALUES (?)\", (path_to_append,))", "compilation_passed": true, "time": 0.01583385467529297, "tests_passed": true, "error": null}
+{"code": "execute(\"INSERT INTO paths VALUES (?)\", (path_to_append,))", "compilation_passed": true, "time": 0.02012181282043457, "tests_passed": false, "error": "sqlite3.IntegrityError"}
+{"code": "execute(f\"INSERT INTO paths (path) VALUES (?)\", (path_to_append,))", "compilation_passed": true, "time": 0.018973350524902344, "tests_passed": false, "error": "sqlite3.IntegrityError"}
+{"code": "execute(\"INSERT OR IGNORE INTO paths VALUES (?)\", (path_to_append, ))", "compilation_passed": true, "time": 0.020122051239013672, "tests_passed": true, "error": null}
+{"code": "execute(f\"INSERT OR IGNORE INTO paths (path) VALUES ('{path_to_append}')\")", "compilation_passed": true, "time": 0.01862502098083496, "tests_passed": true, "error": null}
+{"code": "execute(\"INSERT INTO paths (path) VALUES (?) ON CONFLICT DO NOTHING\", (path_to_append,))", "compilation_passed": true, "time": 0.01638197898864746, "tests_passed": true, "error": null}
+{"code": "execute(\"INSERT INTO paths VALUES ('%s')\" % path_to_append)", "compilation_passed": true, "time": 0.018692970275878906, "tests_passed": false, "error": "sqlite3.IntegrityError"}
+{"code": "execute(f\"INSERT OR IGNORE INTO paths VALUES('{path_to_append}')\")", "compilation_passed": true, "time": 0.03279399871826172, "tests_passed": true, "error": null}
+{"code": "executemany(\"INSERT INTO paths (path) VALUES (?)\", [(path,) for path in sys.path])", "compilation_passed": true, "time": 0.03334999084472656, "tests_passed": false, "error": "sqlite3.IntegrityError"}
+{"code": "execute(\"INSERT INTO paths (path) VALUES (?)\", (path_to_append,))", "compilation_passed": true, "time": 0.05476093292236328, "tests_passed": false, "error": "sqlite3.IntegrityError"}
+{"code": "execute(\"INSERT OR IGNORE INTO paths VALUES (?)\", [path_to_append])", "compilation_passed": true, "time": 0.03195977210998535, "tests_passed": true, "error": null}
+{"code": "execute(f\"INSERT OR IGNORE INTO paths VALUES (?)\", (path_to_append,))", "compilation_passed": true, "time": 0.02198505401611328, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": " tokenizer.tokenize(text)", "compilation_passed": true, "time": 0.005210161209106445, "tests_passed": true, "error": null}
+{"code": " [word for word in tokenizer.tokenize(text)", "compilation_passed": false, "time": 0.0001800060272216797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.006112098693847656, "tests_passed": true, "error": null}
+{"code": " [w.lower() for w in tokenizer.tokenize(text) if not set(w).issubset(punctuation_set)]", "compilation_passed": true, "time": 0.004853010177612305, "tests_passed": true, "error": null}
+{"code": " [word for word in tokenizer.tokenize(text) if len(set(word) - punctuation_set) > 0]", "compilation_passed": true, "time": 0.0044209957122802734, "tests_passed": true, "error": null}
+{"code": " [word for word in tokenizer.tokenize(text) if word not in PUNCTUATION]", "compilation_passed": true, "time": 0.004421234130859375, "tests_passed": true, "error": null}
+{"code": " [w for w in tokenizer.tokenize(text) if not any(p in punctuation_set for p in w)]", "compilation_passed": true, "time": 0.0062618255615234375, "tests_passed": true, "error": null}
+{"code": " set(tokenizer.tokenize(text))", "compilation_passed": true, "time": 0.0064318180084228516, "tests_passed": true, "error": null}
+{"code": " [w for w in tokenizer.tokenize(text) if not any(c in punctuation_set for c in w)]", "compilation_passed": true, "time": 0.006630897521972656, "tests_passed": true, "error": null}

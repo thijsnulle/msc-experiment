@@ -1,0 +1,22 @@
+{"code": " re.sub(r'[^\\w\\s]', '', text.lower())", "compilation_passed": true, "time": 0.41735196113586426, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-z]', '', text.lower())", "compilation_passed": true, "time": 0.07695889472961426, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', text).lower().strip()", "compilation_passed": true, "time": 0.3426482677459717, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^a-zA-Z0-9\\s]\", \"\", text.lower())", "compilation_passed": true, "time": 0.38587093353271484, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-z0-9\\s]', '', text.lower())", "compilation_passed": true, "time": 0.45481085777282715, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z ]', '', text).lower()", "compilation_passed": true, "time": 0.3809070587158203, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s]\", \"\", text)", "compilation_passed": true, "time": 0.08985400199890137, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text).lower()", "compilation_passed": true, "time": 0.3438546657562256, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text)  # remove punctuation", "compilation_passed": true, "time": 0.08710503578186035, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"['!@#$%^&*()_+,.?:;'\\\"\" + r\"\\s]+\", \" \", text.lower())", "compilation_passed": true, "time": 0.3344440460205078, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s]\", \"\", text.lower()).split()", "compilation_passed": true, "time": 0.00976705551147461, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r\"[^a-zA-Z\\s]\", \"\", text).lower()", "compilation_passed": true, "time": 0.44391608238220215, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-z0-9\\s]+', ' ', text.lower())", "compilation_passed": true, "time": 0.31247782707214355, "tests_passed": true, "error": null}
+{"code": " text.lower().replace('\\n', ' ').replace('.', ' ').replace(',', ' ').replace('\\'', '').replace('?', ' ').replace('-', ' ').replace('(', ' ').replace(')', ' ').replace(':', ' ').replace(';', ' ').replace('!', ' ').replace('\"', ' ')", "compilation_passed": true, "time": 0.32756686210632324, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-z\\']+', ' ', text.lower())", "compilation_passed": true, "time": 0.30677103996276855, "tests_passed": true, "error": null}
+{"code": " text.lower()", "compilation_passed": true, "time": 0.141679048538208, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^a-z ]\", \"\", text.lower())", "compilation_passed": true, "time": 0.3206350803375244, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text).lower().split()", "compilation_passed": true, "time": 0.009462833404541016, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r'[^\\w\\s]', '', text)", "compilation_passed": true, "time": 0.05749773979187012, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"['\\u2018\\u2019\\u201c\\u201d\\u2013]\", \" \", text)  # Remove special characters and spaces", "compilation_passed": true, "time": 0.06975126266479492, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', text).lower()", "compilation_passed": true, "time": 0.33915233612060547, "tests_passed": true, "error": null}
+{"code": " re.sub('[^\\w\\s]', '', text.lower())", "compilation_passed": true, "time": 0.33841991424560547, "tests_passed": true, "error": null}

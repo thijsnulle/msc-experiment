@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame({'Date': date_range, 'Sales': sales_forecast})", "compilation_passed": true, "time": 0.06926488876342773, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00029015541076660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00026679039001464844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(sales_forecast, index=date_range, columns=['Sales'])", "compilation_passed": true, "time": 0.17416810989379883, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Date\": date_range, \"Sales\": sales_forecast})", "compilation_passed": true, "time": 0.06858277320861816, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(sales_forecast, columns=['Sales'])", "compilation_passed": true, "time": 0.1631762981414795, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": " reduce(lambda x, y: x * y, combination, 1)", "compilation_passed": true, "time": 0.0013968944549560547, "tests_passed": true, "error": null}
+{"code": " reduce(lambda x, y: x * y, combination)", "compilation_passed": true, "time": 0.0016407966613769531, "tests_passed": true, "error": null}
+{"code": " reduce(lambda a, b: a * b, combination, 1)", "compilation_passed": true, "time": 0.0013458728790283203, "tests_passed": true, "error": null}
+{"code": " reduce(lambda a, b: a*b, combination, 1)", "compilation_passed": true, "time": 0.0014681816101074219, "tests_passed": true, "error": null}
+{"code": " reduce(math.prod, combination)", "compilation_passed": true, "time": 0.007802248001098633, "tests_passed": false, "error": "TypeError"}
+{"code": " reduce(math.prod, combination, 1)", "compilation_passed": true, "time": 0.008113861083984375, "tests_passed": false, "error": "TypeError"}
+{"code": " reduce((lambda x, y: x * y), combination)", "compilation_passed": true, "time": 0.0014452934265136719, "tests_passed": true, "error": null}
+{"code": " math.prod(combination)", "compilation_passed": true, "time": 0.001203775405883789, "tests_passed": true, "error": null}
+{"code": " reduce(lambda x, y: x*y, combination)", "compilation_passed": true, "time": 0.0013890266418457031, "tests_passed": true, "error": null}

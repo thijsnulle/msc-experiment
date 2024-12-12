@@ -1,0 +1,4 @@
+{"code": " Fernet.generate_key()", "compilation_passed": true, "time": 0.1559460163116455, "tests_passed": true, "error": null}
+{"code": " Fernet(str.encode(priv_key))", "compilation_passed": true, "time": 0.059297800064086914, "tests_passed": false, "error": "TypeError"}
+{"code": " Fernet(str(pub_key))", "compilation_passed": true, "time": 0.05072307586669922, "tests_passed": false, "error": "ValueError"}
+{"code": " Fernet.generate_key().decode()", "compilation_passed": true, "time": 0.03274703025817871, "tests_passed": false, "error": "TypeError"}

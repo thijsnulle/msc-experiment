@@ -1,0 +1,4 @@
+{"code": " unescape(decoded_string)", "compilation_passed": true, "time": 0.001148223876953125, "tests_passed": true, "error": null}
+{"code": " re.sub(r'&[^;]+;', lambda m: unescape(m.group(0)), decoded_string)", "compilation_passed": true, "time": 0.0011439323425292969, "tests_passed": true, "error": null}
+{"code": " re.sub(r'&(#?)(x?)([a-zA-Z0-9]+);', lambda match: unescape(match.group(3)) if match.group(1) == '&' and match.group(2) == 'x' else unescape(match.group(3)), decoded_string)", "compilation_passed": true, "time": 0.0012638568878173828, "tests_passed": true, "error": null}
+{"code": " re.sub(r'&[^;]+;', lambda x: html.unescape(x.group(0)), decoded_string)", "compilation_passed": true, "time": 0.001093149185180664, "tests_passed": true, "error": null}

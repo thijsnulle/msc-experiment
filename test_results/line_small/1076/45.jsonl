@@ -1,0 +1,8 @@
+{"code": " datetime.strptime(time_string, TIME_FORMAT)", "compilation_passed": true, "time": 0.0032939910888671875, "tests_passed": true, "error": null}
+{"code": " datetime.datetime.strptime(time_string, TIME_FORMAT)", "compilation_passed": true, "time": 0.009786844253540039, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.datetime.strptime(time_string, TIME_FORMAT).replace(tzinfo=datetime.timezone.utc)", "compilation_passed": true, "time": 0.009428977966308594, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.strptime(time_string, TIME_FORMAT).replace(tzinfo=ZoneInfo(\"UTC\"))", "compilation_passed": true, "time": 0.0032427310943603516, "tests_passed": true, "error": null}
+{"code": " datetime.strptime(time_string, TIME_FORMAT).replace(tzinfo=ZoneInfo('UTC'))", "compilation_passed": true, "time": 0.002650022506713867, "tests_passed": true, "error": null}
+{"code": " datetime.strptime(time_string, TIME_FORMAT).astimezone(ZoneInfo(\"UTC\"))", "compilation_passed": true, "time": 0.0069429874420166016, "tests_passed": true, "error": null}
+{"code": " datetime.datetime.strptime(time_string, TIME_FORMAT).replace(tzinfo=ZoneInfo(\"UTC\"))", "compilation_passed": true, "time": 0.009283065795898438, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.strptime(time_string, TIME_FORMAT).replace(tzinfo=datetime.utcinfo)", "compilation_passed": true, "time": 0.009405851364135742, "tests_passed": false, "error": "AttributeError"}

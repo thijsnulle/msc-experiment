@@ -1,0 +1,17 @@
+{"code": " pd.DataFrame(stats, index=all_keys)", "compilation_passed": false, "time": 0.00049591064453125, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0003211498260498047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(dict(stats), index=all_keys)", "compilation_passed": false, "time": 0.00032520294189453125, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(stats, columns=['mean', 'median']).sort_index()", "compilation_passed": false, "time": 0.00029587745666503906, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(stats)", "compilation_passed": false, "time": 0.0002720355987548828, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(stats).apply(pd.Series.mean).astype(float)", "compilation_passed": false, "time": 0.00029206275939941406, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(stats).sort_index()", "compilation_passed": false, "time": 0.0002789497375488281, "tests_passed": false, "error": "IndentationError"}
+{"code": " []", "compilation_passed": false, "time": 0.00027680397033691406, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0002727508544921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(dict(zip(all_keys, stats.values())))", "compilation_passed": false, "time": 0.00028514862060546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(stats).apply(np.nanmean, axis=0)", "compilation_passed": false, "time": 0.0002880096435546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame.from_dict(stats, orient=\"index\")", "compilation_passed": false, "time": 0.0002810955047607422, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(stats, index=all_keys).replace(np.nan, value=np.nan).sort_index()", "compilation_passed": false, "time": 0.0002911090850830078, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(stats, index=all_keys, columns=[\"mean\", \"median\"])", "compilation_passed": false, "time": 0.0002930164337158203, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({k: pd.Series(v) for k, v in stats.items()})", "compilation_passed": false, "time": 0.0002892017364501953, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame([{key: np.nanmedian(v) if len(v) > 1 else np.nan", "compilation_passed": false, "time": 0.0002911090850830078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(stats).T", "compilation_passed": false, "time": 0.000270843505859375, "tests_passed": false, "error": "IndentationError"}

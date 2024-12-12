@@ -1,0 +1,11 @@
+{"code": " FileResponse(zip_io, as_attachment=True, filename='files.zip')", "compilation_passed": true, "time": 0.0047228336334228516, "tests_passed": true, "error": null}
+{"code": " FileResponse(zip_io, filename='files.zip')", "compilation_passed": true, "time": 0.008400917053222656, "tests_passed": true, "error": null}
+{"code": " FileResponse(zip_io)", "compilation_passed": true, "time": 0.027837038040161133, "tests_passed": false, "error": "KeyError"}
+{"code": " FileResponse(zip_io, content_type='application/zip')", "compilation_passed": true, "time": 0.011373043060302734, "tests_passed": false, "error": "KeyError"}
+{"code": " FileResponse(zip_io, filename=\"files.zip\")", "compilation_passed": true, "time": 0.00835418701171875, "tests_passed": true, "error": null}
+{"code": " FileResponse(zip_io, as_attachment=True)", "compilation_passed": true, "time": 0.011014223098754883, "tests_passed": true, "error": null}
+{"code": " FileResponse(zip_io)  # Create a FileResponse object from the stream", "compilation_passed": true, "time": 0.009052038192749023, "tests_passed": false, "error": "KeyError"}
+{"code": " FileResponse(zip_io, as_attachment=True)  # Create a FileResponse", "compilation_passed": true, "time": 0.009433746337890625, "tests_passed": true, "error": null}
+{"code": " FileResponse(zip_io, as_attachment=True, filename='files.zip'", "compilation_passed": false, "time": 0.0002448558807373047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " FileResponse(zip_io)  # Create a FileResponse object", "compilation_passed": true, "time": 0.011770009994506836, "tests_passed": false, "error": "KeyError"}
+{"code": " FileResponse(zip_io, filename='files.zip', as_attachment=True)", "compilation_passed": true, "time": 0.005339860916137695, "tests_passed": true, "error": null}

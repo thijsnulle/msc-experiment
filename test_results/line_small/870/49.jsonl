@@ -1,0 +1,19 @@
+{"code": " [value for value in column if np.issubclass_(type(value), (int, float))]", "compilation_passed": true, "time": 0.0042018890380859375, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0033359527587890625, "tests_passed": true, "error": null}
+{"code": " [float(value) for value in column if np.isreal(value)]", "compilation_passed": true, "time": 0.004151105880737305, "tests_passed": true, "error": null}
+{"code": " [value for value in column if np.issubdtype(type(value), (int, float))]", "compilation_passed": true, "time": 0.003637075424194336, "tests_passed": true, "error": null}
+{"code": " [float(value) for value in column[1:]]", "compilation_passed": true, "time": 0.006926059722900391, "tests_passed": false, "error": "ValueError"}
+{"code": " [value for value in column if isinstance(value, (int, float))]", "compilation_passed": true, "time": 0.003432035446166992, "tests_passed": true, "error": null}
+{"code": " [value for value in column if pd.isnull(value)]", "compilation_passed": true, "time": 0.0037088394165039062, "tests_passed": true, "error": null}
+{"code": " [value for value in column if np.issubdtype(type(value), np.number)]", "compilation_passed": true, "time": 0.0053560733795166016, "tests_passed": true, "error": null}
+{"code": " [value for value in column if pd.isna(value) or (pd.isnull(value) == False) and value is not None]", "compilation_passed": true, "time": 0.012281179428100586, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " [value for value in column if pd.isna(value) or isinstance(value, (int, float))]", "compilation_passed": true, "time": 0.0039958953857421875, "tests_passed": true, "error": null}
+{"code": " [value for value in column if pd.isnumeric(value)]", "compilation_passed": true, "time": 0.0062830448150634766, "tests_passed": false, "error": "AttributeError"}
+{"code": " [val for val in column if np.isreal(val)]", "compilation_passed": true, "time": 0.003763914108276367, "tests_passed": true, "error": null}
+{"code": " [val for val in column if np.issubclass_(type(val), (int, float))]", "compilation_passed": true, "time": 0.0038268566131591797, "tests_passed": true, "error": null}
+{"code": " [value for value in column if np.isreal(value)]", "compilation_passed": true, "time": 0.0036590099334716797, "tests_passed": true, "error": null}
+{"code": " [value for value in column if isinstance(value, (int, float, np.integer, np.floating))]", "compilation_passed": true, "time": 0.0036160945892333984, "tests_passed": true, "error": null}
+{"code": " [value for value in column if isinstance(value, (int, float, np.number, complex))]", "compilation_passed": true, "time": 0.004184722900390625, "tests_passed": true, "error": null}
+{"code": " [v for v in column if isinstance(v, (int, float))]", "compilation_passed": true, "time": 0.004221200942993164, "tests_passed": true, "error": null}
+{"code": " [val for val in column if pd.isna(val) or isinstance(val, (int, float))]", "compilation_passed": true, "time": 0.003614187240600586, "tests_passed": true, "error": null}
+{"code": " [value for value in column if pd.isna(value) or isinstance(value, (int, float, np.int_, np.float_))]", "compilation_passed": true, "time": 0.0038602352142333984, "tests_passed": true, "error": null}

@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame(my_dict)", "compilation_passed": true, "time": 0.007514238357543945, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(my_dict)", "compilation_passed": true, "time": 0.007492780685424805, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([my_dict])", "compilation_passed": true, "time": 0.005754947662353516, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([{key: my_dict[key] for key in my_dict.keys() if key not in [\"a\", \"b\", \"c\"]}])", "compilation_passed": true, "time": 0.004991054534912109, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([my_dict])[list(my_dict.keys())]", "compilation_passed": true, "time": 0.006999015808105469, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([my_dict]).T", "compilation_passed": true, "time": 0.005351066589355469, "tests_passed": true, "error": null}

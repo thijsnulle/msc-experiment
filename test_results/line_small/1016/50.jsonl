@@ -1,0 +1,26 @@
+{"code": " hist = np.histogram(img_array, bins=256, range=(0, 255))", "compilation_passed": true, "time": 0.012987852096557617, "tests_passed": false, "error": "NameError"}
+{"code": " bins = np.histogram(img_array, 256)", "compilation_passed": true, "time": 0.013217926025390625, "tests_passed": false, "error": "NameError"}
+{"code": " bins = np.histogram(img_array)", "compilation_passed": true, "time": 0.013593196868896484, "tests_passed": false, "error": "NameError"}
+{"code": " hist, _ = plt.hist(img_array, 256, facecolor=\"blue\", edgecolor=\"white\")", "compilation_passed": true, "time": 1.0129799842834473, "tests_passed": false, "error": "TimeoutError"}
+{"code": " hist = np.histogram(img_array, bins=256)", "compilation_passed": true, "time": 0.01556706428527832, "tests_passed": false, "error": "NameError"}
+{"code": " bins, _ = plt.hist(img_array.flatten(), bins=50, density=True)", "compilation_passed": true, "time": 0.05054306983947754, "tests_passed": false, "error": "NameError"}
+{"code": " ax = plt.hist(img_array.flatten(), bins=256, edgecolor='w')", "compilation_passed": true, "time": 0.15901422500610352, "tests_passed": false, "error": "ValueError"}
+{"code": " hist, _ = plt.hist(img_array, bins=256)", "compilation_passed": true, "time": 1.5802860260009766, "tests_passed": false, "error": "TimeoutError"}
+{"code": " bins, patches = plt.hist(img_array, bins=256, density=True)", "compilation_passed": true, "time": 1.0121078491210938, "tests_passed": false, "error": "TimeoutError"}
+{"code": " bins, patches = plt.hist(img_array.flatten(), bins=256)", "compilation_passed": true, "time": 0.171097993850708, "tests_passed": false, "error": "NameError"}
+{"code": " bins, _ = plt.hist(img_array, 256, facecolor=\"white\", rwidth=1, binsize=5, linewidth=0, edgecolor=\"white\")", "compilation_passed": true, "time": 1.607022762298584, "tests_passed": false, "error": "TimeoutError"}
+{"code": " bins = np.histogram(img_array, bins=256, range=(0, 255))", "compilation_passed": true, "time": 0.012563943862915039, "tests_passed": false, "error": "NameError"}
+{"code": " bins, patches = plt.hist(img_array, bins=256)", "compilation_passed": true, "time": 15.895173788070679, "tests_passed": false, "error": "NameError"}
+{"code": " bins, _ = plt.hist(img_array, bins=256)", "compilation_passed": true, "time": 1.0119848251342773, "tests_passed": false, "error": "TimeoutError"}
+{"code": " bins, patches = plt.hist(img_array.flatten(), 256)", "compilation_passed": true, "time": 0.15014410018920898, "tests_passed": false, "error": "NameError"}
+{"code": " counts = np.unique(img_array, return_counts=True)", "compilation_passed": true, "time": 0.012435197830200195, "tests_passed": false, "error": "NameError"}
+{"code": " hist = np.histogram(img_array, bins=256)  # Create a histogram with 256 bins", "compilation_passed": true, "time": 0.015552997589111328, "tests_passed": false, "error": "NameError"}
+{"code": " histogram, _ = np.histogram(img_array, bins=256, range=(0, 255))", "compilation_passed": true, "time": 0.013695955276489258, "tests_passed": false, "error": "ValueError"}
+{"code": " bins = np.histogram(img_array, bins=256, normed=False)", "compilation_passed": true, "time": 0.011137008666992188, "tests_passed": false, "error": "TypeError"}
+{"code": " bins, _ = plt.hist(img_array, bins=128, range=(0, 255), density=True, lw=0, ec=\"none\", fc=\"white\", alpha=1)", "compilation_passed": true, "time": 1.0111579895019531, "tests_passed": false, "error": "TimeoutError"}
+{"code": " bins, _ = plt.hist(img_array.flatten(), bins=100)  # bins=100", "compilation_passed": true, "time": 0.07624316215515137, "tests_passed": false, "error": "NameError"}
+{"code": " bin_edges = np.histogram(img_array, 256, [0, 255])", "compilation_passed": true, "time": 0.012346029281616211, "tests_passed": false, "error": "NameError"}
+{"code": " hist, _ = plt.hist(img_array.ravel(), bins=256, density=True)", "compilation_passed": true, "time": 0.1534709930419922, "tests_passed": false, "error": "NameError"}
+{"code": " bins = np.histogram(img_array, bins=256, range=(0, 256), density=True)", "compilation_passed": true, "time": 0.016462087631225586, "tests_passed": false, "error": "NameError"}
+{"code": " hist, _ = np.histogram(img_array, bins=256, range=(0, 255))", "compilation_passed": true, "time": 0.011955976486206055, "tests_passed": false, "error": "ValueError"}
+{"code": " bin_edges, _ = plt.hist(img_array, bins=256, range=(0, 255))", "compilation_passed": true, "time": 1.0123941898345947, "tests_passed": false, "error": "TimeoutError"}

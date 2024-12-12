@@ -1,0 +1,30 @@
+{"code": " 3*X + np.random.rand(num_samples) * noise_strength", "compilation_passed": true, "time": 0.07911515235900879, "tests_passed": true, "error": null}
+{"code": " 3 * X + np.random.normal(0, noise_strength, size=num_samples)", "compilation_passed": true, "time": 0.0885319709777832, "tests_passed": true, "error": null}
+{"code": " (noise_strength * np.random.normal(0, 1, len(X)) + 10) + (np.dot(X, [1]) * 2 + 1)", "compilation_passed": true, "time": 0.009675025939941406, "tests_passed": true, "error": null}
+{"code": " np.sum(X, axis=1) * 2 + np.random.randn(num_samples, 1) * noise_strength", "compilation_passed": true, "time": 0.040715694427490234, "tests_passed": true, "error": null}
+{"code": " X + np.random.rand(num_samples) * noise_strength", "compilation_passed": true, "time": 0.06784701347351074, "tests_passed": true, "error": null}
+{"code": " X.dot(np.array([[2.0]])) + np.random.randn(num_samples, 1) * noise_strength", "compilation_passed": true, "time": 0.010652780532836914, "tests_passed": true, "error": null}
+{"code": " X + np.random.normal(0, noise_strength, num_samples)", "compilation_passed": true, "time": 0.07070732116699219, "tests_passed": true, "error": null}
+{"code": " 2*X + np.random.normal(0, 1, num_samples)", "compilation_passed": true, "time": 0.06821608543395996, "tests_passed": true, "error": null}
+{"code": " 2 * X + 10 * np.random.randn(num_samples, 1)", "compilation_passed": true, "time": 0.013454675674438477, "tests_passed": true, "error": null}
+{"code": " 1.0 * X + noise_strength * np.random.randn(num_samples, 1)", "compilation_passed": true, "time": 0.010952949523925781, "tests_passed": true, "error": null}
+{"code": " X * 0.1 + 0.1", "compilation_passed": true, "time": 0.021017074584960938, "tests_passed": true, "error": null}
+{"code": " X * 2 + 1 + np.random.normal(0, noise_strength, num_samples)", "compilation_passed": true, "time": 0.07312393188476562, "tests_passed": true, "error": null}
+{"code": " X + np.random.normal(loc=0, scale=noise_strength, size=(num_samples, 1))", "compilation_passed": true, "time": 0.009395122528076172, "tests_passed": true, "error": null}
+{"code": " 0.8 * X + 0.2 + noise_strength * np.random.normal(size=num_samples)", "compilation_passed": true, "time": 0.07051992416381836, "tests_passed": true, "error": null}
+{"code": " 2 * X + np.random.normal(loc=0, scale=noise_strength, size=num_samples)", "compilation_passed": true, "time": 0.06525182723999023, "tests_passed": true, "error": null}
+{"code": " X * 0.8 + 2 + 0.05 * np.random.randn(num_samples, 1)", "compilation_passed": true, "time": 0.014163017272949219, "tests_passed": true, "error": null}
+{"code": " X.copy()", "compilation_passed": true, "time": 0.015620231628417969, "tests_passed": true, "error": null}
+{"code": " 2*X + 2*noise_strength*np.random.randn(num_samples, 1) + 5", "compilation_passed": true, "time": 0.010176897048950195, "tests_passed": true, "error": null}
+{"code": " X * 5 + np.random.randn(num_samples) * noise_strength", "compilation_passed": true, "time": 0.07890796661376953, "tests_passed": true, "error": null}
+{"code": " X.flatten()", "compilation_passed": true, "time": 0.014557838439941406, "tests_passed": true, "error": null}
+{"code": " np.random.normal(loc=0, scale=10, size=num_samples) + X * 10", "compilation_passed": true, "time": 0.06153583526611328, "tests_passed": true, "error": null}
+{"code": " 2 * X + np.random.normal(0, noise_strength, size=num_samples)", "compilation_passed": true, "time": 0.06155586242675781, "tests_passed": true, "error": null}
+{"code": " 1.8 * X + 3.2", "compilation_passed": true, "time": 0.014036893844604492, "tests_passed": true, "error": null}
+{"code": " X * 2.0 + 2.0 + np.random.normal(0, noise_strength, num_samples)", "compilation_passed": true, "time": 0.0751960277557373, "tests_passed": true, "error": null}
+{"code": " X[0, :] * 5 + 10 + (0.05 * (np.random.rand(num_samples) - 0.5) * 100)", "compilation_passed": true, "time": 0.011769294738769531, "tests_passed": true, "error": null}
+{"code": " X + noise_strength * np.random.normal(size=num_samples)", "compilation_passed": true, "time": 0.08448505401611328, "tests_passed": true, "error": null}
+{"code": " X * 4 + 4 + noise_strength * np.random.randn(num_samples, 1)", "compilation_passed": true, "time": 0.013351917266845703, "tests_passed": true, "error": null}
+{"code": " X * 5 + 4 + noise_strength * np.random.randn(num_samples)", "compilation_passed": true, "time": 0.07568812370300293, "tests_passed": true, "error": null}
+{"code": " X*1.5 + 2 + np.random.randn(num_samples) * noise_strength", "compilation_passed": true, "time": 0.08595490455627441, "tests_passed": true, "error": null}
+{"code": " X * 2 + np.random.normal(0, noise_strength, size=num_samples)", "compilation_passed": true, "time": 0.07716608047485352, "tests_passed": true, "error": null}

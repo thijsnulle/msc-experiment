@@ -1,0 +1,8 @@
+{"code": " [row[column_name] for row in reader]", "compilation_passed": true, "time": 0.023697853088378906, "tests_passed": true, "error": null}
+{"code": " collections.Counter([row[column_name] for row in reader])", "compilation_passed": true, "time": 0.021572113037109375, "tests_passed": true, "error": null}
+{"code": " collections.defaultdict(int)", "compilation_passed": true, "time": 0.015797138214111328, "tests_passed": true, "error": null}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.014508962631225586, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.008664846420288086, "tests_passed": true, "error": null}
+{"code": " collections.defaultdict(lambda: 0)", "compilation_passed": true, "time": 0.011674880981445312, "tests_passed": true, "error": null}
+{"code": " collections.Counter(row[column_name] for row in reader)", "compilation_passed": true, "time": 0.021996021270751953, "tests_passed": true, "error": null}
+{"code": " {row[column_name] for row in reader}", "compilation_passed": true, "time": 0.012807130813598633, "tests_passed": true, "error": null}

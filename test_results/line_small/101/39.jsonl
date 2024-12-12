@@ -1,0 +1,15 @@
+{"code": " np.asarray(raw_df, dtype=np.float32)", "compilation_passed": true, "time": 0.8451790809631348, "tests_passed": false, "error": "ValueError"}
+{"code": " np.loadtxt(raw_df, delimiter=\" \")", "compilation_passed": true, "time": 0.8628449440002441, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(raw_df.values)", "compilation_passed": true, "time": 0.8428709506988525, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values", "compilation_passed": true, "time": 0.8384840488433838, "tests_passed": false, "error": "ValueError"}
+{"code": " np.loadtxt(data_url, sep=\"\\s+\", skiprows=22, header=None)", "compilation_passed": true, "time": 0.84889817237854, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(raw_df)", "compilation_passed": true, "time": 0.8442437648773193, "tests_passed": false, "error": "ValueError"}
+{"code": " np.loadtxt(data_url, skiprows=1, delimiter=\" \", dtype=float)", "compilation_passed": true, "time": 1.0285823345184326, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(raw_df, columns=raw_df.columns.to_list()[1:])", "compilation_passed": true, "time": 1.0246562957763672, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.to_numpy()", "compilation_passed": true, "time": 0.8579339981079102, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(raw_df)", "compilation_passed": true, "time": 1.0197439193725586, "tests_passed": false, "error": "ValueError"}
+{"code": " np.asarray(raw_df)", "compilation_passed": true, "time": 0.8557498455047607, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(raw_df)[:, 1:]", "compilation_passed": true, "time": 0.8617691993713379, "tests_passed": false, "error": "ValueError"}
+{"code": " np.loadtxt(raw_df, delimiter=\",\", skiprows=1, ndmin=2)", "compilation_passed": true, "time": 0.8573207855224609, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(raw_df, dtype=np.float32).reshape((raw_df.shape[0], 28))", "compilation_passed": true, "time": 0.8470699787139893, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.dropna()", "compilation_passed": true, "time": 1.0278120040893555, "tests_passed": false, "error": "ValueError"}

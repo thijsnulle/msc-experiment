@@ -1,0 +1,14 @@
+{"code": "plot(dates, temperatures, linewidth=1, linestyle=\"--\", color=\"red\")", "compilation_passed": true, "time": 0.27091002464294434, "tests_passed": true, "error": null}
+{"code": "scatter(dates, temperatures)", "compilation_passed": true, "time": 0.06836581230163574, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(dates, temperatures)", "compilation_passed": true, "time": 0.2936367988586426, "tests_passed": true, "error": null}
+{"code": "plot(dates, temperatures, 'o')", "compilation_passed": true, "time": 0.2946000099182129, "tests_passed": true, "error": null}
+{"code": "scatter(dates, temperatures, label=\"Temperature\")", "compilation_passed": true, "time": 0.0791318416595459, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(dates, temperatures, linewidth=0)", "compilation_passed": true, "time": 0.30193090438842773, "tests_passed": true, "error": null}
+{"code": "plot(dates, temperatures, color='r')", "compilation_passed": true, "time": 0.34368324279785156, "tests_passed": true, "error": null}
+{"code": "plot(dates, temperatures, color=\"black\")", "compilation_passed": true, "time": 0.30408310890197754, "tests_passed": true, "error": null}
+{"code": "plot(dates, temperatures, label=\"Temperature Trend\")", "compilation_passed": true, "time": 0.34566402435302734, "tests_passed": true, "error": null}
+{"code": "plot(dates, temperatures, linestyle=\"solid\", linewidth=1, marker='o', markersize=5, markerfacecolor=\"#ffd700\", markeredgecolor=\"#ffd700\", markeredgewidth=2)", "compilation_passed": true, "time": 0.3778209686279297, "tests_passed": true, "error": null}
+{"code": "plot(dates, temperatures, linewidth=0.01, color='green')", "compilation_passed": true, "time": 0.31906723976135254, "tests_passed": true, "error": null}
+{"code": "bar(dates, temperatures, label=\"Temperature Trend\")", "compilation_passed": true, "time": 0.08433985710144043, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(dates, temperatures, 'ro-')", "compilation_passed": true, "time": 0.985619068145752, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Date')", "compilation_passed": true, "time": 0.07782411575317383, "tests_passed": false, "error": "IndexError"}

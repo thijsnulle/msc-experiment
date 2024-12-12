@@ -1,0 +1,9 @@
+{"code": " LETTERS[:n_keys]", "compilation_passed": true, "time": 0.0019698143005371094, "tests_passed": true, "error": null}
+{"code": " collections.deque(random.choices(LETTERS, k=n_keys))", "compilation_passed": true, "time": 0.0015919208526611328, "tests_passed": true, "error": null}
+{"code": " [LETTERS[random.randint(0, len(LETTERS) - 1)] for _ in range(n_keys)]", "compilation_passed": true, "time": 0.0016088485717773438, "tests_passed": true, "error": null}
+{"code": " [random.choice(LETTERS) for _ in range(n_keys)]", "compilation_passed": true, "time": 0.001519918441772461, "tests_passed": true, "error": null}
+{"code": " random.sample(LETTERS, n_keys)", "compilation_passed": true, "time": 0.0014882087707519531, "tests_passed": true, "error": null}
+{"code": " collections.deque(random.sample(LETTERS, n_keys))", "compilation_passed": true, "time": 0.0014271736145019531, "tests_passed": true, "error": null}
+{"code": " collections.deque([random.choice(LETTERS) for _ in range(n_keys)])", "compilation_passed": true, "time": 0.001766204833984375, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0014789104461669922, "tests_passed": true, "error": null}
+{"code": " [random.choice(LETTERS) for i in range(n_keys)]", "compilation_passed": true, "time": 0.0017049312591552734, "tests_passed": true, "error": null}

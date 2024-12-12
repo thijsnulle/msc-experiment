@@ -1,0 +1,20 @@
+{"code": " sorted(glob.glob(f\"{file_dir}*.{file_ext}\"))", "compilation_passed": true, "time": 0.016672134399414062, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(os.path.join(file_dir, \"*\" + file_ext))", "compilation_passed": true, "time": 0.038262128829956055, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(file_dir, f'*.{file_ext}'))", "compilation_passed": true, "time": 0.0172879695892334, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " [os.path.join(file_dir, f\"file_{i:04}.{file_ext}\")", "compilation_passed": false, "time": 0.0002281665802001953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " glob.glob(f'{file_dir}*.csv')", "compilation_passed": true, "time": 0.023118972778320312, "tests_passed": true, "error": null}
+{"code": " glob.glob(file_dir + '*' + file_ext)", "compilation_passed": true, "time": 0.023486852645874023, "tests_passed": true, "error": null}
+{"code": " glob.glob(f\"{file_dir}*\" + file_ext)", "compilation_passed": true, "time": 0.023419857025146484, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(file_dir, file_ext))", "compilation_passed": true, "time": 0.01567697525024414, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(os.path.join(file_dir, '*' + file_ext))", "compilation_passed": true, "time": 0.024502992630004883, "tests_passed": true, "error": null}
+{"code": " sorted(glob.glob(os.path.join(file_dir, f'*.{file_ext}')))", "compilation_passed": true, "time": 0.020624160766601562, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(os.path.join(file_dir, f\"*.{file_ext}\"))", "compilation_passed": true, "time": 0.018143892288208008, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(os.path.join(file_dir, f'file{i}.{file_ext}'))", "compilation_passed": true, "time": 0.03268885612487793, "tests_passed": false, "error": "NameError"}
+{"code": " glob.glob(f\"{file_dir}*.{file_ext}\")", "compilation_passed": true, "time": 0.02437591552734375, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(os.path.join(file_dir, \"*\"+file_ext))", "compilation_passed": true, "time": 0.027817249298095703, "tests_passed": true, "error": null}
+{"code": " [os.path.join(file_dir, f\"{i}.{file_ext}\") for i in range(num_files)]", "compilation_passed": true, "time": 0.04474592208862305, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " [f\"{file_dir}{i}{file_ext}\" for i in range(num_files)]", "compilation_passed": true, "time": 0.024341821670532227, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(os.path.join(file_dir, '*'+file_ext))", "compilation_passed": true, "time": 0.02701115608215332, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(file_dir, f'*{file_ext}'))", "compilation_passed": true, "time": 0.02375197410583496, "tests_passed": true, "error": null}
+{"code": " glob.glob(f\"{file_dir}*{file_ext}\")", "compilation_passed": true, "time": 0.0416719913482666, "tests_passed": true, "error": null}
+{"code": " [os.path.join(file_dir, f\"*.{file_ext}\") for f in range(num_files)]", "compilation_passed": true, "time": 0.04002499580383301, "tests_passed": false, "error": "FileNotFoundError"}

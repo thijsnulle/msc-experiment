@@ -1,0 +1,5 @@
+{"code": " hashlib.sha256((salted_string + password).encode()).hexdigest()", "compilation_passed": true, "time": 0.006057262420654297, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256((salted_string + password).encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.0058422088623046875, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(salted_string.encode() + password.encode()).hexdigest()", "compilation_passed": true, "time": 0.006293058395385742, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(salted_string.encode()).hexdigest()", "compilation_passed": true, "time": 0.006495952606201172, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(salted_string.encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.006119966506958008, "tests_passed": true, "error": null}

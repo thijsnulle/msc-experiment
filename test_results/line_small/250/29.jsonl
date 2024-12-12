@@ -1,0 +1,14 @@
+{"code": " zip(*data_list)  # Unzip data into tuples of ('string', numeric values)", "compilation_passed": true, "time": 0.011413812637329102, "tests_passed": false, "error": "TypeError"}
+{"code": " list(zip(*data_list))", "compilation_passed": true, "time": 0.004522800445556641, "tests_passed": true, "error": null}
+{"code": " list(itertools.zip_longest(*data_list, fillvalue=None))", "compilation_passed": true, "time": 0.003880023956298828, "tests_passed": true, "error": null}
+{"code": " zip(*data_list)", "compilation_passed": true, "time": 0.010401010513305664, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(lambda x: x[0] + ',' + ','.join(list(map(str,x[1:]))), data_list))", "compilation_passed": true, "time": 0.01499629020690918, "tests_passed": false, "error": "TypeError"}
+{"code": " [list(zip(*data_list))]", "compilation_passed": true, "time": 0.006680011749267578, "tests_passed": true, "error": null}
+{"code": " list(zip(*data_list))  # unzip the data list to separate the strings and values", "compilation_passed": true, "time": 0.003991127014160156, "tests_passed": true, "error": null}
+{"code": " list(itertools.zip_longest(*data_list, fillvalue=np.nan))", "compilation_passed": true, "time": 0.0038001537322998047, "tests_passed": true, "error": null}
+{"code": " [tuple(elem[1:]) for elem in data_list]", "compilation_passed": true, "time": 0.0070590972900390625, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.009987831115722656, "tests_passed": true, "error": null}
+{"code": " itertools.zip_longest(*data_list)", "compilation_passed": true, "time": 0.010221004486083984, "tests_passed": false, "error": "TypeError"}
+{"code": " list(itertools.zip_longest(*data_list, fillvalue=\"\"))", "compilation_passed": true, "time": 0.004116058349609375, "tests_passed": true, "error": null}
+{"code": " list(itertools.zip_longest(*data_list, fillvalue=''))", "compilation_passed": true, "time": 0.003922939300537109, "tests_passed": true, "error": null}
+{"code": " [row for row in zip(*data_list)]", "compilation_passed": true, "time": 0.0037069320678710938, "tests_passed": true, "error": null}

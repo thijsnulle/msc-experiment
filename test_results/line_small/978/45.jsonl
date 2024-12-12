@@ -1,0 +1,9 @@
+{"code": " np.copy(array)", "compilation_passed": true, "time": 0.006140947341918945, "tests_passed": true, "error": null}
+{"code": " np.random.permutation(array)", "compilation_passed": true, "time": 0.00590968132019043, "tests_passed": true, "error": null}
+{"code": " array[:, np.random.permutation(array.shape[1])]", "compilation_passed": true, "time": 0.005563020706176758, "tests_passed": true, "error": null}
+{"code": " np.array([row[np.random.permutation(len(row))]", "compilation_passed": false, "time": 0.0002338886260986328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.permutation(array.T).T", "compilation_passed": true, "time": 0.00573420524597168, "tests_passed": true, "error": null}
+{"code": " array[np.random.permutation(len(array)), :]", "compilation_passed": true, "time": 0.00605320930480957, "tests_passed": true, "error": null}
+{"code": " array[..., np.random.permutation(array.shape[1])]", "compilation_passed": true, "time": 0.005776882171630859, "tests_passed": true, "error": null}
+{"code": " array[np.random.permutation(array.shape[0]), :]", "compilation_passed": true, "time": 0.005626201629638672, "tests_passed": true, "error": null}
+{"code": " array.copy()", "compilation_passed": true, "time": 0.006043910980224609, "tests_passed": true, "error": null}

@@ -1,0 +1,20 @@
+{"code": " len([x for x in spec.defaults if type(x) == types.LambdaType])", "compilation_passed": true, "time": 0.004518747329711914, "tests_passed": true, "error": null}
+{"code": " len([", "compilation_passed": false, "time": 0.00026226043701171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sum(map(lambda x: x == lambda, spec.defaults))", "compilation_passed": false, "time": 0.0002701282501220703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " len(", "compilation_passed": false, "time": 0.00038313865661621094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " len(list(filter(lambda x: isinstance(x, types.LambdaType), spec.defaults)))", "compilation_passed": true, "time": 0.004364728927612305, "tests_passed": true, "error": null}
+{"code": " len([d for d in spec.defaults if isinstance(d, types.LambdaType)])", "compilation_passed": true, "time": 0.004454851150512695, "tests_passed": true, "error": null}
+{"code": " sum(", "compilation_passed": false, "time": 0.0003910064697265625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sum(isinstance(i, types.LambdaType) for i in spec.defaults)", "compilation_passed": true, "time": 0.004409074783325195, "tests_passed": true, "error": null}
+{"code": " len([f for f in spec.defaults if isinstance(f, types.LambdaType)])", "compilation_passed": true, "time": 0.004239082336425781, "tests_passed": true, "error": null}
+{"code": " sum([1 for arg in spec.defaults if type(arg) == types.LambdaType])", "compilation_passed": true, "time": 0.004179954528808594, "tests_passed": true, "error": null}
+{"code": " len([v for v in spec.defaults if type(v) == types.LambdaType])", "compilation_passed": true, "time": 0.004301786422729492, "tests_passed": true, "error": null}
+{"code": " len([1 for d in spec.defaults if isinstance(d, types.LambdaType)])", "compilation_passed": true, "time": 0.004471778869628906, "tests_passed": true, "error": null}
+{"code": " len(list(filter(lambda x: type(x) == types.LambdaType,", "compilation_passed": false, "time": 0.00045108795166015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sum(map(lambda f: isinstance(f, types.LambdaType), spec.defaults))", "compilation_passed": true, "time": 0.004410982131958008, "tests_passed": true, "error": null}
+{"code": " sum(isinstance(v, types.LambdaType) for v in spec.defaults)", "compilation_passed": true, "time": 0.004355192184448242, "tests_passed": true, "error": null}
+{"code": " len([func for func in spec.defaults if isinstance(func, types.LambdaType)])", "compilation_passed": true, "time": 0.004395961761474609, "tests_passed": true, "error": null}
+{"code": " len(spec.defaults)", "compilation_passed": true, "time": 0.003790140151977539, "tests_passed": true, "error": null}
+{"code": " sum(1 if x.__code__.co_name.startswith('<lambda>') else 0", "compilation_passed": false, "time": 0.0004150867462158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sum([1 for a in spec.defaults if isinstance(a, types.LambdaType)])", "compilation_passed": true, "time": 0.004242897033691406, "tests_passed": true, "error": null}
+{"code": " sum(1 for arg in spec.defaults if isinstance(arg, types.LambdaType))", "compilation_passed": true, "time": 0.004370927810668945, "tests_passed": true, "error": null}

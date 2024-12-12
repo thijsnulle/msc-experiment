@@ -1,0 +1,12 @@
+{"code": " dict(zip(string.ascii_uppercase, range(1, 27)))", "compilation_passed": true, "time": 0.0011341571807861328, "tests_passed": true, "error": null}
+{"code": " {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5, 'F': 6, 'G': 7, 'H': 8, 'I': 9, 'J': 10,", "compilation_passed": false, "time": 0.00016832351684570312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {letter: number for number, letter in enumerate(string.ascii_uppercase, start=1)}", "compilation_passed": true, "time": 0.0011749267578125, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.000102996826171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {letter: value for value, letter in enumerate(string.ascii_uppercase, 1)}", "compilation_passed": true, "time": 0.0010170936584472656, "tests_passed": true, "error": null}
+{"code": " {letter: i + 1 for i, letter in enumerate(string.ascii_uppercase)}", "compilation_passed": true, "time": 0.001135110855102539, "tests_passed": true, "error": null}
+{"code": " {letter: i+1 for i, letter in enumerate(string.ascii_uppercase)}", "compilation_passed": true, "time": 0.0015978813171386719, "tests_passed": true, "error": null}
+{"code": " {letter: number + 1 for number, letter in enumerate(string.ascii_uppercase)}", "compilation_passed": true, "time": 0.0011551380157470703, "tests_passed": true, "error": null}
+{"code": " {letter: value + 1 for value, letter in enumerate(string.ascii_uppercase)}", "compilation_passed": true, "time": 0.001065969467163086, "tests_passed": true, "error": null}
+{"code": " {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5, 'F': 6, 'G': 7, 'H': 8, 'I': 9, 'J': 10, 'K': 11, 'L': 12, 'M': 13, 'N': 14, 'O': 15, 'P': 16, 'Q': 17, 'R': 18, 'S': 19, 'T': 20, 'U': 21, 'V': 22, 'W': 23, 'X': 24, 'Y': 25, 'Z': 26}", "compilation_passed": true, "time": 0.00109100341796875, "tests_passed": true, "error": null}
+{"code": " {letter: (i+1) for i, letter in enumerate(string.ascii_uppercase)}", "compilation_passed": true, "time": 0.0009839534759521484, "tests_passed": true, "error": null}
+{"code": " dict(zip(list(string.ascii_uppercase), range(1, 27)))", "compilation_passed": true, "time": 0.0009541511535644531, "tests_passed": true, "error": null}

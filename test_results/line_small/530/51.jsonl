@@ -1,0 +1,20 @@
+{"code": "value_counts()", "compilation_passed": true, "time": 0.008808374404907227, "tests_passed": true, "error": null}
+{"code": "duplicated()", "compilation_passed": true, "time": 0.009054899215698242, "tests_passed": true, "error": null}
+{"code": "value_counts().sort_index().apply(lambda x: Counter(x)).iloc[:-1]", "compilation_passed": true, "time": 0.043357133865356445, "tests_passed": false, "error": "TypeError"}
+{"code": "value_counts().index.values[1:]", "compilation_passed": true, "time": 0.07772111892700195, "tests_passed": true, "error": null}
+{"code": "value_counts() >= 2", "compilation_passed": true, "time": 0.016887903213500977, "tests_passed": true, "error": null}
+{"code": "value_counts().index.values[0],", "compilation_passed": true, "time": 0.13874411582946777, "tests_passed": true, "error": null}
+{"code": "value_counts().loc[df[\"name\"].isin(df[\"name\"].value_counts() > 1)]", "compilation_passed": true, "time": 0.01832890510559082, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": "value_counts(dropna=False)", "compilation_passed": true, "time": 0.010551929473876953, "tests_passed": true, "error": null}
+{"code": "value_counts(dropna=False).sort_values() > 1", "compilation_passed": true, "time": 0.009357213973999023, "tests_passed": true, "error": null}
+{"code": "value_counts() > 1).index", "compilation_passed": false, "time": 0.0001342296600341797, "tests_passed": false, "error": "SyntaxError"}
+{"code": "value_counts(dropna=False, normalize=True)", "compilation_passed": true, "time": 0.009550094604492188, "tests_passed": true, "error": null}
+{"code": "value_counts() > 1).index.values", "compilation_passed": false, "time": 0.0001647472381591797, "tests_passed": false, "error": "SyntaxError"}
+{"code": "value_counts() > 1", "compilation_passed": true, "time": 0.010562896728515625, "tests_passed": true, "error": null}
+{"code": "value_counts() > 1).index.values.astype(str)", "compilation_passed": false, "time": 0.00016117095947265625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "value_counts(dropna=False).sort_index().reset_index(name=\"name\")", "compilation_passed": true, "time": 0.012328147888183594, "tests_passed": false, "error": "ValueError"}
+{"code": "value_counts().index.tolist()", "compilation_passed": true, "time": 0.08068299293518066, "tests_passed": true, "error": null}
+{"code": "value_counts().loc[df[\"name\"].value_counts() > 1].index", "compilation_passed": true, "time": 1.0213229656219482, "tests_passed": false, "error": "TimeoutError"}
+{"code": "value_counts().reset_index().loc[df[\"name\"].value_counts() > 1]", "compilation_passed": true, "time": 0.041319847106933594, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": "value_counts().index[df[\"name\"].value_counts() > 1]", "compilation_passed": true, "time": 0.28421902656555176, "tests_passed": true, "error": null}
+{"code": "value_counts(dropna=False).loc[df[\"name\"].isin(df[\"name\"].duplicated())][\"name\"].tolist()", "compilation_passed": true, "time": 0.012144804000854492, "tests_passed": false, "error": "pandas.errors.IndexingError"}

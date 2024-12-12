@@ -1,0 +1,22 @@
+{"code": " sns.boxplot(y=\"closing_price\", ax=axes[0], data=df)", "compilation_passed": true, "time": 0.545849084854126, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.boxplot(data=df, y='closing_price', ax=axes[0])", "compilation_passed": true, "time": 0.499316930770874, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.boxplot(ax=axes[0], data=df, y='closing_price', showfliers=False)", "compilation_passed": true, "time": 0.47951316833496094, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.boxplot(ax=axes[0], y=\"closing_price\", data=df, palette=\"tab10\")", "compilation_passed": true, "time": 6.200974225997925, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.boxplot(ax=axes[0], y=\"closing_price\", data=df)", "compilation_passed": true, "time": 0.49175310134887695, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.boxplot(ax=axes[0], data=df, y=\"closing_price\")", "compilation_passed": true, "time": 0.5450859069824219, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.boxplot(y='closing_price', ax=axes[0], data=df)", "compilation_passed": true, "time": 0.5838589668273926, "tests_passed": false, "error": "ValueError"}
+{"code": " axes[0]", "compilation_passed": true, "time": 0.8465149402618408, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(data=df, y='closing_price', ax=axes[0], showfliers=False,", "compilation_passed": false, "time": 0.0004322528839111328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " axes[0].boxplot(df.closing_price, showfliers=False, rot=90)", "compilation_passed": true, "time": 0.14783310890197754, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.boxplot(x=\"closing_price\", data=df, ax=axes[0])", "compilation_passed": true, "time": 0.5630872249603271, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.boxplot(data=df, y=\"closing_price\", ax=axes[0])", "compilation_passed": true, "time": 0.5440740585327148, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.boxplot(y=\"closing_price\", ax=axes[0], data=df, palette=\"Reds_d\")", "compilation_passed": true, "time": 0.5621938705444336, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.boxplot(", "compilation_passed": false, "time": 0.0004398822784423828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.boxplot(y='closing_price', ax=axes[0])", "compilation_passed": true, "time": 0.1613149642944336, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.boxplot(y=\"closing_price\", data=df, ax=axes[0])", "compilation_passed": true, "time": 0.5122261047363281, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.boxplot(y=\"closing_price\", data=df, ax=axes[0], title=\"Box Plot of Closing Prices\")", "compilation_passed": true, "time": 0.13152384757995605, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.boxplot(data=df, y=\"closing_price\", ax=axes[0], showfliers=False)", "compilation_passed": true, "time": 0.6043500900268555, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.boxplot(data=df, y='closing_price', ax=axes[0], title='Box Plot of Closing Prices', orient='v')", "compilation_passed": true, "time": 0.15459609031677246, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.boxplot(y=df[\"closing_price\"], ax=axes[0])", "compilation_passed": true, "time": 0.9682791233062744, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(y='closing_price', data=df, ax=axes[0])", "compilation_passed": true, "time": 0.4997220039367676, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.boxplot(y=df['closing_price'], ax=axes[0], showfliers=False)", "compilation_passed": true, "time": 0.8683221340179443, "tests_passed": true, "error": null}

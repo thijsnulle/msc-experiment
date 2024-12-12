@@ -1,0 +1,14 @@
+{"code": "plot(", "compilation_passed": false, "time": 0.0002989768981933594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(means, \"r-\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.02548813819885254, "tests_passed": true, "error": null}
+{"code": "axhline(population_mean, color=\"green\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.02360224723815918, "tests_passed": true, "error": null}
+{"code": "hlines(", "compilation_passed": false, "time": 0.00029277801513671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(population_mean, \"g-\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.0921010971069336, "tests_passed": true, "error": null}
+{"code": "axhline(y=population_mean, color=\"g\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.07170510292053223, "tests_passed": true, "error": null}
+{"code": "hlines(y=population_mean, xmin=0, xmax=len(means), label=\"Population Mean\")", "compilation_passed": true, "time": 0.023219823837280273, "tests_passed": true, "error": null}
+{"code": "plot(means, label=\"Population Mean\", color=\"g\")", "compilation_passed": true, "time": 0.07026886940002441, "tests_passed": true, "error": null}
+{"code": "axhline(population_mean, c=\"g\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.07634091377258301, "tests_passed": true, "error": null}
+{"code": "plot([0, means.shape[0]], [population_mean, population_mean], \"g-\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.07409405708312988, "tests_passed": true, "error": null}
+{"code": "plot(population_mean, \"g\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.027626991271972656, "tests_passed": true, "error": null}
+{"code": "axhline(", "compilation_passed": false, "time": 0.0002570152282714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(population_mean, \"go\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.07046198844909668, "tests_passed": true, "error": null}
+{"code": "axhline(y=population_mean, c=\"g\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.06973886489868164, "tests_passed": true, "error": null}

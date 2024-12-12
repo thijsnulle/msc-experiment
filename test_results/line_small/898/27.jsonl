@@ -1,0 +1,14 @@
+{"code": " [random.choice(LETTERS) + random.choice(LETTERS) for _ in range(count)]", "compilation_passed": true, "time": 0.009138822555541992, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.008254051208496094, "tests_passed": true, "error": null}
+{"code": " [(random.choice(LETTERS), random.choice(LETTERS)) for _ in range(count)]", "compilation_passed": true, "time": 0.007649660110473633, "tests_passed": true, "error": null}
+{"code": " [random.choice(LETTERS) for _ in range(count)]", "compilation_passed": true, "time": 0.006402730941772461, "tests_passed": true, "error": null}
+{"code": " Counter(random.sample(LETTERS, count))", "compilation_passed": true, "time": 0.007222890853881836, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00015211105346679688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [random.choice(LETTERS), random.choice(LETTERS)]", "compilation_passed": true, "time": 0.006268978118896484, "tests_passed": true, "error": null}
+{"code": " [(LETTERS[random.randrange(len(LETTERS))], LETTERS[random.randrange(len(LETTERS))]) for _ in range(count)]", "compilation_passed": true, "time": 0.006937742233276367, "tests_passed": true, "error": null}
+{"code": " [random.choice(LETTERS) for i in range(count)]", "compilation_passed": true, "time": 0.006237030029296875, "tests_passed": true, "error": null}
+{"code": " [random.choices(LETTERS, k=2) for _ in range(count)]", "compilation_passed": true, "time": 0.01277303695678711, "tests_passed": false, "error": "TypeError"}
+{"code": " Counter([tuple(random.sample(LETTERS, 2)) for _ in range(count)])", "compilation_passed": true, "time": 0.0062558650970458984, "tests_passed": true, "error": null}
+{"code": " Counter()", "compilation_passed": true, "time": 0.007246971130371094, "tests_passed": true, "error": null}
+{"code": " [tuple(random.choices(LETTERS, k=2)) for _ in range(count)]", "compilation_passed": true, "time": 0.0017483234405517578, "tests_passed": true, "error": null}
+{"code": " random.choices(LETTERS, k=count)", "compilation_passed": true, "time": 0.006077289581298828, "tests_passed": true, "error": null}

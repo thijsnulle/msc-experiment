@@ -1,0 +1,5 @@
+{"code": " heapq.nlargest(n, counter.keys(), key=counter.get)", "compilation_passed": true, "time": 0.0019021034240722656, "tests_passed": true, "error": null}
+{"code": " heapq.nlargest(n, counter, key=counter.get)", "compilation_passed": true, "time": 0.0010769367218017578, "tests_passed": true, "error": null}
+{"code": " heapq.nlargest(n, counter.items(), key=lambda t: t[1])", "compilation_passed": true, "time": 0.005475044250488281, "tests_passed": true, "error": null}
+{"code": " heapq.nlargest(n, counter, key=lambda x: counter[x])", "compilation_passed": true, "time": 0.0011131763458251953, "tests_passed": true, "error": null}
+{"code": " heapq.nlargest(n, counter.keys(), key=lambda k: counter[k])", "compilation_passed": true, "time": 0.0012540817260742188, "tests_passed": true, "error": null}

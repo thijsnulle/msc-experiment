@@ -1,0 +1,5 @@
+{"code": " None if not log_files else log_dir + log_files[0]", "compilation_passed": true, "time": 0.003907203674316406, "tests_passed": true, "error": null}
+{"code": " log_files[0] if log_files else None", "compilation_passed": true, "time": 0.0038928985595703125, "tests_passed": true, "error": null}
+{"code": " log_dir + log_files[0] if len(log_files) else None", "compilation_passed": true, "time": 0.00407719612121582, "tests_passed": true, "error": null}
+{"code": " os.path.join(log_dir, log_files[0]) if log_files else None", "compilation_passed": true, "time": 0.003620147705078125, "tests_passed": true, "error": null}
+{"code": " log_dir + log_files[0] if log_files else None", "compilation_passed": true, "time": 0.00394892692565918, "tests_passed": true, "error": null}

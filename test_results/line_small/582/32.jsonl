@@ -1,0 +1,23 @@
+{"code": " np.linspace(stats.norm.ppf(0.01, loc=mu, scale=std), stats.norm.ppf(0.99, loc=mu, scale=std), 101)", "compilation_passed": true, "time": 0.35886716842651367, "tests_passed": true, "error": null}
+{"code": " np.linspace(np.min(data), np.max(data), 100)", "compilation_passed": true, "time": 0.36818790435791016, "tests_passed": true, "error": null}
+{"code": " np.linspace(stats.norm.ppf(0.01, mu, std), stats.norm.ppf(0.99, mu, std), 100)", "compilation_passed": true, "time": 0.4428110122680664, "tests_passed": true, "error": null}
+{"code": " np.linspace(stats.norm.ppf(0.001, loc=mu, scale=std), stats.norm.ppf(0.999, loc=mu, scale=std), 10)", "compilation_passed": true, "time": 0.3108830451965332, "tests_passed": true, "error": null}
+{"code": " np.linspace(data.min(), data.max(), 100)", "compilation_passed": true, "time": 0.3884310722351074, "tests_passed": true, "error": null}
+{"code": " np.linspace(-5, 5, 11)", "compilation_passed": true, "time": 0.27054786682128906, "tests_passed": true, "error": null}
+{"code": " np.linspace(stats.norm.ppf(0.001, loc=mu, scale=std), stats.norm.ppf(0.999, loc=mu, scale=std), 100)", "compilation_passed": true, "time": 0.40990519523620605, "tests_passed": true, "error": null}
+{"code": " np.linspace(np.min(data), np.max(data), 20)", "compilation_passed": true, "time": 0.31407999992370605, "tests_passed": true, "error": null}
+{"code": " np.linspace(np.min(data), np.max(data), 50)", "compilation_passed": true, "time": 0.34564685821533203, "tests_passed": true, "error": null}
+{"code": " np.linspace(stats.norm.ppf(0.01, mu, std), stats.norm.ppf(0.99, mu, std), 1000)", "compilation_passed": true, "time": 1.0156259536743164, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.linspace(stats.norm.ppf(0.001), stats.norm.ppf(0.999), 10)", "compilation_passed": true, "time": 0.26896023750305176, "tests_passed": true, "error": null}
+{"code": " np.linspace(np.min(data)-1, np.max(data)+1, 100)", "compilation_passed": true, "time": 0.40354323387145996, "tests_passed": true, "error": null}
+{"code": " np.linspace(stats.norm.interval(0.01, loc=mu, scale=std)[0], stats.norm.interval(0.99, loc=mu, scale=std)[1], size*10)", "compilation_passed": true, "time": 1.0126969814300537, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.linspace(stats.norm.ppf(0.00001, mu, std), stats.norm.ppf(0.99999, mu, std), 100)", "compilation_passed": true, "time": 0.4331529140472412, "tests_passed": true, "error": null}
+{"code": " np.linspace(data.min(), data.max(), 10)", "compilation_passed": true, "time": 0.28308987617492676, "tests_passed": true, "error": null}
+{"code": " np.linspace(stats.norm.ppf(0.01), stats.norm.ppf(0.99), 20)", "compilation_passed": true, "time": 0.29026031494140625, "tests_passed": true, "error": null}
+{"code": " np.linspace(mu - 5 * std, mu + 5 * std, num = 100)", "compilation_passed": true, "time": 0.3747718334197998, "tests_passed": true, "error": null}
+{"code": " np.linspace(np.min(data)-2.0*std, np.max(data)+2.0*std, 100)", "compilation_passed": true, "time": 0.4473412036895752, "tests_passed": true, "error": null}
+{"code": " np.linspace(stats.norm.ppf(0.01, loc=mu, scale=std),", "compilation_passed": false, "time": 0.0002040863037109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.linspace(stats.norm.interval(0.05)[0], stats.norm.interval(0.95)[1], 100)", "compilation_passed": true, "time": 0.42838406562805176, "tests_passed": true, "error": null}
+{"code": " np.linspace(stats.norm.ppf(0.01, loc=mu, scale=std), stats.norm.ppf(0.99, loc=mu, scale=std), 100)", "compilation_passed": true, "time": 0.5457379817962646, "tests_passed": true, "error": null}
+{"code": " np.linspace(mu - 5 * std, mu + 5 * std, 101)", "compilation_passed": true, "time": 1.0207271575927734, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.linspace(-5, 5, 1000)", "compilation_passed": true, "time": 1.0117077827453613, "tests_passed": false, "error": "TimeoutError"}

@@ -1,0 +1,13 @@
+{"code": "plot([0, max(residuals)], [0, 0])  # line for y=0", "compilation_passed": true, "time": 0.4741048812866211, "tests_passed": true, "error": null}
+{"code": "set_title('Residuals Plot')", "compilation_passed": true, "time": 0.46772193908691406, "tests_passed": true, "error": null}
+{"code": "set_title(\"Residuals Plot\")", "compilation_passed": true, "time": 0.5024311542510986, "tests_passed": true, "error": null}
+{"code": "set(", "compilation_passed": false, "time": 0.00031280517578125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "axhline(0, color='gray')", "compilation_passed": true, "time": 0.4606499671936035, "tests_passed": true, "error": null}
+{"code": "set(xlabel=f\"Predicted Values\", ylabel=f\"Residuals\", title=\"Residuals Plot\")", "compilation_passed": true, "time": 0.524928092956543, "tests_passed": true, "error": null}
+{"code": "plot([y_pred.min(), y_pred.max()], [0, 0], 'k--') # line to show y=0", "compilation_passed": true, "time": 0.5040268898010254, "tests_passed": true, "error": null}
+{"code": "axhline(y=0, color='k')  # vertical line representing origin", "compilation_passed": true, "time": 0.5025050640106201, "tests_passed": true, "error": null}
+{"code": "plot([-10, 10], [0, 0], \"k--\")  # vertical line", "compilation_passed": true, "time": 0.5135390758514404, "tests_passed": true, "error": null}
+{"code": "axhline(y=0, color=\"r\", linewidth=2)  # horizontal line to represent the zero residuals", "compilation_passed": true, "time": 0.5201559066772461, "tests_passed": true, "error": null}
+{"code": "axhline(0, color='r', linestyle='--')  # reference line", "compilation_passed": true, "time": 0.5326039791107178, "tests_passed": true, "error": null}
+{"code": "axhline(0, color=\"black\", linewidth=1)  # add horizontal line at y=0", "compilation_passed": true, "time": 0.49199414253234863, "tests_passed": true, "error": null}
+{"code": "axhline(y=0, color='blue')  # vertical line", "compilation_passed": true, "time": 0.596994161605835, "tests_passed": true, "error": null}

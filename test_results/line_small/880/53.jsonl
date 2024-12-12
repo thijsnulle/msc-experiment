@@ -1,0 +1,22 @@
+{"code": " data.columns.size == 1:", "compilation_passed": true, "time": 0.06394815444946289, "tests_passed": true, "error": null}
+{"code": " not pd.api.types.is_numeric_dtype(data):", "compilation_passed": true, "time": 0.018043994903564453, "tests_passed": false, "error": "ValueError"}
+{"code": " not data.apply(lambda x: pd.api.types.is_numeric_dtype(x)).all():", "compilation_passed": true, "time": 0.053992271423339844, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, pd.DataFrame):", "compilation_passed": true, "time": 0.04804396629333496, "tests_passed": true, "error": null}
+{"code": " not data.dtypes.isin(['int64', 'float64'])[0]:", "compilation_passed": true, "time": 0.009252786636352539, "tests_passed": false, "error": "ValueError"}
+{"code": " any([isinstance(col, pd.core.arrays.categorical.Categorical) for _, col in data.iteritems()]):", "compilation_passed": true, "time": 0.011630058288574219, "tests_passed": false, "error": "AttributeError"}
+{"code": " not data.columns.isin([\"a\", \"b\"]).all():", "compilation_passed": true, "time": 0.009605169296264648, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(data, pd.DataFrame) or pd.isnull(data).any() or data.dtypes.isin(['object', 'category']).any():", "compilation_passed": true, "time": 0.010920047760009766, "tests_passed": false, "error": "ValueError"}
+{"code": " any(data.dtypes != 'int64' for i in data.columns):", "compilation_passed": true, "time": 0.010802984237670898, "tests_passed": false, "error": "ValueError"}
+{"code": " data.isnull().sum() > 0:", "compilation_passed": true, "time": 0.009308815002441406, "tests_passed": false, "error": "ValueError"}
+{"code": " data.isnull().any().any():", "compilation_passed": true, "time": 0.055010080337524414, "tests_passed": true, "error": null}
+{"code": " data.isna().any().any():", "compilation_passed": true, "time": 0.05201315879821777, "tests_passed": true, "error": null}
+{"code": " data.dtypes[0].name != 'int64':", "compilation_passed": true, "time": 0.01954483985900879, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.isnull(data).any() or data.isnull().any().any():", "compilation_passed": true, "time": 0.01102900505065918, "tests_passed": false, "error": "ValueError"}
+{"code": " data.dtypes.isnull().sum().sum() > 0:", "compilation_passed": true, "time": 0.05664420127868652, "tests_passed": true, "error": null}
+{"code": " data.empty:", "compilation_passed": true, "time": 0.04903292655944824, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, pd.DataFrame) or pd.api.types.is_categorical_dtype(data):", "compilation_passed": true, "time": 0.058492183685302734, "tests_passed": true, "error": null}
+{"code": " not data.is_categorical():", "compilation_passed": true, "time": 0.009713172912597656, "tests_passed": false, "error": "AttributeError"}
+{"code": " isinstance(data, pd.DataFrame):", "compilation_passed": true, "time": 0.010628938674926758, "tests_passed": false, "error": "ValueError"}
+{"code": " not data.dtypes.is_all_equal():", "compilation_passed": true, "time": 0.009201765060424805, "tests_passed": false, "error": "AttributeError"}
+{"code": " data.dtypes.isin(['object', 'category', 'bool', 'string_']).any():", "compilation_passed": true, "time": 0.057994842529296875, "tests_passed": true, "error": null}
+{"code": " pd.api.types.is_categorical_dtype(data):", "compilation_passed": true, "time": 0.05648207664489746, "tests_passed": true, "error": null}

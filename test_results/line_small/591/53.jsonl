@@ -1,0 +1,24 @@
+{"code": " plt.plot(data['Time'], data['Temperature'])", "compilation_passed": true, "time": 0.03584170341491699, "tests_passed": true, "error": null}
+{"code": " plt.figure(figsize=(10, 5)).add_subplot(111)", "compilation_passed": true, "time": 0.13049077987670898, "tests_passed": true, "error": null}
+{"code": " plt.plot(df['Time'], df['Temperature'], label=f'Temperature')", "compilation_passed": true, "time": 0.036045074462890625, "tests_passed": true, "error": null}
+{"code": " df.plot(figsize=(12, 8))", "compilation_passed": true, "time": 0.18303203582763672, "tests_passed": true, "error": null}
+{"code": " plt.subplots()", "compilation_passed": true, "time": 0.13737893104553223, "tests_passed": true, "error": null}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.015719890594482422, "tests_passed": true, "error": null}
+{"code": " plt.plot(df['Time'], df['Temperature'])", "compilation_passed": true, "time": 0.03682088851928711, "tests_passed": true, "error": null}
+{"code": " plt.plot(df['Time'], df['Temperature'], '.', color='red')", "compilation_passed": true, "time": 0.03603100776672363, "tests_passed": true, "error": null}
+{"code": " plt.plot(data['Time'], data['Temperature'], label='Temperature')", "compilation_passed": true, "time": 0.03801703453063965, "tests_passed": true, "error": null}
+{"code": " plt.subplots()[1]", "compilation_passed": true, "time": 0.14028525352478027, "tests_passed": true, "error": null}
+{"code": " plt.plot(df['Time'], df['Temperature'], label='Temperature')", "compilation_passed": true, "time": 0.03773069381713867, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='Time', rot=0, y='Temperature')", "compilation_passed": true, "time": 0.4589650630950928, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Time', y='Temperature', kind='bar', title='Temperature History')", "compilation_passed": true, "time": 0.4543900489807129, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='bar', title='Temperature Data')", "compilation_passed": true, "time": 0.458834171295166, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='line', marker='.', color=\"blue\")", "compilation_passed": true, "time": 0.20546197891235352, "tests_passed": true, "error": null}
+{"code": " df.plot.scatter(x='Time', y='Temperature', c='Category')", "compilation_passed": true, "time": 0.03949165344238281, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.bar(", "compilation_passed": false, "time": 0.0004322528839111328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(figsize=(10, 7), title=f'Temperature data for {hours} hours')", "compilation_passed": true, "time": 0.20390081405639648, "tests_passed": true, "error": null}
+{"code": " plt.figure().add_subplot()", "compilation_passed": true, "time": 0.15405488014221191, "tests_passed": true, "error": null}
+{"code": " plt.scatter(df['Time'], df['Temperature'], label=df['Category'],", "compilation_passed": false, "time": 0.00039005279541015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.015091180801391602, "tests_passed": true, "error": null}
+{"code": " df.plot()", "compilation_passed": true, "time": 0.21552491188049316, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='line')", "compilation_passed": true, "time": 0.20718812942504883, "tests_passed": true, "error": null}
+{"code": " plt.scatter(data['Time'], data['Temperature'], c=data['Category'], s=100)", "compilation_passed": true, "time": 0.009580850601196289, "tests_passed": false, "error": "ValueError"}

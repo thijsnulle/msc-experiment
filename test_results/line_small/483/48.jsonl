@@ -1,0 +1,4 @@
+{"code": " df.copy()", "compilation_passed": true, "time": 0.0075490474700927734, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: reverse_matched_words(x[column_name]), axis=1)", "compilation_passed": true, "time": 0.008941888809204102, "tests_passed": false, "error": "KeyError"}
+{"code": " df.apply(reverse_matched_words, axis=1)", "compilation_passed": true, "time": 0.011057138442993164, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(df)", "compilation_passed": true, "time": 0.007313966751098633, "tests_passed": true, "error": null}

@@ -1,0 +1,18 @@
+{"code": " df[col]", "compilation_passed": true, "time": 0.007627964019775391, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.008705854415893555, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[col].apply(type)", "compilation_passed": true, "time": 0.006588935852050781, "tests_passed": true, "error": null}
+{"code": " df[col].apply(lambda x: float(x) if isinstance(x, (int, float)) else x)", "compilation_passed": true, "time": 0.008833885192871094, "tests_passed": true, "error": null}
+{"code": " df[col].map(lambda v: float(v) if isinstance(v, str) and NUMBERS.match(v) else v)", "compilation_passed": true, "time": 0.007623910903930664, "tests_passed": true, "error": null}
+{"code": " df[col].apply(str).str.replace(\"\\\\.0$\", \"\")", "compilation_passed": true, "time": 0.006781101226806641, "tests_passed": true, "error": null}
+{"code": " df[col].map(lambda x: x / 1000000000 if x > 1000000000 else x)", "compilation_passed": true, "time": 0.01460719108581543, "tests_passed": false, "error": "TypeError"}
+{"code": " df[col].astype(str)", "compilation_passed": true, "time": 0.0065190792083740234, "tests_passed": true, "error": null}
+{"code": " df[col].apply(lambda x: int(x) if x == int(x) else x)", "compilation_passed": true, "time": 0.014796018600463867, "tests_passed": false, "error": "ValueError"}
+{"code": " df[col].map(", "compilation_passed": false, "time": 0.0003421306610107422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[col].astype(float)", "compilation_passed": true, "time": 0.019456863403320312, "tests_passed": false, "error": "ValueError"}
+{"code": " df[col].apply(float)", "compilation_passed": true, "time": 0.012539863586425781, "tests_passed": false, "error": "ValueError"}
+{"code": " df[col].apply(lambda x: float(x) if NUMBERS.match(str(x)) else x)", "compilation_passed": true, "time": 0.007882118225097656, "tests_passed": true, "error": null}
+{"code": " df[col].map(str).astype(int)", "compilation_passed": true, "time": 0.00865626335144043, "tests_passed": false, "error": "ValueError"}
+{"code": " df[col].map(lambda x: x if x % 1 == 0 else round(x, 2))", "compilation_passed": true, "time": 0.014410018920898438, "tests_passed": false, "error": "TypeError"}
+{"code": " df.loc[:, col].str.replace(',', '').apply(float)", "compilation_passed": true, "time": 0.011757135391235352, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[col].apply(lambda x: float(x))", "compilation_passed": true, "time": 0.014738082885742188, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.to_numeric(col, errors=\"coerce\")", "compilation_passed": true, "time": 0.00673365592956543, "tests_passed": false, "error": "AttributeError"}

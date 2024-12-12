@@ -1,0 +1,17 @@
+{"code": "drop(columns=target_column), df[target_column], test_size=test_size, random_state=42", "compilation_passed": true, "time": 0.01199483871459961, "tests_passed": true, "error": null}
+{"code": "drop(columns=target_column),", "compilation_passed": true, "time": 0.009710073471069336, "tests_passed": false, "error": "ValueError"}
+{"code": "loc[:, df.columns.difference([target_column])],", "compilation_passed": true, "time": 0.013679027557373047, "tests_passed": false, "error": "ValueError"}
+{"code": "copy(),", "compilation_passed": true, "time": 0.010756969451904297, "tests_passed": false, "error": "ValueError"}
+{"code": "values,", "compilation_passed": true, "time": 0.008669853210449219, "tests_passed": false, "error": "ValueError"}
+{"code": "iloc[:, :-1], df.iloc[:, -1], test_size=test_size", "compilation_passed": true, "time": 0.007875204086303711, "tests_passed": true, "error": null}
+{"code": "iloc[:, :-1],  # Drop the target column", "compilation_passed": true, "time": 0.011367321014404297, "tests_passed": false, "error": "ValueError"}
+{"code": "loc[:, df.columns != target_column],", "compilation_passed": true, "time": 0.009021997451782227, "tests_passed": false, "error": "ValueError"}
+{"code": "iloc[:, :-1],  # Features", "compilation_passed": true, "time": 0.010673999786376953, "tests_passed": false, "error": "ValueError"}
+{"code": "values, df[target_column].values, test_size=test_size, random_state=42)", "compilation_passed": false, "time": 0.00010514259338378906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "iloc[:, :-1], df[target_column], test_size=test_size", "compilation_passed": true, "time": 0.007988929748535156, "tests_passed": true, "error": null}
+{"code": "values, df[target_column], test_size=test_size, shuffle=False)", "compilation_passed": false, "time": 0.0001590251922607422, "tests_passed": false, "error": "SyntaxError"}
+{"code": "values, df[target_column].values, test_size=test_size,", "compilation_passed": true, "time": 0.0068340301513671875, "tests_passed": false, "error": "AttributeError"}
+{"code": "iloc[:, :df.shape[1] - 1],", "compilation_passed": true, "time": 0.009441137313842773, "tests_passed": false, "error": "ValueError"}
+{"code": "values,  # Use the 'values' attribute of the dataframe", "compilation_passed": true, "time": 0.009886980056762695, "tests_passed": false, "error": "ValueError"}
+{"code": "drop(columns=[target_column]),", "compilation_passed": true, "time": 0.009674072265625, "tests_passed": false, "error": "ValueError"}
+{"code": "iloc[:, :-1],", "compilation_passed": true, "time": 0.009026050567626953, "tests_passed": false, "error": "ValueError"}

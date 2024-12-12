@@ -1,0 +1,12 @@
+{"code": " df.corr()", "compilation_passed": true, "time": 0.008520126342773438, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df.corr())", "compilation_passed": true, "time": 0.007965087890625, "tests_passed": true, "error": null}
+{"code": " df.corr(method='pearson')", "compilation_passed": true, "time": 0.007554054260253906, "tests_passed": true, "error": null}
+{"code": " pd.Series(df).corr()", "compilation_passed": true, "time": 0.018923044204711914, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(0.0, index=COLUMNS, columns=COLUMNS)", "compilation_passed": true, "time": 0.010807037353515625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(pd.stats.moments.kendalltau(df, df)[1])", "compilation_passed": true, "time": 0.016754150390625, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.corrcoef(df.values.T)", "compilation_passed": true, "time": 0.00985097885131836, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00016927719116210938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.corr(method=\"pearson\")", "compilation_passed": true, "time": 0.00755000114440918, "tests_passed": true, "error": null}
+{"code": " np.corrcoef(df.columns, df.columns)", "compilation_passed": true, "time": 0.017641067504882812, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(np.corrcoef(df.columns))", "compilation_passed": true, "time": 0.011081218719482422, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(df.corr(method='pearson'),", "compilation_passed": false, "time": 0.00018095970153808594, "tests_passed": false, "error": "SyntaxError"}

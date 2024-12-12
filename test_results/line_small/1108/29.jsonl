@@ -1,0 +1,20 @@
+{"code": " [", "compilation_passed": false, "time": 0.00014209747314453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.002225160598754883, "tests_passed": true, "error": null}
+{"code": " Counter(result.get(\"url\", \"\").lower() for result in result if regex.match(result.get(\"url\", \"\")))", "compilation_passed": true, "time": 0.009957313537597656, "tests_passed": false, "error": "AttributeError"}
+{"code": " [i[\"url\"] for i in result]", "compilation_passed": true, "time": 0.013863086700439453, "tests_passed": false, "error": "KeyError"}
+{"code": " [k for k, v in result[1].items() if re.search(regex, k)]", "compilation_passed": true, "time": 0.009097099304199219, "tests_passed": false, "error": "IndexError"}
+{"code": " {}", "compilation_passed": true, "time": 0.009527921676635742, "tests_passed": false, "error": "AttributeError"}
+{"code": " [key for key in result if regex.match(key)]", "compilation_passed": true, "time": 0.01412820816040039, "tests_passed": false, "error": "TypeError"}
+{"code": " [dict_info[\"url\"] for dict_info in result]", "compilation_passed": true, "time": 0.013371944427490234, "tests_passed": false, "error": "KeyError"}
+{"code": " [url for url in result if regex.match(url['url'])]", "compilation_passed": true, "time": 0.014277935028076172, "tests_passed": false, "error": "KeyError"}
+{"code": " [res[\"url\"] for res in result if regex.search(res[\"url\"])]", "compilation_passed": true, "time": 0.014319896697998047, "tests_passed": false, "error": "KeyError"}
+{"code": " [dict(Counter(re.findall(regex, value['url']))) for value in result if value.get('url')]", "compilation_passed": true, "time": 0.0013549327850341797, "tests_passed": true, "error": null}
+{"code": " Counter([result[i]['url'] for i in result if regex.match(result[i]['url'])])", "compilation_passed": true, "time": 0.012903213500976562, "tests_passed": false, "error": "TypeError"}
+{"code": " Counter([url.get(\"url\") for url in result if re.match(regex, url.get(\"url\"))])", "compilation_passed": true, "time": 0.014417886734008789, "tests_passed": false, "error": "TypeError"}
+{"code": " Counter()", "compilation_passed": true, "time": 0.010437250137329102, "tests_passed": false, "error": "AttributeError"}
+{"code": " [dict(Counter([v for v in r[\"url\"] if re.search(regex, v)]).items()) for r in result]", "compilation_passed": true, "time": 0.013942241668701172, "tests_passed": false, "error": "KeyError"}
+{"code": " [dict[\"url\"] for dict in result if re.match(regex, dict[\"url\"])]", "compilation_passed": true, "time": 0.013212919235229492, "tests_passed": false, "error": "KeyError"}
+{"code": " list(map(lambda x: x['http_url'], result))", "compilation_passed": true, "time": 0.013583183288574219, "tests_passed": false, "error": "KeyError"}
+{"code": " [result[i] for i in range(len(result))]", "compilation_passed": true, "time": 0.011873006820678711, "tests_passed": false, "error": "TypeError"}
+{"code": " dict()", "compilation_passed": true, "time": 0.011677980422973633, "tests_passed": false, "error": "AttributeError"}
+{"code": " [dict_val['url'] for dict_val in result if regex.match(dict_val['url'])]", "compilation_passed": true, "time": 0.01399087905883789, "tests_passed": false, "error": "KeyError"}

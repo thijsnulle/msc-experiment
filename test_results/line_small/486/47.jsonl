@@ -1,0 +1,23 @@
+{"code": " df.plot(", "compilation_passed": false, "time": 0.0003571510314941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(kind='line', x='Time', y='Value')", "compilation_passed": true, "time": 0.8673431873321533, "tests_passed": true, "error": null}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.11328005790710449, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Time\", y=\"Value\",", "compilation_passed": false, "time": 0.0003631114959716797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot.line()", "compilation_passed": true, "time": 0.1230478286743164, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Time\", y=\"Value\", kind='line')", "compilation_passed": true, "time": 0.8600678443908691, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"line\", xlabel=\"Time\", ylabel=\"Value\")", "compilation_passed": true, "time": 0.8432800769805908, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"line\", xlim=((df[\"Time\"][0], df[\"Time\"][-1]), (0, 0)))", "compilation_passed": true, "time": 0.0796501636505127, "tests_passed": false, "error": "KeyError"}
+{"code": " df.plot(x=\"Time\", y=\"Value\")", "compilation_passed": true, "time": 0.867943286895752, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Time\", y=\"Value\", label=\"Task Function\")", "compilation_passed": true, "time": 0.8426480293273926, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Time\", y=\"Value\", title=\"Generated time series\", xdate=True)", "compilation_passed": true, "time": 0.12419414520263672, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(kind=\"line\", xlim=(timestamps[0], timestamps[-1]))", "compilation_passed": true, "time": 0.11153197288513184, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Time', y='Value', ylabel='Value', legend=False, title=\"Random Time Series\")", "compilation_passed": true, "time": 0.8675920963287354, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Time', y='Value')", "compilation_passed": true, "time": 0.8613648414611816, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Time\", y=\"Value\", kind=\"line\")", "compilation_passed": true, "time": 0.8897264003753662, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Time', y='Value', legend=False, figsize=(15, 5))", "compilation_passed": true, "time": 0.8526351451873779, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Time\", y=\"Value\", x_compat=True)", "compilation_passed": true, "time": 0.8850460052490234, "tests_passed": true, "error": null}
+{"code": " df.plot.scatter(x=\"Time\", y=\"Value\")", "compilation_passed": true, "time": 0.6521410942077637, "tests_passed": false, "error": "IndexError"}
+{"code": " df.plot(x='Time', y='Value', kind='line')", "compilation_passed": true, "time": 0.8761310577392578, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Time\", y=\"Value\", title=\"Value over time\")", "compilation_passed": true, "time": 0.8774330615997314, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='line', x='Time', y='Value', title='Random Value Time Series')", "compilation_passed": true, "time": 0.9110357761383057, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Time\", y=\"Value\", legend=None, title=f\"Time Series Trend: {trend}\")", "compilation_passed": true, "time": 0.8872978687286377, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Time\", y=\"Value\", color=\"C0\", label=\"Series\", linewidth=0)", "compilation_passed": true, "time": 0.9179291725158691, "tests_passed": true, "error": null}

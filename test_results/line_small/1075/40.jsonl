@@ -1,0 +1,16 @@
+{"code": " plt.bar(range(len(time_strings)), differences)", "compilation_passed": true, "time": 0.010587692260742188, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.bar(np.arange(len(differences)), differences)", "compilation_passed": true, "time": 0.01653003692626953, "tests_passed": true, "error": null}
+{"code": " plt.bar(", "compilation_passed": false, "time": 0.00014781951904296875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.bar(range(len(differences)), differences, color=\"g\")", "compilation_passed": true, "time": 0.014300823211669922, "tests_passed": true, "error": null}
+{"code": " plt.bar(time_strings[1:], differences, align=\"edge\", linewidth=1)", "compilation_passed": true, "time": 0.018373966217041016, "tests_passed": true, "error": null}
+{"code": " plt.bar(range(len(differences)), differences, align=\"edge\")", "compilation_passed": true, "time": 0.01564621925354004, "tests_passed": true, "error": null}
+{"code": " plt.bar(range(len(time_strings) - 1), differences)", "compilation_passed": true, "time": 0.01672506332397461, "tests_passed": true, "error": null}
+{"code": " plt.barh(range(len(differences)), differences)", "compilation_passed": true, "time": 0.007299184799194336, "tests_passed": true, "error": null}
+{"code": " plt.bar(range(len(differences)), differences, color=\"#41B6C4\")", "compilation_passed": true, "time": 0.014480113983154297, "tests_passed": true, "error": null}
+{"code": " plt.bar(np.arange(1, len(differences) + 1), differences)", "compilation_passed": true, "time": 0.01417398452758789, "tests_passed": true, "error": null}
+{"code": " plt.barh(", "compilation_passed": false, "time": 0.00017309188842773438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.bar(range(len(differences)), differences, align=\"center\")", "compilation_passed": true, "time": 0.015398025512695312, "tests_passed": true, "error": null}
+{"code": " plt.barh(range(len(differences)), differences, align=\"center\")", "compilation_passed": true, "time": 0.007512807846069336, "tests_passed": true, "error": null}
+{"code": " plt.barh(time_strings, differences, align=\"center\", color=\"black\")", "compilation_passed": true, "time": 0.009198665618896484, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.barh(time_strings[:-1], differences[:-1], 0.6, color=\"blue\")", "compilation_passed": true, "time": 0.007715940475463867, "tests_passed": true, "error": null}
+{"code": " plt.bar(np.arange(0, len(differences)), differences)", "compilation_passed": true, "time": 0.014010190963745117, "tests_passed": true, "error": null}

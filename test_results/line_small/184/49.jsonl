@@ -1,0 +1,11 @@
+{"code": " CountVectorizer(stop_words='english')", "compilation_passed": true, "time": 0.015145063400268555, "tests_passed": true, "error": null}
+{"code": " CountVectorizer()", "compilation_passed": true, "time": 0.011310100555419922, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(min_df=0.05, max_df=0.9, ngram_range=(1, 3))", "compilation_passed": true, "time": 0.006598234176635742, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(stop_words='english', max_features=5000, analyzer='word')", "compilation_passed": true, "time": 0.015205860137939453, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(vocabulary=STOPWORDS)", "compilation_passed": true, "time": 0.0069158077239990234, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(analyzer='word')", "compilation_passed": true, "time": 0.011134862899780273, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(analyzer='word', token_pattern='[\u0430-\u044f\u0451 ]+', stop_words='list', ngram_range=(1, 3))", "compilation_passed": true, "time": 0.012089967727661133, "tests_passed": false, "error": "sklearn.utils._param_validation.InvalidParameterError"}
+{"code": " CountVectorizer(vocabulary='chars', input='tokens')", "compilation_passed": true, "time": 0.00817418098449707, "tests_passed": false, "error": "sklearn.utils._param_validation.InvalidParameterError"}
+{"code": " CountVectorizer(min_df=2)", "compilation_passed": true, "time": 0.008497953414916992, "tests_passed": false, "error": "ValueError"}
+{"code": " CountVectorizer(token_pattern='\\\\b\\\\w+\\\\b')", "compilation_passed": true, "time": 0.011335134506225586, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(token_pattern=r'\\b\\w+\\b')", "compilation_passed": true, "time": 0.012474298477172852, "tests_passed": true, "error": null}

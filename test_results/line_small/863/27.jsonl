@@ -1,0 +1,8 @@
+{"code": " []", "compilation_passed": true, "time": 0.0011749267578125, "tests_passed": true, "error": null}
+{"code": " [sum(np.square(elem)) for elem in list_of_lists]", "compilation_passed": true, "time": 0.007042884826660156, "tests_passed": true, "error": null}
+{"code": " list()", "compilation_passed": true, "time": 0.0012941360473632812, "tests_passed": true, "error": null}
+{"code": " list(map(lambda x: sum(np.power(x, 2)), list_of_lists))", "compilation_passed": true, "time": 0.006063699722290039, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00012493133544921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [sum(x ** 2 for x in l) for l in list_of_lists]", "compilation_passed": true, "time": 0.005913972854614258, "tests_passed": true, "error": null}
+{"code": " [math.fsum(map(lambda x: x**2, x)) for x in list_of_lists]", "compilation_passed": true, "time": 0.005888938903808594, "tests_passed": true, "error": null}
+{"code": " [0 for _ in list_of_lists]", "compilation_passed": true, "time": 0.005491971969604492, "tests_passed": true, "error": null}

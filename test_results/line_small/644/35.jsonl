@@ -1,0 +1,6 @@
+{"code": " open(filename, 'w') as f:", "compilation_passed": true, "time": 0.006014823913574219, "tests_passed": true, "error": null}
+{"code": " open(filename, 'w') as file:", "compilation_passed": true, "time": 0.010139226913452148, "tests_passed": false, "error": "NameError"}
+{"code": " open(filename, 'wb') as f:", "compilation_passed": true, "time": 0.00851893424987793, "tests_passed": false, "error": "TypeError"}
+{"code": " open(filename, 'wb+') as f:", "compilation_passed": true, "time": 0.010165929794311523, "tests_passed": false, "error": "TypeError"}
+{"code": " open(filename, 'wb') as file:", "compilation_passed": true, "time": 0.008355140686035156, "tests_passed": false, "error": "NameError"}
+{"code": " open(filename, 'a') as f:", "compilation_passed": true, "time": 0.0056476593017578125, "tests_passed": true, "error": null}

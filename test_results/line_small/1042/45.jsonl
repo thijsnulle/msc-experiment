@@ -1,0 +1,14 @@
+{"code": "set_content(f\"{request}\")", "compilation_passed": true, "time": 0.02333974838256836, "tests_passed": true, "error": null}
+{"code": "set_payload(request)", "compilation_passed": true, "time": 0.020687103271484375, "tests_passed": true, "error": null}
+{"code": "set_content(getpass.getpass(\"Message: \"))", "compilation_passed": true, "time": 0.014500856399536133, "tests_passed": false, "error": "StopIteration"}
+{"code": "add_alternative(request, subtype=\"html\")", "compilation_passed": true, "time": 0.02352595329284668, "tests_passed": true, "error": null}
+{"code": "set_content(request)", "compilation_passed": true, "time": 0.02403092384338379, "tests_passed": true, "error": null}
+{"code": "set_content(\"This is an email sent from socket server.\")", "compilation_passed": true, "time": 0.022622108459472656, "tests_passed": true, "error": null}
+{"code": "set_payload(getpass.getpass(\"Message: \"))", "compilation_passed": true, "time": 0.013473033905029297, "tests_passed": false, "error": "StopIteration"}
+{"code": "set_payload(request.encode(\"utf-8\"))", "compilation_passed": true, "time": 0.0204620361328125, "tests_passed": true, "error": null}
+{"code": "set_content(\"Hello World!\")", "compilation_passed": true, "time": 0.02329707145690918, "tests_passed": true, "error": null}
+{"code": "set_content(\"Message from socket client\")", "compilation_passed": true, "time": 0.0214998722076416, "tests_passed": true, "error": null}
+{"code": "set_content(getpass.getpass(\"Content: \"))", "compilation_passed": true, "time": 0.014113187789916992, "tests_passed": false, "error": "StopIteration"}
+{"code": "set_content(f\"Message from socket client: {request}\")", "compilation_passed": true, "time": 0.02164769172668457, "tests_passed": true, "error": null}
+{"code": "add_text(getpass.getpass(\"Message: \"))", "compilation_passed": true, "time": 0.012122869491577148, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_content(\"Content of the message\")", "compilation_passed": true, "time": 0.0255279541015625, "tests_passed": true, "error": null}

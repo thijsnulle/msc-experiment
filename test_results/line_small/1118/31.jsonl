@@ -1,0 +1,7 @@
+{"code": " StringIO(response.text)", "compilation_passed": true, "time": 0.006973981857299805, "tests_passed": false, "error": "KeyError"}
+{"code": " response.text", "compilation_passed": true, "time": 0.009783029556274414, "tests_passed": false, "error": "TypeError"}
+{"code": " response.content", "compilation_passed": true, "time": 0.00830078125, "tests_passed": false, "error": "TypeError"}
+{"code": " response.text.splitlines()", "compilation_passed": true, "time": 0.008440256118774414, "tests_passed": false, "error": "TypeError"}
+{"code": " StringIO(response.content.decode('utf-8'))", "compilation_passed": true, "time": 0.011903047561645508, "tests_passed": false, "error": "TypeError"}
+{"code": " response.content.decode('utf-8')", "compilation_passed": true, "time": 0.009133100509643555, "tests_passed": false, "error": "TypeError"}
+{"code": " response.text.encode('utf-8').decode('utf-8').splitlines()", "compilation_passed": true, "time": 0.008531808853149414, "tests_passed": false, "error": "TypeError"}

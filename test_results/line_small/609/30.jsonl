@@ -1,0 +1,4 @@
+{"code": " []", "compilation_passed": true, "time": 1.0211811065673828, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sample(combinations(COLUMNS, 2), n_plots)", "compilation_passed": true, "time": 0.013962984085083008, "tests_passed": false, "error": "TypeError"}
+{"code": " sample([(x, y, 'scatter') for x in COLUMNS[:5] for y in COLUMNS[:5]], n_plots)", "compilation_passed": true, "time": 0.5069360733032227, "tests_passed": true, "error": null}
+{"code": " sample(list(combinations(COLUMNS, 2)), n_plots)", "compilation_passed": true, "time": 0.4915010929107666, "tests_passed": true, "error": null}

@@ -1,0 +1,15 @@
+{"code": " df['list'].map(sum)", "compilation_passed": true, "time": 0.0749368667602539, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda row : sum(row['list']), axis=1)", "compilation_passed": true, "time": 0.07303500175476074, "tests_passed": true, "error": null}
+{"code": " df['list'].sum()", "compilation_passed": true, "time": 0.021140336990356445, "tests_passed": false, "error": "ValueError"}
+{"code": " df['list'].apply(sum)", "compilation_passed": true, "time": 0.07868409156799316, "tests_passed": true, "error": null}
+{"code": " df.groupby('email')['list'].transform('sum')", "compilation_passed": true, "time": 0.023565053939819336, "tests_passed": true, "error": null}
+{"code": " df['list'].apply(lambda x : sum(x))", "compilation_passed": true, "time": 0.07605290412902832, "tests_passed": true, "error": null}
+{"code": " df.list.sum(axis = 1)", "compilation_passed": true, "time": 0.027098894119262695, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"list\"].sum()", "compilation_passed": true, "time": 0.019493818283081055, "tests_passed": false, "error": "ValueError"}
+{"code": " df['list'].map(lambda x : sum(x))", "compilation_passed": true, "time": 0.07544088363647461, "tests_passed": true, "error": null}
+{"code": " df.iloc[:,2:].sum()", "compilation_passed": true, "time": 0.023692846298217773, "tests_passed": true, "error": null}
+{"code": " df['list'].sum(axis=1)", "compilation_passed": true, "time": 0.020225048065185547, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"list\"].map(sum)", "compilation_passed": true, "time": 0.07805609703063965, "tests_passed": true, "error": null}
+{"code": " df['list'].apply(lambda x: sum(x))", "compilation_passed": true, "time": 0.07355189323425293, "tests_passed": true, "error": null}
+{"code": " df['list'].sum(axis = 1)", "compilation_passed": true, "time": 0.022076845169067383, "tests_passed": false, "error": "ValueError"}
+{"code": " df.list.map(lambda l : sum(l))", "compilation_passed": true, "time": 0.0685269832611084, "tests_passed": true, "error": null}

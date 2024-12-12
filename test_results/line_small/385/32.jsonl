@@ -1,0 +1,10 @@
+{"code": "bar(fruit_counter.keys(), fruit_counter.values())", "compilation_passed": true, "time": 0.00678706169128418, "tests_passed": true, "error": null}
+{"code": "bar(range(len(fruit_counter)), list(fruit_counter.values()), align='center')", "compilation_passed": true, "time": 0.007211923599243164, "tests_passed": true, "error": null}
+{"code": "bar(list(fruit_counter.keys()), list(fruit_counter.values()))", "compilation_passed": true, "time": 0.008465051651000977, "tests_passed": true, "error": null}
+{"code": "bar(range(len(fruit_counter)),", "compilation_passed": false, "time": 0.0002532005310058594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "bar(range(len(fruit_counter.keys())), list(fruit_counter.values()), tick_label=list(fruit_counter.keys()))", "compilation_passed": true, "time": 0.01184391975402832, "tests_passed": true, "error": null}
+{"code": "bar(range(len(fruit_counter)), list(fruit_counter.values()), tick_label=list(fruit_counter.keys()),", "compilation_passed": false, "time": 0.00022101402282714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": "bar(fruit_counter.keys(), fruit_counter.values(), width=0.5)", "compilation_passed": true, "time": 0.008488178253173828, "tests_passed": true, "error": null}
+{"code": "bar([i[0] for i in fruit_counter.most_common()], [i[1] for i in fruit_counter.most_common()])", "compilation_passed": true, "time": 0.006936788558959961, "tests_passed": true, "error": null}
+{"code": "bar(*zip(*fruit_counter.most_common()), align='center')", "compilation_passed": true, "time": 0.007670879364013672, "tests_passed": false, "error": "TypeError"}
+{"code": "bar(fruit_counter.keys(), fruit_counter.values(), color='orange')", "compilation_passed": true, "time": 0.006571054458618164, "tests_passed": true, "error": null}

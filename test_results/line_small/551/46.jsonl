@@ -1,0 +1,12 @@
+{"code": " sns.barplot(data=df, x='Item', y='Count')", "compilation_passed": true, "time": 1.0098309516906738, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.barplot(x=\"Item\", y=\"Count\", data=df)", "compilation_passed": true, "time": 1.0092298984527588, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.barplot(x='Item', y='Count', data=df, ci=None, palette=\"RdYlGn\")", "compilation_passed": true, "time": 1.0091431140899658, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.barplot(x='Item', y='Count', data=df)", "compilation_passed": true, "time": 0.60719895362854, "tests_passed": true, "error": null}
+{"code": " sns.barplot(data=df, x=\"Item\", y=\"Count\", palette=\"colorblind\")", "compilation_passed": true, "time": 0.6753408908843994, "tests_passed": true, "error": null}
+{"code": " sns.barplot(data=df, x=\"Item\", y=\"Count\")", "compilation_passed": true, "time": 0.8328399658203125, "tests_passed": true, "error": null}
+{"code": " sns.barplot(x=\"Item\", y=\"Count\", data=df, palette=\"pastel\")", "compilation_passed": true, "time": 0.9823460578918457, "tests_passed": true, "error": null}
+{"code": " sns.barplot(x=\"Item\", y=\"Count\", data=df, palette=\"rocket\", ci=None)", "compilation_passed": true, "time": 1.010617971420288, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.barplot(data=df, x='Item', y='Count', palette=\"Set3\")", "compilation_passed": true, "time": 1.009140968322754, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.barplot(data=df, x='Item', y='Count', palette='Set1')", "compilation_passed": true, "time": 1.0087769031524658, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.barplot(x=\"Item\", y=\"Count\", data=df, color=\"blue\")", "compilation_passed": true, "time": 1.0087041854858398, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.barplot(y='Item', x='Count', data=df)", "compilation_passed": true, "time": 0.12700390815734863, "tests_passed": true, "error": null}

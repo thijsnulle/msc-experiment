@@ -1,0 +1,25 @@
+{"code": " ' '.join(re.findall(r'\\b\\w+\\b', text))", "compilation_passed": true, "time": 0.012006998062133789, "tests_passed": false, "error": ""}
+{"code": " re.sub(r\"\\b\\w+\\s+\\b\", \" \", text)", "compilation_passed": true, "time": 0.011855125427246094, "tests_passed": false, "error": ""}
+{"code": " re.sub(r'\\s+', ' ', text).strip()", "compilation_passed": true, "time": 0.009701728820800781, "tests_passed": false, "error": ""}
+{"code": " re.sub(r'\\b\\w{1,%d}\\b' % n + r'\\s*\\1\\b', r'\\1', text, re.I)", "compilation_passed": true, "time": 0.013400793075561523, "tests_passed": false, "error": "re.error"}
+{"code": " re.sub(r\"\\b\\w+?\\b\\s+?\", r\" \", text).strip()", "compilation_passed": true, "time": 0.010049819946289062, "tests_passed": false, "error": ""}
+{"code": " re.sub(r'\\b\\w+\\b\\s+\\b\\w+\\b', r'\\1', text)", "compilation_passed": true, "time": 0.009811878204345703, "tests_passed": false, "error": "re.error"}
+{"code": " re.sub(r'\\b\\w{1,3}\\b\\s*\\b\\w{1,3}\\b', r' \\b\\w{1,3}\\b\\s*\\b\\w{1,3}\\b', text)", "compilation_passed": true, "time": 0.009829044342041016, "tests_passed": false, "error": "re.error"}
+{"code": " re.sub(r'\\b\\w{4,}\\b', ' ', text)", "compilation_passed": true, "time": 0.010660886764526367, "tests_passed": false, "error": ""}
+{"code": " re.sub(r'\\b\\w+\\b\\s*\\b\\w+\\b', r'\\1', text)", "compilation_passed": true, "time": 0.012178182601928711, "tests_passed": false, "error": "re.error"}
+{"code": " re.sub(r'\\b(\\w+)\\s+\\1\\b', r'\\1', text)", "compilation_passed": true, "time": 0.01186990737915039, "tests_passed": false, "error": ""}
+{"code": " re.sub(r'\\s+', ' ', text)", "compilation_passed": true, "time": 0.012233972549438477, "tests_passed": false, "error": ""}
+{"code": " re.sub(r'\\b\\w+\\b\\s+\\b\\w+\\b', ' ', text)", "compilation_passed": true, "time": 0.009685039520263672, "tests_passed": false, "error": ""}
+{"code": " \" \".join(re.sub(r\"\\b\\w+\\b\\s+\\b\\w+\\b\", \" \", text).split())", "compilation_passed": true, "time": 0.009776115417480469, "tests_passed": false, "error": ""}
+{"code": " re.sub(r'\\b\\w{2,}\\b', ' ', text)", "compilation_passed": true, "time": 0.009742259979248047, "tests_passed": false, "error": ""}
+{"code": " \" \".join(re.findall(r'\\S+', text))", "compilation_passed": true, "time": 0.011144161224365234, "tests_passed": false, "error": ""}
+{"code": " re.sub(r\"\\s+\", \" \", text.strip()).lower()", "compilation_passed": true, "time": 0.009993791580200195, "tests_passed": false, "error": ""}
+{"code": " re.sub(r'\\b(\\w{1,%s})\\b\\s+\\b\\1\\b' % (n * 2 - 1), r'\\1', text)", "compilation_passed": true, "time": 0.010540008544921875, "tests_passed": false, "error": ""}
+{"code": " re.sub(r\"\\b\\w+\\b\\s+\\b\\w+\\b\", r\"\\1 \\2\", text)", "compilation_passed": true, "time": 0.008736848831176758, "tests_passed": false, "error": "re.error"}
+{"code": " re.sub(r\"\\s+\\n\", \" \", text)", "compilation_passed": true, "time": 0.010171890258789062, "tests_passed": false, "error": ""}
+{"code": " re.sub(r'\\b(\\w)(\\w)*\\b', r'\\1', text)", "compilation_passed": true, "time": 0.01116490364074707, "tests_passed": false, "error": ""}
+{"code": " re.findall(r'\\b\\w+\\b', text)", "compilation_passed": true, "time": 0.009031295776367188, "tests_passed": false, "error": ""}
+{"code": " re.sub(r'\\b\\w+\\b\\s+\\b\\w+\\b', r'\\1 \\2', text)", "compilation_passed": true, "time": 0.00925302505493164, "tests_passed": false, "error": "re.error"}
+{"code": " re.sub(r\"\\b\\w+\\b\\s+\\b\\w+\\b\", \" \", text)", "compilation_passed": true, "time": 0.011466026306152344, "tests_passed": false, "error": ""}
+{"code": " re.sub(r'\\b\\w{1,2}\\b', r'', text)", "compilation_passed": true, "time": 0.010445117950439453, "tests_passed": false, "error": ""}
+{"code": " \" \".join(re.findall(r'\\w+', text))", "compilation_passed": true, "time": 0.009727954864501953, "tests_passed": false, "error": ""}

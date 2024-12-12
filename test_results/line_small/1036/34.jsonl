@@ -1,0 +1,16 @@
+{"code": " s1.intersection(s2)", "compilation_passed": true, "time": 0.010304927825927734, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.concat([s1, s2]).groupby('name').first()", "compilation_passed": true, "time": 0.00978994369506836, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.concat([s1[s1.index.intersection(s2.index)], s2[s2.index.intersection(s1.index)]])", "compilation_passed": true, "time": 0.08817410469055176, "tests_passed": true, "error": null}
+{"code": " s1[s1.name.startswith(s2.name[:s2.name.find('_')])]", "compilation_passed": true, "time": 0.010396718978881836, "tests_passed": false, "error": "KeyError"}
+{"code": " (s1.index.intersection(s2.index))", "compilation_passed": true, "time": 0.14131999015808105, "tests_passed": true, "error": null}
+{"code": " set(s1.index).intersection(s2.index)", "compilation_passed": true, "time": 0.14386725425720215, "tests_passed": true, "error": null}
+{"code": " pd.merge(s1, s2, how='inner', suffixes=('_s1', '_s2'), indicator=True)", "compilation_passed": true, "time": 0.009842157363891602, "tests_passed": false, "error": "pandas.errors.MergeError"}
+{"code": " pd.concat([s1[s1.index.isin(s2.index)], s2[s2.index.isin(s1.index)]], ignore_index=True)", "compilation_passed": true, "time": 0.08549189567565918, "tests_passed": true, "error": null}
+{"code": " s1[s1.isin(s2)]", "compilation_passed": true, "time": 0.2474958896636963, "tests_passed": true, "error": null}
+{"code": " pd.merge_asof(s1, s2, by=s1.name, is_strict='both', suffixes=('', '_suffix'))", "compilation_passed": true, "time": 0.009698867797851562, "tests_passed": false, "error": "TypeError"}
+{"code": " list(set(s1) & set(s2))", "compilation_passed": true, "time": 0.25997090339660645, "tests_passed": true, "error": null}
+{"code": " s1.index[s1.isin(s2)]", "compilation_passed": true, "time": 0.24433684349060059, "tests_passed": true, "error": null}
+{"code": " s1.index.intersection(s2.index)", "compilation_passed": true, "time": 0.1446819305419922, "tests_passed": true, "error": null}
+{"code": " pd.merge(s1, s2, how='inner', indicator=True)", "compilation_passed": true, "time": 0.012881994247436523, "tests_passed": false, "error": "pandas.errors.MergeError"}
+{"code": " s1.intersect(s2)", "compilation_passed": true, "time": 0.009881973266601562, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.concat([s1, s2], axis=0).drop_duplicates()", "compilation_passed": true, "time": 0.14719700813293457, "tests_passed": true, "error": null}

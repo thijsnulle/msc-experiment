@@ -1,0 +1,19 @@
+{"code": " re.findall(r'\\w+', token):", "compilation_passed": true, "time": 0.010971307754516602, "tests_passed": false, "error": ""}
+{"code": " token not in punctuation:", "compilation_passed": true, "time": 0.010553836822509766, "tests_passed": false, "error": ""}
+{"code": " token.lower() not in punctuation:", "compilation_passed": true, "time": 0.011156082153320312, "tests_passed": false, "error": ""}
+{"code": " token.isalpha():", "compilation_passed": true, "time": 0.010153055191040039, "tests_passed": false, "error": ""}
+{"code": " token in word_freq:", "compilation_passed": true, "time": 0.009980916976928711, "tests_passed": false, "error": ""}
+{"code": " any(char in punctuation for char in token):", "compilation_passed": true, "time": 0.010296106338500977, "tests_passed": false, "error": ""}
+{"code": " re.match(r'[a-zA-Z0-9]+', token):  # Ensure the token is only composed of alphanumeric characters", "compilation_passed": true, "time": 0.010640144348144531, "tests_passed": false, "error": ""}
+{"code": " not token.startswith('.') and not token.startswith('!') and not token.startswith('?'):", "compilation_passed": true, "time": 0.010911941528320312, "tests_passed": false, "error": ""}
+{"code": " token.lower() in word_freq:", "compilation_passed": true, "time": 0.01007223129272461, "tests_passed": false, "error": ""}
+{"code": " token.lower() not in word_freq and token.lower() not in punctuation:", "compilation_passed": true, "time": 0.010498046875, "tests_passed": false, "error": ""}
+{"code": " token.lower() in punctuation:", "compilation_passed": true, "time": 0.01384878158569336, "tests_passed": false, "error": ""}
+{"code": " not token.lower().startswith(('@', '#', 'http', '//')) and token.lower() not in punctuation:", "compilation_passed": true, "time": 0.010162115097045898, "tests_passed": false, "error": ""}
+{"code": " token.isalnum():", "compilation_passed": true, "time": 0.010600090026855469, "tests_passed": false, "error": ""}
+{"code": " re.search(r'[a-zA-Z]', token):", "compilation_passed": true, "time": 0.010843992233276367, "tests_passed": false, "error": ""}
+{"code": " any(c in punctuation for c in token):", "compilation_passed": true, "time": 0.010435104370117188, "tests_passed": false, "error": ""}
+{"code": " re.match(r'\\W', token) is None:", "compilation_passed": true, "time": 0.010606050491333008, "tests_passed": false, "error": ""}
+{"code": " token.lower() in punctuation or re.search(r'[\\W_]+', token):", "compilation_passed": true, "time": 0.011667251586914062, "tests_passed": false, "error": ""}
+{"code": " re.match(r'\\w', token):", "compilation_passed": true, "time": 0.009843826293945312, "tests_passed": false, "error": ""}
+{"code": " any(c in punctuation for c in token) or not token.isalnum():", "compilation_passed": true, "time": 0.010447978973388672, "tests_passed": false, "error": ""}

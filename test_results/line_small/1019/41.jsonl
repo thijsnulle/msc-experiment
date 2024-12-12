@@ -1,0 +1,9 @@
+{"code": " pytesseract.image_to_string(image, lang=\"rus\")", "compilation_passed": true, "time": 0.015306234359741211, "tests_passed": true, "error": null}
+{"code": " pytesseract.image_to_string(image, lang='rus', config='--psm 1 --oem 1')", "compilation_passed": true, "time": 0.009263038635253906, "tests_passed": true, "error": null}
+{"code": " pytesseract.image_to_string(image)", "compilation_passed": true, "time": 0.008677005767822266, "tests_passed": true, "error": null}
+{"code": " pytesseract.image_to_string(image, lang='rus')", "compilation_passed": true, "time": 0.008289575576782227, "tests_passed": true, "error": null}
+{"code": " pytesseract.image_to_string(image, lang=\"rus+eng\")", "compilation_passed": true, "time": 0.00957798957824707, "tests_passed": true, "error": null}
+{"code": " pytesseract.image_to_string(", "compilation_passed": false, "time": 0.00021195411682128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pytesseract.image_to_string(image, lang=\"rus+eng\", output_type=pytesseract.Output.DARK_TEXT)", "compilation_passed": true, "time": 0.008493185043334961, "tests_passed": true, "error": null}
+{"code": " pytesseract.image_to_string(image, lang='rus+eng', output_type=Output.FILE)", "compilation_passed": true, "time": 0.00919198989868164, "tests_passed": true, "error": null}
+{"code": " pytesseract.image_to_string(image, config=\"-psm 6 -c tessedit_char_whitelist={}\".format(chr(10)))", "compilation_passed": true, "time": 0.00847005844116211, "tests_passed": true, "error": null}

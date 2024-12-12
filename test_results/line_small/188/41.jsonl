@@ -1,0 +1,7 @@
+{"code": " isinstance(value, dict) and 'Lat' in value and 'Lon' in value:", "compilation_passed": true, "time": 0.050222158432006836, "tests_passed": true, "error": null}
+{"code": " isinstance(value, dict):", "compilation_passed": true, "time": 0.04941678047180176, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str):", "compilation_passed": true, "time": 0.014621973037719727, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(value, dict) and value['Lat'] and value['Lon']:", "compilation_passed": true, "time": 0.015225887298583984, "tests_passed": false, "error": "ValueError"}
+{"code": " type(value) == dict:", "compilation_passed": true, "time": 0.04890108108520508, "tests_passed": true, "error": null}
+{"code": " isinstance(value, dict) and \"Lat\" in value and \"Lon\" in value:", "compilation_passed": true, "time": 0.05029869079589844, "tests_passed": true, "error": null}
+{"code": " isinstance(value, dict) and value[\"Lat\"] and value[\"Lon\"]:", "compilation_passed": true, "time": 0.013092041015625, "tests_passed": false, "error": "ValueError"}

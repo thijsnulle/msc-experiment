@@ -1,0 +1,9 @@
+{"code": " PREFIX + endpoint + '.json'", "compilation_passed": true, "time": 0.007326841354370117, "tests_passed": true, "error": null}
+{"code": " f\"{PREFIX}{endpoint}.json\"", "compilation_passed": true, "time": 0.007222890853881836, "tests_passed": true, "error": null}
+{"code": " PREFIX + endpoint.replace('/', '_') + '.json'", "compilation_passed": true, "time": 0.0075190067291259766, "tests_passed": true, "error": null}
+{"code": " PREFIX + endpoint.replace('/', '_') + \".json\"", "compilation_passed": true, "time": 0.008085966110229492, "tests_passed": true, "error": null}
+{"code": " PREFIX + endpoint.split('/')[-1] + \".json\"", "compilation_passed": true, "time": 0.007612943649291992, "tests_passed": true, "error": null}
+{"code": " PREFIX + endpoint + \".json\"", "compilation_passed": true, "time": 0.007700920104980469, "tests_passed": true, "error": null}
+{"code": " PREFIX + endpoint.replace('/', '.') + '.json'", "compilation_passed": true, "time": 0.0073070526123046875, "tests_passed": true, "error": null}
+{"code": " PREFIX + endpoint.split('/')[-1] + '.json'", "compilation_passed": true, "time": 0.007484912872314453, "tests_passed": true, "error": null}
+{"code": " f\"{PREFIX}{endpoint.lower()}.json\"", "compilation_passed": true, "time": 0.007601022720336914, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": " df[\"Age\"].astype(int)", "compilation_passed": true, "time": 0.07236385345458984, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[\"Age\"])", "compilation_passed": true, "time": 0.08607006072998047, "tests_passed": true, "error": null}
+{"code": " df[\"Age\"].apply(int)", "compilation_passed": true, "time": 0.061972856521606445, "tests_passed": true, "error": null}
+{"code": " df[\"Age\"].apply(lambda x: int(x))", "compilation_passed": true, "time": 0.0682981014251709, "tests_passed": true, "error": null}
+{"code": " df[\"Age\"].astype(\"int\")", "compilation_passed": true, "time": 0.061948299407958984, "tests_passed": true, "error": null}
+{"code": " df[\"Age\"].astype(\"int64\")", "compilation_passed": true, "time": 0.06523966789245605, "tests_passed": true, "error": null}
+{"code": " df[\"Age\"].map(lambda x: int(x.replace(\"years\", \"\").strip()))", "compilation_passed": true, "time": 0.1169431209564209, "tests_passed": true, "error": null}
+{"code": " df[\"Age\"].str.strip()", "compilation_passed": true, "time": 0.030777931213378906, "tests_passed": true, "error": null}
+{"code": " df[\"Age\"].map({", "compilation_passed": false, "time": 0.00027680397033691406, "tests_passed": false, "error": "SyntaxError"}

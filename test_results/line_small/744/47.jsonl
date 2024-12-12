@@ -1,0 +1,15 @@
+{"code": " []", "compilation_passed": true, "time": 0.008109092712402344, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word.startswith(\"$\")]", "compilation_passed": true, "time": 0.006844997406005859, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word.lower().startswith('$')]", "compilation_passed": true, "time": 0.0069942474365234375, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word.startswith('$')]", "compilation_passed": true, "time": 0.006662845611572266, "tests_passed": true, "error": null}
+{"code": " list(filter(lambda x: x[0]==\"$\", words))", "compilation_passed": true, "time": 0.0069179534912109375, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in words if word.startswith(\"$\") and word[1:].isalpha()]", "compilation_passed": true, "time": 0.006590843200683594, "tests_passed": true, "error": null}
+{"code": " list(filter(lambda word: word.startswith(\"$\"), words))", "compilation_passed": true, "time": 0.0071370601654052734, "tests_passed": true, "error": null}
+{"code": " list(filter(lambda w: w.startswith('$'), words))", "compilation_passed": true, "time": 0.00897979736328125, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word[0] == '$']", "compilation_passed": true, "time": 0.00857996940612793, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in words if word.startswith(\"$\")]", "compilation_passed": true, "time": 0.0074231624603271484, "tests_passed": true, "error": null}
+{"code": " [w for w in words if w[0] == '$' and w.isalpha()]", "compilation_passed": true, "time": 0.007639884948730469, "tests_passed": true, "error": null}
+{"code": " [w.lower() for w in words if w.lower().startswith('$') and w not in punctuation]", "compilation_passed": true, "time": 0.009426116943359375, "tests_passed": true, "error": null}
+{"code": " [w for w in words if w.startswith('$') and len(w) > 1]", "compilation_passed": true, "time": 0.008404970169067383, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word.startswith('$') and word.isalnum()]", "compilation_passed": true, "time": 0.007643938064575195, "tests_passed": true, "error": null}
+{"code": " list(filter(lambda word: word[0]==\"$\", words))", "compilation_passed": true, "time": 0.007011890411376953, "tests_passed": true, "error": null}

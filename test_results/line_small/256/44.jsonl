@@ -1,0 +1,6 @@
+{"code": " salt + utc_time_str", "compilation_passed": true, "time": 0.007029056549072266, "tests_passed": true, "error": null}
+{"code": " utc_time_str + salt", "compilation_passed": true, "time": 0.0017201900482177734, "tests_passed": true, "error": null}
+{"code": " f\"{utc_time_str}{salt}\"", "compilation_passed": true, "time": 0.0023412704467773438, "tests_passed": true, "error": null}
+{"code": " salt + str(utc_time_str) + str(random.randint(0, 999999))", "compilation_passed": true, "time": 0.0063359737396240234, "tests_passed": true, "error": null}
+{"code": " f\"{utc_time_str}{salt}\".encode()", "compilation_passed": true, "time": 0.00956416130065918, "tests_passed": false, "error": "TypeError"}
+{"code": " f\"{salt} {utc_time_str}\"", "compilation_passed": true, "time": 0.00587010383605957, "tests_passed": true, "error": null}

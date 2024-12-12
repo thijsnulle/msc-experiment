@@ -1,0 +1,29 @@
+{"code": "append(dict(", "compilation_passed": false, "time": 0.0001971721649169922, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append(pd.DataFrame(np.array(y[i]), columns=labels))", "compilation_passed": true, "time": 0.0029821395874023438, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(pd.DataFrame(np.array([x[i], y[i]]).T, columns=['x', 'y']))", "compilation_passed": true, "time": 0.0029659271240234375, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(pd.DataFrame({\"x\": x[i], \"y\": y[i]}))", "compilation_passed": true, "time": 0.0032608509063720703, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append([[x[i][j], y[i][j]] for j in range(len(x[i]))])", "compilation_passed": true, "time": 0.0032198429107666016, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(np.column_stack((x[i], y[i])))", "compilation_passed": true, "time": 0.0033981800079345703, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(pd.DataFrame(np.vstack((x[i], y[i])),", "compilation_passed": false, "time": 0.000225067138671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append(pd.DataFrame(x[i], index=y[i]))", "compilation_passed": true, "time": 0.003142118453979492, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(np.vstack((x[i], y[i])))", "compilation_passed": true, "time": 0.0029439926147460938, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(pd.DataFrame(x[i], columns=[labels[i]]))", "compilation_passed": true, "time": 0.0031931400299072266, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append([list(x[i]), list(y[i])])", "compilation_passed": true, "time": 0.0028972625732421875, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(pd.DataFrame(np.vstack([x[i], y[i]]), columns=labels))", "compilation_passed": true, "time": 0.0029802322387695312, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(pd.DataFrame(x[i], y[i]))", "compilation_passed": true, "time": 0.0032291412353515625, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(np.vstack([x[i], y[i]]))", "compilation_passed": true, "time": 0.0028307437896728516, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(pd.DataFrame(x[i], y[i], index=labels))", "compilation_passed": true, "time": 0.002866983413696289, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(pd.DataFrame(x[i], y[i], labels[i]))", "compilation_passed": true, "time": 0.0029230117797851562, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(pd.DataFrame(", "compilation_passed": false, "time": 0.00017690658569335938, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append(pd.DataFrame(np.c_[x[i], y[i]], columns=['x', 'y']))", "compilation_passed": true, "time": 0.002907276153564453, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(pd.DataFrame({'x': x[i], 'y': y[i], 'label': labels[i]}))", "compilation_passed": true, "time": 0.0035400390625, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(pd.DataFrame({LABELS[i]: x[i], LABELS[i]+'_y': y[i]}))", "compilation_passed": true, "time": 0.003134012222290039, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append([x[i], y[i]])", "compilation_passed": true, "time": 0.00337982177734375, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(list(zip(x[i], y[i])))", "compilation_passed": true, "time": 0.003010988235473633, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": "append(pd.Series(x[i], name=labels[i], index=y[i]))", "compilation_passed": true, "time": 0.18032312393188477, "tests_passed": true, "error": null}
+{"code": "append(pd.Series(x[i], index=y[i]))", "compilation_passed": true, "time": 0.16197466850280762, "tests_passed": true, "error": null}
+{"code": "append(pd.DataFrame(np.vstack([x[i], y[i]]), index=['x', 'y'], columns=labels))", "compilation_passed": true, "time": 0.011552095413208008, "tests_passed": false, "error": "ValueError"}
+{"code": "append(np.multiply(x[i], y[i]))", "compilation_passed": true, "time": 0.3004920482635498, "tests_passed": true, "error": null}
+{"code": "append(pd.DataFrame(dict(", "compilation_passed": false, "time": 0.0003459453582763672, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append(np.array(y[i])[x[i]])", "compilation_passed": true, "time": 0.011785030364990234, "tests_passed": false, "error": "IndexError"}
+{"code": "append(pd.DataFrame(x[i], y[i], index=y[i], columns=x[i], dtype='float64'))", "compilation_passed": true, "time": 0.00999307632446289, "tests_passed": false, "error": "TypeError"}

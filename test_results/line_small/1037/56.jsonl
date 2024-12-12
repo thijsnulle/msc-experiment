@@ -1,0 +1,8 @@
+{"code": "set_title('K-Means Clustering')", "compilation_passed": true, "time": 0.1310429573059082, "tests_passed": true, "error": null}
+{"code": "set_title(\"K-Means Clustering\")", "compilation_passed": true, "time": 0.13327884674072266, "tests_passed": true, "error": null}
+{"code": "set_xlabel(f\"{s1.name}\")", "compilation_passed": true, "time": 0.13161396980285645, "tests_passed": true, "error": null}
+{"code": "set_xlabel(s1.name)", "compilation_passed": true, "time": 0.14198708534240723, "tests_passed": true, "error": null}
+{"code": "legend(handles=scatter.artists, labels=[f\"Cluster {i}\" for i in range(n_clusters)])", "compilation_passed": true, "time": 0.04656791687011719, "tests_passed": false, "error": "AttributeError"}
+{"code": "legend(handles=scatter.artists, labels=labels, frameon=False)", "compilation_passed": true, "time": 0.045510053634643555, "tests_passed": false, "error": "AttributeError"}
+{"code": "legend(handles=scatter.artists, labels=kmeans.cluster_centers_)", "compilation_passed": true, "time": 0.04682588577270508, "tests_passed": false, "error": "AttributeError"}
+{"code": "legend(*scatter.legend_elements(), loc=\"best\")", "compilation_passed": true, "time": 0.14324188232421875, "tests_passed": true, "error": null}

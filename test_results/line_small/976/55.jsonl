@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(normalized_records, columns=features)", "compilation_passed": true, "time": 0.006326198577880859, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(normalized_records.T, columns=features)", "compilation_passed": true, "time": 0.010460853576660156, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(normalized_records, features)", "compilation_passed": true, "time": 0.011254072189331055, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data=normalized_records, columns=features)", "compilation_passed": true, "time": 0.006021022796630859, "tests_passed": true, "error": null}

@@ -1,0 +1,10 @@
+{"code": " re.sub(r'[^\\w\\s]', '', text)", "compilation_passed": true, "time": 0.012598037719726562, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', text)", "compilation_passed": true, "time": 0.011361837387084961, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', '', text)", "compilation_passed": true, "time": 0.007890939712524414, "tests_passed": true, "error": null}
+{"code": " re.sub('[^\\w\\s]', '', text)", "compilation_passed": true, "time": 0.011268138885498047, "tests_passed": true, "error": null}
+{"code": " re.sub('\\W+', '', text)", "compilation_passed": true, "time": 0.006873130798339844, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z\\s]+', '', text)", "compilation_passed": true, "time": 0.011430978775024414, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)", "compilation_passed": true, "time": 0.011106729507446289, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W', ' ', text)", "compilation_passed": true, "time": 0.011449098587036133, "tests_passed": true, "error": null}
+{"code": " text.strip(string.punctuation)", "compilation_passed": true, "time": 0.03557085990905762, "tests_passed": false, "error": "NameError"}
+{"code": " re.sub(r'[^a-zA-Z]+', ' ', text)", "compilation_passed": true, "time": 0.011436939239501953, "tests_passed": true, "error": null}

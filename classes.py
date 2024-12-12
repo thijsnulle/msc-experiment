@@ -14,6 +14,14 @@ class DataclassJSONEncoder(json.JSONEncoder):
         return super().default(o)
 
 @dataclasses.dataclass
+class CodeVerificationResult:
+    code: str
+    compilation_passed: bool
+    time: float
+    tests_passed: bool = False
+    error: Optional[str] = None
+
+@dataclasses.dataclass
 class ProblemFile:
     path: pathlib.Path
     no_lines: int

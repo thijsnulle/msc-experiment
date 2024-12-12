@@ -1,0 +1,7 @@
+{"code": " sns.scatterplot(x=\"Component 1\", y=\"Component 2\", data=principalDf)", "compilation_passed": true, "time": 0.02283501625061035, "tests_passed": true, "error": null}
+{"code": " sns.scatterplot(", "compilation_passed": false, "time": 0.00024199485778808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.scatter(x=principalDf.Component_1, y=principalDf.Component_2)", "compilation_passed": true, "time": 0.021802902221679688, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.scatterplot(data=principalDf, x=\"Component 1\", y=\"Component 2\")", "compilation_passed": true, "time": 0.022370100021362305, "tests_passed": true, "error": null}
+{"code": " plt.subplot(1, 1, 1)", "compilation_passed": true, "time": 0.015184164047241211, "tests_passed": true, "error": null}
+{"code": " sns.scatterplot(x=\"Component 1\", y=\"Component 2\", data=principalDf, label=\"Scatter Plot\")", "compilation_passed": true, "time": 0.025354862213134766, "tests_passed": true, "error": null}
+{"code": " plt.scatter(", "compilation_passed": false, "time": 0.00024318695068359375, "tests_passed": false, "error": "SyntaxError"}

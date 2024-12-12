@@ -1,0 +1,21 @@
+{"code": "barplot(y=\"Age\", data=df, color=\"#2A4D78\")", "compilation_passed": true, "time": 0.22771716117858887, "tests_passed": true, "error": null}
+{"code": "countplot(x=\"Age\", data=df)", "compilation_passed": true, "time": 0.08608508110046387, "tests_passed": true, "error": null}
+{"code": "displot(df, x=\"Age\", kde=True, height=4)", "compilation_passed": true, "time": 0.8917179107666016, "tests_passed": true, "error": null}
+{"code": "countplot(df[\"Age\"], ax=plt.gca())", "compilation_passed": true, "time": 0.07824516296386719, "tests_passed": true, "error": null}
+{"code": "histplot(x=df[\"Age\"])", "compilation_passed": true, "time": 0.05907893180847168, "tests_passed": true, "error": null}
+{"code": "histplot(df[\"Age\"], kde=False)", "compilation_passed": true, "time": 0.07092905044555664, "tests_passed": true, "error": null}
+{"code": "distplot(df[\"Age\"], kde=False)", "compilation_passed": true, "time": 0.015928983688354492, "tests_passed": true, "error": null}
+{"code": "distplot(df[\"Age\"])", "compilation_passed": true, "time": 0.04439806938171387, "tests_passed": true, "error": null}
+{"code": "barplot(x=\"Age\", y=\"Name\", data=df)", "compilation_passed": true, "time": 0.10260510444641113, "tests_passed": true, "error": null}
+{"code": "histplot(df[\"Age\"])", "compilation_passed": true, "time": 0.053553104400634766, "tests_passed": true, "error": null}
+{"code": "barplot(x=df.Age.value_counts(sort=False).index, y=df.Age.value_counts(sort=False).values,", "compilation_passed": false, "time": 0.0003159046173095703, "tests_passed": false, "error": "SyntaxError"}
+{"code": "histplot(data=df, x=\"Age\")", "compilation_passed": true, "time": 0.06517386436462402, "tests_passed": true, "error": null}
+{"code": "displot(df[\"Age\"], bins=20)", "compilation_passed": true, "time": 0.702462911605835, "tests_passed": true, "error": null}
+{"code": "distplot(df[\"Age\"], kde=False, bins=20, color=\"red\")", "compilation_passed": true, "time": 0.0654909610748291, "tests_passed": true, "error": null}
+{"code": "histplot(df.Age, kde=False)", "compilation_passed": true, "time": 0.05950188636779785, "tests_passed": true, "error": null}
+{"code": "histplot(x=\"Age\", data=df)", "compilation_passed": true, "time": 0.14592981338500977, "tests_passed": true, "error": null}
+{"code": "countplot(df[\"Age\"], title=\"Age Distribution\")", "compilation_passed": true, "time": 0.12137603759765625, "tests_passed": false, "error": "AttributeError"}
+{"code": "distplot(df[\"Age\"], bins=10)", "compilation_passed": true, "time": 0.12590789794921875, "tests_passed": true, "error": null}
+{"code": "histplot(data=df, x=\"Age\", kde=True)", "compilation_passed": true, "time": 0.12312674522399902, "tests_passed": true, "error": null}
+{"code": "displot(df[\"Age\"])", "compilation_passed": true, "time": 0.888045072555542, "tests_passed": true, "error": null}
+{"code": "histplot(df[\"Age\"], bins=20, kde=True, color=\"C2\")", "compilation_passed": true, "time": 0.12789607048034668, "tests_passed": true, "error": null}

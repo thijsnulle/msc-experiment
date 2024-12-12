@@ -1,0 +1,16 @@
+{"code": "legend()", "compilation_passed": true, "time": 0.04096102714538574, "tests_passed": true, "error": null}
+{"code": "set_title(\"Time Differences between UTC and Other Timezones\")", "compilation_passed": true, "time": 0.042359113693237305, "tests_passed": true, "error": null}
+{"code": "set(", "compilation_passed": false, "time": 0.0003647804260253906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_xticks(dates)", "compilation_passed": true, "time": 0.04632282257080078, "tests_passed": true, "error": null}
+{"code": "set_ylabel(\"Time difference in hours between UTC and \" + TIMEZONES[i])", "compilation_passed": true, "time": 0.04227089881896973, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Date\")", "compilation_passed": true, "time": 0.16639375686645508, "tests_passed": true, "error": null}
+{"code": "grid(True)", "compilation_passed": true, "time": 0.039456844329833984, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Time Differences Between {TIMEZONES[0]} and Other Time Zones\")", "compilation_passed": true, "time": 0.04660224914550781, "tests_passed": true, "error": null}
+{"code": "set_ylabel(\"Hourly Time Difference from UTC\")", "compilation_passed": true, "time": 0.04007601737976074, "tests_passed": true, "error": null}
+{"code": "grid()", "compilation_passed": true, "time": 0.03967690467834473, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([str(tz) for tz in TIMEZONES])", "compilation_passed": true, "time": 0.049510955810546875, "tests_passed": true, "error": null}
+{"code": "set_title(\"Hourly time difference between UTC and time zones\")", "compilation_passed": true, "time": 0.04278707504272461, "tests_passed": true, "error": null}
+{"code": "legend(title=\"Timezone\")", "compilation_passed": true, "time": 0.046772003173828125, "tests_passed": true, "error": null}
+{"code": "set_title(\"Difference in hours between UTC and other time zones\")", "compilation_passed": true, "time": 0.03980398178100586, "tests_passed": true, "error": null}
+{"code": "set_xt_compat(True)", "compilation_passed": true, "time": 0.038021087646484375, "tests_passed": false, "error": "AttributeError"}
+{"code": "legend(title=\"Time difference\")", "compilation_passed": true, "time": 0.043235063552856445, "tests_passed": true, "error": null}

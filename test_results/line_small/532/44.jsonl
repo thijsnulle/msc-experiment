@@ -1,0 +1,5 @@
+{"code": " Counter(duplicates[\"value\"])", "compilation_passed": true, "time": 0.07232522964477539, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " Counter(duplicates['value'])", "compilation_passed": true, "time": 0.05792069435119629, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " duplicates[\"value\"].value_counts()", "compilation_passed": true, "time": 0.02225804328918457, "tests_passed": false, "error": "ValueError"}
+{"code": " Counter(duplicates[\"value\"].values)", "compilation_passed": true, "time": 0.0641627311706543, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " Counter(duplicates[\"value\"].values.tolist())", "compilation_passed": true, "time": 0.04489398002624512, "tests_passed": false, "error": "FloatingPointError"}

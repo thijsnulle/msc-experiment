@@ -1,0 +1,18 @@
+{"code": " stats.mode(data).mode[0]", "compilation_passed": true, "time": 0.010987043380737305, "tests_passed": false, "error": "IndexError"}
+{"code": " data_df['Value'].mode().iloc[0]", "compilation_passed": true, "time": 0.020911216735839844, "tests_passed": true, "error": null}
+{"code": " stats.mode(data)", "compilation_passed": true, "time": 0.007822036743164062, "tests_passed": false, "error": "TypeError"}
+{"code": " stats.mode(data_df['Value'].dropna().values).mode", "compilation_passed": true, "time": 0.018687009811401367, "tests_passed": true, "error": null}
+{"code": " stats.mode(data, nan_policy='propagate').mode[0]", "compilation_passed": true, "time": 0.009716033935546875, "tests_passed": false, "error": "IndexError"}
+{"code": " stats.mode(data_df['Value']).mode[0]", "compilation_passed": true, "time": 0.010476112365722656, "tests_passed": false, "error": "IndexError"}
+{"code": " stats.mode(data_df['Value'])", "compilation_passed": true, "time": 0.006565093994140625, "tests_passed": false, "error": "TypeError"}
+{"code": " stats.mode(data).mode", "compilation_passed": true, "time": 0.01952219009399414, "tests_passed": true, "error": null}
+{"code": " stats.mode(data).mode.item()", "compilation_passed": true, "time": 0.01919102668762207, "tests_passed": true, "error": null}
+{"code": " stats.mode(data).mode.values[0]", "compilation_passed": true, "time": 0.01011800765991211, "tests_passed": false, "error": "AttributeError"}
+{"code": " data_df['Value'].mode()[0]", "compilation_passed": true, "time": 0.01673102378845215, "tests_passed": true, "error": null}
+{"code": " stats.mode(data).mode.iloc[0]", "compilation_passed": true, "time": 0.009244203567504883, "tests_passed": false, "error": "AttributeError"}
+{"code": " data_df['Value'].mode().values[0]", "compilation_passed": true, "time": 0.016654014587402344, "tests_passed": true, "error": null}
+{"code": " stats.mode(data, keepdims=True).mode.flatten()[0]", "compilation_passed": true, "time": 0.019397974014282227, "tests_passed": true, "error": null}
+{"code": " stats.mode(data_df['Value']).mode.iloc[0]", "compilation_passed": true, "time": 0.009954690933227539, "tests_passed": false, "error": "AttributeError"}
+{"code": " stats.mode(data_df['Value']).mode.values[0]", "compilation_passed": true, "time": 0.009179115295410156, "tests_passed": false, "error": "AttributeError"}
+{"code": " stats.mode(data_df['Value']).mode", "compilation_passed": true, "time": 0.01790785789489746, "tests_passed": true, "error": null}
+{"code": " stats.mode(data)[0].mode[0]", "compilation_passed": true, "time": 0.009444713592529297, "tests_passed": false, "error": "AttributeError"}

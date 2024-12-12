@@ -1,0 +1,12 @@
+{"code": " interval <= 0 or duration <= 0:", "compilation_passed": true, "time": 0.08910274505615234, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " interval <= 0:", "compilation_passed": true, "time": 0.010294914245605469, "tests_passed": true, "error": null}
+{"code": " not isinstance(interval, int) or interval <= 0:", "compilation_passed": true, "time": 0.010135173797607422, "tests_passed": true, "error": null}
+{"code": " not isinstance(interval, int) or not isinstance(duration, int):", "compilation_passed": true, "time": 0.009706974029541016, "tests_passed": true, "error": null}
+{"code": " not interval or not duration:", "compilation_passed": true, "time": 0.00978994369506836, "tests_passed": true, "error": null}
+{"code": " interval < 0 or duration < 0:", "compilation_passed": true, "time": 0.08743786811828613, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " (interval < 0) or (duration <= 0):", "compilation_passed": true, "time": 0.0849618911743164, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " not (interval > 0) or (duration > 0):", "compilation_passed": true, "time": 0.010268926620483398, "tests_passed": true, "error": null}
+{"code": " (interval <= 0) or (duration <= 0):", "compilation_passed": true, "time": 0.08592772483825684, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " interval < 1:", "compilation_passed": true, "time": 0.010927200317382812, "tests_passed": true, "error": null}
+{"code": " interval < 0:", "compilation_passed": true, "time": 0.009865045547485352, "tests_passed": true, "error": null}
+{"code": " interval < 1 or duration < 1:", "compilation_passed": true, "time": 0.08432316780090332, "tests_passed": false, "error": "subprocess.CalledProcessError"}

@@ -1,0 +1,17 @@
+{"code": " next_day.weekday() < 5:", "compilation_passed": true, "time": 0.0012581348419189453, "tests_passed": true, "error": null}
+{"code": " next_day.weekday() <= 4:", "compilation_passed": true, "time": 0.0012860298156738281, "tests_passed": true, "error": null}
+{"code": " next_day.isoweekday() >= 1 and next_day.isoweekday() <= 5:", "compilation_passed": true, "time": 0.0012798309326171875, "tests_passed": true, "error": null}
+{"code": " 1 <= next_day.weekday() < 6:", "compilation_passed": true, "time": 0.003957986831665039, "tests_passed": true, "error": null}
+{"code": " (next_day.weekday() <= 4):", "compilation_passed": true, "time": 0.001413106918334961, "tests_passed": true, "error": null}
+{"code": " next_day.isoweekday() <= 5:", "compilation_passed": true, "time": 0.001825094223022461, "tests_passed": true, "error": null}
+{"code": " (next_day.weekday() == 0) or (next_day.weekday() == 6):", "compilation_passed": true, "time": 0.003821134567260742, "tests_passed": true, "error": null}
+{"code": " (next_day.weekday() < 5):", "compilation_passed": true, "time": 0.0013430118560791016, "tests_passed": true, "error": null}
+{"code": " (next_day.weekday() >= 5) or (next_day.isoweekday() >= 6):", "compilation_passed": true, "time": 0.003534078598022461, "tests_passed": true, "error": null}
+{"code": " next_day.isoweekday() < 6:", "compilation_passed": true, "time": 0.0012710094451904297, "tests_passed": true, "error": null}
+{"code": " (next_day.weekday() <= 4 and", "compilation_passed": false, "time": 0.0001380443572998047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " 5 < next_day.weekday() < 7:", "compilation_passed": true, "time": 0.003914833068847656, "tests_passed": true, "error": null}
+{"code": " (", "compilation_passed": false, "time": 0.00011897087097167969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (next_day.weekday() < 5) and (next_day.weekday() != 6):", "compilation_passed": true, "time": 0.001984834671020508, "tests_passed": true, "error": null}
+{"code": " (next_day.isoweekday() - 1) < 5:  # Monday is 1, Sunday is 7", "compilation_passed": true, "time": 0.0014107227325439453, "tests_passed": true, "error": null}
+{"code": " (next_day.weekday() >= 0 and next_day.weekday() < 5):", "compilation_passed": true, "time": 0.0014667510986328125, "tests_passed": true, "error": null}
+{"code": " 5 >= next_day.weekday() >= 1:", "compilation_passed": true, "time": 0.0038971900939941406, "tests_passed": true, "error": null}

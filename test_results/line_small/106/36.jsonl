@@ -1,0 +1,17 @@
+{"code": " pd.to_datetime(df['date'])", "compilation_passed": true, "time": 0.021672964096069336, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " pd.to_numeric(df['date'])", "compilation_passed": true, "time": 0.03203988075256348, "tests_passed": true, "error": null}
+{"code": " df['date'].dt.to_ordinal()", "compilation_passed": true, "time": 0.012299060821533203, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['date'].apply(lambda x: int(pd.to_datetime(x).to_ordinal()))", "compilation_passed": true, "time": 0.02676105499267578, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.to_numeric(df['date'], errors='coerce').astype(int)", "compilation_passed": true, "time": 0.03163790702819824, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df['date'], errors='coerce')", "compilation_passed": true, "time": 0.03404092788696289, "tests_passed": true, "error": null}
+{"code": " pd.to_datetime(df['date']).apply(pd.Timestamp.to_ordinal)", "compilation_passed": true, "time": 0.013921976089477539, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.to_datetime(df['date'], unit='D')", "compilation_passed": true, "time": 0.015285968780517578, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " pd.to_datetime(df['date']).values.astype(int)", "compilation_passed": true, "time": 0.03239297866821289, "tests_passed": true, "error": null}
+{"code": " df['date'].map(pd.Timedelta).dt.ordinal  # Convert datetime to ordinal", "compilation_passed": true, "time": 0.021586894989013672, "tests_passed": false, "error": "ValueError"}
+{"code": " df['date'].dt.to_period(\"D\")", "compilation_passed": true, "time": 0.02216315269470215, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.to_datetime(df.date, format=\"%Y-%m-%d\")", "compilation_passed": true, "time": 0.014832258224487305, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " pd.to_numeric(df['date'].dt.ordinal, 'coerce')", "compilation_passed": true, "time": 0.01732611656188965, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.to_datetime(df['date'])  # Converted to ordinal", "compilation_passed": true, "time": 0.020877838134765625, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " pd.to_datetime(df['date'], errors='coerce')", "compilation_passed": true, "time": 0.01635885238647461, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " df['date'].apply(lambda x: x.to_datetime64())", "compilation_passed": true, "time": 0.023116111755371094, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " pd.to_datetime(df['date']).values", "compilation_passed": true, "time": 0.017080068588256836, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}

@@ -1,0 +1,7 @@
+{"code": " json.loads(json_data).get(data_key, {}).get('values')", "compilation_passed": true, "time": 0.728518009185791, "tests_passed": true, "error": null}
+{"code": " json.loads(json_data)", "compilation_passed": true, "time": 0.21779513359069824, "tests_passed": true, "error": null}
+{"code": " json.loads(json_data)[data_key]", "compilation_passed": true, "time": 0.009186267852783203, "tests_passed": false, "error": "KeyError"}
+{"code": " json.loads(json_data).get(data_key)", "compilation_passed": true, "time": 0.24586796760559082, "tests_passed": true, "error": null}
+{"code": " pd.read_json(json_data)", "compilation_passed": true, "time": 0.26743006706237793, "tests_passed": true, "error": null}
+{"code": " None", "compilation_passed": true, "time": 0.23940134048461914, "tests_passed": true, "error": null}
+{"code": " pd.Series(json.loads(json_data)[data_key])", "compilation_passed": true, "time": 0.010130882263183594, "tests_passed": false, "error": "KeyError"}

@@ -1,0 +1,13 @@
+{"code": " [td.text for td in table.find_all('th')] if table.find('th') else None", "compilation_passed": true, "time": 0.007119178771972656, "tests_passed": true, "error": null}
+{"code": " table.find_all('th')", "compilation_passed": true, "time": 0.013981342315673828, "tests_passed": true, "error": null}
+{"code": " [th.text for th in table.find('tr').find_all('th')]", "compilation_passed": true, "time": 0.00919795036315918, "tests_passed": true, "error": null}
+{"code": " [header.text.strip() for header in table.find_all('th')]", "compilation_passed": true, "time": 0.007077932357788086, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.010870933532714844, "tests_passed": true, "error": null}
+{"code": " [header.text for header in table.find_all('th')]", "compilation_passed": true, "time": 0.008366823196411133, "tests_passed": true, "error": null}
+{"code": " [element.text.strip() for element in table.find_all('th')]", "compilation_passed": true, "time": 0.008090734481811523, "tests_passed": true, "error": null}
+{"code": " [th.text for th in table.find_all('th')]", "compilation_passed": true, "time": 0.007456064224243164, "tests_passed": true, "error": null}
+{"code": " [th.text.strip() for th in table.find_all('th')]", "compilation_passed": true, "time": 0.008044004440307617, "tests_passed": true, "error": null}
+{"code": " [col.get_text().strip() for col in table.find('tr').find_all('th')]", "compilation_passed": true, "time": 0.00972604751586914, "tests_passed": true, "error": null}
+{"code": " [th.text for th in table.find('th')]", "compilation_passed": true, "time": 0.01633286476135254, "tests_passed": false, "error": "ValueError"}
+{"code": " [td.get_text() for td in table.find_all('th')]", "compilation_passed": true, "time": 0.008388042449951172, "tests_passed": true, "error": null}
+{"code": " [col.text.strip() for col in table.find('tr').find_all('th')]", "compilation_passed": true, "time": 0.007409811019897461, "tests_passed": true, "error": null}

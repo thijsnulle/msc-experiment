@@ -1,0 +1,6 @@
+{"code": " urllib.parse.quote(decoded_str)", "compilation_passed": true, "time": 0.0023348331451416016, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(decoded_str, safe=\"/#%\")", "compilation_passed": true, "time": 0.0025069713592529297, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(decoded_str, safe=\"/\")", "compilation_passed": true, "time": 0.0025262832641601562, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(decoded_str, encoding=\"utf-8\")", "compilation_passed": true, "time": 0.002607107162475586, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(decoded_str, safe=\"\")", "compilation_passed": true, "time": 0.002593994140625, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(decoded_str).decode(\"utf-8\")", "compilation_passed": true, "time": 0.005983114242553711, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,17 @@
+{"code": " means", "compilation_passed": true, "time": 0.008241891860961914, "tests_passed": false, "error": "ValueError"}
+{"code": " {'words': word_freqs, 'means': means}", "compilation_passed": true, "time": 0.0068817138671875, "tests_passed": true, "error": null}
+{"code": " {'frequency': word_freqs, 'mean': means}", "compilation_passed": true, "time": 0.007215261459350586, "tests_passed": true, "error": null}
+{"code": " means, np.diag(means)", "compilation_passed": true, "time": 0.007036924362182617, "tests_passed": true, "error": null}
+{"code": " {word: freqs for word, freqs in word_freqs.items() if freqs >= np.mean(means) * 1.5}", "compilation_passed": true, "time": 0.0071277618408203125, "tests_passed": false, "error": "ValueError"}
+{"code": " freqs, means", "compilation_passed": true, "time": 0.010018110275268555, "tests_passed": false, "error": "NameError"}
+{"code": " means, np.array(mixture.covariances_)", "compilation_passed": true, "time": 0.006943941116333008, "tests_passed": true, "error": null}
+{"code": " {'mean': means[0], 'variance': means[0] * means[0] - 1}", "compilation_passed": true, "time": 0.006892681121826172, "tests_passed": true, "error": null}
+{"code": " means, mixture.covariances_", "compilation_passed": true, "time": 0.007013082504272461, "tests_passed": true, "error": null}
+{"code": " dict(zip(mixture.means_, mixture.covariances_))", "compilation_passed": true, "time": 0.010020256042480469, "tests_passed": false, "error": "TypeError"}
+{"code": " dict(zip(word_freqs.keys(), means))", "compilation_passed": true, "time": 0.008532285690307617, "tests_passed": false, "error": "ValueError"}
+{"code": " freqs", "compilation_passed": true, "time": 0.009894132614135742, "tests_passed": false, "error": "NameError"}
+{"code": " word_freqs, means", "compilation_passed": true, "time": 0.009681940078735352, "tests_passed": true, "error": null}
+{"code": " {'freqs': word_freqs, 'means': means}", "compilation_passed": true, "time": 0.0067331790924072266, "tests_passed": true, "error": null}
+{"code": " {word: freq for word, freq in word_freqs.items() if freq > 1 and np.any(np.abs(means[i] - freq) > 1)}", "compilation_passed": true, "time": 0.00688624382019043, "tests_passed": false, "error": "ValueError"}
+{"code": " means[0]", "compilation_passed": true, "time": 0.006919145584106445, "tests_passed": false, "error": "ValueError"}
+{"code": " {word: freq for word, freq in word_freqs.items() if freq > 0}, means.tolist()", "compilation_passed": true, "time": 0.009580850601196289, "tests_passed": true, "error": null}

@@ -1,0 +1,21 @@
+{"code": "execute(\"\"\"", "compilation_passed": false, "time": 0.00024199485778808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute(\"\"\"CREATE TABLE users(", "compilation_passed": false, "time": 0.0003147125244140625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS users (id int primary key, name text, age int, country text)\")", "compilation_passed": false, "time": 0.00021505355834960938, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS users(id INTEGER PRIMARY KEY, name TEXT, age INTEGER, country TEXT)\")", "compilation_passed": false, "time": 0.0002288818359375, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"DROP TABLE IF EXISTS users\")", "compilation_passed": false, "time": 0.00020575523376464844, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute('''CREATE TABLE IF NOT EXISTS users", "compilation_passed": true, "time": 0.011507272720336914, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER, country TEXT)\")", "compilation_passed": false, "time": 0.00021505355834960938, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"PRAGMA foreign_keys = ON\")", "compilation_passed": false, "time": 0.00024199485778808594, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute('DROP TABLE IF EXISTS users')", "compilation_passed": false, "time": 0.0001819133758544922, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute('CREATE TABLE IF NOT EXISTS users (id integer primary key, name text, age int, country text)')", "compilation_passed": false, "time": 0.0002307891845703125, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"\"\"CREATE TABLE IF NOT EXISTS users(id INTEGER PRIMARY KEY, name TEXT, age INTEGER, country TEXT)\"\"\")", "compilation_passed": false, "time": 0.00019407272338867188, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT NOT NULL, age INTEGER, country TEXT)\")", "compilation_passed": false, "time": 0.00020885467529296875, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER, country TEXT)')", "compilation_passed": false, "time": 0.0001819133758544922, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"\"\"CREATE TABLE users", "compilation_passed": false, "time": 0.0002512931823730469, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute('''CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER, country TEXT)''')", "compilation_passed": false, "time": 0.0003478527069091797, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS users(id INTEGER PRIMARY KEY, name TEXT NOT NULL, age INTEGER NOT NULL, country TEXT NOT NULL)\")", "compilation_passed": false, "time": 0.00019884109497070312, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, age INTEGER, country TEXT)\")", "compilation_passed": false, "time": 0.0002129077911376953, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"CREATE TABLE users(id INTEGER PRIMARY KEY, name TEXT, age INTEGER, country TEXT)\")", "compilation_passed": false, "time": 0.0001811981201171875, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute('CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT NOT NULL, age INTEGER NOT NULL, country TEXT NOT NULL)')", "compilation_passed": false, "time": 0.00021219253540039062, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute('PRAGMA foreign_keys = 1')", "compilation_passed": false, "time": 0.0001800060272216797, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"PRAGMA table_info(users)\")", "compilation_passed": false, "time": 0.00021314620971679688, "tests_passed": false, "error": "IndentationError"}

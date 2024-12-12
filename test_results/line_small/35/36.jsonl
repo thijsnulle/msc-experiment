@@ -1,0 +1,20 @@
+{"code": "distplot(df[column])", "compilation_passed": true, "time": 0.3750438690185547, "tests_passed": true, "error": null}
+{"code": "distplot(df[column], hist=True), sns.distplot(df[column])", "compilation_passed": true, "time": 0.1303112506866455, "tests_passed": true, "error": null}
+{"code": "distplot(df[column].value_counts(), label=column, bins=30, kde=True, ax=ax)", "compilation_passed": true, "time": 0.023752927780151367, "tests_passed": false, "error": "NameError"}
+{"code": "distplot(df[column], hist=False, rug=True)", "compilation_passed": true, "time": 0.3239917755126953, "tests_passed": true, "error": null}
+{"code": "countplot(data=df, x=column, ax=plt.axes())", "compilation_passed": true, "time": 0.1414799690246582, "tests_passed": true, "error": null}
+{"code": "distplot(df[column], hist=True, kde=False, rug=True)", "compilation_passed": true, "time": 0.11200618743896484, "tests_passed": true, "error": null}
+{"code": "distplot(df[column], hist=False)", "compilation_passed": true, "time": 0.2875220775604248, "tests_passed": true, "error": null}
+{"code": "distplot(df[column], hist=True, kde=False), ax", "compilation_passed": true, "time": 0.03499436378479004, "tests_passed": false, "error": "NameError"}
+{"code": "distplot(df[column], kde=False, rug=True, label=column)", "compilation_passed": true, "time": 0.11384081840515137, "tests_passed": true, "error": null}
+{"code": "distplot(df[column], hist=True, kde=False, rug=True, label=column)", "compilation_passed": true, "time": 0.1165308952331543, "tests_passed": true, "error": null}
+{"code": "countplot(y=column, data=df, ax=plt.axes().twinx())", "compilation_passed": true, "time": 0.17694783210754395, "tests_passed": true, "error": null}
+{"code": "countplot(y=column, data=df, label=column)", "compilation_passed": true, "time": 0.13382983207702637, "tests_passed": true, "error": null}
+{"code": "distplot(df[column], hist=True, label=column)", "compilation_passed": true, "time": 0.32447314262390137, "tests_passed": true, "error": null}
+{"code": "histplot(df[column], label=column)", "compilation_passed": true, "time": 0.14518499374389648, "tests_passed": true, "error": null}
+{"code": "distplot(df[column], hist=True)", "compilation_passed": true, "time": 0.3179900646209717, "tests_passed": true, "error": null}
+{"code": "histplot(df[column])", "compilation_passed": true, "time": 0.13045811653137207, "tests_passed": true, "error": null}
+{"code": "distplot(df[column], hist=False, kde=True)", "compilation_passed": true, "time": 0.3023090362548828, "tests_passed": true, "error": null}
+{"code": "countplot(df[column], label=column, ax=plt.gca())", "compilation_passed": true, "time": 0.13891291618347168, "tests_passed": true, "error": null}
+{"code": "displot(df[column], kind='hist', bins=10)", "compilation_passed": true, "time": 0.424025297164917, "tests_passed": true, "error": null}
+{"code": "countplot(df[column])", "compilation_passed": true, "time": 0.14004993438720703, "tests_passed": true, "error": null}

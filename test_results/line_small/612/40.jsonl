@@ -1,0 +1,15 @@
+{"code": " np.random.choice(penalties_costs)", "compilation_passed": true, "time": 0.0023469924926757812, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(penalties_costs) * (team_penalties / team_goals) if team_goals > 0 else 0", "compilation_passed": true, "time": 0.0025441646575927734, "tests_passed": false, "error": "AttributeError"}
+{"code": " choice(penalties_costs) * np.random.randint(50, 200)", "compilation_passed": true, "time": 0.0023229122161865234, "tests_passed": false, "error": "AttributeError"}
+{"code": " int(np.random.choice(penalties_costs))", "compilation_passed": true, "time": 0.0023488998413085938, "tests_passed": false, "error": "AttributeError"}
+{"code": " choice(penalties_costs)", "compilation_passed": true, "time": 0.0023310184478759766, "tests_passed": false, "error": "AttributeError"}
+{"code": " int(choice(penalties_costs))", "compilation_passed": true, "time": 0.0023429393768310547, "tests_passed": false, "error": "AttributeError"}
+{"code": " choice(penalties_costs) * (team_goals + team_penalties)", "compilation_passed": true, "time": 0.0023050308227539062, "tests_passed": false, "error": "AttributeError"}
+{"code": " random.choice(penalties_costs)", "compilation_passed": true, "time": 0.002672910690307617, "tests_passed": false, "error": "AttributeError"}
+{"code": " choice(penalties_costs) * np.random.randint(1, 3)", "compilation_passed": true, "time": 0.0022978782653808594, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(penalties_costs, p=[0.1, 0.4, 0.6])", "compilation_passed": true, "time": 0.00232696533203125, "tests_passed": false, "error": "AttributeError"}
+{"code": " choice(penalties_costs) * np.random.randint(0, team_goals, team_penalties)", "compilation_passed": true, "time": 0.002357006072998047, "tests_passed": false, "error": "AttributeError"}
+{"code": " int(np.random.choice(penalties_costs, 1, p=[1.0, 1.0, 1.0, 1.0, 1.0])[0])", "compilation_passed": true, "time": 0.0024487972259521484, "tests_passed": false, "error": "AttributeError"}
+{"code": " penalties_costs[choice(range(len(penalties_costs)))]", "compilation_passed": true, "time": 0.002474069595336914, "tests_passed": false, "error": "AttributeError"}
+{"code": " choice(penalties_costs) * (team_goals - team_penalties)", "compilation_passed": true, "time": 0.002374887466430664, "tests_passed": false, "error": "AttributeError"}
+{"code": " int(np.random.choice(penalties_costs, p=np.random.rand(5, 2)))", "compilation_passed": true, "time": 0.0024657249450683594, "tests_passed": false, "error": "AttributeError"}

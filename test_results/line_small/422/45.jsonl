@@ -1,0 +1,5 @@
+{"code": " df.copy()", "compilation_passed": true, "time": 0.009205818176269531, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.drop(column_to_remove, axis=1, inplace=False)", "compilation_passed": true, "time": 0.007910013198852539, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(df)", "compilation_passed": true, "time": 0.011425018310546875, "tests_passed": true, "error": null}
+{"code": " df.drop(column_to_remove, axis=1)", "compilation_passed": true, "time": 0.008496284484863281, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.drop(column_to_remove, axis=1) if column_to_remove else df", "compilation_passed": true, "time": 0.007750034332275391, "tests_passed": false, "error": "AttributeError"}

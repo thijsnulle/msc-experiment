@@ -1,0 +1,23 @@
+{"code": "bar(df.columns, df.value_counts())", "compilation_passed": true, "time": 0.04008793830871582, "tests_passed": false, "error": "ValueError"}
+{"code": "figure(figsize=(0.75 * len(df.columns), 0.75))", "compilation_passed": true, "time": 0.22792291641235352, "tests_passed": true, "error": null}
+{"code": "figure(dpi=200)", "compilation_passed": true, "time": 0.281749963760376, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(5,5))", "compilation_passed": true, "time": 0.27997612953186035, "tests_passed": true, "error": null}
+{"code": "hist(df.columns, bins=len(df.columns))", "compilation_passed": true, "time": 0.03924989700317383, "tests_passed": true, "error": null}
+{"code": "hist(df.columns, bins=12, orientation='horizontal', edgecolor='white'", "compilation_passed": false, "time": 0.00022602081298828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "figure(figsize=(7,4))", "compilation_passed": true, "time": 0.7876570224761963, "tests_passed": true, "error": null}
+{"code": "subplots_adjust(wspace=0.25)", "compilation_passed": true, "time": 0.02983880043029785, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(7.5, 3.5))", "compilation_passed": true, "time": 0.2959918975830078, "tests_passed": true, "error": null}
+{"code": "figure()", "compilation_passed": true, "time": 0.2832157611846924, "tests_passed": true, "error": null}
+{"code": "hist(df.columns)", "compilation_passed": true, "time": 0.04222893714904785, "tests_passed": true, "error": null}
+{"code": "hist(df)", "compilation_passed": true, "time": 0.04933309555053711, "tests_passed": true, "error": null}
+{"code": "bar(df.columns, df.values.std())", "compilation_passed": true, "time": 0.03403496742248535, "tests_passed": true, "error": null}
+{"code": "subplots(1, figsize=(7, 5))", "compilation_passed": true, "time": 0.29546689987182617, "tests_passed": true, "error": null}
+{"code": "hist(df, bins=30)", "compilation_passed": true, "time": 0.08246493339538574, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(12, 4))", "compilation_passed": true, "time": 0.2929069995880127, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(7,5))", "compilation_passed": true, "time": 0.2975950241088867, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(10, 10))", "compilation_passed": true, "time": 0.2984592914581299, "tests_passed": true, "error": null}
+{"code": "hist(df.columns,bins=10,label=df.columns)", "compilation_passed": true, "time": 0.046604156494140625, "tests_passed": true, "error": null}
+{"code": "hist(df.columns, label=list(df.columns))", "compilation_passed": true, "time": 0.04541611671447754, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(7.5,7.5))", "compilation_passed": true, "time": 0.3205530643463135, "tests_passed": true, "error": null}
+{"code": "show()", "compilation_passed": true, "time": 0.03301095962524414, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(8,5))", "compilation_passed": true, "time": 0.30846691131591797, "tests_passed": true, "error": null}

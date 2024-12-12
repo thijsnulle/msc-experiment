@@ -1,0 +1,22 @@
+{"code": "fit_transform(values.values.reshape(-1, 1)).flatten(),", "compilation_passed": true, "time": 0.20814180374145508, "tests_passed": true, "error": null}
+{"code": "fit_transform(pd.DataFrame(values).values),", "compilation_passed": true, "time": 0.02228403091430664, "tests_passed": false, "error": "TypeError"}
+{"code": "fit_transform(pd.DataFrame(values.values, dtype=pd.Float64Dtype))", "compilation_passed": false, "time": 0.00044798851013183594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "fit_transform(values.to_numpy().reshape(-1, 1)).flatten(),", "compilation_passed": true, "time": 0.21706891059875488, "tests_passed": true, "error": null}
+{"code": "fit_transform(values.values.reshape(-1, 1)).reshape(-1),", "compilation_passed": true, "time": 0.21449804306030273, "tests_passed": true, "error": null}
+{"code": "fit_transform(", "compilation_passed": false, "time": 0.0002980232238769531, "tests_passed": false, "error": "SyntaxError"}
+{"code": "fit_transform(values.values.reshape(1, -1)).reshape(-1),", "compilation_passed": true, "time": 0.04586029052734375, "tests_passed": true, "error": null}
+{"code": "fit_transform(values.reshape(-1, 1)),", "compilation_passed": true, "time": 0.010683059692382812, "tests_passed": false, "error": "AttributeError"}
+{"code": "fit_transform(values.to_numpy().reshape(-1, 1)).reshape(-1),", "compilation_passed": true, "time": 0.23943710327148438, "tests_passed": true, "error": null}
+{"code": "fit_transform(pd.DataFrame(values, columns=[\"value\"])),", "compilation_passed": true, "time": 0.012027740478515625, "tests_passed": false, "error": "TypeError"}
+{"code": "fit_transform(values.to_numpy().reshape(-1, 1)).ravel(),", "compilation_passed": true, "time": 0.22932219505310059, "tests_passed": true, "error": null}
+{"code": "fit_transform(pd.DataFrame(values.values.reshape((1, -1)))).flatten(),", "compilation_passed": true, "time": 0.04763388633728027, "tests_passed": true, "error": null}
+{"code": "fit_transform(values.reshape(-1, 1)).flatten(), index=values.index", "compilation_passed": false, "time": 0.0002532005310058594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "fit_transform(pd.DataFrame(values)), dtype=pd.Float64Dtype", "compilation_passed": false, "time": 0.00025010108947753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "fit_transform(values.reshape(-1, 1)), dtype=pd.Float64Dtype", "compilation_passed": false, "time": 0.0003020763397216797, "tests_passed": false, "error": "SyntaxError"}
+{"code": "fit_transform(values.to_numpy().reshape(1, -1)).flatten(),", "compilation_passed": true, "time": 0.044317007064819336, "tests_passed": true, "error": null}
+{"code": "fit_transform(values),", "compilation_passed": true, "time": 0.025357961654663086, "tests_passed": false, "error": "ValueError"}
+{"code": "fit_transform(values.values.reshape(-1, 1)).ravel(),", "compilation_passed": true, "time": 0.23869895935058594, "tests_passed": true, "error": null}
+{"code": "fit_transform(pd.DataFrame(values)),", "compilation_passed": true, "time": 0.012204885482788086, "tests_passed": false, "error": "TypeError"}
+{"code": "fit_transform(values.values.reshape(-1, 1)).flatten(), dtype=pd.Float64Dtype", "compilation_passed": false, "time": 0.0003380775451660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": "fit_transform(values.values.reshape(-1, 1)),", "compilation_passed": true, "time": 0.01075291633605957, "tests_passed": false, "error": "TypeError"}
+{"code": "fit_transform(values), dtype=pd.Float64Dtype", "compilation_passed": false, "time": 0.00027108192443847656, "tests_passed": false, "error": "SyntaxError"}

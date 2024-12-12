@@ -1,0 +1,9 @@
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.013550043106079102, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.010658025741577148, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(columns=['a', 'b', 'source'])", "compilation_passed": true, "time": 0.00896000862121582, "tests_passed": false, "error": "shutil.Error"}
+{"code": " pd.read_json(", "compilation_passed": false, "time": 0.00015592575073242188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " None", "compilation_passed": true, "time": 0.00807499885559082, "tests_passed": false, "error": "shutil.Error"}
+{"code": " pd.read_json(os.path.join(path, '*.json'), orient='records')", "compilation_passed": true, "time": 0.012468814849853516, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " pd.DataFrame(columns=('a', 'b', 'source'))", "compilation_passed": true, "time": 0.009244203567504883, "tests_passed": false, "error": "shutil.Error"}
+{"code": " pd.DataFrame(json.load(open(path))).applymap(str)", "compilation_passed": true, "time": 0.0075359344482421875, "tests_passed": false, "error": "IsADirectoryError"}
+{"code": " pd.read_json(os.path.join(path, '*.json'),", "compilation_passed": false, "time": 0.00015687942504882812, "tests_passed": false, "error": "SyntaxError"}

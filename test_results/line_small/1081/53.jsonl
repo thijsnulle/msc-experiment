@@ -1,0 +1,6 @@
+{"code": " sns.scatterplot(data=df, x=\"Weight_Float\", y=\"Height\")", "compilation_passed": true, "time": 0.03258800506591797, "tests_passed": true, "error": null}
+{"code": " sns.scatterplot(x=\"Weight_Float\", y=\"Height\", data=df)", "compilation_passed": true, "time": 0.0332942008972168, "tests_passed": true, "error": null}
+{"code": " sns.scatterplot(x=\"Weight_Float\", y=\"Height\", data=df, title=\"Weight vs Height\")", "compilation_passed": true, "time": 0.020133018493652344, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.scatterplot(x=df[\"Weight_Float\"], y=df[\"Height\"])", "compilation_passed": true, "time": 0.025546789169311523, "tests_passed": true, "error": null}
+{"code": " sns.scatterplot(x=\"Weight_Float\", y=\"Height\", title=\"Weight vs Height\", data=df)", "compilation_passed": true, "time": 0.013045072555541992, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.scatterplot(data=df, x=\"Weight_Float\", y=\"Height\", title=\"Weight vs Height\")", "compilation_passed": true, "time": 0.01661396026611328, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,16 @@
+{"code": " df.set_index('Date')", "compilation_passed": true, "time": 0.018873929977416992, "tests_passed": true, "error": null}
+{"code": " df.groupby('Date').apply(lambda x: pd.Series(x['Value']).apply(list)).reset_index(drop=True)", "compilation_passed": true, "time": 0.02585124969482422, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " df[COLUMNS].copy()", "compilation_passed": true, "time": 0.014928102493286133, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Date': df.groupby('Date')['Value'].apply(lambda x: [x.values])})", "compilation_passed": true, "time": 0.010339736938476562, "tests_passed": true, "error": null}
+{"code": " df.sort_values(['Date'])", "compilation_passed": true, "time": 0.016050338745117188, "tests_passed": false, "error": "ValueError"}
+{"code": " df.sort_values('Date', ascending=True)", "compilation_passed": true, "time": 0.011346101760864258, "tests_passed": false, "error": "ValueError"}
+{"code": " df.sort_values('Date')", "compilation_passed": true, "time": 0.017605066299438477, "tests_passed": false, "error": "ValueError"}
+{"code": " df.dropna()", "compilation_passed": true, "time": 0.012986898422241211, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.concat([df, df.iloc[:, 1].str.split(',', expand=True).apply(pd.to_numeric)], axis=1)", "compilation_passed": true, "time": 0.013470888137817383, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop('Date', axis=1)", "compilation_passed": true, "time": 0.009903192520141602, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Value']).first().reset_index(drop=True)", "compilation_passed": true, "time": 0.034208059310913086, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame({'Correlation': pd.Series([1 for i in range(len(df.index))], index=df.index)})", "compilation_passed": true, "time": 0.011432886123657227, "tests_passed": true, "error": null}
+{"code": " df.loc[:,['Value']]", "compilation_passed": true, "time": 0.010612010955810547, "tests_passed": true, "error": null}
+{"code": " df.sort_values(['Date'], inplace=False, ascending=True)", "compilation_passed": true, "time": 0.016477346420288086, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop(columns=COLUMNS)", "compilation_passed": true, "time": 0.009309053421020508, "tests_passed": true, "error": null}
+{"code": " df.dropna(subset=['Date'])", "compilation_passed": true, "time": 0.01279306411743164, "tests_passed": false, "error": "ValueError"}

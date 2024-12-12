@@ -1,0 +1,10 @@
+{"code": " []", "compilation_passed": true, "time": 0.010442972183227539, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.017033815383911133, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.007607936859130859, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.0001289844512939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [[None for _ in range(columns)] for _ in range(rows)]", "compilation_passed": true, "time": 0.007681131362915039, "tests_passed": false, "error": "TypeError"}
+{"code": " [choice(DATA_TYPES) for _ in range(columns)]", "compilation_passed": true, "time": 0.009013891220092773, "tests_passed": false, "error": "TypeError"}
+{"code": " [[] for _ in range(columns)]", "compilation_passed": true, "time": 0.007875919342041016, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(", "compilation_passed": false, "time": 0.00022077560424804688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [choice(DATA_TYPES) for _ in range(rows * columns)]", "compilation_passed": true, "time": 0.007663249969482422, "tests_passed": false, "error": "TypeError"}
+{"code": " {column: [] for column in range(columns)}", "compilation_passed": true, "time": 0.00981593132019043, "tests_passed": false, "error": "ValueError"}

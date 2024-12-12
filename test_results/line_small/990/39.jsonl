@@ -1,0 +1,13 @@
+{"code": " binascii.unhexlify(hex_string)", "compilation_passed": true, "time": 0.006081104278564453, "tests_passed": false, "error": "AttributeError"}
+{"code": " binascii.unhexlify(hex_string).decode('utf-8')", "compilation_passed": true, "time": 0.002343893051147461, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_string.encode('utf-8'))", "compilation_passed": true, "time": 0.006292104721069336, "tests_passed": false, "error": "AttributeError"}
+{"code": " binascii.unhexlify(hex_string.encode()).decode()", "compilation_passed": true, "time": 0.0024747848510742188, "tests_passed": true, "error": null}
+{"code": " binascii.a2b_hex(hex_string.encode(\"utf-8\")).decode('utf-8')", "compilation_passed": true, "time": 0.0023009777069091797, "tests_passed": true, "error": null}
+{"code": " binascii.a2b_hex(hex_string)", "compilation_passed": true, "time": 0.00624394416809082, "tests_passed": false, "error": "AttributeError"}
+{"code": " binascii.unhexlify(hex_string).decode('UTF-8')", "compilation_passed": true, "time": 0.002157926559448242, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(bytes.fromhex(hex_string))", "compilation_passed": true, "time": 0.007097721099853516, "tests_passed": false, "error": "binascii.Error"}
+{"code": " binascii.unhexlify(hex_string).decode()", "compilation_passed": true, "time": 0.0024330615997314453, "tests_passed": true, "error": null}
+{"code": " bytes.fromhex(hex_string).decode()", "compilation_passed": true, "time": 0.0021429061889648438, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_string.encode()).decode('utf-8')", "compilation_passed": true, "time": 0.0024938583374023438, "tests_passed": true, "error": null}
+{"code": " bytes.fromhex(hex_string)", "compilation_passed": true, "time": 0.006356954574584961, "tests_passed": false, "error": "AttributeError"}
+{"code": " binascii.unhexlify(hex_string.encode(\"utf-8\")).decode(\"utf-8\")", "compilation_passed": true, "time": 0.0024352073669433594, "tests_passed": true, "error": null}

@@ -1,0 +1,17 @@
+{"code": " \"\"", "compilation_passed": true, "time": 0.005897045135498047, "tests_passed": true, "error": null}
+{"code": " [substrings[i] for i in random_positions]", "compilation_passed": true, "time": 0.007061958312988281, "tests_passed": false, "error": "AttributeError"}
+{"code": " \", \".join([substrings[i] if i in random_positions else substrings[i].lower() for i in range(len(substrings))])", "compilation_passed": true, "time": 0.005856037139892578, "tests_passed": true, "error": null}
+{"code": " \", \".join([substrings[p] for p in random_positions])", "compilation_passed": true, "time": 0.00885772705078125, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.00631403923034668, "tests_passed": false, "error": "AttributeError"}
+{"code": " [substrings[i] if i not in random_positions else f\"{substrings[i]}\" for i in range(len(substrings))]", "compilation_passed": true, "time": 0.0059359073638916016, "tests_passed": false, "error": "AttributeError"}
+{"code": " ', '.join([substrings[p] for p in random_positions])", "compilation_passed": true, "time": 0.00880575180053711, "tests_passed": true, "error": null}
+{"code": " \", \".join(substrings[i] if i in random_positions else s for i in range(len(substrings)))", "compilation_passed": true, "time": 0.005858898162841797, "tests_passed": true, "error": null}
+{"code": " ', '.join(substrings[i] for i in random_positions)", "compilation_passed": true, "time": 0.00794529914855957, "tests_passed": true, "error": null}
+{"code": " \", \".join([substrings[i] for i in random_positions])", "compilation_passed": true, "time": 0.009001970291137695, "tests_passed": true, "error": null}
+{"code": " ', '.join([substrings[i] for i in random_positions])", "compilation_passed": true, "time": 0.00847005844116211, "tests_passed": true, "error": null}
+{"code": " \", \".join([substrings[i] if i not in random_positions else \"\" for i in range(len(substrings))])", "compilation_passed": true, "time": 0.005605220794677734, "tests_passed": true, "error": null}
+{"code": " ', '.join([substrings[i] if i in random_positions else s for i in range(len(substrings))])", "compilation_passed": true, "time": 0.005937814712524414, "tests_passed": true, "error": null}
+{"code": " \", \".join([substrings[i] if i in random_positions else substrings[j] for i, j in enumerate(range(len(substrings)))])", "compilation_passed": true, "time": 0.005736827850341797, "tests_passed": true, "error": null}
+{"code": " \", \".join(", "compilation_passed": false, "time": 0.00022292137145996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \" \".join([substrings[i] for i in random_positions])", "compilation_passed": true, "time": 0.005731105804443359, "tests_passed": true, "error": null}
+{"code": " \", \".join(substrings[i] for i in random_positions)", "compilation_passed": true, "time": 0.00803518295288086, "tests_passed": true, "error": null}

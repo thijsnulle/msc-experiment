@@ -1,0 +1,16 @@
+{"code": " codecs.encode(decoded_str, \"rot_13\").decode()", "compilation_passed": true, "time": 0.006707906723022461, "tests_passed": false, "error": "AttributeError"}
+{"code": " codecs.encode(decoded_str, 'rot_13').decode(\"ascii\")", "compilation_passed": true, "time": 0.006059885025024414, "tests_passed": false, "error": "AttributeError"}
+{"code": " codecs.encode(decoded_str, \"rot13\").decode()", "compilation_passed": true, "time": 0.006206035614013672, "tests_passed": false, "error": "AttributeError"}
+{"code": " codecs.getdecoder(\"rot13\")(decoded_str)", "compilation_passed": true, "time": 0.004557132720947266, "tests_passed": true, "error": null}
+{"code": " codecs.encode(decoded_str, \"rot13\")", "compilation_passed": true, "time": 0.0025789737701416016, "tests_passed": true, "error": null}
+{"code": " codecs.getdecoder(\"rot13\")(decoded_str)[0]", "compilation_passed": true, "time": 0.0022499561309814453, "tests_passed": true, "error": null}
+{"code": " codecs.encode(decoded_str, \"rot_13\").decode(\"ascii\")", "compilation_passed": true, "time": 0.005876064300537109, "tests_passed": false, "error": "AttributeError"}
+{"code": " codecs.encode(decoded_str, 'rot13').decode(\"utf-8\")", "compilation_passed": true, "time": 0.0062122344970703125, "tests_passed": false, "error": "AttributeError"}
+{"code": " codecs.encode(decoded_str, \"rot_13\").decode(\"utf-8\")", "compilation_passed": true, "time": 0.005848884582519531, "tests_passed": false, "error": "AttributeError"}
+{"code": " codecs.encode(decoded_str, 'rot_13').decode()", "compilation_passed": true, "time": 0.008620977401733398, "tests_passed": false, "error": "AttributeError"}
+{"code": " codecs.encode(decoded_str, \"rot_13\")", "compilation_passed": true, "time": 0.0025708675384521484, "tests_passed": true, "error": null}
+{"code": " codecs.encode(decoded_str, 'rot_13').decode(\"utf-8\")", "compilation_passed": true, "time": 0.006006002426147461, "tests_passed": false, "error": "AttributeError"}
+{"code": " codecs.encode(decoded_str, 'rot13').decode()", "compilation_passed": true, "time": 0.006552696228027344, "tests_passed": false, "error": "AttributeError"}
+{"code": " codecs.getencoder(\"rot_13\")(decoded_str)[0]", "compilation_passed": true, "time": 0.0024666786193847656, "tests_passed": true, "error": null}
+{"code": " codecs.getdecoder(\"rot13\")(decoded_str).decode(\"utf-8\")", "compilation_passed": true, "time": 0.006012916564941406, "tests_passed": false, "error": "AttributeError"}
+{"code": " codecs.encode(decoded_str, \"rot13\").decode(\"utf-8\")", "compilation_passed": true, "time": 0.005976200103759766, "tests_passed": false, "error": "AttributeError"}

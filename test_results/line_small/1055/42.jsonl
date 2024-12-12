@@ -1,0 +1,5 @@
+{"code": " itertools.product(colors, states)", "compilation_passed": true, "time": 0.011417150497436523, "tests_passed": false, "error": "TypeError"}
+{"code": " list(itertools.product(colors, states))", "compilation_passed": true, "time": 0.0036270618438720703, "tests_passed": true, "error": null}
+{"code": " pd.Series(list(itertools.product(colors, states)))", "compilation_passed": true, "time": 0.0036470890045166016, "tests_passed": true, "error": null}
+{"code": " [(color, state) for color in colors for state in states]", "compilation_passed": true, "time": 0.003032207489013672, "tests_passed": true, "error": null}
+{"code": " [i+\":\"+j for i in itertools.product(colors,states) for j in states]", "compilation_passed": true, "time": 0.009618759155273438, "tests_passed": false, "error": "TypeError"}

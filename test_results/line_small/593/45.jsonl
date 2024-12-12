@@ -1,0 +1,5 @@
+{"code": " os.path.join(output_dir, 'traffic_data.csv')", "compilation_passed": true, "time": 0.003098011016845703, "tests_passed": false, "error": "AttributeError"}
+{"code": " os.path.join(output_dir, \"traffic_data.csv\")", "compilation_passed": true, "time": 0.0026979446411132812, "tests_passed": false, "error": "AttributeError"}
+{"code": " f'{output_dir}/traffic_data.csv'", "compilation_passed": true, "time": 0.0026950836181640625, "tests_passed": false, "error": "AttributeError"}
+{"code": " os.path.join(output_dir, f'traffic_data_{datetime.now().strftime(\"%Y%m%d%H%M%S\")}.csv')", "compilation_passed": true, "time": 0.002766132354736328, "tests_passed": false, "error": "AttributeError"}
+{"code": " f'{output_dir}/traffic_data_{datetime.today().strftime(\"%m-%d-%y_%H:%M:%S\")}.csv'", "compilation_passed": true, "time": 0.0027468204498291016, "tests_passed": false, "error": "AttributeError"}

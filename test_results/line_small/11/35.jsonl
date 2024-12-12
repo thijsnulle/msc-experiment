@@ -1,0 +1,17 @@
+{"code": " []", "compilation_passed": true, "time": 0.016813039779663086, "tests_passed": false, "error": "IndexError"}
+{"code": " random.sample(flattened_list, total_nums)", "compilation_passed": true, "time": 0.013132095336914062, "tests_passed": false, "error": "ValueError"}
+{"code": " sorted(random.sample(flattened_list, total_nums))", "compilation_passed": true, "time": 0.013669013977050781, "tests_passed": false, "error": "ValueError"}
+{"code": " [random.randint(0, max_value) for _ in range(total_nums)]", "compilation_passed": true, "time": 0.007763862609863281, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, max_value - 1) for _ in range(total_nums)]", "compilation_passed": true, "time": 0.00882101058959961, "tests_passed": true, "error": null}
+{"code": " sorted(random.sample(flattened_list, total_nums), reverse=True)", "compilation_passed": true, "time": 0.014027118682861328, "tests_passed": false, "error": "ValueError"}
+{"code": " random.sample(range(1, total_nums), 25)", "compilation_passed": true, "time": 0.008550882339477539, "tests_passed": true, "error": null}
+{"code": " random.sample(flattened_list, len(flattened_list))", "compilation_passed": true, "time": 0.009997129440307617, "tests_passed": true, "error": null}
+{"code": " random.sample(flattened_list, 25) + random.sample(flattened_list, 50) + random.sample(flattened_list, 75)", "compilation_passed": true, "time": 0.014118194580078125, "tests_passed": false, "error": "ValueError"}
+{"code": " [random.randint(1, max_value) for _ in range(total_nums)]", "compilation_passed": true, "time": 0.008599042892456055, "tests_passed": true, "error": null}
+{"code": " random.sample(flattened_list, 25)", "compilation_passed": true, "time": 0.013693094253540039, "tests_passed": false, "error": "ValueError"}
+{"code": " sorted(random.sample(flattened_list, total_nums)[:25])", "compilation_passed": true, "time": 0.012297868728637695, "tests_passed": false, "error": "ValueError"}
+{"code": " random.sample(range(max_value), total_nums)", "compilation_passed": true, "time": 0.013629913330078125, "tests_passed": false, "error": "ValueError"}
+{"code": " [random.randrange(total_nums) for i in range(25)]", "compilation_passed": true, "time": 0.00834512710571289, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=0, high=max_value, size=total_nums)", "compilation_passed": true, "time": 0.008311986923217773, "tests_passed": true, "error": null}
+{"code": " np.random.choice(flattened_list, size=25, replace=False)", "compilation_passed": true, "time": 0.017546892166137695, "tests_passed": false, "error": "ValueError"}
+{"code": " [random.randint(0, max_value) for _ in range(0, total_nums)]", "compilation_passed": true, "time": 0.007869958877563477, "tests_passed": true, "error": null}

@@ -1,0 +1,18 @@
+{"code": "bar(df['Date'], df[1])", "compilation_passed": true, "time": 0.2599828243255615, "tests_passed": true, "error": null}
+{"code": "bar(df['Date'], df[['Date','Value']])", "compilation_passed": true, "time": 0.01932811737060547, "tests_passed": false, "error": "KeyError"}
+{"code": "title('Scaled Values Over Time')", "compilation_passed": true, "time": 0.2442629337310791, "tests_passed": true, "error": null}
+{"code": "bar(df.index, df.iloc[:,1:], label='Scaled Value')", "compilation_passed": true, "time": 0.07425594329833984, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(df['Date'], df.iloc[:,1:])", "compilation_passed": true, "time": 0.10724806785583496, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(df['Date'], df['Value'])", "compilation_passed": true, "time": 0.03346991539001465, "tests_passed": false, "error": "KeyError"}
+{"code": "figure(figsize=(16,8))", "compilation_passed": true, "time": 0.29376721382141113, "tests_passed": true, "error": null}
+{"code": "figure('Scaled Values Over Time')", "compilation_passed": true, "time": 0.27443361282348633, "tests_passed": true, "error": null}
+{"code": "bar(df.iloc[:,0], df.iloc[:,1:])", "compilation_passed": true, "time": 0.09543275833129883, "tests_passed": false, "error": "ValueError"}
+{"code": "figure(figsize=(10,7), title=\"Scaled Values Over Time\")", "compilation_passed": true, "time": 0.019067049026489258, "tests_passed": false, "error": "AttributeError"}
+{"code": "suptitle(\"Scaled Values Over Time\")", "compilation_passed": true, "time": 0.2609720230102539, "tests_passed": true, "error": null}
+{"code": "bar(df['Date'], df[COLUMNS[1:]].stack(), width=0.75, label=COLUMNS[1:])", "compilation_passed": true, "time": 0.03073406219482422, "tests_passed": false, "error": "KeyError"}
+{"code": "bar(df.index, df.iloc[:,1:])", "compilation_passed": true, "time": 0.15062284469604492, "tests_passed": false, "error": "ValueError"}
+{"code": "title(\"Scaled Values Over Time\")", "compilation_passed": true, "time": 0.31896233558654785, "tests_passed": true, "error": null}
+{"code": "suptitle('Scaled Values Over Time')", "compilation_passed": true, "time": 0.2835829257965088, "tests_passed": true, "error": null}
+{"code": "bar(df.index, df['Value'])", "compilation_passed": true, "time": 0.05260491371154785, "tests_passed": false, "error": "KeyError"}
+{"code": "figure()", "compilation_passed": true, "time": 0.37326693534851074, "tests_passed": true, "error": null}
+{"code": "bar(df['Date'], df[0], label='Date', width=0.0001)", "compilation_passed": true, "time": 0.27690601348876953, "tests_passed": true, "error": null}

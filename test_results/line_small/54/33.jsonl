@@ -1,0 +1,7 @@
+{"code": " pd.DataFrame(dtm.toarray(), columns=vectorizer.get_feature_names())", "compilation_passed": true, "time": 0.009691953659057617, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(dtm.toarray(), columns=vectorizer.get_feature_names(), dtype=int)", "compilation_passed": true, "time": 0.007256984710693359, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(dtm.todense(), columns=vectorizer.get_feature_names())", "compilation_passed": true, "time": 0.007513761520385742, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(dtm.toarray(), columns=vectorizer.get_feature_names(), index=range(1, 1 + len(sentences)))", "compilation_passed": true, "time": 0.0077970027923583984, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(dtm.toarray(), index=sentences, columns=vectorizer.get_feature_names())", "compilation_passed": true, "time": 0.007369041442871094, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(dtm.todense(),", "compilation_passed": false, "time": 0.0001621246337890625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(dtm.todense(), index=sentences, columns=vectorizer.get_feature_names())", "compilation_passed": true, "time": 0.007314920425415039, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,6 @@
+{"code": " random.choice(substrings)", "compilation_passed": true, "time": 0.008667945861816406, "tests_passed": true, "error": null}
+{"code": " substrings[random.randint(0, len(substrings) - 1)].strip()", "compilation_passed": true, "time": 0.007311105728149414, "tests_passed": true, "error": null}
+{"code": " substrings[random.randrange(len(substrings))]", "compilation_passed": true, "time": 0.007631063461303711, "tests_passed": true, "error": null}
+{"code": " substrings[random.randint(0, len(substrings)-1)]", "compilation_passed": true, "time": 0.007314920425415039, "tests_passed": true, "error": null}
+{"code": " substrings[random.randint(1, len(substrings) - 1)]", "compilation_passed": true, "time": 0.008335113525390625, "tests_passed": false, "error": "ValueError"}
+{"code": " substrings[random.randint(0, len(substrings) - 1)]", "compilation_passed": true, "time": 0.007892131805419922, "tests_passed": true, "error": null}

@@ -1,0 +1,28 @@
+{"code": " df.pivot_table(index='Location', columns='Item', aggfunc='size')", "compilation_passed": true, "time": 0.2468118667602539, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Item', 'Location']).size().reset_index(name='count')", "compilation_passed": true, "time": 0.21837806701660156, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Item']).count()", "compilation_passed": true, "time": 0.2009141445159912, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Item']).size().reset_index(name='count')", "compilation_passed": true, "time": 0.20752882957458496, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Item', 'Location']).size().unstack().fillna(0)", "compilation_passed": true, "time": 0.2535390853881836, "tests_passed": true, "error": null}
+{"code": " df.groupby('Location').agg(pd.Series(items)).reset_index().pivot(index='Location', columns='Item', values='count')", "compilation_passed": true, "time": 0.009620904922485352, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(['Location', 'Item']).size().reset_index(name='Count')", "compilation_passed": true, "time": 0.21661090850830078, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Item'])['Location'].count().reset_index()", "compilation_passed": true, "time": 0.20912885665893555, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Item', 'Location']).size().reset_index(name='Count')", "compilation_passed": true, "time": 0.22862696647644043, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Location']).apply(lambda x: x.groupby('Item').size()).reset_index(name='count')", "compilation_passed": true, "time": 0.2279670238494873, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Item', 'Location']).size().unstack()", "compilation_passed": true, "time": 0.26025986671447754, "tests_passed": true, "error": null}
+{"code": " df.groupby('Item').size().reset_index().set_index('Item')", "compilation_passed": true, "time": 0.20940685272216797, "tests_passed": true, "error": null}
+{"code": " df.groupby('Location').agg({'Item': pd.Series.value_counts})", "compilation_passed": true, "time": 0.06808686256408691, "tests_passed": false, "error": "TypeError"}
+{"code": " (", "compilation_passed": false, "time": 0.0002741813659667969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.pivot_table(values='Count', index='Item', columns='Location', aggfunc='sum',", "compilation_passed": false, "time": 0.00036716461181640625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.pivot_table(index='Item', columns='Location', values=1, aggfunc='sum', fill_value=0)", "compilation_passed": true, "time": 0.008488893508911133, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(['Item']).count().reset_index()", "compilation_passed": true, "time": 0.21953511238098145, "tests_passed": true, "error": null}
+{"code": " df.pivot_table(index='Item', columns='Location', aggfunc='count', fill_value=0)", "compilation_passed": true, "time": 0.011275053024291992, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby('Item').size().reset_index(name='Count')", "compilation_passed": true, "time": 0.2262568473815918, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Location', 'Item']).size().unstack()", "compilation_passed": true, "time": 0.259829044342041, "tests_passed": true, "error": null}
+{"code": " (df.groupby(['Location'])", "compilation_passed": false, "time": 0.0002930164337158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby(['Item', 'Location'])['Item'].count()", "compilation_passed": true, "time": 0.04786515235900879, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Item', 'Location']).size().reset_index(name='count').pivot_table(index='Location', columns='Item', values='count').fillna(0)", "compilation_passed": true, "time": 0.28200221061706543, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Item', 'Location'])['Item'].count().unstack(level=0).fillna(0).astype(int)", "compilation_passed": true, "time": 0.2638280391693115, "tests_passed": true, "error": null}
+{"code": " df.pivot_table(index='Location', columns='Item', aggfunc='count', fill_value=0)", "compilation_passed": true, "time": 0.011353731155395508, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby('Location')[['Item']].value_counts().reset_index().rename(columns={'Item': 'Count'})", "compilation_passed": true, "time": 0.25102806091308594, "tests_passed": true, "error": null}
+{"code": " df.groupby('Item').count().rename(columns={'Item': 'Count'})", "compilation_passed": true, "time": 0.23176312446594238, "tests_passed": true, "error": null}
+{"code": " df.groupby(['Item', 'Location']).size().reset_index()", "compilation_passed": true, "time": 0.243117094039917, "tests_passed": true, "error": null}

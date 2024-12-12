@@ -1,0 +1,29 @@
+{"code": " re.compile('[\\w]+\\s*like\\s*([\\w]+)?\\s*\\w*', re.IGNORECASE)", "compilation_passed": true, "time": 0.007943153381347656, "tests_passed": true, "error": null}
+{"code": " r\"\\b(\\w+)\\b(?!-|\\w)\"  # words followed by space and followed by a non-word character (e.g. hyphen or space)", "compilation_passed": true, "time": 0.016064167022705078, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile('\\w+|[^\\w\\s]')", "compilation_passed": true, "time": 0.012076854705810547, "tests_passed": false, "error": ""}
+{"code": " re.compile(r'\\w+', re.I)", "compilation_passed": true, "time": 0.010102987289428711, "tests_passed": false, "error": ""}
+{"code": " re.compile(r\"(\\w[\\w\\-]*)\")", "compilation_passed": true, "time": 0.010181188583374023, "tests_passed": false, "error": ""}
+{"code": " re.compile(r\"(?i)\\b(?:[a-z]\\w*|[a-z]+\\w*[a-z]\\w*|[a-z]+\\w*[a-z](?!\\w))\")  # Regular expression for words with only letters", "compilation_passed": true, "time": 0.011373758316040039, "tests_passed": false, "error": ""}
+{"code": " re.compile(r'\\b(\\w+)\\b', re.I)  # Regular expression to extract words", "compilation_passed": true, "time": 0.010167837142944336, "tests_passed": false, "error": ""}
+{"code": " re.compile(r\"\\b\\w+\\b\")", "compilation_passed": true, "time": 0.010185956954956055, "tests_passed": false, "error": ""}
+{"code": " re.compile(r\"\\w+\")  # Regex pattern to extract words from a string", "compilation_passed": true, "time": 0.012077808380126953, "tests_passed": false, "error": ""}
+{"code": " r\"\\b(\" + \"|\".join([word.strip(punctuation).lower() for word in set(re.findall(r\"[A-Za-z]+\", str(df[\"Title\"])))]) + \")\\b\"", "compilation_passed": true, "time": 0.017349958419799805, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\b(?:like|what)\\b\"", "compilation_passed": true, "time": 0.01611924171447754, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'\\b\\w+\\b')", "compilation_passed": true, "time": 0.010100841522216797, "tests_passed": false, "error": ""}
+{"code": " \"(\" + \"|\".join(re.escape(word) for word in ['like', 'what', 'see']) + \")\"", "compilation_passed": true, "time": 0.016625165939331055, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'[a-zA-Z]+', re.IGNORECASE)", "compilation_passed": true, "time": 0.010448932647705078, "tests_passed": false, "error": ""}
+{"code": " re.compile(r'[\\w]+', re.I)", "compilation_passed": true, "time": 0.011216878890991211, "tests_passed": false, "error": ""}
+{"code": " re.compile(r\"(?:\\b|[^a-z])(like|what)(?:[\\s\\S]*?)\\b|\\b(?:[\\s\\S]+?)(like|what)(?:\\b|[^a-z])\")", "compilation_passed": true, "time": 0.007727861404418945, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"\\b([a-zA-Z]+)\\b\")", "compilation_passed": true, "time": 0.010480165481567383, "tests_passed": false, "error": ""}
+{"code": " re.compile(r'\\b(?:[A-Z][a-z]*)|\\b(?:[a-z]+)')", "compilation_passed": true, "time": 0.010588884353637695, "tests_passed": false, "error": ""}
+{"code": " r\"(\\w+)\"  # Regular expression pattern to match all words in the content", "compilation_passed": true, "time": 0.015210151672363281, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\b(?P<word>\\w+)\\b\"", "compilation_passed": true, "time": 0.01553201675415039, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r\"\\b(?:[a-zA-Z]{2,}[-']?[a-zA-Z]+)*\\b|\\b([a-zA-Z]+)?\\s?([-']?[a-zA-Z]+)\\s?\\b\")", "compilation_passed": true, "time": 0.010297775268554688, "tests_passed": false, "error": ""}
+{"code": " re.compile(\"[a-zA-Z']+\")", "compilation_passed": true, "time": 0.01169586181640625, "tests_passed": false, "error": ""}
+{"code": " r'[a-zA-Z]+'", "compilation_passed": true, "time": 0.015411853790283203, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(\"\\w+\")", "compilation_passed": true, "time": 0.00940704345703125, "tests_passed": false, "error": ""}
+{"code": " r\"\\b(\" + \"|\".join([\"what\", \"like\"]) + r\")\\b\"", "compilation_passed": true, "time": 0.015657901763916016, "tests_passed": false, "error": "AttributeError"}
+{"code": " \"(\" + \"|\".join(map(re.escape, ['like', 'what'])) + \")\"", "compilation_passed": true, "time": 0.015014886856079102, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\b([A-Za-z0-9-]+)\\b\"", "compilation_passed": true, "time": 0.015639066696166992, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r\"(\\b[a-zA-Z]+\\b)\")", "compilation_passed": true, "time": 0.010583162307739258, "tests_passed": false, "error": ""}
+{"code": " r\"[^a-zA-Z\\d\\s]+\"", "compilation_passed": true, "time": 0.015665292739868164, "tests_passed": false, "error": "AttributeError"}

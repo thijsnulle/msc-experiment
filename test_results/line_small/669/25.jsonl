@@ -1,0 +1,16 @@
+{"code": " sorted(x.items(), key=lambda item: math.cos(item[1]), reverse=True)", "compilation_passed": true, "time": 0.006951093673706055, "tests_passed": false, "error": "KeyError"}
+{"code": " itertools.combinations(x, 2)", "compilation_passed": true, "time": 0.0011920928955078125, "tests_passed": true, "error": null}
+{"code": " itertools.combinations(x.keys(), 2)", "compilation_passed": true, "time": 0.001744985580444336, "tests_passed": true, "error": null}
+{"code": " list(itertools.combinations(x.keys(), 2))", "compilation_passed": true, "time": 0.0015709400177001953, "tests_passed": true, "error": null}
+{"code": " list(itertools.combinations(x, 2))", "compilation_passed": true, "time": 0.0012509822845458984, "tests_passed": true, "error": null}
+{"code": " [(key, value) for key, value in x.items()]", "compilation_passed": true, "time": 0.006165981292724609, "tests_passed": false, "error": "KeyError"}
+{"code": " []", "compilation_passed": true, "time": 0.004430055618286133, "tests_passed": false, "error": "ValueError"}
+{"code": " [pair for pair in itertools.combinations(x.items(), 2)]", "compilation_passed": true, "time": 0.006046772003173828, "tests_passed": false, "error": "KeyError"}
+{"code": " [pair for pair in itertools.combinations(x, 2)]", "compilation_passed": true, "time": 0.0011448860168457031, "tests_passed": true, "error": null}
+{"code": " [(key, math.acos(value)) for key, value in x.items()]", "compilation_passed": true, "time": 0.006571054458618164, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 9.703636169433594e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(x[k], math.cos(x[k])) for k in x]", "compilation_passed": true, "time": 0.006026029586791992, "tests_passed": false, "error": "KeyError"}
+{"code": " [(key, x[key]) for key in x]", "compilation_passed": true, "time": 0.005839109420776367, "tests_passed": false, "error": "KeyError"}
+{"code": " sorted(x.items(), key=lambda kv: math.cos(kv[1]), reverse=True)", "compilation_passed": true, "time": 0.006250858306884766, "tests_passed": false, "error": "KeyError"}
+{"code": " sorted(x.items(), key=lambda i: (math.cos(i[1]), i[0]), reverse=True)", "compilation_passed": true, "time": 0.006178855895996094, "tests_passed": false, "error": "KeyError"}
+{"code": " [(key, math.cos(value)) for key, value in x.items()]", "compilation_passed": true, "time": 0.005881786346435547, "tests_passed": false, "error": "KeyError"}

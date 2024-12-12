@@ -1,0 +1,30 @@
+{"code": " str(col)] = {x: y for x in", "compilation_passed": false, "time": 0.0002601146697998047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = {", "compilation_passed": false, "time": 0.00039386749267578125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [dict(zip(np.random.choice(range(1, 6), size=rows), np.random.choice(range(10), size=rows))) for _ in", "compilation_passed": false, "time": 0.00025916099548339844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = {str(i): choice(DATA_TYPES)() for i in range(np.random.randint(1, 6))}", "compilation_passed": false, "time": 0.0004220008850097656, "tests_passed": false, "error": "IndentationError"}
+{"code": " str(col)] = [{'col' + str(i): np.random.choice(range(10), size=np.random.randint(1, 6)) for i in", "compilation_passed": false, "time": 0.0002510547637939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{str(i): np.random.choice(range(10), size=np.random.randint(1, 6)) for i in range(10)}", "compilation_passed": false, "time": 0.0004398822784423828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [dict([(np.random.randint(10), np.random.randint(10)) for i in range(np.random.randint(1, 6))]) for _ in", "compilation_passed": false, "time": 0.00023508071899414062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [dict([(j, np.random.choice(range(10))) for j in np.random.choice(range(10), size=np.random.randint(1, 6))]) for _ in", "compilation_passed": false, "time": 0.00034689903259277344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{str(i): np.random.choice(range(10), size=np.random.randint(1, 6)) for i in", "compilation_passed": false, "time": 0.00024127960205078125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{'key': str(np.random.choice(range(10))), 'value': str(np.random.choice(range(10)))} for _ in", "compilation_passed": false, "time": 0.00023818016052246094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{np.random.randint(0, 10): np.random.randint(0, 10) for _ in", "compilation_passed": false, "time": 0.00024127960205078125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [dict(zip(np.random.choice(range(10), size=np.random.randint(1, 6)),", "compilation_passed": true, "time": 0.00735783576965332, "tests_passed": true, "error": null}
+{"code": " str(col)] = [dict({i: i for i in range(np.random.randint(1, 6))}) for _ in range(rows)]", "compilation_passed": false, "time": 0.0004570484161376953, "tests_passed": false, "error": "IndentationError"}
+{"code": " str(col)] = [{", "compilation_passed": false, "time": 0.00026798248291015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{np.random.randint(1, 10): np.random.choice(range(10)) for _ in", "compilation_passed": false, "time": 0.0002486705780029297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [dict(zip(np.random.choice(range(1, 6), size=True),", "compilation_passed": true, "time": 0.019289731979370117, "tests_passed": false, "error": "TypeError"}
+{"code": " str(col)] = [{k: np.random.choice(range(10), size=np.random.randint(1, 6)) for k in", "compilation_passed": false, "time": 0.0002586841583251953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{i: j for i in np.random.choice(range(10), size=np.random.randint(1, 6)) for j in", "compilation_passed": false, "time": 0.00037097930908203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{str(i): np.random.choice(range(10)) for i in range(np.random.randint(1, 6))} for _ in", "compilation_passed": false, "time": 0.0002677440643310547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = {f'key{i}': f'value{i}' for i in np.random.choice(range(1, 6), size=rows)}", "compilation_passed": false, "time": 0.00040602684020996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " str(col)] = [{i: np.random.choice(range(10)) for i in np.random.choice(range(1, 6), size=np.random.randint(1, 6))} for _ in", "compilation_passed": false, "time": 0.00026488304138183594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{x: np.random.choice(range(10), size=np.random.randint(1, 6)) for x in", "compilation_passed": false, "time": 0.00023412704467773438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{i: np.random.choice(range(10), size=np.random.randint(1, 6)) for i in range(", "compilation_passed": false, "time": 0.0002522468566894531, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{i: i for i in range(10)} for _ in range(rows)]", "compilation_passed": false, "time": 0.000396728515625, "tests_passed": false, "error": "IndentationError"}
+{"code": " str(col)] = {f\"key_{i}\": np.random.choice(range(10), size=np.random.randint(1, 6)) for i in range(", "compilation_passed": false, "time": 0.00027179718017578125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = {k: v for k, v in", "compilation_passed": false, "time": 0.00035309791564941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [dict((i, np.random.choice(range(10), size=np.random.randint(1, 6))) for i in", "compilation_passed": false, "time": 0.000244140625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{x: np.random.randint(10) for x in range(10)} for _ in range(rows)]", "compilation_passed": false, "time": 0.00048422813415527344, "tests_passed": false, "error": "IndentationError"}
+{"code": " str(col)] = [{str(i): str(i) for i in np.random.choice(range(10), np.random.randint(1, 6))} for _ in", "compilation_passed": false, "time": 0.0003178119659423828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{i: np.random.choice(range(10), size=np.random.randint(1, 6)) for i in", "compilation_passed": false, "time": 0.00023603439331054688, "tests_passed": false, "error": "SyntaxError"}

@@ -1,0 +1,5 @@
+{"code": " max(data, key=itemgetter(1))", "compilation_passed": true, "time": 0.14728498458862305, "tests_passed": true, "error": null}
+{"code": " np.max(data, key=itemgetter(1))", "compilation_passed": true, "time": 0.0054171085357666016, "tests_passed": false, "error": "TypeError"}
+{"code": " max(data, key=lambda x: x[1])", "compilation_passed": true, "time": 0.7526271343231201, "tests_passed": true, "error": null}
+{"code": " np.max(np.array(data, dtype=np.float32), axis=0, keepdims=True)[0]", "compilation_passed": true, "time": 0.10273504257202148, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([np.inf, np.inf])", "compilation_passed": true, "time": 0.10150480270385742, "tests_passed": false, "error": "ValueError"}

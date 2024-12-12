@@ -1,0 +1,16 @@
+{"code": " []", "compilation_passed": true, "time": 0.24907183647155762, "tests_passed": true, "error": null}
+{"code": " [ax.plot(df[k].values, label=k) for k in keys]", "compilation_passed": true, "time": 0.06037282943725586, "tests_passed": true, "error": null}
+{"code": " ax.plot(df[keys[0]], df[keys[1]])", "compilation_passed": true, "time": 0.04824090003967285, "tests_passed": true, "error": null}
+{"code": " ax.plot(df[keys[0]], df[keys[1]], label=keys[0] + ' vs ' + keys[1])", "compilation_passed": true, "time": 0.0612032413482666, "tests_passed": true, "error": null}
+{"code": " ax.plot(df[keys[0]], df[keys[1]], '-o')", "compilation_passed": true, "time": 0.062429189682006836, "tests_passed": true, "error": null}
+{"code": " ax.bar(keys, df[keys].values)", "compilation_passed": true, "time": 0.0687570571899414, "tests_passed": false, "error": "TypeError"}
+{"code": " ax.plot(df[keys[0]], df[keys[1]], 'o-')", "compilation_passed": true, "time": 0.0631401538848877, "tests_passed": true, "error": null}
+{"code": " [key for key in keys if key in df]", "compilation_passed": true, "time": 0.26980090141296387, "tests_passed": true, "error": null}
+{"code": " ax.plot(df[keys[0]], df[keys[1]], 'o', label='Plotted values')", "compilation_passed": true, "time": 0.05237388610839844, "tests_passed": true, "error": null}
+{"code": " ['x', 'y', 'z']", "compilation_passed": true, "time": 0.16904592514038086, "tests_passed": true, "error": null}
+{"code": " ax.plot(df[keys[0]], df[keys[1]], marker='o', ls='none')", "compilation_passed": true, "time": 0.060511112213134766, "tests_passed": true, "error": null}
+{"code": " ax.barh(*df.hist(keys, rwidth=.9, bins=40, orientation=\"h\", stacked=True, color=\"black\", edgecolor='white').get_children(), width=.9)", "compilation_passed": true, "time": 0.14318084716796875, "tests_passed": false, "error": "ValueError"}
+{"code": " df[keys]", "compilation_passed": true, "time": 0.051735877990722656, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[keys].plot.line(ax=ax, marker='o')", "compilation_passed": true, "time": 0.07379817962646484, "tests_passed": false, "error": "AttributeError"}
+{"code": " ax.bar(keys, df[keys], width=0.5, color='#32cd32')", "compilation_passed": true, "time": 0.09801006317138672, "tests_passed": false, "error": "TypeError"}
+{"code": " ax.plot(df[keys[0]], df[keys[1]], label=df[keys[2]])", "compilation_passed": true, "time": 0.08818888664245605, "tests_passed": true, "error": null}

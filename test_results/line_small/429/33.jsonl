@@ -1,0 +1,11 @@
+{"code": " pd.merge(df1, df2, on='id', how='inner')", "compilation_passed": true, "time": 0.5421741008758545, "tests_passed": true, "error": null}
+{"code": " df1.merge(df2, how='inner', on='id')", "compilation_passed": true, "time": 0.5375890731811523, "tests_passed": true, "error": null}
+{"code": " pd.merge(df1, df2, on='id')", "compilation_passed": true, "time": 0.5467979907989502, "tests_passed": true, "error": null}
+{"code": " pd.merge(df1, df2, how='inner', on='id')", "compilation_passed": true, "time": 0.555901050567627, "tests_passed": true, "error": null}
+{"code": " df1.merge(df2, on='id')", "compilation_passed": true, "time": 0.5530917644500732, "tests_passed": true, "error": null}
+{"code": " df1.merge(df2, left_on='id', right_on='id')", "compilation_passed": true, "time": 0.5598080158233643, "tests_passed": true, "error": null}
+{"code": " pd.merge(df1, df2, on='id', how='left')", "compilation_passed": true, "time": 0.5590269565582275, "tests_passed": true, "error": null}
+{"code": " df1.merge(df2, on='id', how='inner')", "compilation_passed": true, "time": 1.0100719928741455, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.merge(df1, df2, left_on='id', right_on='id')", "compilation_passed": true, "time": 0.5433950424194336, "tests_passed": true, "error": null}
+{"code": " df1.merge(df2, on='id', how='left')", "compilation_passed": true, "time": 0.5723938941955566, "tests_passed": true, "error": null}
+{"code": " pd.merge(df1, df2, on=\"id\", how=\"inner\")", "compilation_passed": true, "time": 0.5616741180419922, "tests_passed": true, "error": null}

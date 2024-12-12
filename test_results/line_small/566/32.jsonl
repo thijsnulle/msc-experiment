@@ -1,0 +1,10 @@
+{"code": " isinstance(f, types.LambdaType),", "compilation_passed": true, "time": 0.0019240379333496094, "tests_passed": true, "error": null}
+{"code": " islambda(f),", "compilation_passed": true, "time": 0.011280059814453125, "tests_passed": false, "error": "NameError"}
+{"code": " spec.defaults is None,", "compilation_passed": true, "time": 0.005505084991455078, "tests_passed": true, "error": null}
+{"code": " type(f) == types.LambdaType,", "compilation_passed": true, "time": 0.0016329288482666016, "tests_passed": true, "error": null}
+{"code": " inspect.islambda(f),", "compilation_passed": true, "time": 0.007730960845947266, "tests_passed": false, "error": "AttributeError"}
+{"code": " f.__name__ == '<lambda>',", "compilation_passed": true, "time": 0.0013468265533447266, "tests_passed": true, "error": null}
+{"code": " isLambda(f),", "compilation_passed": true, "time": 0.007342100143432617, "tests_passed": false, "error": "NameError"}
+{"code": " spec.defaults is not None,", "compilation_passed": true, "time": 0.001294851303100586, "tests_passed": true, "error": null}
+{"code": " isinstance(f, (types.LambdaType, types.MethodType)),", "compilation_passed": true, "time": 0.0011796951293945312, "tests_passed": true, "error": null}
+{"code": " ismethod(f) or isfunction(f) and not isbuiltin(f) or False,", "compilation_passed": true, "time": 0.008650064468383789, "tests_passed": false, "error": "NameError"}

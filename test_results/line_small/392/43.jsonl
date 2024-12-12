@@ -1,0 +1,4 @@
+{"code": " df.loc[df[group_col] == group_name]", "compilation_passed": true, "time": 0.08766579627990723, "tests_passed": true, "error": null}
+{"code": " df[df[group_col] == group_name]", "compilation_passed": true, "time": 0.08729171752929688, "tests_passed": true, "error": null}
+{"code": " df.groupby(group_col)[value_col].get_group(group_name)", "compilation_passed": true, "time": 0.05347704887390137, "tests_passed": false, "error": "KeyError"}
+{"code": " df.loc[df[group_col] == group_name, value_col]", "compilation_passed": true, "time": 0.049751996994018555, "tests_passed": false, "error": "KeyError"}

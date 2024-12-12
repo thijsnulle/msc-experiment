@@ -1,0 +1,9 @@
+{"code": " df.loc[df.group == group]", "compilation_passed": true, "time": 0.13445210456848145, "tests_passed": true, "error": null}
+{"code": " df[df['group'] == group]", "compilation_passed": true, "time": 0.13041067123413086, "tests_passed": true, "error": null}
+{"code": " df.loc[df['group'] == group]", "compilation_passed": true, "time": 0.13144564628601074, "tests_passed": true, "error": null}
+{"code": " df.loc[df[\"group\"] == group]", "compilation_passed": true, "time": 0.13380885124206543, "tests_passed": true, "error": null}
+{"code": " df[df['group'] == group].sort_values('date')", "compilation_passed": true, "time": 0.13474297523498535, "tests_passed": true, "error": null}
+{"code": " df[df[\"group\"] == group]", "compilation_passed": true, "time": 0.13102006912231445, "tests_passed": true, "error": null}
+{"code": " df[df.group == group]", "compilation_passed": true, "time": 0.13330721855163574, "tests_passed": true, "error": null}
+{"code": " df.loc[df['group'] == group, [\"date\", \"value\"]]", "compilation_passed": true, "time": 0.1415700912475586, "tests_passed": true, "error": null}
+{"code": " df.query('group == @group')", "compilation_passed": true, "time": 0.1508941650390625, "tests_passed": true, "error": null}

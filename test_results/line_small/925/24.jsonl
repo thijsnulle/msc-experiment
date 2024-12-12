@@ -1,0 +1,18 @@
+{"code": " pd.DataFrame(np.random.randint(1, 101, (data_size, len(column_names))), columns=column_names)", "compilation_passed": true, "time": 0.0066869258880615234, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'A': np.random.randint(1, 100, data_size),", "compilation_passed": false, "time": 0.00016188621520996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0001430511474609375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.randint(1, 101, size=(data_size, len(column_names))),", "compilation_passed": false, "time": 0.00021219253540039062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.randint(1, 101, size=(data_size, len(column_names))))", "compilation_passed": true, "time": 0.005884885787963867, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(1, 100, (data_size, len(column_names))), columns=column_names)", "compilation_passed": true, "time": 0.006764650344848633, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00015211105346679688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({col: np.random.randint(1, 100, data_size) for col in column_names})", "compilation_passed": true, "time": 0.006400108337402344, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(1, 101, (data_size, len(column_names))),", "compilation_passed": false, "time": 0.00016427040100097656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.randint(1, 101, size=(data_size, len(column_names))), columns=column_names)", "compilation_passed": true, "time": 0.006225109100341797, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=np.random.randint(1, 101, size=(data_size, len(column_names))), columns=column_names)", "compilation_passed": true, "time": 0.005852222442626953, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(low=1, high=100, size=(data_size, len(column_names))),", "compilation_passed": false, "time": 0.00023174285888671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.0068700313568115234, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=np.random.randint(1, 100, (data_size, len(column_names))), columns=column_names)", "compilation_passed": true, "time": 0.006141185760498047, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(1, 101, size=(data_size, 5)), columns=column_names)", "compilation_passed": true, "time": 0.010283946990966797, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.random.randint(1, 100, size=(data_size, len(column_names))), columns=column_names)", "compilation_passed": true, "time": 0.006117820739746094, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(1, 100, (data_size, len(column_names))),", "compilation_passed": false, "time": 0.00016307830810546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({name: np.random.randint(1, 100, (data_size,)) for name in column_names})", "compilation_passed": true, "time": 0.006441354751586914, "tests_passed": true, "error": null}

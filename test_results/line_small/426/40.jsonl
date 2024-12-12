@@ -1,0 +1,7 @@
+{"code": "imwrite(image_path, binary_img)", "compilation_passed": true, "time": 0.01140904426574707, "tests_passed": true, "error": null}
+{"code": "imwrite('binary_image.jpg', binary_img)", "compilation_passed": true, "time": 0.006832122802734375, "tests_passed": true, "error": null}
+{"code": "imwrite(image_path[:-4] + '_binarized.jpg', binary_img)", "compilation_passed": true, "time": 0.010812997817993164, "tests_passed": true, "error": null}
+{"code": "imwrite(\"binary_image.jpg\", binary_img)", "compilation_passed": true, "time": 0.007487058639526367, "tests_passed": true, "error": null}
+{"code": "imwrite(f'{os.path.splitext(image_path)[0]}.jpg', binary_img)", "compilation_passed": true, "time": 0.013708829879760742, "tests_passed": true, "error": null}
+{"code": "imwrite(image_path[:-4]+\".jpg\", binary_img)", "compilation_passed": true, "time": 0.012757062911987305, "tests_passed": true, "error": null}
+{"code": "imwrite(image_path.replace('.jpg', '_binarized.jpg'), binary_img)", "compilation_passed": true, "time": 0.010812997817993164, "tests_passed": true, "error": null}

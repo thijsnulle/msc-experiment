@@ -1,0 +1,20 @@
+{"code": " re.sub(r'\\s+', ' ', text).strip()  # Remove multiple spaces", "compilation_passed": true, "time": 0.0023276805877685547, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)  # Normalize spaces", "compilation_passed": true, "time": 0.0016770362854003906, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)  # Remove double spaces", "compilation_passed": true, "time": 0.0019969940185546875, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text).strip()  # Replace multiple spaces with a single space", "compilation_passed": true, "time": 0.0016372203826904297, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)  # Combine multiple spaces to single spaces", "compilation_passed": true, "time": 0.0016942024230957031, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)  # Remove all whitespace", "compilation_passed": true, "time": 0.001965045928955078, "tests_passed": true, "error": null}
+{"code": " ' '.join(text.split())  # Remove extra spaces", "compilation_passed": true, "time": 0.0016407966613769531, "tests_passed": true, "error": null}
+{"code": " text.lower()", "compilation_passed": true, "time": 0.0019199848175048828, "tests_passed": true, "error": null}
+{"code": " text.lower()  # Convert text to lowercase", "compilation_passed": true, "time": 0.001967906951904297, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)  # Replace multiple spaces with single space", "compilation_passed": true, "time": 0.0019421577453613281, "tests_passed": true, "error": null}
+{"code": " text.lower().split()  # Lowercase and split into words", "compilation_passed": true, "time": 0.009172916412353516, "tests_passed": false, "error": "AttributeError"}
+{"code": " text.lower().strip().split()  # Split into words", "compilation_passed": true, "time": 0.009645938873291016, "tests_passed": false, "error": "AttributeError"}
+{"code": " text.lower()                  # Convert to lowercase", "compilation_passed": true, "time": 0.0015900135040283203, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text).strip()  # Remove double spaces", "compilation_passed": true, "time": 0.0016129016876220703, "tests_passed": true, "error": null}
+{"code": " text.lower()  # Convert to lowercase", "compilation_passed": true, "time": 0.0015919208526611328, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text).strip()  # Normalize spaces", "compilation_passed": true, "time": 0.0018050670623779297, "tests_passed": true, "error": null}
+{"code": " text.lower().strip()", "compilation_passed": true, "time": 0.0015702247619628906, "tests_passed": true, "error": null}
+{"code": " text.lower()                 # Convert to lowercase", "compilation_passed": true, "time": 0.0015611648559570312, "tests_passed": true, "error": null}
+{"code": " text.replace('\\n', ' ')  # Replace newlines with spaces", "compilation_passed": true, "time": 0.0019152164459228516, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)  # Replace multiple spaces with a single space", "compilation_passed": true, "time": 0.001750946044921875, "tests_passed": true, "error": null}

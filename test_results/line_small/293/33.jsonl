@@ -1,0 +1,6 @@
+{"code": " list(itertools.combinations(elements, subset_size))", "compilation_passed": true, "time": 0.036099910736083984, "tests_passed": true, "error": null}
+{"code": " itertools.combinations(elements, subset_size)", "compilation_passed": true, "time": 0.01392221450805664, "tests_passed": false, "error": "TypeError"}
+{"code": " []", "compilation_passed": true, "time": 0.005155801773071289, "tests_passed": false, "error": "ValueError"}
+{"code": " [list(combination) for combination in itertools.combinations(elements, subset_size)]", "compilation_passed": true, "time": 0.03833508491516113, "tests_passed": true, "error": null}
+{"code": " [subset for subset in itertools.combinations(elements, subset_size)]", "compilation_passed": true, "time": 0.0353548526763916, "tests_passed": true, "error": null}
+{"code": " [c for c in itertools.combinations(elements, subset_size)]", "compilation_passed": true, "time": 0.03527092933654785, "tests_passed": true, "error": null}

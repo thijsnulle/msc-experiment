@@ -1,0 +1,7 @@
+{"code": " df[df[column_name].str.contains(pattern, regex=False)]", "compilation_passed": true, "time": 0.020773887634277344, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].str.contains(pattern)]", "compilation_passed": true, "time": 0.020431995391845703, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].str.contains(pattern, flags=re.I)]", "compilation_passed": true, "time": 0.024651050567626953, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].str.contains(pattern, regex=False, flags=0)]  # Default behavior", "compilation_passed": true, "time": 0.02406597137451172, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].str.contains(pattern, regex=False, case=False)]", "compilation_passed": true, "time": 0.022160053253173828, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].str.contains(pattern, regex=True)]", "compilation_passed": true, "time": 0.021590232849121094, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].str.contains(pattern, flags=re.IGNORECASE)]", "compilation_passed": true, "time": 0.023326873779296875, "tests_passed": true, "error": null}

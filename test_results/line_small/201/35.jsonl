@@ -1,0 +1,21 @@
+{"code": " []", "compilation_passed": true, "time": 0.18126583099365234, "tests_passed": true, "error": null}
+{"code": " np.array(list(filter(lambda x: x > avg, data)))", "compilation_passed": true, "time": 0.01135110855102539, "tests_passed": false, "error": "NameError"}
+{"code": " np.greater(data, avg)", "compilation_passed": true, "time": 0.015552997589111328, "tests_passed": false, "error": "NameError"}
+{"code": " np.array(bisect.bisect_left(data, avg), dtype=int)", "compilation_passed": true, "time": 0.01162099838256836, "tests_passed": false, "error": "NameError"}
+{"code": " [i for i in data if i > avg]", "compilation_passed": true, "time": 0.2659587860107422, "tests_passed": true, "error": null}
+{"code": " np.array(bisect.bisect_right(data, avg, key=lambda x: x - value))", "compilation_passed": true, "time": 0.013146162033081055, "tests_passed": false, "error": "NameError"}
+{"code": " np.array([x for x in data if x > avg])", "compilation_passed": true, "time": 0.014235973358154297, "tests_passed": false, "error": "NameError"}
+{"code": " np.where(data > avg, data, np.nan)", "compilation_passed": true, "time": 0.013324975967407227, "tests_passed": false, "error": "NameError"}
+{"code": " data[data > avg]", "compilation_passed": true, "time": 0.28165316581726074, "tests_passed": true, "error": null}
+{"code": " numpy.array([d for d in data if d > avg])", "compilation_passed": true, "time": 0.012141942977905273, "tests_passed": false, "error": "NameError"}
+{"code": " numpy.array(bisect.bisect_left(data, avg, value=value))", "compilation_passed": true, "time": 0.018717050552368164, "tests_passed": false, "error": "NameError"}
+{"code": " np.array(", "compilation_passed": false, "time": 0.000225067138671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.array(bisect.bisect_left(data, value))", "compilation_passed": true, "time": 0.011277198791503906, "tests_passed": false, "error": "NameError"}
+{"code": " np.sort(data).tolist()", "compilation_passed": true, "time": 0.01772618293762207, "tests_passed": false, "error": "NameError"}
+{"code": " data[bisect.bisect_left(data, avg) :]", "compilation_passed": true, "time": 0.09800004959106445, "tests_passed": true, "error": null}
+{"code": " [v for v in data if v > avg]", "compilation_passed": true, "time": 0.2658200263977051, "tests_passed": true, "error": null}
+{"code": " np.where(data > avg)", "compilation_passed": true, "time": 0.010866880416870117, "tests_passed": false, "error": "NameError"}
+{"code": " [d for d in data if d > avg]", "compilation_passed": true, "time": 0.29486989974975586, "tests_passed": true, "error": null}
+{"code": " np.array(data[data > avg])", "compilation_passed": true, "time": 0.011356830596923828, "tests_passed": false, "error": "NameError"}
+{"code": " np.array([val for val in data if val > avg])", "compilation_passed": true, "time": 0.014433145523071289, "tests_passed": false, "error": "NameError"}
+{"code": " [value for value in data if value > avg]", "compilation_passed": true, "time": 0.25951528549194336, "tests_passed": true, "error": null}

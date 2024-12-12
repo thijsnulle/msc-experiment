@@ -1,0 +1,4 @@
+{"code": "end_headers()", "compilation_passed": true, "time": 0.01712822914123535, "tests_passed": true, "error": null}
+{"code": "send_header('Content-length', len(json.dumps(success_response)))", "compilation_passed": true, "time": 0.023569107055664062, "tests_passed": true, "error": null}
+{"code": "send_header('Content-Length', str(len(success_response)))", "compilation_passed": true, "time": 0.02206897735595703, "tests_passed": true, "error": null}
+{"code": "send_header('Access-Control-Allow-Origin', '*')", "compilation_passed": true, "time": 0.0242919921875, "tests_passed": true, "error": null}

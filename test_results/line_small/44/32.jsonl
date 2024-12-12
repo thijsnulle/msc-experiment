@@ -1,0 +1,8 @@
+{"code": " df.fillna(df.mean())", "compilation_passed": true, "time": 0.21529912948608398, "tests_passed": true, "error": null}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.05079817771911621, "tests_passed": true, "error": null}
+{"code": " df.fillna(df[df.columns[0]].mean())", "compilation_passed": true, "time": 0.04941916465759277, "tests_passed": true, "error": null}
+{"code": " df.replace({'c2': {'NaN': df['c2'].mean}})", "compilation_passed": true, "time": 0.04982805252075195, "tests_passed": true, "error": null}
+{"code": " df.fillna(df[df.columns].mean())", "compilation_passed": true, "time": 0.22338318824768066, "tests_passed": true, "error": null}
+{"code": " df.replace(np.nan,df.mean()).copy()", "compilation_passed": true, "time": 0.23770785331726074, "tests_passed": true, "error": null}
+{"code": " df.replace({np.nan: df[df.columns].mean()})", "compilation_passed": true, "time": 0.0507960319519043, "tests_passed": true, "error": null}
+{"code": " df.replace(np.nan, df.mean(axis=0), axis=0)", "compilation_passed": true, "time": 0.014085054397583008, "tests_passed": false, "error": "TypeError"}

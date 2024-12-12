@@ -1,0 +1,10 @@
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.03325486183166504, "tests_passed": true, "error": null}
+{"code": " None", "compilation_passed": true, "time": 0.04315018653869629, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.concat(", "compilation_passed": false, "time": 0.00013184547424316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=['Name', 'Age', 'Gender'])", "compilation_passed": true, "time": 0.012140035629272461, "tests_passed": true, "error": null}
+{"code": " pd.concat([pd.read_csv(os.path.join(data_dir, fname)) for fname in csv_files], axis=0)", "compilation_passed": true, "time": 0.014628171920776367, "tests_passed": true, "error": null}
+{"code": " pd.concat([pd.read_csv(os.path.join(data_dir, filename))", "compilation_passed": false, "time": 0.00014591217041015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.concat([pd.read_csv(os.path.join(data_dir, filename)) for filename in csv_files])", "compilation_passed": true, "time": 0.013080835342407227, "tests_passed": true, "error": null}
+{"code": " pd.concat([pd.read_csv(os.path.join(data_dir, file_name))", "compilation_passed": false, "time": 0.00014400482177734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.concat([pd.read_csv(os.path.join(data_dir, f), encoding='utf-8') for f in csv_files], ignore_index=True)", "compilation_passed": true, "time": 0.012037992477416992, "tests_passed": true, "error": null}
+{"code": " pd.concat([pd.read_csv(os.path.join(data_dir, f)) for f in csv_files], ignore_index=True)", "compilation_passed": true, "time": 0.01326608657836914, "tests_passed": true, "error": null}

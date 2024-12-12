@@ -1,0 +1,10 @@
+{"code": " np.array(l[:3])", "compilation_passed": true, "time": 0.004243135452270508, "tests_passed": true, "error": null}
+{"code": " np.array(l)", "compilation_passed": true, "time": 0.00140380859375, "tests_passed": true, "error": null}
+{"code": " np.asarray(l)", "compilation_passed": true, "time": 0.0012390613555908203, "tests_passed": true, "error": null}
+{"code": " np.array(l[:-3])", "compilation_passed": true, "time": 0.0045468807220458984, "tests_passed": true, "error": null}
+{"code": " np.array(l[3:])", "compilation_passed": true, "time": 0.004083871841430664, "tests_passed": true, "error": null}
+{"code": " np.array(l[3:] + l[:3])", "compilation_passed": true, "time": 0.0046231746673583984, "tests_passed": true, "error": null}
+{"code": " np.array(l[:3] + l[3:])  # Move the first 3 elements to the end of the array", "compilation_passed": true, "time": 0.001313924789428711, "tests_passed": true, "error": null}
+{"code": " np.array(l, dtype=object)", "compilation_passed": true, "time": 0.0014121532440185547, "tests_passed": true, "error": null}
+{"code": " np.array(l)  # Convert to numpy array", "compilation_passed": true, "time": 0.0014691352844238281, "tests_passed": true, "error": null}
+{"code": " np.array(l[:3] + l[3:])", "compilation_passed": true, "time": 0.0015349388122558594, "tests_passed": true, "error": null}

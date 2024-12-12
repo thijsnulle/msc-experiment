@@ -1,0 +1,10 @@
+{"code": " pd.read_csv(file_name)", "compilation_passed": true, "time": 0.14992499351501465, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(file_name, index_col=0)", "compilation_passed": true, "time": 0.031469106674194336, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.read_csv(file_name, sep=\";\")", "compilation_passed": true, "time": 0.021605968475341797, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(file_name, dtype={\"Name\": str, \"Age\": str, \"Salary\": str})", "compilation_passed": true, "time": 0.02277398109436035, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(file_name, dtype=\"string\")", "compilation_passed": true, "time": 0.022776126861572266, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(file_name, sep=\",\")", "compilation_passed": true, "time": 0.03416085243225098, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(file_name, header=0)", "compilation_passed": true, "time": 0.03454995155334473, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(file_name, index_col=0, header=0)", "compilation_passed": true, "time": 0.029841899871826172, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.read_csv(file_name, sep=';')", "compilation_passed": true, "time": 0.02073812484741211, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(file_name, sep=',', header=0, index_col=0)", "compilation_passed": true, "time": 0.029629945755004883, "tests_passed": false, "error": "KeyError"}

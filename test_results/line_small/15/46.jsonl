@@ -1,0 +1,9 @@
+{"code": " open(output_file, 'w') as f:", "compilation_passed": true, "time": 0.4006059169769287, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(command.split(), stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True) as process:", "compilation_passed": true, "time": 0.09647989273071289, "tests_passed": false, "error": "ValueError"}
+{"code": " open(output_file, 'w') as output:", "compilation_passed": true, "time": 0.020694971084594727, "tests_passed": false, "error": "ValueError"}
+{"code": " subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True) as proc:", "compilation_passed": true, "time": 0.10689496994018555, "tests_passed": false, "error": "ValueError"}
+{"code": " subprocess.Popen(command, shell=True, stdout=subprocess.PIPE,", "compilation_passed": false, "time": 0.0005462169647216797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE) as proc:", "compilation_passed": true, "time": 0.09877514839172363, "tests_passed": false, "error": "ValueError"}
+{"code": " subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE) as p:", "compilation_passed": true, "time": 0.08647704124450684, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " open(output_file, 'w') as out:", "compilation_passed": true, "time": 0.012674808502197266, "tests_passed": false, "error": "ValueError"}
+{"code": " subprocess.Popen(command,", "compilation_passed": false, "time": 0.0005469322204589844, "tests_passed": false, "error": "SyntaxError"}

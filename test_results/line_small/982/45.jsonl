@@ -1,0 +1,5 @@
+{"code": " ax.plot(x, norm.pdf(x, mu, std), 'r-', lw=5, alpha=0.6, label='normal')", "compilation_passed": true, "time": 0.038839101791381836, "tests_passed": false, "error": "ValueError"}
+{"code": " norm.pdf(x, mu, std)", "compilation_passed": true, "time": 1.9769032001495361, "tests_passed": false, "error": "TimeoutError"}
+{"code": " ax.plot(x, norm.pdf(x, mu, std), color=color, alpha=alpha)", "compilation_passed": true, "time": 0.037400245666503906, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.plot(x, norm.pdf(x, mu, std), color=color, label='Normal pdf')", "compilation_passed": true, "time": 0.03641319274902344, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.plot(x, norm.pdf(x, mu, std), color=color, linewidth=5, alpha=0.6)", "compilation_passed": true, "time": 0.037191152572631836, "tests_passed": false, "error": "ValueError"}

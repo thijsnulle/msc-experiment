@@ -1,0 +1,14 @@
+{"code": "headers[\"X-RateLimit-Remaining\"] == 0", "compilation_passed": true, "time": 0.001293182373046875, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": "status_code == 200", "compilation_passed": true, "time": 0.0013422966003417969, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": "status_code == 404", "compilation_passed": true, "time": 0.001461029052734375, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": "status_code != 200", "compilation_passed": true, "time": 0.001363992691040039, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": "ok", "compilation_passed": true, "time": 0.0017516613006591797, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": "headers[\"X-RateLimit-Remaining\"] == \"0\"", "compilation_passed": true, "time": 0.0013580322265625, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": "headers[\"X-RateLimit-Remaining\"] <= 1 and response.headers[\"X-RateLimit-Limit\"] < 2500", "compilation_passed": true, "time": 0.0012688636779785156, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": "url", "compilation_passed": true, "time": 0.0012712478637695312, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": "headers.get(\"X-RateLimit-Remaining\") == \"0\"", "compilation_passed": true, "time": 0.001360177993774414, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": "headers[\"X-RateLimit-Remaining\"] < 10", "compilation_passed": true, "time": 0.0012557506561279297, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": "headers[\"x-ratelimit-remaining\"] == \"0\"", "compilation_passed": true, "time": 0.0013430118560791016, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": "url == \"https://api.github.com/repos/psf/requests\"", "compilation_passed": true, "time": 0.0013151168823242188, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": "headers[\"x-ratelimit-remaining\"] <= 10", "compilation_passed": true, "time": 0.0013611316680908203, "tests_passed": false, "error": "No module named 'requests'"}
+{"code": "url.lower().startswith('https://api.github.com')", "compilation_passed": true, "time": 0.0013208389282226562, "tests_passed": false, "error": "No module named 'requests'"}

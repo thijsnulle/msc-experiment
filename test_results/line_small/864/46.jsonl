@@ -1,0 +1,8 @@
+{"code": " pd.DataFrame(fruits, columns=['fruit_name'])", "compilation_passed": true, "time": 0.010611295700073242, "tests_passed": true, "error": null}
+{"code": " list(fruits)", "compilation_passed": true, "time": 0.011255979537963867, "tests_passed": false, "error": "ValueError"}
+{"code": " set(fruits)", "compilation_passed": true, "time": 0.01127171516418457, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Series(fruits)", "compilation_passed": true, "time": 0.011695146560668945, "tests_passed": false, "error": "ValueError"}
+{"code": " list(set(fruits))  # get all unique fruits", "compilation_passed": true, "time": 0.009150028228759766, "tests_passed": true, "error": null}
+{"code": " np.unique(fruits)", "compilation_passed": true, "time": 0.00845956802368164, "tests_passed": true, "error": null}
+{"code": " np.array(fruits)", "compilation_passed": true, "time": 0.010844945907592773, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Fruit Name': fruits}, index=np.arange(0, len(fruits), 1))", "compilation_passed": true, "time": 0.008603096008300781, "tests_passed": true, "error": null}

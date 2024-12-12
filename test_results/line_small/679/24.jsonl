@@ -1,0 +1,24 @@
+{"code": " df.apply(", "compilation_passed": false, "time": 0.0001220703125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (df['item1'] + '|' + df['item2'] + '|' + df['item3'] + '|' + df['item4'] + '|' + df['item5']).map(tuple)", "compilation_passed": true, "time": 0.005684852600097656, "tests_passed": false, "error": "KeyError"}
+{"code": " df['item1'] + '-' + df['item2'] + '-' + df['item3'] + '-' + df['item4'] + '-' + df['item5']", "compilation_passed": true, "time": 0.0047419071197509766, "tests_passed": false, "error": "KeyError"}
+{"code": " df.apply(lambda x: tuple(x['item1'], x['item2'], x['item3'], x['item4'], x['item5']), axis=1)", "compilation_passed": true, "time": 0.007193088531494141, "tests_passed": false, "error": "TypeError"}
+{"code": " (", "compilation_passed": false, "time": 0.0001220703125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.apply(lambda row: ' '.join(row), axis=1)", "compilation_passed": true, "time": 0.004175901412963867, "tests_passed": false, "error": "KeyError"}
+{"code": " df.apply(lambda x: ','.join(x.item1, x.item2, x.item3, x.item4, x.item5), axis=1)", "compilation_passed": true, "time": 0.007052183151245117, "tests_passed": false, "error": "TypeError"}
+{"code": " ''", "compilation_passed": true, "time": 0.004104137420654297, "tests_passed": false, "error": "KeyError"}
+{"code": " df.apply(lambda row: ','.join(row.values.astype(str)), axis=1)", "compilation_passed": true, "time": 0.0041179656982421875, "tests_passed": false, "error": "KeyError"}
+{"code": " list(map(''.join, df.iloc[:, [0, 1, 2, 3, 4]].values))", "compilation_passed": true, "time": 0.00442194938659668, "tests_passed": false, "error": "KeyError"}
+{"code": " df['item1'] + '|' + df['item2'] + '|' + df['item3'] + '|' + df['item4'] + '|' + df['item5']", "compilation_passed": true, "time": 0.00458073616027832, "tests_passed": false, "error": "KeyError"}
+{"code": " df.apply(lambda x: tuple(x.values), axis=1)", "compilation_passed": true, "time": 0.005140066146850586, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda row: ','.join(map(str, row[['item1', 'item2', 'item3', 'item4', 'item5']])), axis=1)", "compilation_passed": true, "time": 0.00517725944519043, "tests_passed": false, "error": "KeyError"}
+{"code": " df.apply(lambda row: ', '.join(row[1:6]), axis=1)", "compilation_passed": true, "time": 0.0040798187255859375, "tests_passed": false, "error": "KeyError"}
+{"code": " df.apply(lambda row: tuple(sorted(row.loc[:, [col for col in row.columns if col in ['item1', 'item2', 'item3', 'item4', 'item5']])]), axis=1)", "compilation_passed": false, "time": 9.012222290039062e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [tuple(row) for row in zip(df.item1, df.item2, df.item3, df.item4, df.item5)]", "compilation_passed": true, "time": 0.004673957824707031, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00011014938354492188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df['item1'] + ' ' + df['item2'] + ' ' + df['item3'] + ' ' + df['item4'] + ' ' + df['item5']", "compilation_passed": true, "time": 0.004804134368896484, "tests_passed": false, "error": "KeyError"}
+{"code": " list(zip(df['item1'], df['item2'], df['item3'], df['item4'], df['item5']))", "compilation_passed": true, "time": 0.004807233810424805, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: str(tuple(x.values)), axis=1)", "compilation_passed": true, "time": 0.003988981246948242, "tests_passed": false, "error": "KeyError"}
+{"code": " df.apply(lambda row: tuple(sorted(row.iloc[:, :5].values.flatten())), axis=1)", "compilation_passed": true, "time": 0.009325981140136719, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " df['item1'] + df['item2'] + df['item3'] + df['item4'] + df['item5']", "compilation_passed": true, "time": 0.004731893539428711, "tests_passed": false, "error": "KeyError"}
+{"code": " df.apply(lambda row: ','.join(row.astype(str)), axis=1)", "compilation_passed": true, "time": 0.004393339157104492, "tests_passed": false, "error": "KeyError"}
+{"code": " df['item1'] + \"_\" + df['item2'] + \"_\" + df['item3'] + \"_\" + df['item4'] + \"_\" + df['item5']", "compilation_passed": true, "time": 0.004815101623535156, "tests_passed": false, "error": "KeyError"}

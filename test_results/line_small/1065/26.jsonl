@@ -1,0 +1,8 @@
+{"code": " []", "compilation_passed": true, "time": 0.04275798797607422, "tests_passed": false, "error": "ValueError"}
+{"code": " np.sum(arr, axis=1)", "compilation_passed": true, "time": 0.06285810470581055, "tests_passed": true, "error": null}
+{"code": " [np.sum(row) for row in arr]", "compilation_passed": true, "time": 0.06030893325805664, "tests_passed": true, "error": null}
+{"code": " np.apply_along_axis(np.sum, 1, arr)", "compilation_passed": true, "time": 0.06741809844970703, "tests_passed": true, "error": null}
+{"code": " np.sum(arr, axis=0)", "compilation_passed": true, "time": 0.022562026977539062, "tests_passed": true, "error": null}
+{"code": " [sum(row) for row in arr]", "compilation_passed": true, "time": 0.06331992149353027, "tests_passed": true, "error": null}
+{"code": " fftpack.dct(arr.sum(axis=1), type=2, n=arr.shape[1])", "compilation_passed": true, "time": 0.027039051055908203, "tests_passed": true, "error": null}
+{"code": " arr.sum(axis=1)", "compilation_passed": true, "time": 0.05798482894897461, "tests_passed": true, "error": null}

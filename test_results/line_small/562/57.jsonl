@@ -1,0 +1,28 @@
+{"code": " subprocess.check_output('pip --version'.split()).strip()", "compilation_passed": true, "time": 0.09562277793884277, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output([sys.executable, '-V']).decode('utf-8')", "compilation_passed": true, "time": 0.11354875564575195, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output([sys.executable, '-m', 'pip', '--version']).decode()", "compilation_passed": true, "time": 0.6176040172576904, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output(\"pip --version\", shell=True).decode().strip().split(\" \")", "compilation_passed": true, "time": 0.09754276275634766, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(\"pip list --format=columns\", shell=True).decode(\"utf-8\").strip()", "compilation_passed": true, "time": 0.10760712623596191, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(\"pip3 --version\").decode().strip()", "compilation_passed": true, "time": 0.07130098342895508, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output(['pip', '--version']).decode()", "compilation_passed": true, "time": 0.07346892356872559, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output(['pip', '--version']).decode().strip()", "compilation_passed": true, "time": 0.08090996742248535, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output('pip --version', shell=True).decode()", "compilation_passed": true, "time": 0.09391903877258301, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output([sys.executable, \"-m\", \"pip\", \"--version\"]).decode().strip()", "compilation_passed": true, "time": 0.5732998847961426, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output('pip --version'.split()).strip().decode('utf-8').strip()", "compilation_passed": true, "time": 0.07700085639953613, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output(\"python -V\", shell=True).decode('utf-8')", "compilation_passed": true, "time": 0.09025001525878906, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(['pip', '--version']).decode('utf-8').split()[1]", "compilation_passed": true, "time": 0.08153319358825684, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output(\"pip --version\").decode().strip()", "compilation_passed": true, "time": 0.07633686065673828, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output(", "compilation_passed": false, "time": 0.0005803108215332031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.check_output([sys.executable, \"-m\", \"pip\", \"--version\"]).decode().split(\"\\n\")[1].strip()", "compilation_passed": true, "time": 0.46198201179504395, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output([sys.executable, '-m', 'pip', '--version']).decode(\"utf-8\")", "compilation_passed": true, "time": 0.4608478546142578, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output(['pip', '--version'])", "compilation_passed": true, "time": 0.08254194259643555, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output(\"pip list --format=columns | head -n 1\").decode().strip()", "compilation_passed": true, "time": 0.08010983467102051, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output('python -m pip --version').decode('utf-8').strip()", "compilation_passed": true, "time": 0.07648396492004395, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output([sys.executable, \"-m\", \"pip\", \"--version\"]).decode()", "compilation_passed": true, "time": 0.45821690559387207, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output(['python', '-m', 'pip', '--version']).decode()", "compilation_passed": true, "time": 0.07817602157592773, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output('pip -v').decode(\"utf-8\").strip()", "compilation_passed": true, "time": 0.0783698558807373, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output([sys.executable, \"-m\", \"pip\", \"--version\"]).decode(\"utf-8\").strip()", "compilation_passed": true, "time": 0.464418888092041, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.run(['pip', '--version']).stdout.split(\"\\n\")[0].split()[1]", "compilation_passed": true, "time": 0.07576417922973633, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output(['pip', '--version']).decode('utf-8')", "compilation_passed": true, "time": 0.0821998119354248, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output([sys.executable, '-m', 'pip', '--version']).decode().strip()", "compilation_passed": true, "time": 0.405040979385376, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output('pip --version')", "compilation_passed": true, "time": 0.06655311584472656, "tests_passed": false, "error": "FileNotFoundError"}

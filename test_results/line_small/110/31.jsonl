@@ -1,0 +1,9 @@
+{"code": " not isinstance(df, pd.DataFrame) or not (\"Date\" and \"Sales\" in df.columns):", "compilation_passed": true, "time": 0.21381402015686035, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.0743708610534668, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or 'Date' not in df or 'Sales' not in df:", "compilation_passed": true, "time": 0.2331099510192871, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or \"Date\" not in df or \"Sales\" not in df:", "compilation_passed": true, "time": 0.24088406562805176, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 0.07865595817565918, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or df.empty:", "compilation_passed": true, "time": 0.07261013984680176, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or not (df['Date'].dtype == 'datetime64[ns]') or not (df['Sales'].dtype == 'int'):", "compilation_passed": true, "time": 0.012266874313354492, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(df, pd.core.generic.NDFrame) and ('Date' in df.columns) and ('Sales' in df.columns):", "compilation_passed": true, "time": 0.013069629669189453, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df, pd.DataFrame) or 'Date' not in df.columns or 'Sales' not in df.columns:", "compilation_passed": true, "time": 0.23953509330749512, "tests_passed": true, "error": null}

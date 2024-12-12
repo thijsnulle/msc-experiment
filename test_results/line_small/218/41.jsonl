@@ -1,0 +1,9 @@
+{"code": " set(FEATURES)", "compilation_passed": true, "time": 0.08617424964904785, "tests_passed": true, "error": null}
+{"code": " [FEATURES, TARGET]", "compilation_passed": true, "time": 0.01125025749206543, "tests_passed": false, "error": "TypeError"}
+{"code": " FEATURES + [TARGET]", "compilation_passed": true, "time": 0.08093905448913574, "tests_passed": true, "error": null}
+{"code": " [TARGET] + FEATURES", "compilation_passed": true, "time": 0.08631134033203125, "tests_passed": true, "error": null}
+{"code": " set(FEATURES + [TARGET])", "compilation_passed": true, "time": 0.08112692832946777, "tests_passed": true, "error": null}
+{"code": " [TARGET] + list(FEATURES)", "compilation_passed": true, "time": 0.08133721351623535, "tests_passed": true, "error": null}
+{"code": " [FEATURES[i] for i in range(len(FEATURES))] + [TARGET]", "compilation_passed": true, "time": 0.0840141773223877, "tests_passed": true, "error": null}
+{"code": " [FEATURES[i] for i in range(len(FEATURES))]", "compilation_passed": true, "time": 0.08535122871398926, "tests_passed": true, "error": null}
+{"code": " [FEATURES[0], TARGET]", "compilation_passed": true, "time": 0.08156228065490723, "tests_passed": false, "error": "KeyError"}

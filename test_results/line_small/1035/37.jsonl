@@ -1,0 +1,14 @@
+{"code": " pd.DataFrame({'feature': feature, 'target': target})", "compilation_passed": true, "time": 0.01996326446533203, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=[feature, target]).T", "compilation_passed": true, "time": 0.012896060943603516, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'x': feature, 'y': target})", "compilation_passed": true, "time": 0.02085566520690918, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"feature\": feature, \"target\": target})", "compilation_passed": true, "time": 0.018945932388305664, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0002338886260986328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'target': target, 'feature': feature})", "compilation_passed": true, "time": 0.020356178283691406, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data={\"feature\": feature, \"target\": target})", "compilation_passed": true, "time": 0.01974010467529297, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"x\": feature, \"y\": target})", "compilation_passed": true, "time": 0.019409894943237305, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data={'feature': feature, 'target': target})", "compilation_passed": true, "time": 0.025145292282104492, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(feature.values, columns=[\"feature\"])", "compilation_passed": true, "time": 0.023848295211791992, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"feature\": feature})", "compilation_passed": true, "time": 0.026365995407104492, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00018906593322753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(feature)", "compilation_passed": true, "time": 0.024161100387573242, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"target\": target, \"feature\": feature})", "compilation_passed": true, "time": 0.050743818283081055, "tests_passed": false, "error": "KeyError"}

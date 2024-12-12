@@ -1,0 +1,6 @@
+{"code": " col1 not in df.columns or col2 not in df.columns:", "compilation_passed": true, "time": 0.027079105377197266, "tests_passed": true, "error": null}
+{"code": " (col1 not in df.columns) or (col2 not in df.columns):", "compilation_passed": true, "time": 0.02827620506286621, "tests_passed": true, "error": null}
+{"code": " col1 not in df.columns:", "compilation_passed": true, "time": 0.026774883270263672, "tests_passed": true, "error": null}
+{"code": " col1 not in df or col2 not in df:", "compilation_passed": true, "time": 0.02668595314025879, "tests_passed": true, "error": null}
+{"code": " not any([col1 in df, col2 in df]):", "compilation_passed": true, "time": 0.026894092559814453, "tests_passed": true, "error": null}
+{"code": " (col1 not in df) or (col2 not in df):", "compilation_passed": true, "time": 0.026821136474609375, "tests_passed": true, "error": null}

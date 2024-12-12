@@ -1,0 +1,15 @@
+{"code": "set_xlabel('Word Length')", "compilation_passed": true, "time": 0.4708092212677002, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Word length\")", "compilation_passed": true, "time": 0.524529218673706, "tests_passed": true, "error": null}
+{"code": "set_xticks(bins)", "compilation_passed": true, "time": 0.5216131210327148, "tests_passed": true, "error": null}
+{"code": "grid(True)", "compilation_passed": true, "time": 0.4718441963195801, "tests_passed": true, "error": null}
+{"code": "set_title('Histogram of word lengths')", "compilation_passed": true, "time": 0.609450101852417, "tests_passed": true, "error": null}
+{"code": "set_xticks([0.5 * b for b in bins[1:-1]])", "compilation_passed": true, "time": 0.607712984085083, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Length')", "compilation_passed": true, "time": 0.6161849498748779, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Length of Words')", "compilation_passed": true, "time": 0.565438985824585, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(bins[0], bins[-1] + 1, 2))", "compilation_passed": true, "time": 0.13918280601501465, "tests_passed": false, "error": "IndexError"}
+{"code": "set_xlabel('Word length')", "compilation_passed": true, "time": 0.5447380542755127, "tests_passed": true, "error": null}
+{"code": "set_xticks([bin_start - 0.5 for bin_start in bins])", "compilation_passed": true, "time": 0.6749660968780518, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"word length\")", "compilation_passed": true, "time": 0.6205401420593262, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Length of words')", "compilation_passed": true, "time": 0.6725959777832031, "tests_passed": true, "error": null}
+{"code": "set_ylabel('Number of Words')", "compilation_passed": true, "time": 0.6003611087799072, "tests_passed": true, "error": null}
+{"code": "set_xticks(bins)  # Set x-axis ticks to match bin values", "compilation_passed": true, "time": 0.73655104637146, "tests_passed": true, "error": null}

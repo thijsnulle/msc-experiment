@@ -1,0 +1,18 @@
+{"code": " pd.Series(data[col1]).value_counts().size == 1 or pd.Series(data[col2]).value_counts().size == 1:", "compilation_passed": true, "time": 0.024886131286621094, "tests_passed": true, "error": null}
+{"code": " len(pd.unique(data[col1])) < 2 or len(pd.unique(data[col2])) < 2:", "compilation_passed": true, "time": 0.021652936935424805, "tests_passed": true, "error": null}
+{"code": " len(set(data[col1])) == 1 or len(set(data[col2])) == 1:", "compilation_passed": true, "time": 0.02167797088623047, "tests_passed": true, "error": null}
+{"code": " len(data[col1].unique()) == 1 or len(data[col2].unique()) == 1:", "compilation_passed": true, "time": 0.022352933883666992, "tests_passed": true, "error": null}
+{"code": " (data[col1].nunique() <= 1) or (data[col2].nunique() <= 1):", "compilation_passed": true, "time": 0.021884918212890625, "tests_passed": true, "error": null}
+{"code": " data[col1].nunique() < 2 or data[col2].nunique() < 2:", "compilation_passed": true, "time": 0.021981000900268555, "tests_passed": true, "error": null}
+{"code": " data[col1].nunique() == 1 or data[col2].nunique() == 1:", "compilation_passed": true, "time": 0.021550893783569336, "tests_passed": true, "error": null}
+{"code": " (data[col1].nunique() == 1) or (data[col2].nunique() == 1):", "compilation_passed": true, "time": 0.022264957427978516, "tests_passed": true, "error": null}
+{"code": " len(data[col1].unique()) == 1:", "compilation_passed": true, "time": 0.021456003189086914, "tests_passed": true, "error": null}
+{"code": " len(data[col1].unique()) <= 1 or len(data[col2].unique()) <= 1:", "compilation_passed": true, "time": 0.02236318588256836, "tests_passed": true, "error": null}
+{"code": " np.unique(data[col1]).size == 1 or np.unique(data[col2]).size == 1:", "compilation_passed": true, "time": 0.021536827087402344, "tests_passed": true, "error": null}
+{"code": " len(set(data[col1].values)) == 1 or len(set(data[col2].values)) == 1:", "compilation_passed": true, "time": 0.021155118942260742, "tests_passed": true, "error": null}
+{"code": " len(np.unique(data[col1])) == 1 or len(np.unique(data[col2])) == 1:", "compilation_passed": true, "time": 0.021913766860961914, "tests_passed": true, "error": null}
+{"code": " data[col1].nunique() <= 1 or data[col2].nunique() <= 1:", "compilation_passed": true, "time": 0.02328205108642578, "tests_passed": true, "error": null}
+{"code": " len(pd.unique(data[col1])) == 1 or len(pd.unique(data[col2])) == 1:", "compilation_passed": true, "time": 0.021695852279663086, "tests_passed": true, "error": null}
+{"code": " len(data[col1].unique()) < 2 or len(data[col2].unique()) < 2:", "compilation_passed": true, "time": 0.022001028060913086, "tests_passed": true, "error": null}
+{"code": " (data[col1].value_counts().shape[0] == 1) or (data[col2].value_counts().shape[0] == 1):", "compilation_passed": true, "time": 0.02318286895751953, "tests_passed": true, "error": null}
+{"code": " data[col1].nunique() < 5 or data[col2].nunique() < 5:", "compilation_passed": true, "time": 0.009907960891723633, "tests_passed": false, "error": "ValueError"}

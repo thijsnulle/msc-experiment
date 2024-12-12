@@ -1,0 +1,26 @@
+{"code": " [datetime.time(randint(0, 23), randint(0, 59), randint(0, 59))] + [randint(1, 4) for _ in VEHICLE_TYPES]", "compilation_passed": true, "time": 0.003313779830932617, "tests_passed": false, "error": "AttributeError"}
+{"code": " [str(i)]", "compilation_passed": true, "time": 0.002810955047607422, "tests_passed": false, "error": "AttributeError"}
+{"code": " ['{}-{:02}-{:02}'.format(datetime.now().year, datetime.now().month, datetime.now().day),", "compilation_passed": false, "time": 0.00025391578674316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ['{}:{}'.format(i, j) for j in range(60)]", "compilation_passed": true, "time": 0.0031969547271728516, "tests_passed": false, "error": "AttributeError"}
+{"code": " [f\"{datetime.now().strftime('%H:%M')}\"]", "compilation_passed": true, "time": 0.0027670860290527344, "tests_passed": false, "error": "AttributeError"}
+{"code": " ['{0:02d}:{1:02d}'.format(i, randint(0, 59))] + [0] * len(VEHICLE_TYPES)", "compilation_passed": true, "time": 0.0029098987579345703, "tests_passed": false, "error": "AttributeError"}
+{"code": " ['{}:0{}'.format(i, randint(0, 59))] + [randint(0, 99) for _ in range(len(VEHICLE_TYPES))]", "compilation_passed": true, "time": 0.002805948257446289, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.003025054931640625, "tests_passed": false, "error": "AttributeError"}
+{"code": " [datetime.strftime(datetime.now() + datetime.timedelta(hours=i), \"%H:%M\")]", "compilation_passed": true, "time": 0.0028023719787597656, "tests_passed": false, "error": "AttributeError"}
+{"code": " [datetime.time(i)]", "compilation_passed": true, "time": 0.0030448436737060547, "tests_passed": false, "error": "AttributeError"}
+{"code": " ['{0}:{1:0>2}'.format(i, randint(0, 23))] + [randint(1, 100)", "compilation_passed": false, "time": 0.0002720355987548828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ['{}:{}'.format(str(datetime.now().hour).zfill(2), str(datetime.now().minute).zfill(2))]", "compilation_passed": true, "time": 0.002630949020385742, "tests_passed": false, "error": "AttributeError"}
+{"code": " [datetime.now().strftime('%H:%M:%S')]", "compilation_passed": true, "time": 0.0030670166015625, "tests_passed": false, "error": "AttributeError"}
+{"code": " ['{}:{}'.format(i,j) for j in range(1000)]", "compilation_passed": true, "time": 0.002622842788696289, "tests_passed": false, "error": "AttributeError"}
+{"code": " ['%02d:%02d' % (i, j) for j in range(60)]", "compilation_passed": true, "time": 0.003118753433227539, "tests_passed": false, "error": "AttributeError"}
+{"code": " ['{}:00'.format(i + 1)]", "compilation_passed": true, "time": 0.002660989761352539, "tests_passed": false, "error": "AttributeError"}
+{"code": " ['%d:00' % (i + 1)]", "compilation_passed": true, "time": 0.003033876419067383, "tests_passed": false, "error": "AttributeError"}
+{"code": " [f'{datetime.now().strftime(\"%H:%M\")}']", "compilation_passed": true, "time": 0.002650022506713867, "tests_passed": false, "error": "AttributeError"}
+{"code": " ['{0:02d:00}'.format(i)]", "compilation_passed": true, "time": 0.0031931400299072266, "tests_passed": false, "error": "AttributeError"}
+{"code": " ['{:.2f}:00']", "compilation_passed": true, "time": 0.00298309326171875, "tests_passed": false, "error": "AttributeError"}
+{"code": " [datetime.now().strftime(\"%H:%M\")] + [randint(0, 100000) for _ in VEHICLE_TYPES]", "compilation_passed": true, "time": 0.0027010440826416016, "tests_passed": false, "error": "AttributeError"}
+{"code": " [datetime.now()]", "compilation_passed": true, "time": 0.002641916275024414, "tests_passed": false, "error": "AttributeError"}
+{"code": " ['{}:00'.format(str(i).zfill(2))] + [randint(10, 100) for _ in VEHICLE_TYPES]", "compilation_passed": true, "time": 0.0026786327362060547, "tests_passed": false, "error": "AttributeError"}
+{"code": " [i]", "compilation_passed": true, "time": 0.0031838417053222656, "tests_passed": false, "error": "AttributeError"}
+{"code": " [f\"{datetime.now() + timedelta(hours=i + 1)}\"]", "compilation_passed": true, "time": 0.002847909927368164, "tests_passed": false, "error": "AttributeError"}
+{"code": " [f'{datetime.now() + timedelta(hours=i)}']", "compilation_passed": true, "time": 0.002694845199584961, "tests_passed": false, "error": "AttributeError"}

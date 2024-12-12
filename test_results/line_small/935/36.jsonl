@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame(columns=['Letter', 'Position'])", "compilation_passed": true, "time": 0.0033159255981445312, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_parser_CAPI' (most likely due to a circular import)"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.0032951831817626953, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_parser_CAPI' (most likely due to a circular import)"}
+{"code": " pd.DataFrame({'Letter': [], 'Position': []})", "compilation_passed": true, "time": 0.0034186840057373047, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=['Letter', 'Position'], index=[])", "compilation_passed": true, "time": 0.005639314651489258, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({})", "compilation_passed": true, "time": 0.004685878753662109, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=[\"Letter\", \"Position\"])", "compilation_passed": true, "time": 0.005588054656982422, "tests_passed": true, "error": null}

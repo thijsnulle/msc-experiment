@@ -1,0 +1,7 @@
+{"code": " age_counts.most_common(1)[0][0]", "compilation_passed": true, "time": 0.018197059631347656, "tests_passed": false, "error": "IndexError"}
+{"code": " age_counts.most_common(1)[0][0] if age_counts else None", "compilation_passed": true, "time": 0.011106014251708984, "tests_passed": true, "error": null}
+{"code": " max(age_counts, key=age_counts.get) if age_counts else None", "compilation_passed": true, "time": 0.012004852294921875, "tests_passed": true, "error": null}
+{"code": " age_counts.most_common(1)", "compilation_passed": true, "time": 0.010658025741577148, "tests_passed": true, "error": null}
+{"code": " age_counts.most_common(1)[0][0] if len(age_counts) > 0 else None", "compilation_passed": true, "time": 0.009751081466674805, "tests_passed": true, "error": null}
+{"code": " max(age_counts, key=age_counts.get)", "compilation_passed": true, "time": 0.017879962921142578, "tests_passed": false, "error": "ValueError"}
+{"code": " int(age_counts.most_common(1)[0][0]) if len(age_counts) else None", "compilation_passed": true, "time": 0.009940862655639648, "tests_passed": true, "error": null}

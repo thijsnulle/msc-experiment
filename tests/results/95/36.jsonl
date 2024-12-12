@@ -1,0 +1,11 @@
+{"code": " categories is None or months is None:", "compilation_passed": true, "time": 0.004884004592895508, "tests_passed": true, "error": null}
+{"code": " categories is None or len(categories) == 0:", "compilation_passed": true, "time": 0.007131099700927734, "tests_passed": true, "error": null}
+{"code": " categories is None:", "compilation_passed": true, "time": 0.0070879459381103516, "tests_passed": true, "error": null}
+{"code": " not (categories or months):", "compilation_passed": true, "time": 0.006987094879150391, "tests_passed": true, "error": null}
+{"code": " not (categories and months):", "compilation_passed": true, "time": 0.006486177444458008, "tests_passed": true, "error": null}
+{"code": " not isinstance(random_seed, int):", "compilation_passed": true, "time": 0.00726008415222168, "tests_passed": false, "error": "ValueError"}
+{"code": " (categories is None or months is None):", "compilation_passed": true, "time": 0.006157875061035156, "tests_passed": true, "error": null}
+{"code": " not categories:", "compilation_passed": true, "time": 0.006927967071533203, "tests_passed": true, "error": null}
+{"code": " (categories is None or months is None) or len(categories) == 0 or len(months) == 0:", "compilation_passed": true, "time": 0.007943868637084961, "tests_passed": true, "error": null}
+{"code": " not categories or not months:", "compilation_passed": true, "time": 0.008015155792236328, "tests_passed": true, "error": null}
+{"code": " categories is None or not all(isinstance(c, str) for c in categories):", "compilation_passed": true, "time": 0.009038209915161133, "tests_passed": true, "error": null}

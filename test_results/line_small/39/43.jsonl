@@ -1,0 +1,9 @@
+{"code": " []", "compilation_passed": true, "time": 0.02682018280029297, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.where(p_value < ALPHA)[0]", "compilation_passed": true, "time": 0.08528900146484375, "tests_passed": true, "error": null}
+{"code": " [i for i in range(len(means)) if p_value[i] < ALPHA]", "compilation_passed": true, "time": 0.016710281372070312, "tests_passed": false, "error": "IndexError"}
+{"code": " np.where(p_value < ALPHA)", "compilation_passed": true, "time": 0.03714394569396973, "tests_passed": false, "error": "ValueError"}
+{"code": " [i for i, p in enumerate(p_value) if p < ALPHA]", "compilation_passed": true, "time": 0.013792276382446289, "tests_passed": false, "error": "TypeError"}
+{"code": " [i for i, mean in enumerate(means) if p_value < ALPHA]", "compilation_passed": true, "time": 0.026980161666870117, "tests_passed": false, "error": "AttributeError"}
+{"code": " [i for i in range(len(means)) if p_value < ALPHA]", "compilation_passed": true, "time": 0.026408910751342773, "tests_passed": false, "error": "AttributeError"}
+{"code": " [idx for idx, value in enumerate(p_value) if value < ALPHA]", "compilation_passed": true, "time": 0.01393890380859375, "tests_passed": false, "error": "TypeError"}
+{"code": " [i for i, mean in enumerate(means) if p_value < ALPHA and i != 0]", "compilation_passed": true, "time": 0.03036808967590332, "tests_passed": false, "error": "AttributeError"}

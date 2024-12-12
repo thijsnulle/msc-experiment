@@ -1,0 +1,15 @@
+{"code": "plot(bins, model.fittedvalues, linewidth=2, color='g')", "compilation_passed": false, "time": 0.00038695335388183594, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(bins, model.resid, linewidth=2, color='g')", "compilation_passed": false, "time": 0.0003349781036376953, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(bins, model.fittedvalues, color='g')", "compilation_passed": false, "time": 0.00038504600524902344, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(model.params[1], model.params[2], linewidth=2, color='g')", "compilation_passed": false, "time": 0.000347137451171875, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(bins, model.fittedvalues, '-', color='g')", "compilation_passed": false, "time": 0.00043702125549316406, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(bins, model.predict(pd.DataFrame({'bins': bins})), color='g')", "compilation_passed": false, "time": 0.0004229545593261719, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(", "compilation_passed": true, "time": 0.004422903060913086, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": "plot(bins, model.predict(bins), linewidth=2, color='g')", "compilation_passed": false, "time": 0.00036716461181640625, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(model.fittedvalues, linewidth=1, color='g')", "compilation_passed": false, "time": 0.00034999847412109375, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(bins, model.predict(dict(bins=bins)), 'g-', linewidth=2)", "compilation_passed": false, "time": 0.0003528594970703125, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(bins, model.fittedvalues, 'g-')", "compilation_passed": false, "time": 0.0003688335418701172, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(bins, model.predict(model.get_xdata()), color='g', linewidth=2)", "compilation_passed": false, "time": 0.00037026405334472656, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(bins, model.predict(model.params), linewidth=2, color='g')", "compilation_passed": false, "time": 0.000370025634765625, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(bins, model.fit_intercept + model.fit_slope * bins, 'g-')", "compilation_passed": false, "time": 0.00032591819763183594, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(model.summary().tables[1][1][:, 0], model.summary().tables[1][1][:, 1], color='g')", "compilation_passed": false, "time": 0.00034809112548828125, "tests_passed": false, "error": "IndentationError"}

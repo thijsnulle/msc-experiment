@@ -1,0 +1,5 @@
+{"code": " func(x_data, *params)", "compilation_passed": true, "time": 0.09822297096252441, "tests_passed": true, "error": null}
+{"code": " func(np.linspace(x_data.min(), x_data.max(), 100), *params)", "compilation_passed": true, "time": 0.015504121780395508, "tests_passed": true, "error": null}
+{"code": " func(np.array(x_data), *params)", "compilation_passed": true, "time": 0.10465812683105469, "tests_passed": true, "error": null}
+{"code": " func(np.linspace(x_data[0], x_data[-1], len(x_data)), *params)", "compilation_passed": true, "time": 0.09822297096252441, "tests_passed": true, "error": null}
+{"code": " func(x_data, params[0], params[1])", "compilation_passed": true, "time": 0.0965418815612793, "tests_passed": true, "error": null}

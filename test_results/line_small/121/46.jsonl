@@ -1,0 +1,9 @@
+{"code": "append(pd.Series(sales, name=category))", "compilation_passed": true, "time": 0.030557870864868164, "tests_passed": true, "error": null}
+{"code": "append([category, sales])", "compilation_passed": true, "time": 0.10459780693054199, "tests_passed": true, "error": null}
+{"code": "append({'Category': category, 'Sales': sales})", "compilation_passed": true, "time": 0.11142492294311523, "tests_passed": true, "error": null}
+{"code": "append(sales)", "compilation_passed": true, "time": 0.010258913040161133, "tests_passed": false, "error": "ValueError"}
+{"code": "append((category, sales))", "compilation_passed": true, "time": 0.1116940975189209, "tests_passed": true, "error": null}
+{"code": "append(pd.DataFrame({'Category': [category], 'Sales': [sales]}))", "compilation_passed": true, "time": 0.011485815048217773, "tests_passed": false, "error": "ValueError"}
+{"code": "append({", "compilation_passed": false, "time": 0.000270843505859375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append(pd.Series({'Category': category, 'Sales': sales}))", "compilation_passed": true, "time": 0.11759805679321289, "tests_passed": true, "error": null}
+{"code": "append(dict(Category=category, Sales=sales))", "compilation_passed": true, "time": 0.10840773582458496, "tests_passed": true, "error": null}

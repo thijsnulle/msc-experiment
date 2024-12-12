@@ -1,0 +1,19 @@
+{"code": " []", "compilation_passed": true, "time": 0.013540983200073242, "tests_passed": false, "error": "ValueError"}
+{"code": " statistics.mean(numbers)", "compilation_passed": true, "time": 0.2135932445526123, "tests_passed": true, "error": null}
+{"code": " [statistics.mean(numbers[i:i+5]) for i in range(SIZE)]", "compilation_passed": true, "time": 0.24476122856140137, "tests_passed": true, "error": null}
+{"code": " [statistics.mean(numbers[i - 5:i + 1]) for i in range(5, SIZE)]", "compilation_passed": true, "time": 0.018091917037963867, "tests_passed": false, "error": "ValueError"}
+{"code": " [statistics.mean(numbers[i:i + 5]) for i in range(SIZE - 4)]", "compilation_passed": true, "time": 0.019739866256713867, "tests_passed": false, "error": "ValueError"}
+{"code": " [statistics.mean(numbers[i:i + 5]) for i in range(len(numbers) - 4)]", "compilation_passed": true, "time": 0.019257068634033203, "tests_passed": false, "error": "ValueError"}
+{"code": " [statistics.mean(numbers[i : i + 5]) for i in range(SIZE - 5)]", "compilation_passed": true, "time": 0.019609928131103516, "tests_passed": false, "error": "ValueError"}
+{"code": " statistics.mean(numbers[:5])", "compilation_passed": true, "time": 0.24675202369689941, "tests_passed": true, "error": null}
+{"code": " [statistics.mean(numbers[i:i + 6]) for i in range(len(numbers) - 5)]", "compilation_passed": true, "time": 0.02365398406982422, "tests_passed": false, "error": "ValueError"}
+{"code": " [statistics.mean(numbers[max(0, i - 5):i + 1]) for i in range(SIZE)]", "compilation_passed": true, "time": 0.39681315422058105, "tests_passed": true, "error": null}
+{"code": " [statistics.mean(numbers[i : i + 6]) for i in range(SIZE - 5)]", "compilation_passed": true, "time": 0.023354768753051758, "tests_passed": false, "error": "ValueError"}
+{"code": " [statistics.mean(numbers[max(i - 5, 0):i + 1]) for i in range(SIZE)]", "compilation_passed": true, "time": 0.3386268615722656, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Random Numbers': numbers, 'Moving Average': pd.rolling_mean(numbers, window=5)})", "compilation_passed": true, "time": 0.006261110305786133, "tests_passed": false, "error": "AttributeError"}
+{"code": " [statistics.mean(numbers[max(i-5, 0):i+1]) for i in range(5, SIZE)]", "compilation_passed": true, "time": 0.019736766815185547, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 0.000370025634765625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [statistics.mean(numbers[i : i + 5]) for i in range(len(numbers) - 4)]", "compilation_passed": true, "time": 0.01782512664794922, "tests_passed": false, "error": "ValueError"}
+{"code": " [statistics.mean(numbers[i : i + 5]) for i in range(0, SIZE - 5)]", "compilation_passed": true, "time": 0.01660323143005371, "tests_passed": false, "error": "ValueError"}
+{"code": " [statistics.mean(numbers[i:i+5]) for i in range(SIZE-4)]", "compilation_passed": true, "time": 0.01686716079711914, "tests_passed": false, "error": "ValueError"}
+{"code": " [statistics.mean(numbers[i:i + 6]) for i in range(SIZE - 5)]", "compilation_passed": true, "time": 0.017216920852661133, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,11 @@
+{"code": " pd.DataFrame(0, index=range(5), columns=['Team', 'Score'])", "compilation_passed": true, "time": 0.011850833892822266, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.2903738021850586, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=[\"Team\", \"Score\"])", "compilation_passed": true, "time": 0.011159896850585938, "tests_passed": false, "error": "AttributeError"}
+{"code": " [['Team {0}'.format(team_name),", "compilation_passed": false, "time": 0.0004916191101074219, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0003750324249267578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(TEAMS, columns=['Team'])", "compilation_passed": true, "time": 0.01807689666748047, "tests_passed": false, "error": "AttributeError"}
+{"code": " {team: goals[team] - penalties[team] for team in TEAMS}", "compilation_passed": true, "time": 0.01839303970336914, "tests_passed": false, "error": "AttributeError"}
+{"code": " {", "compilation_passed": false, "time": 0.0019690990447998047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(team, goals[team] - penalties[team]) for team in TEAMS]", "compilation_passed": true, "time": 0.08754897117614746, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict({team: goals[team] - penalties[team] for team in TEAMS})", "compilation_passed": true, "time": 0.021535158157348633, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.0058519840240478516, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,27 @@
+{"code": " converted_col.is_monotonic_increasing:", "compilation_passed": true, "time": 0.007906913757324219, "tests_passed": true, "error": null}
+{"code": " not converted_col.empty:", "compilation_passed": true, "time": 0.013252019882202148, "tests_passed": true, "error": null}
+{"code": " not isinstance(converted_col.dtype, pd.SparseDtype):", "compilation_passed": true, "time": 0.013695955276489258, "tests_passed": true, "error": null}
+{"code": " pd.isna(converted_col).any():", "compilation_passed": true, "time": 0.012925148010253906, "tests_passed": true, "error": null}
+{"code": " not converted_col.isna().any():", "compilation_passed": true, "time": 0.008826017379760742, "tests_passed": true, "error": null}
+{"code": " converted_col.dtype in [int, float]:", "compilation_passed": true, "time": 0.01308298110961914, "tests_passed": true, "error": null}
+{"code": " converted_col.dtype == np.object:", "compilation_passed": true, "time": 0.007713794708251953, "tests_passed": false, "error": "NameError"}
+{"code": " not converted_col.dtypes.name == \"object\":", "compilation_passed": true, "time": 0.012936830520629883, "tests_passed": true, "error": null}
+{"code": " not np.isnan(converted_col):", "compilation_passed": true, "time": 0.007592916488647461, "tests_passed": false, "error": "NameError"}
+{"code": " isinstance(converted_col, pd.Series):", "compilation_passed": true, "time": 0.014098882675170898, "tests_passed": true, "error": null}
+{"code": " converted_col.dtype.kind == \"O\":", "compilation_passed": true, "time": 0.007454395294189453, "tests_passed": true, "error": null}
+{"code": " (converted_col.dtype == np.int64) or (converted_col.dtype == np.float64):", "compilation_passed": true, "time": 0.0075261592864990234, "tests_passed": false, "error": "NameError"}
+{"code": " not converted_col.is_valid():", "compilation_passed": true, "time": 0.007591962814331055, "tests_passed": false, "error": "AttributeError"}
+{"code": " not isinstance(converted_col, pd.Series):", "compilation_passed": true, "time": 0.006585836410522461, "tests_passed": true, "error": null}
+{"code": " converted_col.dtype == float:", "compilation_passed": true, "time": 0.01300358772277832, "tests_passed": true, "error": null}
+{"code": " isinstance(converted_col, pd.core.arrays.IntegerArray):", "compilation_passed": true, "time": 0.006480216979980469, "tests_passed": true, "error": null}
+{"code": " not pd.isnull(converted_col).all():", "compilation_passed": true, "time": 0.014446020126342773, "tests_passed": true, "error": null}
+{"code": " isinstance(converted_col.iloc[0], np.number):", "compilation_passed": true, "time": 0.009032964706420898, "tests_passed": false, "error": "NameError"}
+{"code": " not pd.isnull(converted_col).any():", "compilation_passed": true, "time": 0.007215023040771484, "tests_passed": true, "error": null}
+{"code": " converted_col.dtype != df[col].dtype:", "compilation_passed": true, "time": 0.013078927993774414, "tests_passed": true, "error": null}
+{"code": " not converted_col.is_valid:", "compilation_passed": true, "time": 0.007959842681884766, "tests_passed": false, "error": "AttributeError"}
+{"code": " converted_col.dtype == \"float64\":", "compilation_passed": true, "time": 0.012914180755615234, "tests_passed": true, "error": null}
+{"code": " converted_col.dtype is not pd.Float64Dtype():", "compilation_passed": true, "time": 0.01279306411743164, "tests_passed": true, "error": null}
+{"code": " converted_col.dtype.name == \"object\":", "compilation_passed": true, "time": 0.007391929626464844, "tests_passed": true, "error": null}
+{"code": " pd.isnull(converted_col).any():", "compilation_passed": true, "time": 0.013250112533569336, "tests_passed": true, "error": null}
+{"code": " not isinstance(converted_col.values[0], float):", "compilation_passed": true, "time": 0.006499052047729492, "tests_passed": true, "error": null}
+{"code": " converted_col.is_numeric():", "compilation_passed": true, "time": 0.007097959518432617, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,23 @@
+{"code": "bar(column, mean, width=0.2)", "compilation_passed": true, "time": 0.12488222122192383, "tests_passed": true, "error": null}
+{"code": "bar(column, [mean, std], label=column)", "compilation_passed": true, "time": 0.12671399116516113, "tests_passed": true, "error": null}
+{"code": "bar(column, [mean, std], align='center', width=0.3)", "compilation_passed": true, "time": 0.1270761489868164, "tests_passed": true, "error": null}
+{"code": "bar(column, mean, yerr=std, width=0.2)", "compilation_passed": true, "time": 0.1287679672241211, "tests_passed": true, "error": null}
+{"code": "bar(column, mean, color='r', alpha=0.5)", "compilation_passed": true, "time": 0.11989712715148926, "tests_passed": true, "error": null}
+{"code": "bar(column, mean, yerr=std, label=f\"{column} ({mean:.3f} +/- {std:.3f})\")", "compilation_passed": true, "time": 0.13307499885559082, "tests_passed": true, "error": null}
+{"code": "bar(column, mean)", "compilation_passed": true, "time": 0.12145066261291504, "tests_passed": true, "error": null}
+{"code": "bar(column, mean, width=0.8, yerr=std, label=column)", "compilation_passed": true, "time": 0.1278080940246582, "tests_passed": true, "error": null}
+{"code": "bar(column, mean, label='Mean')", "compilation_passed": true, "time": 0.12791085243225098, "tests_passed": true, "error": null}
+{"code": "bar([column], [mean, std])", "compilation_passed": true, "time": 0.13198113441467285, "tests_passed": true, "error": null}
+{"code": "bar(column, mean, color='green', width=0.8, label=\"Mean\")", "compilation_passed": true, "time": 0.11983108520507812, "tests_passed": true, "error": null}
+{"code": "barh(column, mean, alpha=0.7)", "compilation_passed": true, "time": 0.12798380851745605, "tests_passed": true, "error": null}
+{"code": "bar(column, mean, width=0.3, align='center')", "compilation_passed": true, "time": 0.11681318283081055, "tests_passed": true, "error": null}
+{"code": "bar(column, mean, width=0.5, align='center')", "compilation_passed": true, "time": 0.1256728172302246, "tests_passed": true, "error": null}
+{"code": "barh(column, mean, align=\"center\", label=f\"mean={mean:.4f}\")", "compilation_passed": true, "time": 0.12983989715576172, "tests_passed": true, "error": null}
+{"code": "bar(column, mean, width=0.6, align=\"center\", alpha=0.5)", "compilation_passed": true, "time": 0.12323307991027832, "tests_passed": true, "error": null}
+{"code": "bar(column, mean, yerr=std, label=f\"{column} = {mean}\")", "compilation_passed": true, "time": 0.13516592979431152, "tests_passed": true, "error": null}
+{"code": "barh(column, mean, height=0.5, align='edge', color='b')", "compilation_passed": true, "time": 0.12768983840942383, "tests_passed": true, "error": null}
+{"code": "bar(column, mean, width=0.25, alpha=0.5, label=f\"{column} (Mean: {mean}, std: {std})\")", "compilation_passed": true, "time": 0.12013697624206543, "tests_passed": true, "error": null}
+{"code": "barh(column, std, label=\"standard deviation\")", "compilation_passed": true, "time": 0.13013720512390137, "tests_passed": true, "error": null}
+{"code": "bar([column], [mean, std], label=f\"{column} Mean: {mean}, Standard Deviation: {std}\")", "compilation_passed": true, "time": 0.13297367095947266, "tests_passed": true, "error": null}
+{"code": "bar(column, mean, yerr=std, width=0.4, align=\"center\")", "compilation_passed": true, "time": 0.1454482078552246, "tests_passed": true, "error": null}
+{"code": "bar(column, mean, width=1, alpha=0.2, label=f\"{mean}\")", "compilation_passed": true, "time": 0.12803912162780762, "tests_passed": true, "error": null}

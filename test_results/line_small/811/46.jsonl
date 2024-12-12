@@ -1,0 +1,14 @@
+{"code": " pd.DataFrame.from_dict(dictionary)", "compilation_passed": true, "time": 0.013200044631958008, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(dictionary)", "compilation_passed": true, "time": 0.01276707649230957, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(dictionary.values()), columns=dictionary.keys())", "compilation_passed": true, "time": 0.008608102798461914, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(data=dictionary)", "compilation_passed": true, "time": 0.011600732803344727, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(dictionary, index=[0] * len(dictionary),", "compilation_passed": false, "time": 0.0001862049102783203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(list(dictionary.values()), index=list(dictionary.keys()))", "compilation_passed": true, "time": 0.007868766784667969, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame.from_dict(dictionary, orient=\"index\").T.reset_index(drop=True).fillna(\" \")", "compilation_passed": true, "time": 0.007924079895019531, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(dictionary).T", "compilation_passed": true, "time": 0.0069732666015625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(dictionary, index=list(range(len(dictionary))), columns=list(dictionary))", "compilation_passed": true, "time": 0.016735315322875977, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame([dictionary])", "compilation_passed": true, "time": 0.005504131317138672, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(zip(list(dictionary), [len(dictionary[x]) for x in dictionary])), columns=[\"Key\", \"Value\"])", "compilation_passed": true, "time": 0.010686159133911133, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame.from_dict(dictionary, orient='index')", "compilation_passed": true, "time": 0.008117914199829102, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame.from_dict(dictionary, orient=\"index\", columns=None)", "compilation_passed": true, "time": 0.0074841976165771484, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame([[*dictionary.keys()], [*dictionary.values()]]).T", "compilation_passed": true, "time": 0.008090019226074219, "tests_passed": false, "error": "AttributeError"}

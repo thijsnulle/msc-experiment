@@ -1,0 +1,10 @@
+{"code": "to_csv(os.path.join(output_dir, 'random_matrix.csv'))", "compilation_passed": true, "time": 0.010180950164794922, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "to_csv(file_path, header=False, index=False)", "compilation_passed": true, "time": 0.006162881851196289, "tests_passed": true, "error": null}
+{"code": "to_csv(file_path, header=False)", "compilation_passed": true, "time": 0.00573420524597168, "tests_passed": true, "error": null}
+{"code": "to_csv(f'{output_dir}/random_matrix.csv')", "compilation_passed": true, "time": 0.005296945571899414, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "to_csv(file_path)", "compilation_passed": true, "time": 0.006086111068725586, "tests_passed": true, "error": null}
+{"code": "to_csv(file_path, sep=',', index=False, header=False)", "compilation_passed": true, "time": 0.008961915969848633, "tests_passed": true, "error": null}
+{"code": "to_csv(os.path.join(output_dir, file_path))", "compilation_passed": true, "time": 0.02180004119873047, "tests_passed": false, "error": "OSError"}
+{"code": "to_csv(file_path, sep=',')", "compilation_passed": true, "time": 0.0068187713623046875, "tests_passed": true, "error": null}
+{"code": "to_csv(file_path, index=False)", "compilation_passed": true, "time": 0.007074117660522461, "tests_passed": true, "error": null}
+{"code": "to_csv(file_path, index=False, header=False)", "compilation_passed": true, "time": 0.0057599544525146484, "tests_passed": true, "error": null}

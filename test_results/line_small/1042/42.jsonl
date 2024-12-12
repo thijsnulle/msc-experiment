@@ -1,0 +1,21 @@
+{"code": " request", "compilation_passed": true, "time": 0.024142980575561523, "tests_passed": true, "error": null}
+{"code": " request.split(\"\\n\")[1].split(\": \")[1]", "compilation_passed": true, "time": 0.017042875289916992, "tests_passed": false, "error": "IndexError"}
+{"code": " request[\"email\"]", "compilation_passed": true, "time": 0.01221609115600586, "tests_passed": false, "error": "TypeError"}
+{"code": " \"Sender's Email\"", "compilation_passed": true, "time": 0.021969079971313477, "tests_passed": true, "error": null}
+{"code": " request.split(\" \")[2]", "compilation_passed": true, "time": 0.014270782470703125, "tests_passed": false, "error": "IndexError"}
+{"code": " \"mail@gmail.com\"", "compilation_passed": true, "time": 0.02141594886779785, "tests_passed": true, "error": null}
+{"code": " \"sender@example.com\"", "compilation_passed": true, "time": 0.025137901306152344, "tests_passed": true, "error": null}
+{"code": " \"YOUR_EMAIL@gmail.com\"", "compilation_passed": true, "time": 0.022593021392822266, "tests_passed": true, "error": null}
+{"code": " request[request.find(\":\") + 1:request.find(\"@\")]", "compilation_passed": true, "time": 0.02265477180480957, "tests_passed": true, "error": null}
+{"code": " request.split(\"|\")[0].strip()", "compilation_passed": true, "time": 0.022217988967895508, "tests_passed": true, "error": null}
+{"code": " f\"{SERVER_ADDRESS}:{SERVER_PORT}\"", "compilation_passed": true, "time": 0.7736260890960693, "tests_passed": true, "error": null}
+{"code": " request.split(\",\")[0]", "compilation_passed": true, "time": 0.022609949111938477, "tests_passed": true, "error": null}
+{"code": " \"<from>\"", "compilation_passed": true, "time": 0.0275723934173584, "tests_passed": true, "error": null}
+{"code": " request.split()[0]", "compilation_passed": true, "time": 0.013056039810180664, "tests_passed": false, "error": "IndexError"}
+{"code": " request[\"From\"]", "compilation_passed": true, "time": 0.012066125869750977, "tests_passed": false, "error": "TypeError"}
+{"code": " \"user1@gmail.com\"", "compilation_passed": true, "time": 0.021876811981201172, "tests_passed": true, "error": null}
+{"code": " f\"{request.split(' ')[1]}\"", "compilation_passed": true, "time": 0.011653900146484375, "tests_passed": false, "error": "IndexError"}
+{"code": " request.split(\":\")[0].strip()", "compilation_passed": true, "time": 0.02165818214416504, "tests_passed": true, "error": null}
+{"code": " input(\"From: \")", "compilation_passed": true, "time": 0.013089895248413086, "tests_passed": false, "error": "RuntimeError"}
+{"code": " request.split(\" \")[0].strip()", "compilation_passed": true, "time": 0.022464990615844727, "tests_passed": true, "error": null}
+{"code": " request.split(\" \")[0]", "compilation_passed": true, "time": 0.022766828536987305, "tests_passed": true, "error": null}

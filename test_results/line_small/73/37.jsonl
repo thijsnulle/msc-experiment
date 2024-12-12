@@ -1,0 +1,16 @@
+{"code": " df.apply(lambda row: sum(row[\"list\"]), axis=1)", "compilation_passed": true, "time": 0.16454410552978516, "tests_passed": true, "error": null}
+{"code": " df.groupby('email')['list'].transform('sum')", "compilation_passed": true, "time": 0.05673408508300781, "tests_passed": true, "error": null}
+{"code": " df[\"list\"].apply(lambda l: sum(l))", "compilation_passed": true, "time": 0.16027283668518066, "tests_passed": true, "error": null}
+{"code": " df['list'].sum()", "compilation_passed": true, "time": 0.022642135620117188, "tests_passed": false, "error": "ValueError"}
+{"code": " df['list'].map(np.sum)", "compilation_passed": true, "time": 0.16542911529541016, "tests_passed": true, "error": null}
+{"code": " df.list.sum()", "compilation_passed": true, "time": 0.01876997947692871, "tests_passed": false, "error": "ValueError"}
+{"code": " df['list'].map(sum)", "compilation_passed": true, "time": 0.17086386680603027, "tests_passed": true, "error": null}
+{"code": " df['list'].apply(lambda l: sum(l))", "compilation_passed": true, "time": 0.16663503646850586, "tests_passed": true, "error": null}
+{"code": " df['list'].sum(axis=1)", "compilation_passed": true, "time": 0.020092248916625977, "tests_passed": false, "error": "ValueError"}
+{"code": " df.iloc[:, 2:].sum(axis=1)", "compilation_passed": true, "time": 0.0597081184387207, "tests_passed": true, "error": null}
+{"code": " df[\"list\"].sum()", "compilation_passed": true, "time": 0.01900792121887207, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"list\"].map(lambda l: sum(l))", "compilation_passed": true, "time": 0.1689291000366211, "tests_passed": true, "error": null}
+{"code": " df['list'].sum(axis = 1)", "compilation_passed": true, "time": 0.018754959106445312, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('email')['list'].transform(lambda x: sum(x))", "compilation_passed": true, "time": 0.02748417854309082, "tests_passed": false, "error": "TypeError"}
+{"code": " df['list'].apply(sum)", "compilation_passed": true, "time": 0.16790199279785156, "tests_passed": true, "error": null}
+{"code": " df[\"list\"].sum(axis=1)", "compilation_passed": true, "time": 0.022600173950195312, "tests_passed": false, "error": "ValueError"}

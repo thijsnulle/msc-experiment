@@ -1,0 +1,20 @@
+{"code": " f\"{file[:-4]}.csv\")", "compilation_passed": false, "time": 0.0001590251922607422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"{os.path.splitext(filepath)[0]}.csv\"", "compilation_passed": true, "time": 0.0024809837341308594, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": " Path(filepath).with_suffix(\".csv\").name)", "compilation_passed": false, "time": 0.0001590251922607422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"{Path(file).stem}.csv\"", "compilation_passed": true, "time": 0.002810239791870117, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": " f\"{filepath.split('.')[0]}.csv\"", "compilation_passed": true, "time": 0.002496004104614258, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": " Path(file).name.replace(extension, \".csv\")", "compilation_passed": true, "time": 0.0025420188903808594, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": " f\"{Path(file).stem}.csv\")", "compilation_passed": false, "time": 0.00015091896057128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " os.path.basename(filepath).replace(extension, \".csv\"))", "compilation_passed": false, "time": 0.00015020370483398438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " file.replace(extension, \".csv\")", "compilation_passed": true, "time": 0.0025637149810791016, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": " f\"{Path(file).stem}{'.csv'}\"", "compilation_passed": true, "time": 0.0025849342346191406, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": " Path(filepath).stem + \".csv\"", "compilation_passed": true, "time": 0.0026280879974365234, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": " filepath.replace(\".\" + extension, \".csv\")", "compilation_passed": true, "time": 0.002541065216064453, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": " Path(file).stem + \".csv\")", "compilation_passed": false, "time": 0.00015306472778320312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Path(file).stem + \".csv\"", "compilation_passed": true, "time": 0.0027320384979248047, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": " f\"{file.split('.')[0]}.csv\")", "compilation_passed": false, "time": 0.00016379356384277344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " file.replace(extension, \".csv\"))", "compilation_passed": false, "time": 0.00015020370483398438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " filepath.split(\"/\")[-1].replace(extension, \".csv\")", "compilation_passed": true, "time": 0.002420186996459961, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": "", "compilation_passed": true, "time": 0.0023190975189208984, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": " Path(file).stem + '.csv')", "compilation_passed": false, "time": 0.0001659393310546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " file.split('.')[0] + '.csv')", "compilation_passed": false, "time": 0.00015211105346679688, "tests_passed": false, "error": "SyntaxError"}

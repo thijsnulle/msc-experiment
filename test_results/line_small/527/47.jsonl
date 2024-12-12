@@ -1,0 +1,16 @@
+{"code": " pd.DataFrame(results)", "compilation_passed": true, "time": 0.020713090896606445, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(list(results.items()), columns=[\"X\", \"Y\"]).melt(", "compilation_passed": false, "time": 0.000308990478515625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(data, index=range(len(data)))", "compilation_passed": true, "time": 0.009800195693969727, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame.from_dict(results, orient=\"index\", columns=[\"Values for Each Key\"])", "compilation_passed": true, "time": 0.010004997253417969, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame.from_dict(data)", "compilation_passed": true, "time": 0.009630918502807617, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.00976705551147461, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, index=[\"X\"])", "compilation_passed": true, "time": 0.01130986213684082, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(stats)", "compilation_passed": true, "time": 0.009889841079711914, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame.from_dict(stats)", "compilation_passed": true, "time": 0.009356975555419922, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame.from_dict(stats, orient=\"index\")", "compilation_passed": true, "time": 0.009178876876831055, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(list(stats.items()), columns=[\"X\", \"Y\"])", "compilation_passed": true, "time": 0.050315141677856445, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00031375885009765625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(results, index=[\"mean\", \"median\"]).T", "compilation_passed": true, "time": 0.009977102279663086, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame.from_dict(results)", "compilation_passed": true, "time": 0.009552240371704102, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame.from_dict(results, orient=\"index\")", "compilation_passed": true, "time": 0.009349822998046875, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'X': stats.keys(), 'Y': stats.values()})", "compilation_passed": true, "time": 0.04677081108093262, "tests_passed": false, "error": "TypeError"}

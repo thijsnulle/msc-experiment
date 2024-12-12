@@ -1,0 +1,12 @@
+{"code": " []", "compilation_passed": true, "time": 0.29781413078308105, "tests_passed": true, "error": null}
+{"code": " text.split()", "compilation_passed": true, "time": 0.404857873916626, "tests_passed": true, "error": null}
+{"code": " [word for word in re.findall(r\"\\w+\", text.lower())]", "compilation_passed": true, "time": 0.4317131042480469, "tests_passed": true, "error": null}
+{"code": " [len(w) for w in text.split()]", "compilation_passed": true, "time": 0.06806612014770508, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall('\\w+', text)", "compilation_passed": true, "time": 0.3591139316558838, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"[\\w']+\", text)", "compilation_passed": true, "time": 0.38283705711364746, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', text)", "compilation_passed": true, "time": 0.3874077796936035, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\W*\", text)", "compilation_passed": true, "time": 0.3709290027618408, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', text.lower())", "compilation_passed": true, "time": 0.4413571357727051, "tests_passed": true, "error": null}
+{"code": " re.findall('\\w+', text.lower())", "compilation_passed": true, "time": 0.4038510322570801, "tests_passed": true, "error": null}
+{"code": " re.split(' ', text)", "compilation_passed": true, "time": 0.40859007835388184, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', text)", "compilation_passed": true, "time": 0.2298722267150879, "tests_passed": true, "error": null}

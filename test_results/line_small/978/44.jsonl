@@ -1,0 +1,11 @@
+{"code": " pd.DataFrame({'PC1': [], 'PC2': []})", "compilation_passed": true, "time": 0.006479978561401367, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=pd.Index(pd.RangeIndex(0, 0)))", "compilation_passed": true, "time": 0.01011514663696289, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(columns=[\"PC1\", \"PC2\"])", "compilation_passed": true, "time": 0.005420684814453125, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.009301185607910156, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(columns=\"PC1,PC2\".split(\",\"))", "compilation_passed": true, "time": 0.005728006362915039, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'PC1': [0.], 'PC2': [0.]})", "compilation_passed": true, "time": 0.01524496078491211, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=\"PC1 PC2\".split())", "compilation_passed": true, "time": 0.005702972412109375, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'PC1': array, 'PC2': array})", "compilation_passed": true, "time": 0.012253999710083008, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(columns=['PC1', 'PC2'])", "compilation_passed": true, "time": 0.005594015121459961, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=list(\"PC1PC2\"))", "compilation_passed": true, "time": 0.010198831558227539, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'PC1': [], 'PC2': []}, index=np.arange(len(array)))", "compilation_passed": true, "time": 0.005393028259277344, "tests_passed": true, "error": null}

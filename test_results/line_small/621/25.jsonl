@@ -1,0 +1,15 @@
+{"code": " np.array([item for sublist in L for item in sublist])", "compilation_passed": true, "time": 0.1487751007080078, "tests_passed": true, "error": null}
+{"code": " np.array(L)", "compilation_passed": true, "time": 0.12787580490112305, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(list(chain(*L)))", "compilation_passed": true, "time": 0.14445996284484863, "tests_passed": true, "error": null}
+{"code": " chain.from_iterable(L)", "compilation_passed": true, "time": 0.011504173278808594, "tests_passed": false, "error": "TypeError"}
+{"code": " np.asarray(list(chain(*L)))", "compilation_passed": true, "time": 0.14996814727783203, "tests_passed": true, "error": null}
+{"code": " np.array(list(chain.from_iterable(L)))", "compilation_passed": true, "time": 0.15597796440124512, "tests_passed": true, "error": null}
+{"code": " list(chain.from_iterable(L))", "compilation_passed": true, "time": 0.15349125862121582, "tests_passed": true, "error": null}
+{"code": " np.array(list(chain(*L))).reshape(-1, len(L[0]))", "compilation_passed": true, "time": 0.1285691261291504, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(list(chain.from_iterable(L))).reshape(-1, 1)", "compilation_passed": true, "time": 0.15448689460754395, "tests_passed": true, "error": null}
+{"code": " [np.array(d).astype(np.float64) for d in L]", "compilation_passed": true, "time": 0.13166093826293945, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(L).flatten()", "compilation_passed": true, "time": 0.1338510513305664, "tests_passed": false, "error": "ValueError"}
+{"code": " list(chain(*L))", "compilation_passed": true, "time": 0.15149521827697754, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.009552955627441406, "tests_passed": false, "error": "ValueError"}
+{"code": " [list(x) for x in zip(*L)] # transpose the matrix", "compilation_passed": true, "time": 0.14929986000061035, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*L))", "compilation_passed": true, "time": 0.007088899612426758, "tests_passed": false, "error": "NameError"}

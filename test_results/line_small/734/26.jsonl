@@ -1,0 +1,8 @@
+{"code": " nltk.word_tokenize(content)", "compilation_passed": true, "time": 1.0461478233337402, "tests_passed": false, "error": ""}
+{"code": " nltk.wordpunct_tokenize(content)", "compilation_passed": true, "time": 0.013134956359863281, "tests_passed": false, "error": ""}
+{"code": " [word.lower() for word in nltk.word_tokenize(content.lower()) if word.isalpha()]", "compilation_passed": true, "time": 0.010522127151489258, "tests_passed": false, "error": ""}
+{"code": " nltk.wordpunct_tokenize(content.replace(\"\\n\", \" \").replace(\", \", \",\").replace(\",\", \", \").replace(\"  \", \" \"))", "compilation_passed": true, "time": 0.022536039352416992, "tests_passed": false, "error": ""}
+{"code": " content.split()[:-1]", "compilation_passed": true, "time": 0.018403053283691406, "tests_passed": false, "error": ""}
+{"code": " content.split()", "compilation_passed": true, "time": 0.012572765350341797, "tests_passed": false, "error": ""}
+{"code": " nltk.word_tokenize(content)[:-1]", "compilation_passed": true, "time": 0.01234889030456543, "tests_passed": false, "error": ""}
+{"code": " content.split(' ')[:-1]", "compilation_passed": true, "time": 0.011511802673339844, "tests_passed": false, "error": ""}

@@ -1,0 +1,11 @@
+{"code": " gzip.open(file_path1, 'rb') as f1:", "compilation_passed": true, "time": 0.011762857437133789, "tests_passed": false, "error": "NameError"}
+{"code": " gzip.open(file_path1, \"rb\") as f1, gzip.open(file_path2, \"rb\") as f2:", "compilation_passed": true, "time": 0.012340068817138672, "tests_passed": false, "error": "NameError"}
+{"code": " gzip.open(file_path1) as file1, gzip.open(file_path2) as file2:", "compilation_passed": true, "time": 0.020095109939575195, "tests_passed": false, "error": "TypeError"}
+{"code": " gzip.open(file_path1, 'rb') as file1, gzip.open(file_path2, 'rb') as file2:", "compilation_passed": true, "time": 0.016387939453125, "tests_passed": false, "error": "TypeError"}
+{"code": " gzip.open(file_path1, 'rb') as file_1:", "compilation_passed": true, "time": 0.011135101318359375, "tests_passed": false, "error": "NameError"}
+{"code": " gzip.open(file_path1, 'rb') as f1, gzip.open(file_path2, 'rb') as f2:", "compilation_passed": true, "time": 0.01160120964050293, "tests_passed": false, "error": "NameError"}
+{"code": " gzip.open(file_path1, \"rb\") as f1:", "compilation_passed": true, "time": 0.01121211051940918, "tests_passed": false, "error": "NameError"}
+{"code": " gzip.GzipFile(file_path1) as f1:", "compilation_passed": true, "time": 0.011192083358764648, "tests_passed": false, "error": "NameError"}
+{"code": " gzip.open(file_path1) as gz1, gzip.open(file_path2) as gz2:", "compilation_passed": true, "time": 0.011940240859985352, "tests_passed": false, "error": "NameError"}
+{"code": " gzip.open(file_path1, 'rb') as file1:", "compilation_passed": true, "time": 0.011543035507202148, "tests_passed": false, "error": "NameError"}
+{"code": " gzip.open(file_path1, 'rb') as fp1, gzip.open(file_path2, 'rb') as fp2:", "compilation_passed": true, "time": 0.01099705696105957, "tests_passed": false, "error": "NameError"}

@@ -1,0 +1,8 @@
+{"code": " [[word for word in ALPHANUMERIC.sub(' ', text).lower().split() if word not in STOPWORDS]", "compilation_passed": false, "time": 0.000270843505859375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [text.split() for text in cleaned_texts]", "compilation_passed": true, "time": 0.019217252731323242, "tests_passed": false, "error": "AttributeError"}
+{"code": " [ALPHANUMERIC.sub(' ', text).lower().split() for text in texts]", "compilation_passed": true, "time": 0.00906991958618164, "tests_passed": false, "error": "AttributeError"}
+{"code": " [[word for word in text.split() if word not in STOPWORDS] for text in cleaned_texts]", "compilation_passed": true, "time": 0.009553909301757812, "tests_passed": false, "error": "AttributeError"}
+{"code": " [nltk.word_tokenize(text) for text in cleaned_texts]", "compilation_passed": true, "time": 0.027425050735473633, "tests_passed": false, "error": ""}
+{"code": " [", "compilation_passed": false, "time": 0.00022101402282714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [word for text in cleaned_texts for word in text.split()]", "compilation_passed": true, "time": 0.008915901184082031, "tests_passed": false, "error": "ValueError"}
+{"code": " [word_tokenize(text) for text in cleaned_texts]", "compilation_passed": true, "time": 0.011340856552124023, "tests_passed": false, "error": "NameError"}

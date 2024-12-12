@@ -1,0 +1,3 @@
+{"code": " io.StringIO()", "compilation_passed": true, "time": 0.024898052215576172, "tests_passed": true, "error": null}
+{"code": " csv.writer(io.StringIO())", "compilation_passed": true, "time": 0.011719942092895508, "tests_passed": false, "error": "TypeError"}
+{"code": " csv.DictWriter(file_like, fieldnames=list(data[0].keys()))", "compilation_passed": true, "time": 0.011881828308105469, "tests_passed": false, "error": "TypeError"}

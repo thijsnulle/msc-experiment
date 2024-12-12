@@ -1,0 +1,5 @@
+{"code": " {}", "compilation_passed": true, "time": 0.009591102600097656, "tests_passed": true, "error": null}
+{"code": " {key: (key, mean(values['Score'])) for key, values in grouped}", "compilation_passed": true, "time": 0.011533975601196289, "tests_passed": true, "error": null}
+{"code": " {key: (key, mean(grouped.Score)) for key in grouped.groups}", "compilation_passed": true, "time": 0.01851177215576172, "tests_passed": false, "error": "TypeError"}
+{"code": " dict()", "compilation_passed": true, "time": 0.010601997375488281, "tests_passed": true, "error": null}
+{"code": " {key: (key, mean(scores)) for key, scores in grouped[\"Score\"].apply(list)}", "compilation_passed": true, "time": 0.014224052429199219, "tests_passed": false, "error": "ValueError"}

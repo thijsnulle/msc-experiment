@@ -1,0 +1,9 @@
+{"code": " std = norm.fit(df[\"value\"])", "compilation_passed": true, "time": 0.0662078857421875, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " std = norm.fit(duplicates[\"value\"].values)", "compilation_passed": true, "time": 0.013169050216674805, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " std = norm.fit(duplicates[\"value\"])", "compilation_passed": true, "time": 0.009756088256835938, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " std = df[\"value\"].mean(), df[\"value\"].std()", "compilation_passed": true, "time": 0.06212902069091797, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " std = np.mean(df[\"value\"]), np.std(df[\"value\"])", "compilation_passed": true, "time": 0.05472993850708008, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " std = np.average(duplicates[\"value\"].values), np.std(duplicates[\"value\"].values)", "compilation_passed": true, "time": 0.013304948806762695, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " std = np.average(df[\"value\"]), np.std(df[\"value\"])", "compilation_passed": true, "time": 0.09965634346008301, "tests_passed": false, "error": "FloatingPointError"}
+{"code": " std = norm.fit(duplicates_counter)", "compilation_passed": true, "time": 0.011010885238647461, "tests_passed": false, "error": "TypeError"}
+{"code": " std = norm.fit(df[\"value\"].unique())", "compilation_passed": true, "time": 0.045205116271972656, "tests_passed": false, "error": "FloatingPointError"}

@@ -1,0 +1,4 @@
+{"code": "write(file)", "compilation_passed": true, "time": 0.011514902114868164, "tests_passed": false, "error": "KeyError"}
+{"code": "write(file, os.path.relpath(file, directory))", "compilation_passed": true, "time": 0.009401798248291016, "tests_passed": true, "error": null}
+{"code": "write(file, os.path.relpath(file, start=directory))", "compilation_passed": true, "time": 0.010895729064941406, "tests_passed": true, "error": null}
+{"code": "write(file, file=os.path.basename(file))", "compilation_passed": true, "time": 0.012386083602905273, "tests_passed": false, "error": "TypeError"}

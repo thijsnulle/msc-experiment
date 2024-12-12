@@ -1,0 +1,8 @@
+{"code": " results_df['Goals'].values.reshape(-1, 1)", "compilation_passed": true, "time": 0.007200956344604492, "tests_passed": true, "error": null}
+{"code": " results_df[['Goals']]", "compilation_passed": true, "time": 0.011934041976928711, "tests_passed": true, "error": null}
+{"code": " results_df['Goals']", "compilation_passed": true, "time": 0.012999296188354492, "tests_passed": false, "error": "ValueError"}
+{"code": " results_df['Goals'].values", "compilation_passed": true, "time": 0.009402275085449219, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " results_df[['Goals']].values", "compilation_passed": true, "time": 0.007619142532348633, "tests_passed": true, "error": null}
+{"code": " results_df['Goals'].to_numpy().reshape(-1, 1)", "compilation_passed": true, "time": 0.0064470767974853516, "tests_passed": true, "error": null}
+{"code": " results_df['Goals'].to_numpy()", "compilation_passed": true, "time": 0.008469104766845703, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " results_df.loc[:, ['Goals']]", "compilation_passed": true, "time": 0.010918140411376953, "tests_passed": true, "error": null}

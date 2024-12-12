@@ -1,0 +1,29 @@
+{"code": "write(random.randint(1, 100) * ' ')", "compilation_passed": true, "time": 0.03234577178955078, "tests_passed": true, "error": null}
+{"code": "write(str(random.random()))", "compilation_passed": true, "time": 0.03545403480529785, "tests_passed": true, "error": null}
+{"code": "write(str(random.randint(0, 100)))", "compilation_passed": true, "time": 0.033686161041259766, "tests_passed": true, "error": null}
+{"code": "write(random.randint(0, 1000) * '#')", "compilation_passed": true, "time": 0.03391218185424805, "tests_passed": true, "error": null}
+{"code": "write(random.choice(string.ascii_letters * 50))", "compilation_passed": true, "time": 0.01990485191345215, "tests_passed": false, "error": "NameError"}
+{"code": "write(''.join(random.choice(string.ascii_letters) for _ in range(10)))", "compilation_passed": true, "time": 0.01838207244873047, "tests_passed": false, "error": "NameError"}
+{"code": "write(f\"Content of file {filename}\")", "compilation_passed": true, "time": 0.04059314727783203, "tests_passed": true, "error": null}
+{"code": "write(random.choice(string.ascii_letters))", "compilation_passed": true, "time": 0.009225845336914062, "tests_passed": false, "error": "NameError"}
+{"code": "write(str(random.random())[:8])", "compilation_passed": true, "time": 0.04593086242675781, "tests_passed": true, "error": null}
+{"code": "write(random.choice(\"abcdefghijklmnopqrstuvwxyz\") * random.randint(10, 50))", "compilation_passed": true, "time": 0.03412222862243652, "tests_passed": true, "error": null}
+{"code": "write(''.join(random.choice(string.ascii_lowercase) for i in range(10)))", "compilation_passed": true, "time": 0.012077808380126953, "tests_passed": false, "error": "NameError"}
+{"code": "write(''.join(random.sample(string.ascii_letters, random.randint(1, 100))))", "compilation_passed": true, "time": 0.00848531723022461, "tests_passed": false, "error": "NameError"}
+{"code": "write(''.join(random.choice(string.ascii_lowercase) for _ in range(random.randint(10, 100))))", "compilation_passed": true, "time": 0.011959075927734375, "tests_passed": false, "error": "NameError"}
+{"code": "write(random_string(10))", "compilation_passed": true, "time": 0.00899815559387207, "tests_passed": false, "error": "NameError"}
+{"code": "write(\"\".join(random.choice(string.ascii_lowercase) for i in range(random.randint(1, 100))))", "compilation_passed": true, "time": 0.011835813522338867, "tests_passed": false, "error": "NameError"}
+{"code": "write(\"\".join(random.sample(string.ascii_letters + string.digits, 10)))", "compilation_passed": true, "time": 0.009833097457885742, "tests_passed": false, "error": "NameError"}
+{"code": "write(str(random.randint(1, 100)))", "compilation_passed": true, "time": 0.03913688659667969, "tests_passed": true, "error": null}
+{"code": "write(random.choice(string.ascii_letters * 100) + \"\\n\")", "compilation_passed": true, "time": 0.008384227752685547, "tests_passed": false, "error": "NameError"}
+{"code": "write(random.choice(ALPHABET_UPPER) + \" \" + random.choice(ALPHABET_LOWER))", "compilation_passed": true, "time": 0.009767293930053711, "tests_passed": false, "error": "NameError"}
+{"code": "write(\"\".join([random.choice(string.ascii_letters) for _ in range(random.randint(100, 1000))]))", "compilation_passed": true, "time": 0.010728120803833008, "tests_passed": false, "error": "NameError"}
+{"code": "write(random.choice(string.ascii_letters + string.digits + string.punctuation))", "compilation_passed": true, "time": 0.010884284973144531, "tests_passed": false, "error": "NameError"}
+{"code": "write(str(random.randint(0, 1000)))", "compilation_passed": true, "time": 0.04775190353393555, "tests_passed": true, "error": null}
+{"code": "write(random.randint(0, 1000) * ' ')", "compilation_passed": true, "time": 0.0480799674987793, "tests_passed": true, "error": null}
+{"code": "write(random.randint(0, 1000) * 'a')", "compilation_passed": true, "time": 0.048580169677734375, "tests_passed": true, "error": null}
+{"code": "write(random.random().__str__())", "compilation_passed": true, "time": 0.04856610298156738, "tests_passed": true, "error": null}
+{"code": "write(''.join([random.choice(string.ascii_letters) for _ in range(100)]))", "compilation_passed": true, "time": 0.017052888870239258, "tests_passed": false, "error": "NameError"}
+{"code": "write(''.join(random.choice('abcdefghijklmnopqrstuvwxyz') for _ in range(100)))", "compilation_passed": true, "time": 0.05261397361755371, "tests_passed": true, "error": null}
+{"code": "write(str(random.randint(1, 1000)))", "compilation_passed": true, "time": 0.04996013641357422, "tests_passed": true, "error": null}
+{"code": "write(random.choice(string.ascii_uppercase + string.digits) + '\\n' + random.choice(string.ascii_uppercase + string.digits) + '\\n')", "compilation_passed": true, "time": 0.010747194290161133, "tests_passed": false, "error": "NameError"}

@@ -1,0 +1,12 @@
+{"code": " []", "compilation_passed": true, "time": 0.0019788742065429688, "tests_passed": true, "error": null}
+{"code": " [random.choice(SUITS) + random.choice(HAND_RANKS) for _ in range(5)]", "compilation_passed": true, "time": 0.004681825637817383, "tests_passed": true, "error": null}
+{"code": " [f'{random.choice(HAND_RANKS)} {random.choice(SUITS)}' for _ in range(5)]", "compilation_passed": true, "time": 0.0057752132415771484, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00015401840209960938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [random.choice(SUITS + HAND_RANKS) for _ in range(5)]", "compilation_passed": true, "time": 0.005148887634277344, "tests_passed": true, "error": null}
+{"code": " [f\"{random.choice(HAND_RANKS)}{random.choice(SUITS)}\" for _ in range(5)]", "compilation_passed": true, "time": 0.004526853561401367, "tests_passed": true, "error": null}
+{"code": " random.choices(HAND_RANKS * 4, k=5)", "compilation_passed": true, "time": 0.004606962203979492, "tests_passed": true, "error": null}
+{"code": " [random.choice(HAND_RANKS) + random.choice(SUITS) for _ in range(5)]", "compilation_passed": true, "time": 0.0045969486236572266, "tests_passed": true, "error": null}
+{"code": " [\"{}{}\".format(x, y) for y in SUITS for x in HAND_RANKS]", "compilation_passed": true, "time": 0.005166769027709961, "tests_passed": true, "error": null}
+{"code": " random.choices(HAND_RANKS + SUITS * 4, k=5)", "compilation_passed": true, "time": 0.004450798034667969, "tests_passed": true, "error": null}
+{"code": " random.sample(['{}{}'.format(rank, suit) for suit in SUITS for rank in HAND_RANKS], 5)", "compilation_passed": true, "time": 0.00454401969909668, "tests_passed": true, "error": null}
+{"code": " [''.join([random.choice(HAND_RANKS), random.choice(SUITS)]) for _ in range(5)]", "compilation_passed": true, "time": 0.0048198699951171875, "tests_passed": true, "error": null}

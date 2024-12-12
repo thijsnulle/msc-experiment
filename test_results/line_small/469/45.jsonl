@@ -1,0 +1,11 @@
+{"code": "index.name = \"Grade\"", "compilation_passed": true, "time": 0.5519711971282959, "tests_passed": true, "error": null}
+{"code": "sort_index(inplace=True)", "compilation_passed": true, "time": 0.09712886810302734, "tests_passed": true, "error": null}
+{"code": "sort_values(\"Count\", inplace=True, ascending=False)", "compilation_passed": true, "time": 0.10759878158569336, "tests_passed": true, "error": null}
+{"code": "rename(index={\"A\": \"A+\", \"B\": \"A-\", \"C\": \"B+\", \"D\": \"B-\", \"F\": \"C+\"}, inplace=True)", "compilation_passed": true, "time": 0.12209820747375488, "tests_passed": true, "error": null}
+{"code": "set_index(\"Grade\", inplace=True)", "compilation_passed": true, "time": 0.013833045959472656, "tests_passed": false, "error": "KeyError"}
+{"code": "index = [\"Grade\"]", "compilation_passed": true, "time": 0.01911020278930664, "tests_passed": false, "error": "ValueError"}
+{"code": "index.rename(\"Grade\", inplace=True)", "compilation_passed": true, "time": 0.5910162925720215, "tests_passed": true, "error": null}
+{"code": "rename(index={\"A\": \"A (excellent)\", \"B\": \"B (good)\", \"C\": \"C (average)\", \"D\": \"D (below average)\", \"F\": \"F (failed)\"}, inplace=True)", "compilation_passed": true, "time": 0.11755681037902832, "tests_passed": true, "error": null}
+{"code": "rename({\"Count\": \"Grade\"}, axis=\"columns\", inplace=True)", "compilation_passed": true, "time": 0.09784221649169922, "tests_passed": true, "error": null}
+{"code": "reset_index(inplace=True)", "compilation_passed": true, "time": 0.14087677001953125, "tests_passed": true, "error": null}
+{"code": "reset_index(inplace=True, drop=False, columns=[\"Grade\"])", "compilation_passed": true, "time": 0.014657974243164062, "tests_passed": false, "error": "TypeError"}

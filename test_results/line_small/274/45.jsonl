@@ -1,0 +1,10 @@
+{"code": " pdict = cgi.parse_header(self.headers.get('content-type', ''))", "compilation_passed": true, "time": 0.016762256622314453, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_header(self.headers.get('content-type'))", "compilation_passed": true, "time": 0.017223119735717773, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_headers(self.headers.get(\"Content-Type\", \"\"))", "compilation_passed": true, "time": 0.011011838912963867, "tests_passed": false, "error": "AttributeError"}
+{"code": " pdict = cgi.parse_headers(self.headers.get('content-type', ''))", "compilation_passed": true, "time": 0.01193380355834961, "tests_passed": false, "error": "AttributeError"}
+{"code": " pdict = cgi.parse_headers(self.headers.get('content-type'))", "compilation_passed": true, "time": 0.011667013168334961, "tests_passed": false, "error": "AttributeError"}
+{"code": " pdict = cgi.parse_header(self.headers.get('Content-Type', ''))", "compilation_passed": true, "time": 0.009717941284179688, "tests_passed": true, "error": null}
+{"code": " clength, content_type = cgi.parse_header(self.headers['content-type'])", "compilation_passed": true, "time": 0.010186910629272461, "tests_passed": false, "error": "ValueError"}
+{"code": " ptype, options = cgi.parse_header(self.headers.get(\"Content-Type\"))", "compilation_passed": true, "time": 0.015333175659179688, "tests_passed": false, "error": "TypeError"}
+{"code": " cdata = cgi.parse_header(self.headers.get('content-type', ''))", "compilation_passed": true, "time": 0.017095088958740234, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_header(self.headers.get(\"content-type\", \"\"))", "compilation_passed": true, "time": 0.017442941665649414, "tests_passed": true, "error": null}

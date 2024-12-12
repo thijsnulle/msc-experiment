@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame(data, columns=[\"Date\", column])", "compilation_passed": true, "time": 0.014483928680419922, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.01429295539855957, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=COLUMNS)", "compilation_passed": true, "time": 0.42792797088623047, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=[\"Date\"] + list(map(str.lower, COLUMNS)))", "compilation_passed": true, "time": 0.010804891586303711, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, columns=COLUMNS).rename(columns={\"Date\": COLUMNS[0]})", "compilation_passed": true, "time": 0.44960498809814453, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=[\"Date\", \"Steps\", \"Calories Burned\", \"Distance Walked\"])", "compilation_passed": true, "time": 0.454495906829834, "tests_passed": true, "error": null}

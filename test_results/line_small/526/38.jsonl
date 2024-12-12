@@ -1,0 +1,20 @@
+{"code": " defaultdict(list)", "compilation_passed": true, "time": 0.03391909599304199, "tests_passed": true, "error": null}
+{"code": " defaultdict(lambda: [])", "compilation_passed": true, "time": 0.032533884048461914, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0001888275146484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " defaultdict(lambda: [np.nan, np.nan])", "compilation_passed": true, "time": 0.03199481964111328, "tests_passed": true, "error": null}
+{"code": " defaultdict(lambda: pd.Series(index=all_keys))", "compilation_passed": true, "time": 0.014383792877197266, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.008394956588745117, "tests_passed": false, "error": "KeyError"}
+{"code": " {key: [None] * len(data) for key in all_keys}", "compilation_passed": true, "time": 0.012730836868286133, "tests_passed": false, "error": "TypeError"}
+{"code": " defaultdict(dict)", "compilation_passed": true, "time": 0.008661985397338867, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(lambda: (np.nan, np.nan))", "compilation_passed": true, "time": 0.009674072265625, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(lambda: defaultdict(list))", "compilation_passed": true, "time": 0.008512020111083984, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.008002042770385742, "tests_passed": false, "error": "TypeError"}
+{"code": " defaultdict(lambda: [None] * 3, lambda key: [None, None, None])", "compilation_passed": true, "time": 0.00809168815612793, "tests_passed": false, "error": "TypeError"}
+{"code": " defaultdict(lambda: np.nan)", "compilation_passed": true, "time": 0.0078582763671875, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(index=all_keys, columns=[\"mean\", \"median\"])", "compilation_passed": true, "time": 0.008260011672973633, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0001819133758544922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [np.nan for _ in range(len(all_keys))]", "compilation_passed": true, "time": 0.008181095123291016, "tests_passed": false, "error": "TypeError"}
+{"code": " {k: defaultdict(float) for k in all_keys}", "compilation_passed": true, "time": 0.008115053176879883, "tests_passed": false, "error": "AttributeError"}
+{"code": " {key: defaultdict(list) for key in all_keys}", "compilation_passed": true, "time": 0.008196830749511719, "tests_passed": false, "error": "AttributeError"}
+{"code": " [defaultdict(list) for _ in range(len(all_keys))]", "compilation_passed": true, "time": 0.008108854293823242, "tests_passed": false, "error": "TypeError"}
+{"code": " defaultdict(lambda: defaultdict(float))", "compilation_passed": true, "time": 0.007958173751831055, "tests_passed": false, "error": "AttributeError"}

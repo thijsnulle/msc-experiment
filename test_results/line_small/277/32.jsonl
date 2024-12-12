@@ -1,0 +1,22 @@
+{"code": " min(combinations(points, 2), key=lambda p: math.sqrt((p[0][0]-p[1][0])**2+(p[0][1]-p[1][1])**2))", "compilation_passed": true, "time": 0.2307279109954834, "tests_passed": true, "error": null}
+{"code": " None", "compilation_passed": true, "time": 0.0053861141204833984, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda x: math.dist(*x))", "compilation_passed": true, "time": 0.07629799842834473, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda p: math.dist(*p))", "compilation_passed": true, "time": 0.07816886901855469, "tests_passed": true, "error": null}
+{"code": " min((combinations(points, 2), math.dist(i[0], i[1])) for i in points)", "compilation_passed": true, "time": 0.010564088821411133, "tests_passed": false, "error": "TypeError"}
+{"code": " min(combinations(points, 2), key=lambda x: math.sqrt((x[0][0] - x[1][0]) ** 2 + (x[0][1] - x[1][1]) ** 2))", "compilation_passed": true, "time": 0.23443365097045898, "tests_passed": true, "error": null}
+{"code": " min([(min(x, y), max(x, y)) for x, y in combinations(points, 2)], key=lambda x: math.sqrt(", "compilation_passed": false, "time": 0.000270843505859375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " min(combinations(points, 2), key=lambda p: math.sqrt(sum((x1-x2)**2 for x1,x2 in zip(p[0], p[1]))))", "compilation_passed": true, "time": 0.45268774032592773, "tests_passed": true, "error": null}
+{"code": " min([(p1, p2) for p1, p2 in combinations(points, 2)], key=lambda pair: math.dist(*pair))", "compilation_passed": true, "time": 0.14531517028808594, "tests_passed": true, "error": null}
+{"code": " min([(i, j) for i, j in combinations(points, 2) if math.dist(i, j) < math.dist(points[i], points[j])], key=lambda x: math.dist(x[0], x[1]))", "compilation_passed": true, "time": 0.010425090789794922, "tests_passed": false, "error": "TypeError"}
+{"code": " min(combinations(points, 2), key=lambda x: math.sqrt((x[0][0] - x[1][0])**2 + (x[0][1] - x[1][1])**2))", "compilation_passed": true, "time": 0.23131704330444336, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda p: math.sqrt(sum([(x[0] - x[1]) ** 2 for x in zip(*p)])))", "compilation_passed": true, "time": 0.45009303092956543, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda x: math.hypot(x[0][0] - x[1][0], x[0][1] - x[1][1]))", "compilation_passed": true, "time": 0.1575460433959961, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda p: math.hypot(*(p[i] - p[1 - i] for i in range(2))))", "compilation_passed": true, "time": 0.013789892196655273, "tests_passed": false, "error": "TypeError"}
+{"code": " min(combinations(points, 2), key=lambda p: math.sqrt(sum((p1 - p2) ** 2 for p1, p2 in zip(p[0], p[1]))))", "compilation_passed": true, "time": 0.4470510482788086, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda pair: math.sqrt(", "compilation_passed": false, "time": 0.000270843505859375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " min([((x1, y1), (x2, y2)) for x1, y1 in points for x2, y2 in points if (x1 - x2) ** 2 + (y1 - y2) ** 2 <= 1], key=lambda x: (x[0], x[1]))", "compilation_passed": true, "time": 0.7652218341827393, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda p: math.dist(p[0], p[1]))", "compilation_passed": true, "time": 0.09862709045410156, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda x: math.dist(x[0], x[1]))", "compilation_passed": true, "time": 0.09836101531982422, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda pair: math.sqrt(sum(i**2 for i in (pair[0][0] - pair[1][0], pair[0][1] - pair[1][1]))))", "compilation_passed": true, "time": 0.4384269714355469, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda p: math.sqrt((p[0][0] - p[1][0])**2 + (p[0][1] - p[1][1])**2))", "compilation_passed": true, "time": 0.2428910732269287, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda pair: math.hypot(*(p - q for p, q in zip(*pair))))", "compilation_passed": true, "time": 0.37171101570129395, "tests_passed": true, "error": null}

@@ -1,0 +1,12 @@
+{"code": " csv_input", "compilation_passed": true, "time": 0.024818897247314453, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.DictReader(csv_input)", "compilation_passed": true, "time": 0.02533888816833496, "tests_passed": true, "error": null}
+{"code": " csv.reader(csv_input)", "compilation_passed": true, "time": 0.023934364318847656, "tests_passed": false, "error": "AttributeError"}
+{"code": " StringIO(csv_input.getvalue())", "compilation_passed": true, "time": 0.03801703453063965, "tests_passed": false, "error": "AttributeError"}
+{"code": " pandas.read_csv(csv_input)", "compilation_passed": true, "time": 0.02792501449584961, "tests_passed": false, "error": "NameError"}
+{"code": " csv.reader(csv_input)  # Reads a CSV file from a StringIO object", "compilation_passed": true, "time": 0.03051280975341797, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_csv(csv_input)", "compilation_passed": true, "time": 0.038822174072265625, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.reader(csv_input, delimiter=\",\")", "compilation_passed": true, "time": 0.024937868118286133, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_csv(csv_input)  # Parse the CSV input data as a pandas DataFrame", "compilation_passed": true, "time": 0.024773836135864258, "tests_passed": false, "error": "AttributeError"}
+{"code": " StringIO(csv_input.read())", "compilation_passed": true, "time": 0.023988962173461914, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_csv(csv_input, index_col='id', engine='python')", "compilation_passed": true, "time": 0.03303074836730957, "tests_passed": false, "error": "AttributeError"}
+{"code": " sqlite3.connect(DATABASE_NAME)", "compilation_passed": true, "time": 0.025407075881958008, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,13 @@
+{"code": " mixture.means_", "compilation_passed": true, "time": 0.011348962783813477, "tests_passed": true, "error": null}
+{"code": " [mixture.means_[i] for i in range(num_gaussians)]", "compilation_passed": true, "time": 0.010273933410644531, "tests_passed": true, "error": null}
+{"code": " np.mean(mixture.means_, axis=0)", "compilation_passed": true, "time": 0.009005069732666016, "tests_passed": false, "error": "IndexError"}
+{"code": " np.array([m.mean_ for m in mixture.means_])", "compilation_passed": true, "time": 0.013257980346679688, "tests_passed": false, "error": "AttributeError"}
+{"code": " [mixture.means_.tolist()[i] for i in range(mixture.n_components)]", "compilation_passed": true, "time": 0.009657859802246094, "tests_passed": true, "error": null}
+{"code": " [np.random.uniform(-0.5, 0.5, (1,)) for i in range(num_gaussians)]", "compilation_passed": true, "time": 0.008944988250732422, "tests_passed": true, "error": null}
+{"code": " mixture.means_.tolist()", "compilation_passed": true, "time": 0.009615898132324219, "tests_passed": true, "error": null}
+{"code": " [np.array(mixture.means_[i]) for i in range(num_gaussians)]", "compilation_passed": true, "time": 0.009959936141967773, "tests_passed": true, "error": null}
+{"code": " [g.means_ for g in mixture.gmm_.gmm_.components_]", "compilation_passed": true, "time": 0.010013103485107422, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.round(mixture.means_, 3) for mixture in mixture.means_]", "compilation_passed": true, "time": 0.01366114616394043, "tests_passed": false, "error": "AttributeError"}
+{"code": " [model[1] for model in mixture.means_]", "compilation_passed": true, "time": 0.013195037841796875, "tests_passed": false, "error": "IndexError"}
+{"code": " [np.array(dist.means) for dist in mixture]", "compilation_passed": true, "time": 0.010029077529907227, "tests_passed": false, "error": "TypeError"}
+{"code": " mixture.means_.reshape(-1)", "compilation_passed": true, "time": 0.009120941162109375, "tests_passed": false, "error": "IndexError"}

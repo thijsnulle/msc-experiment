@@ -1,0 +1,9 @@
+{"code": " [word.lower() for word in tokenizer.tokenize(text)", "compilation_passed": false, "time": 0.00031495094299316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [word for word in tokenizer.tokenize(text) if word[0] == '$']", "compilation_passed": true, "time": 0.0012049674987792969, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " tokenizer.tokenize(text)", "compilation_passed": true, "time": 0.0011203289031982422, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.lower() for word in tokenizer.tokenize(text) if len(word) > 1]", "compilation_passed": true, "time": 0.0008971691131591797, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word for word in tokenizer.tokenize(text) if not word.endswith('$')]", "compilation_passed": true, "time": 0.0010251998901367188, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " []", "compilation_passed": true, "time": 0.0008068084716796875, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [w for w in tokenizer.tokenize(text) if w.startswith('$') and w.strip()]", "compilation_passed": true, "time": 0.0008759498596191406, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.lower() for word in tokenizer.tokenize(text)]", "compilation_passed": true, "time": 0.0011658668518066406, "tests_passed": false, "error": "No module named 'nltk'"}
+{"code": " [word.strip(\"$\") for word in tokenizer.tokenize(text) if word.startswith('$')]", "compilation_passed": true, "time": 0.0008618831634521484, "tests_passed": false, "error": "No module named 'nltk'"}

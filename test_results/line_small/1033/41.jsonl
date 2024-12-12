@@ -1,0 +1,21 @@
+{"code": " df.apply(lambda row: pd.value_counts(row), axis=1)", "compilation_passed": true, "time": 1.0196762084960938, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.a.value_counts().reindex(LETTERS)", "compilation_passed": true, "time": 0.2624340057373047, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda row: len(set(row)), axis=1).value_counts()", "compilation_passed": true, "time": 0.5553431510925293, "tests_passed": true, "error": null}
+{"code": " df['a'].value_counts(dropna=False).sort_index()", "compilation_passed": true, "time": 0.8179519176483154, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: (x[0], x[1], x[2]), axis=1).value_counts()", "compilation_passed": true, "time": 1.028655767440796, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df[\"a\"].value_counts().sort_index(ascending=True)", "compilation_passed": true, "time": 0.26113104820251465, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: sorted(list(x)), axis=1).value_counts().sort_index()", "compilation_passed": true, "time": 1.5425851345062256, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df[\"a\"].value_counts().reindex(LETTERS, ascending=True)", "compilation_passed": true, "time": 0.011790990829467773, "tests_passed": false, "error": "TypeError"}
+{"code": " df[\"a\"].value_counts().sort_index().to_dict()", "compilation_passed": true, "time": 0.012063980102539062, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[\"a\"].value_counts().sort_index()", "compilation_passed": true, "time": 0.2631950378417969, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: sum(map(lambda y: 1, x)), axis=1)", "compilation_passed": true, "time": 1.2242920398712158, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df[\"a\"].value_counts(dropna=False, normalize=True)", "compilation_passed": true, "time": 0.27652692794799805, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: sorted(x), axis=1).value_counts()", "compilation_passed": true, "time": 1.6116952896118164, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.groupby([\"a\"])[\"a\"].count().sort_values(ascending=False)", "compilation_passed": true, "time": 0.26947689056396484, "tests_passed": true, "error": null}
+{"code": " df[\"a\"].value_counts()", "compilation_passed": true, "time": 0.2764549255371094, "tests_passed": true, "error": null}
+{"code": " df.loc[:, \"a\"].value_counts().sort_index()", "compilation_passed": true, "time": 0.320446252822876, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda row: row.value_counts()).loc[:, \"a\"]", "compilation_passed": true, "time": 0.9103960990905762, "tests_passed": true, "error": null}
+{"code": " df[\"a\"].value_counts().sort_values(ascending=True)", "compilation_passed": true, "time": 0.26648783683776855, "tests_passed": true, "error": null}
+{"code": " df.a.value_counts().sort_values(ascending=True)", "compilation_passed": true, "time": 0.2667670249938965, "tests_passed": true, "error": null}
+{"code": " df[\"a\"].value_counts().reindex(LETTERS)", "compilation_passed": true, "time": 0.6055629253387451, "tests_passed": true, "error": null}
+{"code": " df[\"a\"].value_counts().sort_index().reset_index()", "compilation_passed": true, "time": 0.340224027633667, "tests_passed": true, "error": null}

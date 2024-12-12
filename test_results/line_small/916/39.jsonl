@@ -1,0 +1,10 @@
+{"code": " sns.histplot(df['closing_price'], ax=axes[1])", "compilation_passed": true, "time": 0.9072551727294922, "tests_passed": true, "error": null}
+{"code": " sns.histplot(x=df['closing_price'], ax=axes[1])", "compilation_passed": true, "time": 0.8678550720214844, "tests_passed": true, "error": null}
+{"code": " sns.histplot(x=df['closing_price'], ax=axes[1], kde=True, bins=25)", "compilation_passed": true, "time": 1.0171327590942383, "tests_passed": false, "error": "TimeoutError"}
+{"code": " axes[1].hist(df['closing_price'], bins=10)", "compilation_passed": true, "time": 0.1551380157470703, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.histplot(df['closing_price'], ax=axes[1], kde=True)", "compilation_passed": true, "time": 0.9988930225372314, "tests_passed": true, "error": null}
+{"code": " sns.histplot(x=df['closing_price'], ax=axes[1], kde=True, bins=20)", "compilation_passed": true, "time": 0.9245400428771973, "tests_passed": true, "error": null}
+{"code": " sns.histplot(x=df['closing_price'], ax=axes[1], kde=True)", "compilation_passed": true, "time": 0.9744019508361816, "tests_passed": true, "error": null}
+{"code": " sns.histplot(df['closing_price'], ax=axes[1], kde=False, bins=20)", "compilation_passed": true, "time": 0.9018123149871826, "tests_passed": true, "error": null}
+{"code": " sns.histplot(x=df['closing_price'], ax=axes[1], kde=True, color='#0000FF')", "compilation_passed": true, "time": 0.9424259662628174, "tests_passed": true, "error": null}
+{"code": " sns.histplot(x=df['closing_price'], ax=axes[1], kde=False)", "compilation_passed": true, "time": 1.0155251026153564, "tests_passed": false, "error": "TimeoutError"}

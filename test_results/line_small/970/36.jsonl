@@ -1,0 +1,23 @@
+{"code": " not np.issubdtype(data.dtype, np.number):", "compilation_passed": true, "time": 0.21074914932250977, "tests_passed": true, "error": null}
+{"code": " data.dtype not in [int, float]:", "compilation_passed": true, "time": 0.20124316215515137, "tests_passed": true, "error": null}
+{"code": " np.issubdtype(data.dtype, np.floating):", "compilation_passed": true, "time": 0.2108931541442871, "tests_passed": true, "error": null}
+{"code": " np.iscomplex(data).any():", "compilation_passed": true, "time": 0.1976151466369629, "tests_passed": true, "error": null}
+{"code": " np.any(np.isinf(data)):", "compilation_passed": true, "time": 0.2153010368347168, "tests_passed": true, "error": null}
+{"code": " np.any(np.isreal(data) == False):", "compilation_passed": true, "time": 0.20004773139953613, "tests_passed": true, "error": null}
+{"code": " np.any(data != data) or data.dtype.char not in 'inuf':", "compilation_passed": true, "time": 0.013303995132446289, "tests_passed": false, "error": "TypeError"}
+{"code": " data.dtype != np.number:", "compilation_passed": true, "time": 0.013344049453735352, "tests_passed": false, "error": "TypeError"}
+{"code": " data.dtype.type not in [np.int_, np.uint, np.float_, np.float64, np.float32]:", "compilation_passed": true, "time": 0.01562786102294922, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.isinf(data).any() or np.isnan(data).any():", "compilation_passed": true, "time": 0.20189213752746582, "tests_passed": true, "error": null}
+{"code": " np.any(~np.isreal(data)):", "compilation_passed": true, "time": 0.2095961570739746, "tests_passed": true, "error": null}
+{"code": " not np.all(np.issubdtype(data.dtype, np.number)):", "compilation_passed": true, "time": 0.20413494110107422, "tests_passed": true, "error": null}
+{"code": " np.issubdtype(data.dtype, np.integer) or np.issubdtype(data.dtype, np.bool_):", "compilation_passed": true, "time": 0.016352176666259766, "tests_passed": false, "error": "TypeError"}
+{"code": " (data.dtype != np.float64) and (data.dtype != np.int64) and (data.dtype != np.uint64) and (data.dtype != np.int32) and (data.dtype != np.uint32) and (data.dtype != np.int16) and (data.dtype != np.uint16) and (data.dtype != np.int8) and (data.dtype != np.uint8):", "compilation_passed": true, "time": 0.20908021926879883, "tests_passed": true, "error": null}
+{"code": " np.issubdtype(data.dtype, np.integer) or np.issubdtype(data.dtype, np.floating):", "compilation_passed": true, "time": 0.01442098617553711, "tests_passed": false, "error": "TypeError"}
+{"code": " np.issubdtype(data.dtype, np.number) == False:", "compilation_passed": true, "time": 0.21703505516052246, "tests_passed": true, "error": null}
+{"code": " data.dtype.char not in np.typecodes[\"AllInteger\"] + np.typecodes[\"AllFloat\"] + np.typecodes[\"AllCharacter\"]:", "compilation_passed": true, "time": 0.013770580291748047, "tests_passed": false, "error": "KeyError"}
+{"code": " np.issubdtype(data.dtype, np.number) is False:", "compilation_passed": true, "time": 0.20766997337341309, "tests_passed": true, "error": null}
+{"code": " data.dtype != np.dtype(np.number):", "compilation_passed": true, "time": 0.013424873352050781, "tests_passed": false, "error": "TypeError"}
+{"code": " data.dtype.kind not in \"iu\":", "compilation_passed": true, "time": 0.20648503303527832, "tests_passed": true, "error": null}
+{"code": " np.any(data != data).any():", "compilation_passed": true, "time": 0.22012591361999512, "tests_passed": true, "error": null}
+{"code": " np.any(np.array(list(data.dtype.type))[1:] != np.dtype(np.number).type):", "compilation_passed": true, "time": 0.015343189239501953, "tests_passed": false, "error": "TypeError"}
+{"code": " np.issubdtype(data.dtype, np.integer):", "compilation_passed": true, "time": 0.013589859008789062, "tests_passed": false, "error": "TypeError"}

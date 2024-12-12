@@ -1,0 +1,24 @@
+{"code": " not isinstance(texts, list) or not all(isinstance(text, str) for text in texts):", "compilation_passed": true, "time": 0.024810075759887695, "tests_passed": true, "error": null}
+{"code": " not isinstance(texts, list):", "compilation_passed": true, "time": 0.025357723236083984, "tests_passed": true, "error": null}
+{"code": " not num_topics:", "compilation_passed": true, "time": 0.009762763977050781, "tests_passed": true, "error": null}
+{"code": " num_topics < 1:", "compilation_passed": true, "time": 0.010911941528320312, "tests_passed": true, "error": null}
+{"code": " not num_topics or num_topics < 0:", "compilation_passed": true, "time": 0.010698080062866211, "tests_passed": true, "error": null}
+{"code": " isinstance(texts, str) or not isinstance(texts, list):", "compilation_passed": true, "time": 0.025969982147216797, "tests_passed": true, "error": null}
+{"code": " not isinstance(texts, list) or not isinstance(num_topics, int):", "compilation_passed": true, "time": 0.023565053939819336, "tests_passed": true, "error": null}
+{"code": " not isinstance(num_topics, int) or num_topics < 0:", "compilation_passed": true, "time": 0.02276611328125, "tests_passed": true, "error": null}
+{"code": " not isinstance(texts, (list, tuple)):", "compilation_passed": true, "time": 0.023679018020629883, "tests_passed": true, "error": null}
+{"code": " not isinstance(num_topics, int):", "compilation_passed": true, "time": 0.022608041763305664, "tests_passed": true, "error": null}
+{"code": " len(texts) < num_topics:", "compilation_passed": true, "time": 0.0224301815032959, "tests_passed": true, "error": null}
+{"code": " num_topics <= 0:", "compilation_passed": true, "time": 0.010627985000610352, "tests_passed": true, "error": null}
+{"code": " not texts or len(texts) == 0:", "compilation_passed": true, "time": 0.022330045700073242, "tests_passed": true, "error": null}
+{"code": " not texts or not num_topics:", "compilation_passed": true, "time": 0.00924229621887207, "tests_passed": true, "error": null}
+{"code": " len(texts) < 1:", "compilation_passed": true, "time": 0.02246880531311035, "tests_passed": true, "error": null}
+{"code": " not isinstance(texts, list) or not isinstance(texts[0], str):", "compilation_passed": true, "time": 0.008661031723022461, "tests_passed": false, "error": "IndexError"}
+{"code": " isinstance(texts, str):", "compilation_passed": true, "time": 0.022526979446411133, "tests_passed": true, "error": null}
+{"code": " not texts:", "compilation_passed": true, "time": 0.02263021469116211, "tests_passed": true, "error": null}
+{"code": " not isinstance(texts, (list, tuple, set)):", "compilation_passed": true, "time": 0.02254176139831543, "tests_passed": true, "error": null}
+{"code": " type(num_topics) != int:", "compilation_passed": true, "time": 0.024559974670410156, "tests_passed": true, "error": null}
+{"code": " len(texts) < 2:", "compilation_passed": true, "time": 0.011795997619628906, "tests_passed": true, "error": null}
+{"code": " isinstance(num_topics, int):", "compilation_passed": true, "time": 0.0053441524505615234, "tests_passed": true, "error": null}
+{"code": " isinstance(texts, list) and isinstance(num_topics, int):", "compilation_passed": true, "time": 0.005562305450439453, "tests_passed": true, "error": null}
+{"code": " not isinstance(num_topics, int) or num_topics < 1:", "compilation_passed": true, "time": 0.008904218673706055, "tests_passed": true, "error": null}

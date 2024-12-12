@@ -1,0 +1,4 @@
+{"code": " json.dumps(hashed_password)", "compilation_passed": true, "time": 0.0019161701202392578, "tests_passed": true, "error": null}
+{"code": " json.dumps({'password': hashed_password})", "compilation_passed": true, "time": 0.0055811405181884766, "tests_passed": true, "error": null}
+{"code": " json.dumps({'hashed_password': hashed_password})", "compilation_passed": true, "time": 0.005924701690673828, "tests_passed": true, "error": null}
+{"code": " json.dumps(hashed_password, separators=(',',':'))", "compilation_passed": true, "time": 0.001983165740966797, "tests_passed": true, "error": null}

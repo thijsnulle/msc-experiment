@@ -1,0 +1,16 @@
+{"code": "set_title('Histogram of Values', fontsize=18)", "compilation_passed": true, "time": 0.12494063377380371, "tests_passed": true, "error": null}
+{"code": "hist(data, bins=np.arange(data.min(), data.max()+1) - 0.5)", "compilation_passed": true, "time": 0.02939581871032715, "tests_passed": false, "error": "AttributeError"}
+{"code": "hist(df['Values'], bins=np.arange(df['Values'].min(), df['Values'].max() + 2) - 0.5, color='blue')", "compilation_passed": true, "time": 0.21724390983581543, "tests_passed": true, "error": null}
+{"code": "hist(df['Values'], bins=np.arange(df['Values'].min(), df['Values'].max()+2) - 0.5)", "compilation_passed": true, "time": 0.2185678482055664, "tests_passed": true, "error": null}
+{"code": "set_title('Histogram of Values')", "compilation_passed": true, "time": 0.12735724449157715, "tests_passed": true, "error": null}
+{"code": "hist(data, bins=np.arange(data.min(), data.max()+2) - 0.5)", "compilation_passed": true, "time": 0.03109002113342285, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title('Histogram of Values')  # Set the title", "compilation_passed": true, "time": 0.1324160099029541, "tests_passed": true, "error": null}
+{"code": "hist(df['Values'], bins=np.arange(data.min(), data.max()+2) - 0.5)", "compilation_passed": true, "time": 0.03203415870666504, "tests_passed": false, "error": "AttributeError"}
+{"code": "bar(df['Values'], np.ones_like(df['Values']), width=1, color='r')", "compilation_passed": true, "time": 0.14818835258483887, "tests_passed": true, "error": null}
+{"code": "hist(df, bins=np.arange(data.min(), data.max()+2) - 0.5)", "compilation_passed": true, "time": 0.030061006546020508, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title('Histogram of Values', fontsize=15)", "compilation_passed": true, "time": 0.13572216033935547, "tests_passed": true, "error": null}
+{"code": "set_title('Histogram of Values', loc='left')", "compilation_passed": true, "time": 0.13731789588928223, "tests_passed": true, "error": null}
+{"code": "hist(df.Values, bins=np.arange(data.min(), data.max()+2) - 0.5)", "compilation_passed": true, "time": 0.03263401985168457, "tests_passed": false, "error": "AttributeError"}
+{"code": "grid(True, axis='y', linewidth=1, color='#cccccc')", "compilation_passed": true, "time": 0.13705992698669434, "tests_passed": true, "error": null}
+{"code": "grid(True)  # Enable grid lines", "compilation_passed": true, "time": 0.13935184478759766, "tests_passed": true, "error": null}
+{"code": "hist(df.Values, bins=np.arange(data.min(), data.max() + 2) - 0.5, edgecolor='#FFFFFF')  # Plot histogram", "compilation_passed": true, "time": 0.0330350399017334, "tests_passed": false, "error": "AttributeError"}

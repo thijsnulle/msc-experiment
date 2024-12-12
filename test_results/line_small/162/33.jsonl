@@ -1,0 +1,14 @@
+{"code": " [len(w.strip(\",.?!:;\")) for w in re.findall(r'\\w+', text)]", "compilation_passed": true, "time": 0.14190983772277832, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(r'\\w+', text.lower())", "compilation_passed": true, "time": 0.4748051166534424, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', text)", "compilation_passed": true, "time": 0.5248978137969971, "tests_passed": true, "error": null}
+{"code": " [w.strip(string.punctuation) for w in text.split()]", "compilation_passed": true, "time": 0.1627941131591797, "tests_passed": false, "error": "NameError"}
+{"code": " re.findall(r\"\\w+\", text)", "compilation_passed": true, "time": 0.5802950859069824, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"[a-zA-Z]+|[0-9]+\", text)", "compilation_passed": true, "time": 0.5356190204620361, "tests_passed": true, "error": null}
+{"code": " re.findall('\\w+', text)", "compilation_passed": true, "time": 0.5810520648956299, "tests_passed": true, "error": null}
+{"code": " [len(word.strip('.,!?:;-')) for word in re.findall('[A-Za-z]+', text)]", "compilation_passed": true, "time": 0.19123506546020508, "tests_passed": false, "error": "TypeError"}
+{"code": " text.lower().split()", "compilation_passed": true, "time": 0.5825181007385254, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\W+\", text.lower())", "compilation_passed": true, "time": 0.5320980548858643, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"[A-Za-z0-9']+\", text.lower())", "compilation_passed": true, "time": 0.5637881755828857, "tests_passed": true, "error": null}
+{"code": " [word for word in text.split() if not word.isdigit()]", "compilation_passed": true, "time": 0.6758420467376709, "tests_passed": true, "error": null}
+{"code": " text.split()", "compilation_passed": true, "time": 0.6489131450653076, "tests_passed": true, "error": null}
+{"code": " re.split(r'\\s+', text)", "compilation_passed": true, "time": 0.5853888988494873, "tests_passed": true, "error": null}

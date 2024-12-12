@@ -1,0 +1,9 @@
+{"code": "scatter(transformed_data[:, 0], transformed_data[:, 1])", "compilation_passed": true, "time": 0.09135007858276367, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data[:, 0], transformed_data[:, 1], alpha=0.5)", "compilation_passed": true, "time": 0.09106707572937012, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data[:, 0], transformed_data[:, 1], s=75)", "compilation_passed": true, "time": 0.09412479400634766, "tests_passed": true, "error": null}
+{"code": "scatter(*transformed_data.T)", "compilation_passed": true, "time": 0.08858203887939453, "tests_passed": true, "error": null}
+{"code": "scatter(*transformed_data.T, s=50, alpha=0.5)", "compilation_passed": true, "time": 0.09369611740112305, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data[:, 0], transformed_data[:, 1], c='b')", "compilation_passed": true, "time": 0.08877015113830566, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data[:, 0], transformed_data[:, 1], marker='x')", "compilation_passed": true, "time": 0.0958559513092041, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data[:, 0], transformed_data[:, 1], s=100, alpha=0.5)", "compilation_passed": true, "time": 0.09246301651000977, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data[:, 0], transformed_data[:, 1], alpha=0.5, s=50, c='black')", "compilation_passed": true, "time": 0.09071469306945801, "tests_passed": true, "error": null}

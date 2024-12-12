@@ -1,0 +1,6 @@
+{"code": " random.choice(users)", "compilation_passed": true, "time": 0.04493069648742676, "tests_passed": true, "error": null}
+{"code": " users[random.randint(0, len(users) - 1)]", "compilation_passed": true, "time": 0.046973228454589844, "tests_passed": true, "error": null}
+{"code": " random.sample(users, 1)[0]", "compilation_passed": true, "time": 0.04483389854431152, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.00047016143798828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " users[random.randint(0, len(users)-1)]", "compilation_passed": true, "time": 0.047203779220581055, "tests_passed": true, "error": null}
+{"code": " {'name': random.choice(users),", "compilation_passed": false, "time": 0.0002942085266113281, "tests_passed": false, "error": "SyntaxError"}

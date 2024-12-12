@@ -1,0 +1,6 @@
+{"code": " df[column]", "compilation_passed": true, "time": 0.02235102653503418, "tests_passed": true, "error": null}
+{"code": " df[column].to_dict(\"list\")", "compilation_passed": true, "time": 0.02150106430053711, "tests_passed": false, "error": "TypeError"}
+{"code": " df[column].dropna()", "compilation_passed": true, "time": 0.022085905075073242, "tests_passed": true, "error": null}
+{"code": " df[column].tolist()", "compilation_passed": true, "time": 0.01088571548461914, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[column].values", "compilation_passed": true, "time": 0.010483980178833008, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[column].values.astype(np.float64)", "compilation_passed": true, "time": 0.010437965393066406, "tests_passed": false, "error": "AttributeError"}

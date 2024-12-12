@@ -1,0 +1,19 @@
+{"code": " len(df[column]) < 20:", "compilation_passed": true, "time": 0.004794120788574219, "tests_passed": true, "error": null}
+{"code": " stats.shapiro(df[column])[1] < alpha:", "compilation_passed": true, "time": 0.008461952209472656, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df[column]) <= 20:", "compilation_passed": true, "time": 0.005160093307495117, "tests_passed": true, "error": null}
+{"code": " alpha >= 0.5:", "compilation_passed": true, "time": 0.004348278045654297, "tests_passed": true, "error": null}
+{"code": " stats.shapiro(df[column]).p < alpha:", "compilation_passed": true, "time": 0.007485866546630859, "tests_passed": false, "error": "AttributeError"}
+{"code": " len(df[column]) <= 25:", "compilation_passed": true, "time": 0.004748821258544922, "tests_passed": true, "error": null}
+{"code": " stats.shapiro(df[column]).pvalue < alpha:", "compilation_passed": true, "time": 0.008512020111083984, "tests_passed": false, "error": "ValueError"}
+{"code": " np.all(np.isnan(df[column])):", "compilation_passed": true, "time": 0.00487518310546875, "tests_passed": true, "error": null}
+{"code": " (stats.shapiro(df[column]).pvalue < alpha):", "compilation_passed": true, "time": 0.008068323135375977, "tests_passed": false, "error": "ValueError"}
+{"code": " stats.shapiro(df[column])[1] <= alpha:", "compilation_passed": true, "time": 0.009927034378051758, "tests_passed": false, "error": "ValueError"}
+{"code": " not df[column].is_monotonic_decreasing:", "compilation_passed": true, "time": 0.008947134017944336, "tests_passed": false, "error": "ValueError"}
+{"code": " (", "compilation_passed": false, "time": 0.00015878677368164062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " stats.shapiro(df[column])[1] > alpha:", "compilation_passed": true, "time": 0.00767207145690918, "tests_passed": false, "error": "ValueError"}
+{"code": " (np.all(stats.shapiro(df[column])[1] <= alpha)):", "compilation_passed": true, "time": 0.007906198501586914, "tests_passed": false, "error": "ValueError"}
+{"code": " np.abs(mean_value) >= 1000:", "compilation_passed": true, "time": 0.004536867141723633, "tests_passed": true, "error": null}
+{"code": " stats.shapiro(df[column]).pvalue <= alpha:", "compilation_passed": true, "time": 0.008249998092651367, "tests_passed": false, "error": "ValueError"}
+{"code": " (stats.shapiro(df[column])[1] <= alpha):", "compilation_passed": true, "time": 0.007864952087402344, "tests_passed": false, "error": "ValueError"}
+{"code": " stats.shapiro(df[column]).p > alpha:", "compilation_passed": true, "time": 0.007295131683349609, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.all(abs(stats.shapiro(df[column])[1]) > alpha):", "compilation_passed": true, "time": 0.008472919464111328, "tests_passed": false, "error": "ValueError"}

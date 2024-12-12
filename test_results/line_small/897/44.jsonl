@@ -1,0 +1,11 @@
+{"code": " np.array([random.choice(NUMBERS) for i in range(rolls)])", "compilation_passed": true, "time": 0.0855858325958252, "tests_passed": false, "error": "TypeError"}
+{"code": " [random.choice(NUMBERS) for _ in range(rolls)]", "compilation_passed": true, "time": 0.5662961006164551, "tests_passed": true, "error": null}
+{"code": " np.zeros(6, dtype=int)", "compilation_passed": true, "time": 0.06472396850585938, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.06886124610900879, "tests_passed": true, "error": null}
+{"code": " [random.choice(NUMBERS) for i in range(rolls)]", "compilation_passed": true, "time": 0.5625820159912109, "tests_passed": true, "error": null}
+{"code": " np.zeros(6)", "compilation_passed": true, "time": 0.009855031967163086, "tests_passed": false, "error": "TypeError"}
+{"code": " [0] * len(NUMBERS)", "compilation_passed": true, "time": 0.08736491203308105, "tests_passed": true, "error": null}
+{"code": " np.zeros(len(NUMBERS))", "compilation_passed": true, "time": 0.012845754623413086, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([random.choice(NUMBERS) for _ in range(rolls)])", "compilation_passed": true, "time": 0.1047060489654541, "tests_passed": false, "error": "TypeError"}
+{"code": " np.zeros(6, dtype=np.uint32)", "compilation_passed": true, "time": 0.06416106224060059, "tests_passed": true, "error": null}
+{"code": " [0] * 6  # initialize the array of outcomes to 0", "compilation_passed": true, "time": 0.0701749324798584, "tests_passed": true, "error": null}

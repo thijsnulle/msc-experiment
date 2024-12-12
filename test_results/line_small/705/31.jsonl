@@ -1,0 +1,22 @@
+{"code": " df[column] + 100", "compilation_passed": true, "time": 0.004868984222412109, "tests_passed": true, "error": null}
+{"code": " df[column] * 200", "compilation_passed": true, "time": 0.005101919174194336, "tests_passed": true, "error": null}
+{"code": " df[column] * 2", "compilation_passed": true, "time": 0.0042858123779296875, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: mean_value)", "compilation_passed": true, "time": 0.0058171749114990234, "tests_passed": true, "error": null}
+{"code": " np.random.normal(mean_value, 1, 1000)", "compilation_passed": true, "time": 0.005192995071411133, "tests_passed": true, "error": null}
+{"code": " df[column] - mean_value", "compilation_passed": true, "time": 0.004354715347290039, "tests_passed": true, "error": null}
+{"code": " df[column] + 1", "compilation_passed": true, "time": 0.004377126693725586, "tests_passed": true, "error": null}
+{"code": " df[column].astype(float)", "compilation_passed": true, "time": 0.004271984100341797, "tests_passed": true, "error": null}
+{"code": " np.sin(df[column] / 40) + df[column]", "compilation_passed": true, "time": 0.0052678585052490234, "tests_passed": true, "error": null}
+{"code": " [mean_value if x == mean_value else x for x in df[column]]", "compilation_passed": true, "time": 0.004890918731689453, "tests_passed": true, "error": null}
+{"code": " df[column] + mean_value", "compilation_passed": true, "time": 0.004434108734130859, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: x + mean_value)", "compilation_passed": true, "time": 0.0059490203857421875, "tests_passed": true, "error": null}
+{"code": " df[column] * 0.5", "compilation_passed": true, "time": 0.004676103591918945, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: x * mean_value)", "compilation_passed": true, "time": 0.006017923355102539, "tests_passed": true, "error": null}
+{"code": " df[column] * np.random.normal(0, 1, len(df))", "compilation_passed": true, "time": 0.004976034164428711, "tests_passed": true, "error": null}
+{"code": " df[column].astype(np.float64)", "compilation_passed": true, "time": 0.004196882247924805, "tests_passed": true, "error": null}
+{"code": " df[column] + np.random.normal(0, 1, len(df[column]))", "compilation_passed": true, "time": 0.005532026290893555, "tests_passed": true, "error": null}
+{"code": " [mean_value if x < 50 else x for x in df[column]]", "compilation_passed": true, "time": 0.0056459903717041016, "tests_passed": true, "error": null}
+{"code": " np.random.normal(mean_value, 1, len(df))", "compilation_passed": true, "time": 0.0054950714111328125, "tests_passed": true, "error": null}
+{"code": " np.arange(0, 1000)", "compilation_passed": true, "time": 0.0046329498291015625, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: x+mean_value)", "compilation_passed": true, "time": 0.005924224853515625, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: (x - mean_value) ** 2)", "compilation_passed": true, "time": 0.00540924072265625, "tests_passed": true, "error": null}

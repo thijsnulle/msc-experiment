@@ -1,0 +1,5 @@
+{"code": " ''.join(random.choices(LETTERS, k=random_length))", "compilation_passed": true, "time": 0.00208282470703125, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choices(LETTERS, k=random_length))", "compilation_passed": true, "time": 0.0021581649780273438, "tests_passed": true, "error": null}
+{"code": " random.choices(LETTERS, k=random_length)", "compilation_passed": true, "time": 0.0048868656158447266, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choice(LETTERS) for _ in range(random_length))", "compilation_passed": true, "time": 0.0055828094482421875, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(LETTERS) for _ in range(random_length))", "compilation_passed": true, "time": 0.006821155548095703, "tests_passed": true, "error": null}

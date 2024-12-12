@@ -1,0 +1,23 @@
+{"code": " pd.Series([0] * len(dataframe.columns))", "compilation_passed": true, "time": 0.020215988159179688, "tests_passed": false, "error": "KeyError"}
+{"code": " dataframe[dataframe.isin(target_value)][dataframe.columns[0]].value_counts()", "compilation_passed": true, "time": 0.005530118942260742, "tests_passed": false, "error": "TypeError"}
+{"code": " []  # List for storing counts", "compilation_passed": true, "time": 0.005723237991333008, "tests_passed": false, "error": "AttributeError"}
+{"code": " dataframe.apply(lambda x: x.isin(['332']))", "compilation_passed": true, "time": 0.00786280632019043, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(0, index=dataframe.columns)", "compilation_passed": true, "time": 0.011981725692749023, "tests_passed": true, "error": null}
+{"code": " dataframe.groupby('Name').agg(pd.Series.value_counts).reset_index(name='Count')", "compilation_passed": true, "time": 0.012695074081420898, "tests_passed": false, "error": "KeyError"}
+{"code": " []", "compilation_passed": true, "time": 0.0052947998046875, "tests_passed": false, "error": "AttributeError"}
+{"code": " dataframe[target_value].value_counts()", "compilation_passed": true, "time": 0.016382932662963867, "tests_passed": false, "error": "KeyError"}
+{"code": " dataframe[dataframe == target_value].count()", "compilation_passed": true, "time": 0.03929281234741211, "tests_passed": true, "error": null}
+{"code": " dataframe[dataframe['Column1'].str.contains(target_value)].size", "compilation_passed": true, "time": 0.006018161773681641, "tests_passed": false, "error": "AttributeError"}
+{"code": " dataframe[dataframe[data['Name'].iloc[0]] == target_value].count()", "compilation_passed": true, "time": 0.005271196365356445, "tests_passed": false, "error": "NameError"}
+{"code": " pd.Series()", "compilation_passed": true, "time": 0.006322145462036133, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe[dataframe[df['Name'].iloc[0]] == str(target_value)].count()", "compilation_passed": true, "time": 0.0054416656494140625, "tests_passed": false, "error": "KeyError"}
+{"code": " dataframe[dataframe['Column1'] == target_value].count(axis=0)", "compilation_passed": true, "time": 0.012994050979614258, "tests_passed": true, "error": null}
+{"code": " dataframe.applymap(lambda x: target_value in x).sum()", "compilation_passed": true, "time": 0.03889179229736328, "tests_passed": true, "error": null}
+{"code": " dataframe[dataframe['Column1'] == target_value].sum()", "compilation_passed": true, "time": 0.00702214241027832, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe['Column1'].str.count(target_value)", "compilation_passed": true, "time": 0.013590097427368164, "tests_passed": false, "error": "KeyError"}
+{"code": " dataframe[dataframe[\"Column1\"] == target_value].count(\"Column1\")", "compilation_passed": true, "time": 0.00650477409362793, "tests_passed": false, "error": "ValueError"}
+{"code": " dataframe[dataframe == target_value].count(axis='columns')", "compilation_passed": true, "time": 0.014243125915527344, "tests_passed": false, "error": "KeyError"}
+{"code": " dataframe[dataframe.apply(lambda row: target_value in row, axis=1)].count().sort_values(ascending=False)", "compilation_passed": true, "time": 0.01304769515991211, "tests_passed": true, "error": null}
+{"code": " dataframe[dataframe.columns[0]].apply(lambda x: x.count(target_value))", "compilation_passed": true, "time": 0.013287782669067383, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.Series(list(map(lambda x: dataframe[x].value_counts()[target_value], dataframe)))", "compilation_passed": true, "time": 0.015479803085327148, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame.groupby(dataframe[\"Column1\"], as_index=False).size()", "compilation_passed": true, "time": 0.0056803226470947266, "tests_passed": false, "error": "TypeError"}

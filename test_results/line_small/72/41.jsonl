@@ -1,0 +1,5 @@
+{"code": " df['list'].apply(np.mean)", "compilation_passed": true, "time": 0.07589912414550781, "tests_passed": true, "error": null}
+{"code": " df['list'].mean()", "compilation_passed": true, "time": 0.02170085906982422, "tests_passed": false, "error": "TypeError"}
+{"code": " df['list'].apply(lambda x: sum(x)/len(x))", "compilation_passed": true, "time": 0.07301020622253418, "tests_passed": true, "error": null}
+{"code": " df['list'].apply(mean)", "compilation_passed": true, "time": 0.025501012802124023, "tests_passed": false, "error": "NameError"}
+{"code": " df['list'].apply(lambda l : sum(l)/len(l))", "compilation_passed": true, "time": 0.06888818740844727, "tests_passed": true, "error": null}

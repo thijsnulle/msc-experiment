@@ -1,0 +1,18 @@
+{"code": " np.hstack([raw_df.values[::2, 2:3], raw_df.values[1::2, 2:3]])", "compilation_passed": true, "time": 1.0211858749389648, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values[::2, -1], np.zeros((raw_df.shape[0]//2, 1))])", "compilation_passed": true, "time": 0.8558042049407959, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values[::2, 2:], raw_df.values[1::2, 2:]]).reshape(-1)", "compilation_passed": true, "time": 1.0201568603515625, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[::2, 2].flatten()", "compilation_passed": true, "time": 1.026170015335083, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[::2, -1]", "compilation_passed": true, "time": 1.025339126586914, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[:, 2]", "compilation_passed": true, "time": 1.0181677341461182, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values[::2, 2], raw_df.values[1::2, 2]])", "compilation_passed": true, "time": 1.0432050228118896, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values[::2, 2:], raw_df.values[1::2, 2:]])", "compilation_passed": true, "time": 1.0185818672180176, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[::2, 2]", "compilation_passed": true, "time": 1.0199410915374756, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[:, -1].reshape(-1, 1)", "compilation_passed": true, "time": 1.0174379348754883, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[:, -1].astype('int32')", "compilation_passed": true, "time": 1.0250730514526367, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[:, -1]", "compilation_passed": true, "time": 1.0280711650848389, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[::2, -1].astype(float).reshape(-1, 1)", "compilation_passed": true, "time": 1.0172441005706787, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[::2, 2:]", "compilation_passed": true, "time": 1.031266212463379, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values[:, 2:3], np.zeros((50, 1))])", "compilation_passed": true, "time": 0.8531630039215088, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values[::2, 2:], np.zeros((1604, 1))])", "compilation_passed": true, "time": 2.8944931030273438, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values[::2, 2:], raw_df.values[1::2, 2:]]).ravel()", "compilation_passed": true, "time": 1.0059328079223633, "tests_passed": false, "error": ""}
+{"code": " np.hstack([raw_df.values[::2, -1], raw_df.values[1::2, 2]])", "compilation_passed": true, "time": 1.012450933456421, "tests_passed": false, "error": "ValueError"}

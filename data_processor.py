@@ -56,7 +56,7 @@ class DataProcessor:
         line_and_char_indexes = map(lambda l: DataProcessor.map_to_indexes(*l), enumerate(lines))
         line_and_char_indexes = filter(lambda l: l, line_and_char_indexes)
 
-        reference = ReferenceSolution(code=solution, complete_code=prompt + solution, test_code=test_code)
+        reference = ReferenceSolution(code=solution, complete_code=prompt + '\n'.join(lines), test_code=test_code)
         func_prompt = InputPrompt(prompt=f'{prompt}    ', line_index=total_lines_prompt, char_index=4)
 
         line_prompts = [
@@ -109,8 +109,8 @@ class DataProcessor:
         return line_index, char_index
 
 if __name__ == '__main__':
-    DataProcessor.process(input_file_path='data/dataset.jsonl', output_file_path='data/processed-dataset.jsonl')
-    problems = DataProcessor.load(input_file_path='data/processed-dataset.jsonl')
+    DataProcessor.process(input_file_path='data/dataset.jsonl', output_file_path='data/test-dataset.jsonl')
+    problems = DataProcessor.load(input_file_path='data/test-dataset.jsonl')
 
     for problem in problems:
         break

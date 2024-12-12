@@ -1,0 +1,12 @@
+{"code": " decoded_str.encode(\"utf-16\").decode()", "compilation_passed": true, "time": 0.007456064224243164, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " decoded_str.encode(\"utf-16\").decode(\"utf-16\")", "compilation_passed": true, "time": 0.00302886962890625, "tests_passed": true, "error": null}
+{"code": " codecs.encode(decoded_str, \"utf_16\").decode()", "compilation_passed": true, "time": 0.006933927536010742, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " codecs.encode(decoded_str, 'unicode_escape').decode()", "compilation_passed": true, "time": 0.005463123321533203, "tests_passed": true, "error": null}
+{"code": " codecs.encode(decoded_str, \"utf_16_be\").decode(\"utf_16_be\")", "compilation_passed": true, "time": 0.0029408931732177734, "tests_passed": true, "error": null}
+{"code": " codecs.encode(decoded_str, \"utf_16_be\").decode()", "compilation_passed": true, "time": 0.004286050796508789, "tests_passed": true, "error": null}
+{"code": " decoded_str.encode(\"utf-16\").decode(\"utf-16-be\")", "compilation_passed": true, "time": 0.004266977310180664, "tests_passed": true, "error": null}
+{"code": " codecs.encode(decoded_str, \"utf-16\").decode(\"utf-8\")", "compilation_passed": true, "time": 0.006610870361328125, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " codecs.getencoder(\"utf_16\")(decoded_str)[0].decode()", "compilation_passed": true, "time": 0.005921125411987305, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " codecs.getencoder('utf-16')(decoded_str)(1)[0].decode()", "compilation_passed": true, "time": 0.006212711334228516, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.getdecoder(\"unicode_escape\")(decoded_str).decode(\"utf-16\")", "compilation_passed": true, "time": 0.006573915481567383, "tests_passed": false, "error": "AttributeError"}
+{"code": " codecs.getdecoder(\"utf-16\")(decoded_str)(\"ignore\")", "compilation_passed": true, "time": 0.009412050247192383, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,23 @@
+{"code": "columns[~df.columns.isin(np.array(df.columns[1::]))]].values = scaler.fit_transform(df[df.columns[~df.columns.isin(np.array(df.columns[1::]))]].values)", "compilation_passed": true, "time": 0.013421058654785156, "tests_passed": false, "error": "AttributeError"}
+{"code": "columns] = scaler.fit_transform(df[df.columns])", "compilation_passed": true, "time": 0.21622228622436523, "tests_passed": true, "error": null}
+{"code": "select_dtypes(include=[np.number]).columns] = scaler.fit_transform(df[df.select_dtypes(include=[np.number]).columns])", "compilation_passed": true, "time": 0.22063016891479492, "tests_passed": true, "error": null}
+{"code": "select_dtypes(include=['number']).columns] = scaler.fit_transform(df[df.select_dtypes(include=['number']).columns])", "compilation_passed": true, "time": 0.21882915496826172, "tests_passed": true, "error": null}
+{"code": "columns] = scaler.fit_transform(df)", "compilation_passed": true, "time": 0.21193504333496094, "tests_passed": true, "error": null}
+{"code": "select_dtypes(include='number')] = scaler.fit_transform(df[df.select_dtypes(include='number')])", "compilation_passed": true, "time": 0.012630224227905273, "tests_passed": false, "error": "ValueError"}
+{"code": "select_dtypes(include=[\"float\", \"int\"]).columns] = scaler.fit_transform(df[df.select_dtypes(include=[\"float\", \"int\"]).columns])", "compilation_passed": true, "time": 0.229292631149292, "tests_passed": true, "error": null}
+{"code": "apply(lambda x: x.dtype != np.object)] = scaler.fit_transform(df.loc[:, df.apply(lambda x: x.dtype != np.object)].values)", "compilation_passed": true, "time": 0.02255105972290039, "tests_passed": false, "error": "    https"}
+{"code": "columns[0:3]] = scaler.fit_transform(df[df.columns[0:3]])", "compilation_passed": true, "time": 0.13871526718139648, "tests_passed": true, "error": null}
+{"code": "select_dtypes(include=\"float\")] = scaler.fit_transform(df[df.select_dtypes(include=\"float\")])", "compilation_passed": true, "time": 0.013442039489746094, "tests_passed": false, "error": "ValueError"}
+{"code": "select_dtypes(\"numeric\").columns] = scaler.fit_transform(df.select_dtypes(\"numeric\"))", "compilation_passed": true, "time": 0.015516281127929688, "tests_passed": false, "error": "TypeError"}
+{"code": "columns[1:]] = scaler.fit_transform(df[df.columns[1:]])", "compilation_passed": true, "time": 0.04985499382019043, "tests_passed": true, "error": null}
+{"code": "select_dtypes(include=['int', 'float']).columns] = scaler.fit_transform(df[df.select_dtypes(include=['int', 'float']).columns])", "compilation_passed": true, "time": 0.23762202262878418, "tests_passed": true, "error": null}
+{"code": "dtypes == np.dtype('float64')] = scaler.fit_transform(df[df.dtypes == np.dtype('float64')])", "compilation_passed": true, "time": 0.015989065170288086, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": "columns[0]] = scaler.fit_transform(df[df.columns[0:1]].values)", "compilation_passed": true, "time": 0.05040287971496582, "tests_passed": true, "error": null}
+{"code": "select_dtypes(include=[\"float\",\"int\"])] = scaler.fit_transform(df[df.select_dtypes(include=[\"float\",\"int\"])])", "compilation_passed": true, "time": 0.012374162673950195, "tests_passed": false, "error": "ValueError"}
+{"code": "select_dtypes(include=\"number\").columns] = scaler.fit_transform(df[df.select_dtypes(include=\"number\").columns])", "compilation_passed": true, "time": 0.2219080924987793, "tests_passed": true, "error": null}
+{"code": "columns] = scaler.fit_transform(df.values)", "compilation_passed": true, "time": 1.0022411346435547, "tests_passed": false, "error": ""}
+{"code": "select_dtypes(include=[\"number\"]).columns] = scaler.fit_transform(df[df.select_dtypes(include=[\"number\"]).columns])", "compilation_passed": true, "time": 0.22270488739013672, "tests_passed": true, "error": null}
+{"code": "select_dtypes(np.number).columns] = scaler.fit_transform(df[df.select_dtypes(np.number).columns])", "compilation_passed": true, "time": 0.2445671558380127, "tests_passed": true, "error": null}
+{"code": "select_dtypes(include=['number'])] = scaler.fit_transform(df[df.select_dtypes(include=['number'])])", "compilation_passed": true, "time": 0.015318155288696289, "tests_passed": false, "error": "ValueError"}
+{"code": "dtypes == int] = scaler.fit_transform(df[df.dtypes == int])", "compilation_passed": true, "time": 0.02701401710510254, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": "select_dtypes(include='number').columns] = scaler.fit_transform(df[df.select_dtypes(include='number').columns])", "compilation_passed": true, "time": 0.24553203582763672, "tests_passed": true, "error": null}

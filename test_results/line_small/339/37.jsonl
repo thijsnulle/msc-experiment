@@ -1,0 +1,11 @@
+{"code": " hmac.new(secret_key.encode('utf-8'), json_req_data.encode('utf-8'), hashlib.sha256)", "compilation_passed": true, "time": 0.0020160675048828125, "tests_passed": true, "error": null}
+{"code": " hmac.new(secret_key.encode('utf-8'), msg=json_req_data.encode('utf-8'), digestmod=hashlib.sha256)", "compilation_passed": true, "time": 0.002110004425048828, "tests_passed": true, "error": null}
+{"code": " hmac.new(secret_key.encode(), msg=json_req_data.encode(), digestmod=hashlib.sha256)", "compilation_passed": true, "time": 0.0020568370819091797, "tests_passed": true, "error": null}
+{"code": " hmac.new(secret_key.encode(), json_req_data.encode(), hashlib.sha256)", "compilation_passed": true, "time": 0.0018529891967773438, "tests_passed": true, "error": null}
+{"code": " hmac.new(secret_key.encode(), json_req_data.encode(), digestmod=hashlib.sha256)", "compilation_passed": true, "time": 0.002119302749633789, "tests_passed": true, "error": null}
+{"code": " hmac.new(", "compilation_passed": false, "time": 0.00022411346435546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " hmac.new(bytes(secret_key, 'utf-8'), json_req_data, hashlib.sha256)", "compilation_passed": true, "time": 0.009350061416625977, "tests_passed": false, "error": "TypeError"}
+{"code": " hmac.new(bytes(secret_key, encoding='utf-8'), msg=json_req_data, digestmod=hashlib.sha256)", "compilation_passed": true, "time": 0.010965108871459961, "tests_passed": false, "error": "TypeError"}
+{"code": " hmac.new(bytes(secret_key, encoding='utf-8'), json_req_data.encode(), hashlib.sha256)", "compilation_passed": true, "time": 0.002130746841430664, "tests_passed": true, "error": null}
+{"code": " hmac.new(bytes(secret_key, 'utf-8'), json_req_data.encode(), hashlib.sha256)", "compilation_passed": true, "time": 0.002518177032470703, "tests_passed": true, "error": null}
+{"code": " hmac.new(bytes(secret_key, 'utf-8'), json_req_data.encode('utf-8'), hashlib.sha256)", "compilation_passed": true, "time": 0.002518177032470703, "tests_passed": true, "error": null}

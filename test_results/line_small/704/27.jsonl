@@ -1,0 +1,22 @@
+{"code": " not isinstance(percentage, float):", "compilation_passed": true, "time": 0.0049610137939453125, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, pd.DataFrame):", "compilation_passed": true, "time": 0.010606050491333008, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(cols, list) or not isinstance(percentage, (int, float)):", "compilation_passed": true, "time": 0.0035200119018554688, "tests_passed": true, "error": null}
+{"code": " isinstance(percentage, int):", "compilation_passed": true, "time": 0.0035521984100341797, "tests_passed": true, "error": null}
+{"code": " percentage < MIN_PERCENTAGE:", "compilation_passed": true, "time": 0.009737968444824219, "tests_passed": false, "error": "ValueError"}
+{"code": " not (isinstance(data, list) and", "compilation_passed": false, "time": 0.00012803077697753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not isinstance(data, list):", "compilation_passed": true, "time": 0.004626274108886719, "tests_passed": true, "error": null}
+{"code": " type(data) != list or type(cols) != list or type(percentage) != float:", "compilation_passed": true, "time": 0.0033240318298339844, "tests_passed": true, "error": null}
+{"code": " len(cols) <= 1:", "compilation_passed": true, "time": 0.0035071372985839844, "tests_passed": true, "error": null}
+{"code": " len(cols) == 0:", "compilation_passed": true, "time": 0.003319978713989258, "tests_passed": true, "error": null}
+{"code": " len(data) <= 0 or len(cols) <= 0:", "compilation_passed": true, "time": 0.003072977066040039, "tests_passed": true, "error": null}
+{"code": " percentage > 1 or percentage < 0:", "compilation_passed": true, "time": 0.003075838088989258, "tests_passed": true, "error": null}
+{"code": " len(data) != len(cols):", "compilation_passed": true, "time": 0.0036089420318603516, "tests_passed": true, "error": null}
+{"code": " not data:", "compilation_passed": true, "time": 0.0035147666931152344, "tests_passed": true, "error": null}
+{"code": " percentage <= MIN_PERCENTAGE:", "compilation_passed": true, "time": 0.009818077087402344, "tests_passed": false, "error": "ValueError"}
+{"code": " len(cols) == 1:", "compilation_passed": true, "time": 0.003175020217895508, "tests_passed": true, "error": null}
+{"code": " not pd.isnull(percentage):", "compilation_passed": true, "time": 0.011875629425048828, "tests_passed": false, "error": "ValueError"}
+{"code": " percentage == 0:", "compilation_passed": true, "time": 0.010535001754760742, "tests_passed": false, "error": "ValueError"}
+{"code": " len(data) == 1:", "compilation_passed": true, "time": 0.0033130645751953125, "tests_passed": true, "error": null}
+{"code": " not len(data):", "compilation_passed": true, "time": 0.003040790557861328, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, list) or not isinstance(cols, list) or not isinstance(percentage, float):", "compilation_passed": true, "time": 0.0033042430877685547, "tests_passed": true, "error": null}
+{"code": " len(cols) < 2:", "compilation_passed": true, "time": 0.003152132034301758, "tests_passed": true, "error": null}

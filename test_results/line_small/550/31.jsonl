@@ -1,0 +1,11 @@
+{"code": "loc['MenuItem'] = df.index", "compilation_passed": true, "time": 0.008584976196289062, "tests_passed": false, "error": "ValueError"}
+{"code": "index.name = 'MenuItem'", "compilation_passed": true, "time": 0.004731178283691406, "tests_passed": true, "error": null}
+{"code": "reset_index(inplace=True, drop=True)", "compilation_passed": true, "time": 0.006357908248901367, "tests_passed": true, "error": null}
+{"code": "rename(columns={0: 'MenuItem'}, inplace=True)", "compilation_passed": true, "time": 0.006124973297119141, "tests_passed": true, "error": null}
+{"code": "reset_index(drop=True, inplace=True)", "compilation_passed": true, "time": 0.00530695915222168, "tests_passed": true, "error": null}
+{"code": "index.name = \"MenuItem\"", "compilation_passed": true, "time": 0.0049517154693603516, "tests_passed": true, "error": null}
+{"code": "columns = ['Count']", "compilation_passed": true, "time": 0.005422115325927734, "tests_passed": true, "error": null}
+{"code": "reset_index(drop=False, inplace=True)", "compilation_passed": true, "time": 0.005692243576049805, "tests_passed": true, "error": null}
+{"code": "reset_index(inplace=True)", "compilation_passed": true, "time": 0.004889726638793945, "tests_passed": true, "error": null}
+{"code": "sort_index(inplace=True)", "compilation_passed": true, "time": 0.005418062210083008, "tests_passed": true, "error": null}
+{"code": "loc['Total'] = [len(flat_list)]", "compilation_passed": true, "time": 0.006911039352416992, "tests_passed": true, "error": null}

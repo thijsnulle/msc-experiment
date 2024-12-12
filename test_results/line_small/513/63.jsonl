@@ -1,0 +1,15 @@
+{"code": " column_data.plot()", "compilation_passed": true, "time": 0.10259890556335449, "tests_passed": true, "error": null}
+{"code": " plt.plot(column_data, label=f\"{column}\")", "compilation_passed": true, "time": 0.04984712600708008, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.subplots()[1]", "compilation_passed": true, "time": 0.08384990692138672, "tests_passed": true, "error": null}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.08195018768310547, "tests_passed": true, "error": null}
+{"code": " df.plot.line(x=\"Date\", y=column, title=f\"Line Chart of {column}\")", "compilation_passed": true, "time": 0.44896721839904785, "tests_passed": true, "error": null}
+{"code": " df.plot.line(", "compilation_passed": false, "time": 0.00028395652770996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.plot(df[\"Date\"], column_data, \"o-\")", "compilation_passed": true, "time": 0.04518318176269531, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot.line(column=column, title=f\"Line Chart of {column}\")", "compilation_passed": true, "time": 0.12235903739929199, "tests_passed": true, "error": null}
+{"code": " plt.axes()", "compilation_passed": true, "time": 0.08950018882751465, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"line\", title=f\"Line Chart of ({column})\")", "compilation_passed": true, "time": 0.11858105659484863, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"line\", x=\"Date\", y=column, title=f\"Line Chart of {column}\")", "compilation_passed": true, "time": 0.4649040699005127, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"line\", legend=False)", "compilation_passed": true, "time": 0.11545586585998535, "tests_passed": true, "error": null}
+{"code": " plt.plot(column_data)", "compilation_passed": true, "time": 0.05363321304321289, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(", "compilation_passed": false, "time": 0.0002701282501220703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.figure().add_subplot(111)", "compilation_passed": true, "time": 0.09313201904296875, "tests_passed": true, "error": null}

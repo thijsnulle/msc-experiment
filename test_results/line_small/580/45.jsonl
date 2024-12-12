@@ -1,0 +1,12 @@
+{"code": " random.sample(range(RANGE), SIZE)", "compilation_passed": true, "time": 0.32860898971557617, "tests_passed": true, "error": null}
+{"code": " []  # List to store the random numbers", "compilation_passed": true, "time": 0.011528968811035156, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " [random.randint(0, RANGE) for _ in range(SIZE)]", "compilation_passed": true, "time": 0.4575049877166748, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, RANGE) for _ in range(SIZE)]  # Generate random numbers", "compilation_passed": true, "time": 0.38340306282043457, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.007272958755493164, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " random.sample(range(0, RANGE), SIZE)", "compilation_passed": true, "time": 0.35415005683898926, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, RANGE) for _ in range(SIZE)]  # generate random numbers", "compilation_passed": true, "time": 0.34622788429260254, "tests_passed": true, "error": null}
+{"code": " np.random.randint(RANGE, size=SIZE)", "compilation_passed": true, "time": 0.24306392669677734, "tests_passed": true, "error": null}
+{"code": " []  # List to store random numbers", "compilation_passed": true, "time": 0.009016036987304688, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " [random.randint(0, RANGE) for i in range(SIZE)]", "compilation_passed": true, "time": 1.2912728786468506, "tests_passed": false, "error": "TimeoutError"}
+{"code": " []  # list to hold random numbers", "compilation_passed": true, "time": 0.011678934097290039, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " pd.Series(random.choices(range(RANGE), size=SIZE))", "compilation_passed": true, "time": 0.00532221794128418, "tests_passed": false, "error": "TypeError"}

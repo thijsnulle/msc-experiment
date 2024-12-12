@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(matrix)", "compilation_passed": true, "time": 0.009042978286743164, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(matrix, index=matrix.index, columns=matrix.columns)", "compilation_passed": true, "time": 0.008744001388549805, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(matrix, columns=matrix.columns, index=matrix.index)", "compilation_passed": true, "time": 0.010699033737182617, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(matrix, dtype=float)", "compilation_passed": true, "time": 0.014275074005126953, "tests_passed": false, "error": "ValueError"}

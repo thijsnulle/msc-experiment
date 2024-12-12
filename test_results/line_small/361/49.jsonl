@@ -1,0 +1,15 @@
+{"code": " {}", "compilation_passed": true, "time": 0.04730391502380371, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.sum(axis=0)", "compilation_passed": true, "time": 0.08287596702575684, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file_location).sum().to_dict()", "compilation_passed": true, "time": 0.05064201354980469, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.iloc[:, :-1].sum(axis=0).to_dict()", "compilation_passed": true, "time": 0.045366764068603516, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.sum(axis=0).to_dict()", "compilation_passed": true, "time": 0.045832157135009766, "tests_passed": false, "error": "AttributeError"}
+{"code": " sum(df.iloc[:, i].sum() for i in range(df.shape[1]))", "compilation_passed": true, "time": 0.049857139587402344, "tests_passed": false, "error": "AttributeError"}
+{"code": " sum(df[column].sum() for column in df.columns)", "compilation_passed": true, "time": 0.04878592491149902, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.sum().to_dict()", "compilation_passed": true, "time": 0.0544590950012207, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.columns.map(lambda x: sum(df[x]))", "compilation_passed": true, "time": 0.047257184982299805, "tests_passed": false, "error": "AttributeError"}
+{"code": " [sum(df[col].tolist()) for col in df.columns]", "compilation_passed": true, "time": 0.05082821846008301, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.apply(lambda x: x.sum(), axis=0)", "compilation_passed": true, "time": 0.07818388938903809, "tests_passed": true, "error": null}
+{"code": " {column: sum(row) for column, row in df.iteritems()}", "compilation_passed": true, "time": 0.051856040954589844, "tests_passed": false, "error": "AttributeError"}
+{"code": " dict(df.apply(lambda x: sum(x), axis=0).to_dict())", "compilation_passed": true, "time": 0.04579806327819824, "tests_passed": false, "error": "AttributeError"}
+{"code": " dict()", "compilation_passed": true, "time": 0.0428619384765625, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.iloc[:, :-1].sum().to_dict()", "compilation_passed": true, "time": 0.047174930572509766, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,24 @@
+{"code": " struct.pack(", "compilation_passed": false, "time": 0.00010800361633300781, "tests_passed": false, "error": "SyntaxError"}
+{"code": " bytes(hex_string, 'utf-8')", "compilation_passed": true, "time": 0.0029687881469726562, "tests_passed": true, "error": null}
+{"code": " hex_to_binary(hex_string)", "compilation_passed": true, "time": 0.004103899002075195, "tests_passed": false, "error": "NameError"}
+{"code": " struct.unpack(\"<d\", bytes.fromhex(hex_string))[0]", "compilation_passed": true, "time": 0.00400996208190918, "tests_passed": false, "error": "struct.error"}
+{"code": " struct.unpack('>d', hex_string.encode('utf-8'))[0]", "compilation_passed": true, "time": 0.0047299861907958984, "tests_passed": false, "error": "TypeError"}
+{"code": " float.fromhex(hex_string).tobytes()", "compilation_passed": true, "time": 0.004066944122314453, "tests_passed": false, "error": "AttributeError"}
+{"code": " struct.pack('<I', int(hex_string, 16))", "compilation_passed": true, "time": 0.0013699531555175781, "tests_passed": true, "error": null}
+{"code": " struct.unpack(\"<I\", bytes.fromhex(hex_string))[0]", "compilation_passed": true, "time": 0.003874063491821289, "tests_passed": false, "error": "TypeError"}
+{"code": " struct.unpack(\"<f\", bytes.fromhex(hex_string))[0]", "compilation_passed": true, "time": 0.003818035125732422, "tests_passed": false, "error": "TypeError"}
+{"code": " struct.pack(\">f\", float.fromhex(hex_string))", "compilation_passed": true, "time": 0.000985860824584961, "tests_passed": true, "error": null}
+{"code": " struct.unpack('f', bytes.fromhex(hex_string))", "compilation_passed": true, "time": 0.00379180908203125, "tests_passed": false, "error": "TypeError"}
+{"code": " struct.pack('>f', float.fromhex(hex_string))", "compilation_passed": true, "time": 0.0009660720825195312, "tests_passed": true, "error": null}
+{"code": " struct.unpack('>b', struct.pack('b', int(hex_string, 16)))", "compilation_passed": true, "time": 0.003882884979248047, "tests_passed": false, "error": "struct.error"}
+{"code": " float(hex_string, 16)", "compilation_passed": true, "time": 0.0040280818939208984, "tests_passed": false, "error": "TypeError"}
+{"code": " struct.pack('f', float.fromhex(hex_string))", "compilation_passed": true, "time": 0.0010521411895751953, "tests_passed": true, "error": null}
+{"code": " struct.pack(\">f\", int(hex_string, 16))", "compilation_passed": true, "time": 0.0009748935699462891, "tests_passed": true, "error": null}
+{"code": " struct.unpack(\">d\", bytes.fromhex(hex_string))[0]", "compilation_passed": true, "time": 0.003911256790161133, "tests_passed": false, "error": "struct.error"}
+{"code": " struct.pack(\"<f\", int(hex_string, 16))", "compilation_passed": true, "time": 0.001046895980834961, "tests_passed": true, "error": null}
+{"code": " hex_string.encode().decode('utf-16-le')", "compilation_passed": true, "time": 0.007054805755615234, "tests_passed": false, "error": "TypeError"}
+{"code": " struct.unpack('<f', bytes.fromhex(hex_string))[0]", "compilation_passed": true, "time": 0.004177093505859375, "tests_passed": false, "error": "TypeError"}
+{"code": " struct.pack(\">d\", struct.unpack(\">d\", bytes.fromhex(hex_string))[0])", "compilation_passed": true, "time": 0.0037240982055664062, "tests_passed": false, "error": "struct.error"}
+{"code": " hex_string_to_binary(hex_string)", "compilation_passed": true, "time": 0.0035979747772216797, "tests_passed": false, "error": "NameError"}
+{"code": " struct.pack('>d', float.fromhex(hex_string))", "compilation_passed": true, "time": 0.001056671142578125, "tests_passed": true, "error": null}
+{"code": " struct.unpack('>d', bytes.fromhex(hex_string))[0]", "compilation_passed": true, "time": 0.004330873489379883, "tests_passed": false, "error": "struct.error"}

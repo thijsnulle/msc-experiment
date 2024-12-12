@@ -1,0 +1,10 @@
+{"code": " ax", "compilation_passed": true, "time": 0.20006418228149414, "tests_passed": false, "error": "TypeError"}
+{"code": " data", "compilation_passed": true, "time": 0.1997690200805664, "tests_passed": false, "error": "StopIteration"}
+{"code": " (x for x, _ in data)", "compilation_passed": true, "time": 0.19768500328063965, "tests_passed": false, "error": "StopIteration"}
+{"code": " ((x, exp_x) for x, exp_x in data)", "compilation_passed": true, "time": 0.2098560333251953, "tests_passed": false, "error": "StopIteration"}
+{"code": " (data, ax)", "compilation_passed": true, "time": 0.20252299308776855, "tests_passed": false, "error": "TypeError"}
+{"code": " ax,", "compilation_passed": true, "time": 0.19974231719970703, "tests_passed": false, "error": "TypeError"}
+{"code": " ax, plt.gca()", "compilation_passed": true, "time": 0.20954298973083496, "tests_passed": false, "error": "TypeError"}
+{"code": " ax.plot(x_values, [math.exp(x) for x in x_values])", "compilation_passed": true, "time": 0.1953740119934082, "tests_passed": false, "error": "TypeError"}
+{"code": " (x, exp_x)", "compilation_passed": true, "time": 0.20456218719482422, "tests_passed": false, "error": "TypeError"}
+{"code": " ax.get_lines()[0]", "compilation_passed": true, "time": 0.19493508338928223, "tests_passed": false, "error": "IndexError"}

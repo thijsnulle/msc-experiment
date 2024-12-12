@@ -1,0 +1,18 @@
+{"code": " df[value_col].groupby(group_col).mean()", "compilation_passed": true, "time": 0.026045799255371094, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(group_col).mean().reset_index()", "compilation_passed": true, "time": 0.18620896339416504, "tests_passed": true, "error": null}
+{"code": " df[value_col].groupby(df[group_col]).mean()", "compilation_passed": true, "time": 0.19203877449035645, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.018603801727294922, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby(group_col)[value_col].mean()", "compilation_passed": true, "time": 0.4857969284057617, "tests_passed": true, "error": null}
+{"code": " df.groupby(group_col).mean()", "compilation_passed": true, "time": 0.45259690284729004, "tests_passed": true, "error": null}
+{"code": " df.groupby(group_col).agg({value_col: np.mean})", "compilation_passed": true, "time": 0.46892404556274414, "tests_passed": true, "error": null}
+{"code": " df.groupby(group_col).mean()[value_col]", "compilation_passed": true, "time": 0.5404930114746094, "tests_passed": true, "error": null}
+{"code": " df.pivot_table(index=group_col, columns=value_col, values=value_col, aggfunc='mean')", "compilation_passed": true, "time": 0.3600749969482422, "tests_passed": false, "error": "ValueError"}
+{"code": " np.mean(df.groupby(group_col)[value_col].mean(), axis=1)", "compilation_passed": true, "time": 0.022097110748291016, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(group_col)[value_col].mean().values", "compilation_passed": true, "time": 0.050338029861450195, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.groupby(group_col)[value_col].mean().reset_index()", "compilation_passed": true, "time": 0.501593828201294, "tests_passed": true, "error": null}
+{"code": " df.groupby(group_col, as_index=False).mean()", "compilation_passed": true, "time": 0.5423619747161865, "tests_passed": true, "error": null}
+{"code": " df[group_col].value_counts(dropna=False).sort_index()", "compilation_passed": true, "time": 0.39514803886413574, "tests_passed": false, "error": "ValueError"}
+{"code": " df.pivot_table(index=group_col, values=value_col, aggfunc=\"mean\")", "compilation_passed": true, "time": 0.5194461345672607, "tests_passed": true, "error": null}
+{"code": " df.pivot_table(index=group_col, values=value_col)", "compilation_passed": true, "time": 0.6287128925323486, "tests_passed": true, "error": null}
+{"code": " df.groupby(group_col).agg(", "compilation_passed": false, "time": 0.0002841949462890625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby(group_col).agg({\"Value\": \"mean\"})", "compilation_passed": true, "time": 0.5908269882202148, "tests_passed": true, "error": null}

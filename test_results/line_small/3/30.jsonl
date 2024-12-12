@@ -1,0 +1,5 @@
+{"code": " {k: np.mean(v) for k, v in random_dict.items()}", "compilation_passed": true, "time": 0.0032320022583007812, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.006262063980102539, "tests_passed": true, "error": null}
+{"code": " {k: np.mean(random_dict[k]) for k in random_dict}", "compilation_passed": true, "time": 0.003081798553466797, "tests_passed": true, "error": null}
+{"code": " {k: np.mean(random_dict[k]) for k in LETTERS}", "compilation_passed": true, "time": 0.0034818649291992188, "tests_passed": true, "error": null}
+{"code": " {k: sum(v) / len(v) for k, v in random_dict.items()}", "compilation_passed": true, "time": 0.002028942108154297, "tests_passed": true, "error": null}

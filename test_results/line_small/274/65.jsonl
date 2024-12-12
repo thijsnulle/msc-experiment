@@ -1,0 +1,8 @@
+{"code": " smtplib.SMTP(smtp_server, smtp_port) as server:", "compilation_passed": true, "time": 0.025151968002319336, "tests_passed": true, "error": null}
+{"code": " smtplib.SMTP(smtp_server, smtp_port) as smtp_client:", "compilation_passed": true, "time": 0.011236190795898438, "tests_passed": false, "error": "NameError"}
+{"code": " smtplib.SMTP(smtp_server, smtp_port) as smtp_connection:", "compilation_passed": true, "time": 0.012154102325439453, "tests_passed": false, "error": "NameError"}
+{"code": " smtplib.SMTP(smtp_server, smtp_port) as smtp_server:", "compilation_passed": true, "time": 0.011909961700439453, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " smtplib.SMTP(smtp_server, smtp_port, timeout=15) as server:", "compilation_passed": true, "time": 0.019856929779052734, "tests_passed": true, "error": null}
+{"code": " smtplib.SMTP(smtp_server, smtp_port) as smtp:", "compilation_passed": true, "time": 0.01184701919555664, "tests_passed": false, "error": "NameError"}
+{"code": " smtplib.SMTP(smtp_server, smtp_port, timeout=5) as smtp:", "compilation_passed": true, "time": 0.014362812042236328, "tests_passed": false, "error": "NameError"}
+{"code": " smtplib.SMTP_SSL(smtp_server, smtp_port, timeout=15) as server:", "compilation_passed": true, "time": 0.01614999771118164, "tests_passed": false, "error": "AttributeError"}

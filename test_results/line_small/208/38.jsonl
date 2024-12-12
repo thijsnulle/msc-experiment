@@ -1,0 +1,5 @@
+{"code": " np.cumsum(steps)", "compilation_passed": true, "time": 0.42025113105773926, "tests_passed": true, "error": null}
+{"code": " steps.cumsum()", "compilation_passed": true, "time": 0.4163079261779785, "tests_passed": true, "error": null}
+{"code": " pd.Series(steps).cumsum()", "compilation_passed": true, "time": 0.40929222106933594, "tests_passed": true, "error": null}
+{"code": " sum(steps)", "compilation_passed": true, "time": 0.11546611785888672, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(steps)", "compilation_passed": true, "time": 0.010285139083862305, "tests_passed": false, "error": "ValueError"}

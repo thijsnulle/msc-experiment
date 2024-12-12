@@ -1,0 +1,5 @@
+{"code": " []", "compilation_passed": true, "time": 0.0019009113311767578, "tests_passed": true, "error": null}
+{"code": " [\"\"] * n_sentences", "compilation_passed": true, "time": 0.00191497802734375, "tests_passed": true, "error": null}
+{"code": " [\". \".join(random.choice(WORD_LIST).split()) for i in range(n_sentences)]", "compilation_passed": true, "time": 0.001766204833984375, "tests_passed": true, "error": null}
+{"code": " [generate_sentence() for _ in range(n_sentences)]", "compilation_passed": true, "time": 0.016199111938476562, "tests_passed": false, "error": "NameError"}
+{"code": " [", "compilation_passed": false, "time": 0.0001289844512939453, "tests_passed": false, "error": "SyntaxError"}

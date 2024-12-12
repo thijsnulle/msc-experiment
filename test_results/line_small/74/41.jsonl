@@ -1,0 +1,4 @@
+{"code": " response.json()", "compilation_passed": true, "time": 0.004792928695678711, "tests_passed": true, "error": null}
+{"code": " response.json()['geo']", "compilation_passed": true, "time": 0.010843038558959961, "tests_passed": false, "error": "KeyError"}
+{"code": " response.json()['loc'].split(\",\")", "compilation_passed": true, "time": 0.011388778686523438, "tests_passed": false, "error": "KeyError"}
+{"code": " response.json()[\"location\"]", "compilation_passed": true, "time": 0.012778043746948242, "tests_passed": false, "error": "KeyError"}

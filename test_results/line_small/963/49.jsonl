@@ -1,0 +1,17 @@
+{"code": ".filter(", "compilation_passed": false, "time": 0.00030112266540527344, "tests_passed": false, "error": "SyntaxError"}
+{"code": ".sort():", "compilation_passed": true, "time": 0.019158124923706055, "tests_passed": false, "error": "TypeError"}
+{"code": "[:]:", "compilation_passed": true, "time": 0.08906793594360352, "tests_passed": true, "error": null}
+{"code": ".copy():", "compilation_passed": true, "time": 0.08945202827453613, "tests_passed": true, "error": null}
+{"code": "[:-1]:  # to exclude the last file that will be a duplicate", "compilation_passed": true, "time": 0.041142940521240234, "tests_passed": true, "error": null}
+{"code": " or []:", "compilation_passed": true, "time": 0.09086990356445312, "tests_passed": true, "error": null}
+{"code": ".filter(Path):", "compilation_passed": true, "time": 0.01898026466369629, "tests_passed": false, "error": "AttributeError"}
+{"code": "[:10]:", "compilation_passed": true, "time": 0.08818268775939941, "tests_passed": true, "error": null}
+{"code": " or [\"\"]:", "compilation_passed": true, "time": 0.019464969635009766, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " + glob.glob(f\"{source_directory}/**/*{extension}\"):", "compilation_passed": true, "time": 0.07819485664367676, "tests_passed": true, "error": null}
+{"code": " + glob.glob(f\"{source_directory}/*{extension}\"):", "compilation_passed": true, "time": 0.04400777816772461, "tests_passed": true, "error": null}
+{"code": "[:500]:", "compilation_passed": true, "time": 0.08979511260986328, "tests_passed": true, "error": null}
+{"code": "[:500]:  # maximum 500 files allowed per zip", "compilation_passed": true, "time": 0.09089088439941406, "tests_passed": true, "error": null}
+{"code": " | glob.glob(f\"{source_directory}/*{extension}\", recursive=False):", "compilation_passed": true, "time": 0.01888895034790039, "tests_passed": false, "error": "TypeError"}
+{"code": ".__iter__():", "compilation_passed": true, "time": 0.09081172943115234, "tests_passed": true, "error": null}
+{"code": ".__reversed__():", "compilation_passed": true, "time": 0.09104490280151367, "tests_passed": true, "error": null}
+{"code": "[:100]:", "compilation_passed": true, "time": 0.09287190437316895, "tests_passed": true, "error": null}

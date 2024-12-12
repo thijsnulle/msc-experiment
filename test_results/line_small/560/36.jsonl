@@ -1,0 +1,20 @@
+{"code": " pd.DataFrame(data, columns=[\"Month\", \"Value\"])", "compilation_passed": true, "time": 0.1451570987701416, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=['year', 'value'])", "compilation_passed": true, "time": 0.1457209587097168, "tests_passed": true, "error": null}
+{"code": " [{'Year': d[0], 'Month': d[1], 'Value': d[2]} for d in data]", "compilation_passed": true, "time": 0.01170492172241211, "tests_passed": false, "error": "IndexError"}
+{"code": " {", "compilation_passed": false, "time": 0.0003199577331542969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(data, columns=[\"year\", \"value\"])", "compilation_passed": true, "time": 0.13956689834594727, "tests_passed": true, "error": null}
+{"code": " [(int(m), int(v)) for m, v in data]", "compilation_passed": true, "time": 0.010164976119995117, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.15239906311035156, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Month': [d[0] for d in data], 'Value': [d[1] for d in data]})", "compilation_passed": true, "time": 0.14441275596618652, "tests_passed": true, "error": null}
+{"code": " [(int(d[0]), int(d[1])) for d in data]", "compilation_passed": true, "time": 0.010164022445678711, "tests_passed": false, "error": "ValueError"}
+{"code": " [{k: v} for v, k in data]", "compilation_passed": true, "time": 0.14972805976867676, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=['year', 'month', 'value'])", "compilation_passed": true, "time": 0.007791280746459961, "tests_passed": false, "error": "ValueError"}
+{"code": " [f'({year_value}, {float(value)})' for (year, value) in data]", "compilation_passed": true, "time": 0.010530948638916016, "tests_passed": false, "error": "NameError"}
+{"code": " [[int(d[0]), d[1]] for d in data]", "compilation_passed": true, "time": 0.010286808013916016, "tests_passed": false, "error": "ValueError"}
+{"code": " [[int(d[0]), int(d[1])] for d in data]", "compilation_passed": true, "time": 0.010339021682739258, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data).astype({'value': 'int64'})", "compilation_passed": true, "time": 0.00809788703918457, "tests_passed": false, "error": "KeyError"}
+{"code": " [['20'+d[0], int(d[1])] for d in data]", "compilation_passed": true, "time": 0.14969921112060547, "tests_passed": true, "error": null}
+{"code": " [[d[0], int(d[1])] for d in data]", "compilation_passed": true, "time": 0.16158318519592285, "tests_passed": true, "error": null}
+{"code": " [d[1:] + [v] for d, v in data]", "compilation_passed": true, "time": 0.010123968124389648, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(data, columns=[\"Year\", \"Month\", \"Value\"])", "compilation_passed": true, "time": 0.00805521011352539, "tests_passed": false, "error": "ValueError"}
+{"code": " [(d[0], int(d[1])) for d in data]", "compilation_passed": true, "time": 0.16259217262268066, "tests_passed": true, "error": null}

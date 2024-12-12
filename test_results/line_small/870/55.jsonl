@@ -1,0 +1,13 @@
+{"code": " pd.DataFrame(np.array(mean_values).reshape(5, 1), columns=['Mean Value'], index=['Position 0', 'Position 1',", "compilation_passed": false, "time": 0.0002930164337158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(mean_values, columns=['Mean Value'])", "compilation_passed": false, "time": 0.0003979206085205078, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(mean_values, index=unzipped_data[0])", "compilation_passed": false, "time": 0.0002689361572265625, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Mean Value': mean_values},", "compilation_passed": true, "time": 0.003538370132446289, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Mean Value': mean_values})", "compilation_passed": false, "time": 0.0002720355987548828, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Mean Value': mean_values}, index=['Position ' + str(i) for i in range(len(mean_values))])", "compilation_passed": false, "time": 0.00029397010803222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(mean_values)", "compilation_passed": false, "time": 0.00039696693420410156, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(mean_values, columns=['Mean Value'], index=[f'Position {i}' for i in range(len(mean_values))])", "compilation_passed": false, "time": 0.0003037452697753906, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(mean_values, columns=[f'Mean Value'])", "compilation_passed": false, "time": 0.0002841949462890625, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Mean Value': mean_values}, index=['Position %d' % pos for pos in range(len(unzipped_data))])", "compilation_passed": false, "time": 0.0002999305725097656, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame()", "compilation_passed": false, "time": 0.0002541542053222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Mean Value': mean_values}, index=list(range(1, len(mean_values) + 1)))", "compilation_passed": false, "time": 0.0002911090850830078, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(mean_values, index=pd.Index(['Mean Value'], name='Position '), dtype=object)", "compilation_passed": false, "time": 0.0003261566162109375, "tests_passed": false, "error": "IndentationError"}

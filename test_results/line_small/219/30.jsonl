@@ -1,0 +1,16 @@
+{"code": " sorted(input_list, key=lambda x: math.degrees(x))", "compilation_passed": true, "time": 0.0023648738861083984, "tests_passed": true, "error": null}
+{"code": " sorted([x for x in np.fft.fft(np.array([math.degrees(x) for x in input_list]), 0)])", "compilation_passed": true, "time": 0.011366128921508789, "tests_passed": false, "error": "ValueError"}
+{"code": " np.sort(input_list)", "compilation_passed": true, "time": 0.0058040618896484375, "tests_passed": true, "error": null}
+{"code": " sorted(input_list)", "compilation_passed": true, "time": 0.0020759105682373047, "tests_passed": true, "error": null}
+{"code": " sorted(input_list, key=lambda x: abs(fft[x]))", "compilation_passed": true, "time": 0.01051187515258789, "tests_passed": false, "error": "IndexError"}
+{"code": " np.sort(fft)", "compilation_passed": true, "time": 0.0055468082427978516, "tests_passed": true, "error": null}
+{"code": " sorted(input_list, key=lambda x: np.degrees(x))", "compilation_passed": true, "time": 0.002129793167114258, "tests_passed": true, "error": null}
+{"code": " np.sort(math.degrees(input_list))", "compilation_passed": true, "time": 0.007752895355224609, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted([math.degrees(x) for x in input_list])", "compilation_passed": true, "time": 0.0051648616790771484, "tests_passed": true, "error": null}
+{"code": " sorted(fft, reverse=True)", "compilation_passed": true, "time": 0.005408048629760742, "tests_passed": true, "error": null}
+{"code": " sorted(list(map(math.degrees, input_list)))", "compilation_passed": true, "time": 0.005104780197143555, "tests_passed": true, "error": null}
+{"code": " sorted(input_list, key=math.degrees)", "compilation_passed": true, "time": 0.002537965774536133, "tests_passed": true, "error": null}
+{"code": " np.argsort(fft)", "compilation_passed": true, "time": 0.004717826843261719, "tests_passed": true, "error": null}
+{"code": " [int(x) for x in sorted([math.degrees(x) for x in input_list])]", "compilation_passed": true, "time": 0.004864931106567383, "tests_passed": true, "error": null}
+{"code": " sorted(fft)", "compilation_passed": true, "time": 0.005036115646362305, "tests_passed": true, "error": null}
+{"code": " [x for _, x in sorted(zip(input_list, range(len(input_list))))]", "compilation_passed": true, "time": 0.005082130432128906, "tests_passed": true, "error": null}

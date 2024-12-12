@@ -1,0 +1,20 @@
+{"code": " plt.hist(word_lengths, bins=[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100])", "compilation_passed": true, "time": 0.02231574058532715, "tests_passed": false, "error": "AttributeError"}
+{"code": " filtered_df.plot.hist(", "compilation_passed": false, "time": 0.00023794174194335938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " word_lengths.plot(kind='hist')", "compilation_passed": true, "time": 0.04826974868774414, "tests_passed": true, "error": null}
+{"code": " word_lengths.plot.hist()", "compilation_passed": true, "time": 0.03301119804382324, "tests_passed": true, "error": null}
+{"code": " word_lengths.plot.hist(bins=20, edgecolor='black')", "compilation_passed": true, "time": 0.04301190376281738, "tests_passed": true, "error": null}
+{"code": " word_lengths.plot(kind='hist', bins=20)", "compilation_passed": true, "time": 0.04315328598022461, "tests_passed": true, "error": null}
+{"code": " word_lengths.plot()", "compilation_passed": true, "time": 0.023144960403442383, "tests_passed": true, "error": null}
+{"code": " word_lengths.value_counts().plot.bar(rot=0)  # Histogram plot with word lengths as values", "compilation_passed": true, "time": 0.02064990997314453, "tests_passed": true, "error": null}
+{"code": " word_lengths.plot.hist(bins=10, density=True)  # Plot histogram with 10 bins", "compilation_passed": true, "time": 0.026829957962036133, "tests_passed": true, "error": null}
+{"code": " word_lengths.hist()", "compilation_passed": true, "time": 0.028556108474731445, "tests_passed": true, "error": null}
+{"code": " word_lengths.plot(kind='hist', color='green')", "compilation_passed": true, "time": 0.028241872787475586, "tests_passed": true, "error": null}
+{"code": " filtered_df['Word'].str.len().value_counts().plot.bar()", "compilation_passed": true, "time": 0.020787954330444336, "tests_passed": true, "error": null}
+{"code": " pd.plotting.hist(word_lengths)", "compilation_passed": true, "time": 0.008944988250732422, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.0068759918212890625, "tests_passed": true, "error": null}
+{"code": " filtered_df['Word'].value_counts().plot.bar()", "compilation_passed": true, "time": 0.019509077072143555, "tests_passed": true, "error": null}
+{"code": " pd.plotting.histplot(word_lengths, bins=30, kde=True, cmin=0, color='#2679b2')", "compilation_passed": true, "time": 0.00777125358581543, "tests_passed": false, "error": "AttributeError"}
+{"code": " filtered_df['Word'].value_counts().plot.bar(figsize=(10, 5), rot=0, title=f\"Word Lengths for Words Starting with {letter}\", legend=True, fontsize=8, linewidth=1.5)", "compilation_passed": true, "time": 0.06661605834960938, "tests_passed": true, "error": null}
+{"code": " word_lengths.hist(bins=5)", "compilation_passed": true, "time": 0.020884990692138672, "tests_passed": true, "error": null}
+{"code": " word_lengths.value_counts().plot(kind='bar', rot=0)", "compilation_passed": true, "time": 0.024187088012695312, "tests_passed": true, "error": null}
+{"code": " filtered_df['Word'].str.len().hist(bins=10, figsize=(15, 5))", "compilation_passed": true, "time": 0.04013490676879883, "tests_passed": true, "error": null}

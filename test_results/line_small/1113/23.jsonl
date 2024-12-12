@@ -1,0 +1,8 @@
+{"code": " collections.defaultdict(int)", "compilation_passed": true, "time": 0.0066759586334228516, "tests_passed": true, "error": null}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.005055904388427734, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.005692958831787109, "tests_passed": true, "error": null}
+{"code": " collections.Counter(record[0].split(' ') for record in csv.reader(open(csv_file, 'r', encoding='utf-8')) if emp_prefix in record[0])", "compilation_passed": true, "time": 0.011191129684448242, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.Counter(", "compilation_passed": false, "time": 0.00012803077697753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " collections.defaultdict(lambda: 0)", "compilation_passed": true, "time": 0.005465030670166016, "tests_passed": true, "error": null}
+{"code": " collections.Counter(employee.split('$')[1] for employee in csv.reader(open(csv_file)))", "compilation_passed": true, "time": 0.012347221374511719, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.Counter(emp_prefix + '{0}'.format(num) for row in csv.DictReader(open(csv_file), dialect='excel')", "compilation_passed": false, "time": 0.0001499652862548828, "tests_passed": false, "error": "SyntaxError"}

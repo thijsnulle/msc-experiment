@@ -1,0 +1,8 @@
+{"code": " pd.DataFrame({'A': a, 'B': b})", "compilation_passed": true, "time": 0.12862586975097656, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00016188621520996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(data={", "compilation_passed": false, "time": 0.00015616416931152344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame([a, b], index=['A', 'B'])", "compilation_passed": true, "time": 0.035614967346191406, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0001780986785888672, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'A': a, 'B': b}, index=['A', 'B'])", "compilation_passed": true, "time": 0.007850170135498047, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data={'A': a, 'B': b}, index=['A', 'B'])", "compilation_passed": true, "time": 0.008591890335083008, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame([a, b],", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "SyntaxError"}

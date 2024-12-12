@@ -1,0 +1,21 @@
+{"code": "set_title(f\"Distribution of values in {column_name} (No Data)\", loc=\"center\", size=\"xx-large\")", "compilation_passed": true, "time": 0.22837114334106445, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Distribution of values in {column_name} (No Data)\")", "compilation_passed": true, "time": 0.21898531913757324, "tests_passed": true, "error": null}
+{"code": "bar([], [], color=\"black\", alpha=0.7, edgecolor=\"black\")", "compilation_passed": true, "time": 0.21496224403381348, "tests_passed": true, "error": null}
+{"code": "barh(range(len(df)), [0], color='black', alpha=0.7)", "compilation_passed": true, "time": 0.22001409530639648, "tests_passed": true, "error": null}
+{"code": "set_title(\"Distribution of values in \" + column_name + \" (No Data)\")", "compilation_passed": true, "time": 0.22705292701721191, "tests_passed": true, "error": null}
+{"code": "bar(range(10), [0] * 10, color='black', alpha=0.7, edgecolor='black')", "compilation_passed": true, "time": 0.22415375709533691, "tests_passed": true, "error": null}
+{"code": "bar(range(1), range(1), width=0.8, color='black', alpha=0.7)", "compilation_passed": true, "time": 0.22918319702148438, "tests_passed": true, "error": null}
+{"code": "axhline(0, color='black', alpha=0.7, lw=1, ls='-')", "compilation_passed": true, "time": 0.21586894989013672, "tests_passed": true, "error": null}
+{"code": "bar(range(len(df[column_name])), [0] * len(df[column_name]), color='black', alpha=0.7)", "compilation_passed": true, "time": 0.2655661106109619, "tests_passed": true, "error": null}
+{"code": "set(xlabel=\"Values\", ylabel=\"Frequency\", title=f\"Distribution of values in {column_name} (No Data)\")", "compilation_passed": true, "time": 0.22081899642944336, "tests_passed": true, "error": null}
+{"code": "hist([0, 1], bins=[0, 1])", "compilation_passed": true, "time": 0.2104780673980713, "tests_passed": true, "error": null}
+{"code": "axis('off')", "compilation_passed": true, "time": 0.23147821426391602, "tests_passed": true, "error": null}
+{"code": "bar([\"Value\"], [0], color=\"black\", alpha=0.7, edgecolor=\"black\")", "compilation_passed": true, "time": 0.22249078750610352, "tests_passed": true, "error": null}
+{"code": "hist(df[column_name], color='black', alpha=0.7, bins=np.unique(df[column_name]))", "compilation_passed": true, "time": 0.05824708938598633, "tests_passed": false, "error": "NameError"}
+{"code": "axis(\"off\")", "compilation_passed": true, "time": 0.23084521293640137, "tests_passed": true, "error": null}
+{"code": "barh(range(10), [0] * 10)", "compilation_passed": true, "time": 0.23754096031188965, "tests_passed": true, "error": null}
+{"code": "bar([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], align='center', color='black', alpha=0.7)", "compilation_passed": true, "time": 0.24246716499328613, "tests_passed": true, "error": null}
+{"code": "bar([], [], label=\"No Data\")", "compilation_passed": true, "time": 0.2579360008239746, "tests_passed": true, "error": null}
+{"code": "bar(range(len(df[column_name])), [0 for i in range(len(df[column_name]))])", "compilation_passed": true, "time": 0.23165011405944824, "tests_passed": true, "error": null}
+{"code": "barh(range(len(df)), [0] * len(df), align='center', color='black', alpha=0.7)", "compilation_passed": true, "time": 0.2349867820739746, "tests_passed": true, "error": null}
+{"code": "set_title('Distribution of values in {} (No Data)'.format(column_name))", "compilation_passed": true, "time": 0.23331189155578613, "tests_passed": true, "error": null}

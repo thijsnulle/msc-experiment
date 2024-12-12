@@ -1,0 +1,8 @@
+{"code": " column1 not in data.columns:", "compilation_passed": true, "time": 0.10488009452819824, "tests_passed": true, "error": null}
+{"code": " column1 not in data.columns or column2 not in data.columns:", "compilation_passed": true, "time": 0.10604500770568848, "tests_passed": true, "error": null}
+{"code": " not column1 in data.columns:", "compilation_passed": true, "time": 0.10403609275817871, "tests_passed": true, "error": null}
+{"code": " column1 not in data:", "compilation_passed": true, "time": 0.10712504386901855, "tests_passed": true, "error": null}
+{"code": " not column1 in data.columns or not column2 in data.columns:", "compilation_passed": true, "time": 0.10646200180053711, "tests_passed": true, "error": null}
+{"code": " column1 not in data or column2 not in data:", "compilation_passed": true, "time": 0.11329102516174316, "tests_passed": true, "error": null}
+{"code": " not isinstance(column1, str) or not isinstance(column2, str):", "compilation_passed": true, "time": 0.0036461353302001953, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_parser_CAPI' (most likely due to a circular import)"}
+{"code": " not data.columns.isin([column1, column2]).all():", "compilation_passed": true, "time": 0.003217935562133789, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_parser_CAPI' (most likely due to a circular import)"}

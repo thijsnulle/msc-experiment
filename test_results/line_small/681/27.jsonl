@@ -1,0 +1,14 @@
+{"code": "write(df.to_json(orient='records'))", "compilation_passed": true, "time": 0.008265972137451172, "tests_passed": true, "error": null}
+{"code": "write(json.dumps(df.to_dict('records'), indent=4))", "compilation_passed": true, "time": 0.010085105895996094, "tests_passed": true, "error": null}
+{"code": "write(json.dumps(df.to_dict(orient='records'), indent=4))", "compilation_passed": true, "time": 0.011109113693237305, "tests_passed": true, "error": null}
+{"code": "write(df.to_json())", "compilation_passed": true, "time": 0.008942127227783203, "tests_passed": false, "error": "KeyError"}
+{"code": "write(df.to_json(orient=\"records\"))", "compilation_passed": true, "time": 0.008095979690551758, "tests_passed": true, "error": null}
+{"code": "write(json.dumps(df.to_dict(), indent=4))", "compilation_passed": true, "time": 0.009329080581665039, "tests_passed": false, "error": "KeyError"}
+{"code": "write(json.dumps(df.to_dict(orient='records'), indent=2))", "compilation_passed": true, "time": 0.011175870895385742, "tests_passed": true, "error": null}
+{"code": "write(df.to_json(orient='records', ensure_ascii=False))", "compilation_passed": true, "time": 0.015871047973632812, "tests_passed": false, "error": "TypeError"}
+{"code": "write(str(df))", "compilation_passed": true, "time": 0.014641046524047852, "tests_passed": false, "error": "json.decoder.JSONDecodeError"}
+{"code": "write(json.dumps(df.to_dict(orient='records')))", "compilation_passed": true, "time": 0.010224103927612305, "tests_passed": true, "error": null}
+{"code": "write(str(df.to_dict(orient='records')))", "compilation_passed": true, "time": 0.009359121322631836, "tests_passed": false, "error": "json.decoder.JSONDecodeError"}
+{"code": "write(str(df.to_json(orient=\"records\")))", "compilation_passed": true, "time": 0.009158849716186523, "tests_passed": true, "error": null}
+{"code": "write(df.to_json(orient='records', indent=2))", "compilation_passed": true, "time": 0.009263038635253906, "tests_passed": true, "error": null}
+{"code": "write(df.to_json(orient='records', indent=2, default=str))", "compilation_passed": true, "time": 0.012740135192871094, "tests_passed": false, "error": "TypeError"}

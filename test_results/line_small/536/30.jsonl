@@ -1,0 +1,10 @@
+{"code": " pd.read_sql(f\"select * from {table_name}\", conn)", "compilation_passed": true, "time": 0.031209945678710938, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_table(table_name, conn)", "compilation_passed": true, "time": 0.013873100280761719, "tests_passed": false, "error": "NotImplementedError"}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name}\", conn)", "compilation_passed": true, "time": 0.03163957595825195, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f\"SELECT * FROM {table_name}\", conn)", "compilation_passed": true, "time": 0.03354907035827637, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(f'select * from \"{table_name}\"', conn)", "compilation_passed": true, "time": 0.03413987159729004, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"SELECT * FROM \" + table_name, conn)", "compilation_passed": true, "time": 0.03431892395019531, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(f'SELECT * FROM \"{table_name}\"', conn)", "compilation_passed": true, "time": 0.03245806694030762, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query('select * from {}'.format(table_name), conn)", "compilation_passed": true, "time": 0.034065961837768555, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f\"select * from {table_name};\", conn)", "compilation_passed": true, "time": 0.029610157012939453, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(\"SELECT * FROM %s\" % table_name, conn)", "compilation_passed": true, "time": 0.028831005096435547, "tests_passed": true, "error": null}

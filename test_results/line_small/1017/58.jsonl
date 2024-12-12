@@ -1,0 +1,11 @@
+{"code": " line.split(\"  \")", "compilation_passed": true, "time": 0.44745397567749023, "tests_passed": true, "error": null}
+{"code": " line.strip().split(\" \")", "compilation_passed": true, "time": 0.44358301162719727, "tests_passed": true, "error": null}
+{"code": " line.strip().split(maxsplit=5)", "compilation_passed": true, "time": 0.4456288814544678, "tests_passed": true, "error": null}
+{"code": " line.strip().split(\"  \")", "compilation_passed": true, "time": 0.4449331760406494, "tests_passed": true, "error": null}
+{"code": " line.strip().split()", "compilation_passed": true, "time": 0.4471909999847412, "tests_passed": true, "error": null}
+{"code": " line.split()", "compilation_passed": true, "time": 0.45662689208984375, "tests_passed": true, "error": null}
+{"code": " line.split(\" \")", "compilation_passed": true, "time": 0.4479243755340576, "tests_passed": true, "error": null}
+{"code": " line.replace(\"-\", \" --\").split(\" \")", "compilation_passed": true, "time": 1.070059061050415, "tests_passed": false, "error": "TimeoutError"}
+{"code": " line.replace(\" \", \"-\").split(\"-\")", "compilation_passed": true, "time": 0.4477388858795166, "tests_passed": true, "error": null}
+{"code": " \"   \".join(line.split())", "compilation_passed": true, "time": 0.45274901390075684, "tests_passed": true, "error": null}
+{"code": " [word.strip() for word in line.split(\" \")]", "compilation_passed": true, "time": 0.4610018730163574, "tests_passed": true, "error": null}

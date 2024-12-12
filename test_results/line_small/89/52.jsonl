@@ -1,0 +1,9 @@
+{"code": " np.delete(data_copy, outliers[0])", "compilation_passed": true, "time": 0.08416390419006348, "tests_passed": false, "error": "IndexError"}
+{"code": " np.delete(data_copy, outliers, axis=0)", "compilation_passed": true, "time": 0.4001626968383789, "tests_passed": true, "error": null}
+{"code": " np.delete(standardized_data, outliers)", "compilation_passed": true, "time": 0.08718109130859375, "tests_passed": false, "error": "IndexError"}
+{"code": " np.delete(data, outliers, axis=0)", "compilation_passed": true, "time": 0.3954188823699951, "tests_passed": true, "error": null}
+{"code": " data_copy[outliers[0], :]", "compilation_passed": true, "time": 0.43381404876708984, "tests_passed": true, "error": null}
+{"code": " np.delete(data_copy, outliers[0], axis=0)", "compilation_passed": true, "time": 0.40352416038513184, "tests_passed": true, "error": null}
+{"code": " np.delete(data_copy, outliers)", "compilation_passed": true, "time": 0.09360194206237793, "tests_passed": false, "error": "IndexError"}
+{"code": " np.delete(data, outliers[0], axis=0)", "compilation_passed": true, "time": 0.4179372787475586, "tests_passed": true, "error": null}
+{"code": " data_copy[:, column]", "compilation_passed": true, "time": 0.06459784507751465, "tests_passed": false, "error": "IndexError"}

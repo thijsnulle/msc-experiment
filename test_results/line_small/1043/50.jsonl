@@ -1,0 +1,6 @@
+{"code": " category_counts.loc[CATEGORIES]", "compilation_passed": true, "time": 0.1626720428466797, "tests_passed": true, "error": null}
+{"code": " category_counts[[\"A\", \"B\", \"C\", \"D\", \"E\"]]", "compilation_passed": true, "time": 0.2118239402770996, "tests_passed": true, "error": null}
+{"code": " category_counts[CATEGORIES]", "compilation_passed": true, "time": 0.152479887008667, "tests_passed": true, "error": null}
+{"code": " category_counts.reindex(CATEGORIES, fill_value=0)", "compilation_passed": true, "time": 0.14937281608581543, "tests_passed": true, "error": null}
+{"code": " pd.Series([category_counts.get(category, 0) for category in CATEGORIES])", "compilation_passed": true, "time": 0.15421485900878906, "tests_passed": true, "error": null}
+{"code": " category_counts.iloc[0:5]", "compilation_passed": true, "time": 0.1589679718017578, "tests_passed": true, "error": null}

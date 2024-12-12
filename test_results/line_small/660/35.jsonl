@@ -1,0 +1,15 @@
+{"code": " np.column_stack((x[i], y[i]))", "compilation_passed": true, "time": 0.15393996238708496, "tests_passed": true, "error": null}
+{"code": " np.concatenate((x[i], y[i]), axis=0)", "compilation_passed": true, "time": 0.06322097778320312, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.concatenate((x[i], y[i]), axis=None)", "compilation_passed": true, "time": 0.04073500633239746, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.vstack((x[i], y[i])).T", "compilation_passed": true, "time": 0.16507291793823242, "tests_passed": true, "error": null}
+{"code": " np.concatenate((x[i].reshape(-1, 1), y[i].reshape(-1, 1)), axis=1)", "compilation_passed": true, "time": 0.16854596138000488, "tests_passed": true, "error": null}
+{"code": " np.concatenate([x[i], y[i]], axis=0)", "compilation_passed": true, "time": 0.04166293144226074, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.vstack([x[i], y[i]]).T", "compilation_passed": true, "time": 0.16300106048583984, "tests_passed": true, "error": null}
+{"code": " np.column_stack([x[i], y[i]])", "compilation_passed": true, "time": 0.15807723999023438, "tests_passed": true, "error": null}
+{"code": " np.concatenate([x[i], y[i]])", "compilation_passed": true, "time": 0.04427385330200195, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.concatenate([x[i], y[i]], axis=1)", "compilation_passed": true, "time": 0.053891897201538086, "tests_passed": false, "error": "numpy.exceptions.AxisError"}
+{"code": " np.concatenate((x[i], y[i]))", "compilation_passed": true, "time": 0.04517316818237305, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.concatenate((x[i], y[i]), axis=1)", "compilation_passed": true, "time": 0.05077099800109863, "tests_passed": false, "error": "numpy.exceptions.AxisError"}
+{"code": " np.vstack([x[i], y[i]])", "compilation_passed": true, "time": 0.15500998497009277, "tests_passed": true, "error": null}
+{"code": " np.concatenate((x[i].reshape(-1, 1), y[i].reshape(-1, 1)))", "compilation_passed": true, "time": 0.04675698280334473, "tests_passed": false, "error": "IndexError"}
+{"code": " np.array([x[i], y[i]])", "compilation_passed": true, "time": 0.16474294662475586, "tests_passed": true, "error": null}

@@ -1,0 +1,27 @@
+{"code": " ['INDICATOR_NAME', 'AGE', 'RM', 'ZN', 'CRIM', 'CHAS', 'NOX', 'PTRATIO', 'B', 'LSTAT', 'RAD', 'PRICE']", "compilation_passed": true, "time": 0.8480172157287598, "tests_passed": false, "error": "ValueError"}
+{"code": " ['CRIM', 'ZN', 'INDUS', 'CHAS', 'RAD',", "compilation_passed": false, "time": 0.00030231475830078125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ['CRIM', 'ZN', 'INDUS', 'CHAS', 'RAD', 'NOX', 'RM', 'AGE', 'DIS', 'TAX', 'PTRZ', 'B', 'CRIM', 'ZN', 'INDUS', 'CHAS', 'RAD', 'NOX', 'RM', 'AGE', 'DIS', 'TAX', 'PTRZ', 'B', 'CRIM', 'ZN', 'INDUS', 'CHAS', 'RAD', 'NOX', 'RM', 'AGE', 'DIS', 'TAX', 'PTRZ', 'B', 'CRIM', 'ZN', 'INDUS', 'CHAS', 'RAD', 'NOX', 'RM', 'AGE', 'DIS', 'TAX', 'PTRZ', 'B']", "compilation_passed": true, "time": 0.8561930656433105, "tests_passed": false, "error": "ValueError"}
+{"code": " [\"MEDV\", \"NOX\", \"RM\", \"CRIM\", \"TAX\", \"PTRATIO\"]", "compilation_passed": true, "time": 0.8447916507720947, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[1::2, 0]", "compilation_passed": true, "time": 0.8613491058349609, "tests_passed": false, "error": "ValueError"}
+{"code": " ['CRIM', 'ZN', 'INDUS', 'RAD', 'CHAS', 'NMOT', 'AGE', 'RM', 'DIS', 'TAX', 'PTRZ', 'B', 'PB', 'LSTAT', 'PTROT']", "compilation_passed": true, "time": 0.8428399562835693, "tests_passed": false, "error": "ValueError"}
+{"code": " ['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'RM', 'AGE', 'DIS', 'RAD', 'PTRATIO', 'B', 'LSTAT', 'MEDV']", "compilation_passed": true, "time": 1.01910400390625, "tests_passed": false, "error": "ValueError"}
+{"code": " ['CRIM','ZN','INDUS','CHAS','NOAHT','RM','AGE','DIS','RAD','PRICE']", "compilation_passed": true, "time": 0.8631742000579834, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.columns.copy()", "compilation_passed": true, "time": 0.8494517803192139, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.columns", "compilation_passed": true, "time": 0.8381297588348389, "tests_passed": false, "error": "ValueError"}
+{"code": " ['CRIM', 'ZN', 'INDUS', 'CHAS', 'RAD', 'TAX', 'PTRATIO', 'B', 'LSTAT', 'MEDV']", "compilation_passed": true, "time": 0.8515069484710693, "tests_passed": false, "error": "ValueError"}
+{"code": " [f'x{i}' for i in range(10)] + [f'y{i}' for i in range(10)]", "compilation_passed": true, "time": 0.8446719646453857, "tests_passed": false, "error": "ValueError"}
+{"code": " [\"medv\", \"cig_per_day\", \"cig_per_day_old\", \"cig_per_day_youth\", \"cig_per_day_adult\", \"cig_per_day_senior\",", "compilation_passed": false, "time": 0.0003502368927001953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ['CRIM', 'ZN', 'INDUS', 'RAD', 'CHAS', 'NOX', 'RM',", "compilation_passed": false, "time": 0.0003879070281982422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " raw_df.columns.tolist()", "compilation_passed": true, "time": 0.8461740016937256, "tests_passed": false, "error": "ValueError"}
+{"code": " [\"MedV\", \"MedInc\", \"HouseV\", \"Population\", \"ROA\", \"Lable\"]", "compilation_passed": true, "time": 0.8562650680541992, "tests_passed": false, "error": "ValueError"}
+{"code": " [\"CRIM\", \"ZN\", \"INDUS\", \"CHAS\", \"NOX\", \"RM\", \"AGE\", \"PTRATIO\", \"B\", \"CRIM\", \"ZN\", \"INDUS\", \"CHAS\",", "compilation_passed": false, "time": 0.0003337860107421875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [\"MEDV\"] + raw_df.columns[2:4].tolist()", "compilation_passed": true, "time": 0.8433599472045898, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.columns.values", "compilation_passed": true, "time": 1.0330407619476318, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[1::2, 1:-2].flatten()", "compilation_passed": true, "time": 0.8571813106536865, "tests_passed": false, "error": "ValueError"}
+{"code": " [\"LSTAT\", \"RM\"] + [\"AGE\", \"DIS\"] + [\"INDUS\", \"RAD\"] + [\"PTRATIO\"] + [\"CRIM\"]", "compilation_passed": true, "time": 0.8670470714569092, "tests_passed": false, "error": "ValueError"}
+{"code": " [\"chas\", \"zn\", \"b\", \"h\", \"s\", \"rm\", \"age\", \"dis\", \"nox\", \"pt\", \"medv\"]", "compilation_passed": true, "time": 0.8619303703308105, "tests_passed": false, "error": "ValueError"}
+{"code": " ['feature1', 'feature2', 'target']", "compilation_passed": true, "time": 0.8660459518432617, "tests_passed": false, "error": "ValueError"}
+{"code": " [\"medv\"] + [f\"x{i+1}\" for i in range(13)] + [\"medv_pred\"]", "compilation_passed": true, "time": 0.8668718338012695, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[0]", "compilation_passed": true, "time": 0.9040298461914062, "tests_passed": false, "error": "ValueError"}
+{"code": " ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14',", "compilation_passed": false, "time": 0.0003771781921386719, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'RM', 'AGE', 'DIS',", "compilation_passed": false, "time": 0.0003657341003417969, "tests_passed": false, "error": "SyntaxError"}

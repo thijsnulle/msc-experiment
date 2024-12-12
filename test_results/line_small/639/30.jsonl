@@ -1,0 +1,8 @@
+{"code": " pd.DataFrame(data, index=SAMPLES, columns=FEATURES)", "compilation_passed": true, "time": 1.022778034210205, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(data=data, columns=FEATURES)", "compilation_passed": true, "time": 0.02944016456604004, "tests_passed": false, "error": "RuntimeError"}
+{"code": " pd.DataFrame(data, columns=FEATURES, index=SAMPLES)", "compilation_passed": true, "time": 0.030366897583007812, "tests_passed": false, "error": "RuntimeError"}
+{"code": " pd.DataFrame(data, columns=SAMPLES, index=FEATURES)", "compilation_passed": true, "time": 0.009041309356689453, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, columns=FEATURES)", "compilation_passed": true, "time": 0.03321409225463867, "tests_passed": false, "error": "RuntimeError"}
+{"code": " pd.DataFrame(data=data, columns=FEATURES, index=SAMPLES)", "compilation_passed": true, "time": 0.034182071685791016, "tests_passed": false, "error": "RuntimeError"}
+{"code": " pd.DataFrame(data, columns=SAMPLES)", "compilation_passed": true, "time": 0.008992910385131836, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, columns=SAMPLES, index=SAMPLES)", "compilation_passed": true, "time": 0.00903010368347168, "tests_passed": false, "error": "ValueError"}

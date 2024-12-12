@@ -1,0 +1,29 @@
+{"code": " [x[0] + x[1] * \"-\" + x[1] * \"-\" + x[0][: len(x[0]) // 2] for x in random_shifts]", "compilation_passed": true, "time": 0.01409912109375, "tests_passed": false, "error": "TypeError"}
+{"code": " [x[0] + x[1] * ' ' + x[2][:x[0]] + x[2][x[0]:] for x in zip(l, random_shifts, l)]", "compilation_passed": true, "time": 0.015166044235229492, "tests_passed": false, "error": "TypeError"}
+{"code": " [x[0] + x[1] + x[2] + x[3] + x[4] + x[5] + x[6] + x[7] + x[8] + x[9] + x[10] + x[11] + x[12] for x in l]", "compilation_passed": true, "time": 0.01448202133178711, "tests_passed": false, "error": "IndexError"}
+{"code": " [x[:shift[0]] + x[shift[0] + shift[1]:] + x[shift[0]:shift[0] + shift[1]] for x, shift in zip(l, random_shifts)]", "compilation_passed": true, "time": 0.007896900177001953, "tests_passed": true, "error": null}
+{"code": " [x[1] + x[0][:i] + x[0][i:] for x, i in zip(random_shifts, range(0, len(l)))]", "compilation_passed": true, "time": 0.017154932022094727, "tests_passed": false, "error": "TypeError"}
+{"code": " [x[0] + x[1] * x[0] for x in random_shifts]", "compilation_passed": true, "time": 0.008558273315429688, "tests_passed": false, "error": "TypeError"}
+{"code": " [x[0] + x[1] + x[0][-1] * (len(x) - 2) + x[1] + x[0][-1] * (len(x) - 2) + x[0][-1] * 2 for x in zip(l, random_shifts)]", "compilation_passed": true, "time": 0.017377138137817383, "tests_passed": false, "error": "TypeError"}
+{"code": " [f\"{x[:idx]} {x[idx:]}\" if random_shifts[idx][0] > 1 else f\"{x[:idx]} {x[idx:]} {x[idx + 1:]}\" for idx, x in enumerate(l)]", "compilation_passed": true, "time": 0.007272958755493164, "tests_passed": true, "error": null}
+{"code": " [x + y[0] + x[len(x):] + y[1] + x[len(x):] for x, y in zip(l, random_shifts)]", "compilation_passed": true, "time": 0.021064043045043945, "tests_passed": false, "error": "TypeError"}
+{"code": " [(x[0] + x[1] * (i % n_groups), x[0] - x[1] * (i % n_groups)) for i, x in enumerate(random_shifts)]", "compilation_passed": true, "time": 0.008893013000488281, "tests_passed": false, "error": "TypeError"}
+{"code": " [x[0] + x[1] * (len(x) - 2) + x[0] * (len(x) - 1) for x in zip(l, random_shifts)]", "compilation_passed": true, "time": 0.01735687255859375, "tests_passed": false, "error": "TypeError"}
+{"code": " [shift(x, *shifts) for (x, shifts) in zip(l, random_shifts)]", "compilation_passed": true, "time": 0.017393112182617188, "tests_passed": false, "error": "NameError"}
+{"code": " [x[0] + x[1] + x[2] for x in zip(l, random_shifts)]", "compilation_passed": true, "time": 0.017453670501708984, "tests_passed": false, "error": "TypeError"}
+{"code": " [x[0] + x[1] * 'x' + x[0] + x[1] * 'y' + x[0] + x[1] * 'z' for x in l]", "compilation_passed": true, "time": 0.017453908920288086, "tests_passed": false, "error": "IndexError"}
+{"code": " [(x[i + a_shift[0]] + x[i + b_shift[0]] + x[j + a_shift[1]] + x[j + b_shift[1]]) for (x, a_shift, b_shift) in zip(l, random_shifts)]", "compilation_passed": true, "time": 0.01712489128112793, "tests_passed": false, "error": "ValueError"}
+{"code": " [f\"{x[:i[0]]}{x[i[0]+1:i[1]]}{x[i[1]+1:]}\" for x, i in zip(l, random_shifts)]", "compilation_passed": true, "time": 0.008242368698120117, "tests_passed": true, "error": null}
+{"code": " [x[0] + x[1] + x[0] + x[1] + x[0] + x[1] + x[0] + x[1] + x[0] + x[1] + x[0] + x[1] + x[0] + x[1] for x in random_shifts]", "compilation_passed": true, "time": 0.006495952606201172, "tests_passed": false, "error": "TypeError"}
+{"code": " [(x[0] + x[1] * (x[1] * (x[1] * x[1]))).rjust(len(x)) for x in random_shifts]", "compilation_passed": true, "time": 0.016358137130737305, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.002341032028198242, "tests_passed": true, "error": null}
+{"code": " [x[:r1] + x[r2:] for x, (r1, r2) in zip(l, random_shifts)]", "compilation_passed": true, "time": 0.008120059967041016, "tests_passed": true, "error": null}
+{"code": " [shift(x, n, m) for x, (n, m) in zip(l, random_shifts)]", "compilation_passed": true, "time": 0.017901182174682617, "tests_passed": false, "error": "NameError"}
+{"code": " [x[:-1] + x[random_shifts[i][1]:] + x[:random_shifts[i][0]] for i, x in enumerate(l)]", "compilation_passed": true, "time": 0.006971120834350586, "tests_passed": true, "error": null}
+{"code": " [x[0] + x[1] * 'X' + x[0] + x[1] * 'Y' + x[0] + x[1] * 'Z' + x[0] + x[1] * 'W' for x in random_shifts]", "compilation_passed": true, "time": 0.014095067977905273, "tests_passed": false, "error": "TypeError"}
+{"code": " [x[:-(random_shift[0])] + x[-(random_shift[0] + 1):] + x[-(random_shift[0]):-(random_shift[1])]", "compilation_passed": false, "time": 0.00024819374084472656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [x[0] + x[1] * ' ' + x[0] + ' ' * (len(x) - 2) + x[1] for x in random_shifts]", "compilation_passed": true, "time": 0.013698101043701172, "tests_passed": false, "error": "TypeError"}
+{"code": " [x[1] + x[0][:x[1]] + x[0][x[1]:] for x in random_shifts]", "compilation_passed": true, "time": 0.013666868209838867, "tests_passed": false, "error": "TypeError"}
+{"code": " [''.join(x) for x in zip(l, random_shifts)]", "compilation_passed": true, "time": 0.013499975204467773, "tests_passed": false, "error": "TypeError"}
+{"code": " [x[1] + x[0] + x[2] + x[0] + x[1] + x[0] for x in l]", "compilation_passed": true, "time": 0.013855934143066406, "tests_passed": false, "error": "IndexError"}
+{"code": " [x[0] + x[1] * (i % n) + x[0] + x[1] * ((i+1) % n) + x[0] + x[1] * ((i+2) % n) + x[0] + x[1] * ((i+3) % n) + x[0] + x[1] * ((i+4) % n) for (i,x) in enumerate(l)]", "compilation_passed": true, "time": 0.014203786849975586, "tests_passed": false, "error": "IndexError"}

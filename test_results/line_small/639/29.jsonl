@@ -1,0 +1,22 @@
+{"code": " np.random.randn(num_samples, num_features)", "compilation_passed": true, "time": 1.0154411792755127, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(np.random.rand(num_samples, num_features),", "compilation_passed": false, "time": 0.00029206275939941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.randn(num_samples, num_features), columns=FEATURES)", "compilation_passed": true, "time": 0.034594058990478516, "tests_passed": false, "error": "RuntimeError"}
+{"code": " np.random.random([num_samples, num_features])", "compilation_passed": true, "time": 0.029526948928833008, "tests_passed": false, "error": "RuntimeError"}
+{"code": " np.random.rand(num_samples, num_features)", "compilation_passed": true, "time": 0.031061172485351562, "tests_passed": false, "error": "RuntimeError"}
+{"code": " pd.DataFrame(np.random.uniform(low=0, high=1, size=(num_samples, num_features)), index=SAMPLES, columns=FEATURES)", "compilation_passed": true, "time": 0.03158402442932129, "tests_passed": false, "error": "RuntimeError"}
+{"code": " np.random.normal(size=(num_samples, num_features))", "compilation_passed": true, "time": 0.030636072158813477, "tests_passed": false, "error": "RuntimeError"}
+{"code": " np.random.randint(0, 100, size=[num_samples, num_features])", "compilation_passed": true, "time": 0.03175187110900879, "tests_passed": false, "error": "RuntimeError"}
+{"code": " pd.DataFrame(np.random.rand(num_samples, num_features), index=SAMPLES, columns=FEATURES)", "compilation_passed": true, "time": 0.03124094009399414, "tests_passed": false, "error": "RuntimeError"}
+{"code": " np.random.randint(0, 10, size=(num_samples, num_features))", "compilation_passed": true, "time": 0.03192281723022461, "tests_passed": false, "error": "RuntimeError"}
+{"code": " pd.DataFrame(np.random.randint(1, 100, size=(num_samples, num_features)), columns=FEATURES)", "compilation_passed": true, "time": 0.041975975036621094, "tests_passed": false, "error": "RuntimeError"}
+{"code": " {", "compilation_passed": false, "time": 0.0002040863037109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00021123886108398438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.normal(size=(num_samples, num_features)))", "compilation_passed": true, "time": 0.03854727745056152, "tests_passed": false, "error": "RuntimeError"}
+{"code": " pd.DataFrame(np.random.randint(2, 10, (num_features, num_samples)),", "compilation_passed": false, "time": 0.00022339820861816406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.randint(low=0, high=10, size=(num_features, num_samples)))", "compilation_passed": true, "time": 0.03919100761413574, "tests_passed": false, "error": "RuntimeError"}
+{"code": " pd.DataFrame(pd.RandomState(42).rand(num_samples, num_features),", "compilation_passed": false, "time": 0.0002028942108154297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.normal(0, 1, size=(num_samples, num_features)))", "compilation_passed": true, "time": 0.04801011085510254, "tests_passed": false, "error": "RuntimeError"}
+{"code": " pd.DataFrame(np.random.normal(0, 1, size=(num_samples, num_features)), index=SAMPLES, columns=FEATURES)", "compilation_passed": true, "time": 0.03568100929260254, "tests_passed": false, "error": "RuntimeError"}
+{"code": " pd.DataFrame(pd.concat([pd.DataFrame(np.random.randn(num_samples, len(FEATURES)), columns=FEATURES), pd.Series(SAMPLES, index=FEATURES)], axis=1))", "compilation_passed": true, "time": 0.011015176773071289, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00018215179443359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.randn(num_samples, num_features),", "compilation_passed": false, "time": 0.0002040863037109375, "tests_passed": false, "error": "SyntaxError"}

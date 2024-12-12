@@ -1,0 +1,5 @@
+{"code": " csv.DictWriter(csvfile, fieldnames=fieldnames)", "compilation_passed": true, "time": 0.0124969482421875, "tests_passed": true, "error": null}
+{"code": " csv.writer(csvfile, delimiter=',')", "compilation_passed": true, "time": 0.014127254486083984, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.writer(csvfile, delimiter=',', quotechar='\"', quoting=csv.QUOTE_MINIMAL)", "compilation_passed": true, "time": 0.01645207405090332, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.writer(csvfile)", "compilation_passed": true, "time": 0.014470815658569336, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.DictWriter(csvfile, fieldnames=fieldnames,", "compilation_passed": false, "time": 0.00013017654418945312, "tests_passed": false, "error": "SyntaxError"}

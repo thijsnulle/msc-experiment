@@ -1,0 +1,7 @@
+{"code": " len(df[column_name].unique())", "compilation_passed": true, "time": 0.21576905250549316, "tests_passed": true, "error": null}
+{"code": " len(df[column_name].drop_duplicates())", "compilation_passed": true, "time": 0.21584296226501465, "tests_passed": true, "error": null}
+{"code": " len(df[column_name].value_counts())", "compilation_passed": true, "time": 0.2225019931793213, "tests_passed": true, "error": null}
+{"code": " len(set(df[column_name]))", "compilation_passed": true, "time": 0.22420191764831543, "tests_passed": true, "error": null}
+{"code": " len(df[column_name].dropna().unique())", "compilation_passed": true, "time": 0.219465970993042, "tests_passed": true, "error": null}
+{"code": " df[column_name].nunique()", "compilation_passed": true, "time": 0.21746110916137695, "tests_passed": true, "error": null}
+{"code": " len(df[column_name].dropna())", "compilation_passed": true, "time": 0.10093498229980469, "tests_passed": true, "error": null}

@@ -1,0 +1,29 @@
+{"code": " r\"(-?((\\d+(\\.\\d+)?)|((\\d+\\.)?\\d*)([eE][+-]?\\d+)?))\"", "compilation_passed": true, "time": 0.007881879806518555, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '0': 0, '-': -1}", "compilation_passed": true, "time": 0.007349967956542969, "tests_passed": false, "error": "AttributeError"}
+{"code": " '0123456789.'", "compilation_passed": true, "time": 0.007204294204711914, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'\\d+(\\.\\d+)?')", "compilation_passed": true, "time": 0.007650852203369141, "tests_passed": true, "error": null}
+{"code": " \"([0-9]*[.])?[0-9]+\"  # Numerical values", "compilation_passed": true, "time": 0.006948232650756836, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'inf': float('inf'),", "compilation_passed": false, "time": 0.00011682510375976562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " re.compile(r'(-)?\\d+(\\.\\d+)?')", "compilation_passed": true, "time": 0.007415056228637695, "tests_passed": true, "error": null}
+{"code": " '((-?\\d+|\\d*(\\.\\d+))([eE][+-]?\\d+)?)'", "compilation_passed": true, "time": 0.007297039031982422, "tests_passed": false, "error": "AttributeError"}
+{"code": " (str(x) for x in range(10))", "compilation_passed": true, "time": 0.0071010589599609375, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'\\b\\d+\\b')", "compilation_passed": true, "time": 0.0073053836822509766, "tests_passed": true, "error": null}
+{"code": " r\"(\\-?\\d+(\\.\\d+)?)\"", "compilation_passed": true, "time": 0.007062673568725586, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'float', 'integer'}", "compilation_passed": true, "time": 0.0074770450592041016, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'(?:\\-?(?:0|[1-9]\\d+)(?:\\.\\d+)?(?:[eE][\\+\\-]?\\d+)?|(?:\\-?0\\.\\d+|(?:\\+?\\d+\\.\\d+)))'", "compilation_passed": true, "time": 0.007493734359741211, "tests_passed": false, "error": "AttributeError"}
+{"code": " {", "compilation_passed": false, "time": 0.00010967254638671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"([0-9]+\\\\.[0-9]+|[0-9]+)\"", "compilation_passed": true, "time": 0.0076520442962646484, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}", "compilation_passed": true, "time": 0.007155179977416992, "tests_passed": false, "error": "AttributeError"}
+{"code": " ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']", "compilation_passed": true, "time": 0.007195234298706055, "tests_passed": false, "error": "AttributeError"}
+{"code": " \"1234567890.-\"", "compilation_passed": true, "time": 0.00712895393371582, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'^[-+]?[0-9]*\\.?[0-9]+([eE][-+]?[0-9]+)?$')", "compilation_passed": true, "time": 0.007699012756347656, "tests_passed": true, "error": null}
+{"code": " {'float', 'int', 'list', 'string'}", "compilation_passed": true, "time": 0.008077859878540039, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\"\"", "compilation_passed": false, "time": 8.893013000488281e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " re.compile(r'[+-]?\\d*\\.?\\d+')", "compilation_passed": true, "time": 0.007219076156616211, "tests_passed": true, "error": null}
+{"code": " {'1': '1.0', '2': '2.0', '3': '3.0', '4': '4.0', '5': '5.0',", "compilation_passed": false, "time": 0.00013589859008789062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\")", "compilation_passed": true, "time": 0.0074040889739990234, "tests_passed": false, "error": "AttributeError"}
+{"code": " [int, float]", "compilation_passed": true, "time": 0.0077402591705322266, "tests_passed": false, "error": "AttributeError"}
+{"code": " '(0|[1-9]\\d*)(\\.\\d+)?'", "compilation_passed": true, "time": 0.0073931217193603516, "tests_passed": false, "error": "AttributeError"}
+{"code": " [\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \".\"]", "compilation_passed": true, "time": 0.007547140121459961, "tests_passed": false, "error": "AttributeError"}
+{"code": " '0123456789'", "compilation_passed": true, "time": 0.007400989532470703, "tests_passed": false, "error": "AttributeError"}
+{"code": " \"(-)?(\\d+(\\.\\d+)?)\"  # regex pattern to match numbers, including negative", "compilation_passed": true, "time": 0.0064830780029296875, "tests_passed": false, "error": "AttributeError"}

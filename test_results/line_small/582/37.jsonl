@@ -1,0 +1,8 @@
+{"code": " np.linspace(xmin, xmax, 100)", "compilation_passed": true, "time": 0.7675859928131104, "tests_passed": true, "error": null}
+{"code": " np.linspace(xmin, xmax, 1000)", "compilation_passed": true, "time": 0.7484891414642334, "tests_passed": true, "error": null}
+{"code": " np.linspace(xmin, xmax, 2 * (xmax - xmin) / 100)", "compilation_passed": true, "time": 0.10336995124816895, "tests_passed": false, "error": "TypeError"}
+{"code": " np.linspace(xmin, xmax, 200)", "compilation_passed": true, "time": 0.9388408660888672, "tests_passed": true, "error": null}
+{"code": " np.linspace(xmin, xmax, 2*number_of_bins)", "compilation_passed": true, "time": 0.77532958984375, "tests_passed": true, "error": null}
+{"code": " np.linspace(xmin, xmax, len(bin_edges))", "compilation_passed": true, "time": 0.8334348201751709, "tests_passed": true, "error": null}
+{"code": " np.linspace(xmin, xmax, len(bin_edges) - 1)", "compilation_passed": true, "time": 0.8538999557495117, "tests_passed": true, "error": null}
+{"code": " np.linspace(xmin, xmax, 2*size)", "compilation_passed": true, "time": 1.0129749774932861, "tests_passed": false, "error": "TimeoutError"}

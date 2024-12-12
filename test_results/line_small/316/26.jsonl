@@ -1,0 +1,21 @@
+{"code": " {", "compilation_passed": false, "time": 0.00019931793212890625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {}", "compilation_passed": true, "time": 0.0068209171295166016, "tests_passed": true, "error": null}
+{"code": " random.choices(", "compilation_passed": false, "time": 0.00019979476928710938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.006824970245361328, "tests_passed": false, "error": "AttributeError"}
+{"code": " random.choices(population=CATEGORIES,", "compilation_passed": false, "time": 0.00022983551025390625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " random.choices(CATEGORIES, weights=[10, 2, 4, 1, 2], k=2)  # 10% chance for A, 2% chance for B, 4% chance for C, etc.", "compilation_passed": true, "time": 0.0048677921295166016, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'Category': CATEGORIES, 'Count': [0] * len(CATEGORIES)})", "compilation_passed": true, "time": 0.003693103790283203, "tests_passed": true, "error": null}
+{"code": " [random.randint(value_range[0], value_range[1]) for _ in CATEGORIES]", "compilation_passed": true, "time": 0.00454401969909668, "tests_passed": false, "error": "AttributeError"}
+{"code": " random.choices(CATEGORIES, weights=[5, 4, 3, 2, 1], k=5)", "compilation_passed": true, "time": 0.0039408206939697266, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series(CATEGORIES)", "compilation_passed": true, "time": 0.004318952560424805, "tests_passed": false, "error": "TypeError"}
+{"code": " [random.randint(*value_range) for _ in range(len(CATEGORIES))]", "compilation_passed": true, "time": 0.003991127014160156, "tests_passed": false, "error": "AttributeError"}
+{"code": " [0] * len(CATEGORIES)", "compilation_passed": true, "time": 0.004449129104614258, "tests_passed": false, "error": "AttributeError"}
+{"code": " random.choices(CATEGORIES, weights=[1, 1, 1, 1, 1])", "compilation_passed": true, "time": 0.004076957702636719, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(categories=[random.choice(CATEGORIES) for _ in range(random.randint(*value_range))],", "compilation_passed": false, "time": 0.00016999244689941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [", "compilation_passed": false, "time": 0.00012087821960449219, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [0 for _ in CATEGORIES]", "compilation_passed": true, "time": 0.005243778228759766, "tests_passed": false, "error": "AttributeError"}
+{"code": " [random.randint(*value_range) for _ in range(random.randint(1, 10))]", "compilation_passed": true, "time": 0.004200935363769531, "tests_passed": false, "error": "AttributeError"}
+{"code": " [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]", "compilation_passed": true, "time": 0.004588127136230469, "tests_passed": false, "error": "AttributeError"}
+{"code": " [random.randint(value_range[0], value_range[1])", "compilation_passed": false, "time": 0.0001430511474609375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {cat: random.randint(*value_range) for cat in CATEGORIES}", "compilation_passed": true, "time": 0.0023429393768310547, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=['Category', 'Count'])", "compilation_passed": true, "time": 0.0043179988861083984, "tests_passed": true, "error": null}

@@ -1,0 +1,14 @@
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00017786026000976562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(index=date_rng)", "compilation_passed": true, "time": 0.010837078094482422, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(columns=[\"Groceries\", \"Entertainment\", \"Rent\", \"Utilities\", \"Miscellaneous\"])", "compilation_passed": true, "time": 0.01112818717956543, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(index=date_rng, columns=[\"Groceries\", \"Entertainment\", \"Rent\", \"Utilities\", \"Miscellaneous\"])", "compilation_passed": true, "time": 0.011651992797851562, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(index=date_rng, columns=[\"Groceries\", \"Entertainment\",", "compilation_passed": false, "time": 0.0001609325408935547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.zeros((days, 5), dtype=int), index=date_rng)", "compilation_passed": true, "time": 0.012708902359008789, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(np.random.randint(1, 100, size=(days, 5)), index=date_rng)", "compilation_passed": true, "time": 0.012892961502075195, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"Groceries\": np.random.randint(0, 101, days),", "compilation_passed": false, "time": 0.00019788742065429688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(dict(", "compilation_passed": false, "time": 0.00017786026000976562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=[\"Groceries\", \"Entertainment\", \"Rent\", \"Utilities\", \"Miscellaneous\"],", "compilation_passed": false, "time": 0.00018787384033203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(dict(Groceries=np.random.randint(0, 101, days),", "compilation_passed": false, "time": 0.00018525123596191406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.zeros((days, 5)), index=date_rng, columns=[", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(data={\"Groceries\": np.random.randint(low=0, high=100, size=(days,)),", "compilation_passed": false, "time": 0.00016689300537109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.zeros((days, 5)), index=date_rng, columns=[\"Groceries\", \"Entertainment\", \"Rent\", \"Utilities\", \"Miscellaneous\"])", "compilation_passed": true, "time": 0.01086878776550293, "tests_passed": false, "error": "KeyError"}

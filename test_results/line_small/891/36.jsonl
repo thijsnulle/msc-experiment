@@ -1,0 +1,19 @@
+{"code": " df.drop([attribute], axis=1)", "compilation_passed": true, "time": 0.02201104164123535, "tests_passed": true, "error": null}
+{"code": " df.loc[:, df.columns != attribute]", "compilation_passed": true, "time": 0.02234482765197754, "tests_passed": true, "error": null}
+{"code": " df[['x1', 'x2']]", "compilation_passed": true, "time": 0.012972116470336914, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df[\"target\"].notna()]", "compilation_passed": true, "time": 0.024085044860839844, "tests_passed": true, "error": null}
+{"code": " df[df.columns.difference([attribute])].values", "compilation_passed": true, "time": 0.02088189125061035, "tests_passed": true, "error": null}
+{"code": " df[df.columns.difference([attribute]).to_list()]", "compilation_passed": true, "time": 0.02373504638671875, "tests_passed": true, "error": null}
+{"code": " df[[attribute]]", "compilation_passed": true, "time": 0.011705160140991211, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :-1]", "compilation_passed": true, "time": 0.022387266159057617, "tests_passed": true, "error": null}
+{"code": " df[attribute]", "compilation_passed": true, "time": 0.017294883728027344, "tests_passed": false, "error": "ValueError"}
+{"code": " df[attribute].to_numpy().reshape(-1, 1)", "compilation_passed": true, "time": 0.009700775146484375, "tests_passed": true, "error": null}
+{"code": " df.drop(attribute, axis=1).values", "compilation_passed": true, "time": 0.018707990646362305, "tests_passed": true, "error": null}
+{"code": " df.drop(attribute, axis=1)", "compilation_passed": true, "time": 0.023258209228515625, "tests_passed": true, "error": null}
+{"code": " df[df.columns.difference([attribute])]", "compilation_passed": true, "time": 0.02310919761657715, "tests_passed": true, "error": null}
+{"code": " df[[\"feature\"]]", "compilation_passed": true, "time": 0.012682914733886719, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df.columns[:-1]]", "compilation_passed": true, "time": 0.023697853088378906, "tests_passed": true, "error": null}
+{"code": " df[list(df.columns)[:-1]]", "compilation_passed": true, "time": 0.021713972091674805, "tests_passed": true, "error": null}
+{"code": " df[[\"size\", \"area\"]]", "compilation_passed": true, "time": 0.019047021865844727, "tests_passed": false, "error": "KeyError"}
+{"code": " df[['X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'X7', 'X8', 'X9', 'X10', 'X11', 'X12', 'X13']].copy()", "compilation_passed": true, "time": 0.015130758285522461, "tests_passed": false, "error": "KeyError"}
+{"code": " df.drop(\"target\", axis=1)", "compilation_passed": true, "time": 0.021332979202270508, "tests_passed": true, "error": null}

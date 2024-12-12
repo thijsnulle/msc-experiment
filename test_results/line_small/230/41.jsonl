@@ -1,0 +1,14 @@
+{"code": " df[COLUMNS]", "compilation_passed": true, "time": 0.7470641136169434, "tests_passed": true, "error": null}
+{"code": " df.reset_index()", "compilation_passed": true, "time": 0.3829658031463623, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset='Name')", "compilation_passed": true, "time": 0.3789539337158203, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={'Score': 'score'})", "compilation_passed": true, "time": 0.07803821563720703, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[COLUMNS].drop_duplicates()", "compilation_passed": true, "time": 0.28696322441101074, "tests_passed": true, "error": null}
+{"code": " df[['Name', 'Age', 'Country', 'Score']]", "compilation_passed": true, "time": 0.26611995697021484, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset=['Name'], keep='last')", "compilation_passed": true, "time": 0.38093113899230957, "tests_passed": true, "error": null}
+{"code": " df.loc[:, [\"Name\", \"Age\", \"Country\", \"Score\"]]", "compilation_passed": true, "time": 0.29681992530822754, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset=['Name'])", "compilation_passed": true, "time": 0.36516880989074707, "tests_passed": true, "error": null}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.39325904846191406, "tests_passed": true, "error": null}
+{"code": " df.loc[df[COLUMNS[0]].unique(), COLUMNS]", "compilation_passed": true, "time": 0.007504940032958984, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.dropna(subset=COLUMNS)", "compilation_passed": true, "time": 0.29018712043762207, "tests_passed": true, "error": null}
+{"code": " df[[\"Name\", \"Age\", \"Country\", \"Score\"]]", "compilation_passed": true, "time": 0.31738901138305664, "tests_passed": true, "error": null}
+{"code": " df[[*COLUMNS]]", "compilation_passed": true, "time": 0.3170170783996582, "tests_passed": true, "error": null}

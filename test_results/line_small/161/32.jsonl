@@ -1,0 +1,8 @@
+{"code": " open(log_file, 'r') as file:", "compilation_passed": true, "time": 0.021881103515625, "tests_passed": true, "error": null}
+{"code": " open(log_file, 'r') as log_file:", "compilation_passed": true, "time": 0.011731863021850586, "tests_passed": false, "error": "NameError"}
+{"code": " open(log_file, 'r') as f:", "compilation_passed": true, "time": 0.013391733169555664, "tests_passed": false, "error": "NameError"}
+{"code": " open(log_file) as file:", "compilation_passed": true, "time": 0.023672103881835938, "tests_passed": true, "error": null}
+{"code": " open(log_file) as f:", "compilation_passed": true, "time": 0.011904001235961914, "tests_passed": false, "error": "NameError"}
+{"code": " open(log_file, 'r') as log:", "compilation_passed": true, "time": 0.013936042785644531, "tests_passed": false, "error": "NameError"}
+{"code": " open(log_file, 'r', encoding='utf-8') as log_file:", "compilation_passed": true, "time": 0.022810935974121094, "tests_passed": false, "error": "NameError"}
+{"code": " open(log_file, 'r', encoding='utf8') as f:", "compilation_passed": true, "time": 0.021860837936401367, "tests_passed": false, "error": "NameError"}

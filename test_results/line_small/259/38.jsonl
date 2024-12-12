@@ -1,0 +1,21 @@
+{"code": "set_rmax(1)", "compilation_passed": true, "time": 0.03966403007507324, "tests_passed": true, "error": null}
+{"code": "set_rlim(0, max(r))", "compilation_passed": true, "time": 0.03758597373962402, "tests_passed": true, "error": null}
+{"code": "set_thetamin(-np.pi / 2)", "compilation_passed": true, "time": 0.03718829154968262, "tests_passed": true, "error": null}
+{"code": "set_yticks(np.linspace(0, 1, 11))", "compilation_passed": true, "time": 0.04695010185241699, "tests_passed": true, "error": null}
+{"code": "grid(True)", "compilation_passed": true, "time": 0.03600192070007324, "tests_passed": true, "error": null}
+{"code": "set_rlabel_position(-0.75)", "compilation_passed": true, "time": 0.0366969108581543, "tests_passed": true, "error": null}
+{"code": "set_yticks(np.linspace(0, 1, 10))", "compilation_passed": true, "time": 0.0469517707824707, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(0, 2*np.pi, np.pi / 10))", "compilation_passed": true, "time": 0.05633902549743652, "tests_passed": true, "error": null}
+{"code": "set_theta_ticks([x / 10.0 for x in range(10000, -10000, -1000)])", "compilation_passed": true, "time": 0.03898501396179199, "tests_passed": false, "error": "AttributeError"}
+{"code": "grid()", "compilation_passed": true, "time": 0.03835105895996094, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.linspace(0, 2 * np.pi, 360 // 10))", "compilation_passed": true, "time": 0.0722649097442627, "tests_passed": true, "error": null}
+{"code": "set_rgrids(np.arange(0, 1, 0.1), colors=\"black\", alpha=0.2, linestyle='-')", "compilation_passed": true, "time": 0.049462080001831055, "tests_passed": false, "error": "AttributeError"}
+{"code": "set(yticks=np.linspace(0, 1, 11), theta_direction='counterclock', rgrids=r, theta_label=\"\",", "compilation_passed": false, "time": 0.00021600723266601562, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_xticks(np.arange(0, 360, 360 // 10))", "compilation_passed": true, "time": 0.04729580879211426, "tests_passed": true, "error": null}
+{"code": "set_rticks(np.linspace(0.0, 1.0, 7))", "compilation_passed": true, "time": 0.0465238094329834, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(['{0:.1%}'.format(i / 180 * np.pi)", "compilation_passed": false, "time": 0.00019812583923339844, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_theta_label('theta')", "compilation_passed": true, "time": 0.040071964263916016, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_theta_ticks(np.arange(0, 2*np.pi, 2*np.pi/10))", "compilation_passed": true, "time": 0.038732051849365234, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_thetagrids([i for i in range(0, 360, 10)])", "compilation_passed": true, "time": 0.0782628059387207, "tests_passed": true, "error": null}
+{"code": "set_rlabel_position(-90)", "compilation_passed": true, "time": 0.03830909729003906, "tests_passed": true, "error": null}
+{"code": "set_rlabel_position(-180 / 10)", "compilation_passed": true, "time": 0.040276288986206055, "tests_passed": true, "error": null}

@@ -1,0 +1,21 @@
+{"code": "values,", "compilation_passed": true, "time": 0.010165691375732422, "tests_passed": false, "error": "ValueError"}
+{"code": "drop(target, axis=1), data[target], test_size=test_size, random_state=random_state", "compilation_passed": true, "time": 0.5647399425506592, "tests_passed": true, "error": null}
+{"code": "drop(target, axis=1),", "compilation_passed": true, "time": 0.010893106460571289, "tests_passed": false, "error": "ValueError"}
+{"code": "iloc[:,:-1], data.loc[:, target], test_size=test_size, random_state=random_state)", "compilation_passed": false, "time": 0.0001690387725830078, "tests_passed": false, "error": "SyntaxError"}
+{"code": "drop(columns=target), data[target], random_state=random_state, test_size=test_size,", "compilation_passed": true, "time": 0.568979024887085, "tests_passed": true, "error": null}
+{"code": "drop([target], axis=1),", "compilation_passed": true, "time": 0.010728120803833008, "tests_passed": false, "error": "ValueError"}
+{"code": "drop(columns=[target], axis=1),", "compilation_passed": true, "time": 0.010956048965454102, "tests_passed": false, "error": "ValueError"}
+{"code": "drop(columns=target), data[target], test_size=test_size, random_state=random_state)", "compilation_passed": false, "time": 0.00014901161193847656, "tests_passed": false, "error": "SyntaxError"}
+{"code": "drop(columns=[target]),", "compilation_passed": true, "time": 0.010913610458374023, "tests_passed": false, "error": "ValueError"}
+{"code": "iloc[:,:-1], data[target], test_size=test_size, random_state=random_state)", "compilation_passed": false, "time": 0.00015497207641601562, "tests_passed": false, "error": "SyntaxError"}
+{"code": "iloc[:, 0:].values,", "compilation_passed": true, "time": 0.010007143020629883, "tests_passed": false, "error": "ValueError"}
+{"code": "values[:, :-1], data.values[:, -1], test_size=test_size,", "compilation_passed": true, "time": 0.18244099617004395, "tests_passed": true, "error": null}
+{"code": "loc[:, data.columns != target], data[target], test_size=test_size, random_state=random_state)", "compilation_passed": false, "time": 0.0001480579376220703, "tests_passed": false, "error": "SyntaxError"}
+{"code": "drop(target, axis=1),  # Target column is excluded from X_train", "compilation_passed": true, "time": 0.01046609878540039, "tests_passed": false, "error": "ValueError"}
+{"code": "iloc[:, :-1], data[target], test_size=test_size, random_state=random_state)", "compilation_passed": false, "time": 0.00012612342834472656, "tests_passed": false, "error": "SyntaxError"}
+{"code": "values[:, :-1],  # features", "compilation_passed": true, "time": 0.009845972061157227, "tests_passed": false, "error": "ValueError"}
+{"code": "iloc[:, :-1],", "compilation_passed": true, "time": 0.010108232498168945, "tests_passed": false, "error": "ValueError"}
+{"code": "iloc[:, :-1],  # Features", "compilation_passed": true, "time": 0.010264873504638672, "tests_passed": false, "error": "ValueError"}
+{"code": "drop(target, axis=1), data[target], test_size=test_size, random_state=random_state)", "compilation_passed": false, "time": 0.00014638900756835938, "tests_passed": false, "error": "SyntaxError"}
+{"code": "drop(columns=target), data[target],", "compilation_passed": true, "time": 0.18497514724731445, "tests_passed": true, "error": null}
+{"code": "loc[:, data.columns != target],  # remove target column", "compilation_passed": true, "time": 0.01055598258972168, "tests_passed": false, "error": "ValueError"}

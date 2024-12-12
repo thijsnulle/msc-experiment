@@ -1,0 +1,20 @@
+{"code": " pattern.sub(\"_\", sentence)", "compilation_passed": true, "time": 0.011983871459960938, "tests_passed": true, "error": null}
+{"code": " re.sub(pattern, lambda match: match.group().replace(\" \", \"_\"), sentence)", "compilation_passed": true, "time": 0.014678955078125, "tests_passed": true, "error": null}
+{"code": " pattern.sub(\"_\" * len(word), sentence)", "compilation_passed": true, "time": 0.012367010116577148, "tests_passed": true, "error": null}
+{"code": " pattern.sub(word.replace(' ', '_'), sentence)", "compilation_passed": true, "time": 0.012263774871826172, "tests_passed": true, "error": null}
+{"code": " pattern.sub(\"_\".join(word.lower().split()), sentence)", "compilation_passed": true, "time": 0.014924049377441406, "tests_passed": true, "error": null}
+{"code": " pattern.sub(word.replace(\" \", \"_\"), sentence)", "compilation_passed": true, "time": 0.011814117431640625, "tests_passed": true, "error": null}
+{"code": " pattern.sub('_'.join(word.lower().split()), sentence)", "compilation_passed": true, "time": 0.01342320442199707, "tests_passed": true, "error": null}
+{"code": " pattern.sub('_', sentence, 1)", "compilation_passed": true, "time": 0.012681245803833008, "tests_passed": true, "error": null}
+{"code": " pattern.sub(f\"_{word}_\", sentence)", "compilation_passed": true, "time": 0.013565778732299805, "tests_passed": true, "error": null}
+{"code": " pattern.sub(\"_\"*len(word), sentence)", "compilation_passed": true, "time": 0.013573884963989258, "tests_passed": true, "error": null}
+{"code": " pattern.sub(r\"\\g<0>_\", sentence)", "compilation_passed": true, "time": 0.017448902130126953, "tests_passed": true, "error": null}
+{"code": " pattern.sub(\"_\", sentence, count=1)", "compilation_passed": true, "time": 0.012789011001586914, "tests_passed": true, "error": null}
+{"code": " re.sub(pattern, word.replace(' ', '_'), sentence)", "compilation_passed": true, "time": 0.014344215393066406, "tests_passed": true, "error": null}
+{"code": " re.sub(pattern, word.replace(\" \", \"_\"), sentence)", "compilation_passed": true, "time": 0.013240814208984375, "tests_passed": true, "error": null}
+{"code": " pattern.sub(r\"\\1_\\2\", sentence)", "compilation_passed": true, "time": 0.007555961608886719, "tests_passed": false, "error": "re.error"}
+{"code": " re.sub(pattern, \"_\" * len(word), sentence)", "compilation_passed": true, "time": 0.014578104019165039, "tests_passed": true, "error": null}
+{"code": " re.sub(pattern, '_'.join(word.lower().split()), sentence)", "compilation_passed": true, "time": 0.015579938888549805, "tests_passed": true, "error": null}
+{"code": " pattern.sub('_', sentence)", "compilation_passed": true, "time": 0.012714862823486328, "tests_passed": true, "error": null}
+{"code": " pattern.sub('_'*len(word), sentence)", "compilation_passed": true, "time": 0.014801263809204102, "tests_passed": true, "error": null}
+{"code": " pattern.sub(r\"_\" * len(word), sentence)", "compilation_passed": true, "time": 0.015132904052734375, "tests_passed": true, "error": null}

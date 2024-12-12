@@ -1,0 +1,9 @@
+{"code": " file_path.open(\"rb\") as f:", "compilation_passed": true, "time": 0.008502721786499023, "tests_passed": true, "error": null}
+{"code": " open(file_path, \"rb\") as f:", "compilation_passed": true, "time": 0.008360862731933594, "tests_passed": true, "error": null}
+{"code": " open(file_path, 'rb') as file:", "compilation_passed": true, "time": 0.006363868713378906, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(file_path, 'rb') as f:", "compilation_passed": true, "time": 0.008020162582397461, "tests_passed": true, "error": null}
+{"code": " file_path.open(mode=\"rb\") as f:", "compilation_passed": true, "time": 0.008910894393920898, "tests_passed": true, "error": null}
+{"code": " file_path.open('rb') as f:", "compilation_passed": true, "time": 0.008705854415893555, "tests_passed": true, "error": null}
+{"code": " file_path.open(\"rb\") as file:", "compilation_passed": true, "time": 0.006139993667602539, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " file_path.open() as f:", "compilation_passed": true, "time": 0.006463050842285156, "tests_passed": false, "error": "TypeError"}
+{"code": " file_path.open(mode='rb') as f:", "compilation_passed": true, "time": 0.008669853210449219, "tests_passed": true, "error": null}

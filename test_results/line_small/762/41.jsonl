@@ -1,0 +1,22 @@
+{"code": " open(f'{directory_name}/{file_name}', \"w\", encoding=encoding) as f:", "compilation_passed": true, "time": 0.008735895156860352, "tests_passed": false, "error": "TypeError"}
+{"code": " open(os.path.join(directory_name, file_name), 'w', encoding=encoding) as file:", "compilation_passed": true, "time": 0.008671998977661133, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(directory_name, file_name), 'w', encoding=encoding) as file_handler:", "compilation_passed": true, "time": 0.007708072662353516, "tests_passed": false, "error": "NameError"}
+{"code": " codecs.open(f\"{directory_name}/{file_name}\", \"w\", encoding=encoding) as file:", "compilation_passed": true, "time": 0.007721900939941406, "tests_passed": false, "error": "NameError"}
+{"code": " codecs.open(directory_name+os.sep+file_name, \"w\", encoding=encoding) as file:", "compilation_passed": true, "time": 0.00811910629272461, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(directory_name, file_name), \"w\", encoding=encoding) as file:", "compilation_passed": true, "time": 0.008141040802001953, "tests_passed": false, "error": "NameError"}
+{"code": " open(directory_name + '/' + file_name, 'w', encoding=encoding) as file:", "compilation_passed": true, "time": 0.007859945297241211, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(directory_name, file_name), \"w\", encoding=encoding) as f:", "compilation_passed": true, "time": 0.008435249328613281, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.open(directory_name+'/'+file_name, 'w', encoding=encoding) as f:", "compilation_passed": true, "time": 0.009799957275390625, "tests_passed": false, "error": "TypeError"}
+{"code": " open(file_name, \"w\", encoding=encoding) as f:", "compilation_passed": true, "time": 0.007977008819580078, "tests_passed": false, "error": "TypeError"}
+{"code": " open(file_name, 'w', encoding=encoding) as file:", "compilation_passed": true, "time": 0.007799863815307617, "tests_passed": false, "error": "NameError"}
+{"code": " open(f'{directory_name}/{file_name}', 'w', encoding=encoding) as f:", "compilation_passed": true, "time": 0.009446859359741211, "tests_passed": false, "error": "TypeError"}
+{"code": " open(file_name, \"w\", encoding=encoding) as file:", "compilation_passed": true, "time": 0.007666826248168945, "tests_passed": false, "error": "NameError"}
+{"code": " open(directory_name + \"/\" + file_name, \"w\", encoding=encoding) as file:", "compilation_passed": true, "time": 0.007909774780273438, "tests_passed": false, "error": "NameError"}
+{"code": " open(f'{directory_name}/{file_name}', 'w', encoding=encoding) as file:", "compilation_passed": true, "time": 0.007924079895019531, "tests_passed": false, "error": "NameError"}
+{"code": " codecs.open(os.path.join(directory_name, file_name), \"w\", encoding=encoding) as f:", "compilation_passed": true, "time": 0.008140087127685547, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.open(os.path.join(directory_name, file_name), 'w', encoding=encoding) as f:", "compilation_passed": true, "time": 0.008296012878417969, "tests_passed": false, "error": "TypeError"}
+{"code": " open(file_name, mode='w', encoding=encoding) as f:", "compilation_passed": true, "time": 0.01032876968383789, "tests_passed": false, "error": "TypeError"}
+{"code": " open(os.path.join(directory_name, file_name), mode='wb') as file:", "compilation_passed": true, "time": 0.007876157760620117, "tests_passed": false, "error": "NameError"}
+{"code": " open(directory_name + '/' + file_name, \"w\", encoding=encoding) as text_file:", "compilation_passed": true, "time": 0.008456945419311523, "tests_passed": false, "error": "NameError"}
+{"code": " codecs.open(f\"{directory_name}/{file_name}\", 'w', encoding=encoding) as f:", "compilation_passed": true, "time": 0.008042097091674805, "tests_passed": false, "error": "TypeError"}
+{"code": " open(f\"{directory_name}/{file_name}\", 'w', encoding=encoding) as file:", "compilation_passed": true, "time": 0.008322000503540039, "tests_passed": false, "error": "NameError"}

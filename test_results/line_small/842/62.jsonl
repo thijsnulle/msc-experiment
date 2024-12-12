@@ -1,0 +1,14 @@
+{"code": "execute('''", "compilation_passed": false, "time": 0.0002028942108154297, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute('INSERT INTO users VALUES (?,?,?,?)', (None, user, age, country))", "compilation_passed": true, "time": 0.04387998580932617, "tests_passed": true, "error": null}
+{"code": "execute(f\"INSERT INTO users (name, age, country) VALUES ('{user}', {age}, '{country}')\")", "compilation_passed": true, "time": 0.052613019943237305, "tests_passed": true, "error": null}
+{"code": "execute(\"INSERT INTO users VALUES (NULL, ?, ?, ?, ?)\", (user, age, country, None))", "compilation_passed": true, "time": 0.013612031936645508, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute('INSERT INTO users VALUES(?, ?, ?, ?)', (None, user, age, country))", "compilation_passed": true, "time": 0.044551849365234375, "tests_passed": true, "error": null}
+{"code": "execute('INSERT INTO users (name, age, country) VALUES (?, ?, ?)', (user, age, country))", "compilation_passed": true, "time": 0.04460883140563965, "tests_passed": true, "error": null}
+{"code": "execute('INSERT INTO users VALUES (?, ?, ?, ?)', (None, user, age, country))", "compilation_passed": true, "time": 0.058355093002319336, "tests_passed": true, "error": null}
+{"code": "execute(\"INSERT INTO users VALUES (?,?,?,?)\", [None,user,age,country])", "compilation_passed": true, "time": 0.04581809043884277, "tests_passed": true, "error": null}
+{"code": "execute(\"INSERT INTO users VALUES (NULL, '{}', {}, '{}')\".format(user, age, country))", "compilation_passed": true, "time": 0.05280113220214844, "tests_passed": true, "error": null}
+{"code": "execute(\"INSERT INTO users VALUES (NULL, ?, ?, ?, ?)\", (user, age, country, ))", "compilation_passed": true, "time": 0.013128995895385742, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(\"INSERT INTO users VALUES (?, ?, ?, ?)\", (None, user, age, country))", "compilation_passed": true, "time": 0.045352935791015625, "tests_passed": true, "error": null}
+{"code": "execute('INSERT INTO users VALUES (?, ?, ?, ?)', (0, user, age, country))", "compilation_passed": true, "time": 0.013851165771484375, "tests_passed": false, "error": "sqlite3.IntegrityError"}
+{"code": "execute(", "compilation_passed": false, "time": 0.00024080276489257812, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute('INSERT INTO users VALUES (NULL, ?, ?, ?, ?)', (user, age, country))", "compilation_passed": true, "time": 0.012794971466064453, "tests_passed": false, "error": "sqlite3.OperationalError"}

@@ -1,0 +1,5 @@
+{"code": " base64.b64encode(os.urandom(salt_size)).decode()", "compilation_passed": true, "time": 0.00763392448425293, "tests_passed": false, "error": "TypeError"}
+{"code": " os.urandom(salt_size)", "compilation_passed": true, "time": 0.0017561912536621094, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(os.urandom(salt_size)).decode('utf-8')", "compilation_passed": true, "time": 0.006005048751831055, "tests_passed": false, "error": "TypeError"}
+{"code": " base64.urlsafe_b64encode(os.urandom(salt_size))", "compilation_passed": true, "time": 0.004261970520019531, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(os.urandom(salt_size))", "compilation_passed": true, "time": 0.004678010940551758, "tests_passed": true, "error": null}

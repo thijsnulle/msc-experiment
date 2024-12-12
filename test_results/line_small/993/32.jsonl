@@ -1,0 +1,13 @@
+{"code": " [len(word.strip()) for word in words]", "compilation_passed": true, "time": 0.09840202331542969, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.15143489837646484, "tests_passed": true, "error": null}
+{"code": " [len(word) for word in words]", "compilation_passed": true, "time": 0.10268640518188477, "tests_passed": true, "error": null}
+{"code": " [len(word) for word in words if word.strip()]", "compilation_passed": true, "time": 0.3617289066314697, "tests_passed": true, "error": null}
+{"code": " Counter(len(w) for w in words)", "compilation_passed": true, "time": 0.007993936538696289, "tests_passed": false, "error": "NameError"}
+{"code": " Counter(words)", "compilation_passed": true, "time": 0.008539199829101562, "tests_passed": false, "error": "NameError"}
+{"code": " [len(word) for word in words if word.isalpha()]", "compilation_passed": true, "time": 0.4348287582397461, "tests_passed": true, "error": null}
+{"code": " Counter(word for word in words)", "compilation_passed": true, "time": 0.008997917175292969, "tests_passed": false, "error": "NameError"}
+{"code": " [len(w) for w in words]", "compilation_passed": true, "time": 0.11489582061767578, "tests_passed": true, "error": null}
+{"code": " [len(word) for word in words if len(word) > 1]", "compilation_passed": true, "time": 0.42603611946105957, "tests_passed": true, "error": null}
+{"code": " Counter([len(word) for word in words if word])", "compilation_passed": true, "time": 0.5600767135620117, "tests_passed": false, "error": "NameError"}
+{"code": " [len(word) for word in words if len(word) > 0]", "compilation_passed": true, "time": 0.22960686683654785, "tests_passed": true, "error": null}
+{"code": " Counter([len(w) for w in words if w])", "compilation_passed": true, "time": 0.007635831832885742, "tests_passed": false, "error": "NameError"}

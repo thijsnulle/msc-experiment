@@ -1,0 +1,13 @@
+{"code": " word_tokenize(text)", "compilation_passed": true, "time": 0.007297039031982422, "tests_passed": false, "error": "NameError"}
+{"code": " re.findall(r'\\w+', text)", "compilation_passed": true, "time": 0.0014638900756835938, "tests_passed": true, "error": null}
+{"code": " nltk.wordpunct_tokenize(text)", "compilation_passed": true, "time": 0.006580829620361328, "tests_passed": false, "error": "NameError"}
+{"code": " nltk.word_tokenize(text)", "compilation_passed": true, "time": 0.0073299407958984375, "tests_passed": false, "error": "NameError"}
+{"code": " text.split()", "compilation_passed": true, "time": 0.0014967918395996094, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in re.findall(r'\\w+', text)]", "compilation_passed": true, "time": 0.00422978401184082, "tests_passed": true, "error": null}
+{"code": " text.lower().strip().split()", "compilation_passed": true, "time": 0.0044939517974853516, "tests_passed": true, "error": null}
+{"code": " [w.strip(punctuation) for w in text.split() if w.strip(punctuation)]", "compilation_passed": true, "time": 0.0014729499816894531, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\w+', lambda match: match.group(0).lower(), text).split()", "compilation_passed": true, "time": 0.0044460296630859375, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in text.split()]", "compilation_passed": true, "time": 0.004524707794189453, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', text.lower())", "compilation_passed": true, "time": 0.004375934600830078, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in re.split('\\W+', text) if word]", "compilation_passed": true, "time": 0.004235029220581055, "tests_passed": true, "error": null}
+{"code": " [word for word in re.split('[ .,;?!@#$%^&*()_+=|\\\\-]+', text) if word not in PREDEFINED_STOPWORDS]", "compilation_passed": true, "time": 0.00557708740234375, "tests_passed": true, "error": null}

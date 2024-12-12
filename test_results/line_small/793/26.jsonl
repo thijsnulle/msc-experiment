@@ -1,0 +1,20 @@
+{"code": " []", "compilation_passed": true, "time": 0.003926992416381836, "tests_passed": true, "error": null}
+{"code": " ELEMENTS", "compilation_passed": true, "time": 0.0015249252319335938, "tests_passed": true, "error": null}
+{"code": " list(ELEMENTS)", "compilation_passed": true, "time": 0.0015287399291992188, "tests_passed": true, "error": null}
+{"code": " [random.choice(ELEMENTS) for i in range(random.randint(0, 100))]", "compilation_passed": true, "time": 0.004686117172241211, "tests_passed": true, "error": null}
+{"code": " random.choices(ELEMENTS, k=random.randint(1, 10))", "compilation_passed": true, "time": 0.0037407875061035156, "tests_passed": true, "error": null}
+{"code": " random.sample(ELEMENTS, 4)", "compilation_passed": true, "time": 0.005276203155517578, "tests_passed": true, "error": null}
+{"code": " random.choices(ELEMENTS, k=random.randint(0, 10))", "compilation_passed": true, "time": 0.004101991653442383, "tests_passed": true, "error": null}
+{"code": " random.choices(ELEMENTS, k=10)", "compilation_passed": true, "time": 0.005688905715942383, "tests_passed": true, "error": null}
+{"code": " [random.choice(ELEMENTS) for _ in range(10)]", "compilation_passed": true, "time": 0.0048062801361083984, "tests_passed": true, "error": null}
+{"code": " [random.choice(ELEMENTS) for i in range(random.randint(0, 10))]", "compilation_passed": true, "time": 0.004491090774536133, "tests_passed": true, "error": null}
+{"code": " random.sample(ELEMENTS, 10)", "compilation_passed": true, "time": 0.004730939865112305, "tests_passed": true, "error": null}
+{"code": " [random.choice(ELEMENTS) for i in range(random.randint(1, 10))]", "compilation_passed": true, "time": 0.004900932312011719, "tests_passed": true, "error": null}
+{"code": " random.sample(ELEMENTS, 3)", "compilation_passed": true, "time": 0.0043756961822509766, "tests_passed": true, "error": null}
+{"code": " random.sample(ELEMENTS, random.randint(1, 10))", "compilation_passed": true, "time": 0.005060672760009766, "tests_passed": true, "error": null}
+{"code": " list()", "compilation_passed": true, "time": 0.004114866256713867, "tests_passed": true, "error": null}
+{"code": " [random.choice(ELEMENTS) for _ in range(5)]", "compilation_passed": true, "time": 0.003945112228393555, "tests_passed": true, "error": null}
+{"code": " np.random.choice(ELEMENTS, np.random.randint(4, 10))", "compilation_passed": true, "time": 0.0062999725341796875, "tests_passed": true, "error": null}
+{"code": " random.sample(ELEMENTS, len(ELEMENTS))", "compilation_passed": true, "time": 0.005429983139038086, "tests_passed": true, "error": null}
+{"code": " random.choices(ELEMENTS, k=random.randint(10, 20))", "compilation_passed": true, "time": 0.0042572021484375, "tests_passed": true, "error": null}
+{"code": " random.choice(ELEMENTS, 10)", "compilation_passed": true, "time": 0.006986856460571289, "tests_passed": false, "error": "TypeError"}

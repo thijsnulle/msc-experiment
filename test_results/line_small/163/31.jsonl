@@ -1,0 +1,8 @@
+{"code": " [\"A\", \"B\", \"C\", \"D\", \"E\"]", "compilation_passed": true, "time": 0.12637615203857422, "tests_passed": true, "error": null}
+{"code": " ['A', 'B', 'C', 'D', 'E']", "compilation_passed": true, "time": 0.13204312324523926, "tests_passed": true, "error": null}
+{"code": " [f\"A{i}\" for i in range(rows)] + [f\"B{i}\" for i in range(rows)] + [", "compilation_passed": false, "time": 0.00023102760314941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(\"ABCDEF\")", "compilation_passed": true, "time": 0.15542817115783691, "tests_passed": true, "error": null}
+{"code": " \"ABCDE\"[:cols]", "compilation_passed": true, "time": 0.009406089782714844, "tests_passed": false, "error": "TypeError"}
+{"code": " list(\"ABCDE\")", "compilation_passed": true, "time": 0.12965011596679688, "tests_passed": true, "error": null}
+{"code": " list(range(cols))", "compilation_passed": true, "time": 0.1557621955871582, "tests_passed": true, "error": null}
+{"code": " list(\"ABCDEF\")[:cols]", "compilation_passed": true, "time": 0.22029900550842285, "tests_passed": true, "error": null}

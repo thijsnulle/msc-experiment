@@ -1,0 +1,28 @@
+{"code": "countplot(data=df, x=col, ax=axes[0], hue=None, order=None, hue_order=None, order_order=None, hue_hue=None,", "compilation_passed": false, "time": 0.0002930164337158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": "countplot(df[col], ax=axes[0], edgecolor='black')", "compilation_passed": true, "time": 0.2613990306854248, "tests_passed": true, "error": null}
+{"code": "countplot(df[col], ax=axes[0], color='green', alpha=0.7)  # Using seaborn's countplot function for categorical data", "compilation_passed": true, "time": 0.26017093658447266, "tests_passed": true, "error": null}
+{"code": "countplot(df[col], ax=axes[0], hue='value', palette='muted')  # Using seaborn's countplot function for categorical data", "compilation_passed": true, "time": 0.06774520874023438, "tests_passed": false, "error": "ValueError"}
+{"code": "countplot(x=df[col], ax=axes[0])  # Using seaborn's countplot function for categorical data", "compilation_passed": true, "time": 0.2592036724090576, "tests_passed": true, "error": null}
+{"code": "countplot(df[col], ax=axes[0])  # Using seaborn's countplot for categorical data", "compilation_passed": true, "time": 0.2543637752532959, "tests_passed": true, "error": null}
+{"code": "countplot(df[col], ax=axes[0], palette=\"pastel\")  # Using Seaborn's count plot for categorical data", "compilation_passed": true, "time": 0.27283406257629395, "tests_passed": true, "error": null}
+{"code": "countplot(x=df[col], ax=axes[0])  # Using seaborn's count plot for categorical data", "compilation_passed": true, "time": 0.26759910583496094, "tests_passed": true, "error": null}
+{"code": "countplot(df[col], ax=axes[0], palette='colorblind', alpha=0.7)  # Using Seaborn's countplot function for categorical data", "compilation_passed": true, "time": 0.26688289642333984, "tests_passed": true, "error": null}
+{"code": "countplot(df[col], hue=col, ax=axes[0])  # Using seaborn's countplot function for categorical data", "compilation_passed": true, "time": 0.07721519470214844, "tests_passed": false, "error": "ValueError"}
+{"code": "countplot(x=col, data=df, ax=axes[0])  # Using seaborn's countplot function for categorical data", "compilation_passed": true, "time": 0.26830577850341797, "tests_passed": true, "error": null}
+{"code": "countplot(x=df[col], ax=axes[0], hue=df[col])  # Using seaborn for categorical data", "compilation_passed": true, "time": 0.26930904388427734, "tests_passed": true, "error": null}
+{"code": "countplot(df[col], ax=axes[0])  # Using Seaborn's count plot for categorical data", "compilation_passed": true, "time": 0.2618131637573242, "tests_passed": true, "error": null}
+{"code": "countplot(data=df, x=col, ax=axes[0])  # Using seaborn's countplot function for categorical data", "compilation_passed": true, "time": 0.2637150287628174, "tests_passed": true, "error": null}
+{"code": "countplot(df[col], ax=axes[0])  # Using seaborn's countplot function for categorical data", "compilation_passed": true, "time": 0.2739391326904297, "tests_passed": true, "error": null}
+{"code": "countplot(df[col], ax=axes[0], hue=col, hue_order=['A', 'B'])  # Using seaborn countplot function for categorical data", "compilation_passed": true, "time": 0.0611422061920166, "tests_passed": false, "error": "ValueError"}
+{"code": "countplot(x=df[col], ax=axes[0])  # Using Seaborn's countplot function for categorical data", "compilation_passed": true, "time": 0.26499104499816895, "tests_passed": true, "error": null}
+{"code": "countplot(data=df, x=col, hue=col, ax=axes[0])", "compilation_passed": true, "time": 0.2814347743988037, "tests_passed": true, "error": null}
+{"code": "countplot(x=df[col], ax=axes[0], alpha=0.7, color='skyblue')", "compilation_passed": true, "time": 0.2597970962524414, "tests_passed": true, "error": null}
+{"code": "countplot(x=df[col], ax=axes[0], hue=None)  # Using seaborn's count plot for categorical data", "compilation_passed": true, "time": 0.2715167999267578, "tests_passed": true, "error": null}
+{"code": "countplot(df[col], ax=axes[0])", "compilation_passed": true, "time": 0.27616381645202637, "tests_passed": true, "error": null}
+{"code": "countplot(df[col], ax=axes[0], hue=\"value\", kde=False, color='black')  # Using seaborn's countplot for categorical data", "compilation_passed": true, "time": 0.07129335403442383, "tests_passed": false, "error": "ValueError"}
+{"code": "countplot(data=df, x=col, ax=axes[0])  # Using seaborn's count plot function for categorical data", "compilation_passed": true, "time": 0.27344202995300293, "tests_passed": true, "error": null}
+{"code": "countplot(x=df[col], ax=axes[0], color='darkgreen')  # Using seaborn's countplot for categorical data", "compilation_passed": true, "time": 0.2755911350250244, "tests_passed": true, "error": null}
+{"code": "countplot(x=df[col], ax=axes[0])  # Using seaborn's countplot for categorical data", "compilation_passed": true, "time": 0.26967287063598633, "tests_passed": true, "error": null}
+{"code": "countplot(data=df, x=col, ax=axes[0])  # Using seaborn's count plot for categorical data", "compilation_passed": true, "time": 0.26994895935058594, "tests_passed": true, "error": null}
+{"code": "countplot(df[col], ax=axes[0], color='blue')  # Using seaborn's count plot for categorical data", "compilation_passed": true, "time": 0.26748013496398926, "tests_passed": true, "error": null}
+{"code": "countplot(df[col], hue=col, ax=axes[0], kws=dict(alpha=0.7, edgecolor='black'))  # Using seaborn's countplot for categorical data", "compilation_passed": true, "time": 0.07332110404968262, "tests_passed": false, "error": "ValueError"}

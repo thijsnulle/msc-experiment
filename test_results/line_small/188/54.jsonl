@@ -1,0 +1,8 @@
+{"code": "Marker(location=[row['Lat'], row['Lon']], popup=row['Location']).add_to(folium_map)", "compilation_passed": true, "time": 0.05333399772644043, "tests_passed": true, "error": null}
+{"code": "Marker([row['Lat'], row['Lon']]).add_to(folium_map)", "compilation_passed": true, "time": 0.050124168395996094, "tests_passed": true, "error": null}
+{"code": "Marker(", "compilation_passed": false, "time": 0.0004191398620605469, "tests_passed": false, "error": "SyntaxError"}
+{"code": "Marker(location=[row['Lat'], row['Lon']]).add_to(folium_map)", "compilation_passed": true, "time": 0.04848790168762207, "tests_passed": true, "error": null}
+{"code": "Marker([row['Lat'], row['Lon']], popup=row['Location']).add_to(folium_map)", "compilation_passed": true, "time": 0.0508427619934082, "tests_passed": true, "error": null}
+{"code": "Marker([row['Lat'], row['Lon']],", "compilation_passed": false, "time": 0.0003666877746582031, "tests_passed": false, "error": "SyntaxError"}
+{"code": "Marker([row['Lat'], row['Lon']], popup=f\"{row['Location']}\").add_to(folium_map)", "compilation_passed": true, "time": 0.05040788650512695, "tests_passed": true, "error": null}
+{"code": "Marker([row['Lat'], row['Lon']], popup=row['Location'],", "compilation_passed": false, "time": 0.00037097930908203125, "tests_passed": false, "error": "SyntaxError"}

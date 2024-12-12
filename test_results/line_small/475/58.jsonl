@@ -1,0 +1,28 @@
+{"code": " pd.DataFrame(data=data['parsed_dates']).plot(", "compilation_passed": false, "time": 0.0003688335418701172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " data['parsed_dates'].value_counts().plot(kind='bar', title='Date Distribution', ylabel='Frequency')", "compilation_passed": true, "time": 0.049485206604003906, "tests_passed": true, "error": null}
+{"code": " data['parsed_dates'].value_counts().plot(kind='bar', color=country_codes[country])", "compilation_passed": true, "time": 0.027452945709228516, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.008030176162719727, "tests_passed": false, "error": "NameError"}
+{"code": " data['parsed_dates'].value_counts(normalize=True).sort_index().plot(kind='bar')", "compilation_passed": true, "time": 0.03578925132751465, "tests_passed": true, "error": null}
+{"code": " sns.histplot(x='parsed_dates', data=data, kde=False, hue=country_codes[country])", "compilation_passed": true, "time": 0.00811910629272461, "tests_passed": false, "error": "NameError"}
+{"code": " sns.distplot(", "compilation_passed": false, "time": 0.00033092498779296875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.distplot(data['parsed_dates'], norm_hist=True, kde=False, bins=10, axlabel='Frequency')", "compilation_passed": true, "time": 0.00820302963256836, "tests_passed": false, "error": "NameError"}
+{"code": " data['parsed_dates'].value_counts().sort_index().plot.bar(rot=45)", "compilation_passed": true, "time": 0.03646492958068848, "tests_passed": true, "error": null}
+{"code": " data['parsed_dates'].value_counts().plot(kind='bar')", "compilation_passed": true, "time": 0.03700685501098633, "tests_passed": true, "error": null}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.008067846298217773, "tests_passed": false, "error": "NameError"}
+{"code": " data.pivot_table(index='parsed_dates', values=country, aggfunc=len).plot.bar(stacked=True)", "compilation_passed": true, "time": 0.011162281036376953, "tests_passed": false, "error": "KeyError"}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.007812023162841797, "tests_passed": false, "error": "NameError"}
+{"code": " data['parsed_dates'].value_counts().plot.barh(", "compilation_passed": false, "time": 0.0003178119659423828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.plotting.hist(data.groupby('parsed_dates')['dates'], bins=365, label='Frequency')", "compilation_passed": true, "time": 0.0077211856842041016, "tests_passed": false, "error": "AttributeError"}
+{"code": " data['parsed_dates'].groupby(country_codes[country]).count().plot(kind='bar')", "compilation_passed": true, "time": 0.016367197036743164, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.pivot_table(data=data['parsed_dates'], index=True, aggfunc='size').plot(kind='bar')", "compilation_passed": true, "time": 0.008181095123291016, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.subplots().ax", "compilation_passed": true, "time": 0.007755756378173828, "tests_passed": false, "error": "NameError"}
+{"code": " data.groupby('parsed_dates').size().plot(kind='hist', title='Date Distribution', figsize=(15, 8),", "compilation_passed": false, "time": 0.0003380775451660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.pivot_table(data=data, index='parsed_dates', values='dates', aggfunc=lambda x: len(x)).plot(", "compilation_passed": false, "time": 0.0003719329833984375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.distplot(data['parsed_dates'], kde=True, bins=50, label=country, color=country_codes[country])", "compilation_passed": true, "time": 0.007739067077636719, "tests_passed": false, "error": "NameError"}
+{"code": " data['parsed_dates'].value_counts().sort_index().plot.bar(figsize=(10, 7), rot=45, title='Date Distribution')", "compilation_passed": true, "time": 0.08307814598083496, "tests_passed": true, "error": null}
+{"code": " data['parsed_dates'].value_counts().plot(kind='hist', color='blue', title='Date Distribution').get_yaxis()", "compilation_passed": true, "time": 0.02273106575012207, "tests_passed": false, "error": "AttributeError"}
+{"code": " data['parsed_dates'].plot(", "compilation_passed": false, "time": 0.0003459453582763672, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.countplot(x='parsed_dates', data=data, hue=country, c=country_codes[country], palette='bright')", "compilation_passed": true, "time": 0.008208274841308594, "tests_passed": false, "error": "NameError"}
+{"code": " data['parsed_dates'].plot.hist()", "compilation_passed": true, "time": 0.011172056198120117, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.distplot(data['parsed_dates'], kde=False, hist_kws={'color': 'yellowgreen', 'edgecolor': 'black'})", "compilation_passed": true, "time": 0.007816791534423828, "tests_passed": false, "error": "NameError"}
+{"code": " pd.DataFrame(data).groupby('parsed_dates')['dates'].count().plot(kind='bar')", "compilation_passed": true, "time": 0.0481259822845459, "tests_passed": true, "error": null}

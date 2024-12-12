@@ -1,0 +1,18 @@
+{"code": " []", "compilation_passed": true, "time": 0.013410806655883789, "tests_passed": true, "error": null}
+{"code": " extract_names(text=text, smtp_server=smtp_server, smtp_port=smtp_port, email_address=email_address, email_password=email_password, recepient_address=recepient_address)", "compilation_passed": true, "time": 0.00948023796081543, "tests_passed": false, "error": "NameError"}
+{"code": " re.findall(r\"\\[(.*?)\\]\\[(.*?)\\]\", text)", "compilation_passed": true, "time": 0.009009122848510742, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\w+)\\s*\\[[\\w., ]+\\s*([\\w.,]+)\\]', text)", "compilation_passed": true, "time": 0.012196779251098633, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r\"\\[(.*?)\\]\", text)", "compilation_passed": true, "time": 0.00802302360534668, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[A-Z][^ ]+', text)", "compilation_passed": true, "time": 0.008381843566894531, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\[.*?\\]', text)", "compilation_passed": true, "time": 0.008367776870727539, "tests_passed": true, "error": null}
+{"code": " re.findall(r'([A-Z][a-z]* [A-Z][a-z]*)|([A-Z][A-Z][A-Z][a-z]* [A-Z][A-Z][A-Z][a-z]*)|([A-Z][A-Z][A-Z][A-Z][a-z]*)|([A-Z][A-Z][A-Z][A-Z][A-Z][a-z]*)', text)", "compilation_passed": true, "time": 0.010725975036621094, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r'(\\[.*\\])', text)", "compilation_passed": true, "time": 0.008421182632446289, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\[(.*?)\\]', text)", "compilation_passed": true, "time": 0.00882101058959961, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[\\w]+[\\s\\w]*', text)", "compilation_passed": true, "time": 0.007028818130493164, "tests_passed": true, "error": null}
+{"code": " [name for name in re.findall(r\"\\[([^\\]]*?)\\]\", text) if name != \"\"]", "compilation_passed": true, "time": 0.00699615478515625, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\[.*?\\]|[A-Z][a-zA-Z]+ ?\\s?[A-Z][a-zA-Z]+)', text)", "compilation_passed": true, "time": 0.008285045623779297, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[^\\[\\]]+', text)", "compilation_passed": true, "time": 0.008485794067382812, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\[[^]]+]\", text)", "compilation_passed": true, "time": 0.009113073348999023, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\[?\\w+\\s?\\w+\\]?', text)", "compilation_passed": true, "time": 0.007000923156738281, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?<=\\[)(.*?)(?=\\]|$)\", text)", "compilation_passed": true, "time": 0.008035659790039062, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\[(.+?)\\]\", text)", "compilation_passed": true, "time": 0.008575916290283203, "tests_passed": true, "error": null}

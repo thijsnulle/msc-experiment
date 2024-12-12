@@ -1,0 +1,12 @@
+{"code": " re.findall(r'[,\\s]*([^,\\s]*)[,\\s]*', s)", "compilation_passed": true, "time": 0.011234045028686523, "tests_passed": false, "error": "NameError"}
+{"code": " s.split(\",\")", "compilation_passed": true, "time": 0.008944988250732422, "tests_passed": true, "error": null}
+{"code": " s.split(\", \")", "compilation_passed": true, "time": 0.009788990020751953, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.015508890151977539, "tests_passed": false, "error": "ValueError"}
+{"code": " s.split(',')", "compilation_passed": true, "time": 0.012230873107910156, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(?<![a-zA-Z0-9])([a-zA-Z]+)(?![a-zA-Z0-9])', s)", "compilation_passed": true, "time": 0.01111292839050293, "tests_passed": false, "error": "NameError"}
+{"code": " re.findall(r'[\\w]+', s)", "compilation_passed": true, "time": 0.011877059936523438, "tests_passed": false, "error": "NameError"}
+{"code": " re.findall(r'[^,\\s]+', s)", "compilation_passed": true, "time": 0.012451171875, "tests_passed": false, "error": "NameError"}
+{"code": " [x.strip() for x in s.split(',') if x.strip()]", "compilation_passed": true, "time": 0.009621143341064453, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[\\S]+', s)", "compilation_passed": true, "time": 0.014616012573242188, "tests_passed": false, "error": "NameError"}
+{"code": " re.findall(r',[\\s]?([^\\s,]*)(?:[\\s]?,|$)', s)", "compilation_passed": true, "time": 0.015189886093139648, "tests_passed": false, "error": "NameError"}
+{"code": " [i for i in s.split(\",\") if i]", "compilation_passed": true, "time": 0.00956273078918457, "tests_passed": true, "error": null}

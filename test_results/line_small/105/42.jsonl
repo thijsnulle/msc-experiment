@@ -1,0 +1,30 @@
+{"code": "heatmap(correlation_matrix, annot=True, cbar=True, cbar_kws={\"shrink\": .5}, fmt=\".2f\", square=True)", "compilation_passed": true, "time": 1.0505437850952148, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix,", "compilation_passed": false, "time": 0.0004019737243652344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(correlation_matrix, annot=True, cbar=True, cmap='Blues')", "compilation_passed": true, "time": 1.0110161304473877, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, cmap='coolwarm', annot=True, linewidths=0.5, square=True,", "compilation_passed": false, "time": 0.0004980564117431641, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(", "compilation_passed": false, "time": 0.00038623809814453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(correlation_matrix, cmap='Blues', square=True, annot=True, fmt='.2f', cbar_kws={'shrink': 0.8, 'pad': 0.5}, cbar_ax=None)", "compilation_passed": true, "time": 1.0127301216125488, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, annot=True, fmt='.2f', linewidths=.5, cmap=\"Blues\")", "compilation_passed": true, "time": 1.0105159282684326, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, annot=True, cmap=\"Blues\"), cbar_kws={\"orientation\": \"horizontal\"}, cbar_label=\"Correlation\", linewidths=0.5)", "compilation_passed": false, "time": 0.00038504600524902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(correlation_matrix, annot=True, fmt=\".2f\", cmap=\"coolwarm\")", "compilation_passed": true, "time": 1.3888437747955322, "tests_passed": true, "error": null}
+{"code": "heatmap(correlation_matrix, annot=True, cmap='coolwarm',", "compilation_passed": false, "time": 0.0004379749298095703, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(correlation_matrix, cbar=False, cbar_kws=dict(size='0.04'), annot=True)", "compilation_passed": true, "time": 1.0100877285003662, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, annot=True, cbar=True, cmap='Blues', fmt='.2f', annot_kws={\"size\": 8},", "compilation_passed": false, "time": 0.0003781318664550781, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(correlation_matrix, annot=True, fmt='.2f', linewidths=.5, cmap='Blues')", "compilation_passed": true, "time": 1.0102148056030273, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, cmap='coolwarm', annot=True, square=True, cbar=True, fmt=\".2f\",", "compilation_passed": false, "time": 0.0002911090850830078, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(correlation_matrix, annot=True, linewidths=0.5, cmap=\"Blues\", fmt=\".2f\", square=True)", "compilation_passed": true, "time": 1.0104289054870605, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, annot=True, cbar=True, cbar_kws={\"shrink\": 0.7}, linewidths=1, square=True, fmt='.2g', annot_kws={'size': 8, 'fontsize': 8})", "compilation_passed": true, "time": 0.0998079776763916, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, annot=True, cmap='Blues')", "compilation_passed": true, "time": 1.0104141235351562, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, cmap='coolwarm', annot=True, fmt='.2f', linewidths=0.5)", "compilation_passed": true, "time": 1.0105700492858887, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, annot=True, linewidths=0.5, cmap=\"coolwarm\")", "compilation_passed": true, "time": 1.0140960216522217, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, cmap='RdBu', annot=True, fmt='.2g',", "compilation_passed": false, "time": 0.00043010711669921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(correlation_matrix, cmap='coolwarm', center=0, annot=True, square=True)", "compilation_passed": true, "time": 1.0246260166168213, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, cmap='YlGnBu', annot=True, linewidths=.5, fmt='.2f')", "compilation_passed": true, "time": 1.0205178260803223, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, annot=True, fmt='.2g', cmap='RdYlGn', square=True, linewidths=.5)", "compilation_passed": true, "time": 1.0154240131378174, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, cmap='coolwarm', annot=True, fmt='.2g', cbar_kws={\"label\": \"Correlation\"},", "compilation_passed": false, "time": 0.0007789134979248047, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(correlation_matrix, annot=True, fmt=\".2f\", cmap=\"BuPu\", linewidths=.5, cbar_kws={\"shrink\": .75})", "compilation_passed": true, "time": 1.016052007675171, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, annot=True, cmap=\"coolwarm\", ax=heatmap_fig)", "compilation_passed": true, "time": 0.0438840389251709, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, cbar=False, cmap=\"RdBu_r\", annot=False, center=0, vmin=-1, vmax=1, fmt='.2f')", "compilation_passed": true, "time": 1.0110790729522705, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, cbar=True, cmap='coolwarm', annot=True, fmt='.2f', square=True, ax=heatmap_fig, annot_kws={\"size\": 14, \"weight\": \"bold\", \"color\": \"white\"})", "compilation_passed": true, "time": 0.0472111701965332, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, annot=True, cbar=False, center=0, fmt='.3f')", "compilation_passed": true, "time": 1.018927812576294, "tests_passed": false, "error": "ValueError"}
+{"code": "heatmap(correlation_matrix, annot=True, cmap='Blues', square=True, fmt='.2f', linewidths=0.5, cbar_kws={\"shrink\": 0.75})", "compilation_passed": true, "time": 1.0139119625091553, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,18 @@
+{"code": " pd.Series(np.zeros(7), index=DAYS_OF_WEEK)", "compilation_passed": true, "time": 0.00875091552734375, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.004185199737548828, "tests_passed": true, "error": null}
+{"code": " list()", "compilation_passed": true, "time": 0.004517078399658203, "tests_passed": true, "error": null}
+{"code": " [parse(date).weekday() for date in dates_str_list]", "compilation_passed": true, "time": 0.003934144973754883, "tests_passed": true, "error": null}
+{"code": " np.array([parse(date).weekday() for date in dates_str_list])", "compilation_passed": true, "time": 0.006157875061035156, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(0, index=DAYS_OF_WEEK)", "compilation_passed": true, "time": 0.004210948944091797, "tests_passed": true, "error": null}
+{"code": " [DAYS_OF_WEEK.index(parse(date).weekday()) for date in dates_str_list]", "compilation_passed": true, "time": 0.007071018218994141, "tests_passed": false, "error": "ValueError"}
+{"code": " {}", "compilation_passed": true, "time": 0.005506038665771484, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Series(data=DAYS_OF_WEEK, index=DAYS_OF_WEEK).apply(parse).dt.isoweekday()", "compilation_passed": true, "time": 0.014045000076293945, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(DAYS_OF_WEEK)", "compilation_passed": true, "time": 0.005783796310424805, "tests_passed": false, "error": "TypeError"}
+{"code": " np.zeros(7, dtype=np.int64)", "compilation_passed": true, "time": 0.004282951354980469, "tests_passed": true, "error": null}
+{"code": " [parse(date_string).isocalendar()[1] - 1 for date_string in dates_str_list]", "compilation_passed": true, "time": 0.005402088165283203, "tests_passed": false, "error": "ValueError"}
+{"code": " {day: 0 for day in DAYS_OF_WEEK}", "compilation_passed": true, "time": 0.004975795745849609, "tests_passed": false, "error": "ValueError"}
+{"code": " [parse(date_str).weekday() for date_str in dates_str_list]", "compilation_passed": true, "time": 0.0038683414459228516, "tests_passed": true, "error": null}
+{"code": " [parse(d).weekday() for d in dates_str_list]", "compilation_passed": true, "time": 0.003534078598022461, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.array([0]*7, dtype=int), index=pd.Index(DAYS_OF_WEEK))", "compilation_passed": true, "time": 0.004091978073120117, "tests_passed": true, "error": null}
+{"code": " pd.Series(data=0, index=DAYS_OF_WEEK, dtype='int64')", "compilation_passed": true, "time": 0.005668163299560547, "tests_passed": true, "error": null}
+{"code": " np.array([DAYS_OF_WEEK.index(day.rstrip('day')) for day in dates_str_list])", "compilation_passed": true, "time": 0.007017850875854492, "tests_passed": false, "error": "ValueError"}

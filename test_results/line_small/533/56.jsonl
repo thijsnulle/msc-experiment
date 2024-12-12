@@ -1,0 +1,20 @@
+{"code": " hashlib.sha256(num.encode('utf-8') + salt.encode('utf-8')).digest()", "compilation_passed": true, "time": 0.0021500587463378906, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(num.encode('utf-8') + salt.encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.007051944732666016, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(salt.encode() + num.encode()).digest()", "compilation_passed": true, "time": 0.0015399456024169922, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(salt + num).hexdigest()", "compilation_passed": true, "time": 0.004598140716552734, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(num.encode() + salt.encode()).digest()", "compilation_passed": true, "time": 0.0017871856689453125, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(num.encode()).hexdigest()", "compilation_passed": true, "time": 0.004622936248779297, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(salt.encode('utf-8')).digest()", "compilation_passed": true, "time": 0.0017528533935546875, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(salt.encode()).hexdigest()", "compilation_passed": true, "time": 0.004286050796508789, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(salt + num.encode()).digest()", "compilation_passed": true, "time": 0.004642963409423828, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(salt + num).digest()", "compilation_passed": true, "time": 0.004591941833496094, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256((num + salt).encode()).digest()", "compilation_passed": true, "time": 0.0013823509216308594, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256((num + salt).encode()).hexdigest()", "compilation_passed": true, "time": 0.004615306854248047, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(num.encode() + salt.encode()).hexdigest()", "compilation_passed": true, "time": 0.005442142486572266, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(salt.encode() + num.encode()).hexdigest()", "compilation_passed": true, "time": 0.005457162857055664, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(num + salt).hexdigest()", "compilation_passed": true, "time": 0.003956317901611328, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(bytes(num, 'utf-8') + bytes(salt, 'utf-8')).hexdigest()", "compilation_passed": true, "time": 0.004897117614746094, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(salt + num.encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.004773139953613281, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(num + salt)", "compilation_passed": true, "time": 0.004853010177612305, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(num.encode('utf-8')).digest()", "compilation_passed": true, "time": 0.003802061080932617, "tests_passed": true, "error": null}
+{"code": " base64.b64encode((num + salt).encode()).decode().replace(\"/\", \"|\")", "compilation_passed": true, "time": 0.004662990570068359, "tests_passed": false, "error": "TypeError"}

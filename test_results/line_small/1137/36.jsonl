@@ -1,0 +1,5 @@
+{"code": " re.findall(PHONE_REGEX, text)", "compilation_passed": true, "time": 0.013125896453857422, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.01507878303527832, "tests_passed": true, "error": null}
+{"code": " [match.group(0) for match in re.finditer(PHONE_REGEX, text)]", "compilation_passed": true, "time": 0.02370309829711914, "tests_passed": true, "error": null}
+{"code": " [match.group() for match in re.finditer(PHONE_REGEX, text)]", "compilation_passed": true, "time": 0.02067089080810547, "tests_passed": true, "error": null}
+{"code": " [m.group() for m in re.finditer(PHONE_REGEX, text)]", "compilation_passed": true, "time": 0.019166231155395508, "tests_passed": true, "error": null}

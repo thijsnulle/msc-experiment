@@ -1,0 +1,26 @@
+{"code": "fit(np.array([[freq] for freq in word_freqs.values()]).T)", "compilation_passed": true, "time": 0.013060808181762695, "tests_passed": false, "error": "ValueError"}
+{"code": "fit(np.array([list(word_freqs.items())]))", "compilation_passed": true, "time": 0.009437084197998047, "tests_passed": false, "error": "ValueError"}
+{"code": "fit(np.array([list(word_freqs.values())]).T)", "compilation_passed": true, "time": 0.011082887649536133, "tests_passed": true, "error": null}
+{"code": "fit(np.asarray(list(word_freqs.values())).reshape(-1, 1))", "compilation_passed": true, "time": 0.009617090225219727, "tests_passed": true, "error": null}
+{"code": "fit(np.array([[word_freqs[word]] for word in words]),", "compilation_passed": false, "time": 0.0002868175506591797, "tests_passed": false, "error": "SyntaxError"}
+{"code": "fit(np.array([np.array([word_freqs[w]]) for w in word_freqs]), check_params=False)", "compilation_passed": true, "time": 0.009673833847045898, "tests_passed": false, "error": "TypeError"}
+{"code": "fit(np.array(list(word_freqs.items())).reshape(-1, 1), weights=None, max_iter=1000)", "compilation_passed": true, "time": 0.00904703140258789, "tests_passed": false, "error": "TypeError"}
+{"code": "fit(list(word_freqs.items()), weights=np.ones(len(word_freqs)) / len(word_freqs))", "compilation_passed": true, "time": 0.008581161499023438, "tests_passed": false, "error": "TypeError"}
+{"code": "fit(np.array([np.array(list(word_freqs.keys()))]).T, np.array(list(word_freqs.values())))", "compilation_passed": true, "time": 0.008889913558959961, "tests_passed": false, "error": "ValueError"}
+{"code": "fit(np.array([word_freqs[word] for word in word_freqs]).reshape(-1,1))", "compilation_passed": true, "time": 0.00979924201965332, "tests_passed": true, "error": null}
+{"code": "fit(np.asarray([np.log(word_freqs[word]) for word in words]).reshape((-1, 1)))", "compilation_passed": true, "time": 0.008688926696777344, "tests_passed": true, "error": null}
+{"code": "fit(np.array(list(word_freqs.values()))[:, np.newaxis], covariance_type='spherical')", "compilation_passed": true, "time": 0.00857400894165039, "tests_passed": false, "error": "TypeError"}
+{"code": "fit(np.asarray(list(word_freqs.items())).reshape((num_gaussians, -1)).T)", "compilation_passed": true, "time": 0.008992910385131836, "tests_passed": false, "error": "ValueError"}
+{"code": "fit(np.array(list(word_freqs.values())).reshape(-1, 1), np.ones(len(names)))", "compilation_passed": true, "time": 0.009690046310424805, "tests_passed": true, "error": null}
+{"code": "fit(np.vstack(tuple(word_freqs.keys()) for _ in range(num_gaussians)).T)", "compilation_passed": true, "time": 0.010902166366577148, "tests_passed": false, "error": "TypeError"}
+{"code": "fit(list(word_freqs.items()))", "compilation_passed": true, "time": 0.008900880813598633, "tests_passed": false, "error": "ValueError"}
+{"code": "fit(np.array(list(word_freqs.items())).reshape(-1, 1), weights=word_freqs.values())", "compilation_passed": true, "time": 0.008605003356933594, "tests_passed": false, "error": "TypeError"}
+{"code": "fit(np.array(list(word_freqs.values())).reshape(-1, 1), weights=np.ones(num_gaussians)/num_gaussians)", "compilation_passed": true, "time": 0.00861978530883789, "tests_passed": false, "error": "TypeError"}
+{"code": "fit(np.array(list(word_freqs.values())).reshape(-1, 1), covariance_type='full')", "compilation_passed": true, "time": 0.008472204208374023, "tests_passed": false, "error": "TypeError"}
+{"code": "fit(np.array([np.array([word_freqs[word]]) for word in word_freqs]),", "compilation_passed": false, "time": 0.0003330707550048828, "tests_passed": false, "error": "SyntaxError"}
+{"code": "fit(np.array(word_freqs.keys()).reshape(-1, 1), np.array(word_freqs.values()).reshape(-1, 1))", "compilation_passed": true, "time": 0.009096145629882812, "tests_passed": false, "error": "TypeError"}
+{"code": "fit(np.array(list(word_freqs.items())).T)", "compilation_passed": true, "time": 0.008854866027832031, "tests_passed": false, "error": "ValueError"}
+{"code": "fit(np.array([[v] for v in word_freqs.values()]).reshape(-1, 1))", "compilation_passed": true, "time": 0.009472131729125977, "tests_passed": true, "error": null}
+{"code": "fit(np.array(list(word_freqs.values())).reshape(-1, 1))", "compilation_passed": true, "time": 0.009712934494018555, "tests_passed": true, "error": null}
+{"code": "fit(np.array(list(word_freqs.values())).reshape(-1, 1), weights=np.ones(num_gaussians))", "compilation_passed": true, "time": 0.00844430923461914, "tests_passed": false, "error": "TypeError"}
+{"code": "fit(np.array([word_freqs]).T)", "compilation_passed": true, "time": 0.009268999099731445, "tests_passed": false, "error": "TypeError"}

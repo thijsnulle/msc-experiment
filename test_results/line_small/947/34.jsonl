@@ -1,0 +1,5 @@
+{"code": " np.datetime64(start_date)", "compilation_passed": true, "time": 0.002622842788696289, "tests_passed": true, "error": null}
+{"code": " np.datetime64(start_date.replace(hour=0, minute=0, second=0, microsecond=0))", "compilation_passed": true, "time": 0.0019991397857666016, "tests_passed": true, "error": null}
+{"code": " np.datetime64(start_date.replace(tzinfo=datetime.min.tzinfo))", "compilation_passed": true, "time": 0.0022978782653808594, "tests_passed": true, "error": null}
+{"code": " np.array(start_date).astype(np.datetime64)", "compilation_passed": true, "time": 0.0021550655364990234, "tests_passed": true, "error": null}
+{"code": " np.array(start_date, dtype=\"datetime64[s]\")", "compilation_passed": true, "time": 0.0021638870239257812, "tests_passed": true, "error": null}

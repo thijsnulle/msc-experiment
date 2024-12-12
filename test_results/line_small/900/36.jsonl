@@ -1,0 +1,8 @@
+{"code": " df[key].empty:", "compilation_passed": true, "time": 0.016464948654174805, "tests_passed": false, "error": "KeyError"}
+{"code": " key not in df.columns:", "compilation_passed": true, "time": 0.01808905601501465, "tests_passed": false, "error": "KeyError"}
+{"code": " key in df.columns:", "compilation_passed": true, "time": 0.003892183303833008, "tests_passed": true, "error": null}
+{"code": " key not in df.columns:  # If key not present in dataframe, set value to None", "compilation_passed": true, "time": 0.021110057830810547, "tests_passed": false, "error": "KeyError"}
+{"code": " key in df:", "compilation_passed": true, "time": 0.003896951675415039, "tests_passed": true, "error": null}
+{"code": " not df[key].empty:", "compilation_passed": true, "time": 0.015265226364135742, "tests_passed": false, "error": "KeyError"}
+{"code": " not all(df[key].notna()):  # If all values in the column are non-NA", "compilation_passed": true, "time": 0.015503168106079102, "tests_passed": false, "error": "KeyError"}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.0047338008880615234, "tests_passed": true, "error": null}

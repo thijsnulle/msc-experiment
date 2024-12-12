@@ -1,0 +1,27 @@
+{"code": " df.groupby(\"String\")[\"String\"].agg(\"count\").nlargest(30, keep=\"all\").reset_index(drop=True)", "compilation_passed": true, "time": 0.17320513725280762, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"String\").size().reset_index(name=\"frequency\")", "compilation_passed": true, "time": 0.1968996524810791, "tests_passed": true, "error": null}
+{"code": " df.value_counts().sort_index().head(30)", "compilation_passed": true, "time": 0.18935513496398926, "tests_passed": true, "error": null}
+{"code": " df.groupby([\"String\"], as_index=False).count()", "compilation_passed": true, "time": 0.013267993927001953, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby(\"String\")[\"String\"].count().reset_index().sort_values(\"String\", ascending=False).head(30)", "compilation_passed": true, "time": 0.01738286018371582, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(\"String\").size().sort_values(ascending=False).head(30).sort_index()", "compilation_passed": true, "time": 0.16925907135009766, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"String\").size().sort_values(ascending=False).reset_index(name=\"Frequency\")", "compilation_passed": true, "time": 0.19617915153503418, "tests_passed": true, "error": null}
+{"code": " df.groupby([\"String\"]).size().sort_values(ascending=False).head(30)", "compilation_passed": true, "time": 0.16861891746520996, "tests_passed": true, "error": null}
+{"code": " df[\"String\"].value_counts().head(30)", "compilation_passed": true, "time": 0.1753220558166504, "tests_passed": true, "error": null}
+{"code": " df.groupby('String').size().sort_values(ascending=False).head(30)", "compilation_passed": true, "time": 0.1695551872253418, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"String\").size().sort_index().to_frame(\"count\")", "compilation_passed": true, "time": 0.19555997848510742, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"String\").size().sort_values(ascending=False).head(30)", "compilation_passed": true, "time": 0.17191219329833984, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"String\").agg({\"String\": \"count\"}).reset_index(drop=False)[\"String\"].sort_values(ascending=False)", "compilation_passed": true, "time": 0.012154817581176758, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(\"String\")[\"String\"].agg(lambda x: x.count()).reset_index()", "compilation_passed": true, "time": 0.04555487632751465, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(\"String\").size().sort_values(ascending=False).head(30).to_dict()", "compilation_passed": true, "time": 0.011435985565185547, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.groupby([\"String\"]).size()", "compilation_passed": true, "time": 0.17731785774230957, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"String\").size().sort_values(ascending=False)", "compilation_passed": true, "time": 0.16579389572143555, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"String\").count().reset_index()", "compilation_passed": true, "time": 0.013447999954223633, "tests_passed": false, "error": "TypeError"}
+{"code": " df.value_counts().head(30)", "compilation_passed": true, "time": 0.18279600143432617, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"String\").agg({\"String\": \"count\"})", "compilation_passed": true, "time": 0.20145297050476074, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"String\").agg({\"String\": \"count\"}).sort_values(\"String\", ascending=False)", "compilation_passed": true, "time": 0.013122081756591797, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(\"String\")[\"String\"].count().reset_index(name=\"count\").sort_values(\"count\", ascending=False).head(30)", "compilation_passed": true, "time": 0.20585274696350098, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"String\").size().sort_values(ascending=False)[:30]", "compilation_passed": true, "time": 0.16787028312683105, "tests_passed": true, "error": null}
+{"code": " df.value_counts(\"String\")", "compilation_passed": true, "time": 0.15148305892944336, "tests_passed": true, "error": null}
+{"code": " df[\"String\"].value_counts()[:30]", "compilation_passed": true, "time": 0.15229272842407227, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"String\")[\"String\"].agg(pd.Series.value_counts)", "compilation_passed": true, "time": 1.0351717472076416, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.String.value_counts()", "compilation_passed": true, "time": 0.14772677421569824, "tests_passed": true, "error": null}

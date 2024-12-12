@@ -1,0 +1,16 @@
+{"code": "set_title('Sales Report for Different Categories')", "compilation_passed": true, "time": 0.08167791366577148, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Sales Report ({start_date} to {date_range.strftime('%Y-%m-%d')[1]})\")", "compilation_passed": true, "time": 0.09558486938476562, "tests_passed": true, "error": null}
+{"code": "set_title('Sales Report')", "compilation_passed": true, "time": 0.0845181941986084, "tests_passed": true, "error": null}
+{"code": "set_ylabel('Sales ($)')", "compilation_passed": true, "time": 0.09399080276489258, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(date_range.strftime('%m/%d/%Y'))", "compilation_passed": true, "time": 0.09453606605529785, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Date', fontsize=14)", "compilation_passed": true, "time": 0.07934117317199707, "tests_passed": true, "error": null}
+{"code": "set_title(f'Sales Report: {start_date} - {start_date + pd.DateOffset(periods=1 - periods)}')", "compilation_passed": true, "time": 0.09881305694580078, "tests_passed": false, "error": "ValueError"}
+{"code": "set_xticks(date_range.tolist())", "compilation_passed": true, "time": 0.0805060863494873, "tests_passed": true, "error": null}
+{"code": "set_title(f'Sales Report ({freq})')", "compilation_passed": true, "time": 0.08737587928771973, "tests_passed": true, "error": null}
+{"code": "set_xticks(date_range)  # Set the x-axis labels", "compilation_passed": true, "time": 0.09868693351745605, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Date')", "compilation_passed": true, "time": 0.09385800361633301, "tests_passed": true, "error": null}
+{"code": "set_title('Sales Report', fontsize=18)", "compilation_passed": true, "time": 0.13315916061401367, "tests_passed": true, "error": null}
+{"code": "set_ylabel('Sales', fontsize=14)", "compilation_passed": true, "time": 0.11235213279724121, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Date', fontsize=16)", "compilation_passed": true, "time": 0.10017991065979004, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Sales Report for {periods} {freq[:3]}s\")", "compilation_passed": true, "time": 0.11176514625549316, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(sales_df['Date'].dt.strftime('%Y-%m-%d'))", "compilation_passed": true, "time": 0.08779692649841309, "tests_passed": true, "error": null}

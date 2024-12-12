@@ -1,0 +1,26 @@
+{"code": " np.einsum('nij,j...->n...', P, T)", "compilation_passed": true, "time": 0.01739788055419922, "tests_passed": false, "error": "ValueError"}
+{"code": " np.einsum(\"...ij,...kj->...ik\", P, T)", "compilation_passed": true, "time": 0.09444904327392578, "tests_passed": true, "error": null}
+{"code": " np.einsum('ij,klm->ijklm', P, T)", "compilation_passed": true, "time": 0.0943291187286377, "tests_passed": true, "error": null}
+{"code": " np.einsum('ijk,klm->ijl', P, T)", "compilation_passed": true, "time": 0.010307073593139648, "tests_passed": false, "error": "ValueError"}
+{"code": " np.einsum(\"ijk,kl->ijl\", P, T).reshape(P.shape[0], -1)", "compilation_passed": true, "time": 0.010970830917358398, "tests_passed": false, "error": "ValueError"}
+{"code": " np.einsum(\"abc,bij->abij\", P, T)", "compilation_passed": true, "time": 0.010977983474731445, "tests_passed": false, "error": "ValueError"}
+{"code": " np.einsum(\"ij,kl,mn->ijklmn\", P, T, P)", "compilation_passed": true, "time": 0.011719942092895508, "tests_passed": false, "error": "ValueError"}
+{"code": " np.einsum(\"ij,ijk->ik\", P, T)", "compilation_passed": true, "time": 0.08894491195678711, "tests_passed": true, "error": null}
+{"code": " np.einsum('ij,kl->ijkl', P, T)", "compilation_passed": true, "time": 0.010062932968139648, "tests_passed": false, "error": "ValueError"}
+{"code": " np.einsum('nij,kij->nkj', P, T)", "compilation_passed": true, "time": 0.012153148651123047, "tests_passed": false, "error": "ValueError"}
+{"code": " P.dot(T)", "compilation_passed": true, "time": 0.09366083145141602, "tests_passed": true, "error": null}
+{"code": " np.einsum('ijk,ijk', P, T).reshape(P.shape[0], -1)", "compilation_passed": true, "time": 0.01409912109375, "tests_passed": false, "error": "ValueError"}
+{"code": " np.einsum('ij,klm->ijkm', P, T)", "compilation_passed": true, "time": 0.09291267395019531, "tests_passed": true, "error": null}
+{"code": " np.tensordot(P, T, axes=((1, 2), (0, 1)))", "compilation_passed": true, "time": 0.013028860092163086, "tests_passed": false, "error": "IndexError"}
+{"code": " np.einsum(\"ij,...i->...j\", P, T)", "compilation_passed": true, "time": 0.1139991283416748, "tests_passed": true, "error": null}
+{"code": " P @ T", "compilation_passed": true, "time": 0.13938498497009277, "tests_passed": true, "error": null}
+{"code": " np.einsum('ij,kl->ijkl', P, T, optimize=True)", "compilation_passed": true, "time": 0.01262211799621582, "tests_passed": false, "error": "ValueError"}
+{"code": " np.einsum('ij,ijkl->kl', P, T)", "compilation_passed": true, "time": 0.010735034942626953, "tests_passed": false, "error": "ValueError"}
+{"code": " np.einsum('...ij,ijk...->...ik', P, T)", "compilation_passed": true, "time": 0.09539270401000977, "tests_passed": true, "error": null}
+{"code": " np.einsum('ijk,...->ijk', P, T)", "compilation_passed": true, "time": 0.011723995208740234, "tests_passed": false, "error": "ValueError"}
+{"code": " np.einsum(\"ijk, ij->ik\", P, T)", "compilation_passed": true, "time": 0.012681007385253906, "tests_passed": false, "error": "ValueError"}
+{"code": " np.einsum(\"ijk,jil->kli\", P, T)", "compilation_passed": true, "time": 0.010295867919921875, "tests_passed": false, "error": "ValueError"}
+{"code": " np.einsum('ijk,kl->ijl', P, T)", "compilation_passed": true, "time": 0.012323141098022461, "tests_passed": false, "error": "ValueError"}
+{"code": " np.einsum(\"ij,ijk->ijk\", P, T)", "compilation_passed": true, "time": 0.09131789207458496, "tests_passed": true, "error": null}
+{"code": " np.tensordot(P, T, axes=((0, 1), (0, 1)))", "compilation_passed": true, "time": 0.053967952728271484, "tests_passed": false, "error": "IndexError"}
+{"code": " np.einsum(\"nij, ijk->njk\", P, T)", "compilation_passed": true, "time": 0.01759505271911621, "tests_passed": false, "error": "ValueError"}

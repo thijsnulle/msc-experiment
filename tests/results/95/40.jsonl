@@ -1,0 +1,14 @@
+{"code": " not (isinstance(categories, list) and isinstance(months, list)):", "compilation_passed": true, "time": 0.0072650909423828125, "tests_passed": true, "error": null}
+{"code": " not categories:", "compilation_passed": true, "time": 0.006281852722167969, "tests_passed": true, "error": null}
+{"code": " categories == [] or months == []:", "compilation_passed": true, "time": 0.006287097930908203, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(value, list) for value in (categories, months)):", "compilation_passed": true, "time": 0.0071260929107666016, "tests_passed": true, "error": null}
+{"code": " len(categories) == 0:", "compilation_passed": true, "time": 0.006604194641113281, "tests_passed": true, "error": null}
+{"code": " not categories or not months:", "compilation_passed": true, "time": 0.0063359737396240234, "tests_passed": true, "error": null}
+{"code": " len(categories) == 0 or len(months) == 0:", "compilation_passed": true, "time": 0.00650334358215332, "tests_passed": true, "error": null}
+{"code": " not (categories and months):", "compilation_passed": true, "time": 0.006222724914550781, "tests_passed": true, "error": null}
+{"code": " len(categories) <= 0 or len(months) <= 0:", "compilation_passed": true, "time": 0.006321907043457031, "tests_passed": true, "error": null}
+{"code": " not isinstance(categories, list) or not isinstance(months, list):", "compilation_passed": true, "time": 0.006928920745849609, "tests_passed": true, "error": null}
+{"code": " len(categories) < 1:", "compilation_passed": true, "time": 0.006262063980102539, "tests_passed": true, "error": null}
+{"code": " not isinstance(categories, list):", "compilation_passed": true, "time": 0.008695840835571289, "tests_passed": true, "error": null}
+{"code": " categories and months:", "compilation_passed": true, "time": 0.00915384292602539, "tests_passed": false, "error": "ValueError"}
+{"code": " (not categories or not months) or (not isinstance(categories, list) or not isinstance(months, list)):", "compilation_passed": true, "time": 0.008900880813598633, "tests_passed": true, "error": null}

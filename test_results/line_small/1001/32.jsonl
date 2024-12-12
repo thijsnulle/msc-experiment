@@ -1,0 +1,4 @@
+{"code": " (df[\"column1\"].values - mean) / std", "compilation_passed": true, "time": 1.057481050491333, "tests_passed": false, "error": "TimeoutError"}
+{"code": " (df[\"column1\"] - mean) / std", "compilation_passed": true, "time": 0.2588491439819336, "tests_passed": true, "error": null}
+{"code": " (df[\"column1\"].apply(lambda x: (x - mean) / std) * 100).apply(round)", "compilation_passed": true, "time": 0.10537409782409668, "tests_passed": true, "error": null}
+{"code": " (df[\"column1\"].sub(mean).div(std))", "compilation_passed": true, "time": 0.25281810760498047, "tests_passed": true, "error": null}

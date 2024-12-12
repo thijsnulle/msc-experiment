@@ -1,0 +1,14 @@
+{"code": " collections.Counter([letter for letter, _ in data])", "compilation_passed": true, "time": 0.16295099258422852, "tests_passed": true, "error": null}
+{"code": " collections.Counter(itemgetter(0)(data))", "compilation_passed": true, "time": 0.06665802001953125, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.Counter([x[0] for x in data])", "compilation_passed": true, "time": 0.15718913078308105, "tests_passed": true, "error": null}
+{"code": " collections.Counter(data).most_common()", "compilation_passed": true, "time": 0.01578807830810547, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.Counter(data)", "compilation_passed": true, "time": 0.04535508155822754, "tests_passed": false, "error": "ValueError"}
+{"code": " collections.Counter(letter for letter, value in data)", "compilation_passed": true, "time": 0.18489503860473633, "tests_passed": true, "error": null}
+{"code": " collections.Counter([item[0] for item in data])", "compilation_passed": true, "time": 0.17704486846923828, "tests_passed": true, "error": null}
+{"code": " collections.defaultdict(int)", "compilation_passed": true, "time": 0.009706974029541016, "tests_passed": false, "error": "ValueError"}
+{"code": " collections.Counter(letter for letter, _ in data)", "compilation_passed": true, "time": 0.18267297744750977, "tests_passed": true, "error": null}
+{"code": " collections.Counter(letter for letter, num in data)", "compilation_passed": true, "time": 0.19078302383422852, "tests_passed": true, "error": null}
+{"code": " collections.Counter(letter for letter, count in data)", "compilation_passed": true, "time": 0.17991399765014648, "tests_passed": true, "error": null}
+{"code": " collections.defaultdict(lambda: 0)", "compilation_passed": true, "time": 0.009874820709228516, "tests_passed": false, "error": "ValueError"}
+{"code": " collections.Counter(map(itemgetter(0), data))", "compilation_passed": true, "time": 0.17248916625976562, "tests_passed": true, "error": null}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.010567903518676758, "tests_passed": false, "error": "ValueError"}

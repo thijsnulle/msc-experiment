@@ -1,0 +1,18 @@
+{"code": " re.findall(r'\\w+', s)", "compilation_passed": true, "time": 0.11313199996948242, "tests_passed": true, "error": null}
+{"code": " re.split(' |,|;|-|:', s)  # Split the string into words", "compilation_passed": true, "time": 0.10951089859008789, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.11454010009765625, "tests_passed": true, "error": null}
+{"code": " s.split()", "compilation_passed": true, "time": 0.11440801620483398, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', s.lower())", "compilation_passed": true, "time": 0.11240506172180176, "tests_passed": true, "error": null}
+{"code": " re.findall(\"[\\w']+\", s, re.IGNORECASE)", "compilation_passed": true, "time": 0.11831521987915039, "tests_passed": true, "error": null}
+{"code": " set(re.findall(r'\\w+', s, re.IGNORECASE))", "compilation_passed": true, "time": 0.12180590629577637, "tests_passed": true, "error": null}
+{"code": " re.split('\\W+', s)", "compilation_passed": true, "time": 0.1201777458190918, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', s, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.11975502967834473, "tests_passed": true, "error": null}
+{"code": " set(re.findall(r\"\\b[a-zA-Z]+\\b\", s))", "compilation_passed": true, "time": 0.12284111976623535, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in s.split()]", "compilation_passed": true, "time": 0.11833715438842773, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"[a-zA-Z]+\", s)", "compilation_passed": true, "time": 0.12059497833251953, "tests_passed": true, "error": null}
+{"code": " s.split(\" \")", "compilation_passed": true, "time": 0.12109017372131348, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', s)", "compilation_passed": true, "time": 0.1188809871673584, "tests_passed": true, "error": null}
+{"code": " s.lower().split(\" \")", "compilation_passed": true, "time": 0.11698412895202637, "tests_passed": true, "error": null}
+{"code": " set()", "compilation_passed": true, "time": 0.1201317310333252, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[a-zA-Z]+', s)", "compilation_passed": true, "time": 0.11559200286865234, "tests_passed": true, "error": null}
+{"code": " re.split(r\"[^a-zA-Z]+\", s)", "compilation_passed": true, "time": 0.122802734375, "tests_passed": true, "error": null}

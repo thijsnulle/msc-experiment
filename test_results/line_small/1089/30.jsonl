@@ -1,0 +1,14 @@
+{"code": " [value for (value, _) in list_of_tuples]", "compilation_passed": true, "time": 0.0019979476928710938, "tests_passed": true, "error": null}
+{"code": " [num for (num, _) in list_of_tuples]", "compilation_passed": true, "time": 0.0026640892028808594, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0077970027923583984, "tests_passed": true, "error": null}
+{"code": " [value for value, _ in list_of_tuples]", "compilation_passed": true, "time": 0.002207040786743164, "tests_passed": true, "error": null}
+{"code": " [value[0] for value in list_of_tuples]", "compilation_passed": true, "time": 0.0019290447235107422, "tests_passed": true, "error": null}
+{"code": " [x[0] for x in list_of_tuples]", "compilation_passed": true, "time": 0.002107858657836914, "tests_passed": true, "error": null}
+{"code": " [value for value, category in list_of_tuples]", "compilation_passed": true, "time": 0.001956939697265625, "tests_passed": true, "error": null}
+{"code": " [tuple[0] for tuple in list_of_tuples]", "compilation_passed": true, "time": 0.001978158950805664, "tests_passed": true, "error": null}
+{"code": " [val[0] for val in list_of_tuples]", "compilation_passed": true, "time": 0.001986980438232422, "tests_passed": true, "error": null}
+{"code": " list(map(lambda x: x[0], list_of_tuples))", "compilation_passed": true, "time": 0.0019259452819824219, "tests_passed": true, "error": null}
+{"code": " [value for value, category in list_of_tuples if value is not None]", "compilation_passed": true, "time": 0.002103090286254883, "tests_passed": true, "error": null}
+{"code": " np.array([num for num, _ in list_of_tuples])", "compilation_passed": true, "time": 0.001898050308227539, "tests_passed": true, "error": null}
+{"code": " [val for val, category in list_of_tuples if type(val) is int or type(val) is float]", "compilation_passed": true, "time": 0.0018990039825439453, "tests_passed": true, "error": null}
+{"code": " [n for n, _ in list_of_tuples]", "compilation_passed": true, "time": 0.0020110607147216797, "tests_passed": true, "error": null}

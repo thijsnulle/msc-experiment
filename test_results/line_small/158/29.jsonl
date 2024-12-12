@@ -1,0 +1,8 @@
+{"code": " response.read()", "compilation_passed": true, "time": 0.015761137008666992, "tests_passed": true, "error": null}
+{"code": " json.loads(response.read().decode('utf-8'))", "compilation_passed": true, "time": 0.01728987693786621, "tests_passed": false, "error": "TypeError"}
+{"code": " json.load(response)", "compilation_passed": true, "time": 0.015088081359863281, "tests_passed": false, "error": "TypeError"}
+{"code": " response.read().decode()", "compilation_passed": true, "time": 0.01442265510559082, "tests_passed": true, "error": null}
+{"code": " response.read().decode('utf-8')", "compilation_passed": true, "time": 0.014225006103515625, "tests_passed": true, "error": null}
+{"code": " json.loads(response.read().decode())", "compilation_passed": true, "time": 0.01500391960144043, "tests_passed": false, "error": "TypeError"}
+{"code": " response.read().decode(\"utf8\")", "compilation_passed": true, "time": 0.015568733215332031, "tests_passed": true, "error": null}
+{"code": " json.loads(response.read())", "compilation_passed": true, "time": 0.013775825500488281, "tests_passed": false, "error": "TypeError"}

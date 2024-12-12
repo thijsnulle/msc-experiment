@@ -1,0 +1,4 @@
+{"code": " df[target]", "compilation_passed": true, "time": 0.021120071411132812, "tests_passed": true, "error": null}
+{"code": " df.loc[:, target]", "compilation_passed": true, "time": 0.016117095947265625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.squeeze(df[target])", "compilation_passed": true, "time": 0.015377998352050781, "tests_passed": true, "error": null}
+{"code": " df.target", "compilation_passed": true, "time": 0.0071561336517333984, "tests_passed": false, "error": "AttributeError"}

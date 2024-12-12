@@ -1,0 +1,4 @@
+{"code": " np.random.randint(sales_lower, sales_upper)", "compilation_passed": true, "time": 0.013627052307128906, "tests_passed": true, "error": null}
+{"code": " np.random.randint(sales_lower, sales_upper + 1)", "compilation_passed": true, "time": 0.022130250930786133, "tests_passed": true, "error": null}
+{"code": " np.random.randint(sales_lower, sales_upper+1, size=1)", "compilation_passed": true, "time": 0.017319917678833008, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.randint(sales_lower, sales_upper+1)", "compilation_passed": true, "time": 0.020565032958984375, "tests_passed": true, "error": null}

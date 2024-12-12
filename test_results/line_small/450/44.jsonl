@@ -1,0 +1,21 @@
+{"code": "scatter(X[:, 0], X[:, 1], c=\"#a10f2b\")", "compilation_passed": true, "time": 0.09680008888244629, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(X[:, 0], X[:, 1])", "compilation_passed": true, "time": 0.09904170036315918, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(X[:, 0], X[:, 1], color=\"b\")", "compilation_passed": true, "time": 0.1073310375213623, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(*X.T, c=y, cmap=plt.cm.Set1, s=70)", "compilation_passed": true, "time": 0.7096712589263916, "tests_passed": true, "error": null}
+{"code": "scatter(X[:, 0], X[:, 1], c=y)", "compilation_passed": true, "time": 0.689749002456665, "tests_passed": true, "error": null}
+{"code": "scatter(X[:, 0], X[:, 1], s=50, c=y)", "compilation_passed": true, "time": 0.6289651393890381, "tests_passed": true, "error": null}
+{"code": "scatter(X[:, 0], X[:, 1], color='#F38916')", "compilation_passed": true, "time": 0.08079004287719727, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(X[:, 0], X[:, 1], c=y, cmap=\"tab20\", s=20)", "compilation_passed": true, "time": 0.5388247966766357, "tests_passed": true, "error": null}
+{"code": "scatter(*zip(*X), color=y)", "compilation_passed": true, "time": 0.11239314079284668, "tests_passed": false, "error": "ValueError"}
+{"code": "scatter(X[:, 0], X[:, 1], c=y, s=20)", "compilation_passed": true, "time": 0.5202686786651611, "tests_passed": true, "error": null}
+{"code": "scatter(X[:, 0], X[:, 1], c=y, s=50)", "compilation_passed": true, "time": 0.5247011184692383, "tests_passed": true, "error": null}
+{"code": "scatter(*zip(*X), color=y, s=10, alpha=0.75, cmap=\"viridis\")", "compilation_passed": true, "time": 0.10995888710021973, "tests_passed": false, "error": "ValueError"}
+{"code": "scatter(X[:, 0], X[:, 1], color=\"tab:blue\")", "compilation_passed": true, "time": 0.0664529800415039, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(X[:, 0], X[:, 1], s=25, c=y, alpha=0.5)", "compilation_passed": true, "time": 0.5398030281066895, "tests_passed": true, "error": null}
+{"code": "scatter(X[:, 0], X[:, 1], c=y, cmap=\"Set2\")", "compilation_passed": true, "time": 0.7850801944732666, "tests_passed": true, "error": null}
+{"code": "scatter(X[:, 0], X[:, 1], c=y, s=5)", "compilation_passed": true, "time": 0.560305118560791, "tests_passed": true, "error": null}
+{"code": "scatter(X[:, 0], X[:, 1], c=y, s=10, cmap='tab20')", "compilation_passed": true, "time": 0.5430541038513184, "tests_passed": true, "error": null}
+{"code": "scatter(*X.T, s=50, c=y)", "compilation_passed": true, "time": 0.5586192607879639, "tests_passed": true, "error": null}
+{"code": "scatter(X[:, 0], X[:, 1], c=y, cmap=\"viridis\", s=50)", "compilation_passed": true, "time": 0.5739459991455078, "tests_passed": true, "error": null}
+{"code": "scatter(X[:, 0], X[:, 1], s=40, c=y)", "compilation_passed": true, "time": 0.5557138919830322, "tests_passed": true, "error": null}
+{"code": "scatter(*zip(*X), s=10, c=y, cmap=\"tab20\")", "compilation_passed": true, "time": 0.5422999858856201, "tests_passed": true, "error": null}

@@ -1,0 +1,14 @@
+{"code": " salt + PREFIX + password", "compilation_passed": true, "time": 0.010951042175292969, "tests_passed": false, "error": "TypeError"}
+{"code": " password + salt", "compilation_passed": true, "time": 0.01117706298828125, "tests_passed": false, "error": "TypeError"}
+{"code": " PREFIX + password + salt.decode(\"UTF-8\")", "compilation_passed": true, "time": 0.008148908615112305, "tests_passed": true, "error": null}
+{"code": " password.encode() + PREFIX.encode() + salt", "compilation_passed": true, "time": 0.01153111457824707, "tests_passed": false, "error": "AttributeError"}
+{"code": " PREFIX + password + salt", "compilation_passed": true, "time": 0.010406970977783203, "tests_passed": false, "error": "TypeError"}
+{"code": " salt + password", "compilation_passed": true, "time": 0.012280941009521484, "tests_passed": false, "error": "TypeError"}
+{"code": " salt + password.encode()", "compilation_passed": true, "time": 0.011200904846191406, "tests_passed": false, "error": "AttributeError"}
+{"code": " password.encode('utf-8') + PREFIX.encode('utf-8') + salt", "compilation_passed": true, "time": 0.01090097427368164, "tests_passed": false, "error": "AttributeError"}
+{"code": " PREFIX.encode('utf-8') + salt", "compilation_passed": true, "time": 0.010869979858398438, "tests_passed": false, "error": "AttributeError"}
+{"code": " salt.decode('utf-8') + PREFIX + password", "compilation_passed": true, "time": 0.0073909759521484375, "tests_passed": true, "error": null}
+{"code": " salted_password = salt.hex() + password", "compilation_passed": true, "time": 0.006653785705566406, "tests_passed": true, "error": null}
+{"code": " password.encode('utf-8') + b' ' + salt", "compilation_passed": true, "time": 0.00947880744934082, "tests_passed": false, "error": "AttributeError"}
+{"code": " password + PREFIX + base64.b64encode(salt).decode('utf-8')", "compilation_passed": true, "time": 0.006881237030029297, "tests_passed": true, "error": null}
+{"code": " PREFIX.encode() + password.encode() + salt", "compilation_passed": true, "time": 0.009996175765991211, "tests_passed": false, "error": "AttributeError"}

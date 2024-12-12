@@ -1,0 +1,21 @@
+{"code": "plot(temperatures.index, temperatures['temperature'], linewidth=2, marker='o', markerfacecolor='r', color='grey')", "compilation_passed": true, "time": 0.1596050262451172, "tests_passed": true, "error": null}
+{"code": "plot(temperatures['temperature'], linewidth=1.5)", "compilation_passed": true, "time": 0.16219687461853027, "tests_passed": true, "error": null}
+{"code": "plot(temperatures.index, temperatures['temperature'], linewidth=2, label='Daily Temperatures')", "compilation_passed": true, "time": 0.1626288890838623, "tests_passed": true, "error": null}
+{"code": "set_title('Daily Temperatures in New York')", "compilation_passed": true, "time": 0.06179404258728027, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(temperatures['date'], temperatures['temperature'], label='Temperature')", "compilation_passed": true, "time": 0.03983163833618164, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(temperatures.index, temperatures['temperature'])", "compilation_passed": true, "time": 0.1669020652770996, "tests_passed": true, "error": null}
+{"code": "plot(temperatures['temperature'])", "compilation_passed": true, "time": 0.16809892654418945, "tests_passed": true, "error": null}
+{"code": "plot(temperatures.index, temperatures['temperature'], linewidth=1)", "compilation_passed": true, "time": 0.16942167282104492, "tests_passed": true, "error": null}
+{"code": "plot(temperatures.index, temperatures['temperature'], label='Temperature')", "compilation_passed": true, "time": 0.16837191581726074, "tests_passed": true, "error": null}
+{"code": "plot(temperatures['temperature'], linewidth=2, marker='o', label='Temperature')", "compilation_passed": true, "time": 0.17301607131958008, "tests_passed": true, "error": null}
+{"code": "plot(temperatures.index, temperatures['temperature'], linestyle='-', marker='o', markersize=3, linewidth=2)", "compilation_passed": true, "time": 0.17288613319396973, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Date\")", "compilation_passed": true, "time": 0.06024909019470215, "tests_passed": false, "error": "IndexError"}
+{"code": "bar(temperatures.index, temperatures['temperature'], label='Temperature')", "compilation_passed": true, "time": 0.4494810104370117, "tests_passed": false, "error": "IndexError"}
+{"code": "set_xlabel('Date')", "compilation_passed": true, "time": 0.06906294822692871, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(temperatures.index, temperatures.temperature, label='Temperatures')", "compilation_passed": true, "time": 0.1793816089630127, "tests_passed": true, "error": null}
+{"code": "plot(temperatures.index, temperatures[\"temperature\"], linewidth=0.5, color=\"#4D4D4D\")", "compilation_passed": true, "time": 0.1806330680847168, "tests_passed": true, "error": null}
+{"code": "plot(temperatures.index, temperatures['temperature'], color='b')", "compilation_passed": true, "time": 0.17894792556762695, "tests_passed": true, "error": null}
+{"code": "plot(temperatures.index, temperatures['temperature'], marker='o', color='red')", "compilation_passed": true, "time": 0.1869661808013916, "tests_passed": true, "error": null}
+{"code": "plot(temperatures.temperature, linewidth=2, color='#5577cf')", "compilation_passed": true, "time": 0.18113088607788086, "tests_passed": true, "error": null}
+{"code": "plot(temperatures['temperature'], linewidth=2)", "compilation_passed": true, "time": 0.1813960075378418, "tests_passed": true, "error": null}
+{"code": "set_title('Daily Temperatures in New York')  # Set plot title", "compilation_passed": true, "time": 0.0723261833190918, "tests_passed": false, "error": "IndexError"}

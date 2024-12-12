@@ -1,0 +1,8 @@
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.13866496086120605, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or df.empty:", "compilation_passed": true, "time": 0.13871383666992188, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 0.14418625831604004, "tests_passed": true, "error": null}
+{"code": " isinstance(df, pd.DataFrame) and not df.empty:", "compilation_passed": true, "time": 0.008620023727416992, "tests_passed": false, "error": "AttributeError"}
+{"code": " isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.008794069290161133, "tests_passed": false, "error": "AttributeError"}
+{"code": " type(df) != pd.DataFrame:", "compilation_passed": true, "time": 0.14886093139648438, "tests_passed": true, "error": null}
+{"code": " isinstance(df, pd.DataFrame) and len(df) > 0:", "compilation_passed": true, "time": 0.009516239166259766, "tests_passed": false, "error": "AttributeError"}
+{"code": " type(df) is not pd.DataFrame or len(df) == 0:", "compilation_passed": true, "time": 0.15840888023376465, "tests_passed": true, "error": null}

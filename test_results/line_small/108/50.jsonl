@@ -1,0 +1,15 @@
+{"code": " df['value'].fillna(0)", "compilation_passed": true, "time": 0.2807309627532959, "tests_passed": true, "error": null}
+{"code": " df['value'].apply(lambda x: x if isinstance(x, float) else 0)", "compilation_passed": true, "time": 0.08083486557006836, "tests_passed": true, "error": null}
+{"code": " df['value'].astype(float)", "compilation_passed": true, "time": 0.28856396675109863, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df['value'])", "compilation_passed": true, "time": 0.3060741424560547, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df['value'], errors='coerce')", "compilation_passed": true, "time": 0.28049397468566895, "tests_passed": true, "error": null}
+{"code": " df['value'].apply(pd.to_numeric)", "compilation_passed": true, "time": 0.27884387969970703, "tests_passed": true, "error": null}
+{"code": " df['value'].fillna(df['value'].mean())", "compilation_passed": true, "time": 0.2839179039001465, "tests_passed": true, "error": null}
+{"code": " df['value'].astype(np.float64)", "compilation_passed": true, "time": 0.010232686996459961, "tests_passed": false, "error": "NameError"}
+{"code": " df['value'].ffill()", "compilation_passed": true, "time": 0.28970909118652344, "tests_passed": true, "error": null}
+{"code": " df['value'].astype('float64')", "compilation_passed": true, "time": 0.29143595695495605, "tests_passed": true, "error": null}
+{"code": " df['value'].fillna(method='pad')", "compilation_passed": true, "time": 0.3091859817504883, "tests_passed": true, "error": null}
+{"code": " df['value'].fillna(df['value'].shift(1))", "compilation_passed": true, "time": 0.33116817474365234, "tests_passed": true, "error": null}
+{"code": " df['value'].astype('int')", "compilation_passed": true, "time": 0.28983211517333984, "tests_passed": true, "error": null}
+{"code": " df.value.astype(float)", "compilation_passed": true, "time": 0.29472804069519043, "tests_passed": true, "error": null}
+{"code": " df['value'].round(2)", "compilation_passed": true, "time": 0.3184700012207031, "tests_passed": true, "error": null}

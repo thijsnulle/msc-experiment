@@ -1,0 +1,13 @@
+{"code": " df.set_index('Month')", "compilation_passed": true, "time": 0.14311003684997559, "tests_passed": true, "error": null}
+{"code": " df.sort_values(by='Month', ascending=True)", "compilation_passed": true, "time": 0.1488189697265625, "tests_passed": true, "error": null}
+{"code": " df.pivot_table(index='Month', values='Value')", "compilation_passed": true, "time": 0.178602933883667, "tests_passed": true, "error": null}
+{"code": " df.sort_values(['Month'])", "compilation_passed": true, "time": 0.16150903701782227, "tests_passed": true, "error": null}
+{"code": " df.sort_values(by='Month', ignore_index=True)", "compilation_passed": true, "time": 0.16555118560791016, "tests_passed": true, "error": null}
+{"code": " df.sort_values('Month')", "compilation_passed": true, "time": 0.15319013595581055, "tests_passed": true, "error": null}
+{"code": " df.sort_values(by='Month', kind='mergesort')", "compilation_passed": true, "time": 0.15968894958496094, "tests_passed": true, "error": null}
+{"code": " df.sort_values(by=['Month'])", "compilation_passed": true, "time": 0.1597888469696045, "tests_passed": true, "error": null}
+{"code": " df.groupby(by='Month').sum()", "compilation_passed": true, "time": 0.1478259563446045, "tests_passed": true, "error": null}
+{"code": " df.groupby('Month').sum()", "compilation_passed": true, "time": 0.15787577629089355, "tests_passed": true, "error": null}
+{"code": " df.set_index('Month').sort_index()", "compilation_passed": true, "time": 0.17408299446105957, "tests_passed": true, "error": null}
+{"code": " df.sort_values('Month', ascending=True)", "compilation_passed": true, "time": 0.1779170036315918, "tests_passed": true, "error": null}
+{"code": " df.sort_index()", "compilation_passed": true, "time": 0.17514705657958984, "tests_passed": true, "error": null}

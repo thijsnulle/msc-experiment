@@ -1,0 +1,11 @@
+{"code": " {", "compilation_passed": true, "time": 0.003981113433837891, "tests_passed": true, "error": null}
+{"code": " df[key].describe().to_dict()", "compilation_passed": false, "time": 0.00023603439331054688, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[key].describe().iloc[0, 1:]", "compilation_passed": false, "time": 0.00029397010803222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " {}", "compilation_passed": false, "time": 0.00021505355834960938, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[key].describe()", "compilation_passed": false, "time": 0.00026702880859375, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[key].describe(percentiles=[0, 0.25, 0.5, 0.75, 0.9, 0.99, 1]).iloc[[0, 1, 2, 3, 4, 5, 6]].to_dict()", "compilation_passed": false, "time": 0.0002770423889160156, "tests_passed": false, "error": "IndentationError"}
+{"code": " {'mean': df[key].mean(),", "compilation_passed": true, "time": 0.0038700103759765625, "tests_passed": true, "error": null}
+{"code": " df.groupby(key).mean().to_dict()['mean']", "compilation_passed": false, "time": 0.0002999305725097656, "tests_passed": false, "error": "IndentationError"}
+{"code": " dict(", "compilation_passed": false, "time": 0.0002510547637939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[key].describe(include=np.number)  # Include numbers for statistics", "compilation_passed": false, "time": 0.0003681182861328125, "tests_passed": false, "error": "IndentationError"}
+{"code": " {'mean': df[key].mean(), 'sum': df[key].sum(), 'max': df[key].max(), 'min': df[key].min(),", "compilation_passed": true, "time": 0.005115985870361328, "tests_passed": true, "error": null}

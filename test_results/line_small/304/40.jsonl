@@ -1,0 +1,8 @@
+{"code": " PCA(n_components=2)", "compilation_passed": true, "time": 0.140031099319458, "tests_passed": false, "error": "ValueError"}
+{"code": " PCA(n_components=2, svd_solver='full').fit(df['Value'])", "compilation_passed": true, "time": 0.019688129425048828, "tests_passed": false, "error": "KeyError"}
+{"code": " PCA()", "compilation_passed": true, "time": 0.1650097370147705, "tests_passed": true, "error": null}
+{"code": " PCA(n_components=3)", "compilation_passed": true, "time": 0.011174201965332031, "tests_passed": false, "error": "ValueError"}
+{"code": " PCA().fit(df.drop('Date', axis=1))", "compilation_passed": true, "time": 0.17468905448913574, "tests_passed": true, "error": null}
+{"code": " PCA(n_components=2).fit(df[['Value']])", "compilation_passed": true, "time": 0.010135889053344727, "tests_passed": false, "error": "KeyError"}
+{"code": " PCA(n_components=df.shape[1]-2)", "compilation_passed": true, "time": 0.14577794075012207, "tests_passed": false, "error": "ValueError"}
+{"code": " PCA(n_components=df.columns.size)", "compilation_passed": true, "time": 0.012146949768066406, "tests_passed": false, "error": "ValueError"}

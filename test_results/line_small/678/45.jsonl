@@ -1,0 +1,5 @@
+{"code": " os.path.isfile(os.path.join(path, filename)):", "compilation_passed": true, "time": 0.013466835021972656, "tests_passed": true, "error": null}
+{"code": " filename.endswith('.json'):", "compilation_passed": true, "time": 0.008134126663208008, "tests_passed": false, "error": "shutil.Error"}
+{"code": " not filename.endswith('.json'):", "compilation_passed": true, "time": 0.007969141006469727, "tests_passed": false, "error": "IsADirectoryError"}
+{"code": " filename.endswith(\".json\"):", "compilation_passed": true, "time": 0.008955955505371094, "tests_passed": false, "error": "shutil.Error"}
+{"code": " not filename.endswith(\".json\"):", "compilation_passed": true, "time": 0.011739015579223633, "tests_passed": false, "error": "IsADirectoryError"}

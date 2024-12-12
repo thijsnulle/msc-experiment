@@ -1,0 +1,19 @@
+{"code": " list(itertools.chain(*[", "compilation_passed": false, "time": 0.00011110305786132812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(", "compilation_passed": false, "time": 9.918212890625e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(itertools.chain.from_iterable(fnmatch.filter(os.listdir(src_dir), pattern) for pattern in FILE_PATTERNS))", "compilation_passed": false, "time": 0.00016188621520996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " fnmatch.filter(os.listdir(src_dir), FILE_PATTERNS)", "compilation_passed": false, "time": 0.00010824203491210938, "tests_passed": false, "error": "IndentationError"}
+{"code": " []", "compilation_passed": false, "time": 0.00013208389282226562, "tests_passed": false, "error": "IndentationError"}
+{"code": " list(itertools.chain.from_iterable(", "compilation_passed": true, "time": 0.02612924575805664, "tests_passed": true, "error": null}
+{"code": " [fn for pat in FILE_PATTERNS for fn in os.listdir(src_dir)", "compilation_passed": false, "time": 0.00015091896057128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " itertools.chain.from_iterable(", "compilation_passed": false, "time": 7.200241088867188e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [", "compilation_passed": false, "time": 6.67572021484375e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " fnmatch.filter(os.listdir(src_dir), *FILE_PATTERNS)", "compilation_passed": false, "time": 0.00012493133544921875, "tests_passed": false, "error": "IndentationError"}
+{"code": " (f", "compilation_passed": false, "time": 0.00010085105895996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [os.path.join(src_dir, file_name)", "compilation_passed": false, "time": 0.00011396408081054688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [f for f in os.listdir(src_dir) if any(fnmatch.fnmatch(f, pattern) for pattern in FILE_PATTERNS)]", "compilation_passed": false, "time": 0.00012087821960449219, "tests_passed": false, "error": "IndentationError"}
+{"code": " fnmatch.filter(", "compilation_passed": false, "time": 9.202957153320312e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [f for f in fnmatch.filter(os.listdir(src_dir), FILE_PATTERNS)]", "compilation_passed": false, "time": 0.00012683868408203125, "tests_passed": false, "error": "IndentationError"}
+{"code": " list(fnmatch.filter(os.listdir(src_dir), '*'))", "compilation_passed": false, "time": 0.00011014938354492188, "tests_passed": false, "error": "IndentationError"}
+{"code": " [os.path.join(src_dir, filename) for filename in os.listdir(src_dir) if any(fnmatch.fnmatch(filename, pattern) for pattern in FILE_PATTERNS)]", "compilation_passed": false, "time": 0.00013518333435058594, "tests_passed": false, "error": "IndentationError"}
+{"code": " fnmatch.filter(os.listdir(src_dir), itertools.chain(*FILE_PATTERNS))", "compilation_passed": false, "time": 0.00010967254638671875, "tests_passed": false, "error": "IndentationError"}
+{"code": " [src_dir + '/' + f for f in os.listdir(src_dir) if fnmatch.fnmatch(f, FILE_PATTERNS)]", "compilation_passed": false, "time": 0.00011801719665527344, "tests_passed": false, "error": "IndentationError"}

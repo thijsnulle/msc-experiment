@@ -1,0 +1,15 @@
+{"code": " b64encode(fernet_key)", "compilation_passed": true, "time": 0.2843499183654785, "tests_passed": true, "error": null}
+{"code": " b64encode(fernet_key).decode('utf-8')", "compilation_passed": true, "time": 0.021142005920410156, "tests_passed": false, "error": "TypeError"}
+{"code": " fernet_key.__bytes__()", "compilation_passed": true, "time": 0.0532379150390625, "tests_passed": false, "error": "AttributeError"}
+{"code": " b64encode(fernet.key).decode('utf-8') + '.encrypted'", "compilation_passed": true, "time": 0.13680100440979004, "tests_passed": false, "error": "AttributeError"}
+{"code": " file_path + '.encrypted'", "compilation_passed": true, "time": 0.037636756896972656, "tests_passed": false, "error": "TypeError"}
+{"code": " encrypted_file + '.fernet_key'", "compilation_passed": true, "time": 0.02964305877685547, "tests_passed": false, "error": "TypeError"}
+{"code": " file_path + '.fernet.encrypted'", "compilation_passed": true, "time": 0.034372806549072266, "tests_passed": false, "error": "TypeError"}
+{"code": " file_path + '.encrypted_fernet'", "compilation_passed": true, "time": 0.04012012481689453, "tests_passed": false, "error": "TypeError"}
+{"code": " file_path + '_' + 'fernet_key' + '.encrypted'", "compilation_passed": true, "time": 0.07474517822265625, "tests_passed": false, "error": "TypeError"}
+{"code": " file_path + '.fernet_key.encrypted'", "compilation_passed": true, "time": 0.043881893157958984, "tests_passed": false, "error": "TypeError"}
+{"code": " b64encode(fernet_key).decode()", "compilation_passed": true, "time": 0.039129018783569336, "tests_passed": false, "error": "TypeError"}
+{"code": " file_path + '_key.encrypted'", "compilation_passed": true, "time": 0.12571072578430176, "tests_passed": false, "error": "TypeError"}
+{"code": " str(b64encode(fernet_key), 'utf-8')", "compilation_passed": true, "time": 0.047331809997558594, "tests_passed": false, "error": "TypeError"}
+{"code": " file_path + '_fernet.encrypted'", "compilation_passed": true, "time": 0.03113389015197754, "tests_passed": false, "error": "TypeError"}
+{"code": " file_path + '.key'", "compilation_passed": true, "time": 0.029735088348388672, "tests_passed": false, "error": "TypeError"}

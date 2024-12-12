@@ -1,0 +1,6 @@
+{"code": " []", "compilation_passed": true, "time": 0.004469871520996094, "tests_passed": true, "error": null}
+{"code": " [STEMMER.stem(word) for word in content]", "compilation_passed": true, "time": 0.0027129650115966797, "tests_passed": true, "error": null}
+{"code": " [STEMMER.stem(word.lower()) for word in content]", "compilation_passed": true, "time": 0.001703023910522461, "tests_passed": true, "error": null}
+{"code": " [STEMMER.stem(word.lower()) for word in content if re.match(r\"[a-z']{1,}\", word)]", "compilation_passed": true, "time": 0.001905202865600586, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', content).lower().split(' ')", "compilation_passed": true, "time": 0.010252952575683594, "tests_passed": false, "error": "TypeError"}
+{"code": " [STEMMER.stem(w) for w in content]", "compilation_passed": true, "time": 0.0019147396087646484, "tests_passed": true, "error": null}

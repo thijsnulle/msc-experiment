@@ -1,0 +1,4 @@
+{"code": " np.array(df['value'])", "compilation_passed": true, "time": 0.00897526741027832, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(df['value']).reshape(-1,1)", "compilation_passed": true, "time": 0.005849123001098633, "tests_passed": true, "error": null}
+{"code": " df['value']", "compilation_passed": true, "time": 0.0072078704833984375, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(df['value'])  # Explicitly converting to numpy array", "compilation_passed": true, "time": 0.0069370269775390625, "tests_passed": false, "error": "TypeError"}

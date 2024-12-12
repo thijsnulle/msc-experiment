@@ -1,0 +1,6 @@
+{"code": " parse(time_string)", "compilation_passed": true, "time": 0.004209995269775391, "tests_passed": true, "error": null}
+{"code": " parse(time_string, parse_func=dateutil.parser.parse)", "compilation_passed": true, "time": 0.0048182010650634766, "tests_passed": false, "error": "NameError"}
+{"code": " parse(time_string).replace(tzinfo=from_zone)", "compilation_passed": true, "time": 0.007816791534423828, "tests_passed": false, "error": "ValueError"}
+{"code": " parse(time_string, dayfirst=True)", "compilation_passed": true, "time": 0.0018961429595947266, "tests_passed": true, "error": null}
+{"code": " parse(time_string, parsefunc=datetime.datetime.strptime)", "compilation_passed": true, "time": 0.0049648284912109375, "tests_passed": false, "error": "NameError"}
+{"code": " parse(time_string, frmt=TIME_FORMAT)", "compilation_passed": true, "time": 0.00832509994506836, "tests_passed": false, "error": "TypeError"}

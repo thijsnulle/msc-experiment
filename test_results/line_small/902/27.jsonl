@@ -1,0 +1,14 @@
+{"code": ", grp in df.groupby(list(df.keys())):", "compilation_passed": true, "time": 0.0060689449310302734, "tests_passed": true, "error": null}
+{"code": " in \"xyz\":", "compilation_passed": true, "time": 0.004192829132080078, "tests_passed": true, "error": null}
+{"code": " in ['x', 'y', 'z']:", "compilation_passed": true, "time": 0.00417780876159668, "tests_passed": true, "error": null}
+{"code": " in df.columns:", "compilation_passed": true, "time": 0.00587010383605957, "tests_passed": true, "error": null}
+{"code": ", group in df.groupby(by=['x', 'y', 'z']):", "compilation_passed": true, "time": 0.005562782287597656, "tests_passed": true, "error": null}
+{"code": ", value in ['x', 'y', 'z']:", "compilation_passed": true, "time": 0.007637977600097656, "tests_passed": false, "error": "ValueError"}
+{"code": ", column in df.groupby(\"x\"):", "compilation_passed": true, "time": 0.0047760009765625, "tests_passed": true, "error": null}
+{"code": ", grp in df.groupby(by=\"x,y,z\"):", "compilation_passed": true, "time": 0.009613990783691406, "tests_passed": false, "error": "KeyError"}
+{"code": ", col in df.columns.to_dict().items():", "compilation_passed": true, "time": 0.006677865982055664, "tests_passed": false, "error": "AttributeError"}
+{"code": " in ('x', 'y', 'z'):", "compilation_passed": true, "time": 0.0038781166076660156, "tests_passed": true, "error": null}
+{"code": ", values in df.groupby(by=[\"x\", \"y\", \"z\"]).size().items():", "compilation_passed": true, "time": 0.00521397590637207, "tests_passed": true, "error": null}
+{"code": ", val in df.columns.values:", "compilation_passed": true, "time": 0.006498098373413086, "tests_passed": false, "error": "ValueError"}
+{"code": ", group in df.groupby(by=key, sort=False):", "compilation_passed": true, "time": 0.008935928344726562, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " in [\"x\", \"y\", \"z\"]:", "compilation_passed": true, "time": 0.0040471553802490234, "tests_passed": true, "error": null}
