@@ -1,0 +1,17 @@
+{"code": " collections.Counter(itertools.chain.from_iterable([[k] * random.randint(1, max_count) for k in ANIMALS]))", "compilation_passed": true, "time": 0.004953861236572266, "tests_passed": true, "error": null}
+{"code": " collections.Counter({animal: random.randint(1, max_count) for animal in ANIMALS})", "compilation_passed": true, "time": 0.005147218704223633, "tests_passed": true, "error": null}
+{"code": " collections.Counter(random.choice(ANIMALS) for _ in range(sum(animal_dict.values()) * max_count))", "compilation_passed": true, "time": 0.006730794906616211, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.Counter(animal for animal in ANIMALS)", "compilation_passed": true, "time": 0.0076749324798583984, "tests_passed": true, "error": null}
+{"code": " collections.Counter(dict(zip(ANIMALS, random.randint(1, max_count) for _ in ANIMALS)))", "compilation_passed": false, "time": 0.0003180503845214844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.005171298980712891, "tests_passed": true, "error": null}
+{"code": " collections.Counter(animal=random.randint(1, max_count) for animal in ANIMALS)", "compilation_passed": false, "time": 0.00036597251892089844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " collections.Counter(itertools.chain.from_iterable(reversed_dict.items()))", "compilation_passed": true, "time": 0.007245779037475586, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.Counter({a: random.randint(1, max_count) for a in ANIMALS})", "compilation_passed": true, "time": 0.0018317699432373047, "tests_passed": true, "error": null}
+{"code": " collections.Counter(itertools.chain.from_iterable([[k]*random.randint(1, max_count) for k in ANIMALS]))", "compilation_passed": true, "time": 0.0019712448120117188, "tests_passed": true, "error": null}
+{"code": " collections.Counter(animal=random.randint(1, max_count) for animal in itertools.islice(itertools.cycle(ANIMALS), len(ANIMALS)))", "compilation_passed": false, "time": 0.00027489662170410156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " collections.Counter(", "compilation_passed": false, "time": 0.00040984153747558594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " collections.Counter(dict(itertools.zip_longest(ANIMALS, [random.randint(1, max_count) for i in ANIMALS])))", "compilation_passed": true, "time": 0.0021889209747314453, "tests_passed": true, "error": null}
+{"code": " collections.Counter(random.choice(ANIMALS) for _ in itertools.repeat(None, max_count))", "compilation_passed": true, "time": 0.0063397884368896484, "tests_passed": true, "error": null}
+{"code": " collections.Counter(random.choice(ANIMALS) for i in range(random.randint(1, max_count)))", "compilation_passed": true, "time": 0.0044019222259521484, "tests_passed": true, "error": null}
+{"code": " collections.Counter(random.choice(ANIMALS) for _ in range(max_count))", "compilation_passed": true, "time": 0.00433802604675293, "tests_passed": true, "error": null}
+{"code": " collections.Counter(itertools.chain.from_iterable(reversed_dict.values()))", "compilation_passed": true, "time": 0.004108905792236328, "tests_passed": true, "error": null}

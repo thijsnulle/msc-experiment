@@ -1,0 +1,5 @@
+{"code": " features is not None and len(features) != array.shape[1]:", "compilation_passed": true, "time": 0.4995460510253906, "tests_passed": true, "error": null}
+{"code": " features is not None:", "compilation_passed": true, "time": 0.010867834091186523, "tests_passed": false, "error": "ValueError"}
+{"code": " features and len(features) != array.shape[1]:", "compilation_passed": true, "time": 0.42407703399658203, "tests_passed": true, "error": null}
+{"code": " features is None:", "compilation_passed": true, "time": 0.12775802612304688, "tests_passed": false, "error": "ValueError"}
+{"code": " features and len(array.T) != len(features):", "compilation_passed": true, "time": 0.4375269412994385, "tests_passed": true, "error": null}

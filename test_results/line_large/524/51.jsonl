@@ -1,0 +1,10 @@
+{"code": "set_title(f\"Statistics of {key}\")", "compilation_passed": true, "time": 0.45680904388427734, "tests_passed": true, "error": null}
+{"code": "set(title=\"Statistics of \" + key, ylabel=\"Value\")", "compilation_passed": true, "time": 0.4792821407318115, "tests_passed": true, "error": null}
+{"code": "set_title(\"Statistics of {}\".format(key), y=1.01, ha='center')", "compilation_passed": true, "time": 0.4841611385345459, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Statistics of {key}\", fontdict={'center': True})", "compilation_passed": true, "time": 0.0476679801940918, "tests_passed": false, "error": "AttributeError"}
+{"code": "set(title=f\"Statistics of {key}\", xlabel=\"Statistic\", ylabel=\"Value\")", "compilation_passed": true, "time": 0.4864490032196045, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Statistics of {key}\", wrap=True)", "compilation_passed": true, "time": 0.5060470104217529, "tests_passed": true, "error": null}
+{"code": "set_title(\"Statistics of {}\".format(key), fontsize=10)", "compilation_passed": true, "time": 0.5908441543579102, "tests_passed": true, "error": null}
+{"code": "set_title(\"Statistics of {}\".format(key))", "compilation_passed": true, "time": 0.6065220832824707, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Statistics of {key}\", fontsize=10)", "compilation_passed": true, "time": 0.6224377155303955, "tests_passed": true, "error": null}
+{"code": "set(title=f\"Statistics of {key}\", ylabel=\"Value\")", "compilation_passed": true, "time": 0.6286709308624268, "tests_passed": true, "error": null}

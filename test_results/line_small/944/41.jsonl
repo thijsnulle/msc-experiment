@@ -1,0 +1,14 @@
+{"code": "title.set_text('Stock Prices')", "compilation_passed": true, "time": 1.258072853088379, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Date\")", "compilation_passed": true, "time": 0.09542179107666016, "tests_passed": true, "error": null}
+{"code": "set_title('Stock Prices')", "compilation_passed": true, "time": 0.22818708419799805, "tests_passed": true, "error": null}
+{"code": "set(title='Stock Prices', xlabel='Date', ylabel='Price')", "compilation_passed": true, "time": 0.22997593879699707, "tests_passed": true, "error": null}
+{"code": "xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))", "compilation_passed": true, "time": 0.04865622520446777, "tests_passed": false, "error": "NameError"}
+{"code": "set_ylabel('Stock Price')", "compilation_passed": true, "time": 0.09451913833618164, "tests_passed": true, "error": null}
+{"code": "set(title='Stock Prices')", "compilation_passed": true, "time": 0.24359607696533203, "tests_passed": true, "error": null}
+{"code": "xaxis.set_major_formatter(", "compilation_passed": false, "time": 0.00037598609924316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "axvline('2017-07-01', c='r')", "compilation_passed": true, "time": 0.10087800025939941, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Date')", "compilation_passed": true, "time": 0.1042020320892334, "tests_passed": true, "error": null}
+{"code": "axvline(prices_df['Date'].iloc[0], color='k', linestyle='--')", "compilation_passed": true, "time": 0.05799293518066406, "tests_passed": false, "error": "KeyError"}
+{"code": "set(title=\"Stock Prices\")", "compilation_passed": true, "time": 0.2434079647064209, "tests_passed": true, "error": null}
+{"code": "axvline(date_range[-1], color='gray', linestyle='--')", "compilation_passed": true, "time": 0.10598492622375488, "tests_passed": true, "error": null}
+{"code": "xaxis.set_major_formatter(plt.matplotlib.dates.AutoDateFormatter(ax.xaxis))", "compilation_passed": true, "time": 0.10208415985107422, "tests_passed": true, "error": null}

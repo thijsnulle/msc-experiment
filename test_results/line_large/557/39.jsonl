@@ -1,0 +1,13 @@
+{"code": " np.mean(scores) if scores else np.nan", "compilation_passed": true, "time": 0.09476590156555176, "tests_passed": true, "error": null}
+{"code": " np.nanmean(scores) if scores else np.nan", "compilation_passed": true, "time": 0.0567171573638916, "tests_passed": true, "error": null}
+{"code": " np.mean(scores) if scores else 0.0", "compilation_passed": true, "time": 0.06073307991027832, "tests_passed": true, "error": null}
+{"code": " np.nan if not scores else np.average(scores)  # Return nan if scores is empty", "compilation_passed": true, "time": 0.06502485275268555, "tests_passed": true, "error": null}
+{"code": " sum(scores) / len(scores) if scores else 0", "compilation_passed": true, "time": 0.0776529312133789, "tests_passed": true, "error": null}
+{"code": " np.nan if len(scores) == 0 else np.mean(scores)", "compilation_passed": true, "time": 0.12093186378479004, "tests_passed": true, "error": null}
+{"code": " np.nan if not scores else np.mean(scores)", "compilation_passed": true, "time": 0.06979513168334961, "tests_passed": true, "error": null}
+{"code": " np.nan if not scores else np.mean(scores)  # return NaN if no scores", "compilation_passed": true, "time": 0.07409310340881348, "tests_passed": true, "error": null}
+{"code": " np.nanmean(scores) if len(scores) > 0 else np.nan", "compilation_passed": true, "time": 0.07716202735900879, "tests_passed": true, "error": null}
+{"code": " np.mean(scores) if scores else np.nan  # Handle case for a single element", "compilation_passed": true, "time": 0.10429716110229492, "tests_passed": true, "error": null}
+{"code": " np.mean(scores) if scores else np.nan  # Return NaN if the list contains a single element", "compilation_passed": true, "time": 0.09761214256286621, "tests_passed": true, "error": null}
+{"code": " np.nan if not scores else np.mean(scores)  # If the list contains a single element, return np.nan", "compilation_passed": true, "time": 0.13996005058288574, "tests_passed": true, "error": null}
+{"code": " np.nan if scores == [] else np.mean(scores)", "compilation_passed": true, "time": 0.1494913101196289, "tests_passed": true, "error": null}

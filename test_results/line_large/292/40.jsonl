@@ -1,0 +1,10 @@
+{"code": " df_grouped.reset_index(drop=True), hist", "compilation_passed": true, "time": 0.09288287162780762, "tests_passed": false, "error": "ValueError"}
+{"code": " df_grouped, (hist, bins)", "compilation_passed": true, "time": 0.19373583793640137, "tests_passed": true, "error": null}
+{"code": " df_grouped, hist, bins", "compilation_passed": true, "time": 0.07709598541259766, "tests_passed": false, "error": "ValueError"}
+{"code": " df_grouped, hist", "compilation_passed": true, "time": 0.0810248851776123, "tests_passed": false, "error": "ValueError"}
+{"code": " df_scaled, hist", "compilation_passed": true, "time": 0.08204078674316406, "tests_passed": false, "error": "NameError"}
+{"code": " df_grouped.reset_index(drop=True), list(zip(bins.tolist(), hist.tolist()))", "compilation_passed": true, "time": 0.08783221244812012, "tests_passed": false, "error": "TypeError"}
+{"code": " (df_grouped.reset_index(drop=True), hist)", "compilation_passed": true, "time": 0.08794713020324707, "tests_passed": false, "error": "ValueError"}
+{"code": " df_grouped.reset_index().drop(['level_1'], axis=1), hist", "compilation_passed": true, "time": 0.08220791816711426, "tests_passed": false, "error": "ValueError"}
+{"code": " df_scaled, income_hist", "compilation_passed": true, "time": 0.0785527229309082, "tests_passed": false, "error": "NameError"}
+{"code": " df_grouped.reset_index(drop=True), (hist, bins)", "compilation_passed": true, "time": 0.21351885795593262, "tests_passed": true, "error": null}

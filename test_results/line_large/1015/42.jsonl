@@ -1,0 +1,17 @@
+{"code": " open(webpage_url[7:], \"r\") as file:", "compilation_passed": true, "time": 0.018330812454223633, "tests_passed": true, "error": null}
+{"code": " open(webpage_url[7:], \"r\", encoding=\"utf-8\") as file:", "compilation_passed": true, "time": 0.016760826110839844, "tests_passed": true, "error": null}
+{"code": " open(webpage_url[7:], 'r') as f:", "compilation_passed": true, "time": 0.016247034072875977, "tests_passed": false, "error": "NameError"}
+{"code": " open(webpage_url[7:], \"r\") as f:", "compilation_passed": true, "time": 0.018764019012451172, "tests_passed": false, "error": "NameError"}
+{"code": " open(webpage_url[7:], \"rb\") as file:", "compilation_passed": true, "time": 0.018629789352416992, "tests_passed": true, "error": null}
+{"code": " open(webpage_url.replace(\"file://\", \"\"), \"r\") as file:", "compilation_passed": true, "time": 0.01733708381652832, "tests_passed": true, "error": null}
+{"code": " open(webpage_url.replace(\"file://\", \"\")) as f:", "compilation_passed": true, "time": 0.0178680419921875, "tests_passed": false, "error": "NameError"}
+{"code": " open(webpage_url[7:], 'r') as file:", "compilation_passed": true, "time": 0.025383949279785156, "tests_passed": true, "error": null}
+{"code": " open(webpage_url.split(\"file://\")[1], \"rb\") as f:", "compilation_passed": true, "time": 0.01703500747680664, "tests_passed": false, "error": "NameError"}
+{"code": " open(webpage_url[7:], encoding=\"UTF-8\") as file:", "compilation_passed": true, "time": 0.01750493049621582, "tests_passed": true, "error": null}
+{"code": " open(webpage_url.replace(\"file://\", \"\"), 'r') as f:", "compilation_passed": true, "time": 0.015449047088623047, "tests_passed": false, "error": "NameError"}
+{"code": " open(webpage_url[7:], \"r\", encoding=\"utf-8\") as f:", "compilation_passed": true, "time": 0.014886856079101562, "tests_passed": false, "error": "NameError"}
+{"code": " open(webpage_url.split(\"file://\")[1]) as fp:", "compilation_passed": true, "time": 0.015290021896362305, "tests_passed": false, "error": "NameError"}
+{"code": " open(webpage_url.replace(\"file://\", \"\"), \"rb\") as f:", "compilation_passed": true, "time": 0.01512002944946289, "tests_passed": false, "error": "NameError"}
+{"code": " open(webpage_url.replace(\"file://\", \"\"), \"rb\") as html_file:", "compilation_passed": true, "time": 0.0164949893951416, "tests_passed": false, "error": "NameError"}
+{"code": " open(webpage_url[7:], 'rb') as f:", "compilation_passed": true, "time": 0.01713705062866211, "tests_passed": false, "error": "NameError"}
+{"code": " open(webpage_url[7:], 'rb') as file:", "compilation_passed": true, "time": 0.016197919845581055, "tests_passed": true, "error": null}

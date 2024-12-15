@@ -1,0 +1,7 @@
+{"code": "plot(df.index, df[label], label=label)", "compilation_passed": true, "time": 0.08268284797668457, "tests_passed": true, "error": null}
+{"code": "plot(range(len(data)), df[label], label=label)", "compilation_passed": true, "time": 0.08283185958862305, "tests_passed": true, "error": null}
+{"code": "plot(df[label], label=label)", "compilation_passed": true, "time": 0.08470916748046875, "tests_passed": true, "error": null}
+{"code": "plot(range(len(df)), df[label], label=label)", "compilation_passed": true, "time": 0.14545893669128418, "tests_passed": true, "error": null}
+{"code": "plot(range(df.shape[0]), df[label], label=label)", "compilation_passed": true, "time": 0.14708495140075684, "tests_passed": true, "error": null}
+{"code": "plot(list(df.index), df[label], label=label)", "compilation_passed": true, "time": 0.1457970142364502, "tests_passed": true, "error": null}
+{"code": "plot(df[label])", "compilation_passed": true, "time": 0.15323090553283691, "tests_passed": false, "error": "KeyError"}

@@ -1,0 +1,9 @@
+{"code": " not re.match(EMAIL_REGEX, data['email']):", "compilation_passed": true, "time": 0.006006002426147461, "tests_passed": true, "error": null}
+{"code": " attribute not in INPUT_JSON['properties']:", "compilation_passed": true, "time": 0.005828857421875, "tests_passed": true, "error": null}
+{"code": " 'email' in data and not re.match(EMAIL_REGEX, data['email']):", "compilation_passed": true, "time": 0.004620075225830078, "tests_passed": true, "error": null}
+{"code": " attribute == 'email' and not re.match(EMAIL_REGEX, data[attribute]):", "compilation_passed": true, "time": 0.004541158676147461, "tests_passed": true, "error": null}
+{"code": " attribute == 'email':", "compilation_passed": true, "time": 0.004029989242553711, "tests_passed": true, "error": null}
+{"code": " not re.match(EMAIL_REGEX, data[\"email\"]):", "compilation_passed": true, "time": 0.0039517879486083984, "tests_passed": true, "error": null}
+{"code": " 'email' in data:", "compilation_passed": true, "time": 0.011330127716064453, "tests_passed": false, "error": "ValueError"}
+{"code": " attribute in data:", "compilation_passed": true, "time": 0.011853933334350586, "tests_passed": false, "error": "ValueError"}
+{"code": " attribute not in data or not isinstance(data[attribute], INPUT_JSON['properties'][attribute]['type']):", "compilation_passed": true, "time": 0.00581812858581543, "tests_passed": true, "error": null}

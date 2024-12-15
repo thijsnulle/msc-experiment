@@ -1,0 +1,20 @@
+{"code": " column_data.plot(kind=\"bar\", x=\"Product\", title=f\"Bar Chart of {column}\")", "compilation_passed": true, "time": 0.14395594596862793, "tests_passed": true, "error": null}
+{"code": " column_data.plot(kind=\"bar\")", "compilation_passed": true, "time": 0.03106522560119629, "tests_passed": true, "error": null}
+{"code": " column_data.plot.bar()", "compilation_passed": true, "time": 0.02986598014831543, "tests_passed": true, "error": null}
+{"code": " column_data.plot(", "compilation_passed": false, "time": 0.00031828880310058594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " column_data.plot.bar(", "compilation_passed": false, "time": 0.0002586841583251953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[column].plot(kind=\"bar\", x=\"Product\", title=f\"Bar Chart of {column}\")", "compilation_passed": true, "time": 0.14904308319091797, "tests_passed": true, "error": null}
+{"code": " column_data.plot(kind=\"bar\", title=f\"Bar Chart of {column}\")", "compilation_passed": true, "time": 0.14310812950134277, "tests_passed": true, "error": null}
+{"code": " df[\"Total Sales\"].plot(kind=\"bar\", x=\"Product\", title=\"Bar Chart of \" + column)", "compilation_passed": true, "time": 0.14661407470703125, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x=\"Product\", y=column, title=f\"Bar Chart of {column}\")", "compilation_passed": true, "time": 0.15700101852416992, "tests_passed": true, "error": null}
+{"code": " column_data.plot.bar(title=\"Bar Chart of {}\".format(column), xlabel=column)", "compilation_passed": true, "time": 0.1441817283630371, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"bar\", x=COLUMNS[0], y=column)", "compilation_passed": true, "time": 0.02989792823791504, "tests_passed": true, "error": null}
+{"code": " df[column].plot(kind=\"bar\")", "compilation_passed": true, "time": 0.03126406669616699, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x=COLUMNS[0], y=column)", "compilation_passed": true, "time": 0.029792070388793945, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Product\", y=column, kind=\"bar\")", "compilation_passed": true, "time": 0.030826807022094727, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Product\", y=column, title=f\"Bar Chart of {column}\", color=\"b\", kind=\"bar\", rot=45)", "compilation_passed": true, "time": 0.1507408618927002, "tests_passed": true, "error": null}
+{"code": " column_data.plot.bar(x=\"Product\")", "compilation_passed": true, "time": 0.02994823455810547, "tests_passed": true, "error": null}
+{"code": " column_data.plot(kind=\"bar\", x=column, title=\"Bar Chart of \" + column)", "compilation_passed": true, "time": 0.14145326614379883, "tests_passed": true, "error": null}
+{"code": " (", "compilation_passed": false, "time": 0.0004019737243652344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " column_data.plot(kind=\"bar\", rot=90, figsize=(15, 5))", "compilation_passed": true, "time": 0.02854609489440918, "tests_passed": true, "error": null}
+{"code": " column_data.plot.barh()", "compilation_passed": true, "time": 0.029681921005249023, "tests_passed": true, "error": null}

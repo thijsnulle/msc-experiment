@@ -1,0 +1,5 @@
+{"code": " df[\"Weight_String\"].astype(float)", "compilation_passed": true, "time": 0.03168988227844238, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[\"Weight_String\"])", "compilation_passed": true, "time": 0.03181910514831543, "tests_passed": true, "error": null}
+{"code": " [float(w) for w in df[\"Weight_String\"]]", "compilation_passed": true, "time": 0.05083799362182617, "tests_passed": true, "error": null}
+{"code": " [float(weight) for weight in df[\"Weight_String\"]]", "compilation_passed": true, "time": 0.03795790672302246, "tests_passed": true, "error": null}
+{"code": " df[\"Weight_String\"].apply(lambda x: float(x))", "compilation_passed": true, "time": 0.038703203201293945, "tests_passed": true, "error": null}

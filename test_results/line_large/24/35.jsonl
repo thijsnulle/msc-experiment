@@ -1,0 +1,7 @@
+{"code": " hashlib.pbkdf2_hmac('sha256', password.encode(), salt, 100000)", "compilation_passed": true, "time": 0.7020747661590576, "tests_passed": true, "error": null}
+{"code": " hashlib.pbkdf2_hmac(\"sha256\", password.encode(), salt, 100000)", "compilation_passed": true, "time": 0.9288520812988281, "tests_passed": true, "error": null}
+{"code": " hashlib.pbkdf2_hmac(", "compilation_passed": false, "time": 0.00017905235290527344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 100000)", "compilation_passed": true, "time": 0.6550569534301758, "tests_passed": true, "error": null}
+{"code": " hashlib.pbkdf2_hmac('sha256', password.encode(), salt, 10000)", "compilation_passed": true, "time": 0.08338093757629395, "tests_passed": true, "error": null}
+{"code": " hashlib.pbkdf2_hmac(\"sha256\", password.encode(\"utf-8\"), salt, 100000)", "compilation_passed": true, "time": 0.64072585105896, "tests_passed": true, "error": null}
+{"code": " hashlib.pbkdf2_hmac(hash_name='sha256',", "compilation_passed": false, "time": 0.00016498565673828125, "tests_passed": false, "error": "SyntaxError"}

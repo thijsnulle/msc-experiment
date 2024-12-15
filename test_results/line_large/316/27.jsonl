@@ -1,0 +1,9 @@
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0001888275146484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Category': list(distribution.keys()),", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Category': distribution.keys(), 'Count': distribution.values()})", "compilation_passed": true, "time": 0.002647876739501953, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Category': list(distribution.keys()), 'Count': list(distribution.values())})", "compilation_passed": true, "time": 0.0025360584259033203, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(distribution, index=['Count'])", "compilation_passed": true, "time": 0.006829977035522461, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(distribution.items()), columns=['Category', 'Count'])", "compilation_passed": true, "time": 0.0023322105407714844, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(distribution, orient='index')", "compilation_passed": true, "time": 0.005233049392700195, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Category': distribution.keys(),", "compilation_passed": false, "time": 0.00026297569274902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame.from_dict(distribution, orient='index').reset_index()", "compilation_passed": true, "time": 0.006597042083740234, "tests_passed": true, "error": null}

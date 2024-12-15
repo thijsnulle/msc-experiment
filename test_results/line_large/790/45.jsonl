@@ -1,0 +1,14 @@
+{"code": " []", "compilation_passed": true, "time": 0.04452085494995117, "tests_passed": true, "error": null}
+{"code": " list(df[col1])", "compilation_passed": true, "time": 0.2081737518310547, "tests_passed": true, "error": null}
+{"code": " zip(df[col1], df[col2])", "compilation_passed": true, "time": 0.04742288589477539, "tests_passed": false, "error": "TypeError"}
+{"code": " [(abs(df[col1] - df[col2])[i], i) for i in range(len(df[col1]))]", "compilation_passed": true, "time": 0.049005985260009766, "tests_passed": false, "error": "ValueError"}
+{"code": " [i ** 2 for i in df[col1]]", "compilation_passed": true, "time": 0.21262288093566895, "tests_passed": true, "error": null}
+{"code": " [(i, abs(j-df[col1].iloc[i])) for i, j in enumerate(df[col2])]", "compilation_passed": true, "time": 0.04679679870605469, "tests_passed": false, "error": "ValueError"}
+{"code": " [abs(df.at[i, col1] - df.at[i, col2]) for i in df.index]", "compilation_passed": true, "time": 0.21072697639465332, "tests_passed": true, "error": null}
+{"code": " df[col1]", "compilation_passed": true, "time": 0.20869898796081543, "tests_passed": true, "error": null}
+{"code": " df[col1].to_list()", "compilation_passed": true, "time": 0.20592808723449707, "tests_passed": true, "error": null}
+{"code": " [df[col1].values[i] - df[col2].values[i] for i in range(len(df[col1]))]", "compilation_passed": true, "time": 0.21346187591552734, "tests_passed": true, "error": null}
+{"code": " abs(df[col1])", "compilation_passed": true, "time": 0.2062819004058838, "tests_passed": true, "error": null}
+{"code": " heapq.nsmallest(N, enumerate(abs(df[col1] - df[col2])), key=lambda x: x[1])", "compilation_passed": true, "time": 0.0484318733215332, "tests_passed": false, "error": "ValueError"}
+{"code": " heapq.nlargest(N, range(len(df)), key=lambda i: abs(df[col1][i] - df[col2][i]))", "compilation_passed": true, "time": 0.20888805389404297, "tests_passed": true, "error": null}
+{"code": " [abs(x1 - y1) for x1, y1 in zip(df[col1], df[col2])]", "compilation_passed": true, "time": 0.20648717880249023, "tests_passed": true, "error": null}

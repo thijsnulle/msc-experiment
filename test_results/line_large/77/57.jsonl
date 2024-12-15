@@ -1,0 +1,10 @@
+{"code": " username == 'admin' and hashed_password == base64.b64decode(data['password']):", "compilation_passed": true, "time": 0.006747722625732422, "tests_passed": true, "error": null}
+{"code": " username == 'admin' and hashed_password == password:", "compilation_passed": true, "time": 0.0068111419677734375, "tests_passed": true, "error": null}
+{"code": " username == 'admin' and hashed_password == hashed_password:", "compilation_passed": true, "time": 0.0061511993408203125, "tests_passed": true, "error": null}
+{"code": " username == 'admin' and hashed_password == hashlib.sha256('password'.encode()).digest():", "compilation_passed": true, "time": 0.0024912357330322266, "tests_passed": true, "error": null}
+{"code": " username != 'admin' or hashed_password != hashed_password:", "compilation_passed": true, "time": 0.006066799163818359, "tests_passed": true, "error": null}
+{"code": " username == 'admin' and hashed_password == b'\\xc7\\x85\\xca\\xdf\\x8b\\xdb\\xd0\\xdf\\xf2\\xf2\\x12\\x85\\xa1\\xde\\x88\\xfb\\x83\\x06\\x04\\xa0\\x9d\\x1c\\xd8\\xa8\\x97\\xd5\\xac\\xef\\xe4\\xe4\\x10\\xfd':", "compilation_passed": true, "time": 0.0066356658935546875, "tests_passed": true, "error": null}
+{"code": " username == 'admin' and password == base64.b64encode(hashed_password).decode():", "compilation_passed": true, "time": 0.006760835647583008, "tests_passed": true, "error": null}
+{"code": " username == 'admin' and password == 'password':", "compilation_passed": true, "time": 0.002601146697998047, "tests_passed": true, "error": null}
+{"code": " username == 'admin' and password.encode() == hashed_password:", "compilation_passed": true, "time": 0.006577968597412109, "tests_passed": true, "error": null}
+{"code": " username == 'admin' and hashed_password == data['password']:", "compilation_passed": true, "time": 0.006201982498168945, "tests_passed": true, "error": null}

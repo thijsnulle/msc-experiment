@@ -1,0 +1,14 @@
+{"code": "scatterplot(data=df, x='X', y='Y')", "compilation_passed": true, "time": 0.06507611274719238, "tests_passed": true, "error": null}
+{"code": "scatterplot(x=df['X'], y=df['Y'])", "compilation_passed": true, "time": 0.0637507438659668, "tests_passed": true, "error": null}
+{"code": "scatterplot(data=df, x=\"X\", y=\"Y\")", "compilation_passed": true, "time": 0.061303138732910156, "tests_passed": true, "error": null}
+{"code": "scatterplot(x='X', y='Y', data=df)", "compilation_passed": true, "time": 0.07126808166503906, "tests_passed": true, "error": null}
+{"code": "scatterplot(x=\"X\", y=\"Y\", data=df)", "compilation_passed": true, "time": 0.06246614456176758, "tests_passed": true, "error": null}
+{"code": "scatterplot(x=df.X, y=df.Y)", "compilation_passed": true, "time": 0.06212282180786133, "tests_passed": true, "error": null}
+{"code": "scatterplot(df[\"X\"], df[\"Y\"])", "compilation_passed": true, "time": 0.009655952453613281, "tests_passed": false, "error": "TypeError"}
+{"code": "scatterplot(x=\"X\", y=\"Y\", data=df, s=10)", "compilation_passed": true, "time": 0.06299996376037598, "tests_passed": true, "error": null}
+{"code": "scatterplot(data=df, x='X', y='Y', alpha=0.5)", "compilation_passed": true, "time": 0.059995174407958984, "tests_passed": true, "error": null}
+{"code": "scatterplot(data=df, x=\"X\", y=\"Y\", alpha=1)", "compilation_passed": true, "time": 0.058683156967163086, "tests_passed": true, "error": null}
+{"code": "set_style(\"whitegrid\")", "compilation_passed": true, "time": 0.0045528411865234375, "tests_passed": true, "error": null}
+{"code": "scatterplot(x=df['X'], y=df['Y'], alpha=0.75)", "compilation_passed": true, "time": 0.05717802047729492, "tests_passed": true, "error": null}
+{"code": "set()", "compilation_passed": true, "time": 0.005881786346435547, "tests_passed": true, "error": null}
+{"code": "scatterplot(x=df[\"X\"], y=df[\"Y\"])", "compilation_passed": true, "time": 0.05920720100402832, "tests_passed": true, "error": null}

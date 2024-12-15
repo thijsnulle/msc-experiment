@@ -1,0 +1,7 @@
+{"code": " np.random.rand(SIZE, 2) * RANGE", "compilation_passed": true, "time": 0.21290969848632812, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, RANGE, size=(SIZE, 2))", "compilation_passed": true, "time": 0.1842501163482666, "tests_passed": true, "error": null}
+{"code": " np.array([(np.random.uniform(0, RANGE), np.random.uniform(0, RANGE))", "compilation_passed": false, "time": 0.0001900196075439453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.randint(-RANGE, RANGE, size=(SIZE, 2))", "compilation_passed": true, "time": 0.11784720420837402, "tests_passed": true, "error": null}
+{"code": " np.array([(np.random.randint(0, RANGE), np.random.randint(0, RANGE)) for i in range(SIZE)])", "compilation_passed": true, "time": 0.22031497955322266, "tests_passed": true, "error": null}
+{"code": " np.array([(np.random.randint(0, RANGE), np.random.randint(0, RANGE)) for _ in range(SIZE)])", "compilation_passed": true, "time": 0.205308198928833, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=0, high=RANGE, size=(SIZE, 2))", "compilation_passed": true, "time": 0.1956772804260254, "tests_passed": true, "error": null}

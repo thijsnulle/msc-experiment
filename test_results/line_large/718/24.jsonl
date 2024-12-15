@@ -1,0 +1,18 @@
+{"code": " len(re.findall(r'\\w+', text1))", "compilation_passed": true, "time": 0.013485193252563477, "tests_passed": false, "error": "TypeError"}
+{"code": " [len(re.findall(r'\\b\\w+\\b', sent)) for sent in re.findall(r'[^.?!]+', text1)]", "compilation_passed": true, "time": 0.0015611648559570312, "tests_passed": true, "error": null}
+{"code": " len(re.findall(r'\\b\\w+\\b', text1))", "compilation_passed": true, "time": 0.009620904922485352, "tests_passed": false, "error": "TypeError"}
+{"code": " [len(re.findall(r'\\b\\w+\\b', text1))]", "compilation_passed": true, "time": 0.0017390251159667969, "tests_passed": true, "error": null}
+{"code": " np.array(len(re.findall(r'\\b\\w+\\b', text1)))", "compilation_passed": true, "time": 0.009586334228515625, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(r'\\w+', text1.lower())", "compilation_passed": true, "time": 0.009193897247314453, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " [len(re.findall(r'\\b\\w+\\b', sent)) for sent in text1.split('\\n')]", "compilation_passed": true, "time": 0.0013880729675292969, "tests_passed": true, "error": null}
+{"code": " np.array([len(re.findall(r'\\b\\w+\\b', text1))])", "compilation_passed": true, "time": 0.0013060569763183594, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', text1)", "compilation_passed": true, "time": 0.009367227554321289, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " re.sub(r'[^\\w\\s]', '', text1.lower()).split()", "compilation_passed": true, "time": 0.009009838104248047, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " []", "compilation_passed": true, "time": 0.001500844955444336, "tests_passed": true, "error": null}
+{"code": " len(re.findall('\\w+', text1))", "compilation_passed": true, "time": 0.009163141250610352, "tests_passed": false, "error": "TypeError"}
+{"code": " [len(re.findall(r'\\w+', text1))]", "compilation_passed": true, "time": 0.0014510154724121094, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', text1)", "compilation_passed": true, "time": 0.009743213653564453, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " [len(re.findall('\\w+', sentence)) for sentence in text1.strip().split('.')]", "compilation_passed": true, "time": 0.0015289783477783203, "tests_passed": true, "error": null}
+{"code": " np.array(list(map(len, re.findall(r'\\b\\w+\\b', text1))))", "compilation_passed": true, "time": 0.0019431114196777344, "tests_passed": true, "error": null}
+{"code": " [len(re.findall(r'\\b\\w+\\b', sentence)) for sentence in text1]", "compilation_passed": true, "time": 0.0014760494232177734, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', text1).strip().split()", "compilation_passed": true, "time": 0.009485960006713867, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}

@@ -1,0 +1,14 @@
+{"code": " open(os.path.join(directory, file_name), 'r') as f:", "compilation_passed": true, "time": 0.05804705619812012, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(directory+file_name, 'r') as f:", "compilation_passed": true, "time": 0.054342031478881836, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(directory+file_name) as file_handler:", "compilation_passed": true, "time": 0.05686497688293457, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(os.path.join(directory, file_name)) as f:", "compilation_passed": true, "time": 0.05550384521484375, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(directory + file_name, \"r\") as f:", "compilation_passed": true, "time": 0.05155301094055176, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(f'{directory}/{file_name}', 'r') as f:", "compilation_passed": true, "time": 0.04780006408691406, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(directory + '/' + file_name, 'r') as file:", "compilation_passed": true, "time": 0.21658587455749512, "tests_passed": true, "error": null}
+{"code": " open(directory + \"/\" + file_name, \"r\") as f:", "compilation_passed": true, "time": 0.04656696319580078, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(directory + file_name, 'r') as file:", "compilation_passed": true, "time": 0.17304778099060059, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " open(os.path.join(directory, file_name), 'r') as file:", "compilation_passed": true, "time": 0.24616789817810059, "tests_passed": true, "error": null}
+{"code": " open(directory + file_name, 'r') as f:", "compilation_passed": true, "time": 0.05552411079406738, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(directory + '/' + file_name) as f:", "compilation_passed": true, "time": 0.053495168685913086, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(os.path.join(directory, file_name), \"r\") as f:", "compilation_passed": true, "time": 0.05598902702331543, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(directory+file_name,'r') as f:", "compilation_passed": true, "time": 0.05634498596191406, "tests_passed": false, "error": "UnboundLocalError"}

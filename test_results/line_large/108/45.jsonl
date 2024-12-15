@@ -1,0 +1,15 @@
+{"code": " not isinstance(freq, str) or len(freq) != 1:", "compilation_passed": true, "time": 0.4026520252227783, "tests_passed": true, "error": null}
+{"code": " freq not in ['B', 'D', 'W', 'M', 'Q', 'Y']:", "compilation_passed": true, "time": 0.3739969730377197, "tests_passed": true, "error": null}
+{"code": " not isinstance(freq, str) or freq not in pd.offsets.FreqTuple._prefix_mapping:", "compilation_passed": true, "time": 0.010241985321044922, "tests_passed": false, "error": "AttributeError"}
+{"code": " not pd.api.types.is_datetime64_any_dtype(df['date']):", "compilation_passed": true, "time": 0.42354488372802734, "tests_passed": true, "error": null}
+{"code": " freq not in ['D', 'W', 'M', 'Q']:", "compilation_passed": true, "time": 0.3287491798400879, "tests_passed": true, "error": null}
+{"code": " not isinstance(freq, str):", "compilation_passed": true, "time": 0.3592569828033447, "tests_passed": true, "error": null}
+{"code": " freq not in ['D', 'W', 'M']:", "compilation_passed": true, "time": 0.31910181045532227, "tests_passed": true, "error": null}
+{"code": " freq not in [\"D\", \"W\", \"M\", \"Q\"]:", "compilation_passed": true, "time": 0.36116886138916016, "tests_passed": true, "error": null}
+{"code": " not isinstance(freq, str) or freq not in ['D', 'W', 'M']:", "compilation_passed": true, "time": 0.3903951644897461, "tests_passed": true, "error": null}
+{"code": " freq not in pd.offsets.prefix_mapping:", "compilation_passed": true, "time": 0.010354042053222656, "tests_passed": false, "error": "AttributeError"}
+{"code": " freq not in ['D', 'W', 'M', 'Q', 'Y']:", "compilation_passed": true, "time": 0.26516199111938477, "tests_passed": true, "error": null}
+{"code": " not isinstance(freq, str) or len(freq) < 1:", "compilation_passed": true, "time": 0.2754659652709961, "tests_passed": true, "error": null}
+{"code": " not isinstance(freq, str) or not freq.upper() in ['D', 'W', 'M', 'Q']:", "compilation_passed": true, "time": 0.2824242115020752, "tests_passed": true, "error": null}
+{"code": " freq not in pd.offsets.Frequencies.keys():", "compilation_passed": true, "time": 0.007345914840698242, "tests_passed": false, "error": "AttributeError"}
+{"code": " freq not in {'B', 'D', 'W', 'M', 'Q', 'Y'}:", "compilation_passed": true, "time": 0.29402685165405273, "tests_passed": true, "error": null}

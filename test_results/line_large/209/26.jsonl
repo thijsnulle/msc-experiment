@@ -1,0 +1,5 @@
+{"code": " np.array(data)", "compilation_passed": true, "time": 0.5640766620635986, "tests_passed": true, "error": null}
+{"code": " [i for i in data if i[1] != max_tuple[1]]", "compilation_passed": true, "time": 0.013813018798828125, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([tuple(t) for t in data])", "compilation_passed": true, "time": 0.44869208335876465, "tests_passed": true, "error": null}
+{"code": " np.array([item for item in data])", "compilation_passed": true, "time": 0.537189245223999, "tests_passed": true, "error": null}
+{"code": " np.array([(t[0], t[1]) for t in data])", "compilation_passed": true, "time": 0.6305499076843262, "tests_passed": true, "error": null}

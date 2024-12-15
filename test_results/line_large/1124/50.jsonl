@@ -1,0 +1,5 @@
+{"code": " soup.title.string if soup.title else None", "compilation_passed": true, "time": 0.0046389102935791016, "tests_passed": true, "error": null}
+{"code": " soup.title.string.strip() if soup.title else None", "compilation_passed": true, "time": 0.010786056518554688, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('title')", "compilation_passed": true, "time": 0.003223896026611328, "tests_passed": true, "error": null}
+{"code": " soup.title.string.strip()", "compilation_passed": true, "time": 0.011385679244995117, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.title.string", "compilation_passed": true, "time": 0.011719942092895508, "tests_passed": false, "error": "AttributeError"}

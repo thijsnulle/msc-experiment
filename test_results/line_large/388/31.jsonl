@@ -1,0 +1,5 @@
+{"code": " pd.read_csv(csv_file)", "compilation_passed": true, "time": 0.007170200347900391, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file, index_col=0)", "compilation_passed": true, "time": 0.00968027114868164, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.read_csv(csv_file, delimiter=\";\")", "compilation_passed": true, "time": 0.009865999221801758, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.read_csv(csv_file, dtype=object)", "compilation_passed": true, "time": 0.009665250778198242, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.read_csv(csv_file, encoding='utf-8')", "compilation_passed": true, "time": 0.009974002838134766, "tests_passed": false, "error": "TypeError"}

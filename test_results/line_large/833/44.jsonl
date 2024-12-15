@@ -1,0 +1,15 @@
+{"code": " ((num, freq) for num, freq in counter.items())", "compilation_passed": true, "time": 0.006381034851074219, "tests_passed": true, "error": null}
+{"code": " ((number, freq) for number, freq in sorted(counter.items(), key=lambda x: x[0]))", "compilation_passed": true, "time": 0.006740093231201172, "tests_passed": true, "error": null}
+{"code": " ((number, frequency) for number, frequency in counter.items())", "compilation_passed": true, "time": 0.0059261322021484375, "tests_passed": true, "error": null}
+{"code": " ((key, value) for key, value in counter.items())", "compilation_passed": true, "time": 0.006807088851928711, "tests_passed": true, "error": null}
+{"code": " ((number, count) for number, count in sorted(counter.items(), key=lambda x: x[1]))", "compilation_passed": true, "time": 0.006283998489379883, "tests_passed": true, "error": null}
+{"code": " ((item[0], item[1]) for item in counter.most_common())", "compilation_passed": true, "time": 0.0059740543365478516, "tests_passed": true, "error": null}
+{"code": " (tuple(reversed(item)) for item in counter.most_common())", "compilation_passed": true, "time": 0.004373073577880859, "tests_passed": true, "error": null}
+{"code": " ((k, v) for k, v in counter.items())", "compilation_passed": true, "time": 0.006232023239135742, "tests_passed": true, "error": null}
+{"code": " ((num, frequency) for num, frequency in counter.items())", "compilation_passed": true, "time": 0.006226778030395508, "tests_passed": true, "error": null}
+{"code": " ((num, count) for num, count in counter.items())", "compilation_passed": true, "time": 0.0064733028411865234, "tests_passed": true, "error": null}
+{"code": " ((key, counter[key]) for key in set(random_list))", "compilation_passed": true, "time": 0.006185770034790039, "tests_passed": true, "error": null}
+{"code": " ((number, count) for number, count in counter.items())", "compilation_passed": true, "time": 0.006224155426025391, "tests_passed": true, "error": null}
+{"code": " ((item, count) for item, count in counter.items())", "compilation_passed": true, "time": 0.006368160247802734, "tests_passed": true, "error": null}
+{"code": " ((number, counter[number]) for number in counter)", "compilation_passed": true, "time": 0.006324052810668945, "tests_passed": true, "error": null}
+{"code": " (number for number in counter.most_common())", "compilation_passed": true, "time": 0.006361722946166992, "tests_passed": true, "error": null}

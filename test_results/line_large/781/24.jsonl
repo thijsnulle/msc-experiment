@@ -1,0 +1,5 @@
+{"code": " datetime.fromtimestamp(os.path.getmtime(filepath)).strftime('%Y-%m-%d %H:%M:%S')", "compilation_passed": true, "time": 0.011884927749633789, "tests_passed": false, "error": "TypeError"}
+{"code": " os.path.getmtime(filepath)", "compilation_passed": true, "time": 0.01076507568359375, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(os.path.getmtime(filepath))", "compilation_passed": true, "time": 0.011289834976196289, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.fromtimestamp(os.path.getmtime(filepath)).strftime(\"%Y-%m-%d %H:%M:%S\")", "compilation_passed": true, "time": 0.01154184341430664, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.fromtimestamp(os.path.getmtime(filepath)).strftime(", "compilation_passed": false, "time": 0.000797271728515625, "tests_passed": false, "error": "SyntaxError"}

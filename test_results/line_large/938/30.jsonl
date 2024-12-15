@@ -1,0 +1,17 @@
+{"code": " re.sub(r'[^a-zA-Z0-9]', '', row['text'])", "compilation_passed": true, "time": 0.009578943252563477, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z0-9]+', '', row['text'])", "compilation_passed": true, "time": 0.010146141052246094, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', row['text'])", "compilation_passed": true, "time": 0.015117168426513672, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^A-Za-z0-9]+', '', row['text'])", "compilation_passed": true, "time": 0.009439706802368164, "tests_passed": true, "error": null}
+{"code": " re.sub('[^A-Za-z0-9]', '', row['text']).strip()", "compilation_passed": true, "time": 0.010186910629272461, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', '', row['text'])", "compilation_passed": true, "time": 0.010882139205932617, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', re.sub(r'\\d+', '', re.sub(r'\\W+', '', row['text'])))", "compilation_passed": true, "time": 0.014894962310791016, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^A-Za-z0-9 ]', '', row['text']).replace(\" \", \"\")", "compilation_passed": true, "time": 0.011040925979614258, "tests_passed": true, "error": null}
+{"code": " re.sub('[^0-9a-zA-Z]+', '', row['text'])", "compilation_passed": true, "time": 0.010499000549316406, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', '', row['text'])", "compilation_passed": true, "time": 0.01555013656616211, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^A-Za-z0-9]', '', row['text'])", "compilation_passed": true, "time": 0.009511947631835938, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[\\W_]', '', row['text']).replace(\" \", \"\")", "compilation_passed": true, "time": 0.010216951370239258, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z0-9]+', '', row['text']).strip()", "compilation_passed": true, "time": 0.009596824645996094, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z0-9 ]', '', row['text'])", "compilation_passed": true, "time": 0.013853788375854492, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^A-Za-z0-9]+\", \"\", row['text'])", "compilation_passed": true, "time": 0.010696172714233398, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', '', row['text'].replace(\" \", \"\"))", "compilation_passed": true, "time": 0.009406328201293945, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z0-9]+', '', row['text'].strip())", "compilation_passed": true, "time": 0.010245084762573242, "tests_passed": true, "error": null}

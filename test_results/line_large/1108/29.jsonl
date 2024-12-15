@@ -1,0 +1,21 @@
+{"code": " [list(elem.values()) for elem in result if re.fullmatch(regex, str(list(elem.values())[0]))]", "compilation_passed": true, "time": 0.0033080577850341797, "tests_passed": true, "error": null}
+{"code": " [item['url'] for item in result if re.match(regex, item['url'])]", "compilation_passed": true, "time": 0.014194965362548828, "tests_passed": false, "error": "KeyError"}
+{"code": " []", "compilation_passed": true, "time": 0.002907991409301758, "tests_passed": true, "error": null}
+{"code": " list(map(lambda x: x['url'], result))", "compilation_passed": true, "time": 0.011178016662597656, "tests_passed": false, "error": "KeyError"}
+{"code": " list(map(lambda x: list(x.values())[1], result))", "compilation_passed": true, "time": 0.01424098014831543, "tests_passed": false, "error": "IndexError"}
+{"code": " [k[\"url\"] for k in result if regex.search(k[\"url\"]) is not None]", "compilation_passed": true, "time": 0.014343023300170898, "tests_passed": false, "error": "KeyError"}
+{"code": " [list(dicts.values())[1] for dicts in result if re.match(regex, list(dicts.values())[0])]", "compilation_passed": true, "time": 0.014577865600585938, "tests_passed": false, "error": "TypeError"}
+{"code": " [val for d in result for val in d.values() if re.match(regex, val)]", "compilation_passed": true, "time": 0.013806819915771484, "tests_passed": false, "error": "TypeError"}
+{"code": " list()", "compilation_passed": true, "time": 0.002930879592895508, "tests_passed": true, "error": null}
+{"code": " list(filter(regex.match, [j for i in [i.keys() for i in result] for j in i]))", "compilation_passed": true, "time": 0.007838964462280273, "tests_passed": true, "error": null}
+{"code": " [value for dict in result for value in dict.values()]", "compilation_passed": true, "time": 0.007692813873291016, "tests_passed": true, "error": null}
+{"code": " [val for _dict in result for val in _dict.values() if re.match(regex, str(val))]", "compilation_passed": true, "time": 0.0029687881469726562, "tests_passed": true, "error": null}
+{"code": " Counter(filter(regex.match, [item['url'] for item in result]))", "compilation_passed": true, "time": 0.014292240142822266, "tests_passed": false, "error": "KeyError"}
+{"code": " [element[\"url\"] for element in result]", "compilation_passed": true, "time": 0.014524221420288086, "tests_passed": false, "error": "KeyError"}
+{"code": " [list(d.values()) for d in result]", "compilation_passed": true, "time": 0.01898789405822754, "tests_passed": false, "error": "TypeError"}
+{"code": " [", "compilation_passed": false, "time": 0.000308990478515625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [url for res in result if (url := res.get('url'))]", "compilation_passed": true, "time": 0.0030279159545898438, "tests_passed": true, "error": null}
+{"code": " [dict[i] for dict in result for i in dict if re.match(regex, i)]", "compilation_passed": true, "time": 0.00772404670715332, "tests_passed": true, "error": null}
+{"code": " [y for x in result for y in x.values()]", "compilation_passed": true, "time": 0.007665872573852539, "tests_passed": true, "error": null}
+{"code": " [x.values() for x in result]", "compilation_passed": true, "time": 0.007776021957397461, "tests_passed": true, "error": null}
+{"code": " [v for d in result if \"url\" in d for k, v in d.items() if re.match(regex, v)]", "compilation_passed": true, "time": 0.003112316131591797, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": "plot(df.index, df[label], label=label)", "compilation_passed": true, "time": 0.12813997268676758, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df[label])", "compilation_passed": true, "time": 0.15246176719665527, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(df[label])", "compilation_passed": true, "time": 0.14385676383972168, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(df[label], label=label, linewidth=0.7)", "compilation_passed": true, "time": 0.1321859359741211, "tests_passed": true, "error": null}
+{"code": "plot(df['Time'], df[label], label=label)", "compilation_passed": true, "time": 0.04108786582946777, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(df[label], label=label)", "compilation_passed": true, "time": 0.13245582580566406, "tests_passed": true, "error": null}
+{"code": "plot(df[label].values, label=label)", "compilation_passed": true, "time": 0.13310599327087402, "tests_passed": true, "error": null}
+{"code": "plot(df['Time'], df[label])", "compilation_passed": true, "time": 0.034750938415527344, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(df['Time'],df[label],'ro')", "compilation_passed": true, "time": 0.03406190872192383, "tests_passed": false, "error": "KeyError"}

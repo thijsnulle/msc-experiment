@@ -1,0 +1,4 @@
+{"code": " filtered_df['Word'].str.len()", "compilation_passed": true, "time": 0.028855085372924805, "tests_passed": true, "error": null}
+{"code": " [len(word) for word in filtered_df['Word']]", "compilation_passed": true, "time": 0.012398719787597656, "tests_passed": false, "error": "AttributeError"}
+{"code": " filtered_df['Word'].apply(lambda x: len(x))", "compilation_passed": true, "time": 0.02978372573852539, "tests_passed": true, "error": null}
+{"code": " filtered_df['Word'].apply(len)", "compilation_passed": true, "time": 0.028433799743652344, "tests_passed": true, "error": null}

@@ -1,0 +1,20 @@
+{"code": " np.array([elem[1] for elem in original])", "compilation_passed": true, "time": 0.09138607978820801, "tests_passed": true, "error": null}
+{"code": " np.array(list(zip(*original))[1]) if len(original) > 0 else np.empty((0,))", "compilation_passed": true, "time": 0.09089493751525879, "tests_passed": true, "error": null}
+{"code": " np.array(original) if len(original) != 0 else []  # Convert the list to a numpy array if it is not empty", "compilation_passed": true, "time": 0.033650875091552734, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([x[1] for x in original]) if original else np.empty(0)", "compilation_passed": true, "time": 0.09553289413452148, "tests_passed": true, "error": null}
+{"code": " np.array(original) if original else np.array([])  # Convert the original list into a numpy array", "compilation_passed": true, "time": 0.018039941787719727, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([i[1] for i in original])  # Convert the list to a numpy array", "compilation_passed": true, "time": 0.09108424186706543, "tests_passed": true, "error": null}
+{"code": " np.array(list(map(lambda x: x[1], original))) if original else np.empty(0)", "compilation_passed": true, "time": 0.09080219268798828, "tests_passed": true, "error": null}
+{"code": " np.array(original) if original else np.array([])", "compilation_passed": true, "time": 0.018084049224853516, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(original)", "compilation_passed": true, "time": 0.022563934326171875, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([int(s[1]) for s in original]) if original else np.array([])", "compilation_passed": true, "time": 0.0917198657989502, "tests_passed": true, "error": null}
+{"code": " np.array([val for _, val in original])", "compilation_passed": true, "time": 0.09130072593688965, "tests_passed": true, "error": null}
+{"code": " np.array(list(zip(*original))[1]) if original else np.array([])", "compilation_passed": true, "time": 0.09127402305603027, "tests_passed": true, "error": null}
+{"code": " np.array(original)  # Create a numpy array from the \"original\" list", "compilation_passed": true, "time": 0.017926931381225586, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([i for _, i in original])", "compilation_passed": true, "time": 0.0910329818725586, "tests_passed": true, "error": null}
+{"code": " np.array([el[1] for el in original]) if original else np.array([])", "compilation_passed": true, "time": 0.091033935546875, "tests_passed": true, "error": null}
+{"code": " np.array(original, dtype=int) if len(original) != 0 else np.empty(0)", "compilation_passed": true, "time": 0.017735958099365234, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([value[1] for value in original]) if original else []", "compilation_passed": true, "time": 0.09992098808288574, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array([x[1] for x in original]) if original else np.array([])", "compilation_passed": true, "time": 0.09707498550415039, "tests_passed": true, "error": null}
+{"code": " np.array(original) if len(original) != 0 else np.array([])", "compilation_passed": true, "time": 0.01792621612548828, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(original)  # create a numpy array from the original list", "compilation_passed": true, "time": 0.017976045608520508, "tests_passed": false, "error": "ValueError"}

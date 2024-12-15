@@ -1,0 +1,10 @@
+{"code": " [item for item, count in counts.items() if count == max_count]", "compilation_passed": true, "time": 0.019356250762939453, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted([k[0] for k in counts if counts[k] == max_count])  # Sort the mode items", "compilation_passed": true, "time": 0.002835988998413086, "tests_passed": true, "error": null}
+{"code": " [k[0] for k, v in counts.items() if v == max_count]", "compilation_passed": true, "time": 0.0031862258911132812, "tests_passed": true, "error": null}
+{"code": " sorted(item for item, count in counts.items() if count == max_count)", "compilation_passed": true, "time": 0.011704206466674805, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted([key[0] for key in counts if counts[key] == max_count])", "compilation_passed": true, "time": 0.003597259521484375, "tests_passed": true, "error": null}
+{"code": " [key[0] for key, count in counts.items() if count == max_count]", "compilation_passed": true, "time": 0.0032019615173339844, "tests_passed": true, "error": null}
+{"code": " [value for value, count in counts.items() if count == max_count]", "compilation_passed": true, "time": 0.011200904846191406, "tests_passed": false, "error": "TypeError"}
+{"code": " [k[0] for k in counts if counts[k] == max_count]", "compilation_passed": true, "time": 0.0034999847412109375, "tests_passed": true, "error": null}
+{"code": " [key[0] for key in counts if counts[key] == max_count]", "compilation_passed": true, "time": 0.002557992935180664, "tests_passed": true, "error": null}
+{"code": " sorted([key[0] for key, count in counts.items() if count == max_count])", "compilation_passed": true, "time": 0.002989053726196289, "tests_passed": true, "error": null}

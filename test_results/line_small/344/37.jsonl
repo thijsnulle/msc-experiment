@@ -1,0 +1,6 @@
+{"code": "copytree(src_folder, backup_folder)", "compilation_passed": true, "time": 0.01463770866394043, "tests_passed": true, "error": null}
+{"code": "make_archive(backup_folder, 'zip', src_folder)", "compilation_passed": true, "time": 0.012869119644165039, "tests_passed": true, "error": null}
+{"code": "make_archive(backup_folder, 'gztar', src_folder)", "compilation_passed": true, "time": 0.00863504409790039, "tests_passed": true, "error": null}
+{"code": "make_archive(backup_folder, 'tar', src_folder)", "compilation_passed": true, "time": 0.015048980712890625, "tests_passed": true, "error": null}
+{"code": "move(src_folder, backup_folder)", "compilation_passed": true, "time": 0.006644010543823242, "tests_passed": true, "error": null}
+{"code": "copytree(src_folder, backup_folder, dirs_exist_ok=True)", "compilation_passed": true, "time": 0.036058902740478516, "tests_passed": true, "error": null}

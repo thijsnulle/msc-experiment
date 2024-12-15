@@ -1,0 +1,25 @@
+{"code": " [len(list(group)) for letter, group in groupby(repetitions)]", "compilation_passed": true, "time": 0.015703678131103516, "tests_passed": false, "error": "NameError"}
+{"code": " np.zeros(len(letters))", "compilation_passed": true, "time": 0.032601118087768555, "tests_passed": true, "error": null}
+{"code": " {letter: reps for letter, reps in zip(letters, repetitions)}", "compilation_passed": true, "time": 0.03308892250061035, "tests_passed": false, "error": "TypeError"}
+{"code": " [letter*num for letter, num in zip(letters, repetitions)]", "compilation_passed": true, "time": 0.03275489807128906, "tests_passed": true, "error": null}
+{"code": " np.array(repetitions)", "compilation_passed": true, "time": 0.060755014419555664, "tests_passed": true, "error": null}
+{"code": " [len(x) for x in np.split(np.array(letters * sum(repetitions)), np.cumsum(repetitions)[:-1])]", "compilation_passed": true, "time": 0.03272700309753418, "tests_passed": true, "error": null}
+{"code": " {letter: np.sum(np.array(repetitions)[np.array(letters) == letter]) for letter in letters}", "compilation_passed": true, "time": 0.04020810127258301, "tests_passed": false, "error": "TypeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.03702092170715332, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([letter*repetition for letter, repetition in zip(letters, repetitions)])", "compilation_passed": true, "time": 0.033373355865478516, "tests_passed": true, "error": null}
+{"code": " {letter: count for letter, count in zip(letters, repetitions)}", "compilation_passed": true, "time": 0.0333099365234375, "tests_passed": false, "error": "TypeError"}
+{"code": " [i * letters.count(i) for i in letters for _ in range(repetitions[letters.index(i)])]", "compilation_passed": true, "time": 0.03684592247009277, "tests_passed": false, "error": "ValueError"}
+{"code": " [r * letters.count(l) for l, r in zip(letters, repetitions)]", "compilation_passed": true, "time": 0.061431169509887695, "tests_passed": true, "error": null}
+{"code": " {letter: repetitions[i] for i, letter in enumerate(letters)}", "compilation_passed": true, "time": 0.03365182876586914, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([len(list(filter(lambda letter: letter == char, letters * reps))) for char, reps in zip(letters, repetitions)])", "compilation_passed": true, "time": 0.06213092803955078, "tests_passed": true, "error": null}
+{"code": " np.array([repetitions]).T", "compilation_passed": true, "time": 0.034078121185302734, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([rep * np.ones(int(rep), dtype=int) for rep in repetitions])", "compilation_passed": true, "time": 0.03470587730407715, "tests_passed": false, "error": "ValueError"}
+{"code": " {letter: sum(repetitions[:i+1]) for i, letter in enumerate(letters)}", "compilation_passed": true, "time": 0.03777885437011719, "tests_passed": false, "error": "TypeError"}
+{"code": " [letter*rep for letter, rep in zip(letters, repetitions)]", "compilation_passed": true, "time": 0.03322720527648926, "tests_passed": true, "error": null}
+{"code": " [letter * repetition for letter, repetition in zip(letters, repetitions)]", "compilation_passed": true, "time": 0.034024953842163086, "tests_passed": true, "error": null}
+{"code": " np.array([np.count_nonzero([letter == x for x in letters]) for letter in letters])", "compilation_passed": true, "time": 0.03269004821777344, "tests_passed": true, "error": null}
+{"code": " np.array([np.sum(np.repeat(np.ones(len(letters)), repetitions)) for l in letters])", "compilation_passed": true, "time": 0.03290700912475586, "tests_passed": true, "error": null}
+{"code": " [len(np.arange(reps)) for reps in repetitions]", "compilation_passed": true, "time": 0.06220698356628418, "tests_passed": true, "error": null}
+{"code": " np.array([repetitions[i] for i, letter in enumerate(letters)])", "compilation_passed": true, "time": 0.06106400489807129, "tests_passed": true, "error": null}
+{"code": " {letter: np.ones(repetition) for letter, repetition in zip(letters, repetitions)}", "compilation_passed": true, "time": 0.033641815185546875, "tests_passed": false, "error": "TypeError"}
+{"code": " {letter: repetitions.count(letter) for letter in letters}", "compilation_passed": true, "time": 0.0334470272064209, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,13 @@
+{"code": " sns.boxplot(data=result_df, x='Fruit', y='Sales')", "compilation_passed": true, "time": 0.26081395149230957, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x=\"Fruit\", y=\"Sales\", data=result_df)", "compilation_passed": true, "time": 0.3563230037689209, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x='Fruit', y='Sales', data=result_df)", "compilation_passed": true, "time": 0.3747096061706543, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x='Sales', y='Fruit', data=result_df)", "compilation_passed": true, "time": 1.0472819805145264, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.boxplot(data=result_df, x='Day', y='Sales', hue='Fruit')", "compilation_passed": true, "time": 1.0172936916351318, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.boxplot(x='Day', y='Sales', data=result_df)", "compilation_passed": true, "time": 0.6602010726928711, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x='Sales', y='Fruit', data=result_df, palette=\"rainbow\")", "compilation_passed": true, "time": 0.5133168697357178, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x=\"Sales\", y=\"Fruit\", data=result_df)", "compilation_passed": true, "time": 0.7157649993896484, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x=result_df['Sales'], y=result_df['Fruit'])", "compilation_passed": true, "time": 0.7554209232330322, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(data=result_df, x='Sales', y='Fruit', hue='Day')", "compilation_passed": true, "time": 1.0254690647125244, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.boxplot(data=result_df, x='Sales', y='Fruit')", "compilation_passed": true, "time": 0.9000089168548584, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x=result_df[\"Fruit\"], y=result_df[\"Sales\"], showfliers=False)", "compilation_passed": true, "time": 0.8966357707977295, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(data=result_df, x='Sales', y='Fruit', orient='h')", "compilation_passed": true, "time": 0.938201904296875, "tests_passed": true, "error": null}

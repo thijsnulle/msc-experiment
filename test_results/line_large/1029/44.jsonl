@@ -1,0 +1,17 @@
+{"code": " np.random.choice(list(map(chr, range(97, 123))), (rows, columns))", "compilation_passed": true, "time": 0.018784761428833008, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.randint(97, 97 + 26, size=(rows, columns))", "compilation_passed": true, "time": 0.017378807067871094, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 0.0001499652862548828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.choice(list(", "compilation_passed": false, "time": 0.00015783309936523438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.randint(97, 123, size=(rows, columns))", "compilation_passed": true, "time": 0.01585102081298828, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.choice(", "compilation_passed": false, "time": 0.00016689300537109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.choice(range(97, 123), rows * columns).reshape(", "compilation_passed": false, "time": 0.0001728534698486328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.randint(", "compilation_passed": false, "time": 0.0001709461212158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.choice(range(97, 123), size=(rows, columns))  # random alphabet codes", "compilation_passed": true, "time": 0.022517919540405273, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.choice(list('abcdefghijklmnopqrstuvwxyz'), size=(rows, columns))  # choose random alphabets", "compilation_passed": true, "time": 0.016038894653320312, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.randint(ord('a'), ord('z'), size=(rows, columns))", "compilation_passed": true, "time": 0.021978139877319336, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.randint(0, 26, size=(rows, columns))", "compilation_passed": true, "time": 0.016633033752441406, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.choice(26, (rows, columns)).tolist()  # generate random numbers representing alphabets", "compilation_passed": true, "time": 0.017328262329101562, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.choice(list(string.ascii_lowercase), size=(rows, columns))", "compilation_passed": true, "time": 0.013725996017456055, "tests_passed": false, "error": "NameError"}
+{"code": " np.random.choice([chr(i) for i in range(97, 123)], (rows, columns))", "compilation_passed": true, "time": 0.018028974533081055, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.choice(np.array([chr(i) for i in range(97, 123)], dtype=\"S\"), (rows, columns))", "compilation_passed": true, "time": 0.018078088760375977, "tests_passed": false, "error": "ValueError"}
+{"code": " [\"\".join(np.random.choice([chr(i) for i in range(97, 123)], size=3)) for _ in range(rows)]", "compilation_passed": true, "time": 0.023691892623901367, "tests_passed": true, "error": null}

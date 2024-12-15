@@ -1,0 +1,18 @@
+{"code": " str(col)] = [", "compilation_passed": false, "time": 0.0002658367156982422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{np.random.randint(10): np.random.randint(10) for _ in", "compilation_passed": false, "time": 0.00026798248291015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{key: value for key, value in zip(np.random.choice(range(10), size=np.random.randint(1, 6)), np.random.choice(range(10), size=np.random.randint(1, 6)))} for _ in range(rows)]", "compilation_passed": false, "time": 0.00045108795166015625, "tests_passed": false, "error": "IndentationError"}
+{"code": " str(col)] = [dict(zip(np.random.choice(range(10), size=np.random.randint(1, 6)),", "compilation_passed": true, "time": 0.010468006134033203, "tests_passed": true, "error": null}
+{"code": " str(col)] = [{key: value for key, value in", "compilation_passed": false, "time": 0.00026988983154296875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [dict(zip(np.random.randint(10, size=np.random.randint(1, 6)),", "compilation_passed": true, "time": 0.007980108261108398, "tests_passed": true, "error": null}
+{"code": " str(col)] = [{np.random.choice(range(10)): np.random.choice(range(10)) for _ in", "compilation_passed": false, "time": 0.00023484230041503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{k: v for k, v in zip(np.random.choice(range(10), size=np.random.randint(1, 6)),", "compilation_passed": false, "time": 0.0002589225769042969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{np.random.choice(range(10)): np.random.choice(range(10)) for _ in range(1, 6)}", "compilation_passed": false, "time": 0.0003991127014160156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [dict(np.random.choice(list(range(10)), replace=False, size=np.random.randint(1, 6)))", "compilation_passed": false, "time": 0.0004489421844482422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{k: v for k, v in", "compilation_passed": false, "time": 0.0002491474151611328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{k: v for k, v in zip(np.random.randint(10, size=np.random.randint(1, 6)),", "compilation_passed": false, "time": 0.0003657341003417969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{i: data_type(j) for i, j in zip(np.random.choice(range(10), size=np.random.randint(1, 6)), range(10))} for _ in", "compilation_passed": false, "time": 0.00027179718017578125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{i: j for i, j in", "compilation_passed": false, "time": 0.00022411346435546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{i: data_type(np.random.randint(10)) for i in range(np.random.randint(1, 6))} for _ in", "compilation_passed": false, "time": 0.00023674964904785156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{i: np.random.choice(range(10)) for i in range(np.random.randint(1, 6))} for _ in", "compilation_passed": false, "time": 0.00023102760314941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{i: i for i in np.random.choice(range(10), size=np.random.randint(1, 6))} for _ in", "compilation_passed": false, "time": 0.00025081634521484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " str(col)] = [{i: data_type(j) for i, j in zip(", "compilation_passed": false, "time": 0.000247955322265625, "tests_passed": false, "error": "SyntaxError"}

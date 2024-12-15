@@ -1,0 +1,4 @@
+{"code": " str(datetime.now())", "compilation_passed": true, "time": 0.014636039733886719, "tests_passed": true, "error": null}
+{"code": " datetime.now().strftime(\"%Y-%m-%d %H:%M:%S\")", "compilation_passed": true, "time": 0.015557289123535156, "tests_passed": false, "error": "ValueError"}
+{"code": " datetime.now().strftime('%Y-%m-%d %H:%M:%S')", "compilation_passed": true, "time": 0.015233039855957031, "tests_passed": false, "error": "ValueError"}
+{"code": " str(datetime.now().strftime(\"%Y-%m-%d %H:%M:%S\"))", "compilation_passed": true, "time": 0.012210845947265625, "tests_passed": false, "error": "ValueError"}

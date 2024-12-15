@@ -1,0 +1,15 @@
+{"code": " point1 is not None and point2 is not None:", "compilation_passed": true, "time": 0.0015430450439453125, "tests_passed": true, "error": null}
+{"code": " point1 is None or point2 is None:", "compilation_passed": true, "time": 0.01122426986694336, "tests_passed": false, "error": "TypeError"}
+{"code": " point2 is None:", "compilation_passed": true, "time": 0.009367942810058594, "tests_passed": false, "error": "TypeError"}
+{"code": " point1 and point2:", "compilation_passed": true, "time": 0.00173187255859375, "tests_passed": true, "error": null}
+{"code": " isinstance(point1, tuple) and isinstance(point2, tuple):", "compilation_passed": true, "time": 0.0016629695892333984, "tests_passed": true, "error": null}
+{"code": " point1 is not None:", "compilation_passed": true, "time": 0.006190776824951172, "tests_passed": false, "error": "TypeError"}
+{"code": " not all(isinstance(coord, int | float) for coord in point1) or not all(isinstance(coord, int | float) for coord in point2):", "compilation_passed": true, "time": 0.008521080017089844, "tests_passed": false, "error": "TypeError"}
+{"code": " len(point1) == 1 and len(point2) == 1:", "compilation_passed": true, "time": 0.0038139820098876953, "tests_passed": true, "error": null}
+{"code": " point1 == point2:", "compilation_passed": true, "time": 0.0038957595825195312, "tests_passed": true, "error": null}
+{"code": " not point1 or not point2:", "compilation_passed": true, "time": 0.0060579776763916016, "tests_passed": false, "error": "TypeError"}
+{"code": " len(point2) == 1:", "compilation_passed": true, "time": 0.006369113922119141, "tests_passed": false, "error": "TypeError"}
+{"code": " point2:", "compilation_passed": true, "time": 0.0014867782592773438, "tests_passed": true, "error": null}
+{"code": " not isinstance(point1, tuple) or not isinstance(point1[0], (int, float)) or not isinstance(point1[1], (int, float)):", "compilation_passed": true, "time": 0.0038118362426757812, "tests_passed": true, "error": null}
+{"code": " point1 is None:", "compilation_passed": true, "time": 0.003715991973876953, "tests_passed": true, "error": null}
+{"code": " len(point1) != len(point2) or len(point1) == 1:", "compilation_passed": true, "time": 0.0061511993408203125, "tests_passed": false, "error": "TypeError"}

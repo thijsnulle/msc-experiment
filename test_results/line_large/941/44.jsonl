@@ -1,0 +1,18 @@
+{"code": " np.random.randint(100, 500, size=periods)", "compilation_passed": true, "time": 0.17383909225463867, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.randint(100, 500, periods), index=date_range)", "compilation_passed": true, "time": 0.15738821029663086, "tests_passed": true, "error": null}
+{"code": " np.random.randint(100, 500, periods)", "compilation_passed": true, "time": 0.17023396492004395, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Date': date_range,", "compilation_passed": false, "time": 0.00018596649169921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.randint(low=100, high=500, size=periods)", "compilation_passed": true, "time": 0.16764283180236816, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=0, high=500, size=periods)", "compilation_passed": true, "time": 0.15041112899780273, "tests_passed": true, "error": null}
+{"code": " np.random.randint(100, 1000, periods)", "compilation_passed": true, "time": 0.1403801441192627, "tests_passed": true, "error": null}
+{"code": " [np.random.randint(100, 500) for i in range(periods)]", "compilation_passed": true, "time": 0.14815807342529297, "tests_passed": true, "error": null}
+{"code": " [np.random.randint(0, 1000) for _ in range(periods)]", "compilation_passed": true, "time": 0.14831185340881348, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Date': date_range, 'Sales': np.random.randint(100, 500, size=periods)})", "compilation_passed": true, "time": 0.01941704750061035, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.randint(0, 500, periods)", "compilation_passed": true, "time": 0.15808892250061035, "tests_passed": true, "error": null}
+{"code": " np.random.randint(100, size=periods)", "compilation_passed": true, "time": 0.1422898769378662, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.randint(200, 500, periods), index=date_range)", "compilation_passed": true, "time": 0.1414647102355957, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Date': date_range})", "compilation_passed": true, "time": 0.0077168941497802734, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.randint(200, 500, periods)", "compilation_passed": true, "time": 0.14705181121826172, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=100, high=1000, size=periods)", "compilation_passed": true, "time": 0.14487600326538086, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.randint(0, 500, size=periods), index=date_range, name='Sales')", "compilation_passed": true, "time": 0.14050889015197754, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Date': date_range, 'Sales': np.random.randint(100, 500, periods=len(date_range))})", "compilation_passed": true, "time": 0.008400201797485352, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,25 @@
+{"code": " df[df.apply(lambda row: tuple(row) not in tuples, axis=1)]", "compilation_passed": true, "time": 0.02611994743347168, "tests_passed": false, "error": "TypeError"}
+{"code": " df.loc[:, df.columns.isin(COLUMNS)].drop(tuples)", "compilation_passed": true, "time": 0.09981489181518555, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df.columns].apply(lambda x: x.astype(str))", "compilation_passed": true, "time": 0.5694568157196045, "tests_passed": true, "error": null}
+{"code": " df[~df.apply(tuple, 1).isin(tuples)]", "compilation_passed": true, "time": 0.31810975074768066, "tests_passed": true, "error": null}
+{"code": " df[(df.T.apply(lambda x: tuple(x.values)) != tuple(t for t in tuples)).all()]", "compilation_passed": true, "time": 0.02455615997314453, "tests_passed": false, "error": "KeyError"}
+{"code": " df[(df[COLUMNS] != list(tuples)).all(1)]", "compilation_passed": true, "time": 0.015987873077392578, "tests_passed": false, "error": "ValueError"}
+{"code": " df.loc[:, df.columns.isin(COLUMNS)]", "compilation_passed": true, "time": 0.30222606658935547, "tests_passed": true, "error": null}
+{"code": " df[(df[c] != tup).any(axis=1) for c, tup in zip(COLUMNS, zip(*tuples))]", "compilation_passed": false, "time": 0.00025916099548339844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.loc[:, COLUMNS]", "compilation_passed": true, "time": 0.27752017974853516, "tests_passed": true, "error": null}
+{"code": " df[~df[COLUMNS].apply(tuple, axis=1).isin(tuples)]", "compilation_passed": true, "time": 0.34880495071411133, "tests_passed": true, "error": null}
+{"code": " df[df.apply(lambda row: tuple(row[col] for col in COLUMNS) not in tuples, axis=1)]", "compilation_passed": true, "time": 0.015578985214233398, "tests_passed": false, "error": "TypeError"}
+{"code": " df.loc[~df[COLUMNS].apply(tuple,axis=1).isin(tuples)]", "compilation_passed": true, "time": 0.3164381980895996, "tests_passed": true, "error": null}
+{"code": " df.loc[~df.isin(tuples).all(axis=1)]", "compilation_passed": true, "time": 0.317655086517334, "tests_passed": true, "error": null}
+{"code": " df[df[COLUMNS] != tuples].dropna()", "compilation_passed": true, "time": 0.010654926300048828, "tests_passed": false, "error": "ValueError"}
+{"code": " df[~df[COLUMNS].isin(tuples).all(axis=1)].reset_index(drop=True)", "compilation_passed": true, "time": 0.2837529182434082, "tests_passed": true, "error": null}
+{"code": " df[(df.Tuple != (10, 20, 30, 40, 50)) & (df.Tuple != (60, 70, 80, 90, 100))]", "compilation_passed": true, "time": 0.009950876235961914, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[(df[COLUMNS] != tuples).all(axis=1)]", "compilation_passed": true, "time": 0.010458707809448242, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df.apply(lambda r: tuple(r.values) not in tuples, axis=1)]", "compilation_passed": true, "time": 0.01175689697265625, "tests_passed": false, "error": "TypeError"}
+{"code": " df[df.apply(lambda row: tuple(row.values) not in tuples, axis=1)]", "compilation_passed": true, "time": 0.010294914245605469, "tests_passed": false, "error": "TypeError"}
+{"code": " df[df.apply(lambda x: tuple(x) not in tuples, axis=1)]", "compilation_passed": true, "time": 0.010525941848754883, "tests_passed": false, "error": "TypeError"}
+{"code": " df.loc[~df.apply(tuple, axis=1).isin(tuples)]", "compilation_passed": true, "time": 0.28394508361816406, "tests_passed": true, "error": null}
+{"code": " df.drop(df[(df.A.isin([t[0] for t in tuples])) & (df.B.isin([t[1] for t in tuples])) & (df.C.isin([t[2] for t in tuples])) &", "compilation_passed": false, "time": 0.00038814544677734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[(~df[df.columns.to_list()].isin(tuples).any(axis=1))].astype(float)", "compilation_passed": true, "time": 0.2843470573425293, "tests_passed": true, "error": null}
+{"code": " df[df[COLUMNS] != list(tuples)[0]]", "compilation_passed": true, "time": 0.010122060775756836, "tests_passed": false, "error": "IndexError"}
+{"code": " df[df[COLUMNS] != tuples]", "compilation_passed": true, "time": 0.01154780387878418, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,11 @@
+{"code": " np.array(kwargs['group1'])", "compilation_passed": true, "time": 0.24321579933166504, "tests_passed": true, "error": null}
+{"code": " kwargs['group1']", "compilation_passed": true, "time": 0.014135122299194336, "tests_passed": false, "error": "TypeError"}
+{"code": " np.asarray(kwargs['group1'])  # Convert group1 data to a numpy array", "compilation_passed": true, "time": 0.26318931579589844, "tests_passed": true, "error": null}
+{"code": " kwargs[\"group1\"]", "compilation_passed": true, "time": 0.012083053588867188, "tests_passed": false, "error": "TypeError"}
+{"code": " np.asarray(kwargs['group1'])  # Convert group1 data to numpy array", "compilation_passed": true, "time": 0.23042082786560059, "tests_passed": true, "error": null}
+{"code": " np.array(kwargs[\"group1\"])", "compilation_passed": true, "time": 0.2562990188598633, "tests_passed": true, "error": null}
+{"code": " kwargs.get('group1', [])", "compilation_passed": true, "time": 0.005808115005493164, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(kwargs.get('group1', []))", "compilation_passed": true, "time": 0.1991438865661621, "tests_passed": true, "error": null}
+{"code": " kwargs['group1']  # Get group 1 data", "compilation_passed": true, "time": 0.006623983383178711, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(kwargs[\"group1\"])  # Get the first group from kwargs", "compilation_passed": true, "time": 0.2340080738067627, "tests_passed": true, "error": null}
+{"code": " kwargs['group1']  # Extract group 1 data from the kwargs dictionary", "compilation_passed": true, "time": 0.006913185119628906, "tests_passed": false, "error": "TypeError"}

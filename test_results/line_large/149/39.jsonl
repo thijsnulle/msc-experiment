@@ -1,0 +1,10 @@
+{"code": " count_df[['Index', 'Element', 'Count']]", "compilation_passed": true, "time": 0.0070858001708984375, "tests_passed": true, "error": null}
+{"code": " count_df.sort_values('Index')", "compilation_passed": true, "time": 0.018227100372314453, "tests_passed": true, "error": null}
+{"code": " count_df[[\"Index\", \"Element\", \"Count\"]]", "compilation_passed": true, "time": 0.006171226501464844, "tests_passed": true, "error": null}
+{"code": " count_df.reindex(columns=['Index', 'Element', 'Count'])", "compilation_passed": true, "time": 0.006041765213012695, "tests_passed": true, "error": null}
+{"code": " count_df[['Index', *DEFAULT_COLUMNS]]", "compilation_passed": true, "time": 0.006175041198730469, "tests_passed": true, "error": null}
+{"code": " count_df[['Index'] + DEFAULT_COLUMNS]", "compilation_passed": true, "time": 0.006003856658935547, "tests_passed": true, "error": null}
+{"code": " count_df.reindex(columns=DEFAULT_COLUMNS)", "compilation_passed": true, "time": 0.009846210479736328, "tests_passed": true, "error": null}
+{"code": " count_df.sort_values(by='Index')", "compilation_passed": true, "time": 0.017225980758666992, "tests_passed": true, "error": null}
+{"code": " count_df[[\"Index\", *DEFAULT_COLUMNS]]", "compilation_passed": true, "time": 0.006027698516845703, "tests_passed": true, "error": null}
+{"code": " count_df.reindex(columns=DEFAULT_COLUMNS + ['Index'])", "compilation_passed": true, "time": 0.01713395118713379, "tests_passed": true, "error": null}

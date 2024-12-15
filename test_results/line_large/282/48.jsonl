@@ -1,0 +1,14 @@
+{"code": "plot(hist, color=col)", "compilation_passed": true, "time": 0.041860103607177734, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(range(256), hist.ravel(), color=col, lw=2)", "compilation_passed": true, "time": 0.10894489288330078, "tests_passed": true, "error": null}
+{"code": "plot(hist, color=col, label=col)", "compilation_passed": true, "time": 0.050466060638427734, "tests_passed": false, "error": "TypeError"}
+{"code": "bar(np.arange(256), hist[:, 0], color=col, alpha=0.4)", "compilation_passed": true, "time": 1.0255341529846191, "tests_passed": false, "error": "TimeoutError"}
+{"code": "plot(np.arange(len(hist[0])), hist[0], color=col, alpha=0.4)", "compilation_passed": true, "time": 0.07750678062438965, "tests_passed": true, "error": null}
+{"code": "plot(np.arange(256), hist.ravel(), color=col, lw=2)", "compilation_passed": true, "time": 0.07786917686462402, "tests_passed": true, "error": null}
+{"code": "plot(hist, c=col)", "compilation_passed": true, "time": 0.04282402992248535, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(range(256), hist.ravel(), color=col)", "compilation_passed": true, "time": 0.08004307746887207, "tests_passed": true, "error": null}
+{"code": "plot(np.arange(len(hist)), hist, color=col)", "compilation_passed": true, "time": 0.07982802391052246, "tests_passed": true, "error": null}
+{"code": "plot(hist, color=col, alpha=0.5)", "compilation_passed": true, "time": 0.07190394401550293, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(np.arange(0, 256), hist.ravel(), color=col)", "compilation_passed": true, "time": 0.08200812339782715, "tests_passed": true, "error": null}
+{"code": "plot(range(256), hist.ravel(), color=col, lw=3, label=col)", "compilation_passed": true, "time": 0.075408935546875, "tests_passed": true, "error": null}
+{"code": "plot(range(256), hist, color=col)", "compilation_passed": true, "time": 0.11842107772827148, "tests_passed": true, "error": null}
+{"code": "plot(np.arange(0, 256), hist.flatten(), color=col)", "compilation_passed": true, "time": 0.07912707328796387, "tests_passed": true, "error": null}

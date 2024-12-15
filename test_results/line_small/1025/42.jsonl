@@ -1,3 +1,4 @@
 {"code": " pd.DataFrame(scaled_data, columns=df.columns)", "compilation_passed": true, "time": 0.26045894622802734, "tests_passed": true, "error": null}
 {"code": " pd.DataFrame(scaled_data)", "compilation_passed": true, "time": 0.2791259288787842, "tests_passed": true, "error": null}
 {"code": " pd.DataFrame(scaled_data, index=df.index, columns=df.columns)", "compilation_passed": true, "time": 0.2767651081085205, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(scaled_data, columns=df.columns, index=df.index)", "compilation_passed": true, "time": 0.0020599365234375, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}

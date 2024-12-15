@@ -1,0 +1,9 @@
+{"code": " zip_ref.namelist()", "compilation_passed": true, "time": 0.029560089111328125, "tests_passed": true, "error": null}
+{"code": " [os.path.join(destination_directory, file) for file in os.listdir(destination_directory)]", "compilation_passed": true, "time": 0.030761003494262695, "tests_passed": true, "error": null}
+{"code": " os.listdir(destination_directory)", "compilation_passed": true, "time": 0.03021407127380371, "tests_passed": true, "error": null}
+{"code": " [os.path.join(destination_directory, filename) for filename in zip_ref.namelist()]", "compilation_passed": true, "time": 0.02927088737487793, "tests_passed": true, "error": null}
+{"code": " list(zip_ref.namelist())", "compilation_passed": true, "time": 0.02936387062072754, "tests_passed": true, "error": null}
+{"code": " [os.path.join(destination_directory, f) for f in os.listdir(destination_directory)]", "compilation_passed": true, "time": 0.0309908390045166, "tests_passed": true, "error": null}
+{"code": " [f for f in os.listdir(destination_directory) if os.path.isfile(os.path.join(destination_directory, f))]", "compilation_passed": true, "time": 0.030724048614501953, "tests_passed": true, "error": null}
+{"code": " [os.path.join(destination_directory, f) for f in zip_ref.namelist()]", "compilation_passed": true, "time": 0.030991792678833008, "tests_passed": true, "error": null}
+{"code": " [f for f in os.listdir(", "compilation_passed": false, "time": 0.000263214111328125, "tests_passed": false, "error": "SyntaxError"}

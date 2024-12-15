@@ -1,0 +1,29 @@
+{"code": " re.findall(r'([^[\\]]+)', text) # extract all names that are not enclosed by square brackets", "compilation_passed": true, "time": 0.011627912521362305, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.008650064468383789, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(?<=\\[).+?(?=\\])', text)", "compilation_passed": true, "time": 0.009840965270996094, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[^\\[]+?(?=\\])', text)", "compilation_passed": true, "time": 0.008755922317504883, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b([A-Z][a-z]* [A-Z][a-z]*(?: [A-Z][a-z]*)?)\\b(?![^\\[]*\\])', text)", "compilation_passed": true, "time": 0.013450145721435547, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?<!\\[)([^[\\]]+)(?!\\])\", text)", "compilation_passed": true, "time": 0.008647918701171875, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b[A-Za-z]+ [A-Za-z]+\\b(?! \\[)', text)", "compilation_passed": true, "time": 0.01087188720703125, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\w+(?: \\w+)*) \\[|(\\w+(?: \\w+)*)$', text)", "compilation_passed": true, "time": 0.015570878982543945, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r\"([^[\\]]+)\", text)", "compilation_passed": true, "time": 0.010025978088378906, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\s(\\w+(?:\\s\\w+)*)(?=\\s\\[)', text)", "compilation_passed": true, "time": 0.010128021240234375, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+(?=\\s\\[)', text)", "compilation_passed": true, "time": 0.008495092391967773, "tests_passed": true, "error": null}
+{"code": " re.findall(r'((?!\\[)\\w+\\s\\w+)(?!\\])', text)", "compilation_passed": true, "time": 0.011033773422241211, "tests_passed": true, "error": null}
+{"code": " re.findall(r'([^\\[\\]]+)\\s+\\[([^,\\[\\]]+[^\\[\\]])|[^,\\[\\]]+[^,\\[\\]]', text)", "compilation_passed": true, "time": 0.014239072799682617, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r'(?<!\\[)([a-zA-Z ]+)(?!\\])', text)", "compilation_passed": true, "time": 0.008345842361450195, "tests_passed": true, "error": null}
+{"code": " re.findall(r'([^\\[\\]]+)', text)", "compilation_passed": true, "time": 0.008199930191040039, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\b([A-Z][a-z]+ [A-Z][a-z]+)\\b(?![^[]*])\", text)", "compilation_passed": true, "time": 0.009435892105102539, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\[.*?\\]|(?!\\[)[A-Z][a-z]* (?!\\[)[A-Z][a-z]*(?: [A-Z][a-z]*)*\", text)", "compilation_passed": true, "time": 0.008314132690429688, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\S+ \\S+(?: \\S+)?)(?=\\s*(?:\\[|$)', text)", "compilation_passed": true, "time": 0.0161130428314209, "tests_passed": false, "error": "re.error"}
+{"code": " re.findall(r\"(?<=\\A(?:^|])(.*?)(?:$|[[]))\", text, re.DOTALL)", "compilation_passed": true, "time": 0.010953903198242188, "tests_passed": false, "error": "re.error"}
+{"code": " re.findall(r'(?<!\\[)([^\\[\\]]+)(?!\\])', text)", "compilation_passed": true, "time": 0.009287834167480469, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(?!\\[)[A-Z][a-z]+ [A-Z][a-z]+', text)", "compilation_passed": true, "time": 0.00806570053100586, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"([^\\[\\]]+)\", text)", "compilation_passed": true, "time": 0.009319067001342773, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b[A-Z][A-Za-z]+ [A-Za-z]{1,3}\\b(?!\\s*\\])', text)", "compilation_passed": true, "time": 0.010223865509033203, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(?<!\\[)(\\w+\\s+\\w+|\\w+)', text)", "compilation_passed": true, "time": 0.009132146835327148, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(?<=\\A\")(?:(?!\").)+|(?<=\\s)(?:(?!\\s).)+(?=\")', text) # Find all names not enclosed by square brackets", "compilation_passed": true, "time": 0.010807037353515625, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\[([^]]+)\\]', text)", "compilation_passed": true, "time": 0.010479927062988281, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b([A-Za-z]+)\\s([A-Za-z]+)', text) # Extract all names from text", "compilation_passed": true, "time": 0.01769280433654785, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r'(?<!\\[)([^\\[\\]]+)(?!\\])', text) # find all the words that are not enclosed by square brackets", "compilation_passed": true, "time": 0.011399984359741211, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(?<!\\[)[A-Z][a-z]+(?:\\s[A-Z][a-z]+)*', text)", "compilation_passed": true, "time": 0.013751029968261719, "tests_passed": true, "error": null}

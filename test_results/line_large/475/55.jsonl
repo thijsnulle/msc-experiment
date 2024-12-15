@@ -1,0 +1,5 @@
+{"code": " pd.to_datetime(data['dates'], format=date_format)", "compilation_passed": true, "time": 0.045934200286865234, "tests_passed": true, "error": null}
+{"code": " data['dates'].apply(lambda x: datetime.strptime(x, date_format))", "compilation_passed": true, "time": 0.039098262786865234, "tests_passed": true, "error": null}
+{"code": " data['dates'].apply(", "compilation_passed": false, "time": 0.0002818107604980469, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.to_datetime(data['dates'], format=date_format).dt.strftime('%d/%m/%Y')", "compilation_passed": true, "time": 1.0332400798797607, "tests_passed": false, "error": "       '2000-07-06T00"}
+{"code": " data['dates'].apply(lambda x: datetime.strptime(x, date_format).date())", "compilation_passed": true, "time": 0.008312225341796875, "tests_passed": false, "error": "       datetime.date(2000, 7, 6)], dtype=object)"}

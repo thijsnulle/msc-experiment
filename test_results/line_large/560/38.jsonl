@@ -1,0 +1,11 @@
+{"code": " df.set_index('Month')", "compilation_passed": true, "time": 0.16436004638671875, "tests_passed": true, "error": null}
+{"code": " df.sort_values('Value', ascending=False)", "compilation_passed": true, "time": 0.181121826171875, "tests_passed": true, "error": null}
+{"code": " df.groupby('Month').sum()", "compilation_passed": true, "time": 0.17800498008728027, "tests_passed": true, "error": null}
+{"code": " df.sort_values('Month')", "compilation_passed": true, "time": 0.17967534065246582, "tests_passed": true, "error": null}
+{"code": " df.groupby('Month', as_index=False)['Value'].sum()", "compilation_passed": true, "time": 0.1896228790283203, "tests_passed": true, "error": null}
+{"code": " df.groupby('Month')['Value'].sum().reset_index()", "compilation_passed": true, "time": 0.1924443244934082, "tests_passed": true, "error": null}
+{"code": " df.groupby('Month').sum().reset_index()", "compilation_passed": true, "time": 0.19185423851013184, "tests_passed": true, "error": null}
+{"code": " df.sort_values('Month', key=lambda x: pd.to_datetime(x, format='%B'), ascending=True)", "compilation_passed": true, "time": 0.19031023979187012, "tests_passed": true, "error": null}
+{"code": " df.groupby('Month')['Value'].sum()", "compilation_passed": true, "time": 0.07294416427612305, "tests_passed": false, "error": "KeyError"}
+{"code": " df.reindex(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], axis=0)", "compilation_passed": true, "time": 0.0781240463256836, "tests_passed": true, "error": null}
+{"code": " df.sort_values(by='Month')", "compilation_passed": true, "time": 0.19420194625854492, "tests_passed": true, "error": null}

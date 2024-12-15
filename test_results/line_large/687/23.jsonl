@@ -1,0 +1,11 @@
+{"code": " np.concatenate(list_of_lists)", "compilation_passed": true, "time": 0.004222869873046875, "tests_passed": true, "error": null}
+{"code": " list(np.concatenate(list_of_lists))", "compilation_passed": true, "time": 0.004275083541870117, "tests_passed": true, "error": null}
+{"code": " np.array([element for sublist in list_of_lists for element in sublist])", "compilation_passed": true, "time": 0.00440216064453125, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.011607885360717773, "tests_passed": true, "error": null}
+{"code": " np.array([x for list_ in list_of_lists for x in list_])", "compilation_passed": true, "time": 0.0042781829833984375, "tests_passed": true, "error": null}
+{"code": " [item for sublist in list_of_lists for item in sublist]", "compilation_passed": true, "time": 0.004241228103637695, "tests_passed": true, "error": null}
+{"code": " np.array(list_of_lists).flatten()", "compilation_passed": true, "time": 0.004297971725463867, "tests_passed": true, "error": null}
+{"code": " np.array([num for lst in list_of_lists for num in lst])", "compilation_passed": true, "time": 0.004177093505859375, "tests_passed": true, "error": null}
+{"code": " np.concatenate(list_of_lists)  # flatten list of lists into single list", "compilation_passed": true, "time": 0.004294157028198242, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*list_of_lists))", "compilation_passed": true, "time": 0.017217159271240234, "tests_passed": false, "error": "NameError"}
+{"code": " np.array([])", "compilation_passed": true, "time": 0.011477947235107422, "tests_passed": true, "error": null}

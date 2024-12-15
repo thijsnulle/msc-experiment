@@ -1,0 +1,21 @@
+{"code": "scatter(", "compilation_passed": false, "time": 0.00022101402282714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": "scatter([p[0] for p in points], [p[1] for p in points])", "compilation_passed": true, "time": 0.09231901168823242, "tests_passed": true, "error": null}
+{"code": "scatter(x=points[:, 0], y=points[:, 1], s=1, color='b')", "compilation_passed": true, "time": 0.021294116973876953, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(*zip(*points), s=100000)", "compilation_passed": true, "time": 0.09225606918334961, "tests_passed": true, "error": null}
+{"code": "scatter(points, c='r')", "compilation_passed": true, "time": 0.024346113204956055, "tests_passed": false, "error": "TypeError"}
+{"code": "set_aspect('equal')", "compilation_passed": true, "time": 0.03388524055480957, "tests_passed": false, "error": "IndexError"}
+{"code": "scatter(points[..., 0], points[..., 1])", "compilation_passed": true, "time": 0.022513866424560547, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(*zip(*points), s=4, edgecolors='white', linewidths=.5)", "compilation_passed": true, "time": 0.09419703483581543, "tests_passed": true, "error": null}
+{"code": "scatter(*zip(*points))", "compilation_passed": true, "time": 0.09482884407043457, "tests_passed": true, "error": null}
+{"code": "axis('scaled')", "compilation_passed": true, "time": 0.03396892547607422, "tests_passed": false, "error": "IndexError"}
+{"code": "scatter(points, s=1)", "compilation_passed": true, "time": 0.024415016174316406, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(*zip(*points), s=1)", "compilation_passed": true, "time": 0.09963679313659668, "tests_passed": true, "error": null}
+{"code": "scatter(*zip(*points), s=4)", "compilation_passed": true, "time": 0.0936727523803711, "tests_passed": true, "error": null}
+{"code": "scatter([x for x, y in points], [y for x, y in points],", "compilation_passed": false, "time": 0.000244140625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "scatter(*zip(*points), c='k')", "compilation_passed": true, "time": 0.09942889213562012, "tests_passed": true, "error": null}
+{"code": "scatter(*zip(*points), s=1, edgecolors='black')", "compilation_passed": true, "time": 0.09799718856811523, "tests_passed": true, "error": null}
+{"code": "scatter(*zip(*points), s=20)", "compilation_passed": true, "time": 0.09370112419128418, "tests_passed": true, "error": null}
+{"code": "scatter(points, c='r', s=10, edgecolors='k')", "compilation_passed": true, "time": 0.022077083587646484, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter([i[0] for i in points], [i[1] for i in points])", "compilation_passed": true, "time": 0.09645891189575195, "tests_passed": true, "error": null}
+{"code": "scatter(points, color='k', marker='o')", "compilation_passed": true, "time": 0.02372908592224121, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(points)", "compilation_passed": true, "time": 0.02481985092163086, "tests_passed": false, "error": "TypeError"}

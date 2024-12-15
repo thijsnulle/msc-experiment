@@ -1,0 +1,4 @@
+{"code": " [random.randint(0, 100) for _ in range(5)]", "compilation_passed": true, "time": 0.0067822933197021484, "tests_passed": true, "error": null}
+{"code": " np.random.randint(100, size=5)", "compilation_passed": true, "time": 0.006597280502319336, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, 100) for i in range(5)]", "compilation_passed": true, "time": 0.006335020065307617, "tests_passed": true, "error": null}
+{"code": " np.random.randint(100, size=5).tolist()", "compilation_passed": true, "time": 0.006829977035522461, "tests_passed": true, "error": null}

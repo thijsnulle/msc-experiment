@@ -1,0 +1,7 @@
+{"code": " Counter(itertools.chain.from_iterable(d.values()))", "compilation_passed": true, "time": 0.002003908157348633, "tests_passed": true, "error": null}
+{"code": " Counter(itertools.chain(*d.values()))", "compilation_passed": true, "time": 0.00189208984375, "tests_passed": true, "error": null}
+{"code": " Counter()", "compilation_passed": true, "time": 0.007071018218994141, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.0072062015533447266, "tests_passed": true, "error": null}
+{"code": " dict(Counter(itertools.chain(*d.values())))", "compilation_passed": true, "time": 0.001974821090698242, "tests_passed": true, "error": null}
+{"code": " dict(Counter(itertools.chain.from_iterable(d.values())))", "compilation_passed": true, "time": 0.0020279884338378906, "tests_passed": true, "error": null}
+{"code": " dict()", "compilation_passed": true, "time": 0.005782127380371094, "tests_passed": true, "error": null}

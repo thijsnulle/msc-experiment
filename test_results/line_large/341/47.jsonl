@@ -1,0 +1,21 @@
+{"code": "countplot(x=col, data=df, ax=axes[0])", "compilation_passed": true, "time": 0.2381579875946045, "tests_passed": true, "error": null}
+{"code": "countplot(x=col, data=df, ax=axes[0])  # Using seaborn's countplot function for categorical data", "compilation_passed": true, "time": 0.23935914039611816, "tests_passed": true, "error": null}
+{"code": "countplot(x=col, data=df, ax=axes[0], color=\"mediumpurple\",", "compilation_passed": false, "time": 0.0003161430358886719, "tests_passed": false, "error": "SyntaxError"}
+{"code": "countplot(x=df[col], data=df, ax=axes[0])", "compilation_passed": true, "time": 0.23604297637939453, "tests_passed": true, "error": null}
+{"code": "countplot(data=df, x=col, ax=axes[0])  # Using countplot for categorical data", "compilation_passed": true, "time": 0.23775792121887207, "tests_passed": true, "error": null}
+{"code": "countplot(x=col, data=df, palette=\"hls\", ax=axes[0])  # Using countplot for categorical data", "compilation_passed": true, "time": 0.24322199821472168, "tests_passed": true, "error": null}
+{"code": "countplot(x=col, data=df, ax=axes[0])  # Using seaborn's countplot for categorical data", "compilation_passed": true, "time": 0.23557305335998535, "tests_passed": true, "error": null}
+{"code": "countplot(x=col, data=df, ax=axes[0])  # Using countplot for categorical data", "compilation_passed": true, "time": 0.23813819885253906, "tests_passed": true, "error": null}
+{"code": "countplot(x=col, data=df, ax=axes[0])  # Using countplot function for non-numeric data", "compilation_passed": true, "time": 0.2564840316772461, "tests_passed": true, "error": null}
+{"code": "histplot(df, x=col, stat='count', ax=axes[0], kde=False, discrete=True)  # Using seaborn's histplot for categorical data", "compilation_passed": true, "time": 0.25751399993896484, "tests_passed": true, "error": null}
+{"code": "countplot(data=df, x=col, ax=axes[0])  # Using Seaborn's countplot for categorical data", "compilation_passed": true, "time": 0.2389540672302246, "tests_passed": true, "error": null}
+{"code": "countplot(x=col, data=df, ax=axes[0])  # Using countplot function for non-numerical (categorical) data", "compilation_passed": true, "time": 0.25303220748901367, "tests_passed": true, "error": null}
+{"code": "countplot(data=df, x=col, ax=axes[0], color='skyblue')", "compilation_passed": true, "time": 0.24718427658081055, "tests_passed": true, "error": null}
+{"code": "countplot(x=df[col], ax=axes[0])  # Using countplot for categorical data", "compilation_passed": true, "time": 0.24306702613830566, "tests_passed": true, "error": null}
+{"code": "histplot(data=df, x=col, kde=True, ax=axes[0])  # Using seaborn's histplot function for categorical data", "compilation_passed": true, "time": 0.2575991153717041, "tests_passed": true, "error": null}
+{"code": "countplot(x=col, data=df, palette='viridis', ax=axes[0])  # Using matplotlib's countplot function for categorical data", "compilation_passed": true, "time": 0.25290489196777344, "tests_passed": true, "error": null}
+{"code": "countplot(data=df, x=col, ax=axes[0])  # Using seaborn's countplot for categorical data", "compilation_passed": true, "time": 0.25040411949157715, "tests_passed": true, "error": null}
+{"code": "countplot(data=df, x=col, ax=axes[0])  # Using seaborn's countplot function for categorical data", "compilation_passed": true, "time": 0.26845717430114746, "tests_passed": true, "error": null}
+{"code": "countplot(x=col, data=df, ax=axes[0])  # Using countplot function for categorical data", "compilation_passed": true, "time": 0.2688169479370117, "tests_passed": true, "error": null}
+{"code": "countplot(data=df, x=col, ax=axes[0])  # Using seaborn's countplot for non-numerical (e.g., categorical) data", "compilation_passed": true, "time": 0.2518341541290283, "tests_passed": true, "error": null}
+{"code": "countplot(x=col, data=df, ax=axes[0])  # Using Seaborn's countplot for non-numerical data", "compilation_passed": true, "time": 0.2564218044281006, "tests_passed": true, "error": null}

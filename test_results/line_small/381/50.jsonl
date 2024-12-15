@@ -1,0 +1,17 @@
+{"code": " df_cleaned.drop(columns=[target_column])", "compilation_passed": true, "time": 0.32732605934143066, "tests_passed": true, "error": null}
+{"code": " df_cleaned[df_cleaned.columns[:-1]]", "compilation_passed": true, "time": 0.34300708770751953, "tests_passed": true, "error": null}
+{"code": " df_cleaned.drop(target_column, axis=1)", "compilation_passed": true, "time": 0.34503698348999023, "tests_passed": true, "error": null}
+{"code": " df_cleaned.drop(target_column, axis=1).values", "compilation_passed": true, "time": 0.14474701881408691, "tests_passed": false, "error": "AttributeError"}
+{"code": " df_cleaned[df_cleaned.columns[df_cleaned.columns != target_column]]", "compilation_passed": true, "time": 0.3360729217529297, "tests_passed": true, "error": null}
+{"code": " df_cleaned[list(df_cleaned.columns[:-1])]  # All columns except the target column", "compilation_passed": true, "time": 0.34143781661987305, "tests_passed": true, "error": null}
+{"code": " df_cleaned.drop(target_column, axis=1)  # Remove the target column", "compilation_passed": true, "time": 0.3515739440917969, "tests_passed": true, "error": null}
+{"code": " df_cleaned[df_cleaned.columns[1:]]", "compilation_passed": true, "time": 0.3375699520111084, "tests_passed": true, "error": null}
+{"code": " df_cleaned.iloc[:, :-1]", "compilation_passed": true, "time": 0.3407888412475586, "tests_passed": true, "error": null}
+{"code": " df_cleaned[df_cleaned.columns.drop(target_column)]", "compilation_passed": true, "time": 0.3337228298187256, "tests_passed": true, "error": null}
+{"code": " df_cleaned[list(set(df_cleaned.columns) - {target_column})]", "compilation_passed": true, "time": 0.33573293685913086, "tests_passed": true, "error": null}
+{"code": " df_cleaned.drop([target_column], axis=1)", "compilation_passed": true, "time": 0.3398001194000244, "tests_passed": true, "error": null}
+{"code": " df_cleaned.drop(columns=[target_column]).to_numpy()", "compilation_passed": true, "time": 0.14489436149597168, "tests_passed": false, "error": "AttributeError"}
+{"code": " df_cleaned.drop(columns=target_column)", "compilation_passed": true, "time": 0.343829870223999, "tests_passed": true, "error": null}
+{"code": " df_cleaned[df_cleaned.columns.difference([target_column])]", "compilation_passed": true, "time": 0.3359968662261963, "tests_passed": true, "error": null}
+{"code": " df_cleaned.iloc[:, 1:]", "compilation_passed": true, "time": 0.3460581302642822, "tests_passed": true, "error": null}
+{"code": " df_cleaned.iloc[:, :-1]  # The rest of the columns except 'Index' as features", "compilation_passed": true, "time": 0.3434019088745117, "tests_passed": true, "error": null}

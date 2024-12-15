@@ -1,0 +1,5 @@
+{"code": " df[col].fillna(random.uniform(*num_range))", "compilation_passed": true, "time": 0.015711069107055664, "tests_passed": true, "error": null}
+{"code": " df[col].fillna(random.randint(*num_range))", "compilation_passed": true, "time": 0.01573038101196289, "tests_passed": true, "error": null}
+{"code": " df[col].astype('float64')", "compilation_passed": true, "time": 0.01946878433227539, "tests_passed": true, "error": null}
+{"code": " df[col].astype(float)", "compilation_passed": true, "time": 0.019240856170654297, "tests_passed": true, "error": null}
+{"code": " df[col].fillna(random.uniform(num_range[0], num_range[1]))", "compilation_passed": true, "time": 0.015810012817382812, "tests_passed": true, "error": null}

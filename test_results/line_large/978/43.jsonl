@@ -1,0 +1,23 @@
+{"code": " array.shape[0] == 0 or array.shape[1] == 0:", "compilation_passed": true, "time": 0.006579875946044922, "tests_passed": true, "error": null}
+{"code": " array.size == 0:", "compilation_passed": true, "time": 0.0063669681549072266, "tests_passed": true, "error": null}
+{"code": " array.shape[1] == 0 or (array.shape[0] == 0 and array.shape[1] >= 1):", "compilation_passed": true, "time": 0.006513833999633789, "tests_passed": true, "error": null}
+{"code": " array.shape[1] == 0 or not array.any():  # no features or no content", "compilation_passed": true, "time": 0.006760120391845703, "tests_passed": true, "error": null}
+{"code": " array.shape[1] == 0:", "compilation_passed": true, "time": 0.006059885025024414, "tests_passed": true, "error": null}
+{"code": " array.shape[0] == 0 or array.shape[1] == 0 or array.size == 0:", "compilation_passed": true, "time": 0.00762486457824707, "tests_passed": true, "error": null}
+{"code": " np.count_nonzero(~np.isnan(array)) == 0:", "compilation_passed": true, "time": 0.006334066390991211, "tests_passed": true, "error": null}
+{"code": " array.size < 2:", "compilation_passed": true, "time": 0.005794048309326172, "tests_passed": true, "error": null}
+{"code": " len(array) == 0:", "compilation_passed": true, "time": 0.0073511600494384766, "tests_passed": true, "error": null}
+{"code": " len(array.shape) < 2 or len(array[0]) == 0:", "compilation_passed": true, "time": 0.02571392059326172, "tests_passed": false, "error": "IndexError"}
+{"code": " array.shape[1] == 0 or np.all(array == 0):", "compilation_passed": true, "time": 0.009145021438598633, "tests_passed": true, "error": null}
+{"code": " array.shape[1] == 0 or not any(array.flatten()):", "compilation_passed": true, "time": 0.006239891052246094, "tests_passed": true, "error": null}
+{"code": " array.shape[1] == 0 or array.shape[1] == 1:", "compilation_passed": true, "time": 0.01228189468383789, "tests_passed": true, "error": null}
+{"code": " array.shape[1] == 0 or array.size == 0:", "compilation_passed": true, "time": 0.006386756896972656, "tests_passed": true, "error": null}
+{"code": " array.size == 0 or not any(array):", "compilation_passed": true, "time": 0.01183176040649414, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(array).size == 0:", "compilation_passed": true, "time": 0.006333112716674805, "tests_passed": true, "error": null}
+{"code": " len(array.shape) != 2:", "compilation_passed": true, "time": 0.020498037338256836, "tests_passed": false, "error": "ValueError"}
+{"code": " array.shape[1] == 0 or np.isnan(array).all():", "compilation_passed": true, "time": 0.006365299224853516, "tests_passed": true, "error": null}
+{"code": " array.size < 2 or array.shape[1] == 0:", "compilation_passed": true, "time": 0.0066759586334228516, "tests_passed": true, "error": null}
+{"code": " array.shape[1] == 0 or np.sum(np.isnan(array)) == np.size(array):", "compilation_passed": true, "time": 0.005908012390136719, "tests_passed": true, "error": null}
+{"code": " array.shape[1] == 0 or array.shape[0] == 0:", "compilation_passed": true, "time": 0.0058858394622802734, "tests_passed": true, "error": null}
+{"code": " array.size == 0 or array.shape[1] == 0:", "compilation_passed": true, "time": 0.0065920352935791016, "tests_passed": true, "error": null}
+{"code": " array.shape[0] < 2 or array.shape[1] < 2:", "compilation_passed": true, "time": 0.01030111312866211, "tests_passed": true, "error": null}

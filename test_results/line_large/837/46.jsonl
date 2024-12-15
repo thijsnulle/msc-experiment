@@ -1,0 +1,6 @@
+{"code": " scaler.fit_transform(df[columns[i]].values.reshape(-1, 1))", "compilation_passed": true, "time": 0.01735234260559082, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df[[columns[i]]])", "compilation_passed": true, "time": 0.0467991828918457, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df[columns[i]].values.reshape(-1,1))", "compilation_passed": true, "time": 0.018529653549194336, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df[[columns[i]]]).astype('float64')", "compilation_passed": true, "time": 0.0446012020111084, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df[[columns[i]]]).flatten()", "compilation_passed": true, "time": 0.04507803916931152, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df[columns[i]].to_numpy().reshape(-1, 1))", "compilation_passed": true, "time": 0.018786907196044922, "tests_passed": true, "error": null}

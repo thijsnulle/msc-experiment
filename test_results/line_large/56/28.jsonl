@@ -1,0 +1,10 @@
+{"code": " [(int(score), category) for score, category, _ in matches]", "compilation_passed": false, "time": 0.00014519691467285156, "tests_passed": false, "error": "IndentationError"}
+{"code": " [{\"Score\": int(score), \"Category\": category} for score, category, _ in matches]", "compilation_passed": false, "time": 0.0001659393310546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " {", "compilation_passed": false, "time": 8.440017700195312e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [{\"Score\": int(match[0]), \"Category\": match[1]} for match in matches]", "compilation_passed": false, "time": 0.0001678466796875, "tests_passed": false, "error": "IndentationError"}
+{"code": " {\"Score\": [int(x[0]) for x in matches], \"Category\": [x[1] for x in matches]}", "compilation_passed": false, "time": 0.00015735626220703125, "tests_passed": false, "error": "IndentationError"}
+{"code": " {\"Score\": [], \"Category\": []}", "compilation_passed": false, "time": 0.00019359588623046875, "tests_passed": false, "error": "IndentationError"}
+{"code": " {'Score': [int(score) for score, _ in matches],", "compilation_passed": false, "time": 0.00015687942504882812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": false, "time": 0.00011801719665527344, "tests_passed": false, "error": "IndentationError"}
+{"code": " [(int(score), category) for score, category in matches]", "compilation_passed": false, "time": 0.00014090538024902344, "tests_passed": false, "error": "IndentationError"}
+{"code": " {\"Score\": [int(match[0]) for match in matches], \"Category\": [match[1] for match in matches]}", "compilation_passed": false, "time": 0.00017213821411132812, "tests_passed": false, "error": "IndentationError"}

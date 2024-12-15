@@ -1,0 +1,18 @@
+{"code": " requests.get(f\"https://api.ipgeolocation.io/ipgeo?apiKey={API_KEY}&ip={urllib.parse.urlparse(url).netloc}\")", "compilation_passed": true, "time": 0.004135847091674805, "tests_passed": true, "error": null}
+{"code": " requests.get(f'http://ip-api.com/json/{domain}?key={API_KEY}')", "compilation_passed": true, "time": 0.0034627914428710938, "tests_passed": true, "error": null}
+{"code": " requests.get(f'https://api.ipgeolocation.io/ipgeo?apiKey={API_KEY}&ip={domain}')", "compilation_passed": true, "time": 0.003676891326904297, "tests_passed": true, "error": null}
+{"code": " requests.get(f'http://ip-api.com/json/{domain}?accessKey={API_KEY}')", "compilation_passed": true, "time": 0.0032100677490234375, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"https://api.ipify.org/?format=json\", headers={\"accept\": \"application/json\"})", "compilation_passed": true, "time": 0.012109041213989258, "tests_passed": false, "error": "Exception"}
+{"code": " requests.get(f\"https://api.ipify.org?format=json&domain={domain}&apiKey={API_KEY}\")", "compilation_passed": true, "time": 0.0031409263610839844, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"http://ip-api.com/json/{domain}?key={API_KEY}\")", "compilation_passed": true, "time": 0.003162860870361328, "tests_passed": true, "error": null}
+{"code": " requests.get(f'http://api.ipstack.com/{domain}?access_key={API_KEY}&format=1')", "compilation_passed": true, "time": 0.003674030303955078, "tests_passed": true, "error": null}
+{"code": " requests.get('http://ip-api.com/json/' + domain + '?key=' + API_KEY)", "compilation_passed": true, "time": 0.003454923629760742, "tests_passed": true, "error": null}
+{"code": " requests.get(f'https://api.ipapi.com/{domain}/json/?access_key={API_KEY}')", "compilation_passed": true, "time": 0.0031642913818359375, "tests_passed": true, "error": null}
+{"code": " requests.get(f'http://api.ipstack.com/{domain}?access_key={API_KEY}')", "compilation_passed": true, "time": 0.0033931732177734375, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"http://api.ipapi.com/{domain}?access_key={API_KEY}\")", "compilation_passed": true, "time": 0.00403904914855957, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"https://api.ipapi.com/{domain}?access_key={API_KEY}\")", "compilation_passed": true, "time": 0.0034089088439941406, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"https://ipapi.co/{domain}/json/\", params={'access_key': API_KEY})", "compilation_passed": true, "time": 0.0037071704864501953, "tests_passed": true, "error": null}
+{"code": " requests.get(f'https://api.ipapi.com/{domain}?access_key={API_KEY}')", "compilation_passed": true, "time": 0.0031669139862060547, "tests_passed": true, "error": null}
+{"code": " requests.get('http://ip-api.com/json/{}?key={}'.format(domain, API_KEY))", "compilation_passed": true, "time": 0.0031218528747558594, "tests_passed": true, "error": null}
+{"code": " requests.get('https://api.ipgeolocation.io/ipgeo?apiKey=' + API_KEY + '&ip=' + domain)", "compilation_passed": true, "time": 0.003916025161743164, "tests_passed": true, "error": null}
+{"code": " requests.get(f'https://api.ip2geotools.com/v2/ipgeo?key={API_KEY}&ip={domain}')", "compilation_passed": true, "time": 0.00411224365234375, "tests_passed": true, "error": null}

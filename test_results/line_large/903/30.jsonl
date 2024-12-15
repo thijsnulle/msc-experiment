@@ -1,0 +1,6 @@
+{"code": " [col for col in df.columns if col != target]", "compilation_passed": true, "time": 0.010999917984008789, "tests_passed": true, "error": null}
+{"code": " [c for c in df.columns if c != target]", "compilation_passed": true, "time": 0.013365983963012695, "tests_passed": true, "error": null}
+{"code": " [column for column in df.columns if column != target]", "compilation_passed": true, "time": 0.011523246765136719, "tests_passed": true, "error": null}
+{"code": " [x for x in df.columns if x != target]", "compilation_passed": true, "time": 0.01209115982055664, "tests_passed": true, "error": null}
+{"code": " ['x', 'y']", "compilation_passed": true, "time": 0.015761852264404297, "tests_passed": false, "error": "KeyError"}
+{"code": " [column for column in df if column != target]", "compilation_passed": true, "time": 0.012481212615966797, "tests_passed": true, "error": null}

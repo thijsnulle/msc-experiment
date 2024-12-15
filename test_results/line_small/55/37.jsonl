@@ -1,0 +1,8 @@
+{"code": " [word for word in words if word not in STOPWORDS]", "compilation_passed": true, "time": 0.0033609867095947266, "tests_passed": true, "error": null}
+{"code": " [word.strip() for word in words if word.strip() not in STOPWORDS]", "compilation_passed": true, "time": 0.003401041030883789, "tests_passed": true, "error": null}
+{"code": " [w.lower() for w in words if w and w not in STOPWORDS]", "compilation_passed": true, "time": 0.003358125686645508, "tests_passed": true, "error": null}
+{"code": " [w for w in words if w not in STOPWORDS]", "compilation_passed": true, "time": 0.0029790401458740234, "tests_passed": true, "error": null}
+{"code": " [word.strip(\".,:;?!\") for word in words if word not in STOPWORDS]", "compilation_passed": true, "time": 0.0030488967895507812, "tests_passed": true, "error": null}
+{"code": " [w.strip(\".,?!\") for w in words if w.strip(\".,?!\") != \"\"]", "compilation_passed": true, "time": 0.00994110107421875, "tests_passed": true, "error": null}
+{"code": " [word.strip(\",.\") for word in words]", "compilation_passed": true, "time": 0.010523080825805664, "tests_passed": true, "error": null}
+{"code": " [word for word in words if not word in STOPWORDS]", "compilation_passed": true, "time": 0.0030019283294677734, "tests_passed": true, "error": null}

@@ -1,0 +1,25 @@
+{"code": "datetime.strptime(string, \"%d/%m/%y %H:%M:%S.%f\").replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.013031244277954102, "tests_passed": false, "error": "AttributeError"}
+{"code": "strptime(timestamp, \"%d/%m/%y %H:%M:%S.%f\").replace(tzinfo=time_zone) for timestamp in time_strings", "compilation_passed": true, "time": 0.012794256210327148, "tests_passed": false, "error": "AttributeError"}
+{"code": "datetime.strptime(time_string, '%d/%m/%y %H:%M:%S.%f').astimezone(time_zone) for time_string in time_strings", "compilation_passed": true, "time": 0.013345003128051758, "tests_passed": false, "error": "AttributeError"}
+{"code": "strptime(timestamp, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.015810012817382812, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(s, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.01412820816040039, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(time, '%d/%m/%Y %H:%M:%S.%f').astimezone(time_zone)", "compilation_passed": true, "time": 0.01687002182006836, "tests_passed": false, "error": "NameError"}
+{"code": "datetime.strptime(time_string, \"%d/%m/%y %H:%M:%S.%f\").replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.012458086013793945, "tests_passed": false, "error": "AttributeError"}
+{"code": "strptime(timestamp, \"%d/%m/%y %H:%M:%S.%f\").replace(tzinfo=timezone).timestamp()", "compilation_passed": true, "time": 0.011166810989379883, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(time_str, \"%d/%m/%y %H:%M:%S.%f\").replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.011771917343139648, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(t, \"%d/%m/%Y %H:%M:%S.%f\").replace(tzinfo=time_zone) for t in time_strings]", "compilation_passed": false, "time": 0.00014495849609375, "tests_passed": false, "error": "IndentationError"}
+{"code": "strptime(time_string, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.011844158172607422, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(string, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.01220703125, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(timestamp, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone) for timestamp in time_strings", "compilation_passed": true, "time": 0.0076100826263427734, "tests_passed": false, "error": "AttributeError"}
+{"code": "strptime(timestamp, '%d/%m/%Y %H:%M:%S.%f').replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.011441946029663086, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(time, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.01520395278930664, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(time_string, '%d/%m/%Y %H:%M:%S.%f').replace(tzinfo=timezone)", "compilation_passed": true, "time": 0.01582193374633789, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(ts, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.001959085464477539, "tests_passed": true, "error": null}
+{"code": "strptime(t, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.011776924133300781, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(time_string, '%d/%m/%Y %H:%M:%S.%f').astimezone(time_zone)", "compilation_passed": true, "time": 0.013462066650390625, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(timestamp, '%d/%m/%y %H:%M:%S.%f').astimezone(time_zone)", "compilation_passed": true, "time": 0.016401290893554688, "tests_passed": false, "error": "NameError"}
+{"code": "datetime.strptime(time_str, '%d/%m/%y %H:%M:%S.%f').astimezone(time_zone) for time_str in time_strings", "compilation_passed": true, "time": 0.012080192565917969, "tests_passed": false, "error": "AttributeError"}
+{"code": "datetime.strptime(t, \"%d/%m/%y %H:%M:%S.%f\").astimezone(time_zone) for t in time_strings", "compilation_passed": true, "time": 0.008862018585205078, "tests_passed": false, "error": "AttributeError"}
+{"code": "strptime(time, '%d/%m/%y %H:%M:%S.%f').astimezone(time_zone)", "compilation_passed": true, "time": 0.011316061019897461, "tests_passed": false, "error": "NameError"}
+{"code": "datetime.strptime(time_string, '%d/%m/%y %H:%M:%S.%f').astimezone(time_zone)", "compilation_passed": true, "time": 0.011682748794555664, "tests_passed": false, "error": "AttributeError"}
+{"code": "strptime(string, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone) for string in time_strings", "compilation_passed": true, "time": 0.008210897445678711, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,12 @@
+{"code": " [mu[0] for mu in mixture.means_]", "compilation_passed": true, "time": 0.009524822235107422, "tests_passed": false, "error": "IndexError"}
+{"code": " mixture.means_[mixture.means_.argsort()].squeeze()", "compilation_passed": true, "time": 0.016728878021240234, "tests_passed": false, "error": "IndexError"}
+{"code": " [mean[0] for mean in mixture.means_]", "compilation_passed": true, "time": 0.011004924774169922, "tests_passed": false, "error": "IndexError"}
+{"code": " mixture.means_.reshape(-1)", "compilation_passed": true, "time": 0.01418614387512207, "tests_passed": false, "error": "IndexError"}
+{"code": " mixture.means_.flatten().tolist()", "compilation_passed": true, "time": 0.021891117095947266, "tests_passed": false, "error": "TypeError"}
+{"code": " mixture.means_", "compilation_passed": true, "time": 0.017853736877441406, "tests_passed": true, "error": null}
+{"code": " np.round(mixture.means_, 2).tolist()", "compilation_passed": true, "time": 0.018934965133666992, "tests_passed": true, "error": null}
+{"code": " np.round(mixture.means_, 3)", "compilation_passed": true, "time": 0.013788938522338867, "tests_passed": true, "error": null}
+{"code": " mixture.means_.reshape((-1))", "compilation_passed": true, "time": 0.011129140853881836, "tests_passed": false, "error": "IndexError"}
+{"code": " mixture.means_.flatten()", "compilation_passed": true, "time": 0.009124755859375, "tests_passed": false, "error": "IndexError"}
+{"code": " np.array([round(mean[0], 4) for mean in mixture.means_])", "compilation_passed": true, "time": 0.014060020446777344, "tests_passed": false, "error": "IndexError"}
+{"code": " mixture.means_[0].tolist()", "compilation_passed": true, "time": 0.012727022171020508, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,20 @@
+{"code": " time.time()", "compilation_passed": true, "time": 0.1655580997467041, "tests_passed": true, "error": null}
+{"code": " datetime.utcnow().replace(microsecond=0)", "compilation_passed": true, "time": 0.007946968078613281, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.fromtimestamp(random.randint(0, 1000000000))", "compilation_passed": true, "time": 0.008275985717773438, "tests_passed": false, "error": "TypeError"}
+{"code": " time.mktime(datetime.now().timetuple())", "compilation_passed": true, "time": 0.010000228881835938, "tests_passed": false, "error": "       datetime.datetime(2024, 12, 13, 13, 10, 10)], dtype=object)"}
+{"code": " int(time.time())", "compilation_passed": true, "time": 0.009484052658081055, "tests_passed": false, "error": "       datetime.datetime(2024, 12, 13, 13, 10, 11)], dtype=object)"}
+{"code": " datetime.utcfromtimestamp(random.randint(0, time.time()))", "compilation_passed": true, "time": 0.00962209701538086, "tests_passed": false, "error": "ValueError"}
+{"code": " datetime.utcfromtimestamp(random.randint(0, time.time())).strftime(DATE_FORMAT)", "compilation_passed": true, "time": 0.008692026138305664, "tests_passed": false, "error": "ValueError"}
+{"code": " datetime.utcfromtimestamp(random.randint(0, 24 * 3600 * 500))", "compilation_passed": true, "time": 0.008910179138183594, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.utcnow()", "compilation_passed": true, "time": 0.009453058242797852, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.utcfromtimestamp(time.time()).strftime(DATE_FORMAT)", "compilation_passed": true, "time": 0.008774757385253906, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.utcfromtimestamp(time.time())", "compilation_passed": true, "time": 0.008901119232177734, "tests_passed": false, "error": "TypeError"}
+{"code": " int(datetime.timestamp(datetime.now()))", "compilation_passed": true, "time": 0.011432886123657227, "tests_passed": false, "error": "       datetime.datetime(2024, 12, 13, 13, 10, 17)], dtype=object)"}
+{"code": " datetime.fromtimestamp(time.time())", "compilation_passed": true, "time": 0.009036064147949219, "tests_passed": false, "error": "TypeError"}
+{"code": " time.perf_counter()", "compilation_passed": true, "time": 0.010935068130493164, "tests_passed": false, "error": "       datetime.datetime(1970, 1, 1, 0, 4, 28)], dtype=object)"}
+{"code": " datetime.now().strftime(DATE_FORMAT)", "compilation_passed": true, "time": 0.01080012321472168, "tests_passed": false, "error": "TypeError"}
+{"code": " random.randint(int(datetime.utcnow().timestamp()) - 86400, int(datetime.utcnow().timestamp()) + 86400)", "compilation_passed": true, "time": 0.00960683822631836, "tests_passed": false, "error": "       datetime.datetime(2024, 12, 12, 18, 30, 9)], dtype=object)"}
+{"code": " datetime.now()", "compilation_passed": true, "time": 0.009393930435180664, "tests_passed": false, "error": "TypeError"}
+{"code": " time.mktime(datetime.utcnow().timetuple())", "compilation_passed": true, "time": 0.008715152740478516, "tests_passed": false, "error": "       datetime.datetime(2024, 12, 13, 12, 10, 19)], dtype=object)"}
+{"code": " datetime.utcnow().strftime(DATE_FORMAT)", "compilation_passed": true, "time": 0.010125160217285156, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.utcfromtimestamp(random.randint(0, 100000000))", "compilation_passed": true, "time": 0.009389877319335938, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,14 @@
+{"code": " Counter(re.findall(r'\\w+', text.lower()))", "compilation_passed": true, "time": 0.02021622657775879, "tests_passed": true, "error": null}
+{"code": " Counter([word.lower() for word in re.findall(r\"\\w+\", text)])", "compilation_passed": true, "time": 0.02262401580810547, "tests_passed": true, "error": null}
+{"code": " Counter(word.lower() for word in re.findall(r'\\b\\S+\\b', text))", "compilation_passed": true, "time": 0.022060155868530273, "tests_passed": true, "error": null}
+{"code": " Counter([word.lower() for word in text.split()])", "compilation_passed": true, "time": 0.06467294692993164, "tests_passed": true, "error": null}
+{"code": " Counter(text.split())", "compilation_passed": true, "time": 0.15260887145996094, "tests_passed": true, "error": null}
+{"code": " Counter(text.lower().split())", "compilation_passed": true, "time": 0.061129093170166016, "tests_passed": true, "error": null}
+{"code": " Counter(re.findall(r'\\b\\w+\\b', text.lower()))", "compilation_passed": true, "time": 0.023415088653564453, "tests_passed": true, "error": null}
+{"code": " Counter(re.findall(r\"\\w+\", text, flags=re.IGNORECASE))", "compilation_passed": true, "time": 0.021641016006469727, "tests_passed": true, "error": null}
+{"code": " Counter([word.lower() for word in re.findall(r'\\w+', text)])", "compilation_passed": true, "time": 0.022901058197021484, "tests_passed": true, "error": null}
+{"code": " Counter(word.lower() for word in re.findall(r'\\w+', text, re.IGNORECASE))", "compilation_passed": true, "time": 0.023082971572875977, "tests_passed": true, "error": null}
+{"code": " Counter(re.findall(r'\\b\\w+\\b', text))", "compilation_passed": true, "time": 0.020585060119628906, "tests_passed": true, "error": null}
+{"code": " Counter([word.lower() for word in re.findall(r'\\b\\w+\\b', text)])", "compilation_passed": true, "time": 0.020974159240722656, "tests_passed": true, "error": null}
+{"code": " Counter(word.lower() for word in text.split())", "compilation_passed": true, "time": 0.06595730781555176, "tests_passed": true, "error": null}
+{"code": " Counter(re.findall(r'\\b\\w+\\b', text.lower()))  # Count lowercase words", "compilation_passed": true, "time": 0.02111983299255371, "tests_passed": true, "error": null}

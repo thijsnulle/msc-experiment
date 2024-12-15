@@ -1,0 +1,21 @@
+{"code": " content = line[:3], line[3:]", "compilation_passed": true, "time": 0.009387969970703125, "tests_passed": true, "error": null}
+{"code": " *rest = line.split(None, 1)", "compilation_passed": true, "time": 0.009896039962768555, "tests_passed": false, "error": "Exception"}
+{"code": " *content = line.split('\\n')", "compilation_passed": true, "time": 0.01874089241027832, "tests_passed": false, "error": "ValueError"}
+{"code": " content = line.split(' ', 1)", "compilation_passed": true, "time": 0.00851893424987793, "tests_passed": true, "error": null}
+{"code": " text = line[0], line[2:]", "compilation_passed": true, "time": 0.008453130722045898, "tests_passed": false, "error": "Exception"}
+{"code": " content = None, None", "compilation_passed": true, "time": 0.009008169174194336, "tests_passed": true, "error": null}
+{"code": " content = line.split('\\t')", "compilation_passed": true, "time": 0.009141921997070312, "tests_passed": false, "error": "ValueError"}
+{"code": " content = line[0], line[2:].strip(' \\n\\t\\r')  # The third char and all chars after it are content, so we take the content after that", "compilation_passed": true, "time": 0.010608911514282227, "tests_passed": true, "error": null}
+{"code": " text = line[:3], line[3:]", "compilation_passed": true, "time": 0.00853419303894043, "tests_passed": false, "error": "Exception"}
+{"code": " _, content = line.partition(' ')  # Split the line into status, separator, and content", "compilation_passed": true, "time": 0.008395195007324219, "tests_passed": true, "error": null}
+{"code": " content = line[:3].split()", "compilation_passed": true, "time": 0.008276939392089844, "tests_passed": false, "error": "ValueError"}
+{"code": " content = line[0], line[2:]", "compilation_passed": true, "time": 0.011780977249145508, "tests_passed": true, "error": null}
+{"code": " content = line.split(maxsplit=1)  # Split the line into status and content parts", "compilation_passed": true, "time": 0.00972890853881836, "tests_passed": true, "error": null}
+{"code": " content = '', ''", "compilation_passed": true, "time": 0.00832509994506836, "tests_passed": true, "error": null}
+{"code": " *content = line.split()", "compilation_passed": true, "time": 0.009459972381591797, "tests_passed": false, "error": "ValueError"}
+{"code": " content = line[0], line[2:].strip('-+ ')", "compilation_passed": true, "time": 0.010483026504516602, "tests_passed": true, "error": null}
+{"code": " content = line[0], line[2:].strip()", "compilation_passed": true, "time": 0.012045145034790039, "tests_passed": true, "error": null}
+{"code": " content = line.strip().split('  ', 1)", "compilation_passed": true, "time": 0.008618831634521484, "tests_passed": false, "error": "ValueError"}
+{"code": " content = line[:2]", "compilation_passed": true, "time": 0.008919000625610352, "tests_passed": true, "error": null}
+{"code": " content = (line[0], line[2:])", "compilation_passed": true, "time": 0.010543107986450195, "tests_passed": true, "error": null}
+{"code": " content = line[1], line[3:]", "compilation_passed": true, "time": 0.008893966674804688, "tests_passed": true, "error": null}

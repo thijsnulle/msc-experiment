@@ -1,0 +1,24 @@
+{"code": " sales_df.iloc[:, 1:].to_numpy()", "compilation_passed": true, "time": 0.007120847702026367, "tests_passed": true, "error": null}
+{"code": " sales_df['Date'].values[:, None]", "compilation_passed": true, "time": 0.012260198593139648, "tests_passed": true, "error": null}
+{"code": " sales_df['Sales']", "compilation_passed": true, "time": 0.010540962219238281, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " sales_df['Date']", "compilation_passed": true, "time": 0.010367870330810547, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " sales_df['Date'].values", "compilation_passed": true, "time": 0.009022951126098633, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " sales_df.drop('Date', axis=1).values", "compilation_passed": true, "time": 0.006576061248779297, "tests_passed": true, "error": null}
+{"code": " sales_df['Date'].values[:-1]", "compilation_passed": true, "time": 0.009225130081176758, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " sales_df[['Date']].values[:, 0]", "compilation_passed": true, "time": 0.010338068008422852, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " sales_df.iloc[:, 1:]", "compilation_passed": true, "time": 0.007122039794921875, "tests_passed": true, "error": null}
+{"code": " sales_df['Date'].values.reshape(-1, 1)", "compilation_passed": true, "time": 0.006162881851196289, "tests_passed": true, "error": null}
+{"code": " sales_df[['Sales']]", "compilation_passed": true, "time": 0.007431983947753906, "tests_passed": true, "error": null}
+{"code": " sales_df.iloc[:, 1:].values", "compilation_passed": true, "time": 0.006210803985595703, "tests_passed": true, "error": null}
+{"code": " sales_df.drop('Sales', axis=1)", "compilation_passed": true, "time": 0.007594108581542969, "tests_passed": true, "error": null}
+{"code": " sales_df['Date'].to_numpy()[:, None]", "compilation_passed": true, "time": 0.006047964096069336, "tests_passed": true, "error": null}
+{"code": " sales_df['Sales'][:-1]", "compilation_passed": true, "time": 0.008536100387573242, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " sales_df.drop('Sales', axis=1).values", "compilation_passed": true, "time": 0.0070078372955322266, "tests_passed": true, "error": null}
+{"code": " sales_df['Sales'].values[:-1]  # Use the previous months sales for the regression", "compilation_passed": true, "time": 0.008805990219116211, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " sales_df['Sales'].values[:-1]  # Use the last value as the target value", "compilation_passed": true, "time": 0.009295225143432617, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " sales_df.iloc[:, 1:].to_numpy().reshape(-1, 1)", "compilation_passed": true, "time": 0.007821083068847656, "tests_passed": true, "error": null}
+{"code": " sales_df['Sales'].values.reshape(-1, 1)", "compilation_passed": true, "time": 0.006453990936279297, "tests_passed": true, "error": null}
+{"code": " sales_df.drop(columns='Date').values", "compilation_passed": true, "time": 0.007914066314697266, "tests_passed": true, "error": null}
+{"code": " sales_df[['Date']]", "compilation_passed": true, "time": 0.007575035095214844, "tests_passed": true, "error": null}
+{"code": " sales_df[['Date']].values", "compilation_passed": true, "time": 0.006763935089111328, "tests_passed": true, "error": null}
+{"code": " sales_df['Sales'].values[:-1]", "compilation_passed": true, "time": 0.008759737014770508, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}

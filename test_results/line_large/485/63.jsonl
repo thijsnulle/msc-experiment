@@ -1,0 +1,23 @@
+{"code": "legend()", "compilation_passed": true, "time": 0.08781909942626953, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Time difference for {len(TIMEZONES)-1} time zones\")", "compilation_passed": true, "time": 0.024853944778442383, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(", "compilation_passed": false, "time": 0.00039076805114746094, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_title(f\"Hourly time difference between UTC and {len(TIMEZONES)-1} time zones\")", "compilation_passed": true, "time": 0.024981975555419922, "tests_passed": false, "error": "AttributeError"}
+{"code": "legend(loc=\"best\", ncol=min(len(TIMEZONES), 2))", "compilation_passed": true, "time": 0.0862569808959961, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Time Difference between UTC and {TIMEZONES} for each day\")", "compilation_passed": true, "time": 0.025168895721435547, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(\"Time difference between UTC and {} zones\".format(TIMEZONES[1:]))", "compilation_passed": true, "time": 0.026376962661743164, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(f\"Hourly time differences from {start_date} to {end_date}\")", "compilation_passed": true, "time": 0.023585081100463867, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(f\"Time differences from UTC from {start_time} to {end_time}\")", "compilation_passed": true, "time": 0.0251619815826416, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(\"Time difference between UTC and other time zones\")", "compilation_passed": true, "time": 0.02365589141845703, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(f\"Time differences between {TIMEZONES} and UTC\")", "compilation_passed": true, "time": 0.024763822555541992, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(\"Hourly Time Differences Between Time Zones\")", "compilation_passed": true, "time": 0.02447223663330078, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(f\"Hourly difference between UTC and {TIMEZONES} from {start_date} to {end_date}\")", "compilation_passed": true, "time": 0.02341604232788086, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(\"Time difference between UTC and global time zones\")", "compilation_passed": true, "time": 0.02512526512145996, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(f\"Time differences between UTC and {TIMEZONES} from {start_time} to {end_time}\")", "compilation_passed": true, "time": 0.023459196090698242, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(\"Time differences between UTC and {0} between {1} and {2}\".format(\", \".join(TIMEZONES), start_date.date(), end_date.date()))", "compilation_passed": true, "time": 0.024686813354492188, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(\"Hourly difference between UTC and different time zones\")", "compilation_passed": true, "time": 0.024958133697509766, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(f\"Time differences for {start_time} to {end_time}\")", "compilation_passed": true, "time": 0.02394413948059082, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(f\"Hourly time differences between UTC and {TIMEZONES}\")", "compilation_passed": true, "time": 0.02501082420349121, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(f\"Time difference between UTC and {TIMEZONES} between {start_time} and {end_time}\")", "compilation_passed": true, "time": 0.023432254791259766, "tests_passed": false, "error": "AttributeError"}
+{"code": "legend(bbox_to_anchor=(1.05, 1), loc=\"upper left\")", "compilation_passed": true, "time": 0.08606696128845215, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Time differences between UTC and {TIMEZONES[0].replace('_', ' ')}\")", "compilation_passed": true, "time": 0.02394390106201172, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_title(\"Time difference between UTC and \" + \", \".join(TIMEZONES) + \" for each day\")", "compilation_passed": true, "time": 0.02466273307800293, "tests_passed": false, "error": "AttributeError"}

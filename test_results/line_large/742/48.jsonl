@@ -1,0 +1,20 @@
+{"code": " not df['Value'].dtype == 'float64' or not df['Value'].dtype == 'int64':", "compilation_passed": true, "time": 0.0164182186126709, "tests_passed": false, "error": "ValueError"}
+{"code": " not df['Value'].apply(lambda x: isinstance(x, (int, float))).all():", "compilation_passed": true, "time": 0.02280879020690918, "tests_passed": true, "error": null}
+{"code": " not df['Value'].dtype == float:", "compilation_passed": true, "time": 0.016366004943847656, "tests_passed": false, "error": "ValueError"}
+{"code": " not pd.api.types.is_numeric_dtype(df['Value']):", "compilation_passed": true, "time": 0.021822214126586914, "tests_passed": true, "error": null}
+{"code": " df['Value'].dtype != 'int64' and df['Value'].dtype != 'float64':", "compilation_passed": true, "time": 0.0219728946685791, "tests_passed": true, "error": null}
+{"code": " df.dtypes['Value'].name not in ('int64', 'float64'):", "compilation_passed": true, "time": 0.02202606201171875, "tests_passed": true, "error": null}
+{"code": " df.Value.dtype == object:", "compilation_passed": true, "time": 0.02185821533203125, "tests_passed": true, "error": null}
+{"code": " not df['Value'].apply(lambda x: pd.to_numeric(x, errors='coerce')).notnull().all():", "compilation_passed": true, "time": 0.023741960525512695, "tests_passed": true, "error": null}
+{"code": " not df['Value'].all(pd.to_numeric):", "compilation_passed": true, "time": 0.01699686050415039, "tests_passed": false, "error": "ValueError"}
+{"code": " not df['Value'].apply(str).apply(lambda x: x.isdigit()).all():", "compilation_passed": true, "time": 0.017549991607666016, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(isinstance(x, (int, float)) for x in df['Value']):", "compilation_passed": true, "time": 0.022004127502441406, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(v, (int, float)) for _, v in list_of_pairs):", "compilation_passed": true, "time": 0.021728038787841797, "tests_passed": true, "error": null}
+{"code": " df['Value'].dtype == object:", "compilation_passed": true, "time": 0.02188587188720703, "tests_passed": true, "error": null}
+{"code": " not df['Value'].dtype == 'int' and not df['Value'].dtype == 'float':", "compilation_passed": true, "time": 0.02173900604248047, "tests_passed": true, "error": null}
+{"code": " df['Value'].dtype != 'float64' and df['Value'].dtype != 'int64':", "compilation_passed": true, "time": 0.02172684669494629, "tests_passed": true, "error": null}
+{"code": " not all(pd.to_numeric(df['Value'], errors='coerce').notnull()):", "compilation_passed": true, "time": 0.022823810577392578, "tests_passed": true, "error": null}
+{"code": " df['Value'].dtype != int or df['Value'].dtype != float:", "compilation_passed": true, "time": 0.016780614852905273, "tests_passed": false, "error": "ValueError"}
+{"code": " not df.Value.apply(pd.to_numeric, errors='coerce').dtype.name.startswith('int64') and not df.Value.apply(pd.to_numeric, errors='coerce').dtype.name.startswith('float'):", "compilation_passed": true, "time": 0.025253772735595703, "tests_passed": true, "error": null}
+{"code": " df.dtypes['Value'] == object:", "compilation_passed": true, "time": 0.022350072860717773, "tests_passed": true, "error": null}
+{"code": " df['Value'].dtype.kind not in 'biufc':", "compilation_passed": true, "time": 0.021619081497192383, "tests_passed": true, "error": null}

@@ -1,0 +1,20 @@
+{"code": " pd.DataFrame(row_sums, index=pd.date_range(start=\"2020-01-01\", periods=row_sums.size), columns=[\"Sum\"])", "compilation_passed": true, "time": 0.24428963661193848, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"sum\": row_sums})", "compilation_passed": true, "time": 0.22678184509277344, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(row_sums)", "compilation_passed": true, "time": 0.234421968460083, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(row_sums, index=pd.date_range(\"2020-01-01\", periods=len(arr), freq=\"D\"))", "compilation_passed": true, "time": 0.24812626838684082, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(row_sums, columns=['Sum'])", "compilation_passed": true, "time": 0.24093222618103027, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(row_sums, columns=[\"sum\"])", "compilation_passed": true, "time": 0.2532927989959717, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=row_sums, columns=[\"Sum\"])", "compilation_passed": true, "time": 0.24193882942199707, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(row_sums)  # Create DataFrame for plotting", "compilation_passed": true, "time": 0.23930096626281738, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(row_sums, index=pd.date_range(\"2020-01-01\", periods=len(row_sums)))", "compilation_passed": true, "time": 0.25293397903442383, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'sum': row_sums})", "compilation_passed": true, "time": 0.29154515266418457, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"sum\": row_sums}, index=pd.date_range(\"2020-01-01\", periods=len(arr)))", "compilation_passed": true, "time": 0.3717019557952881, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Row Sum\": row_sums})", "compilation_passed": true, "time": 0.3138251304626465, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0002560615539550781, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"Row Sums\": row_sums}, index=pd.date_range(\"2020-01-01\", periods=len(row_sums)))", "compilation_passed": true, "time": 0.3480188846588135, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0002529621124267578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"row_sums\": row_sums})", "compilation_passed": true, "time": 0.3514518737792969, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Row Sums\": row_sums}, index=pd.date_range(start=\"2020-01-01\", periods=arr.shape[0]))", "compilation_passed": true, "time": 0.34732604026794434, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(row_sums, index=pd.date_range(\"2020-01-01\", periods=len(row_sums)), columns=[\"Sum\"])", "compilation_passed": true, "time": 4.333659887313843, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame({\"Sum\": row_sums})", "compilation_passed": true, "time": 0.29792094230651855, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Row Sums\": row_sums}, index=pd.date_range(\"2020-01-01\", periods=arr.shape[0], freq=\"D\"))", "compilation_passed": true, "time": 0.31473302841186523, "tests_passed": true, "error": null}

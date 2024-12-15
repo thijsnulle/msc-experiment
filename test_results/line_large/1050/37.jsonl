@@ -1,0 +1,8 @@
+{"code": " hashlib.sha256(line.encode()).hexdigest()", "compilation_passed": true, "time": 0.014277935028076172, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(line.strip().encode(\"utf-8\"))", "compilation_passed": true, "time": 0.015890836715698242, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(line.encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.01568293571472168, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(line.encode()).hexdigest()[:10]", "compilation_passed": true, "time": 0.014256000518798828, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(line.encode(\"utf-8\")).hexdigest()[:10]", "compilation_passed": true, "time": 0.013931035995483398, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(line.strip().encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.014448165893554688, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(line.encode('utf-8')).hexdigest()[:10]  # Hash only the first 10 characters", "compilation_passed": true, "time": 0.014255046844482422, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(line.encode('utf-8')).hexdigest()[:10]", "compilation_passed": true, "time": 0.014366865158081055, "tests_passed": true, "error": null}

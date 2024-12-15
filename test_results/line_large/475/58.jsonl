@@ -1,0 +1,30 @@
+{"code": " data['parsed_dates'].dt.month.value_counts().sort_index().plot(kind='hist')", "compilation_passed": true, "time": 0.011660099029541016, "tests_passed": false, "error": "AttributeError"}
+{"code": " data['parsed_dates'].hist(bins=10, figsize=(12, 8))", "compilation_passed": true, "time": 0.10364484786987305, "tests_passed": true, "error": null}
+{"code": " data['parsed_dates'].dt.month.hist(bins=12, edgecolor='black')", "compilation_passed": true, "time": 0.00875091552734375, "tests_passed": false, "error": "AttributeError"}
+{"code": " data['parsed_dates'].hist(bins='auto', figsize=(10, 6))", "compilation_passed": true, "time": 0.031039953231811523, "tests_passed": true, "error": null}
+{"code": " data['parsed_dates'].plot.hist(title='Date Distribution')", "compilation_passed": true, "time": 0.019816160202026367, "tests_passed": false, "error": "TypeError"}
+{"code": " data['parsed_dates'].dt.strftime('%d/%m/%Y').hist(bins=10)", "compilation_passed": true, "time": 0.008698701858520508, "tests_passed": false, "error": "AttributeError"}
+{"code": " data['parsed_dates'].dt.strftime(country_codes[country]).value_counts().plot(kind='hist')", "compilation_passed": true, "time": 0.00929880142211914, "tests_passed": false, "error": "AttributeError"}
+{"code": " data.plot.hist(bins=40, y='parsed_dates')", "compilation_passed": true, "time": 0.009638071060180664, "tests_passed": false, "error": "TypeError"}
+{"code": " data['parsed_dates'].hist(bins=12, edgecolor='black')", "compilation_passed": true, "time": 0.04229879379272461, "tests_passed": true, "error": null}
+{"code": " data['parsed_dates'].dt.day.plot.hist(bins=31, edgecolor='black', color='yellow', alpha=0.8)", "compilation_passed": true, "time": 0.008475303649902344, "tests_passed": false, "error": "AttributeError"}
+{"code": " data.plot.hist(column='parsed_dates', by='country', bins=30, alpha=0.5, figsize=(10, 6))", "compilation_passed": true, "time": 0.02114105224609375, "tests_passed": false, "error": "KeyError"}
+{"code": " data['parsed_dates'].hist(bins=20, range=(min(data['parsed_dates']), max(data['parsed_dates'])), figsize=(10, 8), facecolor='red', edgecolor='black')", "compilation_passed": true, "time": 0.06182408332824707, "tests_passed": true, "error": null}
+{"code": " data['parsed_dates'].plot.hist(bins=10)", "compilation_passed": true, "time": 0.010181188583374023, "tests_passed": false, "error": "TypeError"}
+{"code": " data['parsed_dates'].hist(bins=30)", "compilation_passed": true, "time": 0.07515907287597656, "tests_passed": true, "error": null}
+{"code": " data['parsed_dates'].plot.hist(bins=30)", "compilation_passed": true, "time": 0.010949850082397461, "tests_passed": false, "error": "TypeError"}
+{"code": " data['parsed_dates'].value_counts().plot(kind='hist')", "compilation_passed": true, "time": 0.11248183250427246, "tests_passed": true, "error": null}
+{"code": " data['parsed_dates'].plot.hist(bins=5)", "compilation_passed": true, "time": 0.010107040405273438, "tests_passed": false, "error": "TypeError"}
+{"code": " data['parsed_dates'].hist(bins=365)", "compilation_passed": true, "time": 0.009933710098266602, "tests_passed": false, "error": "       datetime.date(2000, 7, 6)], dtype=object)"}
+{"code": " data['parsed_dates'].value_counts().plot(kind='bar')", "compilation_passed": true, "time": 6.806221008300781, "tests_passed": false, "error": "       '2000-07-06T00"}
+{"code": " data['parsed_dates'].value_counts().plot.hist(bins=10, figsize=(10, 6), color='#FFA500')", "compilation_passed": true, "time": 0.1620631217956543, "tests_passed": false, "error": "       '2000-07-06T00"}
+{"code": " data['parsed_dates'].value_counts().plot(kind='hist', color=\"yellow\", figsize=(6,5), fontsize=10, grid=True, title=\"Date Distribution\")", "compilation_passed": true, "time": 0.0756521224975586, "tests_passed": false, "error": "       '2000-07-06T00"}
+{"code": " data['parsed_dates'].astype(str).value_counts().sort_index().plot(kind='hist', grid=True,", "compilation_passed": false, "time": 0.0008916854858398438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " data['parsed_dates'].dt.to_pydatetime().apply(lambda x: datetime(x.year, x.month, x.day, tzinfo=datetime.now().astimezone().tzinfo).strftime('%x')).value_counts().plot.hist(edgecolor='white', color='blue')", "compilation_passed": true, "time": 0.009782075881958008, "tests_passed": false, "error": "AttributeError"}
+{"code": " data['parsed_dates'].dt.strftime('%B').value_counts().plot(kind='hist')", "compilation_passed": true, "time": 0.00896906852722168, "tests_passed": false, "error": "AttributeError"}
+{"code": " data['parsed_dates'].dt.date.astype('category').cat.set_categories(data['parsed_dates'].dt.date.astype('category').cat.categories.sort_values()).value_counts().plot(kind='bar', figsize=(15, 8))", "compilation_passed": true, "time": 0.009437799453735352, "tests_passed": false, "error": "AttributeError"}
+{"code": " data['parsed_dates'].plot(kind='hist')", "compilation_passed": true, "time": 0.011795997619628906, "tests_passed": false, "error": "TypeError"}
+{"code": " data['parsed_dates'].value_counts().plot(kind='hist', figsize=(10, 7))", "compilation_passed": true, "time": 0.05828285217285156, "tests_passed": false, "error": "       '2000-07-06T00"}
+{"code": " data['parsed_dates'].hist(bins=5)", "compilation_passed": true, "time": 0.010164976119995117, "tests_passed": false, "error": "       datetime.date(2000, 7, 6)], dtype=object)"}
+{"code": " data['parsed_dates'].plot.hist(figsize=(10, 7), bins=30)", "compilation_passed": true, "time": 0.011363983154296875, "tests_passed": false, "error": "TypeError"}
+{"code": " data['parsed_dates'].hist()", "compilation_passed": true, "time": 0.00995492935180664, "tests_passed": false, "error": "       datetime.date(2000, 7, 6)], dtype=object)"}

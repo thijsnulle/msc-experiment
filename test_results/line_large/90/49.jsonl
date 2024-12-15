@@ -1,0 +1,8 @@
+{"code": " data.iloc[nearest_indices]", "compilation_passed": true, "time": 0.014299154281616211, "tests_passed": false, "error": "ValueError"}
+{"code": " data.to_numpy()[nearest_indices].tolist()", "compilation_passed": true, "time": 0.004957914352416992, "tests_passed": true, "error": null}
+{"code": " data.to_numpy()[nearest_indices]", "compilation_passed": true, "time": 0.0051229000091552734, "tests_passed": false, "error": "ValueError"}
+{"code": " data.iloc[nearest_indices].to_numpy().tolist()", "compilation_passed": true, "time": 0.0037560462951660156, "tests_passed": true, "error": null}
+{"code": " [list(coord) for coord in data.to_numpy()[nearest_indices]]", "compilation_passed": true, "time": 0.003331899642944336, "tests_passed": true, "error": null}
+{"code": " [data.to_numpy()[i] for i in nearest_indices]", "compilation_passed": true, "time": 0.0046579837799072266, "tests_passed": false, "error": "ValueError"}
+{"code": " data.iloc[nearest_indices].values.tolist()", "compilation_passed": true, "time": 0.0037839412689208984, "tests_passed": true, "error": null}
+{"code": " [coord for coord in data.to_numpy()[nearest_indices]]", "compilation_passed": true, "time": 0.006724119186401367, "tests_passed": false, "error": "ValueError"}

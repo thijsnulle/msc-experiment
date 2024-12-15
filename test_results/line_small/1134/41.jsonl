@@ -1,0 +1,10 @@
+{"code": "write(f\"{prefix}{hash_object.hexdigest()}\\n{content}\")", "compilation_passed": true, "time": 0.012346029281616211, "tests_passed": true, "error": null}
+{"code": "write(prefix + hash_object.hexdigest() + '\\n')", "compilation_passed": true, "time": 0.010036945343017578, "tests_passed": true, "error": null}
+{"code": "write(f\"{prefix}{hash_object.hexdigest()} {content}\")", "compilation_passed": true, "time": 0.009747982025146484, "tests_passed": true, "error": null}
+{"code": "write(f\"{prefix}{hash_object.hexdigest()}\\n\")", "compilation_passed": true, "time": 0.010675907135009766, "tests_passed": true, "error": null}
+{"code": "write(f'{prefix}{hash_object.hexdigest()} {content}')", "compilation_passed": true, "time": 0.010778188705444336, "tests_passed": true, "error": null}
+{"code": "write(f'{prefix}{hash_object.hexdigest()}\\n{content}')", "compilation_passed": true, "time": 0.015911102294921875, "tests_passed": true, "error": null}
+{"code": "write(f'{prefix}{hash_object.hexdigest()}\\n')", "compilation_passed": true, "time": 0.010901927947998047, "tests_passed": true, "error": null}
+{"code": "write(f'{prefix} {hash_object.hexdigest()} {content}')", "compilation_passed": true, "time": 0.009720087051391602, "tests_passed": true, "error": null}
+{"code": "write(f\"{prefix}{hash_object.hexdigest()}{os.linesep}{content}\")", "compilation_passed": true, "time": 0.011244058609008789, "tests_passed": true, "error": null}
+{"code": "write(prefix + hash_object.hexdigest())", "compilation_passed": true, "time": 0.016448974609375, "tests_passed": true, "error": null}

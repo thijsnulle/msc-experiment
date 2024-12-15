@@ -1,0 +1,21 @@
+{"code": " sns.heatmap(df_pivot, cmap=\"coolwarm\")", "compilation_passed": true, "time": 1.0214929580688477, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot)", "compilation_passed": true, "time": 1.0104608535766602, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, cmap='coolwarm', annot=True, fmt=\".1f\",", "compilation_passed": false, "time": 0.0003161430358886719, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(df_pivot, cmap=\"coolwarm\", annot=False)", "compilation_passed": true, "time": 1.0183777809143066, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, annot=True, fmt=\"d\")", "compilation_passed": true, "time": 0.5993430614471436, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(df_pivot, cmap='coolwarm', linewidth=0.5, annot=True, fmt='d', cbar_kws={'label': 'Temperature (\u00b0C)'})", "compilation_passed": true, "time": 0.6884076595306396, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(df_pivot, cmap=\"YlOrRd\", annot=True, fmt=\".0f\")", "compilation_passed": true, "time": 1.0127990245819092, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, cmap=\"coolwarm\", annot=True, fmt=\"d\")", "compilation_passed": true, "time": 0.9708530902862549, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(df_pivot, cmap='coolwarm', annot=False, fmt=\".2f\")", "compilation_passed": true, "time": 1.0244617462158203, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, annot=False, linewidths=0.5, cmap=\"coolwarm\")", "compilation_passed": true, "time": 1.0237700939178467, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, cmap=\"RdYlBu\", annot=True, fmt=\".0f\", linewidths=.5, cbar_kws={\"shrink\": .5})", "compilation_passed": true, "time": 1.01680326461792, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, cmap=\"YlGnBu\", annot=True, fmt=\"d\",", "compilation_passed": false, "time": 0.0002808570861816406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(df_pivot, cmap=\"RdYlBu\", annot=True, fmt=\".1f\")", "compilation_passed": true, "time": 1.0162858963012695, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, cmap=\"RdYlBu\")", "compilation_passed": true, "time": 1.0124671459197998, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, cmap='coolwarm')", "compilation_passed": true, "time": 1.0125207901000977, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, cmap=\"coolwarm\", annot=True)", "compilation_passed": true, "time": 1.013092041015625, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, annot=False, cmap='coolwarm')", "compilation_passed": true, "time": 1.0201148986816406, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, cmap='coolwarm', annot=True)", "compilation_passed": true, "time": 1.013465166091919, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, cmap=\"Blues\", linewidths=0.5)", "compilation_passed": true, "time": 1.0200121402740479, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, cmap='coolwarm', annot=False)", "compilation_passed": true, "time": 1.0144479274749756, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df_pivot, cmap=\"coolwarm\", linewidths=.5, annot=True, fmt=\".0f\")", "compilation_passed": true, "time": 1.010763168334961, "tests_passed": false, "error": "TimeoutError"}

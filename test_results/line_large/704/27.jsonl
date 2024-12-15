@@ -1,0 +1,18 @@
+{"code": " not isinstance(data, list) or not all(isinstance(row, list) for row in data):", "compilation_passed": true, "time": 0.0045888423919677734, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, list) or not all(isinstance(x, list) for x in data):", "compilation_passed": true, "time": 0.00368499755859375, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, list) or not isinstance(cols, list) or not isinstance(percentage, float):", "compilation_passed": true, "time": 0.00414586067199707, "tests_passed": true, "error": null}
+{"code": " not isinstance(cols, list):", "compilation_passed": true, "time": 0.0033500194549560547, "tests_passed": true, "error": null}
+{"code": " percentage < 0 or percentage > 1:", "compilation_passed": true, "time": 0.003689289093017578, "tests_passed": true, "error": null}
+{"code": " len(cols) < 2:", "compilation_passed": true, "time": 0.004102230072021484, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(i, list) for i in data):", "compilation_passed": true, "time": 0.0037670135498046875, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, list):", "compilation_passed": true, "time": 0.0035810470581054688, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, pd.DataFrame):", "compilation_passed": true, "time": 0.00979304313659668, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(data, list) or not isinstance(data[0], list):", "compilation_passed": true, "time": 0.0032567977905273438, "tests_passed": true, "error": null}
+{"code": " not (isinstance(data, list) and all(isinstance(row, list) for row in data)):", "compilation_passed": true, "time": 0.005012989044189453, "tests_passed": true, "error": null}
+{"code": " len(cols) != len(data):", "compilation_passed": true, "time": 0.0037078857421875, "tests_passed": true, "error": null}
+{"code": " isinstance(data, list) and isinstance(data[0], list):", "compilation_passed": true, "time": 0.010288715362548828, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(data, list) or not isinstance(cols, list) or not isinstance(percentage, float) \\", "compilation_passed": false, "time": 0.00012993812561035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " len(data[0]) != len(cols):", "compilation_passed": true, "time": 0.003898143768310547, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(col, str) for col in cols):", "compilation_passed": true, "time": 0.00356292724609375, "tests_passed": true, "error": null}
+{"code": " not (isinstance(data, list) and isinstance(cols, list) and isinstance(percentage, float)):", "compilation_passed": true, "time": 0.004473209381103516, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, list) or not isinstance(data[0], list) or not isinstance(cols, list):", "compilation_passed": true, "time": 0.003667116165161133, "tests_passed": true, "error": null}

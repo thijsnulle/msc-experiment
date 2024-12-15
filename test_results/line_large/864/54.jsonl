@@ -1,0 +1,14 @@
+{"code": " pd.DataFrame({'Total Count': total_counts, 'Average Count': avg_counts})", "compilation_passed": false, "time": 0.00023984909057617188, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Total Count': total_counts, 'Average Count': avg_counts},", "compilation_passed": true, "time": 0.013900041580200195, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(index=fruits)", "compilation_passed": false, "time": 0.00023698806762695312, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Total Count': total_counts.values(),", "compilation_passed": false, "time": 0.0002989768981933594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(list(zip(total_counts.values(), avg_counts.values())), index=total_counts.keys(),", "compilation_passed": false, "time": 0.001954793930053711, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Total Count': [total_counts[fruit] for fruit in fruits],", "compilation_passed": false, "time": 0.000244140625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Total Count': total_counts,", "compilation_passed": false, "time": 0.0002281665802001953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame()", "compilation_passed": false, "time": 0.0002257823944091797, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(columns=['Total Count', 'Average Count'])", "compilation_passed": false, "time": 0.00022602081298828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Total Count': total_counts, 'Average Count': avg_counts}, index=fruits)", "compilation_passed": false, "time": 0.00026798248291015625, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00035691261291503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(index=fruits,", "compilation_passed": false, "time": 0.0020296573638916016, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(data=[(total_counts[fruit], avg_counts[fruit]) for fruit in fruits],", "compilation_passed": true, "time": 0.01110982894897461, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Total Count': total_counts.values(), 'Average Count': avg_counts.values()},", "compilation_passed": true, "time": 0.012654304504394531, "tests_passed": true, "error": null}

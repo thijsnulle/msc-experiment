@@ -1,0 +1,10 @@
+{"code": " X_test, y_train, y_test = train_test_split(df, df[target_column], test_size=test_size)", "compilation_passed": false, "time": 0.0004317760467529297, "tests_passed": false, "error": "IndentationError"}
+{"code": " X_test, y_train, y_test = train_test_split(df.drop(columns=target_column), df[target_column], test_size=test_size)", "compilation_passed": false, "time": 0.00046706199645996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " X_test, y_train, y_test = train_test_split(", "compilation_passed": true, "time": 0.017172813415527344, "tests_passed": true, "error": null}
+{"code": " X_test, y_train, y_test = train_test_split(df.drop(columns=target_column), df[target_column],", "compilation_passed": true, "time": 0.017954111099243164, "tests_passed": false, "error": "ValueError"}
+{"code": " X_test, y_train, y_test = train_test_split(df.drop(columns=target_column),", "compilation_passed": true, "time": 0.01783299446105957, "tests_passed": false, "error": "ValueError"}
+{"code": " X_test, y_train, y_test = train_test_split(df.drop(columns=target_column), df[target_column], test_size=test_size, random_state=1)", "compilation_passed": false, "time": 0.0004601478576660156, "tests_passed": false, "error": "IndentationError"}
+{"code": " X_test, y_train, y_test = train_test_split(df, df[target_column], test_size=test_size, random_state=42)", "compilation_passed": false, "time": 0.0004417896270751953, "tests_passed": false, "error": "IndentationError"}
+{"code": " X_test, y_train, y_test = train_test_split(df.drop(", "compilation_passed": false, "time": 0.00045418739318847656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " X_test, y_train, y_test = train_test_split(df,", "compilation_passed": true, "time": 0.01712203025817871, "tests_passed": false, "error": "ValueError"}
+{"code": " X_test, y_train, y_test = train_test_split(df.drop(target_column, axis=1),", "compilation_passed": true, "time": 0.017641782760620117, "tests_passed": false, "error": "ValueError"}

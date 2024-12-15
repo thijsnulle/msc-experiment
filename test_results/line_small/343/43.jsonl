@@ -1,0 +1,30 @@
+{"code": " df[col].value_counts().plot(kind='pie', figsize=(7, 7), autopct='%1.1f%%', legend=False)", "compilation_passed": true, "time": 0.27374792098999023, "tests_passed": true, "error": null}
+{"code": " value_counts.plot(kind='pie', figsize=(7, 7), labels=value_counts.index,", "compilation_passed": false, "time": 0.0002601146697998047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.pie(value_counts, labels=value_counts.index, colors=COLORS, textprops={'color': 'black'})", "compilation_passed": true, "time": 0.0177919864654541, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(title=title, labels=value_counts.index, autopct='%1.2f%%', colors=COLORS)", "compilation_passed": true, "time": 0.05267524719238281, "tests_passed": true, "error": null}
+{"code": " value_counts.plot(kind='pie', colors=COLORS, autopct='%1.2f%%', title=title, label='', figsize=(8, 8))", "compilation_passed": true, "time": 0.2688119411468506, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(y='count', autopct='%.2f%%', colors=COLORS, figsize=(10, 10), title=title, label=\"\", legend=False)", "compilation_passed": true, "time": 0.2714078426361084, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(autopct='%1.2f%%', colors=COLORS, title=title)", "compilation_passed": true, "time": 0.0540308952331543, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(y='count', figsize=(3, 3),", "compilation_passed": false, "time": 0.0005059242248535156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " value_counts.plot.pie(y='counts', figsize=(6, 6), autopct='%1.1f%%', labels=value_counts.index.tolist(),", "compilation_passed": false, "time": 0.0002770423889160156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.pie(value_counts.values, labels=value_counts.index, colors=COLORS, autopct='%1.1f%%')", "compilation_passed": true, "time": 0.024888038635253906, "tests_passed": true, "error": null}
+{"code": " df[col].value_counts().plot.pie(colors=COLORS, autopct=\"%1.2f%%\")", "compilation_passed": true, "time": 0.06553077697753906, "tests_passed": true, "error": null}
+{"code": " plt.pie(value_counts, colors=COLORS, autopct='%1.2f%%')", "compilation_passed": true, "time": 0.022928714752197266, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(title=title, colors=COLORS, figsize=(10, 10))", "compilation_passed": true, "time": 0.29272007942199707, "tests_passed": true, "error": null}
+{"code": " plt.pie(value_counts, colors=COLORS, labels=None,", "compilation_passed": false, "time": 0.00024390220642089844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " value_counts.plot.pie(autopct='%1.2f%%', subplots=True, figsize=(10, 10), colors=COLORS)", "compilation_passed": true, "time": 0.03885173797607422, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(y=col, labels=value_counts.index, colors=COLORS, autopct='%.2f%%', title=title)", "compilation_passed": true, "time": 0.06419801712036133, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(y='count', figsize=(8, 8), autopct='%1.1f%%',", "compilation_passed": false, "time": 0.00033402442932128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " value_counts.plot.pie(y='count', figsize=(8, 8), legend=False, autopct='%1.1f%%', colors=COLORS)", "compilation_passed": true, "time": 0.35162806510925293, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(autopct='%1.2f%%', colors=COLORS, title=title, figsize=(8, 8))", "compilation_passed": true, "time": 2.054086208343506, "tests_passed": true, "error": null}
+{"code": " plt.pie(value_counts, labels=value_counts.index, colors=COLORS)", "compilation_passed": true, "time": 0.01790595054626465, "tests_passed": true, "error": null}
+{"code": " plt.subplots()[1]", "compilation_passed": true, "time": 0.3853921890258789, "tests_passed": true, "error": null}
+{"code": " df[col].value_counts().plot.pie(autopct='%1.1f%%', figsize=(5, 5), legend=False, colors=COLORS, label=None)", "compilation_passed": true, "time": 0.2805650234222412, "tests_passed": true, "error": null}
+{"code": " sns.catplot(x=col, y=value_counts, data=df, hue=value_counts, axlabel=value_counts, axlabel=value_counts, height=6, aspect=4)", "compilation_passed": false, "time": 0.0008990764617919922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.pie(value_counts, labels=value_counts.index, colors=[COLORS[i % len(COLORS)] for i in range(len(value_counts))])", "compilation_passed": true, "time": 0.018905162811279297, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(labels=value_counts.index, colors=COLORS, title=title)", "compilation_passed": true, "time": 0.04729819297790527, "tests_passed": true, "error": null}
+{"code": " df[col].value_counts().plot(kind='pie', figsize=(12, 6), autopct='%.2f%%', colors=COLORS)", "compilation_passed": true, "time": 0.2605631351470947, "tests_passed": true, "error": null}
+{"code": " df[col].plot.pie(values=value_counts.index, autopct='%1.1f%%', figsize=(6, 6))", "compilation_passed": true, "time": 0.01967477798461914, "tests_passed": false, "error": "TypeError"}
+{"code": " value_counts.plot.pie(", "compilation_passed": false, "time": 0.0001971721649169922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.pie(value_counts, labels=value_counts.index, colors=COLORS,", "compilation_passed": false, "time": 0.00021195411682128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " value_counts.plot.pie(title=title, autopct='%1.2f%%', colors=[COLORS[i] for i in range(len(value_counts))])", "compilation_passed": true, "time": 0.04829096794128418, "tests_passed": true, "error": null}

@@ -1,0 +1,13 @@
+{"code": " np.abs(norm.ppf(data, loc=mean, scale=std_dev))", "compilation_passed": true, "time": 0.014568805694580078, "tests_passed": true, "error": null}
+{"code": " np.abs(norm.ppf((data - mean) / std_dev))", "compilation_passed": true, "time": 0.008940935134887695, "tests_passed": true, "error": null}
+{"code": " norm.ppf(norm.cdf(data, loc=mean, scale=std_dev))", "compilation_passed": true, "time": 0.08701682090759277, "tests_passed": true, "error": null}
+{"code": " (data - mean) / std_dev", "compilation_passed": true, "time": 0.08274984359741211, "tests_passed": true, "error": null}
+{"code": " np.abs(np.array(data) - mean) / std_dev", "compilation_passed": true, "time": 0.07410407066345215, "tests_passed": true, "error": null}
+{"code": " abs((data - mean) / std_dev)", "compilation_passed": true, "time": 0.07420897483825684, "tests_passed": true, "error": null}
+{"code": " norm.ppf(data, loc=mean, scale=std_dev)", "compilation_passed": true, "time": 0.01023101806640625, "tests_passed": true, "error": null}
+{"code": " norm.ppf(data, mean, std_dev)", "compilation_passed": true, "time": 0.008832931518554688, "tests_passed": true, "error": null}
+{"code": " abs(norm.ppf(data, loc=mean, scale=std_dev))", "compilation_passed": true, "time": 0.007305145263671875, "tests_passed": true, "error": null}
+{"code": " norm.ppf(norm.cdf(data - mean) / (1.0 + norm.cdf(data - mean)))", "compilation_passed": true, "time": 0.0071599483489990234, "tests_passed": true, "error": null}
+{"code": " abs(norm.ppf(data, mean, std_dev))", "compilation_passed": true, "time": 0.008760213851928711, "tests_passed": true, "error": null}
+{"code": " (data - mean)/std_dev", "compilation_passed": true, "time": 0.13592910766601562, "tests_passed": true, "error": null}
+{"code": " np.abs((data - mean) / std_dev)", "compilation_passed": true, "time": 0.06816601753234863, "tests_passed": true, "error": null}

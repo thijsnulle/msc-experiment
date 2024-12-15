@@ -1,0 +1,7 @@
+{"code": " csv.DictWriter(file, fieldnames=['Hour'] + DATA)", "compilation_passed": true, "time": 0.023117780685424805, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.writer(file)", "compilation_passed": true, "time": 0.009052276611328125, "tests_passed": true, "error": null}
+{"code": " csv.DictWriter(file, fieldnames=DATA)", "compilation_passed": true, "time": 0.01870417594909668, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.writer(file, delimiter='\\t')", "compilation_passed": true, "time": 0.014594078063964844, "tests_passed": true, "error": null}
+{"code": " csv.DictWriter(file, fieldnames=['hour', *DATA])", "compilation_passed": true, "time": 0.01863408088684082, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.DictWriter(file, fieldnames=['Time'] + DATA)", "compilation_passed": true, "time": 0.01871800422668457, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.writer(file, delimiter=',')", "compilation_passed": true, "time": 0.009584903717041016, "tests_passed": true, "error": null}

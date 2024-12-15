@@ -1,0 +1,15 @@
+{"code": "ord('a') + i)", "compilation_passed": true, "time": 0.019290924072265625, "tests_passed": false, "error": "NameError"}
+{"code": "ord(\"a\") + i) for i in range(min(columns, 26))", "compilation_passed": true, "time": 0.0032188892364501953, "tests_passed": true, "error": null}
+{"code": "code) for code in range(ord(\"a\"), ord(\"a\") + columns)", "compilation_passed": true, "time": 0.002907991409301758, "tests_passed": true, "error": null}
+{"code": "i) for i in np.linspace(ord(\"a\"), ord(\"z\"), num=columns, dtype=int)", "compilation_passed": true, "time": 0.007788181304931641, "tests_passed": true, "error": null}
+{"code": "ord(\"a\") + i) for i in range(columns)", "compilation_passed": true, "time": 0.003264904022216797, "tests_passed": true, "error": null}
+{"code": "i) for i in range(ord('a'), ord('z') + 1)", "compilation_passed": true, "time": 0.015099048614501953, "tests_passed": false, "error": "ValueError"}
+{"code": "i + ord(\"a\")) for i in range(min(columns, 26))", "compilation_passed": true, "time": 0.003202199935913086, "tests_passed": true, "error": null}
+{"code": "ord('a') + i) for i in range(columns)", "compilation_passed": true, "time": 0.0033180713653564453, "tests_passed": true, "error": null}
+{"code": "97 + i) for i in range(columns)", "compilation_passed": true, "time": 0.0031180381774902344, "tests_passed": true, "error": null}
+{"code": "i + ord(\"a\")) for i in range(min(26, columns))", "compilation_passed": true, "time": 0.003141164779663086, "tests_passed": true, "error": null}
+{"code": "ord(\"a\") + i)", "compilation_passed": true, "time": 0.011359930038452148, "tests_passed": false, "error": "NameError"}
+{"code": "i) for i in range(97, 97 + columns)", "compilation_passed": true, "time": 0.002803802490234375, "tests_passed": true, "error": null}
+{"code": "i + 97)", "compilation_passed": true, "time": 0.013202905654907227, "tests_passed": false, "error": "NameError"}
+{"code": "i) for i in range(ord('a'), ord('a') + columns)", "compilation_passed": true, "time": 0.0032167434692382812, "tests_passed": true, "error": null}
+{"code": "code) for code in np.arange(ord(\"a\"), ord(\"a\") + columns)", "compilation_passed": true, "time": 0.002972126007080078, "tests_passed": true, "error": null}

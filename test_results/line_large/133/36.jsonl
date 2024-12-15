@@ -1,0 +1,9 @@
+{"code": " scaler.fit_transform(df[last_col_name].values.reshape(-1, 1))", "compilation_passed": true, "time": 0.47055602073669434, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df[[last_col_name]]).flatten()", "compilation_passed": true, "time": 0.18798017501831055, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df[[last_col_name]])", "compilation_passed": true, "time": 0.19511008262634277, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df.iloc[:, -1].values.reshape(-1, 1)).flatten()", "compilation_passed": true, "time": 0.170212984085083, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df[last_col_name].values.reshape(-1, 1)).ravel()", "compilation_passed": true, "time": 0.17187023162841797, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df.iloc[:, -1].values.reshape(-1, 1))", "compilation_passed": true, "time": 0.19629287719726562, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df[last_col_name].values.reshape(-1, 1)).flatten()", "compilation_passed": true, "time": 0.22264385223388672, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(np.array(df[last_col_name]).reshape(-1, 1)).flatten()", "compilation_passed": true, "time": 0.18911385536193848, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(np.array(df[last_col_name]).reshape(-1, 1))", "compilation_passed": true, "time": 0.20788002014160156, "tests_passed": true, "error": null}

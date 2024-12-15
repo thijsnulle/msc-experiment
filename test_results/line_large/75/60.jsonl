@@ -1,0 +1,12 @@
+{"code": " []", "compilation_passed": true, "time": 0.008937835693359375, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(data, columns=['Fruit', 'Day'])", "compilation_passed": true, "time": 0.31719398498535156, "tests_passed": true, "error": null}
+{"code": " [{'Fruit': fruit, 'Day': day, 'Sales': np.random.randint(sales_lower_bound, sales_upper_bound)} for", "compilation_passed": false, "time": 0.00037980079650878906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Fruit': [d[0] for d in data],", "compilation_passed": false, "time": 0.0003578662872314453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'Fruit': [], 'Day': [], 'Sales': []}", "compilation_passed": true, "time": 0.014568328857421875, "tests_passed": false, "error": "TypeError"}
+{"code": " [{'Fruit': fruit, 'Day': day, 'Sales': np.random.randint(sales_lower_bound, sales_upper_bound + 1)}", "compilation_passed": false, "time": 0.0004248619079589844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(row[0], row[1], np.random.randint(sales_lower_bound, sales_upper_bound + 1)) for row in data]", "compilation_passed": true, "time": 0.01040506362915039, "tests_passed": false, "error": "TypeError"}
+{"code": " [(fruit, day, np.random.randint(sales_lower_bound, sales_upper_bound)) for (fruit, day) in data]", "compilation_passed": true, "time": 0.009726762771606445, "tests_passed": false, "error": "TypeError"}
+{"code": " [{'Fruit': fruit, 'Day': day, 'Sales': np.random.randint(sales_lower_bound, sales_upper_bound + 1)} for fruit, day in data]", "compilation_passed": true, "time": 0.009103775024414062, "tests_passed": false, "error": "TypeError"}
+{"code": " [(fruit, day, np.random.randint(sales_lower_bound, sales_upper_bound + 1)) for fruit, day in data]", "compilation_passed": true, "time": 0.010807991027832031, "tests_passed": false, "error": "TypeError"}
+{"code": " [{", "compilation_passed": false, "time": 0.00046896934509277344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [{'Fruit': fruit, 'Day': day, 'Sales': np.random.randint(sales_lower_bound, sales_upper_bound)} for (fruit, day) in data]", "compilation_passed": true, "time": 0.0109710693359375, "tests_passed": false, "error": "TypeError"}

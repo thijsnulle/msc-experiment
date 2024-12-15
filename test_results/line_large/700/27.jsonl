@@ -1,0 +1,13 @@
+{"code": " np.array(df)", "compilation_passed": true, "time": 0.005922079086303711, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=['float', 'int']).to_numpy()", "compilation_passed": true, "time": 0.009763240814208984, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=np.number).to_numpy()", "compilation_passed": true, "time": 0.00646519660949707, "tests_passed": true, "error": null}
+{"code": " df.to_numpy()", "compilation_passed": true, "time": 0.00475001335144043, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=[np.number]).to_numpy()", "compilation_passed": true, "time": 0.005436897277832031, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include='number').to_numpy()", "compilation_passed": true, "time": 0.0053730010986328125, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=['float'])", "compilation_passed": true, "time": 0.0053479671478271484, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes('number').to_numpy()", "compilation_passed": true, "time": 0.005494117736816406, "tests_passed": true, "error": null}
+{"code": " np.asarray(df, dtype=np.float32)", "compilation_passed": true, "time": 0.00472712516784668, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=[np.float, np.int])", "compilation_passed": true, "time": 0.005506277084350586, "tests_passed": true, "error": null}
+{"code": " df.corr().to_numpy()", "compilation_passed": true, "time": 0.005002021789550781, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include='float64').to_numpy()", "compilation_passed": true, "time": 0.0051462650299072266, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=['number']).to_numpy()", "compilation_passed": true, "time": 0.005217075347900391, "tests_passed": true, "error": null}

@@ -1,0 +1,15 @@
+{"code": " sales_df.index.to_numpy().reshape(-1, 1)", "compilation_passed": true, "time": 0.0067119598388671875, "tests_passed": true, "error": null}
+{"code": " np.array(sales_df.index).reshape(-1, 1)", "compilation_passed": true, "time": 0.006788015365600586, "tests_passed": true, "error": null}
+{"code": " sales_df['Date'].astype('int64').values.reshape(-1, 1)", "compilation_passed": true, "time": 0.006368160247802734, "tests_passed": true, "error": null}
+{"code": " np.array(range(len(sales_df['Sales']))).reshape(-1, 1)", "compilation_passed": true, "time": 0.00670313835144043, "tests_passed": true, "error": null}
+{"code": " sales_df[['Date']]", "compilation_passed": true, "time": 0.007746219635009766, "tests_passed": true, "error": null}
+{"code": " np.arange(periods).reshape(-1, 1)", "compilation_passed": true, "time": 0.007086038589477539, "tests_passed": true, "error": null}
+{"code": " sales_df.index.to_frame().values", "compilation_passed": true, "time": 0.0074350833892822266, "tests_passed": true, "error": null}
+{"code": " np.arange(len(sales_df)).reshape(-1, 1)", "compilation_passed": true, "time": 0.0067331790924072266, "tests_passed": true, "error": null}
+{"code": " np.array(sales_df.index).reshape(-1, 1)  # Use sales data's index as the input features", "compilation_passed": true, "time": 0.006452083587646484, "tests_passed": true, "error": null}
+{"code": " np.array(np.arange(1, sales_df['Sales'].shape[0]+1)).reshape(-1, 1)", "compilation_passed": true, "time": 0.006962776184082031, "tests_passed": true, "error": null}
+{"code": " sales_df['Date'].astype(int).values.reshape(-1, 1)", "compilation_passed": true, "time": 0.006897926330566406, "tests_passed": true, "error": null}
+{"code": " np.array(sales_df['Date'].astype('int64').values).reshape(-1, 1)", "compilation_passed": true, "time": 0.006456136703491211, "tests_passed": true, "error": null}
+{"code": " sales_df['Sales'].values.reshape(-1, 1)", "compilation_passed": true, "time": 0.006469011306762695, "tests_passed": true, "error": null}
+{"code": " np.array(range(periods)).reshape(-1, 1)", "compilation_passed": true, "time": 0.006766080856323242, "tests_passed": true, "error": null}
+{"code": " np.arange(len(sales_data)).reshape(-1, 1)", "compilation_passed": true, "time": 0.007328033447265625, "tests_passed": true, "error": null}

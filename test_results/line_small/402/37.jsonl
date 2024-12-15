@@ -1,0 +1,6 @@
+{"code": " json.loads(response.text)", "compilation_passed": true, "time": 0.006463050842285156, "tests_passed": true, "error": null}
+{"code": " response.json()['data']", "compilation_passed": true, "time": 0.009289979934692383, "tests_passed": false, "error": "TypeError"}
+{"code": " response.json()", "compilation_passed": true, "time": 0.005970954895019531, "tests_passed": true, "error": null}
+{"code": " json.loads(response.text)['data']", "compilation_passed": true, "time": 0.009080171585083008, "tests_passed": false, "error": "TypeError"}
+{"code": " json.loads(response.content)", "compilation_passed": true, "time": 0.010481119155883789, "tests_passed": false, "error": "AttributeError"}
+{"code": " response.json().get('data')", "compilation_passed": true, "time": 0.009414911270141602, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,25 @@
+{"code": " list(range(1, 7))", "compilation_passed": true, "time": 0.6459190845489502, "tests_passed": true, "error": null}
+{"code": " [i for i in range(1, 7)]", "compilation_passed": true, "time": 0.81296706199646, "tests_passed": true, "error": null}
+{"code": " range(1, 7)", "compilation_passed": true, "time": 0.6418590545654297, "tests_passed": true, "error": null}
+{"code": " list(range(2, num_dice * 6 + 1))", "compilation_passed": true, "time": 0.7388310432434082, "tests_passed": true, "error": null}
+{"code": " (1, 2, 3, 4, 5, 6)", "compilation_passed": true, "time": 0.637470006942749, "tests_passed": true, "error": null}
+{"code": " [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]", "compilation_passed": true, "time": 0.6894383430480957, "tests_passed": true, "error": null}
+{"code": " [x for x in range(num_dice, num_dice * 6 + 1)]", "compilation_passed": true, "time": 0.8321857452392578, "tests_passed": true, "error": null}
+{"code": " [i + j for i in range(1, 7) for j in range(1, 7)]", "compilation_passed": true, "time": 0.706287145614624, "tests_passed": true, "error": null}
+{"code": " [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]", "compilation_passed": true, "time": 0.7158551216125488, "tests_passed": true, "error": null}
+{"code": " [i for i in range(2, 7)]", "compilation_passed": true, "time": 0.6544041633605957, "tests_passed": true, "error": null}
+{"code": " range(num_dice, num_dice * 6 + 1)  # generate possible values", "compilation_passed": true, "time": 0.706812858581543, "tests_passed": true, "error": null}
+{"code": " list(range(num_dice, 6*num_dice+1))", "compilation_passed": true, "time": 0.6982588768005371, "tests_passed": true, "error": null}
+{"code": " 6  # number of sides on each dice", "compilation_passed": true, "time": 0.034697771072387695, "tests_passed": false, "error": "TypeError"}
+{"code": " [i for i in range(num_dice, num_dice * 6 + 1)]", "compilation_passed": true, "time": 0.7198288440704346, "tests_passed": true, "error": null}
+{"code": " 6  # Number of sides on each die", "compilation_passed": true, "time": 0.029642820358276367, "tests_passed": false, "error": "TypeError"}
+{"code": " 6", "compilation_passed": true, "time": 0.03201889991760254, "tests_passed": false, "error": "TypeError"}
+{"code": " list(range(num_dice, num_dice * 6 + 1))", "compilation_passed": true, "time": 0.769794225692749, "tests_passed": true, "error": null}
+{"code": " list(range(2, num_dice*6 + 1))", "compilation_passed": true, "time": 0.7492270469665527, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0001888275146484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [i for i in range(num_dice, 6*num_dice + 1)]", "compilation_passed": true, "time": 0.7199099063873291, "tests_passed": true, "error": null}
+{"code": " [num_dice + i for i in range(num_dice, num_dice * 6 + 1)]", "compilation_passed": true, "time": 0.7161290645599365, "tests_passed": true, "error": null}
+{"code": " [i for i in range(num_dice, 6 * num_dice + 1)]", "compilation_passed": true, "time": 0.7356400489807129, "tests_passed": true, "error": null}
+{"code": " [i+num_dice for i in range(num_dice, 6*num_dice+1)]", "compilation_passed": true, "time": 0.7328808307647705, "tests_passed": true, "error": null}
+{"code": " [i for i in range(1, 6 * num_dice + 1)]", "compilation_passed": true, "time": 0.7350220680236816, "tests_passed": true, "error": null}
+{"code": " [i for i in range(1, 6 + 1)]", "compilation_passed": true, "time": 0.6658339500427246, "tests_passed": true, "error": null}

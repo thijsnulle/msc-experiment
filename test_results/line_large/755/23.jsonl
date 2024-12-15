@@ -1,0 +1,6 @@
+{"code": " in glob.glob(f\"{directory_path}/*\"):", "compilation_passed": true, "time": 0.00693202018737793, "tests_passed": true, "error": null}
+{"code": " in os.listdir(directory_path):", "compilation_passed": true, "time": 0.008124113082885742, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " in glob.glob(directory_path + '/*'):", "compilation_passed": true, "time": 0.005527973175048828, "tests_passed": true, "error": null}
+{"code": " in glob.glob(directory_path + \"/*\"):", "compilation_passed": true, "time": 0.005703926086425781, "tests_passed": true, "error": null}
+{"code": " in glob.glob(os.path.join(directory_path, \"*\")):", "compilation_passed": true, "time": 0.006918907165527344, "tests_passed": true, "error": null}
+{"code": " in glob.glob(os.path.join(directory_path, '*')):", "compilation_passed": true, "time": 0.0064239501953125, "tests_passed": true, "error": null}

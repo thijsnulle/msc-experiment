@@ -1,0 +1,19 @@
+{"code": "scatter(result[:, 0], result[:, 1], result[:, 2])", "compilation_passed": true, "time": 0.056513071060180664, "tests_passed": true, "error": null}
+{"code": "plot(result)", "compilation_passed": true, "time": 0.03282308578491211, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(result[:, 0], result[:, 1], result[:, 2], c=\"r\", marker=\"o\")", "compilation_passed": true, "time": 0.047209978103637695, "tests_passed": true, "error": null}
+{"code": "scatter(result[:, 0], result[:, 1], result[:, 2], c=\"red\", alpha=0.5)", "compilation_passed": true, "time": 0.05706191062927246, "tests_passed": true, "error": null}
+{"code": "plot_surface(result[0], result[1], result[2], color=\"b\")", "compilation_passed": true, "time": 0.03810906410217285, "tests_passed": false, "error": "ValueError"}
+{"code": "set_xlabel(\"X\")", "compilation_passed": true, "time": 0.05206894874572754, "tests_passed": true, "error": null}
+{"code": "scatter3D(result[:, 0], result[:, 1], result[:, 2], c=result[:, 2])", "compilation_passed": true, "time": 0.05913233757019043, "tests_passed": true, "error": null}
+{"code": "scatter3D(*result)", "compilation_passed": true, "time": 0.06439995765686035, "tests_passed": false, "error": "TypeError"}
+{"code": "bar3d(", "compilation_passed": false, "time": 0.0004649162292480469, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_xlabel(\"x\")", "compilation_passed": true, "time": 0.0527348518371582, "tests_passed": true, "error": null}
+{"code": "set_xlim(0, 3)", "compilation_passed": true, "time": 0.05197405815124512, "tests_passed": true, "error": null}
+{"code": "plot(result[:, 0], result[:, 1], result[:, 2])", "compilation_passed": true, "time": 0.05029726028442383, "tests_passed": true, "error": null}
+{"code": "scatter(result[:, 0], result[:, 1], result[:, 2], c=\"purple\")", "compilation_passed": true, "time": 0.05698895454406738, "tests_passed": true, "error": null}
+{"code": "scatter3D(result[:, 0], result[:, 1], result[:, 2])", "compilation_passed": true, "time": 0.056816816329956055, "tests_passed": true, "error": null}
+{"code": "scatter(result[:, 0], result[:, 1], result[:, 2], c=\"red\")", "compilation_passed": true, "time": 0.05703997611999512, "tests_passed": true, "error": null}
+{"code": "scatter(result[:, 0], result[:, 1], result[:, 2], c=\"red\", marker=\"o\")", "compilation_passed": true, "time": 0.05675172805786133, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"x-axis\")", "compilation_passed": true, "time": 0.05263209342956543, "tests_passed": true, "error": null}
+{"code": "set_box_aspect([1, 1, 1])  # Ensure the axes are of equal length", "compilation_passed": true, "time": 0.05240201950073242, "tests_passed": true, "error": null}
+{"code": "set_xlabel('X')", "compilation_passed": true, "time": 0.05279707908630371, "tests_passed": true, "error": null}

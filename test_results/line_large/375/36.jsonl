@@ -1,0 +1,13 @@
+{"code": "scatter(principalComponents[:,0], principalComponents[:,1])", "compilation_passed": true, "time": 0.0814809799194336, "tests_passed": true, "error": null}
+{"code": "title('PCA Result')", "compilation_passed": true, "time": 0.029242277145385742, "tests_passed": false, "error": "IndexError"}
+{"code": "scatter(principalComponents[:, 0], principalComponents[:, 1])", "compilation_passed": true, "time": 0.08316493034362793, "tests_passed": true, "error": null}
+{"code": "title('PCA Result', fontsize=10, fontweight='bold')", "compilation_passed": true, "time": 0.0293121337890625, "tests_passed": false, "error": "IndexError"}
+{"code": "scatter(principalComponents[:, 0], principalComponents[:, 1], marker='o', alpha=0.8)", "compilation_passed": true, "time": 0.08319306373596191, "tests_passed": true, "error": null}
+{"code": "title('PCA Result', fontsize = 15, color = \"r\")", "compilation_passed": true, "time": 0.02912306785583496, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(principalComponents[:,0], principalComponents[:,1], 'o', label='Scatter plot')", "compilation_passed": true, "time": 0.030595064163208008, "tests_passed": false, "error": "IndexError"}
+{"code": "scatter(principalComponents[:,0], principalComponents[:, 1])", "compilation_passed": true, "time": 0.08252787590026855, "tests_passed": true, "error": null}
+{"code": "scatter(principalComponents[:, 0], principalComponents[:, 1], c='#ee7ab2', alpha=0.8)", "compilation_passed": true, "time": 0.08371996879577637, "tests_passed": true, "error": null}
+{"code": "title('PCA Result', fontsize=18)", "compilation_passed": true, "time": 0.029324054718017578, "tests_passed": false, "error": "IndexError"}
+{"code": "title(\"PCA Result\", size=20)", "compilation_passed": true, "time": 0.0265200138092041, "tests_passed": false, "error": "IndexError"}
+{"code": "title(\"PCA Result\")", "compilation_passed": true, "time": 0.029395341873168945, "tests_passed": false, "error": "IndexError"}
+{"code": "xlabel(\"First Principal Component\")", "compilation_passed": true, "time": 0.029371261596679688, "tests_passed": false, "error": "IndexError"}

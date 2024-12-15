@@ -1,0 +1,18 @@
+{"code": " {key: [random.randint(0, 100) for _ in range(random.randint(1, 10))]", "compilation_passed": false, "time": 0.00016379356384277344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {}", "compilation_passed": true, "time": 0.004730939865112305, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.0001277923583984375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dict()", "compilation_passed": true, "time": 0.004209280014038086, "tests_passed": true, "error": null}
+{"code": " {c: random.sample(range(0, 100), random.randint(1, 10))", "compilation_passed": false, "time": 0.0001220703125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {letter: random.sample(range(0, 100), random.randint(1, 10)) for letter in LETTERS}", "compilation_passed": true, "time": 0.010658025741577148, "tests_passed": true, "error": null}
+{"code": " {letter: [random.randint(0, 100) for _ in range(random.randint(1, 10))]", "compilation_passed": false, "time": 0.0001361370086669922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {k: random.sample(range(0, 100), random.randint(1, 10)) for k in LETTERS}", "compilation_passed": true, "time": 0.0049822330474853516, "tests_passed": true, "error": null}
+{"code": " {i: [random.randint(0, 100) for j in range(random.randint(1, 10))] for i in LETTERS}", "compilation_passed": true, "time": 0.002607107162475586, "tests_passed": true, "error": null}
+{"code": " {l: [random.randint(0, 100) for i in range(random.randint(1, 10))] for l in LETTERS}", "compilation_passed": true, "time": 0.0028908252716064453, "tests_passed": true, "error": null}
+{"code": " {letter: [random.randint(0, 100) for _ in range(random.randint(1, 10))] for letter in LETTERS}", "compilation_passed": true, "time": 0.0025708675384521484, "tests_passed": true, "error": null}
+{"code": " {key: [random.randint(0, 100) for _ in range(random.randint(1, 10))] for key in LETTERS}", "compilation_passed": true, "time": 0.002527952194213867, "tests_passed": true, "error": null}
+{"code": " {i: [random.randint(0, 100) for _ in range(random.randint(1, 10))] for i in LETTERS}", "compilation_passed": true, "time": 0.002398967742919922, "tests_passed": true, "error": null}
+{"code": " {key: random.sample(range(0, 100), random.randint(1, 10)) for key in LETTERS}", "compilation_passed": true, "time": 0.005346059799194336, "tests_passed": true, "error": null}
+{"code": " {letter: [random.randint(0, 100) for i in range(random.randint(1, 10))]", "compilation_passed": false, "time": 0.0001270771026611328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {k: [random.randint(0, 100) for j in range(random.randint(1, 10))] for k in LETTERS}", "compilation_passed": true, "time": 0.002390146255493164, "tests_passed": true, "error": null}
+{"code": " {l: random.choices(range(0, 100), k=random.randint(1, 10)) for l in LETTERS}", "compilation_passed": true, "time": 0.0051119327545166016, "tests_passed": true, "error": null}
+{"code": " {ltr: random.sample(range(0, 100), random.randint(1, 10)) for ltr in LETTERS}", "compilation_passed": true, "time": 0.005276203155517578, "tests_passed": true, "error": null}

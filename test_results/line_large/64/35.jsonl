@@ -1,0 +1,25 @@
+{"code": " analyzed_df.pivot(COLUMNS[1], COLUMNS[0], COLUMNS[2])", "compilation_passed": true, "time": 0.022970914840698242, "tests_passed": false, "error": "TypeError"}
+{"code": " analyzed_df.pivot_table(values=COLUMNS[-1], index=COLUMNS[0], columns=COLUMNS[1], aggfunc='size')", "compilation_passed": true, "time": 0.3666810989379883, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot_table(index='col2', columns='col1', values=COLUMNS[-1], aggfunc='sum')", "compilation_passed": true, "time": 0.4145548343658447, "tests_passed": true, "error": null}
+{"code": " pd.pivot_table(analyzed_df, values=COLUMNS[-1], index=[COLUMNS[0]], columns=[COLUMNS[1]], aggfunc=np.size)", "compilation_passed": true, "time": 0.009141921997070312, "tests_passed": false, "error": "NameError"}
+{"code": " analyzed_df.set_index([COLUMNS[0], COLUMNS[1]])", "compilation_passed": true, "time": 0.4783041477203369, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot(index='col1', columns='col2', values='col3')", "compilation_passed": true, "time": 1.017914056777954, "tests_passed": false, "error": "TimeoutError"}
+{"code": " analyzed_df.pivot(index='col2', columns='col1', values='col3').fillna(0)", "compilation_passed": true, "time": 0.5803482532501221, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot_table(values=COLUMNS[-1], index=COLUMNS[0], columns=COLUMNS[1], aggfunc='sum', fill_value=0)", "compilation_passed": true, "time": 1.0155229568481445, "tests_passed": false, "error": "TimeoutError"}
+{"code": " analyzed_df.pivot_table(columns=COLUMNS[1], index=COLUMNS[0],", "compilation_passed": false, "time": 0.00023603439331054688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " analyzed_df.pivot('col1', 'col2', COLUMNS[-1])", "compilation_passed": true, "time": 0.009795188903808594, "tests_passed": false, "error": "TypeError"}
+{"code": " analyzed_df.pivot(columns=COLUMNS[1], index=COLUMNS[0], values=COLUMNS[2])", "compilation_passed": true, "time": 1.0086169242858887, "tests_passed": false, "error": "TimeoutError"}
+{"code": " analyzed_df.pivot(values=COLUMNS[-1], index=COLUMNS[0], columns=COLUMNS[1])", "compilation_passed": true, "time": 1.0084631443023682, "tests_passed": false, "error": "TimeoutError"}
+{"code": " analyzed_df.pivot_table(columns=COLUMNS[1], index=COLUMNS[0], values=COLUMNS[2], aggfunc='size', fill_value=0)", "compilation_passed": true, "time": 0.6199607849121094, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot(index=COLUMNS[0], columns=COLUMNS[1], values=COLUMNS[2]).fillna(0).astype(int)", "compilation_passed": true, "time": 1.010411024093628, "tests_passed": false, "error": "TimeoutError"}
+{"code": " analyzed_df.pivot(\"col2\", \"col1\", COLUMNS[-1]).fillna(0)", "compilation_passed": true, "time": 0.01455068588256836, "tests_passed": false, "error": "TypeError"}
+{"code": " analyzed_df.pivot(index=COLUMNS[0], columns=COLUMNS[1], values=COLUMNS[2])", "compilation_passed": true, "time": 0.6295182704925537, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot(COLUMNS[0], COLUMNS[1], COLUMNS[2])", "compilation_passed": true, "time": 0.010582923889160156, "tests_passed": false, "error": "TypeError"}
+{"code": " analyzed_df.set_index(COLUMNS[:-1]).pivot_table(values=COLUMNS[-1], index=COLUMNS[1], columns=COLUMNS[0])", "compilation_passed": true, "time": 0.2577509880065918, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot_table(values=COLUMNS[-1], index=COLUMNS[0], columns=COLUMNS[1], aggfunc='first')", "compilation_passed": true, "time": 1.0084450244903564, "tests_passed": false, "error": "TimeoutError"}
+{"code": " analyzed_df.pivot(index=COLUMNS[1], columns=COLUMNS[0], values=COLUMNS[2])", "compilation_passed": true, "time": 0.38452577590942383, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot_table(index='col1', columns='col2', values='col3', aggfunc='size', fill_value=0)", "compilation_passed": true, "time": 0.3813350200653076, "tests_passed": true, "error": null}
+{"code": " analyzed_df.pivot(\"col1\", \"col2\", \"col3\")", "compilation_passed": true, "time": 0.008182048797607422, "tests_passed": false, "error": "TypeError"}
+{"code": " analyzed_df.pivot_table(values=COLUMNS[-1], index=COLUMNS[0], columns=COLUMNS[1], aggfunc='sum').fillna(0).astype(int)", "compilation_passed": true, "time": 1.0077130794525146, "tests_passed": false, "error": "TimeoutError"}
+{"code": " analyzed_df.pivot('col2', 'col1', COLUMNS[-1])", "compilation_passed": true, "time": 0.008430957794189453, "tests_passed": false, "error": "TypeError"}
+{"code": " analyzed_df.pivot(index='col1', columns='col2', values='col3').fillna(0)", "compilation_passed": true, "time": 1.008470058441162, "tests_passed": false, "error": "TimeoutError"}

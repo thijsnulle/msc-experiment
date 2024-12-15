@@ -1,0 +1,8 @@
+{"code": " df.drop(columns=['c'], errors='ignore')", "compilation_passed": true, "time": 0.015089035034179688, "tests_passed": true, "error": null}
+{"code": " df.drop(columns='c', errors='ignore')", "compilation_passed": true, "time": 0.012704133987426758, "tests_passed": true, "error": null}
+{"code": " df[df.columns.difference(['c'])]", "compilation_passed": true, "time": 0.012454748153686523, "tests_passed": true, "error": null}
+{"code": " df[df.columns != 'c']", "compilation_passed": true, "time": 0.01629495620727539, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df.columns.difference([\"c\"])]", "compilation_passed": true, "time": 0.017595291137695312, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=\"c\", errors=\"ignore\")", "compilation_passed": true, "time": 0.018578052520751953, "tests_passed": true, "error": null}
+{"code": " df[df.columns.drop(list(df.filter(regex='c')))]", "compilation_passed": true, "time": 0.022234201431274414, "tests_passed": true, "error": null}
+{"code": " df[df.columns.drop('c')] if 'c' in df.columns else df", "compilation_passed": true, "time": 0.019405841827392578, "tests_passed": true, "error": null}

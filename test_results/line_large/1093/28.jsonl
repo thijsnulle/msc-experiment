@@ -1,0 +1,28 @@
+{"code": " r\"\\{(.+?)\\}\"", "compilation_passed": true, "time": 0.00844883918762207, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\{[\\s\\w':,]*?\\}\"", "compilation_passed": true, "time": 0.008695125579833984, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"({[^{}]*(?:{[^{}]*(?:{[^{}]*})?[^{}]*)?})\"", "compilation_passed": true, "time": 0.008545637130737305, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"{\\s*'(\\w+)': (\\w+)(,\\s*'(\\w+)': (\\w+))*\"", "compilation_passed": true, "time": 0.008185863494873047, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"{(.*?)}\"", "compilation_passed": true, "time": 0.008452177047729492, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\{(\\s*'[\\w-]+'\\s*:\\s*([\\w-]+|'[^']*')(,\\s*'[\\w-]+'\\s*:\\s*([\\w-]+|'[^']*')?)*\\s*)\\}\"", "compilation_passed": true, "time": 0.008134841918945312, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"{(?:[^{}]|(?:{(?:[^{}]|(?:{(?:[^{}]|(?:{[^{}]+})*})*})*}))*})\"", "compilation_passed": true, "time": 0.009074926376342773, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"{\\s*(?:'[^']*?'|\\w+)\\s*:\\s*(?:'[^']*?'|{[^}]*?})\\s*}\"", "compilation_passed": true, "time": 0.008301734924316406, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\w*: ?\\'?[a-z0-9A-Z]+\\'?\"", "compilation_passed": true, "time": 0.00827789306640625, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"{\\s*'?(\\w+)'?\\s*:\\s*'?(\\w+)'?}\"", "compilation_passed": true, "time": 0.008444070816040039, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\{[\\s\\S]*?\\}\"", "compilation_passed": true, "time": 0.008133888244628906, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"{'[^}]*(?:{'[^}]*'}[^}]*)*'}\"", "compilation_passed": true, "time": 0.008431196212768555, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"{\\s*(?:\\\"(?:\\\\\\w|[^\\\"])+\\\"|'(?:\\\\\\w|[^'])+')(?:\\s*:\\s*(?:\\d+(?:\\.\\d+)?|-?\\b(?:true|false)\\b|null|[^,{}]+|(?!\\s*$)\\n|(?={)|(?=})))+\\s*}\"", "compilation_passed": true, "time": 0.008720159530639648, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\{(\\s*'[^']+'\\s*:\\s*('[^']*'|\\{.*?\\})\\s*,?\\s*)+\\}\"", "compilation_passed": true, "time": 0.007998943328857422, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"{[\\w\\s:',\\n]+?}\"", "compilation_passed": true, "time": 0.008325815200805664, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'\\{(.*?)\\}'", "compilation_passed": true, "time": 0.008534908294677734, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"{'(\\w+)'\" + rf\"\\s*:\\s*['\\\"](.*?)['\\\"]\"*2 + r\"}\\s*{'(\\w+)'\" + rf\"\\s*:\\s*['\\\"](.*?)['\\\"]\"*2 + r\"}\"", "compilation_passed": true, "time": 0.008099079132080078, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"({[\\s\\n\\r]*'[^']+':\\s*('[^']+'|{\\s*'[^']+':\\s*('[^']+'|[^',{}]+)\\s*}(\\s*,\\s*'[^']+':\\s*('[^']+'|{\\s*'[^']+':\\s*('[^']+'|[^',{}]+)\\s*})+)*\\s*}})\"", "compilation_passed": true, "time": 0.008762121200561523, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\{(\\w+:[\\w\\\"\\d,\\s\\{\\}\\{\\{\\}\\}\\.\\:\\[\\]]*?)\\}\"", "compilation_passed": true, "time": 0.008533954620361328, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'\\{[\\w\\s\\'\":.,-]*\\}'", "compilation_passed": true, "time": 0.008270978927612305, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\w+:\\s*\\{([^}]*)\\}\"", "compilation_passed": true, "time": 0.010471105575561523, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"{\\s*('[^']+': [^,}\\s]+)\\s*(?:,\\s*('[^']+': [^,}\\s]+)\\s*)*\\}\"", "compilation_passed": true, "time": 0.008380889892578125, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"(?<=\\{)(?:[^{}]|{[^{}]*})*?(?=\\})\"", "compilation_passed": true, "time": 0.008662939071655273, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\{.*?\\}\"", "compilation_passed": true, "time": 0.008138895034790039, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"{\\s*'(\\w+)': (\\d+|'[^']*')\\s*(,\\s*'(\\w+)': (\\d+|'[^']*')\\s*)*}\"", "compilation_passed": true, "time": 0.010619878768920898, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\{'[^':]+': '[^']+'[,\\s]*'[^':]+': '[^']+'\\}\"", "compilation_passed": true, "time": 0.010931968688964844, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\{[\\s\\S]*?}\"", "compilation_passed": true, "time": 0.008657217025756836, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'\\{(\\n|.)+?\\}'", "compilation_passed": true, "time": 0.010464906692504883, "tests_passed": false, "error": "AttributeError"}

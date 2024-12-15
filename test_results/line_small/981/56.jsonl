@@ -1,0 +1,18 @@
+{"code": " df.plot(title=\"Random Time Series\", xlabel=\"Date\", ylabel=\"Value\")", "compilation_passed": true, "time": 0.48802900314331055, "tests_passed": true, "error": null}
+{"code": " df.plot.line()", "compilation_passed": true, "time": 0.5213618278503418, "tests_passed": true, "error": null}
+{"code": " df.plot(title=\"Random Time Series\", xlabel=\"Date\", ylabel=\"Value\", color=\"C{}\".format)", "compilation_passed": true, "time": 0.0693366527557373, "tests_passed": false, "error": "TypeError"}
+{"code": " df.plot(title=\"Random Time Series\",", "compilation_passed": false, "time": 0.0003662109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(kind='line', title='Random Time Series', xlabel='Date', ylabel='Value', legend=True, color=\"#607d8b\")", "compilation_passed": true, "time": 0.5032739639282227, "tests_passed": true, "error": null}
+{"code": " df.plot()", "compilation_passed": true, "time": 0.519232988357544, "tests_passed": true, "error": null}
+{"code": " df.plot.line(title=\"Random Time Series\", xlabel=\"Date\", ylabel=\"Value\")", "compilation_passed": true, "time": 0.5339460372924805, "tests_passed": true, "error": null}
+{"code": " df.plot(", "compilation_passed": false, "time": 0.0003190040588378906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(x=\"date\", y=None, subplots=True, figsize=(8, 4))", "compilation_passed": true, "time": 0.020743131637573242, "tests_passed": false, "error": "KeyError"}
+{"code": " df.plot.line(title=\"Random Time Series\", xlabel=\"Date\", ylabel=\"Value\", logy=True)", "compilation_passed": true, "time": 0.5219249725341797, "tests_passed": true, "error": null}
+{"code": " df.plot.line(subplots=True, legend=True, title='Random Time Series',", "compilation_passed": false, "time": 0.0003352165222167969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot.line(", "compilation_passed": false, "time": 0.000370025634765625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot.line(title=\"Random Time Series\", xlabel=\"Date\", ylabel=\"Value\", subplots=False)", "compilation_passed": true, "time": 0.5318081378936768, "tests_passed": true, "error": null}
+{"code": " df.plot(title='Random Time Series', xlabel='Date', ylabel='Value')", "compilation_passed": true, "time": 0.5209789276123047, "tests_passed": true, "error": null}
+{"code": " df.plot(x='index', y=data, title='Random Time Series',", "compilation_passed": false, "time": 0.0004699230194091797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(title=\"Random Time Series\", xlabel=\"Date\", ylabel=\"Value\", marker=\".\", style=\"-\", figsize=(12, 4))", "compilation_passed": true, "time": 0.5189692974090576, "tests_passed": true, "error": null}
+{"code": " df.plot.line(legend=False, title=\"Random Time Series\", xlabel=\"Date\", ylabel=\"Value\")", "compilation_passed": true, "time": 0.5041790008544922, "tests_passed": true, "error": null}
+{"code": " df.plot.line(x=\"index\", title=\"Random Time Series\", xlabel=\"Date\",", "compilation_passed": false, "time": 0.00035572052001953125, "tests_passed": false, "error": "SyntaxError"}

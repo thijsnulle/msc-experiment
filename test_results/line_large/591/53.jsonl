@@ -1,0 +1,20 @@
+{"code": " df.plot(x='Time', y='Temperature', kind='line', color='r')", "compilation_passed": true, "time": 0.24161314964294434, "tests_passed": true, "error": null}
+{"code": " df['Temperature'].plot()", "compilation_passed": true, "time": 0.05261707305908203, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Time', y='Temperature', title='Temperature Data')", "compilation_passed": true, "time": 0.2355198860168457, "tests_passed": true, "error": null}
+{"code": " df['Temperature'].plot(title='Temperature (Celsius)')", "compilation_passed": true, "time": 0.04864192008972168, "tests_passed": true, "error": null}
+{"code": " df['Temperature'].plot(marker='o')", "compilation_passed": true, "time": 0.051506996154785156, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Time', y='Temperature', title='Temperature Over Time', grid=True, figsize=(12, 6))", "compilation_passed": true, "time": 0.2931971549987793, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Time', y='Temperature')", "compilation_passed": true, "time": 0.24326777458190918, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Time', y='Temperature', kind='line',", "compilation_passed": false, "time": 0.0005311965942382812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(x='Time', y='Temperature', figsize=(20, 4), grid=True,", "compilation_passed": false, "time": 0.000415802001953125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.017584800720214844, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Time', y='Temperature', color='red')", "compilation_passed": true, "time": 2.3251469135284424, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.plot(x='Time', y='Temperature', legend=True, grid=True, title='Temperature Graph', color='red')", "compilation_passed": true, "time": 0.2480628490447998, "tests_passed": true, "error": null}
+{"code": " plt.plot(df['Time'], df['Temperature'])", "compilation_passed": true, "time": 0.04350018501281738, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Time', y='Temperature', title='Temperature vs Time', label='Temperature', grid=True)", "compilation_passed": true, "time": 0.2727999687194824, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Time', y='Temperature', title='Temperature Plot',", "compilation_passed": false, "time": 0.0004928112030029297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(x='Time', y='Temperature',", "compilation_passed": false, "time": 0.0008528232574462891, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(x='Time', y='Temperature')  # plot temperature data using matplotlib", "compilation_passed": true, "time": 0.2866950035095215, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Time', y='Temperature', title='Temperature Over Time', xlabel='Time', ylabel='Temperature')", "compilation_passed": true, "time": 0.2783961296081543, "tests_passed": true, "error": null}
+{"code": " df['Temperature'].plot(", "compilation_passed": false, "time": 0.0005791187286376953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot('Time', 'Temperature', label=\"Temperature\")", "compilation_passed": true, "time": 0.27213311195373535, "tests_passed": true, "error": null}

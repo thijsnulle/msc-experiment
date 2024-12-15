@@ -1,0 +1,12 @@
+{"code": "config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', True)", "compilation_passed": true, "time": 0.013336181640625, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME', None)", "compilation_passed": true, "time": 0.017380237579345703, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USE_TLS'] = True", "compilation_passed": true, "time": 0.012591123580932617, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME', '')", "compilation_passed": true, "time": 0.01724696159362793, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME')", "compilation_passed": true, "time": 0.017083168029785156, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME', \"test@mail.com\")", "compilation_passed": true, "time": 0.01717209815979004, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME', 'username')", "compilation_passed": true, "time": 0.019362926483154297, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME', 'user')", "compilation_passed": true, "time": 0.017431020736694336, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_USE_TLS'] = bool(os.getenv('MAIL_USE_TLS', False))", "compilation_passed": true, "time": 0.01807713508605957, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USE_TLS'] = True if os.getenv('MAIL_USE_TLS', False) else False", "compilation_passed": true, "time": 0.018236875534057617, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', False)", "compilation_passed": true, "time": 0.014485836029052734, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME', \"user\")", "compilation_passed": true, "time": 0.01925206184387207, "tests_passed": false, "error": "KeyError"}

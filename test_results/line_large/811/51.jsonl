@@ -1,0 +1,19 @@
+{"code": " [(randint(0, len(positions)-1)) for _ in range(sample_size)]", "compilation_passed": true, "time": 0.013096809387207031, "tests_passed": true, "error": null}
+{"code": " [(randint(0, len(positions) - 1), randint(0, len(positions) - 1)) for _ in range(sample_size)]", "compilation_passed": true, "time": 0.013153076171875, "tests_passed": true, "error": null}
+{"code": " [(i, col) for i, col in positions if (i, col) in [(randint(0, len(positions)-1), randint(0, dataframe.shape[1]-1)) for _ in range(sample_size)]]", "compilation_passed": true, "time": 0.011991024017333984, "tests_passed": true, "error": null}
+{"code": " [(randint(0, len(positions)-1), randint(0, len(positions)-1)) for _ in range(sample_size)]", "compilation_passed": true, "time": 0.013031005859375, "tests_passed": true, "error": null}
+{"code": " [(randint(0, len(positions) - 1), col) for col in dataframe.columns for _ in range(sample_size)]", "compilation_passed": true, "time": 0.013844013214111328, "tests_passed": true, "error": null}
+{"code": " [positions[randint(0, len(positions) - 1)] for _ in range(sample_size)]", "compilation_passed": true, "time": 0.012594223022460938, "tests_passed": true, "error": null}
+{"code": " [(randint(0, len(positions)-1)) for _ in range(0, sample_size)]", "compilation_passed": true, "time": 0.012672901153564453, "tests_passed": true, "error": null}
+{"code": " [(randint(0, len(positions) - 1), col) for col in dataframe.columns]", "compilation_passed": true, "time": 0.012752294540405273, "tests_passed": true, "error": null}
+{"code": " [positions[randint(0, len(positions)-1)] for _ in range(sample_size)]", "compilation_passed": true, "time": 0.013216018676757812, "tests_passed": true, "error": null}
+{"code": " [(i, col) for i, col in positions if (i, col) in [(randint(0, len(dataframe) - 1), col) for col in dataframe.columns]]", "compilation_passed": true, "time": 0.013300895690917969, "tests_passed": true, "error": null}
+{"code": " [(randint(0, len(positions) - 1), col) for col in range(len(dataframe.columns))]", "compilation_passed": true, "time": 0.01277017593383789, "tests_passed": true, "error": null}
+{"code": " [(positions[randint(0, len(positions) - 1)]) for _ in range(sample_size)]", "compilation_passed": true, "time": 0.013921976089477539, "tests_passed": true, "error": null}
+{"code": " [positions[randint(0, len(positions))] for _ in range(sample_size)]", "compilation_passed": true, "time": 0.022705078125, "tests_passed": false, "error": "IndexError"}
+{"code": " [(randint(0, len(positions) - 1)) for i in range(sample_size)]", "compilation_passed": true, "time": 0.01351022720336914, "tests_passed": true, "error": null}
+{"code": " [(randint(0, len(positions) - 1)) for _ in range(sample_size)]", "compilation_passed": true, "time": 0.013199090957641602, "tests_passed": true, "error": null}
+{"code": " [(i, col) for i in dataframe.index for col in dataframe.columns", "compilation_passed": false, "time": 0.00024390220642089844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(randint(0, len(positions) - 1), random_seed) for _ in range(sample_size)]", "compilation_passed": true, "time": 0.013555765151977539, "tests_passed": true, "error": null}
+{"code": " [(randint(0, len(positions) - 1)) for _ in range(0, sample_size)]", "compilation_passed": true, "time": 0.012689352035522461, "tests_passed": true, "error": null}
+{"code": " [(randint(0, len(positions)-1), random_seed) for _ in range(sample_size)]", "compilation_passed": true, "time": 0.012656927108764648, "tests_passed": true, "error": null}

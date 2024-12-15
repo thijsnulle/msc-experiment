@@ -1,0 +1,4 @@
+{"code": " [random.randint(0, 100) for _ in range(5)]", "compilation_passed": true, "time": 0.3586239814758301, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, 100) for i in range(5)]", "compilation_passed": true, "time": 0.33422279357910156, "tests_passed": true, "error": null}
+{"code": " random.sample(range(0, 101), 5)", "compilation_passed": true, "time": 0.31385111808776855, "tests_passed": true, "error": null}
+{"code": " random.choices(range(101), k=5)", "compilation_passed": true, "time": 0.3289980888366699, "tests_passed": true, "error": null}

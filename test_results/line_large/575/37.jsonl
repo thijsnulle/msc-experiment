@@ -1,0 +1,26 @@
+{"code": " df.apply(lambda x: np.concatenate(x) if isinstance(x, list) else x)", "compilation_passed": true, "time": 0.00854182243347168, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df.apply(np.array, 1))", "compilation_passed": true, "time": 0.006795167922973633, "tests_passed": false, "error": "ValueError"}
+{"code": " df.rolling(n_groups, axis=1).apply(lambda x: list(x), raw=True).reset_index(drop=True)", "compilation_passed": true, "time": 0.015613079071044922, "tests_passed": false, "error": "pandas.errors.DataError"}
+{"code": " df.apply(lambda x: pd.Series(x).rolling(n_groups, min_periods=1).agg(lambda x: np.array(x).tolist())).fillna(df).astype(str)", "compilation_passed": true, "time": 0.018050193786621094, "tests_passed": false, "error": "pandas.errors.DataError"}
+{"code": " pd.concat([df[i:]+df[:i] for i in range(n_groups)])", "compilation_passed": true, "time": 0.011994123458862305, "tests_passed": false, "error": "ValueError"}
+{"code": " df.astype(str)", "compilation_passed": true, "time": 0.007826805114746094, "tests_passed": true, "error": null}
+{"code": " df.astype(object).applymap(lambda x: x)", "compilation_passed": true, "time": 0.008636951446533203, "tests_passed": true, "error": null}
+{"code": " (df", "compilation_passed": false, "time": 0.0001747608184814453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.apply(lambda x: np.array(x), axis=1, result_type='reduce')", "compilation_passed": true, "time": 0.008054971694946289, "tests_passed": false, "error": "ValueError"}
+{"code": " (df.rolling(n_groups)", "compilation_passed": false, "time": 0.0001838207244873047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.applymap(lambda x: [x] if type(x) == str else x)", "compilation_passed": true, "time": 0.009705066680908203, "tests_passed": true, "error": null}
+{"code": " df.astype(np.object_)", "compilation_passed": true, "time": 0.005482912063598633, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.array(df).T)", "compilation_passed": true, "time": 0.009263038635253906, "tests_passed": false, "error": "ValueError"}
+{"code": " (", "compilation_passed": false, "time": 0.00016832351684570312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame([df.rolling(n_groups, axis=1).apply(lambda x: [i for i in x], raw=True).iloc[0]])", "compilation_passed": true, "time": 0.009969234466552734, "tests_passed": false, "error": "pandas.errors.DataError"}
+{"code": " df.applymap(np.asarray)", "compilation_passed": true, "time": 0.010962963104248047, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: x)", "compilation_passed": true, "time": 0.011508941650390625, "tests_passed": true, "error": null}
+{"code": " df.astype('object').apply(pd.Series.rolling, window=n_groups, min_periods=n_groups).apply(list)", "compilation_passed": true, "time": 0.010679960250854492, "tests_passed": true, "error": null}
+{"code": " df.stack().reset_index(drop=True)", "compilation_passed": true, "time": 0.008057832717895508, "tests_passed": false, "error": "ValueError"}
+{"code": " df.apply(lambda x: x.astype(str))", "compilation_passed": true, "time": 0.010447978973388672, "tests_passed": true, "error": null}
+{"code": " df.applymap(str)", "compilation_passed": true, "time": 0.011797904968261719, "tests_passed": true, "error": null}
+{"code": " df.astype(str).rolling(n_groups).apply(list).reset_index(drop=True)", "compilation_passed": true, "time": 0.012466192245483398, "tests_passed": false, "error": "pandas.errors.DataError"}
+{"code": " df.applymap(lambda x: [x] if isinstance(x, str) else x)", "compilation_passed": true, "time": 0.008005142211914062, "tests_passed": true, "error": null}
+{"code": " (df.shift(periods=-n_groups).reset_index(drop=True)", "compilation_passed": false, "time": 0.00017786026000976562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.concat([df.shift(i).reset_index(drop=True) for i in range(n_groups)], axis=1).fillna('')", "compilation_passed": true, "time": 0.007611751556396484, "tests_passed": false, "error": "ValueError"}
+{"code": " df.astype(str).applymap(lambda x: x)", "compilation_passed": true, "time": 0.009771108627319336, "tests_passed": true, "error": null}

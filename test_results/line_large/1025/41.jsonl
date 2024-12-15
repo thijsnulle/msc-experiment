@@ -1,0 +1,4 @@
+{"code": " scaler.fit_transform(df)", "compilation_passed": true, "time": 0.23819637298583984, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df.values.reshape(-1, 1))", "compilation_passed": true, "time": 0.029329776763916016, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(df.values)", "compilation_passed": true, "time": 0.24671101570129395, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df.values.reshape(-1, 1)).flatten()", "compilation_passed": true, "time": 0.020923852920532227, "tests_passed": false, "error": "ValueError"}

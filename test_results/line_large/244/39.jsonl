@@ -1,0 +1,16 @@
+{"code": "hist([abs(i) for i in fft_data])", "compilation_passed": true, "time": 0.09219169616699219, "tests_passed": true, "error": null}
+{"code": "hist(np.abs(fft_data))", "compilation_passed": true, "time": 0.09139418601989746, "tests_passed": true, "error": null}
+{"code": "hist(np.abs(fft_data), bins=10)", "compilation_passed": true, "time": 0.08260822296142578, "tests_passed": true, "error": null}
+{"code": "hist([np.abs(i) for i in fft_data])", "compilation_passed": true, "time": 0.09134292602539062, "tests_passed": true, "error": null}
+{"code": "hist([np.abs(complex_number) for complex_number in fft_data])", "compilation_passed": true, "time": 0.08948564529418945, "tests_passed": true, "error": null}
+{"code": "hist(np.absolute(fft_data))", "compilation_passed": true, "time": 0.09126782417297363, "tests_passed": true, "error": null}
+{"code": "hist(abs(fft_data))", "compilation_passed": true, "time": 0.09134721755981445, "tests_passed": true, "error": null}
+{"code": "hist([abs(fft_data)], bins=30, range=(-100, 100))", "compilation_passed": true, "time": 0.08515596389770508, "tests_passed": true, "error": null}
+{"code": "hist([abs(a) for a in fft_data], bins=80)", "compilation_passed": true, "time": 0.2631509304046631, "tests_passed": true, "error": null}
+{"code": "hist(fft_data.real, bins=30)", "compilation_passed": true, "time": 0.08416485786437988, "tests_passed": true, "error": null}
+{"code": "hist([np.absolute(i) for i in fft_data])", "compilation_passed": true, "time": 0.09158897399902344, "tests_passed": true, "error": null}
+{"code": "hist([abs(a) for a in fft_data])", "compilation_passed": true, "time": 0.09159088134765625, "tests_passed": true, "error": null}
+{"code": "hist([x for x in fft_data], bins=10)", "compilation_passed": true, "time": 0.06646084785461426, "tests_passed": true, "error": null}
+{"code": "hist(fft_data.real, bins='auto')", "compilation_passed": true, "time": 0.06836915016174316, "tests_passed": false, "error": "numpy.core._exceptions._ArrayMemoryError"}
+{"code": "hist([abs(c) for c in fft_data])", "compilation_passed": true, "time": 0.09147286415100098, "tests_passed": true, "error": null}
+{"code": "hist(abs(fft_data), bins=10)", "compilation_passed": true, "time": 0.09140253067016602, "tests_passed": true, "error": null}

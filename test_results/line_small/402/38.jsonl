@@ -1,0 +1,16 @@
+{"code": " re.findall(pattern, data['data'])", "compilation_passed": true, "time": 0.01626420021057129, "tests_passed": false, "error": "TypeError"}
+{"code": " [x for x in data['data'] if re.match(pattern, x)]", "compilation_passed": true, "time": 0.007627010345458984, "tests_passed": true, "error": null}
+{"code": " [d[\"data\"] for d in data[\"data\"] if re.match(pattern, d[\"data\"])]", "compilation_passed": true, "time": 0.013488054275512695, "tests_passed": false, "error": "TypeError"}
+{"code": " [", "compilation_passed": false, "time": 0.0007519721984863281, "tests_passed": false, "error": "SyntaxError"}
+{"code": " re.findall(pattern, json.dumps(data))", "compilation_passed": true, "time": 0.007555961608886719, "tests_passed": true, "error": null}
+{"code": " [json.loads(d)[\"data\"] for d in data if re.findall(pattern, d)]", "compilation_passed": true, "time": 0.006448984146118164, "tests_passed": true, "error": null}
+{"code": " [json.loads(match) for match in re.findall(pattern, data['data'])]", "compilation_passed": true, "time": 0.00990915298461914, "tests_passed": false, "error": "TypeError"}
+{"code": " [line for line in data[\"data\"] if re.search(pattern, line)]", "compilation_passed": true, "time": 0.006676197052001953, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.006675004959106445, "tests_passed": true, "error": null}
+{"code": " [item[\"name\"] for item in data[\"data\"] if re.search(pattern, item[\"name\"])]", "compilation_passed": true, "time": 0.013997793197631836, "tests_passed": false, "error": "TypeError"}
+{"code": " [entry for entry in data['data'] if re.search(pattern, entry)]", "compilation_passed": true, "time": 0.006469011306762695, "tests_passed": true, "error": null}
+{"code": " [re.match(pattern, d).group() for d in data['data'] if re.match(pattern, d)]", "compilation_passed": true, "time": 0.006999015808105469, "tests_passed": true, "error": null}
+{"code": " [json.dumps(item['data']) for item in data if re.search(pattern, item['data'])]", "compilation_passed": true, "time": 0.01280522346496582, "tests_passed": false, "error": "TypeError"}
+{"code": " [row for row in data['data'] if re.search(pattern, row['data'])]", "compilation_passed": true, "time": 0.013089656829833984, "tests_passed": false, "error": "TypeError"}
+{"code": " [d[\"data\"] for d in data if re.search(pattern, d[\"data\"])]", "compilation_passed": true, "time": 0.012809991836547852, "tests_passed": false, "error": "TypeError"}
+{"code": " list(filter(lambda x: re.match(pattern, x[\"name\"]), data))", "compilation_passed": true, "time": 0.012285947799682617, "tests_passed": false, "error": "TypeError"}

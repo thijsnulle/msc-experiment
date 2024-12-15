@@ -1,0 +1,7 @@
+{"code": " [", "compilation_passed": false, "time": 0.0002808570861816406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [\"top\", \"-b\", \"-n\", \"1\"]", "compilation_passed": true, "time": 0.05566000938415527, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " [\"ps\", \"-eo\", \"%cpu\", \"--no-headers\"]", "compilation_passed": true, "time": 0.06688809394836426, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " [\"top\", \"-bn1\"]", "compilation_passed": true, "time": 0.07340097427368164, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " [\"ps\", \"-eo\", \"%cpu\"]", "compilation_passed": true, "time": 0.07268977165222168, "tests_passed": false, "error": "IndexError"}
+{"code": " [\"ps\", \"-eo\", \"pcpu\", \"--no-headers\"]", "compilation_passed": true, "time": 0.050163984298706055, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " [\"ps\", \"-Ao\", \"%cpu\"]", "compilation_passed": true, "time": 0.0646519660949707, "tests_passed": false, "error": "IndexError"}

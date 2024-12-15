@@ -1,0 +1,14 @@
+{"code": " data[\"text\"].lower()", "compilation_passed": true, "time": 0.009389162063598633, "tests_passed": false, "error": "KeyError"}
+{"code": " data['text'].lower().replace(\"\\n\", \" \")", "compilation_passed": true, "time": 0.012907981872558594, "tests_passed": false, "error": "KeyError"}
+{"code": " data[\"text\"]", "compilation_passed": true, "time": 0.007001161575317383, "tests_passed": false, "error": "KeyError"}
+{"code": " data.get(\"text\")", "compilation_passed": true, "time": 0.014938116073608398, "tests_passed": false, "error": "TypeError"}
+{"code": " data.get('text').lower()", "compilation_passed": true, "time": 0.011841058731079102, "tests_passed": false, "error": "AttributeError"}
+{"code": " data['text']", "compilation_passed": true, "time": 0.008096933364868164, "tests_passed": false, "error": "KeyError"}
+{"code": " data['text'].lower()  # Convert to lowercase", "compilation_passed": true, "time": 0.00747990608215332, "tests_passed": false, "error": "KeyError"}
+{"code": " data.get('text', '').lower()", "compilation_passed": true, "time": 0.0014750957489013672, "tests_passed": true, "error": null}
+{"code": " data[\"text\"].lower().strip() if \"text\" in data else \"\"", "compilation_passed": true, "time": 0.0015780925750732422, "tests_passed": true, "error": null}
+{"code": " data['text'].lower()", "compilation_passed": true, "time": 0.007328033447265625, "tests_passed": false, "error": "KeyError"}
+{"code": " data['text'].lower().translate(str.maketrans('', '', string.punctuation)).split()", "compilation_passed": true, "time": 0.005945920944213867, "tests_passed": false, "error": "TypeError"}
+{"code": " data[\"text\"].lower()  # convert to lowercase", "compilation_passed": true, "time": 0.005858182907104492, "tests_passed": false, "error": "KeyError"}
+{"code": " data.get(\"text\", \"\")", "compilation_passed": true, "time": 0.0016369819641113281, "tests_passed": true, "error": null}
+{"code": " data.get('text')", "compilation_passed": true, "time": 0.005553722381591797, "tests_passed": false, "error": "TypeError"}

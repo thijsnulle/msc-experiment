@@ -1,0 +1,5 @@
+{"code": " vectorizer.fit_transform(interesting_articles['Content'])", "compilation_passed": true, "time": 0.024383068084716797, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(interesting_articles['Content'].values)", "compilation_passed": true, "time": 0.022439002990722656, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(interesting_articles['Content'].tolist())", "compilation_passed": true, "time": 0.0233461856842041, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(interesting_articles['Content'].fillna(''))", "compilation_passed": true, "time": 0.0228118896484375, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(interesting_articles['Content'].values.astype('U'))", "compilation_passed": true, "time": 0.022589921951293945, "tests_passed": true, "error": null}

@@ -1,0 +1,17 @@
+{"code": " df[df[\"name\"].duplicated(keep=False)][\"name\"]", "compilation_passed": false, "time": 0.0002980232238769531, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"name\"][df.duplicated()].unique()", "compilation_passed": false, "time": 0.0002911090850830078, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"name\"].value_counts()[df[\"name\"].value_counts() > 1].index", "compilation_passed": false, "time": 0.0003261566162109375, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"name\"][df[\"name\"].duplicated()]", "compilation_passed": false, "time": 0.0003190040588378906, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"name\"].unique()", "compilation_passed": false, "time": 0.0002448558807373047, "tests_passed": false, "error": "IndentationError"}
+{"code": " set(df[df[\"name\"].duplicated()][\"name\"])", "compilation_passed": false, "time": 0.00028514862060546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"name\"][df[\"name\"].duplicated()].unique()", "compilation_passed": false, "time": 0.0002658367156982422, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.loc[df.duplicated(subset=[\"name\"]), \"name\"]", "compilation_passed": false, "time": 0.00032067298889160156, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"name\"].value_counts()[df[\"name\"].value_counts() > 1]", "compilation_passed": false, "time": 0.00032210350036621094, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"name\"][df[\"name\"].duplicated(keep=False)].tolist()", "compilation_passed": false, "time": 0.0002627372741699219, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"name\"][df[\"name\"].duplicated(keep=False)]", "compilation_passed": false, "time": 0.00029206275939941406, "tests_passed": false, "error": "IndentationError"}
+{"code": " set(df[df[\"name\"].duplicated()][\"name\"].unique())", "compilation_passed": false, "time": 0.00025177001953125, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"name\"][df.duplicated(subset=\"name\")]", "compilation_passed": false, "time": 0.0002970695495605469, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.loc[df[\"name\"].duplicated(keep=False), \"name\"]", "compilation_passed": false, "time": 0.0003209114074707031, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.loc[df.duplicated(subset=\"name\", keep=False)]", "compilation_passed": false, "time": 0.00030994415283203125, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"name\"][df.duplicated()]", "compilation_passed": false, "time": 0.0002570152282714844, "tests_passed": false, "error": "IndentationError"}
+{"code": " set(df[\"name\"][df.duplicated()])", "compilation_passed": false, "time": 0.00036215782165527344, "tests_passed": false, "error": "IndentationError"}

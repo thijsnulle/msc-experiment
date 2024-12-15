@@ -1,0 +1,18 @@
+{"code": " set(path) & invalid_chars:", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " invalid_chars & set(path):", "compilation_passed": false, "time": 0.00017523765563964844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " any(char in str(path_obj) for char in invalid_chars):", "compilation_passed": false, "time": 0.00018310546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " any(char in invalid_chars for char in path_obj.parts):", "compilation_passed": false, "time": 0.0002770423889160156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " any(char in path for char in invalid_chars):", "compilation_passed": false, "time": 0.00018095970153808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " invalid_chars.intersection(path_obj.parts):", "compilation_passed": false, "time": 0.00017404556274414062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " invalid_chars.intersection(path):", "compilation_passed": false, "time": 0.00017189979553222656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " any(char in invalid_chars for char in str(path_obj)):", "compilation_passed": false, "time": 0.0001811981201171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " invalid_chars.intersection(path_obj.as_posix()):", "compilation_passed": false, "time": 0.0001990795135498047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " any(c in path_obj.as_posix() for c in invalid_chars):", "compilation_passed": false, "time": 0.0001888275146484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " any(char in path_obj.as_posix() for char in invalid_chars):", "compilation_passed": false, "time": 0.00019812583923339844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " any(c in str(path_obj) for c in invalid_chars):", "compilation_passed": false, "time": 0.0001938343048095703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " set(path_obj.parts) & invalid_chars:", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " any(c in invalid_chars for c in str(path_obj.parent)):", "compilation_passed": false, "time": 0.0002162456512451172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " set(path).intersection(invalid_chars):", "compilation_passed": false, "time": 0.00019884109497070312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " any(c in invalid_chars for c in str(path_obj)):", "compilation_passed": false, "time": 0.0001800060272216797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not any([invalid_char in path for invalid_char in invalid_chars]):", "compilation_passed": false, "time": 0.000186920166015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " any(char in invalid_chars for char in path_obj.as_posix()):", "compilation_passed": false, "time": 0.0001881122589111328, "tests_passed": false, "error": "SyntaxError"}

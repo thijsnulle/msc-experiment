@@ -1,0 +1,4 @@
+{"code": " int(self.headers.get('content-length'))", "compilation_passed": true, "time": 0.02658820152282715, "tests_passed": true, "error": null}
+{"code": " int(self.headers['Content-Length'])", "compilation_passed": true, "time": 0.026987075805664062, "tests_passed": true, "error": null}
+{"code": " int(self.headers['content-length'])", "compilation_passed": true, "time": 0.026707172393798828, "tests_passed": true, "error": null}
+{"code": " int(self.headers.get('content-length', 0))", "compilation_passed": true, "time": 0.05991697311401367, "tests_passed": true, "error": null}

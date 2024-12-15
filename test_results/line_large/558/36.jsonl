@@ -1,0 +1,16 @@
+{"code": " scaler.fit_transform(np.array([a, b]).T)", "compilation_passed": true, "time": 0.3764221668243408, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(np.vstack([np.array(a), np.array(b)]))", "compilation_passed": true, "time": 0.040701866149902344, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(np.array([a, b])).T", "compilation_passed": true, "time": 1.329049825668335, "tests_passed": false, "error": "TimeoutError"}
+{"code": " scaler.fit_transform(np.stack((a, b)).T)", "compilation_passed": true, "time": 0.4001271724700928, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform([a, b])", "compilation_passed": true, "time": 0.038485050201416016, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform([a, b]).T", "compilation_passed": true, "time": 0.41358208656311035, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(np.array([a, b]).T).T", "compilation_passed": true, "time": 0.03902292251586914, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(np.column_stack((a, b)))", "compilation_passed": true, "time": 0.43550801277160645, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(np.array([a, b])).transpose()", "compilation_passed": true, "time": 0.47562479972839355, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(np.vstack((a, b))).T", "compilation_passed": true, "time": 0.3759748935699463, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(np.vstack((a, b)).T)", "compilation_passed": true, "time": 0.44877004623413086, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(np.column_stack((np.array(a), np.array(b))))", "compilation_passed": true, "time": 0.3734009265899658, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform([a, b])  # Convert input lists to 2D array", "compilation_passed": true, "time": 0.04825901985168457, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform([a, b])  # Standardize the lists using the StandardScaler from sklearn", "compilation_passed": true, "time": 0.04233098030090332, "tests_passed": false, "error": "ValueError"}
+{"code": " scaler.fit_transform(np.vstack([a, b]).T)", "compilation_passed": true, "time": 0.3853566646575928, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform([a, b]).T  # Standardize input lists", "compilation_passed": true, "time": 0.38754892349243164, "tests_passed": true, "error": null}

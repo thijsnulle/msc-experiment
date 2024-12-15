@@ -1,0 +1,17 @@
+{"code": " epoch_milliseconds > int(datetime.now().timestamp() * 1000):", "compilation_passed": true, "time": 0.5884180068969727, "tests_passed": false, "error": "TypeError"}
+{"code": " epoch_milliseconds >= int(datetime.now().timestamp() * 1000):", "compilation_passed": true, "time": 0.6232540607452393, "tests_passed": false, "error": "TypeError"}
+{"code": " epoch_milliseconds > datetime.now().timestamp() * 1000:", "compilation_passed": true, "time": 0.637037992477417, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.now().timestamp() * 1000 < epoch_milliseconds:", "compilation_passed": true, "time": 0.789654016494751, "tests_passed": false, "error": "TypeError"}
+{"code": " epoch_milliseconds > 1662002219694:  # current time in ms", "compilation_passed": true, "time": 0.6161708831787109, "tests_passed": false, "error": "TypeError"}
+{"code": " epoch_milliseconds > int(datetime.now().timestamp()) * 1000:", "compilation_passed": true, "time": 0.6287477016448975, "tests_passed": false, "error": "TypeError"}
+{"code": " epoch_milliseconds > int(datetime.now().timestamp()*1000):", "compilation_passed": true, "time": 0.7313828468322754, "tests_passed": false, "error": "TypeError"}
+{"code": " epoch_milliseconds > time.time_ns() / 1000000:", "compilation_passed": true, "time": 0.02742600440979004, "tests_passed": false, "error": "NameError"}
+{"code": " not epoch_milliseconds or epoch_milliseconds > (", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not epoch_milliseconds < time.time_ns() / 1000000:", "compilation_passed": true, "time": 0.00880885124206543, "tests_passed": false, "error": "NameError"}
+{"code": " len(teams) < 1:", "compilation_passed": true, "time": 0.787830114364624, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds > time.time_ns() // 1000000:", "compilation_passed": true, "time": 0.009070158004760742, "tests_passed": false, "error": "NameError"}
+{"code": " datetime.now().timestamp() * 1000 <= epoch_milliseconds:", "compilation_passed": true, "time": 0.8245258331298828, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(epoch_milliseconds, int):", "compilation_passed": true, "time": 0.009231805801391602, "tests_passed": false, "error": "TypeError"}
+{"code": " epoch_milliseconds > (datetime.now() - datetime(1970, 1, 1)).total_seconds() * 1000:", "compilation_passed": true, "time": 0.6997098922729492, "tests_passed": false, "error": "TypeError"}
+{"code": " epoch_milliseconds > time.time() * 1000:", "compilation_passed": true, "time": 0.010450124740600586, "tests_passed": false, "error": "NameError"}
+{"code": " isinstance(epoch_milliseconds, (int, float)) and epoch_milliseconds > 0:", "compilation_passed": true, "time": 0.009233951568603516, "tests_passed": false, "error": "TypeError"}

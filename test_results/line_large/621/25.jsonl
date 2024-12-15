@@ -1,0 +1,16 @@
+{"code": " np.array(list(chain(*L)))", "compilation_passed": true, "time": 0.07915306091308594, "tests_passed": true, "error": null}
+{"code": " list(chain.from_iterable(L))", "compilation_passed": true, "time": 0.07844400405883789, "tests_passed": true, "error": null}
+{"code": " list(chain(*L))", "compilation_passed": true, "time": 0.07895803451538086, "tests_passed": true, "error": null}
+{"code": " [elem for elem in chain(*L)]", "compilation_passed": true, "time": 0.07953095436096191, "tests_passed": true, "error": null}
+{"code": " np.array([list(chain(*L))])", "compilation_passed": true, "time": 0.0792996883392334, "tests_passed": true, "error": null}
+{"code": " list(chain(*L))  # Flattening the list of lists using itertools' 'chain'", "compilation_passed": true, "time": 0.0784461498260498, "tests_passed": true, "error": null}
+{"code": " np.array(list(chain(*L))) # Flatten the list of lists into a single list.", "compilation_passed": true, "time": 0.07930994033813477, "tests_passed": true, "error": null}
+{"code": " list(np.concatenate(L).flat)", "compilation_passed": true, "time": 0.07858896255493164, "tests_passed": true, "error": null}
+{"code": " list(chain(*L))  # Flatten the list using itertools.chain", "compilation_passed": true, "time": 0.07953476905822754, "tests_passed": true, "error": null}
+{"code": " np.array(list(chain.from_iterable(L)))", "compilation_passed": true, "time": 0.07937884330749512, "tests_passed": true, "error": null}
+{"code": " np.array([val for sublist in L for val in sublist])", "compilation_passed": true, "time": 0.08430290222167969, "tests_passed": true, "error": null}
+{"code": " StandardScaler().fit_transform([x for x in itertools.chain(*L)])", "compilation_passed": true, "time": 0.014774084091186523, "tests_passed": false, "error": "NameError"}
+{"code": " list(chain.from_iterable(L)) # convert the list of lists into a single list", "compilation_passed": true, "time": 0.07861995697021484, "tests_passed": true, "error": null}
+{"code": " list(chain.from_iterable(L))  # Flatten the input list", "compilation_passed": true, "time": 0.07912588119506836, "tests_passed": true, "error": null}
+{"code": " list(chain.from_iterable(L)) # Flatten the list using chain", "compilation_passed": true, "time": 0.07922005653381348, "tests_passed": true, "error": null}
+{"code": " [num for sublist in L for num in sublist] # create a single list of integers using a list comprehension", "compilation_passed": true, "time": 0.07857775688171387, "tests_passed": true, "error": null}

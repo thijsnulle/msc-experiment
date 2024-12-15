@@ -1,0 +1,6 @@
+{"code": " math.sqrt(random.random()) * math.sin(2 * math.pi * random.random()))", "compilation_passed": true, "time": 0.10311198234558105, "tests_passed": true, "error": null}
+{"code": " math.sqrt(random.random()) * math.sin(2 * math.pi * random.random()),", "compilation_passed": false, "time": 0.00018024444580078125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " math.sqrt(random.random()) * math.sin(2 * math.pi * random.random())) for _ in range(points_count)]", "compilation_passed": false, "time": 0.0001468658447265625, "tests_passed": false, "error": "IndentationError"}
+{"code": " math.sqrt(random.random()) * math.sin(2 * math.pi * random.random())) for i in range(points_count)]", "compilation_passed": false, "time": 0.00018095970153808594, "tests_passed": false, "error": "IndentationError"}
+{"code": " math.sqrt(random.random()) * math.sin(2 * math.pi * random.random()) ) for _ in range(points_count)]", "compilation_passed": false, "time": 0.0001480579376220703, "tests_passed": false, "error": "IndentationError"}
+{"code": " math.sqrt(random.random()) * math.sin(2 * math.pi * random.random())) for _ in", "compilation_passed": false, "time": 0.0001468658447265625, "tests_passed": false, "error": "SyntaxError"}

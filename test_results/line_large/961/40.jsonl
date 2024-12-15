@@ -1,0 +1,16 @@
+{"code": " len(glob.glob(f\"{directory}**/*{suffix}\", recursive=True))", "compilation_passed": false, "time": 0.00021910667419433594, "tests_passed": false, "error": "IndentationError"}
+{"code": " 0", "compilation_passed": false, "time": 0.00018715858459472656, "tests_passed": false, "error": "IndentationError"}
+{"code": " len(glob.glob(os.path.join(directory, f\"**/*{suffix}\"), recursive=True))", "compilation_passed": false, "time": 0.0002162456512451172, "tests_passed": false, "error": "IndentationError"}
+{"code": " len(", "compilation_passed": true, "time": 0.013081073760986328, "tests_passed": true, "error": null}
+{"code": " len(list(glob.glob(f\"{directory}/**/*{suffix}\", recursive=True)))", "compilation_passed": false, "time": 0.0002148151397705078, "tests_passed": false, "error": "IndentationError"}
+{"code": " len(glob.glob(f'{directory}/**/*{suffix}', recursive=True))", "compilation_passed": false, "time": 0.0002181529998779297, "tests_passed": false, "error": "IndentationError"}
+{"code": " len(glob.glob(os.path.join(directory, f'**/*{suffix}' if keep_zero else f'**/*{suffix}*'), recursive=True))", "compilation_passed": false, "time": 0.00023984909057617188, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum(", "compilation_passed": true, "time": 0.012716054916381836, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(1 for _ in glob.iglob(os.path.join(directory, f\"**/*{suffix}\"), recursive=True))", "compilation_passed": false, "time": 0.00022602081298828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " len(glob.glob(os.path.join(directory, f'**/*{suffix}' if os.name == 'nt' else f'**/*{suffix}')))", "compilation_passed": false, "time": 0.0002338886260986328, "tests_passed": false, "error": "IndentationError"}
+{"code": " len(glob.glob(f\"{directory}/**/*{suffix}\", recursive=True))", "compilation_passed": false, "time": 0.00022125244140625, "tests_passed": false, "error": "IndentationError"}
+{"code": " len(glob.glob(os.path.join(directory, \"**\", f\"*{suffix}\"), recursive=True))", "compilation_passed": false, "time": 0.0002219676971435547, "tests_passed": false, "error": "IndentationError"}
+{"code": " len(list(glob.glob(os.path.join(directory, f\"**/*{suffix}\"), recursive=True)))", "compilation_passed": false, "time": 0.00024008750915527344, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum(1 for _ in glob.iglob(f\"{directory}/**/*{suffix}\", recursive=True))", "compilation_passed": false, "time": 0.0002532005310058594, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum(1 for _ in glob.iglob(f\"{directory}**/*{suffix}\", recursive=True))", "compilation_passed": false, "time": 0.00023293495178222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum(1 for _ in glob.glob(directory + \"**\" + suffix, recursive=True))", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "IndentationError"}

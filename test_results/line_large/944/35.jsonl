@@ -1,0 +1,12 @@
+{"code": " np.random.uniform(low=100, high=500, size=periods)", "compilation_passed": true, "time": 0.23557710647583008, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(low=100, high=500, size=len(date_range))", "compilation_passed": true, "time": 0.23969507217407227, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(low=100.0, high=500.0, size=periods)", "compilation_passed": true, "time": 0.2380208969116211, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Date': date_range, 'Price': np.random.uniform(100, 500, periods)})", "compilation_passed": true, "time": 0.01682901382446289, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.uniform(100, 500, size=periods)", "compilation_passed": true, "time": 0.24329280853271484, "tests_passed": true, "error": null}
+{"code": " np.random.rand(periods) * (500 - 100) + 100", "compilation_passed": true, "time": 0.2447829246520996, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.uniform(100, 500, periods), index=date_range)", "compilation_passed": true, "time": 0.042671918869018555, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame({'Date': date_range, 'Price': np.random.uniform(low=100, high=500, size=periods)})", "compilation_passed": true, "time": 0.00801706314086914, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.uniform(100, 500, len(date_range))", "compilation_passed": true, "time": 0.039978981018066406, "tests_passed": false, "error": "TypeError"}
+{"code": " np.random.randint(100, 500, periods)", "compilation_passed": true, "time": 0.0433499813079834, "tests_passed": false, "error": "TypeError"}
+{"code": " np.random.randint(100, 500, size=periods)", "compilation_passed": true, "time": 0.04214191436767578, "tests_passed": false, "error": "TypeError"}
+{"code": " np.random.uniform(100, 500, periods)", "compilation_passed": true, "time": 0.039234161376953125, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(prices, columns=stock_names, index=dates)", "compilation_passed": true, "time": 0.007418155670166016, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(prices, index=dates, columns=stock_names)", "compilation_passed": true, "time": 0.009245157241821289, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=prices, index=dates, columns=stock_names)", "compilation_passed": true, "time": 0.007597923278808594, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=prices, columns=stock_names, index=dates)", "compilation_passed": true, "time": 0.0074198246002197266, "tests_passed": true, "error": null}

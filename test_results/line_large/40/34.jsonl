@@ -1,0 +1,2 @@
+{"code": " pd.DataFrame(z_scores, columns=feature_columns)", "compilation_passed": true, "time": 1.06972074508667, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(z_scores, columns=feature_columns + [\"Mean\"])", "compilation_passed": true, "time": 0.016829967498779297, "tests_passed": false, "error": "ValueError"}

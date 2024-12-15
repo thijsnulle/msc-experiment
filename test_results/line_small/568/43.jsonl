@@ -1,0 +1,18 @@
+{"code": "append({\"Function Name\": f.__name__, \"Number of Arguments\": len(spec.args)})", "compilation_passed": true, "time": 0.28889966011047363, "tests_passed": true, "error": null}
+{"code": "append({\"Function Name\": f.__name__,", "compilation_passed": false, "time": 0.0001838207244873047, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append([f.__name__, len(spec.args)])", "compilation_passed": true, "time": 0.29438114166259766, "tests_passed": true, "error": null}
+{"code": "append({", "compilation_passed": false, "time": 0.0002808570861816406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append(spec.args)", "compilation_passed": true, "time": 0.014751911163330078, "tests_passed": false, "error": "TypeError"}
+{"code": "append((f.__name__, spec.nargs))", "compilation_passed": true, "time": 0.010675191879272461, "tests_passed": false, "error": "AttributeError"}
+{"code": "append(", "compilation_passed": false, "time": 0.0001761913299560547, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append((f.__name__, len(spec.args) - (1 if spec.defaults else 0)))", "compilation_passed": true, "time": 0.06319212913513184, "tests_passed": true, "error": null}
+{"code": "append({'name': f.__name__, 'args': len(spec.args) + (1 if spec.varargs else 0) + (1 if spec.varkw else 0)})", "compilation_passed": true, "time": 0.06757187843322754, "tests_passed": false, "error": "KeyError"}
+{"code": "append([f.__name__, len(spec.args) + len(spec.kwonlyargs)])", "compilation_passed": true, "time": 0.37676191329956055, "tests_passed": true, "error": null}
+{"code": "append([f.__name__, len(spec.args) + len(spec.defaults or [])])", "compilation_passed": true, "time": 0.08956575393676758, "tests_passed": true, "error": null}
+{"code": "append(f\"{f.__name__} {len(spec.args)}\")", "compilation_passed": true, "time": 0.009784221649169922, "tests_passed": false, "error": "ValueError"}
+{"code": "append([f.__name__, len(spec.args) - len(spec.defaults or [])])", "compilation_passed": true, "time": 0.10330319404602051, "tests_passed": true, "error": null}
+{"code": "append([f.__name__, len(spec.args), spec.args])", "compilation_passed": true, "time": 0.00828409194946289, "tests_passed": false, "error": "ValueError"}
+{"code": "append([f.__name__, spec.args])", "compilation_passed": true, "time": 0.008359909057617188, "tests_passed": false, "error": "TypeError"}
+{"code": "append((f.__name__, len(spec.args)))", "compilation_passed": true, "time": 0.385753870010376, "tests_passed": true, "error": null}
+{"code": "append((f.__name__, len(spec.args) if spec.args else 0))", "compilation_passed": true, "time": 0.35903406143188477, "tests_passed": true, "error": null}
+{"code": "append({'Function Name': f.__name__,", "compilation_passed": false, "time": 0.00021314620971679688, "tests_passed": false, "error": "SyntaxError"}

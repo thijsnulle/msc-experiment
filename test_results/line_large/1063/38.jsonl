@@ -1,0 +1,15 @@
+{"code": "set_title('Explained Variance Ratio of Principal Components')", "compilation_passed": true, "time": 0.1312718391418457, "tests_passed": true, "error": null}
+{"code": "plot(pca.explained_variance_ratio_, 'ro-')", "compilation_passed": true, "time": 0.10145092010498047, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(1, pca.explained_variance_ratio_.shape[0]+1), pca.explained_variance_ratio_)", "compilation_passed": true, "time": 0.12446904182434082, "tests_passed": true, "error": null}
+{"code": "bar([i+1 for i in range(len(pca.explained_variance_ratio_))],", "compilation_passed": false, "time": 0.00021505355834960938, "tests_passed": false, "error": "SyntaxError"}
+{"code": "bar([i for i in range(len(pca.explained_variance_ratio_))],", "compilation_passed": false, "time": 0.0002300739288330078, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_title(\"Explained Variance Ratio of Principal Components\")", "compilation_passed": true, "time": 0.05170297622680664, "tests_passed": true, "error": null}
+{"code": "plot(pca.explained_variance_ratio_, 'ro')", "compilation_passed": true, "time": 0.0345759391784668, "tests_passed": true, "error": null}
+{"code": "plot(pca.explained_variance_ratio_)", "compilation_passed": true, "time": 0.03946065902709961, "tests_passed": true, "error": null}
+{"code": "plot(pca.explained_variance_ratio_, 'bo-')", "compilation_passed": true, "time": 0.05111503601074219, "tests_passed": true, "error": null}
+{"code": "plot(pca.explained_variance_ratio_, label='Explained Variance Ratio')", "compilation_passed": true, "time": 0.04272913932800293, "tests_passed": true, "error": null}
+{"code": "plot(pca.explained_variance_ratio_, marker='o')", "compilation_passed": true, "time": 0.0369873046875, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(0, 1) + 0.25, pca.explained_variance_ratio_)", "compilation_passed": true, "time": 0.15889191627502441, "tests_passed": true, "error": null}
+{"code": "plot(pca.explained_variance_ratio_, label='Explained Variance Ratio of Principal Components')", "compilation_passed": true, "time": 0.04027891159057617, "tests_passed": true, "error": null}
+{"code": "bar([i for i in range(len(pca.explained_variance_ratio_))], pca.explained_variance_ratio_)", "compilation_passed": true, "time": 0.14707684516906738, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 2), pca.explained_variance_ratio_)", "compilation_passed": true, "time": 0.13362598419189453, "tests_passed": true, "error": null}

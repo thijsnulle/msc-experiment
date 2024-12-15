@@ -1,0 +1,8 @@
+{"code": " {}", "compilation_passed": true, "time": 0.0017092227935791016, "tests_passed": true, "error": null}
+{"code": " collections.defaultdict(int)", "compilation_passed": true, "time": 0.0017042160034179688, "tests_passed": true, "error": null}
+{"code": " {pattern: len(re.findall(f\"({pattern})\", string)) for pattern in patterns}", "compilation_passed": true, "time": 0.002271890640258789, "tests_passed": true, "error": null}
+{"code": " {pattern: len(re.findall(pattern, string)) for pattern in patterns}", "compilation_passed": true, "time": 0.002270221710205078, "tests_passed": true, "error": null}
+{"code": " collections.Counter([pattern for pattern in patterns if re.search(pattern, string)])", "compilation_passed": true, "time": 0.0022439956665039062, "tests_passed": true, "error": null}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.0018172264099121094, "tests_passed": true, "error": null}
+{"code": " collections.Counter(re.findall('|'.join(patterns), string))", "compilation_passed": true, "time": 0.004752159118652344, "tests_passed": true, "error": null}
+{"code": " {pattern: 0 for pattern in patterns}", "compilation_passed": true, "time": 0.0021572113037109375, "tests_passed": true, "error": null}

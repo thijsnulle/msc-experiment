@@ -1,0 +1,10 @@
+{"code": " pd.DataFrame(scaler.fit_transform(df_cumsum),", "compilation_passed": false, "time": 0.00023293495178222656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(scaler.fit_transform(df_cumsum), index=df_cumsum.index, columns=df_cumsum.columns)", "compilation_passed": true, "time": 0.016203880310058594, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df_cumsum)", "compilation_passed": true, "time": 0.013084173202514648, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(scaler.fit_transform(df_cumsum), index=df.index, columns=df_cumsum.columns)", "compilation_passed": true, "time": 0.016286134719848633, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(scaler.fit_transform(df_cumsum), columns=df_cumsum.columns)", "compilation_passed": true, "time": 0.01462411880493164, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df_cumsum.astype(float))", "compilation_passed": true, "time": 0.01698589324951172, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0002338886260986328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " scaler.fit_transform(df_cumsum.values)", "compilation_passed": true, "time": 0.017559051513671875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(scaler.fit_transform(df_cumsum), index=df_cumsum.index)", "compilation_passed": true, "time": 0.012488842010498047, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df_cumsum.select_dtypes(include=np.number))", "compilation_passed": true, "time": 0.014768123626708984, "tests_passed": true, "error": null}

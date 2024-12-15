@@ -1,0 +1,8 @@
+{"code": " df[df[column_name].str.contains(pattern)]", "compilation_passed": true, "time": 0.03772091865539551, "tests_passed": true, "error": null}
+{"code": " df[column_name].str.findall(pattern).map(lambda x: ' '.join(x) if x else '')", "compilation_passed": true, "time": 0.019747018814086914, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].astype(str).str.contains(pattern)]", "compilation_passed": true, "time": 0.03237509727478027, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].str.contains(pattern)].sample(sample_size, random_state=seed)", "compilation_passed": true, "time": 0.025053977966308594, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].str.contains(pattern)].index.tolist()", "compilation_passed": true, "time": 0.019498348236083984, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[column_name].str.contains(pattern)", "compilation_passed": true, "time": 0.01979804039001465, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].str.contains(pattern)].index", "compilation_passed": true, "time": 0.019444942474365234, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.loc[df[column_name].str.contains(pattern)]", "compilation_passed": true, "time": 0.031804800033569336, "tests_passed": true, "error": null}

@@ -1,0 +1,5 @@
+{"code": " dict(word_counts.most_common())", "compilation_passed": true, "time": 0.0016050338745117188, "tests_passed": true, "error": null}
+{"code": " dict(word_counts)", "compilation_passed": true, "time": 0.002312183380126953, "tests_passed": true, "error": null}
+{"code": " word_counts", "compilation_passed": true, "time": 0.0015730857849121094, "tests_passed": true, "error": null}
+{"code": " {key: value for key, value in word_counts.items() if value > 0}", "compilation_passed": true, "time": 0.001664876937866211, "tests_passed": true, "error": null}
+{"code": " {k: word_counts[k] for k in list(word_counts.keys())[:-1]}", "compilation_passed": true, "time": 0.0048792362213134766, "tests_passed": true, "error": null}

@@ -1,0 +1,28 @@
+{"code": " r'.*(\\blike\\b|\\bwhat\\b).*'", "compilation_passed": true, "time": 0.03323197364807129, "tests_passed": false, "error": "AttributeError"}
+{"code": " \"(like|what)\"", "compilation_passed": true, "time": 0.029376983642578125, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'(?:^|\\s)(?:like|what)(?:\\s|$)', re.IGNORECASE)", "compilation_passed": true, "time": 0.012299060821533203, "tests_passed": true, "error": null}
+{"code": " r\"(like|what)\"", "compilation_passed": true, "time": 0.036131858825683594, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r\"(?<=\\s)what(?=\\s)|like\", re.IGNORECASE)", "compilation_passed": true, "time": 0.015195131301879883, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"like|what\", flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.012235164642333984, "tests_passed": true, "error": null}
+{"code": " \".*(like|what).*\"", "compilation_passed": true, "time": 0.028643131256103516, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'\\b(like|what)\\b', re.IGNORECASE)", "compilation_passed": true, "time": 0.012467145919799805, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"like|what\", re.IGNORECASE)", "compilation_passed": true, "time": 0.008981943130493164, "tests_passed": true, "error": null}
+{"code": " re.compile(\"like|what\", re.IGNORECASE)", "compilation_passed": true, "time": 0.01222991943359375, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(^|[^a-zA-Z0-9])like|what', re.IGNORECASE)", "compilation_passed": true, "time": 0.012831926345825195, "tests_passed": true, "error": null}
+{"code": " r'(?i)like|what'", "compilation_passed": true, "time": 0.029011964797973633, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\blike\\b|\\bwhat\\b\"", "compilation_passed": true, "time": 0.02920985221862793, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(\"like|what\", flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.011857748031616211, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"\\bwhat\\b|\\blike\\b\", flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.012245893478393555, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"\\b(like|what)\\b\", flags=re.IGNORECASE)  # Use re to compile regex pattern", "compilation_passed": true, "time": 0.01213526725769043, "tests_passed": true, "error": null}
+{"code": " r\"\\b(?:like|what)\\b\"", "compilation_passed": true, "time": 0.029310226440429688, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'(?:^|\\s)(what|like)(?:$|\\s)', re.IGNORECASE)", "compilation_passed": true, "time": 0.012476921081542969, "tests_passed": true, "error": null}
+{"code": " r\"(\\bwhat\\b|\\blike\\b)\"", "compilation_passed": true, "time": 0.02916717529296875, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r\"\\bwhat\\b|\\blike\\b\", re.IGNORECASE)", "compilation_passed": true, "time": 0.012192964553833008, "tests_passed": true, "error": null}
+{"code": " r\"like|what\"", "compilation_passed": true, "time": 0.029946327209472656, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"([A-Za-z]+|[0-9]+)\"", "compilation_passed": true, "time": 0.017615795135498047, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r\"\\b(like|what)\\b\", re.IGNORECASE)", "compilation_passed": true, "time": 0.00718379020690918, "tests_passed": true, "error": null}
+{"code": " r\"(?:like|what)\"", "compilation_passed": true, "time": 0.013668060302734375, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"(?![A-Za-z0-9])(.+)\"  # Match non-alphanumeric characters", "compilation_passed": true, "time": 0.013384819030761719, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r\"(?<!\\S)\\b(like|what)\\b(?!\\S)\", re.IGNORECASE)", "compilation_passed": true, "time": 0.005892038345336914, "tests_passed": true, "error": null}
+{"code": " r'\\blike\\b|\\bwhat\\b'", "compilation_passed": true, "time": 0.013267278671264648, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(\"(like|what)\", re.IGNORECASE)", "compilation_passed": true, "time": 0.00577092170715332, "tests_passed": true, "error": null}

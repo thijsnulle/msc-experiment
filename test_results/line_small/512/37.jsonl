@@ -1,0 +1,18 @@
+{"code": " df[column].min() < 0:", "compilation_passed": true, "time": 0.45566415786743164, "tests_passed": true, "error": null}
+{"code": " column not in df:", "compilation_passed": true, "time": 0.3984198570251465, "tests_passed": false, "error": "ValueError"}
+{"code": " not column in COLUMNS:", "compilation_passed": true, "time": 0.4341239929199219, "tests_passed": false, "error": "ValueError"}
+{"code": " column not in COLUMNS:", "compilation_passed": true, "time": 0.3765401840209961, "tests_passed": false, "error": "ValueError"}
+{"code": " not df[column].all():", "compilation_passed": true, "time": 0.5430707931518555, "tests_passed": true, "error": null}
+{"code": " column not in df.columns:", "compilation_passed": true, "time": 0.5489358901977539, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(column, str) or column not in COLUMNS:", "compilation_passed": true, "time": 0.46539998054504395, "tests_passed": false, "error": "ValueError"}
+{"code": " not (df['Product'].isin(['Product A', 'Product B', 'Product C']).all()):", "compilation_passed": true, "time": 0.08820509910583496, "tests_passed": false, "error": "ValueError"}
+{"code": " column in [\"Product\", \"Quantity Sold\", \"Total Sales\"]:", "compilation_passed": true, "time": 0.010950803756713867, "tests_passed": false, "error": "ValueError"}
+{"code": " not (df['Quantity Sold'] >= 0).all():", "compilation_passed": true, "time": 0.5107467174530029, "tests_passed": true, "error": null}
+{"code": " column == 'Product':", "compilation_passed": true, "time": 0.47220826148986816, "tests_passed": true, "error": null}
+{"code": " column in COLUMNS:", "compilation_passed": true, "time": 0.008991003036499023, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Quantity Sold\"].min() < 0:", "compilation_passed": true, "time": 0.6798257827758789, "tests_passed": true, "error": null}
+{"code": " df.columns[1] < 0 or df.columns[2] < 0:", "compilation_passed": true, "time": 0.008682966232299805, "tests_passed": false, "error": "TypeError"}
+{"code": " len(df) == 0:", "compilation_passed": true, "time": 0.4750790596008301, "tests_passed": true, "error": null}
+{"code": " len(df[COLUMNS[0]].value_counts()) > 0:", "compilation_passed": true, "time": 0.01431584358215332, "tests_passed": false, "error": "ValueError"}
+{"code": " not (df[\"Quantity Sold\"] >= 0).all():", "compilation_passed": true, "time": 0.7387340068817139, "tests_passed": true, "error": null}
+{"code": " len(df[COLUMNS[1]]) == 0 or np.any(df[COLUMNS[1]] < 0):", "compilation_passed": true, "time": 0.48735594749450684, "tests_passed": true, "error": null}

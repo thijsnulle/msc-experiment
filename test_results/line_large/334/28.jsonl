@@ -1,0 +1,2 @@
+{"code": " pd.DataFrame(tfidf_matrix.toarray(), columns=vectorizer.get_feature_names_out())", "compilation_passed": true, "time": 0.009577035903930664, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(tfidf_matrix.toarray(), columns=vectorizer.get_feature_names())", "compilation_passed": true, "time": 0.009711980819702148, "tests_passed": false, "error": "AttributeError"}

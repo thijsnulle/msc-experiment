@@ -1,0 +1,9 @@
+{"code": " sorted(counter.items(), key=operator.itemgetter(1), reverse=True)", "compilation_passed": true, "time": 0.015167951583862305, "tests_passed": true, "error": null}
+{"code": " dict(sorted(counter.items(), key=operator.itemgetter(1), reverse=True))", "compilation_passed": true, "time": 0.019356966018676758, "tests_passed": true, "error": null}
+{"code": " sorted(data_dict.items(), key=operator.itemgetter(1), reverse=True)", "compilation_passed": true, "time": 0.02378106117248535, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted(dict(counter).items(), key=operator.itemgetter(1), reverse=True)", "compilation_passed": true, "time": 0.008019208908081055, "tests_passed": true, "error": null}
+{"code": " dict(", "compilation_passed": false, "time": 0.0001971721649169922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {", "compilation_passed": false, "time": 0.00017213821411132812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {k: v for k, v in sorted(counter.items(), key=operator.itemgetter(1), reverse=True)}", "compilation_passed": true, "time": 0.011594057083129883, "tests_passed": true, "error": null}
+{"code": " {k: v for k, v in sorted(data_dict.items(), key=lambda item: counter[item[1]], reverse=True)}", "compilation_passed": true, "time": 0.01215982437133789, "tests_passed": true, "error": null}
+{"code": " sorted(data_dict.items(), key=operator.itemgetter(1))", "compilation_passed": true, "time": 0.01760697364807129, "tests_passed": false, "error": "TypeError"}

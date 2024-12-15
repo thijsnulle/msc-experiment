@@ -1,0 +1,8 @@
+{"code": " in range(len(labels)):", "compilation_passed": true, "time": 0.29950594902038574, "tests_passed": true, "error": null}
+{"code": " in range(len(x)):", "compilation_passed": true, "time": 0.24644112586975098, "tests_passed": true, "error": null}
+{"code": ", label in enumerate(labels):", "compilation_passed": true, "time": 0.2583911418914795, "tests_passed": true, "error": null}
+{"code": ", (x_data, y_data) in enumerate(zip(x, y)):", "compilation_passed": true, "time": 0.27016234397888184, "tests_passed": true, "error": null}
+{"code": ", (x, y) in enumerate(zip(x, y)):", "compilation_passed": true, "time": 0.04789876937866211, "tests_passed": false, "error": "ValueError"}
+{"code": ", (x_, y_) in enumerate(zip(x, y)):", "compilation_passed": true, "time": 0.26518917083740234, "tests_passed": true, "error": null}
+{"code": ", (xi, yi, labeli) in enumerate(zip(x, y, labels)):", "compilation_passed": true, "time": 0.25582218170166016, "tests_passed": true, "error": null}
+{"code": ", (label, x, y) in enumerate(zip(labels, x, y)):", "compilation_passed": true, "time": 0.07250094413757324, "tests_passed": false, "error": "ValueError"}

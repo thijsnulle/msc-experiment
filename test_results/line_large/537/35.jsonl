@@ -1,0 +1,21 @@
+{"code": " pd.read_sql_query(\"SELECT * FROM \" + table_name, conn)", "compilation_passed": true, "time": 0.5691640377044678, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query('SELECT age FROM {}'.format(table_name), conn)", "compilation_passed": true, "time": 0.5146098136901855, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query('SELECT * FROM ' + table_name, conn)", "compilation_passed": true, "time": 0.5305149555206299, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"SELECT * FROM \" + table_name, conn)", "compilation_passed": true, "time": 0.5345258712768555, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f'SELECT * FROM {table_name}', conn)", "compilation_passed": true, "time": 0.52134108543396, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(\"SELECT age FROM {}\".format(table_name), conn)", "compilation_passed": true, "time": 0.5125889778137207, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f'SELECT age FROM \"{table_name}\"', conn)", "compilation_passed": true, "time": 0.579326868057251, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query('SELECT age FROM ' + table_name, conn)", "compilation_passed": true, "time": 0.5309081077575684, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(", "compilation_passed": false, "time": 0.00016999244689941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_sql_query(f\"SELECT age FROM {table_name}\", conn)", "compilation_passed": true, "time": 0.5434598922729492, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query('SELECT age FROM ' + table_name + ';', conn)", "compilation_passed": true, "time": 0.5211529731750488, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(\"SELECT Age FROM {}\".format(table_name), conn)", "compilation_passed": true, "time": 0.6125791072845459, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f'SELECT * FROM \"{table_name}\"', conn)", "compilation_passed": true, "time": 0.5440666675567627, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f'SELECT age FROM {table_name}', conn)", "compilation_passed": true, "time": 0.5102550983428955, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f\"SELECT Age FROM {table_name}\", conn)", "compilation_passed": true, "time": 0.5586957931518555, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"SELECT age FROM \" + table_name, conn)", "compilation_passed": true, "time": 0.5486001968383789, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query('select age from ' + table_name, conn)", "compilation_passed": true, "time": 0.5383119583129883, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name}\", conn)", "compilation_passed": true, "time": 0.524061918258667, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f\"SELECT age FROM {table_name};\", conn)", "compilation_passed": true, "time": 0.5259640216827393, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f\"SELECT * FROM '{table_name}'\", conn)", "compilation_passed": true, "time": 0.5326929092407227, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(", "compilation_passed": false, "time": 0.00017213821411132812, "tests_passed": false, "error": "SyntaxError"}

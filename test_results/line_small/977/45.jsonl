@@ -1,0 +1,19 @@
+{"code": " len(array.shape) != 2:", "compilation_passed": true, "time": 0.39753293991088867, "tests_passed": true, "error": null}
+{"code": " not features or len(features) != array.shape[1]:", "compilation_passed": true, "time": 0.1209878921508789, "tests_passed": false, "error": "ValueError"}
+{"code": " not features:", "compilation_passed": true, "time": 0.10614991188049316, "tests_passed": false, "error": "ValueError"}
+{"code": " array.size == 0 or array.ndim != 2:", "compilation_passed": true, "time": 0.4051940441131592, "tests_passed": true, "error": null}
+{"code": " len(array) < 1 or array.ndim != 2:", "compilation_passed": true, "time": 0.4346001148223877, "tests_passed": true, "error": null}
+{"code": " len(array) == 0:", "compilation_passed": true, "time": 0.41190195083618164, "tests_passed": true, "error": null}
+{"code": " len(array) == 0 or array.ndim != 2:", "compilation_passed": true, "time": 0.5016913414001465, "tests_passed": true, "error": null}
+{"code": " array.ndim == 0:", "compilation_passed": true, "time": 0.2640361785888672, "tests_passed": false, "error": "IndexError"}
+{"code": " len(array) == 0 or len(array.shape) != 2:", "compilation_passed": true, "time": 0.40854382514953613, "tests_passed": true, "error": null}
+{"code": " array.ndim != 2:", "compilation_passed": true, "time": 0.512908935546875, "tests_passed": true, "error": null}
+{"code": " features is None:", "compilation_passed": true, "time": 0.09969305992126465, "tests_passed": false, "error": "ValueError"}
+{"code": " array.shape[0] == 0:", "compilation_passed": true, "time": 0.40319204330444336, "tests_passed": true, "error": null}
+{"code": " not isinstance(array, np.ndarray):", "compilation_passed": true, "time": 0.26949000358581543, "tests_passed": false, "error": "IndexError"}
+{"code": " array.ndim == 1:", "compilation_passed": true, "time": 0.4375948905944824, "tests_passed": true, "error": null}
+{"code": " features is not None:", "compilation_passed": true, "time": 0.014307975769042969, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(array, np.ndarray) or array.ndim != 2 or array.size == 0:", "compilation_passed": true, "time": 0.4379000663757324, "tests_passed": true, "error": null}
+{"code": " not isinstance(array, np.ndarray) or not array.ndim == 2 or array.size == 0:", "compilation_passed": true, "time": 0.44077301025390625, "tests_passed": true, "error": null}
+{"code": " array.size == 0:", "compilation_passed": true, "time": 0.46727585792541504, "tests_passed": true, "error": null}
+{"code": " array.shape[0] > 0 and array.ndim == 2:", "compilation_passed": true, "time": 0.008062362670898438, "tests_passed": false, "error": "ValueError"}

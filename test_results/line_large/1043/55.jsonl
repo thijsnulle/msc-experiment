@@ -1,0 +1,22 @@
+{"code": " [x for x in data_list if x not in CATEGORIES]", "compilation_passed": true, "time": 0.2747461795806885, "tests_passed": true, "error": null}
+{"code": " [cat for cat in category_counts.index if cat not in predefined_counts.index]", "compilation_passed": true, "time": 0.2798788547515869, "tests_passed": true, "error": null}
+{"code": " category_counts.index.difference(CATEGORIES)", "compilation_passed": true, "time": 0.025237083435058594, "tests_passed": false, "error": "ValueError"}
+{"code": " sorted(set(data_list) - set(CATEGORIES))", "compilation_passed": true, "time": 0.28853607177734375, "tests_passed": true, "error": null}
+{"code": " [cat for cat in category_counts.index if cat not in CATEGORIES]", "compilation_passed": true, "time": 0.281480073928833, "tests_passed": true, "error": null}
+{"code": " set(data_series) - set(CATEGORIES)", "compilation_passed": true, "time": 0.01029515266418457, "tests_passed": false, "error": "TypeError"}
+{"code": " [c for c in category_counts.keys() if c not in CATEGORIES]", "compilation_passed": true, "time": 0.2786293029785156, "tests_passed": true, "error": null}
+{"code": " category_counts.index.difference(CATEGORIES).tolist()", "compilation_passed": true, "time": 0.27855896949768066, "tests_passed": true, "error": null}
+{"code": " set(data_list) - set(CATEGORIES)", "compilation_passed": true, "time": 0.00969696044921875, "tests_passed": false, "error": "TypeError"}
+{"code": " list(set(data_list) - set(CATEGORIES))", "compilation_passed": true, "time": 0.28313231468200684, "tests_passed": true, "error": null}
+{"code": " [cat for cat in data_list if cat not in CATEGORIES]", "compilation_passed": true, "time": 0.2784557342529297, "tests_passed": true, "error": null}
+{"code": " sorted(set(category_counts.index) - set(CATEGORIES))", "compilation_passed": true, "time": 0.2870309352874756, "tests_passed": true, "error": null}
+{"code": " [x for x in category_counts.index if x not in predefined_counts.index]", "compilation_passed": true, "time": 0.27797508239746094, "tests_passed": true, "error": null}
+{"code": " set(category_counts.index) - set(predefined_counts.index)", "compilation_passed": true, "time": 0.010905742645263672, "tests_passed": false, "error": "TypeError"}
+{"code": " data_series[~data_series.isin(CATEGORIES)].unique()", "compilation_passed": true, "time": 0.011470794677734375, "tests_passed": false, "error": "ValueError"}
+{"code": " [cat for cat in data_series if cat not in CATEGORIES]", "compilation_passed": true, "time": 0.28325414657592773, "tests_passed": true, "error": null}
+{"code": " set(data_series.unique()) - set(CATEGORIES)", "compilation_passed": true, "time": 0.010324239730834961, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted(set(category_counts.index).difference(CATEGORIES))", "compilation_passed": true, "time": 0.28028225898742676, "tests_passed": true, "error": null}
+{"code": " set(category_counts.index) - set(CATEGORIES)", "compilation_passed": true, "time": 0.013108968734741211, "tests_passed": false, "error": "TypeError"}
+{"code": " [x for x in data_list if x not in predefined_counts.index]", "compilation_passed": true, "time": 0.37535905838012695, "tests_passed": true, "error": null}
+{"code": " sorted(set(category_counts.keys()) - set(predefined_counts.keys()))", "compilation_passed": true, "time": 0.30083703994750977, "tests_passed": true, "error": null}
+{"code": " set(category_counts.index).difference(set(CATEGORIES))", "compilation_passed": true, "time": 0.01008296012878418, "tests_passed": false, "error": "TypeError"}

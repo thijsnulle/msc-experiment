@@ -1,0 +1,28 @@
+{"code": " [x for x in re.findall(r'(?:\".*?\"|\\S)+', s) if x.strip()]", "compilation_passed": true, "time": 0.01108098030090332, "tests_passed": true, "error": null}
+{"code": " re.split(r',\\s*', s)", "compilation_passed": true, "time": 0.007974863052368164, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?:[^\\s,]+,?\\s*)+\", s)", "compilation_passed": true, "time": 0.0058460235595703125, "tests_passed": true, "error": null}
+{"code": " [substr.strip() for substr in s.split(\",\") if substr.strip()]  # ignore empty substrings", "compilation_passed": true, "time": 0.014400720596313477, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.split(r\",\\s*\", s)", "compilation_passed": true, "time": 0.008599042892456055, "tests_passed": true, "error": null}
+{"code": " [x.strip() for x in re.split(', ?', s)]", "compilation_passed": true, "time": 0.008566141128540039, "tests_passed": true, "error": null}
+{"code": " s.split(\",\")", "compilation_passed": true, "time": 0.009776115417480469, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\S+', s)", "compilation_passed": true, "time": 0.011792898178100586, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s*,\\s*\", \",\", s.strip()).split(\",\")", "compilation_passed": true, "time": 0.013116836547851562, "tests_passed": false, "error": "AttributeError"}
+{"code": " [s.strip() for s in re.split(r',\\s*', s) if s]", "compilation_passed": true, "time": 0.008628129959106445, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?:\\w+|\\S)\\S*(?:,|$)\", s)", "compilation_passed": true, "time": 0.009967327117919922, "tests_passed": true, "error": null}
+{"code": " [x.strip() for x in s.split(\",\")]", "compilation_passed": true, "time": 0.012387752532958984, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r\"\\S+\", s)", "compilation_passed": true, "time": 0.010762929916381836, "tests_passed": true, "error": null}
+{"code": " re.findall(r\",\\s*(?!$)|(?<!,)\\S*\", s)  # find substrings (ignore trailing comma)", "compilation_passed": true, "time": 0.006834745407104492, "tests_passed": true, "error": null}
+{"code": " [s.strip() for s in s.split(\",\") if s.strip()]", "compilation_passed": true, "time": 0.01230001449584961, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.split(r'\\s*,\\s*', s)", "compilation_passed": true, "time": 0.007964849472045898, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?<=^|\\s)([^,]+?)(?=$|\\s)\", s)", "compilation_passed": true, "time": 0.012021064758300781, "tests_passed": false, "error": "re.error"}
+{"code": " re.sub(r\"\\s*,\\s*\", \",\", s).split(\",\")", "compilation_passed": true, "time": 0.008332014083862305, "tests_passed": true, "error": null}
+{"code": " [ss for ss in re.split(r',\\s*', s) if ss]  # Split string into substrings, ignoring empty values", "compilation_passed": true, "time": 0.007937908172607422, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\S+', s)  # get a list of substrings, ignoring whitespace", "compilation_passed": true, "time": 0.009878873825073242, "tests_passed": true, "error": null}
+{"code": " [ss.strip() for ss in s.split(\",\")]", "compilation_passed": true, "time": 0.013263702392578125, "tests_passed": false, "error": "AttributeError"}
+{"code": " [x for x in re.split(\",\\s*\", s) if x]  # Remove empty substrings", "compilation_passed": true, "time": 0.00812220573425293, "tests_passed": true, "error": null}
+{"code": " [re.sub(r\"^\\s+|\\s+$\", \"\", s) for s in s.split(\",\") if s != \"\"]", "compilation_passed": true, "time": 0.012946367263793945, "tests_passed": false, "error": "AttributeError"}
+{"code": " [x.strip() for x in re.findall(r\"[^,]+\", s)]", "compilation_passed": true, "time": 0.008405208587646484, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?:\\w+\\s*,\\s*|\\s*\\n\\s*)+\", s)", "compilation_passed": true, "time": 0.006243705749511719, "tests_passed": true, "error": null}
+{"code": " [substring.strip() for substring in s.split(\",\") if substring.strip()]", "compilation_passed": true, "time": 0.012057065963745117, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r\"\\w+\", s)", "compilation_passed": true, "time": 0.00826120376586914, "tests_passed": true, "error": null}
+{"code": " [ss.strip() for ss in re.split(\",(?![^()]*\\))\", s) if ss.strip()]", "compilation_passed": true, "time": 0.008393049240112305, "tests_passed": true, "error": null}

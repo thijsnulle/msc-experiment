@@ -1,0 +1,5 @@
+{"code": " os.path.isfile(filepath):", "compilation_passed": true, "time": 0.09699606895446777, "tests_passed": true, "error": null}
+{"code": " os.path.isfile(filepath) and not filename.startswith('.'):", "compilation_passed": true, "time": 0.24163603782653809, "tests_passed": true, "error": null}
+{"code": " not os.path.isfile(filepath) or filename == zipfile_name:", "compilation_passed": true, "time": 0.13258695602416992, "tests_passed": false, "error": "KeyError"}
+{"code": " os.path.isfile(filepath) and os.path.splitext(filename)[1].lower() in ['.txt', '.pdf']:", "compilation_passed": true, "time": 0.17379307746887207, "tests_passed": true, "error": null}
+{"code": " os.path.isfile(filepath) and filename != zipfile_name:", "compilation_passed": true, "time": 0.20510196685791016, "tests_passed": true, "error": null}

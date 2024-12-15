@@ -1,0 +1,8 @@
+{"code": " [name.strip() for name in names if name.strip() != '']", "compilation_passed": true, "time": 0.012494087219238281, "tests_passed": true, "error": null}
+{"code": " list(filter(None, map(lambda name: name.strip(), names)))", "compilation_passed": true, "time": 0.013070106506347656, "tests_passed": true, "error": null}
+{"code": " [name.strip() for name in names if name.strip()]", "compilation_passed": true, "time": 0.01199483871459961, "tests_passed": true, "error": null}
+{"code": " [name.rstrip() for name in names if name.rstrip()]", "compilation_passed": true, "time": 0.012488126754760742, "tests_passed": true, "error": null}
+{"code": " [name.strip() for name in names if name.strip() != \"\"]", "compilation_passed": true, "time": 0.012928962707519531, "tests_passed": true, "error": null}
+{"code": " list(filter(None, map(lambda name: name.rstrip(), names)))", "compilation_passed": true, "time": 0.012219905853271484, "tests_passed": true, "error": null}
+{"code": " list(filter(bool, map(lambda name: name.strip(), names)))", "compilation_passed": true, "time": 0.01194906234741211, "tests_passed": true, "error": null}
+{"code": " list(filter(None, map(str.strip, names)))", "compilation_passed": true, "time": 0.012589693069458008, "tests_passed": true, "error": null}

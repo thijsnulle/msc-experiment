@@ -1,0 +1,4 @@
+{"code": " hashlib.md5(repr(pairs_count).encode()).hexdigest()", "compilation_passed": true, "time": 0.0011897087097167969, "tests_passed": true, "error": null}
+{"code": " hashlib.md5(str(pairs_count).encode()).hexdigest()", "compilation_passed": true, "time": 0.00138092041015625, "tests_passed": true, "error": null}
+{"code": " hashlib.md5(str(pairs_count).encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.0016927719116210938, "tests_passed": true, "error": null}
+{"code": " hashlib.md5(repr(pairs_count).encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.0012359619140625, "tests_passed": true, "error": null}

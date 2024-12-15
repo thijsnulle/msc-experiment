@@ -1,0 +1,15 @@
+{"code": " np.concatenate(L).flatten()", "compilation_passed": true, "time": 0.0017971992492675781, "tests_passed": true, "error": null}
+{"code": " [element for sublist in L for element in sublist]", "compilation_passed": true, "time": 0.0030112266540527344, "tests_passed": true, "error": null}
+{"code": " [value for sublist in L for value in sublist]", "compilation_passed": true, "time": 0.0018279552459716797, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.004189252853393555, "tests_passed": true, "error": null}
+{"code": " np.array(L).flatten()", "compilation_passed": true, "time": 0.0019719600677490234, "tests_passed": true, "error": null}
+{"code": " np.array([val for sublist in L for val in sublist])", "compilation_passed": true, "time": 0.0017628669738769531, "tests_passed": true, "error": null}
+{"code": " [item for sublist in L for item in sublist]", "compilation_passed": true, "time": 0.0017931461334228516, "tests_passed": true, "error": null}
+{"code": " np.array([item for sublist in L for item in sublist])", "compilation_passed": true, "time": 0.0018379688262939453, "tests_passed": true, "error": null}
+{"code": " [num for sublist in L for num in sublist]", "compilation_passed": true, "time": 0.0017650127410888672, "tests_passed": true, "error": null}
+{"code": " np.array(list(chain(*L)))", "compilation_passed": true, "time": 0.007009029388427734, "tests_passed": false, "error": "NameError"}
+{"code": " np.concatenate(L)", "compilation_passed": true, "time": 0.0018291473388671875, "tests_passed": true, "error": null}
+{"code": " np.array([element for sublist in L for element in sublist])", "compilation_passed": true, "time": 0.0018799304962158203, "tests_passed": true, "error": null}
+{"code": " np.array([num for sublist in L for num in sublist])", "compilation_passed": true, "time": 0.001882791519165039, "tests_passed": true, "error": null}
+{"code": " [el for sublist in L for el in sublist]", "compilation_passed": true, "time": 0.001773834228515625, "tests_passed": true, "error": null}
+{"code": " [val for sublist in L for val in sublist]", "compilation_passed": true, "time": 0.0018999576568603516, "tests_passed": true, "error": null}

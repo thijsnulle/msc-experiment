@@ -1,0 +1,4 @@
+{"code": " len(re.findall(pattern, string))", "compilation_passed": true, "time": 0.0023648738861083984, "tests_passed": true, "error": null}
+{"code": " re.subn(pattern, pattern, string)[1]", "compilation_passed": true, "time": 0.002084016799926758, "tests_passed": true, "error": null}
+{"code": " re.subn(pattern, '', string)[1]", "compilation_passed": true, "time": 0.0017299652099609375, "tests_passed": true, "error": null}
+{"code": " len(re.findall(rf'{pattern}', string))", "compilation_passed": true, "time": 0.0017690658569335938, "tests_passed": true, "error": null}

@@ -1,0 +1,4 @@
+{"code": " dict(zip(word_keys, frequencies))", "compilation_passed": true, "time": 0.01516866683959961, "tests_passed": false, "error": "AttributeError"}
+{"code": " {word: freq for word, freq in zip(word_keys, frequencies) if freq != 0}", "compilation_passed": true, "time": 0.015130043029785156, "tests_passed": false, "error": "AttributeError"}
+{"code": " {word_keys[i]: frequencies[i] for i in range(len(word_keys))}", "compilation_passed": true, "time": 0.015558958053588867, "tests_passed": false, "error": "AttributeError"}
+{"code": " {word: freq for word, freq in zip(word_keys, frequencies)}", "compilation_passed": true, "time": 0.014822006225585938, "tests_passed": false, "error": "AttributeError"}

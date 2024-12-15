@@ -1,0 +1,7 @@
+{"code": " []", "compilation_passed": true, "time": 0.01677083969116211, "tests_passed": true, "error": null}
+{"code": " list(sheet.values)", "compilation_passed": true, "time": 0.03669381141662598, "tests_passed": true, "error": null}
+{"code": " sheet.values", "compilation_passed": true, "time": 0.037464141845703125, "tests_passed": true, "error": null}
+{"code": " list()", "compilation_passed": true, "time": 0.01736760139465332, "tests_passed": true, "error": null}
+{"code": " [[cell.value for cell in row] for row in sheet.rows]", "compilation_passed": true, "time": 0.03189706802368164, "tests_passed": true, "error": null}
+{"code": " [[cell.value for cell in row] for row in sheet.iter_rows()]", "compilation_passed": true, "time": 0.03483700752258301, "tests_passed": true, "error": null}
+{"code": " [[cell.value for cell in row] for row in sheet]", "compilation_passed": true, "time": 0.03380918502807617, "tests_passed": true, "error": null}

@@ -1,0 +1,15 @@
+{"code": " not os.path.exists(config_file):", "compilation_passed": true, "time": 0.007800102233886719, "tests_passed": true, "error": null}
+{"code": " not path_to_append:", "compilation_passed": true, "time": 0.006659030914306641, "tests_passed": true, "error": null}
+{"code": " not isinstance(path_to_append, str):", "compilation_passed": true, "time": 0.008268117904663086, "tests_passed": true, "error": null}
+{"code": " path_to_append:", "compilation_passed": true, "time": 0.006845951080322266, "tests_passed": true, "error": null}
+{"code": " isinstance(path_to_append, str):", "compilation_passed": true, "time": 0.00859689712524414, "tests_passed": true, "error": null}
+{"code": " not isinstance(path_to_append, str) or not isinstance(config_file, str):", "compilation_passed": true, "time": 0.008961915969848633, "tests_passed": true, "error": null}
+{"code": " path_to_append not in sys.path:", "compilation_passed": true, "time": 0.007318973541259766, "tests_passed": true, "error": null}
+{"code": " isinstance(config_file, ConfigParser):", "compilation_passed": true, "time": 0.008240938186645508, "tests_passed": true, "error": null}
+{"code": " not isinstance(config_file, str):", "compilation_passed": true, "time": 0.009279966354370117, "tests_passed": true, "error": null}
+{"code": " not os.path.exists(path_to_append):", "compilation_passed": true, "time": 0.014492034912109375, "tests_passed": false, "error": "TypeError"}
+{"code": " path_to_append in sys.path:", "compilation_passed": true, "time": 0.00834512710571289, "tests_passed": true, "error": null}
+{"code": " path_to_append is None:", "compilation_passed": true, "time": 0.006957054138183594, "tests_passed": true, "error": null}
+{"code": " not sys.path.__contains__(path_to_append):", "compilation_passed": true, "time": 0.008184194564819336, "tests_passed": true, "error": null}
+{"code": " isinstance(path_to_append, str) and path_to_append not in sys.path:", "compilation_passed": true, "time": 0.008851051330566406, "tests_passed": true, "error": null}
+{"code": " os.path.exists(path_to_append):", "compilation_passed": true, "time": 0.013051986694335938, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,24 @@
+{"code": "to_csv(f, index=False, header=True, float_format='%g')", "compilation_passed": true, "time": 0.013747930526733398, "tests_passed": true, "error": null}
+{"code": "to_csv(f, index=False, header=True, sep=';', line_terminator='\\n')", "compilation_passed": true, "time": 0.020075082778930664, "tests_passed": false, "error": "TypeError"}
+{"code": "to_csv(f, index=False, header=True, sep=\",\", line_terminator='\\n')", "compilation_passed": true, "time": 0.019286632537841797, "tests_passed": false, "error": "TypeError"}
+{"code": "to_csv(f, index=False, header=True, mode='w')", "compilation_passed": true, "time": 0.015970945358276367, "tests_passed": true, "error": null}
+{"code": "to_csv(f, index=False, header=True, mode='a')", "compilation_passed": true, "time": 0.01363515853881836, "tests_passed": true, "error": null}
+{"code": "to_csv(f, index=False, header=True)", "compilation_passed": true, "time": 0.013887882232666016, "tests_passed": true, "error": null}
+{"code": "to_csv(f, sep=\";\", index=False, header=True)", "compilation_passed": true, "time": 0.014053106307983398, "tests_passed": true, "error": null}
+{"code": "to_csv(f, index=False, header=True, sep=',')", "compilation_passed": true, "time": 0.015871047973632812, "tests_passed": true, "error": null}
+{"code": "to_csv(f, index=False, header=True, encoding=\"utf-8\", line_terminator='\\n')", "compilation_passed": true, "time": 0.01929187774658203, "tests_passed": false, "error": "TypeError"}
+{"code": "to_csv(f, index=False, header=df.columns.tolist(), sep='|', line_terminator='\\n')", "compilation_passed": true, "time": 0.019762039184570312, "tests_passed": false, "error": "TypeError"}
+{"code": "to_csv(f, index=False, header=df.columns.to_list())", "compilation_passed": true, "time": 0.013714790344238281, "tests_passed": true, "error": null}
+{"code": "to_csv(f, index=False, header=df.columns.tolist())", "compilation_passed": true, "time": 0.013915777206420898, "tests_passed": true, "error": null}
+{"code": "to_csv(f, index=False, header=True, sep=',', line_terminator='\\n')", "compilation_passed": true, "time": 0.019548892974853516, "tests_passed": false, "error": "TypeError"}
+{"code": "to_csv(f, sep=',', index=False, header=True, mode='a', line_terminator='')", "compilation_passed": true, "time": 0.01970815658569336, "tests_passed": false, "error": "TypeError"}
+{"code": "to_csv(f, index=False, header=True, line_terminator='\\n')", "compilation_passed": true, "time": 0.015444040298461914, "tests_passed": false, "error": "TypeError"}
+{"code": "to_csv(f, index=False, header=True, sep=',', encoding='utf-8')", "compilation_passed": true, "time": 0.014005899429321289, "tests_passed": true, "error": null}
+{"code": "to_csv(f, index=False, header=df.columns)", "compilation_passed": true, "time": 0.013813972473144531, "tests_passed": true, "error": null}
+{"code": "to_csv(f, index=False, header=True, sep=';')", "compilation_passed": true, "time": 0.013653993606567383, "tests_passed": true, "error": null}
+{"code": "to_csv(f, index=False, header=True, sep='|')", "compilation_passed": true, "time": 0.013525962829589844, "tests_passed": true, "error": null}
+{"code": "to_csv(f, index=False, header=True, sep='\\t')", "compilation_passed": true, "time": 0.013838052749633789, "tests_passed": true, "error": null}
+{"code": "to_csv(f, index=False, header=False, sep='\\t', mode='w', line_terminator='\\n')", "compilation_passed": true, "time": 0.019702911376953125, "tests_passed": false, "error": "TypeError"}
+{"code": "to_csv(f, index=False, header=True, sep='|', chunksize=500000)", "compilation_passed": true, "time": 0.01290583610534668, "tests_passed": true, "error": null}
+{"code": "to_csv(f, index=False, header=df.columns.tolist(), sep='\\t', line_terminator='\\n', mode='w')", "compilation_passed": true, "time": 0.019698143005371094, "tests_passed": false, "error": "TypeError"}
+{"code": "to_csv(f, index=False, header=df.columns, sep='\\t')", "compilation_passed": true, "time": 0.013643980026245117, "tests_passed": true, "error": null}

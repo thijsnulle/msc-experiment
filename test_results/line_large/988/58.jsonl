@@ -1,0 +1,5 @@
+{"code": " {p: predicate_functions[p](full_path) for p in predicates}", "compilation_passed": false, "time": 0.0003540515899658203, "tests_passed": false, "error": "IndentationError"}
+{"code": " {", "compilation_passed": true, "time": 0.015654802322387695, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": false, "time": 0.00044989585876464844, "tests_passed": false, "error": "IndentationError"}
+{"code": " {predicate: predicate_functions[predicate](full_path) for predicate in predicates}", "compilation_passed": false, "time": 0.00030422210693359375, "tests_passed": false, "error": "IndentationError"}
+{"code": " {p: f(full_path) for p, f in predicate_functions.items()}", "compilation_passed": false, "time": 0.0003540515899658203, "tests_passed": false, "error": "IndentationError"}

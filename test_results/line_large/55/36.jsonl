@@ -1,0 +1,9 @@
+{"code": " sentence.split()", "compilation_passed": true, "time": 0.003281831741333008, "tests_passed": true, "error": null}
+{"code": " [word for word in sentence.split() if word.lower() not in STOPWORDS]", "compilation_passed": true, "time": 0.0029480457305908203, "tests_passed": true, "error": null}
+{"code": " [word for word in sentence.split() if word not in STOPWORDS]", "compilation_passed": true, "time": 0.002959012985229492, "tests_passed": true, "error": null}
+{"code": " [word.strip() for word in sentence.split(\" \") if word.strip() not in STOPWORDS]", "compilation_passed": true, "time": 0.0034112930297851562, "tests_passed": true, "error": null}
+{"code": " sentence.strip().split()", "compilation_passed": true, "time": 0.002895832061767578, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in sentence.split()]", "compilation_passed": true, "time": 0.0032629966735839844, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', sentence)", "compilation_passed": true, "time": 0.011837244033813477, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\s+\", sentence.strip())", "compilation_passed": true, "time": 0.0031599998474121094, "tests_passed": true, "error": null}
+{"code": " sentence.strip().split(\" \")", "compilation_passed": true, "time": 0.003298044204711914, "tests_passed": true, "error": null}

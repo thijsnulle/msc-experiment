@@ -1,0 +1,16 @@
+{"code": "set_rgrids(ticks=np.linspace(0, 2 * np.pi, len(FUNCTIONS) + 1), labels=FUNCTIONS)", "compilation_passed": true, "time": 0.10214996337890625, "tests_passed": false, "error": "TypeError"}
+{"code": "set_yticklabels([])", "compilation_passed": true, "time": 0.2235269546508789, "tests_passed": true, "error": null}
+{"code": "set_rmax(2)", "compilation_passed": true, "time": 0.2005307674407959, "tests_passed": true, "error": null}
+{"code": "set_rmax(1.2)", "compilation_passed": true, "time": 0.20210981369018555, "tests_passed": true, "error": null}
+{"code": "set_yticks(np.arange(-1, 1.1, 0.1))", "compilation_passed": true, "time": 0.2779250144958496, "tests_passed": true, "error": null}
+{"code": "set_rgrids(np.arange(0, 360, 45))", "compilation_passed": true, "time": 0.22830796241760254, "tests_passed": true, "error": null}
+{"code": "set_yticks(np.arange(-1, 2))", "compilation_passed": true, "time": 0.20531797409057617, "tests_passed": true, "error": null}
+{"code": "set_yticks(FUNCTIONS[func_index](np.radians(45 * np.arange(8))))", "compilation_passed": true, "time": 2.52209210395813, "tests_passed": false, "error": "TimeoutError"}
+{"code": "set_rmax(1.5)", "compilation_passed": true, "time": 0.22212886810302734, "tests_passed": true, "error": null}
+{"code": "set_yticks([-1, 0, 1])", "compilation_passed": true, "time": 0.21768498420715332, "tests_passed": true, "error": null}
+{"code": "set_yticks([])", "compilation_passed": true, "time": 0.2710580825805664, "tests_passed": true, "error": null}
+{"code": "set_yticks(np.arange(-1, 1.1, 0.2))", "compilation_passed": true, "time": 0.26100611686706543, "tests_passed": true, "error": null}
+{"code": "set_yticks(np.arange(-1, 1.1, 0.5))", "compilation_passed": true, "time": 0.22301006317138672, "tests_passed": true, "error": null}
+{"code": "set_thetagrids(np.arange(0, 360, 45))", "compilation_passed": true, "time": 0.24259281158447266, "tests_passed": true, "error": null}
+{"code": "set_yticks([-1, 1])", "compilation_passed": true, "time": 0.25149106979370117, "tests_passed": true, "error": null}
+{"code": "set_rticks([i * np.pi / 4 for i in range(8)])", "compilation_passed": true, "time": 0.2483959197998047, "tests_passed": true, "error": null}

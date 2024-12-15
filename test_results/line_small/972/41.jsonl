@@ -1,0 +1,23 @@
+{"code": "path_obj.parts[i]) & invalid_chars", "compilation_passed": true, "time": 0.013282060623168945, "tests_passed": false, "error": "NameError"}
+{"code": "path_obj.parts[i]).intersection(invalid_chars)", "compilation_passed": true, "time": 0.017122983932495117, "tests_passed": false, "error": "NameError"}
+{"code": "path).intersection(invalid_chars)", "compilation_passed": true, "time": 0.0015039443969726562, "tests_passed": true, "error": null}
+{"code": "path_obj.name) & invalid_chars", "compilation_passed": true, "time": 0.0013439655303955078, "tests_passed": true, "error": null}
+{"code": "path_obj.parts[i]).issubset(invalid_chars)", "compilation_passed": true, "time": 0.00796198844909668, "tests_passed": false, "error": "NameError"}
+{"code": "os.path.basename(path_obj.as_posix()).replace(\"\\\\\", \"/\").replace(\"/\", \"_\")).intersection(", "compilation_passed": false, "time": 0.0001728534698486328, "tests_passed": false, "error": "SyntaxError"}
+{"code": "path_obj.as_posix()) &", "compilation_passed": false, "time": 0.00015497207641601562, "tests_passed": false, "error": "SyntaxError"}
+{"code": "path_obj.parts[0]) & invalid_chars", "compilation_passed": true, "time": 0.005648136138916016, "tests_passed": true, "error": null}
+{"code": "path).issubset(invalid_chars)", "compilation_passed": true, "time": 0.008963823318481445, "tests_passed": false, "error": "TypeError"}
+{"code": "invalid_char).intersection(set(path.replace(\"\\\\\", \"/\").replace(\"/\", \"\\\\\")))", "compilation_passed": true, "time": 0.015808582305908203, "tests_passed": false, "error": "NameError"}
+{"code": "c) & invalid_chars", "compilation_passed": true, "time": 0.011983156204223633, "tests_passed": false, "error": "NameError"}
+{"code": "char.encode('utf-8')).issubset(invalid_chars) for char in str(path_obj)", "compilation_passed": true, "time": 0.005714893341064453, "tests_passed": true, "error": null}
+{"code": "os.path.relpath(path_obj, pathlib.Path.cwd()).split(os.path.sep))", "compilation_passed": true, "time": 0.0053942203521728516, "tests_passed": true, "error": null}
+{"code": "path_obj.name).intersection(invalid_chars)", "compilation_passed": true, "time": 0.0014579296112060547, "tests_passed": true, "error": null}
+{"code": "path_obj.parts[i]).intersection(invalid_chars) for i in range(len(path_obj.parts))", "compilation_passed": true, "time": 0.0026743412017822266, "tests_passed": true, "error": null}
+{"code": "path_obj.parts) & invalid_chars", "compilation_passed": true, "time": 0.009266853332519531, "tests_passed": true, "error": null}
+{"code": "os.path.basename(str(path_obj))) & invalid_chars", "compilation_passed": true, "time": 0.002017974853515625, "tests_passed": true, "error": null}
+{"code": "path_obj.parts).intersection(invalid_chars)", "compilation_passed": true, "time": 0.005417823791503906, "tests_passed": true, "error": null}
+{"code": "char).issubset(invalid_chars) for char in path_obj.parts", "compilation_passed": true, "time": 0.006297111511230469, "tests_passed": true, "error": null}
+{"code": "list(map(lambda c: c.encode('utf-8'), path_obj.parts))) &", "compilation_passed": false, "time": 0.0002028942108154297, "tests_passed": false, "error": "SyntaxError"}
+{"code": "os.path.basename(path_obj.parent.as_posix()).lower()) & invalid_chars", "compilation_passed": true, "time": 0.005622148513793945, "tests_passed": true, "error": null}
+{"code": "invalid_chars).intersection(set(path.split(delimiter)))", "compilation_passed": true, "time": 0.007634878158569336, "tests_passed": true, "error": null}
+{"code": "c).intersection(invalid_chars)", "compilation_passed": true, "time": 0.008891105651855469, "tests_passed": false, "error": "NameError"}

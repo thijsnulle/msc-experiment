@@ -1,0 +1,14 @@
+{"code": " elements_series.value_counts()", "compilation_passed": true, "time": 0.008997678756713867, "tests_passed": true, "error": null}
+{"code": " elements_series.apply(lambda x: len(x))", "compilation_passed": true, "time": 0.005695819854736328, "tests_passed": true, "error": null}
+{"code": " elements_series.value_counts(dropna=False)", "compilation_passed": true, "time": 0.006888151168823242, "tests_passed": true, "error": null}
+{"code": " elements_series.value_counts().reset_index(name=\"Count\")", "compilation_passed": true, "time": 0.01840686798095703, "tests_passed": false, "error": "ValueError"}
+{"code": " elements_series.apply(lambda elem: len(elem))", "compilation_passed": true, "time": 0.0056841373443603516, "tests_passed": true, "error": null}
+{"code": " elements_series.apply(len)", "compilation_passed": true, "time": 0.005529165267944336, "tests_passed": true, "error": null}
+{"code": " elements_series.value_counts(sort=False)", "compilation_passed": true, "time": 0.0078089237213134766, "tests_passed": true, "error": null}
+{"code": " pd.Series(elements_series.apply(lambda s: len(s)))", "compilation_passed": true, "time": 0.007811069488525391, "tests_passed": true, "error": null}
+{"code": " elements_series.str.len()", "compilation_passed": true, "time": 0.007472991943359375, "tests_passed": true, "error": null}
+{"code": " elements_series.apply(lambda s: len(s))", "compilation_passed": true, "time": 0.0062808990478515625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(elements_series.str.count(), index=elements_series.index).astype(np.int32)", "compilation_passed": true, "time": 0.012763023376464844, "tests_passed": false, "error": "TypeError"}
+{"code": " elements_series.map(lambda x: len(x))", "compilation_passed": true, "time": 0.005689859390258789, "tests_passed": true, "error": null}
+{"code": " elements_series.value_counts(normalize=True)", "compilation_passed": true, "time": 0.006824016571044922, "tests_passed": true, "error": null}
+{"code": " pd.Series(elements_series.str.len())", "compilation_passed": true, "time": 0.006952047348022461, "tests_passed": true, "error": null}

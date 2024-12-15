@@ -1,0 +1,9 @@
+{"code": " datetime.utcfromtimestamp(unix_timestamp)", "compilation_passed": true, "time": 0.00386810302734375, "tests_passed": true, "error": null}
+{"code": " datetime.utcfromtimestamp(unix_timestamp).replace(tzinfo=pytz.utc)", "compilation_passed": true, "time": 0.001068115234375, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(unix_timestamp, pytz.utc)", "compilation_passed": true, "time": 0.0020079612731933594, "tests_passed": true, "error": null}
+{"code": " datetime.utcfromtimestamp(unix_timestamp).replace(tzinfo=pytz.UTC)", "compilation_passed": true, "time": 0.0012316703796386719, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(unix_timestamp, tz=pytz.utc)", "compilation_passed": true, "time": 0.0010788440704345703, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(unix_timestamp).replace(tzinfo=pytz.UTC)", "compilation_passed": true, "time": 0.0037267208099365234, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(int(unix_timestamp), pytz.utc)", "compilation_passed": true, "time": 0.0011827945709228516, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(unix_timestamp).astimezone(pytz.utc)", "compilation_passed": true, "time": 0.0013880729675292969, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(int(unix_timestamp), tz=pytz.utc)", "compilation_passed": true, "time": 0.0012481212615966797, "tests_passed": true, "error": null}

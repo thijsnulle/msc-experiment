@@ -1,0 +1,20 @@
+{"code": " subprocess.check_call(f\"chmod +x {script_name} && sudo {script_name}\", shell=True)", "compilation_passed": true, "time": 0.02086615562438965, "tests_passed": false, "error": "RuntimeError"}
+{"code": " subprocess.check_output([script_name])", "compilation_passed": true, "time": 0.02216506004333496, "tests_passed": false, "error": "RuntimeError"}
+{"code": " subprocess.call(['bash', script_name])", "compilation_passed": true, "time": 0.014651775360107422, "tests_passed": true, "error": null}
+{"code": " subprocess.check_output(script_name, shell=True)", "compilation_passed": true, "time": 0.03275585174560547, "tests_passed": false, "error": "RuntimeError"}
+{"code": " subprocess.check_call([script_name])", "compilation_passed": true, "time": 0.018000125885009766, "tests_passed": false, "error": "RuntimeError"}
+{"code": " subprocess.call([script_name])", "compilation_passed": true, "time": 0.014458179473876953, "tests_passed": true, "error": null}
+{"code": " subprocess.call([script_name], shell=True)", "compilation_passed": true, "time": 0.015160083770751953, "tests_passed": true, "error": null}
+{"code": " subprocess.check_output([script_name], stderr=subprocess.STDOUT)", "compilation_passed": true, "time": 0.020375967025756836, "tests_passed": false, "error": "RuntimeError"}
+{"code": " subprocess.call(script_name, shell=True)", "compilation_passed": true, "time": 0.014728069305419922, "tests_passed": true, "error": null}
+{"code": " subprocess.run([script_name], check=True, capture_output=True).returncode", "compilation_passed": true, "time": 0.019237041473388672, "tests_passed": false, "error": "RuntimeError"}
+{"code": " subprocess.run([script_name], stderr=subprocess.PIPE, stdout=subprocess.PIPE)", "compilation_passed": true, "time": 0.019659042358398438, "tests_passed": false, "error": "RuntimeError"}
+{"code": " subprocess.check_call(f\"/bin/sh {script_name}\", shell=True)", "compilation_passed": true, "time": 0.01868414878845215, "tests_passed": false, "error": "RuntimeError"}
+{"code": " subprocess.call(['bash', script_name], stdout=None, stderr=None, shell=True)", "compilation_passed": true, "time": 0.014316797256469727, "tests_passed": true, "error": null}
+{"code": " subprocess.call(f\"/bin/bash {script_name}\", shell=True, stderr=subprocess.DEVNULL,", "compilation_passed": false, "time": 0.00022077560424804688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.run([script_name], shell=True, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.0322420597076416, "tests_passed": false, "error": "RuntimeError"}
+{"code": " subprocess.call([script_name], stdout=sys.stdout, stderr=sys.stderr)", "compilation_passed": true, "time": 0.009207010269165039, "tests_passed": false, "error": "RuntimeError"}
+{"code": " subprocess.check_call(script_name, shell=True)", "compilation_passed": true, "time": 0.01916813850402832, "tests_passed": false, "error": "RuntimeError"}
+{"code": " subprocess.run([script_name], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, check=False).returncode", "compilation_passed": true, "time": 0.019786834716796875, "tests_passed": false, "error": "RuntimeError"}
+{"code": " subprocess.run(f\"/bin/bash {script_name}\", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.04098391532897949, "tests_passed": false, "error": "TypeError"}
+{"code": " subprocess.call([script_name], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.01466989517211914, "tests_passed": true, "error": null}

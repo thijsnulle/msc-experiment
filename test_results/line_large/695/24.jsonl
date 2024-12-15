@@ -1,0 +1,6 @@
+{"code": " np.array(tuples_list)", "compilation_passed": true, "time": 0.0036468505859375, "tests_passed": true, "error": null}
+{"code": " np.array([np.array(t) for t in tuples_list])", "compilation_passed": true, "time": 0.004268169403076172, "tests_passed": true, "error": null}
+{"code": " np.asarray(tuples_list)", "compilation_passed": true, "time": 0.0033731460571289062, "tests_passed": true, "error": null}
+{"code": " np.array(tuples_list)  # Convert the list of tuples to a NumPy array", "compilation_passed": true, "time": 0.003331899642944336, "tests_passed": true, "error": null}
+{"code": " np.array(tuples_list)  # Convert tuples_list to a numpy array", "compilation_passed": true, "time": 0.003557920455932617, "tests_passed": true, "error": null}
+{"code": " [list(t) for t in tuples_list]", "compilation_passed": true, "time": 0.003256082534790039, "tests_passed": true, "error": null}

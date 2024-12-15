@@ -1,0 +1,19 @@
+{"code": " dict(zip(combinations, word_counter.values()))", "compilation_passed": true, "time": 0.0044748783111572266, "tests_passed": true, "error": null}
+{"code": " {i: word_counter[i] for i in combinations}", "compilation_passed": true, "time": 0.0030531883239746094, "tests_passed": true, "error": null}
+{"code": " {x: word_counter[x] for x in combinations}", "compilation_passed": true, "time": 0.002705097198486328, "tests_passed": true, "error": null}
+{"code": " dict.fromkeys(combinations, word_counter[x] if x in word_counter else 0)", "compilation_passed": true, "time": 0.0068798065185546875, "tests_passed": false, "error": "NameError"}
+{"code": " dict(itertools.zip_longest(combinations, [word_counter.get(x) for x in combinations]))", "compilation_passed": true, "time": 0.004216194152832031, "tests_passed": true, "error": null}
+{"code": " dict.fromkeys(combinations, word_counter.get(k, 0))", "compilation_passed": true, "time": 0.006883144378662109, "tests_passed": false, "error": "NameError"}
+{"code": " dict(itertools.zip_longest(combinations, word_counter.values()))", "compilation_passed": true, "time": 0.004451751708984375, "tests_passed": true, "error": null}
+{"code": " {k: word_counter[k] for k in combinations}", "compilation_passed": true, "time": 0.0029058456420898438, "tests_passed": true, "error": null}
+{"code": " {c: word_counter[c] for c in combinations}", "compilation_passed": true, "time": 0.0026748180389404297, "tests_passed": true, "error": null}
+{"code": " {key: word_counter[key] for key in combinations}", "compilation_passed": true, "time": 0.0027778148651123047, "tests_passed": true, "error": null}
+{"code": " {k: word_counter[k] for k in combinations if word_counter[k]}", "compilation_passed": true, "time": 0.004263877868652344, "tests_passed": false, "error": "KeyError"}
+{"code": " dict(zip(combinations, [word_counter[x] if x in word_counter else 0 for x in combinations]))", "compilation_passed": true, "time": 0.00254058837890625, "tests_passed": true, "error": null}
+{"code": " {combinations[i]: word_counter[combinations[i]] for i in range(len(combinations))}", "compilation_passed": true, "time": 0.0029277801513671875, "tests_passed": true, "error": null}
+{"code": " {key: word_counter[key] for key in combinations if key in word_counter}", "compilation_passed": true, "time": 0.004445791244506836, "tests_passed": false, "error": "KeyError"}
+{"code": " dict(itertools.chain(word_counter.items(),", "compilation_passed": false, "time": 0.0001971721649169922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {combination: word_counter[combination] for combination in combinations if combination in word_combinations}", "compilation_passed": true, "time": 0.004100799560546875, "tests_passed": false, "error": "KeyError"}
+{"code": " {c: word_counter[c] for c in combinations if c in word_counter}", "compilation_passed": true, "time": 0.004446983337402344, "tests_passed": false, "error": "KeyError"}
+{"code": " {x: word_counter[x] for x in combinations if x in word_combinations}", "compilation_passed": true, "time": 0.006021022796630859, "tests_passed": false, "error": "KeyError"}
+{"code": " {combinations[x]: word_counter[combinations[x]] for x in range(len(combinations))}", "compilation_passed": true, "time": 0.0036122798919677734, "tests_passed": true, "error": null}

@@ -1,0 +1,5 @@
+{"code": " mapping.get(match.group(0), '')", "compilation_passed": true, "time": 0.016379833221435547, "tests_passed": true, "error": null}
+{"code": " mapping.get(match.group(0), match.group(0))", "compilation_passed": true, "time": 0.005195140838623047, "tests_passed": true, "error": null}
+{"code": " mapping.get(match.group(), match.group())", "compilation_passed": true, "time": 0.00563812255859375, "tests_passed": true, "error": null}
+{"code": " mapping[match.group()]", "compilation_passed": true, "time": 0.021173954010009766, "tests_passed": false, "error": "KeyError"}
+{"code": " mapping[match.group()] if match.group() in mapping else match.group()", "compilation_passed": true, "time": 0.005182981491088867, "tests_passed": true, "error": null}

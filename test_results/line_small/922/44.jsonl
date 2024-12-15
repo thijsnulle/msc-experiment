@@ -1,0 +1,21 @@
+{"code": " df[column].str.lower()", "compilation_passed": true, "time": 0.020003080368041992, "tests_passed": true, "error": null}
+{"code": " df[column].str.replace('\\w+', '', regex=True).str.replace(", "compilation_passed": false, "time": 0.0006959438323974609, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[column].str.lower().str.replace('[^a-z0-9]', ' ', regex=True).str.replace(r' +', ' ', regex=True)", "compilation_passed": true, "time": 0.010473012924194336, "tests_passed": true, "error": null}
+{"code": " df[column].str.lower().str.replace(r\"(?u)\\b\\w+\\b\", \"\", regex=True).str.replace(\"[^a-z ]\", \"\", regex=True)", "compilation_passed": true, "time": 0.010313987731933594, "tests_passed": true, "error": null}
+{"code": " df[column].map(lambda x: [i for i in x.split() if i not in STOPWORDS])", "compilation_passed": true, "time": 0.009855031967163086, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: ' '.join(re.sub(r'[\\W_]+', ' ', x).lower().split()))", "compilation_passed": true, "time": 0.013004064559936523, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: \" \".join([s for s in re.split(r'[,.:;!?()\\u201c\\u201d]', x) if s.lower() not in STOPWORDS]))", "compilation_passed": true, "time": 0.011682987213134766, "tests_passed": true, "error": null}
+{"code": " df[column].str.replace(", "compilation_passed": false, "time": 0.0005047321319580078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[column].apply(lambda x: re.sub('[A-Za-z]+[\\'\\s-]+[A-Za-z]+','',x.lower()))", "compilation_passed": true, "time": 0.010986089706420898, "tests_passed": true, "error": null}
+{"code": " df[column].astype(str).apply(lambda x: \" \".join(re.findall(r'\\w+', x.lower())))", "compilation_passed": true, "time": 0.01252603530883789, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: ' '.join(", "compilation_passed": false, "time": 0.00043582916259765625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[column].apply(lambda x: \" \".join(", "compilation_passed": false, "time": 0.0003829002380371094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[column].apply(lambda x: \" \".join(re.findall(r'\\w+', x))).apply(", "compilation_passed": false, "time": 0.0006048679351806641, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[column].str.lower().str.strip()", "compilation_passed": true, "time": 0.010225772857666016, "tests_passed": true, "error": null}
+{"code": " df[column].str.lower().str.replace(r\"\\b[a-z]{1,2}\\b\", \"\", regex=True)", "compilation_passed": true, "time": 0.010463953018188477, "tests_passed": true, "error": null}
+{"code": " df[column].astype(str)", "compilation_passed": true, "time": 0.009384870529174805, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: ' '.join([word for word in re.split('\\s+', x) if word.lower() not in STOPWORDS]))", "compilation_passed": true, "time": 0.010106801986694336, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: ' '.join([word for word in re.split(r'[\\s\\n]+', x) if word not in STOPWORDS]))", "compilation_passed": true, "time": 0.011073112487792969, "tests_passed": true, "error": null}
+{"code": " df[column].apply(", "compilation_passed": false, "time": 0.0004248619079589844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[column].astype(str).str.lower().str.replace('\\n', ' ').str.strip()", "compilation_passed": true, "time": 0.010396003723144531, "tests_passed": true, "error": null}
+{"code": " df[column].str.strip()", "compilation_passed": true, "time": 0.009763002395629883, "tests_passed": true, "error": null}

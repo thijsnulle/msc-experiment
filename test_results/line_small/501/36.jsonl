@@ -1,0 +1,14 @@
+{"code": " isinstance(json_str, str):", "compilation_passed": true, "time": 0.007066249847412109, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(json_str, (str, bytes, bytearray)):", "compilation_passed": true, "time": 0.006516933441162109, "tests_passed": false, "error": "TypeError"}
+{"code": " json_str is None:", "compilation_passed": true, "time": 0.023389816284179688, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(json_str, str):", "compilation_passed": true, "time": 0.017496109008789062, "tests_passed": true, "error": null}
+{"code": " not isinstance(json_str, str) and not isinstance(json_str, bytes) and not isinstance(json_str, bytearray):", "compilation_passed": true, "time": 0.016581296920776367, "tests_passed": true, "error": null}
+{"code": " not json.loads(json_str):", "compilation_passed": true, "time": 0.006496906280517578, "tests_passed": false, "error": "NameError"}
+{"code": " not isinstance(json_str, (str, bytes, bytearray)):", "compilation_passed": true, "time": 0.016408205032348633, "tests_passed": true, "error": null}
+{"code": " isinstance(json_str, str) or isinstance(json_str, bytes) or isinstance(json_str, bytearray):", "compilation_passed": true, "time": 0.006541013717651367, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(json_str, str) and os.path.isfile(filename):  # If filename is a file", "compilation_passed": true, "time": 0.021027803421020508, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(json_str, bytes):", "compilation_passed": true, "time": 0.022964954376220703, "tests_passed": false, "error": "ValueError"}
+{"code": " not json_str.strip():", "compilation_passed": true, "time": 0.018845319747924805, "tests_passed": false, "error": "AttributeError"}
+{"code": " type(json_str) is bytes:", "compilation_passed": true, "time": 0.02112579345703125, "tests_passed": false, "error": "ValueError"}
+{"code": " not json_str.startswith(\"[{\"):", "compilation_passed": true, "time": 0.009397029876708984, "tests_passed": false, "error": "TypeError"}
+{"code": " not json_str:", "compilation_passed": true, "time": 0.02227497100830078, "tests_passed": false, "error": "ValueError"}

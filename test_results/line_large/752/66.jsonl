@@ -1,0 +1,5 @@
+{"code": " not isinstance(random_state, int):", "compilation_passed": true, "time": 0.02667689323425293, "tests_passed": true, "error": null}
+{"code": " not isinstance(random_state, int) or isinstance(random_state, bool):", "compilation_passed": true, "time": 0.0269010066986084, "tests_passed": true, "error": null}
+{"code": " random_state is not None and not isinstance(random_state, int):", "compilation_passed": true, "time": 0.023274898529052734, "tests_passed": true, "error": null}
+{"code": " random_state is not None and random_state % 1 != 0:", "compilation_passed": true, "time": 0.02187371253967285, "tests_passed": true, "error": null}
+{"code": " not isinstance(random_state, int) or not np.issubdtype(type(random_state), np.integer):", "compilation_passed": true, "time": 0.02112889289855957, "tests_passed": true, "error": null}

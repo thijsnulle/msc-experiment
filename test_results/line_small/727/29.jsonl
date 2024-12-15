@@ -1,0 +1,12 @@
+{"code": " CountVectorizer(max_features=None, tokenizer=lambda x: x.split())", "compilation_passed": true, "time": 0.004239082336425781, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(", "compilation_passed": false, "time": 0.00015783309936523438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " CountVectorizer()", "compilation_passed": true, "time": 0.003393888473510742, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(token_pattern=r'\\w+')", "compilation_passed": true, "time": 0.003637075424194336, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(lowercase=True)", "compilation_passed": true, "time": 0.0039768218994140625, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(analyzer='word')", "compilation_passed": true, "time": 0.0033979415893554688, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(stop_words='english')", "compilation_passed": true, "time": 0.0048122406005859375, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(tokenizer=lambda x: x, dtype=int)", "compilation_passed": true, "time": 0.003590106964111328, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(vocabulary=['This', 'is', 'a', 'sentence', 'more', 'sentences', 'another', 'word', 'sentence', 'test', 'string'])", "compilation_passed": true, "time": 0.007624387741088867, "tests_passed": false, "error": "ValueError"}
+{"code": " CountVectorizer(analyzer='word', dtype=int)", "compilation_passed": true, "time": 0.003710031509399414, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(ngram_range=(1, 2), token_pattern=r'\\w+', lowercase=True)", "compilation_passed": true, "time": 0.00500798225402832, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(tokenizer=str.split, ngram_range=(1, 2), stop_words='english')", "compilation_passed": true, "time": 0.005055904388427734, "tests_passed": true, "error": null}

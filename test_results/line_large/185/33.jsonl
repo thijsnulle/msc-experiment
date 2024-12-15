@@ -1,0 +1,13 @@
+{"code": " pd.DataFrame({'City': cities,", "compilation_passed": false, "time": 0.00045680999755859375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'City': np.array(cities),", "compilation_passed": false, "time": 0.000225067138671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'City': cities, 'Longitude': np.random.uniform(lon_min, lon_max, size=len(cities)),", "compilation_passed": false, "time": 0.00024819374084472656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {", "compilation_passed": false, "time": 0.00023794174194335938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.array([[city, np.random.uniform(lon_min, lon_max), np.random.uniform(lat_min, lat_max)]", "compilation_passed": false, "time": 0.00032401084899902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'City': cities,", "compilation_passed": false, "time": 0.000225067138671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.rand(len(cities), 2) * (np.array([lon_max, lat_max]) - np.array([lon_min, lat_min])) + np.array([lon_min, lat_min])", "compilation_passed": true, "time": 0.01052713394165039, "tests_passed": false, "error": "IndexError"}
+{"code": " {'City': cities, 'Longitude': np.random.uniform(lon_min, lon_max, len(cities)),", "compilation_passed": false, "time": 0.00023698806762695312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.010107040405273438, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([[lon_min, lat_min], [lon_max, lat_max]])", "compilation_passed": true, "time": 0.009987831115722656, "tests_passed": false, "error": "IndexError"}
+{"code": " np.random.rand(len(cities), 2) * [lon_max - lon_min, lat_max - lat_min] + [lon_min, lat_min]", "compilation_passed": true, "time": 0.010303974151611328, "tests_passed": false, "error": "IndexError"}
+{"code": " pd.DataFrame({'City': cities, 'Longitude': np.random.uniform(lon_min, lon_max, len(cities)),", "compilation_passed": false, "time": 0.000240325927734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00021195411682128906, "tests_passed": false, "error": "SyntaxError"}

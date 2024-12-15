@@ -1,0 +1,5 @@
+{"code": " np.hstack([matrix1, matrix2])", "compilation_passed": true, "time": 0.006052255630493164, "tests_passed": true, "error": null}
+{"code": " np.hstack((matrix1, matrix2))  # Combine matrices along second axis", "compilation_passed": true, "time": 0.0042340755462646484, "tests_passed": true, "error": null}
+{"code": " np.concatenate((matrix1, matrix2), axis=1)", "compilation_passed": true, "time": 0.003911256790161133, "tests_passed": true, "error": null}
+{"code": " np.concatenate([matrix1, matrix2], axis=1)", "compilation_passed": true, "time": 0.004323244094848633, "tests_passed": true, "error": null}
+{"code": " np.hstack((matrix1, matrix2))", "compilation_passed": true, "time": 0.003670930862426758, "tests_passed": true, "error": null}

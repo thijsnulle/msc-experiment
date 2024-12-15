@@ -1,0 +1,29 @@
+{"code": " f\"{team} scored {team_goals} goals and received {team_penalties} penalties, \" \\", "compilation_passed": false, "time": 0.0002930164337158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"{team} scored {team_goals} goals, received {team_penalties} penalties, and incurred a penalty cost of {penalty_cost:,} dollars.\"", "compilation_passed": true, "time": 0.014841079711914062, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team}, {team_goals} goals, {penalty_cost} penalty cost\"", "compilation_passed": true, "time": 0.013369083404541016, "tests_passed": false, "error": "AttributeError"}
+{"code": " f'{team} scored {team_goals} goals and received {team_penalties} penalties, total penalty cost {penalty_cost}'", "compilation_passed": true, "time": 0.013387918472290039, "tests_passed": false, "error": "AttributeError"}
+{"code": " f'{team} - {team_goals}, {penalty_cost}'", "compilation_passed": true, "time": 0.012578248977661133, "tests_passed": false, "error": "AttributeError"}
+{"code": " f'{team} has {team_goals} goal{\"s\" if team_goals > 1 else \"\"}, and ' \\", "compilation_passed": false, "time": 0.0003139972686767578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f'{team_goals}xG + {team_penalties}P + {penalty_cost:,} FC'", "compilation_passed": true, "time": 0.015717029571533203, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} scored {team_goals} goals and received {team_penalties} penalties for a total penalty cost of {penalty_cost}.\"", "compilation_passed": true, "time": 0.011725902557373047, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} score{team_goals} goal\" if team_goals == 1 else f\"{team} score {team_goals} goals\"", "compilation_passed": true, "time": 0.014759302139282227, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} {team_goals}, {team_penalties}, {penalty_cost}\"", "compilation_passed": true, "time": 0.013245344161987305, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} scored {team_goals} goal(s), received {team_penalties} penalty(s), costing {penalty_cost} dollars.\"", "compilation_passed": true, "time": 0.012768030166625977, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} scored {team_goals} goals, and was fined ${penalty_cost} for {team_penalties} penalties.\"", "compilation_passed": true, "time": 0.013058900833129883, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} has {team_goals} goals and {team_penalties} penalties.\"", "compilation_passed": true, "time": 0.01355886459350586, "tests_passed": false, "error": "AttributeError"}
+{"code": " f'{team} scored {team_goals} goals and received {team_penalties} penalties.'", "compilation_passed": true, "time": 0.012204885482788086, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team}, {team_goals}, {penalty_cost}\"", "compilation_passed": true, "time": 0.011962175369262695, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} scored {team_goals} goals and received {team_penalties} penalties.\"", "compilation_passed": true, "time": 0.012516260147094727, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} {team_goals}:{team_penalties} {penalty_cost}\"", "compilation_passed": true, "time": 0.022819042205810547, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} {team_goals}:{team_penalties}\"", "compilation_passed": true, "time": 0.020355939865112305, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} scored {team_goals} goals and had {team_penalties} penalties, total cost {penalty_cost}\"", "compilation_passed": true, "time": 0.01292109489440918, "tests_passed": false, "error": "AttributeError"}
+{"code": " f'{team} scored {team_goals} goals and received {team_penalties} penalties. The total penalty cost is {penalty_cost}.'", "compilation_passed": true, "time": 0.01238393783569336, "tests_passed": false, "error": "AttributeError"}
+{"code": " f'{team} has scored {team_goals} goals and received {team_penalties} penalties.'", "compilation_passed": true, "time": 0.012523174285888672, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} had {team_goals} goals and {team_penalties} penalties with a cost of ${penalty_cost}\"", "compilation_passed": true, "time": 0.01225900650024414, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} scored {team_goals} goal(s). The {team} received {team_penalties} penalty(s), for a total penalty cost of {penalty_cost}.\"", "compilation_passed": true, "time": 0.011751174926757812, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} has {team_goals} goals and {team_penalties} penalties, for a total cost of {penalty_cost}.\"", "compilation_passed": true, "time": 0.013108253479003906, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} {team_goals} - {team_penalties} = {penalty_cost} ${team_penalties}\"", "compilation_passed": true, "time": 0.01405191421508789, "tests_passed": false, "error": "AttributeError"}
+{"code": " ' '.join([str(team_goals), str(penalty_cost)])", "compilation_passed": true, "time": 0.01364898681640625, "tests_passed": false, "error": "AttributeError"}
+{"code": " f\"{team} has scored {team_goals} goals and {team_penalties} penalties. The penalty cost is {penalty_cost:.0f} dollars.\"", "compilation_passed": true, "time": 0.013170003890991211, "tests_passed": false, "error": "AttributeError"}
+{"code": " '{} {} {} {}'.format(team, team_goals, team_penalties, penalty_cost)", "compilation_passed": true, "time": 0.019620895385742188, "tests_passed": false, "error": "AttributeError"}
+{"code": " f'{team} {team_goals} goal(s), {team_penalties} penalty(s)'", "compilation_passed": true, "time": 0.01955103874206543, "tests_passed": false, "error": "AttributeError"}

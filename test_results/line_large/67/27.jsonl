@@ -1,0 +1,10 @@
+{"code": "append((file, os.path.getsize(os.path.join(dir_path, file))))", "compilation_passed": true, "time": 0.03268885612487793, "tests_passed": true, "error": null}
+{"code": "append(os.path.getsize(os.path.join(dir_path, file)))", "compilation_passed": true, "time": 0.020174741744995117, "tests_passed": false, "error": "ValueError"}
+{"code": "append([file, os.stat(os.path.join(dir_path, file)).st_size])", "compilation_passed": true, "time": 0.03373861312866211, "tests_passed": true, "error": null}
+{"code": "append([file, os.path.getsize(os.path.join(dir_path, file))])", "compilation_passed": true, "time": 0.03140091896057129, "tests_passed": true, "error": null}
+{"code": "append((file, os.stat(os.path.join(dir_path, file)).st_size))", "compilation_passed": true, "time": 0.031992197036743164, "tests_passed": true, "error": null}
+{"code": "append(os.path.getsize(dir_path + '/' + file))", "compilation_passed": true, "time": 0.020205020904541016, "tests_passed": false, "error": "ValueError"}
+{"code": "append(os.path.getsize(dir_path + file))", "compilation_passed": true, "time": 0.023746252059936523, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "append((file, os.path.getsize(f'{dir_path}/{file}')))", "compilation_passed": true, "time": 0.03091597557067871, "tests_passed": true, "error": null}
+{"code": "append(os.stat(os.path.join(dir_path, file)).st_size)", "compilation_passed": true, "time": 0.020932912826538086, "tests_passed": false, "error": "ValueError"}
+{"code": "append(os.path.getsize(dir_path + \"/\" + file))", "compilation_passed": true, "time": 0.020601272583007812, "tests_passed": false, "error": "ValueError"}

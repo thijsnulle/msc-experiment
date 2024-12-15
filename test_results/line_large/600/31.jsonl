@@ -1,0 +1,9 @@
+{"code": " df[df['Word'].str.contains(regex)]", "compilation_passed": true, "time": 0.0374600887298584, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.match(regex)]", "compilation_passed": true, "time": 0.03402113914489746, "tests_passed": true, "error": null}
+{"code": " df.loc[df['Word'].str.match(regex)]", "compilation_passed": true, "time": 0.03299713134765625, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.startswith(regex)]", "compilation_passed": true, "time": 0.014381885528564453, "tests_passed": false, "error": "IndexError"}
+{"code": " df[df['Word'].str.contains(regex, case=False)]", "compilation_passed": true, "time": 0.03423905372619629, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.contains(regex, case=False, regex=True)]", "compilation_passed": true, "time": 0.03729891777038574, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.contains(regex, regex=True)]", "compilation_passed": true, "time": 0.03584933280944824, "tests_passed": true, "error": null}
+{"code": " df.loc[df['Word'].str.contains(regex)]", "compilation_passed": true, "time": 0.03463387489318848, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.contains(regex, case=True, na=False)]", "compilation_passed": true, "time": 0.0354008674621582, "tests_passed": true, "error": null}

@@ -1,0 +1,11 @@
+{"code": " stats.mode(data_df['Value']).mode[0]", "compilation_passed": true, "time": 0.025974035263061523, "tests_passed": true, "error": null}
+{"code": " stats.mode(data).mode[0]", "compilation_passed": true, "time": 0.02774977684020996, "tests_passed": true, "error": null}
+{"code": " data_df['Value'].mode()", "compilation_passed": true, "time": 0.01683521270751953, "tests_passed": false, "error": "ValueError"}
+{"code": " stats.mode(data_df['Value'])[0][0]", "compilation_passed": true, "time": 0.026576995849609375, "tests_passed": true, "error": null}
+{"code": " data_df['Value'].mode().values[0]", "compilation_passed": true, "time": 0.026865243911743164, "tests_passed": true, "error": null}
+{"code": " stats.mode(data_df['Value'].values)[0][0]", "compilation_passed": true, "time": 0.02657794952392578, "tests_passed": true, "error": null}
+{"code": " stats.mode(data_df['Value'], keepdims=True).mode[0]", "compilation_passed": true, "time": 0.01723480224609375, "tests_passed": false, "error": "TypeError"}
+{"code": " stats.mode(data_df['Value'])", "compilation_passed": true, "time": 0.01265096664428711, "tests_passed": false, "error": "TypeError"}
+{"code": " stats.mode(data_df['Value'], keepdims=False).mode[0]", "compilation_passed": true, "time": 0.0170590877532959, "tests_passed": false, "error": "TypeError"}
+{"code": " data_df['Value'].mode().iloc[0]", "compilation_passed": true, "time": 0.026669979095458984, "tests_passed": true, "error": null}
+{"code": " data_df['Value'].mode()[0]", "compilation_passed": true, "time": 0.025896787643432617, "tests_passed": true, "error": null}

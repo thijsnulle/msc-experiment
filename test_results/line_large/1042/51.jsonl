@@ -1,0 +1,5 @@
+{"code": "sendall(response.encode(\"utf-8\"))", "compilation_passed": true, "time": 0.021040916442871094, "tests_passed": true, "error": null}
+{"code": "send(response.encode(\"utf-8\"))", "compilation_passed": true, "time": 0.02552199363708496, "tests_passed": true, "error": null}
+{"code": "send(response.encode())", "compilation_passed": true, "time": 0.02413797378540039, "tests_passed": true, "error": null}
+{"code": "send(bytes(response, \"utf-8\"))", "compilation_passed": true, "time": 0.03092813491821289, "tests_passed": true, "error": null}
+{"code": "sendall(response.encode())", "compilation_passed": true, "time": 0.02724003791809082, "tests_passed": true, "error": null}

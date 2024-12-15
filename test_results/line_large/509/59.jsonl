@@ -1,0 +1,8 @@
+{"code": " list(ndiff(csv_content1, csv_content2))", "compilation_passed": true, "time": 0.010649681091308594, "tests_passed": true, "error": null}
+{"code": " list(ndiff([str(row) for row in csv_content1], [str(row) for row in csv_content2]))", "compilation_passed": true, "time": 0.009834051132202148, "tests_passed": true, "error": null}
+{"code": " list(ndiff([str(row) for row in csv_content1],", "compilation_passed": false, "time": 0.0003330707550048828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ndiff(csv_content1, csv_content2)", "compilation_passed": true, "time": 0.010429143905639648, "tests_passed": true, "error": null}
+{"code": " list(ndiff([csv_content1], [csv_content2]))", "compilation_passed": true, "time": 0.010526895523071289, "tests_passed": false, "error": "Exception"}
+{"code": " ndiff([str(row) for row in csv_content1], [str(row) for row in csv_content2])", "compilation_passed": true, "time": 0.010075092315673828, "tests_passed": true, "error": null}
+{"code": " list(ndiff(csv_content1, csv_content2))  # Perform the difference operation using ndiff", "compilation_passed": true, "time": 0.010882854461669922, "tests_passed": true, "error": null}
+{"code": " ndiff([csv_content1], [csv_content2])  # Perform the difference operation", "compilation_passed": true, "time": 0.011368751525878906, "tests_passed": false, "error": "Exception"}

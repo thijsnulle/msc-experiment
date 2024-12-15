@@ -1,0 +1,15 @@
+{"code": " [re.sub(r\"http\\S+\", \"\", text) for text in texts]", "compilation_passed": true, "time": 0.007243156433105469, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'https?://(?:[-\\w.]|(?:%[\\da-fA-F]{2}))+', \"\", text) for text in texts]", "compilation_passed": true, "time": 0.007658958435058594, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'http\\S+', '', text) for text in texts]", "compilation_passed": true, "time": 0.00726318359375, "tests_passed": true, "error": null}
+{"code": " [re.sub(r\"https?://(?:[-\\w.]|(?:%[\\da-fA-F]{2}))+\", \"\", text) for text in texts]", "compilation_passed": true, "time": 0.009057998657226562, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'\\b(https?://\\S+)', '', text) for text in texts]", "compilation_passed": true, "time": 0.009042024612426758, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.005685091018676758, "tests_passed": false, "error": "ValueError"}
+{"code": " [re.sub(r'http\\S+', '', text.lower()) for text in texts]", "compilation_passed": true, "time": 0.008224010467529297, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'https?://(?:[-\\w.]|(?:%[\\da-fA-F]{2}))+', '', text) for text in texts]", "compilation_passed": true, "time": 0.008204221725463867, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'https?://\\S+', '', text) for text in texts]", "compilation_passed": true, "time": 0.0078582763671875, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'https?:\\/\\/.*[\\r\\n]*', '', text.strip()) for text in texts]", "compilation_passed": true, "time": 0.007975339889526367, "tests_passed": true, "error": null}
+{"code": " [re.sub(r\"https?://\\S+|www\\.\\S+\", \"\", text) for text in texts]", "compilation_passed": true, "time": 0.008036136627197266, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'\\S*https?://\\S*', '', text) for text in texts]", "compilation_passed": true, "time": 0.007825851440429688, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'https?://[^\\s]+', '', text) for text in texts]", "compilation_passed": true, "time": 0.007812023162841797, "tests_passed": true, "error": null}
+{"code": " [re.sub(r\"https?:\\/\\/[^\\s]+\", \"\", text) for text in texts]", "compilation_passed": true, "time": 0.009448051452636719, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'https?://\\S+|www\\.\\S+', '', text) for text in texts]", "compilation_passed": true, "time": 0.007442951202392578, "tests_passed": true, "error": null}

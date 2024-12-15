@@ -1,0 +1,4 @@
+{"code": " df.sum()", "compilation_passed": true, "time": 0.5091602802276611, "tests_passed": true, "error": null}
+{"code": " df.sum(axis=0)", "compilation_passed": true, "time": 0.5142548084259033, "tests_passed": true, "error": null}
+{"code": " [row.sum() for row in df.T]", "compilation_passed": true, "time": 0.013413667678833008, "tests_passed": false, "error": "AttributeError"}
+{"code": " [sum(col) for col in array]", "compilation_passed": true, "time": 0.07407402992248535, "tests_passed": false, "error": "AttributeError"}

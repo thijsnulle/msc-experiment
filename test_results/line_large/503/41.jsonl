@@ -1,0 +1,15 @@
+{"code": " np.random.rand(days_in_past, len(stock_names))", "compilation_passed": true, "time": 0.007627010345458984, "tests_passed": true, "error": null}
+{"code": " np.random.random((days_in_past, len(stock_names)))", "compilation_passed": true, "time": 0.007886171340942383, "tests_passed": true, "error": null}
+{"code": " np.random.rand(len(dates), len(stock_names))", "compilation_passed": true, "time": 0.0073359012603759766, "tests_passed": true, "error": null}
+{"code": " np.random.rand(days_in_past, len(stock_names))  # prices are floats in [0.0,1.0)", "compilation_passed": true, "time": 0.007363080978393555, "tests_passed": true, "error": null}
+{"code": " np.random.rand(days_in_past, len(stock_names))  # Random stock prices", "compilation_passed": true, "time": 0.009218931198120117, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0002682209014892578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.uniform(size=(days_in_past, len(stock_names)))", "compilation_passed": true, "time": 0.008611202239990234, "tests_passed": true, "error": null}
+{"code": " np.random.random(size=(days_in_past, len(stock_names)))", "compilation_passed": true, "time": 0.007485866546630859, "tests_passed": true, "error": null}
+{"code": " np.random.rand(days_in_past, len(stock_names))  # [0.0,1.0)", "compilation_passed": true, "time": 0.007812738418579102, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.random((days_in_past, len(stock_names))),", "compilation_passed": false, "time": 0.00030803680419921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.rand(days_in_past, len(stock_names))  # Generate random numbers in [0.0,1.0)", "compilation_passed": true, "time": 0.007673025131225586, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=np.random.rand(days_in_past, len(stock_names)), index=dates, columns=stock_names)", "compilation_passed": true, "time": 0.009636878967285156, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(0.0, 1.0, size=(len(dates), len(stock_names)))", "compilation_passed": true, "time": 0.007498264312744141, "tests_passed": true, "error": null}
+{"code": " np.random.rand(len(stock_names), len(dates))", "compilation_passed": true, "time": 0.006373167037963867, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.rand(days_in_past, len(stock_names))  # Random stock prices in [0.0, 1.0)", "compilation_passed": true, "time": 0.0075109004974365234, "tests_passed": true, "error": null}

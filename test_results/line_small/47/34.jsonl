@@ -1,0 +1,10 @@
+{"code": "columns] = scaler.fit_transform(df[df.columns])", "compilation_passed": true, "time": 0.4250829219818115, "tests_passed": true, "error": null}
+{"code": "select_dtypes(include=\"number\").columns] = scaler.fit_transform(df)", "compilation_passed": true, "time": 0.41960597038269043, "tests_passed": true, "error": null}
+{"code": "select_dtypes(include='number').columns] = scaler.fit_transform(df[df.select_dtypes(include='number').columns])", "compilation_passed": true, "time": 0.42792701721191406, "tests_passed": true, "error": null}
+{"code": "dtypes == \"float64\"] = scaler.fit_transform(df[df.dtypes == \"float64\"])", "compilation_passed": true, "time": 0.0150909423828125, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": "columns] = scaler.fit_transform(df)", "compilation_passed": true, "time": 0.4350850582122803, "tests_passed": true, "error": null}
+{"code": "select_dtypes(include=['int','float','object'])] = scaler.fit_transform(df[df.select_dtypes(include=['int','float','object'])])", "compilation_passed": true, "time": 0.021369218826293945, "tests_passed": false, "error": "ValueError"}
+{"code": "select_dtypes(include=\"number\")] = scaler.fit_transform(df[df.select_dtypes(include=\"number\")])", "compilation_passed": true, "time": 0.020165681838989258, "tests_passed": false, "error": "ValueError"}
+{"code": "select_dtypes(include=\"number\").columns] = scaler.fit_transform(df[df.select_dtypes(include=\"number\").columns])", "compilation_passed": true, "time": 0.47432899475097656, "tests_passed": true, "error": null}
+{"code": "select_dtypes(include=np.number).columns] = scaler.fit_transform(df[df.select_dtypes(include=np.number).columns])", "compilation_passed": true, "time": 0.021697044372558594, "tests_passed": false, "error": "NameError"}
+{"code": "select_dtypes(\"numeric\").columns] = scaler.fit_transform(df[df.select_dtypes(\"numeric\").columns])", "compilation_passed": true, "time": 0.026650190353393555, "tests_passed": false, "error": "TypeError"}

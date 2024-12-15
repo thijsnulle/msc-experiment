@@ -1,0 +1,13 @@
+{"code": " CountVectorizer()", "compilation_passed": true, "time": 0.003954172134399414, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(ngram_range=(1,1))", "compilation_passed": true, "time": 0.003542184829711914, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(vocabulary=set(word for s in SENTENCES for word in s.split()))", "compilation_passed": true, "time": 0.007071018218994141, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(token_pattern=r'\\b\\w+\\b')", "compilation_passed": true, "time": 0.0034890174865722656, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(ngram_range=(1,2))", "compilation_passed": true, "time": 0.0036873817443847656, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(lowercase=True)", "compilation_passed": true, "time": 0.003322124481201172, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(vocabulary=vectorizer.vocabulary_)", "compilation_passed": true, "time": 0.009017229080200195, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " CountVectorizer(lowercase=True, stop_words=None, binary=False)", "compilation_passed": true, "time": 0.0036859512329101562, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(ngram_range=(2, 3))", "compilation_passed": true, "time": 0.007400989532470703, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(lowercase=False)", "compilation_passed": true, "time": 0.003782987594604492, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(min_df=1)", "compilation_passed": true, "time": 0.0033299922943115234, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(analyzer='word', vocabulary=re.findall(r'\\w+', ' '.join(SENTENCES)))", "compilation_passed": true, "time": 0.009246110916137695, "tests_passed": false, "error": "ValueError"}
+{"code": " CountVectorizer(lowercase=True, ngram_range=(1, 1), stop_words=None)", "compilation_passed": true, "time": 0.003465890884399414, "tests_passed": true, "error": null}

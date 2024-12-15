@@ -1,0 +1,9 @@
+{"code": " ''.join([random.choice(HEX_CHARS) for i in range(length)])", "compilation_passed": true, "time": 0.0017752647399902344, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(HEX_CHARS) for _ in range(length))", "compilation_passed": true, "time": 0.00177001953125, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choices(HEX_CHARS, k=length))", "compilation_passed": true, "time": 0.005374908447265625, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choices(HEX_CHARS, k=length))", "compilation_passed": true, "time": 0.00510096549987793, "tests_passed": true, "error": null}
+{"code": " \"\".join([random.choice(HEX_CHARS) for _ in range(length)])", "compilation_passed": true, "time": 0.0017199516296386719, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(HEX_CHARS) for i in range(length))", "compilation_passed": true, "time": 0.001760721206665039, "tests_passed": true, "error": null}
+{"code": " ''.join([random.choice(HEX_CHARS) for _ in range(length)])", "compilation_passed": true, "time": 0.00138092041015625, "tests_passed": true, "error": null}
+{"code": " \"\"", "compilation_passed": true, "time": 0.0049741268157958984, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choice(HEX_CHARS) for _ in range(length))", "compilation_passed": true, "time": 0.0012290477752685547, "tests_passed": true, "error": null}

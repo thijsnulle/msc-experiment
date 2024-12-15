@@ -1,0 +1,11 @@
+{"code": " [randint(0, 100) for _ in range(len(COURSES))]", "compilation_passed": true, "time": 0.014013290405273438, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.010447263717651367, "tests_passed": false, "error": "ValueError"}
+{"code": " [randint(0, 100) for i in range(len(COURSES))]", "compilation_passed": true, "time": 0.014533758163452148, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.011374950408935547, "tests_passed": false, "error": "TypeError"}
+{"code": " [randint(0, 100) for course in COURSES]", "compilation_passed": true, "time": 0.013169050216674805, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 100, len(COURSES))", "compilation_passed": true, "time": 0.008788824081420898, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " np.random.uniform(0, 100, len(COURSES))", "compilation_passed": true, "time": 0.009936809539794922, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " [np.random.uniform(0, 100) for _ in COURSES]", "compilation_passed": true, "time": 0.011789798736572266, "tests_passed": true, "error": null}
+{"code": " np.random.randint(101, size=len(COURSES))  # Generates a random grade for each course", "compilation_passed": true, "time": 0.009193181991577148, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " [randint(0, 100) for _ in COURSES]", "compilation_passed": true, "time": 0.013763904571533203, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(0, 100, size=len(COURSES))", "compilation_passed": true, "time": 0.008469104766845703, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}

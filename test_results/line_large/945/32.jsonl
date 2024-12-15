@@ -1,0 +1,27 @@
+{"code": " pd.DataFrame({'sales': sales_data}) if sales_data is not None else pd.DataFrame({'sales': np.random.randint(100, 600, periods)})", "compilation_passed": true, "time": 0.018191099166870117, "tests_passed": false, "error": "ValueError"}
+{"code": " sales_data if sales_data is not None else np.random.randint(low=150, high=400, size=periods).astype(np.float64)", "compilation_passed": true, "time": 0.006433963775634766, "tests_passed": true, "error": null}
+{"code": " np.random.normal(loc=300, scale=30, size=periods) if sales_data is None else np.array(sales_data)", "compilation_passed": true, "time": 0.006442070007324219, "tests_passed": true, "error": null}
+{"code": " sales_data if sales_data is not None else np.random.randint(0, 1000, periods)", "compilation_passed": true, "time": 0.006437063217163086, "tests_passed": true, "error": null}
+{"code": " sales_data", "compilation_passed": true, "time": 0.006235837936401367, "tests_passed": true, "error": null}
+{"code": " sales_data or np.random.randint(low=0, high=1000, size=periods)  # Default to random sales data", "compilation_passed": true, "time": 0.0064928531646728516, "tests_passed": true, "error": null}
+{"code": " sales_data or np.random.randint(100, 1000, periods)", "compilation_passed": true, "time": 0.0062408447265625, "tests_passed": true, "error": null}
+{"code": " np.array(sales_data) if sales_data is not None else np.random.randint(100, 1000, size=periods)", "compilation_passed": true, "time": 0.007302045822143555, "tests_passed": true, "error": null}
+{"code": " np.random.normal(100, 50, periods) if sales_data is None else sales_data", "compilation_passed": true, "time": 0.00658106803894043, "tests_passed": true, "error": null}
+{"code": " sales_data or np.random.randint(200, 600, periods)", "compilation_passed": true, "time": 0.006836891174316406, "tests_passed": true, "error": null}
+{"code": " sales_data if sales_data is not None else np.random.randint(100, 600, periods)", "compilation_passed": true, "time": 0.006173133850097656, "tests_passed": true, "error": null}
+{"code": " sales_data or np.random.randint(100, 600, size=periods)  # If sales_data is not provided, generate random data", "compilation_passed": true, "time": 0.006293058395385742, "tests_passed": true, "error": null}
+{"code": " sales_data or np.random.randint(100, 200, periods)  # If sales_data is not provided, generate random sales data", "compilation_passed": true, "time": 0.006417751312255859, "tests_passed": true, "error": null}
+{"code": " np.array([314, 319, 324, 329, 334, 339, 344, 349, 354, 359, 364, 369, 374])", "compilation_passed": true, "time": 0.008346080780029297, "tests_passed": false, "error": "ValueError"}
+{"code": " sales_data or np.random.randint(100, 1000, size=periods).astype(np.float32)", "compilation_passed": true, "time": 0.0062139034271240234, "tests_passed": true, "error": null}
+{"code": " sales_data if sales_data is not None else np.random.randint(50, 300, periods).astype(float)", "compilation_passed": true, "time": 0.006231784820556641, "tests_passed": true, "error": null}
+{"code": " sales_data or np.random.randint(low=100, high=750, size=periods)", "compilation_passed": true, "time": 0.006272077560424805, "tests_passed": true, "error": null}
+{"code": " sales_data or np.random.normal(100, 20, periods)", "compilation_passed": true, "time": 0.006574869155883789, "tests_passed": true, "error": null}
+{"code": " sales_data or np.random.randint(100, 200, periods)", "compilation_passed": true, "time": 0.006528139114379883, "tests_passed": true, "error": null}
+{"code": " np.random.normal(500, 50, periods) if sales_data is None else np.array(sales_data)", "compilation_passed": true, "time": 0.00649714469909668, "tests_passed": true, "error": null}
+{"code": " sales_data or np.random.randint(low=200, high=700, size=periods)", "compilation_passed": true, "time": 0.006546974182128906, "tests_passed": true, "error": null}
+{"code": " sales_data or np.random.randint(0, 10000, periods)", "compilation_passed": true, "time": 0.00814199447631836, "tests_passed": true, "error": null}
+{"code": " np.random.randint(100, 500, size=periods) if sales_data is None else sales_data", "compilation_passed": true, "time": 0.00680088996887207, "tests_passed": true, "error": null}
+{"code": " np.array(sales_data)", "compilation_passed": true, "time": 0.006539106369018555, "tests_passed": true, "error": null}
+{"code": " np.random.normal(0, 100, periods) if sales_data is None else sales_data", "compilation_passed": true, "time": 0.006672859191894531, "tests_passed": true, "error": null}
+{"code": " np.random.randint(100, 1000, periods) if sales_data is None else sales_data", "compilation_passed": true, "time": 0.006823301315307617, "tests_passed": true, "error": null}
+{"code": " np.random.randint(200, 600, size=periods) if sales_data is None else sales_data", "compilation_passed": true, "time": 0.006564140319824219, "tests_passed": true, "error": null}

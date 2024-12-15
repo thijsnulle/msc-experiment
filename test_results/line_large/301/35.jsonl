@@ -1,0 +1,9 @@
+{"code": " from_tz.localize(parse(date_str))", "compilation_passed": true, "time": 0.001992940902709961, "tests_passed": true, "error": null}
+{"code": " parse(date_str).replace(tzinfo=from_tz).astimezone(to_tz)", "compilation_passed": true, "time": 0.0019550323486328125, "tests_passed": true, "error": null}
+{"code": " from_tz.localize(parse(date_str))  # Localize the given date to the given timezone", "compilation_passed": true, "time": 0.002341747283935547, "tests_passed": true, "error": null}
+{"code": " parse(date_str)", "compilation_passed": true, "time": 0.0020742416381835938, "tests_passed": true, "error": null}
+{"code": " parse(date_str).replace(tzinfo=from_tz)", "compilation_passed": true, "time": 0.0026519298553466797, "tests_passed": true, "error": null}
+{"code": " parse(date_str).astimezone(to_tz)", "compilation_passed": true, "time": 0.0029098987579345703, "tests_passed": true, "error": null}
+{"code": " parse(date_str).astimezone(from_tz)", "compilation_passed": true, "time": 0.0026159286499023438, "tests_passed": true, "error": null}
+{"code": " parse(date_str, ignoretz=False).astimezone(from_tz)", "compilation_passed": true, "time": 0.0028591156005859375, "tests_passed": true, "error": null}
+{"code": " parse(date_str, tzinfos={date_str: from_tz})", "compilation_passed": true, "time": 0.002110004425048828, "tests_passed": true, "error": null}

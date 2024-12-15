@@ -1,0 +1,16 @@
+{"code": " pd.DataFrame(columns=['a', 'b', 'c', 'd', 'e']), []", "compilation_passed": true, "time": 0.07850289344787598, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(), [pd.DataFrame()] * num_dataframes", "compilation_passed": true, "time": 0.05015397071838379, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(L), [pd.DataFrame(L)]*num_dataframes", "compilation_passed": true, "time": 0.05274605751037598, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(), [pd.DataFrame()]", "compilation_passed": true, "time": 0.051959991455078125, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=['col1', 'col2', 'col3']), [pd.DataFrame(columns=['col1', 'col2', 'col3']) for _ in range(num_dataframes)]", "compilation_passed": true, "time": 0.05502820014953613, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(), []", "compilation_passed": true, "time": 0.07957124710083008, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([]), [pd.DataFrame([]) for i in range(num_dataframes)]", "compilation_passed": true, "time": 0.06371831893920898, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.06687116622924805, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(columns=['a', 'b', 'c']), []", "compilation_passed": true, "time": 0.0752861499786377, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([]), []", "compilation_passed": true, "time": 0.07539010047912598, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(), [pd.DataFrame() for _ in range(num_dataframes)]", "compilation_passed": true, "time": 0.05464768409729004, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=[chr(i) for i in range(97, 123)]), []", "compilation_passed": true, "time": 0.08486509323120117, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(), [pd.DataFrame() for i in range(num_dataframes)]", "compilation_passed": true, "time": 0.05077004432678223, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=['a', 'b', 'c'], index=[0]), []", "compilation_passed": true, "time": 0.05175518989562988, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({}), []", "compilation_passed": true, "time": 0.07806015014648438, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=['k', 'd', 'w']), []", "compilation_passed": true, "time": 0.07736086845397949, "tests_passed": true, "error": null}

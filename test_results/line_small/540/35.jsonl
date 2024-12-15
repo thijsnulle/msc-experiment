@@ -1,0 +1,8 @@
+{"code": " values = zip(*counter.items())", "compilation_passed": true, "time": 0.10406804084777832, "tests_passed": true, "error": null}
+{"code": " values = zip(*sorted(counter.items()))", "compilation_passed": true, "time": 0.1151740550994873, "tests_passed": true, "error": null}
+{"code": " counts = zip(*sorted(counter.items()))", "compilation_passed": true, "time": 0.02142786979675293, "tests_passed": false, "error": "NameError"}
+{"code": " values = zip(*counter.most_common())", "compilation_passed": true, "time": 0.12328600883483887, "tests_passed": true, "error": null}
+{"code": " values = list(counter.keys()), list(counter.values())", "compilation_passed": true, "time": 0.10755205154418945, "tests_passed": true, "error": null}
+{"code": " heights = zip(*counter.most_common())", "compilation_passed": true, "time": 0.028241872787475586, "tests_passed": false, "error": "NameError"}
+{"code": " counts = zip(*counter.items())", "compilation_passed": true, "time": 0.02132892608642578, "tests_passed": false, "error": "NameError"}
+{"code": " values = list(zip(*counter.items()))", "compilation_passed": true, "time": 0.10335469245910645, "tests_passed": true, "error": null}

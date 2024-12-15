@@ -1,0 +1,16 @@
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.017106056213378906, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data).dropna()", "compilation_passed": true, "time": 0.022031784057617188, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data[1:])", "compilation_passed": true, "time": 0.007403135299682617, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=data)", "compilation_passed": true, "time": 0.016861915588378906, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=[\"Name\", \"Email\", \"Date\", \"Time\"])", "compilation_passed": true, "time": 0.013726949691772461, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, columns=[\"Name\", \"Age\", \"Country\"])", "compilation_passed": true, "time": 0.015630006790161133, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, columns=[\"id\", \"name\", \"score\", \"city\", \"state\"])", "compilation_passed": true, "time": 0.01239013671875, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data[1:])  # Skip header row", "compilation_passed": true, "time": 0.008620023727416992, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=[\"name\", \"age\", \"country\", \"city\"])", "compilation_passed": true, "time": 0.024878978729248047, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data[1:], columns=data[0])", "compilation_passed": true, "time": 0.007911920547485352, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=data, columns=[\"Col 1\", \"Col 2\", \"Col 3\"])", "compilation_passed": true, "time": 0.01762104034423828, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, columns=rows[0].xpath(\".//td\").copy().xpath(\".//th\"))", "compilation_passed": true, "time": 0.013923168182373047, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(data, columns=[\"Country\", \"GDP\"])", "compilation_passed": true, "time": 0.012145042419433594, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, columns=[\"a\", \"b\", \"c\", \"d\", \"e\", \"f\", \"g\", \"h\", \"i\", \"j\", \"k\", \"l\", \"m\", \"n\", \"o\"])", "compilation_passed": true, "time": 0.011693000793457031, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, columns=[\"column1\", \"column2\", \"column3\", \"column4\"])", "compilation_passed": true, "time": 0.009318113327026367, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, columns=[\"column_1\", \"column_2\", \"column_3\"])", "compilation_passed": true, "time": 0.009010076522827148, "tests_passed": false, "error": "ValueError"}

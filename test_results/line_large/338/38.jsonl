@@ -1,0 +1,12 @@
+{"code": " f\"% {random_str}%\"", "compilation_passed": true, "time": 0.9967331886291504, "tests_passed": true, "error": null}
+{"code": " f'% {random_str}%'", "compilation_passed": true, "time": 0.17598795890808105, "tests_passed": true, "error": null}
+{"code": " f\"%{random_str}%\"", "compilation_passed": true, "time": 0.07303500175476074, "tests_passed": true, "error": null}
+{"code": " '% %s%' % (random_str)", "compilation_passed": true, "time": 0.003743886947631836, "tests_passed": false, "error": "ValueError"}
+{"code": " f\"%{random_str}%{element}\"", "compilation_passed": true, "time": 0.05737709999084473, "tests_passed": true, "error": null}
+{"code": " '% %s%' % random_str", "compilation_passed": true, "time": 0.004172086715698242, "tests_passed": false, "error": "ValueError"}
+{"code": " \"% {}%\".format(random_str)", "compilation_passed": true, "time": 0.20156598091125488, "tests_passed": true, "error": null}
+{"code": " '%' + ' ' + random_str + ' ' + '%'", "compilation_passed": true, "time": 0.042788028717041016, "tests_passed": true, "error": null}
+{"code": " '% ' + random_str + '%'", "compilation_passed": true, "time": 0.32526421546936035, "tests_passed": true, "error": null}
+{"code": " '% {}%'.format(random_str)", "compilation_passed": true, "time": 0.2907071113586426, "tests_passed": true, "error": null}
+{"code": " \"% {0}%\".format(random_str)", "compilation_passed": true, "time": 0.29436182975769043, "tests_passed": true, "error": null}
+{"code": " f'%{random_str}%'", "compilation_passed": true, "time": 0.04329180717468262, "tests_passed": true, "error": null}

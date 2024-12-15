@@ -1,0 +1,8 @@
+{"code": " pd.date_range(start_date, periods=periods, freq=freq)", "compilation_passed": true, "time": 0.23256182670593262, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start=start_date, periods=periods, freq=freq, end='2020-01-01')", "compilation_passed": true, "time": 0.014820098876953125, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(start=start_date, periods=periods, freq=freq)", "compilation_passed": true, "time": 0.22864699363708496, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start=start_date, end=start_date+pd.Timedelta(days=periods*7), freq=freq)", "compilation_passed": true, "time": 0.007699012756347656, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.period_range(start_date, periods=periods, freq=freq)", "compilation_passed": true, "time": 0.06313204765319824, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.period_range(start=start_date, periods=periods, freq=freq)", "compilation_passed": true, "time": 0.05604290962219238, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(start=start_date, periods=periods, freq=freq, closed='right')", "compilation_passed": true, "time": 0.007718086242675781, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.date_range(start=start_date, end=start_date + pd.offsets.period(periods, freq), freq=freq)", "compilation_passed": true, "time": 0.007704973220825195, "tests_passed": false, "error": "AttributeError"}

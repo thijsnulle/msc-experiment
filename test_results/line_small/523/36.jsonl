@@ -1,0 +1,21 @@
+{"code": " in df.columns:", "compilation_passed": true, "time": 0.13196706771850586, "tests_passed": true, "error": null}
+{"code": ", data_points in df.iteritems():", "compilation_passed": true, "time": 0.03371119499206543, "tests_passed": false, "error": "AttributeError"}
+{"code": ", data in df.items():", "compilation_passed": true, "time": 0.1333179473876953, "tests_passed": true, "error": null}
+{"code": ", column in df.iteritems():", "compilation_passed": true, "time": 0.024548053741455078, "tests_passed": false, "error": "AttributeError"}
+{"code": ", values in df.iteritems():", "compilation_passed": true, "time": 0.023643970489501953, "tests_passed": false, "error": "AttributeError"}
+{"code": ", _ in df.groupby('label'):", "compilation_passed": true, "time": 0.034049034118652344, "tests_passed": false, "error": "KeyError"}
+{"code": ", line in df.groupby(axis=0, level=0).plot(x='A', y='B'):", "compilation_passed": true, "time": 0.17495179176330566, "tests_passed": false, "error": "TypeError"}
+{"code": ", values in df.items():", "compilation_passed": true, "time": 0.1336519718170166, "tests_passed": true, "error": null}
+{"code": ", column in df.items():", "compilation_passed": true, "time": 0.13419485092163086, "tests_passed": true, "error": null}
+{"code": ", group in df.groupby():", "compilation_passed": true, "time": 0.025747060775756836, "tests_passed": false, "error": "TypeError"}
+{"code": ", group in df.groupby('Label'):", "compilation_passed": true, "time": 0.025239229202270508, "tests_passed": false, "error": "KeyError"}
+{"code": ", col in df.iteritems():", "compilation_passed": true, "time": 0.025511980056762695, "tests_passed": false, "error": "AttributeError"}
+{"code": ", data in df.iteritems():", "compilation_passed": true, "time": 0.023797035217285156, "tests_passed": false, "error": "AttributeError"}
+{"code": ", series in df.iteritems():", "compilation_passed": true, "time": 0.02576613426208496, "tests_passed": false, "error": "AttributeError"}
+{"code": ", val in df.iteritems():", "compilation_passed": true, "time": 0.024071216583251953, "tests_passed": false, "error": "AttributeError"}
+{"code": ", vals in df.iteritems():", "compilation_passed": true, "time": 0.02695298194885254, "tests_passed": false, "error": "AttributeError"}
+{"code": " in data[0].keys():", "compilation_passed": true, "time": 0.1327362060546875, "tests_passed": true, "error": null}
+{"code": ", value in df.groupby(\"label\"):", "compilation_passed": true, "time": 0.026391983032226562, "tests_passed": false, "error": "KeyError"}
+{"code": ", group in df.groupby('label'):", "compilation_passed": true, "time": 0.024991989135742188, "tests_passed": false, "error": "KeyError"}
+{"code": ", data in df.groupby('Time'):", "compilation_passed": true, "time": 0.024733304977416992, "tests_passed": false, "error": "KeyError"}
+{"code": ", color in df.style.table_colors.items():", "compilation_passed": true, "time": 0.10741114616394043, "tests_passed": false, "error": "AttributeError"}

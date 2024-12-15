@@ -1,0 +1,16 @@
+{"code": " tree.xpath(\"//tr\")[1:]", "compilation_passed": true, "time": 0.007941007614135742, "tests_passed": true, "error": null}
+{"code": " tree.xpath(\"//table/tbody/tr\")", "compilation_passed": true, "time": 0.00903010368347168, "tests_passed": true, "error": null}
+{"code": " tree.xpath(\"//table//tr\")", "compilation_passed": true, "time": 0.014410018920898438, "tests_passed": true, "error": null}
+{"code": " tree.xpath(\"//table/tr/td\")", "compilation_passed": true, "time": 0.007235050201416016, "tests_passed": true, "error": null}
+{"code": " tree.xpath(\"//table/tr\")  # Assuming the table is the first table in the HTML document", "compilation_passed": true, "time": 0.019613981246948242, "tests_passed": true, "error": null}
+{"code": " tree.xpath('//table//tr')", "compilation_passed": true, "time": 0.017019271850585938, "tests_passed": true, "error": null}
+{"code": " tree.xpath('//table//tr')[1:]  # Skip first row (header)", "compilation_passed": true, "time": 0.008165836334228516, "tests_passed": true, "error": null}
+{"code": " tree.xpath(\"//tr[./td]\")  # Exclude rows without <td> elements", "compilation_passed": true, "time": 0.015891075134277344, "tests_passed": true, "error": null}
+{"code": " tree.xpath(\"/html/body/table/tr\")", "compilation_passed": true, "time": 0.018763065338134766, "tests_passed": true, "error": null}
+{"code": " tree.xpath(\"//tr\")", "compilation_passed": true, "time": 0.015371084213256836, "tests_passed": true, "error": null}
+{"code": " tree.xpath(\"//tr\")  # XPath expression to find all rows", "compilation_passed": true, "time": 0.01725912094116211, "tests_passed": true, "error": null}
+{"code": " tree.xpath(\"//table/tr\")", "compilation_passed": true, "time": 0.019377946853637695, "tests_passed": true, "error": null}
+{"code": " tree.xpath('//table[@class=\"table table-striped dataframe\"]//tr')", "compilation_passed": true, "time": 0.008735895156860352, "tests_passed": true, "error": null}
+{"code": " tree.xpath(\"//table/tbody/tr\")  # Assume the table has a body", "compilation_passed": true, "time": 0.008123159408569336, "tests_passed": true, "error": null}
+{"code": " tree.xpath('//table/tr')", "compilation_passed": true, "time": 0.01938605308532715, "tests_passed": true, "error": null}
+{"code": " tree.xpath(\"//table[@class='wikitable']/tbody/tr\")", "compilation_passed": true, "time": 0.00791788101196289, "tests_passed": true, "error": null}

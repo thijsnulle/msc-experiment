@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(my_dict, index=[0])", "compilation_passed": true, "time": 0.011784076690673828, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([my_dict])", "compilation_passed": true, "time": 0.010866165161132812, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_records([my_dict])", "compilation_passed": true, "time": 0.009387969970703125, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict({k: [v] for k, v in my_dict.items()}, orient='index', columns=[''])", "compilation_passed": true, "time": 0.01815199851989746, "tests_passed": true, "error": null}

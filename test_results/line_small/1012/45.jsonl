@@ -1,0 +1,4 @@
+{"code": "mkdir(exist_ok=True)", "compilation_passed": true, "time": 0.012127161026000977, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "parent.mkdir(parents=True, exist_ok=True)", "compilation_passed": true, "time": 1.0129070281982422, "tests_passed": false, "error": "IndexError"}
+{"code": "mkdir(exist_ok=True, parents=True)", "compilation_passed": true, "time": 1.0218451023101807, "tests_passed": false, "error": "IndexError"}
+{"code": "mkdir(parents=True, exist_ok=True)", "compilation_passed": true, "time": 1.013214111328125, "tests_passed": false, "error": "IndexError"}

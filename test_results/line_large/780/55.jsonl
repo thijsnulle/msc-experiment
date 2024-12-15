@@ -1,0 +1,10 @@
+{"code": " df.groupby('category')['published_time'].agg(['count', 'mean', 'min', 'max'])", "compilation_passed": true, "time": 0.02188897132873535, "tests_passed": true, "error": null}
+{"code": " df.groupby('category')[['published_time']].agg(['count', 'mean', 'min', 'max'])", "compilation_passed": true, "time": 0.054296016693115234, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby('category').agg(", "compilation_passed": false, "time": 0.0007441043853759766, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby('category').agg({'published_time': ['count', 'mean', 'min', 'max']})", "compilation_passed": true, "time": 0.03362917900085449, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0007269382476806641, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby('category')['published_time'].agg(['count', 'mean', 'min', 'max']).round()", "compilation_passed": true, "time": 0.022009849548339844, "tests_passed": true, "error": null}
+{"code": " df.groupby('category').agg(count=('id', 'count'), mean=('published_time', 'mean'), min_published_time=('published_time', 'min'), max_published_time=('published_time', 'max'))", "compilation_passed": true, "time": 0.04210925102233887, "tests_passed": true, "error": null}
+{"code": " df.groupby('category')['published_time'].agg(", "compilation_passed": false, "time": 0.0007522106170654297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby(['category']).agg({'published_time': ['count', 'mean', 'min', 'max']}).round(1)", "compilation_passed": true, "time": 0.03336000442504883, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby('category').agg(['count', 'mean', 'min', 'max'])[['published_time']]", "compilation_passed": true, "time": 0.02050495147705078, "tests_passed": false, "error": "TypeError"}

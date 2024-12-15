@@ -1,0 +1,8 @@
+{"code": " codecs.encode(float_num)", "compilation_passed": true, "time": 0.009438037872314453, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.encode(str(float_num).encode(), 'utf-8')", "compilation_passed": true, "time": 0.005900144577026367, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.encode(str(float_num), 'utf-8')", "compilation_passed": true, "time": 0.0014350414276123047, "tests_passed": true, "error": null}
+{"code": " codecs.encode(float_num, 'utf-8')", "compilation_passed": true, "time": 0.006047964096069336, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.encode(float_num, encoding='utf-8')", "compilation_passed": true, "time": 0.006145954132080078, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.encode(str(float_num).encode('utf-8'))", "compilation_passed": true, "time": 0.005448102951049805, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.encode(str(float_num), \"utf-8\")", "compilation_passed": true, "time": 0.001085042953491211, "tests_passed": true, "error": null}
+{"code": " codecs.encode(bytes(str(float_num), \"utf-8\"), 'utf-8')", "compilation_passed": true, "time": 0.005647897720336914, "tests_passed": false, "error": "TypeError"}

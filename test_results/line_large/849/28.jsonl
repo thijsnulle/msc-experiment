@@ -1,0 +1,16 @@
+{"code": " re.findall('[A-Za-z]+', line)", "compilation_passed": true, "time": 0.0014140605926513672, "tests_passed": true, "error": null}
+{"code": " line.split()", "compilation_passed": true, "time": 0.007234096527099609, "tests_passed": true, "error": null}
+{"code": " line.split(' ')", "compilation_passed": true, "time": 0.006766796112060547, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', line)", "compilation_passed": true, "time": 0.0015423297882080078, "tests_passed": true, "error": null}
+{"code": " [word for word in re.findall('\\w+', line) if word.lower() not in STOPWORDS]", "compilation_passed": true, "time": 0.00518798828125, "tests_passed": true, "error": null}
+{"code": " line.lower().split()", "compilation_passed": true, "time": 0.004694938659667969, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', line.lower())", "compilation_passed": true, "time": 0.004693031311035156, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', line)  # Find words", "compilation_passed": true, "time": 0.0013320446014404297, "tests_passed": true, "error": null}
+{"code": " [word for word in re.findall('\\w+', line) if word not in STOPWORDS]", "compilation_passed": true, "time": 0.0013070106506347656, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z]+', ' ', line).split()", "compilation_passed": true, "time": 0.0019409656524658203, "tests_passed": true, "error": null}
+{"code": " [word for word in re.sub(r'[^\\w ]+', '', line).split() if word.lower() not in STOPWORDS]", "compilation_passed": true, "time": 0.005014657974243164, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', line.lower())", "compilation_passed": true, "time": 0.00481414794921875, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', line).lower().split()", "compilation_passed": true, "time": 0.004870176315307617, "tests_passed": true, "error": null}
+{"code": " re.findall('\\w+', line.lower())", "compilation_passed": true, "time": 0.00454401969909668, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', line)", "compilation_passed": true, "time": 0.0015130043029785156, "tests_passed": true, "error": null}
+{"code": " [word for word in re.sub(r'[^A-Za-z ]', '', line).lower().split() if word not in STOPWORDS]", "compilation_passed": true, "time": 0.004695892333984375, "tests_passed": true, "error": null}

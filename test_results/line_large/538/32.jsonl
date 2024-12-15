@@ -1,0 +1,26 @@
+{"code": " pd.read_sql_query(\"SELECT * FROM {} WHERE ROWID < 2\".format(table_name), conn)", "compilation_passed": true, "time": 0.08058309555053711, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(\"select * from \" + table_name + \";\", conn)", "compilation_passed": true, "time": 0.27004218101501465, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query('SELECT * FROM ' + table_name, conn)", "compilation_passed": true, "time": 0.2892727851867676, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(", "compilation_passed": false, "time": 0.0003261566162109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_sql_query(\"SELECT * FROM {table_name} WHERE id is not null\".format(table_name=table_name), conn).drop('id', axis=1).select_dtypes(include=['number']).iloc[:,0:2]", "compilation_passed": true, "time": 0.27056288719177246, "tests_passed": true, "error": null}
+{"code": " pd.read_sql('select * from \"{}\" limit 1'.format(table_name), conn)", "compilation_passed": true, "time": 0.0809028148651123, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(f\"PRAGMA table_info('{table_name}')\", conn)", "compilation_passed": true, "time": 0.07274413108825684, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query('select * from {} where {} not like \\'%id%\\''.format(table_name, table_name), conn)", "compilation_passed": true, "time": 0.020711898803710938, "tests_passed": false, "error": "pandas.errors.DatabaseError"}
+{"code": " pd.read_sql_query(\"SELECT * FROM \" + table_name, conn)", "compilation_passed": true, "time": 0.26193928718566895, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(\"select * from {} where id > -1\".format(table_name), conn)", "compilation_passed": true, "time": 0.3757510185241699, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f'SELECT * FROM {table_name} WHERE id IS NOT NULL', conn)", "compilation_passed": true, "time": 0.28232288360595703, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f'SELECT * FROM \"{table_name}\"', conn)", "compilation_passed": true, "time": 0.3422579765319824, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name} WHERE ROWID > 0\", conn)", "compilation_passed": true, "time": 0.29247283935546875, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(\"SELECT * FROM \" + table_name + \" ORDER BY id ASC\", conn)", "compilation_passed": true, "time": 0.3571908473968506, "tests_passed": true, "error": null}
+{"code": " pd.read_sql('SELECT * FROM '+table_name+';', conn)", "compilation_passed": true, "time": 0.2929196357727051, "tests_passed": true, "error": null}
+{"code": " pd.read_sql('SELECT * FROM ' + table_name, conn)", "compilation_passed": true, "time": 0.26723313331604004, "tests_passed": true, "error": null}
+{"code": " pd.read_sql('SELECT * FROM {} WHERE id IS NOT NULL'.format(table_name), conn)", "compilation_passed": true, "time": 0.29903483390808105, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query('SELECT * FROM {}'.format(table_name), conn)", "compilation_passed": true, "time": 0.31958699226379395, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f'SELECT * FROM {table_name} WHERE ROWID IN (SELECT ROWID FROM {table_name} LIMIT 1)', conn)", "compilation_passed": true, "time": 0.09771013259887695, "tests_passed": true, "error": null}
+{"code": " pd.read_sql('select * from '+table_name, con=conn)", "compilation_passed": true, "time": 0.2997000217437744, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f\"SELECT * FROM {table_name} LIMIT 500000\", conn).drop(columns=\"id\")", "compilation_passed": true, "time": 0.2709808349609375, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query('select * from ' + table_name + \" where name not like 'id'\", conn)", "compilation_passed": true, "time": 0.2735259532928467, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query('SELECT * FROM {} WHERE id = 1'.format(table_name), conn)", "compilation_passed": true, "time": 0.07314896583557129, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"SELECT * FROM {} WHERE ROWID <= 10\".format(table_name), conn)", "compilation_passed": true, "time": 0.2787058353424072, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f'SELECT * FROM {table_name} WHERE ROWID > 0', conn)", "compilation_passed": true, "time": 0.3100101947784424, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f\"SELECT * FROM {table_name} LIMIT 1\", conn)", "compilation_passed": true, "time": 0.08197712898254395, "tests_passed": true, "error": null}

@@ -1,0 +1,14 @@
+{"code": " pd.Series(word_keys, index=frequencies)", "compilation_passed": true, "time": 0.06339097023010254, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(word_keys, index=word_keys)", "compilation_passed": true, "time": 0.04830217361450195, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(word_keys, index=frequencies).sort_index()", "compilation_passed": true, "time": 0.05158185958862305, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(sentences_dict.keys())", "compilation_passed": true, "time": 0.05472517013549805, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(word_keys, index=[word_counts[word] for word in word_keys])", "compilation_passed": true, "time": 0.04719209671020508, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(frequencies, index=word_keys)", "compilation_passed": true, "time": 0.2919778823852539, "tests_passed": true, "error": null}
+{"code": " pd.Series(frequencies, word_keys)", "compilation_passed": true, "time": 0.28571391105651855, "tests_passed": true, "error": null}
+{"code": " pd.Series(frequencies)", "compilation_passed": true, "time": 0.06279492378234863, "tests_passed": true, "error": null}
+{"code": " pd.Series(frequencies, word_keys).sort_values(ascending=False)", "compilation_passed": true, "time": 0.2920420169830322, "tests_passed": true, "error": null}
+{"code": " pd.Series(word_keys, name=\"word\")", "compilation_passed": true, "time": 0.04375481605529785, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(word_keys, index=frequencies, name=\"Occurrences\")", "compilation_passed": true, "time": 0.049102067947387695, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(word_keys, index=pd.Series(frequencies, index=word_keys))", "compilation_passed": true, "time": 0.041918039321899414, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(word_keys, index=frequencies, name=\"word_keys\")", "compilation_passed": true, "time": 0.05029487609863281, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(word_keys)", "compilation_passed": true, "time": 0.05116081237792969, "tests_passed": false, "error": "TypeError"}

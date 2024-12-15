@@ -1,0 +1,6 @@
+{"code": " [word for word in words if word not in STOPWORDS]", "compilation_passed": true, "time": 0.003072977066040039, "tests_passed": true, "error": null}
+{"code": " [w for w in words if w not in STOPWORDS]", "compilation_passed": true, "time": 0.003129243850708008, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word.strip() != \"\" and word not in STOPWORDS]", "compilation_passed": true, "time": 0.0029230117797851562, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word not in STOPWORDS and word.isalpha()]", "compilation_passed": true, "time": 0.01150202751159668, "tests_passed": true, "error": null}
+{"code": " [w for w in words if w.strip() != \"\" and w.lower() not in STOPWORDS]", "compilation_passed": true, "time": 0.003165006637573242, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word not in STOPWORDS and word not in STOPWORDS]", "compilation_passed": true, "time": 0.0032241344451904297, "tests_passed": true, "error": null}

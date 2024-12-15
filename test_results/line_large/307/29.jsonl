@@ -1,0 +1,9 @@
+{"code": " [num for lst in list_of_lists if lst else [random.randint(0, 100) for _ in range(5)] for num in lst]", "compilation_passed": false, "time": 0.00020599365234375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.37528395652770996, "tests_passed": true, "error": null}
+{"code": " [item for sublist in list_of_lists if sublist else [random.randint(0, 100) for _ in range(5)] for item in sublist]", "compilation_passed": false, "time": 0.00023436546325683594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [element for sublist in list_of_lists if sublist for element in sublist] + [", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [item for sublist in list_of_lists for item in sublist]", "compilation_passed": true, "time": 0.09180617332458496, "tests_passed": true, "error": null}
+{"code": " [x for lst in list_of_lists for x in lst] if data else random.sample(range(100), 5)", "compilation_passed": true, "time": 0.00908803939819336, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " [el for subl in list_of_lists for el in subl]", "compilation_passed": true, "time": 0.11658787727355957, "tests_passed": true, "error": null}
+{"code": " [element for sublist in list_of_lists if sublist", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [num for lst in list_of_lists for num in lst]", "compilation_passed": true, "time": 0.09332919120788574, "tests_passed": true, "error": null}

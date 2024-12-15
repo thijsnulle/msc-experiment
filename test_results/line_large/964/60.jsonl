@@ -1,0 +1,17 @@
+{"code": " [\" \".join([p.text for p in doc.paragraphs])]", "compilation_passed": true, "time": 0.12724900245666504, "tests_passed": true, "error": null}
+{"code": " [\"Text\"] + [", "compilation_passed": false, "time": 0.0008420944213867188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [doc.paragraphs[0].text]", "compilation_passed": true, "time": 0.14129090309143066, "tests_passed": true, "error": null}
+{"code": " [\"\\n\".join(paragraph.text for paragraph in doc.paragraphs)]", "compilation_passed": true, "time": 0.13305282592773438, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.14767885208129883, "tests_passed": true, "error": null}
+{"code": " [\"Text\"]", "compilation_passed": true, "time": 0.14566278457641602, "tests_passed": true, "error": null}
+{"code": " [[p.text for p in doc.paragraphs]]", "compilation_passed": true, "time": 0.1464698314666748, "tests_passed": true, "error": null}
+{"code": " [[paragraph.text for paragraph in doc.paragraphs]]", "compilation_passed": true, "time": 0.16480088233947754, "tests_passed": true, "error": null}
+{"code": " [\"Text\"] + [para.text for para in doc.paragraphs]", "compilation_passed": true, "time": 0.15964078903198242, "tests_passed": true, "error": null}
+{"code": " [[p.text for p in para.runs] for para in doc.paragraphs]", "compilation_passed": true, "time": 0.1407010555267334, "tests_passed": true, "error": null}
+{"code": " [[par.text for par in doc.paragraphs]]", "compilation_passed": true, "time": 0.14831113815307617, "tests_passed": true, "error": null}
+{"code": " [\"\\n\".join([p.text for p in doc.paragraphs])]", "compilation_passed": true, "time": 0.13278579711914062, "tests_passed": true, "error": null}
+{"code": " [\" \".join(paragraph.text.split()) for paragraph in doc.paragraphs]", "compilation_passed": true, "time": 0.13397502899169922, "tests_passed": true, "error": null}
+{"code": " [[run.text for run in p.runs] for p in doc.paragraphs]", "compilation_passed": true, "time": 0.13593602180480957, "tests_passed": true, "error": null}
+{"code": " [[par.text for par in par.paragraphs] for par in doc]", "compilation_passed": true, "time": 0.039849042892456055, "tests_passed": false, "error": "TypeError"}
+{"code": " [[paragraph.text] for paragraph in doc.paragraphs]", "compilation_passed": true, "time": 0.11437010765075684, "tests_passed": true, "error": null}
+{"code": " [[p.text for p in par] for par in doc.paragraphs]", "compilation_passed": true, "time": 0.04134106636047363, "tests_passed": false, "error": "TypeError"}

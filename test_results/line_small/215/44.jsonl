@@ -1,0 +1,21 @@
+{"code": " sns.heatmap(df.iloc[0]['data'].corr(), cmap='Reds', annot=True,", "compilation_passed": false, "time": 0.0002460479736328125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(df.corr(), annot=True, cmap='RdYlGn', fmt='',", "compilation_passed": false, "time": 0.00034880638122558594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(df.corr(), annot=True, cmap=\"Blues\", font_size=1)", "compilation_passed": true, "time": 0.02215433120727539, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.heatmap(df.corr(), annot=True, cmap='YlGnBu', fmt='.2f', linewidths=.5)", "compilation_passed": true, "time": 0.48203516006469727, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(df.corr(), annot=True, cmap=\"Blues\")", "compilation_passed": true, "time": 0.5763120651245117, "tests_passed": false, "error": "ValueError"}
+{"code": " df.corr()", "compilation_passed": true, "time": 1.0214948654174805, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df.corr(), annot=True, vmax=1, center=0, fmt='.2f')", "compilation_passed": true, "time": 0.6254899501800537, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(df.corr(), cmap='RdYlGn', annot=True)", "compilation_passed": true, "time": 0.654045820236206, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(", "compilation_passed": false, "time": 0.0003662109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(df.iloc[0]['data'], annot=True, cmap='viridis')", "compilation_passed": true, "time": 0.0354771614074707, "tests_passed": false, "error": "KeyError"}
+{"code": " sns.heatmap(df.corr(), annot=True)", "compilation_passed": true, "time": 0.730438232421875, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(df.corr(), annot=True, vmin=-1, vmax=1, center=0,", "compilation_passed": false, "time": 0.00024080276489257812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(df.corr(), cmap=\"coolwarm\", annot=True, annot_kws={\"size\": 20})", "compilation_passed": true, "time": 0.9157099723815918, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(df.corr(), annot=True, vmin=-1, vmax=1, center=0, fmt='.2f', square=True)", "compilation_passed": true, "time": 1.963853120803833, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(df.iloc[0], annot=True)", "compilation_passed": true, "time": 0.02544999122619629, "tests_passed": false, "error": "IndexError"}
+{"code": " sns.heatmap(df.corr(), cmap='Reds', annot=True, cbar_kws={\"orientation\": \"horizontal\"})", "compilation_passed": true, "time": 1.014672040939331, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df['data'].corr(), annot=True)", "compilation_passed": true, "time": 0.026468753814697266, "tests_passed": false, "error": "KeyError"}
+{"code": " sns.heatmap(df[\"data\"].corr())", "compilation_passed": true, "time": 0.025125980377197266, "tests_passed": false, "error": "KeyError"}
+{"code": " sns.heatmap(df.iloc[0]['data'].corr(), annot=True, cmap='Blues', fmt='.2f', xticklabels=df.columns, yticklabels=df.columns)", "compilation_passed": true, "time": 0.026369810104370117, "tests_passed": false, "error": "KeyError"}
+{"code": " sns.heatmap(df.corr(), cmap='coolwarm')", "compilation_passed": true, "time": 1.0206620693206787, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.iloc[0]['data']", "compilation_passed": true, "time": 0.03052377700805664, "tests_passed": false, "error": "KeyError"}

@@ -1,0 +1,16 @@
+{"code": "bar(range(len(result[key][\"mean\"])), result[key][\"mean\"])", "compilation_passed": true, "time": 0.046658992767333984, "tests_passed": false, "error": "TypeError"}
+{"code": "bar(result[key].keys(), result[key].values())", "compilation_passed": true, "time": 0.5265989303588867, "tests_passed": true, "error": null}
+{"code": "bar(range(len(result[key][\"std\"])), result[key][\"std\"])", "compilation_passed": true, "time": 0.05340123176574707, "tests_passed": false, "error": "TypeError"}
+{"code": "bar(result[key].keys(), result[key].values(), width=0.8)", "compilation_passed": true, "time": 0.5203866958618164, "tests_passed": true, "error": null}
+{"code": "bar(result[key].keys(), result[key].values(), width=0.3)", "compilation_passed": true, "time": 0.5364549160003662, "tests_passed": true, "error": null}
+{"code": "bar(result[key], np.zeros_like(result[key]))", "compilation_passed": true, "time": 0.06019282341003418, "tests_passed": false, "error": "TypeError"}
+{"code": "bar(result[key][\"std\"].index, result[key][\"std\"].values)", "compilation_passed": true, "time": 0.056947946548461914, "tests_passed": false, "error": "AttributeError"}
+{"code": "bar(result[key].keys(), result[key].values(), width=0.2, alpha=0.5)", "compilation_passed": true, "time": 0.5486221313476562, "tests_passed": true, "error": null}
+{"code": "bar(range(1, len(result[key][\"std\"]) + 1), result[key][\"std\"], width=0.8, label=f\"{key} Standard Deviation\")", "compilation_passed": true, "time": 0.05574202537536621, "tests_passed": false, "error": "TypeError"}
+{"code": "bar(np.arange(len(result[key][\"std\"])), result[key][\"std\"], alpha=1, label='Standard deviation')", "compilation_passed": true, "time": 0.049448251724243164, "tests_passed": false, "error": "TypeError"}
+{"code": "bar([key], [result[key][\"mean\"]], yerr=[result[key][\"std\"]**0.5])", "compilation_passed": true, "time": 0.7568299770355225, "tests_passed": true, "error": null}
+{"code": "bar(result[key].keys(), result[key].values(), width=0.6, alpha=0.75)", "compilation_passed": true, "time": 0.5986082553863525, "tests_passed": true, "error": null}
+{"code": "bar(result[key][\"mean\"], result[key][\"std\"])", "compilation_passed": true, "time": 0.09908413887023926, "tests_passed": true, "error": null}
+{"code": "bar(range(len(result[key][\"mean\"])), result[key][\"mean\"], yerr=result[key][\"std\"], capsize=5, align=\"center\")", "compilation_passed": true, "time": 0.05932307243347168, "tests_passed": false, "error": "TypeError"}
+{"code": "barh(result[key].keys(), result[key].values())", "compilation_passed": true, "time": 0.10047125816345215, "tests_passed": true, "error": null}
+{"code": "bar([key], [result[key][\"mean\"]], width=0.3, yerr=result[key][\"std\"])", "compilation_passed": true, "time": 0.09914278984069824, "tests_passed": true, "error": null}

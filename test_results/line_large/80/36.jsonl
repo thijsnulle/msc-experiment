@@ -1,0 +1,14 @@
+{"code": " request.get_json()", "compilation_passed": true, "time": 0.009747028350830078, "tests_passed": false, "error": "RuntimeError"}
+{"code": " json.dumps(request.form)", "compilation_passed": true, "time": 0.009131908416748047, "tests_passed": false, "error": "RuntimeError"}
+{"code": " request.get_json(force=True)", "compilation_passed": true, "time": 0.010108232498168945, "tests_passed": false, "error": "RuntimeError"}
+{"code": " request.get_data(as_text=True)", "compilation_passed": true, "time": 0.009959936141967773, "tests_passed": false, "error": "RuntimeError"}
+{"code": " request.data", "compilation_passed": true, "time": 0.00905919075012207, "tests_passed": false, "error": "RuntimeError"}
+{"code": " request.json", "compilation_passed": true, "time": 0.010106086730957031, "tests_passed": false, "error": "RuntimeError"}
+{"code": " json.loads(request.get_data())", "compilation_passed": true, "time": 0.009674072265625, "tests_passed": false, "error": "RuntimeError"}
+{"code": " request.data.decode('utf-8')", "compilation_passed": true, "time": 0.01301121711730957, "tests_passed": false, "error": "RuntimeError"}
+{"code": " json.loads(request.data)", "compilation_passed": true, "time": 0.009383201599121094, "tests_passed": false, "error": "RuntimeError"}
+{"code": " request.form.to_dict()", "compilation_passed": true, "time": 0.008910179138183594, "tests_passed": false, "error": "RuntimeError"}
+{"code": " json.loads(request.data.decode())", "compilation_passed": true, "time": 0.00932002067565918, "tests_passed": false, "error": "RuntimeError"}
+{"code": " dict(request.form)", "compilation_passed": true, "time": 0.009183406829833984, "tests_passed": false, "error": "RuntimeError"}
+{"code": " request.form", "compilation_passed": true, "time": 0.009412050247192383, "tests_passed": false, "error": "RuntimeError"}
+{"code": " json.loads(request.data.decode('utf-8'))", "compilation_passed": true, "time": 0.009249687194824219, "tests_passed": false, "error": "RuntimeError"}

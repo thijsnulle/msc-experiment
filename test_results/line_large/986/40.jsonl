@@ -1,0 +1,21 @@
+{"code": " data.split(',')", "compilation_passed": true, "time": 0.010092020034790039, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(data.split(','), dtype=float)", "compilation_passed": true, "time": 0.04248309135437012, "tests_passed": true, "error": null}
+{"code": " [int(value) for value in data.split(',')]", "compilation_passed": true, "time": 0.009601116180419922, "tests_passed": false, "error": "AttributeError"}
+{"code": " [float(value) for value in data.split(',') if value]", "compilation_passed": true, "time": 0.009332895278930664, "tests_passed": false, "error": "AttributeError"}
+{"code": " [float(value) for value in data.split(',')]", "compilation_passed": true, "time": 0.011195898056030273, "tests_passed": false, "error": "AttributeError"}
+{"code": " [float(val) for val in data.split(',')]", "compilation_passed": true, "time": 0.009823083877563477, "tests_passed": false, "error": "AttributeError"}
+{"code": " [float(num) for num in data.split(',') if num.strip()]", "compilation_passed": true, "time": 0.009327888488769531, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(data.split(','))", "compilation_passed": true, "time": 0.03591799736022949, "tests_passed": true, "error": null}
+{"code": " np.array([float(num) for num in data.split(',')])", "compilation_passed": true, "time": 0.04128599166870117, "tests_passed": true, "error": null}
+{"code": " data.strip().split(',') if isinstance(data, str) else data", "compilation_passed": true, "time": 0.009706974029541016, "tests_passed": false, "error": "AttributeError"}
+{"code": " [int(num) for num in data.split(',') if num.isnumeric()]", "compilation_passed": true, "time": 0.009633064270019531, "tests_passed": false, "error": "AttributeError"}
+{"code": " [float(x.replace(',', '.')) for x in data.split() if x]", "compilation_passed": true, "time": 0.017249107360839844, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([float(value) for value in data.split(',') if value.strip()])", "compilation_passed": true, "time": 0.042510271072387695, "tests_passed": true, "error": null}
+{"code": " [int(x) for x in data.split(\",\")]", "compilation_passed": true, "time": 0.009584903717041016, "tests_passed": false, "error": "AttributeError"}
+{"code": " [float(x) for x in data.split(\",\") if x]", "compilation_passed": true, "time": 0.009906768798828125, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.009485960006713867, "tests_passed": false, "error": "AttributeError"}
+{"code": " [float(value) for value in data.split(',') if value.strip()]", "compilation_passed": true, "time": 0.009299039840698242, "tests_passed": false, "error": "AttributeError"}
+{"code": " [float(val) for val in data.split(',') if val.strip()]", "compilation_passed": true, "time": 0.009690999984741211, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(data.split(',')).astype(float)", "compilation_passed": true, "time": 0.04284787178039551, "tests_passed": true, "error": null}
+{"code": " [int(val) for val in data.split(\",\")]", "compilation_passed": true, "time": 0.009992837905883789, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(list(map(float, data.split(','))))", "compilation_passed": true, "time": 0.04252815246582031, "tests_passed": true, "error": null}

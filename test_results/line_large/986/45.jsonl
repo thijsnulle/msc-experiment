@@ -1,0 +1,12 @@
+{"code": "boxplot(x=\"Values\", data=df, ax=ax)", "compilation_passed": true, "time": 0.037338972091674805, "tests_passed": true, "error": null}
+{"code": "boxplot(data=df, x=\"Values\", ax=ax)", "compilation_passed": true, "time": 0.037477970123291016, "tests_passed": true, "error": null}
+{"code": "boxplot(data=df, orient=ax, ax=ax, fliersize=0, linewidth=2)", "compilation_passed": true, "time": 0.0394899845123291, "tests_passed": false, "error": "ValueError"}
+{"code": "boxplot(ax=ax, x=\"Values\", data=df)", "compilation_passed": true, "time": 0.03764677047729492, "tests_passed": true, "error": null}
+{"code": "boxplot(data=df, orient=ax)", "compilation_passed": true, "time": 0.030085086822509766, "tests_passed": false, "error": "ValueError"}
+{"code": "boxplot(ax=ax, data=df, x=\"Values\")", "compilation_passed": true, "time": 0.03768801689147949, "tests_passed": true, "error": null}
+{"code": "boxplot(data=df, orient=ax, x=\"Values\", color=\"skyblue\")", "compilation_passed": true, "time": 0.03449892997741699, "tests_passed": true, "error": null}
+{"code": "boxplot(data=df, ax=ax)", "compilation_passed": true, "time": 0.04195809364318848, "tests_passed": true, "error": null}
+{"code": "boxplot(x=df[\"Values\"], ax=ax)", "compilation_passed": true, "time": 0.03437995910644531, "tests_passed": true, "error": null}
+{"code": "boxplot(ax=ax, data=df, x=\"Values\", width=0.2)", "compilation_passed": true, "time": 0.034815073013305664, "tests_passed": true, "error": null}
+{"code": "boxplot(x=\"Values\", data=df, ax=ax, palette=\"Set3\", linewidth=2.5)", "compilation_passed": true, "time": 0.03595876693725586, "tests_passed": true, "error": null}
+{"code": "boxplot(x=\"Values\", data=df, ax=ax, orient=\"h\")", "compilation_passed": true, "time": 0.03524208068847656, "tests_passed": true, "error": null}

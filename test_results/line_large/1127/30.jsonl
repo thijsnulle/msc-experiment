@@ -1,0 +1,10 @@
+{"code": " os.path.isfile(component):", "compilation_passed": true, "time": 0.007963180541992188, "tests_passed": true, "error": null}
+{"code": " os.path.exists(component):", "compilation_passed": true, "time": 0.009485721588134766, "tests_passed": false, "error": "IsADirectoryError"}
+{"code": " component.endswith(delimiter):", "compilation_passed": true, "time": 0.008827924728393555, "tests_passed": false, "error": "IsADirectoryError"}
+{"code": " os.path.isfile(component) or os.path.isfile(os.path.join(*path_components[:path_components.index(component)+1])):", "compilation_passed": true, "time": 0.007340192794799805, "tests_passed": true, "error": null}
+{"code": " os.path.isfile(os.path.join(path)):", "compilation_passed": true, "time": 0.008117914199829102, "tests_passed": true, "error": null}
+{"code": " os.path.isfile(os.path.join(*path_components[:path_components.index(component) + 1])):", "compilation_passed": true, "time": 0.007399082183837891, "tests_passed": true, "error": null}
+{"code": " os.path.isfile(os.path.join(*path_components[:path_components.index(component)+1])):", "compilation_passed": true, "time": 0.006760835647583008, "tests_passed": true, "error": null}
+{"code": " os.path.isfile(os.path.join(*path_components)):", "compilation_passed": true, "time": 0.010916948318481445, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " component == delimiter:", "compilation_passed": true, "time": 0.008644819259643555, "tests_passed": false, "error": "IsADirectoryError"}
+{"code": " os.path.isfile(component) or os.path.isdir(component):", "compilation_passed": true, "time": 0.009267091751098633, "tests_passed": false, "error": "IsADirectoryError"}

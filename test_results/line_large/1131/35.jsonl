@@ -1,0 +1,5 @@
+{"code": " user[1] + salt", "compilation_passed": true, "time": 0.008945941925048828, "tests_passed": false, "error": "TypeError"}
+{"code": " user[1]", "compilation_passed": true, "time": 0.008629798889160156, "tests_passed": false, "error": "TypeError"}
+{"code": " binascii.hexlify(hashlib.sha256(salt.encode('utf-8') + user[1].encode('utf-8')).digest()).decode()", "compilation_passed": true, "time": 0.008852243423461914, "tests_passed": false, "error": "TypeError"}
+{"code": " binascii.unhexlify(user[1]).decode('utf-8')", "compilation_passed": true, "time": 0.008980989456176758, "tests_passed": false, "error": "binascii.Error"}
+{"code": " binascii.hexlify(hashlib.sha256(salt.encode() + user[1].encode()).digest()).decode('ascii')", "compilation_passed": true, "time": 0.012001991271972656, "tests_passed": false, "error": "TypeError"}

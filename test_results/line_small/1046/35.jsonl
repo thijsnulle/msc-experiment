@@ -1,0 +1,14 @@
+{"code": " pd.DataFrame({\"Employee\": EMPLOYEES, \"Date\": dates})", "compilation_passed": true, "time": 0.01764082908630371, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(product(EMPLOYEES, dates), columns=[\"Employee\", \"Date\"])", "compilation_passed": true, "time": 0.004441738128662109, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(product(EMPLOYEES, dates), columns=['Employee', 'Date'])", "compilation_passed": true, "time": 0.004518985748291016, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(product(EMPLOYEES, dates))", "compilation_passed": true, "time": 0.0035529136657714844, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(product([EMPLOYEES, dates]),", "compilation_passed": false, "time": 0.00020885467529296875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame([list(x) + [y] for x, y in product(EMPLOYEES, dates)], columns=[\"Employee\", \"Date\"])", "compilation_passed": true, "time": 0.006370067596435547, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Employee': EMPLOYEES, 'Date': dates})", "compilation_passed": true, "time": 0.005178928375244141, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(list(product(EMPLOYEES, dates)), columns=[\"Employee\", \"Date\"])", "compilation_passed": true, "time": 0.004374980926513672, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(product(EMPLOYEES, dates)))", "compilation_passed": true, "time": 0.003444194793701172, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([(name, date) for name, date in product(EMPLOYEES, dates)])", "compilation_passed": true, "time": 0.0036122798919677734, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(product(EMPLOYEES, dates)).rename(columns={0: \"Employee\", 1: \"Date\"})", "compilation_passed": true, "time": 0.004971027374267578, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([{", "compilation_passed": false, "time": 0.0001709461212158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Employee': EMPLOYEES,", "compilation_passed": false, "time": 0.0001347064971923828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(product([x for x in EMPLOYEES], dates), columns=[\"Employee\", \"Date\"])", "compilation_passed": true, "time": 0.004589080810546875, "tests_passed": true, "error": null}

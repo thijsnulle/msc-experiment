@@ -1,0 +1,6 @@
+{"code": " tag_content.get_text() if tag_content else None", "compilation_passed": true, "time": 0.011977910995483398, "tests_passed": true, "error": null}
+{"code": " tag_content.text if tag_content else None", "compilation_passed": true, "time": 0.011765003204345703, "tests_passed": true, "error": null}
+{"code": " tag_content.getText() if tag_content else None", "compilation_passed": true, "time": 0.013366937637329102, "tests_passed": true, "error": null}
+{"code": " tag_content.text.strip() if tag_content else None", "compilation_passed": true, "time": 0.005867958068847656, "tests_passed": true, "error": null}
+{"code": " tag_content if not tag_content else tag_content.text", "compilation_passed": true, "time": 0.005753278732299805, "tests_passed": true, "error": null}
+{"code": " tag_content.get_text() if tag_content is not None else None", "compilation_passed": true, "time": 0.00637507438659668, "tests_passed": true, "error": null}

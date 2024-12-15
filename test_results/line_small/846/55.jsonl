@@ -1,0 +1,22 @@
+{"code": " pd.DataFrame(list(count.items()), columns=['attribute', 'count'])", "compilation_passed": true, "time": 0.007297039031982422, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'attribute': count.keys(), 'count': count.values()})", "compilation_passed": true, "time": 0.005941867828369141, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'attribute': list(count.keys()), 'count': list(count.values())})", "compilation_passed": true, "time": 0.0056650638580322266, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(count.most_common(), columns=['attribute', 'count'])", "compilation_passed": true, "time": 0.005908012390136719, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(count, index=['attribute', 'count'])", "compilation_passed": true, "time": 0.006224870681762695, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_records(data=count.items(), columns=['attribute', 'count'])", "compilation_passed": true, "time": 0.007264852523803711, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(count.items(), columns=[\"attribute\", \"count\"])", "compilation_passed": true, "time": 0.006391048431396484, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(count.items(), columns=['attribute', 'count'])", "compilation_passed": true, "time": 0.005736827850341797, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([list(count.keys()), list(count.values())], index=['attribute', 'count']).T", "compilation_passed": true, "time": 0.0065076351165771484, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(count.most_common())", "compilation_passed": true, "time": 0.005738973617553711, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=['attribute', 'count'])", "compilation_passed": true, "time": 0.006390094757080078, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'attribute':count.keys(), 'count':count.values()})", "compilation_passed": true, "time": 0.005986690521240234, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(count, orient='index')", "compilation_passed": true, "time": 0.006953001022338867, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(count, index=[0])", "compilation_passed": true, "time": 0.007338047027587891, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(count.items(), columns=[attr, 'count'])", "compilation_passed": true, "time": 0.010122060775756836, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(count, index=['count']).reset_index()", "compilation_passed": true, "time": 0.005428791046142578, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(count, orient='index').rename(columns={0: 'count'})", "compilation_passed": true, "time": 0.005218029022216797, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(count.items()))", "compilation_passed": true, "time": 0.005033969879150391, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(count)", "compilation_passed": true, "time": 0.006529808044433594, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({attr: count.keys(), 'count': count.values()})", "compilation_passed": true, "time": 0.009718179702758789, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(count, columns=['attribute', 'count'])", "compilation_passed": true, "time": 0.007272243499755859, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=[(attr, count[attr]) for attr in count.keys()])", "compilation_passed": true, "time": 0.0053730010986328125, "tests_passed": true, "error": null}

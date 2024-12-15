@@ -1,0 +1,16 @@
+{"code": " next_day.weekday() >= 5:", "compilation_passed": true, "time": 0.012178897857666016, "tests_passed": true, "error": null}
+{"code": " next_day.weekday() > 4:", "compilation_passed": true, "time": 0.013314008712768555, "tests_passed": true, "error": null}
+{"code": " next_day.weekday() >= 5:  # Monday has index 0, so Sunday is 6", "compilation_passed": true, "time": 0.011678934097290039, "tests_passed": true, "error": null}
+{"code": " next_day.weekday() not in [5, 6]:", "compilation_passed": true, "time": 0.011641979217529297, "tests_passed": true, "error": null}
+{"code": " next_day.weekday() >= 5:  # 5 is Saturday", "compilation_passed": true, "time": 0.013494014739990234, "tests_passed": true, "error": null}
+{"code": " True:", "compilation_passed": true, "time": 0.0027468204498291016, "tests_passed": true, "error": null}
+{"code": " next_day.weekday() > 4:  # weekday() = [0, 6] -> [Mon, Sun]", "compilation_passed": true, "time": 0.010907888412475586, "tests_passed": true, "error": null}
+{"code": " not (next_day.weekday() in [5, 6]):  # 5: Saturday, 6: Sunday", "compilation_passed": true, "time": 0.010971784591674805, "tests_passed": true, "error": null}
+{"code": " next_day.weekday() > 4:  # datetime.weekday() for Monday == 0, Sunday == 6", "compilation_passed": true, "time": 0.01166391372680664, "tests_passed": true, "error": null}
+{"code": " next_day.weekday() not in (0, 1, 2, 3, 4):  # Mon-Fri", "compilation_passed": true, "time": 0.0074841976165771484, "tests_passed": true, "error": null}
+{"code": " not (next_day.weekday() < 5):", "compilation_passed": true, "time": 0.005660057067871094, "tests_passed": true, "error": null}
+{"code": " not next_day.isoweekday() in (6, 7):", "compilation_passed": true, "time": 0.00613713264465332, "tests_passed": true, "error": null}
+{"code": " next_day.weekday() > 4:  # weekday() = 0=Mon, 1=Tue, 2=Wed, 3=Thu, 4=Fri, 5=Sat, 6=Sun", "compilation_passed": true, "time": 0.006345987319946289, "tests_passed": true, "error": null}
+{"code": " next_day.isoweekday() > 5:", "compilation_passed": true, "time": 0.0055522918701171875, "tests_passed": true, "error": null}
+{"code": " next_day.weekday() >= 5: # 5 -> Sunday; 6 -> Saturday", "compilation_passed": true, "time": 0.006150007247924805, "tests_passed": true, "error": null}
+{"code": " not 1 <= next_day.isoweekday() <= 5:", "compilation_passed": true, "time": 0.005699634552001953, "tests_passed": true, "error": null}

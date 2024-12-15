@@ -1,0 +1,16 @@
+{"code": "scatter(transformed_data[:, 0], np.zeros_like(transformed_data[:, 0]), alpha=0.2)", "compilation_passed": true, "time": 0.07125306129455566, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data.flatten(), np.zeros_like(transformed_data.flatten()))", "compilation_passed": true, "time": 0.07449984550476074, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data[:, 0], np.zeros_like(transformed_data[:, 0]))", "compilation_passed": true, "time": 0.07343506813049316, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data[:, 0], np.zeros_like(transformed_data[:, 0]), alpha=0.5)", "compilation_passed": true, "time": 0.07070398330688477, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data, np.zeros(transformed_data.shape[0]), alpha=0.5)", "compilation_passed": true, "time": 0.07382488250732422, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data, np.zeros(transformed_data.shape[0]))", "compilation_passed": true, "time": 0.07116484642028809, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data, [0] * data.shape[0])", "compilation_passed": true, "time": 0.07115006446838379, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data[:, 0], np.zeros_like(transformed_data[:, 0]), s=5)", "compilation_passed": true, "time": 0.07290005683898926, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data, np.zeros(len(transformed_data)), color='b', label='Reduced to 1 component')", "compilation_passed": true, "time": 0.07039809226989746, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data[:, 0], np.zeros_like(transformed_data[:, 0]), c=data[:, 0])", "compilation_passed": true, "time": 0.0732731819152832, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data[:, 0], np.zeros_like(transformed_data[:, 0]), alpha=0.6)", "compilation_passed": true, "time": 0.07230210304260254, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data, np.zeros(data.shape[0]), cmap=plt.cm.get_cmap('hsv', 10))", "compilation_passed": true, "time": 0.07187008857727051, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data, [0] * len(transformed_data))", "compilation_passed": true, "time": 0.07248115539550781, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data, np.zeros_like(transformed_data))", "compilation_passed": true, "time": 0.07114601135253906, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data[:, 0], np.zeros_like(transformed_data[:, 0]), marker=\"o\", color=\"red\")", "compilation_passed": true, "time": 0.07261300086975098, "tests_passed": true, "error": null}
+{"code": "scatter(transformed_data.flatten(), np.zeros_like(transformed_data), alpha=0.5)", "compilation_passed": true, "time": 0.07084894180297852, "tests_passed": true, "error": null}

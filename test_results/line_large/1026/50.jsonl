@@ -1,0 +1,6 @@
+{"code": "group1) == 0 or np.all(np.isnan(group1))", "compilation_passed": true, "time": 6.470470905303955, "tests_passed": true, "error": null}
+{"code": "group1) == 0", "compilation_passed": true, "time": 0.26689815521240234, "tests_passed": true, "error": null}
+{"code": "group1) == 0 or np.isnan(group1).all()", "compilation_passed": true, "time": 1.028203010559082, "tests_passed": false, "error": "TimeoutError"}
+{"code": "group1) == 0 or np.isnan(group1).all() or len(group2) == 0 or np.isnan(group2).all()", "compilation_passed": true, "time": 0.23624491691589355, "tests_passed": true, "error": null}
+{"code": "group1) == 0 or len(group2) == 0 or np.isnan(group1).all() or np.isnan(group2).all()", "compilation_passed": true, "time": 0.23306703567504883, "tests_passed": true, "error": null}
+{"code": "group1) == 0 or group1.size == 0 or np.isnan(group1).all()", "compilation_passed": true, "time": 0.1998140811920166, "tests_passed": true, "error": null}

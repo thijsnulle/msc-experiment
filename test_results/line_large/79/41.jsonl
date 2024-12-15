@@ -1,0 +1,10 @@
+{"code": "write(file_path, file_path)", "compilation_passed": true, "time": 0.008352041244506836, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "write(file_path, arcname=os.path.basename(file_path))", "compilation_passed": true, "time": 0.005210161209106445, "tests_passed": false, "error": "NameError"}
+{"code": "writestr(os.path.basename(file_path), open(file_path, \"rb\").read())", "compilation_passed": true, "time": 0.004909992218017578, "tests_passed": false, "error": "NameError"}
+{"code": "write(file_path)", "compilation_passed": true, "time": 0.005693912506103516, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "writestr(os.path.basename(file_path), open(file_path, 'rb').read())", "compilation_passed": true, "time": 0.0053179264068603516, "tests_passed": false, "error": "NameError"}
+{"code": "write(file_path, os.path.basename(file_path))", "compilation_passed": true, "time": 0.005232095718383789, "tests_passed": false, "error": "NameError"}
+{"code": "writestr(file_path, os.path.join(settings.BASE_DIR, file_path))", "compilation_passed": true, "time": 0.00510096549987793, "tests_passed": false, "error": "NameError"}
+{"code": "write(file_path, file_path, zipfile.ZIP_DEFLATED)", "compilation_passed": true, "time": 0.005738973617553711, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "writestr(file_path, file_path)", "compilation_passed": true, "time": 0.009119033813476562, "tests_passed": true, "error": null}
+{"code": "write(file_path, os.path.basename(file_path), zipfile.ZIP_DEFLATED)", "compilation_passed": true, "time": 0.005468130111694336, "tests_passed": false, "error": "NameError"}

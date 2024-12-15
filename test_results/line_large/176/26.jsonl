@@ -1,0 +1,5 @@
+{"code": " re.search(IP_REGEX, ip):", "compilation_passed": true, "time": 0.003657102584838867, "tests_passed": true, "error": null}
+{"code": " re.fullmatch(IP_REGEX, ip):", "compilation_passed": true, "time": 0.002949237823486328, "tests_passed": true, "error": null}
+{"code": " re.match(IP_REGEX, ip):", "compilation_passed": true, "time": 0.004667997360229492, "tests_passed": true, "error": null}
+{"code": " not re.match(IP_REGEX, ip):", "compilation_passed": true, "time": 0.006049156188964844, "tests_passed": true, "error": null}
+{"code": " re.match(IP_REGEX, ip) is not None:", "compilation_passed": true, "time": 0.0041348934173583984, "tests_passed": true, "error": null}

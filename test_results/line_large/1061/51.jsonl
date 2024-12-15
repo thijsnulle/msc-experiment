@@ -1,0 +1,3 @@
+{"code": " (row_sums - mean) / std_dev", "compilation_passed": false, "time": 0.00029206275939941406, "tests_passed": false, "error": "IndentationError"}
+{"code": " (row_sums - mean) / std_dev if std_dev != 0 else np.zeros_like(row_sums)", "compilation_passed": false, "time": 0.0002090930938720703, "tests_passed": false, "error": "IndentationError"}
+{"code": " (row_sums - mean) / std_dev if std_dev != 0 else np.zeros(row_sums.shape)", "compilation_passed": false, "time": 0.0002627372741699219, "tests_passed": false, "error": "IndentationError"}

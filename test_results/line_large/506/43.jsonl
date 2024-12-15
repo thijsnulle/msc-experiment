@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame(data, columns=COLUMNS)", "compilation_passed": true, "time": 0.4364049434661865, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=COLUMNS).astype({\"Date\": np.datetime64})", "compilation_passed": true, "time": 0.03134584426879883, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(data, columns=COLUMNS) if data != [] else pd.DataFrame()", "compilation_passed": true, "time": 0.34058189392089844, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=COLUMNS) if data else pd.DataFrame(columns=COLUMNS)", "compilation_passed": true, "time": 0.4323761463165283, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=data, columns=COLUMNS)", "compilation_passed": true, "time": 0.4325740337371826, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=COLUMNS) if len(data) else pd.DataFrame(columns=COLUMNS)", "compilation_passed": true, "time": 0.4246101379394531, "tests_passed": true, "error": null}

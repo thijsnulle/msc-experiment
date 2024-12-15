@@ -1,0 +1,20 @@
+{"code": " df['Title'].str.contains(pattern, regex=True)", "compilation_passed": true, "time": 0.013959169387817383, "tests_passed": false, "error": "KeyError"}
+{"code": " df['Title'].apply(pattern.search)", "compilation_passed": true, "time": 0.009827852249145508, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df['Title'].str.contains(pattern)]", "compilation_passed": true, "time": 0.01909780502319336, "tests_passed": true, "error": null}
+{"code": " df['Title'].apply(lambda x: pattern.search(x) is not None)", "compilation_passed": true, "time": 0.03717184066772461, "tests_passed": false, "error": "KeyError"}
+{"code": " df.Title.str.contains(pattern)", "compilation_passed": true, "time": 0.01544189453125, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.Title.apply(pattern.search)", "compilation_passed": true, "time": 0.012317895889282227, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['Content'].str.contains(pattern, na=False)", "compilation_passed": true, "time": 0.020086050033569336, "tests_passed": false, "error": "KeyError"}
+{"code": " [", "compilation_passed": false, "time": 0.0001621246337890625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.008347034454345703, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.loc[df['Title'].str.contains(pattern), 'Content']", "compilation_passed": true, "time": 0.010645151138305664, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.Title.apply(lambda x: pattern.search(x) is not None)", "compilation_passed": true, "time": 0.008657217025756836, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[df['Title'].apply(pattern.search)]", "compilation_passed": true, "time": 0.01878809928894043, "tests_passed": false, "error": "ValueError"}
+{"code": " df.loc[pattern.finditer(df.Title), :]", "compilation_passed": true, "time": 0.009546995162963867, "tests_passed": false, "error": "TypeError"}
+{"code": " df.loc[pattern.finditer(df['Title'])]", "compilation_passed": true, "time": 0.008376121520996094, "tests_passed": false, "error": "TypeError"}
+{"code": " df.loc[pattern.finditer(df.Title), 'Content']", "compilation_passed": true, "time": 0.010577917098999023, "tests_passed": false, "error": "TypeError"}
+{"code": " df[df['Title'].apply(lambda x: pattern.findall(x))]", "compilation_passed": true, "time": 0.020073413848876953, "tests_passed": false, "error": "TypeError"}
+{"code": " df['Title'].apply(lambda x: pattern.search(x))", "compilation_passed": true, "time": 0.024080991744995117, "tests_passed": false, "error": "KeyError"}
+{"code": " df.loc[df['Title'].str.contains(pattern, regex=True)]", "compilation_passed": true, "time": 0.009659290313720703, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.loc[df['Title'].str.contains(pattern), 'Content'].apply(str.strip)", "compilation_passed": true, "time": 0.010732173919677734, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.loc[pattern.search(df['Title']), 'Content']", "compilation_passed": true, "time": 0.013878822326660156, "tests_passed": false, "error": "TypeError"}

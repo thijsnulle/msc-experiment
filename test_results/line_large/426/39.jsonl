@@ -1,0 +1,8 @@
+{"code": " img.copy()", "compilation_passed": true, "time": 0.010890007019042969, "tests_passed": true, "error": null}
+{"code": " cv2.threshold(img, threshold, 255, cv2.THRESH_BINARY)[1]", "compilation_passed": true, "time": 0.009193181991577148, "tests_passed": true, "error": null}
+{"code": " np.where(img > threshold, 255, 0).astype('uint8')", "compilation_passed": true, "time": 0.007751941680908203, "tests_passed": true, "error": null}
+{"code": " img > threshold", "compilation_passed": true, "time": 0.012579202651977539, "tests_passed": false, "error": ""}
+{"code": " (img > threshold).astype(int) * 255 # convert to binary image with threshold", "compilation_passed": true, "time": 0.010001897811889648, "tests_passed": true, "error": null}
+{"code": " np.where(img >= threshold, 255, 0).astype(np.uint8)", "compilation_passed": true, "time": 0.007692098617553711, "tests_passed": true, "error": null}
+{"code": " np.where(img > threshold, 255, 0).astype(np.uint8)", "compilation_passed": true, "time": 0.007195949554443359, "tests_passed": true, "error": null}
+{"code": " np.where(img >= threshold, 255, 0).astype('uint8')", "compilation_passed": true, "time": 0.007604837417602539, "tests_passed": true, "error": null}

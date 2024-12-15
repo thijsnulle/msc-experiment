@@ -1,0 +1,6 @@
+{"code": " render_template('index.html', data=data)", "compilation_passed": true, "time": 0.011848926544189453, "tests_passed": false, "error": "RuntimeError"}
+{"code": " render_template(\"index.html\", data=data)", "compilation_passed": true, "time": 0.009814023971557617, "tests_passed": false, "error": "RuntimeError"}
+{"code": " render_template('index.html', name=data['name'], surname=data['surname'])", "compilation_passed": true, "time": 0.010010004043579102, "tests_passed": false, "error": "RuntimeError"}
+{"code": " render_template('index.html', **data)", "compilation_passed": true, "time": 0.011087179183959961, "tests_passed": false, "error": "RuntimeError"}
+{"code": " render_template(\"index.html\", **data)", "compilation_passed": true, "time": 0.013859033584594727, "tests_passed": false, "error": "RuntimeError"}
+{"code": " render_template('index.html', name=data['name'], email=data['email'])", "compilation_passed": true, "time": 0.01494908332824707, "tests_passed": false, "error": "RuntimeError"}

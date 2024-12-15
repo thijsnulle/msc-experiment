@@ -1,0 +1,7 @@
+{"code": " [dict(zip(headers, row)) for row in csv_data]", "compilation_passed": true, "time": 0.006090879440307617, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.00603485107421875, "tests_passed": true, "error": null}
+{"code": " json.dumps([dict(zip(headers, row)) for row in csv_data])", "compilation_passed": true, "time": 0.006006717681884766, "tests_passed": true, "error": null}
+{"code": " json.dumps({header: [] for header in headers})", "compilation_passed": true, "time": 0.006172895431518555, "tests_passed": true, "error": null}
+{"code": " {header: [] for header in headers}", "compilation_passed": true, "time": 0.005633831024169922, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.006203174591064453, "tests_passed": true, "error": null}
+{"code": " [{header: value for header, value in zip(headers, row)} for row in csv_data]", "compilation_passed": true, "time": 0.005610942840576172, "tests_passed": true, "error": null}

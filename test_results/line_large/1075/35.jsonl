@@ -1,0 +1,17 @@
+{"code": "diff([datetime.strptime(ts, TIME_FORMAT) for ts in time_strings])", "compilation_passed": true, "time": 0.01114511489868164, "tests_passed": false, "error": "AttributeError"}
+{"code": "diff([datetime.strptime(s, TIME_FORMAT) for s in time_strings])", "compilation_passed": true, "time": 0.010062217712402344, "tests_passed": false, "error": "AttributeError"}
+{"code": "diff([datetime.strptime(time_string, TIME_FORMAT) for time_string in time_strings])", "compilation_passed": true, "time": 0.010380983352661133, "tests_passed": false, "error": "AttributeError"}
+{"code": "diff(np.array([datetime.strptime(s, TIME_FORMAT) for s in time_strings]))", "compilation_passed": true, "time": 0.010117053985595703, "tests_passed": false, "error": "AttributeError"}
+{"code": "diff(", "compilation_passed": false, "time": 0.0001289844512939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": "diff(np.array([datetime.strptime(t, TIME_FORMAT) for t in time_strings]))", "compilation_passed": true, "time": 0.010333061218261719, "tests_passed": false, "error": "AttributeError"}
+{"code": "diff(np.array([datetime.strptime(ts, TIME_FORMAT) for ts in time_strings]))", "compilation_passed": true, "time": 0.010148763656616211, "tests_passed": false, "error": "AttributeError"}
+{"code": "diff(datetime.datetime.strptime(ts, TIME_FORMAT) for ts in time_strings)", "compilation_passed": true, "time": 0.014075040817260742, "tests_passed": false, "error": "ValueError"}
+{"code": "diff([datetime.strptime(string, TIME_FORMAT) for string in time_strings])", "compilation_passed": true, "time": 0.01046299934387207, "tests_passed": false, "error": "AttributeError"}
+{"code": "diff([datetime.strptime(t, TIME_FORMAT) for t in time_strings]) / np.timedelta64(1, \"s\")", "compilation_passed": true, "time": 0.010375022888183594, "tests_passed": false, "error": "AttributeError"}
+{"code": "diff([datetime.strptime(s, TIME_FORMAT) for s in time_strings]) / np.timedelta64(1, 's')", "compilation_passed": true, "time": 0.009940147399902344, "tests_passed": false, "error": "AttributeError"}
+{"code": "diff([datetime.strptime(time, TIME_FORMAT) for time in time_strings])", "compilation_passed": true, "time": 0.010483026504516602, "tests_passed": false, "error": "AttributeError"}
+{"code": "array([datetime.strptime(time_strings[i + 1], TIME_FORMAT)", "compilation_passed": false, "time": 7.82012939453125e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": "diff([datetime.strptime(t, TIME_FORMAT) for t in time_strings])", "compilation_passed": true, "time": 0.009624242782592773, "tests_passed": false, "error": "AttributeError"}
+{"code": "array(", "compilation_passed": false, "time": 0.00013303756713867188, "tests_passed": false, "error": "SyntaxError"}
+{"code": "diff([datetime.strptime(t, TIME_FORMAT) for t in time_strings]) / np.timedelta64(1, 's')", "compilation_passed": true, "time": 0.009747982025146484, "tests_passed": false, "error": "AttributeError"}
+{"code": "diff(list(map(datetime.datetime.strptime, time_strings, [TIME_FORMAT] * len(time_strings))))", "compilation_passed": true, "time": 0.017750024795532227, "tests_passed": true, "error": null}

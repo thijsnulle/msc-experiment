@@ -1,0 +1,10 @@
+{"code": " not isinstance(target_column, str):", "compilation_passed": true, "time": 0.02919602394104004, "tests_passed": true, "error": null}
+{"code": " target_column not in data.columns:", "compilation_passed": true, "time": 0.027582168579101562, "tests_passed": true, "error": null}
+{"code": " not target_column in data.columns:", "compilation_passed": true, "time": 0.026620149612426758, "tests_passed": true, "error": null}
+{"code": " not data[target_column].isna().all() and not data[target_column].apply(lambda x: not pd.isna(x) and isinstance(x, (int, float))).all():", "compilation_passed": true, "time": 0.032510995864868164, "tests_passed": true, "error": null}
+{"code": " not (data[data.columns].apply(pd.to_numeric, errors='coerce')).dtypes.all() == 'float64':", "compilation_passed": true, "time": 0.01217508316040039, "tests_passed": false, "error": "ValueError"}
+{"code": " target_column not in list(data.columns):", "compilation_passed": true, "time": 0.02594733238220215, "tests_passed": true, "error": null}
+{"code": " not target_column in data:", "compilation_passed": true, "time": 0.02322983741760254, "tests_passed": true, "error": null}
+{"code": " target_column not in list(data.columns.values):", "compilation_passed": true, "time": 0.022065162658691406, "tests_passed": true, "error": null}
+{"code": " target_column not in data:", "compilation_passed": true, "time": 0.021538972854614258, "tests_passed": true, "error": null}
+{"code": " not data.dtypes.apply(pd.api.types.is_numeric_dtype).all():", "compilation_passed": true, "time": 0.024589061737060547, "tests_passed": true, "error": null}

@@ -1,0 +1,11 @@
+{"code": " df.dropna(subset=df.columns, how=\"all\")", "compilation_passed": true, "time": 0.1988070011138916, "tests_passed": false, "error": "ValueError"}
+{"code": " df.dropna()", "compilation_passed": true, "time": 0.1724710464477539, "tests_passed": false, "error": "ValueError"}
+{"code": " df.dropna(axis=\"columns\", how=\"all\")", "compilation_passed": true, "time": 0.22143292427062988, "tests_passed": true, "error": null}
+{"code": " df.dropna(subset=df.columns, axis=0, how=\"any\")", "compilation_passed": true, "time": 0.17409372329711914, "tests_passed": false, "error": "ValueError"}
+{"code": " df.dropna(subset=df.columns)", "compilation_passed": true, "time": 0.19031596183776855, "tests_passed": false, "error": "ValueError"}
+{"code": " df.dropna(how='any', axis=1)", "compilation_passed": true, "time": 0.23516488075256348, "tests_passed": true, "error": null}
+{"code": " df.dropna(axis=1, how='all')", "compilation_passed": true, "time": 0.24657797813415527, "tests_passed": true, "error": null}
+{"code": " df.dropna(axis=1)", "compilation_passed": true, "time": 0.23180007934570312, "tests_passed": true, "error": null}
+{"code": " df.dropna(axis=1, how='any')", "compilation_passed": true, "time": 0.2376391887664795, "tests_passed": true, "error": null}
+{"code": " df.dropna(how='all', axis=1)", "compilation_passed": true, "time": 0.2508277893066406, "tests_passed": true, "error": null}
+{"code": " df.dropna(subset=list(df), axis=\"columns\")", "compilation_passed": true, "time": 0.01431894302368164, "tests_passed": false, "error": "KeyError"}

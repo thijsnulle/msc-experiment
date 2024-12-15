@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame(top_words, columns=[\"word\", \"count\"])", "compilation_passed": true, "time": 0.02815985679626465, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(top_words, columns=[\"Text\", \"Counts\"])", "compilation_passed": true, "time": 0.03045797348022461, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(top_words, columns=[\"Word\", \"Frequency\"])", "compilation_passed": true, "time": 0.029409170150756836, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(top_words, columns=[\"Text\", \"Count\"]).sort_values(by=\"Count\")", "compilation_passed": true, "time": 0.033553123474121094, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=top_words, columns=[\"word\", \"word_freq\"])", "compilation_passed": true, "time": 0.0294342041015625, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(top_words, columns=[\"Word\", \"Count\"])", "compilation_passed": true, "time": 0.4791529178619385, "tests_passed": true, "error": null}

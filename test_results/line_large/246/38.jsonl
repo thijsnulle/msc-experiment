@@ -1,0 +1,5 @@
+{"code": " []", "compilation_passed": true, "time": 0.256023645401001, "tests_passed": true, "error": null}
+{"code": " np.zeros((n_waves, len(ANGLES)))", "compilation_passed": true, "time": 0.008606195449829102, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array([])", "compilation_passed": true, "time": 0.009958744049072266, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.random.normal() * np.sin(ANGLES) * (i + 1) for i in range(n_waves)]", "compilation_passed": true, "time": 0.053891658782958984, "tests_passed": true, "error": null}
+{"code": " np.zeros_like(ANGLES)", "compilation_passed": true, "time": 0.018159866333007812, "tests_passed": false, "error": "AttributeError"}

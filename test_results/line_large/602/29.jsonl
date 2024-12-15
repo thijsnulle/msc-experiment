@@ -1,0 +1,12 @@
+{"code": "to_csv(os.path.join(output_dir, file_path), index=False)", "compilation_passed": true, "time": 0.03602886199951172, "tests_passed": false, "error": "OSError"}
+{"code": "to_csv(file_path, index=False, header=False, mode='w')", "compilation_passed": true, "time": 0.011901140213012695, "tests_passed": true, "error": null}
+{"code": "to_csv(file_path, header=False, index=False)", "compilation_passed": true, "time": 0.01655888557434082, "tests_passed": true, "error": null}
+{"code": "to_csv(file_path)", "compilation_passed": true, "time": 0.012073993682861328, "tests_passed": true, "error": null}
+{"code": "to_csv(file_path, index=False, header=False)", "compilation_passed": true, "time": 0.014917850494384766, "tests_passed": true, "error": null}
+{"code": "to_csv(file_path, index=False)", "compilation_passed": true, "time": 0.013083934783935547, "tests_passed": true, "error": null}
+{"code": "to_csv(os.path.join(output_dir, file_path), header=False, index=False, sep=',')", "compilation_passed": true, "time": 0.013416767120361328, "tests_passed": false, "error": "OSError"}
+{"code": "to_csv(file_path, index=None, header=None)", "compilation_passed": true, "time": 0.011191129684448242, "tests_passed": true, "error": null}
+{"code": "to_csv(file_path, header=None, index=False)", "compilation_passed": true, "time": 0.012063980102539062, "tests_passed": true, "error": null}
+{"code": "to_csv(file_path, index=False, header=False, encoding='utf-8', mode='w')", "compilation_passed": true, "time": 0.011803150177001953, "tests_passed": true, "error": null}
+{"code": "to_csv(file_path, header=False, index=False, sep=',')", "compilation_passed": true, "time": 0.011639833450317383, "tests_passed": true, "error": null}
+{"code": "to_csv(file_path, index=False, header=False, quoting=csv.QUOTE_NONE, sep='')", "compilation_passed": true, "time": 0.012094974517822266, "tests_passed": false, "error": "NameError"}

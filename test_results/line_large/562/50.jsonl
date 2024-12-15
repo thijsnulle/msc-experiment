@@ -1,0 +1,9 @@
+{"code": "f\"System: {uname.sysname}\")", "compilation_passed": true, "time": 0.09479594230651855, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "\"System:\", uname.sysname)", "compilation_passed": true, "time": 0.17553091049194336, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "", "compilation_passed": false, "time": 0.0003421306610107422, "tests_passed": false, "error": "SyntaxError"}
+{"code": "f\"\"\"", "compilation_passed": false, "time": 0.0004048347473144531, "tests_passed": false, "error": "SyntaxError"}
+{"code": "\"System: {}\".format(uname.sysname))", "compilation_passed": true, "time": 0.08997988700866699, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "f\"System: {uname.sysname}\\nNode Name: {uname.nodename}\\nRelease: {uname.release}\\nVersion: {uname.version}\\nMachine: {uname.machine}\\nPython Version: {sys.version}\\nPIP Version: {subprocess.check_output(['pip', '--version'])}\")", "compilation_passed": true, "time": 0.09720110893249512, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "f\"System: {uname.sysname}\\nNode Name: {uname.nodename}\\nRelease: {uname.release}\\nVersion: {uname.version}\\nMachine: {uname.machine}\\nPython Version: {sys.version}\\nPIP Version: {subprocess.check_output(['pip', '--version']).decode().split()[1]}\")", "compilation_passed": true, "time": 0.10331010818481445, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "f\"System: {uname.sysname}\\n\"", "compilation_passed": false, "time": 0.0005328655242919922, "tests_passed": false, "error": "SyntaxError"}
+{"code": "\"System: \", uname.sysname)", "compilation_passed": true, "time": 0.09471774101257324, "tests_passed": false, "error": "FileNotFoundError"}

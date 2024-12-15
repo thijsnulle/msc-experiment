@@ -1,0 +1,12 @@
+{"code": " BAR_COLOR[np.random.randint(0, len(BAR_COLOR))]", "compilation_passed": true, "time": 0.05201220512390137, "tests_passed": true, "error": null}
+{"code": " BAR_COLOR[np.random.randint(len(BAR_COLOR))]", "compilation_passed": true, "time": 0.05339503288269043, "tests_passed": true, "error": null}
+{"code": " np.random.choice(BAR_COLOR)", "compilation_passed": true, "time": 0.04743504524230957, "tests_passed": true, "error": null}
+{"code": " np.random.choice(BAR_COLOR, 1)[0]", "compilation_passed": true, "time": 0.05126476287841797, "tests_passed": true, "error": null}
+{"code": " BAR_COLOR[np.random.randint(0, 7)]", "compilation_passed": true, "time": 0.048004865646362305, "tests_passed": true, "error": null}
+{"code": " np.random.choice(BAR_COLOR, size=data_size)", "compilation_passed": true, "time": 0.014616966247558594, "tests_passed": false, "error": "ValueError"}
+{"code": " BAR_COLOR[np.random.randint(7)]", "compilation_passed": true, "time": 0.04480409622192383, "tests_passed": true, "error": null}
+{"code": " BAR_COLOR[np.random.choice(7, 1)]", "compilation_passed": true, "time": 0.003259897232055664, "tests_passed": false, "error": "TypeError"}
+{"code": " BAR_COLOR[int(np.random.random() * 7)]", "compilation_passed": true, "time": 0.046751976013183594, "tests_passed": true, "error": null}
+{"code": " BAR_COLOR[np.random.randint(0, len(BAR_COLOR) - 1)]", "compilation_passed": true, "time": 0.04525899887084961, "tests_passed": true, "error": null}
+{"code": " BAR_COLOR[np.random.choice(len(BAR_COLOR))]", "compilation_passed": true, "time": 0.04725384712219238, "tests_passed": true, "error": null}
+{"code": " np.random.choice(BAR_COLOR, data_size)", "compilation_passed": true, "time": 0.0037298202514648438, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,26 @@
+{"code": " re.sub(r'(\")', r'\\\\\"', escaped_data)", "compilation_passed": true, "time": 0.01259613037109375, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"(?<!\\\\)\" + r'\"', r\"\\\\\" + r'\"', escaped_data)", "compilation_passed": true, "time": 0.012829780578613281, "tests_passed": true, "error": null}
+{"code": " escaped_data.replace(\"\\\"\", \"\\\\\\\"\")", "compilation_passed": true, "time": 0.011567831039428711, "tests_passed": true, "error": null}
+{"code": " re.sub('\"', '\\\\\\\\\\\\\"', escaped_data)", "compilation_passed": true, "time": 0.012849807739257812, "tests_passed": true, "error": null}
+{"code": " escaped_data.replace(\"\\\\\", \"\\\\\\\\\")", "compilation_passed": true, "time": 0.007781028747558594, "tests_passed": true, "error": null}
+{"code": " re.sub(\"([^\\\\\\\\]\\\")\", r\"\\\\\\1\", escaped_data)", "compilation_passed": true, "time": 0.00799703598022461, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\\\\\\\\\")', r'\"', escaped_data)", "compilation_passed": true, "time": 0.008704900741577148, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\\\(\")', '\\\\1', escaped_data)", "compilation_passed": true, "time": 0.0075261592864990234, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\".+?\")', r'\"\\1\"', escaped_data)", "compilation_passed": true, "time": 0.007714033126831055, "tests_passed": true, "error": null}
+{"code": " escaped_data.replace('\"', '\"\\\\\"')", "compilation_passed": true, "time": 0.007493019104003906, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\")(.*)(\")', r'\\\\\"\\1\\3\"', escaped_data)", "compilation_passed": true, "time": 0.011961936950683594, "tests_passed": true, "error": null}
+{"code": " re.sub(\"\\\\\\\\\\\"\", \"\\\\\\\\\\\\\\\\\\\"\", escaped_data)", "compilation_passed": true, "time": 0.007364034652709961, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\"[^\"]+\")', r'\"\\1\"', escaped_data)", "compilation_passed": true, "time": 0.007971048355102539, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\"(.*?)\"', r'\"\\\\\\1\"', escaped_data)", "compilation_passed": true, "time": 0.007556915283203125, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\"', r'\\\"', escaped_data)", "compilation_passed": true, "time": 0.011307954788208008, "tests_passed": true, "error": null}
+{"code": " re.sub(\"\\\\\", \"\\\\\\\\\\\\\\\\\", escaped_data)", "compilation_passed": true, "time": 0.009032964706420898, "tests_passed": false, "error": "re.error"}
+{"code": " re.sub(\"([^\\\\w]{2})([\" + '\"' + \"])\", r\"\\1\\\\\\2\", escaped_data)", "compilation_passed": true, "time": 0.012360811233520508, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\")', r'\"\\\\\"', escaped_data)", "compilation_passed": true, "time": 0.007416963577270508, "tests_passed": true, "error": null}
+{"code": " json.loads(escaped_data.replace('\"', '\"\\\\\"'))", "compilation_passed": true, "time": 0.011716127395629883, "tests_passed": false, "error": "json.decoder.JSONDecodeError"}
+{"code": " re.sub(r'(\")(?=[^{}]*(?:\\{[^{}]*\\}[^{}]*)*$)', r'\"\\\\\"', escaped_data)", "compilation_passed": true, "time": 0.007591724395751953, "tests_passed": true, "error": null}
+{"code": " escaped_data.replace('\"', '\\\\\"')", "compilation_passed": true, "time": 0.011548042297363281, "tests_passed": true, "error": null}
+{"code": " escaped_data.replace('\\\"', '\\\\\\\"')", "compilation_passed": true, "time": 0.010959863662719727, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"([^\\\\]|^)(\\\\\\\"|\\\\\\\")\", r\"\\1\\\\\\\"\\2\", escaped_data)", "compilation_passed": true, "time": 0.007431983947753906, "tests_passed": true, "error": null}
+{"code": " re.sub('\"', '\\\\\"', escaped_data)", "compilation_passed": true, "time": 0.01159977912902832, "tests_passed": true, "error": null}
+{"code": " re.sub(\"(?<!\\\\)\\\"\", r\"\\\\\\\"\", escaped_data)", "compilation_passed": true, "time": 0.009391069412231445, "tests_passed": false, "error": "re.error"}
+{"code": " re.sub(r'(\\\\\")', r'\\\\\"', escaped_data)  # Escape double quotes", "compilation_passed": true, "time": 0.007082939147949219, "tests_passed": true, "error": null}

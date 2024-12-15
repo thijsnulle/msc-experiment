@@ -1,0 +1,27 @@
+{"code": " _, _ = stats.boxcox(df[column], bounds=(-np.inf, 1))", "compilation_passed": false, "time": 0.00034427642822265625, "tests_passed": false, "error": "IndentationError"}
+{"code": " _ = stats.boxcox(df[column] + 1)", "compilation_passed": false, "time": 0.00026988983154296875, "tests_passed": false, "error": "IndentationError"}
+{"code": " fig = stats.boxcox(df[column])", "compilation_passed": false, "time": 0.0002760887145996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " counts, bin_edges = stats.boxcox(df[column], bounds=True)", "compilation_passed": false, "time": 0.0003981590270996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " fig_temp = stats.boxcox(df[column])", "compilation_passed": false, "time": 0.00037407875061035156, "tests_passed": false, "error": "IndentationError"}
+{"code": " cdf = stats.boxcox(df[column] + 1)", "compilation_passed": false, "time": 0.00032591819763183594, "tests_passed": false, "error": "IndentationError"}
+{"code": " transformed_pdf = stats.boxcox(df[column])", "compilation_passed": false, "time": 0.0002818107604980469, "tests_passed": false, "error": "IndentationError"}
+{"code": " transform_func = _box_cox_transform(df[column])", "compilation_passed": false, "time": 0.0003180503845214844, "tests_passed": false, "error": "IndentationError"}
+{"code": " transformed_fig = boxcox(df[column], lmbda=None)", "compilation_passed": false, "time": 0.0002741813659667969, "tests_passed": false, "error": "IndentationError"}
+{"code": " kde = stats.boxcox(df[column])", "compilation_passed": false, "time": 0.00031304359436035156, "tests_passed": false, "error": "IndentationError"}
+{"code": " ax = stats.probplot(df[column], dist='norm', plot=True)", "compilation_passed": false, "time": 0.0002810955047607422, "tests_passed": false, "error": "IndentationError"}
+{"code": " transformed_fig = stats.boxcox(df[column].values.reshape(-1), l=None, bounds=False)", "compilation_passed": false, "time": 0.00030803680419921875, "tests_passed": false, "error": "IndentationError"}
+{"code": " scale = stats.boxcox(df[column].values)", "compilation_passed": false, "time": 0.0003101825714111328, "tests_passed": false, "error": "IndentationError"}
+{"code": " ax = stats.boxcox(df[column] + 1, method='sqrt')", "compilation_passed": false, "time": 0.0003211498260498047, "tests_passed": false, "error": "IndentationError"}
+{"code": " _, _ = stats.boxcox(df[column])", "compilation_passed": false, "time": 0.0002930164337158203, "tests_passed": false, "error": "IndentationError"}
+{"code": " bins = stats.boxcox(df[column])", "compilation_passed": false, "time": 0.00030684471130371094, "tests_passed": false, "error": "IndentationError"}
+{"code": " transform_func, n = stats.boxcox(df[column].values, return_transform=True)", "compilation_passed": false, "time": 0.0003418922424316406, "tests_passed": false, "error": "IndentationError"}
+{"code": " _ = stats.boxcox(df[column].values, lmbda=None)", "compilation_passed": false, "time": 0.0003719329833984375, "tests_passed": false, "error": "IndentationError"}
+{"code": " _, _ = stats.boxcox(df[column], method=\"ms\")", "compilation_passed": false, "time": 0.0003209114074707031, "tests_passed": false, "error": "IndentationError"}
+{"code": " _ = stats.boxcox(df[column] + 1, lambda x: x + 1)", "compilation_passed": false, "time": 0.0003190040588378906, "tests_passed": false, "error": "IndentationError"}
+{"code": " scale = stats.boxcox(df[column] + 1)", "compilation_passed": false, "time": 0.00029206275939941406, "tests_passed": false, "error": "IndentationError"}
+{"code": " _ = stats.boxcox(df[column], beta=None, store_stats=True)", "compilation_passed": false, "time": 0.000354766845703125, "tests_passed": false, "error": "IndentationError"}
+{"code": " transformed_cdf = stats.boxcox(df[column])", "compilation_passed": false, "time": 0.0004000663757324219, "tests_passed": false, "error": "IndentationError"}
+{"code": " bins = stats.boxcox(df[column], lmbda=None,", "compilation_passed": false, "time": 0.0003330707550048828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " bin_edges = stats.boxcox(df[column], lmbda=None)", "compilation_passed": false, "time": 0.00031113624572753906, "tests_passed": false, "error": "IndentationError"}
+{"code": " _ = stats.boxcox(df[column])", "compilation_passed": false, "time": 0.0002651214599609375, "tests_passed": false, "error": "IndentationError"}
+{"code": " transform = stats.boxcox(df[column])", "compilation_passed": false, "time": 0.0002560615539550781, "tests_passed": false, "error": "IndentationError"}

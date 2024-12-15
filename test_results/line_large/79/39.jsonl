@@ -1,0 +1,14 @@
+{"code": " zipfile.ZipFile(zip_io, mode='w') as zf:", "compilation_passed": true, "time": 0.005029916763305664, "tests_passed": false, "error": "NameError"}
+{"code": " zipfile.ZipFile(zip_io, mode=\"w\") as zip_file:", "compilation_passed": true, "time": 0.004033088684082031, "tests_passed": true, "error": null}
+{"code": " zipfile.ZipFile(zip_io, \"w\", zipfile.ZIP_DEFLATED) as zf:", "compilation_passed": true, "time": 0.005224943161010742, "tests_passed": false, "error": "NameError"}
+{"code": " zipfile.ZipFile(zip_io, \"w\", zipfile.ZIP_DEFLATED) as zip_file:", "compilation_passed": true, "time": 0.004231929779052734, "tests_passed": true, "error": null}
+{"code": " zipfile.ZipFile(zip_io, mode='w', compression=zipfile.ZIP_DEFLATED) as zip_file:", "compilation_passed": true, "time": 0.004347085952758789, "tests_passed": true, "error": null}
+{"code": " zipfile.ZipFile(zip_io, 'w') as zip_file:", "compilation_passed": true, "time": 0.0044708251953125, "tests_passed": true, "error": null}
+{"code": " zipfile.ZipFile(zip_io, 'w', zipfile.ZIP_DEFLATED) as zip_file:", "compilation_passed": true, "time": 0.003911018371582031, "tests_passed": true, "error": null}
+{"code": " zipfile.ZipFile(zip_io, mode=\"w\", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as zip_file:", "compilation_passed": true, "time": 0.004705905914306641, "tests_passed": true, "error": null}
+{"code": " zipfile.ZipFile(zip_io, mode=\"w\", compression=zipfile.ZIP_DEFLATED) as zip_file:", "compilation_passed": true, "time": 0.003721952438354492, "tests_passed": true, "error": null}
+{"code": " zipfile.ZipFile(zip_io, mode='w') as zip_file:", "compilation_passed": true, "time": 0.003631114959716797, "tests_passed": true, "error": null}
+{"code": " zipfile.ZipFile(zip_io, mode='w', compression=zipfile.ZIP_DEFLATED) as zf:", "compilation_passed": true, "time": 0.005240917205810547, "tests_passed": false, "error": "NameError"}
+{"code": " zipfile.ZipFile(zip_io, mode=\"w\", compression=zipfile.ZIP_DEFLATED) as zf:", "compilation_passed": true, "time": 0.005160093307495117, "tests_passed": false, "error": "NameError"}
+{"code": " zipfile.ZipFile(zip_io, 'w', compression=zipfile.ZIP_DEFLATED) as zip_file:", "compilation_passed": true, "time": 0.0035462379455566406, "tests_passed": true, "error": null}
+{"code": " zipfile.ZipFile(zip_io, 'w', zipfile.ZIP_DEFLATED, False) as zip_file:", "compilation_passed": true, "time": 0.003688812255859375, "tests_passed": true, "error": null}

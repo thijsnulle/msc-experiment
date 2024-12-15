@@ -1,0 +1,20 @@
+{"code": " os.path.join(csv_file_path, file_name)", "compilation_passed": true, "time": 0.041905879974365234, "tests_passed": true, "error": null}
+{"code": " file_name.split('.')[0] + '.csv'", "compilation_passed": true, "time": 0.03567910194396973, "tests_passed": true, "error": null}
+{"code": " os.path.basename(file_name).split('.')[0] + '.csv'", "compilation_passed": true, "time": 0.03847765922546387, "tests_passed": true, "error": null}
+{"code": " f\"{file_name.rsplit('.', 1)[0]}.csv\"", "compilation_passed": true, "time": 0.04090595245361328, "tests_passed": true, "error": null}
+{"code": " f\"{file_name.split('.')[0]}.csv\"", "compilation_passed": true, "time": 0.0363621711730957, "tests_passed": true, "error": null}
+{"code": " file_name[:-5] + '.csv'", "compilation_passed": true, "time": 0.032952070236206055, "tests_passed": true, "error": null}
+{"code": " file_name[:-4] + '.csv'", "compilation_passed": true, "time": 0.03866720199584961, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(file_name)[0] + '.csv'", "compilation_passed": true, "time": 0.03531193733215332, "tests_passed": true, "error": null}
+{"code": " file_name.split(\".\")[0]", "compilation_passed": true, "time": 0.03864693641662598, "tests_passed": true, "error": null}
+{"code": " os.path.basename(file_name).split(\".\")[0]", "compilation_passed": true, "time": 0.04482412338256836, "tests_passed": true, "error": null}
+{"code": " f\"{os.path.splitext(file_name)[0]}.csv\"", "compilation_passed": true, "time": 0.03711223602294922, "tests_passed": true, "error": null}
+{"code": " f\"{file_name[:-5]}.csv\"", "compilation_passed": true, "time": 0.035867929458618164, "tests_passed": true, "error": null}
+{"code": " file_name.split('.')[0]", "compilation_passed": true, "time": 0.04011821746826172, "tests_passed": true, "error": null}
+{"code": " file_name.rsplit(\".\", maxsplit=1)[0] + \".csv\"", "compilation_passed": true, "time": 0.03745412826538086, "tests_passed": true, "error": null}
+{"code": " file_name.split('.')[0] + \".csv\"", "compilation_passed": true, "time": 0.036859750747680664, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(file_name)[0] + \".csv\"", "compilation_passed": true, "time": 0.04115414619445801, "tests_passed": true, "error": null}
+{"code": " file_name.replace(\".xlsx\", \".csv\")", "compilation_passed": true, "time": 0.039852142333984375, "tests_passed": true, "error": null}
+{"code": " os.path.basename(excel_file).split('.')[0]", "compilation_passed": true, "time": 0.04473710060119629, "tests_passed": true, "error": null}
+{"code": " file_name.rsplit('.')[0] + '.csv'", "compilation_passed": true, "time": 0.04321908950805664, "tests_passed": true, "error": null}
+{"code": " f'{os.path.splitext(file_name)[0]}.csv'", "compilation_passed": true, "time": 0.03464388847351074, "tests_passed": true, "error": null}

@@ -1,0 +1,29 @@
+{"code": " df[column].plot.bar()", "compilation_passed": true, "time": 0.09474015235900879, "tests_passed": true, "error": null}
+{"code": " column_data.plot(kind=\"bar\", title=f\"Bar Chart of {column}\", x=\"Product\")", "compilation_passed": true, "time": 0.480806827545166, "tests_passed": true, "error": null}
+{"code": " column_data.plot.bar(title=f'Bar Chart of {column}')", "compilation_passed": true, "time": 0.45830607414245605, "tests_passed": true, "error": null}
+{"code": " column_data.plot.hist(", "compilation_passed": false, "time": 0.0002980232238769531, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.subplot(1, 1, 1)", "compilation_passed": true, "time": 0.07625699043273926, "tests_passed": true, "error": null}
+{"code": " plot = plt.bar(range(len(column_data)), column_data)", "compilation_passed": true, "time": 0.06652069091796875, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[column].plot.bar(color=\"blue\")", "compilation_passed": true, "time": 0.0831611156463623, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x=\"Product\", title=f\"Bar Chart of {column}\")", "compilation_passed": true, "time": 0.48853492736816406, "tests_passed": true, "error": null}
+{"code": " column_data.plot(kind='bar', title=f'Bar Chart of {column}', x='Product')", "compilation_passed": true, "time": 0.515639066696167, "tests_passed": true, "error": null}
+{"code": " df[column].plot.hist(", "compilation_passed": false, "time": 0.0004279613494873047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plot.barh(left=0, width=2, xerr=2, yerr=0)", "compilation_passed": true, "time": 0.010965108871459961, "tests_passed": false, "error": "NameError"}
+{"code": " df.plot.bar(column=column)", "compilation_passed": true, "time": 0.0915677547454834, "tests_passed": true, "error": null}
+{"code": " df[column_].plot(kind='bar')", "compilation_passed": true, "time": 0.012296199798583984, "tests_passed": false, "error": "NameError"}
+{"code": " plot.bar(x=df[\"Product\"], height=column_data, width=0.7, title=f\"Bar Chart of {column}\")", "compilation_passed": true, "time": 0.010719060897827148, "tests_passed": false, "error": "NameError"}
+{"code": " df[column].plot(kind=\"bar\", title=column, xlabel=\"Product\")", "compilation_passed": true, "time": 0.10271883010864258, "tests_passed": true, "error": null}
+{"code": " plt.bar(df[\"Product\"], column_data)", "compilation_passed": true, "time": 0.07867598533630371, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(df[\"Product\"], column_data, color=\"gray\", title=f\"Bar Chart of {column}\", xlabel=\"Product\")", "compilation_passed": true, "time": 0.06689596176147461, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.plotting.scatter_matrix(", "compilation_passed": false, "time": 0.000331878662109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.08221101760864258, "tests_passed": true, "error": null}
+{"code": " df[column_].plot.bar()", "compilation_passed": true, "time": 0.024427175521850586, "tests_passed": false, "error": "NameError"}
+{"code": " plot_bar(result, column)", "compilation_passed": true, "time": 0.009266853332519531, "tests_passed": false, "error": "NameError"}
+{"code": " plot.bar(column_data)", "compilation_passed": true, "time": 0.00921177864074707, "tests_passed": false, "error": "NameError"}
+{"code": " df.plot(x=\"Product\", title=column + \" Bar Chart\", kind=\"bar\")", "compilation_passed": true, "time": 0.07624697685241699, "tests_passed": true, "error": null}
+{"code": " plt.bar(column_data, result[\"max\"], width=100, title=column_.title())", "compilation_passed": true, "time": 0.01051783561706543, "tests_passed": false, "error": "NameError"}
+{"code": " pd.DataFrame([result]).plot.bar()", "compilation_passed": true, "time": 0.11210107803344727, "tests_passed": true, "error": null}
+{"code": " plot(column, column_data)", "compilation_passed": true, "time": 0.009837150573730469, "tests_passed": false, "error": "NameError"}
+{"code": " column_data.plot.bar()", "compilation_passed": true, "time": 0.08313512802124023, "tests_passed": true, "error": null}
+{"code": " plt.bar(column_data.index, column_data)", "compilation_passed": true, "time": 0.08473396301269531, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[column_].plot(kind=\"bar\", title=f\"Bar Chart of {column}\", figsize=(15, 5))", "compilation_passed": true, "time": 0.00983881950378418, "tests_passed": false, "error": "NameError"}

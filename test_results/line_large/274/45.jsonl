@@ -1,0 +1,6 @@
+{"code": " pdict = cgi.parse_header(self.headers.get('content-type'))", "compilation_passed": true, "time": 0.023148059844970703, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_header(self.headers.get(\"content-type\"))", "compilation_passed": true, "time": 0.0238339900970459, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_header(self.headers.get('Content-Type', ''))", "compilation_passed": true, "time": 0.014235258102416992, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_header(self.request.headers.get('content-type'))", "compilation_passed": true, "time": 0.025993824005126953, "tests_passed": false, "error": "StopIteration"}
+{"code": " pdict = cgi.parse_header(self.headers.get('Content-type'))", "compilation_passed": true, "time": 0.017878055572509766, "tests_passed": false, "error": "TypeError"}
+{"code": " pdict = cgi.parse_header(self.headers.get('Content-Type'))", "compilation_passed": true, "time": 0.01601576805114746, "tests_passed": false, "error": "TypeError"}

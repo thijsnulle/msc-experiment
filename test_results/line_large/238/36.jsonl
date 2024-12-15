@@ -1,0 +1,10 @@
+{"code": " df.drop_duplicates(subset='Name', keep='first')", "compilation_passed": true, "time": 0.3834240436553955, "tests_passed": true, "error": null}
+{"code": " df[['Name', 'Age', 'Score']]", "compilation_passed": true, "time": 0.3377201557159424, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset='Name')", "compilation_passed": true, "time": 0.3510310649871826, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(['Name'])", "compilation_passed": true, "time": 0.3354499340057373, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset=\"Name\")", "compilation_passed": true, "time": 0.33661580085754395, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset='Name')  # remove duplicates based on 'Name'", "compilation_passed": true, "time": 0.34706616401672363, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset=['Name'])", "compilation_passed": true, "time": 0.35059475898742676, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates('Name')", "compilation_passed": true, "time": 0.34424805641174316, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset=[\"Name\"])", "compilation_passed": true, "time": 0.35976099967956543, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset='Name')  # Remove duplicate entries based on 'Name'", "compilation_passed": true, "time": 0.36704397201538086, "tests_passed": true, "error": null}

@@ -1,0 +1,12 @@
+{"code": " []", "compilation_passed": true, "time": 0.04186201095581055, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: x == item).apply(", "compilation_passed": false, "time": 0.0001780986785888672, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(i, j) for i, row in df.iterrows() for j in row.index if row[j] == item]", "compilation_passed": true, "time": 0.03766608238220215, "tests_passed": true, "error": null}
+{"code": " list(zip(*df.applymap(lambda x: item in x).stack().loc[lambda k: k].index))", "compilation_passed": true, "time": 0.04573202133178711, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda col: list(col.loc[col == item].index))", "compilation_passed": true, "time": 0.03767514228820801, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: (df.columns[df == x].tolist(), df[df == x].index.tolist()), axis=1).stack().tolist()", "compilation_passed": true, "time": 0.05835700035095215, "tests_passed": false, "error": "TypeError"}
+{"code": " df.applymap(lambda x: item == x).apply(tuple, axis=1).idxmax()", "compilation_passed": true, "time": 0.05788707733154297, "tests_passed": false, "error": "TypeError"}
+{"code": " list(zip(*np.where(df.values == item)))", "compilation_passed": true, "time": 0.03672599792480469, "tests_passed": false, "error": "NameError"}
+{"code": " df.applymap(lambda x: x == item).stack().reset_index(name='is_apple')", "compilation_passed": true, "time": 0.03639698028564453, "tests_passed": true, "error": null}
+{"code": " [(i, j) for i in range(df.shape[0]) for j in df.columns if df[j][i] == item]", "compilation_passed": true, "time": 0.03795003890991211, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: x == item).stack().reset_index().loc[lambda x: x[0], ['level_1', 'level_0']].values", "compilation_passed": true, "time": 0.04414200782775879, "tests_passed": false, "error": "ValueError"}
+{"code": " [(index, column) for index, row in df.iterrows() for column in row if row[column] == item]", "compilation_passed": true, "time": 0.07721495628356934, "tests_passed": false, "error": "KeyError"}

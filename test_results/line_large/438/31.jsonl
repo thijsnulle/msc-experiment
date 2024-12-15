@@ -1,0 +1,9 @@
+{"code": " not isinstance(numbers, list) or not all(", "compilation_passed": true, "time": 0.34503912925720215, "tests_passed": true, "error": null}
+{"code": " not isinstance(numbers, list) or not all(isinstance(x, (int, float)) for x in numbers):", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not isinstance(numbers, list):", "compilation_passed": false, "time": 0.00025010108947753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not isinstance(numbers, list) or not all(isinstance(num, (int, float)) for num in numbers):", "compilation_passed": false, "time": 0.0002849102020263672, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not isinstance(numbers, list) or not all(isinstance(n, (int, float)) for n in numbers):", "compilation_passed": false, "time": 0.0002460479736328125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not all(isinstance(num, (int, float)) for num in numbers):", "compilation_passed": false, "time": 0.0002079010009765625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not isinstance(numbers, list) or not all(isinstance(number, (int, float)) for number in numbers):", "compilation_passed": false, "time": 0.0026738643646240234, "tests_passed": false, "error": "SyntaxError"}
+{"code": " isinstance(numbers, list) and all(isinstance(num, (int, float)) for num in numbers):", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not isinstance(numbers, list) or not all(isinstance(i, (int, float)) for i in numbers):", "compilation_passed": false, "time": 0.0002770423889160156, "tests_passed": false, "error": "SyntaxError"}

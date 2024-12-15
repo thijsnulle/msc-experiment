@@ -1,0 +1,10 @@
+{"code": " {", "compilation_passed": false, "time": 0.00011897087097167969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {}", "compilation_passed": true, "time": 0.005230903625488281, "tests_passed": true, "error": null}
+{"code": " {i: [random.randint(1, 100) for i in range(100)]", "compilation_passed": false, "time": 0.0001289844512939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {l: [random.randint(1, 100) for _ in range(1000)] for l in LETTERS}", "compilation_passed": true, "time": 0.17307019233703613, "tests_passed": true, "error": null}
+{"code": " {letter: [random.randint(1, 100) for i in range(random.randint(1, 10))] for letter in LETTERS}", "compilation_passed": true, "time": 0.004034996032714844, "tests_passed": true, "error": null}
+{"code": " {random.choice(LETTERS): [random.randint(0, 100) for _ in range(5)] for _ in range(10)}", "compilation_passed": true, "time": 0.0052280426025390625, "tests_passed": true, "error": null}
+{"code": " dict()", "compilation_passed": true, "time": 0.003926992416381836, "tests_passed": true, "error": null}
+{"code": " {letter: random.sample(range(1, 500), 10) for letter in LETTERS}", "compilation_passed": true, "time": 0.004609107971191406, "tests_passed": true, "error": null}
+{"code": " {letters: [random.randint(0, 100) for _ in range(random.randint(10, 100))] for letters in LETTERS}", "compilation_passed": true, "time": 0.012346982955932617, "tests_passed": true, "error": null}
+{"code": " {letter: [random.randint(1, 1000) for _ in range(random.randint(10, 50))] for letter in LETTERS}", "compilation_passed": true, "time": 0.008382320404052734, "tests_passed": true, "error": null}

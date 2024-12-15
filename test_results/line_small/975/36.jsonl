@@ -1,0 +1,12 @@
+{"code": " {column: np.random.uniform(size=rows) for column in columns}", "compilation_passed": true, "time": 0.006953001022338867, "tests_passed": true, "error": null}
+{"code": " np.random.random((rows, len(columns)))", "compilation_passed": true, "time": 0.0030050277709960938, "tests_passed": true, "error": null}
+{"code": " np.random.random([rows, len(columns)])", "compilation_passed": true, "time": 0.0035059452056884766, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.007401943206787109, "tests_passed": true, "error": null}
+{"code": " np.random.rand(rows, len(columns))", "compilation_passed": true, "time": 0.0026891231536865234, "tests_passed": true, "error": null}
+{"code": " [np.random.uniform(low=0, high=1, size=(rows, len(columns))) for _ in columns]", "compilation_passed": true, "time": 0.00946497917175293, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.uniform(0, 1, rows * len(columns)).reshape((rows, len(columns)))", "compilation_passed": true, "time": 0.0030660629272460938, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0001709461212158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [np.random.uniform() for _ in range(rows)]", "compilation_passed": true, "time": 0.009527921676635742, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.random(size=(rows, len(columns)))", "compilation_passed": true, "time": 0.002969980239868164, "tests_passed": true, "error": null}
+{"code": " np.random.random(rows * len(columns)).reshape((rows, len(columns)))", "compilation_passed": true, "time": 0.003204822540283203, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "SyntaxError"}

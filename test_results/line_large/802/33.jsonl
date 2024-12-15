@@ -1,0 +1,9 @@
+{"code": " list(itertools.chain.from_iterable(matrix))", "compilation_passed": true, "time": 0.0018160343170166016, "tests_passed": true, "error": null}
+{"code": " [num for num in itertools.chain.from_iterable(matrix)]", "compilation_passed": true, "time": 0.002023935317993164, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(matrix.tolist()))", "compilation_passed": true, "time": 0.00209808349609375, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(matrix))  # Use itertools.chain to create a flat list", "compilation_passed": true, "time": 0.0025510787963867188, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*matrix.tolist()))", "compilation_passed": true, "time": 0.0027267932891845703, "tests_passed": true, "error": null}
+{"code": " matrix.flatten().tolist()", "compilation_passed": true, "time": 0.002353191375732422, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*matrix))", "compilation_passed": true, "time": 0.002995014190673828, "tests_passed": true, "error": null}
+{"code": " matrix.flatten()", "compilation_passed": true, "time": 0.0064771175384521484, "tests_passed": false, "error": "ValueError"}
+{"code": " list(itertools.chain(*matrix.flatten().tolist()))", "compilation_passed": true, "time": 0.0035479068756103516, "tests_passed": false, "error": "TypeError"}

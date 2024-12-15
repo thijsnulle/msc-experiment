@@ -1,0 +1,22 @@
+{"code": " pd.DataFrame([(k, v) for d in data for k, v in d.items()], columns=[\"X\", \"Y\"])", "compilation_passed": true, "time": 0.31261515617370605, "tests_passed": true, "error": null}
+{"code": " {k: np.array(v) for k, v in stats.items()}", "compilation_passed": true, "time": 0.016746997833251953, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({\"X\": results.keys(), \"Y\": results.values()}).explode(\"Y\")", "compilation_passed": true, "time": 0.3013880252838135, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(stats)", "compilation_passed": true, "time": 0.013396024703979492, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(stats).reset_index()", "compilation_passed": true, "time": 0.011810779571533203, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00028204917907714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(stats, columns=stats.keys()).stack().reset_index()", "compilation_passed": true, "time": 0.01366877555847168, "tests_passed": false, "error": "ValueError"}
+{"code": " [{\"X\": k, \"Y\": v} for k, values in stats.items() for v in values]", "compilation_passed": true, "time": 0.011313915252685547, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.012771129608154297, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame([(k, v) for k, vl in stats.items() for v in vl], columns=[\"X\", \"Y\"])", "compilation_passed": true, "time": 0.3116023540496826, "tests_passed": true, "error": null}
+{"code": " [{\"X\": k, \"Y\": v} for k, value in stats.items() for v in value]", "compilation_passed": true, "time": 0.011446714401245117, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(results)", "compilation_passed": true, "time": 0.012714862823486328, "tests_passed": false, "error": "ValueError"}
+{"code": " []", "compilation_passed": true, "time": 0.011896848678588867, "tests_passed": false, "error": "TypeError"}
+{"code": " {", "compilation_passed": false, "time": 0.00029397010803222656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.melt(", "compilation_passed": false, "time": 0.00030803680419921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [{\"X\": k, \"Y\": v} for k, v in stats.items() for _ in v]", "compilation_passed": true, "time": 0.012744903564453125, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.melt(stats, ignore_index=False, value_name=\"Y\", var_name=\"X\")", "compilation_passed": true, "time": 0.014325380325317383, "tests_passed": false, "error": "AttributeError"}
+{"code": " [", "compilation_passed": false, "time": 0.0002570152282714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {k: [v] * len(stats[k]) for k, v in stats.items()}", "compilation_passed": true, "time": 0.014053106307983398, "tests_passed": false, "error": "ValueError"}
+{"code": " [{\"X\": key, \"Y\": value} for key, values in stats.items() for value in values]", "compilation_passed": true, "time": 0.013521194458007812, "tests_passed": false, "error": "TypeError"}
+{"code": " [{key: val, \"X\": key} for key, values in stats.items() for val in values]", "compilation_passed": true, "time": 0.013568639755249023, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame({\"X\": stats.keys(), \"Y\": [v for v in stats.values()]})", "compilation_passed": true, "time": 0.0723271369934082, "tests_passed": false, "error": "TypeError"}

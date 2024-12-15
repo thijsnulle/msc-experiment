@@ -1,0 +1,10 @@
+{"code": " segment.split()", "compilation_passed": true, "time": 0.011505126953125, "tests_passed": false, "error": "ValueError"}
+{"code": " segment.split(\" \")", "compilation_passed": true, "time": 0.016139984130859375, "tests_passed": false, "error": "ValueError"}
+{"code": " [element.strip() for element in segment.split()]", "compilation_passed": true, "time": 0.018725872039794922, "tests_passed": false, "error": "ValueError"}
+{"code": " segment.strip().split()", "compilation_passed": true, "time": 0.01087808609008789, "tests_passed": false, "error": "ValueError"}
+{"code": " re.split(r\"\\s+\", segment)", "compilation_passed": true, "time": 0.011483907699584961, "tests_passed": false, "error": "ValueError"}
+{"code": " re.split(r\"\\s\", segment)", "compilation_passed": true, "time": 0.012942790985107422, "tests_passed": false, "error": "ValueError"}
+{"code": " re.split(r'\\s+', segment)", "compilation_passed": true, "time": 0.010623931884765625, "tests_passed": false, "error": "ValueError"}
+{"code": " segment.strip().split(\" \")", "compilation_passed": true, "time": 0.01047205924987793, "tests_passed": false, "error": "ValueError"}
+{"code": " re.split(r\"\\s+\", segment.strip())", "compilation_passed": true, "time": 0.011229991912841797, "tests_passed": false, "error": "ValueError"}
+{"code": " segment.split(maxsplit=4)", "compilation_passed": true, "time": 0.02588486671447754, "tests_passed": true, "error": null}

@@ -1,0 +1,11 @@
+{"code": " most_common if most_common[0][1] > 1 else []", "compilation_passed": true, "time": 0.007130861282348633, "tests_passed": true, "error": null}
+{"code": " most_common if most_common[0][1] == 1 else []", "compilation_passed": true, "time": 0.006125211715698242, "tests_passed": true, "error": null}
+{"code": " most_common", "compilation_passed": true, "time": 0.0013289451599121094, "tests_passed": true, "error": null}
+{"code": " most_common if most_common and most_common[0][1] > 1 else []", "compilation_passed": true, "time": 0.00855708122253418, "tests_passed": true, "error": null}
+{"code": " most_common if most_common else []", "compilation_passed": true, "time": 0.0012578964233398438, "tests_passed": true, "error": null}
+{"code": " most_common if most_common[0][1] == most_common[1][1] else []", "compilation_passed": true, "time": 0.010368824005126953, "tests_passed": false, "error": "IndexError"}
+{"code": " [most_common[0]] if most_common else []", "compilation_passed": true, "time": 0.0012428760528564453, "tests_passed": true, "error": null}
+{"code": " [most_common[0]]", "compilation_passed": true, "time": 0.0011641979217529297, "tests_passed": true, "error": null}
+{"code": " [most_common[0]] if len(most_common) > 0 else []", "compilation_passed": true, "time": 0.001580953598022461, "tests_passed": true, "error": null}
+{"code": " most_common if most_common and len(most_common[0]) == 1 else most_common[0]", "compilation_passed": true, "time": 0.00556492805480957, "tests_passed": true, "error": null}
+{"code": " [most_common] if most_common else []", "compilation_passed": true, "time": 0.006933927536010742, "tests_passed": true, "error": null}

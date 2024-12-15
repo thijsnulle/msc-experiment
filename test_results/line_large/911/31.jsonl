@@ -1,0 +1,14 @@
+{"code": " {letter: i for i, letter in enumerate(string.ascii_uppercase, start=1)}", "compilation_passed": true, "time": 0.0010700225830078125, "tests_passed": true, "error": null}
+{"code": " dict(zip(string.ascii_uppercase, range(1, 27)))", "compilation_passed": true, "time": 0.0014452934265136719, "tests_passed": true, "error": null}
+{"code": " {char: i for i, char in enumerate(string.ascii_uppercase, start=1)}", "compilation_passed": true, "time": 0.0014529228210449219, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.00011396408081054688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {letter: i for i, letter in enumerate(string.ascii_uppercase, 1)}", "compilation_passed": true, "time": 0.0010170936584472656, "tests_passed": true, "error": null}
+{"code": " {letter: index + 1 for index, letter in enumerate(string.ascii_uppercase)}", "compilation_passed": true, "time": 0.0010890960693359375, "tests_passed": true, "error": null}
+{"code": " {char: i for i, char in enumerate(string.ascii_uppercase, 1)}", "compilation_passed": true, "time": 0.0010051727294921875, "tests_passed": true, "error": null}
+{"code": " {letter: index for index, letter in enumerate(string.ascii_uppercase, start=1)}", "compilation_passed": true, "time": 0.0010821819305419922, "tests_passed": true, "error": null}
+{"code": " {letter: num for num, letter in enumerate(string.ascii_uppercase, 1)}", "compilation_passed": true, "time": 0.0009770393371582031, "tests_passed": true, "error": null}
+{"code": " {letter: number for number, letter in enumerate(string.ascii_uppercase, start=1)}", "compilation_passed": true, "time": 0.0015749931335449219, "tests_passed": true, "error": null}
+{"code": " {char: i + 1 for i, char in enumerate(string.ascii_uppercase)}", "compilation_passed": true, "time": 0.0011601448059082031, "tests_passed": true, "error": null}
+{"code": " dict(zip(string.ascii_uppercase, range(1, len(string.ascii_uppercase) + 1)))", "compilation_passed": true, "time": 0.001070261001586914, "tests_passed": true, "error": null}
+{"code": " {letter: str(index) for index, letter in enumerate(string.ascii_uppercase, 1)}", "compilation_passed": true, "time": 0.002813100814819336, "tests_passed": false, "error": "TypeError"}
+{"code": " {chr(64 + i): i for i in range(1, 27)}", "compilation_passed": true, "time": 0.0009837150573730469, "tests_passed": true, "error": null}

@@ -1,0 +1,11 @@
+{"code": " {combination: word_counter[combination] for combination in combinations}", "compilation_passed": true, "time": 0.006132841110229492, "tests_passed": true, "error": null}
+{"code": " dict([(x, word_counter[x]) for x in combinations])", "compilation_passed": true, "time": 0.006448030471801758, "tests_passed": true, "error": null}
+{"code": " dict(zip(combinations, [word_counter[x] for x in combinations]))", "compilation_passed": true, "time": 0.0062749385833740234, "tests_passed": true, "error": null}
+{"code": " {x: word_counter[x] for x in combinations}", "compilation_passed": true, "time": 0.0060100555419921875, "tests_passed": true, "error": null}
+{"code": " {x: word_counter.get(x, 0) for x in combinations}", "compilation_passed": true, "time": 0.0052759647369384766, "tests_passed": true, "error": null}
+{"code": " dict(word_counter.most_common(len(ALPHABETS)))", "compilation_passed": true, "time": 0.010606050491333008, "tests_passed": false, "error": "KeyError"}
+{"code": " {combination: word_counter.get(combination, 0) for combination in combinations}", "compilation_passed": true, "time": 0.005401134490966797, "tests_passed": true, "error": null}
+{"code": " dict(zip(combinations, map(word_counter.__getitem__, combinations)))", "compilation_passed": true, "time": 0.005998134613037109, "tests_passed": true, "error": null}
+{"code": " dict((x, word_counter.get(x, 0)) for x in combinations)", "compilation_passed": true, "time": 0.00591588020324707, "tests_passed": true, "error": null}
+{"code": " dict((x, word_counter[x]) for x in combinations)", "compilation_passed": true, "time": 0.006512880325317383, "tests_passed": true, "error": null}
+{"code": " {key: word_counter[key] for key in combinations}", "compilation_passed": true, "time": 0.0060389041900634766, "tests_passed": true, "error": null}

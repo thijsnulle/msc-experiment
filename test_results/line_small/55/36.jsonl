@@ -1,0 +1,22 @@
+{"code": " [word for word in re.split(r\"\\s+\", sentence.lower()) if word.isalpha() and not word in STOPWORDS]", "compilation_passed": true, "time": 0.014130830764770508, "tests_passed": true, "error": null}
+{"code": " sentence.split()", "compilation_passed": true, "time": 0.0030269622802734375, "tests_passed": true, "error": null}
+{"code": " [word for word in sentence.split() if word not in STOPWORDS]", "compilation_passed": true, "time": 0.0033333301544189453, "tests_passed": true, "error": null}
+{"code": " sentence.lower().strip(\".,()!?\").split()", "compilation_passed": true, "time": 0.0032231807708740234, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in sentence.split() if word.lower() not in STOPWORDS]", "compilation_passed": true, "time": 0.003074169158935547, "tests_passed": true, "error": null}
+{"code": " sentence.split(\" \")", "compilation_passed": true, "time": 0.0030319690704345703, "tests_passed": true, "error": null}
+{"code": " [word for word in re.split(r\"\\s+\", sentence) if not word in STOPWORDS]", "compilation_passed": true, "time": 0.003454923629760742, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\s+\", sentence.strip())", "compilation_passed": true, "time": 0.003329038619995117, "tests_passed": true, "error": null}
+{"code": " [word for word in re.split(r\"\\s+\", sentence.strip()) if word not in STOPWORDS]", "compilation_passed": true, "time": 0.0031442642211914062, "tests_passed": true, "error": null}
+{"code": " [word for word in sentence.split(\" \") if word not in STOPWORDS]", "compilation_passed": true, "time": 0.0032918453216552734, "tests_passed": true, "error": null}
+{"code": " [w.lower() for w in re.split(r\"\\s+\", sentence) if w.lower() not in STOPWORDS]", "compilation_passed": true, "time": 0.003258943557739258, "tests_passed": true, "error": null}
+{"code": " [word.strip() for word in sentence.split()]", "compilation_passed": true, "time": 0.0034580230712890625, "tests_passed": true, "error": null}
+{"code": " [word for word in re.split(r\"\\s+\", sentence) if word not in STOPWORDS]", "compilation_passed": true, "time": 0.003276824951171875, "tests_passed": true, "error": null}
+{"code": " [word for word in sentence.lower().split(\" \") if word not in STOPWORDS]", "compilation_passed": true, "time": 0.003030061721801758, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in sentence.split() if word not in STOPWORDS]", "compilation_passed": true, "time": 0.0031502246856689453, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\s+\", sentence)", "compilation_passed": true, "time": 0.0034432411193847656, "tests_passed": true, "error": null}
+{"code": " sentence.strip().split()", "compilation_passed": true, "time": 0.0031828880310058594, "tests_passed": true, "error": null}
+{"code": " [w for w in re.split(r\"\\s+\", sentence) if w not in STOPWORDS]", "compilation_passed": true, "time": 0.002989053726196289, "tests_passed": true, "error": null}
+{"code": " sentence.lower().split(\" \")", "compilation_passed": true, "time": 0.0030388832092285156, "tests_passed": true, "error": null}
+{"code": " sentence.lower().split()", "compilation_passed": true, "time": 0.0031118392944335938, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in re.split(r\"\\s+\", sentence) if len(word.strip()) > 0]", "compilation_passed": true, "time": 0.0041239261627197266, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\s+\", sentence.lower())", "compilation_passed": true, "time": 0.003492116928100586, "tests_passed": true, "error": null}

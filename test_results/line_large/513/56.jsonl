@@ -1,0 +1,5 @@
+{"code": " df[column]", "compilation_passed": true, "time": 0.41650986671447754, "tests_passed": true, "error": null}
+{"code": " df[column].tolist()[1:]", "compilation_passed": true, "time": 0.04877901077270508, "tests_passed": true, "error": null}
+{"code": " df[column].astype(int).tolist()", "compilation_passed": true, "time": 0.22386384010314941, "tests_passed": true, "error": null}
+{"code": " df[column].astype(np.float32)", "compilation_passed": true, "time": 0.24877285957336426, "tests_passed": true, "error": null}
+{"code": " df[column][1:].astype(float)", "compilation_passed": true, "time": 0.04973793029785156, "tests_passed": true, "error": null}

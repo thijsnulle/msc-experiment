@@ -1,0 +1,4 @@
+{"code": " datetime.strptime(start_date, \"%Y-%m-%d\")", "compilation_passed": true, "time": 2.0934231281280518, "tests_passed": false, "error": "TimeoutError"}
+{"code": " datetime.strptime(start_date, '%Y-%m-%d')", "compilation_passed": true, "time": 0.15604114532470703, "tests_passed": true, "error": null}
+{"code": " datetime.strptime(start_date, '%Y-%m-%d').date()", "compilation_passed": true, "time": 0.009437799453735352, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.strptime(start_date, \"%Y-%m-%d\").date()", "compilation_passed": true, "time": 0.009396791458129883, "tests_passed": false, "error": "TypeError"}

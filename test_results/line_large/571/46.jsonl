@@ -1,0 +1,14 @@
+{"code": " f.__name__ == \"<lambda>\"", "compilation_passed": true, "time": 0.016467809677124023, "tests_passed": false, "error": "TypeError"}
+{"code": " f.__name__ == '<lambda>'", "compilation_passed": true, "time": 0.016944169998168945, "tests_passed": false, "error": "TypeError"}
+{"code": " (", "compilation_passed": false, "time": 0.0006270408630371094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " isinstance(f, types.LambdaType)", "compilation_passed": true, "time": 0.016958951950073242, "tests_passed": false, "error": "NameError"}
+{"code": " isinstance(f, lambda: 0)  # Check if f is a lambda function", "compilation_passed": true, "time": 0.01721024513244629, "tests_passed": false, "error": "TypeError"}
+{"code": " (f.__name__ == '<lambda>')", "compilation_passed": true, "time": 0.017009973526000977, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(f, type(lambda: None))", "compilation_passed": true, "time": 0.013112068176269531, "tests_passed": false, "error": "TypeError"}
+{"code": " lambda x: isinstance(x, type(lambda:0)) if x else False", "compilation_passed": true, "time": 0.02260303497314453, "tests_passed": true, "error": null}
+{"code": " False", "compilation_passed": true, "time": 0.017009973526000977, "tests_passed": false, "error": "TypeError"}
+{"code": " True if isinstance(f, lambda: None) else False", "compilation_passed": true, "time": 0.016824960708618164, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(f, type(lambda: 0))", "compilation_passed": true, "time": 0.014703035354614258, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(f, lambda: 0)", "compilation_passed": true, "time": 0.017200946807861328, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(f, lambda: None)", "compilation_passed": true, "time": 0.017096996307373047, "tests_passed": false, "error": "TypeError"}
+{"code": " inspect.isfunction(f) and f.__name__ == \"<lambda>\"", "compilation_passed": true, "time": 0.011260032653808594, "tests_passed": false, "error": "TypeError"}

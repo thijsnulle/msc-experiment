@@ -1,0 +1,17 @@
+{"code": " df.plot.scatter(x=numerical_columns[0], y=numerical_columns[1])", "compilation_passed": true, "time": 0.2817409038543701, "tests_passed": true, "error": null}
+{"code": " pd.plotting.scatter_matrix(df, alpha=0.3, figsize=(6, 4), diagonal=\"kde\")[", "compilation_passed": false, "time": 0.00032591819763183594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.plotting.scatter_matrix(df, figsize=(8, 8), diagonal=\"hist\", alpha=0.5)", "compilation_passed": true, "time": 0.3980379104614258, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[numerical_columns[0]].plot.scatter(x=numerical_columns[0], y=numerical_columns[1])", "compilation_passed": true, "time": 0.02092909812927246, "tests_passed": false, "error": "ValueError"}
+{"code": " df.plot.scatter(x=numerical_columns[0], y=numerical_columns[1], color='orange')", "compilation_passed": true, "time": 0.27036595344543457, "tests_passed": true, "error": null}
+{"code": " df.plot.scatter(x=numerical_columns[0], y=numerical_columns[1], s=1)", "compilation_passed": true, "time": 0.27973198890686035, "tests_passed": true, "error": null}
+{"code": " df[numerical_columns[0]].plot(kind=\"scatter\", x=numerical_columns[0], y=numerical_columns[1])", "compilation_passed": true, "time": 0.023308992385864258, "tests_passed": false, "error": "ValueError"}
+{"code": " df[numerical_columns[0]].plot.scatter(x=0, y=1)", "compilation_passed": true, "time": 0.01631784439086914, "tests_passed": false, "error": "ValueError"}
+{"code": " df[[numerical_columns[0], numerical_columns[1]]].plot.scatter(numerical_columns[0], numerical_columns[1])", "compilation_passed": true, "time": 0.31340909004211426, "tests_passed": true, "error": null}
+{"code": " df[[numerical_columns[0], numerical_columns[1]]].plot(kind=\"scatter\", x=numerical_columns[0], y=numerical_columns[1], title=f\"{numerical_columns[0]} vs {numerical_columns[1]}\")", "compilation_passed": true, "time": 0.27726292610168457, "tests_passed": true, "error": null}
+{"code": " df[[numerical_columns[0], numerical_columns[1]]].plot(kind=\"scatter\", x=numerical_columns[0], y=numerical_columns[1])", "compilation_passed": true, "time": 0.32315492630004883, "tests_passed": true, "error": null}
+{"code": " pd.plotting.scatter_matrix(df[numerical_columns], figsize=(6, 6))", "compilation_passed": true, "time": 0.26381587982177734, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[[numerical_columns[0], numerical_columns[1]]].plot(kind=\"scatter\", figsize=(10, 6))", "compilation_passed": true, "time": 0.029413938522338867, "tests_passed": false, "error": "ValueError"}
+{"code": " df[numerical_columns[:2]].plot.scatter(x=numerical_columns[0], y=numerical_columns[1])", "compilation_passed": true, "time": 0.33133721351623535, "tests_passed": true, "error": null}
+{"code": " df[[numerical_columns[0], numerical_columns[1]]].plot.scatter(", "compilation_passed": false, "time": 0.0002872943878173828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[numerical_columns[:2]].plot(kind=\"scatter\", x=numerical_columns[0], y=numerical_columns[1], title=f\"Relation between {numerical_columns[0]} and {numerical_columns[1]}\")", "compilation_passed": true, "time": 0.2703700065612793, "tests_passed": true, "error": null}
+{"code": " df[numerical_columns[0]].plot(kind=\"scatter\", x=\"x\", y=\"y\", label=numerical_columns[0])", "compilation_passed": true, "time": 0.028449058532714844, "tests_passed": false, "error": "ValueError"}

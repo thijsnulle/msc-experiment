@@ -1,0 +1,7 @@
+{"code": " datetime.now().date()", "compilation_passed": true, "time": 0.020792007446289062, "tests_passed": true, "error": null}
+{"code": " datetime.today()", "compilation_passed": true, "time": 0.03037285804748535, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)", "compilation_passed": true, "time": 0.030630111694335938, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.now().strftime(\"%Y-%m-%d\")", "compilation_passed": true, "time": 0.03029918670654297, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.today().date()", "compilation_passed": true, "time": 0.020811080932617188, "tests_passed": true, "error": null}
+{"code": " datetime.now()", "compilation_passed": true, "time": 0.031327009201049805, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.now().strftime(date_format)", "compilation_passed": true, "time": 0.03092193603515625, "tests_passed": false, "error": "TypeError"}

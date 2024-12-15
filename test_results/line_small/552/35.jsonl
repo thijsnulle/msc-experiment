@@ -1,0 +1,15 @@
+{"code": " [counter[item] for item in items]", "compilation_passed": true, "time": 0.4494132995605469, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0785830020904541, "tests_passed": false, "error": "ValueError"}
+{"code": " counter.get(ITEMS)", "compilation_passed": true, "time": 0.0033321380615234375, "tests_passed": false, "error": "TypeError"}
+{"code": " counter[ITEMS[0]], counter[ITEMS[1]]", "compilation_passed": true, "time": 0.34785890579223633, "tests_passed": true, "error": null}
+{"code": " [counter[i] for i in items]", "compilation_passed": true, "time": 0.3543708324432373, "tests_passed": true, "error": null}
+{"code": " [counter.get(item, 0) for item in items]", "compilation_passed": true, "time": 0.3453550338745117, "tests_passed": true, "error": null}
+{"code": " counter.most_common()", "compilation_passed": true, "time": 0.04716229438781738, "tests_passed": false, "error": "TypeError"}
+{"code": " counter.get(ITEMS, 0)", "compilation_passed": true, "time": 0.0034308433532714844, "tests_passed": false, "error": "TypeError"}
+{"code": " counter.most_common(len(counter))", "compilation_passed": true, "time": 0.031221866607666016, "tests_passed": false, "error": "TypeError"}
+{"code": " [counter[i] for i in items if i in counter]", "compilation_passed": true, "time": 0.1755058765411377, "tests_passed": false, "error": "ValueError"}
+{"code": " counter[items[0]], counter[items[1]]", "compilation_passed": true, "time": 0.3794260025024414, "tests_passed": true, "error": null}
+{"code": " {item: counter[item] for item in items}", "compilation_passed": true, "time": 0.0548701286315918, "tests_passed": false, "error": "TypeError"}
+{"code": " [counter.get(i, 0) for i in items]", "compilation_passed": true, "time": 0.5247631072998047, "tests_passed": true, "error": null}
+{"code": " counter.get(items)", "compilation_passed": true, "time": 0.004281044006347656, "tests_passed": false, "error": "TypeError"}
+{"code": " {i: counter[i] for i in items}", "compilation_passed": true, "time": 0.055886030197143555, "tests_passed": false, "error": "TypeError"}

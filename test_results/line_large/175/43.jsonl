@@ -1,0 +1,18 @@
+{"code": " interesting_videos.reset_index()", "compilation_passed": true, "time": 0.1278059482574463, "tests_passed": true, "error": null}
+{"code": " interesting_videos.sort_values(by='Views', ascending=False)", "compilation_passed": true, "time": 0.05511975288391113, "tests_passed": true, "error": null}
+{"code": " interesting_videos.dropna()", "compilation_passed": true, "time": 0.12707090377807617, "tests_passed": true, "error": null}
+{"code": " interesting_videos[['Title', 'Views', 'Likes']]", "compilation_passed": true, "time": 0.12189888954162598, "tests_passed": true, "error": null}
+{"code": " interesting_videos.head(10)", "compilation_passed": true, "time": 0.12144112586975098, "tests_passed": true, "error": null}
+{"code": " interesting_videos.head(100)", "compilation_passed": true, "time": 0.12444591522216797, "tests_passed": true, "error": null}
+{"code": " interesting_videos[interesting_videos['Views'] != 0]  # To avoid division by zero errors", "compilation_passed": true, "time": 0.1219778060913086, "tests_passed": true, "error": null}
+{"code": " interesting_videos.sort_values(by=['Likes', 'Views'], ascending=False)", "compilation_passed": true, "time": 0.04024195671081543, "tests_passed": true, "error": null}
+{"code": " interesting_videos.sort_values(by='Likes', ascending=False)", "compilation_passed": true, "time": 0.040411949157714844, "tests_passed": true, "error": null}
+{"code": " interesting_videos[interesting_videos['Views'] != 0]", "compilation_passed": true, "time": 0.1419057846069336, "tests_passed": true, "error": null}
+{"code": " interesting_videos.dropna().sort_values('Likes', ascending=True).head(20)", "compilation_passed": true, "time": 0.14318108558654785, "tests_passed": true, "error": null}
+{"code": " interesting_videos.sort_values('Views', ascending=False)", "compilation_passed": true, "time": 0.9835488796234131, "tests_passed": true, "error": null}
+{"code": " interesting_videos[interesting_videos['Views'] > 0]", "compilation_passed": true, "time": 0.12895584106445312, "tests_passed": true, "error": null}
+{"code": " interesting_videos.head(10).reset_index(drop=True)", "compilation_passed": true, "time": 0.12900710105895996, "tests_passed": true, "error": null}
+{"code": " interesting_videos.sort_values(by='Views')", "compilation_passed": true, "time": 0.037847042083740234, "tests_passed": true, "error": null}
+{"code": " interesting_videos[~interesting_videos['Views'].str.contains(',')]", "compilation_passed": true, "time": 0.016106605529785156, "tests_passed": false, "error": "AttributeError"}
+{"code": " interesting_videos[~interesting_videos['Views'].str.contains(r\"[A-Za-z]\")]", "compilation_passed": true, "time": 0.00762486457824707, "tests_passed": false, "error": "AttributeError"}
+{"code": " interesting_videos.sort_values(by=['Views'], ascending=False)", "compilation_passed": true, "time": 0.038861989974975586, "tests_passed": true, "error": null}

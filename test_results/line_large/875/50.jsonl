@@ -1,0 +1,13 @@
+{"code": " in df.select_dtypes(include=[int, float]).columns:", "compilation_passed": true, "time": 0.01314687728881836, "tests_passed": true, "error": null}
+{"code": ", dtype in zip(columns, df.dtypes):", "compilation_passed": true, "time": 0.016610145568847656, "tests_passed": true, "error": null}
+{"code": " in df:", "compilation_passed": true, "time": 0.015697002410888672, "tests_passed": true, "error": null}
+{"code": " in df.columns:", "compilation_passed": true, "time": 0.01593017578125, "tests_passed": true, "error": null}
+{"code": "_idx, col in enumerate(df):", "compilation_passed": true, "time": 0.01615595817565918, "tests_passed": true, "error": null}
+{"code": " in df.select_dtypes(include='number'):", "compilation_passed": true, "time": 0.016389131546020508, "tests_passed": true, "error": null}
+{"code": "_name, dtype in zip(columns, df.dtypes):", "compilation_passed": true, "time": 0.02516913414001465, "tests_passed": false, "error": "NameError"}
+{"code": "_name in columns:", "compilation_passed": true, "time": 0.024268150329589844, "tests_passed": false, "error": "NameError"}
+{"code": "_name in columns[1:]:", "compilation_passed": true, "time": 0.02437305450439453, "tests_passed": false, "error": "NameError"}
+{"code": ", dtype in zip(df, df.dtypes):", "compilation_passed": true, "time": 0.016269207000732422, "tests_passed": true, "error": null}
+{"code": " in df.select_dtypes('float64').columns:", "compilation_passed": true, "time": 0.01602315902709961, "tests_passed": true, "error": null}
+{"code": " in df.select_dtypes(include=[np.number]).columns:", "compilation_passed": true, "time": 0.025051116943359375, "tests_passed": false, "error": "NameError"}
+{"code": ", dtype in df.dtypes.items():", "compilation_passed": true, "time": 0.016000747680664062, "tests_passed": true, "error": null}

@@ -1,0 +1,21 @@
+{"code": "plot(ax=ax)", "compilation_passed": true, "time": 0.2397317886352539, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, label='Stock Prices')", "compilation_passed": true, "time": 0.2391798496246338, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, marker='o', color='blue')", "compilation_passed": true, "time": 0.2384169101715088, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, title='Stock Prices', legend=False)", "compilation_passed": true, "time": 0.23535895347595215, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, kind='line', marker='o')", "compilation_passed": true, "time": 0.2412581443786621, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, legend=False, title=\"Stock Prices\")", "compilation_passed": true, "time": 0.2394869327545166, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, marker='o', linestyle='-', linewidth=2)", "compilation_passed": true, "time": 0.2468869686126709, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, marker='o')", "compilation_passed": true, "time": 0.24300694465637207, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, x=prices_df.index, y='Price', grid=True, title=\"Stock Prices\", xlabel=\"Date\", ylabel=\"Price\", legend=False)", "compilation_passed": true, "time": 0.04585409164428711, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(ax=ax, grid=True)", "compilation_passed": true, "time": 0.26169919967651367, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, kind='line', rot=45)", "compilation_passed": true, "time": 0.2504708766937256, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, kind='line')", "compilation_passed": true, "time": 0.0425260066986084, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(ax=ax, title='Stock Prices')", "compilation_passed": true, "time": 0.04129528999328613, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(ax=ax, kind='line', title='Stock Prices')", "compilation_passed": true, "time": 0.04107809066772461, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(ax=ax, lw=1)", "compilation_passed": true, "time": 0.0392608642578125, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(ax=ax, marker='o', color='b', label='Price')", "compilation_passed": true, "time": 0.043782949447631836, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(ax=ax, marker='o', linestyle='-', markerfacecolor='None')", "compilation_passed": true, "time": 0.03911018371582031, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(ax=ax, marker='o', linestyle='-', markersize=5)", "compilation_passed": true, "time": 0.04009079933166504, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(ax=ax, x='Date', y='Price', style='-o', grid=True)", "compilation_passed": true, "time": 0.03987574577331543, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(ax=ax, marker='o', linestyle='-', linewidth=2, markersize=4)", "compilation_passed": true, "time": 0.042876243591308594, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(ax=ax, linewidth=2)", "compilation_passed": true, "time": 0.042154788970947266, "tests_passed": false, "error": "TypeError"}

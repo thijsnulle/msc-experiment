@@ -1,0 +1,12 @@
+{"code": "append((team, min(max(score, GOALS_RANGE[0]), GOALS_RANGE[1])))", "compilation_passed": true, "time": 0.2337322235107422, "tests_passed": true, "error": null}
+{"code": "append({", "compilation_passed": false, "time": 0.00033473968505859375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append({'Team': team, 'Score': max(GOALS_RANGE[0], min(score, GOALS_RANGE[1]))})", "compilation_passed": true, "time": 0.2147057056427002, "tests_passed": true, "error": null}
+{"code": "append({'Team': team, 'Score': score})", "compilation_passed": true, "time": 0.22961711883544922, "tests_passed": true, "error": null}
+{"code": "append(", "compilation_passed": false, "time": 0.00021314620971679688, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append(('Team A', score) if score > GOALS_RANGE[1] else (team, 10) if score < GOALS_RANGE[0] else", "compilation_passed": false, "time": 0.00021886825561523438, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append({'Team': team, 'Score': min(max(score, GOALS_RANGE[0]), GOALS_RANGE[1])})", "compilation_passed": true, "time": 0.22816705703735352, "tests_passed": true, "error": null}
+{"code": "append((team, score))", "compilation_passed": true, "time": 0.22783303260803223, "tests_passed": true, "error": null}
+{"code": "append([team, score])", "compilation_passed": true, "time": 0.23110103607177734, "tests_passed": true, "error": null}
+{"code": "append(score)", "compilation_passed": true, "time": 0.012000083923339844, "tests_passed": false, "error": "ValueError"}
+{"code": "append([team, max(GOALS_RANGE[0], min(GOALS_RANGE[1], score))])", "compilation_passed": true, "time": 0.27208995819091797, "tests_passed": true, "error": null}
+{"code": "append(dict(Team=team, Score=score))", "compilation_passed": true, "time": 0.2493908405303955, "tests_passed": true, "error": null}

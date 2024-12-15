@@ -1,0 +1,20 @@
+{"code": " df[column].isnull().any():", "compilation_passed": true, "time": 0.021607160568237305, "tests_passed": true, "error": null}
+{"code": " np.issubdtype(df[column].dtype, np.number):", "compilation_passed": true, "time": 0.020026206970214844, "tests_passed": true, "error": null}
+{"code": " df[column].dtype == np.dtype(\"int64\"):", "compilation_passed": true, "time": 0.02099609375, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in [int, float] and np.isnan(df[column].mean()):", "compilation_passed": true, "time": 0.03650403022766113, "tests_passed": true, "error": null}
+{"code": " not pd.api.types.is_numeric_dtype(df[column]):", "compilation_passed": true, "time": 0.054466962814331055, "tests_passed": false, "error": "TypeError"}
+{"code": " column in [\"Fruit\", \"Taste\", \"Cost\"] and np.issubdtype(df[column].dtype, np.number):", "compilation_passed": true, "time": 0.03130507469177246, "tests_passed": true, "error": null}
+{"code": " pd.api.types.is_numeric_dtype(df[column]):", "compilation_passed": true, "time": 0.021908998489379883, "tests_passed": true, "error": null}
+{"code": " df[column].dtype.name == \"object\":", "compilation_passed": true, "time": 0.017128944396972656, "tests_passed": false, "error": "TypeError"}
+{"code": " df[column].dtype in ['float32', 'float64']:", "compilation_passed": true, "time": 0.017922163009643555, "tests_passed": true, "error": null}
+{"code": " column in [\"Fruit\", \"Taste\"]:", "compilation_passed": true, "time": 0.01938629150390625, "tests_passed": true, "error": null}
+{"code": " df[column].dtype == np.number:", "compilation_passed": true, "time": 0.0194399356842041, "tests_passed": true, "error": null}
+{"code": " df[column].dtype.name in ['int64', 'float64'] and np.isnan(df[column].sum()):", "compilation_passed": true, "time": 0.018619060516357422, "tests_passed": true, "error": null}
+{"code": " df[column].isna().any():", "compilation_passed": true, "time": 0.01965475082397461, "tests_passed": true, "error": null}
+{"code": " df[column].dtype == np.float64:", "compilation_passed": true, "time": 0.018970251083374023, "tests_passed": true, "error": null}
+{"code": " df[column].dtype == np.object_:", "compilation_passed": true, "time": 0.020407915115356445, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.isnull(df[column]).any():", "compilation_passed": true, "time": 0.02024078369140625, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in [np.dtype(int), np.dtype(float)]:", "compilation_passed": true, "time": 0.02099013328552246, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in [\"int64\", \"float64\", \"bool\"]:", "compilation_passed": true, "time": 0.02484297752380371, "tests_passed": true, "error": null}
+{"code": " not pd.isnull(df[column]).any():", "compilation_passed": true, "time": 0.016035795211791992, "tests_passed": false, "error": "TypeError"}
+{"code": " df[column].dtype.kind in \"ifmM\":", "compilation_passed": true, "time": 0.018404006958007812, "tests_passed": true, "error": null}

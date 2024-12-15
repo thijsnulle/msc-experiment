@@ -1,0 +1,14 @@
+{"code": " os.path.join(destination_directory, os.path.basename(url))", "compilation_passed": true, "time": 0.029672861099243164, "tests_passed": true, "error": null}
+{"code": " os.path.basename(url)", "compilation_passed": true, "time": 0.031061172485351562, "tests_passed": true, "error": null}
+{"code": " f\"temp_{url.split('/')[-1]}\"", "compilation_passed": true, "time": 0.03093123435974121, "tests_passed": true, "error": null}
+{"code": " os.path.join(destination_directory, \"data.zip\")", "compilation_passed": true, "time": 0.0315399169921875, "tests_passed": true, "error": null}
+{"code": " f\"{url.split('/')[-1]}\"", "compilation_passed": true, "time": 0.030924081802368164, "tests_passed": true, "error": null}
+{"code": " url.split('/')[-1]", "compilation_passed": true, "time": 0.02965998649597168, "tests_passed": true, "error": null}
+{"code": " os.path.join(destination_directory, \"downloaded.zip\")", "compilation_passed": true, "time": 0.02973198890686035, "tests_passed": true, "error": null}
+{"code": " 'temp.zip'", "compilation_passed": true, "time": 0.030313968658447266, "tests_passed": true, "error": null}
+{"code": " os.path.join(destination_directory, url.split('/')[-1])", "compilation_passed": true, "time": 0.030181169509887695, "tests_passed": true, "error": null}
+{"code": " url.split(\"/\")[-1]", "compilation_passed": true, "time": 0.03095388412475586, "tests_passed": true, "error": null}
+{"code": " f'{destination_directory}/data.zip'", "compilation_passed": true, "time": 0.03056192398071289, "tests_passed": true, "error": null}
+{"code": " \"downloaded.zip\"", "compilation_passed": true, "time": 1.7529587745666504, "tests_passed": true, "error": null}
+{"code": " \"temp.zip\"", "compilation_passed": true, "time": 0.0334169864654541, "tests_passed": true, "error": null}
+{"code": " \"\".join(c for c in os.path.basename(url) if c.isalnum() or c in [' ', '_', '.', '-'])", "compilation_passed": true, "time": 0.03516888618469238, "tests_passed": true, "error": null}

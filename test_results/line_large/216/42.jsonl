@@ -1,0 +1,10 @@
+{"code": " open(os.path.join(json_dir_path, filename), 'r') as f:", "compilation_passed": true, "time": 0.026964187622070312, "tests_passed": true, "error": null}
+{"code": " open(os.path.join(json_dir_path, filename), 'r') as json_file:", "compilation_passed": true, "time": 0.012962102890014648, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(json_dir_path, filename)) as file:", "compilation_passed": true, "time": 0.012195110321044922, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(json_dir_path, filename), 'r') as file:", "compilation_passed": true, "time": 0.012464046478271484, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(json_dir_path, filename)) as f:", "compilation_passed": true, "time": 0.02814793586730957, "tests_passed": true, "error": null}
+{"code": " open(os.path.join(json_dir_path, filename), \"r\") as file:", "compilation_passed": true, "time": 0.012187957763671875, "tests_passed": false, "error": "NameError"}
+{"code": " open(f'{json_dir_path}/{filename}', 'r') as f:", "compilation_passed": true, "time": 0.030242919921875, "tests_passed": true, "error": null}
+{"code": " open(f\"{json_dir_path}/{filename}\", 'r') as f:", "compilation_passed": true, "time": 0.027240991592407227, "tests_passed": true, "error": null}
+{"code": " open(os.path.join(json_dir_path, filename)) as json_file:", "compilation_passed": true, "time": 0.015316963195800781, "tests_passed": false, "error": "NameError"}
+{"code": " open(f\"{json_dir_path}/{filename}\") as json_file:", "compilation_passed": true, "time": 0.012126922607421875, "tests_passed": false, "error": "NameError"}

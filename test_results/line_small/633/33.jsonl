@@ -1,0 +1,23 @@
+{"code": " [word.lower() for word in re.sub(r'[^\\w\\s]', ' ', text).split() if word.lower() not in stop_words]", "compilation_passed": true, "time": 0.0025551319122314453, "tests_passed": true, "error": null}
+{"code": " [word.strip(string.punctuation) for word in text.split() if word.lower() not in stop_words]", "compilation_passed": true, "time": 0.010123968124389648, "tests_passed": false, "error": "NameError"}
+{"code": " re.findall(r'\\w+', text.lower())", "compilation_passed": true, "time": 0.006306171417236328, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in re.findall(r'\\w+', text)]", "compilation_passed": true, "time": 0.005136251449584961, "tests_passed": true, "error": null}
+{"code": " re.findall('[a-z]+', text.lower())", "compilation_passed": true, "time": 0.005320072174072266, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', text)", "compilation_passed": true, "time": 0.007664918899536133, "tests_passed": true, "error": null}
+{"code": " [word for word in re.sub(r'\\W+', ' ', text).split() if word.lower() not in stop_words]", "compilation_passed": true, "time": 0.0022368431091308594, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', text)", "compilation_passed": true, "time": 0.005124092102050781, "tests_passed": true, "error": null}
+{"code": " [w.lower() for w in re.findall(r'\\w+', text)]", "compilation_passed": true, "time": 0.0054590702056884766, "tests_passed": true, "error": null}
+{"code": " [word for word in re.findall(r'\\w+', text) if word not in stop_words]", "compilation_passed": true, "time": 0.006392002105712891, "tests_passed": true, "error": null}
+{"code": " [word for word in re.findall(r'\\w+', text) if word.lower() not in stop_words]", "compilation_passed": true, "time": 0.002154111862182617, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in re.findall(r'\\w+', text) if word.lower() not in stop_words]", "compilation_passed": true, "time": 0.0020990371704101562, "tests_passed": true, "error": null}
+{"code": " [w for w in re.split(r'\\W+', text) if len(w) > 1 and w.lower() not in stop_words]", "compilation_passed": true, "time": 0.0021407604217529297, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in re.findall(r\"\\w+\", text) if word.lower() not in stop_words]", "compilation_passed": true, "time": 0.0020270347595214844, "tests_passed": true, "error": null}
+{"code": " [word for word in re.sub(r'[^\\w]', ' ', text).split() if word.lower() not in stop_words]", "compilation_passed": true, "time": 0.0024209022521972656, "tests_passed": true, "error": null}
+{"code": " [word for word in re.split(r'\\s+', text) if word not in stop_words]", "compilation_passed": true, "time": 0.004624128341674805, "tests_passed": true, "error": null}
+{"code": " [word for word in re.split('\\W+', text) if word.lower() not in stop_words]", "compilation_passed": true, "time": 0.004640102386474609, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z]', ' ', text).split()", "compilation_passed": true, "time": 0.004848003387451172, "tests_passed": true, "error": null}
+{"code": " [w for w in re.findall(r'\\w+', text) if w.lower() not in stop_words]", "compilation_passed": true, "time": 0.0022940635681152344, "tests_passed": true, "error": null}
+{"code": " [word for word in text.split() if word not in stop_words]", "compilation_passed": true, "time": 0.0049839019775390625, "tests_passed": true, "error": null}
+{"code": " [word for word in re.split(r'\\W*', text) if word.lower() not in stop_words]", "compilation_passed": true, "time": 0.0054018497467041016, "tests_passed": true, "error": null}
+{"code": " [word for word in re.split('\\W+', text) if word not in stop_words]", "compilation_passed": true, "time": 0.005376100540161133, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\w+\", text)", "compilation_passed": true, "time": 0.004930973052978516, "tests_passed": true, "error": null}

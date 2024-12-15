@@ -1,0 +1,9 @@
+{"code": " stats.skew(name_freqs.values) if name_freqs.size >= 2 else np.nan", "compilation_passed": true, "time": 0.04194998741149902, "tests_passed": true, "error": null}
+{"code": " stats.skew(name_freqs)", "compilation_passed": true, "time": 0.041990041732788086, "tests_passed": true, "error": null}
+{"code": " stats.skew(name_freqs, nan_policy='omit')", "compilation_passed": true, "time": 0.047804832458496094, "tests_passed": true, "error": null}
+{"code": " stats.skew(name_freqs.values)", "compilation_passed": true, "time": 0.04803204536437988, "tests_passed": true, "error": null}
+{"code": " stats.skew(name_freqs) if not np.isnan(skewness) else None", "compilation_passed": true, "time": 0.018342971801757812, "tests_passed": false, "error": "NameError"}
+{"code": " stats.skew(name_freqs.index.values)", "compilation_passed": true, "time": 0.030022859573364258, "tests_passed": false, "error": "TypeError"}
+{"code": " stats.skew(name_freqs, bias=False)", "compilation_passed": true, "time": 0.04539990425109863, "tests_passed": true, "error": null}
+{"code": " stats.skew(name_freqs) if not pd.isna(skewness) else None", "compilation_passed": true, "time": 0.01795816421508789, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " stats.skew(name_freqs.index)", "compilation_passed": true, "time": 0.022914648056030273, "tests_passed": false, "error": "TypeError"}

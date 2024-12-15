@@ -1,0 +1,14 @@
+{"code": " [chr(65 + i) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.008738040924072266, "tests_passed": true, "error": null}
+{"code": " [chr(i) for i in range(ord('A'), ord('A') + len(array[0]))]", "compilation_passed": true, "time": 0.008454084396362305, "tests_passed": true, "error": null}
+{"code": " [chr(65 + x) for x in range(len(array[0]))]", "compilation_passed": true, "time": 0.007923126220703125, "tests_passed": true, "error": null}
+{"code": " [chr(i + 65) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.008566856384277344, "tests_passed": true, "error": null}
+{"code": " [chr(65+i) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.00889277458190918, "tests_passed": true, "error": null}
+{"code": " [chr(ord('A') + i) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.008067131042480469, "tests_passed": true, "error": null}
+{"code": " [chr(ord(\"A\") + i) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.008212089538574219, "tests_passed": true, "error": null}
+{"code": " [chr(i + ord('A')) for i in range(len(array[0]))]  # Dynamic column labels", "compilation_passed": true, "time": 0.00841975212097168, "tests_passed": true, "error": null}
+{"code": " [chr(ord('A') + i) for i in range(len(array[0]))]  # use chr to convert int to letter", "compilation_passed": true, "time": 0.008559226989746094, "tests_passed": true, "error": null}
+{"code": " [chr(i) for i in range(65, 65 + len(array[0]))]", "compilation_passed": true, "time": 0.0089111328125, "tests_passed": true, "error": null}
+{"code": " [chr(i + ord('A')) for i in range(len(array[0]))]", "compilation_passed": true, "time": 0.008521795272827148, "tests_passed": true, "error": null}
+{"code": " [chr(65 + i) for i in range(len(array[0]))]  # chr(65) == \"A\"", "compilation_passed": true, "time": 0.008394002914428711, "tests_passed": true, "error": null}
+{"code": " [chr(65 + i) for i in range(len(array[0]))] # generate column labels alphabetically", "compilation_passed": true, "time": 0.008523941040039062, "tests_passed": true, "error": null}
+{"code": " [chr(65 + i) for i in range(len(array[0]))]  # Column labels start from 'A' and increase", "compilation_passed": true, "time": 0.008844137191772461, "tests_passed": true, "error": null}

@@ -2,3 +2,5 @@
 {"code": " pd.DataFrame.from_dict(data_dict)", "compilation_passed": true, "time": 0.09518098831176758, "tests_passed": true, "error": null}
 {"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.013779878616333008, "tests_passed": true, "error": null}
 {"code": " pd.DataFrame(data_dict).dropna()", "compilation_passed": true, "time": 0.2950479984283447, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_dict).fillna(method='bfill')", "compilation_passed": true, "time": 0.0016703605651855469, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " pd.DataFrame(data=data_dict)", "compilation_passed": true, "time": 0.0016748905181884766, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}

@@ -1,0 +1,9 @@
+{"code": " f\"{line_hash[:10]}.txt\"", "compilation_passed": true, "time": 0.01440882682800293, "tests_passed": true, "error": null}
+{"code": " line_hash[:10] + '.txt'", "compilation_passed": true, "time": 0.27684783935546875, "tests_passed": true, "error": null}
+{"code": " line_hash[:10] + \".txt\"", "compilation_passed": true, "time": 0.013712167739868164, "tests_passed": true, "error": null}
+{"code": " f\"{line_hash[:10]}.txt\"  # First 10 characters of the hash", "compilation_passed": true, "time": 0.015092849731445312, "tests_passed": true, "error": null}
+{"code": " f\"{DIRECTORY}/{line_hash[:10]}.txt\"", "compilation_passed": true, "time": 0.015809059143066406, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " line_hash[:10] + \".txt\"  # First 10 characters of the hash", "compilation_passed": true, "time": 0.013888835906982422, "tests_passed": true, "error": null}
+{"code": " line_hash[:10] + \".txt\"  # Use the first 10 characters of the hash", "compilation_passed": true, "time": 0.015438079833984375, "tests_passed": true, "error": null}
+{"code": " os.path.join(DIRECTORY, line_hash[:10] + \".txt\")", "compilation_passed": true, "time": 0.015843868255615234, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " f\"{DIRECTORY}/{line_hash[:10]}.txt\"  # First 10 characters of hash", "compilation_passed": true, "time": 0.01599431037902832, "tests_passed": false, "error": "FileNotFoundError"}

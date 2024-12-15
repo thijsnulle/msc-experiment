@@ -1,0 +1,6 @@
+{"code": " np.array(np.arange(len(updated_df)) % 2 == 0)", "compilation_passed": true, "time": 0.005486011505126953, "tests_passed": true, "error": null}
+{"code": " np.arange(len(updated_df)) % 2 == 0", "compilation_passed": true, "time": 0.006965160369873047, "tests_passed": true, "error": null}
+{"code": " np.array(np.arange(len(updated_df))) % 2 == 0", "compilation_passed": true, "time": 0.0063610076904296875, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.where(np.arange(len(updated_df)) % 2 == 0, True, False))", "compilation_passed": true, "time": 0.008270740509033203, "tests_passed": true, "error": null}
+{"code": " np.where(np.arange(len(updated_df)) % 2 == 0, True, False)", "compilation_passed": true, "time": 0.012655019760131836, "tests_passed": true, "error": null}
+{"code": " np.array([True if index % 2 == 0 else False for index in np.arange(len(updated_df))])", "compilation_passed": true, "time": 0.0056650638580322266, "tests_passed": true, "error": null}

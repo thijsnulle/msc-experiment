@@ -1,0 +1,9 @@
+{"code": " pd.DataFrame({'A': a, 'B': b}, index=['A', 'B'])", "compilation_passed": true, "time": 0.01353597640991211, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({\"A\": a, \"B\": b})", "compilation_passed": true, "time": 0.14919495582580566, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'A': a, 'B': b})", "compilation_passed": true, "time": 0.1502978801727295, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'A': a, 'B': b}).set_index('A')", "compilation_passed": true, "time": 0.052459001541137695, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame([a, b], index=['A', 'B'])", "compilation_passed": true, "time": 0.04212808609008789, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"A\": a, \"B\": b}, index=[\"A\", \"B\"])", "compilation_passed": true, "time": 0.010136127471923828, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame([a, b], columns=['A', 'B'], index=['x', 'y'])", "compilation_passed": true, "time": 0.010255098342895508, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'A': a, 'B': b}).set_index(pd.Index(['A', 'B']))", "compilation_passed": true, "time": 0.010788202285766602, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(zip(a, b), columns=['A', 'B']).rename_axis('Indices')", "compilation_passed": true, "time": 0.16159820556640625, "tests_passed": true, "error": null}

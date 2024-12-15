@@ -1,0 +1,9 @@
+{"code": " datetime.fromtimestamp(epoch_milliseconds / 1000)", "compilation_passed": true, "time": 0.5699408054351807, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(int(epoch_milliseconds/1000))", "compilation_passed": true, "time": 0.5902588367462158, "tests_passed": true, "error": null}
+{"code": " datetime.utcfromtimestamp(epoch_milliseconds // 1000)", "compilation_passed": true, "time": 0.6728518009185791, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(epoch_milliseconds // 1000)", "compilation_passed": true, "time": 0.6616311073303223, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(epoch_milliseconds / 1000.0)", "compilation_passed": true, "time": 0.5855779647827148, "tests_passed": true, "error": null}
+{"code": " datetime.utcfromtimestamp(epoch_milliseconds / 1000.0)", "compilation_passed": true, "time": 0.699383020401001, "tests_passed": true, "error": null}
+{"code": " datetime.utcfromtimestamp(epoch_milliseconds / 1000).date()", "compilation_passed": true, "time": 0.009526968002319336, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime.fromtimestamp(int(epoch_milliseconds / 1000))", "compilation_passed": true, "time": 0.7739126682281494, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(epoch_milliseconds / 1000).date()", "compilation_passed": true, "time": 0.010158061981201172, "tests_passed": false, "error": "TypeError"}

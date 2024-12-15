@@ -1,0 +1,9 @@
+{"code": " n_samples < 1:", "compilation_passed": true, "time": 0.3458108901977539, "tests_passed": true, "error": null}
+{"code": " mu == 0 and sigma == 1:", "compilation_passed": true, "time": 0.044259071350097656, "tests_passed": false, "error": "ValueError"}
+{"code": " n_samples <= 0:", "compilation_passed": true, "time": 0.3460838794708252, "tests_passed": true, "error": null}
+{"code": " not isinstance(n_samples, int) or n_samples <= 0:", "compilation_passed": true, "time": 0.3631918430328369, "tests_passed": true, "error": null}
+{"code": " not isinstance(n_samples, int):", "compilation_passed": true, "time": 0.0677192211151123, "tests_passed": true, "error": null}
+{"code": " mu > sigma or sigma < 0:", "compilation_passed": true, "time": 0.007836341857910156, "tests_passed": false, "error": "ValueError"}
+{"code": " not n_samples >= 0:", "compilation_passed": true, "time": 0.0792839527130127, "tests_passed": true, "error": null}
+{"code": " n_samples < 0:", "compilation_passed": true, "time": 0.08170795440673828, "tests_passed": true, "error": null}
+{"code": " mu < 0 or sigma < 0:", "compilation_passed": true, "time": 0.08030104637145996, "tests_passed": true, "error": null}

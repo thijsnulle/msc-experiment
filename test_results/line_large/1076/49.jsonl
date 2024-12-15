@@ -1,0 +1,9 @@
+{"code": "append(", "compilation_passed": false, "time": 0.0005350112915039062, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append({\"Original Time\": utc_time, \"Converted Time\": converted_time})", "compilation_passed": true, "time": 0.033026933670043945, "tests_passed": true, "error": null}
+{"code": "append((utc_time, converted_time))", "compilation_passed": true, "time": 0.011105060577392578, "tests_passed": true, "error": null}
+{"code": "append((time_string, converted_time))", "compilation_passed": true, "time": 0.01192784309387207, "tests_passed": true, "error": null}
+{"code": "append([utc_time, converted_time])", "compilation_passed": true, "time": 0.012269020080566406, "tests_passed": true, "error": null}
+{"code": "append({'Original Time': time_string, 'Converted Time': converted_time})", "compilation_passed": true, "time": 0.009354114532470703, "tests_passed": true, "error": null}
+{"code": "append([time_string, converted_time.strftime(TIME_FORMAT)])", "compilation_passed": true, "time": 0.004463911056518555, "tests_passed": true, "error": null}
+{"code": "append({", "compilation_passed": false, "time": 0.0004940032958984375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append([time_string, converted_time])", "compilation_passed": true, "time": 0.011847972869873047, "tests_passed": true, "error": null}

@@ -1,0 +1,14 @@
+{"code": " df[column]", "compilation_passed": true, "time": 0.16301321983337402, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: 1)", "compilation_passed": true, "time": 0.0865640640258789, "tests_passed": true, "error": null}
+{"code": " stats.boxcox(df[column].astype(float), lambda_=1)", "compilation_passed": true, "time": 0.07964396476745605, "tests_passed": false, "error": "TypeError"}
+{"code": " stats.boxcox(df[column].values)[0] + 1", "compilation_passed": true, "time": 0.08237600326538086, "tests_passed": false, "error": "ValueError"}
+{"code": " 1", "compilation_passed": true, "time": 0.08039188385009766, "tests_passed": true, "error": null}
+{"code": " np.ones(len(df[column])) * TARGET_VALUES[0]", "compilation_passed": true, "time": 0.08323979377746582, "tests_passed": true, "error": null}
+{"code": " stats.boxcox(df[column], method='fd') + 1", "compilation_passed": true, "time": 0.08186793327331543, "tests_passed": false, "error": "TypeError"}
+{"code": " np.ones(df.shape[0])", "compilation_passed": true, "time": 0.08353495597839355, "tests_passed": true, "error": null}
+{"code": " np.ones_like(df[column])", "compilation_passed": true, "time": 0.08471107482910156, "tests_passed": true, "error": null}
+{"code": " 0", "compilation_passed": true, "time": 0.08444023132324219, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: x+1)", "compilation_passed": true, "time": 0.09062004089355469, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: 0)", "compilation_passed": true, "time": 0.09396719932556152, "tests_passed": true, "error": null}
+{"code": " df[column].apply(lambda x: 1 if x else 0)", "compilation_passed": true, "time": 0.0964059829711914, "tests_passed": true, "error": null}
+{"code": " stats.boxcox(df[column])", "compilation_passed": true, "time": 0.0872199535369873, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,5 @@
+{"code": " not all(isinstance(pattern, str) for pattern in patterns):", "compilation_passed": true, "time": 0.0018239021301269531, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(p, str) for p in patterns):", "compilation_passed": true, "time": 0.0017406940460205078, "tests_passed": true, "error": null}
+{"code": " not isinstance(patterns, list) or not all(isinstance(pattern, str) for pattern in patterns):", "compilation_passed": true, "time": 0.0018107891082763672, "tests_passed": true, "error": null}
+{"code": " not isinstance(patterns, list) or not all(isinstance(p, str) for p in patterns):", "compilation_passed": true, "time": 0.0017800331115722656, "tests_passed": true, "error": null}
+{"code": " not isinstance(patterns, list) or not all(isinstance(pat, str) for pat in patterns):", "compilation_passed": true, "time": 0.0018131732940673828, "tests_passed": true, "error": null}

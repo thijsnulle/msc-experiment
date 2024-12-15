@@ -1,0 +1,11 @@
+{"code": "hist(timestamps, bins=100)", "compilation_passed": true, "time": 0.7785458564758301, "tests_passed": true, "error": null}
+{"code": "hist(timestamps)", "compilation_passed": true, "time": 0.6629729270935059, "tests_passed": true, "error": null}
+{"code": "hist(timestamps, bins=n)", "compilation_passed": true, "time": 0.6880159378051758, "tests_passed": false, "error": "ValueError"}
+{"code": "hist(timestamps, bins=100, range=(", "compilation_passed": false, "time": 0.0002079010009765625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "hist(timestamps, bins=20, edgecolor='black')", "compilation_passed": true, "time": 0.7005801200866699, "tests_passed": true, "error": null}
+{"code": "hist(timestamps, bins=10)", "compilation_passed": true, "time": 0.7069249153137207, "tests_passed": true, "error": null}
+{"code": "hist(timestamps, bins=50)", "compilation_passed": true, "time": 0.8702569007873535, "tests_passed": true, "error": null}
+{"code": "hist(timestamps, bins=20)", "compilation_passed": true, "time": 0.8251681327819824, "tests_passed": true, "error": null}
+{"code": "hist([datetime.strptime(t, DATE_FORMAT) for t in timestamps])", "compilation_passed": true, "time": 0.009549140930175781, "tests_passed": false, "error": "       datetime.datetime(1976, 12, 22, 12, 45, 7)], dtype=object)"}
+{"code": "hist([datetime.strptime(t, DATE_FORMAT).date() for t in timestamps])", "compilation_passed": true, "time": 0.00921487808227539, "tests_passed": false, "error": "      dtype=object)"}
+{"code": "hist(timestamps, bins=30)", "compilation_passed": true, "time": 0.8965401649475098, "tests_passed": true, "error": null}

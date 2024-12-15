@@ -1,0 +1,12 @@
+{"code": " bs4.BeautifulSoup(response.content, \"html.parser\")", "compilation_passed": true, "time": 0.046776771545410156, "tests_passed": false, "error": "TypeError"}
+{"code": " bs4.BeautifulSoup(response.content)", "compilation_passed": true, "time": 0.0227658748626709, "tests_passed": false, "error": "TypeError"}
+{"code": " bs4.BeautifulSoup(response.text, \"html.parser\")", "compilation_passed": true, "time": 0.01141810417175293, "tests_passed": true, "error": null}
+{"code": " bs4.BeautifulSoup(response.text, features='html.parser')", "compilation_passed": true, "time": 0.013802051544189453, "tests_passed": true, "error": null}
+{"code": " bs4.BeautifulSoup(response.text, 'html.parser')", "compilation_passed": true, "time": 0.011265993118286133, "tests_passed": true, "error": null}
+{"code": " bs4.BeautifulSoup(response.content, 'html.parser')", "compilation_passed": true, "time": 0.018011093139648438, "tests_passed": false, "error": "TypeError"}
+{"code": " BeautifulSoup(response.content, 'html.parser')", "compilation_passed": true, "time": 0.015057086944580078, "tests_passed": false, "error": "NameError"}
+{"code": " bs4.BeautifulSoup(response.text, \"lxml\")", "compilation_passed": true, "time": 0.01302790641784668, "tests_passed": true, "error": null}
+{"code": " bs4.BeautifulSoup(response.text, 'lxml')", "compilation_passed": true, "time": 0.01060795783996582, "tests_passed": true, "error": null}
+{"code": " BeautifulSoup(response.content, \"html.parser\")", "compilation_passed": true, "time": 0.013995170593261719, "tests_passed": false, "error": "NameError"}
+{"code": " bs4.BeautifulSoup(response.text, features=\"html.parser\")", "compilation_passed": true, "time": 0.011695146560668945, "tests_passed": true, "error": null}
+{"code": " BeautifulSoup(response.text, \"html.parser\")", "compilation_passed": true, "time": 0.014585018157958984, "tests_passed": false, "error": "NameError"}

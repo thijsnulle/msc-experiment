@@ -1,0 +1,23 @@
+{"code": " f_oneway(df[col] for col in df.columns)", "compilation_passed": false, "time": 0.0003409385681152344, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(*list(df.values))", "compilation_passed": false, "time": 0.0003418922424316406, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(f_oneway(df[col] for col in df.columns),", "compilation_passed": true, "time": 0.09315609931945801, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(f_oneway(df[col1], df[col2]).T)", "compilation_passed": false, "time": 0.0003268718719482422, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(*df[df.columns])", "compilation_passed": false, "time": 0.0003008842468261719, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(df[col1], df[col2])", "compilation_passed": false, "time": 0.0003719329833984375, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(*df.values)", "compilation_passed": false, "time": 0.0002999305725097656, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(df[df.columns[0]], df[df[1]])", "compilation_passed": false, "time": 0.0003159046173095703, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(df[df.columns[0]], df[df.columns[1]], *[df[col] for col in df.columns[2:]])", "compilation_passed": false, "time": 0.0004138946533203125, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(df[df.columns[0]], df[df.columns[1]], *df.columns[2:])", "compilation_passed": false, "time": 0.0004942417144775391, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(*[df[col] for col in df.columns])", "compilation_passed": false, "time": 0.0003528594970703125, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(f_oneway(df[col] for col in df.columns), columns=[\"F-value\", \"P-value\"])", "compilation_passed": false, "time": 0.0003330707550048828, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(f_oneway(df[df.columns[0]], *df[df.columns[1:]]))", "compilation_passed": false, "time": 0.00038909912109375, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(*list(df.values()))", "compilation_passed": false, "time": 0.0003540515899658203, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(df[c1], df[c2])", "compilation_passed": false, "time": 0.0003039836883544922, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(df[df.columns[0]], df[df.columns[1]])", "compilation_passed": false, "time": 0.0003361701965332031, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame()", "compilation_passed": false, "time": 0.00031495094299316406, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(*df[list(df.columns)])", "compilation_passed": false, "time": 0.0004050731658935547, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(*df.values.T)", "compilation_passed": false, "time": 0.00031280517578125, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(f_oneway(df[col] for col in df.columns))", "compilation_passed": false, "time": 0.0003612041473388672, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(f_oneway(*df.values))", "compilation_passed": false, "time": 0.0004150867462158203, "tests_passed": false, "error": "IndentationError"}
+{"code": " f_oneway(df[col].iloc[:5000] for col in df.columns)", "compilation_passed": false, "time": 0.0003170967102050781, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(f_oneway(df[col1], df[col2]))", "compilation_passed": false, "time": 0.0003170967102050781, "tests_passed": false, "error": "IndentationError"}

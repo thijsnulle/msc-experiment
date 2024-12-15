@@ -1,0 +1,11 @@
+{"code": " not df.empty:", "compilation_passed": true, "time": 0.04637312889099121, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df.columns) == 0:", "compilation_passed": true, "time": 0.01943802833557129, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df) == 0:", "compilation_passed": true, "time": 0.23277497291564941, "tests_passed": true, "error": null}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.24078011512756348, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or df.empty:", "compilation_passed": true, "time": 0.24548983573913574, "tests_passed": true, "error": null}
+{"code": " any(df.dtypes == object):", "compilation_passed": true, "time": 0.024622678756713867, "tests_passed": false, "error": "ValueError"}
+{"code": " not df.columns.is_unique:", "compilation_passed": true, "time": 0.01934504508972168, "tests_passed": false, "error": "ValueError"}
+{"code": " all(df[col].dtype == \"O\" for col in df.columns):", "compilation_passed": true, "time": 0.24073290824890137, "tests_passed": true, "error": null}
+{"code": " not df.columns.empty:", "compilation_passed": true, "time": 0.024028778076171875, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df) > 0:", "compilation_passed": true, "time": 0.019371986389160156, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df.columns) < 2:", "compilation_passed": true, "time": 0.01838207244873047, "tests_passed": false, "error": "ValueError"}

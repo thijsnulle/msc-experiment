@@ -1,0 +1,23 @@
+{"code": "set_ylabel(COLUMNS[-1])", "compilation_passed": true, "time": 0.04462409019470215, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(analyzed_df[COLUMNS[-1]])", "compilation_passed": true, "time": 0.20238375663757324, "tests_passed": true, "error": null}
+{"code": "set(xlabel=\"-\".join(COLUMNS[:-1]), ylabel=COLUMNS[-1])", "compilation_passed": true, "time": 0.042027950286865234, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(COLUMNS[:-1], COLUMNS[-1], data=analyzed_df)", "compilation_passed": true, "time": 0.05051112174987793, "tests_passed": false, "error": "ValueError"}
+{"code": "set(", "compilation_passed": false, "time": 0.0002231597900390625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(analyzed_df.iloc[:, :2])", "compilation_passed": true, "time": 0.05011701583862305, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"-\".join(COLUMNS[:-1]))", "compilation_passed": true, "time": 0.044229984283447266, "tests_passed": false, "error": "IndexError"}
+{"code": "set_xlabel(f\"{'-'.join(COLUMNS[:-1]).replace('_', ' ')}\")", "compilation_passed": true, "time": 0.05204200744628906, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(analyzed_df, color='green')", "compilation_passed": true, "time": 0.04339194297790527, "tests_passed": true, "error": null}
+{"code": "plot(analyzed_df.index, analyzed_df[COLUMNS[-1]], 'o-')", "compilation_passed": true, "time": 0.2120039463043213, "tests_passed": true, "error": null}
+{"code": "plot(analyzed_df)", "compilation_passed": true, "time": 0.04613471031188965, "tests_passed": true, "error": null}
+{"code": "plot(analyzed_df['col1'], analyzed_df['col3'])", "compilation_passed": true, "time": 0.2060837745666504, "tests_passed": true, "error": null}
+{"code": "barh(analyzed_df[COLUMNS[-1]].index, analyzed_df[COLUMNS[-1]], align='center')", "compilation_passed": true, "time": 0.050423622131347656, "tests_passed": false, "error": "IndexError"}
+{"code": "bar(analyzed_df.index, analyzed_df[COLUMNS[-1]])", "compilation_passed": true, "time": 0.05059695243835449, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(analyzed_df['col1'], analyzed_df['col2'], label='col1-col2')", "compilation_passed": true, "time": 0.04829120635986328, "tests_passed": true, "error": null}
+{"code": "plot(analyzed_df[COLUMNS[:-1]], analyzed_df[COLUMNS[-1]])", "compilation_passed": true, "time": 0.21058917045593262, "tests_passed": true, "error": null}
+{"code": "plot(analyzed_df.index, analyzed_df[COLUMNS[-1]], linewidth=1)", "compilation_passed": true, "time": 0.2225792407989502, "tests_passed": true, "error": null}
+{"code": "plot(analyzed_df.index, analyzed_df[COLUMNS[-1]], marker='o')", "compilation_passed": true, "time": 0.2111055850982666, "tests_passed": true, "error": null}
+{"code": "set_title('Line Chart of Unique Values')", "compilation_passed": true, "time": 0.045178890228271484, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(analyzed_df, COLUMNS[-1], '-o')", "compilation_passed": true, "time": 0.051133155822753906, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(analyzed_df.index, analyzed_df[COLUMNS[-1]], label='count')", "compilation_passed": true, "time": 0.04929518699645996, "tests_passed": false, "error": "IndexError"}
+{"code": "bar(analyzed_df.index, analyzed_df[COLUMNS[-1]], color='blue', width=0.5)", "compilation_passed": true, "time": 0.05446505546569824, "tests_passed": false, "error": "IndexError"}
+{"code": "bar(analyzed_df.index, analyzed_df['col1'], label='col1')", "compilation_passed": true, "time": 0.05075192451477051, "tests_passed": false, "error": "IndexError"}

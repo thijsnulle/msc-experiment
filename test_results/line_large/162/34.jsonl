@@ -1,0 +1,9 @@
+{"code": " [len(word) for word in words if word]", "compilation_passed": true, "time": 0.5573501586914062, "tests_passed": true, "error": null}
+{"code": " np.array([len(word) for word in words])", "compilation_passed": true, "time": 0.2461550235748291, "tests_passed": false, "error": "ValueError"}
+{"code": " [len(word) for word in words]", "compilation_passed": true, "time": 0.6155977249145508, "tests_passed": true, "error": null}
+{"code": " [len(word) for word in words if word.strip()]", "compilation_passed": true, "time": 0.558905839920044, "tests_passed": true, "error": null}
+{"code": " [len(w) for w in words if w != '']", "compilation_passed": true, "time": 0.5613281726837158, "tests_passed": true, "error": null}
+{"code": " np.array([len(word) for word in words if word])", "compilation_passed": true, "time": 0.2530210018157959, "tests_passed": false, "error": "ValueError"}
+{"code": " [len(word) for word in words if len(word)]", "compilation_passed": true, "time": 0.6121859550476074, "tests_passed": true, "error": null}
+{"code": " [len(word) for word in words if word.replace('\\n', '').replace('\\t', '').replace(' ', '') != '']", "compilation_passed": true, "time": 0.7775919437408447, "tests_passed": true, "error": null}
+{"code": " [len(w) for w in words]", "compilation_passed": true, "time": 0.7114698886871338, "tests_passed": true, "error": null}

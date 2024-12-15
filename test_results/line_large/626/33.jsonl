@@ -1,0 +1,4 @@
+{"code": " given_date.astimezone(to_tz)", "compilation_passed": true, "time": 0.004823923110961914, "tests_passed": true, "error": null}
+{"code": " given_date.astimezone(to_tz).strftime(\"%Y-%m-%d %H:%M:%S\")", "compilation_passed": true, "time": 0.0170900821685791, "tests_passed": false, "error": "AttributeError"}
+{"code": " given_date.astimezone(to_tz).strftime('%Y-%m-%d %H:%M:%S')", "compilation_passed": true, "time": 0.0172579288482666, "tests_passed": false, "error": "AttributeError"}
+{"code": " given_date.astimezone(to_tz).replace(tzinfo=None)", "compilation_passed": true, "time": 0.004800081253051758, "tests_passed": true, "error": null}

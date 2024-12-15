@@ -1,0 +1,24 @@
+{"code": " re.findall(r'\\b\\w+\\b', s)", "compilation_passed": true, "time": 0.1110999584197998, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', s).lower().split()", "compilation_passed": true, "time": 0.10840487480163574, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', s.lower())", "compilation_passed": true, "time": 0.10685420036315918, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', s.lower())  # Split the string into words and convert them to lowercase", "compilation_passed": true, "time": 0.10828018188476562, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"[a-zA-Z\\']+\", s)", "compilation_passed": true, "time": 0.11759614944458008, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', s.lower()).split()", "compilation_passed": true, "time": 0.13221192359924316, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', s.lower())  # Find words in the string and convert to lowercase", "compilation_passed": true, "time": 0.12463879585266113, "tests_passed": true, "error": null}
+{"code": " s.lower().split()", "compilation_passed": true, "time": 0.12591791152954102, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', s.lower())  # Split the string into words and make them lowercase", "compilation_passed": true, "time": 0.12157797813415527, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b[a-zA-Z]{3,15}\\b', s.lower())", "compilation_passed": true, "time": 0.11633586883544922, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w ]', '', s).lower().split()  # Remove punctuation, convert to lowercase, and split into words", "compilation_passed": true, "time": 0.11976790428161621, "tests_passed": true, "error": null}
+{"code": " s.lower().split()  # Split the string into words and convert them to lowercase", "compilation_passed": true, "time": 0.11717605590820312, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^A-Za-z\\s]', '', s.lower()).split()  # Clean the string and split into words", "compilation_passed": true, "time": 0.12405705451965332, "tests_passed": true, "error": null}
+{"code": " re.sub('[^\\w]+', ' ', s).lower().split()", "compilation_passed": true, "time": 0.12255096435546875, "tests_passed": true, "error": null}
+{"code": " [word for word in re.sub(r'[^\\w ]+', '', s.lower()).split()]", "compilation_passed": true, "time": 0.12369990348815918, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', s.lower())", "compilation_passed": true, "time": 0.12865996360778809, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', s).split()  # Extract words using regular expressions", "compilation_passed": true, "time": 0.11765694618225098, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w ]', '', s.lower()).split()", "compilation_passed": true, "time": 0.11257004737854004, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b[A-Za-z]+\\b', s) # find all words in the string", "compilation_passed": true, "time": 0.11837482452392578, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z]', ' ', s).split()  # Extract words from the string", "compilation_passed": true, "time": 0.1624448299407959, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^a-zA-Z]+\", \" \", s).lower().split()", "compilation_passed": true, "time": 0.12257099151611328, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in re.findall(r'\\b\\w+\\b', s)]", "compilation_passed": true, "time": 0.122467041015625, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"[\\w']+\", s.lower())", "compilation_passed": true, "time": 0.1285688877105713, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]','',s).lower().split()", "compilation_passed": true, "time": 0.12898612022399902, "tests_passed": true, "error": null}

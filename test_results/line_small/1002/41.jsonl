@@ -1,0 +1,18 @@
+{"code": "plot.hist(ax=ax, bins=10, title=f\"Histogram of {column_name}\", grid=True)", "compilation_passed": true, "time": 0.2324380874633789, "tests_passed": true, "error": null}
+{"code": "value_counts().plot.bar(ax=ax, title=f\"Histogram of {column_name}\",", "compilation_passed": false, "time": 0.00027489662170410156, "tests_passed": false, "error": "SyntaxError"}
+{"code": "value_counts().plot.bar(ax=ax, rot=0)", "compilation_passed": true, "time": 0.21611905097961426, "tests_passed": true, "error": null}
+{"code": "hist(ax=ax)", "compilation_passed": true, "time": 0.21606206893920898, "tests_passed": true, "error": null}
+{"code": "plot.hist(ax=ax, bins=10, title=f\"Histogram of {column_name}\")", "compilation_passed": true, "time": 0.23458290100097656, "tests_passed": true, "error": null}
+{"code": "plot.hist(ax=ax, title=f\"Histogram of {column_name}\")", "compilation_passed": true, "time": 0.23707795143127441, "tests_passed": true, "error": null}
+{"code": "plot.hist(ax=ax)", "compilation_passed": true, "time": 0.2361767292022705, "tests_passed": true, "error": null}
+{"code": "value_counts().plot(kind=\"barh\", ax=ax, title=f\"Histogram of {column_name}\",", "compilation_passed": false, "time": 0.00028014183044433594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "value_counts().plot.bar()", "compilation_passed": true, "time": 0.22212910652160645, "tests_passed": true, "error": null}
+{"code": "value_counts().plot(kind=\"hist\", ax=ax, title=f\"Histogram of {column_name}\", color=\"green\", label=\"user_id\", rot=0)", "compilation_passed": true, "time": 0.23218584060668945, "tests_passed": true, "error": null}
+{"code": "plot(kind='hist', ax=ax, title=f'Histogram of {column_name}')", "compilation_passed": true, "time": 0.23687005043029785, "tests_passed": true, "error": null}
+{"code": "value_counts().plot.bar(ax=ax, rot=0, title=f\"Histogram of {column_name}\")", "compilation_passed": true, "time": 0.22218585014343262, "tests_passed": true, "error": null}
+{"code": "plot(kind=\"hist\", ax=ax, title=f\"Histogram of {column_name}\", xlabel=column_name)", "compilation_passed": true, "time": 0.26088929176330566, "tests_passed": true, "error": null}
+{"code": "value_counts().plot.bar(ax=ax, title='Histogram of ' + column_name,", "compilation_passed": false, "time": 0.0002701282501220703, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot.hist(ax=ax, title=f\"Histogram of '{column_name}'\",", "compilation_passed": false, "time": 0.00026798248291015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot.hist(ax=ax, title=f\"Histogram of {column_name}\", color=\"blue\", xlabel=column_name)", "compilation_passed": true, "time": 0.24521684646606445, "tests_passed": true, "error": null}
+{"code": "plot(kind='hist', ax=ax)", "compilation_passed": true, "time": 0.2338089942932129, "tests_passed": true, "error": null}
+{"code": "plot(kind='hist', title=f\"Histogram of {column_name}\", ax=ax)", "compilation_passed": true, "time": 0.2375338077545166, "tests_passed": true, "error": null}

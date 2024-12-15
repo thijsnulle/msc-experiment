@@ -1,0 +1,10 @@
+{"code": "make_archive(archive_file, 'zip', project_dir)", "compilation_passed": true, "time": 0.019380807876586914, "tests_passed": false, "error": "Exception"}
+{"code": "make_archive(os.path.basename(project_dir), 'zip', project_dir, exclude_list=())", "compilation_passed": true, "time": 0.018216371536254883, "tests_passed": false, "error": "TypeError"}
+{"code": "make_archive(base_name = os.path.basename(project_dir), format='zip', root_dir=project_dir, base_dir=project_dir)", "compilation_passed": true, "time": 0.021496057510375977, "tests_passed": false, "error": "Exception"}
+{"code": "make_archive(os.path.basename(project_dir), 'zip', project_dir)", "compilation_passed": true, "time": 0.019900798797607422, "tests_passed": false, "error": "Exception"}
+{"code": "make_archive(project_dir, 'zip', project_dir)", "compilation_passed": true, "time": 0.012889862060546875, "tests_passed": false, "error": "Exception"}
+{"code": "make_archive(os.path.basename(project_dir), 'zip', project_dir, base_dir=os.path.dirname(project_dir))", "compilation_passed": true, "time": 2.605522871017456, "tests_passed": false, "error": "Exception"}
+{"code": "make_archive(base_name = os.path.basename(project_dir),", "compilation_passed": false, "time": 0.00038886070251464844, "tests_passed": false, "error": "SyntaxError"}
+{"code": "make_archive(os.path.basename(project_dir), 'zip', project_dir, include_archive_config=True)", "compilation_passed": true, "time": 0.014973878860473633, "tests_passed": false, "error": "TypeError"}
+{"code": "make_archive(zipfile=archive_file,format='zip',base_dir=project_dir)", "compilation_passed": true, "time": 0.0145111083984375, "tests_passed": false, "error": "TypeError"}
+{"code": "make_archive(os.path.basename(project_dir), 'zip', project_dir,  os.path.basename(project_dir))", "compilation_passed": true, "time": 0.025111913681030273, "tests_passed": false, "error": "FileNotFoundError"}

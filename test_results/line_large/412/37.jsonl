@@ -1,0 +1,6 @@
+{"code": " {k: unicodedata.normalize('NFC', base64.b64decode(v).decode(ENCODING)) for k, v in data.items()}", "compilation_passed": true, "time": 0.021571874618530273, "tests_passed": true, "error": null}
+{"code": " {key: unicodedata.normalize('NFC', base64.b64decode(value).decode(ENCODING)) for key, value in data.items()}", "compilation_passed": true, "time": 0.02253413200378418, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.0003859996795654297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {}", "compilation_passed": true, "time": 0.015557050704956055, "tests_passed": true, "error": null}
+{"code": " {key: unicodedata.normalize('NFC', base64.b64decode(data[key]).decode(ENCODING)) for key in data}", "compilation_passed": true, "time": 0.02254009246826172, "tests_passed": true, "error": null}
+{"code": " {key: unicodedata.normalize('NFC', base64.b64decode(val).decode(ENCODING))", "compilation_passed": false, "time": 0.0004322528839111328, "tests_passed": false, "error": "SyntaxError"}

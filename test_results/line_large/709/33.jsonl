@@ -1,0 +1,8 @@
+{"code": " '\\n'.join(textwrap.wrap(cleaned_string, line_length))", "compilation_passed": true, "time": 0.0026459693908691406, "tests_passed": true, "error": null}
+{"code": " textwrap.fill(cleaned_string, line_length)", "compilation_passed": true, "time": 0.002681732177734375, "tests_passed": true, "error": null}
+{"code": " textwrap.fill(cleaned_string, width=line_length)", "compilation_passed": true, "time": 0.002663135528564453, "tests_passed": true, "error": null}
+{"code": " ''.join(textwrap.wrap(cleaned_string, line_length))", "compilation_passed": true, "time": 0.009227752685546875, "tests_passed": true, "error": null}
+{"code": " '\\n'.join(textwrap.wrap(cleaned_string, width=line_length))", "compilation_passed": true, "time": 0.002705097198486328, "tests_passed": true, "error": null}
+{"code": " textwrap.fill(cleaned_string, width=line_length, replace_whitespace=True)", "compilation_passed": true, "time": 0.002721071243286133, "tests_passed": true, "error": null}
+{"code": " textwrap.fill(cleaned_string, width=line_length, break_long_words=False)", "compilation_passed": true, "time": 0.009181737899780273, "tests_passed": true, "error": null}
+{"code": " \"\\n\".join(textwrap.wrap(cleaned_string, width=line_length))", "compilation_passed": true, "time": 0.002707242965698242, "tests_passed": true, "error": null}

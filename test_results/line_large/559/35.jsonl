@@ -1,0 +1,26 @@
+{"code": "plot(df.index, df['A'], df.index, df['B'])", "compilation_passed": true, "time": 0.14873480796813965, "tests_passed": true, "error": null}
+{"code": "plot(['A', 'B'], a + b)", "compilation_passed": true, "time": 0.04947185516357422, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(a, b)", "compilation_passed": true, "time": 0.1500530242919922, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['B'], linestyle='-')", "compilation_passed": true, "time": 0.1490943431854248, "tests_passed": true, "error": null}
+{"code": "plot(['A', 'B'], df, marker='o', linestyle='-', color='r')", "compilation_passed": true, "time": 0.04079794883728027, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(a, label='A')", "compilation_passed": true, "time": 0.1496140956878662, "tests_passed": true, "error": null}
+{"code": "plot(a, b, linewidth=2, linestyle=\"-\", label='Euclidean distance')", "compilation_passed": true, "time": 0.15114116668701172, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['B'], marker='o')", "compilation_passed": true, "time": 0.15088605880737305, "tests_passed": true, "error": null}
+{"code": "plot(range(len(a)), b, label='B')", "compilation_passed": true, "time": 0.1519629955291748, "tests_passed": true, "error": null}
+{"code": "plot(range(len(a)), a, label='A')", "compilation_passed": true, "time": 0.15144777297973633, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['B'], label='Euclidean distance = {}'.format(euclidean_distance))", "compilation_passed": true, "time": 0.15308213233947754, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df['A'], label='A')", "compilation_passed": true, "time": 0.152756929397583, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['B'], label=f\"Euclidean distance: {euclidean_distance}\")", "compilation_passed": true, "time": 0.15377283096313477, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['B'])", "compilation_passed": true, "time": 0.15193390846252441, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['B'], '-o')", "compilation_passed": true, "time": 0.15198802947998047, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df['A'], df['B'])", "compilation_passed": true, "time": 0.15489673614501953, "tests_passed": true, "error": null}
+{"code": "plot(a, b, label=f'Euclidean distance: {euclidean_distance}')", "compilation_passed": true, "time": 0.15369176864624023, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df.A, label='A')", "compilation_passed": true, "time": 0.15581083297729492, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['B'], 'o-')", "compilation_passed": true, "time": 0.15566492080688477, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df['A'], '-o', label='A')", "compilation_passed": true, "time": 0.15621018409729004, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df['A'], marker='o', linestyle='-')", "compilation_passed": true, "time": 0.15795612335205078, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df['A'], linestyle='solid', marker='o', color='b')", "compilation_passed": true, "time": 0.15545225143432617, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df['A'], marker='o', linestyle='-', label='A')", "compilation_passed": true, "time": 0.15669512748718262, "tests_passed": true, "error": null}
+{"code": "plot('A', 'B', data=df, marker='', linestyle='-', lw=2)", "compilation_passed": true, "time": 0.15671992301940918, "tests_passed": true, "error": null}
+{"code": "plot('A', 'B', data=df, marker='o', linestyle='')", "compilation_passed": true, "time": 0.15832185745239258, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df.values, label=['A', 'B'])", "compilation_passed": true, "time": 0.1611027717590332, "tests_passed": true, "error": null}

@@ -1,0 +1,20 @@
+{"code": " re.findall(r'\\d+(?:\\.\\d+)?', s)", "compilation_passed": true, "time": 0.0015430450439453125, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"-?\\d+\\.?\\d*\", s)", "compilation_passed": true, "time": 0.0015468597412109375, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\d+(\\.\\d+)?', s)  # Find all integers and floats", "compilation_passed": true, "time": 0.0055217742919921875, "tests_passed": true, "error": null}
+{"code": " re.findall(r'-?\\d+\\.?\\d*', s)", "compilation_passed": true, "time": 0.0015130043029785156, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\d+\\.?\\d*)', s)", "compilation_passed": true, "time": 0.001613616943359375, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[-+]?\\d*\\.\\d+|\\d+', s)", "compilation_passed": true, "time": 0.002277851104736328, "tests_passed": true, "error": null}
+{"code": " [i for i in re.findall(r\"\\d+(?:\\.\\d+)?\", s)]", "compilation_passed": true, "time": 0.0018618106842041016, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\d+(?:\\.\\d+)?)', s)", "compilation_passed": true, "time": 0.0022101402282714844, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\d+\\.?\\d*', s)", "compilation_passed": true, "time": 0.0021800994873046875, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\d+\\.\\d+|\\d+)', s)", "compilation_passed": true, "time": 0.00225830078125, "tests_passed": true, "error": null}
+{"code": " [float(num) for num in re.findall(r'(\\d+(\\.\\d*)?|\\d*\\.\\d+)', s)]", "compilation_passed": true, "time": 0.013125896453857422, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(r'\\d+(\\.\\d+)?', s)", "compilation_passed": true, "time": 0.005219221115112305, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\d+|\\d+\\.\\d+', s)", "compilation_passed": true, "time": 0.0046389102935791016, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\d+(?:\\.\\d+)?\", s)", "compilation_passed": true, "time": 0.0011909008026123047, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\d+(\\.\\d*)?)', s)", "compilation_passed": true, "time": 0.00977325439453125, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(r\"\\d+(\\.\\d+)?\", s)", "compilation_passed": true, "time": 0.008133888244628906, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[+-]?\\d+(?:\\.\\d+)?', s)", "compilation_passed": true, "time": 0.0015969276428222656, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\d+|\\d+?\\.\\d+)', s)", "compilation_passed": true, "time": 0.004929780960083008, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\d+|\\d+\\.\\d+)', s)", "compilation_passed": true, "time": 0.00504302978515625, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\d+(\\.\\d+)?)', s)", "compilation_passed": true, "time": 0.019105911254882812, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,7 @@
+{"code": " df.to_csv(header=False, index=False)", "compilation_passed": true, "time": 0.010032892227172852, "tests_passed": true, "error": null}
+{"code": " df.to_csv(index=False)", "compilation_passed": true, "time": 0.009352922439575195, "tests_passed": true, "error": null}
+{"code": " df.to_csv(header=True, index=False).encode('utf-8')", "compilation_passed": true, "time": 0.009538888931274414, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.to_csv(index=False).encode('utf-8')", "compilation_passed": true, "time": 0.009057998657226562, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.to_csv(index=False).encode()", "compilation_passed": true, "time": 0.00834202766418457, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.to_csv(header=True, index=False)", "compilation_passed": true, "time": 0.010998010635375977, "tests_passed": true, "error": null}
+{"code": " df.to_csv(header=False, index=False).encode('utf-8')", "compilation_passed": true, "time": 0.008312225341796875, "tests_passed": false, "error": "AttributeError"}

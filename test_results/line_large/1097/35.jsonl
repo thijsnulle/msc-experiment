@@ -1,0 +1,5 @@
+{"code": " punctuation", "compilation_passed": true, "time": 0.0018000602722167969, "tests_passed": true, "error": null}
+{"code": " punctuation  # Constants should be all uppercase.", "compilation_passed": true, "time": 0.001435995101928711, "tests_passed": true, "error": null}
+{"code": " set(punctuation)", "compilation_passed": true, "time": 0.0017800331115722656, "tests_passed": true, "error": null}
+{"code": " set(punctuation) - set(\"\u2019\")  # Exclude the special apostrophe", "compilation_passed": true, "time": 0.001676797866821289, "tests_passed": true, "error": null}
+{"code": " re.escape(punctuation)", "compilation_passed": true, "time": 0.001950979232788086, "tests_passed": true, "error": null}

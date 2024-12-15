@@ -1,0 +1,16 @@
+{"code": " glob.glob(f'{file_dir}/*{file_ext}')", "compilation_passed": true, "time": 0.023632049560546875, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(file_dir, f\"data*{file_ext}\"))", "compilation_passed": true, "time": 0.011958122253417969, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(f'{file_dir}*.csv')", "compilation_passed": true, "time": 0.023032188415527344, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(file_dir, '*'+file_ext))", "compilation_passed": true, "time": 0.022987842559814453, "tests_passed": true, "error": null}
+{"code": " glob.glob(file_dir + '*' + file_ext)", "compilation_passed": true, "time": 0.02316594123840332, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(file_dir, \"*\" + file_ext))", "compilation_passed": true, "time": 0.023115158081054688, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(file_dir, f'*{file_ext}'))", "compilation_passed": true, "time": 0.025730133056640625, "tests_passed": true, "error": null}
+{"code": " sorted(glob.glob(os.path.join(file_dir, '*' + file_ext)))", "compilation_passed": true, "time": 0.02280282974243164, "tests_passed": true, "error": null}
+{"code": " glob.glob(file_dir + \"*\" + file_ext)", "compilation_passed": true, "time": 0.02309894561767578, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(file_dir, \"*{}\".format(file_ext)))", "compilation_passed": true, "time": 0.023898839950561523, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(file_dir, f\"*{file_ext}\"))", "compilation_passed": true, "time": 0.024284839630126953, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(file_dir, '*' + file_ext))", "compilation_passed": true, "time": 0.023089170455932617, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(file_dir, f\"*.{file_ext}\"))", "compilation_passed": true, "time": 0.01239919662475586, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " glob.glob(f\"{file_dir}/*{file_ext}\")[:num_files]", "compilation_passed": true, "time": 0.023864269256591797, "tests_passed": true, "error": null}
+{"code": " sorted(glob.glob(os.path.join(file_dir, f\"*{file_ext}\")))", "compilation_passed": true, "time": 0.02336883544921875, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(file_dir, f'*.{file_ext}'))", "compilation_passed": true, "time": 0.012232780456542969, "tests_passed": false, "error": "FileNotFoundError"}

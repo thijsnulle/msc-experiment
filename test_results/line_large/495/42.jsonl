@@ -1,0 +1,7 @@
+{"code": " pd.date_range(start='2023-01-01', periods=days)", "compilation_passed": true, "time": 0.05775713920593262, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start='2023-01-01', periods=days, freq='D')", "compilation_passed": true, "time": 0.060693979263305664, "tests_passed": true, "error": null}
+{"code": " pd.date_range('2023-01-01', periods=days, freq='D')", "compilation_passed": true, "time": 0.0570681095123291, "tests_passed": true, "error": null}
+{"code": " pd.date_range('2023-01-01', periods=days)", "compilation_passed": true, "time": 0.06461524963378906, "tests_passed": true, "error": null}
+{"code": " pd.date_range(\"2023-01-01\", periods=days, freq=\"D\")", "compilation_passed": true, "time": 0.05914902687072754, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start=\"2023-01-01\", periods=days, freq='D')", "compilation_passed": true, "time": 0.05645585060119629, "tests_passed": true, "error": null}
+{"code": " pd.date_range('2023-01-01', periods=days, freq='D') if days else []", "compilation_passed": true, "time": 0.017475128173828125, "tests_passed": true, "error": null}

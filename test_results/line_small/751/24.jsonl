@@ -1,0 +1,8 @@
+{"code": " Counter()", "compilation_passed": true, "time": 0.0032498836517333984, "tests_passed": true, "error": null}
+{"code": " random.sample(values, n_samples)", "compilation_passed": true, "time": 0.003657102584838867, "tests_passed": false, "error": "ValueError"}
+{"code": " random.choices(values, weights, k=n_samples)", "compilation_passed": true, "time": 0.005286216735839844, "tests_passed": true, "error": null}
+{"code": " random.choices(values, weights=weights, k=n_samples)", "compilation_passed": true, "time": 0.0059337615966796875, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.003309965133666992, "tests_passed": true, "error": null}
+{"code": " random.choices(population=values, weights=weights, k=n_samples)", "compilation_passed": true, "time": 0.004455089569091797, "tests_passed": true, "error": null}
+{"code": " Counter(random.choices(values, weights, k=n_samples))", "compilation_passed": true, "time": 0.0040128231048583984, "tests_passed": true, "error": null}
+{"code": " [random.choices(values, weights) for _ in range(n_samples)]", "compilation_passed": true, "time": 0.007645130157470703, "tests_passed": false, "error": "TypeError"}

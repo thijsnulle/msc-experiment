@@ -1,0 +1,7 @@
+{"code": "append((os.path.basename(filename), numeric_data))", "compilation_passed": true, "time": 0.014914989471435547, "tests_passed": true, "error": null}
+{"code": "append({'Filename': os.path.basename(filename), 'Numeric Data': numeric_data})", "compilation_passed": true, "time": 0.01460123062133789, "tests_passed": true, "error": null}
+{"code": "append([os.path.basename(filename), numeric_data])", "compilation_passed": true, "time": 0.014297008514404297, "tests_passed": true, "error": null}
+{"code": "append((filename, numeric_data))", "compilation_passed": true, "time": 0.010876893997192383, "tests_passed": false, "error": "IndexError"}
+{"code": "append([filename, numeric_data])", "compilation_passed": true, "time": 0.009869098663330078, "tests_passed": false, "error": "IndexError"}
+{"code": "append({'Filename': os.path.basename(filename), 'Numeric Data': [int(num) for num in numeric_data]})", "compilation_passed": true, "time": 0.01293802261352539, "tests_passed": true, "error": null}
+{"code": "append({'Filename': filename, 'Numeric Data': numeric_data})", "compilation_passed": true, "time": 0.00962972640991211, "tests_passed": false, "error": "IndexError"}

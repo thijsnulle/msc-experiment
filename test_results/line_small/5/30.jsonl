@@ -1,0 +1,22 @@
+{"code": " {k: math.sqrt(sum([v ** 2 for v in random_dict[k]]) / len(random_dict[k])) for k in random_dict.keys()}", "compilation_passed": false, "time": 0.00027871131896972656, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.fsum(v) / len(v) for k, v in random_dict.items()}", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "IndentationError"}
+{"code": " {}", "compilation_passed": false, "time": 0.0001652240753173828, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.sqrt(sum([i ** 2 for i in v])/len(v)) for k, v in random_dict.items()}", "compilation_passed": false, "time": 0.0001659393310546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.fsum(v) for k, v in random_dict.items()}", "compilation_passed": false, "time": 0.0003037452697753906, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.sqrt(sum([v**2 for v in vv])) / len(vv) for k, vv in random_dict.items()}", "compilation_passed": false, "time": 0.0003619194030761719, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.sqrt(sum([abs(v-random.randint(0, 100)) ** 2 for v in vs]) / len(vs)) for k, vs in random_dict.items()}", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.fabs(statistics.stdev(v)) for k, v in random_dict.items()}", "compilation_passed": false, "time": 0.00018310546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.sqrt(sum(v ** 2 for v in k_values) / len(k_values)) for k, k_values in random_dict.items()}", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.sqrt(sum((i - (sum(random_dict[k]) / len(random_dict[k]))) ** 2 for i in random_dict[k])/len(random_dict[k])) for k in LETTERS}", "compilation_passed": false, "time": 0.0002028942108154297, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.sqrt(sum([i ** 2 for i in v]) / len(v)) for k, v in random_dict.items()}", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.fsum(v ** 2) - math.fsum(v) for k, v in random_dict.items()}", "compilation_passed": false, "time": 0.00017404556274414062, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.sqrt(sum(pow(n, 2) for n in v) / len(v)) for k, v in random_dict.items()}", "compilation_passed": false, "time": 0.0003299713134765625, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: statistics.stdev(v) for k, v in random_dict.items()}", "compilation_passed": false, "time": 0.0001518726348876953, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.sqrt(sum([(i-sum(random_dict[k])/len(random_dict[k]))**2 for i in random_dict[k]])/len(random_dict[k])) for k in LETTERS}", "compilation_passed": false, "time": 0.00019979476928710938, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: statistics.pstdev(v) for k, v in random_dict.items()}", "compilation_passed": false, "time": 0.00015115737915039062, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.fsum(v)**0.5/len(v) for k, v in random_dict.items()}", "compilation_passed": false, "time": 0.0003960132598876953, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.sqrt(sum(v) / len(v)) for k, v in random_dict.items()}", "compilation_passed": false, "time": 0.00015497207641601562, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.fabs(statistics.pstdev(random_dict[k])) for k in random_dict.keys()}", "compilation_passed": false, "time": 0.00017309188842773438, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.fsum(v)**0.5 for k, v in random_dict.items()}", "compilation_passed": false, "time": 0.00015401840209960938, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.sqrt(sum([math.pow(x - mean(random_dict[k]), 2) for x in random_dict[k]]) / len(random_dict[k])) for k in random_dict}", "compilation_passed": false, "time": 0.00017595291137695312, "tests_passed": false, "error": "IndentationError"}
+{"code": " {k: math.sqrt(sum(v**2 for v in v_list)) for k, v_list in random_dict.items()}", "compilation_passed": false, "time": 0.00015497207641601562, "tests_passed": false, "error": "IndentationError"}

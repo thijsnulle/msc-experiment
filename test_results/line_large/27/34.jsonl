@@ -1,0 +1,5 @@
+{"code": " base64.b64encode(json_data.encode('ascii'))", "compilation_passed": true, "time": 0.0027179718017578125, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode('ascii')).decode('ascii')", "compilation_passed": true, "time": 0.002775907516479492, "tests_passed": true, "error": null}
+{"code": " base64.encodebytes(json_data.encode('ascii'))", "compilation_passed": true, "time": 0.003094196319580078, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode(encoding='ascii'))", "compilation_passed": true, "time": 0.002180814743041992, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(json_data.encode(\"ascii\")).decode(\"ascii\")", "compilation_passed": true, "time": 0.0024671554565429688, "tests_passed": true, "error": null}

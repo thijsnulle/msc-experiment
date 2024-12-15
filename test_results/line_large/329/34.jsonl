@@ -1,0 +1,5 @@
+{"code": " data['content']", "compilation_passed": true, "time": 0.013684988021850586, "tests_passed": false, "error": "KeyError"}
+{"code": " data.get('content', '')", "compilation_passed": true, "time": 0.010519742965698242, "tests_passed": true, "error": null}
+{"code": " list(data.values())[0]", "compilation_passed": true, "time": 0.009837150573730469, "tests_passed": true, "error": null}
+{"code": " data.get('content')", "compilation_passed": true, "time": 0.014133930206298828, "tests_passed": false, "error": "TypeError"}
+{"code": " ''.join(data.values())", "compilation_passed": true, "time": 0.014676094055175781, "tests_passed": true, "error": null}

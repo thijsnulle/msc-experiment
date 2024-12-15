@@ -1,0 +1,11 @@
+{"code": " from_tz.localize(parse(date_str))", "compilation_passed": true, "time": 0.0033202171325683594, "tests_passed": true, "error": null}
+{"code": " parse(date_str, fuzzy=True)", "compilation_passed": true, "time": 0.0021479129791259766, "tests_passed": true, "error": null}
+{"code": " parse(date_str)", "compilation_passed": true, "time": 0.002954721450805664, "tests_passed": true, "error": null}
+{"code": " parse(date_str, form=\"%Y-%m-%d %H:%M:%S\")", "compilation_passed": true, "time": 0.023327112197875977, "tests_passed": false, "error": "TypeError"}
+{"code": " parse(date_str).replace(tzinfo=from_tz)", "compilation_passed": true, "time": 0.0044138431549072266, "tests_passed": true, "error": null}
+{"code": " parse(date_str).astimezone(from_tz)", "compilation_passed": true, "time": 0.003567934036254883, "tests_passed": true, "error": null}
+{"code": " parse(date_str, dayfirst=True)", "compilation_passed": true, "time": 0.0023069381713867188, "tests_passed": true, "error": null}
+{"code": " parse(date_str, tzinfos={'UTC': pytz.UTC})", "compilation_passed": true, "time": 0.0027320384979248047, "tests_passed": true, "error": null}
+{"code": " parse(date_str, tzinfos={'UTC': pytz.utc, 'Etc/GMT': pytz.UTC})", "compilation_passed": true, "time": 0.0019567012786865234, "tests_passed": true, "error": null}
+{"code": " parse(date_str, dayfirst=True, fuzzy=True, ignoretz=True)", "compilation_passed": true, "time": 0.002521991729736328, "tests_passed": true, "error": null}
+{"code": " parse(date_str, tzinfos={'UTC': pytz.utc})", "compilation_passed": true, "time": 0.00220489501953125, "tests_passed": true, "error": null}

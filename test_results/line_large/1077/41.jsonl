@@ -1,0 +1,16 @@
+{"code": "strptime(t, \"%d/%m/%y %H:%M:%S.%f\").replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.011798858642578125, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(time_str, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.011265039443969727, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(t, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.01184391975402832, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(t, \"%d/%m/%y %H:%M:%S.%f\").replace(tzinfo=pytz.utc)", "compilation_passed": true, "time": 0.011549949645996094, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(t, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone) for t in time_strings", "compilation_passed": true, "time": 0.008817195892333984, "tests_passed": false, "error": "AttributeError"}
+{"code": "strptime(time_string, \"%d/%m/%y %H:%M:%S.%f\").replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.011382102966308594, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(time_str, \"%d/%m/%y %H:%M:%S.%f\").replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.011195898056030273, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(ts, \"%d/%m/%y %H:%M:%S.%f\").replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.0023679733276367188, "tests_passed": true, "error": null}
+{"code": "strptime(", "compilation_passed": false, "time": 0.00015091896057128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "strptime(time_string, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.011244058609008789, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(time_string, '%d/%m/%y %H:%M:%S.%f')", "compilation_passed": true, "time": 0.011546134948730469, "tests_passed": false, "error": "NameError"}
+{"code": "strptime(time_string, '%d/%m/%y %H:%M:%S.%f') for time_string in time_strings]", "compilation_passed": false, "time": 0.00013208389282226562, "tests_passed": false, "error": "IndentationError"}
+{"code": "strptime(t, \"%d/%m/%y %H:%M:%S.%f\").replace(", "compilation_passed": false, "time": 0.00015497207641601562, "tests_passed": false, "error": "SyntaxError"}
+{"code": "strptime(ts, \"%d/%m/%y %H:%M:%S.%f\").replace(", "compilation_passed": false, "time": 0.00013327598571777344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "strptime(ts, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=pytz.utc).astimezone(time_zone)", "compilation_passed": true, "time": 0.002040863037109375, "tests_passed": true, "error": null}
+{"code": "strptime(timestamp, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.011216163635253906, "tests_passed": false, "error": "NameError"}

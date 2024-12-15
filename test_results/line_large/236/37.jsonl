@@ -1,0 +1,6 @@
+{"code": " df[['Age', 'Score']]", "compilation_passed": true, "time": 0.666827917098999, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 1:-1]", "compilation_passed": true, "time": 0.6568379402160645, "tests_passed": true, "error": null}
+{"code": " df[['Age', 'Score']].values", "compilation_passed": true, "time": 0.6449389457702637, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, [1, 2]].values", "compilation_passed": true, "time": 0.6490449905395508, "tests_passed": true, "error": null}
+{"code": " df[['Age', 'Score']].to_numpy()", "compilation_passed": true, "time": 0.6481361389160156, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :-1]", "compilation_passed": true, "time": 0.05997610092163086, "tests_passed": false, "error": "ValueError"}

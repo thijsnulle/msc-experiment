@@ -1,0 +1,3 @@
+{"code": " codecs.open(filename, 'w', to_encoding) as file:", "compilation_passed": true, "time": 0.008526802062988281, "tests_passed": true, "error": null}
+{"code": " codecs.open(filename, 'w', to_encoding) as new_file:", "compilation_passed": true, "time": 0.014332771301269531, "tests_passed": false, "error": "io.UnsupportedOperation"}
+{"code": " open(filename, 'w') as file:", "compilation_passed": true, "time": 0.010179996490478516, "tests_passed": true, "error": null}

@@ -1,0 +1,8 @@
+{"code": " {", "compilation_passed": false, "time": 0.00021004676818847656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " normalize_user_data(user_data)", "compilation_passed": true, "time": 0.010968685150146484, "tests_passed": false, "error": "NameError"}
+{"code": " {key: unicodedata.normalize('NFKD', value) if isinstance(value, str) else value for key, value in user_data.items()}", "compilation_passed": true, "time": 0.007038116455078125, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.005290985107421875, "tests_passed": true, "error": null}
+{"code": " {key: unicodedata.normalize('NFKD', value) if isinstance(value, str) else value", "compilation_passed": false, "time": 0.0002288818359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {key: unicodedata.normalize('NFD', value) for key, value in user_data.items()", "compilation_passed": false, "time": 0.0002288818359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " normalize_ascii_strings(user_data)", "compilation_passed": true, "time": 0.011671781539916992, "tests_passed": false, "error": "NameError"}
+{"code": " normalize_unicode_data(user_data)", "compilation_passed": true, "time": 0.010114192962646484, "tests_passed": false, "error": "NameError"}

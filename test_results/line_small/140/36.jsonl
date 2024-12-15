@@ -1,0 +1,6 @@
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.019958019256591797, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 0.016900062561035156, "tests_passed": true, "error": null}
+{"code": " not isinstance(cols, list):", "compilation_passed": true, "time": 0.014481067657470703, "tests_passed": false, "error": "AttributeError"}
+{"code": " type(cols) == list and len(cols) > 0:", "compilation_passed": true, "time": 0.011189937591552734, "tests_passed": false, "error": "ValueError"}
+{"code": " type(df) is not pd.DataFrame:", "compilation_passed": true, "time": 0.01749706268310547, "tests_passed": true, "error": null}
+{"code": " type(df) is not pd.DataFrame or type(cols) is not list:", "compilation_passed": true, "time": 0.016511917114257812, "tests_passed": true, "error": null}

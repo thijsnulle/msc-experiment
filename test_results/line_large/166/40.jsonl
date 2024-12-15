@@ -1,0 +1,21 @@
+{"code": " dates[", "compilation_passed": false, "time": 0.0002231597900390625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [d.to_pydatetime() for d in dates if not d.to_pydatetime().weekday() >= 5 and not d in country_holidays]", "compilation_passed": true, "time": 0.0365300178527832, "tests_passed": true, "error": null}
+{"code": " dates[(dates.weekday < 5) & (~dates.isin(country_holidays))]  # Remove weekends and holidays", "compilation_passed": true, "time": 0.027903079986572266, "tests_passed": false, "error": "ValueError"}
+{"code": " [date for date in dates if date.weekday() < 5 and date not in country_holidays]", "compilation_passed": true, "time": 0.03768801689147949, "tests_passed": true, "error": null}
+{"code": " [date for date in dates if date.weekday() not in [5,6] and not date in country_holidays]", "compilation_passed": true, "time": 0.04257774353027344, "tests_passed": true, "error": null}
+{"code": " dates[dates.dayofweek < 5] # Exclude weekends", "compilation_passed": true, "time": 0.013404130935668945, "tests_passed": false, "error": "ValueError"}
+{"code": " [d.date() for d in dates if d.weekday() < 5 and d.date() not in country_holidays]", "compilation_passed": true, "time": 0.014688968658447266, "tests_passed": true, "error": null}
+{"code": " dates[~dates.isin(country_holidays)]", "compilation_passed": true, "time": 0.011258840560913086, "tests_passed": false, "error": "ValueError"}
+{"code": " []", "compilation_passed": true, "time": 0.011626243591308594, "tests_passed": true, "error": null}
+{"code": " dates[(dates.weekday != 5) & (dates.weekday != 6) & ~dates.isin(country_holidays)]", "compilation_passed": true, "time": 0.011175155639648438, "tests_passed": false, "error": "ValueError"}
+{"code": " dates.to_pydatetime().tolist()", "compilation_passed": true, "time": 0.012813806533813477, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0003638267517089844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dates[(dates.weekday < 5) & (~dates.isin(country_holidays))]", "compilation_passed": true, "time": 0.011547088623046875, "tests_passed": false, "error": "ValueError"}
+{"code": " [d.to_pydatetime() for d in dates if d.weekday() < 5 and d.to_pydatetime() not in country_holidays]", "compilation_passed": true, "time": 0.04107475280761719, "tests_passed": true, "error": null}
+{"code": " dates[(dates.weekday != 5) & (dates.weekday != 6) & (~dates.isin(country_holidays))].to_list()", "compilation_passed": true, "time": 0.01149606704711914, "tests_passed": true, "error": null}
+{"code": " dates[~dates.isin(country_holidays)].to_list()", "compilation_passed": true, "time": 0.011636972427368164, "tests_passed": true, "error": null}
+{"code": " dates[(dates.dayofweek < 5) & (~dates.isin(country_holidays))]", "compilation_passed": true, "time": 0.011418819427490234, "tests_passed": false, "error": "ValueError"}
+{"code": " [date.date() for date in dates if date.date() in dates.bday and date.date() not in country_holidays]", "compilation_passed": true, "time": 0.017750024795532227, "tests_passed": false, "error": "AttributeError"}
+{"code": " [date for date in dates if (date.weekday() in (0, 1, 2, 3, 4) and date not in country_holidays)]", "compilation_passed": true, "time": 0.04218697547912598, "tests_passed": true, "error": null}
+{"code": " dates[dates.weekday < 5].to_list()", "compilation_passed": true, "time": 0.013946056365966797, "tests_passed": true, "error": null}
+{"code": " [d.to_pydatetime() for d in dates if d.day_of_week < 5 and d.to_pydatetime() not in country_holidays]", "compilation_passed": true, "time": 0.03984880447387695, "tests_passed": true, "error": null}

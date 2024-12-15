@@ -1,0 +1,7 @@
+{"code": " df['list'].apply(lambda x: sum(x))", "compilation_passed": true, "time": 0.19091415405273438, "tests_passed": true, "error": null}
+{"code": " df['list'].apply(sum)", "compilation_passed": true, "time": 0.1789700984954834, "tests_passed": true, "error": null}
+{"code": " df['list'].map(lambda x: sum(x))", "compilation_passed": true, "time": 0.17519497871398926, "tests_passed": true, "error": null}
+{"code": " df['list'].apply(np.sum)", "compilation_passed": true, "time": 0.17931389808654785, "tests_passed": true, "error": null}
+{"code": " df['list'].apply(lambda x: np.sum(x))", "compilation_passed": true, "time": 0.17534589767456055, "tests_passed": true, "error": null}
+{"code": " df['list'].map(sum)", "compilation_passed": true, "time": 0.1838529109954834, "tests_passed": true, "error": null}
+{"code": " df['list'].map(lambda x: np.sum(x))", "compilation_passed": true, "time": 0.16897106170654297, "tests_passed": true, "error": null}

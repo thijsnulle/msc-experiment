@@ -1,0 +1,26 @@
+{"code": " []", "compilation_passed": true, "time": 0.009985208511352539, "tests_passed": true, "error": null}
+{"code": " re.split(r'([.!?])', text)", "compilation_passed": true, "time": 0.008064985275268555, "tests_passed": true, "error": null}
+{"code": " re.split(r\"[.!?]\", text)", "compilation_passed": true, "time": 0.01094818115234375, "tests_passed": true, "error": null}
+{"code": " re.split(r\"[.!?]+\", text)", "compilation_passed": true, "time": 0.010226249694824219, "tests_passed": true, "error": null}
+{"code": " re.split('[.|!|\\?]', text)", "compilation_passed": true, "time": 0.010260820388793945, "tests_passed": true, "error": null}
+{"code": " re.split(r'[.?!]', text)", "compilation_passed": true, "time": 0.009952068328857422, "tests_passed": true, "error": null}
+{"code": " re.split(r'(.*?(?:[\\.\\?\\!]\\s*)?)', text)", "compilation_passed": true, "time": 0.005127906799316406, "tests_passed": true, "error": null}
+{"code": " re.split('\\.', text)", "compilation_passed": true, "time": 0.010335206985473633, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"[\\w][\\w]*?\\.\", text)", "compilation_passed": true, "time": 0.010221242904663086, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\.|\\?|\\!|\", text)", "compilation_passed": true, "time": 0.005363941192626953, "tests_passed": true, "error": null}
+{"code": " re.split('[.]', text)", "compilation_passed": true, "time": 0.009750843048095703, "tests_passed": true, "error": null}
+{"code": " re.split(r\"(?<=\\.) (?=\\s)\", text)  # Split the text into multiple sentences.", "compilation_passed": true, "time": 0.0055332183837890625, "tests_passed": true, "error": null}
+{"code": " re.split('[.?!]', text)", "compilation_passed": true, "time": 0.01126408576965332, "tests_passed": true, "error": null}
+{"code": " re.split(r'[.?!]\\s*', text)", "compilation_passed": true, "time": 0.006947040557861328, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"[\\s\\S]+?(?:[\\.\\?!])\", text)", "compilation_passed": true, "time": 0.011310100555419922, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00013685226440429688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " re.split(r\"\\.|\\?\", text)", "compilation_passed": true, "time": 0.010033845901489258, "tests_passed": true, "error": null}
+{"code": " text.split('.')", "compilation_passed": true, "time": 0.010133028030395508, "tests_passed": true, "error": null}
+{"code": " text.lower().split()", "compilation_passed": true, "time": 0.004538059234619141, "tests_passed": true, "error": null}
+{"code": " text.split(\". \")", "compilation_passed": true, "time": 0.0098419189453125, "tests_passed": true, "error": null}
+{"code": " re.sub(\"\\.\", \". \", text).split(\". \")", "compilation_passed": true, "time": 0.009857177734375, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"[^!\\?\\.,;:]+\", text)", "compilation_passed": true, "time": 0.010051965713500977, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\.\", text)", "compilation_passed": true, "time": 0.01099705696105957, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\. |\\?\", text)", "compilation_passed": true, "time": 0.011362075805664062, "tests_passed": true, "error": null}
+{"code": " [sentence for sentence in text.split(\".\") if sentence.strip()]", "compilation_passed": true, "time": 0.010152101516723633, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\.\\s|\\.\\n|\\. \\n|\\.\\n \", text)  # Split the text into sentences", "compilation_passed": true, "time": 0.010751962661743164, "tests_passed": true, "error": null}

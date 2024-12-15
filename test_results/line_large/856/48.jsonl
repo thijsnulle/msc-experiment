@@ -1,0 +1,19 @@
+{"code": " combinations(np.array(matrix).flatten(), 2)", "compilation_passed": true, "time": 0.01125788688659668, "tests_passed": true, "error": null}
+{"code": " combinations(matrix.reshape(-1), 2)", "compilation_passed": true, "time": 0.011913061141967773, "tests_passed": true, "error": null}
+{"code": " combinations(matrix.flatten(), 2)", "compilation_passed": true, "time": 0.011014938354492188, "tests_passed": true, "error": null}
+{"code": " combinations(np.ravel(matrix), 2)", "compilation_passed": true, "time": 0.011693954467773438, "tests_passed": true, "error": null}
+{"code": " matrix.flatten()", "compilation_passed": true, "time": 0.010303974151611328, "tests_passed": true, "error": null}
+{"code": " np.array(list(combinations(list(matrix.ravel()), 2)))", "compilation_passed": true, "time": 0.009948968887329102, "tests_passed": true, "error": null}
+{"code": " list(np.array(matrix).flatten())", "compilation_passed": true, "time": 0.005096912384033203, "tests_passed": true, "error": null}
+{"code": " combinations(np.ndarray.flatten(matrix), 2)", "compilation_passed": true, "time": 0.011378049850463867, "tests_passed": true, "error": null}
+{"code": " np.array(list(map(int, np.hsplit(matrix, matrix.shape[1])))).flatten()", "compilation_passed": true, "time": 0.008829116821289062, "tests_passed": false, "error": "TypeError"}
+{"code": " list(range(low, high))", "compilation_passed": true, "time": 0.006699085235595703, "tests_passed": true, "error": null}
+{"code": " list(combinations(np.ravel(matrix), 2))", "compilation_passed": true, "time": 0.012265443801879883, "tests_passed": true, "error": null}
+{"code": " combinations(matrix.ravel(), 2)", "compilation_passed": true, "time": 0.02079486846923828, "tests_passed": true, "error": null}
+{"code": " combinations(list(np.ravel(matrix)), 2)", "compilation_passed": true, "time": 0.01709127426147461, "tests_passed": true, "error": null}
+{"code": " np.array(list(combinations(matrix.flatten(), 2)))", "compilation_passed": true, "time": 0.010390996932983398, "tests_passed": true, "error": null}
+{"code": " list(matrix.reshape(-1))", "compilation_passed": true, "time": 0.0057451725006103516, "tests_passed": true, "error": null}
+{"code": " np.array([val for tup in matrix for val in tup])", "compilation_passed": true, "time": 0.004266023635864258, "tests_passed": true, "error": null}
+{"code": " list(combinations(matrix.flatten(), 2))", "compilation_passed": true, "time": 0.011321783065795898, "tests_passed": true, "error": null}
+{"code": " list(matrix.flatten())", "compilation_passed": true, "time": 0.00516819953918457, "tests_passed": true, "error": null}
+{"code": " matrix.reshape(-1)", "compilation_passed": true, "time": 0.004876136779785156, "tests_passed": true, "error": null}

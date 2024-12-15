@@ -1,0 +1,7 @@
+{"code": " fft(signal, axis=0)", "compilation_passed": true, "time": 0.4527468681335449, "tests_passed": true, "error": null}
+{"code": " fft(signal).round(precision)", "compilation_passed": true, "time": 0.4482548236846924, "tests_passed": true, "error": null}
+{"code": " fft(signal)", "compilation_passed": true, "time": 0.45068907737731934, "tests_passed": true, "error": null}
+{"code": " fft(signal, norm='forward')", "compilation_passed": true, "time": 0.11154675483703613, "tests_passed": true, "error": null}
+{"code": " fft(signal, n=len(signal))", "compilation_passed": true, "time": 0.45128607749938965, "tests_passed": true, "error": null}
+{"code": " np.around(fft(signal), decimals=precision)", "compilation_passed": true, "time": 0.4499549865722656, "tests_passed": true, "error": null}
+{"code": " np.round(fft(signal), precision)", "compilation_passed": true, "time": 0.4647071361541748, "tests_passed": true, "error": null}

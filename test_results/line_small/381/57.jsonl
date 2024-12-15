@@ -1,0 +1,13 @@
+{"code": "barplot(x=X.columns, y=importances)", "compilation_passed": true, "time": 0.333575963973999, "tests_passed": true, "error": null}
+{"code": "barplot(x=X.columns, y=importances, ax=ax,", "compilation_passed": false, "time": 0.00036025047302246094, "tests_passed": false, "error": "SyntaxError"}
+{"code": "barplot(x=X.columns, y=importances, ax=ax)", "compilation_passed": true, "time": 0.33341407775878906, "tests_passed": true, "error": null}
+{"code": "barplot(x=importances.index, y=importances, ax=ax)", "compilation_passed": true, "time": 0.15213489532470703, "tests_passed": false, "error": "AttributeError"}
+{"code": "barplot(X.columns, importances, ax=ax)", "compilation_passed": true, "time": 0.14520692825317383, "tests_passed": false, "error": "TypeError"}
+{"code": "barplot(X.columns, importances)", "compilation_passed": true, "time": 0.14723491668701172, "tests_passed": false, "error": "TypeError"}
+{"code": "barplot(range(X.shape[1]), importances)", "compilation_passed": true, "time": 0.14603424072265625, "tests_passed": false, "error": "TypeError"}
+{"code": "barplot(range(len(importances)), importances, ax=ax)", "compilation_passed": true, "time": 0.1480109691619873, "tests_passed": false, "error": "TypeError"}
+{"code": "barplot(range(1, 4), importances, ax=ax)", "compilation_passed": true, "time": 0.14818286895751953, "tests_passed": false, "error": "TypeError"}
+{"code": "barplot(data=X, y=importances, ax=ax)", "compilation_passed": true, "time": 0.34194469451904297, "tests_passed": false, "error": "ValueError"}
+{"code": "barplot(x=df_cleaned.columns, y=importances)", "compilation_passed": true, "time": 0.1522371768951416, "tests_passed": false, "error": "ValueError"}
+{"code": "barplot(y=X.columns.values, x=importances, ax=ax)", "compilation_passed": true, "time": 0.33525514602661133, "tests_passed": true, "error": null}
+{"code": "barplot(x=df_cleaned.columns[1:], y=importances, ax=ax)", "compilation_passed": true, "time": 0.3527190685272217, "tests_passed": true, "error": null}

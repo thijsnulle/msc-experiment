@@ -1,0 +1,11 @@
+{"code": " soup.title.string", "compilation_passed": true, "time": 0.01718902587890625, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.title", "compilation_passed": true, "time": 0.009944677352905273, "tests_passed": true, "error": null}
+{"code": " soup.find('title')", "compilation_passed": true, "time": 0.012898921966552734, "tests_passed": true, "error": null}
+{"code": " soup.find_all('title')[0].string if soup.find_all('title') else 'No Title'", "compilation_passed": true, "time": 0.013569831848144531, "tests_passed": true, "error": null}
+{"code": " soup.find('title').text.strip()", "compilation_passed": true, "time": 0.01919412612915039, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.title.string if soup.title else 'No Title'", "compilation_passed": true, "time": 0.014634132385253906, "tests_passed": true, "error": null}
+{"code": " soup.find('title').string", "compilation_passed": true, "time": 0.019765138626098633, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.title.text", "compilation_passed": true, "time": 0.023150205612182617, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('h1')", "compilation_passed": true, "time": 0.010754108428955078, "tests_passed": false, "error": "TypeError"}
+{"code": " soup.find('title').text", "compilation_passed": true, "time": 0.017319917678833008, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.title.text if soup.title else 'No Title'", "compilation_passed": true, "time": 0.012825727462768555, "tests_passed": true, "error": null}

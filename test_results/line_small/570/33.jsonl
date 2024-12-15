@@ -1,0 +1,7 @@
+{"code": " spec.args,", "compilation_passed": true, "time": 0.001680135726928711, "tests_passed": true, "error": null}
+{"code": " [spec.args[i] for i in range(len(spec.args))],", "compilation_passed": true, "time": 0.0017359256744384766, "tests_passed": true, "error": null}
+{"code": " [str(i) for i in spec.args],", "compilation_passed": true, "time": 0.001714944839477539, "tests_passed": true, "error": null}
+{"code": " [spec.args[0], spec.args[1] if spec.args[1] is not inspect.Parameter.empty else None],", "compilation_passed": true, "time": 0.0065991878509521484, "tests_passed": false, "error": "IndexError"}
+{"code": " [name for name in spec.args],", "compilation_passed": true, "time": 0.0016856193542480469, "tests_passed": true, "error": null}
+{"code": " list(spec.args),", "compilation_passed": true, "time": 0.00177001953125, "tests_passed": true, "error": null}
+{"code": " ', '.join(spec.args),", "compilation_passed": true, "time": 0.0016810894012451172, "tests_passed": true, "error": null}

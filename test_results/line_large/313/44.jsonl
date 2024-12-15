@@ -1,0 +1,17 @@
+{"code": " f\"{datetime.now().strftime(DATE_FORMAT)}_{filename}\"", "compilation_passed": true, "time": 0.05479788780212402, "tests_passed": true, "error": null}
+{"code": " f\"{os.path.splitext(filename)[0]}_{datetime.now().strftime(DATE_FORMAT)}{os.path.splitext(filename)[1]}\"", "compilation_passed": true, "time": 0.05416607856750488, "tests_passed": true, "error": null}
+{"code": " f\"{filename[:-4]}_{datetime.now().strftime(DATE_FORMAT)}.txt\"", "compilation_passed": true, "time": 0.05538606643676758, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, subdirectory, f\"{filename}_{datetime.now().strftime(DATE_FORMAT)}\")", "compilation_passed": true, "time": 0.05479574203491211, "tests_passed": true, "error": null}
+{"code": " f\"{filename}_{datetime.now().strftime(DATE_FORMAT)}\"", "compilation_passed": true, "time": 0.051835060119628906, "tests_passed": true, "error": null}
+{"code": " f'{datetime.now().strftime(DATE_FORMAT)}_{filename}'", "compilation_passed": true, "time": 0.0539708137512207, "tests_passed": true, "error": null}
+{"code": " f'{os.path.splitext(filename)[0]}_{datetime.now().strftime(DATE_FORMAT)}{os.path.splitext(filename)[1]}'", "compilation_passed": true, "time": 0.056257009506225586, "tests_passed": true, "error": null}
+{"code": " f\"{filename.split('.')[0]}_{datetime.now().strftime(DATE_FORMAT)}.{filename.split('.')[1]}\"", "compilation_passed": true, "time": 0.051152944564819336, "tests_passed": true, "error": null}
+{"code": " f\"{filename[:-4]}_{datetime.now().strftime(DATE_FORMAT)}_{subdirectory}.txt\"", "compilation_passed": true, "time": 0.05311274528503418, "tests_passed": true, "error": null}
+{"code": " f'{filename.split(\".\")[0]}_{datetime.now().strftime(DATE_FORMAT)}.{filename.split(\".\")[1]}'", "compilation_passed": true, "time": 0.05556678771972656, "tests_passed": true, "error": null}
+{"code": " f'{filename}_{datetime.now().strftime(DATE_FORMAT)}'", "compilation_passed": true, "time": 0.05311894416809082, "tests_passed": true, "error": null}
+{"code": " datetime.now().strftime(DATE_FORMAT) + '_' + filename", "compilation_passed": true, "time": 0.05353903770446777, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, subdirectory, f\"{filename[:-4]}_{datetime.now().strftime(DATE_FORMAT)}.txt\")", "compilation_passed": true, "time": 0.05193805694580078, "tests_passed": true, "error": null}
+{"code": " f'{subdirectory}_{datetime.now().strftime(DATE_FORMAT)}_{filename}'", "compilation_passed": true, "time": 0.056096792221069336, "tests_passed": true, "error": null}
+{"code": " os.path.join(", "compilation_passed": false, "time": 0.0003159046173095703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"{os.path.splitext(filename)[0]}_{datetime.now().strftime(DATE_FORMAT)}\"", "compilation_passed": true, "time": 0.05455493927001953, "tests_passed": true, "error": null}
+{"code": " filename.split('.')[0] + '_' + datetime.now().strftime(DATE_FORMAT) + '.' + filename.split('.')[1]", "compilation_passed": true, "time": 0.05282998085021973, "tests_passed": true, "error": null}

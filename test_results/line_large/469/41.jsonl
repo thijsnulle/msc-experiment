@@ -1,0 +1,13 @@
+{"code": " [grade.upper().strip() for grade in possible_grades]", "compilation_passed": true, "time": 0.7079379558563232, "tests_passed": true, "error": null}
+{"code": " set(possible_grades)", "compilation_passed": true, "time": 0.14793992042541504, "tests_passed": true, "error": null}
+{"code": " [grade.strip() for grade in possible_grades]", "compilation_passed": true, "time": 0.7053050994873047, "tests_passed": true, "error": null}
+{"code": " [grade.upper() for grade in possible_grades]", "compilation_passed": true, "time": 0.7211880683898926, "tests_passed": true, "error": null}
+{"code": " [grade.strip() for grade in possible_grades if grade.strip()]  # Remove whitespaces", "compilation_passed": true, "time": 0.7231731414794922, "tests_passed": true, "error": null}
+{"code": " sorted(possible_grades, reverse=True)", "compilation_passed": true, "time": 0.1893301010131836, "tests_passed": true, "error": null}
+{"code": " [grade.upper().strip() for grade in possible_grades if grade.strip()]", "compilation_passed": true, "time": 0.8603367805480957, "tests_passed": true, "error": null}
+{"code": " [grade.strip() for grade in possible_grades if grade.strip()]", "compilation_passed": true, "time": 0.46524596214294434, "tests_passed": true, "error": null}
+{"code": " [grade.strip().upper() for grade in possible_grades]", "compilation_passed": true, "time": 0.50030517578125, "tests_passed": true, "error": null}
+{"code": " [g.upper() for g in possible_grades]", "compilation_passed": true, "time": 1.0184929370880127, "tests_passed": false, "error": "TimeoutError"}
+{"code": " [g.strip().upper() for g in possible_grades]", "compilation_passed": true, "time": 0.6363630294799805, "tests_passed": true, "error": null}
+{"code": " list(map(str.strip, possible_grades))", "compilation_passed": true, "time": 0.6207880973815918, "tests_passed": true, "error": null}
+{"code": " [grade.strip().upper() for grade in possible_grades if grade.strip()]", "compilation_passed": true, "time": 0.57110595703125, "tests_passed": true, "error": null}

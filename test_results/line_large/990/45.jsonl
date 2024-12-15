@@ -1,0 +1,8 @@
+{"code": " decoded_str.encode(\"utf-8\").decode(\"utf-8\")", "compilation_passed": true, "time": 0.0051267147064208984, "tests_passed": true, "error": null}
+{"code": " decoded_str", "compilation_passed": true, "time": 0.005093812942504883, "tests_passed": true, "error": null}
+{"code": " decoded_str.encode().decode()", "compilation_passed": true, "time": 0.005114078521728516, "tests_passed": true, "error": null}
+{"code": " codecs.encode(decoded_str, \"utf-8\").decode()", "compilation_passed": true, "time": 0.005224943161010742, "tests_passed": true, "error": null}
+{"code": " decoded_str.encode('utf-8').decode('utf-8')", "compilation_passed": true, "time": 0.00522923469543457, "tests_passed": true, "error": null}
+{"code": " decoded_str.encode(\"utf-8\").decode()", "compilation_passed": true, "time": 0.005124092102050781, "tests_passed": true, "error": null}
+{"code": " decoded_str.encode().decode(\"utf-8\")", "compilation_passed": true, "time": 0.005141019821166992, "tests_passed": true, "error": null}
+{"code": " codecs.encode(decoded_str.encode(), \"utf-8\").decode()", "compilation_passed": true, "time": 0.015697002410888672, "tests_passed": false, "error": "TypeError"}

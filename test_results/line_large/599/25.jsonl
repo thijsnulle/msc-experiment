@@ -1,0 +1,19 @@
+{"code": " '^' + letter", "compilation_passed": true, "time": 0.02775883674621582, "tests_passed": true, "error": null}
+{"code": " f\"^{letter}\"", "compilation_passed": true, "time": 0.029671907424926758, "tests_passed": true, "error": null}
+{"code": " re.compile(rf\"^{letter}\")", "compilation_passed": true, "time": 0.012637138366699219, "tests_passed": false, "error": "NameError"}
+{"code": " r'^' + letter", "compilation_passed": true, "time": 0.02951192855834961, "tests_passed": true, "error": null}
+{"code": " re.compile(r'\\b'+letter, re.IGNORECASE)", "compilation_passed": true, "time": 0.011345863342285156, "tests_passed": false, "error": "NameError"}
+{"code": " '^' + letter + '.*'", "compilation_passed": true, "time": 0.030443191528320312, "tests_passed": true, "error": null}
+{"code": " f'^[{letter}][a-z]+$'", "compilation_passed": true, "time": 0.031013011932373047, "tests_passed": true, "error": null}
+{"code": " f\"^{letter}.*\"", "compilation_passed": true, "time": 0.032421112060546875, "tests_passed": true, "error": null}
+{"code": " r'^[a-z]'  # regular expression for words starting with lowercase letters", "compilation_passed": true, "time": 0.026188135147094727, "tests_passed": true, "error": null}
+{"code": " r'^{}\\w+'.format(letter)", "compilation_passed": true, "time": 0.03170132637023926, "tests_passed": true, "error": null}
+{"code": " r'^' + letter + r'[a-z]{1,5}$'", "compilation_passed": true, "time": 0.026484251022338867, "tests_passed": true, "error": null}
+{"code": " r'^{0}[a-z]+'.format(letter)", "compilation_passed": true, "time": 0.03007817268371582, "tests_passed": true, "error": null}
+{"code": " r'^\\s*' + letter + r'\\S+'", "compilation_passed": true, "time": 0.031035900115966797, "tests_passed": true, "error": null}
+{"code": " r'^[a-zA-Z]' + letter", "compilation_passed": true, "time": 0.016059160232543945, "tests_passed": true, "error": null}
+{"code": " '^[' + letter + ']'", "compilation_passed": true, "time": 0.0377657413482666, "tests_passed": true, "error": null}
+{"code": " r'^[%s]' % letter", "compilation_passed": true, "time": 0.0298459529876709, "tests_passed": true, "error": null}
+{"code": " r'^' + letter + r'\\w+'", "compilation_passed": true, "time": 0.03135800361633301, "tests_passed": true, "error": null}
+{"code": " r'^\\b' + letter + r'\\w*'", "compilation_passed": true, "time": 0.03328704833984375, "tests_passed": true, "error": null}
+{"code": " r'^[a]'", "compilation_passed": true, "time": 0.027009010314941406, "tests_passed": true, "error": null}

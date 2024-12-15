@@ -1,0 +1,8 @@
+{"code": " collections.OrderedDict(sorted(ranking.items(), key=lambda t: t[1], reverse=True))", "compilation_passed": true, "time": 0.008573055267333984, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.OrderedDict(sorted(ranking.items(), key=lambda x: x[1], reverse=True))", "compilation_passed": true, "time": 0.006541252136230469, "tests_passed": false, "error": "AttributeError"}
+{"code": " sorted(ranking.items(), key=lambda x: x[1], reverse=True)", "compilation_passed": true, "time": 0.00704193115234375, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.OrderedDict()", "compilation_passed": true, "time": 0.009888887405395508, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.OrderedDict(", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " collections.OrderedDict(sorted(ranking.items(), key=lambda item: item[1], reverse=True))", "compilation_passed": true, "time": 0.005950212478637695, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.OrderedDict(sorted(ranking.items(), key=lambda item: -item[1]))", "compilation_passed": true, "time": 0.006188869476318359, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.OrderedDict(sorted(ranking.items(), key=lambda kv: kv[1], reverse=True))", "compilation_passed": true, "time": 0.006122112274169922, "tests_passed": false, "error": "AttributeError"}

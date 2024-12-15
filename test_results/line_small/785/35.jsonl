@@ -1,0 +1,27 @@
+{"code": " os.path.basename(pattern)", "compilation_passed": true, "time": 0.22510004043579102, "tests_passed": true, "error": null}
+{"code": " f'{os.path.basename(pattern)}_%Y%m%d%H%M%S'", "compilation_passed": true, "time": 0.2198340892791748, "tests_passed": true, "error": null}
+{"code": " f'archive{len(file_list)}'", "compilation_passed": true, "time": 0.21964478492736816, "tests_passed": true, "error": null}
+{"code": " 'archive_' + datetime.datetime.now().strftime('%Y_%m_%d_%H_%M_%S')", "compilation_passed": true, "time": 0.01423788070678711, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.basename(pattern).replace('*', '')", "compilation_passed": true, "time": 0.23316097259521484, "tests_passed": true, "error": null}
+{"code": " f'{os.path.basename(file_list[0])}_archive'", "compilation_passed": true, "time": 0.24158382415771484, "tests_passed": true, "error": null}
+{"code": " os.path.basename(pattern) + '_'", "compilation_passed": true, "time": 0.2189168930053711, "tests_passed": true, "error": null}
+{"code": " 'archive.tar.gz'", "compilation_passed": true, "time": 0.21805596351623535, "tests_passed": true, "error": null}
+{"code": " f\"{os.path.basename(file_list[0])}\".split('.')[0]", "compilation_passed": true, "time": 0.2177259922027588, "tests_passed": true, "error": null}
+{"code": " os.path.basename(pattern) + '_' + str(time.time())", "compilation_passed": true, "time": 0.014821767807006836, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.join(ARCHIVE_DIR, f\"archive-{os.urandom(4).hex()}\")", "compilation_passed": true, "time": 0.22015094757080078, "tests_passed": true, "error": null}
+{"code": " f\"{os.path.basename(pattern)}_%Y%m%d_%H%M%S\"", "compilation_passed": true, "time": 0.21646595001220703, "tests_passed": true, "error": null}
+{"code": " pattern.split('.')[0] + '_' + str(random.randint(1, 1000))", "compilation_passed": true, "time": 0.015563011169433594, "tests_passed": false, "error": "NameError"}
+{"code": " 'archive'", "compilation_passed": true, "time": 0.22080016136169434, "tests_passed": true, "error": null}
+{"code": " f\"{pattern.replace('.', '_')}_%Y%m%d_%H%M%S.zip\"", "compilation_passed": true, "time": 0.07716703414916992, "tests_passed": true, "error": null}
+{"code": " 'archive_{time}.tar.gz'.format(time=datetime.now().strftime('%Y%m%d_%H%M%S'))", "compilation_passed": true, "time": 0.014457225799560547, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.join(ARCHIVE_DIR, os.path.basename(pattern))", "compilation_passed": true, "time": 0.2171788215637207, "tests_passed": true, "error": null}
+{"code": " pattern.replace('*', '')", "compilation_passed": true, "time": 0.2220139503479004, "tests_passed": true, "error": null}
+{"code": " os.path.join(ARCHIVE_DIR, os.path.splitext(os.path.basename(file_list[0]))[0])", "compilation_passed": true, "time": 0.21808314323425293, "tests_passed": true, "error": null}
+{"code": " 'archive_' + pattern.split('.')[0]", "compilation_passed": true, "time": 0.21506714820861816, "tests_passed": true, "error": null}
+{"code": " f\"{os.path.basename(file_list[0])}.{uuid.uuid4()}\"", "compilation_passed": true, "time": 0.014543771743774414, "tests_passed": false, "error": "NameError"}
+{"code": " f\"archive_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}\"", "compilation_passed": true, "time": 0.009038209915161133, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.join(ARCHIVE_DIR, 'archive')", "compilation_passed": true, "time": 0.21794700622558594, "tests_passed": true, "error": null}
+{"code": " f'{os.path.basename(pattern).replace(\".\", \"_\")}_archive'", "compilation_passed": true, "time": 0.22011637687683105, "tests_passed": true, "error": null}
+{"code": " f'{os.path.basename(pattern)}_' + \\", "compilation_passed": false, "time": 0.00032782554626464844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " os.path.join(ARCHIVE_DIR, os.path.basename(pattern).replace('*', '_'))", "compilation_passed": true, "time": 0.21773600578308105, "tests_passed": true, "error": null}
+{"code": " 'archive_' + os.path.splitext(file_list[0])[1][1:]", "compilation_passed": true, "time": 0.2158820629119873, "tests_passed": true, "error": null}

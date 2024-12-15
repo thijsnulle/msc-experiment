@@ -1,0 +1,5 @@
+{"code": " abs_corr_matrix.max().max()", "compilation_passed": true, "time": 0.16558313369750977, "tests_passed": true, "error": null}
+{"code": " abs_corr_matrix.unstack().max()", "compilation_passed": true, "time": 0.17760276794433594, "tests_passed": true, "error": null}
+{"code": " np.triu(abs_corr_matrix, 1).max()", "compilation_passed": true, "time": 0.1754610538482666, "tests_passed": true, "error": null}
+{"code": " np.triu(abs_corr_matrix, k=1).max()", "compilation_passed": true, "time": 0.0491788387298584, "tests_passed": true, "error": null}
+{"code": " float(\"-inf\")", "compilation_passed": true, "time": 0.011777162551879883, "tests_passed": false, "error": "IndexError"}

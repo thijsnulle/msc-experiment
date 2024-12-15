@@ -1,0 +1,4 @@
+{"code": " np.array(list_).reshape(-1, 1)", "compilation_passed": true, "time": 0.007770061492919922, "tests_passed": true, "error": null}
+{"code": " np.reshape(list_, (1, -1))", "compilation_passed": true, "time": 0.010363101959228516, "tests_passed": true, "error": null}
+{"code": " np.reshape(np.array(list_), (-1, 1))", "compilation_passed": true, "time": 0.006818056106567383, "tests_passed": true, "error": null}
+{"code": " np.reshape(list_, (-1, 1))", "compilation_passed": true, "time": 0.0073010921478271484, "tests_passed": true, "error": null}

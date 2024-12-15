@@ -1,0 +1,15 @@
+{"code": " df[df['Z_score'].abs() > z_threshold]", "compilation_passed": true, "time": 0.4859182834625244, "tests_passed": true, "error": null}
+{"code": " df[np.abs(df['Z_score']) > z_threshold]", "compilation_passed": true, "time": 0.2630300521850586, "tests_passed": true, "error": null}
+{"code": " df[(abs(df['Z_score']) >= z_threshold)]", "compilation_passed": true, "time": 0.29384708404541016, "tests_passed": true, "error": null}
+{"code": " df[np.abs(df['Z_score']) >= z_threshold]", "compilation_passed": true, "time": 0.2382059097290039, "tests_passed": true, "error": null}
+{"code": " df[abs(df['Z_score']) > z_threshold]", "compilation_passed": true, "time": 0.21570515632629395, "tests_passed": true, "error": null}
+{"code": " df[df['Z_score'].abs() > z_threshold][['closing_price']]", "compilation_passed": true, "time": 0.11631894111633301, "tests_passed": false, "error": "KeyError"}
+{"code": " df[abs(df['Z_score']) >= z_threshold]", "compilation_passed": true, "time": 0.22824501991271973, "tests_passed": true, "error": null}
+{"code": " df.loc[abs(df['Z_score']) > z_threshold]", "compilation_passed": true, "time": 0.24199914932250977, "tests_passed": true, "error": null}
+{"code": " df[(df['Z_score'] < -z_threshold) | (df['Z_score'] > z_threshold)]", "compilation_passed": true, "time": 0.23015713691711426, "tests_passed": true, "error": null}
+{"code": " df[(df['Z_score'] > z_threshold) | (df['Z_score'] < -z_threshold)]", "compilation_passed": true, "time": 0.23264312744140625, "tests_passed": true, "error": null}
+{"code": " df[(abs(df['Z_score']) > z_threshold) & (df['closing_price'] > 0)]", "compilation_passed": true, "time": 0.2328808307647705, "tests_passed": true, "error": null}
+{"code": " df[np.absolute(df['Z_score']) > z_threshold]", "compilation_passed": true, "time": 0.2320561408996582, "tests_passed": true, "error": null}
+{"code": " df.loc[df['Z_score'].abs() > z_threshold]", "compilation_passed": true, "time": 0.22948408126831055, "tests_passed": true, "error": null}
+{"code": " df[df['Z_score'].abs() >= z_threshold]", "compilation_passed": true, "time": 0.2422499656677246, "tests_passed": true, "error": null}
+{"code": " df.loc[abs(df['Z_score']) > z_threshold, 'closing_price']", "compilation_passed": true, "time": 0.0717461109161377, "tests_passed": false, "error": "KeyError"}

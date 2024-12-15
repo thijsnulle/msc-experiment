@@ -1,0 +1,12 @@
+{"code": " [", "compilation_passed": false, "time": 0.00010704994201660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": false, "time": 0.00013399124145507812, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.diff(np.array(list(map(lambda x: datetime.strptime(x, TIME_FORMAT), time_strings))))", "compilation_passed": false, "time": 0.00015425682067871094, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.zeros(len(time_strings) - 1)", "compilation_passed": false, "time": 0.00013399124145507812, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.diff([datetime.strptime(s, TIME_FORMAT) for s in time_strings])", "compilation_passed": false, "time": 0.0001430511474609375, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.diff([datetime.strptime(time_string, TIME_FORMAT) for time_string in time_strings])", "compilation_passed": false, "time": 0.00014519691467285156, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.diff([datetime.strptime(t, TIME_FORMAT) for t in time_strings])", "compilation_passed": false, "time": 0.0001399517059326172, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.diff([datetime.datetime.strptime(ts, TIME_FORMAT) for ts in time_strings])", "compilation_passed": false, "time": 0.00015020370483398438, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.diff(list(map(lambda time_str: datetime.strptime(time_str, TIME_FORMAT).timestamp(), time_strings))).astype(int)", "compilation_passed": false, "time": 0.0001621246337890625, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.diff([datetime.strptime(t, TIME_FORMAT) for t in time_strings]).astype('float') / 1e9", "compilation_passed": false, "time": 0.00016498565673828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " [datetime.strptime(time_strings[i+1], TIME_FORMAT) - datetime.strptime(time_strings[i], TIME_FORMAT) for i in range(len(time_strings)-1)]", "compilation_passed": false, "time": 0.00016570091247558594, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.diff(np.array([datetime.strptime(t, TIME_FORMAT) for t in time_strings]), axis=0).astype('int64') // 10 ** 9", "compilation_passed": false, "time": 0.0001709461212158203, "tests_passed": false, "error": "IndentationError"}

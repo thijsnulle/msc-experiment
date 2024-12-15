@@ -1,0 +1,5 @@
+{"code": " list(itertools.chain(*int_list))", "compilation_passed": true, "time": 0.0031919479370117188, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(int_list))", "compilation_passed": true, "time": 0.002959012985229492, "tests_passed": true, "error": null}
+{"code": " [num for sublist in int_list for num in sublist]", "compilation_passed": true, "time": 0.002994060516357422, "tests_passed": true, "error": null}
+{"code": " [item for sublist in int_list for item in sublist]", "compilation_passed": true, "time": 0.002727031707763672, "tests_passed": true, "error": null}
+{"code": " [int(x) for x in itertools.chain(*int_list)]", "compilation_passed": true, "time": 0.0029299259185791016, "tests_passed": true, "error": null}

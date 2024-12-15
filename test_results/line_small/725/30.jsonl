@@ -1,0 +1,21 @@
+{"code": " codecs.open(filename, encoding=from_encoding) as file:", "compilation_passed": true, "time": 0.008399248123168945, "tests_passed": true, "error": null}
+{"code": " open(filename, encoding=from_encoding) as f_in:", "compilation_passed": true, "time": 0.01810598373413086, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(filename, mode='rb') as file:", "compilation_passed": true, "time": 0.015743017196655273, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.open(filename, encoding=from_encoding) as file_from:", "compilation_passed": true, "time": 0.011230945587158203, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(filename, 'r', encoding=from_encoding) as file:", "compilation_passed": true, "time": 0.016366243362426758, "tests_passed": true, "error": null}
+{"code": " open(filename, 'rb') as f_in:", "compilation_passed": true, "time": 0.013070106506347656, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " codecs.open(filename, 'r', from_encoding) as file:", "compilation_passed": true, "time": 0.01584911346435547, "tests_passed": true, "error": null}
+{"code": " open(filename, 'rb') as file_in, open(filename, 'wb') as file_out:", "compilation_passed": true, "time": 0.023826122283935547, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " codecs.open(filename, 'r', encoding=from_encoding) as f_in:", "compilation_passed": true, "time": 0.014901161193847656, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " codecs.open(filename, encoding=from_encoding, mode='r') as f:", "compilation_passed": true, "time": 0.012375831604003906, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " codecs.open(filename, 'r', encoding=from_encoding) as input_file:", "compilation_passed": true, "time": 0.011619806289672852, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " codecs.open(filename, encoding=from_encoding, mode='r', errors='replace') as f_in, open(filename, mode='w', encoding=to_encoding, errors='replace') as f_out:", "compilation_passed": true, "time": 0.014251947402954102, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " codecs.open(filename, encoding=from_encoding) as f_in:", "compilation_passed": true, "time": 0.009103775024414062, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " codecs.open(filename, 'r+', from_encoding) as file:", "compilation_passed": true, "time": 0.009027957916259766, "tests_passed": true, "error": null}
+{"code": " open(filename, 'r+', encoding=from_encoding) as file:", "compilation_passed": true, "time": 0.009105205535888672, "tests_passed": true, "error": null}
+{"code": " codecs.open(filename, 'r', from_encoding) as f_in:", "compilation_passed": true, "time": 0.00994420051574707, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(filename, 'r', encoding=from_encoding) as source, \\", "compilation_passed": false, "time": 0.00018095970153808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " codecs.open(filename, 'rb', from_encoding) as file:", "compilation_passed": true, "time": 0.007422208786010742, "tests_passed": true, "error": null}
+{"code": " codecs.open(filename, 'r', from_encoding) as f:", "compilation_passed": true, "time": 0.008973121643066406, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(filename, encoding=from_encoding) as infile:", "compilation_passed": true, "time": 0.008964061737060547, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " codecs.open(filename, encoding=from_encoding) as input_file:", "compilation_passed": true, "time": 0.008934974670410156, "tests_passed": false, "error": "UnboundLocalError"}

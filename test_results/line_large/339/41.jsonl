@@ -1,0 +1,16 @@
+{"code": " urllib.parse.quote(hmac_signature)", "compilation_passed": true, "time": 0.004363059997558594, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(hmac_signature, safe='')", "compilation_passed": true, "time": 0.004404306411743164, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote_plus(hmac_signature)", "compilation_passed": true, "time": 0.004426002502441406, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(hmac_signature).replace(' ', '+')", "compilation_passed": true, "time": 0.004402875900268555, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote_plus(hmac_signature)  # Use quote_plus to convert spaces to '+'", "compilation_passed": true, "time": 0.004346132278442383, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote_plus(hmac_signature, safe='')  # '+' for spaces", "compilation_passed": true, "time": 0.004494905471801758, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote_plus(hmac_signature)  # Replace spaces with '+'", "compilation_passed": true, "time": 0.004395961761474609, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(hmac_signature).replace(\"%20\", \"+\")", "compilation_passed": true, "time": 0.004445075988769531, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(hmac_signature, safe=\"\")", "compilation_passed": true, "time": 0.004454851150512695, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(hmac_signature)  # Replace spaces with '+'", "compilation_passed": true, "time": 0.0031180381774902344, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(hmac_signature).replace('+', ' ')", "compilation_passed": true, "time": 0.004436969757080078, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote_plus(hmac_signature, safe='')", "compilation_passed": true, "time": 0.0030748844146728516, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(hmac_signature, safe='')  # '+' will replace spaces by default", "compilation_passed": true, "time": 0.004418134689331055, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote_plus(hmac_signature)  # Use quote_plus to replace spaces with '+'", "compilation_passed": true, "time": 0.003690004348754883, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(hmac_signature)  # URL encode the signature", "compilation_passed": true, "time": 0.004421234130859375, "tests_passed": true, "error": null}
+{"code": " urllib.parse.quote(hmac_signature, safe='')  # safe='' ensures everything is encoded", "compilation_passed": true, "time": 0.004457950592041016, "tests_passed": true, "error": null}

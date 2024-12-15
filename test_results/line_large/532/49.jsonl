@@ -1,0 +1,5 @@
+{"code": " std = df[\"value\"].mean(), df[\"value\"].std()", "compilation_passed": true, "time": 0.13144922256469727, "tests_passed": true, "error": null}
+{"code": " std = norm.fit(df[\"value\"])", "compilation_passed": true, "time": 0.13304924964904785, "tests_passed": true, "error": null}
+{"code": " std = df.value.mean(), df.value.std()", "compilation_passed": true, "time": 0.12861275672912598, "tests_passed": true, "error": null}
+{"code": " std = np.mean(df[\"value\"]), np.std(df[\"value\"])", "compilation_passed": true, "time": 0.12740397453308105, "tests_passed": true, "error": null}
+{"code": " std = norm.fit(df[\"value\"])  # Fit a normal distribution to the data", "compilation_passed": true, "time": 0.1268148422241211, "tests_passed": true, "error": null}

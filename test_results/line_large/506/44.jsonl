@@ -1,0 +1,5 @@
+{"code": " df[column]", "compilation_passed": true, "time": 0.4417910575866699, "tests_passed": true, "error": null}
+{"code": " df[column] if not df.empty else []", "compilation_passed": true, "time": 0.4488668441772461, "tests_passed": true, "error": null}
+{"code": " df[column] if not df.empty else pd.DataFrame(columns=[column])", "compilation_passed": true, "time": 0.4687669277191162, "tests_passed": false, "error": "ValueError"}
+{"code": " df.get(column)", "compilation_passed": true, "time": 0.4222698211669922, "tests_passed": true, "error": null}
+{"code": " df[column].to_list()", "compilation_passed": true, "time": 0.4146299362182617, "tests_passed": true, "error": null}

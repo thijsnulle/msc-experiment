@@ -1,0 +1,5 @@
+{"code": " pattern.sub(word.replace(\" \", \"_\"), sentence)", "compilation_passed": true, "time": 0.011288642883300781, "tests_passed": true, "error": null}
+{"code": " pattern.sub(word.replace(' ', '_'), sentence)", "compilation_passed": true, "time": 0.011595964431762695, "tests_passed": true, "error": null}
+{"code": " re.sub(pattern, re.sub(r\" \", \"_\", word), sentence)", "compilation_passed": true, "time": 0.018181800842285156, "tests_passed": true, "error": null}
+{"code": " pattern.sub(re.sub(r\"\\s\", \"_\", word), sentence)", "compilation_passed": true, "time": 0.013813018798828125, "tests_passed": true, "error": null}
+{"code": " re.sub(pattern, word.replace(\" \", \"_\"), sentence)", "compilation_passed": true, "time": 0.013203859329223633, "tests_passed": true, "error": null}

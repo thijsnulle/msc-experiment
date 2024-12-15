@@ -1,0 +1,15 @@
+{"code": " pd.date_range(start_date, end_date, freq=\"d\")", "compilation_passed": true, "time": 0.09159088134765625, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start=start_date, end=end_date, freq=\"D\")", "compilation_passed": true, "time": 0.05270028114318848, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, end_date, freq=\"D\")", "compilation_passed": true, "time": 0.046647071838378906, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, end_date, freq=\"1D\")", "compilation_passed": true, "time": 0.046170949935913086, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, end_date, freq='d')", "compilation_passed": true, "time": 0.04636883735656738, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, end_date, freq=\"D\").astype(datetime).tolist()", "compilation_passed": true, "time": 0.015471935272216797, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.date_range(start=start_date, end=end_date, freq=\"D\").tolist()", "compilation_passed": true, "time": 0.04644513130187988, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, end_date, freq=\"D\").strftime(\"%Y-%m-%d\")", "compilation_passed": true, "time": 0.014225006103515625, "tests_passed": true, "error": null}
+{"code": " pd.date_range(", "compilation_passed": false, "time": 0.0003459453582763672, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [", "compilation_passed": false, "time": 0.00028204917907714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.date_range(start_date, end_date)", "compilation_passed": true, "time": 0.04669475555419922, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, end_date, freq='D')", "compilation_passed": true, "time": 0.045583248138427734, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, end_date, freq=\"d\").normalize()", "compilation_passed": true, "time": 0.0252683162689209, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start=start_date.date(), end=end_date.date()).to_pydatetime()", "compilation_passed": true, "time": 0.016327857971191406, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start=start_date, end=end_date, freq='1D').tolist()", "compilation_passed": true, "time": 0.04466986656188965, "tests_passed": true, "error": null}

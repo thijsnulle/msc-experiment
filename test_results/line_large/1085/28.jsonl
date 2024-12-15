@@ -1,0 +1,14 @@
+{"code": " re.sub(r'[^\\w\\s]', '', text.lower()).strip()", "compilation_passed": true, "time": 0.27366209030151367, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text.lower()).split()", "compilation_passed": true, "time": 0.009009838104248047, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r'[^\\w\\s]', '', text.lower())", "compilation_passed": true, "time": 0.279263973236084, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\W\", \" \", text)", "compilation_passed": true, "time": 0.07655906677246094, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', text).lower()", "compilation_passed": true, "time": 0.2601180076599121, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text.lower())  # Remove punctuation", "compilation_passed": true, "time": 0.2569539546966553, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W', ' ', text).lower().split()", "compilation_passed": true, "time": 0.008482933044433594, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r\"\\W\", \" \", text).lower().split()", "compilation_passed": true, "time": 0.008639097213745117, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r'[^\\w\\s]', '', text).lower()", "compilation_passed": true, "time": 0.24532604217529297, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', text.lower()).split()", "compilation_passed": true, "time": 0.008919954299926758, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r'[^\\w\\s]', '', text.lower())  # Remove punctuation and lowercase", "compilation_passed": true, "time": 0.2502892017364502, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text).lower().split()", "compilation_passed": true, "time": 0.009053230285644531, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r'\\W', ' ', text.lower())  # Remove punctuation and convert to lowercase", "compilation_passed": true, "time": 5.757178783416748, "tests_passed": false, "error": "TimeoutError"}
+{"code": " re.sub(r\"[^\\w\\s]\", \"\", text.lower())  # Remove punctuation", "compilation_passed": true, "time": 0.30942273139953613, "tests_passed": true, "error": null}

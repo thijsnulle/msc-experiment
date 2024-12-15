@@ -1,0 +1,14 @@
+{"code": " []", "compilation_passed": true, "time": 0.008611202239990234, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'\\b\\w+\\b', lambda m: random.random() < 0.5 and m.group(0) or '', s).strip() for s in data_list]", "compilation_passed": true, "time": 0.011055231094360352, "tests_passed": false, "error": "ValueError"}
+{"code": " df['Original String'].apply(lambda s: re.sub(r'\\b\\w+\\b', lambda m: random.choice(re.findall(r'\\b\\w+\\b', m.group())), s))", "compilation_passed": true, "time": 0.009221315383911133, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[\"Original String\"].apply(", "compilation_passed": false, "time": 0.00016307830810546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [re.sub(r'^(\\w+), (\\w+)(,.*)$', r'\\1\\3', s)", "compilation_passed": false, "time": 0.00019621849060058594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[\"Original String\"].apply(lambda x: \" \".join([word for word in re.split(r\"\\s*,\\s*\", x) if word != random.choice(re.split(r\"\\s*,\\s*\", x))]))", "compilation_passed": true, "time": 0.009493112564086914, "tests_passed": false, "error": "AttributeError"}
+{"code": " [", "compilation_passed": false, "time": 0.0001728534698486328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[\"Original String\"].str.split(\",\").map(lambda x: random.sample(x, len(x) - 1)).map(\", \".join)", "compilation_passed": true, "time": 0.009129047393798828, "tests_passed": false, "error": "AttributeError"}
+{"code": " [re.sub(r\"^(?=\\S)(?!.*?(?=\\S)\\1)[^,]+\", \"\", s, count=1) for s in data_list]", "compilation_passed": true, "time": 0.012218713760375977, "tests_passed": false, "error": "re.error"}
+{"code": " df[\"Original String\"].apply(lambda x: re.sub(r\"\\b(\\w+)(?:\\,\\s\\w+)*\\b\", \"\\\\1\", x))", "compilation_passed": true, "time": 0.009263992309570312, "tests_passed": false, "error": "AttributeError"}
+{"code": " [re.sub(r'\\b[^,]+, ?$', '', s) for s in df[\"Original String\"]]", "compilation_passed": true, "time": 0.008182048797607422, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Original String\"].apply(lambda s: re.sub(r\"^[^,]+,|,[^,]+$\", \"\", s))", "compilation_passed": true, "time": 0.008361101150512695, "tests_passed": false, "error": "AttributeError"}
+{"code": " [re.sub(r'\\b\\w+,\\s*', '', s) for s in df[\"Original String\"]]", "compilation_passed": true, "time": 0.00830221176147461, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Original String\"].apply(lambda x: \", \".join(random.choice(re.split(r',\\s*', x)) for _ in x))", "compilation_passed": true, "time": 0.00867605209350586, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,21 @@
+{"code": " df.groupby('id').apply(lambda x: scaler.fit_transform(x.loc[:, ['age', 'income']])).reset_index()", "compilation_passed": false, "time": 0.00017213821411132812, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id')[['age', 'income']].apply(lambda x: scaler.transform(x.values.reshape(1, -1)))", "compilation_passed": false, "time": 0.00017189979553222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id')", "compilation_passed": false, "time": 0.0001418590545654297, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id').agg({'age': 'min', 'income': ['min', 'max', 'mean']})", "compilation_passed": false, "time": 0.0001659393310546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(['id']).apply(lambda x: scaler.fit_transform(x[['age','income']])).reset_index(drop=True)", "compilation_passed": false, "time": 0.00017499923706054688, "tests_passed": false, "error": "IndentationError"}
+{"code": " scaler.fit_transform(df.groupby(['id'])['age', 'income'].transform(pd.DataFrame.mean))", "compilation_passed": false, "time": 0.0001399517059326172, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id').agg({'age': scaler.fit_transform,'income': scaler.fit_transform})", "compilation_passed": false, "time": 0.00015687942504882812, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"id\")", "compilation_passed": false, "time": 0.00010609626770019531, "tests_passed": false, "error": "IndentationError"}
+{"code": " scaler.fit_transform(df)", "compilation_passed": false, "time": 0.0001049041748046875, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id').apply(lambda x: scaler.fit_transform(pd.DataFrame(x[['age', 'income']]))).reset_index(drop=True)", "compilation_passed": false, "time": 0.00018310546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id')[['age', 'income']]", "compilation_passed": false, "time": 0.00015425682067871094, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"id\").apply(lambda x: scaler.fit_transform(x[[\"age\", \"income\"]])).reset_index(drop=True)", "compilation_passed": false, "time": 0.00017404556274414062, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id').apply(lambda x: scaler.fit_transform(np.reshape(x[[\"age\",\"income\"]], (1, 2)))).reset_index()", "compilation_passed": false, "time": 0.00017523765563964844, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"id\").apply(lambda df: scaler.fit_transform(df[[\"age\", \"income\"]]))", "compilation_passed": false, "time": 0.00016880035400390625, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id')['age', 'income'].agg(scaler.transform)", "compilation_passed": false, "time": 0.00015473365783691406, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id').apply(lambda x: pd.DataFrame({'Age': x['Age'], 'Income': x['Income']}))", "compilation_passed": false, "time": 0.00017189979553222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id')[['age', 'income']].apply(lambda x: scaler.fit_transform(x.values.reshape(-1, 1)))", "compilation_passed": false, "time": 0.00017309188842773438, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id').apply(lambda x: scaler.fit_transform(x.loc[:, ['age', 'income']].values))", "compilation_passed": false, "time": 0.00016999244689941406, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id')['age','income'].apply(lambda x:scaler.transform(x))", "compilation_passed": false, "time": 0.00016307830810546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(['id'])[['age', 'income']].agg(", "compilation_passed": true, "time": 0.07700037956237793, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby('id')[['age','income']].agg(['mean','std','size'])", "compilation_passed": false, "time": 0.00017213821411132812, "tests_passed": false, "error": "IndentationError"}

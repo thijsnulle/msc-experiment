@@ -1,0 +1,9 @@
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.10904502868652344, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or not all(col in df.columns for col in ['group', 'date', 'value']):", "compilation_passed": true, "time": 0.15970301628112793, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or 'group' not in df.columns or 'date' not in df.columns or 'value' not in df.columns:", "compilation_passed": true, "time": 0.15624594688415527, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or any(col not in df.columns for col in [\"group\", \"date\", \"value\"]):", "compilation_passed": true, "time": 0.15789318084716797, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or not all([col in df.columns for col in ['group', 'date', 'value']]):", "compilation_passed": true, "time": 0.15970921516418457, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or not all(column in df.columns for column in [\"group\", \"date\", \"value\"]):", "compilation_passed": true, "time": 0.168687105178833, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or not (\"group\" in df.columns and \"date\" in df.columns and \"value\" in df.columns):", "compilation_passed": true, "time": 0.1790308952331543, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or not set(['group', 'date', 'value']).issubset(df.columns):", "compilation_passed": true, "time": 2.1607611179351807, "tests_passed": false, "error": "TimeoutError"}
+{"code": " not isinstance(df, pd.DataFrame) or any(col not in df.columns for col in ['group', 'date', 'value']):", "compilation_passed": true, "time": 0.16477489471435547, "tests_passed": true, "error": null}

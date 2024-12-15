@@ -1,0 +1,13 @@
+{"code": " df[\"Text\"].str.replace(\"[^a-zA-Z]+\", \" \", regex=True)", "compilation_passed": true, "time": 0.09352612495422363, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].str.strip()", "compilation_passed": true, "time": 0.3536849021911621, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].str.replace(\"[^\\w\\s]\", \"\")", "compilation_passed": true, "time": 0.3264038562774658, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].astype(str)", "compilation_passed": true, "time": 0.34377384185791016, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].fillna(\"\")", "compilation_passed": true, "time": 0.5904488563537598, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].str.lower()", "compilation_passed": true, "time": 0.31731581687927246, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].str.replace(r'[^\\w\\s]', '').str.replace('\\d', '').str.lower()", "compilation_passed": true, "time": 0.3276631832122803, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].str.replace(\"[^a-zA-Z0-9\\s]\", \"\", regex=True)  # Remove non-alphabetic characters", "compilation_passed": true, "time": 0.3574559688568115, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].str.replace(r\"[^\\w\\s]\", \"\")  # Remove punctuation", "compilation_passed": true, "time": 0.3603341579437256, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].astype(str)  # ensure 'Text' column is treated as strings", "compilation_passed": true, "time": 0.32645511627197266, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].astype(str).str.lower()", "compilation_passed": true, "time": 0.3370778560638428, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].fillna(\"\")  # Fill NaN values with empty strings", "compilation_passed": true, "time": 0.4168379306793213, "tests_passed": true, "error": null}
+{"code": " df[\"Text\"].str.replace(r\"\\W+\", \" \").str.lower()", "compilation_passed": true, "time": 0.6215178966522217, "tests_passed": true, "error": null}

@@ -1,0 +1,10 @@
+{"code": " pd.to_numeric(df[col], errors='coerce')", "compilation_passed": true, "time": 0.19096899032592773, "tests_passed": false, "error": "KeyError"}
+{"code": " df[col].str.replace(',', '').astype('float')", "compilation_passed": true, "time": 0.017946243286132812, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.to_numeric(df[col], errors='coerce', downcast='float')", "compilation_passed": true, "time": 0.20461201667785645, "tests_passed": false, "error": "KeyError"}
+{"code": " df[col].apply(", "compilation_passed": false, "time": 0.00017833709716796875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[col].apply(float, errors='ignore')", "compilation_passed": true, "time": 0.014796018600463867, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.to_numeric(df[col], errors='ignore')", "compilation_passed": true, "time": 0.09834694862365723, "tests_passed": false, "error": "TypeError"}
+{"code": " df[col].str.replace(',', '').astype(float)", "compilation_passed": true, "time": 0.01136016845703125, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[col].astype('float64')", "compilation_passed": true, "time": 0.09070491790771484, "tests_passed": false, "error": "ValueError"}
+{"code": " df[col].astype(float, errors='ignore')", "compilation_passed": true, "time": 0.0899651050567627, "tests_passed": false, "error": "TypeError"}
+{"code": " df[col].apply(lambda x: float(x.replace(',', '')) if isinstance(x, str) and ',' in x else x)", "compilation_passed": true, "time": 0.08932209014892578, "tests_passed": false, "error": "TypeError"}

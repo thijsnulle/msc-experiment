@@ -1,0 +1,12 @@
+{"code": " df.plot.scatter(x=selected_columns[0], y=selected_columns[1])", "compilation_passed": true, "time": 0.27684593200683594, "tests_passed": true, "error": null}
+{"code": " plt.scatter(df[selected_columns[0]], df[selected_columns[1]])", "compilation_passed": true, "time": 0.0218203067779541, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[selected_columns[0]].plot(kind='scatter', x=selected_columns[0], y=selected_columns[1], figsize=(10, 8))", "compilation_passed": true, "time": 0.01164865493774414, "tests_passed": false, "error": "ValueError"}
+{"code": " df.plot.scatter(x=selected_columns[0], y=selected_columns[1], title=f\"Plot of {selected_columns[0]} vs {selected_columns[1]}\")", "compilation_passed": true, "time": 0.30265283584594727, "tests_passed": true, "error": null}
+{"code": " df.plot.scatter(x=selected_columns[0], y=selected_columns[1], figsize=(5, 5))", "compilation_passed": true, "time": 0.3003048896789551, "tests_passed": true, "error": null}
+{"code": " df.plot.scatter(x=selected_columns[0], y=selected_columns[1], figsize=(5, 4), title=' '.join(selected_columns))", "compilation_passed": true, "time": 0.28105759620666504, "tests_passed": true, "error": null}
+{"code": " df[selected_columns].plot(kind='scatter', x=selected_columns[0], y=selected_columns[1])", "compilation_passed": true, "time": 0.2746729850769043, "tests_passed": true, "error": null}
+{"code": " df[selected_columns[0]].plot.scatter(x=selected_columns[0], y=selected_columns[1])", "compilation_passed": true, "time": 0.025557756423950195, "tests_passed": false, "error": "ValueError"}
+{"code": " df[selected_columns].plot.scatter(x=selected_columns[0], y=selected_columns[1])", "compilation_passed": true, "time": 0.28688788414001465, "tests_passed": true, "error": null}
+{"code": " df.plot.scatter(selected_columns[0], selected_columns[1])", "compilation_passed": true, "time": 0.27716612815856934, "tests_passed": true, "error": null}
+{"code": " df.plot.scatter(x=selected_columns[0], y=selected_columns[1], figsize=(6, 4))", "compilation_passed": true, "time": 0.2786269187927246, "tests_passed": true, "error": null}
+{"code": " df.plot.scatter(x=selected_columns[0], y=selected_columns[1], title=f\"Scatter plot of {selected_columns[0]} and {selected_columns[1]}\")", "compilation_passed": true, "time": 0.2885310649871826, "tests_passed": true, "error": null}

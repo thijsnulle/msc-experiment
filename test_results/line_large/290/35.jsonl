@@ -1,0 +1,5 @@
+{"code": " sum(1 for count in word_counts.values() if count == 1)", "compilation_passed": true, "time": 0.0043849945068359375, "tests_passed": true, "error": null}
+{"code": " len(word_counts)", "compilation_passed": true, "time": 0.004536867141723633, "tests_passed": true, "error": null}
+{"code": " sum(count > 0 for count in word_counts.values())", "compilation_passed": true, "time": 0.004725933074951172, "tests_passed": true, "error": null}
+{"code": " sum(word_counts.values())", "compilation_passed": true, "time": 0.004499197006225586, "tests_passed": true, "error": null}
+{"code": " sum(1 for count in word_counts.values() if count > 1)", "compilation_passed": true, "time": 0.0060689449310302734, "tests_passed": true, "error": null}

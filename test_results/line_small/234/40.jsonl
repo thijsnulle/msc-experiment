@@ -1,0 +1,21 @@
+{"code": "title(\"Linear Regression\")", "compilation_passed": true, "time": 0.03701305389404297, "tests_passed": true, "error": null}
+{"code": "subplots_adjust(left=0.3, bottom=0.5, right=0.7, top=0.8)", "compilation_passed": true, "time": 0.03389787673950195, "tests_passed": true, "error": null}
+{"code": "rcParams['font.sans-serif'] = ['SimHei']", "compilation_passed": true, "time": 0.03599810600280762, "tests_passed": true, "error": null}
+{"code": "plot(df['Age'], df['Score'], marker='o')", "compilation_passed": true, "time": 0.037878990173339844, "tests_passed": true, "error": null}
+{"code": "xlabel('Age')", "compilation_passed": true, "time": 0.10182380676269531, "tests_passed": true, "error": null}
+{"code": "plot(df['Age'], df['Score'], 'o', df['Age_up'], df['Score'], '-')", "compilation_passed": true, "time": 0.039270877838134766, "tests_passed": true, "error": null}
+{"code": "subplots_adjust(bottom=0.2)", "compilation_passed": true, "time": 0.04240298271179199, "tests_passed": true, "error": null}
+{"code": "title('Linear Regression')", "compilation_passed": true, "time": 0.03827095031738281, "tests_passed": true, "error": null}
+{"code": "scatter('Age', 'Score', data=df, color='red', label='Scores')", "compilation_passed": true, "time": 0.15387296676635742, "tests_passed": true, "error": null}
+{"code": "plot(df['Age'], df['Score'], 'bo', label='Original Data')", "compilation_passed": true, "time": 0.0387110710144043, "tests_passed": true, "error": null}
+{"code": "title(\"Linear Regression\", fontsize=16)", "compilation_passed": true, "time": 0.03834080696105957, "tests_passed": true, "error": null}
+{"code": "title(\"Linear Regression: Age and Score\")", "compilation_passed": true, "time": 0.041687965393066406, "tests_passed": true, "error": null}
+{"code": "scatter(df['Age'], df['Score'])", "compilation_passed": true, "time": 0.13827013969421387, "tests_passed": true, "error": null}
+{"code": "plot(df['Age'], df['Score'], color='green', marker='o', linestyle='-')", "compilation_passed": true, "time": 0.04180097579956055, "tests_passed": true, "error": null}
+{"code": "title('Linear Regression: \\n Slope: {}, Intercept: {}'.format(slope, intercept), fontsize=16)", "compilation_passed": true, "time": 0.03989100456237793, "tests_passed": true, "error": null}
+{"code": "plot(df['Age'], df['Score'], 'ro')", "compilation_passed": true, "time": 0.042215824127197266, "tests_passed": true, "error": null}
+{"code": "xlabel(\"Age\")", "compilation_passed": true, "time": 0.03844189643859863, "tests_passed": true, "error": null}
+{"code": "rcParams['font.sans-serif'] = ['SimHei']  # \u6307\u5b9a matplotlib \u5b57\u4f53\u663e\u793a", "compilation_passed": true, "time": 0.039198875427246094, "tests_passed": true, "error": null}
+{"code": "rcParams['font.sans-serif'] = ['SimHei']  # \u6c49\u6587\u652f\u6301", "compilation_passed": true, "time": 0.0392451286315918, "tests_passed": true, "error": null}
+{"code": "subplots_adjust(left=0.2)", "compilation_passed": true, "time": 0.03889203071594238, "tests_passed": true, "error": null}
+{"code": "rcParams['font.size'] = 10", "compilation_passed": true, "time": 0.040038108825683594, "tests_passed": true, "error": null}

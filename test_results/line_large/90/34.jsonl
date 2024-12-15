@@ -1,0 +1,6 @@
+{"code": " not isinstance(k, int) or k < 0:", "compilation_passed": true, "time": 0.00397801399230957, "tests_passed": true, "error": null}
+{"code": " k < 0 or type(k) != int:", "compilation_passed": true, "time": 0.010773897171020508, "tests_passed": false, "error": "TypeError"}
+{"code": " k < 0 or not isinstance(k, int):", "compilation_passed": true, "time": 0.007584810256958008, "tests_passed": false, "error": "TypeError"}
+{"code": " k < 0:", "compilation_passed": true, "time": 0.007230997085571289, "tests_passed": false, "error": "TypeError"}
+{"code": " k < 0 or type(k) is not int:", "compilation_passed": true, "time": 0.00868082046508789, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(k, int) or k <= 0:", "compilation_passed": true, "time": 0.008483171463012695, "tests_passed": false, "error": "ValueError"}

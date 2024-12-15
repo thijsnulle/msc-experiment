@@ -1,0 +1,27 @@
+{"code": "bar(range(1, len(top_words) + 1),", "compilation_passed": false, "time": 0.00022482872009277344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "barh(top_words, range(1, len(top_words)+1), align='center')", "compilation_passed": true, "time": 0.12060284614562988, "tests_passed": false, "error": "TypeError"}
+{"code": "barh(range(1, 11), [freq for word, freq in top_words])", "compilation_passed": true, "time": 0.05573105812072754, "tests_passed": false, "error": "ValueError"}
+{"code": "barh(range(len(top_words)), [freq for (word, freq) in top_words], align='center')", "compilation_passed": true, "time": 0.22270798683166504, "tests_passed": true, "error": null}
+{"code": "barh(top_words)", "compilation_passed": true, "time": 0.05051684379577637, "tests_passed": false, "error": "TypeError"}
+{"code": "bar(range(10), [value for value, _ in top_words], align='center')", "compilation_passed": true, "time": 0.05560302734375, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(top_words, top_words)", "compilation_passed": true, "time": 0.10017609596252441, "tests_passed": false, "error": "TypeError"}
+{"code": "bar(range(10), [val for _, val in top_words])", "compilation_passed": true, "time": 0.05629301071166992, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(range(1, 11), [word_freq[word] for word in top_words])", "compilation_passed": true, "time": 0.05377364158630371, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(range(1, len(top_words) + 1), [freq for word, freq in top_words], align='center')", "compilation_passed": true, "time": 0.19684410095214844, "tests_passed": true, "error": null}
+{"code": "barh(range(10), [value for _, value in top_words])", "compilation_passed": true, "time": 0.0511932373046875, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(top_words, color='black')", "compilation_passed": true, "time": 0.05057787895202637, "tests_passed": false, "error": "TypeError"}
+{"code": "barh(range(10), [count for word, count in top_words])", "compilation_passed": true, "time": 0.05409383773803711, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(list(range(10)), [w[1] for w in top_words])", "compilation_passed": true, "time": 0.052412986755371094, "tests_passed": false, "error": "ValueError"}
+{"code": "barh(range(10), [freq for word, freq in top_words])", "compilation_passed": true, "time": 0.05102109909057617, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(top_words, top_words, align='center', width=0.5, color=\"red\")", "compilation_passed": true, "time": 0.10125494003295898, "tests_passed": false, "error": "TypeError"}
+{"code": "bar(range(10), [freq for word, freq in top_words])", "compilation_passed": true, "time": 0.05381917953491211, "tests_passed": false, "error": "ValueError"}
+{"code": "barh(range(10), [word_freq[word] for word, _ in top_words],", "compilation_passed": false, "time": 0.00023698806762695312, "tests_passed": false, "error": "SyntaxError"}
+{"code": "barh(range(len(top_words)), [x[1] for x in top_words], height=0.8, color='g')", "compilation_passed": true, "time": 0.2067720890045166, "tests_passed": true, "error": null}
+{"code": "bar([i[0] for i in enumerate(top_words)], [i[1] for i in enumerate(top_words)])", "compilation_passed": true, "time": 0.10114288330078125, "tests_passed": false, "error": "TypeError"}
+{"code": "barh(list(range(10)), [freq for word, freq in top_words], align=\"center\")", "compilation_passed": true, "time": 0.052388906478881836, "tests_passed": false, "error": "ValueError"}
+{"code": "bar([i for i in range(len(top_words))], [v for v, _ in top_words], align='center')", "compilation_passed": true, "time": 0.2078409194946289, "tests_passed": true, "error": null}
+{"code": "bar([x for x in range(10)], top_words, width=0.5, color=\"b\")", "compilation_passed": true, "time": 0.05287504196166992, "tests_passed": false, "error": "ValueError"}
+{"code": "bar([word[0] for word in top_words], [word[1] for word in top_words])", "compilation_passed": true, "time": 0.21048593521118164, "tests_passed": true, "error": null}
+{"code": "barh(list(word_freq.keys()), list(word_freq.values()))", "compilation_passed": true, "time": 0.21220016479492188, "tests_passed": true, "error": null}
+{"code": "barh(range(10), [freq for (word, freq) in top_words])", "compilation_passed": true, "time": 0.05101299285888672, "tests_passed": false, "error": "ValueError"}
+{"code": "bar(top_words[0:10], top_words[0:10])", "compilation_passed": true, "time": 0.10799813270568848, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,11 @@
+{"code": "legend()", "compilation_passed": true, "time": 0.23186397552490234, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(prices_df.index, rotation=45)", "compilation_passed": true, "time": 0.23918890953063965, "tests_passed": true, "error": null}
+{"code": "grid(True)", "compilation_passed": true, "time": 0.24227023124694824, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(prices_df.index.strftime('%B %Y'))", "compilation_passed": true, "time": 0.25409412384033203, "tests_passed": true, "error": null}
+{"code": "grid()", "compilation_passed": true, "time": 0.24421095848083496, "tests_passed": true, "error": null}
+{"code": "legend(['Price'])", "compilation_passed": true, "time": 0.04180598258972168, "tests_passed": false, "error": "TypeError"}
+{"code": "legend(title='Stock Price Series', loc='upper right')", "compilation_passed": true, "time": 0.039073944091796875, "tests_passed": false, "error": "TypeError"}
+{"code": "set_xlim(pd.to_datetime(start_date), pd.to_datetime(start_date) + pd.DateOffset(weeks=periods))", "compilation_passed": true, "time": 0.04056692123413086, "tests_passed": false, "error": "TypeError"}
+{"code": "xaxis.set_tick_params(rotation=30, labelsize=10)", "compilation_passed": true, "time": 0.04332709312438965, "tests_passed": false, "error": "TypeError"}
+{"code": "set_xlim(date_range[0].to_pydatetime(), date_range[-1].to_pydatetime())", "compilation_passed": true, "time": 0.042109012603759766, "tests_passed": false, "error": "TypeError"}
+{"code": "set_xticklabels(prices_df.index, rotation=90)", "compilation_passed": true, "time": 0.040778160095214844, "tests_passed": false, "error": "TypeError"}

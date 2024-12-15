@@ -1,0 +1,4 @@
+{"code": " df.drop_duplicates(subset=['Name'])", "compilation_passed": true, "time": 0.6683218479156494, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates('Name')", "compilation_passed": true, "time": 0.652789831161499, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset='Name')", "compilation_passed": true, "time": 0.6595568656921387, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset=['Name'], keep='first')", "compilation_passed": true, "time": 0.6572937965393066, "tests_passed": true, "error": null}

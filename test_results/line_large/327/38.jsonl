@@ -1,0 +1,13 @@
+{"code": " ''.join(line[0] for line in reader)", "compilation_passed": true, "time": 0.010523796081542969, "tests_passed": true, "error": null}
+{"code": " \" \".join(\" \".join(row) for row in reader)", "compilation_passed": true, "time": 0.013634920120239258, "tests_passed": true, "error": null}
+{"code": " ' '.join(' '.join(row) for row in reader)", "compilation_passed": true, "time": 0.013001203536987305, "tests_passed": true, "error": null}
+{"code": " ''.join([line[0] for line in reader])", "compilation_passed": true, "time": 0.009795904159545898, "tests_passed": true, "error": null}
+{"code": " ' '.join(row[0] for row in reader)", "compilation_passed": true, "time": 0.011075019836425781, "tests_passed": true, "error": null}
+{"code": " ''.join(''.join(row) for row in reader)", "compilation_passed": true, "time": 0.009062051773071289, "tests_passed": true, "error": null}
+{"code": " ''", "compilation_passed": true, "time": 0.011286735534667969, "tests_passed": true, "error": null}
+{"code": " '\\n'.join(line for line in reader)", "compilation_passed": true, "time": 0.01600790023803711, "tests_passed": false, "error": "TypeError"}
+{"code": " ' '.join(' '.join(row) for row in reader if len(row) > 0)", "compilation_passed": true, "time": 0.011245965957641602, "tests_passed": true, "error": null}
+{"code": " ''.join(row[0] for row in reader if len(row) > 0)", "compilation_passed": true, "time": 0.013242721557617188, "tests_passed": true, "error": null}
+{"code": " '\\n'.join(line[0] for line in reader)", "compilation_passed": true, "time": 0.008677959442138672, "tests_passed": true, "error": null}
+{"code": " ' '.join(''.join(row) for row in reader)", "compilation_passed": true, "time": 0.01488494873046875, "tests_passed": true, "error": null}
+{"code": " ' '.join([' '.join(row) for row in reader])", "compilation_passed": true, "time": 0.013035058975219727, "tests_passed": true, "error": null}

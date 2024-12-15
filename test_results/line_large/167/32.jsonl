@@ -1,0 +1,24 @@
+{"code": " pd.DataFrame(randint(integer_range[0], integer_range[1] + 1) for _ in range(num_types))", "compilation_passed": true, "time": 0.03220200538635254, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'value': [randint(integer_range[0], integer_range[1]) for i in range(num_types)]},", "compilation_passed": false, "time": 0.00025963783264160156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00019788742065429688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(randint(integer_range[0], integer_range[1]), index=LABELS).sample(frac=1)", "compilation_passed": true, "time": 0.006853818893432617, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00023412704467773438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [randint(*integer_range) for i in range(num_types)]", "compilation_passed": true, "time": 0.01878809928894043, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({label: [randint(*integer_range) for _ in LABELS] for label in LABELS}, index=LABELS).transpose()", "compilation_passed": true, "time": 0.22866368293762207, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({key: [randint(*integer_range) for i in range(len(LABELS))] for key in LABELS})", "compilation_passed": true, "time": 0.22503972053527832, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({col: [randint(integer_range[0], integer_range[1]) for _ in range(num_types)] for col in LABELS})", "compilation_passed": true, "time": 0.22880291938781738, "tests_passed": true, "error": null}
+{"code": " {k: randint(integer_range[0], integer_range[1]) for k in LABELS}", "compilation_passed": true, "time": 0.020095109939575195, "tests_passed": false, "error": "AttributeError"}
+{"code": " [randint(integer_range[0], integer_range[1]) for i in range(num_types)]", "compilation_passed": true, "time": 0.01998615264892578, "tests_passed": false, "error": "AttributeError"}
+{"code": " {label: [randint(integer_range[0], integer_range[1]) for _ in range(num_types)] for label in LABELS}", "compilation_passed": true, "time": 0.019507169723510742, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({label: [randint(*integer_range) for _ in range(num_types)] for label in LABELS})", "compilation_passed": true, "time": 0.2224891185760498, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00021886825561523438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {", "compilation_passed": false, "time": 0.000247955322265625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {l: [randint(*integer_range) for _ in LABELS] for l in LABELS}", "compilation_passed": true, "time": 0.02002406120300293, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(randint(*integer_range) for _ in range(num_types))", "compilation_passed": true, "time": 0.03189563751220703, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([randint(*integer_range) for _ in range(num_types)], index=LABELS).T", "compilation_passed": true, "time": 0.03487992286682129, "tests_passed": true, "error": null}
+{"code": " [randint(*integer_range) for _ in range(num_types)]", "compilation_passed": true, "time": 0.02005624771118164, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(dict(zip(LABELS, [[randint(*integer_range) for _ in range(num_types)] for _ in range(5)])))", "compilation_passed": true, "time": 0.13853788375854492, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({label: [randint(*integer_range) for i in range(num_types)] for label in LABELS})", "compilation_passed": true, "time": 0.23091769218444824, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([[randint(*integer_range) for _ in range(num_types)]], columns=LABELS)", "compilation_passed": true, "time": 0.03342604637145996, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([[randint(integer_range[0], integer_range[1]) for i in range(num_types)]], columns=LABELS)", "compilation_passed": true, "time": 0.035262107849121094, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(dict(zip(LABELS, map(randint, [integer_range[0]]*num_types, [integer_range[1]]*num_types))))", "compilation_passed": true, "time": 0.006865262985229492, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,13 @@
+{"code": " [sum(np.square(POSSIBLE_NUMBERS[:len(set)])) for set in list_of_lists]", "compilation_passed": true, "time": 0.010428190231323242, "tests_passed": true, "error": null}
+{"code": " [np.sum((POSSIBLE_NUMBERS[:len(lst)])**2) for lst in list_of_lists]", "compilation_passed": true, "time": 0.020652055740356445, "tests_passed": true, "error": null}
+{"code": " [np.sum(np.square(POSSIBLE_NUMBERS[:len(my_list)])) for my_list in list_of_lists]", "compilation_passed": true, "time": 0.010688066482543945, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0015132427215576172, "tests_passed": true, "error": null}
+{"code": " [np.sum(list_of_lists[i][:len(list_of_lists[i])]**2) for i in range(len(list_of_lists))]", "compilation_passed": true, "time": 0.023208141326904297, "tests_passed": false, "error": "TypeError"}
+{"code": " [np.sum(POSSIBLE_NUMBERS[:len(set)] ** 2) for set in list_of_lists]", "compilation_passed": true, "time": 0.006994962692260742, "tests_passed": true, "error": null}
+{"code": " [sum(math.pow(i, 2) for i in POSSIBLE_NUMBERS[0:len(item)]) for item in list_of_lists]", "compilation_passed": true, "time": 0.00692296028137207, "tests_passed": true, "error": null}
+{"code": " [np.sum(np.power(POSSIBLE_NUMBERS[:len(lst)], 2)) for lst in list_of_lists]", "compilation_passed": true, "time": 0.006846904754638672, "tests_passed": true, "error": null}
+{"code": " [sum([x**2 for x in POSSIBLE_NUMBERS[:len(arr)]]) for arr in list_of_lists]", "compilation_passed": true, "time": 0.00988006591796875, "tests_passed": true, "error": null}
+{"code": " np.zeros(len(list_of_lists))", "compilation_passed": true, "time": 0.01066899299621582, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0006461143493652344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [np.sum(np.square(POSSIBLE_NUMBERS[:len(l)])) for l in list_of_lists]", "compilation_passed": true, "time": 0.00797271728515625, "tests_passed": true, "error": null}
+{"code": " [sum([math.pow(num, 2) for num in POSSIBLE_NUMBERS[:len(nums_list)]]) for nums_list in list_of_lists]", "compilation_passed": true, "time": 0.009224891662597656, "tests_passed": true, "error": null}

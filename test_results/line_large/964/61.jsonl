@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame(data=data, columns=[\"Text\"])", "compilation_passed": true, "time": 0.12670111656188965, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=[\"Text\"])", "compilation_passed": true, "time": 0.14764809608459473, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Text': data})", "compilation_passed": true, "time": 0.13812470436096191, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Text\": data})", "compilation_passed": true, "time": 0.13068914413452148, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data={\"Text\": data})", "compilation_passed": true, "time": 0.13847780227661133, "tests_passed": true, "error": null}

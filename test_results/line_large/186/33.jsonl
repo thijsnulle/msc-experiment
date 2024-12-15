@@ -1,0 +1,15 @@
+{"code": " {}", "compilation_passed": true, "time": 0.03950095176696777, "tests_passed": true, "error": null}
+{"code": " dict()", "compilation_passed": true, "time": 0.04331398010253906, "tests_passed": true, "error": null}
+{"code": " {(p1, p2): geodesic(", "compilation_passed": false, "time": 0.0002307891845703125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {(loc1[0], loc2[0]): geodesic((loc1[1], loc1[2]), (loc2[1], loc2[2])).km", "compilation_passed": false, "time": 0.00025200843811035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {(k1, k2): geodesic((lat1, lon1), (lat2, lon2)).km", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {(t[0], t[1]): geodesic((t[1], t[2]), (t[3], t[4])).km", "compilation_passed": false, "time": 0.0004699230194091797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {f'{a[0]}_{b[0]}': geodesic((a[1], a[2]), (b[1], b[2])).km", "compilation_passed": false, "time": 0.0002219676971435547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {(l1[0], l2[0]): round(geodesic((l1[1], l1[2]), (l2[1], l2[2])).km, 3)", "compilation_passed": false, "time": 0.0002579689025878906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {(l1[0], l2[0]): geodesic((l1[1], l1[2]), (l2[1], l2[2])).km", "compilation_passed": false, "time": 0.00031495094299316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {", "compilation_passed": false, "time": 0.0001857280731201172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {(p1[0], p2[0]): geodesic((p1[1], p2[2]), (p2[1], p2[2])).km for p1 in locations for p2 in locations if p1[0] < p2[0]}", "compilation_passed": true, "time": 0.03629899024963379, "tests_passed": true, "error": null}
+{"code": " {(i[0], j[0]): geodesic((i[1], i[2]), (j[1], j[2])).km for i in locations for j in locations if i[0] != j[0]}", "compilation_passed": true, "time": 0.03187727928161621, "tests_passed": true, "error": null}
+{"code": " {f\"{p1} - {p2}\": geodesic((lat1, lon1), (lat2, lon2)).km", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {(loc1[0], loc2[0]): geodesic((loc1[1], loc2[2]), (loc2[1], loc2[2])).km", "compilation_passed": false, "time": 0.0002071857452392578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {(t1[0], t2[0]): geodesic((t1[1], t1[2]), (t2[1], t2[2])).km", "compilation_passed": false, "time": 0.0002079010009765625, "tests_passed": false, "error": "SyntaxError"}

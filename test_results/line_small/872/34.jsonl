@@ -1,0 +1,11 @@
+{"code": " zip(*data_list)", "compilation_passed": true, "time": 0.013339996337890625, "tests_passed": true, "error": null}
+{"code": " itertools.zip_longest(*data_list, fillvalue=np.nan)", "compilation_passed": true, "time": 0.002608060836791992, "tests_passed": true, "error": null}
+{"code": " list(itertools.zip_longest(*data_list, fillvalue=np.nan))", "compilation_passed": true, "time": 0.002669095993041992, "tests_passed": true, "error": null}
+{"code": " list(map(iter, zip(*data_list)))", "compilation_passed": true, "time": 0.005041837692260742, "tests_passed": true, "error": null}
+{"code": " [np.nan_to_num(tuple(map(float, tuple(zip(", "compilation_passed": false, "time": 0.0001552104949951172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(zip(*data_list))", "compilation_passed": true, "time": 0.0053713321685791016, "tests_passed": true, "error": null}
+{"code": " np.array([v for _, *v in zip(*data_list)])", "compilation_passed": true, "time": 0.004563808441162109, "tests_passed": true, "error": null}
+{"code": " list(zip(*[item for item in data_list if item]))", "compilation_passed": true, "time": 0.0052869319915771484, "tests_passed": true, "error": null}
+{"code": " list(map(list, zip(*data_list)))", "compilation_passed": true, "time": 0.005674839019775391, "tests_passed": true, "error": null}
+{"code": " np.asarray([np.nan_to_num(x) for x in list(zip(*data_list))])", "compilation_passed": true, "time": 0.004988193511962891, "tests_passed": true, "error": null}
+{"code": " list(map(lambda t: [v if isinstance(v, int) else np.nan for v in t], itertools.zip_longest(*data_list)))", "compilation_passed": true, "time": 0.0026051998138427734, "tests_passed": true, "error": null}

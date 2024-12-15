@@ -1,0 +1,11 @@
+{"code": " pd.Series(data).astype(\"int64\")", "compilation_passed": true, "time": 0.4405958652496338, "tests_passed": true, "error": null}
+{"code": " pd.Series(data.astype(np.int64))", "compilation_passed": true, "time": 0.4391307830810547, "tests_passed": true, "error": null}
+{"code": " pd.Series(data.astype(int))", "compilation_passed": true, "time": 0.44187235832214355, "tests_passed": true, "error": null}
+{"code": " data.astype(int)", "compilation_passed": true, "time": 0.006307125091552734, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series(data).astype(np.int64)", "compilation_passed": true, "time": 0.4573988914489746, "tests_passed": true, "error": null}
+{"code": " pd.Series(data, dtype=np.int64)", "compilation_passed": true, "time": 0.4465949535369873, "tests_passed": true, "error": null}
+{"code": " data.astype(np.int64)", "compilation_passed": true, "time": 0.00540614128112793, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.to_numeric(data, errors=\"coerce\")", "compilation_passed": true, "time": 0.005676984786987305, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series(data, dtype=\"int64\")", "compilation_passed": true, "time": 0.45269179344177246, "tests_passed": true, "error": null}
+{"code": " pd.Series(data).astype(np.int64, copy=False)", "compilation_passed": true, "time": 0.4601271152496338, "tests_passed": true, "error": null}
+{"code": " pd.Series(data).astype(\"int64\", errors=\"raise\")", "compilation_passed": true, "time": 0.45805907249450684, "tests_passed": true, "error": null}

@@ -1,0 +1,29 @@
+{"code": " re.sub(r'\\s+', lambda match: {", "compilation_passed": false, "time": 0.00025773048400878906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " text.translate(str.maketrans(string.whitespace, '___'))", "compilation_passed": true, "time": 0.013756990432739258, "tests_passed": false, "error": "ValueError"}
+{"code": " re.sub(r'[^\\w\\s\\'\\-]', '', text.lower())", "compilation_passed": true, "time": 0.0035369396209716797, "tests_passed": true, "error": null}
+{"code": " re.sub('\\W', '_', text)  # Replace special characters with '_'", "compilation_passed": true, "time": 0.013939142227172852, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', ' ', text)  # Replace punctuations with spaces", "compilation_passed": true, "time": 0.010605812072753906, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', '___', text)", "compilation_passed": true, "time": 0.013395071029663086, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^a-zA-Z0-9]\", \" \", text).strip()", "compilation_passed": true, "time": 0.006637096405029297, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', lambda m: '_'*len(m.group()), text)", "compilation_passed": true, "time": 0.006220102310180664, "tests_passed": true, "error": null}
+{"code": " text.strip()", "compilation_passed": true, "time": 0.006138801574707031, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s]\", \"\", text)  # Removing special characters", "compilation_passed": true, "time": 0.0032477378845214844, "tests_passed": true, "error": null}
+{"code": " text.translate(str.maketrans(string.punctuation, ' ' * len(string.punctuation)))", "compilation_passed": true, "time": 0.0066530704498291016, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s]\", \"\", text)  # Remove all special characters", "compilation_passed": true, "time": 0.0032961368560791016, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s+\", \" \", text.strip())", "compilation_passed": true, "time": 0.007107257843017578, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text)  # Remove special characters", "compilation_passed": true, "time": 0.0027136802673339844, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text).lower()", "compilation_passed": true, "time": 0.003113985061645508, "tests_passed": true, "error": null}
+{"code": " text.translate(str.maketrans(' ', '__'))", "compilation_passed": true, "time": 0.009853839874267578, "tests_passed": false, "error": "ValueError"}
+{"code": " text.replace(\" \", \"_\")", "compilation_passed": true, "time": 0.006572723388671875, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s]\", \"\", text.strip())", "compilation_passed": true, "time": 0.009324073791503906, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s+\", \" \", text).strip()", "compilation_passed": true, "time": 0.006448030471801758, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s]\", \"\", text).lower().strip()  # remove special characters and lowercase", "compilation_passed": true, "time": 0.0058400630950927734, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W', '_', text)", "compilation_passed": true, "time": 0.007156848907470703, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W', ' ', text).strip()", "compilation_passed": true, "time": 0.006772279739379883, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s]\", \"\", text)  # remove special chars", "compilation_passed": true, "time": 0.0027582645416259766, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s\\d]\", \" \", text)", "compilation_passed": true, "time": 0.0060138702392578125, "tests_passed": true, "error": null}
+{"code": " re.sub('\\s', lambda x: {", "compilation_passed": false, "time": 0.0002028942108154297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " re.sub(r'[^\\w\\s]', '', text)", "compilation_passed": true, "time": 0.0029611587524414062, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s+\", \" \", text)", "compilation_passed": true, "time": 0.006140232086181641, "tests_passed": true, "error": null}
+{"code": " re.sub(' ', '_', text)", "compilation_passed": true, "time": 0.006205081939697266, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s\\n]\", \"\", text)", "compilation_passed": true, "time": 0.0033648014068603516, "tests_passed": true, "error": null}

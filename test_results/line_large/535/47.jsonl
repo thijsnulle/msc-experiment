@@ -1,0 +1,14 @@
+{"code": " f\"CREATE TABLE IF NOT EXISTS {table_name} (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, age INTEGER, height INTEGER)\"", "compilation_passed": false, "time": 0.0002751350402832031, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"CREATE TABLE IF NOT EXISTS \" + table_name + \\", "compilation_passed": false, "time": 0.00017571449279785156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"\"\"CREATE TABLE IF NOT EXISTS {table_name} (name TEXT, age INTEGER, height INTEGER)\"\"\"", "compilation_passed": false, "time": 0.0002758502960205078, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"CREATE TABLE IF NOT EXISTS {table_name} (name TEXT, age INTEGER, height INTEGER)\"", "compilation_passed": false, "time": 0.0002808570861816406, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"\"\"", "compilation_passed": false, "time": 0.000202178955078125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"CREATE TABLE IF NOT EXISTS \" + table_name + \" (name text, age integer, height integer)\"", "compilation_passed": false, "time": 0.00026798248291015625, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"CREATE TABLE IF NOT EXISTS {table_name}(ID INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT, Age INTEGER, Height INTEGER)\"", "compilation_passed": false, "time": 0.0002779960632324219, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"CREATE TABLE IF NOT EXISTS {table_name}(Name TEXT, Age INT, Height INT)\"", "compilation_passed": false, "time": 0.00028014183044433594, "tests_passed": false, "error": "IndentationError"}
+{"code": " f'CREATE TABLE IF NOT EXISTS \"{table_name}\" (\"name\" TEXT, \"age\" INTEGER, \"height\" INTEGER);'", "compilation_passed": false, "time": 0.00027871131896972656, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"\"\"CREATE TABLE IF NOT EXISTS {table_name}", "compilation_passed": false, "time": 0.00020623207092285156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"CREATE TABLE IF NOT EXISTS {} (name TEXT, age INTEGER, height INTEGER)\".format(table_name)", "compilation_passed": false, "time": 0.00027489662170410156, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"CREATE TABLE IF NOT EXISTS `{table_name}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` TEXT, `age` INTEGER, `height` INTEGER);\"", "compilation_passed": false, "time": 0.0002799034118652344, "tests_passed": false, "error": "IndentationError"}
+{"code": " f\"CREATE TABLE IF NOT EXISTS {table_name}(name TEXT, age INTEGER, height INTEGER)\"", "compilation_passed": false, "time": 0.00026988983154296875, "tests_passed": false, "error": "IndentationError"}
+{"code": " (", "compilation_passed": true, "time": 0.03208112716674805, "tests_passed": true, "error": null}

@@ -1,0 +1,26 @@
+{"code": " Message('Test Subject',", "compilation_passed": false, "time": 0.00023889541625976562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Subject', sender=smtp_user, recipients=['example@gmail.com'])", "compilation_passed": true, "time": 0.01513814926147461, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Hello', sender=smtp_user, recipients=['johndoe@example.com'])", "compilation_passed": true, "time": 0.013398170471191406, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Test Subject', recipients=['user@example.com'])", "compilation_passed": true, "time": 0.008674144744873047, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Hello', sender = 'admin@example.com',", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Hello', sender=smtp_user, recipients=['recipient@example.com'])", "compilation_passed": true, "time": 0.010102033615112305, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Test Subject', sender='test@example.com', recipients=['test2@example.com'])", "compilation_passed": true, "time": 0.008546113967895508, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Test Subject', sender='sender@example.com', recipients=['recipient@example.com'])", "compilation_passed": true, "time": 0.009207010269165039, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Hello', sender='example@example.com', recipients=['recipient@example.com'])", "compilation_passed": true, "time": 0.009773015975952148, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Email from Celery',", "compilation_passed": false, "time": 0.00021195411682128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Test Email', recipients=['recipient@example.com'])", "compilation_passed": true, "time": 0.008422136306762695, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Test Email', sender='no-reply@example.com', recipients=['user@example.com'])", "compilation_passed": true, "time": 0.007992744445800781, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message(subject='Test Email',", "compilation_passed": false, "time": 0.00021314620971679688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Test Email',", "compilation_passed": false, "time": 0.00024509429931640625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Message('Hello', sender='user@example.com', recipients=['recipient@example.com'])", "compilation_passed": true, "time": 0.008058309555053711, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Hello', sender='sender_email@example.com', recipients=['recipient_email@example.com'])", "compilation_passed": true, "time": 0.00925898551940918, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Hello', sender=app.config['MAIL_USERNAME'], recipients=['you@example.com'])", "compilation_passed": true, "time": 0.01728200912475586, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Hello', sender='test@example.com', recipients=['test2@example.com'])", "compilation_passed": true, "time": 0.008038043975830078, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Subject', sender=smtp_user, recipients=[smtp_user])", "compilation_passed": true, "time": 0.009799718856811523, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Subject', sender=app.config['MAIL_USERNAME'], recipients=['user2@example.com'])", "compilation_passed": true, "time": 0.009839773178100586, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Test Email', sender=smtp_user, recipients=['recipient@example.com'])", "compilation_passed": true, "time": 0.008508920669555664, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Hello', sender='test@example.com', recipients=['test@example.com'])", "compilation_passed": true, "time": 0.008698225021362305, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Test Subject', sender=smtp_user, recipients=['recipient@example.com'])", "compilation_passed": true, "time": 0.008124828338623047, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Subject', sender=smtp_user, recipients=['to@example.com'])", "compilation_passed": true, "time": 0.008689165115356445, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Test Email', sender='user@example.com', recipients=['recipient@example.com'])", "compilation_passed": true, "time": 0.00886988639831543, "tests_passed": false, "error": "RuntimeError"}
+{"code": " Message('Test Email', sender=app.config['MAIL_USERNAME'], recipients=['recipient@example.com'])", "compilation_passed": true, "time": 0.00855398178100586, "tests_passed": false, "error": "RuntimeError"}

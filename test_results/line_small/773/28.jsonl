@@ -1,0 +1,13 @@
+{"code": " os.path.abspath('/source/dir')", "compilation_passed": true, "time": 0.008257865905761719, "tests_passed": true, "error": null}
+{"code": " '/source/dir'", "compilation_passed": true, "time": 0.004475831985473633, "tests_passed": true, "error": null}
+{"code": " os.path.abspath(SOURCE_DIR)", "compilation_passed": true, "time": 0.008190155029296875, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " input('Input source directory: ')", "compilation_passed": true, "time": 0.007180929183959961, "tests_passed": false, "error": "RuntimeError"}
+{"code": " input('Enter source directory path: ')", "compilation_passed": true, "time": 0.00676727294921875, "tests_passed": false, "error": "RuntimeError"}
+{"code": " os.path.realpath(os.path.expanduser(SOURCE_DIR))", "compilation_passed": true, "time": 0.009939908981323242, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " os.path.realpath(input('Source dir: '))", "compilation_passed": true, "time": 0.0067942142486572266, "tests_passed": false, "error": "RuntimeError"}
+{"code": " os.path.join(os.getcwd(), 'source/dir')", "compilation_passed": true, "time": 0.006724119186401367, "tests_passed": true, "error": null}
+{"code": " input('Enter source directory: ') or SOURCE_DIR", "compilation_passed": true, "time": 0.00807332992553711, "tests_passed": false, "error": "RuntimeError"}
+{"code": " input('Please enter the source directory path: ')", "compilation_passed": true, "time": 0.006743192672729492, "tests_passed": false, "error": "RuntimeError"}
+{"code": " '.'", "compilation_passed": true, "time": 0.006357908248901367, "tests_passed": true, "error": null}
+{"code": " input('Please provide source directory: ')", "compilation_passed": true, "time": 0.006764888763427734, "tests_passed": false, "error": "RuntimeError"}
+{"code": " os.path.abspath(os.path.expanduser(os.path.expandvars(SOURCE_DIR)))", "compilation_passed": true, "time": 0.007946968078613281, "tests_passed": false, "error": "UnboundLocalError"}

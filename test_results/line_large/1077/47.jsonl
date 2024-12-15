@@ -1,0 +1,9 @@
+{"code": "t2 - t1).total_seconds()", "compilation_passed": true, "time": 0.008130073547363281, "tests_passed": false, "error": "NameError"}
+{"code": "t2 - t1).total_seconds() for t1, t2 in zip(parsed_times, parsed_times[1:])", "compilation_passed": true, "time": 0.002531766891479492, "tests_passed": true, "error": null}
+{"code": "parsed_times[i + 1] - parsed_times[i])", "compilation_passed": true, "time": 0.007925033569335938, "tests_passed": false, "error": "NameError"}
+{"code": "parsed_times[i + 1] - parsed_times[i]).total_seconds()", "compilation_passed": true, "time": 0.008194208145141602, "tests_passed": false, "error": "NameError"}
+{"code": "parsed_times[i + 1] - parsed_times[i]) for i in range(len(parsed_times) - 1)", "compilation_passed": true, "time": 0.007534980773925781, "tests_passed": false, "error": "TypeError"}
+{"code": "parsed_times[i] - parsed_times[i - 1]).total_seconds()", "compilation_passed": true, "time": 0.008142232894897461, "tests_passed": false, "error": "NameError"}
+{"code": "t1 - t2).total_seconds() for t1, t2 in zip(parsed_times[:-1], parsed_times[1:])", "compilation_passed": true, "time": 0.002137899398803711, "tests_passed": true, "error": null}
+{"code": "parsed_times[i] - parsed_times[i + 1]).total_seconds()", "compilation_passed": true, "time": 0.007984161376953125, "tests_passed": false, "error": "NameError"}
+{"code": "t2.timestamp() - t1.timestamp())", "compilation_passed": true, "time": 0.00793910026550293, "tests_passed": false, "error": "NameError"}

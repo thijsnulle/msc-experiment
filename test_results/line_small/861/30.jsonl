@@ -1,0 +1,10 @@
+{"code": " []", "compilation_passed": true, "time": 0.001622915267944336, "tests_passed": true, "error": null}
+{"code": " [Counter(choice(POSSIBLE_ITEMS) for _ in range(len(l))) for l in list_of_lists]", "compilation_passed": true, "time": 0.005693912506103516, "tests_passed": true, "error": null}
+{"code": " [Counter({choice(POSSIBLE_ITEMS): len(basket)}) for basket in list_of_lists]", "compilation_passed": true, "time": 0.00830388069152832, "tests_passed": true, "error": null}
+{"code": " [Counter([choice(POSSIBLE_ITEMS) for _ in range(len(item_list))]) for item_list in list_of_lists]", "compilation_passed": true, "time": 0.005502939224243164, "tests_passed": true, "error": null}
+{"code": " [Counter({item: len(item_list) for item in POSSIBLE_ITEMS}) for item_list in list_of_lists]", "compilation_passed": true, "time": 0.004948854446411133, "tests_passed": true, "error": null}
+{"code": " [Counter(choice(POSSIBLE_ITEMS) for _ in range(len(lst))) for lst in list_of_lists]", "compilation_passed": true, "time": 0.00446009635925293, "tests_passed": true, "error": null}
+{"code": " [Counter({choice(POSSIBLE_ITEMS): len(l)}) for l in list_of_lists]", "compilation_passed": true, "time": 0.0048749446868896484, "tests_passed": true, "error": null}
+{"code": " [Counter(map(choice, [POSSIBLE_ITEMS] * length)) for length in list_of_lists]", "compilation_passed": true, "time": 0.011190652847290039, "tests_passed": false, "error": "TypeError"}
+{"code": " [Counter([choice(POSSIBLE_ITEMS) for _ in range(len(list_of_lists[i]))]) for i in range(len(list_of_lists))]", "compilation_passed": true, "time": 0.004904985427856445, "tests_passed": true, "error": null}
+{"code": " [Counter(choice(POSSIBLE_ITEMS) for i in range(len(basket))) for basket in list_of_lists]", "compilation_passed": true, "time": 0.0050051212310791016, "tests_passed": true, "error": null}

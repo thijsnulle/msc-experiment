@@ -1,0 +1,6 @@
+{"code": " not isinstance(data, pd.DataFrame):", "compilation_passed": true, "time": 0.05628395080566406, "tests_passed": true, "error": null}
+{"code": " isinstance(data, pd.DataFrame):", "compilation_passed": true, "time": 0.012694835662841797, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(data, pd.DataFrame) and data.isna().sum().sum() == 0:", "compilation_passed": true, "time": 0.012434005737304688, "tests_passed": false, "error": "ValueError"}
+{"code": " type(data) == pd.core.generic.NDFrame:", "compilation_passed": true, "time": 0.058873891830444336, "tests_passed": true, "error": null}
+{"code": " type(data) is not pd.core.frame.DataFrame:", "compilation_passed": true, "time": 0.0769050121307373, "tests_passed": true, "error": null}
+{"code": " type(data) is not pd.DataFrame:", "compilation_passed": true, "time": 0.08946681022644043, "tests_passed": true, "error": null}

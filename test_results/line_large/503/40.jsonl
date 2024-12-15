@@ -1,0 +1,21 @@
+{"code": " pd.date_range(datetime.today().date() - pd.to_timedelta(days_in_past, unit=\"d\"),", "compilation_passed": false, "time": 0.00025010108947753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.date_range(end=datetime.today(), periods=days_in_past, freq=\"D\")", "compilation_passed": true, "time": 0.02295088768005371, "tests_passed": true, "error": null}
+{"code": " [datetime.today() - pd.Timedelta(days=n) for n in range(days_in_past, 0, -1)]", "compilation_passed": true, "time": 0.005372047424316406, "tests_passed": true, "error": null}
+{"code": " [datetime.now() - pd.Timedelta(days=i, hours=1) for i in range(days_in_past, 0, -1)]", "compilation_passed": true, "time": 0.004731178283691406, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0002238750457763672, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.date_range(end=datetime.now(), periods=days_in_past)", "compilation_passed": true, "time": 0.01299285888671875, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.today(), periods=days_in_past + 1)", "compilation_passed": true, "time": 0.007938861846923828, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(", "compilation_passed": false, "time": 0.00024318695068359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [datetime.now() - pd.Timedelta(i, \"D\") for i in range(days_in_past, 0, -1)]", "compilation_passed": true, "time": 0.004749774932861328, "tests_passed": true, "error": null}
+{"code": " pd.date_range(end=datetime.utcnow(), periods=days_in_past, freq=\"D\")", "compilation_passed": true, "time": 0.004835844039916992, "tests_passed": true, "error": null}
+{"code": " [datetime.now() - pd.to_timedelta(i, unit=\"D\") for i in range(days_in_past)]", "compilation_passed": true, "time": 0.004856109619140625, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.today(), periods=days_in_past, freq=\"D\")", "compilation_passed": true, "time": 0.004700899124145508, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.now().strftime(\"%Y-%m-%d\"), periods=days_in_past)", "compilation_passed": true, "time": 0.004411935806274414, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.today(), periods=days_in_past, normalize=True)", "compilation_passed": true, "time": 0.005636930465698242, "tests_passed": true, "error": null}
+{"code": " [datetime.now().date() + pd.Timedelta(days=i, hours=0) for i in range(-days_in_past, 0)]", "compilation_passed": true, "time": 0.004970073699951172, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.date_range(datetime.now(), periods=days_in_past + 1)", "compilation_passed": true, "time": 0.006582021713256836, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(datetime.now(), periods=days_in_past, freq=\"D\", tz=\"UTC\")", "compilation_passed": true, "time": 0.004770994186401367, "tests_passed": true, "error": null}
+{"code": " [datetime.today() + pd.Timedelta(i, \"d\") for i in range(-1, -1 - days_in_past, -1)]", "compilation_passed": true, "time": 0.005089998245239258, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.now(), periods=days_in_past)", "compilation_passed": true, "time": 0.00461888313293457, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.today(), datetime.today() - pd.Timedelta(days_in_past, \"D\"))", "compilation_passed": true, "time": 0.0063838958740234375, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(datetime.now().strftime(\"%Y-%m-%d\"), periods=days_in_past, freq=\"D\")", "compilation_passed": true, "time": 0.0048677921295166016, "tests_passed": true, "error": null}

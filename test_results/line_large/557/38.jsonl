@@ -1,0 +1,13 @@
+{"code": " []", "compilation_passed": true, "time": 0.008108139038085938, "tests_passed": false, "error": "TypeError"}
+{"code": " [SequenceMatcher(None, s, s1).ratio() for s1 in s_list]", "compilation_passed": true, "time": 0.007161140441894531, "tests_passed": false, "error": "TypeError"}
+{"code": " [SequenceMatcher(a=s, b=other).ratio() for other in s_list if other != s]", "compilation_passed": true, "time": 0.07319498062133789, "tests_passed": true, "error": null}
+{"code": " [SequenceMatcher(a=s, b=s2).ratio() for s2 in s_list]", "compilation_passed": true, "time": 0.006379604339599609, "tests_passed": false, "error": "TypeError"}
+{"code": " [SequenceMatcher(None, s, x).ratio() for x in s_list if x != s]", "compilation_passed": true, "time": 0.07473182678222656, "tests_passed": true, "error": null}
+{"code": " [SequenceMatcher(None, s, t).ratio() for t in s_list if s != t]", "compilation_passed": true, "time": 0.06870603561401367, "tests_passed": true, "error": null}
+{"code": " [SequenceMatcher(None, s, other).ratio() for other in s_list if s != other]", "compilation_passed": true, "time": 0.07249283790588379, "tests_passed": true, "error": null}
+{"code": " [SequenceMatcher(a=s, b=item).ratio() for item in s_list if item != s]", "compilation_passed": true, "time": 0.07979106903076172, "tests_passed": true, "error": null}
+{"code": " [SequenceMatcher(a=s, b=other).ratio() for other in s_list if s != other]", "compilation_passed": true, "time": 0.11107826232910156, "tests_passed": true, "error": null}
+{"code": " [SequenceMatcher(None, s, ss).ratio() for ss in s_list]", "compilation_passed": true, "time": 0.006473064422607422, "tests_passed": false, "error": "TypeError"}
+{"code": " [SequenceMatcher(None, s, other_s).ratio() for other_s in s_list if other_s != s]", "compilation_passed": true, "time": 0.1313331127166748, "tests_passed": true, "error": null}
+{"code": " np.array([SequenceMatcher(a=s, b=other).ratio() for other in s_list if other != s])", "compilation_passed": true, "time": 0.1303098201751709, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0002906322479248047, "tests_passed": false, "error": "SyntaxError"}

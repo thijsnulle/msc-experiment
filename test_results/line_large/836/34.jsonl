@@ -1,0 +1,10 @@
+{"code": " open(os.path.join(csv_dir, filename), 'r') as file:", "compilation_passed": true, "time": 0.010265827178955078, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(csv_dir, filename), 'r') as csvfile:", "compilation_passed": true, "time": 0.011221170425415039, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(csv_dir, filename), 'r') as f:", "compilation_passed": true, "time": 0.018218040466308594, "tests_passed": true, "error": null}
+{"code": " open(os.path.join(csv_dir, filename), newline='') as csvfile:", "compilation_passed": true, "time": 0.01123809814453125, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(csv_dir, filename), newline='') as file:", "compilation_passed": true, "time": 0.011265993118286133, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(csv_dir, filename)) as csvfile:", "compilation_passed": true, "time": 0.010821819305419922, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_dir + filename, 'r') as file:", "compilation_passed": true, "time": 0.010090827941894531, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(csv_dir, filename)) as file:", "compilation_passed": true, "time": 0.012057781219482422, "tests_passed": false, "error": "NameError"}
+{"code": " open(csv_dir + filename, newline='') as csvfile:", "compilation_passed": true, "time": 0.010938882827758789, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(csv_dir, filename), newline='') as f:", "compilation_passed": true, "time": 0.018290042877197266, "tests_passed": true, "error": null}

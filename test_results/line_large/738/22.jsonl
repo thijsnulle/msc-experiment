@@ -1,0 +1,4 @@
+{"code": " iqr(flattened)", "compilation_passed": true, "time": 0.0032062530517578125, "tests_passed": true, "error": null}
+{"code": " np.percentile(flattened, 75) - np.percentile(flattened, 25)", "compilation_passed": true, "time": 0.002213001251220703, "tests_passed": true, "error": null}
+{"code": " iqr(flattened, nan_policy=\"omit\")", "compilation_passed": true, "time": 0.0017998218536376953, "tests_passed": true, "error": null}
+{"code": " iqr(flattened, method=\"midpoint\")", "compilation_passed": true, "time": 0.006963014602661133, "tests_passed": false, "error": "TypeError"}

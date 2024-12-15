@@ -1,0 +1,17 @@
+{"code": " pd.notna(row['text']):", "compilation_passed": true, "time": 0.014985084533691406, "tests_passed": true, "error": null}
+{"code": " isinstance(row, str):", "compilation_passed": true, "time": 0.015363216400146484, "tests_passed": true, "error": null}
+{"code": " type(row['text']) == str:", "compilation_passed": true, "time": 0.012645959854125977, "tests_passed": true, "error": null}
+{"code": " len(row.text) > 0:", "compilation_passed": true, "time": 0.012614965438842773, "tests_passed": false, "error": "TypeError"}
+{"code": " type(row['text']) is not str:", "compilation_passed": true, "time": 0.013370037078857422, "tests_passed": true, "error": null}
+{"code": " not isinstance(row['text'], str):", "compilation_passed": true, "time": 0.009994029998779297, "tests_passed": true, "error": null}
+{"code": " isinstance(row.text, str):", "compilation_passed": true, "time": 0.013100147247314453, "tests_passed": true, "error": null}
+{"code": " isinstance(row['text'], str):", "compilation_passed": true, "time": 0.012174129486083984, "tests_passed": true, "error": null}
+{"code": " pd.isna(row['text']):", "compilation_passed": true, "time": 0.008259057998657227, "tests_passed": true, "error": null}
+{"code": " pd.isnull(row['text']):", "compilation_passed": true, "time": 0.008693933486938477, "tests_passed": true, "error": null}
+{"code": " pd.isnull(row.text):", "compilation_passed": true, "time": 0.008322000503540039, "tests_passed": true, "error": null}
+{"code": " isinstance(row.get('text'), str):", "compilation_passed": true, "time": 0.012338876724243164, "tests_passed": true, "error": null}
+{"code": " isinstance(row['text'], str) and row['text'].strip():", "compilation_passed": true, "time": 0.011976957321166992, "tests_passed": true, "error": null}
+{"code": " pd.isna(row.text):", "compilation_passed": true, "time": 0.00953817367553711, "tests_passed": true, "error": null}
+{"code": " pd.notnull(row['text']):", "compilation_passed": true, "time": 0.01244497299194336, "tests_passed": true, "error": null}
+{"code": " row[\"text\"] is None:", "compilation_passed": true, "time": 0.009138822555541992, "tests_passed": true, "error": null}
+{"code": " isinstance(row, pd.Series):", "compilation_passed": true, "time": 0.012153863906860352, "tests_passed": true, "error": null}

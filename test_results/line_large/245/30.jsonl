@@ -1,0 +1,6 @@
+{"code": " data_df['Value'].mean()", "compilation_passed": true, "time": 0.026606082916259766, "tests_passed": true, "error": null}
+{"code": " data_df.mean().round(3).values[0]", "compilation_passed": true, "time": 0.027949094772338867, "tests_passed": true, "error": null}
+{"code": " round(data_df['Value'].mean(), 3)", "compilation_passed": true, "time": 0.026416301727294922, "tests_passed": true, "error": null}
+{"code": " round(data_df['Value'].mean(), 2)", "compilation_passed": true, "time": 0.02562689781188965, "tests_passed": true, "error": null}
+{"code": " data_df.mean().round(3)", "compilation_passed": true, "time": 0.01317596435546875, "tests_passed": false, "error": "ValueError"}
+{"code": " data_df.mean()", "compilation_passed": true, "time": 0.013080835342407227, "tests_passed": false, "error": "ValueError"}

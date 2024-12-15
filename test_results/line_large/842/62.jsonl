@@ -1,0 +1,13 @@
+{"code": "execute(\"INSERT INTO users (name, age, country) VALUES (?, ?, ?)\", (user, age, country))", "compilation_passed": true, "time": 0.24417805671691895, "tests_passed": true, "error": null}
+{"code": "execute('INSERT INTO users VALUES (?, ?, ?, ?)', (None, user, age, country))", "compilation_passed": true, "time": 0.24152088165283203, "tests_passed": true, "error": null}
+{"code": "execute('''", "compilation_passed": false, "time": 0.0004620552062988281, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute(f\"INSERT INTO users (name, age, country) VALUES ('{user}', {age}, '{country}')\")", "compilation_passed": true, "time": 0.25756287574768066, "tests_passed": true, "error": null}
+{"code": "execute('INSERT INTO users (name, age, country) VALUES (?, ?, ?)', (user, age, country))", "compilation_passed": true, "time": 0.2386939525604248, "tests_passed": true, "error": null}
+{"code": "execute(", "compilation_passed": false, "time": 0.0005991458892822266, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute(\"INSERT INTO users VALUES (?, ?, ?, ?)\", (None, user, age, country))", "compilation_passed": true, "time": 0.2346630096435547, "tests_passed": true, "error": null}
+{"code": "execute(\"INSERT INTO users (name, age, country) VALUES (?, ?, ?)\",", "compilation_passed": false, "time": 0.0006060600280761719, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute(\"\"\"", "compilation_passed": false, "time": 0.0006330013275146484, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute(f'INSERT INTO users VALUES ({_}, \"{user}\", {age}, \"{country}\")')", "compilation_passed": true, "time": 0.0680999755859375, "tests_passed": true, "error": null}
+{"code": "execute(\"INSERT INTO users VALUES (?, ?, ?, ?)\", (_, user, age, country))", "compilation_passed": true, "time": 0.06353402137756348, "tests_passed": true, "error": null}
+{"code": "execute('INSERT INTO users (name, age, country) VALUES (?, ?, ?)',", "compilation_passed": false, "time": 0.0006108283996582031, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute(f\"INSERT INTO users VALUES (NULL, '{user}', {age}, '{country}')\")", "compilation_passed": true, "time": 0.25725793838500977, "tests_passed": true, "error": null}

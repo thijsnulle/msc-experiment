@@ -1,0 +1,9 @@
+{"code": " json.dumps(req_data)", "compilation_passed": true, "time": 0.004419088363647461, "tests_passed": true, "error": null}
+{"code": " json.dumps(req_data, separators=(',', ':'))", "compilation_passed": true, "time": 0.01038217544555664, "tests_passed": true, "error": null}
+{"code": " json.dumps(req_data).encode()", "compilation_passed": true, "time": 0.014528036117553711, "tests_passed": false, "error": "AttributeError"}
+{"code": " json.dumps(req_data, separators=(\",\", \":\"))", "compilation_passed": true, "time": 0.010476827621459961, "tests_passed": true, "error": null}
+{"code": " json.dumps(req_data, sort_keys=True, separators=(\",\", \":\"))", "compilation_passed": true, "time": 0.010157108306884766, "tests_passed": true, "error": null}
+{"code": " json.dumps(req_data).encode(\"utf-8\")", "compilation_passed": true, "time": 0.014356851577758789, "tests_passed": false, "error": "AttributeError"}
+{"code": " json.dumps(req_data, sort_keys=True)", "compilation_passed": true, "time": 0.004578113555908203, "tests_passed": true, "error": null}
+{"code": " json.dumps(req_data, separators=(\",\", \":\"), sort_keys=True)", "compilation_passed": true, "time": 0.01036381721496582, "tests_passed": true, "error": null}
+{"code": " json.dumps(req_data, sort_keys=True, separators=(',', ':'))", "compilation_passed": true, "time": 0.010385990142822266, "tests_passed": true, "error": null}

@@ -1,0 +1,16 @@
+{"code": "?:http|ftp)s?://'  # http:// or https://", "compilation_passed": true, "time": 0.002974271774291992, "tests_passed": true, "error": null}
+{"code": "?:[a-z0-9\\.\\-]*)://'  # scheme is validated separately", "compilation_passed": true, "time": 0.00553584098815918, "tests_passed": true, "error": null}
+{"code": "?:[A-Za-z0-9]+:)?(?://[^/])?((?:[a-z0-9\\-]+\\.)+[a-z]{2,10})(?::[\\d]{1,5})?')", "compilation_passed": false, "time": 0.0002608299255371094, "tests_passed": false, "error": "IndentationError"}
+{"code": "?:[a-z0-9\\.\\-]*)://((?:[a-z0-9\\-]*\\.)+[a-z0-9\\-]{2,})(?::\\d{1,5})?(?:[/?#]\\S*)?$',", "compilation_passed": true, "time": 0.010992765426635742, "tests_passed": false, "error": "TypeError"}
+{"code": "?:[A-Za-z0-9\\._-]+://)?(?:[A-Za-z0-9\\._-]+\\.[A-Za-z]{2,6})', re.MULTILINE)", "compilation_passed": false, "time": 0.00027108192443847656, "tests_passed": false, "error": "IndentationError"}
+{"code": "?:https?:)?(?:/{1,3})?(?:[\\w0-9.\\-]+[.]\\w{2,4}){1}(?:\\S+)?$'", "compilation_passed": true, "time": 0.00962686538696289, "tests_passed": true, "error": null}
+{"code": "?:http)s?://(?:[A-Z0-9-._~!$&\\'()*+,;=:]+)(?::(?:\\d*))?(?:[/?#](?:[A-Z0-9-._~!$&\\'()*+,;=:@/?#]|%[A-F0-9]{2})*)?$',", "compilation_passed": true, "time": 0.010966777801513672, "tests_passed": false, "error": "TypeError"}
+{"code": "?:[a-z0-9\\.\\-\\+]*)://(?:[^/]+?)(?:/[^/\\s]*)?$|^(?:[a-z0-9\\.\\-\\+]*)$', re.IGNORECASE)", "compilation_passed": false, "time": 0.0002772808074951172, "tests_passed": false, "error": "IndentationError"}
+{"code": "?:https?:)?(?:\\/\\/)?(?:www\\.)?(?:[a-zA-Z0-9\\-]+\\.)+[a-zA-Z0-9]{2,}$')", "compilation_passed": false, "time": 0.00026607513427734375, "tests_passed": false, "error": "IndentationError"}
+{"code": "?:http|ftp)s?://|www\\.[^\\s]+|((?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\\.)+(?:[A-Z]{2,6}\\.?|[A-Z0-9-]{2,}\\.?)$)',", "compilation_passed": true, "time": 0.011024236679077148, "tests_passed": false, "error": "TypeError"}
+{"code": "?:http)s?://')  # Compile the regex pattern for matching URLs", "compilation_passed": false, "time": 0.0002598762512207031, "tests_passed": false, "error": "IndentationError"}
+{"code": "?:http)s?://'  # http:// or https://", "compilation_passed": true, "time": 0.005431175231933594, "tests_passed": true, "error": null}
+{"code": "?:[a-z0-9\\.-]+://)?(?:[^\\./]+)?([^./:]+)(?:\\.[^./]+){1}(?:[/:].*)?$')", "compilation_passed": false, "time": 0.0002639293670654297, "tests_passed": false, "error": "IndentationError"}
+{"code": "?:(?:https?|ftp)://)(?:\\S+(?::\\S*)?@)?(?:(?!(?:10|127)(?:\\.\\d{1,3}){3})'", "compilation_passed": true, "time": 0.016290903091430664, "tests_passed": false, "error": "re.error"}
+{"code": "?:http|ftp)s?://'", "compilation_passed": true, "time": 0.002902984619140625, "tests_passed": true, "error": null}
+{"code": "?:[a-z0-9\\.\\-]+://)?(?:[a-z0-9\\.\\-]+\\.[a-z]{2,6})')", "compilation_passed": false, "time": 0.0003039836883544922, "tests_passed": false, "error": "IndentationError"}

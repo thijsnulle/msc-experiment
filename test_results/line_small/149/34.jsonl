@@ -1,0 +1,14 @@
+{"code": " dict(zip(elements_series.index, count_series.values))", "compilation_passed": true, "time": 0.00975179672241211, "tests_passed": false, "error": "ValueError"}
+{"code": " {DEFAULT_COLUMNS[0]: elements_series,", "compilation_passed": false, "time": 0.0001800060272216797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {DEFAULT_COLUMNS[0]: elements, DEFAULT_COLUMNS[1]: count_series}", "compilation_passed": true, "time": 0.008579015731811523, "tests_passed": true, "error": null}
+{"code": " {'Element': elements_series, 'Count': count_series}", "compilation_passed": true, "time": 0.007241010665893555, "tests_passed": true, "error": null}
+{"code": " {'Index': range(1, len(elements_series) + 1), 'Element': elements_series, 'Count': count_series}", "compilation_passed": true, "time": 0.00587916374206543, "tests_passed": true, "error": null}
+{"code": " {'Index': np.arange(0, len(elements)), 'Element': elements_series, 'Count': count_series}", "compilation_passed": true, "time": 0.009875059127807617, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.000164031982421875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.Series.to_dict(count_series)", "compilation_passed": true, "time": 0.008693933486938477, "tests_passed": false, "error": "ValueError"}
+{"code": " {'Element': elements, 'Count': count_series}", "compilation_passed": true, "time": 0.005733966827392578, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.005610942840576172, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Element': elements_series, 'Count': count_series})", "compilation_passed": true, "time": 0.006446123123168945, "tests_passed": true, "error": null}
+{"code": " dict(zip(elements_series.index, count_series))", "compilation_passed": true, "time": 0.012090921401977539, "tests_passed": false, "error": "ValueError"}
+{"code": " {'Element': elements_series.to_list(), 'Count': count_series.to_list()}", "compilation_passed": true, "time": 0.006600141525268555, "tests_passed": true, "error": null}
+{"code": " dict(zip(elements_series, count_series))", "compilation_passed": true, "time": 0.00830698013305664, "tests_passed": false, "error": "ValueError"}

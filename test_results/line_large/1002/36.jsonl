@@ -1,0 +1,20 @@
+{"code": " df.select_dtypes(include='number').any().any():", "compilation_passed": true, "time": 0.008559942245483398, "tests_passed": false, "error": "ValueError"}
+{"code": " not df[column_name].dtype == \"number\":", "compilation_passed": true, "time": 0.008453130722045898, "tests_passed": false, "error": "ValueError"}
+{"code": " df.dtypes[column_name] != \"int64\" and df.dtypes[column_name] != \"float64\":", "compilation_passed": true, "time": 0.008310079574584961, "tests_passed": false, "error": "ValueError"}
+{"code": " df.dtypes[column_name] == 'object':", "compilation_passed": true, "time": 0.007956981658935547, "tests_passed": false, "error": "ValueError"}
+{"code": " not df[column_name].dtype in [np.dtype('int'), np.dtype('float')]:", "compilation_passed": true, "time": 0.008318901062011719, "tests_passed": false, "error": "NameError"}
+{"code": " column_name not in df:", "compilation_passed": true, "time": 0.19499516487121582, "tests_passed": true, "error": null}
+{"code": " column_name not in df.columns:", "compilation_passed": true, "time": 0.19488096237182617, "tests_passed": true, "error": null}
+{"code": " not column_name in df.columns:", "compilation_passed": true, "time": 0.1968977451324463, "tests_passed": true, "error": null}
+{"code": " df.dtypes[column_name] in [\"object\", \"bool\", \"datetime64[ns]\"]:", "compilation_passed": true, "time": 0.008336067199707031, "tests_passed": false, "error": "ValueError"}
+{"code": " not df[column_name].dtype in [pd.np.int64, pd.np.float64]:", "compilation_passed": true, "time": 0.008250951766967773, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[column_name].dtype != 'int64':", "compilation_passed": true, "time": 0.008324146270751953, "tests_passed": false, "error": "ValueError"}
+{"code": " not column_name:", "compilation_passed": true, "time": 0.07532906532287598, "tests_passed": false, "error": "KeyError"}
+{"code": " df.select_dtypes(include=['object', 'category']).columns.any():", "compilation_passed": true, "time": 0.008371114730834961, "tests_passed": false, "error": "ValueError"}
+{"code": " df[column_name].dtype in (\"object\", \"bool\"):", "compilation_passed": true, "time": 0.008667945861816406, "tests_passed": false, "error": "ValueError"}
+{"code": " not df[column_name].apply(pd.api.types.is_numeric_dtype):", "compilation_passed": true, "time": 0.008635997772216797, "tests_passed": false, "error": "ValueError"}
+{"code": " df.dtypes[column_name] == object:", "compilation_passed": true, "time": 0.008779048919677734, "tests_passed": false, "error": "ValueError"}
+{"code": " df.select_dtypes(exclude=['number']).empty == False:", "compilation_passed": true, "time": 0.00815582275390625, "tests_passed": false, "error": "ValueError"}
+{"code": " not any(df.dtypes == \"datetime64\"):", "compilation_passed": true, "time": 0.010245084762573242, "tests_passed": false, "error": "ValueError"}
+{"code": " df[column_name].dtype == object:", "compilation_passed": true, "time": 0.00817728042602539, "tests_passed": false, "error": "ValueError"}
+{"code": " df.dtypes[column_name] == object or df.dtypes[column_name] == bool:", "compilation_passed": true, "time": 0.009122133255004883, "tests_passed": false, "error": "ValueError"}

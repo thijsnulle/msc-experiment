@@ -1,0 +1,5 @@
+{"code": "config['MAIL_PORT'] = int(os.getenv('MAIL_PORT', 25))", "compilation_passed": true, "time": 0.014076948165893555, "tests_passed": true, "error": null}
+{"code": "config['MAIL_PORT'] = int(os.getenv('MAIL_PORT', '25'))", "compilation_passed": true, "time": 0.014114856719970703, "tests_passed": true, "error": null}
+{"code": "config['MAIL_PORT'] = os.getenv('MAIL_PORT', 25)", "compilation_passed": true, "time": 0.013948202133178711, "tests_passed": true, "error": null}
+{"code": "config['MAIL_PORT'] = os.getenv('MAIL_PORT', '25')", "compilation_passed": true, "time": 0.013952016830444336, "tests_passed": true, "error": null}
+{"code": "config['MAIL_PORT'] = os.getenv('MAIL_PORT', '587')", "compilation_passed": true, "time": 0.01254725456237793, "tests_passed": true, "error": null}

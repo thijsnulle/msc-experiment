@@ -1,0 +1,24 @@
+{"code": " pd.DataFrame({s1.name: s1, 'Intersection': np.where(s1.isin(intersection), 'Yes', 'No')})", "compilation_passed": true, "time": 0.009974002838134766, "tests_passed": false, "error": "NameError"}
+{"code": " pd.DataFrame({s1.name: s1.tolist(), 'Category': s1.name})", "compilation_passed": true, "time": 0.34623122215270996, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'value': s1, 'series': s1.name})", "compilation_passed": true, "time": 0.37139201164245605, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0002689361572265625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'value': s1, 'group': 0})", "compilation_passed": true, "time": 0.552457332611084, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({s1.name: s1, 's': s1.name})", "compilation_passed": true, "time": 0.5746669769287109, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'values': s1, 'series': s1.name})", "compilation_passed": true, "time": 0.4972958564758301, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'value': s1, 'name': s1.name})", "compilation_passed": true, "time": 0.394848108291626, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({s1.name: s1, 'Intersection': [1 if item in intersection else 0 for item in s1]})", "compilation_passed": true, "time": 0.7667179107666016, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({s1.name: s1, 'value': 0})", "compilation_passed": true, "time": 0.3771669864654541, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Series': s1.name, 'Value': s1.values})", "compilation_passed": true, "time": 0.3016979694366455, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({s1.name: s1, 'dummy': [0] * len(s1)})", "compilation_passed": true, "time": 0.35254693031311035, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({s1.name: s1, 'Value': 0})", "compilation_passed": true, "time": 0.4034290313720703, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Data': s1, 'Group': s1.name})", "compilation_passed": true, "time": 0.38661909103393555, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'s1': s1, 'category': s1.name})", "compilation_passed": true, "time": 0.3968009948730469, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({s1.name: s1, 'Series': s1.name, 'Color': 'blue'})", "compilation_passed": true, "time": 0.5610597133636475, "tests_passed": true, "error": null}
+{"code": " s1.to_frame(name='Value').assign(Series=s1.name)", "compilation_passed": true, "time": 0.3820459842681885, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'values': s1, 'type': s1.name})", "compilation_passed": true, "time": 0.38896703720092773, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'series': s1.name, 'data': s1})", "compilation_passed": true, "time": 0.2953312397003174, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Series': s1.name, 'Data': s1})", "compilation_passed": true, "time": 0.28794097900390625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'data': s1, 'series': s1.name, 'rank': [i for i, v in enumerate(s1) if v in intersection]})", "compilation_passed": true, "time": 0.1322021484375, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'values': s1, 'category': s1.name})", "compilation_passed": true, "time": 0.35307908058166504, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({s1.name: s1, 'val': s1})", "compilation_passed": true, "time": 0.35268306732177734, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Value': s1, 'Series': s1.name})", "compilation_passed": true, "time": 0.34377598762512207, "tests_passed": true, "error": null}

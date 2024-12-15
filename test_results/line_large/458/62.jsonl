@@ -1,0 +1,17 @@
+{"code": " converted_col.dtype == 'float64':", "compilation_passed": true, "time": 0.017354965209960938, "tests_passed": true, "error": null}
+{"code": " converted_col.notnull().all():", "compilation_passed": true, "time": 0.011667966842651367, "tests_passed": true, "error": null}
+{"code": " pd.api.types.is_numeric_dtype(converted_col):", "compilation_passed": true, "time": 0.02148604393005371, "tests_passed": true, "error": null}
+{"code": " not pd.isna(converted_col).any():", "compilation_passed": true, "time": 0.010177135467529297, "tests_passed": true, "error": null}
+{"code": " not pd.isna(converted_col).all():", "compilation_passed": true, "time": 0.01714920997619629, "tests_passed": true, "error": null}
+{"code": " not converted_col.isnull().any():", "compilation_passed": true, "time": 0.011973857879638672, "tests_passed": true, "error": null}
+{"code": " not converted_col.isnull().all():", "compilation_passed": true, "time": 0.020391225814819336, "tests_passed": true, "error": null}
+{"code": " not any(pd.isnull(converted_col)):", "compilation_passed": true, "time": 0.009008169174194336, "tests_passed": true, "error": null}
+{"code": " not converted_col.empty and (pd.api.types.is_numeric_dtype(converted_col)):", "compilation_passed": true, "time": 0.018413066864013672, "tests_passed": true, "error": null}
+{"code": " not converted_col.empty and pd.api.types.is_float_dtype(converted_col):", "compilation_passed": true, "time": 0.016974925994873047, "tests_passed": true, "error": null}
+{"code": " converted_col.dtype.name in {\"int64\", \"float64\"}:", "compilation_passed": true, "time": 0.018320798873901367, "tests_passed": true, "error": null}
+{"code": " not converted_col.empty and pd.api.types.is_numeric_dtype(converted_col):", "compilation_passed": true, "time": 0.021444320678710938, "tests_passed": true, "error": null}
+{"code": " not pd.isnull(converted_col).all():", "compilation_passed": true, "time": 0.021090984344482422, "tests_passed": true, "error": null}
+{"code": " not converted_col.empty and (converted_col.dtype != \"object\"):", "compilation_passed": true, "time": 0.03150320053100586, "tests_passed": true, "error": null}
+{"code": " not any(converted_col.isnull()) and df[col].dtype in (", "compilation_passed": false, "time": 0.0004589557647705078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.api.types.is_float_dtype(converted_col):", "compilation_passed": true, "time": 0.018316030502319336, "tests_passed": true, "error": null}
+{"code": " pd.core.dtypes.common.is_numeric_dtype(converted_col):", "compilation_passed": true, "time": 0.019016027450561523, "tests_passed": true, "error": null}

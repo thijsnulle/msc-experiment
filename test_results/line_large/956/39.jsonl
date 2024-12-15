@@ -1,0 +1,28 @@
+{"code": " text.replace('_', '')", "compilation_passed": true, "time": 0.0067157745361328125, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^a-zA-Z ]\", \"\", text)", "compilation_passed": true, "time": 0.012089729309082031, "tests_passed": true, "error": null}
+{"code": " ' '.join(random.choice([x.upper(), x.lower()]) for x in text)", "compilation_passed": true, "time": 0.012782096862792969, "tests_passed": true, "error": null}
+{"code": " text.lower()", "compilation_passed": true, "time": 0.014636993408203125, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s+\", \" \", text)", "compilation_passed": true, "time": 0.012603998184204102, "tests_passed": true, "error": null}
+{"code": " list(text.strip())", "compilation_passed": true, "time": 0.007498025894165039, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choice([ch.upper(), ch]) for ch in text)", "compilation_passed": true, "time": 0.0029990673065185547, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choice([c.upper(), c.lower()]) for c in text)", "compilation_passed": true, "time": 0.002917051315307617, "tests_passed": true, "error": null}
+{"code": " ' '.join([c.upper() if random.choice([True, False]) else c for c in text])", "compilation_passed": true, "time": 0.005889892578125, "tests_passed": true, "error": null}
+{"code": " text.split()", "compilation_passed": true, "time": 0.005999088287353516, "tests_passed": true, "error": null}
+{"code": " text.strip().title()", "compilation_passed": true, "time": 0.0029838085174560547, "tests_passed": true, "error": null}
+{"code": " text.upper()", "compilation_passed": true, "time": 0.005976676940917969, "tests_passed": true, "error": null}
+{"code": " \"\".join([random.choice([c.upper(), c.lower()]) for c in text])", "compilation_passed": true, "time": 0.00290679931640625, "tests_passed": true, "error": null}
+{"code": " \" \".join(w.upper() if random.random() < 0.5 else w for w in text.split())", "compilation_passed": true, "time": 0.006757020950317383, "tests_passed": true, "error": null}
+{"code": " \" \".join(", "compilation_passed": false, "time": 0.0002579689025878906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"\".join(random.choice([c.lower(), c.upper()]) for c in text)", "compilation_passed": true, "time": 0.003381967544555664, "tests_passed": true, "error": null}
+{"code": " text.strip()", "compilation_passed": true, "time": 0.008089780807495117, "tests_passed": true, "error": null}
+{"code": " list(text)", "compilation_passed": true, "time": 0.006046772003173828, "tests_passed": true, "error": null}
+{"code": " \" \".join([\"\".join([random.choice([c.lower(), c.upper()]) for c in word]) for word in text.split()])", "compilation_passed": true, "time": 0.003086090087890625, "tests_passed": true, "error": null}
+{"code": " text.replace(\"_\", \" \")", "compilation_passed": true, "time": 0.005731821060180664, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice([c.lower(), c.upper()]) for c in text)", "compilation_passed": true, "time": 0.0030319690704345703, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choice([x.upper(), x.lower()]) for x in text)", "compilation_passed": true, "time": 0.003317117691040039, "tests_passed": true, "error": null}
+{"code": " text.translate(str.maketrans(\"\", \"\", string.punctuation))", "compilation_passed": true, "time": 0.0077970027923583984, "tests_passed": true, "error": null}
+{"code": " text.replace(\"\\xa0\", \"_\")", "compilation_passed": true, "time": 0.006747722625732422, "tests_passed": true, "error": null}
+{"code": " text.upper() if random.choice([True, False]) else text.lower()", "compilation_passed": true, "time": 0.007148027420043945, "tests_passed": true, "error": null}
+{"code": " text.replace('_', '').replace('__', '').replace('___', '')", "compilation_passed": true, "time": 0.006818056106567383, "tests_passed": true, "error": null}
+{"code": " [t.upper() if random.random() >= 0.5 else t for t in text]", "compilation_passed": true, "time": 0.006530046463012695, "tests_passed": true, "error": null}
+{"code": " \" \".join(word.upper() if random.random() >= 0.5 else word for word in text.split())", "compilation_passed": true, "time": 0.006402730941772461, "tests_passed": true, "error": null}

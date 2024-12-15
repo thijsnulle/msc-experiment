@@ -1,0 +1,22 @@
+{"code": "linspace(mu - 3 * sigma, mu + 3 * sigma),", "compilation_passed": true, "time": 0.04070401191711426, "tests_passed": false, "error": "ValueError"}
+{"code": "linspace(mu - 3 * sigma, mu + 3 * sigma, 50),", "compilation_passed": true, "time": 0.04099416732788086, "tests_passed": false, "error": "ValueError"}
+{"code": "linspace(min(samples), max(samples), 300),", "compilation_passed": true, "time": 0.04168868064880371, "tests_passed": false, "error": "ValueError"}
+{"code": "linspace(-5, 5, 100), norm.pdf(np.linspace(-5, 5, 100)), color=\"red\", lw=2", "compilation_passed": false, "time": 0.0002579689025878906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "linspace(mu - 4 * sigma, mu + 4 * sigma, 100),", "compilation_passed": true, "time": 0.040856122970581055, "tests_passed": false, "error": "ValueError"}
+{"code": "linspace(-5.0, 5.0, 10000),", "compilation_passed": true, "time": 0.039667367935180664, "tests_passed": false, "error": "ValueError"}
+{"code": "linspace(mu - 3 * sigma, mu + 3 * sigma, 100),", "compilation_passed": true, "time": 0.041088104248046875, "tests_passed": false, "error": "ValueError"}
+{"code": "linspace(", "compilation_passed": false, "time": 0.00026106834411621094, "tests_passed": false, "error": "SyntaxError"}
+{"code": "linspace(-5 * sigma + mu, 5 * sigma + mu, 100000),", "compilation_passed": true, "time": 0.04064512252807617, "tests_passed": false, "error": "ValueError"}
+{"code": "linspace(mu - 3 * sigma, mu + 3 * sigma, 100000),", "compilation_passed": true, "time": 0.04048609733581543, "tests_passed": false, "error": "ValueError"}
+{"code": "linspace(-5, 5, 100),", "compilation_passed": true, "time": 0.041387081146240234, "tests_passed": false, "error": "ValueError"}
+{"code": "linspace(mu - 4 * sigma, mu + 4 * sigma, 1000),", "compilation_passed": true, "time": 0.28929924964904785, "tests_passed": true, "error": null}
+{"code": "linspace(min(samples), max(samples), n_samples),", "compilation_passed": true, "time": 0.04289507865905762, "tests_passed": false, "error": "ValueError"}
+{"code": "linspace(-6, 6, 100), norm.pdf(np.linspace(-6, 6, 100), mu, sigma), \"r\", linewidth=2", "compilation_passed": false, "time": 0.00026488304138183594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "linspace(-4, 4, 1000),", "compilation_passed": true, "time": 1.612243890762329, "tests_passed": false, "error": "TimeoutError"}
+{"code": "linspace(mu - 5 * sigma, mu + 5 * sigma, 100),", "compilation_passed": true, "time": 0.03965020179748535, "tests_passed": false, "error": "ValueError"}
+{"code": "linspace(-5, 5, 1000),", "compilation_passed": true, "time": 0.2896389961242676, "tests_passed": true, "error": null}
+{"code": "linspace(-5, 5, 100), norm.pdf(np.linspace(-5, 5, 100), mu, sigma), \"r-\", lw=2", "compilation_passed": false, "time": 0.0002579689025878906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "linspace(mu - 3 * sigma, mu + 3 * sigma, 500),", "compilation_passed": true, "time": 0.03980278968811035, "tests_passed": false, "error": "ValueError"}
+{"code": "linspace(mu - 4 * sigma, mu + 4 * sigma, 200),", "compilation_passed": true, "time": 0.04123187065124512, "tests_passed": false, "error": "ValueError"}
+{"code": "linspace(mu - 5 * sigma, mu + 5 * sigma, 1000),", "compilation_passed": true, "time": 0.28717899322509766, "tests_passed": true, "error": null}
+{"code": "linspace(-5, 5, num=1000),", "compilation_passed": true, "time": 0.2850921154022217, "tests_passed": true, "error": null}

@@ -1,0 +1,5 @@
+{"code": " get_window('hann', len(time))", "compilation_passed": true, "time": 1.0397748947143555, "tests_passed": false, "error": "TimeoutError"}
+{"code": " get_window('hann', len(wave))", "compilation_passed": true, "time": 0.3576068878173828, "tests_passed": true, "error": null}
+{"code": " get_window('hann', 10)", "compilation_passed": true, "time": 0.007915973663330078, "tests_passed": false, "error": "ValueError"}
+{"code": " get_window('hann', len(wave) - 1)", "compilation_passed": true, "time": 0.008081912994384766, "tests_passed": false, "error": "ValueError"}
+{"code": " get_window(\"hann\", len(wave))", "compilation_passed": true, "time": 0.37081336975097656, "tests_passed": true, "error": null}

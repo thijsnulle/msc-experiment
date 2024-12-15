@@ -1,0 +1,8 @@
+{"code": " itertools.combinations(sorted_array, 2)", "compilation_passed": true, "time": 0.006796121597290039, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.009470939636230469, "tests_passed": true, "error": null}
+{"code": " [tuple(x) for x in itertools.combinations(sorted_array, 2)]", "compilation_passed": true, "time": 0.0028128623962402344, "tests_passed": true, "error": null}
+{"code": " list(itertools.combinations(sorted_array, 2))", "compilation_passed": true, "time": 0.0022439956665039062, "tests_passed": true, "error": null}
+{"code": " [(sorted_array[i], sorted_array[i+1]) for i in range(len(sorted_array)-1)]", "compilation_passed": true, "time": 0.006891965866088867, "tests_passed": true, "error": null}
+{"code": " [(x, y) for x, y in itertools.combinations(sorted_array, 2)]", "compilation_passed": true, "time": 0.0021009445190429688, "tests_passed": true, "error": null}
+{"code": " [tuple(row) for row in itertools.combinations(sorted_array, 2)]", "compilation_passed": true, "time": 0.0022449493408203125, "tests_passed": true, "error": null}
+{"code": " [tuple(pair) for pair in itertools.combinations(sorted_array, 2)]", "compilation_passed": true, "time": 0.0020322799682617188, "tests_passed": true, "error": null}

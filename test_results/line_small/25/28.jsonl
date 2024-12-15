@@ -1,0 +1,6 @@
+{"code": " zlib.compress(json_str.encode('utf-8'))", "compilation_passed": true, "time": 0.0016100406646728516, "tests_passed": true, "error": null}
+{"code": " zlib.compress(json_str.encode())", "compilation_passed": true, "time": 0.0017130374908447266, "tests_passed": true, "error": null}
+{"code": " zlib.compress(json_str.encode(\"utf-8\"))", "compilation_passed": true, "time": 0.0018241405487060547, "tests_passed": true, "error": null}
+{"code": " zlib.compress(bytes(json_str, encoding='utf8'))", "compilation_passed": true, "time": 0.0019040107727050781, "tests_passed": true, "error": null}
+{"code": " zlib.compress(bytes(json_str, \"utf-8\"))", "compilation_passed": true, "time": 0.0018219947814941406, "tests_passed": true, "error": null}
+{"code": " zlib.compress(bytes(json_str, encoding='utf-8'))", "compilation_passed": true, "time": 0.0017468929290771484, "tests_passed": true, "error": null}

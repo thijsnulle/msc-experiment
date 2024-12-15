@@ -1,0 +1,28 @@
+{"code": " f\"{pattern}-{int(time())}\"", "compilation_passed": true, "time": 0.010416746139526367, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.basename(pattern)", "compilation_passed": true, "time": 0.10561299324035645, "tests_passed": true, "error": null}
+{"code": " str(uuid.uuid4())", "compilation_passed": true, "time": 0.008601903915405273, "tests_passed": false, "error": "NameError"}
+{"code": " str(int(time.time()))", "compilation_passed": true, "time": 0.009119987487792969, "tests_passed": false, "error": "NameError"}
+{"code": " f\"archive_{pattern}\"", "compilation_passed": true, "time": 0.03836417198181152, "tests_passed": true, "error": null}
+{"code": " 'archive_{}'.format(int(time.time()))", "compilation_passed": true, "time": 0.011065244674682617, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.basename(file_list[0]).split('.')[0]", "compilation_passed": true, "time": 0.11189889907836914, "tests_passed": true, "error": null}
+{"code": " f'archive_{pattern}_{datetime.now().strftime(\"%Y%m%d%H%M%S\")}.tar.gz'", "compilation_passed": true, "time": 0.01505589485168457, "tests_passed": false, "error": "NameError"}
+{"code": " str(datetime.date.today()) + '_backup.zip'", "compilation_passed": true, "time": 0.009959936141967773, "tests_passed": false, "error": "NameError"}
+{"code": " f\"archive-{pattern}-{datetime.datetime.now():%Y-%m-%d-%H-%M-%S}\"", "compilation_passed": true, "time": 0.015325069427490234, "tests_passed": false, "error": "NameError"}
+{"code": " 'archive_file_{}'.format(os.path.basename(file_list[0]))", "compilation_passed": true, "time": 0.12654614448547363, "tests_passed": true, "error": null}
+{"code": " \"archive_\" + pattern.replace('/', '_').replace('.', '_').replace('*', '').replace('?', '').replace('[', '').replace(']', '')", "compilation_passed": true, "time": 0.1079871654510498, "tests_passed": true, "error": null}
+{"code": " f\"{pattern}_{int(time.time())}.zip\"", "compilation_passed": true, "time": 0.01343536376953125, "tests_passed": false, "error": "NameError"}
+{"code": " 'archive_' + pattern.replace('*', '') + '.zip'", "compilation_passed": true, "time": 0.048278093338012695, "tests_passed": true, "error": null}
+{"code": " f'{datetime.datetime.now().strftime(\"%Y%m%d_%H%M%S\")}_archive'", "compilation_passed": true, "time": 0.012858152389526367, "tests_passed": false, "error": "NameError"}
+{"code": " f\"archive_{int(time.time())}.zip\"", "compilation_passed": true, "time": 0.01308298110961914, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.basename(pattern).replace('*', '')", "compilation_passed": true, "time": 0.10010075569152832, "tests_passed": true, "error": null}
+{"code": " os.path.basename(file_list[0].rpartition('.')[0])", "compilation_passed": true, "time": 0.10130691528320312, "tests_passed": true, "error": null}
+{"code": " f\"{pattern.split('.')[-1]}\"", "compilation_passed": true, "time": 0.10226583480834961, "tests_passed": true, "error": null}
+{"code": " 'archive{}.tar'.format(int(time.time()))", "compilation_passed": true, "time": 0.013110876083374023, "tests_passed": false, "error": "NameError"}
+{"code": " 'archive_{0:%Y%m%d%H%M%S}.tar.gz'.format(datetime.datetime.now())", "compilation_passed": true, "time": 0.012930154800415039, "tests_passed": false, "error": "NameError"}
+{"code": " 'archive_{}'.format(pattern)", "compilation_passed": true, "time": 0.038691043853759766, "tests_passed": true, "error": null}
+{"code": " pattern.replace('*', '').replace('/', '_').replace('.', '_')", "compilation_passed": true, "time": 0.10568714141845703, "tests_passed": true, "error": null}
+{"code": " datetime.now().strftime('%Y-%m-%d_%H-%M-%S') + '.tar.gz'", "compilation_passed": true, "time": 0.01300501823425293, "tests_passed": false, "error": "NameError"}
+{"code": " f'{pattern}_archive_{int(time.time())}.tar.gz'", "compilation_passed": true, "time": 0.013690948486328125, "tests_passed": false, "error": "NameError"}
+{"code": " \"archive_{:%Y%m%d_%H%M%S}.tar.gz\".format(datetime.datetime.now())", "compilation_passed": true, "time": 0.008812904357910156, "tests_passed": false, "error": "NameError"}
+{"code": " f'{pattern.replace(\"*\", \"\")}.zip'", "compilation_passed": true, "time": 0.1037900447845459, "tests_passed": true, "error": null}
+{"code": " os.path.basename(pattern).split('.')[0]", "compilation_passed": true, "time": 0.11715412139892578, "tests_passed": true, "error": null}

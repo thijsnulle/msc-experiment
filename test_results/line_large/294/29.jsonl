@@ -1,0 +1,15 @@
+{"code": " df.copy().assign(**{'age': df_grouped['age'], 'income': df_grouped['income']})", "compilation_passed": true, "time": 0.03873634338378906, "tests_passed": false, "error": "ValueError"}
+{"code": " df_grouped", "compilation_passed": true, "time": 1.0232298374176025, "tests_passed": false, "error": "ValueError"}
+{"code": " df.assign(**df_grouped)", "compilation_passed": true, "time": 0.026093006134033203, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.concat([df.assign(age=df_grouped.groupby('id').apply(lambda x: x['age'][x.index]).xs(df['id'])).assign(income=df_grouped.groupby('id').apply(lambda x: x['income'][x.index]).xs(df['id']))], axis=1).droplevel(1, axis=1).drop(columns=['id'])", "compilation_passed": true, "time": 0.01459193229675293, "tests_passed": false, "error": "ValueError"}
+{"code": " df.join(df_grouped)", "compilation_passed": true, "time": 0.01863408088684082, "tests_passed": false, "error": "ValueError"}
+{"code": " df_grouped.reset_index(drop=True)", "compilation_passed": true, "time": 1.0276269912719727, "tests_passed": false, "error": "ValueError"}
+{"code": " df.join(df_grouped, on='id')", "compilation_passed": true, "time": 0.01762986183166504, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.concat([df, df_grouped], axis=1).drop(['age', 'income'], axis=1).fillna(0)", "compilation_passed": true, "time": 0.03326225280761719, "tests_passed": false, "error": "KeyError"}
+{"code": " df.copy().assign(age=df_grouped['age'], income=df_grouped['income'])", "compilation_passed": true, "time": 0.024844884872436523, "tests_passed": false, "error": "ValueError"}
+{"code": " df.assign(**{col: df_grouped[col] for col in ['age', 'income']})", "compilation_passed": true, "time": 0.02651691436767578, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.concat([df, df_grouped], axis=1)", "compilation_passed": true, "time": 0.018604040145874023, "tests_passed": false, "error": "ValueError"}
+{"code": " df.assign(age=df_grouped['age'], income=df_grouped['income'])", "compilation_passed": true, "time": 0.024579763412475586, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.concat([df_grouped['age'].rename('age_standardized'), df_grouped['income'].rename('income_standardized')], axis=1)", "compilation_passed": true, "time": 0.028144121170043945, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.concat([df_grouped, df[['id']]], axis=1)", "compilation_passed": true, "time": 0.03185105323791504, "tests_passed": false, "error": "ValueError"}
+{"code": " df.join(df_grouped, on=['id', 'age']).drop(['age', 'income'], axis=1)", "compilation_passed": true, "time": 0.018507719039916992, "tests_passed": false, "error": "ValueError"}

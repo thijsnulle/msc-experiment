@@ -1,0 +1,7 @@
+{"code": " frequencies = zip(*word_counts.items())", "compilation_passed": true, "time": 0.1656651496887207, "tests_passed": true, "error": null}
+{"code": " counts = zip(*sorted(word_counts.items()))", "compilation_passed": true, "time": 0.020229101181030273, "tests_passed": false, "error": "NameError"}
+{"code": " counts = zip(*word_counts.most_common())", "compilation_passed": true, "time": 0.0232388973236084, "tests_passed": false, "error": "NameError"}
+{"code": " counts = zip(*word_counts.items())", "compilation_passed": true, "time": 0.02081775665283203, "tests_passed": false, "error": "NameError"}
+{"code": " frequencies = zip(*word_counts.most_common())", "compilation_passed": true, "time": 0.14412999153137207, "tests_passed": true, "error": null}
+{"code": " frequencies = zip(*sorted(word_counts.items(), key=lambda x: x[0]))", "compilation_passed": true, "time": 0.1406409740447998, "tests_passed": true, "error": null}
+{"code": " frequencies = zip(*sorted(word_counts.items()))", "compilation_passed": true, "time": 2.387357234954834, "tests_passed": true, "error": null}

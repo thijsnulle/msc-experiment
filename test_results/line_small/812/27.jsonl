@@ -1,0 +1,29 @@
+{"code": " str(Path(directory).rglob(file_pattern))", "compilation_passed": true, "time": 0.030697107315063477, "tests_passed": true, "error": null}
+{"code": " Path(directory) / 'result.tar'", "compilation_passed": true, "time": 0.02677607536315918, "tests_passed": true, "error": null}
+{"code": " Path(directory)", "compilation_passed": true, "time": 0.015316963195800781, "tests_passed": false, "error": "IsADirectoryError"}
+{"code": " Path(directory).joinpath(\"ACRO_TRAY_FILES.tar.gz\")", "compilation_passed": true, "time": 0.02390909194946289, "tests_passed": true, "error": null}
+{"code": " directory + \"source.tar.gz\"", "compilation_passed": true, "time": 0.02670121192932129, "tests_passed": true, "error": null}
+{"code": " Path(directory).glob(\"*\").filter(lambda f: re.search(file_pattern, f))", "compilation_passed": true, "time": 0.0120849609375, "tests_passed": false, "error": "AttributeError"}
+{"code": " \"\"", "compilation_passed": true, "time": 0.010499238967895508, "tests_passed": false, "error": "ValueError"}
+{"code": " Path(directory) / \"files.tar\"", "compilation_passed": true, "time": 0.021769046783447266, "tests_passed": true, "error": null}
+{"code": " str(Path(directory).resolve() / f'AcroTray.tar.gz')", "compilation_passed": true, "time": 0.02463221549987793, "tests_passed": true, "error": null}
+{"code": " Path(directory) / \"TARFILE.tar\"", "compilation_passed": true, "time": 0.02291417121887207, "tests_passed": true, "error": null}
+{"code": " Path(f\"{directory}.tar\")", "compilation_passed": true, "time": 0.023148059844970703, "tests_passed": true, "error": null}
+{"code": " None", "compilation_passed": true, "time": 0.010669231414794922, "tests_passed": false, "error": "ValueError"}
+{"code": " f'{directory}acro_files.tar'", "compilation_passed": true, "time": 0.02190995216369629, "tests_passed": true, "error": null}
+{"code": " Path(directory) / (Path(directory).stem + '_files.tar')", "compilation_passed": true, "time": 0.026499032974243164, "tests_passed": true, "error": null}
+{"code": " Path(directory).glob(file_pattern)", "compilation_passed": true, "time": 0.010266780853271484, "tests_passed": false, "error": "TypeError"}
+{"code": " Path(directory) / \"acrobat_files.tar.gz\"", "compilation_passed": true, "time": 0.022180795669555664, "tests_passed": true, "error": null}
+{"code": " f\"{directory}_TAR_files.tar\"", "compilation_passed": true, "time": 0.021979808807373047, "tests_passed": true, "error": null}
+{"code": " Path(directory) / \"my_tarfile.tar.gz\"", "compilation_passed": true, "time": 0.026189088821411133, "tests_passed": true, "error": null}
+{"code": " Path(directory) / \"acroTray.tar.gz\"", "compilation_passed": true, "time": 0.02066826820373535, "tests_passed": true, "error": null}
+{"code": " f\"{Path(directory)}.tar\"", "compilation_passed": true, "time": 0.02199411392211914, "tests_passed": true, "error": null}
+{"code": " Path(directory) / f\"{file_pattern.replace('\\\\','_')}_temp.tar.gz\"", "compilation_passed": false, "time": 0.0007417201995849609, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Path(directory).joinpath(\"acro_tar_file.tar\")", "compilation_passed": true, "time": 0.022701263427734375, "tests_passed": true, "error": null}
+{"code": " \"%s/AcroTray_%s.tar.gz\" % (Path(directory).parent.as_posix(), str(Path(directory).name).replace(\" \", \"_\"))", "compilation_passed": true, "time": 0.02427077293395996, "tests_passed": true, "error": null}
+{"code": " Path(f\"{directory}AcroTrayFiles.tar.gz\")", "compilation_passed": true, "time": 0.02534008026123047, "tests_passed": true, "error": null}
+{"code": " Path(directory) / \"archive.tar\"", "compilation_passed": true, "time": 0.027577638626098633, "tests_passed": true, "error": null}
+{"code": " Path(directory).name + \".tar\"", "compilation_passed": true, "time": 0.025974035263061523, "tests_passed": true, "error": null}
+{"code": " Path(directory).resolve() / f\"{Path(directory).name}_{time.strftime('%Y_%m_%d_%H_%M')}.tar.gz\"", "compilation_passed": true, "time": 0.010339736938476562, "tests_passed": false, "error": "NameError"}
+{"code": " Path(directory) / \"AcroTray_files.tar.gz\"", "compilation_passed": true, "time": 0.023751258850097656, "tests_passed": true, "error": null}
+{"code": " f\"{directory}temp.tar\"", "compilation_passed": true, "time": 0.022185087203979492, "tests_passed": true, "error": null}

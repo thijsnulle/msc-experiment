@@ -1,0 +1,6 @@
+{"code": " reduce(lambda x, y: x + y[0] * y[1], all_pairs, 0)", "compilation_passed": true, "time": 0.004021883010864258, "tests_passed": true, "error": null}
+{"code": " reduce(lambda x, y: x * y[0] + x * y[1], all_pairs, 0)", "compilation_passed": true, "time": 0.008738040924072266, "tests_passed": true, "error": null}
+{"code": " reduce(lambda acc, x: acc + x[0] * x[1], all_pairs, 0)", "compilation_passed": true, "time": 0.003511190414428711, "tests_passed": true, "error": null}
+{"code": " reduce(lambda x, y: x + y[0]*y[1], all_pairs, 0)", "compilation_passed": true, "time": 0.0028951168060302734, "tests_passed": true, "error": null}
+{"code": " sum(map(lambda pair: pair[0] * pair[1], all_pairs))", "compilation_passed": true, "time": 0.0029468536376953125, "tests_passed": true, "error": null}
+{"code": " sum(x * y for x, y in all_pairs)", "compilation_passed": true, "time": 0.0040149688720703125, "tests_passed": true, "error": null}

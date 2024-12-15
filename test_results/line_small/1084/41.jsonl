@@ -1,0 +1,11 @@
+{"code": " []", "compilation_passed": true, "time": 0.24490690231323242, "tests_passed": true, "error": null}
+{"code": " [df[col].plot.hist() for col in df.columns]", "compilation_passed": true, "time": 0.12050890922546387, "tests_passed": true, "error": null}
+{"code": " [plt.hist(col, bins=10, label=col) for col in df.columns]", "compilation_passed": true, "time": 0.10174989700317383, "tests_passed": true, "error": null}
+{"code": " [df[col].plot.hist(bins=20) for col in df.columns]", "compilation_passed": true, "time": 0.137847900390625, "tests_passed": true, "error": null}
+{"code": " [df[col].plot.hist() for col in df]", "compilation_passed": true, "time": 1.514700174331665, "tests_passed": false, "error": "TimeoutError"}
+{"code": " [df[col].plot.hist(bins=50, alpha=0.75) for col in df.columns]", "compilation_passed": true, "time": 0.17868709564208984, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00022912025451660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [df[col].hist(bins=10) for col in df.columns]", "compilation_passed": true, "time": 0.12037777900695801, "tests_passed": true, "error": null}
+{"code": " [None] * len(df.columns)", "compilation_passed": true, "time": 0.09538102149963379, "tests_passed": true, "error": null}
+{"code": " [pd.plotting.histplot(x, kws={'bins': 'fd'}) for x in df.values]", "compilation_passed": true, "time": 0.014615774154663086, "tests_passed": false, "error": "AttributeError"}
+{"code": " [df[col].hist() for col in df.columns]", "compilation_passed": true, "time": 0.10910415649414062, "tests_passed": true, "error": null}

@@ -1,0 +1,5 @@
+{"code": " a + b", "compilation_passed": true, "time": 0.4281020164489746, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(a, b))", "compilation_passed": true, "time": 0.46706700325012207, "tests_passed": true, "error": null}
+{"code": " itertools.chain(a, b)", "compilation_passed": true, "time": 0.4563260078430176, "tests_passed": true, "error": null}
+{"code": " collections.Counter(itertools.chain(a, b))", "compilation_passed": true, "time": 0.34536099433898926, "tests_passed": true, "error": null}
+{"code": " collections.Counter(a) + collections.Counter(b)", "compilation_passed": true, "time": 0.5202240943908691, "tests_passed": true, "error": null}

@@ -1,0 +1,5 @@
+{"code": " Counter(word for line in lines for word in re.split(r'[^a-zA-Z]+', line) if word and word.lower() not in STOPWORDS)", "compilation_passed": true, "time": 0.009721755981445312, "tests_passed": true, "error": null}
+{"code": " Counter()", "compilation_passed": true, "time": 0.0017430782318115234, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.007934093475341797, "tests_passed": false, "error": "ValueError"}
+{"code": " Counter(re.findall(r'\\b[a-z]+\\b', ' '.join(lines)))", "compilation_passed": true, "time": 0.004823923110961914, "tests_passed": true, "error": null}
+{"code": " Counter(word for line in lines for word in re.split(r'\\s+', line.strip()) if word and word not in STOPWORDS)", "compilation_passed": true, "time": 0.005647897720336914, "tests_passed": true, "error": null}

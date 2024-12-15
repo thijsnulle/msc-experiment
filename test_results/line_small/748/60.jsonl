@@ -1,0 +1,8 @@
+{"code": " scaler.fit_transform(selected_df)", "compilation_passed": true, "time": 0.014660120010375977, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(selected_df.select_dtypes(include='number'))", "compilation_passed": true, "time": 0.014535903930664062, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(selected_df[['Age', 'Weight']])", "compilation_passed": true, "time": 0.011621952056884766, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(selected_df.iloc[:, 1:])", "compilation_passed": true, "time": 0.00900721549987793, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(selected_df[[\"Age\", \"Weight\"]])", "compilation_passed": true, "time": 0.009232044219970703, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(selected_df.drop(['Age', 'Weight'], axis=1))", "compilation_passed": true, "time": 0.009253978729248047, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(selected_df.values)", "compilation_passed": true, "time": 0.007288694381713867, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(selected_df.to_numpy())", "compilation_passed": true, "time": 0.0076711177825927734, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,6 @@
+{"code": " content.decode(detected_encoding, errors=\"ignore\")", "compilation_passed": true, "time": 0.005299091339111328, "tests_passed": true, "error": null}
+{"code": " content.decode(detected_encoding, errors=\"replace\")", "compilation_passed": true, "time": 0.004819154739379883, "tests_passed": true, "error": null}
+{"code": " content.decode(detected_encoding).encode(to_encoding)", "compilation_passed": true, "time": 0.011950969696044922, "tests_passed": false, "error": "AttributeError"}
+{"code": " content.decode(detected_encoding, errors='ignore').encode(to_encoding)", "compilation_passed": true, "time": 0.010687112808227539, "tests_passed": false, "error": "AttributeError"}
+{"code": " content.decode(detected_encoding)", "compilation_passed": true, "time": 0.004639863967895508, "tests_passed": true, "error": null}
+{"code": " content.decode(detected_encoding, errors=\"ignore\").encode(to_encoding)", "compilation_passed": true, "time": 0.01062774658203125, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,6 @@
+{"code": " response.content.decode('utf-8')", "compilation_passed": true, "time": 0.009160995483398438, "tests_passed": false, "error": "TypeError"}
+{"code": " StringIO(response.content.decode('utf-8'))", "compilation_passed": true, "time": 0.011303901672363281, "tests_passed": false, "error": "TypeError"}
+{"code": " response.content.decode()", "compilation_passed": true, "time": 0.008445978164672852, "tests_passed": false, "error": "TypeError"}
+{"code": " StringIO(response.text)", "compilation_passed": true, "time": 0.0064239501953125, "tests_passed": false, "error": "KeyError"}
+{"code": " response.text", "compilation_passed": true, "time": 0.008679866790771484, "tests_passed": false, "error": "TypeError"}
+{"code": " csv.reader(StringIO(response.text))", "compilation_passed": true, "time": 0.00443267822265625, "tests_passed": true, "error": null}

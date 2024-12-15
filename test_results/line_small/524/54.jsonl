@@ -1,0 +1,6 @@
+{"code": " result, axes", "compilation_passed": true, "time": 0.5023119449615479, "tests_passed": true, "error": null}
+{"code": " dict(result), axes", "compilation_passed": true, "time": 0.5193827152252197, "tests_passed": true, "error": null}
+{"code": " dict(stats), axes", "compilation_passed": true, "time": 0.09035587310791016, "tests_passed": false, "error": "TypeError"}
+{"code": " dict(stats=result), axes", "compilation_passed": true, "time": 0.10205984115600586, "tests_passed": false, "error": "KeyError"}
+{"code": " stats, axes", "compilation_passed": true, "time": 0.10039925575256348, "tests_passed": false, "error": "TypeError"}
+{"code": " dict(stats=stats, axes=axes)", "compilation_passed": true, "time": 0.10690879821777344, "tests_passed": false, "error": "TypeError"}

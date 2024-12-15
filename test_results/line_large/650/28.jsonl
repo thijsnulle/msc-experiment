@@ -1,0 +1,16 @@
+{"code": " tz.localize(datetime(next_year, 1, 1, 0, 0, 0))", "compilation_passed": true, "time": 0.001680135726928711, "tests_passed": true, "error": null}
+{"code": " tz.localize(datetime(year=next_year, month=1, day=1))", "compilation_passed": true, "time": 0.0017559528350830078, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, 1, 1, 0, 0, 0, 0).replace(tzinfo=tz)", "compilation_passed": true, "time": 0.002576112747192383, "tests_passed": true, "error": null}
+{"code": " datetime(year=next_year, month=1, day=1, tzinfo=tz)", "compilation_passed": true, "time": 0.0017409324645996094, "tests_passed": true, "error": null}
+{"code": " tz.localize(datetime(next_year, 1, 1))", "compilation_passed": true, "time": 0.002474069595336914, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, 1, 1, 0, 0, 0, tzinfo=tz)  # Set time to midnight to calculate time difference", "compilation_passed": true, "time": 0.0017290115356445312, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, 1, 1, 0, 0, 0, tzinfo=tz)", "compilation_passed": true, "time": 0.0013408660888671875, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, 1, 1)", "compilation_passed": true, "time": 0.00452423095703125, "tests_passed": false, "error": "TypeError"}
+{"code": " tz.localize(datetime(next_year, 1, 1, 0, 0))", "compilation_passed": true, "time": 0.0015649795532226562, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, 1, 1, 0, 0, 0, 0, tzinfo=tz)", "compilation_passed": true, "time": 0.00168609619140625, "tests_passed": true, "error": null}
+{"code": " datetime(year=next_year, month=1, day=1, tzinfo=tz)  # Preserve timezone", "compilation_passed": true, "time": 0.0014340877532958984, "tests_passed": true, "error": null}
+{"code": " datetime(year=next_year, month=1, day=1, hour=0, minute=0, second=0)", "compilation_passed": true, "time": 0.004575014114379883, "tests_passed": false, "error": "TypeError"}
+{"code": " datetime(next_year, 1, 1).replace(tzinfo=tz)", "compilation_passed": true, "time": 0.0014920234680175781, "tests_passed": true, "error": null}
+{"code": " tz.localize(datetime(next_year, 1, 1))  # Correctly handle DST", "compilation_passed": true, "time": 0.0016779899597167969, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, 1, 1, 0, 0, 0, tzinfo=tz)  # Correctly handle timezone in next_year", "compilation_passed": true, "time": 0.0014300346374511719, "tests_passed": true, "error": null}
+{"code": " datetime(next_year, 1, 1, 0, 0, 0).astimezone(tz)", "compilation_passed": true, "time": 0.001455068588256836, "tests_passed": true, "error": null}

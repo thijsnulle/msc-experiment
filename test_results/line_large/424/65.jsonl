@@ -1,0 +1,10 @@
+{"code": " kmeans.cluster_centers_[kmeans.labels_].astype(np.uint8)", "compilation_passed": true, "time": 0.025177001953125, "tests_passed": true, "error": null}
+{"code": " kmeans.cluster_centers_[kmeans.labels_]", "compilation_passed": true, "time": 0.025168895721435547, "tests_passed": true, "error": null}
+{"code": " kmeans.cluster_centers_[kmeans.labels_].reshape(img.shape).astype(np.uint8)", "compilation_passed": true, "time": 0.0257570743560791, "tests_passed": true, "error": null}
+{"code": " kmeans.cluster_centers_[kmeans.labels_].reshape(img.shape[:2] + (3,))", "compilation_passed": true, "time": 0.02927112579345703, "tests_passed": true, "error": null}
+{"code": " kmeans.cluster_centers_[kmeans.predict(pixels)]", "compilation_passed": true, "time": 0.0260159969329834, "tests_passed": true, "error": null}
+{"code": " np.array([kmeans.cluster_centers_[pixel] for pixel in kmeans.predict(pixels)]).reshape(img.shape)", "compilation_passed": true, "time": 0.025632143020629883, "tests_passed": true, "error": null}
+{"code": " kmeans.cluster_centers_[kmeans.labels_].reshape(img.shape)", "compilation_passed": true, "time": 0.0248410701751709, "tests_passed": true, "error": null}
+{"code": " np.array([kmeans.cluster_centers_[pixel] for pixel in kmeans.labels_])", "compilation_passed": true, "time": 0.023018836975097656, "tests_passed": true, "error": null}
+{"code": " kmeans.cluster_centers_[kmeans.predict(pixels)].reshape(img.shape)", "compilation_passed": true, "time": 0.025649309158325195, "tests_passed": true, "error": null}
+{"code": " np.reshape(kmeans.cluster_centers_[kmeans.labels_], img.shape)", "compilation_passed": true, "time": 0.02572798728942871, "tests_passed": true, "error": null}

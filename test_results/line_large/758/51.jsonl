@@ -1,0 +1,5 @@
+{"code": " rng.choice(countries, size=num_samples, replace=True)", "compilation_passed": true, "time": 0.0077359676361083984, "tests_passed": true, "error": null}
+{"code": " rng.choice(countries, num_samples, replace=True)", "compilation_passed": true, "time": 0.005984067916870117, "tests_passed": true, "error": null}
+{"code": " np.array(countries)", "compilation_passed": true, "time": 0.010248899459838867, "tests_passed": false, "error": "ValueError"}
+{"code": " rng.choice(countries, num_samples)", "compilation_passed": true, "time": 0.005620002746582031, "tests_passed": true, "error": null}
+{"code": " rng.choice(countries, size=num_samples)", "compilation_passed": true, "time": 0.005692005157470703, "tests_passed": true, "error": null}

@@ -1,0 +1,5 @@
+{"code": " Counter(prefix)", "compilation_passed": true, "time": 0.0014307498931884766, "tests_passed": true, "error": null}
+{"code": " Counter(prefix.lower())", "compilation_passed": true, "time": 0.0014081001281738281, "tests_passed": true, "error": null}
+{"code": " Counter(letter.lower() for letter in prefix if letter in LETTERS)", "compilation_passed": true, "time": 0.0015430450439453125, "tests_passed": true, "error": null}
+{"code": " Counter(letter for letter in prefix)", "compilation_passed": true, "time": 0.0012969970703125, "tests_passed": true, "error": null}
+{"code": " Counter(c for c in prefix if c.islower())", "compilation_passed": true, "time": 0.0012753009796142578, "tests_passed": true, "error": null}

@@ -1,0 +1,20 @@
+{"code": " zip(sanitized_word[1:], sanitized_word)", "compilation_passed": true, "time": 0.0033380985260009766, "tests_passed": true, "error": null}
+{"code": " zip(sanitized_word[::2], sanitized_word[1::2])", "compilation_passed": true, "time": 0.0033731460571289062, "tests_passed": true, "error": null}
+{"code": " zip(sanitized_word, sanitized_word[1:])", "compilation_passed": true, "time": 0.0044748783111572266, "tests_passed": true, "error": null}
+{"code": " [(word[i], word[i + 1]) for i in range(len(word) - 1)]", "compilation_passed": true, "time": 0.0038559436798095703, "tests_passed": true, "error": null}
+{"code": " list(zip(sanitized_word, sanitized_word[1:]))", "compilation_passed": true, "time": 0.0031630992889404297, "tests_passed": true, "error": null}
+{"code": " re.findall(r'([A-Za-z][A-Za-z])', sanitized_word)", "compilation_passed": true, "time": 0.0033941268920898438, "tests_passed": true, "error": null}
+{"code": " [(sanitized_word[i], sanitized_word[i+1]) for i in range(len(sanitized_word)-1)]", "compilation_passed": true, "time": 0.0034079551696777344, "tests_passed": true, "error": null}
+{"code": " re.findall('[A-Za-z]{2}', sanitized_word)", "compilation_passed": true, "time": 0.003638029098510742, "tests_passed": true, "error": null}
+{"code": " [(sanitized_word[i] + sanitized_word[i+1]) for i in range(len(sanitized_word)-1)]", "compilation_passed": true, "time": 0.001338958740234375, "tests_passed": true, "error": null}
+{"code": " re.findall('.{2}', sanitized_word)", "compilation_passed": true, "time": 0.0033719539642333984, "tests_passed": true, "error": null}
+{"code": " [sanitized_word[i:i + 2] for i in range(len(sanitized_word) - 1)]", "compilation_passed": true, "time": 0.001374959945678711, "tests_passed": true, "error": null}
+{"code": " re.findall(r'.{2}', sanitized_word)", "compilation_passed": true, "time": 0.0034978389739990234, "tests_passed": true, "error": null}
+{"code": " zip(sanitized_word[:-1], sanitized_word[1:])", "compilation_passed": true, "time": 0.0034279823303222656, "tests_passed": true, "error": null}
+{"code": " re.findall('..', sanitized_word)", "compilation_passed": true, "time": 0.0033500194549560547, "tests_passed": true, "error": null}
+{"code": " [sanitized_word[i:i+2] for i in range(len(sanitized_word) - 1)]", "compilation_passed": true, "time": 0.0014150142669677734, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\w{2})', sanitized_word)", "compilation_passed": true, "time": 0.003376007080078125, "tests_passed": true, "error": null}
+{"code": " iter(zip(sanitized_word[0::2], sanitized_word[1::2]))", "compilation_passed": true, "time": 0.003261089324951172, "tests_passed": true, "error": null}
+{"code": " [(sanitized_word[i], sanitized_word[i+1]) for i in range(len(sanitized_word) - 1)]", "compilation_passed": true, "time": 0.0035829544067382812, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[A-Za-z]{2}', sanitized_word)", "compilation_passed": true, "time": 0.0032701492309570312, "tests_passed": true, "error": null}
+{"code": " [sanitized_word[i:i+2] for i in range(len(sanitized_word)-1)]", "compilation_passed": true, "time": 0.001425027847290039, "tests_passed": true, "error": null}

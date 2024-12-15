@@ -1,0 +1,12 @@
+{"code": " np.random.choice(penalties_costs)", "compilation_passed": true, "time": 0.002705812454223633, "tests_passed": false, "error": "AttributeError"}
+{"code": " penalties_costs[np.random.randint(0, len(penalties_costs))]", "compilation_passed": true, "time": 0.0033228397369384766, "tests_passed": false, "error": "AttributeError"}
+{"code": " penalties_costs[np.random.choice(len(penalties_costs))]", "compilation_passed": true, "time": 0.003789186477661133, "tests_passed": false, "error": "AttributeError"}
+{"code": " penalties_costs[team]", "compilation_passed": true, "time": 0.004040956497192383, "tests_passed": false, "error": "AttributeError"}
+{"code": " random.choice(penalties_costs)", "compilation_passed": true, "time": 0.003280162811279297, "tests_passed": false, "error": "AttributeError"}
+{"code": " penalties_costs[np.random.randint(len(penalties_costs))] * team_penalties", "compilation_passed": true, "time": 0.0037620067596435547, "tests_passed": false, "error": "AttributeError"}
+{"code": " choice(penalties_costs)", "compilation_passed": true, "time": 0.00445103645324707, "tests_passed": false, "error": "AttributeError"}
+{"code": " team_penalties * penalties_costs[teams.index(team)]", "compilation_passed": true, "time": 0.003715991973876953, "tests_passed": false, "error": "AttributeError"}
+{"code": " penalties_costs[np.random.randint(5)]", "compilation_passed": true, "time": 0.003426074981689453, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(penalties_costs) * team_penalties", "compilation_passed": true, "time": 0.0029990673065185547, "tests_passed": false, "error": "AttributeError"}
+{"code": " penalties_costs[teams.index(team)]", "compilation_passed": true, "time": 0.0028209686279296875, "tests_passed": false, "error": "AttributeError"}
+{"code": " team_penalties * choice(penalties_costs)", "compilation_passed": true, "time": 0.002630949020385742, "tests_passed": false, "error": "AttributeError"}

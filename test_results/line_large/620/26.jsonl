@@ -1,0 +1,12 @@
+{"code": " columns = [], []", "compilation_passed": true, "time": 0.012550115585327148, "tests_passed": false, "error": "TypeError"}
+{"code": " cols = L", "compilation_passed": true, "time": 0.008450031280517578, "tests_passed": false, "error": "NameError"}
+{"code": " cols = [np.prod(i) for i in L]", "compilation_passed": true, "time": 0.006734132766723633, "tests_passed": false, "error": "NameError"}
+{"code": " cols = L[0]", "compilation_passed": true, "time": 0.005585193634033203, "tests_passed": false, "error": "NameError"}
+{"code": " cols = [], []", "compilation_passed": true, "time": 0.006117105484008789, "tests_passed": false, "error": "NameError"}
+{"code": " cols = [nested_list[0] * nested_list[1] for nested_list in L]", "compilation_passed": true, "time": 0.006220102310180664, "tests_passed": false, "error": "NameError"}
+{"code": " columns = np.array(L, dtype=int)", "compilation_passed": true, "time": 0.009456157684326172, "tests_passed": false, "error": "TypeError"}
+{"code": " cols = (1, 1) # Initial values of rows and cols to be determined by input lists", "compilation_passed": true, "time": 0.0053827762603759766, "tests_passed": false, "error": "NameError"}
+{"code": " columns = zip(*L)", "compilation_passed": true, "time": 0.008377790451049805, "tests_passed": false, "error": "TypeError"}
+{"code": " cols = zip(*L)", "compilation_passed": true, "time": 0.005323886871337891, "tests_passed": false, "error": "NameError"}
+{"code": " cols = [tuple(item) for item in L]", "compilation_passed": true, "time": 0.005245208740234375, "tests_passed": false, "error": "NameError"}
+{"code": " cols = tuple(map(lambda l: np.prod(l), L))", "compilation_passed": true, "time": 0.0054590702056884766, "tests_passed": false, "error": "NameError"}

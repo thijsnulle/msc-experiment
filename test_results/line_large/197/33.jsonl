@@ -1,0 +1,15 @@
+{"code": "plot(largest_diffs, marker='.')", "compilation_passed": true, "time": 0.13303613662719727, "tests_passed": true, "error": null}
+{"code": "plot(largest_diffs)", "compilation_passed": true, "time": 0.13426899909973145, "tests_passed": true, "error": null}
+{"code": "plot(largest_diffs, label=\"Differences\")", "compilation_passed": true, "time": 0.13331365585327148, "tests_passed": true, "error": null}
+{"code": "plot(largest_diffs, marker='o')", "compilation_passed": true, "time": 0.13596177101135254, "tests_passed": true, "error": null}
+{"code": "plot(range(len(largest_diff_indices)), largest_diffs)", "compilation_passed": true, "time": 0.13554787635803223, "tests_passed": true, "error": null}
+{"code": "plot(largest_diffs, marker='o', linestyle='None')", "compilation_passed": true, "time": 0.13532590866088867, "tests_passed": true, "error": null}
+{"code": "plot(largest_diffs, marker='o', linestyle='')", "compilation_passed": true, "time": 0.1349029541015625, "tests_passed": true, "error": null}
+{"code": "set_title(\"Largest differences between l1 and l2\")", "compilation_passed": true, "time": 0.035780906677246094, "tests_passed": false, "error": "IndexError"}
+{"code": "set_title(\"Largest Differences\")", "compilation_passed": true, "time": 0.031540870666503906, "tests_passed": false, "error": "IndexError"}
+{"code": "scatter(range(N), largest_diffs)", "compilation_passed": true, "time": 0.03279900550842285, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(largest_diff_indices, largest_diffs)", "compilation_passed": true, "time": 0.1392371654510498, "tests_passed": true, "error": null}
+{"code": "plot(range(1, N+1), largest_diffs)", "compilation_passed": true, "time": 0.09293794631958008, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(largest_diff_indices, largest_diffs, marker='o')", "compilation_passed": true, "time": 0.13766098022460938, "tests_passed": true, "error": null}
+{"code": "bar(largest_diff_indices, largest_diffs)", "compilation_passed": true, "time": 0.045533180236816406, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(range(1, N + 1), largest_diffs, marker='o')", "compilation_passed": true, "time": 0.08759212493896484, "tests_passed": false, "error": "ValueError"}

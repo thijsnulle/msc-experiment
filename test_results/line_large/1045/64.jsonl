@@ -1,0 +1,14 @@
+{"code": " np.sum(LEAP_SECONDS >= given_date.year)", "compilation_passed": true, "time": 0.002593994140625, "tests_passed": true, "error": null}
+{"code": " np.sum(", "compilation_passed": false, "time": 0.0004239082336425781, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.sum(np.logical_and(given_date.year <= LEAP_SECONDS, LEAP_SECONDS <= current_date.year))", "compilation_passed": true, "time": 0.004403829574584961, "tests_passed": true, "error": null}
+{"code": " np.sum(np.logical_and(LEAP_SECONDS >= given_date.year, LEAP_SECONDS <= current_date.year))", "compilation_passed": true, "time": 0.0036377906799316406, "tests_passed": true, "error": null}
+{"code": " sum(1 for year in LEAP_SECONDS if year >= given_date.year and year <= current_date.year)", "compilation_passed": true, "time": 0.003498077392578125, "tests_passed": true, "error": null}
+{"code": " np.count_nonzero(", "compilation_passed": false, "time": 0.0003688335418701172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " len(LEAP_SECONDS[(given_date.year <= LEAP_SECONDS) & (LEAP_SECONDS <= current_date.year)])", "compilation_passed": true, "time": 0.002201080322265625, "tests_passed": true, "error": null}
+{"code": " np.sum(np.logical_and(LEAP_SECONDS >= given_date.year, LEAP_SECONDS < current_date.year))", "compilation_passed": true, "time": 0.004106998443603516, "tests_passed": true, "error": null}
+{"code": " np.count_nonzero(given_date.year <= LEAP_SECONDS)", "compilation_passed": true, "time": 0.002910137176513672, "tests_passed": true, "error": null}
+{"code": " np.sum(LEAP_SECONDS >= given_date.year) * 60", "compilation_passed": true, "time": 0.005111217498779297, "tests_passed": true, "error": null}
+{"code": " len(LEAP_SECONDS[np.where((LEAP_SECONDS >= given_date.year) & (LEAP_SECONDS <= current_date.year))])", "compilation_passed": true, "time": 0.002382040023803711, "tests_passed": true, "error": null}
+{"code": " np.sum(LEAP_SECONDS <= given_date.year)", "compilation_passed": true, "time": 0.0066530704498291016, "tests_passed": true, "error": null}
+{"code": " np.sum(LEAP_SECONDS <= given_date.year) - np.sum(LEAP_SECONDS <= current_date.year)", "compilation_passed": true, "time": 0.00798487663269043, "tests_passed": true, "error": null}
+{"code": " np.sum(LEAP_SECONDS[(LEAP_SECONDS >= given_date.year) & (LEAP_SECONDS <= current_date.year)])", "compilation_passed": true, "time": 0.006185293197631836, "tests_passed": true, "error": null}

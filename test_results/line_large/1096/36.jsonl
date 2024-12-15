@@ -1,0 +1,10 @@
+{"code": " all(c in punctuation_set for c in word[1:])]", "compilation_passed": true, "time": 0.0055010318756103516, "tests_passed": true, "error": null}
+{"code": " set(word[1:]) <= punctuation_set]", "compilation_passed": true, "time": 0.004451751708984375, "tests_passed": true, "error": null}
+{"code": " all(char in punctuation_set for char in word)]", "compilation_passed": true, "time": 0.004946231842041016, "tests_passed": true, "error": null}
+{"code": " all(letter in punctuation_set for letter in word[1:])]", "compilation_passed": true, "time": 0.005285024642944336, "tests_passed": true, "error": null}
+{"code": " set(word).issubset(punctuation_set)]", "compilation_passed": true, "time": 0.004177093505859375, "tests_passed": true, "error": null}
+{"code": " all(char in punctuation_set for char in word[1:])]", "compilation_passed": true, "time": 0.004178762435913086, "tests_passed": true, "error": null}
+{"code": " all(c in punctuation_set for c in word)]", "compilation_passed": true, "time": 0.004928112030029297, "tests_passed": true, "error": null}
+{"code": " set(word[1:]).issubset(punctuation_set)]", "compilation_passed": true, "time": 0.0046939849853515625, "tests_passed": true, "error": null}
+{"code": " all(letter in punctuation_set for letter in word.strip('$'))]", "compilation_passed": true, "time": 0.005290031433105469, "tests_passed": true, "error": null}
+{"code": " all(char in punctuation_set for char in word.strip('$'))]", "compilation_passed": true, "time": 0.004794120788574219, "tests_passed": true, "error": null}

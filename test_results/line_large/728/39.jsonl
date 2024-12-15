@@ -1,0 +1,15 @@
+{"code": " io.StringIO()", "compilation_passed": true, "time": 0.018668174743652344, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.025628328323364258, "tests_passed": false, "error": "TypeError"}
+{"code": " f\"{delimiter.join(reader.fieldnames)}\\n\"", "compilation_passed": true, "time": 0.01785588264465332, "tests_passed": false, "error": "TypeError"}
+{"code": " csv.writer(io.StringIO(), delimiter=delimiter)", "compilation_passed": true, "time": 0.017868995666503906, "tests_passed": false, "error": "TypeError"}
+{"code": " content.encode(to_encoding).decode('utf8')", "compilation_passed": true, "time": 0.018970966339111328, "tests_passed": false, "error": "TypeError"}
+{"code": " f'{delimiter}'.join(reader.fieldnames) + '\\n'", "compilation_passed": true, "time": 0.017798900604248047, "tests_passed": false, "error": "TypeError"}
+{"code": " f'\"{reader.fieldnames}\"\\n'", "compilation_passed": true, "time": 0.018651962280273438, "tests_passed": false, "error": "TypeError"}
+{"code": " content.encode(to_encoding)", "compilation_passed": true, "time": 0.018746137619018555, "tests_passed": false, "error": "TypeError"}
+{"code": " \"\".join(file_like)", "compilation_passed": true, "time": 0.01825571060180664, "tests_passed": false, "error": "TypeError"}
+{"code": " [delimiter.join(reader.fieldnames)]", "compilation_passed": true, "time": 0.01807689666748047, "tests_passed": false, "error": "TypeError"}
+{"code": " ''", "compilation_passed": true, "time": 0.01816701889038086, "tests_passed": false, "error": "TypeError"}
+{"code": " f\"{delimiter}\".join(reader.fieldnames) + \"\\n\"", "compilation_passed": true, "time": 0.018192768096923828, "tests_passed": false, "error": "TypeError"}
+{"code": " \"\"", "compilation_passed": true, "time": 0.017781972885131836, "tests_passed": false, "error": "TypeError"}
+{"code": " '\\n'.join([','.join(row) for row in data])", "compilation_passed": true, "time": 0.018035888671875, "tests_passed": false, "error": "TypeError"}
+{"code": " [delimiter.join(data[0].keys()) + '\\n']", "compilation_passed": true, "time": 0.01836395263671875, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,12 @@
+{"code": " 'jquery' in file.lower() and os.path.isfile(os.path.join(directory, file)):", "compilation_passed": true, "time": 0.013244867324829102, "tests_passed": true, "error": null}
+{"code": " 'jquery' in file.lower():", "compilation_passed": true, "time": 0.023535966873168945, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(file)[0].lower().find('jquery') != -1:", "compilation_passed": true, "time": 0.02412700653076172, "tests_passed": true, "error": null}
+{"code": " 'jquery' in file and file.lower().endswith('.js'):", "compilation_passed": true, "time": 0.017854928970336914, "tests_passed": true, "error": null}
+{"code": " \"jquery\" in file.lower() and os.path.isfile(os.path.join(directory, file)):", "compilation_passed": true, "time": 0.017200231552124023, "tests_passed": true, "error": null}
+{"code": " 'jquery' in file.lower() and file.endswith('.js'):", "compilation_passed": true, "time": 0.021052122116088867, "tests_passed": true, "error": null}
+{"code": " file.lower().startswith('jquery') and file.endswith('.js'):", "compilation_passed": true, "time": 0.020207881927490234, "tests_passed": true, "error": null}
+{"code": " 'jquery' in file.lower():  # Assuming 'jquery' is in the name", "compilation_passed": true, "time": 0.024303913116455078, "tests_passed": true, "error": null}
+{"code": " 'jquery' in file and file.endswith('.js'):", "compilation_passed": true, "time": 0.01803421974182129, "tests_passed": true, "error": null}
+{"code": " file.endswith('.js') and 'jquery' in file.lower():", "compilation_passed": true, "time": 0.018413782119750977, "tests_passed": true, "error": null}
+{"code": " 'jquery' in file.lower() and file.lower().endswith('.js'):", "compilation_passed": true, "time": 0.01781606674194336, "tests_passed": true, "error": null}
+{"code": " \"jquery\" in file.lower():", "compilation_passed": true, "time": 0.021115779876708984, "tests_passed": true, "error": null}

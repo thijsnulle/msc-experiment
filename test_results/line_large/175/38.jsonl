@@ -1,0 +1,30 @@
+{"code": " r'(?i)\\b(how|what)[^\\s]*'", "compilation_passed": true, "time": 0.0326542854309082, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"^(?:.*\\s)?(how|what)(?:\\s.*)?$\"", "compilation_passed": true, "time": 0.027497053146362305, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile('(how.*|^what.*|^What.*)', flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.11999297142028809, "tests_passed": true, "error": null}
+{"code": " '^(how|what).*'", "compilation_passed": true, "time": 0.02373027801513672, "tests_passed": false, "error": "AttributeError"}
+{"code": " '^(How|What) '  # Searches for videos with titles starting with \"How\" or \"What\"", "compilation_passed": true, "time": 0.0235898494720459, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile('^(?:.*(?:^|\\s))(?:how|what)(?:.*(?:$|\\s))(?:.*)$', re.IGNORECASE)", "compilation_passed": true, "time": 0.12027692794799805, "tests_passed": true, "error": null}
+{"code": " r\"(?:^|\\s)([Hh]ow|[Ww]hat)(?:$|\\s)\"", "compilation_passed": true, "time": 0.025745153427124023, "tests_passed": false, "error": "AttributeError"}
+{"code": " '[Hh]ow|[Ww]hat'", "compilation_passed": true, "time": 0.024764060974121094, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'^(?=.*?\\bwhat\\b)(?=.*?\\bhow\\b).*', re.IGNORECASE)", "compilation_passed": true, "time": 0.025754928588867188, "tests_passed": true, "error": null}
+{"code": " '^(?:What|How).*'", "compilation_passed": true, "time": 0.024302244186401367, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(\".*(how|what).*\", re.IGNORECASE)", "compilation_passed": true, "time": 0.12539386749267578, "tests_passed": true, "error": null}
+{"code": " re.compile(r'^(?=.*(how|what))(?!.*(tutorial))', re.IGNORECASE)", "compilation_passed": true, "time": 0.15304112434387207, "tests_passed": true, "error": null}
+{"code": " re.compile(r'\\b(?:what|how) \\b', re.IGNORECASE)", "compilation_passed": true, "time": 0.1464080810546875, "tests_passed": true, "error": null}
+{"code": " r'\\b(what|What|What\u2019s|Whats|Whats?|how|How|How\u2019s|Hows|Hows?)\\b'", "compilation_passed": true, "time": 0.038256168365478516, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\b(how|what)\\b\"", "compilation_passed": true, "time": 0.03855705261230469, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'(?<=\\s)[Hh][Oo][Ww].+|[Hh][Oo][Ww].+|[Ww][Aa][Tt][Aa-zZa-Z]{0,3} ')", "compilation_passed": true, "time": 0.024663925170898438, "tests_passed": false, "error": "re.error"}
+{"code": " r'(?i)(^|[^A-Za-z\\d])[hH][aA][wW]'", "compilation_passed": true, "time": 0.015429019927978516, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'(^|\\s)(what|how)(\\s|$)'", "compilation_passed": true, "time": 0.009340047836303711, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'[W|w]hat\\s|\\s[H|h]ow\\s'", "compilation_passed": true, "time": 0.011521100997924805, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'[hH]ow|[wW]hat'", "compilation_passed": true, "time": 0.010482311248779297, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\b(what|What|What's|what's|how|How|How's|how's)\\b\"", "compilation_passed": true, "time": 0.010539054870605469, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'what is|whats|how to|hows|what`s|what\\'s|how\\'s'", "compilation_passed": true, "time": 0.009567022323608398, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'what\\s.*|how\\s.*'", "compilation_passed": true, "time": 0.010510921478271484, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'[Hh][Oo][Ww]|[Ww][Hh][Aa][Tt]'", "compilation_passed": true, "time": 0.009045839309692383, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'(?i)(how|what).+'", "compilation_passed": true, "time": 0.009269952774047852, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"(what's?|how's?)\"", "compilation_passed": true, "time": 0.00966191291809082, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(\"^(What's|What|Where's|Where|Why's|Why|How's|How)\", re.IGNORECASE)", "compilation_passed": true, "time": 0.1229848861694336, "tests_passed": true, "error": null}
+{"code": " r'(?i)^\\s*(?:how|what)\\s+'", "compilation_passed": true, "time": 0.010560989379882812, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'\\b(how|what)\\b', re.IGNORECASE)", "compilation_passed": true, "time": 0.14247918128967285, "tests_passed": true, "error": null}
+{"code": " re.compile('\\b(?:what|how)\\b', re.IGNORECASE)", "compilation_passed": true, "time": 0.020560264587402344, "tests_passed": true, "error": null}

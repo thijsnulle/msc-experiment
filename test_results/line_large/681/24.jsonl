@@ -1,0 +1,10 @@
+{"code": " pd.DataFrame.from_records(data)", "compilation_passed": true, "time": 0.009119033813476562, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.008735895156860352, "tests_passed": true, "error": null}
+{"code": " pd.json_normalize(data)", "compilation_passed": true, "time": 0.008244991302490234, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data).explode(key)", "compilation_passed": true, "time": 0.019010066986083984, "tests_passed": true, "error": null}
+{"code": " pd.json_normalize([obj for obj in data])", "compilation_passed": true, "time": 0.014755964279174805, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data).reset_index()", "compilation_passed": true, "time": 0.01466226577758789, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data).drop(columns=key)", "compilation_passed": true, "time": 0.016997098922729492, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.json_normalize(data, sep=\"_\")", "compilation_passed": true, "time": 0.00789499282836914, "tests_passed": true, "error": null}
+{"code": " pd.json_normalize(data,sep='_')", "compilation_passed": true, "time": 0.008300065994262695, "tests_passed": true, "error": null}
+{"code": " pd.json_normalize(data, record_path='d', meta='name')", "compilation_passed": true, "time": 0.015996932983398438, "tests_passed": false, "error": "KeyError"}

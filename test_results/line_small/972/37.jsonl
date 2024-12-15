@@ -1,0 +1,15 @@
+{"code": " path.strip().replace(\"\\\\\", \"/\")", "compilation_passed": true, "time": 0.0013318061828613281, "tests_passed": true, "error": null}
+{"code": " path.replace('\\\\', '/')", "compilation_passed": true, "time": 0.0021331310272216797, "tests_passed": true, "error": null}
+{"code": " path.replace(\"\\\\\", \"/\")  # Convert backslashes to slashes to support Windows", "compilation_passed": true, "time": 0.0013308525085449219, "tests_passed": true, "error": null}
+{"code": " path.replace('\\\\\\\\', '\\\\').replace('\\\\', '/')", "compilation_passed": true, "time": 0.0014319419860839844, "tests_passed": true, "error": null}
+{"code": " pathlib.PurePath(path)", "compilation_passed": true, "time": 0.007109880447387695, "tests_passed": true, "error": null}
+{"code": " path.replace(delimiter, \"/\").replace(\"\\\\\", \"/\")", "compilation_passed": true, "time": 0.005129814147949219, "tests_passed": true, "error": null}
+{"code": " os.fspath(path)", "compilation_passed": true, "time": 0.00783395767211914, "tests_passed": true, "error": null}
+{"code": " path.strip()", "compilation_passed": true, "time": 0.006768941879272461, "tests_passed": true, "error": null}
+{"code": " path.replace('\\\\', '/').replace('\\\\\\\\', '/')", "compilation_passed": true, "time": 0.0013942718505859375, "tests_passed": true, "error": null}
+{"code": " os.path.normpath(path)", "compilation_passed": true, "time": 0.005958080291748047, "tests_passed": true, "error": null}
+{"code": " path.replace(\"\\\\\", \"/\")", "compilation_passed": true, "time": 0.0014178752899169922, "tests_passed": true, "error": null}
+{"code": " path.replace(\"<\", \"\").replace(\">\", \"\").replace(\":\", \"\").replace('\"', '').replace(\"|\", \"\").replace(\"?\", \"\").replace('*', \"\")", "compilation_passed": true, "time": 0.007484912872314453, "tests_passed": true, "error": null}
+{"code": " path.replace('\\\\\\\\', '/')  # Convert backslashes to forward slashes", "compilation_passed": true, "time": 0.00894784927368164, "tests_passed": true, "error": null}
+{"code": " os.fspath(path).replace(\"\\\\\", \"/\")", "compilation_passed": true, "time": 0.0016391277313232422, "tests_passed": true, "error": null}
+{"code": " path.strip().replace('\\\\', '/')", "compilation_passed": true, "time": 0.001477956771850586, "tests_passed": true, "error": null}

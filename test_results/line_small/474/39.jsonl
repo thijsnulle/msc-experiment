@@ -1,0 +1,8 @@
+{"code": " norm.rvs(loc=mu, scale=sigma, size=n_samples)", "compilation_passed": true, "time": 0.30086183547973633, "tests_passed": true, "error": null}
+{"code": " np.random.normal(mu, sigma, size=n_samples)", "compilation_passed": true, "time": 0.30706095695495605, "tests_passed": true, "error": null}
+{"code": " np.random.normal(mu, sigma, n_samples)", "compilation_passed": true, "time": 0.3324301242828369, "tests_passed": true, "error": null}
+{"code": " norm(loc=mu, scale=sigma).rvs(size=n_samples)", "compilation_passed": true, "time": 1.5095767974853516, "tests_passed": false, "error": "TimeoutError"}
+{"code": " norm.rvs(size=n_samples, loc=mu, scale=sigma)", "compilation_passed": true, "time": 0.29847192764282227, "tests_passed": true, "error": null}
+{"code": " np.random.normal(loc=mu, scale=sigma, size=n_samples)", "compilation_passed": true, "time": 0.2850799560546875, "tests_passed": true, "error": null}
+{"code": " norm.rvs(mu, sigma, size=n_samples, random_state=random_seed)", "compilation_passed": true, "time": 0.3108181953430176, "tests_passed": true, "error": null}
+{"code": " norm.rvs(size=n_samples, scale=sigma, loc=mu)", "compilation_passed": true, "time": 0.29375219345092773, "tests_passed": true, "error": null}

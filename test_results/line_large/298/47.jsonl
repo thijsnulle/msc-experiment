@@ -1,0 +1,26 @@
+{"code": " df.plot.bar(x='Date', ylim=[-5,5])", "compilation_passed": true, "time": 2.050157070159912, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.plot.bar(x='Date', y=range(1,4), color=['r', 'g', 'b'], legend=False, title='Scaled Values Over Time')", "compilation_passed": true, "time": 0.04599189758300781, "tests_passed": false, "error": "KeyError"}
+{"code": " df.plot.bar(x='Date', y=[0,1,2,3], figsize=(10,5))", "compilation_passed": true, "time": 0.04327797889709473, "tests_passed": false, "error": "KeyError"}
+{"code": " df.plot(x='Date', y=[0,1,2], kind='bar')", "compilation_passed": true, "time": 0.22357392311096191, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='Date', rot=30)", "compilation_passed": true, "time": 0.19437384605407715, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='Date', figsize=(15,7))", "compilation_passed": true, "time": 0.19409799575805664, "tests_passed": true, "error": null}
+{"code": " df.iloc[:,1:].plot(kind='bar')", "compilation_passed": true, "time": 0.19652676582336426, "tests_passed": true, "error": null}
+{"code": " df.iloc[:,1:].plot(kind='bar', figsize=(12,6), rot=10)", "compilation_passed": true, "time": 0.18580985069274902, "tests_passed": true, "error": null}
+{"code": " plt.bar(df['Date'], df.iloc[:,1:])", "compilation_passed": true, "time": 0.06256484985351562, "tests_passed": false, "error": "ValueError"}
+{"code": " df.plot.bar(x='Date', y=list(df.columns[1:]), rot=0)", "compilation_passed": true, "time": 0.19053411483764648, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='Date', ylim=[-3, 3])", "compilation_passed": true, "time": 0.1884169578552246, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='Date', y=df.columns[1:], rot=45, figsize=(8,5), title='Scaled Values Over Time')", "compilation_passed": true, "time": 0.1968698501586914, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='Date', y=df.columns[1:], title=\"Scaled Values Over Time\")", "compilation_passed": true, "time": 0.19060683250427246, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='Date', y=[i for i in df.columns if i != 'Date'])", "compilation_passed": true, "time": 0.21156716346740723, "tests_passed": true, "error": null}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.10528206825256348, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='Date', figsize=(12, 6))", "compilation_passed": true, "time": 0.19969773292541504, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Date', kind='bar')", "compilation_passed": true, "time": 0.21063804626464844, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='Date', y=[df.columns[1:].to_list()], rot=0)", "compilation_passed": true, "time": 0.04729294776916504, "tests_passed": false, "error": "KeyError"}
+{"code": " df.plot.bar(x='Date', y=list(range(1,df.shape[1])), legend=False)", "compilation_passed": true, "time": 0.05170583724975586, "tests_passed": false, "error": "KeyError"}
+{"code": " df.plot.bar(x='Date', rot=0, figsize=(10, 5))", "compilation_passed": true, "time": 0.2168889045715332, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='Date', y=df.columns[1:], rot=45)", "compilation_passed": true, "time": 0.19162893295288086, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='Date', y=[i for i in range(1, df.shape[1])])", "compilation_passed": true, "time": 0.050331830978393555, "tests_passed": false, "error": "KeyError"}
+{"code": " df.plot.bar(x='Date', y=[i for i in range(1, len(df.columns))], rot=90)", "compilation_passed": true, "time": 0.04204988479614258, "tests_passed": false, "error": "KeyError"}
+{"code": " df.plot.bar(x='Date', y=df.columns[1:].to_list(), rot=45)", "compilation_passed": true, "time": 0.20792484283447266, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x='Date', y=[i for i in range(1, df.shape[1])], rot=45, legend=False)", "compilation_passed": true, "time": 0.05081796646118164, "tests_passed": false, "error": "KeyError"}
+{"code": " df.plot.bar(x='Date', rot=0)", "compilation_passed": true, "time": 0.21286869049072266, "tests_passed": true, "error": null}

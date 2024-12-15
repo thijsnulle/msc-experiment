@@ -1,0 +1,11 @@
+{"code": " not data.columns.is_unique:", "compilation_passed": true, "time": 0.0369410514831543, "tests_passed": true, "error": null}
+{"code": " data.empty:", "compilation_passed": true, "time": 0.037927865982055664, "tests_passed": true, "error": null}
+{"code": " not data.empty:", "compilation_passed": true, "time": 0.014932870864868164, "tests_passed": false, "error": "ValueError"}
+{"code": " not data.columns.dtype == np.number.all:", "compilation_passed": true, "time": 0.015175819396972656, "tests_passed": false, "error": "ValueError"}
+{"code": " not data.columns.all():", "compilation_passed": true, "time": 0.027512073516845703, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(pd.api.types.is_numeric_dtype(c) for c in data.columns):", "compilation_passed": true, "time": 0.01639389991760254, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(data.columns.dtype.kind == 'O'):", "compilation_passed": true, "time": 0.01574563980102539, "tests_passed": false, "error": "TypeError"}
+{"code": " not all(data.dtypes == \"float64\"):", "compilation_passed": true, "time": 0.01807999610900879, "tests_passed": false, "error": "ValueError"}
+{"code": " not data.columns.is_numeric():", "compilation_passed": true, "time": 0.013585805892944336, "tests_passed": false, "error": "ValueError"}
+{"code": " not data.columns.equals(data.columns.dropna()):", "compilation_passed": true, "time": 0.03619718551635742, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(c, (int, float)) for c in data.values.flatten()):", "compilation_passed": true, "time": 0.015629053115844727, "tests_passed": false, "error": "ValueError"}

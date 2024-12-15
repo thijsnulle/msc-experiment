@@ -1,0 +1,7 @@
+{"code": " random.sample(range(total_days), rows*columns)", "compilation_passed": true, "time": 0.0068089962005615234, "tests_passed": true, "error": null}
+{"code": " random.sample(range(total_days), rows * columns)", "compilation_passed": true, "time": 0.008161067962646484, "tests_passed": true, "error": null}
+{"code": " np.array(random.sample(range(total_days), rows * columns))", "compilation_passed": true, "time": 0.006029844284057617, "tests_passed": true, "error": null}
+{"code": " np.array([start_date_np + np.timedelta64(int(random.random()*100), 'D') for i in range(rows*columns)])", "compilation_passed": true, "time": 0.006090879440307617, "tests_passed": true, "error": null}
+{"code": " random.sample(range(0, total_days), rows * columns)", "compilation_passed": true, "time": 0.006515979766845703, "tests_passed": true, "error": null}
+{"code": " np.array(random.sample(range(total_days), rows*columns))", "compilation_passed": true, "time": 0.006657123565673828, "tests_passed": true, "error": null}
+{"code": " random.sample(range(0, total_days), rows*columns)", "compilation_passed": true, "time": 0.0064699649810791016, "tests_passed": true, "error": null}

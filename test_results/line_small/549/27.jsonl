@@ -1,0 +1,8 @@
+{"code": " pd.DataFrame.from_dict(df)", "compilation_passed": true, "time": 0.009360074996948242, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df)", "compilation_passed": true, "time": 0.012391090393066406, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df).to_csv(None, index=False).encode(\"utf-8\")", "compilation_passed": true, "time": 0.013295888900756836, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(df).T", "compilation_passed": true, "time": 0.00728917121887207, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(df).to_csv()", "compilation_passed": true, "time": 0.00934910774230957, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(df, index=['x', 'y', 'z'])", "compilation_passed": true, "time": 0.01413106918334961, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(df, columns=list(df.keys()))", "compilation_passed": true, "time": 0.012896060943603516, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df, columns=[\"A\", \"B\"])", "compilation_passed": true, "time": 0.016382217407226562, "tests_passed": true, "error": null}

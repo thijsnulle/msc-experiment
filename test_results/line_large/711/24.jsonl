@@ -1,0 +1,5 @@
+{"code": " open(csv_file, 'w', newline='') as f:", "compilation_passed": true, "time": 0.012952804565429688, "tests_passed": true, "error": null}
+{"code": " open(csv_file, 'w', newline='') as csv_:", "compilation_passed": true, "time": 0.017859935760498047, "tests_passed": false, "error": "ValueError"}
+{"code": " open(csv_file, 'w') as f:", "compilation_passed": true, "time": 0.012843132019042969, "tests_passed": true, "error": null}
+{"code": " open(csv_file, 'w', newline='') as csvf:", "compilation_passed": true, "time": 0.017847776412963867, "tests_passed": false, "error": "ValueError"}
+{"code": " open(csv_file, 'w') as csv_out:", "compilation_passed": true, "time": 0.01781773567199707, "tests_passed": false, "error": "ValueError"}

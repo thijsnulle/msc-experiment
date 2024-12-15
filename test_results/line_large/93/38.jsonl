@@ -1,0 +1,13 @@
+{"code": " pd.DataFrame(transformed_data, columns=[f\"PC{i+1}\" for i in range(n_components)]), ax", "compilation_passed": true, "time": 0.15394091606140137, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(transformed_data), ax", "compilation_passed": true, "time": 0.15125298500061035, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(transformed_data, columns=[f\"pca_{i}\" for i in range(1, n_components + 1)]), ax", "compilation_passed": true, "time": 0.15944910049438477, "tests_passed": true, "error": null}
+{"code": " transformed_data, ax", "compilation_passed": true, "time": 0.15817975997924805, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(transformed_data, columns=[f'PC{i+1}' for i in range(n_components)]), ax", "compilation_passed": true, "time": 0.15448808670043945, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(transformed_data, columns=['Component1', 'Component2']), ax", "compilation_passed": true, "time": 0.15298700332641602, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(transformed_data, columns=['p1', 'p2']), ax", "compilation_passed": true, "time": 0.14778709411621094, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(transformed_data, columns=[f\"component{i}\" for i in range(1, n_components + 1)]), ax", "compilation_passed": true, "time": 0.14851093292236328, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(transformed_data, columns=[f\"pc{i+1}\" for i in range(n_components)]), ax", "compilation_passed": true, "time": 0.15930891036987305, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(transformed_data, columns=[f'PC{i}' for i in range(1, n_components+1)]), ax", "compilation_passed": true, "time": 0.1549367904663086, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(transformed_data, columns=[f\"PC{i + 1}\" for i in range(n_components)]), ax", "compilation_passed": true, "time": 0.16196489334106445, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(transformed_data, columns=[f\"pc_{i+1}\" for i in range(n_components)]), ax", "compilation_passed": true, "time": 0.16057896614074707, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(transformed_data, columns=[f'pc_{i + 1}' for i in range(n_components)]), ax", "compilation_passed": true, "time": 0.1571047306060791, "tests_passed": true, "error": null}

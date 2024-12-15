@@ -1,0 +1,19 @@
+{"code": " [int(elem[0]) for elem in T1]", "compilation_passed": true, "time": 0.01586318016052246, "tests_passed": false, "error": "TypeError"}
+{"code": " []", "compilation_passed": true, "time": 0.01130819320678711, "tests_passed": true, "error": null}
+{"code": " [int(num) for num in list(itertools.chain(*T1))]", "compilation_passed": true, "time": 0.01574087142944336, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(n) for T2 in T1 for n in T2]", "compilation_passed": true, "time": 0.015833139419555664, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(lambda x: int(x), list(itertools.chain(*T1))))", "compilation_passed": true, "time": 0.01592087745666504, "tests_passed": false, "error": "TypeError"}
+{"code": " list()", "compilation_passed": true, "time": 0.011265993118286133, "tests_passed": true, "error": null}
+{"code": " [int(x) for x in itertools.chain(*T1)]", "compilation_passed": true, "time": 0.015967845916748047, "tests_passed": false, "error": "TypeError"}
+{"code": " list(itertools.chain(*[map(int, elems) for elems in T1]))", "compilation_passed": true, "time": 0.015722990036010742, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(i) for i in T1]", "compilation_passed": true, "time": 0.02050185203552246, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(num) for tpl in T1 for num in tpl]", "compilation_passed": true, "time": 0.015808820724487305, "tests_passed": false, "error": "TypeError"}
+{"code": " list(itertools.chain(*[int(num[i]) if isinstance(num, tuple) else int(num) for num in T1 for i in range(len(num))]))", "compilation_passed": true, "time": 0.016067028045654297, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(x) for x in list(itertools.chain.from_iterable(T1))]", "compilation_passed": true, "time": 0.016607999801635742, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(int, T1))", "compilation_passed": true, "time": 0.01606893539428711, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(e) for e in list(itertools.chain(*T1)) if e.replace('-', '').isdigit()]", "compilation_passed": true, "time": 0.01577019691467285, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(int, itertools.chain.from_iterable(T1)))", "compilation_passed": true, "time": 0.015672922134399414, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(num) for sublist in T1 for num in sublist]", "compilation_passed": true, "time": 0.01647806167602539, "tests_passed": false, "error": "TypeError"}
+{"code": " list(itertools.chain(*[list(map(int, item)) for item in T1]))", "compilation_passed": true, "time": 0.01581597328186035, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(num) for tup in T1 for num in tup]", "compilation_passed": true, "time": 0.015939950942993164, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(num) for num in list(itertools.chain(*[list(itertools.chain(*item)) for item in T1]))]", "compilation_passed": true, "time": 0.015803098678588867, "tests_passed": false, "error": "TypeError"}

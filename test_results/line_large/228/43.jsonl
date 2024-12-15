@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame(correlation_matrix, columns=COLUMNS, index=COLUMNS)", "compilation_passed": true, "time": 0.01911187171936035, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(correlation_matrix, index=df.columns, columns=df.columns)", "compilation_passed": true, "time": 0.013505220413208008, "tests_passed": true, "error": null}
+{"code": " correlation_matrix", "compilation_passed": true, "time": 0.014312982559204102, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(correlation_matrix, columns=df.columns, index=df.columns)", "compilation_passed": true, "time": 0.013791799545288086, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(correlation_matrix, index=COLUMNS, columns=COLUMNS)", "compilation_passed": true, "time": 0.01903700828552246, "tests_passed": false, "error": "ValueError"}

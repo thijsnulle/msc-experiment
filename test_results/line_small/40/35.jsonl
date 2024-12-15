@@ -1,0 +1,9 @@
+{"code": " df.mean(axis=1)", "compilation_passed": true, "time": 1.0091097354888916, "tests_passed": false, "error": "TimeoutError"}
+{"code": " z_scores.mean(axis=1)", "compilation_passed": true, "time": 1.0083189010620117, "tests_passed": false, "error": "TimeoutError"}
+{"code": " data_matrix.mean(axis=1)", "compilation_passed": true, "time": 1.0092601776123047, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.Series(np.mean(z_scores, axis=1)).values", "compilation_passed": true, "time": 1.0088889598846436, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(data_matrix).mean(axis=1)", "compilation_passed": true, "time": 1.0088589191436768, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.Series([np.mean(row) for row in z_scores])", "compilation_passed": true, "time": 1.0127418041229248, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.iloc[:, :].mean(axis=1)", "compilation_passed": true, "time": 1.0098249912261963, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.apply(lambda x: x.mean(), axis=1)", "compilation_passed": true, "time": 1.0099849700927734, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0002460479736328125, "tests_passed": false, "error": "SyntaxError"}

@@ -1,0 +1,6 @@
+{"code": " OrderedDict(sorted(my_dict.items()))", "compilation_passed": true, "time": 0.0037157535552978516, "tests_passed": true, "error": null}
+{"code": " OrderedDict(sorted(my_dict.items(), key=lambda x: x[0], reverse=False))", "compilation_passed": true, "time": 0.003859996795654297, "tests_passed": true, "error": null}
+{"code": " OrderedDict(sorted(my_dict.items(), key=lambda item: item[0]))", "compilation_passed": true, "time": 0.003699064254760742, "tests_passed": true, "error": null}
+{"code": " OrderedDict()", "compilation_passed": true, "time": 0.0024750232696533203, "tests_passed": true, "error": null}
+{"code": " OrderedDict(sorted(my_dict.items(), key=lambda item: item[0], reverse=False))", "compilation_passed": true, "time": 0.004706144332885742, "tests_passed": true, "error": null}
+{"code": " OrderedDict(sorted(my_dict.items(), key=lambda x: x[0]))", "compilation_passed": true, "time": 0.005364894866943359, "tests_passed": true, "error": null}

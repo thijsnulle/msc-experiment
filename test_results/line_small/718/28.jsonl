@@ -1,0 +1,4 @@
+{"code": " p_value = ttest_rel(word_counts1, word_counts2, alternative='two-sided')", "compilation_passed": true, "time": 0.005855083465576172, "tests_passed": true, "error": null}
+{"code": " p_value = ttest_rel(word_counts1, word_counts2)", "compilation_passed": true, "time": 0.0050580501556396484, "tests_passed": true, "error": null}
+{"code": " p_value = ttest_rel(word_counts1, word_counts2, equal_var=True)", "compilation_passed": true, "time": 0.01098179817199707, "tests_passed": false, "error": "TypeError"}
+{"code": " p_value = ttest_rel(word_counts1, word_counts2, nan_policy='propagate')", "compilation_passed": true, "time": 0.005672931671142578, "tests_passed": true, "error": null}

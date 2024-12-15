@@ -1,0 +1,27 @@
+{"code": "boxplot(column=df.columns[1:],  ax=ax, title='Z-Scores Over Time')", "compilation_passed": true, "time": 0.13439512252807617, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(kind='box', subplots=True, figsize=(10, 4), ax=ax, title='Z-Scores Over Time')", "compilation_passed": true, "time": 0.757544994354248, "tests_passed": true, "error": null}
+{"code": "iloc[:,1:].plot(kind='box', ax=ax)", "compilation_passed": true, "time": 0.4175558090209961, "tests_passed": true, "error": null}
+{"code": "iloc[:,1:].boxplot()", "compilation_passed": true, "time": 0.4080057144165039, "tests_passed": true, "error": null}
+{"code": "plot(kind='box', ax=ax)", "compilation_passed": true, "time": 0.4194159507751465, "tests_passed": true, "error": null}
+{"code": "iloc[:,1:].plot.box()", "compilation_passed": true, "time": 0.5355889797210693, "tests_passed": true, "error": null}
+{"code": "iloc[:,2:].boxplot(ax=ax)", "compilation_passed": true, "time": 0.39357614517211914, "tests_passed": true, "error": null}
+{"code": "boxplot(ax=ax, column=range(1,len(df.columns)), by='Date', vert=False, rot=0)", "compilation_passed": true, "time": 0.12718677520751953, "tests_passed": false, "error": "KeyError"}
+{"code": "iloc[:,1:].plot.box(ax=ax)", "compilation_passed": true, "time": 0.4178330898284912, "tests_passed": true, "error": null}
+{"code": "iloc[:,2:].plot(kind='box', ax=ax)", "compilation_passed": true, "time": 0.424267053604126, "tests_passed": true, "error": null}
+{"code": "iloc[:,1:].plot(kind='box', fig=fig, title='Z-Scores Over Time',", "compilation_passed": false, "time": 0.00026607513427734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "boxplot(ax=ax, column=['Value_0','Value_1','Value_2','Value_3'], by='Date',rot=0)", "compilation_passed": true, "time": 0.25550007820129395, "tests_passed": false, "error": "KeyError"}
+{"code": "boxplot(y='Value', by='Date', ax=ax)", "compilation_passed": true, "time": 0.4094367027282715, "tests_passed": false, "error": "TypeError"}
+{"code": "iloc[:,1:].boxplot(ax=ax)", "compilation_passed": true, "time": 0.45033812522888184, "tests_passed": true, "error": null}
+{"code": "boxplot(by='Date', ax=ax, vert=False, column='Value')", "compilation_passed": true, "time": 0.14149212837219238, "tests_passed": false, "error": "KeyError"}
+{"code": "boxplot(ax=ax, column=list(df.columns[1:]))", "compilation_passed": true, "time": 0.4930410385131836, "tests_passed": true, "error": null}
+{"code": "boxplot(column=['Value_0', 'Value_1', 'Value_2'], ax=ax)", "compilation_passed": true, "time": 0.13186001777648926, "tests_passed": false, "error": "KeyError"}
+{"code": "boxplot(column=df.columns[1:], ax=ax)", "compilation_passed": true, "time": 0.1378617286682129, "tests_passed": false, "error": "KeyError"}
+{"code": "plot.box(column=1, ax=ax)", "compilation_passed": true, "time": 0.3936178684234619, "tests_passed": true, "error": null}
+{"code": "boxplot(ax=ax, column=df.columns[1:], by='Date', rot=45)", "compilation_passed": true, "time": 0.286409854888916, "tests_passed": false, "error": "ValueError"}
+{"code": "boxplot(column=['Z Score'], by=['Date'], ax=ax)", "compilation_passed": true, "time": 0.15948081016540527, "tests_passed": false, "error": "KeyError"}
+{"code": "boxplot(ax=ax)", "compilation_passed": true, "time": 0.43482112884521484, "tests_passed": true, "error": null}
+{"code": "iloc[:,2:].boxplot(ax=ax, vert=False)", "compilation_passed": true, "time": 0.42417097091674805, "tests_passed": true, "error": null}
+{"code": "boxplot(ax=ax, column=list(df), rot=90)", "compilation_passed": true, "time": 0.1570720672607422, "tests_passed": false, "error": "KeyError"}
+{"code": "iloc[:,1:].plot(ax=ax, title='Z-Scores Over Time', x='Date', y='Z-Score')", "compilation_passed": true, "time": 0.1475367546081543, "tests_passed": false, "error": "KeyError"}
+{"code": "boxplot(column=['Value_0', 'Value_1', 'Value_2', 'Value_3'], ax=ax, rot=90)", "compilation_passed": true, "time": 0.12148094177246094, "tests_passed": false, "error": "KeyError"}
+{"code": "boxplot(ax=ax, column=[col for col in df.iloc[:,2:]], rot=90, showfliers=False)", "compilation_passed": true, "time": 0.46361708641052246, "tests_passed": true, "error": null}

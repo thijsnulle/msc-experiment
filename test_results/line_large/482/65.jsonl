@@ -1,0 +1,4 @@
+{"code": " \", \".join([substrings[i] for i in random_positions])", "compilation_passed": true, "time": 0.008659839630126953, "tests_passed": true, "error": null}
+{"code": " \", \".join(substrings[i] for i in random_positions)", "compilation_passed": true, "time": 0.008889913558959961, "tests_passed": true, "error": null}
+{"code": " \", \".join(", "compilation_passed": false, "time": 0.0005319118499755859, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \", \".join([substrings[pos] for pos in random_positions])", "compilation_passed": true, "time": 0.008293867111206055, "tests_passed": true, "error": null}

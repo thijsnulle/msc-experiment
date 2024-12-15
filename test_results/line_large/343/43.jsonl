@@ -1,0 +1,24 @@
+{"code": " value_counts.plot(kind='pie', colors=[COLORS[i % len(COLORS)] for i in value_counts.index], autopct='%1.1f%%')", "compilation_passed": true, "time": 0.015257120132446289, "tests_passed": false, "error": "TypeError"}
+{"code": " value_counts.plot(kind='pie', autopct='%1.1f%%', colors=[COLORS[i % len(COLORS)] for i in range(len(value_counts))])", "compilation_passed": true, "time": 0.05066108703613281, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(autopct='%1.1f%%', colors=[COLORS[i] for i in range(value_counts.size)])", "compilation_passed": true, "time": 0.05079197883605957, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(autopct='%1.1f%%', shadow=True, colors=COLORS)", "compilation_passed": true, "time": 0.0670919418334961, "tests_passed": true, "error": null}
+{"code": " value_counts.plot(kind='pie', colors=COLORS, autopct='%1.1f%%')", "compilation_passed": true, "time": 0.05028891563415527, "tests_passed": true, "error": null}
+{"code": " value_counts.plot(kind='pie', autopct='%1.1f%%', colors=COLORS)", "compilation_passed": true, "time": 0.04876708984375, "tests_passed": true, "error": null}
+{"code": " value_counts.plot(kind='pie', colors=COLORS, autopct='%1.1f%%', shadow=True, startangle=90)", "compilation_passed": true, "time": 0.0654609203338623, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(autopct='%1.1f%%', colors=COLORS)", "compilation_passed": true, "time": 0.05009293556213379, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(colors=[COLORS[i] for i in range(value_counts.shape[0])], autopct='%1.1f%%')", "compilation_passed": true, "time": 0.04979991912841797, "tests_passed": true, "error": null}
+{"code": " value_counts.plot(kind='pie', colors=COLORS)", "compilation_passed": true, "time": 0.04621291160583496, "tests_passed": true, "error": null}
+{"code": " value_counts.plot(kind='pie', autopct='%1.1f%%', startangle=90, colors=[COLORS[i%len(COLORS)] for i in value_counts.index])", "compilation_passed": true, "time": 0.014181137084960938, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.pie(value_counts.values, labels=value_counts.index, autopct='%1.1f%%', colors=COLORS)", "compilation_passed": true, "time": 0.020339012145996094, "tests_passed": true, "error": null}
+{"code": " value_counts.plot(kind='pie', colors=COLORS, autopct='%1.1f%%', title=title, subplot=True, label=\"_nolegend_\", figsize=(8, 8))", "compilation_passed": true, "time": 0.012078046798706055, "tests_passed": false, "error": "TypeError"}
+{"code": " value_counts.plot(kind='pie', autopct='%1.1f%%', colors=COLORS, subplots=True)", "compilation_passed": true, "time": 0.0271151065826416, "tests_passed": true, "error": null}
+{"code": " value_counts.plot(kind='pie', colors=COLORS, autopct='%1.1f%%', fontsize=12)", "compilation_passed": true, "time": 0.04954981803894043, "tests_passed": true, "error": null}
+{"code": " plt.pie(value_counts.values, labels=value_counts.index, colors=COLORS, autopct='%1.1f%%')", "compilation_passed": true, "time": 0.019999980926513672, "tests_passed": true, "error": null}
+{"code": " value_counts.plot(kind='pie', colors=[COLORS[i%5] for i in range(len(value_counts))])", "compilation_passed": true, "time": 0.04674363136291504, "tests_passed": true, "error": null}
+{"code": " plt.axes()", "compilation_passed": true, "time": 0.04911613464355469, "tests_passed": true, "error": null}
+{"code": " value_counts.plot(kind='pie', colors=[COLORS[i % len(COLORS)] for i in range(len(value_counts))])", "compilation_passed": true, "time": 0.04706311225891113, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(autopct='%1.1f%%', colors=[COLORS[i%len(COLORS)] for i in range(len(value_counts))])", "compilation_passed": true, "time": 0.048512935638427734, "tests_passed": true, "error": null}
+{"code": " value_counts.plot(kind='pie', colors=COLORS, figsize=(6, 6))", "compilation_passed": true, "time": 0.046740055084228516, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(autopct='%1.1f%%', colors=[COLORS[i % len(COLORS)] for i in range(len(value_counts))])", "compilation_passed": true, "time": 0.04978299140930176, "tests_passed": true, "error": null}
+{"code": " plt.pie(value_counts, labels=value_counts.index, colors=COLORS)", "compilation_passed": true, "time": 0.01955103874206543, "tests_passed": true, "error": null}
+{"code": " value_counts.plot.pie(autopct='%1.1f%%', figsize=(10, 10), colors=COLORS)", "compilation_passed": true, "time": 0.04952192306518555, "tests_passed": true, "error": null}

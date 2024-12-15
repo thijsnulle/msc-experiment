@@ -1,0 +1,7 @@
+{"code": " pd.DataFrame(df)", "compilation_passed": true, "time": 0.03097701072692871, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(df)", "compilation_passed": true, "time": 0.028954267501831055, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df)  # Convert input dictionary to DataFrame", "compilation_passed": true, "time": 0.029726266860961914, "tests_passed": true, "error": null}
+{"code": " df[['Word']]", "compilation_passed": true, "time": 0.015532970428466797, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(df)  # Convert the input dictionary to a DataFrame.", "compilation_passed": true, "time": 0.03302502632141113, "tests_passed": true, "error": null}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.012052059173583984, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.to_pandas()", "compilation_passed": true, "time": 0.012332677841186523, "tests_passed": false, "error": "AttributeError"}

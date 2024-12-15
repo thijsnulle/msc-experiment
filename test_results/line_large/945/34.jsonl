@@ -1,0 +1,10 @@
+{"code": " pd.DataFrame(data=sales_data, index=date_range, columns=['Actual Sales'])", "compilation_passed": true, "time": 0.02513885498046875, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'date': date_range, 'sales': sales_data})", "compilation_passed": true, "time": 0.020946264266967773, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'sales': sales_data}, index=date_range)", "compilation_passed": true, "time": 0.020728111267089844, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(sales_data, index=date_range, columns=['sales'])", "compilation_passed": true, "time": 0.020455121994018555, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"Date\": date_range, \"Sales\": sales_data})", "compilation_passed": true, "time": 0.008039236068725586, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Sales\": sales_data}, index=date_range)", "compilation_passed": true, "time": 0.006737947463989258, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'dates': date_range, 'sales': sales_data})", "compilation_passed": true, "time": 0.022828102111816406, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'Date': date_range, 'Sales': sales_data})", "compilation_passed": true, "time": 0.0068509578704833984, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"date\": date_range, \"sales\": sales_data})", "compilation_passed": true, "time": 0.020628929138183594, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(sales_data, index=date_range)", "compilation_passed": true, "time": 0.00838017463684082, "tests_passed": false, "error": "KeyError"}

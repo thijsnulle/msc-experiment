@@ -1,0 +1,8 @@
+{"code": " np.arange(len(elements))", "compilation_passed": true, "time": 0.0061991214752197266, "tests_passed": true, "error": null}
+{"code": " pd.Series(range(len(elements)))", "compilation_passed": true, "time": 0.006616115570068359, "tests_passed": true, "error": null}
+{"code": " np.arange(len(elements_series))", "compilation_passed": true, "time": 0.006116151809692383, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.arange(len(elements_series)))", "compilation_passed": true, "time": 0.00653386116027832, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.arange(len(elements)), index=elements_series.index)", "compilation_passed": true, "time": 0.006780862808227539, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.arange(len(elements)), dtype=int)", "compilation_passed": true, "time": 0.0062580108642578125, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.arange(len(elements)))", "compilation_passed": true, "time": 0.006716251373291016, "tests_passed": true, "error": null}
+{"code": " np.arange(0, len(elements))", "compilation_passed": true, "time": 0.006273031234741211, "tests_passed": true, "error": null}

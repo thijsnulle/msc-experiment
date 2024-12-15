@@ -1,0 +1,3 @@
+{"code": " tokenizer.tokenize(text)", "compilation_passed": true, "time": 0.004357099533081055, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text)]", "compilation_passed": true, "time": 0.007133960723876953, "tests_passed": true, "error": null}
+{"code": " [word.strip(\"$\") for word in tokenizer.tokenize(text) if word.strip(\"$\") not in punctuation_set]", "compilation_passed": true, "time": 0.006577730178833008, "tests_passed": true, "error": null}

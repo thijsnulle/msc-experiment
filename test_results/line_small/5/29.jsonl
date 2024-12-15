@@ -1,0 +1,7 @@
+{"code": " {}", "compilation_passed": true, "time": 0.010816097259521484, "tests_passed": true, "error": null}
+{"code": " dict()", "compilation_passed": true, "time": 0.005594730377197266, "tests_passed": true, "error": null}
+{"code": " {LETTER: [] for LETTER in LETTERS}", "compilation_passed": true, "time": 0.010117053985595703, "tests_passed": false, "error": "ZeroDivisionError"}
+{"code": " {key: [random.randint(0, 100) for i in range(1, random.randint(1, 10))] for key in LETTERS}", "compilation_passed": true, "time": 0.010424137115478516, "tests_passed": false, "error": "ZeroDivisionError"}
+{"code": " {i: [] for i in LETTERS}", "compilation_passed": true, "time": 0.010212898254394531, "tests_passed": false, "error": "ZeroDivisionError"}
+{"code": " {x: random.randint(1, 100) for x in LETTERS}", "compilation_passed": true, "time": 0.009531736373901367, "tests_passed": false, "error": "TypeError"}
+{"code": " {letter: [] for letter in LETTERS}", "compilation_passed": true, "time": 0.009636878967285156, "tests_passed": false, "error": "ZeroDivisionError"}

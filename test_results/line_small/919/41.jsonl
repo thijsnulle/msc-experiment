@@ -1,0 +1,29 @@
+{"code": " plt.bar(counts.index, counts, width=0.8, align='center')", "compilation_passed": true, "time": 0.053373098373413086, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(range(len(CATEGORIES)), counts, align='center')", "compilation_passed": true, "time": 0.012321233749389648, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(counts.index, counts, label='Counts')", "compilation_passed": true, "time": 0.010535240173339844, "tests_passed": false, "error": "AttributeError"}
+{"code": " counts.plot.bar(title='Distribution of {}'.format(column), rot=0, grid=True)", "compilation_passed": true, "time": 0.026858806610107422, "tests_passed": true, "error": null}
+{"code": " plt.bar(range(1, 6), counts.values, align='center', width=0.5, color='red')", "compilation_passed": true, "time": 0.010638952255249023, "tests_passed": false, "error": "AttributeError"}
+{"code": " counts.plot(kind='barh', figsize=(12, 4),", "compilation_passed": false, "time": 0.0002269744873046875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " counts.plot.bar(rot=0, figsize=(8, 6), fontsize=10, legend=False, color='green')", "compilation_passed": true, "time": 0.061800241470336914, "tests_passed": true, "error": null}
+{"code": " plt.bar(x=counts.index, height=counts, width=0.8)", "compilation_passed": true, "time": 0.01074528694152832, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.subplots().axes", "compilation_passed": true, "time": 0.03640103340148926, "tests_passed": false, "error": "AttributeError"}
+{"code": " counts.plot.barh()", "compilation_passed": true, "time": 0.01986098289489746, "tests_passed": true, "error": null}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.0059108734130859375, "tests_passed": true, "error": null}
+{"code": " plt.bar(counts.index, counts.values, align='center')", "compilation_passed": true, "time": 0.02497100830078125, "tests_passed": false, "error": "AttributeError"}
+{"code": " counts.plot(kind='barh', figsize=(8, 8), color='blue')", "compilation_passed": true, "time": 0.035491943359375, "tests_passed": true, "error": null}
+{"code": " counts.plot(kind='barh', figsize=(10, 10), color='red', linewidth=2.2, title=f'Distribution of {column}', grid=True,", "compilation_passed": false, "time": 0.0002560615539550781, "tests_passed": false, "error": "SyntaxError"}
+{"code": " counts.plot(kind='bar')", "compilation_passed": true, "time": 0.029536008834838867, "tests_passed": true, "error": null}
+{"code": " counts.plot.bar(title=f\"Distribution of {column}\", rot=0, xlabel='Category', ylabel='Count', figsize=(15, 5))", "compilation_passed": true, "time": 0.0318601131439209, "tests_passed": true, "error": null}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.006125926971435547, "tests_passed": true, "error": null}
+{"code": " counts.plot.barh(color='orange', legend=False, figsize=(10, 8))", "compilation_passed": true, "time": 0.01951003074645996, "tests_passed": true, "error": null}
+{"code": " df[column].plot.bar()", "compilation_passed": true, "time": 0.008494138717651367, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.bar(range(len(CATEGORIES)), counts.values, tick_label=CATEGORIES)", "compilation_passed": true, "time": 0.010969877243041992, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(", "compilation_passed": false, "time": 0.0003261566162109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " counts.plot.bar(title=f'Distribution of {column}', color='tab:green', rot=0)", "compilation_passed": true, "time": 0.031234025955200195, "tests_passed": true, "error": null}
+{"code": " plt.bar(CATEGORIES, counts)", "compilation_passed": true, "time": 0.029106855392456055, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.subplots()[1]", "compilation_passed": true, "time": 0.032362937927246094, "tests_passed": true, "error": null}
+{"code": " plt.bar(CATEGORIES, counts, align='center')", "compilation_passed": true, "time": 0.022427797317504883, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(range(1, len(counts) + 1), counts.values, width=0.8, label='Count')", "compilation_passed": true, "time": 0.01057887077331543, "tests_passed": false, "error": "AttributeError"}
+{"code": " counts.plot.bar()", "compilation_passed": true, "time": 0.025066137313842773, "tests_passed": true, "error": null}
+{"code": " counts.plot(kind='bar', title=f'Distribution of {column}', xlabel='Category', ylabel='Count', figsize=(20, 8))", "compilation_passed": true, "time": 0.03080129623413086, "tests_passed": true, "error": null}
+{"code": " counts.plot.bar(rot=0)", "compilation_passed": true, "time": 0.024132251739501953, "tests_passed": true, "error": null}

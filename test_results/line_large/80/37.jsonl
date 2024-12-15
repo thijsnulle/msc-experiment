@@ -1,0 +1,9 @@
+{"code": "info(data)", "compilation_passed": true, "time": 0.009173870086669922, "tests_passed": false, "error": "RuntimeError"}
+{"code": "info(json.dumps(data))", "compilation_passed": true, "time": 0.009242057800292969, "tests_passed": false, "error": "RuntimeError"}
+{"code": "info(\"Received JSON data: \" + json.dumps(data))", "compilation_passed": true, "time": 0.009660005569458008, "tests_passed": false, "error": "RuntimeError"}
+{"code": "info(f\"Request Data: {data}\")", "compilation_passed": true, "time": 0.01207280158996582, "tests_passed": false, "error": "RuntimeError"}
+{"code": "info(\"Received request data:\")", "compilation_passed": true, "time": 0.008972883224487305, "tests_passed": false, "error": "RuntimeError"}
+{"code": "info(f\"Got POST request: {data}\")", "compilation_passed": true, "time": 0.01045680046081543, "tests_passed": false, "error": "RuntimeError"}
+{"code": "info(\"Request data: \" + json.dumps(data))", "compilation_passed": true, "time": 0.009245157241821289, "tests_passed": false, "error": "RuntimeError"}
+{"code": "info(\"POST data: %s\", data)", "compilation_passed": true, "time": 0.009598970413208008, "tests_passed": false, "error": "RuntimeError"}
+{"code": "info(f\"POST data: {data}\")", "compilation_passed": true, "time": 0.009386777877807617, "tests_passed": false, "error": "RuntimeError"}

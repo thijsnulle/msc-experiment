@@ -1,0 +1,8 @@
+{"code": " DOWNLOAD_DIR / filename", "compilation_passed": true, "time": 1.0167059898376465, "tests_passed": false, "error": "IndexError"}
+{"code": " Path(DOWNLOAD_DIR, filename)", "compilation_passed": true, "time": 1.0165250301361084, "tests_passed": false, "error": "IndexError"}
+{"code": " DOWNLOAD_DIR.joinpath(filename)", "compilation_passed": true, "time": 1.023810863494873, "tests_passed": false, "error": "IndexError"}
+{"code": " Path(DOWNLOAD_DIR / filename)", "compilation_passed": true, "time": 1.0173001289367676, "tests_passed": false, "error": "IndexError"}
+{"code": " DOWNLOAD_DIR / Path(filename)", "compilation_passed": true, "time": 1.0280790328979492, "tests_passed": false, "error": "IndexError"}
+{"code": " Path(f'{DOWNLOAD_DIR}/temp.zip')", "compilation_passed": true, "time": 1.0155322551727295, "tests_passed": false, "error": "IndexError"}
+{"code": " Path(DOWNLOAD_DIR) / Path(filename)", "compilation_passed": true, "time": 1.0164599418640137, "tests_passed": false, "error": "IndexError"}
+{"code": " Path(DOWNLOAD_DIR) / filename", "compilation_passed": true, "time": 1.0155909061431885, "tests_passed": false, "error": "IndexError"}

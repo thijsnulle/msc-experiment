@@ -1,0 +1,8 @@
+{"code": " df.empty:", "compilation_passed": true, "time": 0.019730806350708008, "tests_passed": false, "error": "KeyError"}
+{"code": " df is None or df.empty:", "compilation_passed": true, "time": 0.013815164566040039, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.011072158813476562, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or df.empty:", "compilation_passed": true, "time": 0.015564918518066406, "tests_passed": false, "error": "KeyError"}
+{"code": " df is None:", "compilation_passed": true, "time": 0.009483098983764648, "tests_passed": false, "error": "KeyError"}
+{"code": " df is None or not isinstance(df, pd.DataFrame) or df.empty:", "compilation_passed": true, "time": 0.013328790664672852, "tests_passed": false, "error": "KeyError"}
+{"code": " df is None or not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.009932994842529297, "tests_passed": false, "error": "KeyError"}
+{"code": " df.empty or not isinstance(df, pd.DataFrame) or (col_a not in df.columns or col_b not in df.columns or col_c not in df.columns):", "compilation_passed": true, "time": 0.0196380615234375, "tests_passed": true, "error": null}

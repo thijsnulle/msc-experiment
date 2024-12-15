@@ -1,0 +1,10 @@
+{"code": " glob.glob(f\"{directory_path}/**/*.docx\", recursive=True)", "compilation_passed": true, "time": 2.330300807952881, "tests_passed": false, "error": ""}
+{"code": " glob.glob(directory_path + '/*.docx')", "compilation_passed": true, "time": 0.0031859874725341797, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " glob.glob(directory_path + '/**/[A-Za-z].docx')", "compilation_passed": true, "time": 0.0023686885833740234, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " glob.glob(f\"{directory_path}/*.docx\")", "compilation_passed": true, "time": 0.002101898193359375, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " glob.glob(directory_path + \"/*.docx\")", "compilation_passed": true, "time": 0.0021381378173828125, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " glob.glob(directory_path + '/' + '**/*.docx', recursive=True)", "compilation_passed": true, "time": 0.002086162567138672, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " glob.glob(directory_path + '/' + '*.docx')", "compilation_passed": true, "time": 0.002302885055541992, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " glob.glob(directory_path + '/**/*.docx', recursive=True)", "compilation_passed": true, "time": 0.0021729469299316406, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " glob.glob(f'{directory_path}/**/*.docx', recursive=True)", "compilation_passed": true, "time": 0.002129077911376953, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}
+{"code": " glob.glob(directory_path + '/**/[*.docx]', recursive=True)", "compilation_passed": true, "time": 0.0021440982818603516, "tests_passed": false, "error": "module 'matplotlib' has no attribute 'get_data_path'"}

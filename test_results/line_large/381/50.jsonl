@@ -1,0 +1,14 @@
+{"code": " df_cleaned.drop(columns=target_column)", "compilation_passed": true, "time": 0.33371996879577637, "tests_passed": true, "error": null}
+{"code": " df_cleaned.drop(columns=[target_column])", "compilation_passed": true, "time": 0.33704662322998047, "tests_passed": true, "error": null}
+{"code": " df_cleaned.drop(target_column, axis=1).values", "compilation_passed": true, "time": 0.14542174339294434, "tests_passed": false, "error": "AttributeError"}
+{"code": " df_cleaned.drop(columns=[target_column]).values", "compilation_passed": true, "time": 0.14171910285949707, "tests_passed": false, "error": "AttributeError"}
+{"code": " df_cleaned.drop(target_column, axis=1).to_numpy(dtype=\"float32\", na_value=\"NaN\")", "compilation_passed": true, "time": 0.14193201065063477, "tests_passed": false, "error": "AttributeError"}
+{"code": " df_cleaned.drop(target_column, axis=1)", "compilation_passed": true, "time": 0.3423328399658203, "tests_passed": true, "error": null}
+{"code": " df_cleaned[df.columns.difference([target_column])].to_numpy().astype('float32')", "compilation_passed": true, "time": 0.1409437656402588, "tests_passed": false, "error": "AttributeError"}
+{"code": " df_cleaned[[col for col in df.columns if col != target_column]].to_numpy(dtype='float32')", "compilation_passed": true, "time": 0.1433568000793457, "tests_passed": false, "error": "AttributeError"}
+{"code": " df_cleaned.drop(target_column, axis=1).astype('float32')", "compilation_passed": true, "time": 0.3364417552947998, "tests_passed": true, "error": null}
+{"code": " df_cleaned.drop(target_column, axis=1).values.astype('float32')", "compilation_passed": true, "time": 0.14412283897399902, "tests_passed": false, "error": "AttributeError"}
+{"code": " df_cleaned.drop(columns=[target_column]).to_numpy().astype('float32')", "compilation_passed": true, "time": 0.1418752670288086, "tests_passed": false, "error": "AttributeError"}
+{"code": " df_cleaned[df.columns.difference([target_column])]", "compilation_passed": true, "time": 0.34072017669677734, "tests_passed": true, "error": null}
+{"code": " df_cleaned.loc[:, df_cleaned.columns != target_column]", "compilation_passed": true, "time": 0.33766984939575195, "tests_passed": true, "error": null}
+{"code": " df_cleaned[[c for c in df.columns if c != target_column]]", "compilation_passed": true, "time": 0.34049415588378906, "tests_passed": true, "error": null}

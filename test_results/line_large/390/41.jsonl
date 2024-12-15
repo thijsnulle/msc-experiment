@@ -1,0 +1,7 @@
+{"code": " pd.read_csv(StringIO(csv_data))", "compilation_passed": true, "time": 0.009550094604492188, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(StringIO(csv_data), index_col=\"id\")", "compilation_passed": true, "time": 0.010759115219116211, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(StringIO(csv_data), usecols=[\"id\", \"title\", \"price\"])", "compilation_passed": true, "time": 0.028229236602783203, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(StringIO(csv_data), delimiter=',')", "compilation_passed": true, "time": 0.01129913330078125, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(StringIO(csv_data), sep=\";\")", "compilation_passed": true, "time": 0.018171072006225586, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.read_csv(StringIO(csv_data), sep=\",\")", "compilation_passed": true, "time": 0.010030031204223633, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(StringIO(csv_data), index_col=0)", "compilation_passed": true, "time": 0.012542963027954102, "tests_passed": true, "error": null}

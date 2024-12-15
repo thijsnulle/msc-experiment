@@ -1,0 +1,4 @@
+{"code": " json.loads(json_str)", "compilation_passed": true, "time": 0.009246110916137695, "tests_passed": false, "error": "Exception"}
+{"code": " pd.read_json(json_str, lines=True)", "compilation_passed": true, "time": 0.02000594139099121, "tests_passed": false, "error": "Exception"}
+{"code": " json.loads(json_str, object_pairs_hook=collections.OrderedDict)", "compilation_passed": true, "time": 0.010284900665283203, "tests_passed": false, "error": "Exception"}
+{"code": " json.loads(json_str, object_pairs_hook=OrderedDict)", "compilation_passed": true, "time": 0.009511947631835938, "tests_passed": false, "error": "Exception"}

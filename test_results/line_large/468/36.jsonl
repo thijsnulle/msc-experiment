@@ -1,0 +1,13 @@
+{"code": " df[columns].plot()", "compilation_passed": true, "time": 0.25325584411621094, "tests_passed": true, "error": null}
+{"code": " df[columns].plot.line()", "compilation_passed": true, "time": 0.161970853805542, "tests_passed": true, "error": null}
+{"code": " df.plot.line(columns)", "compilation_passed": true, "time": 0.015436172485351562, "tests_passed": false, "error": "ValueError"}
+{"code": " df[columns].plot(kind='line', title='Line chart of data in selected columns', legend=True, grid=True, style='.-')", "compilation_passed": true, "time": 0.1412816047668457, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"line\", x=0, y=columns)", "compilation_passed": true, "time": 0.01446390151977539, "tests_passed": false, "error": "KeyError"}
+{"code": " df[columns].plot(kind='line')", "compilation_passed": true, "time": 0.15035009384155273, "tests_passed": true, "error": null}
+{"code": " df[columns].plot(kind=\"line\")", "compilation_passed": true, "time": 0.15099000930786133, "tests_passed": true, "error": null}
+{"code": " df.loc[:100, columns].plot()", "compilation_passed": true, "time": 0.14118695259094238, "tests_passed": true, "error": null}
+{"code": " df[columns].plot(style=\".-\")", "compilation_passed": true, "time": 0.1539311408996582, "tests_passed": true, "error": null}
+{"code": " df[columns].plot(x=columns[0])", "compilation_passed": true, "time": 0.16673994064331055, "tests_passed": true, "error": null}
+{"code": " df[columns].plot(color=['r','b','y'],", "compilation_passed": false, "time": 0.00025391578674316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(x=columns[0], y=columns[1:])", "compilation_passed": true, "time": 0.15121793746948242, "tests_passed": true, "error": null}
+{"code": " df[columns].plot(kind=\"line\", grid=True, title=\"Line Chart\", legend=False)", "compilation_passed": true, "time": 0.15125513076782227, "tests_passed": true, "error": null}

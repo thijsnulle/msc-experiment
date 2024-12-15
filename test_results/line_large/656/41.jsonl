@@ -1,0 +1,17 @@
+{"code": " ALPHANUMERIC.sub(\" \", text)", "compilation_passed": true, "time": 0.0021750926971435547, "tests_passed": true, "error": null}
+{"code": " re.sub(ALPHANUMERIC, ' ', text.lower())", "compilation_passed": true, "time": 0.0013918876647949219, "tests_passed": true, "error": null}
+{"code": " ALPHANUMERIC.sub(' ', text)  # Remove non-alphanumeric characters", "compilation_passed": true, "time": 0.002165079116821289, "tests_passed": true, "error": null}
+{"code": " ALPHANUMERIC.sub(' ', text).lower()", "compilation_passed": true, "time": 0.0014338493347167969, "tests_passed": true, "error": null}
+{"code": " re.sub(ALPHANUMERIC, ' ', text).lower().translate(str.maketrans('', '', PUNCTUATIONS))", "compilation_passed": true, "time": 0.0013251304626464844, "tests_passed": true, "error": null}
+{"code": " re.sub(ALPHANUMERIC, \" \", text)", "compilation_passed": true, "time": 0.0014178752899169922, "tests_passed": true, "error": null}
+{"code": " ALPHANUMERIC.sub(' ', text).lower().translate(str.maketrans('', '', PUNCTUATIONS))", "compilation_passed": true, "time": 0.00138092041015625, "tests_passed": true, "error": null}
+{"code": " re.sub(ALPHANUMERIC, \" \", text).lower().translate(str.maketrans('', '', PUNCTUATIONS))", "compilation_passed": true, "time": 0.0013303756713867188, "tests_passed": true, "error": null}
+{"code": " text.lower()", "compilation_passed": true, "time": 0.0012753009796142578, "tests_passed": true, "error": null}
+{"code": " ALPHANUMERIC.sub(' ', text).lower()  # Remove non-alphanumeric characters and convert to lowercase", "compilation_passed": true, "time": 0.0012331008911132812, "tests_passed": true, "error": null}
+{"code": " ALPHANUMERIC.sub(' ', text).strip().lower()", "compilation_passed": true, "time": 0.001338958740234375, "tests_passed": true, "error": null}
+{"code": " ALPHANUMERIC.sub(' ', text)", "compilation_passed": true, "time": 0.0013899803161621094, "tests_passed": true, "error": null}
+{"code": " ALPHANUMERIC.sub(\" \", text).lower().replace(\"  \", \" \").strip()", "compilation_passed": true, "time": 0.0014960765838623047, "tests_passed": true, "error": null}
+{"code": " ALPHANUMERIC.sub(' ', text)  # remove non-alphanumeric characters except spaces", "compilation_passed": true, "time": 0.002599954605102539, "tests_passed": true, "error": null}
+{"code": " re.sub(ALPHANUMERIC, ' ', text)", "compilation_passed": true, "time": 0.0019769668579101562, "tests_passed": true, "error": null}
+{"code": " ALPHANUMERIC.sub(\" \", text).lower()", "compilation_passed": true, "time": 0.0016372203826904297, "tests_passed": true, "error": null}
+{"code": " ALPHANUMERIC.sub(\" \", text).lower().translate(str.maketrans(\"\", \"\", PUNCTUATIONS)).strip()", "compilation_passed": true, "time": 0.00150299072265625, "tests_passed": true, "error": null}

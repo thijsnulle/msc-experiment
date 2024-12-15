@@ -1,0 +1,8 @@
+{"code": " re.compile('[{0}]'.format(re.escape(string.punctuation)))", "compilation_passed": true, "time": 0.008273839950561523, "tests_passed": false, "error": "TypeError"}
+{"code": " re.compile('[%s]' % re.escape(string.punctuation))", "compilation_passed": true, "time": 0.007415056228637695, "tests_passed": false, "error": "TypeError"}
+{"code": " re.compile(f'[{re.escape(string.punctuation)}]')", "compilation_passed": true, "time": 0.005408048629760742, "tests_passed": false, "error": "TypeError"}
+{"code": " string.punctuation", "compilation_passed": true, "time": 0.0011301040649414062, "tests_passed": true, "error": null}
+{"code": " re.escape(string.punctuation)", "compilation_passed": true, "time": 0.0013997554779052734, "tests_passed": true, "error": null}
+{"code": " r'[%s]' % re.escape(string.punctuation)", "compilation_passed": true, "time": 0.0014641284942626953, "tests_passed": true, "error": null}
+{"code": " r\"[{}]\".format(re.escape(string.punctuation))", "compilation_passed": true, "time": 0.0016510486602783203, "tests_passed": true, "error": null}
+{"code": " set(string.punctuation)", "compilation_passed": true, "time": 0.005836009979248047, "tests_passed": false, "error": "TypeError"}

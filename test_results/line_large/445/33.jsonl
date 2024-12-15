@@ -1,0 +1,12 @@
+{"code": " not isinstance(points, np.ndarray):", "compilation_passed": true, "time": 0.07371115684509277, "tests_passed": true, "error": null}
+{"code": " not isinstance(points, np.ndarray) or points.ndim != 2:", "compilation_passed": true, "time": 0.07737898826599121, "tests_passed": true, "error": null}
+{"code": " seed is None:", "compilation_passed": true, "time": 0.07566571235656738, "tests_passed": true, "error": null}
+{"code": " seed:", "compilation_passed": true, "time": 0.05299496650695801, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(points, np.ndarray) or not np.issubdtype(points.dtype, np.number):", "compilation_passed": true, "time": 0.07258796691894531, "tests_passed": true, "error": null}
+{"code": " not isinstance(points, np.ndarray) or not (points.ndim == 2 and points.shape[1] == 2):", "compilation_passed": true, "time": 0.07476210594177246, "tests_passed": true, "error": null}
+{"code": " len(points.shape) != 2 or points.shape[1] != 2:", "compilation_passed": true, "time": 0.07459688186645508, "tests_passed": true, "error": null}
+{"code": " not isinstance(points, np.ndarray) or points.ndim != 2 or points.shape[1] != 2:", "compilation_passed": true, "time": 0.07326602935791016, "tests_passed": true, "error": null}
+{"code": " len(points) == 0:", "compilation_passed": true, "time": 0.07421588897705078, "tests_passed": true, "error": null}
+{"code": " seed < 0:", "compilation_passed": true, "time": 0.07415604591369629, "tests_passed": true, "error": null}
+{"code": " not isinstance(points, np.ndarray) or not points.shape[1] == 2 or len(points.shape) > 2:", "compilation_passed": true, "time": 0.07243967056274414, "tests_passed": true, "error": null}
+{"code": " not isinstance(points, np.ndarray) or not np.issubdtype(", "compilation_passed": false, "time": 0.00013685226440429688, "tests_passed": false, "error": "SyntaxError"}

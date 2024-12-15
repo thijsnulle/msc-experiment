@@ -1,0 +1,7 @@
+{"code": " df.groupby('id')", "compilation_passed": false, "time": 0.00014901161193847656, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id')[['age', 'income']].transform(lambda x: scaler.fit_transform(x.values.reshape(-1, 1)))", "compilation_passed": false, "time": 0.00022792816162109375, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id').apply(lambda x: x.assign(age_scaled=scaler.fit_transform(x[['age']]),income_scaled=scaler.fit_transform(x[['income']])))", "compilation_passed": false, "time": 0.00023674964904785156, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id')[['age', 'income']].transform(lambda x: scaler.fit_transform(x))", "compilation_passed": false, "time": 0.00016999244689941406, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id').apply(lambda x: pd.DataFrame({'age': scaler.fit_transform(x[['age']]), 'income': scaler.fit_transform(x[['income']])})).reset_index(drop=True)", "compilation_passed": false, "time": 0.00019598007202148438, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id')[['age', 'income']]", "compilation_passed": false, "time": 0.00015401840209960938, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby('id').apply(lambda x: pd.DataFrame({'age': x['age'], 'income': x['income']}, index=x.index))", "compilation_passed": false, "time": 0.00019979476928710938, "tests_passed": false, "error": "IndentationError"}

@@ -1,0 +1,7 @@
+{"code": " data[:, column]", "compilation_passed": true, "time": 0.3584010601043701, "tests_passed": true, "error": null}
+{"code": " data_copy[:, column]", "compilation_passed": true, "time": 0.38819265365600586, "tests_passed": true, "error": null}
+{"code": " data_copy[:, column].reshape(-1, 1)", "compilation_passed": true, "time": 0.4084959030151367, "tests_passed": true, "error": null}
+{"code": " np.array(data_copy[:, column]).reshape(-1, 1)", "compilation_passed": true, "time": 0.27590203285217285, "tests_passed": true, "error": null}
+{"code": " np.ravel(data[:, column])", "compilation_passed": true, "time": 0.2762749195098877, "tests_passed": true, "error": null}
+{"code": " data_copy[:, column].reshape(-1, 1)  # Extract the specified column and reshape it", "compilation_passed": true, "time": 0.2745809555053711, "tests_passed": true, "error": null}
+{"code": " data[:, column]  # Extract the specified column from the data", "compilation_passed": true, "time": 0.2759699821472168, "tests_passed": true, "error": null}

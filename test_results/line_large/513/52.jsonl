@@ -1,0 +1,17 @@
+{"code": " (df[\"Steps\"] < 0).any():", "compilation_passed": true, "time": 0.40453100204467773, "tests_passed": true, "error": null}
+{"code": " df.shape[1] != len(COLUMNS):", "compilation_passed": true, "time": 0.3583378791809082, "tests_passed": true, "error": null}
+{"code": " column != \"Date\":", "compilation_passed": true, "time": 0.010702848434448242, "tests_passed": false, "error": "ValueError"}
+{"code": " (", "compilation_passed": false, "time": 0.0002701282501220703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " any((df[\"Steps\"] < 0) | (df[\"Calories Burned\"] < 0) | (df[\"Distance Walked\"] < 0)):", "compilation_passed": true, "time": 0.421417236328125, "tests_passed": true, "error": null}
+{"code": " not df[COLUMNS[1:]].to_numpy().all() >= 0:", "compilation_passed": true, "time": 0.37051987648010254, "tests_passed": true, "error": null}
+{"code": " not (", "compilation_passed": false, "time": 0.0002741813659667969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " column != \"Date\" and any(", "compilation_passed": false, "time": 0.0002808570861816406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " any(df[[\"Steps\", \"Calories Burned\", \"Distance Walked\"]].to_numpy().flatten() < 0):", "compilation_passed": true, "time": 0.43837594985961914, "tests_passed": true, "error": null}
+{"code": " df[[\"Steps\", \"Calories Burned\", \"Distance Walked\"]].to_numpy().min() < 0:", "compilation_passed": true, "time": 0.43361377716064453, "tests_passed": true, "error": null}
+{"code": " df[\"Steps\"].lt(0).any() or df[\"Calories Burned\"].lt(0).any() or df[\"Distance Walked\"].lt(0).any():", "compilation_passed": true, "time": 0.43689489364624023, "tests_passed": true, "error": null}
+{"code": " column not in [\"Date\"]:", "compilation_passed": true, "time": 0.010510921478271484, "tests_passed": false, "error": "ValueError"}
+{"code": " (df[\"Steps\"] < 0).any() or (df[\"Calories Burned\"] < 0).any() or (df[\"Distance Walked\"] < 0).any():", "compilation_passed": true, "time": 0.44934678077697754, "tests_passed": true, "error": null}
+{"code": " not all(", "compilation_passed": false, "time": 0.0003159046173095703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[\"Steps\"].min() < 0 or df[\"Calories Burned\"].min() < 0 or df[\"Distance Walked\"].min() < 0:", "compilation_passed": true, "time": 0.4352703094482422, "tests_passed": true, "error": null}
+{"code": " any(df.iloc[:, 1:4].to_numpy().flatten() < 0):", "compilation_passed": true, "time": 0.4677698612213135, "tests_passed": true, "error": null}
+{"code": " any(df[\"Steps\"] < 0):", "compilation_passed": true, "time": 0.46489596366882324, "tests_passed": true, "error": null}

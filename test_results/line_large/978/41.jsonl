@@ -1,0 +1,8 @@
+{"code": " array.ndim != 2:", "compilation_passed": true, "time": 0.0057790279388427734, "tests_passed": true, "error": null}
+{"code": " array.ndim == 2:", "compilation_passed": true, "time": 0.01133584976196289, "tests_passed": false, "error": "IndexError"}
+{"code": " len(array.shape) != 2:", "compilation_passed": true, "time": 0.006036043167114258, "tests_passed": true, "error": null}
+{"code": " not isinstance(array, np.ndarray):", "compilation_passed": true, "time": 0.011381149291992188, "tests_passed": false, "error": "IndexError"}
+{"code": " not len(array.shape) == 2:", "compilation_passed": true, "time": 0.00602412223815918, "tests_passed": true, "error": null}
+{"code": " array is None:", "compilation_passed": true, "time": 0.012563943862915039, "tests_passed": false, "error": "IndexError"}
+{"code": " array is None or len(array) == 0:", "compilation_passed": true, "time": 0.020486831665039062, "tests_passed": false, "error": "IndexError"}
+{"code": " array.ndim == 2 and array.shape[0] > 1 and array.shape[1] > 1:", "compilation_passed": true, "time": 0.012118101119995117, "tests_passed": false, "error": "IndexError"}

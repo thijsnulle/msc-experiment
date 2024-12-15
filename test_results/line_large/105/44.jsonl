@@ -1,0 +1,6 @@
+{"code": " sns.pairplot(df)", "compilation_passed": true, "time": 1.0186750888824463, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.pairplot(df, hue='group', corner=True)", "compilation_passed": true, "time": 1.024886131286621, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.pairplot(df, hue='group', corner=True, diag_kind='kde')", "compilation_passed": true, "time": 1.0146088600158691, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.pairplot(df, hue='group')", "compilation_passed": true, "time": 1.0149857997894287, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.pairplot(df_numeric)", "compilation_passed": true, "time": 1.0144376754760742, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.pairplot(df_numeric, diag_kind='kde')", "compilation_passed": true, "time": 1.0137131214141846, "tests_passed": false, "error": "ValueError"}

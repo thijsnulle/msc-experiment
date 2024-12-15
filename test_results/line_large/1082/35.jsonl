@@ -1,0 +1,18 @@
+{"code": " pd.Categorical(df[\"Grade\"]).codes", "compilation_passed": true, "time": 0.008563995361328125, "tests_passed": true, "error": null}
+{"code": " pd.Categorical(df[\"Grade\"], categories=[\"D\", \"C\", \"B\", \"B+\", \"A-\", \"A\", \"A+\"]).codes", "compilation_passed": true, "time": 0.008753061294555664, "tests_passed": true, "error": null}
+{"code": " df[\"Grade\"].rank(method=\"dense\", ascending=False)", "compilation_passed": true, "time": 0.018631935119628906, "tests_passed": true, "error": null}
+{"code": " encode_categorical_to_numerical(df[\"Grade\"])", "compilation_passed": true, "time": 0.017431020736694336, "tests_passed": false, "error": "NameError"}
+{"code": " pd.Categorical(df[\"Grade\"], ordered=True).codes", "compilation_passed": true, "time": 0.008555889129638672, "tests_passed": true, "error": null}
+{"code": " df[\"Grade\"].rank(method=\"dense\").astype(int)", "compilation_passed": true, "time": 0.007800102233886719, "tests_passed": true, "error": null}
+{"code": " df[\"Grade\"].rank(method=\"average\")", "compilation_passed": true, "time": 0.0074579715728759766, "tests_passed": true, "error": null}
+{"code": " df[\"Grade\"].astype(\"category\").cat.codes", "compilation_passed": true, "time": 0.009390115737915039, "tests_passed": true, "error": null}
+{"code": " df[\"Grade\"].rank(method=\"dense\").astype(int) - 1", "compilation_passed": true, "time": 0.00907588005065918, "tests_passed": true, "error": null}
+{"code": " df[\"Grade\"].rank(ascending=False)", "compilation_passed": true, "time": 0.008790016174316406, "tests_passed": true, "error": null}
+{"code": " df[\"Grade\"].rank()", "compilation_passed": true, "time": 0.00830078125, "tests_passed": true, "error": null}
+{"code": " df[\"Grade\"].rank(method=\"dense\")", "compilation_passed": true, "time": 0.008182048797607422, "tests_passed": true, "error": null}
+{"code": " pd.Categorical(df[\"Grade\"], categories=[\"B\", \"B+\", \"A-\"], ordered=True).codes", "compilation_passed": true, "time": 0.008665084838867188, "tests_passed": true, "error": null}
+{"code": " df[\"Grade\"].rank(method=\"dense\", ascending=False) - 1", "compilation_passed": true, "time": 0.008675098419189453, "tests_passed": true, "error": null}
+{"code": " df[\"Grade\"].rank(method=\"dense\", ascending=True)", "compilation_passed": true, "time": 0.008300065994262695, "tests_passed": true, "error": null}
+{"code": " df[\"Grade\"].rank().astype(float)", "compilation_passed": true, "time": 0.008484125137329102, "tests_passed": true, "error": null}
+{"code": " [\"B\", \"B+\", \"A-\"]", "compilation_passed": true, "time": 0.02819681167602539, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " df[\"Grade\"].rank(method=\"dense\") - 1", "compilation_passed": true, "time": 0.008681058883666992, "tests_passed": true, "error": null}

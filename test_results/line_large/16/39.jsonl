@@ -1,0 +1,17 @@
+{"code": "call(['tar', '-czf', backup_file, '-C', directory] + log_files)", "compilation_passed": true, "time": 0.06437921524047852, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', backup_file] + log_files, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)", "compilation_passed": true, "time": 0.06235194206237793, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', backup_file] + log_files, check=True)", "compilation_passed": true, "time": 0.06545495986938477, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', backup_file, '-C', directory, '.'], check=True)", "compilation_passed": true, "time": 0.06432628631591797, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czvf', backup_file, '-C', directory] + log_files, check=True)", "compilation_passed": true, "time": 0.0652458667755127, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czvf', backup_file] + log_files)", "compilation_passed": true, "time": 0.06355667114257812, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', backup_file, '-C', directory] + log_files)", "compilation_passed": true, "time": 0.06406903266906738, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czvf', backup_file] + log_files, check=True)", "compilation_passed": true, "time": 0.0631561279296875, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', backup_file, '-C', directory] + log_files, check=True)", "compilation_passed": true, "time": 0.06524300575256348, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', backup_file] + log_files, cwd=directory)", "compilation_passed": true, "time": 0.06539106369018555, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', backup_file, '-C', directory, '.'])", "compilation_passed": true, "time": 0.06385993957519531, "tests_passed": true, "error": null}
+{"code": "call(f'tar -czf {backup_file} {\" \".join(log_files)}', shell=True)", "compilation_passed": true, "time": 0.08619070053100586, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', backup_file] + log_files, check=True, cwd=directory)", "compilation_passed": true, "time": 0.06306195259094238, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czvf', backup_file, '-C', directory, '.'], check=True)", "compilation_passed": true, "time": 0.0677640438079834, "tests_passed": true, "error": null}
+{"code": "run([\"tar\", \"czf\", backup_file, \"-C\", directory, \".\"])", "compilation_passed": true, "time": 0.0617673397064209, "tests_passed": true, "error": null}
+{"code": "call(['tar', '-czf', backup_file] + log_files)", "compilation_passed": true, "time": 0.06528615951538086, "tests_passed": true, "error": null}
+{"code": "run([\"tar\", \"czf\", backup_file, \"-C\", directory, \".\"], check=True)", "compilation_passed": true, "time": 0.06369280815124512, "tests_passed": true, "error": null}

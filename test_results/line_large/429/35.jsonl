@@ -1,0 +1,11 @@
+{"code": " df.drop([\"id\", \"target\"], axis=1)", "compilation_passed": true, "time": 0.021881818771362305, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop(['id', 'target'], axis=1)", "compilation_passed": true, "time": 0.02868199348449707, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop([\"target\", \"id\"], axis=1)", "compilation_passed": true, "time": 0.024403095245361328, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop('target', axis=1)", "compilation_passed": true, "time": 0.025310993194580078, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop(columns=\"target\")", "compilation_passed": true, "time": 0.022614002227783203, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop(columns='target')", "compilation_passed": true, "time": 0.024914979934692383, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop(columns=[\"id\", \"target\"])", "compilation_passed": true, "time": 0.02855205535888672, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop(columns=[\"target\"])", "compilation_passed": true, "time": 0.04674792289733887, "tests_passed": false, "error": "ValueError"}
+{"code": " df.iloc[:, 1:-1]", "compilation_passed": true, "time": 0.03168010711669922, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop(columns=[\"target\", \"id\"])", "compilation_passed": true, "time": 0.022629737854003906, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop(\"target\", axis=1)", "compilation_passed": true, "time": 0.019976139068603516, "tests_passed": false, "error": "ValueError"}

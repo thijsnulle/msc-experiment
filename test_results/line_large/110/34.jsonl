@@ -1,0 +1,7 @@
+{"code": " df.sort_values('Date')", "compilation_passed": true, "time": 0.01843404769897461, "tests_passed": false, "error": "TypeError"}
+{"code": " df.set_index('Date')", "compilation_passed": true, "time": 0.21888422966003418, "tests_passed": true, "error": null}
+{"code": " df[['Date', 'Sales']].set_index('Date')", "compilation_passed": true, "time": 0.20816516876220703, "tests_passed": true, "error": null}
+{"code": " df.set_index('Date').resample('D').sum()", "compilation_passed": true, "time": 0.21088624000549316, "tests_passed": true, "error": null}
+{"code": " df.sort_values(by='Date')", "compilation_passed": true, "time": 0.016972780227661133, "tests_passed": false, "error": "TypeError"}
+{"code": " df[df['Date'].between(df['Date'].min(), df['Date'].max())]", "compilation_passed": true, "time": 0.012210845947265625, "tests_passed": false, "error": "TypeError"}
+{"code": " df[df['Date'].dt.year == 2021]", "compilation_passed": true, "time": 0.012288093566894531, "tests_passed": false, "error": "TypeError"}

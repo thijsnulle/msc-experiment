@@ -1,0 +1,12 @@
+{"code": " not isinstance(target_values, list):", "compilation_passed": true, "time": 0.0175018310546875, "tests_passed": false, "error": "TypeError"}
+{"code": " target_column in df.columns:", "compilation_passed": true, "time": 0.015353918075561523, "tests_passed": false, "error": "TypeError"}
+{"code": " target_column in df:", "compilation_passed": true, "time": 0.014532089233398438, "tests_passed": false, "error": "TypeError"}
+{"code": " target_values is not None:", "compilation_passed": true, "time": 0.04872393608093262, "tests_passed": true, "error": null}
+{"code": " target_values is None:", "compilation_passed": true, "time": 0.01474308967590332, "tests_passed": false, "error": "TypeError"}
+{"code": " target_values is not None and not isinstance(target_values, np.ndarray):", "compilation_passed": true, "time": 0.041230201721191406, "tests_passed": true, "error": null}
+{"code": " not all(target_column in df.columns):", "compilation_passed": true, "time": 0.009628057479858398, "tests_passed": false, "error": "TypeError"}
+{"code": " target_values is not None and not isinstance(target_values, list):", "compilation_passed": true, "time": 0.030748844146728516, "tests_passed": true, "error": null}
+{"code": " not target_values:", "compilation_passed": true, "time": 0.01360011100769043, "tests_passed": false, "error": "TypeError"}
+{"code": " not (isinstance(target_values, np.ndarray) or target_values is None):", "compilation_passed": true, "time": 0.04229021072387695, "tests_passed": true, "error": null}
+{"code": " target_values is not None and not all(np.issubdtype(dtype, np.number) for dtype in np.array(target_values).dtypes):", "compilation_passed": true, "time": 0.0280759334564209, "tests_passed": false, "error": "AttributeError"}
+{"code": " not all(col in df.columns for col in target_values):", "compilation_passed": true, "time": 0.008769035339355469, "tests_passed": false, "error": "TypeError"}

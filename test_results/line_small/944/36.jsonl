@@ -1,0 +1,11 @@
+{"code": " pd.DataFrame(columns=['Date', 'Price'])", "compilation_passed": true, "time": 0.05753588676452637, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(stock_prices, columns=['Price'], index=date_range)", "compilation_passed": true, "time": 0.008207082748413086, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'Date': date_range, 'Price': stock_prices})", "compilation_passed": true, "time": 0.22740602493286133, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00028705596923828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"Date\": date_range, \"Price\": stock_prices})", "compilation_passed": true, "time": 0.22873306274414062, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(stock_prices, index=date_range)", "compilation_passed": true, "time": 0.008204936981201172, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'Date':date_range, 'Price': stock_prices})", "compilation_passed": true, "time": 1.4376740455627441, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame({'Date':date_range, 'Price':stock_prices})", "compilation_passed": true, "time": 0.2501561641693115, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(stock_prices, index=date_range, columns=['Price'])", "compilation_passed": true, "time": 0.008444070816040039, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data={'Date': date_range, 'Price': stock_prices})", "compilation_passed": true, "time": 0.24778318405151367, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(stock_prices, columns=['Price'])", "compilation_passed": true, "time": 0.00847315788269043, "tests_passed": false, "error": "KeyError"}

@@ -1,0 +1,11 @@
+{"code": " [''.join(random.choices('abcde', k=length)) for _ in range(count)]", "compilation_passed": true, "time": 0.0019257068634033203, "tests_passed": true, "error": null}
+{"code": " [''.join(random.choice(['a', 'b', 'c', 'd', 'e']) for _ in range(length)) for _ in range(count)]", "compilation_passed": true, "time": 0.0049588680267333984, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0048329830169677734, "tests_passed": true, "error": null}
+{"code": " [''.join(random.choice('abcde') for _ in range(length)) for _ in range(count)]", "compilation_passed": true, "time": 0.004660844802856445, "tests_passed": true, "error": null}
+{"code": " [\"\".join(random.choices(\"abcde\", k=length)) for _ in range(count)]", "compilation_passed": true, "time": 0.0016481876373291016, "tests_passed": true, "error": null}
+{"code": " [''.join(random.choice('abcde') for i in range(length)) for j in range(count)]", "compilation_passed": true, "time": 0.004889965057373047, "tests_passed": true, "error": null}
+{"code": " [''.join(random.choices(['a', 'b', 'c', 'd', 'e'], k=length)) for _ in range(count)]", "compilation_passed": true, "time": 0.0016179084777832031, "tests_passed": true, "error": null}
+{"code": " [''.join(random.choices(string.ascii_lowercase[:5], k=length)) for _ in range(count)]", "compilation_passed": true, "time": 0.009416818618774414, "tests_passed": false, "error": "NameError"}
+{"code": " (''.join(random.choices(\"abcd\", k=length)) for _ in range(count))", "compilation_passed": true, "time": 0.004417896270751953, "tests_passed": true, "error": null}
+{"code": " [''.join(random.choices('abcd', k=length)) for _ in range(count)]", "compilation_passed": true, "time": 0.004225969314575195, "tests_passed": true, "error": null}
+{"code": " [\"\".join([random.choice(\"abcde\") for i in range(length)]) for j in range(count)]", "compilation_passed": true, "time": 0.004441022872924805, "tests_passed": true, "error": null}

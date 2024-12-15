@@ -1,0 +1,12 @@
+{"code": "scatter(df['A'], df['B'])", "compilation_passed": true, "time": 0.013843059539794922, "tests_passed": true, "error": null}
+{"code": "figure()", "compilation_passed": true, "time": 0.3357400894165039, "tests_passed": true, "error": null}
+{"code": "style.use('seaborn')", "compilation_passed": true, "time": 0.010184764862060547, "tests_passed": true, "error": null}
+{"code": "plot('A', 'B', data=df, marker='o', linestyle='')", "compilation_passed": true, "time": 0.008948087692260742, "tests_passed": true, "error": null}
+{"code": "scatter('A', 'B', data=df)", "compilation_passed": true, "time": 0.017478227615356445, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(10, 5))", "compilation_passed": true, "time": 0.40829014778137207, "tests_passed": true, "error": null}
+{"code": "scatter(df.A, df.B)", "compilation_passed": true, "time": 0.016927003860473633, "tests_passed": true, "error": null}
+{"code": "scatter(df.A, df.B, label='Scatter plot')", "compilation_passed": true, "time": 0.01676630973815918, "tests_passed": true, "error": null}
+{"code": "style.use('ggplot')", "compilation_passed": true, "time": 0.007584810256958008, "tests_passed": true, "error": null}
+{"code": "plot(df['A'], df['B'], 'o')", "compilation_passed": true, "time": 0.010175943374633789, "tests_passed": true, "error": null}
+{"code": "scatter(df.A, df.B, alpha=0.5)", "compilation_passed": true, "time": 0.014355182647705078, "tests_passed": true, "error": null}
+{"code": "scatter(x=df['A'], y=df['B'])", "compilation_passed": true, "time": 0.014904975891113281, "tests_passed": true, "error": null}

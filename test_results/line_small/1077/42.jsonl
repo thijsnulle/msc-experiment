@@ -1,0 +1,8 @@
+{"code": "replace(tzinfo=pytz.UTC).astimezone(time_zone)", "compilation_passed": true, "time": 0.002022981643676758, "tests_passed": true, "error": null}
+{"code": "replace(tzinfo=time_zone)", "compilation_passed": true, "time": 0.0028429031372070312, "tests_passed": true, "error": null}
+{"code": "astimezone(time_zone)", "compilation_passed": true, "time": 0.0023298263549804688, "tests_passed": true, "error": null}
+{"code": "replace(tzinfo=time_zone).timestamp()", "compilation_passed": true, "time": 0.012859106063842773, "tests_passed": false, "error": "AttributeError"}
+{"code": "replace(tzinfo=pytz.utc)", "compilation_passed": true, "time": 0.0019071102142333984, "tests_passed": true, "error": null}
+{"code": "replace(tzinfo=pytz.utc).astimezone(time_zone)", "compilation_passed": true, "time": 0.0019850730895996094, "tests_passed": true, "error": null}
+{"code": "replace(tzinfo=pytz.UTC)", "compilation_passed": true, "time": 0.0021889209747314453, "tests_passed": true, "error": null}
+{"code": "replace(tzinfo=timezone)", "compilation_passed": true, "time": 0.01151895523071289, "tests_passed": false, "error": "TypeError"}

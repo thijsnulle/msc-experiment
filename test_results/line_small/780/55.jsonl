@@ -1,0 +1,23 @@
+{"code": " df.groupby('category').agg(['count', pd.DataFrame.mean, pd.DataFrame.min, pd.DataFrame.max])", "compilation_passed": true, "time": 0.002621889114379883, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " df.groupby('category').agg(", "compilation_passed": false, "time": 0.0003020763397216797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby('category').agg(['count', 'mean', 'min', 'max'])", "compilation_passed": true, "time": 0.0022411346435546875, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " df.pivot_table(", "compilation_passed": false, "time": 0.0003960132598876953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby('category')['published_time'].agg(", "compilation_passed": false, "time": 0.0003139972686767578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby(by='category').agg({", "compilation_passed": false, "time": 0.000331878662109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby('category').agg({'published_time': ['count', 'mean', 'min', 'max']})", "compilation_passed": true, "time": 0.026799917221069336, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby('category')[['published_time']].agg({'count': 'count', 'mean': 'mean',", "compilation_passed": false, "time": 0.0003159046173095703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby('category')[['count', 'published_time', 'min', 'max']].agg(pd.Series.value_counts)", "compilation_passed": true, "time": 0.009525060653686523, "tests_passed": false, "error": "KeyError"}
+{"code": " (df.groupby('category')", "compilation_passed": false, "time": 0.0002753734588623047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby('category')[['count', 'published_time']].agg(pd.Series(", "compilation_passed": false, "time": 0.0002791881561279297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby('category').agg(pd.Series(", "compilation_passed": false, "time": 0.000392913818359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby('category')['published_time'].agg([pd.Series.count, pd.Series.mean, pd.Series.min, pd.Series.max])", "compilation_passed": true, "time": 0.016388893127441406, "tests_passed": true, "error": null}
+{"code": " df.groupby('category').agg({'published_time': ['count'], 'published_time': ['mean', 'min', 'max']})", "compilation_passed": true, "time": 0.01902294158935547, "tests_passed": false, "error": "KeyError"}
+{"code": " (", "compilation_passed": false, "time": 0.0003001689910888672, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby(\"category\").agg({", "compilation_passed": false, "time": 0.00030684471130371094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby('category')[['published_time']].agg(['count', 'mean', 'min', 'max'])", "compilation_passed": true, "time": 0.019493818283081055, "tests_passed": false, "error": "KeyError"}
+{"code": " df.pivot_table(index='category', columns=None, values='published_time', aggfunc='size').groupby('category')", "compilation_passed": true, "time": 0.013345003128051758, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.groupby('category').agg({", "compilation_passed": false, "time": 0.0002980232238769531, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (df", "compilation_passed": false, "time": 0.0002608299255371094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby(by='category').agg(count=('published_time', 'count'),", "compilation_passed": false, "time": 0.0003209114074707031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.pivot_table(index=\"category\",", "compilation_passed": false, "time": 0.0004570484161376953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby('category')[['published_time']].agg([('count', 'count'), 'mean', 'min', 'max'])", "compilation_passed": true, "time": 0.019309043884277344, "tests_passed": false, "error": "KeyError"}

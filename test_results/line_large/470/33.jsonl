@@ -1,0 +1,17 @@
+{"code": " bins = np.histogram(myList)", "compilation_passed": true, "time": 0.005789279937744141, "tests_passed": false, "error": "NameError"}
+{"code": " bins, _ = plt.hist(myList, align=\"mid\", edgecolor='k', bins=range(int(min(myList) * 2), int(max(myList) * 2 + 2), 2))", "compilation_passed": true, "time": 0.03735184669494629, "tests_passed": false, "error": "NameError"}
+{"code": " bins = np.histogram(myList)  # bins = [0.45, 1.45, 2.45, 3.45, 4.45, 5.45]", "compilation_passed": true, "time": 0.005559206008911133, "tests_passed": false, "error": "NameError"}
+{"code": " bin_edges = np.histogram(myList)", "compilation_passed": true, "time": 0.005485057830810547, "tests_passed": false, "error": "NameError"}
+{"code": " _, edges = np.histogram(myList)", "compilation_passed": true, "time": 0.005634784698486328, "tests_passed": false, "error": "ValueError"}
+{"code": " ax = plt.subplots(figsize=(9.5, 7), dpi=120)", "compilation_passed": true, "time": 0.21084976196289062, "tests_passed": true, "error": null}
+{"code": " bin_edges = np.histogram(myList, bins=len(myList))", "compilation_passed": true, "time": 0.005833864212036133, "tests_passed": false, "error": "NameError"}
+{"code": " ax = plt.subplots()", "compilation_passed": true, "time": 0.2149949073791504, "tests_passed": true, "error": null}
+{"code": " edges = np.histogram(myList)", "compilation_passed": true, "time": 0.0059051513671875, "tests_passed": false, "error": "NameError"}
+{"code": " bins = np.histogram(myList, bins='auto')", "compilation_passed": true, "time": 0.009104013442993164, "tests_passed": false, "error": "NameError"}
+{"code": " x_edges = np.histogram(myList)", "compilation_passed": true, "time": 0.005995988845825195, "tests_passed": false, "error": "NameError"}
+{"code": " bins = np.histogram(myList, bins=len(myList))", "compilation_passed": true, "time": 0.005646228790283203, "tests_passed": false, "error": "NameError"}
+{"code": " xmax = min(myList), max(myList)", "compilation_passed": true, "time": 0.0053539276123046875, "tests_passed": false, "error": "NameError"}
+{"code": " binedges = np.histogram(myList)", "compilation_passed": true, "time": 0.0054242610931396484, "tests_passed": false, "error": "NameError"}
+{"code": " edges = np.histogram(myList, bins=\"auto\")", "compilation_passed": true, "time": 0.005930185317993164, "tests_passed": false, "error": "NameError"}
+{"code": " edges = np.histogram(myList, bins='auto')", "compilation_passed": true, "time": 0.006674289703369141, "tests_passed": false, "error": "NameError"}
+{"code": " bins, _ = plt.hist(myList, bins=range(", "compilation_passed": false, "time": 0.00018095970153808594, "tests_passed": false, "error": "SyntaxError"}

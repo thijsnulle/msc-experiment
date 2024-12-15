@@ -1,0 +1,9 @@
+{"code": "bar(all_categories, category_counts.reindex(all_categories, fill_value=0), width=0.8, align=\"center\")", "compilation_passed": false, "time": 0.00036978721618652344, "tests_passed": false, "error": "IndentationError"}
+{"code": "bar(", "compilation_passed": true, "time": 0.27313780784606934, "tests_passed": true, "error": null}
+{"code": "bar(x=all_categories, height=category_counts.reindex(all_categories, fill_value=0), width=0.8, align=\"center\")", "compilation_passed": false, "time": 0.0003008842468261719, "tests_passed": false, "error": "IndentationError"}
+{"code": "bar(range(len(all_categories)), category_counts.reindex(all_categories, fill_value=0), width=0.8, align=\"center\")", "compilation_passed": false, "time": 0.0003120899200439453, "tests_passed": false, "error": "IndentationError"}
+{"code": "bar(range(len(all_categories)),", "compilation_passed": true, "time": 0.0736379623413086, "tests_passed": false, "error": "TypeError"}
+{"code": "bar(x=all_categories, height=category_counts.reindex(all_categories, fill_value=0),", "compilation_passed": false, "time": 0.00036406517028808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_title(\"Categories Distribution\")", "compilation_passed": false, "time": 0.00028204917907714844, "tests_passed": false, "error": "IndentationError"}
+{"code": "set_xlabel(\"Category\")", "compilation_passed": false, "time": 0.0003349781036376953, "tests_passed": false, "error": "IndentationError"}
+{"code": "bar(all_categories,", "compilation_passed": true, "time": 0.06981897354125977, "tests_passed": false, "error": "TypeError"}

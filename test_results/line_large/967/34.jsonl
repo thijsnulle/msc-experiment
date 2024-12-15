@@ -1,0 +1,4 @@
+{"code": " func(X)", "compilation_passed": true, "time": 0.47225022315979004, "tests_passed": true, "error": null}
+{"code": " np.vectorize(func)(X)", "compilation_passed": true, "time": 0.5344359874725342, "tests_passed": true, "error": null}
+{"code": " [func(x) for x in X]", "compilation_passed": true, "time": 0.5765938758850098, "tests_passed": true, "error": null}
+{"code": " np.array([func(x) for x in X])", "compilation_passed": true, "time": 0.5719289779663086, "tests_passed": true, "error": null}

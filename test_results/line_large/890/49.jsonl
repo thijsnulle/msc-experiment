@@ -1,0 +1,19 @@
+{"code": " df.sample(n=5, random_state=seed)", "compilation_passed": true, "time": 0.028837919235229492, "tests_passed": false, "error": "ValueError"}
+{"code": " random.sample(range(df.shape[0]), 20)", "compilation_passed": true, "time": 0.02561807632446289, "tests_passed": false, "error": "ValueError"}
+{"code": " df.sample(n=random.randint(1, len(df)), random_state=seed)", "compilation_passed": true, "time": 0.036588191986083984, "tests_passed": true, "error": null}
+{"code": " df.sample(random.randint(0, len(df)), random_state=seed)", "compilation_passed": true, "time": 0.03158998489379883, "tests_passed": true, "error": null}
+{"code": " random.sample(range(len(df)), 5)", "compilation_passed": true, "time": 0.023141145706176758, "tests_passed": false, "error": "ValueError"}
+{"code": " random.sample(range(len(df)), 4)", "compilation_passed": true, "time": 0.03273606300354004, "tests_passed": false, "error": "ValueError"}
+{"code": " df.sample(frac=1, random_state=seed).head(4)", "compilation_passed": true, "time": 0.04223275184631348, "tests_passed": true, "error": null}
+{"code": " df.sample(frac=0.05, random_state=seed)", "compilation_passed": true, "time": 0.021864891052246094, "tests_passed": true, "error": null}
+{"code": " df.sample(n=20, random_state=seed)", "compilation_passed": true, "time": 0.025439023971557617, "tests_passed": false, "error": "ValueError"}
+{"code": " random.sample(range(len(df)), random.randint(1, len(df) // 2))", "compilation_passed": true, "time": 0.018854141235351562, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.sample(random.randint(1, len(df)), random_state=seed)", "compilation_passed": true, "time": 0.039678096771240234, "tests_passed": true, "error": null}
+{"code": " df.sample(frac=0.25, random_state=seed)", "compilation_passed": true, "time": 0.020402908325195312, "tests_passed": true, "error": null}
+{"code": " df.sample(n=len(df) // 2, random_state=seed)", "compilation_passed": true, "time": 0.03612494468688965, "tests_passed": true, "error": null}
+{"code": " df.sample(n=len(df)//4, random_state=seed)", "compilation_passed": true, "time": 0.020214080810546875, "tests_passed": true, "error": null}
+{"code": " random.sample(range(len(df)), len(df) // 2)", "compilation_passed": true, "time": 0.01865696907043457, "tests_passed": false, "error": "AttributeError"}
+{"code": " random.sample(range(len(df)), 3)", "compilation_passed": true, "time": 0.024981021881103516, "tests_passed": false, "error": "ValueError"}
+{"code": " df.sample(n=3, random_state=seed)", "compilation_passed": true, "time": 0.028134822845458984, "tests_passed": false, "error": "ValueError"}
+{"code": " df.sample(n=4, random_state=seed)", "compilation_passed": true, "time": 0.031039953231811523, "tests_passed": false, "error": "ValueError"}
+{"code": " random.sample(range(len(df)), k=10)", "compilation_passed": true, "time": 0.022557973861694336, "tests_passed": false, "error": "ValueError"}

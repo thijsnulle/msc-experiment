@@ -1,0 +1,5 @@
+{"code": " ''.join(map(replace_with_random_char, text))", "compilation_passed": true, "time": 0.0015549659729003906, "tests_passed": true, "error": null}
+{"code": " ''.join(replace_with_random_char(c) for c in text)", "compilation_passed": true, "time": 0.0015561580657958984, "tests_passed": true, "error": null}
+{"code": " ''.join([replace_with_random_char(c) for c in text])", "compilation_passed": true, "time": 0.0016970634460449219, "tests_passed": true, "error": null}
+{"code": " \"\".join(replace_with_random_char(c) for c in text)", "compilation_passed": true, "time": 0.0016431808471679688, "tests_passed": true, "error": null}
+{"code": " \"\".join(map(replace_with_random_char, text))", "compilation_passed": true, "time": 0.0018181800842285156, "tests_passed": true, "error": null}

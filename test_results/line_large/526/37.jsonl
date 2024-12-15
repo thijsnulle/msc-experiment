@@ -1,0 +1,18 @@
+{"code": " set([key for d in data for key in d.keys()])  # all keys in the data", "compilation_passed": true, "time": 0.03595590591430664, "tests_passed": true, "error": null}
+{"code": " set([key for dic in data for key in dic.keys()])", "compilation_passed": true, "time": 0.03537392616271973, "tests_passed": true, "error": null}
+{"code": " set(k for d in data for k in d.keys())", "compilation_passed": true, "time": 0.03575873374938965, "tests_passed": true, "error": null}
+{"code": " set([key for d in data for key in d])", "compilation_passed": true, "time": 0.03663277626037598, "tests_passed": true, "error": null}
+{"code": " [k for d in data for k in d.keys()]  # get all keys from the nested dictionaries", "compilation_passed": true, "time": 0.04290509223937988, "tests_passed": true, "error": null}
+{"code": " set()", "compilation_passed": true, "time": 0.008840799331665039, "tests_passed": true, "error": null}
+{"code": " set(key for row in data for key in row.keys())", "compilation_passed": true, "time": 0.034487009048461914, "tests_passed": true, "error": null}
+{"code": " set().union(*[d.keys() for d in data])", "compilation_passed": true, "time": 0.03258395195007324, "tests_passed": true, "error": null}
+{"code": " set().union(*data)", "compilation_passed": true, "time": 0.03309822082519531, "tests_passed": true, "error": null}
+{"code": " set(chain.from_iterable(d.keys() for d in data))", "compilation_passed": true, "time": 0.00948023796081543, "tests_passed": false, "error": "NameError"}
+{"code": " set().union(*[x.keys() for x in data])", "compilation_passed": true, "time": 0.033879995346069336, "tests_passed": true, "error": null}
+{"code": " {key for d in data for key in d}", "compilation_passed": true, "time": 0.03241705894470215, "tests_passed": true, "error": null}
+{"code": " set().union(*(d.keys() for d in data))", "compilation_passed": true, "time": 0.03352713584899902, "tests_passed": true, "error": null}
+{"code": " set([key for dic in data for key in dic])", "compilation_passed": true, "time": 0.03407907485961914, "tests_passed": true, "error": null}
+{"code": " set(sum([list(d.keys()) for d in data], []))", "compilation_passed": true, "time": 0.0332636833190918, "tests_passed": true, "error": null}
+{"code": " {key for d in data for key in d.keys()}", "compilation_passed": true, "time": 0.03315925598144531, "tests_passed": true, "error": null}
+{"code": " set(key for d in data for key in d.keys())", "compilation_passed": true, "time": 0.03233695030212402, "tests_passed": true, "error": null}
+{"code": " {key for item in data for key in item}  # Unique keys across all records", "compilation_passed": true, "time": 0.03368997573852539, "tests_passed": true, "error": null}

@@ -1,0 +1,20 @@
+{"code": " pd.DataFrame(np.corrcoef(df_np), index=df.columns, columns=df.columns)", "compilation_passed": true, "time": 0.008821964263916016, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df_np, columns=cols)", "compilation_passed": true, "time": 0.0056056976318359375, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df_np.T)", "compilation_passed": true, "time": 0.00549006462097168, "tests_passed": true, "error": null}
+{"code": " df.loc[:, df.dtypes.kind == 'f']", "compilation_passed": true, "time": 0.008683919906616211, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(df_np.corr(), columns=cols)", "compilation_passed": true, "time": 0.008367061614990234, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(df_np.corr(), index=cols, columns=cols)", "compilation_passed": true, "time": 0.0074770450592041016, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(df_np)", "compilation_passed": true, "time": 0.004834651947021484, "tests_passed": true, "error": null}
+{"code": " df_np.corr()", "compilation_passed": true, "time": 0.008104085922241211, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.corrcoef(df_np, rowvar=False), index=cols, columns=cols)", "compilation_passed": true, "time": 0.005924224853515625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df_np.T @ df_np / df_np.shape[0] - np.average(df_np, axis=0).T @ np.average(df_np, axis=0),", "compilation_passed": false, "time": 0.00017309188842773438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.corrcoef(df_np), columns=cols, index=cols)", "compilation_passed": true, "time": 0.0052301883697509766, "tests_passed": true, "error": null}
+{"code": " df_np.T", "compilation_passed": true, "time": 0.007178068161010742, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(df_np.T, columns=cols)", "compilation_passed": true, "time": 0.004919767379760742, "tests_passed": true, "error": null}
+{"code": " df_np.astype(float)", "compilation_passed": true, "time": 0.007061958312988281, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(df_np.corr())", "compilation_passed": true, "time": 0.007662773132324219, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.corrcoef(df_np, df_np.T), index=cols, columns=cols)", "compilation_passed": true, "time": 0.008466243743896484, "tests_passed": false, "error": "ValueError"}
+{"code": " df_np.transpose()", "compilation_passed": true, "time": 0.007390022277832031, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(df_np.T.dot(df_np), index=cols, columns=cols)", "compilation_passed": true, "time": 0.004902839660644531, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df_np.T.dot(df_np) / len(df_np), columns=cols, index=cols)", "compilation_passed": true, "time": 0.005193233489990234, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df_np, index=cols, columns=cols)", "compilation_passed": true, "time": 0.008237123489379883, "tests_passed": false, "error": "ValueError"}

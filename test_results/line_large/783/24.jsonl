@@ -1,0 +1,5 @@
+{"code": " file_name.endswith('.' + extension):", "compilation_passed": true, "time": 0.007718801498413086, "tests_passed": true, "error": null}
+{"code": " file_name.endswith(extension):", "compilation_passed": true, "time": 0.01147007942199707, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(file_name)[1] == extension:", "compilation_passed": true, "time": 0.01118779182434082, "tests_passed": true, "error": null}
+{"code": " file_name.endswith(f'.{extension}'):", "compilation_passed": true, "time": 0.006790876388549805, "tests_passed": true, "error": null}
+{"code": " file_name.endswith('.{}'.format(extension)):", "compilation_passed": true, "time": 0.006819009780883789, "tests_passed": true, "error": null}

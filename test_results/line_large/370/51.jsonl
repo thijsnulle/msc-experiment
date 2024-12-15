@@ -1,0 +1,18 @@
+{"code": " re.sub(r'\"', r'\\\\\\\\\"', escaped_data)", "compilation_passed": true, "time": 0.01333308219909668, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(?<!\\\\\\\\)\"(.*?)(?<!\\\\\\\\)\"', r'\\\\\"\\1\\\\\"', escaped_data)", "compilation_passed": true, "time": 0.01390218734741211, "tests_passed": true, "error": null}
+{"code": " re.sub('\"', '\\\\\"', escaped_data)", "compilation_passed": true, "time": 0.013234853744506836, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(?<!\\\\)\"', r'\\\"', escaped_data)", "compilation_passed": true, "time": 0.8654160499572754, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(?<!\\\\\\\\)\"', r'\\\\\"', escaped_data)", "compilation_passed": true, "time": 0.015273094177246094, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(?<!\\\\)\"(?=[^\"\\\\])', r'\\\\\"', escaped_data)", "compilation_passed": true, "time": 0.01365208625793457, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\\"\", \"\\\\\\\\\\\"\", escaped_data)", "compilation_passed": true, "time": 0.011188983917236328, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\"', r'\\\\\"', escaped_data)", "compilation_passed": true, "time": 0.011208772659301758, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\"([^\"]*)\"', r'\"\\\\\"\\1\\\\\"\"', escaped_data)", "compilation_passed": true, "time": 0.00694727897644043, "tests_passed": true, "error": null}
+{"code": " re.sub(r'([^\"]|^)\"([^\"]|$)', r'\\1\\\\\"\\2', escaped_data)", "compilation_passed": true, "time": 0.011823177337646484, "tests_passed": true, "error": null}
+{"code": " escaped_data.replace('\\\"', '\\\\\"')", "compilation_passed": true, "time": 0.01702713966369629, "tests_passed": true, "error": null}
+{"code": " re.sub('\"', r'\\\"', escaped_data)", "compilation_passed": true, "time": 0.010960817337036133, "tests_passed": true, "error": null}
+{"code": " escaped_data.replace('\"', '\\\\\"')", "compilation_passed": true, "time": 0.011931896209716797, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"([^\\\\])\\\"\", r\"\\1\\\\\\\"\", escaped_data)", "compilation_passed": true, "time": 0.011076927185058594, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\\"\", r\"\\\\\\\\\\\"\", escaped_data)", "compilation_passed": true, "time": 0.01040506362915039, "tests_passed": true, "error": null}
+{"code": " re.sub('\\\\\\\\', '\\\\\\\\\\\\\\\\', escaped_data)", "compilation_passed": true, "time": 0.00718998908996582, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\\"', r'\\\\\\\"', escaped_data)", "compilation_passed": true, "time": 0.011640787124633789, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\"', r'\\\"', escaped_data)", "compilation_passed": true, "time": 0.012039899826049805, "tests_passed": true, "error": null}

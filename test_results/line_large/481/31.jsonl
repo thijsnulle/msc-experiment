@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.02020406723022461, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'Original String': data_list})", "compilation_passed": true, "time": 0.009119987487792969, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=[\"Original String\", \"Randomized String\"])", "compilation_passed": true, "time": 0.013157844543457031, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_list, columns=['Original String'])", "compilation_passed": true, "time": 0.010022163391113281, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=['Original String', 'Randomized String'])", "compilation_passed": true, "time": 0.0071980953216552734, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00015211105346679688, "tests_passed": false, "error": "SyntaxError"}

@@ -1,0 +1,27 @@
+{"code": " component != pathlib.Path.home().name", "compilation_passed": true, "time": 0.009068012237548828, "tests_passed": true, "error": null}
+{"code": " os.path.basename(component) not in os.listdir(os.path.dirname(component))", "compilation_passed": true, "time": 0.013238191604614258, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not (", "compilation_passed": false, "time": 0.00018596649169921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " component != path_obj.drive and component != \"\"", "compilation_passed": true, "time": 0.006303071975708008, "tests_passed": true, "error": null}
+{"code": " delimiter not in str(component)", "compilation_passed": true, "time": 0.0012607574462890625, "tests_passed": true, "error": null}
+{"code": " component.strip()", "compilation_passed": true, "time": 0.005805015563964844, "tests_passed": true, "error": null}
+{"code": " component != \".\" and component != \"..\"", "compilation_passed": true, "time": 0.005676746368408203, "tests_passed": true, "error": null}
+{"code": " component not in (\".\", \"..\", path_obj.anchor)", "compilation_passed": true, "time": 0.0013070106506347656, "tests_passed": true, "error": null}
+{"code": " not str(component).startswith(delimiter)", "compilation_passed": true, "time": 0.0017371177673339844, "tests_passed": true, "error": null}
+{"code": " component not in invalid_chars and component.strip() != \"\"", "compilation_passed": true, "time": 0.0056078433990478516, "tests_passed": true, "error": null}
+{"code": " component and not str(component).isspace()", "compilation_passed": true, "time": 0.00555419921875, "tests_passed": true, "error": null}
+{"code": " component != os.path.sep", "compilation_passed": true, "time": 0.0012989044189453125, "tests_passed": true, "error": null}
+{"code": " set(str(component)).isdisjoint(invalid_chars)", "compilation_passed": true, "time": 0.0059850215911865234, "tests_passed": true, "error": null}
+{"code": " component != \"\" and component != \"/\"", "compilation_passed": true, "time": 0.0021209716796875, "tests_passed": true, "error": null}
+{"code": " all(char not in invalid_chars for char in component)", "compilation_passed": true, "time": 0.0067369937896728516, "tests_passed": true, "error": null}
+{"code": " os.path.split(component)[1] != \"\"", "compilation_passed": true, "time": 0.0015320777893066406, "tests_passed": true, "error": null}
+{"code": " component", "compilation_passed": true, "time": 0.006869077682495117, "tests_passed": true, "error": null}
+{"code": " not any(invalid_char in component for invalid_char in invalid_chars)", "compilation_passed": true, "time": 0.0059299468994140625, "tests_passed": true, "error": null}
+{"code": " component != pathlib.Path.home().drive", "compilation_passed": true, "time": 0.006078958511352539, "tests_passed": true, "error": null}
+{"code": " component not in (path_obj.drive, delimiter)", "compilation_passed": true, "time": 0.001238107681274414, "tests_passed": true, "error": null}
+{"code": " not str(component).isspace() and str(component) != \"\"", "compilation_passed": true, "time": 0.0057027339935302734, "tests_passed": true, "error": null}
+{"code": " any(char.isalnum() for char in component)", "compilation_passed": true, "time": 0.0015299320220947266, "tests_passed": true, "error": null}
+{"code": " component not in (path_obj.anchor, delimiter)", "compilation_passed": true, "time": 0.0012798309326171875, "tests_passed": true, "error": null}
+{"code": " component not in (pathlib.Path.cwd().drive, pathlib.Path.cwd().root)", "compilation_passed": true, "time": 0.0026640892028808594, "tests_passed": true, "error": null}
+{"code": " any(char not in invalid_chars for char in component)", "compilation_passed": true, "time": 0.005670070648193359, "tests_passed": true, "error": null}
+{"code": " not str(component).startswith(\".\") and str(component) != \"\"", "compilation_passed": true, "time": 0.005730152130126953, "tests_passed": true, "error": null}
+{"code": " component not in (\"\", \"/\", \"\\\\\")", "compilation_passed": true, "time": 0.0012869834899902344, "tests_passed": true, "error": null}

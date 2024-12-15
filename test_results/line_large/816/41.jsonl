@@ -1,0 +1,7 @@
+{"code": " Counter([card[:-1] for card in hand])", "compilation_passed": true, "time": 0.0018761157989501953, "tests_passed": true, "error": null}
+{"code": " Counter(card[0] for card in hand)", "compilation_passed": true, "time": 0.0017290115356445312, "tests_passed": true, "error": null}
+{"code": " Counter([card[0] for card in hand])", "compilation_passed": true, "time": 0.0017848014831542969, "tests_passed": true, "error": null}
+{"code": " Counter([card[:-1] for card in hand])  # Exclude the suit from each card", "compilation_passed": true, "time": 0.0017368793487548828, "tests_passed": true, "error": null}
+{"code": " Counter([rank for rank, _ in hand])", "compilation_passed": true, "time": 0.0014421939849853516, "tests_passed": true, "error": null}
+{"code": " Counter(card[:-1] for card in hand)", "compilation_passed": true, "time": 0.0015621185302734375, "tests_passed": true, "error": null}
+{"code": " Counter()", "compilation_passed": true, "time": 0.0012979507446289062, "tests_passed": true, "error": null}

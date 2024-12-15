@@ -1,0 +1,19 @@
+{"code": " dr.fieldnames  # Extract column names", "compilation_passed": true, "time": 0.029911041259765625, "tests_passed": true, "error": null}
+{"code": " dr.fieldnames", "compilation_passed": true, "time": 0.0322260856628418, "tests_passed": true, "error": null}
+{"code": " ', '.join(dr.fieldnames)  # Get column names from the first row", "compilation_passed": true, "time": 0.013777971267700195, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " ', '.join(f'`{col}` TEXT' for col in dr.fieldnames)", "compilation_passed": true, "time": 0.012020111083984375, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " ', '.join(dr.fieldnames)", "compilation_passed": true, "time": 0.01219320297241211, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " ', '.join(f'{name} TEXT' for name in dr.fieldnames)", "compilation_passed": true, "time": 0.012671947479248047, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " ', '.join([f\"{i}\" for i in dr.fieldnames])", "compilation_passed": true, "time": 0.01204824447631836, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " \",\".join(dr.fieldnames)  # Get the column names from the CSV", "compilation_passed": true, "time": 0.014762163162231445, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " list(dr.fieldnames)", "compilation_passed": true, "time": 0.025495052337646484, "tests_passed": true, "error": null}
+{"code": " ', '.join(f'{k} TEXT' for k in dr.fieldnames)", "compilation_passed": true, "time": 0.013469219207763672, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " ','.join(dr.fieldnames)  # Assuming fieldnames is a list of column names in the CSV", "compilation_passed": true, "time": 0.01428365707397461, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " ','.join(dr.fieldnames)", "compilation_passed": true, "time": 0.019682884216308594, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " \",\".join(dr.fieldnames)", "compilation_passed": true, "time": 0.013625860214233398, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " ', '.join(f'{colname} TEXT' for colname in dr.fieldnames)", "compilation_passed": true, "time": 0.01245880126953125, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " dr.fieldnames  # Get the column names from the CSV file", "compilation_passed": true, "time": 0.0271761417388916, "tests_passed": true, "error": null}
+{"code": " ','.join(dr.fieldnames)  # Field names for the CSV data", "compilation_passed": true, "time": 0.012404918670654297, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": " dr.fieldnames  # Extract column names from DictReader", "compilation_passed": true, "time": 0.025187253952026367, "tests_passed": true, "error": null}
+{"code": " dr.fieldnames or []  # Get the field names", "compilation_passed": true, "time": 0.024343013763427734, "tests_passed": true, "error": null}
+{"code": " ','.join(f'`{col}` TEXT' for col in dr.fieldnames)", "compilation_passed": true, "time": 0.012018203735351562, "tests_passed": false, "error": "sqlite3.OperationalError"}

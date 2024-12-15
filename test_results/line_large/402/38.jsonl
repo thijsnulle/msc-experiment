@@ -1,0 +1,10 @@
+{"code": " []", "compilation_passed": true, "time": 0.00728297233581543, "tests_passed": true, "error": null}
+{"code": " [re.findall(pattern, item[\"data\"]) for item in data]", "compilation_passed": true, "time": 0.014063119888305664, "tests_passed": false, "error": "TypeError"}
+{"code": " [re.search(pattern, item) for item in data[\"data\"]]", "compilation_passed": true, "time": 0.009984016418457031, "tests_passed": false, "error": "_csv.Error"}
+{"code": " [re.findall(pattern, item['data']) for item in data]", "compilation_passed": true, "time": 0.012192964553833008, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(pattern, data['data'])", "compilation_passed": true, "time": 0.009994268417358398, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(pattern, str(data['data']))", "compilation_passed": true, "time": 0.007365226745605469, "tests_passed": true, "error": null}
+{"code": " [re.findall(pattern, item) for item in data[\"data\"]]", "compilation_passed": true, "time": 0.005269050598144531, "tests_passed": true, "error": null}
+{"code": " [re.findall(pattern, string) for string in data['data']]", "compilation_passed": true, "time": 0.005683422088623047, "tests_passed": true, "error": null}
+{"code": " [match.group(0) for item in data[\"data\"] for match in re.finditer(pattern, item)]", "compilation_passed": true, "time": 0.0062940120697021484, "tests_passed": true, "error": null}
+{"code": " [re.findall(pattern, item) for item in data['data'] if re.search(pattern, item)]", "compilation_passed": true, "time": 0.00541996955871582, "tests_passed": true, "error": null}

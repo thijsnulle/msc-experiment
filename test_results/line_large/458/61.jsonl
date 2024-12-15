@@ -1,0 +1,9 @@
+{"code": " pd.to_numeric(df[col], errors='ignore')", "compilation_passed": true, "time": 0.009927988052368164, "tests_passed": true, "error": null}
+{"code": " df[col]", "compilation_passed": true, "time": 0.008713960647583008, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.008535146713256836, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[col].map(float, errors=\"ignore\")", "compilation_passed": true, "time": 0.015486001968383789, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.to_numeric(df[col], errors=\"coerce\")", "compilation_passed": true, "time": 0.009460926055908203, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[col], errors=\"ignore\")", "compilation_passed": true, "time": 0.009218692779541016, "tests_passed": true, "error": null}
+{"code": " df[col].apply(", "compilation_passed": false, "time": 0.00036025047302246094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[col].apply(lambda x: float(x) if isinstance(x, (int, float)) else x)", "compilation_passed": true, "time": 0.011999845504760742, "tests_passed": true, "error": null}
+{"code": " df[col].apply(lambda x: float(x) if isinstance(x, str) and NUMBERS.match(x) else x)", "compilation_passed": true, "time": 0.013056039810180664, "tests_passed": true, "error": null}

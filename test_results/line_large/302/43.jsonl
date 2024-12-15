@@ -1,0 +1,12 @@
+{"code": " df.corr(method='pearson').fillna(0.0)", "compilation_passed": true, "time": 1.6128511428833008, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.corr(method='pearson')", "compilation_passed": true, "time": 0.2502787113189697, "tests_passed": true, "error": null}
+{"code": " df.corr()", "compilation_passed": true, "time": 0.24304699897766113, "tests_passed": true, "error": null}
+{"code": " df.corr('pearson')", "compilation_passed": true, "time": 0.24561691284179688, "tests_passed": true, "error": null}
+{"code": " df.corr(method='pearson').round(2).abs()", "compilation_passed": true, "time": 0.21944308280944824, "tests_passed": true, "error": null}
+{"code": " df.corr().drop(['Date'], axis=1)", "compilation_passed": true, "time": 0.2137770652770996, "tests_passed": true, "error": null}
+{"code": " df.corr().round(2)", "compilation_passed": true, "time": 0.23456192016601562, "tests_passed": true, "error": null}
+{"code": " df.corr().drop('Date', axis=1).drop('Date', axis=0)", "compilation_passed": true, "time": 0.2475430965423584, "tests_passed": true, "error": null}
+{"code": " df.corr(method='pearson').iloc[1:, 1:]", "compilation_passed": true, "time": 0.22572612762451172, "tests_passed": true, "error": null}
+{"code": " df.corr(method='pearson').round(decimals=2)", "compilation_passed": true, "time": 0.23253178596496582, "tests_passed": true, "error": null}
+{"code": " df.corr().stack().reset_index(name=\"correlation\").rename(columns={'level_1': 'column'})", "compilation_passed": true, "time": 0.05569314956665039, "tests_passed": false, "error": "ValueError"}
+{"code": " df.corr().to_numpy()", "compilation_passed": true, "time": 0.012160778045654297, "tests_passed": false, "error": "AttributeError"}

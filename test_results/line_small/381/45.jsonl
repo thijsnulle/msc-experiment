@@ -1,0 +1,18 @@
+{"code": " pd.read_csv(file_path, usecols=[target_column] + list(pd.read_csv(file_path).columns), skipinitialspace=True)", "compilation_passed": true, "time": 0.3367629051208496, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(file_path)", "compilation_passed": true, "time": 0.34217000007629395, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(file_path, delimiter=',')", "compilation_passed": true, "time": 0.33281397819519043, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(file_path, header=None)", "compilation_passed": true, "time": 0.012866973876953125, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(file_path, usecols=[target_column] + list(range(1, len(pd.read_csv(file_path).columns))))", "compilation_passed": true, "time": 0.021230220794677734, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(file_path, header=0)", "compilation_passed": true, "time": 0.3354620933532715, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(file_path, index_col=0, skip_blank_lines=False)", "compilation_passed": true, "time": 0.013627767562866211, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(file_path, sep=\",\", skiprows=1, engine=\"python\", dtype=str, skip_blank_lines=True, na_values=\"NaN\")", "compilation_passed": true, "time": 0.013306856155395508, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(file_path, index_col='Index')", "compilation_passed": true, "time": 0.012501001358032227, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(file_path, sep=\",\")", "compilation_passed": true, "time": 0.337554931640625, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(file_path, sep=',', index_col='Index')", "compilation_passed": true, "time": 0.012480974197387695, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(file_path, index_col=0)", "compilation_passed": true, "time": 0.013074159622192383, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(file_path, na_values=[\"NaN\", \"Infinity\"], skip_blank_lines=True)", "compilation_passed": true, "time": 0.33605098724365234, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(file_path,", "compilation_passed": false, "time": 0.0002918243408203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_csv(file_path, skiprows=1)", "compilation_passed": true, "time": 0.012816190719604492, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(file_path, delimiter=\",\", encoding='utf-8')", "compilation_passed": true, "time": 0.34110093116760254, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(file_path, skiprows=1, usecols=[0, 1, 2, 3], na_values=['#N/A'])", "compilation_passed": true, "time": 0.012761116027832031, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(file_path).dropna()", "compilation_passed": true, "time": 0.341386079788208, "tests_passed": true, "error": null}

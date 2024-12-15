@@ -1,0 +1,7 @@
+{"code": " pd.DataFrame({'a': a, 'b': b})", "compilation_passed": true, "time": 0.030885934829711914, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(zip(a, b), columns=['x', 'y'])", "compilation_passed": true, "time": 0.027146100997924805, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"a\": a, \"b\": b})", "compilation_passed": true, "time": 0.031061172485351562, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data={\"x\": a, \"y\": b})", "compilation_passed": true, "time": 0.023819923400878906, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"A\": a, \"B\": b})", "compilation_passed": true, "time": 0.017267942428588867, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(zip(a, b), columns=['a', 'b'])", "compilation_passed": true, "time": 0.0250701904296875, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'x': a, 'y': b})", "compilation_passed": true, "time": 0.024272918701171875, "tests_passed": false, "error": "KeyError"}

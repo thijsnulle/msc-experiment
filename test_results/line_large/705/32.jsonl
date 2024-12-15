@@ -1,0 +1,14 @@
+{"code": " stats.shapiro(df[column]).pvalue >= alpha:", "compilation_passed": true, "time": 0.009274005889892578, "tests_passed": false, "error": "ValueError"}
+{"code": " stats.shapiro(df[column])[1] > alpha:", "compilation_passed": true, "time": 0.008496761322021484, "tests_passed": false, "error": "ValueError"}
+{"code": " stats.shapiro(df[column]).pvalue > alpha:", "compilation_passed": true, "time": 0.011052846908569336, "tests_passed": false, "error": "ValueError"}
+{"code": " np.any(df[column].isna()):", "compilation_passed": true, "time": 0.006033182144165039, "tests_passed": true, "error": null}
+{"code": " stats.shapiro(df[column])[1] < alpha:", "compilation_passed": true, "time": 0.01013493537902832, "tests_passed": false, "error": "ValueError"}
+{"code": " (df[column] != df[column]).any():", "compilation_passed": true, "time": 0.007637977600097656, "tests_passed": true, "error": null}
+{"code": " not pd.api.types.is_numeric_dtype(df[column]):", "compilation_passed": true, "time": 0.006529808044433594, "tests_passed": true, "error": null}
+{"code": " stats.shapiro(df[column]).pvalue < alpha:", "compilation_passed": true, "time": 0.010010004043579102, "tests_passed": false, "error": "ValueError"}
+{"code": " alpha is None:", "compilation_passed": true, "time": 0.005373954772949219, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or not isinstance(column, str) or not isinstance(alpha, (int, float)):", "compilation_passed": true, "time": 0.005450010299682617, "tests_passed": true, "error": null}
+{"code": " np.abs(stats.shapiro(df[column])[1] < alpha):", "compilation_passed": true, "time": 0.01135706901550293, "tests_passed": false, "error": "ValueError"}
+{"code": " not df[column].isnull().values.any():", "compilation_passed": true, "time": 0.013660907745361328, "tests_passed": false, "error": "ValueError"}
+{"code": " alpha <= 0 or alpha >= 1:", "compilation_passed": true, "time": 0.00601506233215332, "tests_passed": true, "error": null}
+{"code": " not df[column].dtype.kind == \"f\":", "compilation_passed": true, "time": 0.005554914474487305, "tests_passed": true, "error": null}

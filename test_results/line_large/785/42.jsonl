@@ -1,0 +1,13 @@
+{"code": "run(['tar', '-czf', archive_file] + file_list)", "compilation_passed": true, "time": 0.11811494827270508, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czvf', archive_file] + file_list)", "compilation_passed": true, "time": 0.11913013458251953, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', archive_file, *file_list])", "compilation_passed": true, "time": 0.10554313659667969, "tests_passed": true, "error": null}
+{"code": "run([\"tar\", \"-czvf\", archive_file] + file_list)", "compilation_passed": true, "time": 0.11224508285522461, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czvf', archive_file] + file_list, check=True)", "compilation_passed": true, "time": 0.1159970760345459, "tests_passed": true, "error": null}
+{"code": "run([\"tar\", \"-czf\", archive_file] + file_list)", "compilation_passed": true, "time": 0.11328887939453125, "tests_passed": true, "error": null}
+{"code": "call([\"tar\", \"-czf\", archive_file, pattern])", "compilation_passed": true, "time": 0.11333084106445312, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', archive_file, pattern])", "compilation_passed": true, "time": 0.10616326332092285, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', archive_file] + file_list, capture_output=True)", "compilation_passed": true, "time": 0.10387301445007324, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', archive_file, *file_list], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.10001182556152344, "tests_passed": true, "error": null}
+{"code": "call(['tar', '-czf', archive_file] + file_list)", "compilation_passed": true, "time": 0.10156488418579102, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', archive_file] + file_list, check=True)", "compilation_passed": true, "time": 0.11110711097717285, "tests_passed": true, "error": null}
+{"code": "call(['tar', '-czvf', archive_file] + file_list)", "compilation_passed": true, "time": 0.11328697204589844, "tests_passed": true, "error": null}

@@ -1,0 +1,4 @@
+{"code": " df_numeric.fillna(df_numeric.mean())", "compilation_passed": true, "time": 0.03764986991882324, "tests_passed": true, "error": null}
+{"code": " df_numeric.apply(lambda x: x.fillna(x.mean()) if x.dtype == 'float' else x)", "compilation_passed": true, "time": 0.05299782752990723, "tests_passed": true, "error": null}
+{"code": " df_numeric.apply(lambda x: x.fillna(x.mean()) if x.dtype in ['float64', 'float32', 'float16'] else x)", "compilation_passed": true, "time": 0.03485107421875, "tests_passed": true, "error": null}
+{"code": " df_numeric.apply(lambda x: x.fillna(x.mean()))", "compilation_passed": true, "time": 0.07357215881347656, "tests_passed": true, "error": null}

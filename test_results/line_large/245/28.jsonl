@@ -1,0 +1,20 @@
+{"code": " pd.Series([random.uniform(min_value, max_value) for _ in range(n_data_points)])", "compilation_passed": true, "time": 0.018597841262817383, "tests_passed": true, "error": null}
+{"code": " [random.uniform(min_value, max_value) for _ in range(n_data_points)]", "compilation_passed": true, "time": 0.018306970596313477, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.uniform(low=min_value, high=max_value, size=n_data_points))", "compilation_passed": true, "time": 0.015326976776123047, "tests_passed": false, "error": "NameError"}
+{"code": " random.sample(range(int(min_value * 1000), int(max_value * 1000)), n_data_points)", "compilation_passed": true, "time": 0.012655258178710938, "tests_passed": true, "error": null}
+{"code": " pd.Series([round(random.uniform(min_value, max_value), 3) for i in range(n_data_points)])", "compilation_passed": true, "time": 0.026738882064819336, "tests_passed": true, "error": null}
+{"code": " pd.Series(", "compilation_passed": false, "time": 0.0003509521484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [round(random.uniform(min_value, max_value), 3) for i in range(n_data_points)]", "compilation_passed": true, "time": 0.026256799697875977, "tests_passed": true, "error": null}
+{"code": " pd.Series(random.uniform(min_value, max_value, n_data_points))", "compilation_passed": true, "time": 0.015157938003540039, "tests_passed": false, "error": "TypeError"}
+{"code": " random.uniform(min_value, max_value, n_data_points)", "compilation_passed": true, "time": 0.01526498794555664, "tests_passed": false, "error": "TypeError"}
+{"code": " [(min_value + random.random() * (max_value - min_value)) for i in range(n_data_points)]", "compilation_passed": true, "time": 0.015776872634887695, "tests_passed": true, "error": null}
+{"code": " random.choices(range(int(min_value*1000), int(max_value*1000)), k=n_data_points)", "compilation_passed": true, "time": 0.012103080749511719, "tests_passed": true, "error": null}
+{"code": " [random.uniform(min_value, max_value) for i in range(n_data_points)]", "compilation_passed": true, "time": 0.018921852111816406, "tests_passed": true, "error": null}
+{"code": " pd.Series(random.uniform(min_value, max_value, n_data_points)).round(3)", "compilation_passed": true, "time": 0.015225887298583984, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series([random.uniform(min_value, max_value) for i in range(n_data_points)])", "compilation_passed": true, "time": 0.018897056579589844, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(random.uniform(min_value, max_value) for _ in range(n_data_points))", "compilation_passed": true, "time": 0.012959003448486328, "tests_passed": true, "error": null}
+{"code": " [round(random.uniform(min_value, max_value), 3) for _ in range(n_data_points)]", "compilation_passed": true, "time": 0.02719593048095703, "tests_passed": true, "error": null}
+{"code": " pd.Series(random.uniform(min_value, max_value) for i in range(n_data_points))", "compilation_passed": true, "time": 0.019611835479736328, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.016739845275878906, "tests_passed": false, "error": "IndexError"}
+{"code": " random.uniform(min_value, max_value) for _ in range(n_data_points)", "compilation_passed": false, "time": 0.0003151893615722656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [", "compilation_passed": false, "time": 0.00031375885009765625, "tests_passed": false, "error": "SyntaxError"}

@@ -1,0 +1,6 @@
+{"code": " age, code, salary, bio, job]],", "compilation_passed": true, "time": 0.0289762020111084, "tests_passed": true, "error": null}
+{"code": " age, code, salary, bio.replace(\" \", \"-\"), job]],", "compilation_passed": true, "time": 0.02865886688232422, "tests_passed": true, "error": null}
+{"code": " age, code, salary, bio.replace(\" \", \"_\"), job]],", "compilation_passed": true, "time": 0.028497934341430664, "tests_passed": true, "error": null}
+{"code": " age, code, salary, bio.title().strip(), job]],", "compilation_passed": true, "time": 0.029050111770629883, "tests_passed": true, "error": null}
+{"code": " age, code, salary, bio, job]], columns=[\"Name\", \"Age\", \"Code\", \"Salary\", \"Bio\", \"Job Title\"]", "compilation_passed": false, "time": 0.00028204917907714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " age, code, salary, bio.strip(), job]],", "compilation_passed": true, "time": 0.02763199806213379, "tests_passed": true, "error": null}

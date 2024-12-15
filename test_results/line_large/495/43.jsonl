@@ -1,0 +1,15 @@
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00017786026000976562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"Groceries\": np.random.randint(0, 101, days)})", "compilation_passed": true, "time": 0.011962890625, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(np.random.randint(low=0, high=101, size=(days, 5)), index=date_rng)", "compilation_passed": true, "time": 0.009953022003173828, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=0, index=date_rng, columns=[\"Groceries\", \"Entertainment\", \"Rent\", \"Utilities\", \"Miscellaneous\"])", "compilation_passed": true, "time": 0.011553764343261719, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"Groceries\": np.random.randint(low=0, high=101, size=days),", "compilation_passed": false, "time": 0.00019288063049316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(index=date_rng, columns=[\"Groceries\", \"Entertainment\", \"Rent\", \"Utilities\", \"Miscellaneous\"])", "compilation_passed": true, "time": 0.011425018310546875, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"date\": date_rng})", "compilation_passed": true, "time": 0.06344485282897949, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(index=date_rng)", "compilation_passed": true, "time": 0.01089787483215332, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(columns=[\"Groceries\", \"Entertainment\", \"Rent\", \"Utilities\", \"Miscellaneous\"])", "compilation_passed": true, "time": 0.010432958602905273, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=np.random.randint(0, 101, size=(days, 5)), index=date_rng)", "compilation_passed": true, "time": 0.011609077453613281, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(columns=[\"Groceries\", \"Entertainment\", \"Rent\", \"Utilities\", \"Miscellaneous\"], index=date_rng)", "compilation_passed": true, "time": 0.01060795783996582, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=np.random.randint(0, 100, size=(days, 5)), index=date_rng)", "compilation_passed": true, "time": 0.010182857513427734, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=None, index=date_rng, columns=[\"Groceries\", \"Entertainment\", \"Rent\", \"Utilities\", \"Miscellaneous\"])", "compilation_passed": true, "time": 0.01017618179321289, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=np.random.randint(low=0, high=101, size=(days, 5)),", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.random.randint(101, size=(days, 5)), index=date_rng)", "compilation_passed": true, "time": 0.00922703742980957, "tests_passed": false, "error": "KeyError"}

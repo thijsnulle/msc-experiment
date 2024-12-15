@@ -1,0 +1,18 @@
+{"code": "copy(FILE_PATH, BACKUP_PATH)", "compilation_passed": true, "time": 0.013514041900634766, "tests_passed": true, "error": null}
+{"code": "copyfile(FILE_PATH, os.path.join(BACKUP_PATH, f\"{datetime.now().strftime('%Y%m%d-%H%M%S.%f')}-{os.path.basename(FILE_PATH)}\"))", "compilation_passed": true, "time": 0.006807804107666016, "tests_passed": true, "error": null}
+{"code": "copy(FILE_PATH, os.path.join(BACKUP_PATH, 'weather_data_backup.csv'))", "compilation_passed": true, "time": 0.007469654083251953, "tests_passed": true, "error": null}
+{"code": "copyfile(FILE_PATH, os.path.join(BACKUP_PATH, 'weather_data_backup.csv'))", "compilation_passed": true, "time": 0.007948875427246094, "tests_passed": true, "error": null}
+{"code": "copy(FILE_PATH, os.path.join(BACKUP_PATH, datetime.now().strftime('weather_data_%Y_%m_%d_%H_%M_%S.csv')))", "compilation_passed": true, "time": 0.009788990020751953, "tests_passed": true, "error": null}
+{"code": "copyfile(FILE_PATH, os.path.join(BACKUP_PATH, f'weather_data_{datetime.now().strftime(\"%Y%m%d_%H%M%S\")}.csv'))", "compilation_passed": true, "time": 0.008076906204223633, "tests_passed": true, "error": null}
+{"code": "copy(FILE_PATH, os.path.join(BACKUP_PATH, f'weather_data_{datetime.now().strftime(\"%Y%m%d_%H%M%S_%f\")}.csv'))", "compilation_passed": true, "time": 0.007103919982910156, "tests_passed": true, "error": null}
+{"code": "copy(FILE_PATH, os.path.join(BACKUP_PATH, 'weather_data_{}.csv'.format(datetime.now().strftime('%Y_%m_%d_%H_%M_%S_%f'))))", "compilation_passed": true, "time": 0.013311147689819336, "tests_passed": true, "error": null}
+{"code": "copy(FILE_PATH, os.path.join(BACKUP_PATH, f'weather_data_{datetime.now().strftime(\"%Y_%m_%d__%H_%M_%S_%f\")}.csv'))", "compilation_passed": true, "time": 0.008116006851196289, "tests_passed": true, "error": null}
+{"code": "copyfile(FILE_PATH, os.path.join(BACKUP_PATH, 'weather_data_' + datetime.now().strftime('%Y_%m_%d_%H_%M_%S.%f') + '.csv'))", "compilation_passed": true, "time": 0.007177829742431641, "tests_passed": true, "error": null}
+{"code": "copyfile(FILE_PATH, os.path.join(BACKUP_PATH, 'backup.csv'))", "compilation_passed": true, "time": 0.006925106048583984, "tests_passed": true, "error": null}
+{"code": "copyfile(FILE_PATH, BACKUP_PATH + datetime.now().strftime('%Y%m%d_%H%M%S.%f') + '.csv')", "compilation_passed": true, "time": 0.0071010589599609375, "tests_passed": true, "error": null}
+{"code": "copyfile(FILE_PATH, os.path.join(BACKUP_PATH, f'weather_data_{datetime.now().strftime(\"%Y-%m-%d-%H-%M-%S-%f\")}.csv'))", "compilation_passed": true, "time": 0.008928060531616211, "tests_passed": true, "error": null}
+{"code": "copy2(FILE_PATH, BACKUP_PATH)", "compilation_passed": true, "time": 0.007485151290893555, "tests_passed": true, "error": null}
+{"code": "copyfile(FILE_PATH, os.path.join(BACKUP_PATH, f'weather_data_{datetime.now().strftime(\"%Y_%m_%d_%H_%M_%S_%f\")}.csv'))", "compilation_passed": true, "time": 0.009918928146362305, "tests_passed": true, "error": null}
+{"code": "copy(FILE_PATH, os.path.join(BACKUP_PATH, datetime.now().strftime('%H:%M:%S.%f')))", "compilation_passed": true, "time": 0.007239818572998047, "tests_passed": true, "error": null}
+{"code": "copy(FILE_PATH, BACKUP_PATH + 'weather_data_backup_' + datetime.now().strftime('%Y%m%d%H%M%S.csv'))", "compilation_passed": true, "time": 0.006693124771118164, "tests_passed": true, "error": null}
+{"code": "copy(FILE_PATH, os.path.join(BACKUP_PATH, f'{datetime.now().strftime(\"%d%m%Y_%H%M%S\")}_weather_data.csv'))", "compilation_passed": true, "time": 0.009005069732666016, "tests_passed": true, "error": null}

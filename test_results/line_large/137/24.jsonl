@@ -1,0 +1,4 @@
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.013061285018920898, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(df, pd.DataFrame) or df.empty or df.shape[1] < 1:", "compilation_passed": true, "time": 0.0047070980072021484, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or len(df.columns) == 0:", "compilation_passed": true, "time": 0.0036962032318115234, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or df.empty:", "compilation_passed": true, "time": 0.004187107086181641, "tests_passed": true, "error": null}

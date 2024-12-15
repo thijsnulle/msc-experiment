@@ -1,0 +1,10 @@
+{"code": " fig.add_subplot(111)", "compilation_passed": true, "time": 0.40526366233825684, "tests_passed": true, "error": null}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.4068000316619873, "tests_passed": true, "error": null}
+{"code": " fig.add_subplot(1, 1, 1)", "compilation_passed": true, "time": 0.4037899971008301, "tests_passed": true, "error": null}
+{"code": " plt.boxplot(df[['Date', 'Value']], showfliers=False,", "compilation_passed": false, "time": 0.000270843505859375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.boxplot(df.iloc[:,1:].values.T, showfliers=False)", "compilation_passed": true, "time": 0.3559098243713379, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.boxplot(df.iloc[:,1:].values)", "compilation_passed": true, "time": 0.14617276191711426, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.boxplot(df.iloc[:,1:].values.T, showfliers=False, vert=True)", "compilation_passed": true, "time": 0.3877723217010498, "tests_passed": false, "error": "AttributeError"}
+{"code": " fig.add_subplot()", "compilation_passed": true, "time": 0.45568108558654785, "tests_passed": true, "error": null}
+{"code": " plt.boxplot(df.iloc[:,1:].values, vert=True)", "compilation_passed": true, "time": 0.1644430160522461, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.5771610736846924, "tests_passed": true, "error": null}

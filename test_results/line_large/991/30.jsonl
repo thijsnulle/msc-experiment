@@ -1,0 +1,15 @@
+{"code": " binascii.unhexlify(hex_string)", "compilation_passed": true, "time": 0.007954835891723633, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_string).decode(\"ascii\", errors=\"ignore\")", "compilation_passed": true, "time": 0.0015931129455566406, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_string).decode(errors=\"ignore\")", "compilation_passed": true, "time": 0.0016438961029052734, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_string).decode(\"ascii\")", "compilation_passed": true, "time": 0.0076940059661865234, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " binascii.unhexlify(hex_string).decode(\"ascii\", \"ignore\")", "compilation_passed": true, "time": 0.0013279914855957031, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_string).decode(errors=\"replace\")", "compilation_passed": true, "time": 0.005484104156494141, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_string).decode('ascii')", "compilation_passed": true, "time": 0.007447004318237305, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " binascii.unhexlify(hex_string).decode(\"ASCII\", \"ignore\")", "compilation_passed": true, "time": 0.0012919902801513672, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_string).decode()", "compilation_passed": true, "time": 0.007784128189086914, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " binascii.unhexlify(hex_string).decode('utf-8')", "compilation_passed": true, "time": 0.007688283920288086, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " binascii.unhexlify(hex_string).decode('utf-8', 'replace')", "compilation_passed": true, "time": 0.004354000091552734, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_string).decode('ascii', 'ignore')", "compilation_passed": true, "time": 0.0017189979553222656, "tests_passed": true, "error": null}
+{"code": " binascii.a2b_hex(hex_string)", "compilation_passed": true, "time": 0.005295753479003906, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_string).decode('ascii', errors='ignore')", "compilation_passed": true, "time": 0.0013036727905273438, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_string).decode(\"utf-8\", \"surrogateescape\")", "compilation_passed": true, "time": 0.004578113555908203, "tests_passed": true, "error": null}

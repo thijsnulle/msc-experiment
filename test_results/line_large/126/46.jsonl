@@ -1,0 +1,14 @@
+{"code": " statistics.mode(counts) if len(set(counts)) > 1 else None", "compilation_passed": true, "time": 0.00687098503112793, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts) if len(counts) > 2 else np.nan", "compilation_passed": true, "time": 0.006866931915283203, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts) if len(counts) > 1 else np.nan", "compilation_passed": true, "time": 0.006674051284790039, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts) if counts.count(counts[0]) < len(counts) else np.nan", "compilation_passed": true, "time": 0.006807804107666016, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts) if len(set(counts)) > 1 else '-'", "compilation_passed": true, "time": 0.007426023483276367, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts) if len(set(counts)) > 1 else '-'  # Handle case with no repeating counts", "compilation_passed": true, "time": 0.023342132568359375, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts) if len(set(counts)) > 1 else None  # Mode is not applicable if there are no repeating values", "compilation_passed": true, "time": 0.045308828353881836, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts)", "compilation_passed": true, "time": 0.010689020156860352, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts) if len(set(counts)) > 1 else \"N/A\"", "compilation_passed": true, "time": 0.007727861404418945, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts) if len(set(counts)) > 1 else 'No mode'", "compilation_passed": true, "time": 0.008593082427978516, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts) if all(counts.count(value) == 1 for value in counts) else 'N/A'", "compilation_passed": true, "time": 0.014366865158081055, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts) if all(counts.count(i) == 1 for i in counts) else None", "compilation_passed": true, "time": 0.015341758728027344, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts) if len(set(counts)) > 1 else np.nan  # Calculate mode if there are multiple modes", "compilation_passed": true, "time": 0.011287212371826172, "tests_passed": true, "error": null}
+{"code": " statistics.mode(counts) if len(set(counts)) > 1 else 'N/A'", "compilation_passed": true, "time": 0.008502006530761719, "tests_passed": true, "error": null}

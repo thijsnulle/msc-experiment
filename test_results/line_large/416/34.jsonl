@@ -1,0 +1,15 @@
+{"code": " sns.heatmap(df.corr(), cmap=\"YlGnBu\", annot=True)", "compilation_passed": true, "time": 0.6601648330688477, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df.corr(), vmax=1.0, vmin=-1.0)", "compilation_passed": true, "time": 0.7408409118652344, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df.corr(), cmap=\"viridis\", annot=True)", "compilation_passed": true, "time": 0.7195489406585693, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df.corr(), annot=True, cmap=\"coolwarm\")", "compilation_passed": true, "time": 0.6443099975585938, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df.corr(), annot=True)", "compilation_passed": true, "time": 0.7552731037139893, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df.corr(), vmin=-1, vmax=1, annot=True)", "compilation_passed": true, "time": 13.231454133987427, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df.corr(), cmap=\"coolwarm\")", "compilation_passed": true, "time": 2.494184970855713, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df.corr(), vmax=1, center=0,", "compilation_passed": false, "time": 0.0002589225769042969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(df.corr())", "compilation_passed": true, "time": 0.4399721622467041, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df.corr(), annot=True, cmap=\"Blues\")", "compilation_passed": true, "time": 0.5503220558166504, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df.corr(), cmap=\"RdYlGn\")", "compilation_passed": true, "time": 0.49404478073120117, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df.corr(), cmap=\"YlGnBu\", annot=True, fmt=\".2f\")", "compilation_passed": true, "time": 0.5015511512756348, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df.corr(), vmin=-1, vmax=1)", "compilation_passed": true, "time": 0.6337709426879883, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df.corr(), annot=True).get_figure()", "compilation_passed": true, "time": 0.10045313835144043, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.heatmap(df.corr(), vmin=-1, vmax=1, square=True, annot=True)", "compilation_passed": true, "time": 0.4917008876800537, "tests_passed": true, "error": null}

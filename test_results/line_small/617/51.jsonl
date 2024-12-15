@@ -1,0 +1,24 @@
+{"code": " len(results_df) == 1:", "compilation_passed": true, "time": 0.005279064178466797, "tests_passed": true, "error": null}
+{"code": " goals > penalties:", "compilation_passed": true, "time": 0.10873293876647949, "tests_passed": false, "error": "TypeError"}
+{"code": " re.search(r'\\d+ goals', str(results_df['Match Result'])):", "compilation_passed": true, "time": 0.5135009288787842, "tests_passed": true, "error": null}
+{"code": " \"Goals\" in results_df:", "compilation_passed": true, "time": 0.004667997360229492, "tests_passed": true, "error": null}
+{"code": " re.search('[^a-zA-Z0-9 ]', results_df['Team'].iloc[0]):", "compilation_passed": true, "time": 0.0060040950775146484, "tests_passed": true, "error": null}
+{"code": " len(results_df) != len(teams):", "compilation_passed": true, "time": 0.009104013442993164, "tests_passed": true, "error": null}
+{"code": " re.search(r'\\(0 goals, \\$0\\)', results_df.iloc[0]['Match Result']):", "compilation_passed": true, "time": 0.005298137664794922, "tests_passed": true, "error": null}
+{"code": " results_df['Match Result'].str.contains('(0 goals').any():", "compilation_passed": true, "time": 0.013545036315917969, "tests_passed": false, "error": "re.error"}
+{"code": " re.search(r'penalty|cost', results_df['Match Result'].str.lower().sum().replace('-', '')):", "compilation_passed": true, "time": 0.006855010986328125, "tests_passed": true, "error": null}
+{"code": " len(results_df) > 0:", "compilation_passed": true, "time": 0.543846845626831, "tests_passed": true, "error": null}
+{"code": " results_df.empty:", "compilation_passed": true, "time": 0.0052013397216796875, "tests_passed": true, "error": null}
+{"code": " not results_df.empty:", "compilation_passed": true, "time": 0.48177504539489746, "tests_passed": true, "error": null}
+{"code": " rng_seed is not None:", "compilation_passed": true, "time": 0.11533403396606445, "tests_passed": false, "error": "TypeError"}
+{"code": " len(results_df) != 0:", "compilation_passed": true, "time": 0.4902341365814209, "tests_passed": true, "error": null}
+{"code": " results_df['Match Result'].str.len().max() > 7:", "compilation_passed": true, "time": 0.483457088470459, "tests_passed": true, "error": null}
+{"code": " goals > 0:", "compilation_passed": true, "time": 0.10796284675598145, "tests_passed": false, "error": "TypeError"}
+{"code": " not goals <= penalties:", "compilation_passed": true, "time": 0.09918594360351562, "tests_passed": false, "error": "TypeError"}
+{"code": " \"Penalty\" in results_df['Match Result'].dtypes.values[0]:", "compilation_passed": true, "time": 0.006701946258544922, "tests_passed": false, "error": "AttributeError"}
+{"code": " len(teams) > 0:", "compilation_passed": true, "time": 0.4641139507293701, "tests_passed": true, "error": null}
+{"code": " goals < 1:", "compilation_passed": true, "time": 0.005403280258178711, "tests_passed": true, "error": null}
+{"code": " goals == 0:", "compilation_passed": true, "time": 0.005187034606933594, "tests_passed": true, "error": null}
+{"code": " results_df.shape[0] == 0:", "compilation_passed": true, "time": 0.005398988723754883, "tests_passed": true, "error": null}
+{"code": " len(re.findall(r'(\\d+)', results_df['Match Result'].iloc[0])) == 1:", "compilation_passed": true, "time": 0.01385498046875, "tests_passed": true, "error": null}
+{"code": " len(results_df) < 5:", "compilation_passed": true, "time": 0.008153915405273438, "tests_passed": true, "error": null}

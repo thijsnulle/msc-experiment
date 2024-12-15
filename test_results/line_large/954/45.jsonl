@@ -1,0 +1,21 @@
+{"code": " r'\\b' + re.escape(word.lower()) + r'\\b'", "compilation_passed": true, "time": 0.007269144058227539, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\b(\" + re.escape(word.lower()) + r\")\\b\"", "compilation_passed": true, "time": 0.007384061813354492, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(re.escape(word), flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.01123499870300293, "tests_passed": true, "error": null}
+{"code": " re.compile(rf\"\\b({word})\\b\", re.IGNORECASE)", "compilation_passed": true, "time": 0.010130167007446289, "tests_passed": true, "error": null}
+{"code": " r\"\\b\" + re.escape(word) + r\"\\b\"", "compilation_passed": true, "time": 0.007969141006469727, "tests_passed": false, "error": "AttributeError"}
+{"code": " rf\"\\b{re.escape(word.lower())}\\b\"  # match the word as a whole word (ignoring case)", "compilation_passed": true, "time": 0.007810115814208984, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(re.escape(word.lower()), re.IGNORECASE)", "compilation_passed": true, "time": 0.015165090560913086, "tests_passed": true, "error": null}
+{"code": " rf\"\\b{word}\\b\"", "compilation_passed": true, "time": 0.008005857467651367, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(word, re.IGNORECASE)", "compilation_passed": true, "time": 0.00999593734741211, "tests_passed": true, "error": null}
+{"code": " re.compile(word, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.008798837661743164, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"\\b\" + re.escape(word) + r\"\\b\", re.IGNORECASE)", "compilation_passed": true, "time": 0.014000177383422852, "tests_passed": true, "error": null}
+{"code": " rf\"(?i)\\b{word}\\b\"  # ignore case", "compilation_passed": true, "time": 0.007366180419921875, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'\\b' + word.lower().replace(' ', r'\\s') + r'\\b', re.IGNORECASE)", "compilation_passed": true, "time": 0.010587930679321289, "tests_passed": true, "error": null}
+{"code": " rf\"\\b({re.escape(word.lower())})\\b\"", "compilation_passed": true, "time": 0.0073320865631103516, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'\\b{}\\b'.format(word), re.IGNORECASE)", "compilation_passed": true, "time": 0.010329008102416992, "tests_passed": true, "error": null}
+{"code": " re.compile(re.escape(word), re.IGNORECASE)", "compilation_passed": true, "time": 0.011099100112915039, "tests_passed": true, "error": null}
+{"code": " re.escape(word)", "compilation_passed": true, "time": 0.008702993392944336, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'\\b' + re.escape(word) + r'\\b', re.IGNORECASE)", "compilation_passed": true, "time": 0.012580156326293945, "tests_passed": true, "error": null}
+{"code": " r\"\\b(\" + re.escape(word) + r\")\\b\"", "compilation_passed": true, "time": 0.00714421272277832, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r\"\\b\" + re.escape(word) + r\"\\b\", flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.015939712524414062, "tests_passed": true, "error": null}
+{"code": " rf\"(?i){re.escape(word)}\"", "compilation_passed": true, "time": 0.008657217025756836, "tests_passed": false, "error": "AttributeError"}

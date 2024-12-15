@@ -1,0 +1,9 @@
+{"code": " CountVectorizer()", "compilation_passed": true, "time": 0.0051860809326171875, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(", "compilation_passed": false, "time": 0.00017881393432617188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " CountVectorizer(tokenizer=lambda x: x.split())", "compilation_passed": true, "time": 0.005125999450683594, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(decode_error=\"ignore\")", "compilation_passed": true, "time": 0.005805015563964844, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(lowercase=False)", "compilation_passed": true, "time": 0.03031778335571289, "tests_passed": false, "error": "KeyError"}
+{"code": " CountVectorizer(max_df=1.0, min_df=1, stop_words=None, lowercase=False, token_pattern=r\"[^\\s]+\", ngram_range=(1, 1), analyzer=\"word\")", "compilation_passed": true, "time": 0.005316019058227539, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(lowercase=True)", "compilation_passed": true, "time": 0.004745960235595703, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(lowercase=True, token_pattern=r\"\\S\\w+\")", "compilation_passed": true, "time": 0.005321025848388672, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(sentences)", "compilation_passed": true, "time": 0.006834983825683594, "tests_passed": false, "error": "TypeError"}

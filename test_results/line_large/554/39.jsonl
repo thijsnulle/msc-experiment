@@ -1,0 +1,8 @@
+{"code": " first_half[::-1]", "compilation_passed": true, "time": 0.0018770694732666016, "tests_passed": true, "error": null}
+{"code": " [random.choice(WORDS_POOL) for _ in range(sentence_length // 2)]", "compilation_passed": true, "time": 0.0038652420043945312, "tests_passed": true, "error": null}
+{"code": " random.sample(first_half[::-1], len(first_half))", "compilation_passed": true, "time": 0.004189968109130859, "tests_passed": true, "error": null}
+{"code": " list(reversed(first_half))", "compilation_passed": true, "time": 0.0015349388122558594, "tests_passed": true, "error": null}
+{"code": " random.sample(first_half, sentence_length // 2)", "compilation_passed": true, "time": 0.003866910934448242, "tests_passed": true, "error": null}
+{"code": " [random.choice(WORDS_POOL) for _ in range((sentence_length - 1) // 2)]", "compilation_passed": true, "time": 0.0043528079986572266, "tests_passed": true, "error": null}
+{"code": " [word for word in reversed(first_half)]", "compilation_passed": true, "time": 0.0016148090362548828, "tests_passed": true, "error": null}
+{"code": " random.choices(WORDS_POOL, k=sentence_length // 2)", "compilation_passed": true, "time": 0.0038597583770751953, "tests_passed": true, "error": null}

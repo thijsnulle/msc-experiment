@@ -1,0 +1,7 @@
+{"code": " stats.norm.pdf(x, computed_stats['mean'], computed_stats['std'])", "compilation_passed": true, "time": 0.10788106918334961, "tests_passed": true, "error": null}
+{"code": " stats.norm(computed_stats['mean'], computed_stats['std'])", "compilation_passed": true, "time": 0.028517723083496094, "tests_passed": false, "error": "ValueError"}
+{"code": " stats.norm(np.mean(arr), np.std(arr))", "compilation_passed": true, "time": 0.023900985717773438, "tests_passed": false, "error": "ValueError"}
+{"code": " stats.norm(loc=computed_stats['mean'], scale=computed_stats['std']).pdf(x)", "compilation_passed": true, "time": 0.08789896965026855, "tests_passed": true, "error": null}
+{"code": " stats.norm.pdf(x, mean=computed_stats['mean'], std=computed_stats['std'])", "compilation_passed": true, "time": 0.029597997665405273, "tests_passed": false, "error": "TypeError"}
+{"code": " stats.norm(np.mean(arr), np.std(arr)).pdf(x)", "compilation_passed": true, "time": 0.10573601722717285, "tests_passed": true, "error": null}
+{"code": " stats.norm.pdf(x, loc=computed_stats['mean'], scale=computed_stats['std'])", "compilation_passed": true, "time": 0.09898018836975098, "tests_passed": true, "error": null}

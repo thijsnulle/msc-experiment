@@ -1,0 +1,9 @@
+{"code": "plot(signal)", "compilation_passed": true, "time": 0.4540228843688965, "tests_passed": true, "error": null}
+{"code": "set_title('Original Signal')", "compilation_passed": true, "time": 0.4285702705383301, "tests_passed": true, "error": null}
+{"code": "plot(np.arange(len(signal)), signal)", "compilation_passed": true, "time": 0.45458483695983887, "tests_passed": true, "error": null}
+{"code": "plot(transformed_signal, label='Original signal')", "compilation_passed": true, "time": 0.4422938823699951, "tests_passed": true, "error": null}
+{"code": "plot(signal, label='Original Signal')", "compilation_passed": true, "time": 0.4508979320526123, "tests_passed": true, "error": null}
+{"code": "plot(np.real(transformed_signal_rounded), 'r', label='Real')", "compilation_passed": true, "time": 0.4412221908569336, "tests_passed": true, "error": null}
+{"code": "plot(np.arange(len(signal)), signal, label='Original Signal')", "compilation_passed": true, "time": 0.44571614265441895, "tests_passed": true, "error": null}
+{"code": "plot(signal, label=\"Original Signal\")", "compilation_passed": true, "time": 0.4481809139251709, "tests_passed": true, "error": null}
+{"code": "plot(np.arange(0, 1, 0.1), signal)", "compilation_passed": true, "time": 0.04600977897644043, "tests_passed": false, "error": "ValueError"}

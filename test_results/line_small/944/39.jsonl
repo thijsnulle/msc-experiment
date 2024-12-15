@@ -1,0 +1,21 @@
+{"code": "plot(kind='line', color='blue', label='Stock Prices', ax=ax)", "compilation_passed": true, "time": 0.23377704620361328, "tests_passed": true, "error": null}
+{"code": "plot(y='Price', ax=ax, c='green')", "compilation_passed": true, "time": 0.22399115562438965, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Price', kind='line', ax=ax, color='red', marker='o', markersize=5)", "compilation_passed": true, "time": 0.05281710624694824, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(ax=ax)", "compilation_passed": true, "time": 0.22652482986450195, "tests_passed": true, "error": null}
+{"code": "plot(y='Price', ax=ax, marker='o', color='red')", "compilation_passed": true, "time": 0.229996919631958, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, style='k-')", "compilation_passed": true, "time": 0.23319411277770996, "tests_passed": true, "error": null}
+{"code": "plot(kind='line', ax=ax, style='-', loci='o', marker='o', color='black', markersize=10, lw=3, alpha=0.5)", "compilation_passed": true, "time": 0.04334902763366699, "tests_passed": false, "error": "AttributeError"}
+{"code": "plot(y='Price', ax=ax, title='Stock Prices')", "compilation_passed": true, "time": 0.2330949306488037, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, kind='line', color='black', linewidth=2, rot=60, rot_mode='anchor',", "compilation_passed": false, "time": 0.0004940032958984375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(kind='line', color='orange', ax=ax)", "compilation_passed": true, "time": 0.23615121841430664, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Price', ax=ax)", "compilation_passed": true, "time": 0.05384016036987305, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(y='Price', ax=ax, marker='o')", "compilation_passed": true, "time": 0.23663783073425293, "tests_passed": true, "error": null}
+{"code": "plot(kind='line', x='Date', y='Price', ax=ax, color='green', marker='o', legend=False, title='Stock Prices')", "compilation_passed": true, "time": 0.04897308349609375, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(y='Price', kind='line', ax=ax)", "compilation_passed": true, "time": 0.2381730079650879, "tests_passed": true, "error": null}
+{"code": "plot(y='Price', ax=ax, title='Stock Prices', grid=True)", "compilation_passed": true, "time": 0.24399995803833008, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, title='Stock Prices', xlim=[date_range[0], date_range[-1]])", "compilation_passed": true, "time": 0.24525094032287598, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Price', ax=ax, title='Stock Prices')", "compilation_passed": true, "time": 0.05031895637512207, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(y='Price', ax=ax)", "compilation_passed": true, "time": 0.24854397773742676, "tests_passed": true, "error": null}
+{"code": "plot(y='Price', kind='line', ax=ax, color='purple', marker='o')", "compilation_passed": true, "time": 1.818108081817627, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, x='Date', y='Price')", "compilation_passed": true, "time": 0.056938886642456055, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(kind='line', x_compat=True, ax=ax, rot=0, logy=True)", "compilation_passed": true, "time": 0.28438615798950195, "tests_passed": true, "error": null}

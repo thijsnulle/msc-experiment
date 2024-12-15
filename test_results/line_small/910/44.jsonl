@@ -1,0 +1,11 @@
+{"code": "bar(np.arange(len(letters)), counts, color=colors)", "compilation_passed": true, "time": 0.08513188362121582, "tests_passed": true, "error": null}
+{"code": "bar(letters, counts, color=colors)", "compilation_passed": true, "time": 0.08556103706359863, "tests_passed": true, "error": null}
+{"code": "bar(range(len(letters)), counts, color=colors, ticklabels=letters, label='Frequency of Letters')", "compilation_passed": true, "time": 0.034834861755371094, "tests_passed": false, "error": "AttributeError"}
+{"code": "bar(letters, counts)", "compilation_passed": true, "time": 0.0332798957824707, "tests_passed": true, "error": null}
+{"code": "barh(np.arange(len(letters)), counts, color=colors)", "compilation_passed": true, "time": 0.8101911544799805, "tests_passed": true, "error": null}
+{"code": "bar(letters, counts, color=colors, width=1)", "compilation_passed": true, "time": 0.08686089515686035, "tests_passed": true, "error": null}
+{"code": "bar(letters, counts, color=colors, tick_label=letters, label='Frequency')", "compilation_passed": true, "time": 0.09385824203491211, "tests_passed": true, "error": null}
+{"code": "barh(letters, counts, color=colors, label='Frequency')", "compilation_passed": true, "time": 0.03546309471130371, "tests_passed": true, "error": null}
+{"code": "barh(letters, counts, color=colors)", "compilation_passed": true, "time": 0.03212308883666992, "tests_passed": true, "error": null}
+{"code": "bar(letters, counts, color=colors, tick_label=letters)", "compilation_passed": true, "time": 0.09080791473388672, "tests_passed": true, "error": null}
+{"code": "bar(letters, counts, color=colors, width=0.75)", "compilation_passed": true, "time": 0.0883331298828125, "tests_passed": true, "error": null}

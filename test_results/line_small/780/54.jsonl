@@ -1,0 +1,6 @@
+{"code": " df['published_time'].dt.hour", "compilation_passed": true, "time": 0.003017902374267578, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " df.published_time.dt.hour", "compilation_passed": true, "time": 0.0023279190063476562, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " df['published_time'].dt.hour.astype(int)", "compilation_passed": true, "time": 0.002285003662109375, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " df['published_time'].apply(lambda x: x.hour)", "compilation_passed": true, "time": 0.012255191802978516, "tests_passed": true, "error": null}
+{"code": " pd.to_datetime(df['published_time'])", "compilation_passed": true, "time": 0.01094818115234375, "tests_passed": true, "error": null}
+{"code": " pd.to_datetime(df['published_time']).astimezone(tz).dt.hour", "compilation_passed": true, "time": 0.010435104370117188, "tests_passed": false, "error": "AttributeError"}

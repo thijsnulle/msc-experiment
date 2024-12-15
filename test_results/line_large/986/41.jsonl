@@ -1,0 +1,12 @@
+{"code": " values.size == 0:", "compilation_passed": true, "time": 0.041889190673828125, "tests_passed": true, "error": null}
+{"code": " np.isscalar(values):", "compilation_passed": true, "time": 2.76943302154541, "tests_passed": true, "error": null}
+{"code": " np.any(np.isnan(values)) or len(values) == 0:", "compilation_passed": true, "time": 0.041290998458862305, "tests_passed": true, "error": null}
+{"code": " len(values) == 0:", "compilation_passed": true, "time": 0.04645514488220215, "tests_passed": true, "error": null}
+{"code": " not values.size:", "compilation_passed": true, "time": 0.041986942291259766, "tests_passed": true, "error": null}
+{"code": " not np.all(np.isnan(values)):", "compilation_passed": true, "time": 0.012906074523925781, "tests_passed": false, "error": "ValueError"}
+{"code": " values.size == 0 or np.isnan(np.sum(values)) or np.isinf(np.sum(values)):", "compilation_passed": true, "time": 0.041674137115478516, "tests_passed": true, "error": null}
+{"code": " np.isnan(values).all():", "compilation_passed": true, "time": 0.04187798500061035, "tests_passed": true, "error": null}
+{"code": " values.size == 0 or np.isnan(values).all():", "compilation_passed": true, "time": 0.04187965393066406, "tests_passed": true, "error": null}
+{"code": " not np.any(values):", "compilation_passed": true, "time": 0.04243302345275879, "tests_passed": true, "error": null}
+{"code": " not np.isscalar(values):", "compilation_passed": true, "time": 0.013491153717041016, "tests_passed": false, "error": "ValueError"}
+{"code": " np.any(np.isnan(values)):", "compilation_passed": true, "time": 0.05666303634643555, "tests_passed": true, "error": null}

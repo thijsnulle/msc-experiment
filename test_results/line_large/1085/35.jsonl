@@ -1,0 +1,15 @@
+{"code": "bar([word for word, _ in most_common_words], [count for _, count in most_common_words])", "compilation_passed": true, "time": 0.2614870071411133, "tests_passed": true, "error": null}
+{"code": "bar([word[0] for word in most_common_words],", "compilation_passed": false, "time": 0.00023484230041503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "bar([word[0] for word in most_common_words], [word[1] for word in most_common_words])", "compilation_passed": true, "time": 0.27932190895080566, "tests_passed": true, "error": null}
+{"code": "bar([tup[0] for tup in most_common_words], [tup[1] for tup in most_common_words])", "compilation_passed": true, "time": 0.30388593673706055, "tests_passed": true, "error": null}
+{"code": "bar([word[0] for word in most_common_words], [word[1] for word in most_common_words], width=0.5, edgecolor=\"black\")", "compilation_passed": true, "time": 0.2826268672943115, "tests_passed": true, "error": null}
+{"code": "bar(", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": "bar([x[0] for x in most_common_words], [x[1] for x in most_common_words])", "compilation_passed": true, "time": 0.257641077041626, "tests_passed": true, "error": null}
+{"code": "bar([w[0] for w in most_common_words], [w[1] for w in most_common_words])", "compilation_passed": true, "time": 0.251662015914917, "tests_passed": true, "error": null}
+{"code": "barh([word[0] for word in most_common_words], [", "compilation_passed": false, "time": 0.0002608299255371094, "tests_passed": false, "error": "SyntaxError"}
+{"code": "bar(range(len(most_common_words)), [count for word, count in most_common_words], align='center')", "compilation_passed": true, "time": 0.2556722164154053, "tests_passed": true, "error": null}
+{"code": "bar([word for word, count in most_common_words], [count for word, count in most_common_words])", "compilation_passed": true, "time": 0.3186757564544678, "tests_passed": true, "error": null}
+{"code": "barh(*zip(*most_common_words))", "compilation_passed": true, "time": 0.32360196113586426, "tests_passed": true, "error": null}
+{"code": "bar([pair[0] for pair in most_common_words], [pair[1] for pair in most_common_words])", "compilation_passed": true, "time": 0.2664821147918701, "tests_passed": true, "error": null}
+{"code": "bar(range(len(most_common_words)), [word[1] for word in most_common_words])", "compilation_passed": true, "time": 0.3378257751464844, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 11), [count for _, count in most_common_words], align='center')", "compilation_passed": true, "time": 0.15028929710388184, "tests_passed": false, "error": "ValueError"}

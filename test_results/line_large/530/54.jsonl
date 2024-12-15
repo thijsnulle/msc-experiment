@@ -1,0 +1,5 @@
+{"code": " Counter(duplicates_df[\"age\"].tolist())", "compilation_passed": true, "time": 0.3002960681915283, "tests_passed": true, "error": null}
+{"code": " Counter(duplicates_df[\"age\"])", "compilation_passed": true, "time": 0.30043506622314453, "tests_passed": true, "error": null}
+{"code": " duplicates_df[\"age\"].value_counts()", "compilation_passed": true, "time": 0.01661396026611328, "tests_passed": false, "error": "ValueError"}
+{"code": " Counter(duplicates_df[\"age\"].values.tolist())", "compilation_passed": true, "time": 0.3128087520599365, "tests_passed": true, "error": null}
+{"code": " duplicates_df[\"age\"].value_counts().to_dict()", "compilation_passed": true, "time": 0.3365490436553955, "tests_passed": true, "error": null}

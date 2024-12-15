@@ -1,0 +1,8 @@
+{"code": " not word.isalpha():", "compilation_passed": true, "time": 0.014532089233398438, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(c.isalpha() for c in word):", "compilation_passed": true, "time": 0.003591299057006836, "tests_passed": true, "error": null}
+{"code": " len(word) < 2:", "compilation_passed": true, "time": 0.01452493667602539, "tests_passed": false, "error": "ValueError"}
+{"code": " any(not letter.isalpha() for letter in word):", "compilation_passed": true, "time": 0.0035588741302490234, "tests_passed": true, "error": null}
+{"code": " not all(char in string.ascii_letters for char in word):", "compilation_passed": true, "time": 0.0035331249237060547, "tests_passed": true, "error": null}
+{"code": " not all(char.isalpha() for char in word):", "compilation_passed": true, "time": 0.003566265106201172, "tests_passed": true, "error": null}
+{"code": " any(not c.isalpha() for c in word):", "compilation_passed": true, "time": 0.0035271644592285156, "tests_passed": true, "error": null}
+{"code": " not all(letter.isalpha() for letter in word):", "compilation_passed": true, "time": 0.0035369396209716797, "tests_passed": true, "error": null}

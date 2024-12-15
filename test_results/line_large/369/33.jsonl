@@ -1,0 +1,7 @@
+{"code": " std = stats.norm.fit(l)", "compilation_passed": true, "time": 0.24462413787841797, "tests_passed": true, "error": null}
+{"code": " sigma = np.mean(l), np.std(l)", "compilation_passed": true, "time": 0.0645759105682373, "tests_passed": false, "error": "NameError"}
+{"code": " sigma = stats.norm.fit(l)", "compilation_passed": true, "time": 0.055380821228027344, "tests_passed": false, "error": "NameError"}
+{"code": " std = np.mean(l), np.std(l)", "compilation_passed": true, "time": 0.3351318836212158, "tests_passed": true, "error": null}
+{"code": " std = l.mean(), l.std()", "compilation_passed": true, "time": 0.25188708305358887, "tests_passed": true, "error": null}
+{"code": "std = stats.norm.fit(l)", "compilation_passed": true, "time": 0.46086978912353516, "tests_passed": true, "error": null}
+{"code": " sigma = l.mean(), l.std()", "compilation_passed": true, "time": 0.06354188919067383, "tests_passed": false, "error": "NameError"}

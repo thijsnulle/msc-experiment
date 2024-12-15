@@ -1,0 +1,3 @@
+{"code": " data[data > avg]", "compilation_passed": true, "time": 0.05044102668762207, "tests_passed": true, "error": null}
+{"code": " np.where(data > avg)[0]", "compilation_passed": true, "time": 0.026655912399291992, "tests_passed": true, "error": null}
+{"code": " np.array([num for num in data if num > avg])", "compilation_passed": true, "time": 0.0540769100189209, "tests_passed": true, "error": null}

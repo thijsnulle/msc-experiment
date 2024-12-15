@@ -1,0 +1,10 @@
+{"code": " df[column]", "compilation_passed": true, "time": 0.1324450969696045, "tests_passed": true, "error": null}
+{"code": " df[column].dropna()", "compilation_passed": true, "time": 0.13511085510253906, "tests_passed": true, "error": null}
+{"code": " df[column]  # Use the provided column for analysis", "compilation_passed": true, "time": 0.13248085975646973, "tests_passed": true, "error": null}
+{"code": " df[column].to_numpy()", "compilation_passed": true, "time": 0.13312292098999023, "tests_passed": true, "error": null}
+{"code": " df[column]  # Get the column data", "compilation_passed": true, "time": 0.1305220127105713, "tests_passed": true, "error": null}
+{"code": " df[column].to_list()", "compilation_passed": true, "time": 0.1397089958190918, "tests_passed": true, "error": null}
+{"code": " df[column]  # Select the desired column", "compilation_passed": true, "time": 0.1286919116973877, "tests_passed": true, "error": null}
+{"code": " df.get(column)  # Raise KeyError if column doesn't exist", "compilation_passed": true, "time": 0.11764192581176758, "tests_passed": false, "error": "TypeError"}
+{"code": " df[column]  # Select the column data", "compilation_passed": true, "time": 0.1322166919708252, "tests_passed": true, "error": null}
+{"code": " df[column]  # Select the specified column", "compilation_passed": true, "time": 0.13114523887634277, "tests_passed": true, "error": null}

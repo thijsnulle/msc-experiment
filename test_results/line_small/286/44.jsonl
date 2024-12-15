@@ -1,0 +1,4 @@
+{"code": "writerows([['Word', 'Count']] + list(word_counts.items()))", "compilation_passed": true, "time": 0.16846799850463867, "tests_passed": true, "error": null}
+{"code": "writerows(word_counts.most_common())", "compilation_passed": true, "time": 0.1653120517730713, "tests_passed": true, "error": null}
+{"code": "writerows(word_counts.items())", "compilation_passed": true, "time": 0.165208101272583, "tests_passed": true, "error": null}
+{"code": "writerows([(word, count) for word, count in word_counts.items()])", "compilation_passed": true, "time": 0.16504907608032227, "tests_passed": true, "error": null}

@@ -1,0 +1,12 @@
+{"code": " (item, type(item).__name__)  # Create a tuple with value and type as key", "compilation_passed": true, "time": 0.002501964569091797, "tests_passed": true, "error": null}
+{"code": " (type(item), item)", "compilation_passed": true, "time": 0.005245208740234375, "tests_passed": true, "error": null}
+{"code": " (item, type(item))", "compilation_passed": true, "time": 0.0023927688598632812, "tests_passed": true, "error": null}
+{"code": " item if isinstance(item, str) else item.__class__.__name__", "compilation_passed": true, "time": 0.011732101440429688, "tests_passed": false, "error": "ValueError"}
+{"code": " (type(item).__name__, item)", "compilation_passed": true, "time": 0.004937887191772461, "tests_passed": true, "error": null}
+{"code": " str(item) if isinstance(item, int) else type(item)", "compilation_passed": true, "time": 0.011728048324584961, "tests_passed": false, "error": "ValueError"}
+{"code": " str(item) + '_' + str(type(item))", "compilation_passed": true, "time": 0.01130533218383789, "tests_passed": false, "error": "ValueError"}
+{"code": " (item, type(item).__name__)", "compilation_passed": true, "time": 0.0025141239166259766, "tests_passed": true, "error": null}
+{"code": " item if isinstance(item, int) or isinstance(item, float) else item", "compilation_passed": true, "time": 0.01129603385925293, "tests_passed": false, "error": "TypeError"}
+{"code": " str(item) + '|' + str(type(item))", "compilation_passed": true, "time": 0.011015892028808594, "tests_passed": false, "error": "ValueError"}
+{"code": " item if item not in counts else counts[item] + 1", "compilation_passed": true, "time": 0.011388063430786133, "tests_passed": false, "error": "TypeError"}
+{"code": " item if type(item) == type(0) else f\"{item}\"", "compilation_passed": true, "time": 0.011594772338867188, "tests_passed": false, "error": "TypeError"}

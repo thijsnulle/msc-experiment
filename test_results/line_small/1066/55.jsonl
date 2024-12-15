@@ -1,0 +1,4 @@
+{"code": " num_samples > 0:", "compilation_passed": true, "time": 0.2371690273284912, "tests_passed": true, "error": null}
+{"code": " len(normal_data) > 0:", "compilation_passed": true, "time": 0.27298402786254883, "tests_passed": true, "error": null}
+{"code": " data.size > 0:", "compilation_passed": true, "time": 0.22165298461914062, "tests_passed": false, "error": "IndexError"}
+{"code": " np.all(data[0] != data[1]):  # IQR only if more than 2 samples", "compilation_passed": true, "time": 0.22954082489013672, "tests_passed": false, "error": "IndexError"}

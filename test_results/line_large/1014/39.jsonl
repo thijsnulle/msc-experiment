@@ -1,0 +1,7 @@
+{"code": " pd.DataFrame(response.json())", "compilation_passed": true, "time": 0.026553869247436523, "tests_passed": true, "error": null}
+{"code": " pd.read_json(response.content)", "compilation_passed": true, "time": 0.01775503158569336, "tests_passed": false, "error": "TypeError"}
+{"code": " response.json()", "compilation_passed": true, "time": 0.026172161102294922, "tests_passed": true, "error": null}
+{"code": " pd.read_json(response.text)", "compilation_passed": true, "time": 0.01135110855102539, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.json_normalize(response.json())", "compilation_passed": true, "time": 0.025917768478393555, "tests_passed": true, "error": null}
+{"code": " pd.read_json(response.content, orient='records')", "compilation_passed": true, "time": 0.010040044784545898, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.read_json(response.json())", "compilation_passed": true, "time": 0.009620189666748047, "tests_passed": false, "error": "ValueError"}

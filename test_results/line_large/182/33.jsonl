@@ -1,0 +1,26 @@
+{"code": " '.*(how|what).*'", "compilation_passed": true, "time": 0.02812504768371582, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'\\b(how|what)\\b'", "compilation_passed": true, "time": 0.025794029235839844, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'^(?:WHAT|HOW)', flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.022536277770996094, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"^(what|how)\", re.IGNORECASE)", "compilation_passed": true, "time": 0.02320408821105957, "tests_passed": true, "error": null}
+{"code": " r\"^(How|What)\"  # Regex pattern for articles starting with \"How\" or \"What\"", "compilation_passed": true, "time": 0.025831937789916992, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'(\\b(How|What)\\b[^?]*)|(\\b(How|What)\\b[^!]*)|(\\b(How|What)\\b[^.]*)|(\\b(How|What)\\b[^?!]*)|(\\b(How|What)\\b[^?.]*)|(\\b(How|What)\\b[^!.]*)'", "compilation_passed": true, "time": 0.026202917098999023, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r\"^(How|What)\", re.IGNORECASE)", "compilation_passed": true, "time": 0.0228731632232666, "tests_passed": true, "error": null}
+{"code": " r'^(how|what)'", "compilation_passed": true, "time": 0.025664806365966797, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'^(How|What)\\s', re.IGNORECASE)", "compilation_passed": true, "time": 0.022263050079345703, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"^\\b(how|what)\\b\", flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.02301502227783203, "tests_passed": true, "error": null}
+{"code": " re.compile(r'^(how|what)\\W', flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.022680044174194336, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"^(How|What) \", re.IGNORECASE)", "compilation_passed": true, "time": 0.022617816925048828, "tests_passed": true, "error": null}
+{"code": " r'([Hh]ow|[Ww]hat)'  # Match the words \"How\" and \"What\" with or without capitalization", "compilation_passed": true, "time": 0.025655746459960938, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'^\\s*(what|how)[\\?!\\.,]', re.IGNORECASE)  # Compile regex pattern to match \"How\" or \"What\" at the start of a line", "compilation_passed": true, "time": 0.011998176574707031, "tests_passed": true, "error": null}
+{"code": " r\"(?i)how|what\"", "compilation_passed": true, "time": 0.02543473243713379, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r\"^(how|what)\", flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.025180816650390625, "tests_passed": true, "error": null}
+{"code": " '^(How|What).+'", "compilation_passed": true, "time": 0.02754688262939453, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"what|how\"  # pattern to search for \"what\" or \"how\"", "compilation_passed": true, "time": 0.026087045669555664, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'^\\s*(what|how)', re.IGNORECASE)", "compilation_passed": true, "time": 0.022472143173217773, "tests_passed": true, "error": null}
+{"code": " re.compile(r'^(How|What).*', flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.023040056228637695, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"^(?:how|what)\\W\", re.IGNORECASE)", "compilation_passed": true, "time": 0.023010730743408203, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"^\\b(how|what)\\b\", re.IGNORECASE)", "compilation_passed": true, "time": 0.022085189819335938, "tests_passed": true, "error": null}
+{"code": " r'(?i)^(how|what)'  # case-insensitive search for 'how' or 'what' at the start of the title", "compilation_passed": true, "time": 0.025172948837280273, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'(?:^|(?<=[^a-zA-Z]))(how|what)(?:(?=[^a-zA-Z])|$)', flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.022773027420043945, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(?i)^(how|what)', re.UNICODE)", "compilation_passed": true, "time": 0.02284097671508789, "tests_passed": true, "error": null}
+{"code": " r\"\\b(how|what)\\b\"", "compilation_passed": true, "time": 0.02606201171875, "tests_passed": false, "error": "AttributeError"}

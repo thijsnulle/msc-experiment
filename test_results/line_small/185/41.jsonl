@@ -1,0 +1,12 @@
+{"code": "Marker([row['Latitude'], row['Longitude']], popup=row['City']).add_to(m)", "compilation_passed": true, "time": 0.01856684684753418, "tests_passed": true, "error": null}
+{"code": "Marker([row['Latitude'], row['Longitude']], popup=row['City'], icon=folium.Icon(color='blue')).add_to(m)", "compilation_passed": true, "time": 0.01892995834350586, "tests_passed": true, "error": null}
+{"code": "Marker(location=[row['Latitude'], row['Longitude']], popup=row['City']).add_to(m)", "compilation_passed": true, "time": 0.01912999153137207, "tests_passed": true, "error": null}
+{"code": "Marker([row['Latitude'], row['Longitude']]).add_to(m)", "compilation_passed": true, "time": 0.01813197135925293, "tests_passed": true, "error": null}
+{"code": "Marker(", "compilation_passed": false, "time": 0.0003457069396972656, "tests_passed": false, "error": "SyntaxError"}
+{"code": "Marker(location=[row['Latitude'], row['Longitude']],", "compilation_passed": false, "time": 0.0003619194030761719, "tests_passed": false, "error": "SyntaxError"}
+{"code": "Marker([row.loc['Latitude'], row.loc['Longitude']], popup=row['City']).add_to(m)", "compilation_passed": true, "time": 0.02288985252380371, "tests_passed": true, "error": null}
+{"code": "Marker([row['Latitude'], row['Longitude']],", "compilation_passed": false, "time": 0.0004048347473144531, "tests_passed": false, "error": "SyntaxError"}
+{"code": "Marker([row['Latitude'], row['Longitude']], popup=row['City'],", "compilation_passed": false, "time": 0.0003769397735595703, "tests_passed": false, "error": "SyntaxError"}
+{"code": "Marker([row['Longitude'], row['Latitude']], popup=row['City']).add_to(m)", "compilation_passed": true, "time": 0.019943952560424805, "tests_passed": true, "error": null}
+{"code": "Marker([row['Latitude'], row['Longitude']], popon=True, tooltip=row['City']).add_to(m)", "compilation_passed": true, "time": 0.01910400390625, "tests_passed": true, "error": null}
+{"code": "Marker(location=[row['Latitude'], row['Longitude']], popup=row['City'], icon=folium.Icon(color='green', icon=\"info-sign\")).add_to(m)", "compilation_passed": true, "time": 0.02051711082458496, "tests_passed": true, "error": null}

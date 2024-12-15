@@ -1,0 +1,25 @@
+{"code": " array('I', [random.randint(0, total) for _ in range(n - 1)])", "compilation_passed": true, "time": 0.028937816619873047, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, total) for i in range(n)]", "compilation_passed": true, "time": 0.02374100685119629, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, total) for _ in range(n - 1)]", "compilation_passed": true, "time": 0.035086870193481445, "tests_passed": true, "error": null}
+{"code": " None", "compilation_passed": true, "time": 0.010195016860961914, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted(array('I', (random.randint(1, total//n*2) for i in range(n-1))))", "compilation_passed": true, "time": 0.01505279541015625, "tests_passed": true, "error": null}
+{"code": " array('I', [random.randint(1, total//n*2) for i in range(n-1)])", "compilation_passed": true, "time": 0.02031683921813965, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.021891117095947266, "tests_passed": true, "error": null}
+{"code": " array(\"i\", [randrange(0, total) for i in range(n)])", "compilation_passed": true, "time": 0.011111021041870117, "tests_passed": false, "error": "NameError"}
+{"code": " [random.randrange(total) for i in range(n)]", "compilation_passed": true, "time": 0.02078700065612793, "tests_passed": true, "error": null}
+{"code": " [0] * n", "compilation_passed": true, "time": 0.03656315803527832, "tests_passed": true, "error": null}
+{"code": " array('I', [0] * n)", "compilation_passed": true, "time": 0.036623239517211914, "tests_passed": true, "error": null}
+{"code": " [random.randrange(total) for i in range(n - 1)]", "compilation_passed": true, "time": 0.019270896911621094, "tests_passed": true, "error": null}
+{"code": " array('I', [random.randint(1, total) for i in range(n - 1)])", "compilation_passed": true, "time": 0.011629104614257812, "tests_passed": true, "error": null}
+{"code": " [random.randrange(1000) for i in range(n - 1)] + [0]", "compilation_passed": true, "time": 0.017580032348632812, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, total) for _ in range(n)]", "compilation_passed": true, "time": 0.006386995315551758, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, total) for _ in range(n)]", "compilation_passed": true, "time": 0.02900981903076172, "tests_passed": true, "error": null}
+{"code": " array('I', [random.randint(0, total // 2) for i in range(n - 1)])", "compilation_passed": true, "time": 0.03624987602233887, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, 100) for i in range(n-1)]", "compilation_passed": true, "time": 0.03380727767944336, "tests_passed": true, "error": null}
+{"code": " array('I', [0])", "compilation_passed": true, "time": 0.02869701385498047, "tests_passed": true, "error": null}
+{"code": " array(\"i\", [random.randint(0, 10) for i in range(n)])", "compilation_passed": true, "time": 0.012391328811645508, "tests_passed": true, "error": null}
+{"code": " array('I', [random.randrange(1, total) for i in range(n)])", "compilation_passed": true, "time": 0.028817176818847656, "tests_passed": true, "error": null}
+{"code": " array('I', [random.randint(1, total//n) for _ in range(n-1)])", "compilation_passed": true, "time": 0.02213311195373535, "tests_passed": true, "error": null}
+{"code": " array(\"i\")", "compilation_passed": true, "time": 0.023021936416625977, "tests_passed": true, "error": null}
+{"code": " array('I', [random.randint(1, total) for i in range(n)])", "compilation_passed": true, "time": 0.028738975524902344, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, total) for i in range(n - 1)]", "compilation_passed": true, "time": 0.034464120864868164, "tests_passed": true, "error": null}

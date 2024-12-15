@@ -1,0 +1,20 @@
+{"code": " df['value'].hasnans:", "compilation_passed": true, "time": 0.32328295707702637, "tests_passed": true, "error": null}
+{"code": " df['value'].isna().any() or df['value'].apply(lambda x: isinstance(x, (int, float))).any():", "compilation_passed": true, "time": 0.013349056243896484, "tests_passed": false, "error": "ValueError"}
+{"code": " df['value'].isna().any():", "compilation_passed": true, "time": 0.35340404510498047, "tests_passed": true, "error": null}
+{"code": " pd.isna(df['value']).any():", "compilation_passed": true, "time": 0.3306419849395752, "tests_passed": true, "error": null}
+{"code": " df['value'].isna().any() or not all(isinstance(val, (int, float)) for val in df['value']):", "compilation_passed": true, "time": 0.3551511764526367, "tests_passed": true, "error": null}
+{"code": " df['value'].isnull().any() or not all(isinstance(val, (int, float)) for val in df['value'].values):", "compilation_passed": true, "time": 0.012533903121948242, "tests_passed": false, "error": "ValueError"}
+{"code": " df['value'].isnull().any() or not all(pd.to_numeric(df['value'], errors='coerce').notnull()):", "compilation_passed": true, "time": 0.3368690013885498, "tests_passed": true, "error": null}
+{"code": " df['value'].isnull().any() or not all(isinstance(val, (int, float)) for val in df['value']):", "compilation_passed": true, "time": 0.4093601703643799, "tests_passed": true, "error": null}
+{"code": " df['value'].isnull().any() or not all(isinstance(v, (int, float)) for v in df['value']):", "compilation_passed": true, "time": 0.35463809967041016, "tests_passed": true, "error": null}
+{"code": " df['value'].isnull().any():", "compilation_passed": true, "time": 1.9565160274505615, "tests_passed": true, "error": null}
+{"code": " df['value'].isna().any() or not df['value'].dtype == float:", "compilation_passed": true, "time": 0.01096487045288086, "tests_passed": false, "error": "ValueError"}
+{"code": " df['value'].isnull().any() or ~df['value'].map(pd.to_numeric).notnull().all():", "compilation_passed": true, "time": 0.27019810676574707, "tests_passed": true, "error": null}
+{"code": " any(pd.isna(df['value'])) or not all(isinstance(val, (int, float)) for val in df['value']):", "compilation_passed": true, "time": 1.0072460174560547, "tests_passed": false, "error": ""}
+{"code": " df['value'].isna().any() or ~df['value'].apply(pd.to_numeric, errors='coerce').notnull().all():", "compilation_passed": true, "time": 0.29668188095092773, "tests_passed": true, "error": null}
+{"code": " any(pd.isnull(df['value'])):", "compilation_passed": true, "time": 0.27075815200805664, "tests_passed": true, "error": null}
+{"code": " df['value'].isna().any() or df['value'].apply(lambda x: isinstance(x, str)).any():", "compilation_passed": true, "time": 0.28228235244750977, "tests_passed": true, "error": null}
+{"code": " df['value'].isna().any() or not df['value'].all():", "compilation_passed": true, "time": 0.27355384826660156, "tests_passed": true, "error": null}
+{"code": " df['value'].isnull().any() or not df['value'].dtype.kind in 'iuf':", "compilation_passed": true, "time": 0.26534605026245117, "tests_passed": true, "error": null}
+{"code": " pd.isna(df['value']).any() or not df['value'].all():", "compilation_passed": true, "time": 0.2651057243347168, "tests_passed": true, "error": null}
+{"code": " df['value'].isnull().any() or not all(df['value'].apply(lambda x: isinstance(x, (int, float)))):", "compilation_passed": true, "time": 0.2701430320739746, "tests_passed": true, "error": null}

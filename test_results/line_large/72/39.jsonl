@@ -1,0 +1,5 @@
+{"code": " df[\"list\"].apply(lambda x: ast.literal_eval(x))", "compilation_passed": true, "time": 0.08505988121032715, "tests_passed": true, "error": null}
+{"code": " df[\"list\"].apply(lambda x : ast.literal_eval(x))", "compilation_passed": true, "time": 0.08121395111083984, "tests_passed": true, "error": null}
+{"code": " df[\"list\"].apply(ast.literal_eval)", "compilation_passed": true, "time": 0.08079218864440918, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x : ast.literal_eval(x[\"list\"]), axis = 1)", "compilation_passed": true, "time": 0.07958793640136719, "tests_passed": true, "error": null}
+{"code": " df['list'].apply(ast.literal_eval)", "compilation_passed": true, "time": 0.08800816535949707, "tests_passed": true, "error": null}

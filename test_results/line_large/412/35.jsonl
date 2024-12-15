@@ -1,0 +1,4 @@
+{"code": " open(json_file, 'r') as f:", "compilation_passed": true, "time": 0.021391868591308594, "tests_passed": true, "error": null}
+{"code": " open(json_file, 'r', encoding=ENCODING) as f:", "compilation_passed": true, "time": 0.02152085304260254, "tests_passed": true, "error": null}
+{"code": " open(json_file, 'r') as file:", "compilation_passed": true, "time": 0.018681764602661133, "tests_passed": false, "error": "NameError"}
+{"code": " open(json_file, 'r', encoding=ENCODING) as file:", "compilation_passed": true, "time": 0.020659923553466797, "tests_passed": false, "error": "NameError"}

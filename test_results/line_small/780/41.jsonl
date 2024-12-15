@@ -1,0 +1,10 @@
+{"code": " not isinstance(articles, list):", "compilation_passed": true, "time": 0.0024919509887695312, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " not articles:", "compilation_passed": true, "time": 0.0033049583435058594, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " not isinstance(articles, list) or not all(isinstance(article, dict) for article in articles):", "compilation_passed": true, "time": 0.0022656917572021484, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " not isinstance(articles, list) or articles == []:", "compilation_passed": true, "time": 0.017316818237304688, "tests_passed": false, "error": "TypeError"}
+{"code": " not articles or type(articles) is not list:", "compilation_passed": true, "time": 0.01737213134765625, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(articles, list) or not articles:", "compilation_passed": true, "time": 0.018214941024780273, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(articles, dict):", "compilation_passed": true, "time": 0.011927127838134766, "tests_passed": true, "error": null}
+{"code": " type(articles) is not list:", "compilation_passed": true, "time": 0.012014150619506836, "tests_passed": true, "error": null}
+{"code": " isinstance(articles, list) and articles:", "compilation_passed": true, "time": 0.009428977966308594, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(articles, list) or any(not isinstance(article, dict) for article in articles):", "compilation_passed": true, "time": 0.011878013610839844, "tests_passed": true, "error": null}

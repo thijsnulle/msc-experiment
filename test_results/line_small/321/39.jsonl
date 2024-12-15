@@ -1,0 +1,23 @@
+{"code": " re.findall(r\"\\[(.*?)\\]\", text, re.IGNORECASE)", "compilation_passed": true, "time": 0.0365147590637207, "tests_passed": false, "error": "KeyError"}
+{"code": " []", "compilation_passed": true, "time": 0.026144027709960938, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r'\\[.*?\\]', text)", "compilation_passed": true, "time": 0.03419089317321777, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r'(\\w+ \\w+)', text)", "compilation_passed": true, "time": 0.05005788803100586, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r'(\\b\\w+\\s+?\\w+\\s+?\\w+\\s+?\\w+\\b|\\b\\w+\\s+?\\w+\\s+?\\w+\\s+?\\w+\\b|\\b\\w+\\s+?\\w+\\b|\\b\\w+\\s+\\w+)', text)", "compilation_passed": true, "time": 0.05009603500366211, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r'[(]?[A-Za-z]+[\\s\\w]+[)]?', text)", "compilation_passed": true, "time": 0.07573699951171875, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r'(\\[\\d+.\\d+.\\d+.\\d+.\\w+.\\w+.\\w+.\\w+, \\w+.\\w+.\\w+\\]|\\[\\d+.\\d+.\\d+.\\d+.\\w+.\\w+.\\w+.\\w+, \\w+.\\w+.\\w+, \\d+\\])', text)", "compilation_passed": true, "time": 0.02663278579711914, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r'[(]([^\\s]+) [^.]+[^0-9]', text)", "compilation_passed": true, "time": 0.026207923889160156, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r\"\\[([^]]+)\\]\", text)", "compilation_passed": true, "time": 0.027734994888305664, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r\"\\[[^\\s]{4}\\s[^\\]]*\\]\", text)", "compilation_passed": true, "time": 0.02198028564453125, "tests_passed": false, "error": "KeyError"}
+{"code": " [name for name in re.findall(r'((?:\\[.*?\\]).*(?<!\\[)(?:,|;| |\\n))', text)]", "compilation_passed": true, "time": 0.03269314765930176, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r\"\\[(.*?)\\]\", text)", "compilation_passed": true, "time": 0.030437707901000977, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r'\\[(.+?)\\]', text)", "compilation_passed": true, "time": 0.031076908111572266, "tests_passed": false, "error": "KeyError"}
+{"code": " [name for name in re.findall(r'[A-Z][a-zA-Z]+', text)]", "compilation_passed": true, "time": 0.03262805938720703, "tests_passed": false, "error": "KeyError"}
+{"code": " [name.strip() for name in re.findall(r\"\\[(.*?)\\]\", text) if name.strip() != \"\"]", "compilation_passed": true, "time": 0.03660321235656738, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r'[(].+[)][0-9]{5,}[, ].+', text)", "compilation_passed": true, "time": 0.022658109664916992, "tests_passed": false, "error": "KeyError"}
+{"code": " [name for name in re.findall(r' \\[?(\\w.+?)\\]?', text)]", "compilation_passed": true, "time": 0.024804115295410156, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r'\\[([A-Za-z ]+)\\]', text)", "compilation_passed": true, "time": 0.014003992080688477, "tests_passed": false, "error": "KeyError"}
+{"code": " [m.group(1).strip() for m in re.finditer(r'\\[\\s*[A-Z][a-z]+ +[A-Z][a-z]+\\s*\\]', text)]", "compilation_passed": true, "time": 0.013635635375976562, "tests_passed": false, "error": "KeyError"}
+{"code": " [re.findall('\\[(.*?)\\]', sentence)[0] for sentence in re.split('\\n', text) if re.findall('\\[(.*?)\\]', sentence)]", "compilation_passed": true, "time": 0.019209861755371094, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r'([A-Z][a-z]+) (([A-Z][a-z]+|\\d+ [A-Z][a-z]+)+) \\[(((\\d+ \\d+ \\d+)|(\\d+ \\d+ \\d+ \\d+)|(\\d+ \\d+ \\d+ \\d+ \\d+ \\d+)), )*\\d+ \\d+ \\d+ \\d+]', text)", "compilation_passed": true, "time": 0.013456106185913086, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r'\\[.+?\\]', text)", "compilation_passed": true, "time": 0.02037787437438965, "tests_passed": false, "error": "KeyError"}
+{"code": " re.findall(r\"\\[[^\\]]*]([^)]*)\\]\", text)", "compilation_passed": true, "time": 0.018853187561035156, "tests_passed": false, "error": "KeyError"}

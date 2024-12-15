@@ -1,0 +1,6 @@
+{"code": " content.encode(from_encoding).decode('utf-8')", "compilation_passed": true, "time": 0.019004344940185547, "tests_passed": true, "error": null}
+{"code": " content.encode(from_encoding).decode(to_encoding)", "compilation_passed": true, "time": 0.019315242767333984, "tests_passed": true, "error": null}
+{"code": " content.replace(delimiter, ';')", "compilation_passed": true, "time": 0.014226913452148438, "tests_passed": true, "error": null}
+{"code": " content.replace('\\r\\n', '\\n')", "compilation_passed": true, "time": 0.018809080123901367, "tests_passed": true, "error": null}
+{"code": " io.StringIO(content, encoding=to_encoding)", "compilation_passed": true, "time": 0.01831507682800293, "tests_passed": false, "error": "TypeError"}
+{"code": " io.StringIO(content)", "compilation_passed": true, "time": 0.018336057662963867, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,23 @@
+{"code": " folium.Map(location=[np.mean([lat_min, lat_max]), np.mean([lon_min, lon_max])], zoom_start=3)", "compilation_passed": true, "time": 0.018609046936035156, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[sum(dic['Lat']) / 2, sum(dic['Lon']) / 2], zoom_start=2)", "compilation_passed": true, "time": 0.020286083221435547, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[df['Latitude'].mean(), df['Longitude'].mean()], zoom_start=3)", "compilation_passed": true, "time": 0.021300077438354492, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[np.mean(dic['Lat']), np.mean(dic['Lon'])], zoom_start=2)", "compilation_passed": true, "time": 0.020061969757080078, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[np.mean(df['Latitude']), np.mean(df['Longitude'])], zoom_start=3)", "compilation_passed": true, "time": 0.02287888526916504, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[np.mean(dic['Lat']), np.mean(dic['Lon'])], zoom_start=3)", "compilation_passed": true, "time": 0.021275043487548828, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[np.mean(df['Latitude']), np.mean(df['Longitude'])], zoom_start=4)", "compilation_passed": true, "time": 0.022836923599243164, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[np.mean(dic['Lat']), np.mean(dic['Lon'])], zoom_start=5)", "compilation_passed": true, "time": 0.019665956497192383, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[lat_min, lon_min], zoom_start=1)", "compilation_passed": true, "time": 0.0188448429107666, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[sum(dic['Lat'])/2, sum(dic['Lon'])/2], zoom_start=2)", "compilation_passed": true, "time": 0.020148038864135742, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[np.mean([lat_min, lat_max]), np.mean([lon_min, lon_max])], zoom_start=2)", "compilation_passed": true, "time": 0.01884603500366211, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[np.mean(list(df['Latitude'])), np.mean(list(df['Longitude']))], zoom_start=3)", "compilation_passed": true, "time": 0.019042015075683594, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[lat_max, lon_max])", "compilation_passed": true, "time": 0.018507957458496094, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[lat_max / 2, lon_max / 2], zoom_start=2)", "compilation_passed": true, "time": 0.020592212677001953, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[np.mean(data['Latitude']), np.mean(data['Longitude'])], zoom_start=2)", "compilation_passed": true, "time": 0.019142866134643555, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=(lat_max, lon_max), zoom_start=1)", "compilation_passed": true, "time": 0.018712997436523438, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[0, 0], zoom_start=2)", "compilation_passed": true, "time": 0.018774032592773438, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[np.mean(data['Latitude']), np.mean(data['Longitude'])], zoom_start=4)", "compilation_passed": true, "time": 0.0191497802734375, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[np.mean([lat_min, lat_max]), np.mean([lon_min, lon_max])], zoom_start=5)", "compilation_passed": true, "time": 0.019422054290771484, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=(lat_max / 2, lon_min), zoom_start=5)", "compilation_passed": true, "time": 0.018620967864990234, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[np.mean([lat_min, lat_max]), np.mean([lon_min, lon_max])], zoom_start=1)", "compilation_passed": true, "time": 0.020227909088134766, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[0, 0], zoom_start=1)", "compilation_passed": true, "time": 0.01867198944091797, "tests_passed": true, "error": null}
+{"code": " folium.Map(location=[np.mean(dic['Lat']), np.mean(dic['Lon'])], zoom_start=3, tiles='Stamen Terrain')", "compilation_passed": true, "time": 0.02576422691345215, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,17 @@
+{"code": "scatter(x=[x[0] for x in myList], y=[x[1] for x in myList], c=kmeans.labels_)", "compilation_passed": true, "time": 0.5338129997253418, "tests_passed": true, "error": null}
+{"code": "scatter([point[0] for point in myList],", "compilation_passed": false, "time": 0.0024039745330810547, "tests_passed": false, "error": "SyntaxError"}
+{"code": "scatter(kmeans.cluster_centers_[:,0], kmeans.cluster_centers_[:,1], color='r', marker='x')", "compilation_passed": true, "time": 0.10607075691223145, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(myList[:, 0], myList[:, 1], c=kmeans.labels_)", "compilation_passed": true, "time": 0.07514071464538574, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(x=np.asarray(myList)[:, 0], y=np.asarray(myList)[:, 1])", "compilation_passed": true, "time": 0.0864870548248291, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(", "compilation_passed": false, "time": 0.0004937648773193359, "tests_passed": false, "error": "SyntaxError"}
+{"code": "scatter([i[0] for i in myList], [i[1] for i in myList])", "compilation_passed": true, "time": 0.09284090995788574, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(x=myList, y=kmeans.labels_, marker='.')", "compilation_passed": true, "time": 0.1110219955444336, "tests_passed": false, "error": "ValueError"}
+{"code": "scatter(myList[:,0], myList[:,1], c=kmeans.labels_)", "compilation_passed": true, "time": 0.24245572090148926, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1], marker=\"x\", s=50, edgecolor=\"k\")", "compilation_passed": true, "time": 0.23374104499816895, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(x=[point[0] for point in myList],", "compilation_passed": false, "time": 0.001271963119506836, "tests_passed": false, "error": "SyntaxError"}
+{"code": "scatter(x=myList[:,0], y=myList[:,1], c=kmeans.labels_)", "compilation_passed": true, "time": 0.07522702217102051, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(x=[x[0] for x in myList], y=[x[1] for x in myList], c=kmeans.labels_, edgecolor='black')", "compilation_passed": true, "time": 0.656214714050293, "tests_passed": true, "error": null}
+{"code": "scatter([point[0] for point in myList], [point[1] for point in myList])", "compilation_passed": true, "time": 0.07838201522827148, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1], s=100, marker='x')", "compilation_passed": true, "time": 0.09244990348815918, "tests_passed": false, "error": "TypeError"}
+{"code": "scatter(kmeans.cluster_centers_[:, 0],", "compilation_passed": false, "time": 0.00026488304138183594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "scatter([p[0] for p in myList], [p[1] for p in myList], c=kmeans.labels_)", "compilation_passed": true, "time": 0.5905489921569824, "tests_passed": true, "error": null}

@@ -1,0 +1,23 @@
+{"code": " get_numerical_data(data, data_key)", "compilation_passed": true, "time": 0.010722160339355469, "tests_passed": false, "error": "NameError"}
+{"code": " data_key.split('.')", "compilation_passed": true, "time": 0.011990070343017578, "tests_passed": false, "error": "TypeError"}
+{"code": " get_value_by_key_path(data, data_key)", "compilation_passed": true, "time": 0.010539054870605469, "tests_passed": false, "error": "NameError"}
+{"code": " eval(f'data[\"{data_key}\"]')", "compilation_passed": true, "time": 0.01859307289123535, "tests_passed": false, "error": "KeyError"}
+{"code": " reduce(lambda d, k: d[k], data_key.split(\".\"), data)", "compilation_passed": true, "time": 0.010007143020629883, "tests_passed": false, "error": "NameError"}
+{"code": " _get_data_by_key(data, data_key)", "compilation_passed": true, "time": 0.011714935302734375, "tests_passed": false, "error": "NameError"}
+{"code": " data[data_key]", "compilation_passed": true, "time": 0.017722129821777344, "tests_passed": false, "error": "KeyError"}
+{"code": " eval('data[\"' + data_key.replace('.', '\"][\"') + '\"]')", "compilation_passed": true, "time": 0.011811256408691406, "tests_passed": false, "error": "TypeError"}
+{"code": " eval(\"data['\" + data_key.replace(\".\", \"']['\") + \"']\")", "compilation_passed": true, "time": 0.012601852416992188, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(eval('data[\"' + data_key.replace('.', '\"][\"') + '\"]')).astype('float64')", "compilation_passed": true, "time": 0.015861988067626953, "tests_passed": false, "error": "KeyError"}
+{"code": " get_data_by_path(data, data_key)", "compilation_passed": true, "time": 0.01222681999206543, "tests_passed": false, "error": "NameError"}
+{"code": " eval('data' + '.' + data_key)", "compilation_passed": true, "time": 0.014304161071777344, "tests_passed": false, "error": "AttributeError"}
+{"code": " data_get(data, data_key)", "compilation_passed": true, "time": 0.010097742080688477, "tests_passed": false, "error": "NameError"}
+{"code": " get_data_from_json(data, data_key)", "compilation_passed": true, "time": 0.010597944259643555, "tests_passed": false, "error": "NameError"}
+{"code": " eval(f\"data['{data_key.replace('.',\" + \"'}[\" + \"']\" + \")]\")", "compilation_passed": false, "time": 0.0001506805419921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " data.get(data_key)", "compilation_passed": true, "time": 0.00982666015625, "tests_passed": false, "error": "TypeError"}
+{"code": " eval('data' + f'[\"{data_key}\"]')", "compilation_passed": true, "time": 0.016541004180908203, "tests_passed": false, "error": "KeyError"}
+{"code": " eval(\"data\" + data_key)", "compilation_passed": true, "time": 0.015302896499633789, "tests_passed": false, "error": "NameError"}
+{"code": " recursive_get(data, data_key)", "compilation_passed": true, "time": 0.01067495346069336, "tests_passed": false, "error": "NameError"}
+{"code": " pd.json_normalize(data, data_key).values.flatten()", "compilation_passed": true, "time": 0.029811859130859375, "tests_passed": false, "error": "KeyError"}
+{"code": " get_value(data, data_key)", "compilation_passed": true, "time": 0.01941704750061035, "tests_passed": false, "error": "NameError"}
+{"code": " data.__getitem__(data_key)", "compilation_passed": true, "time": 0.024410724639892578, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.Series(get_nested_key(data, data_key)).astype('float64')", "compilation_passed": true, "time": 0.018583059310913086, "tests_passed": false, "error": "NameError"}

@@ -1,0 +1,16 @@
+{"code": " pd.DataFrame({'Category': categories,", "compilation_passed": false, "time": 0.00024700164794921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {", "compilation_passed": false, "time": 0.00022673606872558594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0003552436828613281, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Category': categories, 'Sales': np.random.randint(0, 5000, len(categories))})", "compilation_passed": true, "time": 0.00850987434387207, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'Category': categories, 'Sales': np.random.randint(1000, 5000, size=len(categories))})", "compilation_passed": true, "time": 0.00902104377746582, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'Category': categories, 'Sales': np.random.randint(1000, size=len(categories))})", "compilation_passed": true, "time": 0.009495019912719727, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'Category': categories, 'Sales': np.random.randint(1000, size=len(categories))}", "compilation_passed": true, "time": 0.008366823196411133, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'Category': categories,", "compilation_passed": false, "time": 0.00020313262939453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0001652240753173828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Category': categories, 'Sales': np.random.randint(1000, 3000, len(categories))})", "compilation_passed": true, "time": 0.008411884307861328, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(low=100, high=2000, size=len(categories))", "compilation_passed": true, "time": 0.008055925369262695, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'Category': categories, 'Sales': np.random.randint(1000, 5000, 5)})", "compilation_passed": true, "time": 0.00834798812866211, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(100, 2000, size=(5, 3))", "compilation_passed": true, "time": 0.008101940155029297, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'Category': categories, 'Sales': np.random.randint(0, 3000, size=5)})", "compilation_passed": true, "time": 0.008749961853027344, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'Category': categories, 'Sales': np.random.randint(100, 2000, size=5)})", "compilation_passed": true, "time": 0.009274959564208984, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'Category': categories, 'Sales': np.random.randint(500, 5000, size=5)})", "compilation_passed": true, "time": 0.009265899658203125, "tests_passed": false, "error": "AttributeError"}

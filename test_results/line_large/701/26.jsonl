@@ -1,0 +1,10 @@
+{"code": " df.drop(target, axis=1)", "compilation_passed": true, "time": 0.02125406265258789, "tests_passed": true, "error": null}
+{"code": " df['feature'].values.reshape(-1, 1)", "compilation_passed": true, "time": 0.03786206245422363, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df.columns.difference([target])]  # remove target from features", "compilation_passed": true, "time": 0.026726245880126953, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=target)", "compilation_passed": true, "time": 0.019964933395385742, "tests_passed": true, "error": null}
+{"code": " df['feature'].to_numpy().reshape(-1, 1)", "compilation_passed": true, "time": 0.018433094024658203, "tests_passed": false, "error": "KeyError"}
+{"code": " df.drop(columns=[target])", "compilation_passed": true, "time": 0.01828312873840332, "tests_passed": true, "error": null}
+{"code": " df[df.columns[~df.columns.isin([target])]]", "compilation_passed": true, "time": 0.018410921096801758, "tests_passed": true, "error": null}
+{"code": " df['feature'].values.reshape(-1, 1)  # Reshape to fit into LinearRegression model", "compilation_passed": true, "time": 0.019317150115966797, "tests_passed": false, "error": "KeyError"}
+{"code": " df[['feature']]", "compilation_passed": true, "time": 0.007870912551879883, "tests_passed": false, "error": "KeyError"}
+{"code": " df[df.columns.difference([target])]", "compilation_passed": true, "time": 0.01724696159362793, "tests_passed": true, "error": null}

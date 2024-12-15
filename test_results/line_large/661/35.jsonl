@@ -1,0 +1,13 @@
+{"code": " pd.DataFrame(np.array(data).T)", "compilation_passed": true, "time": 0.22215509414672852, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=labels)", "compilation_passed": true, "time": 0.008521080017089844, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.column_stack(data), index=labels)", "compilation_passed": true, "time": 0.0071620941162109375, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data).T", "compilation_passed": true, "time": 0.6185846328735352, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.transpose(data))", "compilation_passed": true, "time": 1.0598108768463135, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(np.column_stack(data), columns=labels)", "compilation_passed": true, "time": 0.9895579814910889, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.concatenate(data, axis=0), columns=labels)", "compilation_passed": true, "time": 0.01213383674621582, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.transpose(data), columns=labels)", "compilation_passed": true, "time": 0.9539611339569092, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 1.0083839893341064, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(data, index=labels)", "compilation_passed": true, "time": 1.0145902633666992, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(data, columns=['x', 'y'])", "compilation_passed": true, "time": 0.008099079132080078, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.concatenate(data, axis=0), index=np.concatenate(x, axis=0), columns=labels)", "compilation_passed": true, "time": 0.0067901611328125, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, index=labels, columns=['x', 'y'])", "compilation_passed": true, "time": 0.007542133331298828, "tests_passed": false, "error": "ValueError"}

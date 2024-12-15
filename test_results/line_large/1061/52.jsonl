@@ -1,0 +1,6 @@
+{"code": "row_sums - mean) / std_dev", "compilation_passed": true, "time": 0.0518031120300293, "tests_passed": false, "error": "ValueError"}
+{"code": "row_sums - mean) / std_dev if std_dev != 0 else np.zeros_like(row_sums)", "compilation_passed": true, "time": 0.2585408687591553, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / std_dev if std_dev > 0 else np.zeros_like(row_sums)", "compilation_passed": true, "time": 0.2608301639556885, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / std_dev if std_dev > 0 else np.zeros(row_sums.shape)", "compilation_passed": true, "time": 0.2530379295349121, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / std_dev if std_dev != 0 else np.zeros(row_sums.shape)", "compilation_passed": true, "time": 0.2611961364746094, "tests_passed": true, "error": null}
+{"code": "row_sums - mean) / std_dev if std_dev != 0 else np.zeros(arr.shape[0])", "compilation_passed": true, "time": 0.2757141590118408, "tests_passed": true, "error": null}

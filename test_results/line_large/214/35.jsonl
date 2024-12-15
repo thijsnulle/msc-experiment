@@ -1,0 +1,19 @@
+{"code": " np.random.randint(range_low, range_high + 1, size=image_size, dtype=np.uint8)", "compilation_passed": true, "time": 0.38168811798095703, "tests_passed": true, "error": null}
+{"code": " np.random.randint(range_low, range_high + 1, size=image_size)", "compilation_passed": true, "time": 0.09340596199035645, "tests_passed": false, "error": ""}
+{"code": " np.random.randint(range_low, range_high+1, size=image_size)", "compilation_passed": true, "time": 0.08466100692749023, "tests_passed": false, "error": ""}
+{"code": " np.random.randint(range_low, range_high, size=image_size).astype(np.uint8)", "compilation_passed": true, "time": 0.4177873134613037, "tests_passed": true, "error": null}
+{"code": " np.random.randint(range_low, range_high, size=image_size, dtype=np.uint8)", "compilation_passed": true, "time": 0.42278289794921875, "tests_passed": true, "error": null}
+{"code": " np.random.randint(range_low, range_high+1, image_size, dtype=np.uint8)", "compilation_passed": true, "time": 0.41468119621276855, "tests_passed": true, "error": null}
+{"code": " np.random.randint(range_low, range_high, image_size)", "compilation_passed": true, "time": 0.08124113082885742, "tests_passed": false, "error": ""}
+{"code": " np.random.randint(range_low, range_high + 1, image_size, dtype=np.uint8)", "compilation_passed": true, "time": 0.40627312660217285, "tests_passed": true, "error": null}
+{"code": " np.random.randint(range_low, range_high + 1, image_size)", "compilation_passed": true, "time": 0.07741904258728027, "tests_passed": false, "error": ""}
+{"code": " np.random.randint(range_low, range_high, size=image_size)", "compilation_passed": true, "time": 0.0618138313293457, "tests_passed": false, "error": ""}
+{"code": " np.random.randint(range_low, range_high, size=image_size).astype('uint8')", "compilation_passed": true, "time": 0.4357118606567383, "tests_passed": true, "error": null}
+{"code": " np.array([random.randint(range_low, range_high) for _ in range(np.prod(image_size))]).reshape(image_size).astype(np.uint8)", "compilation_passed": true, "time": 1.0111219882965088, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.array([random.randint(range_low, range_high) for _ in range(np.prod(image_size))]).reshape(image_size)", "compilation_passed": true, "time": 0.07001209259033203, "tests_passed": false, "error": ""}
+{"code": " np.random.randint(range_low, range_high, image_size).astype('uint8')", "compilation_passed": true, "time": 0.4445340633392334, "tests_passed": true, "error": null}
+{"code": " np.random.randint(range_low, range_high+1, size=image_size).astype(np.uint8)", "compilation_passed": true, "time": 0.42180800437927246, "tests_passed": true, "error": null}
+{"code": " np.random.randint(range_low, range_high + 1, size=image_size).astype('uint8')", "compilation_passed": true, "time": 0.4338219165802002, "tests_passed": true, "error": null}
+{"code": " np.random.randint(range_low, range_high + 1, image_size).astype(np.uint8)", "compilation_passed": true, "time": 0.5485079288482666, "tests_passed": true, "error": null}
+{"code": " np.random.randint(range_low, range_high, image_size).astype(\"uint8\")", "compilation_passed": true, "time": 0.6239480972290039, "tests_passed": true, "error": null}
+{"code": " np.random.randint(range_low, range_high, image_size).astype(np.uint8)", "compilation_passed": true, "time": 0.5413131713867188, "tests_passed": true, "error": null}

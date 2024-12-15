@@ -1,0 +1,29 @@
+{"code": " df.groupby(COLUMNS[:-1]).agg({COLUMNS[-1]: 'max'})", "compilation_passed": true, "time": 0.046005964279174805, "tests_passed": false, "error": "KeyError"}
+{"code": " df.loc[df[COLUMNS[-1]].unique()]", "compilation_passed": true, "time": 0.05133795738220215, "tests_passed": true, "error": null}
+{"code": " df.groupby(COLUMNS[:-1]).apply(lambda x: x.iloc[:,-1])", "compilation_passed": true, "time": 0.07300281524658203, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby([COLUMNS[0], COLUMNS[1]]).agg(pd.Series.mean)", "compilation_passed": true, "time": 0.051529884338378906, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby([col for col in df.columns if col != COLUMNS[-1]]).agg(lambda x: x.iloc[0, -1])", "compilation_passed": true, "time": 0.016559123992919922, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " df.groupby([i for i in COLUMNS[:-1]]).last()", "compilation_passed": true, "time": 0.04668593406677246, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby([COLUMNS[0], COLUMNS[1]])[COLUMNS[-1]].count().reset_index()", "compilation_passed": true, "time": 0.048699140548706055, "tests_passed": true, "error": null}
+{"code": " df.groupby([df[COLUMNS[0]], df[COLUMNS[1]]])[COLUMNS[2]].unique()", "compilation_passed": true, "time": 0.043444156646728516, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(", "compilation_passed": false, "time": 0.00016307830810546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby(df.columns[:-1]).agg(pd.Series.mean)", "compilation_passed": true, "time": 0.007427215576171875, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df[COLUMNS[-1]].isin(df[COLUMNS[:-1]].values)]", "compilation_passed": true, "time": 0.014968156814575195, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(COLUMNS[:-1])[COLUMNS[-1]].nunique().reset_index(name=COLUMNS[-1])", "compilation_passed": true, "time": 0.21506404876708984, "tests_passed": true, "error": null}
+{"code": " df.groupby(df.columns[:-1]).aggregate()", "compilation_passed": true, "time": 0.007554054260253906, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(df.columns[:-1])[df.columns[-1]].agg(pd.Series.unique)", "compilation_passed": true, "time": 0.007675886154174805, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby([c for c in COLUMNS[:-1]])[COLUMNS[-1]].value_counts().unstack().reset_index(drop=True)", "compilation_passed": true, "time": 0.051312923431396484, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(list(df.columns)[:-1]).agg(lambda x: x.mean())", "compilation_passed": true, "time": 0.04624319076538086, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(COLUMNS[:-1]).agg(lambda x: x[0])", "compilation_passed": true, "time": 0.019722938537597656, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(COLUMNS[:-1]).aggregate([(COLUMNS[-1])])", "compilation_passed": true, "time": 0.008469104766845703, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.groupby(list(df.columns[:-1]))[COLUMNS[-1]].apply(lambda x: pd.DataFrame(x.value_counts().sort_index())).reset_index()", "compilation_passed": true, "time": 0.05846095085144043, "tests_passed": false, "error": "KeyError"}
+{"code": " df[COLUMNS[:-1]].drop_duplicates()", "compilation_passed": true, "time": 0.05832695960998535, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(list(COLUMNS[:-1]))[COLUMNS[-1]]", "compilation_passed": true, "time": 0.0498507022857666, "tests_passed": false, "error": "IndexError"}
+{"code": " df.groupby([col for col in COLUMNS[:-1]]).agg(pd.Series.value_counts).reset_index()", "compilation_passed": true, "time": 0.013276100158691406, "tests_passed": false, "error": "ValueError"}
+{"code": " df[COLUMNS[-1]]", "compilation_passed": true, "time": 0.051072120666503906, "tests_passed": false, "error": "KeyError"}
+{"code": " df[COLUMNS[-1]].groupby(list(df.columns[:-1])).apply(lambda x: pd.DataFrame(x.values, columns=COLUMNS[:-1])).reset_index(drop=True)", "compilation_passed": true, "time": 0.00740361213684082, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(COLUMNS[:-1])[COLUMNS[-1]].agg('min').to_frame('col1')", "compilation_passed": true, "time": 0.04852485656738281, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(df.columns[:-1].to_list()).mean()", "compilation_passed": true, "time": 0.047952890396118164, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(df.columns[:-1]).agg(max)", "compilation_passed": true, "time": 0.008317232131958008, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby([c for c in COLUMNS[:-1]]).agg(pd.Series.value_counts).reset_index().rename(columns={COLUMNS[-1]: 'value_count'})", "compilation_passed": true, "time": 0.013012886047363281, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(COLUMNS[:-1]).agg({COLUMNS[-1]: ['min', 'max', 'mean', 'std']}).reset_index()", "compilation_passed": true, "time": 0.05314493179321289, "tests_passed": true, "error": null}

@@ -1,0 +1,15 @@
+{"code": " pd.date_range(start_date, periods=10, freq=\"D\")", "compilation_passed": true, "time": 0.005470991134643555, "tests_passed": true, "error": null}
+{"code": " [start_date + datetime.timedelta(days=i) for i in range(10)]", "compilation_passed": true, "time": 0.005892038345336914, "tests_passed": false, "error": "AttributeError"}
+{"code": " [datetime.strftime(start_date + datetime.timedelta(days=x), \"%Y-%m-%d\") for x in range(10)]", "compilation_passed": true, "time": 0.006063938140869141, "tests_passed": false, "error": "AttributeError"}
+{"code": " [datetime.date(start_date.year, start_date.month, start_date.day + i)", "compilation_passed": false, "time": 0.00015306472778320312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.007502079010009766, "tests_passed": true, "error": null}
+{"code": " [start_date + datetime.timedelta(days=i) for i in range(11)]", "compilation_passed": true, "time": 0.006042957305908203, "tests_passed": false, "error": "AttributeError"}
+{"code": " [datetime(year=start_date.year, month=start_date.month, day=day) for day in range(start_date.day, 10 + start_date.day)]", "compilation_passed": true, "time": 0.007279872894287109, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(start_date, periods=10)", "compilation_passed": true, "time": 0.004390239715576172, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, periods=10, freq='D')", "compilation_passed": true, "time": 0.004536151885986328, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00014901161193847656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [start_date + datetime.timedelta(days=day) for day in range(10)]", "compilation_passed": true, "time": 0.0059740543365478516, "tests_passed": false, "error": "AttributeError"}
+{"code": " [start_date + timedelta(days=x) for x in range(0, 10)]", "compilation_passed": true, "time": 0.003665924072265625, "tests_passed": true, "error": null}
+{"code": " product(EMPLOYEES, [start_date + timedelta(days=i)", "compilation_passed": false, "time": 0.00013208389282226562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [start_date + timedelta(days=i) for i in range(10)]", "compilation_passed": true, "time": 0.003309965133666992, "tests_passed": true, "error": null}
+{"code": " [start_date + datetime.timedelta(days=x) for x in range(10)]", "compilation_passed": true, "time": 0.005795001983642578, "tests_passed": false, "error": "AttributeError"}

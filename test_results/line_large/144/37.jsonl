@@ -1,0 +1,6 @@
+{"code": " requests.get(f\"http://{ip}\", timeout=timeout)", "compilation_passed": true, "time": 0.004956960678100586, "tests_passed": true, "error": null}
+{"code": " requests.get(f'http://{ip}', timeout=timeout)", "compilation_passed": true, "time": 0.004390716552734375, "tests_passed": true, "error": null}
+{"code": " requests.get(f'http://{str(ip)}', timeout=timeout)", "compilation_passed": true, "time": 0.00426483154296875, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"http://{str(ip)}/\", timeout=timeout)", "compilation_passed": true, "time": 0.0051500797271728516, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"http://{ip}/\", timeout=timeout)", "compilation_passed": true, "time": 0.003982067108154297, "tests_passed": true, "error": null}
+{"code": " requests.get(f\"http://{str(ip)}\", timeout=timeout)", "compilation_passed": true, "time": 0.003681182861328125, "tests_passed": true, "error": null}

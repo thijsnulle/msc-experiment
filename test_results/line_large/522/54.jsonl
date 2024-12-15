@@ -1,0 +1,13 @@
+{"code": "bar(labels, values)", "compilation_passed": true, "time": 0.48323583602905273, "tests_passed": true, "error": null}
+{"code": "bar(labels, values, color=['red', 'yellow', 'green', 'blue', 'purple'])", "compilation_passed": true, "time": 0.48665904998779297, "tests_passed": true, "error": null}
+{"code": "bar(labels, values, color=[\"red\", \"yellow\", \"green\", \"blue\", \"purple\"])", "compilation_passed": true, "time": 0.5065538883209229, "tests_passed": true, "error": null}
+{"code": "bar(labels, values, color='red', edgecolor='black')", "compilation_passed": true, "time": 0.5066909790039062, "tests_passed": true, "error": null}
+{"code": "bar(labels, values, width=0.5, color=['red', 'yellow', 'green', 'blue', 'purple'])", "compilation_passed": true, "time": 0.5044801235198975, "tests_passed": true, "error": null}
+{"code": "bar(range(len(avg_scores)), values)", "compilation_passed": true, "time": 0.5026917457580566, "tests_passed": true, "error": null}
+{"code": "bar(range(len(avg_scores)), values, tick_label=labels, width=0.6, align='center', color=['red', 'yellow', 'green', 'blue', 'purple'])", "compilation_passed": true, "time": 0.5271651744842529, "tests_passed": true, "error": null}
+{"code": "bar(labels, values, color=('red', 'yellow', 'green', 'blue', 'purple'))", "compilation_passed": true, "time": 0.532404899597168, "tests_passed": true, "error": null}
+{"code": "bar(labels, values, color=plt.rcParams[\"axes.prop_cycle\"].by_key()[\"color\"])", "compilation_passed": true, "time": 0.5455553531646729, "tests_passed": true, "error": null}
+{"code": "bar(labels, values, color='r')", "compilation_passed": true, "time": 0.5423769950866699, "tests_passed": true, "error": null}
+{"code": "set_title(\"Average Student Scores\")", "compilation_passed": true, "time": 0.09185314178466797, "tests_passed": false, "error": "IndexError"}
+{"code": "bar(labels, values, color=\"red\")", "compilation_passed": true, "time": 0.5465128421783447, "tests_passed": true, "error": null}
+{"code": "bar(range(len(avg_scores)), values, tick_label=labels, width=0.5, edgecolor='white')", "compilation_passed": true, "time": 0.5448122024536133, "tests_passed": true, "error": null}

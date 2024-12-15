@@ -1,0 +1,9 @@
+{"code": " np.array(img)", "compilation_passed": true, "time": 0.011310815811157227, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.asarray(img)", "compilation_passed": true, "time": 0.011943817138671875, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(img.filter(ImageFilter.GaussianBlur(radius=blur_radius)))", "compilation_passed": true, "time": 0.012639999389648438, "tests_passed": false, "error": "AttributeError"}
+{"code": " img.filter(ImageFilter.GaussianBlur(blur_radius)).convert(\"L\")", "compilation_passed": true, "time": 0.01595592498779297, "tests_passed": false, "error": ""}
+{"code": " img.filter(ImageFilter.GaussianBlur(radius=blur_radius))", "compilation_passed": true, "time": 0.010986089706420898, "tests_passed": true, "error": null}
+{"code": " img.filter(ImageFilter.GaussianBlur(blur_radius))", "compilation_passed": true, "time": 0.012197017669677734, "tests_passed": true, "error": null}
+{"code": " img.convert(\"RGB\")", "compilation_passed": true, "time": 0.008217096328735352, "tests_passed": true, "error": null}
+{"code": " img.resize((img.width // 2, img.height // 2))", "compilation_passed": true, "time": 0.015635013580322266, "tests_passed": true, "error": null}
+{"code": " img.resize((512, 512))", "compilation_passed": true, "time": 0.17653298377990723, "tests_passed": true, "error": null}

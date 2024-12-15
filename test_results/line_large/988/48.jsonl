@@ -1,0 +1,12 @@
+{"code": " list(set(predicates))  # deduplicate predicates", "compilation_passed": true, "time": 0.027805328369140625, "tests_passed": true, "error": null}
+{"code": " list(set(predicates))", "compilation_passed": true, "time": 0.017587900161743164, "tests_passed": true, "error": null}
+{"code": " [p for p in set(predicates) if p in predicate_functions]", "compilation_passed": true, "time": 0.015494823455810547, "tests_passed": true, "error": null}
+{"code": " set(predicates)", "compilation_passed": true, "time": 0.015660762786865234, "tests_passed": true, "error": null}
+{"code": " [p for p in predicates if p in predicate_functions]", "compilation_passed": true, "time": 0.020663976669311523, "tests_passed": true, "error": null}
+{"code": " [predicate_functions[pred] for pred in set(predicates) if pred in predicate_functions]", "compilation_passed": true, "time": 0.010297060012817383, "tests_passed": true, "error": null}
+{"code": " list(set(predicates))  # deduplicate the list", "compilation_passed": true, "time": 0.015500068664550781, "tests_passed": true, "error": null}
+{"code": " [predicate for predicate in set(predicates) if predicate in predicate_functions]", "compilation_passed": true, "time": 0.013674020767211914, "tests_passed": true, "error": null}
+{"code": " list(set(predicates))  # deduplicate and preserve order", "compilation_passed": true, "time": 0.016632080078125, "tests_passed": true, "error": null}
+{"code": " list(set(predicates))  # Deduplicate predicates", "compilation_passed": true, "time": 0.016555070877075195, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00023102760314941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [x for x in predicates if x in predicate_functions.keys()]", "compilation_passed": true, "time": 0.01362919807434082, "tests_passed": true, "error": null}

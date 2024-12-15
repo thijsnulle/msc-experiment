@@ -1,0 +1,16 @@
+{"code": " column_a in filtered_df.columns and not filtered_df[column_a].empty:", "compilation_passed": true, "time": 0.008530855178833008, "tests_passed": true, "error": null}
+{"code": " filtered_df.empty or filtered_df[column_a].isnull().all():", "compilation_passed": true, "time": 0.014255285263061523, "tests_passed": false, "error": "ValueError"}
+{"code": " filtered_df.empty or filtered_df[column_a].all() == filtered_df[column_a].iloc[0]:", "compilation_passed": true, "time": 0.008688926696777344, "tests_passed": false, "error": "ValueError"}
+{"code": " column_a not in filtered_df or filtered_df[column_a].std() == 0:", "compilation_passed": true, "time": 0.010384798049926758, "tests_passed": true, "error": null}
+{"code": " filtered_df.empty or filtered_df[column_a].std() == 0:", "compilation_passed": true, "time": 0.01145482063293457, "tests_passed": true, "error": null}
+{"code": " filtered_df[column_a].empty or filtered_df[column_a].nunique() == 1:", "compilation_passed": true, "time": 0.010681867599487305, "tests_passed": true, "error": null}
+{"code": " column_a in filtered_df:", "compilation_passed": true, "time": 0.00797891616821289, "tests_passed": true, "error": null}
+{"code": " filtered_df[column_a].empty:", "compilation_passed": true, "time": 0.008034944534301758, "tests_passed": false, "error": "ValueError"}
+{"code": " filtered_df.empty:", "compilation_passed": true, "time": 0.008198976516723633, "tests_passed": false, "error": "ValueError"}
+{"code": " filtered_df[column_a].empty or filtered_df[column_a].std() == 0:", "compilation_passed": true, "time": 0.009702920913696289, "tests_passed": true, "error": null}
+{"code": " filtered_df.empty or filtered_df[column_a].nunique() <= 1:", "compilation_passed": true, "time": 0.010437726974487305, "tests_passed": true, "error": null}
+{"code": " len(filtered_df) == 0 or filtered_df[column_a].nunique() == 1:", "compilation_passed": true, "time": 0.011816978454589844, "tests_passed": true, "error": null}
+{"code": " column_a not in filtered_df.columns or filtered_df[column_a].nunique() == 1:", "compilation_passed": true, "time": 0.009404897689819336, "tests_passed": true, "error": null}
+{"code": " column_a not in filtered_df.columns:", "compilation_passed": true, "time": 0.008100032806396484, "tests_passed": false, "error": "ValueError"}
+{"code": " column_a not in filtered_df or filtered_df[column_a].empty:", "compilation_passed": true, "time": 0.008456230163574219, "tests_passed": false, "error": "ValueError"}
+{"code": " filtered_df.empty or filtered_df[column_a].nunique() == 1:", "compilation_passed": true, "time": 0.011301755905151367, "tests_passed": true, "error": null}

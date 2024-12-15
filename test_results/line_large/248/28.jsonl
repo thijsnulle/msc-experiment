@@ -1,0 +1,8 @@
+{"code": " itertools.unzip_longest(*data_list)", "compilation_passed": true, "time": 0.011649131774902344, "tests_passed": false, "error": "AttributeError"}
+{"code": " itertools.zip_longest(*data_list)", "compilation_passed": true, "time": 0.008018970489501953, "tests_passed": false, "error": "TypeError"}
+{"code": " itertools.chain(*data_list)", "compilation_passed": true, "time": 0.009076118469238281, "tests_passed": false, "error": "TypeError"}
+{"code": " zip(*data_list)", "compilation_passed": true, "time": 0.021248817443847656, "tests_passed": false, "error": "TypeError"}
+{"code": " list(zip(*data_list))", "compilation_passed": true, "time": 0.18238496780395508, "tests_passed": true, "error": null}
+{"code": " np.array(list(itertools.unzip_longest(*data_list)))", "compilation_passed": true, "time": 0.008491992950439453, "tests_passed": false, "error": "AttributeError"}
+{"code": " list(itertools.zip_longest(*data_list))", "compilation_passed": true, "time": 0.1823873519897461, "tests_passed": true, "error": null}
+{"code": " np.array([np.array(tup) for tup in itertools.zip_longest(*data_list)])", "compilation_passed": true, "time": 0.16115498542785645, "tests_passed": true, "error": null}

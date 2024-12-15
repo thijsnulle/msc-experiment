@@ -1,0 +1,24 @@
+{"code": " re.sub('\\s+', ' ', text)  # Remove duplicated spaces", "compilation_passed": true, "time": 0.003023862838745117, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s{2,}', ' ', text)  # Remove extra spaces", "compilation_passed": true, "time": 0.0020771026611328125, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)  # Remove multiple spaces", "compilation_passed": true, "time": 0.0016820430755615234, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)  # Replace multiple spaces with single space", "compilation_passed": true, "time": 0.0017390251159667969, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\d+', '', text)  # Remove all digits", "compilation_passed": true, "time": 0.0021021366119384766, "tests_passed": true, "error": null}
+{"code": " text.lower().strip()  # Convert to lowercase and strip spaces", "compilation_passed": true, "time": 0.0023348331451416016, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)  # Remove duplicate spaces", "compilation_passed": true, "time": 0.0020780563354492188, "tests_passed": true, "error": null}
+{"code": " re.sub('\\s\\s+', ' ', text)  # Remove any duplicate spaces", "compilation_passed": true, "time": 0.0024318695068359375, "tests_passed": true, "error": null}
+{"code": " ' '.join(text.split())  # Normalize spaces to single space", "compilation_passed": true, "time": 0.0018339157104492188, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\n+', '\\n', text).strip()", "compilation_passed": true, "time": 0.0020012855529785156, "tests_passed": true, "error": null}
+{"code": " ' '.join([word.lower() for word in text.split()])  # Lowercase and remove duplicate spaces", "compilation_passed": true, "time": 0.0019588470458984375, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text).strip()  # Replace multiple spaces with a single space", "compilation_passed": true, "time": 0.0019140243530273438, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\d', '', text)  # Remove all digits", "compilation_passed": true, "time": 0.0019419193267822266, "tests_passed": true, "error": null}
+{"code": " text.lower()", "compilation_passed": true, "time": 0.0017871856689453125, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s{2,}', ' ', text)  # Remove duplicate spaces", "compilation_passed": true, "time": 0.0016760826110839844, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\n+', ' ', text)  # Remove newlines", "compilation_passed": true, "time": 0.0018448829650878906, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)  # Remove any multiple spaces", "compilation_passed": true, "time": 0.001772165298461914, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text).strip()  # Normalize spaces", "compilation_passed": true, "time": 0.0016498565673828125, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)  # Remove extra spaces", "compilation_passed": true, "time": 0.001712799072265625, "tests_passed": true, "error": null}
+{"code": " ' '.join(text.lower().split())  # Normalize spaces", "compilation_passed": true, "time": 0.0018889904022216797, "tests_passed": true, "error": null}
+{"code": " ' '.join(word for word in text.split() if word not in STOPWORDS)  # Remove stopwords", "compilation_passed": true, "time": 0.0017368793487548828, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\d+', '', text)  # Remove all numbers", "compilation_passed": true, "time": 0.0018870830535888672, "tests_passed": true, "error": null}
+{"code": " re.sub(' +', ' ', text)  # Remove duplicate spaces", "compilation_passed": true, "time": 0.0018010139465332031, "tests_passed": true, "error": null}
+{"code": " text.replace('\\n', ' ')  # Replace newline characters with spaces", "compilation_passed": true, "time": 0.001764059066772461, "tests_passed": true, "error": null}

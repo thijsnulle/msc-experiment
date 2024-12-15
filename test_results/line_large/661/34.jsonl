@@ -1,0 +1,21 @@
+{"code": "append(np.hstack((x[i].reshape(-1, 1), y[i].reshape(-1, 1))))", "compilation_passed": true, "time": 0.019855976104736328, "tests_passed": false, "error": "ValueError"}
+{"code": "append(np.concatenate((x[i], y[i])))", "compilation_passed": true, "time": 1.0102851390838623, "tests_passed": false, "error": "TimeoutError"}
+{"code": "append(list(x[i] - y[i]))", "compilation_passed": true, "time": 0.38378405570983887, "tests_passed": true, "error": null}
+{"code": "append(list(x[i]) + [labels[i]])", "compilation_passed": true, "time": 0.009432077407836914, "tests_passed": false, "error": "ValueError"}
+{"code": "append(list(x[i]))", "compilation_passed": true, "time": 0.7994461059570312, "tests_passed": true, "error": null}
+{"code": "append(np.array([x[i], y[i]]))", "compilation_passed": true, "time": 0.03072190284729004, "tests_passed": false, "error": "ValueError"}
+{"code": "append(list(y[i]))", "compilation_passed": true, "time": 0.8306591510772705, "tests_passed": true, "error": null}
+{"code": "append(list(x[i] + y[i]))", "compilation_passed": true, "time": 1.017319917678833, "tests_passed": false, "error": "TimeoutError"}
+{"code": "append([float(x[i][0]), float(x[i][1]), float(x[i][2])])", "compilation_passed": true, "time": 0.5816349983215332, "tests_passed": true, "error": null}
+{"code": "append(pd.DataFrame(np.column_stack((x[i], y[i])), columns=[labels[i] + ' (x)', labels[i] + ' (y)']))", "compilation_passed": true, "time": 0.008658885955810547, "tests_passed": false, "error": "ValueError"}
+{"code": "append(y[i] / x[i])", "compilation_passed": true, "time": 0.539762020111084, "tests_passed": true, "error": null}
+{"code": "append(x[i] * y[i])", "compilation_passed": true, "time": 0.5516278743743896, "tests_passed": true, "error": null}
+{"code": "append(dict(zip(x[i], y[i])))", "compilation_passed": true, "time": 0.6159110069274902, "tests_passed": true, "error": null}
+{"code": "append(np.vstack((x[i], y[i])))", "compilation_passed": true, "time": 0.006967782974243164, "tests_passed": false, "error": "ValueError"}
+{"code": "append(x[i])", "compilation_passed": true, "time": 0.6782660484313965, "tests_passed": true, "error": null}
+{"code": "append((x[i], y[i]))", "compilation_passed": true, "time": 0.008152008056640625, "tests_passed": false, "error": "ValueError"}
+{"code": "append([x[i], y[i]])", "compilation_passed": true, "time": 0.007977962493896484, "tests_passed": false, "error": "ValueError"}
+{"code": "append([x[i][j] / y[i][j] for j in range(len(x[i]))])", "compilation_passed": true, "time": 0.7116320133209229, "tests_passed": true, "error": null}
+{"code": "append(np.column_stack((x[i], y[i])))", "compilation_passed": true, "time": 0.009176015853881836, "tests_passed": false, "error": "ValueError"}
+{"code": "append(list(zip(x[i], y[i])))", "compilation_passed": true, "time": 0.007539272308349609, "tests_passed": false, "error": "ValueError"}
+{"code": "append([x[i][j] * y[i][j] for j in range(len(x[i]))])", "compilation_passed": true, "time": 0.847315788269043, "tests_passed": true, "error": null}

@@ -1,0 +1,26 @@
+{"code": " {char: sum(values) for char, values in groupby(sorted_items, key=KEY_FUNC)}", "compilation_passed": true, "time": 0.012104034423828125, "tests_passed": false, "error": "TypeError"}
+{"code": " {char: sum([value for k, v in group_items for key, value in v if key[0] == char]) for char, group_items in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.02154994010925293, "tests_passed": false, "error": "TypeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.0056989192962646484, "tests_passed": true, "error": null}
+{"code": " {key: sum([v for k, v in items]) for key, items in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.0060460567474365234, "tests_passed": true, "error": null}
+{"code": " {key: sum(val for key, val in group) for key, group in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.005346775054931641, "tests_passed": true, "error": null}
+{"code": " {group_key: sum([item[1] for item in items])", "compilation_passed": false, "time": 0.0002181529998779297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {k: sum(item[1] for item in group) for k, group in groupby(sorted_items, key_func=KEY_FUNC)}", "compilation_passed": true, "time": 0.008512735366821289, "tests_passed": false, "error": "TypeError"}
+{"code": " {char: sum(map(itemgetter(1), group)) for char, group in groupby(sorted_items, key=KEY_FUNC)}", "compilation_passed": true, "time": 0.004887104034423828, "tests_passed": true, "error": null}
+{"code": " {key: sum(int(value) for key, value in group) for key, group in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.005670070648193359, "tests_passed": true, "error": null}
+{"code": " {key: sum(int(val) for key, val in group) for key, group in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.0062007904052734375, "tests_passed": true, "error": null}
+{"code": " {k: sum([item[1] for item in group]) for k, group in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.004801034927368164, "tests_passed": true, "error": null}
+{"code": " {key_char: sum(item[1] for item in group_items)", "compilation_passed": false, "time": 0.0001766681671142578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {k: sum(map(itemgetter(1), v)) for k, v in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.0040247440338134766, "tests_passed": true, "error": null}
+{"code": " {key: sum(map(itemgetter(1), group)) for key, group in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.0037887096405029297, "tests_passed": true, "error": null}
+{"code": " {key: sum(values) for key, values in groupby(sorted_items, key_func=KEY_FUNC)}", "compilation_passed": true, "time": 0.005962848663330078, "tests_passed": false, "error": "TypeError"}
+{"code": " {char: sum(int(v) for _, v in items) for char, items in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.00401616096496582, "tests_passed": true, "error": null}
+{"code": " {key: sum(values for _, values in group)", "compilation_passed": false, "time": 0.0001628398895263672, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {key: sum(int(item[1]) for item in group) for key, group in groupby(sorted_items, key_func=KEY_FUNC)}", "compilation_passed": true, "time": 0.006443977355957031, "tests_passed": false, "error": "TypeError"}
+{"code": " {k: sum(v for _, v in group) for k, group in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.0038802623748779297, "tests_passed": true, "error": null}
+{"code": " {k: sum(int(v) for k, v in group) for k, group in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.0037012100219726562, "tests_passed": true, "error": null}
+{"code": " {key: sum(values for key, values in groupby(sorted_items, KEY_FUNC))", "compilation_passed": false, "time": 0.00015282630920410156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {key: sum(val for _, val in vals) for key, vals in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.003984928131103516, "tests_passed": true, "error": null}
+{"code": " {key: sum([value for key, value in group]) for key, group in groupby(sorted_items, key_func=KEY_FUNC)}", "compilation_passed": true, "time": 0.0060710906982421875, "tests_passed": false, "error": "TypeError"}
+{"code": " {key: sum(item[1] for item in group) for key, group in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.00403904914855957, "tests_passed": true, "error": null}
+{"code": " {key: sum(map(lambda x: x[1], group)) for key, group in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.0040111541748046875, "tests_passed": true, "error": null}
+{"code": " {key: sum(values) for key, values in groupby(sorted_items, KEY_FUNC)}", "compilation_passed": true, "time": 0.008224010467529297, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,15 @@
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.011358976364135742, "tests_passed": false, "error": "KeyError"}
+{"code": " df.empty or df.apply(pd.api.types.is_numeric_dtype).any().any() is False:", "compilation_passed": true, "time": 0.014516830444335938, "tests_passed": false, "error": "KeyError"}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.018771886825561523, "tests_passed": false, "error": "KeyError"}
+{"code": " df is None or not df.info().dtypes.is_numeric():", "compilation_passed": true, "time": 0.015520095825195312, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.empty or df[col_b].dtype != int:", "compilation_passed": true, "time": 0.026048660278320312, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or not df.any():", "compilation_passed": true, "time": 0.01353001594543457, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df, pd.DataFrame) or not df.dtypes.apply(lambda x: x.dtype.name.lower() in ['int32', 'int64']).all():", "compilation_passed": true, "time": 0.010660171508789062, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or df.isnull().any().any():", "compilation_passed": true, "time": 0.010579109191894531, "tests_passed": false, "error": "KeyError"}
+{"code": " df.empty or df.iloc[:, 0].dtype != int:", "compilation_passed": true, "time": 0.014015913009643555, "tests_passed": false, "error": "KeyError"}
+{"code": " df.isnull().any().any():", "compilation_passed": true, "time": 0.010161876678466797, "tests_passed": false, "error": "KeyError"}
+{"code": " not df.isna().all().all() and df.dtypes.isin([np.float64, np.int64]).all():", "compilation_passed": true, "time": 0.013839960098266602, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or (not df.isnull().all()) or not df.select_dtypes(['number']).columns.isin(['B', col_a]).all():", "compilation_passed": true, "time": 0.00960993766784668, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df) == 0:", "compilation_passed": true, "time": 0.015977859497070312, "tests_passed": false, "error": "KeyError"}
+{"code": " not df.apply(pd.isna).all().all():", "compilation_passed": true, "time": 0.011358022689819336, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or df.empty or not df.select_dtypes(include='number').columns.isin(['A', 'B']).all():", "compilation_passed": true, "time": 0.011855125427246094, "tests_passed": false, "error": "TypeError"}

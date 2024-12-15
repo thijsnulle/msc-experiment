@@ -1,0 +1,6 @@
+{"code": "fit_transform(x[['age', 'income']]),", "compilation_passed": true, "time": 0.19312596321105957, "tests_passed": true, "error": null}
+{"code": "fit_transform(", "compilation_passed": false, "time": 0.00015807151794433594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "transform(x[['age', 'income']]),", "compilation_passed": true, "time": 0.08936405181884766, "tests_passed": false, "error": "sklearn.exceptions.NotFittedError"}
+{"code": "fit_transform(x[['age', 'income']].values),", "compilation_passed": true, "time": 0.19308996200561523, "tests_passed": true, "error": null}
+{"code": "fit_transform(x[['age', 'income']].astype(np.float64)),", "compilation_passed": true, "time": 0.21747779846191406, "tests_passed": true, "error": null}
+{"code": "fit_transform(x[['age', 'income']].astype(float)),", "compilation_passed": true, "time": 0.21893095970153809, "tests_passed": true, "error": null}

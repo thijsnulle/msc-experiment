@@ -1,0 +1,6 @@
+{"code": " elements_series.str.len()", "compilation_passed": true, "time": 0.006428241729736328, "tests_passed": true, "error": null}
+{"code": " pd.Series([len(elem) for elem in elements_series])", "compilation_passed": true, "time": 0.005762815475463867, "tests_passed": true, "error": null}
+{"code": " elements_series.apply(len)", "compilation_passed": true, "time": 0.005948305130004883, "tests_passed": true, "error": null}
+{"code": " elements_series.apply(lambda x: len(x))", "compilation_passed": true, "time": 0.007249116897583008, "tests_passed": true, "error": null}
+{"code": " elements_series.apply(lambda element: len(element))", "compilation_passed": true, "time": 0.007524967193603516, "tests_passed": true, "error": null}
+{"code": " elements_series.map(lambda x: len(x))", "compilation_passed": true, "time": 0.005555868148803711, "tests_passed": true, "error": null}

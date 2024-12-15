@@ -1,0 +1,21 @@
+{"code": " [word[1:] if word.startswith('$') else word for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.004151105880737305, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in dollar_prefixed_words if word != '$']", "compilation_passed": true, "time": 0.004842042922973633, "tests_passed": true, "error": null}
+{"code": " [word[1:] if word.startswith('$$') else word for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.0038280487060546875, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in dollar_prefixed_words if not re.match(r'^\\$\\$', word)]", "compilation_passed": true, "time": 0.00843191146850586, "tests_passed": false, "error": "NameError"}
+{"code": " [word.lstrip(\"$\") for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.0042459964752197266, "tests_passed": true, "error": null}
+{"code": " [word.replace(\"$\", \"\") for word in dollar_prefixed_words if", "compilation_passed": false, "time": 0.00014591217041015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [word.replace('$', '').lower() for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.004270076751708984, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.0038967132568359375, "tests_passed": true, "error": null}
+{"code": " [word.replace('$', '') for word in dollar_prefixed_words if not re.match(r'^\\$\\$$', word)]", "compilation_passed": true, "time": 0.008121013641357422, "tests_passed": false, "error": "NameError"}
+{"code": " [word.lower() for word in dollar_prefixed_words if re.match(r'\\$\\w+', word)]", "compilation_passed": true, "time": 0.008722782135009766, "tests_passed": false, "error": "NameError"}
+{"code": " [word.replace('$', '') for word in dollar_prefixed_words if not word.startswith('$$')]", "compilation_passed": true, "time": 0.003802061080932617, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.0038909912109375, "tests_passed": true, "error": null}
+{"code": " [word.lstrip('$') for word in dollar_prefixed_words if not word.lstrip('$') == \"\"]", "compilation_passed": true, "time": 0.003904104232788086, "tests_passed": true, "error": null}
+{"code": " [word.replace('$', '') for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.004412174224853516, "tests_passed": true, "error": null}
+{"code": " [word[1:].lower() for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.0039010047912597656, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in dollar_prefixed_words if not re.match('^\\$+', word)]", "compilation_passed": true, "time": 0.010050058364868164, "tests_passed": false, "error": "NameError"}
+{"code": " [word[1:] for word in dollar_prefixed_words if word[1:]]", "compilation_passed": true, "time": 0.00403285026550293, "tests_passed": true, "error": null}
+{"code": " [word.strip(\"$\") for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.004907131195068359, "tests_passed": true, "error": null}
+{"code": " [word.lstrip('$') for word in dollar_prefixed_words]", "compilation_passed": true, "time": 0.004715919494628906, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in dollar_prefixed_words if word[1:].isalnum()]", "compilation_passed": true, "time": 0.004065990447998047, "tests_passed": true, "error": null}
+{"code": " [word.lstrip('$') for word in dollar_prefixed_words if word.lstrip('$')]", "compilation_passed": true, "time": 0.004128932952880859, "tests_passed": true, "error": null}

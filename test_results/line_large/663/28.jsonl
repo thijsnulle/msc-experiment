@@ -1,0 +1,12 @@
+{"code": " len(x) != len(y) or len(x) != len(labels):", "compilation_passed": true, "time": 0.04287099838256836, "tests_passed": true, "error": null}
+{"code": " len(x) != len(y) != len(labels):", "compilation_passed": true, "time": 0.03786802291870117, "tests_passed": true, "error": null}
+{"code": " not len(x) == len(y) == len(labels):", "compilation_passed": true, "time": 0.041992902755737305, "tests_passed": true, "error": null}
+{"code": " len(x) != len(y) or len(y) != len(labels):", "compilation_passed": true, "time": 0.039784908294677734, "tests_passed": true, "error": null}
+{"code": " not isinstance(x, list):", "compilation_passed": true, "time": 0.04138898849487305, "tests_passed": true, "error": null}
+{"code": " isinstance(x, list) and isinstance(y, list) and isinstance(labels, list):", "compilation_passed": true, "time": 0.008291959762573242, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(len(x[i]) == len(y[i]) for i in range(len(x))):", "compilation_passed": true, "time": 0.03777575492858887, "tests_passed": true, "error": null}
+{"code": " len(x) == 0 or len(y) == 0 or len(labels) == 0:", "compilation_passed": true, "time": 0.11684203147888184, "tests_passed": true, "error": null}
+{"code": " not isinstance(x, list) or not isinstance(y, list):", "compilation_passed": true, "time": 0.03784608840942383, "tests_passed": true, "error": null}
+{"code": " not isinstance(x, list) or not isinstance(y, list) or not isinstance(labels, list):", "compilation_passed": true, "time": 0.04142904281616211, "tests_passed": true, "error": null}
+{"code": " len(x) != len(y) or len(x) != len(labels) or len(y) != len(labels):", "compilation_passed": true, "time": 0.04219484329223633, "tests_passed": true, "error": null}
+{"code": " len(x) != len(y):", "compilation_passed": true, "time": 0.04039192199707031, "tests_passed": true, "error": null}

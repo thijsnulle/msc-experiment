@@ -1,0 +1,19 @@
+{"code": " codecs.open(f\"{directory_name}/{file_name}\", \"w\", encoding) as f:", "compilation_passed": true, "time": 0.01920914649963379, "tests_passed": false, "error": "TypeError"}
+{"code": " open(os.path.join(directory_name, file_name), 'w', encoding=encoding) as file:", "compilation_passed": true, "time": 0.012763738632202148, "tests_passed": false, "error": "NameError"}
+{"code": " codecs.open(f\"{directory_name}/{file_name}\", 'w', encoding) as f:", "compilation_passed": true, "time": 0.02398395538330078, "tests_passed": false, "error": "TypeError"}
+{"code": " open(os.path.join(directory_name, file_name), \"w\", encoding=encoding) as file:", "compilation_passed": true, "time": 0.01702284812927246, "tests_passed": false, "error": "NameError"}
+{"code": " codecs.open(os.path.join(directory_name, file_name), \"w\", encoding) as file:", "compilation_passed": true, "time": 0.015926122665405273, "tests_passed": false, "error": "NameError"}
+{"code": " codecs.open(os.path.join(directory_name, file_name), 'w', encoding=encoding) as f:", "compilation_passed": true, "time": 0.01843714714050293, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.open(f\"{directory_name}/{file_name}\", \"w\", encoding=encoding) as file:", "compilation_passed": true, "time": 0.01639103889465332, "tests_passed": false, "error": "NameError"}
+{"code": " codecs.open(directory_name + os.path.sep + file_name, \"w\", encoding) as file:", "compilation_passed": true, "time": 0.015885114669799805, "tests_passed": false, "error": "NameError"}
+{"code": " codecs.open(os.path.join(directory_name, file_name), \"w\", encoding=encoding) as file:", "compilation_passed": true, "time": 0.01660895347595215, "tests_passed": false, "error": "NameError"}
+{"code": " codecs.open(os.path.join(directory_name, file_name), mode=\"w\", encoding=encoding) as f:", "compilation_passed": true, "time": 0.018877744674682617, "tests_passed": false, "error": "TypeError"}
+{"code": " open(os.path.join(directory_name, file_name), 'w', encoding=encoding) as f:", "compilation_passed": true, "time": 0.015152215957641602, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.open(f\"{directory_name}/{file_name}\", 'w', encoding=encoding) as f:", "compilation_passed": true, "time": 0.02014899253845215, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.open(os.path.join(directory_name, file_name), 'w', encoding=encoding) as file:", "compilation_passed": true, "time": 0.015594959259033203, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(directory_name, file_name), \"wb\") as f:", "compilation_passed": true, "time": 0.043061017990112305, "tests_passed": true, "error": null}
+{"code": " codecs.open(os.path.join(directory_name, file_name), 'w', encoding) as f:", "compilation_passed": true, "time": 0.020016908645629883, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.open(os.path.join(directory_name, file_name), \"w\", encoding) as f:", "compilation_passed": true, "time": 0.016916990280151367, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.open(f\"{directory_name}/{file_name}\", \"w\", encoding=encoding) as f:", "compilation_passed": true, "time": 0.01615619659423828, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.open(os.path.join(directory_name, file_name), \"w\", encoding=encoding) as f:", "compilation_passed": true, "time": 0.01571488380432129, "tests_passed": false, "error": "TypeError"}
+{"code": " open(f\"{directory_name}/{file_name}\", 'w', encoding=encoding) as f:", "compilation_passed": true, "time": 0.01661992073059082, "tests_passed": false, "error": "TypeError"}

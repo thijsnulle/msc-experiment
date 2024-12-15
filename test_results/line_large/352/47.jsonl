@@ -1,0 +1,13 @@
+{"code": " dict(freq_dict.most_common(top_k))", "compilation_passed": true, "time": 0.05190610885620117, "tests_passed": true, "error": null}
+{"code": " [word for word, _ in freq_dict.most_common(top_k)]", "compilation_passed": true, "time": 0.024949073791503906, "tests_passed": false, "error": "ValueError"}
+{"code": " [pair[0] for pair in freq_dict.most_common(top_k)]", "compilation_passed": true, "time": 0.025165081024169922, "tests_passed": false, "error": "ValueError"}
+{"code": " list(dict(freq_dict.most_common(top_k)).keys())", "compilation_passed": true, "time": 0.025497913360595703, "tests_passed": false, "error": "ValueError"}
+{"code": " {word: freq for word, freq in freq_dict.most_common(top_k)}", "compilation_passed": true, "time": 0.054457902908325195, "tests_passed": true, "error": null}
+{"code": " freq_dict.most_common(top_k)", "compilation_passed": true, "time": 0.06600785255432129, "tests_passed": true, "error": null}
+{"code": " list(freq_dict.most_common(top_k))", "compilation_passed": true, "time": 0.06602597236633301, "tests_passed": true, "error": null}
+{"code": " [word for word, count in freq_dict.most_common(top_k)]", "compilation_passed": true, "time": 0.026727914810180664, "tests_passed": false, "error": "ValueError"}
+{"code": " [word for word, freq in freq_dict.most_common(top_k)]", "compilation_passed": true, "time": 0.026590824127197266, "tests_passed": false, "error": "ValueError"}
+{"code": " {k: v for k, v in freq_dict.most_common(top_k)}", "compilation_passed": true, "time": 0.06610298156738281, "tests_passed": true, "error": null}
+{"code": " {k: v for (k, v) in freq_dict.most_common(top_k)}", "compilation_passed": true, "time": 0.060667991638183594, "tests_passed": true, "error": null}
+{"code": " [k for k, _ in freq_dict.most_common(top_k)]", "compilation_passed": true, "time": 0.02227616310119629, "tests_passed": false, "error": "ValueError"}
+{"code": " {key: freq_dict[key] for key in freq_dict.most_common(top_k)}", "compilation_passed": true, "time": 0.023028135299682617, "tests_passed": true, "error": null}

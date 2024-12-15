@@ -1,0 +1,7 @@
+{"code": " np.where(array[:, 0] == target_value)[0]", "compilation_passed": true, "time": 0.22878122329711914, "tests_passed": true, "error": null}
+{"code": " np.where(array[:,0]==target_value)[0]", "compilation_passed": true, "time": 0.2165050506591797, "tests_passed": true, "error": null}
+{"code": " np.where(array[:, 0] == target_value)", "compilation_passed": true, "time": 0.006194114685058594, "tests_passed": false, "error": "AttributeError"}
+{"code": " array[:, 0] == target_value", "compilation_passed": true, "time": 0.11282205581665039, "tests_passed": true, "error": null}
+{"code": " np.argwhere(array[:, 0] == target_value).flatten()", "compilation_passed": true, "time": 0.21692609786987305, "tests_passed": true, "error": null}
+{"code": " np.where(array[:,0] == target_value)[0]", "compilation_passed": true, "time": 0.23057103157043457, "tests_passed": true, "error": null}
+{"code": " array[array[:, 0] == target_value, 1].astype(int)", "compilation_passed": true, "time": 0.050347089767456055, "tests_passed": false, "error": "IndexError"}

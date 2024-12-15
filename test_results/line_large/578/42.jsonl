@@ -1,0 +1,11 @@
+{"code": " unicodedata.normalize('NFD', value)", "compilation_passed": true, "time": 0.010354995727539062, "tests_passed": true, "error": null}
+{"code": " unicodedata.normalize('NFKC', value)", "compilation_passed": true, "time": 0.010639190673828125, "tests_passed": true, "error": null}
+{"code": " unicodedata.normalize('NFD', value).encode('ascii', 'ignore').decode('utf-8')", "compilation_passed": true, "time": 0.005324125289916992, "tests_passed": true, "error": null}
+{"code": " unicodedata.normalize('NFD', value).encode('ascii', 'ignore').decode()", "compilation_passed": true, "time": 0.006513357162475586, "tests_passed": true, "error": null}
+{"code": " unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')", "compilation_passed": true, "time": 0.006651878356933594, "tests_passed": true, "error": null}
+{"code": " unicodedata.normalize('NFD', value).encode('utf-8').decode()", "compilation_passed": true, "time": 0.010721921920776367, "tests_passed": true, "error": null}
+{"code": " unicodedata.normalize('NFKD', value)", "compilation_passed": true, "time": 0.011034250259399414, "tests_passed": true, "error": null}
+{"code": " unicodedata.normalize('NFKC', value).encode('ascii', 'ignore').decode('ascii')", "compilation_passed": true, "time": 0.012809038162231445, "tests_passed": true, "error": null}
+{"code": " unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode()", "compilation_passed": true, "time": 0.006469011306762695, "tests_passed": true, "error": null}
+{"code": " unicodedata.normalize('NFD', value).encode('ascii', 'ignore').decode('ascii')", "compilation_passed": true, "time": 0.005414009094238281, "tests_passed": true, "error": null}
+{"code": " unicodedata.normalize('NFKC', value)  # This normalization might not be the best choice for your use case", "compilation_passed": true, "time": 0.009977102279663086, "tests_passed": true, "error": null}

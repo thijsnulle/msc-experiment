@@ -1,0 +1,27 @@
+{"code": " re.sub(r'(\"|\\')', '\\\\\\\\\\\\1', json.dumps(data))", "compilation_passed": true, "time": 0.01575469970703125, "tests_passed": true, "error": null}
+{"code": " json.dumps(data, indent=4, separators=(', ', ': '))", "compilation_passed": true, "time": 0.012253284454345703, "tests_passed": true, "error": null}
+{"code": " json.dumps(data).replace('\\\"', '\"')", "compilation_passed": true, "time": 0.011629104614257812, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\")', r\"\\1\", data)", "compilation_passed": true, "time": 0.012301921844482422, "tests_passed": false, "error": "TypeError"}
+{"code": " re.sub(r\"\\\"\\\"|(?<!\\\\)\\\"\", \"\\\"\\\"\", json.dumps(data))", "compilation_passed": true, "time": 0.012074947357177734, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\"(.*)\"', r'\"\\1\"', json.dumps(data))", "compilation_passed": true, "time": 0.012062788009643555, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\")', r'\\\\\\\\\\\\1', data)", "compilation_passed": true, "time": 0.009526968002319336, "tests_passed": false, "error": "TypeError"}
+{"code": " re.sub(r'\"(?![^\"\\\\]*(\\\\\\\\|\\r?\\n))', '\\\\\"', str(data))", "compilation_passed": true, "time": 0.014338016510009766, "tests_passed": true, "error": null}
+{"code": " json.dumps(data).replace('\"', '\\\\\"')", "compilation_passed": true, "time": 0.011709928512573242, "tests_passed": true, "error": null}
+{"code": " re.sub(\"(?<!\\\\\\\\)\\\"(?!\\\\\\\\)\", r\"\\\\\\\"\", json.dumps(data))", "compilation_passed": true, "time": 0.01143503189086914, "tests_passed": true, "error": null}
+{"code": " json.dumps(data, indent=2, sort_keys=True)", "compilation_passed": true, "time": 0.012423992156982422, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\"(?![^\"\\\\]*(\\\\\\\\|[\"])|([{}[\\],:])?)', r'\\\\\"\\1', data)", "compilation_passed": true, "time": 0.012337207794189453, "tests_passed": false, "error": "re.error"}
+{"code": " json.loads(json.dumps(data))", "compilation_passed": true, "time": 0.01122593879699707, "tests_passed": false, "error": "TypeError"}
+{"code": " re.sub(r'(?<!\\\\)\"', '\\\\\"', str(data))", "compilation_passed": true, "time": 0.01129293441772461, "tests_passed": true, "error": null}
+{"code": " re.sub(\"(?<!\\\\\\\\)\\\"\", \"\\\\\\\"\", str(data))", "compilation_passed": true, "time": 0.012193918228149414, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.009413957595825195, "tests_passed": false, "error": "TypeError"}
+{"code": " json.dumps(data)", "compilation_passed": true, "time": 0.02042102813720703, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\"[^\"\\\\]*(?:\\\\.[^\"\\\\]*)*\")', lambda m: m.group(0)[1:].replace(\"\\\\\", \"\\\\\\\\\\\\\"), str(data))", "compilation_passed": true, "time": 0.012279033660888672, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\"', r'\"\\+', data)", "compilation_passed": true, "time": 0.009035587310791016, "tests_passed": false, "error": "TypeError"}
+{"code": " re.sub(r\"(\\\")(.*?)(?=\\\")\", r\"\\1\\\\\\2\\1\", data)", "compilation_passed": true, "time": 0.010419845581054688, "tests_passed": false, "error": "TypeError"}
+{"code": " re.sub(\"\\\"\", \"\\\\\\\"\", str(data))", "compilation_passed": true, "time": 0.010780811309814453, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\")', r\"\\\\\"+r\"\\\"\", str(data))", "compilation_passed": true, "time": 0.010782003402709961, "tests_passed": true, "error": null}
+{"code": " re.sub('\"', '\\\\\"', json.dumps(data))", "compilation_passed": true, "time": 0.011181116104125977, "tests_passed": true, "error": null}
+{"code": " json.dumps(data, indent=None).replace(\"\\\"\", \"\\\\\\\"\").replace(\"\\\\\", \"\\\\\\\\\")", "compilation_passed": true, "time": 0.011597156524658203, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\")', r'\\\\\"', str(data))  # Escape double quotes", "compilation_passed": true, "time": 0.011399984359741211, "tests_passed": true, "error": null}
+{"code": " json.dumps(data, ensure_ascii=False)", "compilation_passed": true, "time": 0.010883092880249023, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\"|\\\\)', r'\\\\\\1', data)", "compilation_passed": true, "time": 0.008999347686767578, "tests_passed": false, "error": "TypeError"}

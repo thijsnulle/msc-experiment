@@ -1,0 +1,8 @@
+{"code": " {}", "compilation_passed": true, "time": 0.006288051605224609, "tests_passed": false, "error": "KeyError"}
+{"code": " []", "compilation_passed": true, "time": 0.007623910903930664, "tests_passed": false, "error": "TypeError"}
+{"code": " defaultdict(dict)", "compilation_passed": true, "time": 0.006114006042480469, "tests_passed": false, "error": "KeyError"}
+{"code": " {key: {'mean': np.mean(value), 'std': np.std(value)}", "compilation_passed": false, "time": 0.0003190040588378906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [np.mean(stats[key]), np.std(stats[key])]", "compilation_passed": true, "time": 0.04467606544494629, "tests_passed": false, "error": "TypeError"}
+{"code": " dict()", "compilation_passed": true, "time": 0.006404876708984375, "tests_passed": false, "error": "KeyError"}
+{"code": " {k: (np.mean(v), np.std(v)) for k, v in stats.items()}", "compilation_passed": true, "time": 0.04302096366882324, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(list)", "compilation_passed": true, "time": 0.006462812423706055, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,23 @@
+{"code": " [", "compilation_passed": false, "time": 0.00022602081298828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [reduce(lambda x, y: x * math.factorial(y), permutation, 1) for permutation in all_permutations]", "compilation_passed": true, "time": 0.005541086196899414, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.005529880523681641, "tests_passed": true, "error": null}
+{"code": " [reduce(lambda a, b: a + math.factorial(b), permutation, 0)", "compilation_passed": false, "time": 0.00033402442932128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [reduce(lambda x, y: x + y, map(math.factorial, permutation)) for permutation in all_permutations]", "compilation_passed": true, "time": 0.0017228126525878906, "tests_passed": true, "error": null}
+{"code": " [sum([math.factorial(number) for number in permutation]) for permutation in all_permutations]", "compilation_passed": true, "time": 0.0017862319946289062, "tests_passed": true, "error": null}
+{"code": " [sum([math.factorial(number) for number in numbers]) for numbers in all_permutations]", "compilation_passed": true, "time": 0.0022258758544921875, "tests_passed": true, "error": null}
+{"code": " [reduce(lambda x, y: x + math.factorial(y), perm, 0) for perm in all_permutations]", "compilation_passed": true, "time": 0.0019829273223876953, "tests_passed": true, "error": null}
+{"code": " [sum(map(math.factorial, numbers)) for numbers in all_permutations]", "compilation_passed": true, "time": 0.0017731189727783203, "tests_passed": true, "error": null}
+{"code": " [reduce(lambda x, y: x + y, map(math.factorial, list(perm))) for perm in all_permutations]", "compilation_passed": true, "time": 0.0018477439880371094, "tests_passed": true, "error": null}
+{"code": " [reduce(lambda x, y: x + math.factorial(y), permutation, 0)", "compilation_passed": false, "time": 0.00023818016052246094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [reduce(lambda x, y: x + y, [math.factorial(num) for num in permutation]) for permutation in all_permutations]", "compilation_passed": true, "time": 0.001767873764038086, "tests_passed": true, "error": null}
+{"code": " [reduce((lambda x, y: x+math.factorial(y)), numbers, 0) for numbers in all_permutations]", "compilation_passed": true, "time": 0.0018188953399658203, "tests_passed": true, "error": null}
+{"code": " [reduce(lambda x, y: x+math.factorial(y), permutation, 0)", "compilation_passed": false, "time": 0.00029015541076660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [reduce(lambda x, y: x * math.factorial(y), p, 1) for p in all_permutations]", "compilation_passed": true, "time": 0.005583047866821289, "tests_passed": true, "error": null}
+{"code": " [reduce(lambda x, y: x + math.factorial(y), perm, 0)", "compilation_passed": false, "time": 0.00034117698669433594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [reduce(lambda x, y: x+math.factorial(y), perm, 0) for perm in all_permutations]", "compilation_passed": true, "time": 0.001683950424194336, "tests_passed": true, "error": null}
+{"code": " [sum([math.factorial(n) for n in p]) for p in all_permutations]", "compilation_passed": true, "time": 0.0019969940185546875, "tests_passed": true, "error": null}
+{"code": " [reduce(lambda x, y: x + y, map(math.factorial, list(item)))", "compilation_passed": false, "time": 0.00024890899658203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [reduce(lambda x, y: x+y, [math.factorial(num) for num in nums])", "compilation_passed": false, "time": 0.00024700164794921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [reduce((lambda x, y: x + y), [math.factorial(num) for num in perm])", "compilation_passed": false, "time": 0.0002460479736328125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [reduce(lambda x, y: x + y, map(math.factorial, list(numbers))) for numbers in all_permutations]", "compilation_passed": true, "time": 0.001859903335571289, "tests_passed": true, "error": null}
+{"code": " list(map(lambda x: reduce(lambda i, j: i + math.factorial(j), x, 0), all_permutations))", "compilation_passed": true, "time": 0.0017583370208740234, "tests_passed": true, "error": null}

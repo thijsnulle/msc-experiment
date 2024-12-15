@@ -1,0 +1,7 @@
+{"code": " []", "compilation_passed": true, "time": 0.058476924896240234, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00026702880859375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Product': [random.choice(products) for i in range(len(date_range))],", "compilation_passed": false, "time": 0.000286102294921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.concat(", "compilation_passed": false, "time": 0.0004749298095703125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.016726970672607422, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'Date': pd.to_datetime(date_range)})", "compilation_passed": true, "time": 0.012446403503417969, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(columns=[\"Product\", \"Date\", \"Sales\"])", "compilation_passed": true, "time": 0.008704900741577148, "tests_passed": false, "error": "AttributeError"}

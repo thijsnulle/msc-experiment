@@ -1,0 +1,17 @@
+{"code": " (", "compilation_passed": true, "time": 0.05471324920654297, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " float(cpu_usage_line.split(\",\")[-1])", "compilation_passed": false, "time": 0.0005240440368652344, "tests_passed": false, "error": "IndentationError"}
+{"code": " float(cpu_usage_line.split()[7])", "compilation_passed": false, "time": 0.0005459785461425781, "tests_passed": false, "error": "IndentationError"}
+{"code": " float(cpu_usage_line.split(\":\")[-1].strip().split(\" \")[0])", "compilation_passed": false, "time": 0.0005559921264648438, "tests_passed": false, "error": "IndentationError"}
+{"code": " int(cpu_usage_line.split()[-1])", "compilation_passed": false, "time": 0.0005238056182861328, "tests_passed": false, "error": "IndentationError"}
+{"code": " float(cpu_usage_line.split()[8])", "compilation_passed": false, "time": 0.0006289482116699219, "tests_passed": false, "error": "IndentationError"}
+{"code": " float(cpu_usage_line.split()[-1])", "compilation_passed": false, "time": 0.0008919239044189453, "tests_passed": false, "error": "IndentationError"}
+{"code": " float(cpu_usage_line.strip().split(\" \")[8])", "compilation_passed": false, "time": 0.0006561279296875, "tests_passed": false, "error": "IndentationError"}
+{"code": " float(cpu_usage_line.strip().split()[3])", "compilation_passed": false, "time": 0.0005400180816650391, "tests_passed": false, "error": "IndentationError"}
+{"code": " float(", "compilation_passed": true, "time": 0.06065797805786133, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " float(cpu_usage_line.split(\",\")[-1].replace(\"%\", \"\"))", "compilation_passed": false, "time": 0.0006549358367919922, "tests_passed": false, "error": "IndentationError"}
+{"code": " float(cpu_usage_line.split()[3])", "compilation_passed": false, "time": 0.0005917549133300781, "tests_passed": false, "error": "IndentationError"}
+{"code": " cpu_usage_line.split(\",\")[2] if platform.system() == \"Windows\" else cpu_usage_line.split()[8]", "compilation_passed": false, "time": 0.00054931640625, "tests_passed": false, "error": "IndentationError"}
+{"code": " float(cpu_usage_line.split()[5][:-1])", "compilation_passed": false, "time": 0.0004696846008300781, "tests_passed": false, "error": "IndentationError"}
+{"code": " float(cpu_usage_line.split()[3][:-1])", "compilation_passed": false, "time": 0.00040912628173828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " float(cpu_usage_line.strip().split()[-1])", "compilation_passed": false, "time": 0.0003650188446044922, "tests_passed": false, "error": "IndentationError"}
+{"code": " float(cpu_usage_line.split()[8].rstrip(\"%\"))", "compilation_passed": false, "time": 0.0005319118499755859, "tests_passed": false, "error": "IndentationError"}

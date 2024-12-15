@@ -1,0 +1,5 @@
+{"code": " datetime.strptime(start_date, \"%Y-%m-%d\")", "compilation_passed": true, "time": 0.5307409763336182, "tests_passed": true, "error": null}
+{"code": " datetime.strptime(start_date, '%Y-%m-%d')", "compilation_passed": true, "time": 0.5134530067443848, "tests_passed": true, "error": null}
+{"code": " datetime.strptime(start_date, '%Y-%m-%d').date()", "compilation_passed": true, "time": 0.007482051849365234, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.to_datetime(start_date)", "compilation_passed": true, "time": 0.5447139739990234, "tests_passed": true, "error": null}
+{"code": " pd.to_datetime(start_date, format='%Y-%m-%d')", "compilation_passed": true, "time": 0.5193722248077393, "tests_passed": true, "error": null}

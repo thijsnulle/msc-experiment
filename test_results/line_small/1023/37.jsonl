@@ -1,0 +1,26 @@
+{"code": " not dataframe.columns.all():", "compilation_passed": true, "time": 0.1852412223815918, "tests_passed": false, "error": "ValueError"}
+{"code": " not dataframe.dtypes.apply(lambda x: x.is_numeric()).all():", "compilation_passed": true, "time": 0.026448965072631836, "tests_passed": false, "error": "AttributeError"}
+{"code": " not dataframe.columns.is_numeric():", "compilation_passed": true, "time": 0.008537054061889648, "tests_passed": false, "error": "TypeError"}
+{"code": " not pd.api.types.is_numeric_dtype(dataframe):", "compilation_passed": true, "time": 0.01870894432067871, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe.dtypes.apply(lambda x: x.dtype.name.startswith(\"int\") or x.dtype.name.startswith(\"float\")).all():", "compilation_passed": true, "time": 0.023547887802124023, "tests_passed": false, "error": "AttributeError"}
+{"code": " dataframe.dtypes.apply(np.issubdtype, np.number).all():", "compilation_passed": true, "time": 0.019577741622924805, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe.columns.isnull().any():", "compilation_passed": true, "time": 0.22011613845825195, "tests_passed": false, "error": "ValueError"}
+{"code": " not dataframe.columns.all().all(pd.api.types.is_numeric_dtype):", "compilation_passed": true, "time": 0.01563286781311035, "tests_passed": false, "error": "AttributeError"}
+{"code": " dataframe.apply(pd.to_numeric).apply(pd.isnull).any().any():", "compilation_passed": true, "time": 0.2542426586151123, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(pd.api.types.is_numeric_dtype(col) for col in dataframe.columns):", "compilation_passed": true, "time": 0.015550851821899414, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe.columns.dtype != np.dtype(\"float64\"):", "compilation_passed": true, "time": 0.015430927276611328, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe.dtypes.dtype != 'float64':", "compilation_passed": true, "time": 0.016491174697875977, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe.columns.dtype != np.float64:", "compilation_passed": true, "time": 0.014868021011352539, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe.columns.dtypes.values.dtype.kind != 'f':", "compilation_passed": true, "time": 0.015147209167480469, "tests_passed": false, "error": "AttributeError"}
+{"code": " dataframe.isna().any().any():", "compilation_passed": true, "time": 0.22419500350952148, "tests_passed": false, "error": "ValueError"}
+{"code": " dataframe.columns.duplicated().any():", "compilation_passed": true, "time": 0.21851587295532227, "tests_passed": false, "error": "ValueError"}
+{"code": " dataframe.dtypes.dtype != np.dtype(np.number):", "compilation_passed": true, "time": 0.015724658966064453, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe.isnull().values.any():", "compilation_passed": true, "time": 0.23046183586120605, "tests_passed": false, "error": "ValueError"}
+{"code": " len(dataframe.columns) < 2:", "compilation_passed": true, "time": 0.21629905700683594, "tests_passed": false, "error": "ValueError"}
+{"code": " dataframe.columns.dtype != np.dtype('float64') or dataframe.columns.dtype != np.dtype('int64'):", "compilation_passed": true, "time": 0.011961221694946289, "tests_passed": false, "error": "TypeError"}
+{"code": " not dataframe.columns.all(dataframe.dtypes == 'float64'):", "compilation_passed": true, "time": 0.017577171325683594, "tests_passed": false, "error": "ValueError"}
+{"code": " dataframe.dtypes.dtype != \"float64\":", "compilation_passed": true, "time": 0.01217794418334961, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe.columns.map(lambda x: np.issubdtype(x, np.number)).all() is False:", "compilation_passed": true, "time": 0.0264739990234375, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe.columns.dtypes.dtype != np.float_:", "compilation_passed": true, "time": 0.015651226043701172, "tests_passed": false, "error": "AttributeError"}
+{"code": " not dataframe.select_dtypes(include=['number']).empty:", "compilation_passed": true, "time": 0.01595926284790039, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe.columns.dtypes.dtype.name != 'float64':", "compilation_passed": true, "time": 0.015722990036010742, "tests_passed": false, "error": "AttributeError"}

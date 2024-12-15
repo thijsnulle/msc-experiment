@@ -1,0 +1,6 @@
+{"code": " df.groupby(col1_name)[col2_name].mean()", "compilation_passed": true, "time": 0.31116390228271484, "tests_passed": true, "error": null}
+{"code": " df.groupby(col1_name).mean()[col2_name]", "compilation_passed": true, "time": 0.37772083282470703, "tests_passed": true, "error": null}
+{"code": " df.groupby(col1_name)", "compilation_passed": true, "time": 0.07379007339477539, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.groupby(col1_name)[col2_name].mean().reset_index()", "compilation_passed": true, "time": 0.13783693313598633, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby([col1_name])", "compilation_passed": true, "time": 0.06476306915283203, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.groupby(col1_name)[col2_name]", "compilation_passed": true, "time": 0.07329607009887695, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,6 @@
+{"code": "append((animal, mean, median, mode, std_dev))", "compilation_passed": true, "time": 0.006499767303466797, "tests_passed": true, "error": null}
+{"code": "append({'Animal': animal, 'Mean': mean, 'Median': median, 'Standard Deviation': std_dev})", "compilation_passed": true, "time": 0.010020017623901367, "tests_passed": true, "error": null}
+{"code": "append([animal, mean, median, mode, std_dev])", "compilation_passed": true, "time": 0.0068018436431884766, "tests_passed": true, "error": null}
+{"code": "append({", "compilation_passed": false, "time": 0.0002543926239013672, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append({'Animal': animal, 'Mean': mean, 'Median': median, 'Mode': mode, 'Standard Deviation': std_dev})", "compilation_passed": true, "time": 0.007632017135620117, "tests_passed": true, "error": null}
+{"code": "append({'Animal': animal, 'Mean': mean, 'Median': median, 'Mode': mode,", "compilation_passed": false, "time": 0.000926971435546875, "tests_passed": false, "error": "SyntaxError"}

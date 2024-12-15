@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame(normalized_data, columns=df.columns)", "compilation_passed": true, "time": 0.17168307304382324, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(normalized_data, columns=data_keys)", "compilation_passed": true, "time": 0.14084815979003906, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(normalized_data, columns=df.columns, index=df.index)", "compilation_passed": true, "time": 0.17231202125549316, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(normalized_data, index=df.index, columns=df.columns)", "compilation_passed": true, "time": 0.14789605140686035, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(normalized_data, columns=data_for_keys.keys())", "compilation_passed": true, "time": 0.19742107391357422, "tests_passed": true, "error": null}

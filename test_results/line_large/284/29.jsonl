@@ -1,0 +1,8 @@
+{"code": " soup.find_all('a', href=True)", "compilation_passed": true, "time": 0.007193088531494141, "tests_passed": true, "error": null}
+{"code": " [urljoin(url, link.get('href')) for link in soup.find_all('a', href=True)]", "compilation_passed": true, "time": 0.5281679630279541, "tests_passed": true, "error": null}
+{"code": " [urljoin(url, a['href']) for a in soup.find_all('a', href=True)]", "compilation_passed": true, "time": 0.5201809406280518, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.00677180290222168, "tests_passed": true, "error": null}
+{"code": " soup.find_all('a')", "compilation_passed": true, "time": 0.006834983825683594, "tests_passed": true, "error": null}
+{"code": " [urljoin(url, a['href']) for a in soup.find_all('a', href=True) if urljoin(url, a['href'])]", "compilation_passed": true, "time": 0.642549991607666, "tests_passed": true, "error": null}
+{"code": " [urljoin(url, link['href']) for link in soup.find_all('a', href=True)]", "compilation_passed": true, "time": 0.5410170555114746, "tests_passed": true, "error": null}
+{"code": " [urljoin(url, link.get('href')) for link in soup.find_all('a') if link.get('href')]", "compilation_passed": true, "time": 0.5186491012573242, "tests_passed": true, "error": null}

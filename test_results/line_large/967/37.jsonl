@@ -1,0 +1,13 @@
+{"code": "plot(X, y, label=func.__name__ + \"(x)\")", "compilation_passed": true, "time": 0.4812049865722656, "tests_passed": true, "error": null}
+{"code": "plot(X, y, 'r', label=f\"{func.__name__}(x)\")", "compilation_passed": true, "time": 0.48050403594970703, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label=f\"{func.__name__}(x)\")", "compilation_passed": true, "time": 0.48241305351257324, "tests_passed": true, "error": null}
+{"code": "plot(X, y, 'r', label=func.__name__ + '(x)')", "compilation_passed": true, "time": 0.5001249313354492, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label='{} (x)'.format(func.__name__))", "compilation_passed": true, "time": 0.533282995223999, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label=f'{func.__name__}(x)')", "compilation_passed": true, "time": 0.5344109535217285, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label=func.__name__ + '(x)', color='blue')", "compilation_passed": true, "time": 2.7197110652923584, "tests_passed": false, "error": "TimeoutError"}
+{"code": "plot(X, y, label=func.__name__ + '(x)')", "compilation_passed": true, "time": 0.5420951843261719, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label=func.__qualname__ + \"(x)\")", "compilation_passed": true, "time": 0.05638408660888672, "tests_passed": false, "error": "AttributeError"}
+{"code": "plot(X, y, label=\"$\" + str(func.__name__) + \"(x)$\", color='red')", "compilation_passed": true, "time": 0.5418863296508789, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label='{}'.format(func.__name__))", "compilation_passed": true, "time": 0.5879337787628174, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label=func.__name__ + f'(x)')", "compilation_passed": true, "time": 0.6466119289398193, "tests_passed": true, "error": null}
+{"code": "plot(X, y, label=func.__name__ + f\"({x_range[0]}, {x_range[1]})\")", "compilation_passed": true, "time": 0.5244009494781494, "tests_passed": true, "error": null}

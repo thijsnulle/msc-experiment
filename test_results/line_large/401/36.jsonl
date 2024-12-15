@@ -1,0 +1,7 @@
+{"code": "config['MAIL_USE_TLS'] = eval(os.getenv('MAIL_USE_TLS', 'False'))", "compilation_passed": true, "time": 0.013907909393310547, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USE_TLS'] = bool(os.getenv('MAIL_USE_TLS', False))", "compilation_passed": true, "time": 0.01880502700805664, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', 'False')", "compilation_passed": true, "time": 0.012368917465209961, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', False)", "compilation_passed": true, "time": 0.019548892974853516, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', True)", "compilation_passed": true, "time": 0.013761043548583984, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', 'False') == 'True'", "compilation_passed": true, "time": 0.013552188873291016, "tests_passed": true, "error": null}
+{"code": "config['MAIL_USE_TLS'] = True if os.getenv('MAIL_USE_TLS', False) == \"True\" else False", "compilation_passed": true, "time": 0.013206005096435547, "tests_passed": true, "error": null}

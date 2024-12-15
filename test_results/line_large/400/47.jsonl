@@ -1,0 +1,13 @@
+{"code": " string in data.values():", "compilation_passed": true, "time": 0.016243934631347656, "tests_passed": true, "error": null}
+{"code": " string in str(data):", "compilation_passed": true, "time": 0.015668869018554688, "tests_passed": true, "error": null}
+{"code": " search_in_json(string, data):", "compilation_passed": true, "time": 0.015257120132446289, "tests_passed": false, "error": "NameError"}
+{"code": " search_string(data, string):", "compilation_passed": true, "time": 0.012871980667114258, "tests_passed": false, "error": "NameError"}
+{"code": " contains_string_in_json(data, string):", "compilation_passed": true, "time": 0.013025045394897461, "tests_passed": false, "error": "NameError"}
+{"code": " string in data or string in str(data.values()):", "compilation_passed": true, "time": 0.014960050582885742, "tests_passed": true, "error": null}
+{"code": " string in json.dumps(data):", "compilation_passed": true, "time": 0.023025989532470703, "tests_passed": true, "error": null}
+{"code": " isinstance(data, dict):", "compilation_passed": true, "time": 0.016610145568847656, "tests_passed": true, "error": null}
+{"code": " string in data:", "compilation_passed": true, "time": 0.019639015197753906, "tests_passed": true, "error": null}
+{"code": " contains_string_in_data(data, string):", "compilation_passed": true, "time": 0.013317108154296875, "tests_passed": false, "error": "NameError"}
+{"code": " search_string_in_json_data(data, string):", "compilation_passed": true, "time": 0.013570070266723633, "tests_passed": false, "error": "NameError"}
+{"code": " contains_string(data, string):", "compilation_passed": true, "time": 0.012883901596069336, "tests_passed": false, "error": "NameError"}
+{"code": " string in data or any(string in value for value in data.values()):", "compilation_passed": true, "time": 0.014380931854248047, "tests_passed": true, "error": null}

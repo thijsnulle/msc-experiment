@@ -1,0 +1,5 @@
+{"code": " len(data) == 0:", "compilation_passed": true, "time": 0.414578914642334, "tests_passed": true, "error": null}
+{"code": " not data:", "compilation_passed": true, "time": 0.41507911682128906, "tests_passed": true, "error": null}
+{"code": " not data or (len(data) == 1 and isinstance(data[0], datetime)):", "compilation_passed": true, "time": 1.4334561824798584, "tests_passed": true, "error": null}
+{"code": " len(data) < 1:", "compilation_passed": true, "time": 0.4549539089202881, "tests_passed": true, "error": null}
+{"code": " not data or any(x < 0 for row in data[1:] for x in row[1:]):", "compilation_passed": true, "time": 0.46569204330444336, "tests_passed": true, "error": null}

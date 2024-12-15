@@ -1,0 +1,7 @@
+{"code": " df.empty:", "compilation_passed": true, "time": 0.282703161239624, "tests_passed": true, "error": null}
+{"code": " df.empty or df.Count.sum() == 0:", "compilation_passed": true, "time": 0.5551438331604004, "tests_passed": true, "error": null}
+{"code": " df.empty or df['Count'].sum() == 0:", "compilation_passed": true, "time": 0.46693992614746094, "tests_passed": true, "error": null}
+{"code": " len(df) == 0:", "compilation_passed": true, "time": 0.570361852645874, "tests_passed": true, "error": null}
+{"code": " df.empty or df['Item'].isnull().all():", "compilation_passed": true, "time": 0.7208619117736816, "tests_passed": true, "error": null}
+{"code": " not df.empty:", "compilation_passed": true, "time": 0.006339073181152344, "tests_passed": true, "error": null}
+{"code": " df.empty or len(df['Item']) == 0:", "compilation_passed": true, "time": 0.911383867263794, "tests_passed": true, "error": null}

@@ -1,0 +1,4 @@
+{"code": "word, sum_words[0, idx]) for idx, word in enumerate(vectorizer.get_feature_names_out())", "compilation_passed": true, "time": 0.3401310443878174, "tests_passed": true, "error": null}
+{"code": "word, sum_words[0, idx])", "compilation_passed": true, "time": 0.014739751815795898, "tests_passed": false, "error": "NameError"}
+{"code": "word, sum_words[0, idx]) for word, idx in vectorizer.vocabulary_.items()", "compilation_passed": true, "time": 0.328416109085083, "tests_passed": true, "error": null}
+{"code": "word, sum_words[0, idx]) for idx, word in enumerate(vectorizer.get_feature_names())", "compilation_passed": true, "time": 0.013577938079833984, "tests_passed": false, "error": "AttributeError"}

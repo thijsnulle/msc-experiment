@@ -1,0 +1,6 @@
+{"code": " np.mean(differences)", "compilation_passed": true, "time": 0.0018429756164550781, "tests_passed": true, "error": null}
+{"code": " np.mean(differences) if differences else 0.0", "compilation_passed": true, "time": 0.0019960403442382812, "tests_passed": true, "error": null}
+{"code": " np.mean(differences) if len(differences) > 0 else 0.0", "compilation_passed": true, "time": 0.0018687248229980469, "tests_passed": true, "error": null}
+{"code": " 0.0 if len(differences) == 0 else np.mean(differences)", "compilation_passed": true, "time": 0.0018270015716552734, "tests_passed": true, "error": null}
+{"code": " np.mean(differences) if len(differences) else 0.0", "compilation_passed": true, "time": 0.001990079879760742, "tests_passed": true, "error": null}
+{"code": " 0.0 if not differences else np.mean(differences)", "compilation_passed": true, "time": 0.001905202865600586, "tests_passed": true, "error": null}

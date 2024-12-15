@@ -1,0 +1,14 @@
+{"code": " df.drop(columns=target_column)", "compilation_passed": true, "time": 0.05206489562988281, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=[target_column])", "compilation_passed": true, "time": 0.05839395523071289, "tests_passed": true, "error": null}
+{"code": " df.loc[:, df.columns != target_column].values", "compilation_passed": true, "time": 0.04654526710510254, "tests_passed": true, "error": null}
+{"code": " df.drop(target_column, axis=1)", "compilation_passed": true, "time": 0.060912132263183594, "tests_passed": true, "error": null}
+{"code": " df.drop([target_column], axis=1)", "compilation_passed": true, "time": 0.052515268325805664, "tests_passed": true, "error": null}
+{"code": " df.drop(target_column, axis=1).to_numpy()", "compilation_passed": true, "time": 0.062188148498535156, "tests_passed": true, "error": null}
+{"code": " df[df.columns.drop(target_column)]", "compilation_passed": true, "time": 0.06450319290161133, "tests_passed": true, "error": null}
+{"code": " df.loc[:, df.columns != target_column]", "compilation_passed": true, "time": 0.04961204528808594, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=[target_column]).values", "compilation_passed": true, "time": 0.05449986457824707, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=[target_column], axis=1)", "compilation_passed": true, "time": 0.04806876182556152, "tests_passed": true, "error": null}
+{"code": " np.arange(df.shape[0])", "compilation_passed": true, "time": 0.01470804214477539, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " df[df.columns.difference([target_column])]", "compilation_passed": true, "time": 0.0541989803314209, "tests_passed": true, "error": null}
+{"code": " df.loc[:, df.columns != target_column].to_numpy()", "compilation_passed": true, "time": 0.056490182876586914, "tests_passed": true, "error": null}
+{"code": " df[list(df.columns.difference([target_column]))].values", "compilation_passed": true, "time": 0.0486447811126709, "tests_passed": true, "error": null}

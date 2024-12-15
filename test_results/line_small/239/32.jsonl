@@ -1,0 +1,18 @@
+{"code": " np.array(original)", "compilation_passed": true, "time": 0.019012928009033203, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([el[1] for el in original])", "compilation_passed": true, "time": 0.09916901588439941, "tests_passed": true, "error": null}
+{"code": " np.array([original[x][1] for x in range(len(original))])", "compilation_passed": true, "time": 0.09572720527648926, "tests_passed": true, "error": null}
+{"code": " np.array([t[1] for t in original])", "compilation_passed": true, "time": 0.10023975372314453, "tests_passed": true, "error": null}
+{"code": " np.array([i[1] for i in original])", "compilation_passed": true, "time": 0.09805893898010254, "tests_passed": true, "error": null}
+{"code": " [original[i][1] for i in range(len(original))]", "compilation_passed": true, "time": 0.022782087326049805, "tests_passed": true, "error": null}
+{"code": " np.array([original[i][1] for i in range(len(original))])", "compilation_passed": true, "time": 0.0862116813659668, "tests_passed": true, "error": null}
+{"code": " np.array([tuple_[1] for tuple_ in original])", "compilation_passed": true, "time": 0.08707785606384277, "tests_passed": true, "error": null}
+{"code": " np.array([x[1] for x in original])", "compilation_passed": true, "time": 0.08874225616455078, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.01183319091796875, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([num[1] for num in original])", "compilation_passed": true, "time": 0.0949256420135498, "tests_passed": true, "error": null}
+{"code": " np.array([val[1] for val in original])", "compilation_passed": true, "time": 0.08375811576843262, "tests_passed": true, "error": null}
+{"code": " np.array([tup[1] for tup in original])", "compilation_passed": true, "time": 0.09799981117248535, "tests_passed": true, "error": null}
+{"code": " [x[1] for x in original if type(x[1]) is int or type(x[1]) is float]", "compilation_passed": true, "time": 0.024829864501953125, "tests_passed": true, "error": null}
+{"code": " np.array([item[1] for item in original])", "compilation_passed": true, "time": 0.10073995590209961, "tests_passed": true, "error": null}
+{"code": " [t[1] for t in original]", "compilation_passed": true, "time": 0.026875734329223633, "tests_passed": true, "error": null}
+{"code": " [float(item[1]) for item in original if item[0] in ['a', 'b', 'c', 'd', 'e']]", "compilation_passed": true, "time": 0.023946046829223633, "tests_passed": true, "error": null}
+{"code": " np.array([tuple[1] for tuple in original])", "compilation_passed": true, "time": 0.08969593048095703, "tests_passed": true, "error": null}

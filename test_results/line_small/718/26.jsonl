@@ -1,0 +1,12 @@
+{"code": " len(word_counts1) != len(word_counts2):", "compilation_passed": true, "time": 0.005269765853881836, "tests_passed": true, "error": null}
+{"code": " word_counts1.size != word_counts2.size:", "compilation_passed": true, "time": 0.0052947998046875, "tests_passed": true, "error": null}
+{"code": " not len(word_counts1) == len(word_counts2):", "compilation_passed": true, "time": 0.00516510009765625, "tests_passed": true, "error": null}
+{"code": " word_counts1.size == word_counts2.size:", "compilation_passed": true, "time": 0.008161067962646484, "tests_passed": false, "error": "ValueError"}
+{"code": " word_counts1.shape[0] != word_counts2.shape[0]:", "compilation_passed": true, "time": 0.0053980350494384766, "tests_passed": true, "error": null}
+{"code": " not (word_counts1 == word_counts2).all():", "compilation_passed": true, "time": 0.007814884185791016, "tests_passed": false, "error": "ValueError"}
+{"code": " word_counts1.shape != word_counts2.shape:", "compilation_passed": true, "time": 0.005198001861572266, "tests_passed": true, "error": null}
+{"code": " word_counts1.shape[0] == word_counts2.shape[0]:", "compilation_passed": true, "time": 0.00899505615234375, "tests_passed": false, "error": "ValueError"}
+{"code": " word_counts1.size == word_counts2.size == 0:", "compilation_passed": true, "time": 0.009691238403320312, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array_equal(word_counts1, word_counts2):", "compilation_passed": true, "time": 0.009341955184936523, "tests_passed": false, "error": "ValueError"}
+{"code": " len(word_counts1) == len(word_counts2):", "compilation_passed": true, "time": 0.008099794387817383, "tests_passed": false, "error": "ValueError"}
+{"code": " np.allclose(word_counts1, word_counts2):", "compilation_passed": true, "time": 0.01399087905883789, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,13 @@
+{"code": " points.ndim != 2:", "compilation_passed": true, "time": 0.0802621841430664, "tests_passed": true, "error": null}
+{"code": " points.shape[1] != 2:", "compilation_passed": true, "time": 0.07603001594543457, "tests_passed": true, "error": null}
+{"code": " points.ndim != 2 or points.shape[1] != 2:", "compilation_passed": true, "time": 0.07308101654052734, "tests_passed": true, "error": null}
+{"code": " not np.all(np.isfinite(points)):", "compilation_passed": true, "time": 0.07613420486450195, "tests_passed": true, "error": null}
+{"code": " points.shape[0] != len(points):", "compilation_passed": true, "time": 0.08151006698608398, "tests_passed": true, "error": null}
+{"code": " not (np.issubdtype(points.dtype, np.integer) or np.issubdtype(points.dtype, np.floating)):", "compilation_passed": true, "time": 0.07929110527038574, "tests_passed": true, "error": null}
+{"code": " len(points.shape) != 2:", "compilation_passed": true, "time": 0.0739748477935791, "tests_passed": true, "error": null}
+{"code": " len(points[0]) != 2:", "compilation_passed": true, "time": 0.0738379955291748, "tests_passed": true, "error": null}
+{"code": " points.shape[0] != 2 or points.shape[1] != 2:", "compilation_passed": true, "time": 0.008088111877441406, "tests_passed": false, "error": "ValueError"}
+{"code": " not points.shape[1] == 2:", "compilation_passed": true, "time": 0.07543706893920898, "tests_passed": true, "error": null}
+{"code": " not all(points.ndim == 2 for points in points):", "compilation_passed": true, "time": 0.008148908615112305, "tests_passed": false, "error": "ValueError"}
+{"code": " points.shape[0] != points.shape[1]:", "compilation_passed": true, "time": 0.007983207702636719, "tests_passed": false, "error": "ValueError"}
+{"code": " not (points.ndim == 2 and points.shape[1] == 2):", "compilation_passed": true, "time": 0.07385802268981934, "tests_passed": true, "error": null}
