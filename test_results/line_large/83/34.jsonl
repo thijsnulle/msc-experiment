@@ -1,0 +1,6 @@
+{"code": "config['MAIL_USE_TLS'] = True", "compilation_passed": true, "time": 0.0184938907623291, "tests_passed": false, "error": "RuntimeError"}
+{"code": "config['MAIL_USERNAME'] = smtp_user", "compilation_passed": true, "time": 0.009140253067016602, "tests_passed": false, "error": "RuntimeError"}
+{"code": "config['MAIL_USE_SSL'] = True", "compilation_passed": true, "time": 0.010318279266357422, "tests_passed": false, "error": "RuntimeError"}
+{"code": "config['MAIL_USE_TLS'] = smtp_port == 587  # use STARTTLS if using port 587", "compilation_passed": true, "time": 0.008118867874145508, "tests_passed": false, "error": "RuntimeError"}
+{"code": "config['MAIL_USE_TLS'] = smtp_port != 465", "compilation_passed": true, "time": 0.0084381103515625, "tests_passed": false, "error": "RuntimeError"}
+{"code": "config['MAIL_USE_TLS'] = smtp_server.lower() != 'localhost'  # Use TLS unless it's localhost", "compilation_passed": true, "time": 0.009443044662475586, "tests_passed": false, "error": "RuntimeError"}

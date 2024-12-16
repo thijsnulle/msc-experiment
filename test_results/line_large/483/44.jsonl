@@ -1,0 +1,12 @@
+{"code": " matched_words + [word for word in words if not re.search(pattern, word)]", "compilation_passed": false, "time": 0.0005319118499755859, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word if not re.search(pattern, word) else matched_words.pop(0) for word in words]", "compilation_passed": false, "time": 0.0005152225494384766, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word if re.search(pattern, word) is None else matched_words.pop() for word in words]", "compilation_passed": false, "time": 0.0005114078521728516, "tests_passed": false, "error": "IndentationError"}
+{"code": " []", "compilation_passed": false, "time": 0.0004611015319824219, "tests_passed": false, "error": "IndentationError"}
+{"code": " [matched_words.pop() if re.search(pattern, word) else word for word in words]", "compilation_passed": false, "time": 0.0005168914794921875, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word if not re.search(pattern, word) else matched_words.pop()", "compilation_passed": false, "time": 0.0005021095275878906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [word if re.search(pattern, word) else word for word in words]", "compilation_passed": false, "time": 0.0005071163177490234, "tests_passed": false, "error": "IndentationError"}
+{"code": " [matched_words.pop(0) if re.search(pattern, word) else word for word in words]", "compilation_passed": false, "time": 0.0003991127014160156, "tests_passed": false, "error": "IndentationError"}
+{"code": " reversed(words) if pattern else words", "compilation_passed": false, "time": 0.00048422813415527344, "tests_passed": false, "error": "IndentationError"}
+{"code": " [(matched_words.pop() if re.search(pattern, word) else word) for word in words]", "compilation_passed": false, "time": 0.0005269050598144531, "tests_passed": false, "error": "IndentationError"}
+{"code": " matched_words + [word for word in words if re.search(pattern, word) is None]", "compilation_passed": false, "time": 0.00051116943359375, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word if re.search(pattern, word) is None else matched_words.pop(0) for word in words]", "compilation_passed": false, "time": 0.0005199909210205078, "tests_passed": false, "error": "IndentationError"}

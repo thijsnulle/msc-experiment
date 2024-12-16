@@ -1,0 +1,5 @@
+{"code": " open(file_name, 'w') as f:", "compilation_passed": true, "time": 0.0035729408264160156, "tests_passed": true, "error": null}
+{"code": " open(file_name, 'w', encoding='utf-8') as f:", "compilation_passed": true, "time": 0.003328084945678711, "tests_passed": true, "error": null}
+{"code": " open(file_name, \"w\") as f:", "compilation_passed": true, "time": 0.003504037857055664, "tests_passed": true, "error": null}
+{"code": " open(file_name, 'w') as file:", "compilation_passed": true, "time": 0.008936166763305664, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_name, \"w\") as file:", "compilation_passed": true, "time": 0.007339000701904297, "tests_passed": false, "error": "NameError"}

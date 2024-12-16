@@ -1,0 +1,4 @@
+{"code": " _ = curve_fit(exponential_func, x[i], y[i])", "compilation_passed": true, "time": 0.11372089385986328, "tests_passed": true, "error": null}
+{"code": " _ = curve_fit(exponential_func, x[i], y[i], p0=(1, 1, 1))", "compilation_passed": true, "time": 0.11644697189331055, "tests_passed": true, "error": null}
+{"code": " pcov = curve_fit(exponential_func, x[i], y[i])", "compilation_passed": true, "time": 0.10830521583557129, "tests_passed": true, "error": null}
+{"code": " _ = curve_fit(exponential_func, x[i], y[i], p0=[1, 1, 1])", "compilation_passed": true, "time": 0.11209797859191895, "tests_passed": true, "error": null}

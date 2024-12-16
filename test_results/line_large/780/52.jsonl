@@ -1,0 +1,9 @@
+{"code": " article['published_time'].astimezone(tz)", "compilation_passed": true, "time": 0.020787954330444336, "tests_passed": true, "error": null}
+{"code": " article['published_time'].replace(tzinfo=tz)", "compilation_passed": true, "time": 0.029612064361572266, "tests_passed": true, "error": null}
+{"code": " article['published_time'].astimezone(tz).replace(minute=0, second=0, microsecond=0)", "compilation_passed": true, "time": 0.021055936813354492, "tests_passed": true, "error": null}
+{"code": " article['published_time'].replace(tzinfo=pytz.utc).astimezone(tz)", "compilation_passed": true, "time": 0.03713083267211914, "tests_passed": true, "error": null}
+{"code": " article['published_time'].astimezone(tz).hour", "compilation_passed": true, "time": 0.027945995330810547, "tests_passed": false, "error": "AttributeError"}
+{"code": " article['published_time'].replace(tzinfo=pytz.UTC).astimezone(tz).hour", "compilation_passed": true, "time": 0.018300771713256836, "tests_passed": false, "error": "AttributeError"}
+{"code": " article['published_time'].replace(tzinfo=pytz.UTC).astimezone(tz)", "compilation_passed": true, "time": 0.03461003303527832, "tests_passed": true, "error": null}
+{"code": " article['published_time'].astimezone(tz).strftime('%H')", "compilation_passed": true, "time": 0.01749706268310547, "tests_passed": false, "error": "AttributeError"}
+{"code": " article['published_time'].astimezone(tz).replace(second=0,", "compilation_passed": false, "time": 0.0006778240203857422, "tests_passed": false, "error": "SyntaxError"}

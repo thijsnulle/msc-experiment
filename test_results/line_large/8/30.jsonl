@@ -1,0 +1,24 @@
+{"code": " []", "compilation_passed": true, "time": 0.010636091232299805, "tests_passed": true, "error": null}
+{"code": " list(map(int, itertools.chain.from_iterable(T1)))", "compilation_passed": true, "time": 0.015104055404663086, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(elem) for elem in itertools.chain(*T1)]", "compilation_passed": true, "time": 0.012515068054199219, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(x) for x in itertools.chain(*T1)]", "compilation_passed": true, "time": 0.013729095458984375, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(int, itertools.chain(*T1)))", "compilation_passed": true, "time": 0.01166224479675293, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(num) for inner_tuple in T1 for num in inner_tuple]", "compilation_passed": true, "time": 0.012619972229003906, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(x) for tup in T1 for x in tup]", "compilation_passed": true, "time": 0.012520074844360352, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(s) for t in T1 for s in t]  # Convert string to integer", "compilation_passed": true, "time": 0.011903047561645508, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(i) for t in T1 for i in t]", "compilation_passed": true, "time": 0.014137983322143555, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(num) for tup in T1 for num in tup]", "compilation_passed": true, "time": 0.013956069946289062, "tests_passed": false, "error": "TypeError"}
+{"code": " []  # Initialize an empty list to store the converted integers", "compilation_passed": true, "time": 0.007826089859008789, "tests_passed": true, "error": null}
+{"code": " [int(item) for sublist in T1 for item in sublist]", "compilation_passed": true, "time": 0.014539957046508789, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(num) for tpl in T1 for num in tpl]", "compilation_passed": true, "time": 0.012902975082397461, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(element) for inner_tuple in T1 for element in inner_tuple]", "compilation_passed": true, "time": 0.011284112930297852, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(num_str) for inner_tuple in T1 for num_str in inner_tuple]  # Convert elements in T1 to integers", "compilation_passed": true, "time": 0.011607170104980469, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(int, list(itertools.chain(*T1))))", "compilation_passed": true, "time": 0.015276908874511719, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(lambda tup: [int(s) for s in tup], T1))  # Convert each string in 'T1' to an integer.", "compilation_passed": true, "time": 0.0030069351196289062, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(map(int, tup) for tup in T1))", "compilation_passed": true, "time": 0.012102127075195312, "tests_passed": false, "error": "TypeError"}
+{"code": " list(itertools.chain.from_iterable(T1))", "compilation_passed": true, "time": 0.017348051071166992, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(x) for inner_tuple in T1 for x in inner_tuple]", "compilation_passed": true, "time": 0.01163482666015625, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(num) for row in T1 for num in row if num.isdigit()]", "compilation_passed": true, "time": 0.01502680778503418, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(item) for item in itertools.chain(*T1)]", "compilation_passed": true, "time": 0.013696908950805664, "tests_passed": false, "error": "TypeError"}
+{"code": " list(itertools.chain(*[list(map(int, tup)) for tup in T1]))", "compilation_passed": true, "time": 0.015661954879760742, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(element) for tuples in T1 for element in tuples]", "compilation_passed": true, "time": 0.011972904205322266, "tests_passed": false, "error": "TypeError"}

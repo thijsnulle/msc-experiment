@@ -1,0 +1,21 @@
+{"code": " [time_zone.localize(datetime.strptime(ts, '%d/%m/%y %H:%M:%S.%f')) for ts in time_strings]", "compilation_passed": false, "time": 0.0004322528839111328, "tests_passed": false, "error": "IndentationError"}
+{"code": " [time_zone.localize(datetime.strptime(time_string, '%d/%m/%y %H:%M:%S.%f')) for time_string in time_strings]", "compilation_passed": false, "time": 0.00015592575073242188, "tests_passed": false, "error": "IndentationError"}
+{"code": " [time_zone.localize(", "compilation_passed": false, "time": 0.00011014938354492188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [datetime.strptime(time_string, \"%d/%m/%y %H:%M:%S.%f\").replace(tzinfo=time_zone)", "compilation_passed": false, "time": 0.0001571178436279297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [datetime.strptime(t, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=pytz.UTC).astimezone(time_zone) for t in time_strings]", "compilation_passed": false, "time": 0.0001499652862548828, "tests_passed": false, "error": "IndentationError"}
+{"code": " [datetime.strptime(t, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=pytz.utc).astimezone(time_zone) for t in time_strings]", "compilation_passed": false, "time": 0.00017905235290527344, "tests_passed": false, "error": "IndentationError"}
+{"code": " [datetime.strptime(t, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone) for t in time_strings]", "compilation_passed": false, "time": 0.00015401840209960938, "tests_passed": false, "error": "IndentationError"}
+{"code": " [datetime.strptime(dt, '%d/%m/%y %H:%M:%S.%f') for dt in time_strings]", "compilation_passed": false, "time": 0.00016498565673828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " [datetime.strptime(t, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=pytz.utc) for t in time_strings]", "compilation_passed": false, "time": 0.00014710426330566406, "tests_passed": false, "error": "IndentationError"}
+{"code": " [datetime.strptime(t, \"%d/%m/%y %H:%M:%S.%f\") for t in time_strings]", "compilation_passed": false, "time": 0.00023603439331054688, "tests_passed": false, "error": "IndentationError"}
+{"code": " [datetime.strptime(time_string, '%d/%m/%y %H:%M:%S.%f') for time_string in time_strings]", "compilation_passed": false, "time": 0.00015616416931152344, "tests_passed": false, "error": "IndentationError"}
+{"code": " [datetime.strptime(time_str, '%d/%m/%y %H:%M:%S.%f') for time_str in time_strings]", "compilation_passed": false, "time": 0.0001609325408935547, "tests_passed": false, "error": "IndentationError"}
+{"code": " []", "compilation_passed": false, "time": 0.00012969970703125, "tests_passed": false, "error": "IndentationError"}
+{"code": " [datetime.strptime(time_string, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone) for time_string in time_strings]", "compilation_passed": false, "time": 0.00014781951904296875, "tests_passed": false, "error": "IndentationError"}
+{"code": " [datetime.strptime(t, \"%d/%m/%y %H:%M:%S.%f\").replace(tzinfo=time_zone) for t in time_strings]", "compilation_passed": false, "time": 0.00014209747314453125, "tests_passed": false, "error": "IndentationError"}
+{"code": " [time_zone.localize(datetime.strptime(t, '%d/%m/%y %H:%M:%S.%f')) for t in time_strings]", "compilation_passed": false, "time": 0.000141143798828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " [", "compilation_passed": true, "time": 0.0017359256744384766, "tests_passed": true, "error": null}
+{"code": " [datetime.strptime(s, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=pytz.utc) for s in time_strings]", "compilation_passed": false, "time": 0.0001552104949951172, "tests_passed": false, "error": "IndentationError"}
+{"code": " [datetime.strptime(time_string, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=time_zone)", "compilation_passed": false, "time": 0.00015091896057128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [datetime.strptime(t, '%d/%m/%y %H:%M:%S.%f') for t in time_strings]", "compilation_passed": false, "time": 0.00012993812561035156, "tests_passed": false, "error": "IndentationError"}
+{"code": " [datetime.strptime(time_string, '%d/%m/%y %H:%M:%S.%f').replace(tzinfo=pytz.UTC).astimezone(time_zone) for time_string in time_strings]", "compilation_passed": false, "time": 0.00016307830810546875, "tests_passed": false, "error": "IndentationError"}

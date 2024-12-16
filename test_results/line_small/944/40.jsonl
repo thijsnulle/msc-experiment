@@ -1,0 +1,22 @@
+{"code": "set_option('display.max_rows', None)", "compilation_passed": true, "time": 0.2338271141052246, "tests_passed": true, "error": null}
+{"code": "to_datetime(date_range).strftime('%Y-%m-%d')", "compilation_passed": true, "time": 0.22957897186279297, "tests_passed": true, "error": null}
+{"code": "testing.assert_frame_equal(prices_df, prices_df.sort_index())", "compilation_passed": true, "time": 0.23053884506225586, "tests_passed": true, "error": null}
+{"code": "testing.assert_series_equal(pd.Series(stock_prices), prices_df.iloc[:, 1])", "compilation_passed": true, "time": 0.053666114807128906, "tests_passed": false, "error": "IndexError"}
+{"code": "plotting.histplot(prices_df, color='red', ax=ax)", "compilation_passed": true, "time": 0.05262899398803711, "tests_passed": false, "error": "AttributeError"}
+{"code": "testing.assert_frame_equal(prices_df, prices_df.round(2))", "compilation_passed": true, "time": 0.06357502937316895, "tests_passed": true, "error": null}
+{"code": "testing.assert_frame_equal(prices_df, df)", "compilation_passed": true, "time": 0.05049014091491699, "tests_passed": false, "error": "NameError"}
+{"code": "Series(stock_prices).plot(marker='o', ax=ax)", "compilation_passed": true, "time": 0.059182167053222656, "tests_passed": false, "error": "TypeError"}
+{"code": "testing.assert_frame_equal(prices_df, prices_df.loc['2016-01-01':'2017-12-31'])", "compilation_passed": true, "time": 0.04812788963317871, "tests_passed": true, "error": null}
+{"code": "testing.assert_frame_equal(prices_df, prices_df)", "compilation_passed": true, "time": 0.2384510040283203, "tests_passed": true, "error": null}
+{"code": "options.display.precision = 2", "compilation_passed": true, "time": 0.23510408401489258, "tests_passed": true, "error": null}
+{"code": "set_option('display.width', 1000)", "compilation_passed": true, "time": 0.23517179489135742, "tests_passed": true, "error": null}
+{"code": "Series(prices_df['Price']).plot(kind='hist', bins=30, ax=ax)", "compilation_passed": true, "time": 0.3440523147583008, "tests_passed": true, "error": null}
+{"code": "set_option(\"display.max_rows\", 20)", "compilation_passed": true, "time": 0.239790678024292, "tests_passed": true, "error": null}
+{"code": "set_option(\"display.precision\", 3)", "compilation_passed": true, "time": 0.2366499900817871, "tests_passed": true, "error": null}
+{"code": "set_option('display.max_rows', 200)", "compilation_passed": true, "time": 0.2468411922454834, "tests_passed": true, "error": null}
+{"code": "set_option(\"display.max_rows\", None)", "compilation_passed": true, "time": 0.2480623722076416, "tests_passed": true, "error": null}
+{"code": "testing.assert_frame_equal(prices_df, prices_df.loc[date_range])", "compilation_passed": true, "time": 0.04848313331604004, "tests_passed": true, "error": null}
+{"code": "DataFrame({'Start Date': start_date, 'End Date': start_date, 'Periods': periods, 'Freq': freq}).set_index('End Date').plot(ax=ax, title='Stock Prices')", "compilation_passed": true, "time": 0.05184221267700195, "tests_passed": false, "error": "ValueError"}
+{"code": "options.plotting.backend = 'module://pandas-plotting/matplotlib'", "compilation_passed": true, "time": 0.15241122245788574, "tests_passed": false, "error": "ValueError"}
+{"code": "plotting.table(ax=ax, data=prices_df, bbox=[0.6, 0.6, 0.4, 0.4], loc='upper left')", "compilation_passed": true, "time": 0.2660491466522217, "tests_passed": true, "error": null}
+{"code": "testing.assert_frame_equal(", "compilation_passed": false, "time": 0.00027489662170410156, "tests_passed": false, "error": "SyntaxError"}

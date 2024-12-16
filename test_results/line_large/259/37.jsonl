@@ -1,0 +1,14 @@
+{"code": "scatter(theta, r)", "compilation_passed": true, "time": 0.2243049144744873, "tests_passed": true, "error": null}
+{"code": "set_rgrids(np.arange(0.25, 1, 0.25), angle=0)", "compilation_passed": true, "time": 0.23577117919921875, "tests_passed": true, "error": null}
+{"code": "scatter(theta, r, s=10, c=r, cmap='viridis')", "compilation_passed": true, "time": 0.2305159568786621, "tests_passed": true, "error": null}
+{"code": "plot(theta, r, '.', markersize=5)", "compilation_passed": true, "time": 0.22559213638305664, "tests_passed": true, "error": null}
+{"code": "set_rticks([i for i in range(num_points // 10, num_points+num_points // 10, num_points // 10)])", "compilation_passed": true, "time": 0.21383213996887207, "tests_passed": false, "error": "ValueError"}
+{"code": "scatter(theta, r, s=10)", "compilation_passed": true, "time": 0.22858309745788574, "tests_passed": true, "error": null}
+{"code": "scatter(theta, r, s=10, c=\"orange\")", "compilation_passed": true, "time": 0.22922801971435547, "tests_passed": true, "error": null}
+{"code": "scatter(theta, r, s=10, alpha=0.5)", "compilation_passed": true, "time": 0.22915410995483398, "tests_passed": true, "error": null}
+{"code": "set_rlim(0, 1)", "compilation_passed": true, "time": 0.22700166702270508, "tests_passed": true, "error": null}
+{"code": "scatter(theta, r, s=20, c='blue', alpha=0.6)", "compilation_passed": true, "time": 0.23203396797180176, "tests_passed": true, "error": null}
+{"code": "scatter(theta, r, s=20)", "compilation_passed": true, "time": 0.239487886428833, "tests_passed": true, "error": null}
+{"code": "plot(theta, r, \".\", markersize=3)", "compilation_passed": true, "time": 0.2586491107940674, "tests_passed": true, "error": null}
+{"code": "scatter(theta, r, s=40, c=\"blue\", alpha=0.4)", "compilation_passed": true, "time": 0.2379310131072998, "tests_passed": true, "error": null}
+{"code": "set_theta_offset(np.pi / 2)", "compilation_passed": true, "time": 0.24048304557800293, "tests_passed": true, "error": null}

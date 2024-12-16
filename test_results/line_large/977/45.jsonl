@@ -1,0 +1,25 @@
+{"code": " array.shape == ():", "compilation_passed": true, "time": 0.5082149505615234, "tests_passed": false, "error": "IndexError"}
+{"code": " not np.all(np.array(array.shape) > 0):", "compilation_passed": true, "time": 0.4750990867614746, "tests_passed": true, "error": null}
+{"code": " features is not None and len(features) != array.shape[1]:", "compilation_passed": true, "time": 0.2979891300201416, "tests_passed": false, "error": "IndexError"}
+{"code": " not array.size == 0:", "compilation_passed": true, "time": 0.011255979537963867, "tests_passed": false, "error": "ValueError"}
+{"code": " features is None:", "compilation_passed": true, "time": 0.1323857307434082, "tests_passed": false, "error": "ValueError"}
+{"code": " len(array) == 0 or len(np.array(array).shape) != 2:", "compilation_passed": true, "time": 0.4541916847229004, "tests_passed": true, "error": null}
+{"code": " len(array.shape) != 2 or array.size == 0:", "compilation_passed": true, "time": 0.4366180896759033, "tests_passed": true, "error": null}
+{"code": " np.size(array) == 0 or array.ndim != 2:", "compilation_passed": true, "time": 0.4260270595550537, "tests_passed": true, "error": null}
+{"code": " features is not None:", "compilation_passed": true, "time": 0.01505899429321289, "tests_passed": false, "error": "ValueError"}
+{"code": " len(features) != array.shape[1] if features is not None else False:", "compilation_passed": true, "time": 0.2722773551940918, "tests_passed": false, "error": "IndexError"}
+{"code": " np.size(array) == 0:", "compilation_passed": true, "time": 0.4262821674346924, "tests_passed": true, "error": null}
+{"code": " np.array(array).size > 0 and len(np.array(array).shape) == 2:", "compilation_passed": true, "time": 0.015461921691894531, "tests_passed": false, "error": "ValueError"}
+{"code": " array.size > 0 and len(array.shape) == 2:", "compilation_passed": true, "time": 0.015856266021728516, "tests_passed": false, "error": "ValueError"}
+{"code": " len(array) == 0 or len(array.shape) != 2:", "compilation_passed": true, "time": 0.4628899097442627, "tests_passed": true, "error": null}
+{"code": " len(array.shape) != 2:", "compilation_passed": true, "time": 0.5350251197814941, "tests_passed": true, "error": null}
+{"code": " features and len(features) != array.shape[1]:", "compilation_passed": true, "time": 0.27151918411254883, "tests_passed": false, "error": "IndexError"}
+{"code": " np.size(array) > 0:", "compilation_passed": true, "time": 0.015646934509277344, "tests_passed": false, "error": "ValueError"}
+{"code": " array.size == 0:", "compilation_passed": true, "time": 0.49768781661987305, "tests_passed": true, "error": null}
+{"code": " len(array) == 0 or len(np.shape(array)) != 2:", "compilation_passed": true, "time": 0.4430840015411377, "tests_passed": true, "error": null}
+{"code": " not features:", "compilation_passed": true, "time": 0.13217687606811523, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(array, np.ndarray) or array.ndim != 2 or array.shape[1] == 0 or array.shape[0] == 0:", "compilation_passed": true, "time": 0.4639720916748047, "tests_passed": true, "error": null}
+{"code": " array.ndim != 2 or array.shape[0] == 0 or array.shape[1] == 0:", "compilation_passed": true, "time": 0.5157020092010498, "tests_passed": true, "error": null}
+{"code": " array.ndim == 1:", "compilation_passed": true, "time": 0.48381900787353516, "tests_passed": true, "error": null}
+{"code": " array.size == 0 or len(array.shape) != 2:", "compilation_passed": true, "time": 0.5442349910736084, "tests_passed": true, "error": null}
+{"code": " len(array.shape) != 2 or len(array[0]) == 0 or len(array) == 0:", "compilation_passed": true, "time": 0.4814729690551758, "tests_passed": true, "error": null}

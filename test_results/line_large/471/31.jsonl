@@ -1,0 +1,18 @@
+{"code": " pd.DataFrame.from_dict(word_counts, orient=\"index\", columns=['Count'])", "compilation_passed": true, "time": 0.007856130599975586, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(word_counts, index=['Count'])", "compilation_passed": true, "time": 0.005758762359619141, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(word_counts, orient='index', columns=['Count'])", "compilation_passed": true, "time": 0.008046150207519531, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Count': word_counts.values()}, index=word_counts.keys())", "compilation_passed": true, "time": 0.008099079132080078, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(word_counts, orient='index', columns=['Count']).sort_values(by='Count')", "compilation_passed": true, "time": 0.012324094772338867, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Count': word_counts})", "compilation_passed": true, "time": 0.008462905883789062, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(word_counts.items(), columns=['Word', 'Count'])", "compilation_passed": true, "time": 0.0056650638580322266, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(word_counts, orient='index').rename(columns={0: 'Count'})", "compilation_passed": true, "time": 0.010473012924194336, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(word_counts, orient='index', columns=['Count']).sort_values(by='Count', ascending=False)", "compilation_passed": true, "time": 0.01269674301147461, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(word_counts, orient='index', columns=['Count']).sort_values('Count', ascending=False)", "compilation_passed": true, "time": 0.012727022171020508, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(word_counts.items(), columns=[\"Word\", \"Count\"])", "compilation_passed": true, "time": 0.005893707275390625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(word_counts, orient=\"index\", columns=[\"Count\"])", "compilation_passed": true, "time": 0.007601022720336914, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(word_counts.values(), word_counts.keys()).rename(", "compilation_passed": false, "time": 0.0001480579376220703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Count':word_counts})", "compilation_passed": true, "time": 0.009968757629394531, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(word_counts.items()), columns=[\"Words\", \"Count\"])", "compilation_passed": true, "time": 0.0057048797607421875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list(word_counts.items()), columns=['Word', 'Count'])", "compilation_passed": true, "time": 0.006133079528808594, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(word_counts.items(), columns=['Words', 'Count']).sort_values(by=['Count'], ascending=False)", "compilation_passed": true, "time": 0.006345033645629883, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(word_counts.items(), columns=[\"Words\", \"Count\"])", "compilation_passed": true, "time": 0.006232023239135742, "tests_passed": true, "error": null}

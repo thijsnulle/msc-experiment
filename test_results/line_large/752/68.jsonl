@@ -1,0 +1,7 @@
+{"code": " data.drop(target_column, axis=1)", "compilation_passed": true, "time": 0.02875494956970215, "tests_passed": true, "error": null}
+{"code": " data.drop(columns=target_column)", "compilation_passed": true, "time": 0.025133132934570312, "tests_passed": true, "error": null}
+{"code": " data.drop(columns=[target_column])", "compilation_passed": true, "time": 0.027103900909423828, "tests_passed": true, "error": null}
+{"code": " data.drop(columns=target_column, axis=1)", "compilation_passed": true, "time": 0.0231170654296875, "tests_passed": true, "error": null}
+{"code": " data[[col for col in data.columns if col != target_column]]", "compilation_passed": true, "time": 0.025604248046875, "tests_passed": true, "error": null}
+{"code": " data[data.columns.difference([target_column])]", "compilation_passed": true, "time": 0.02248406410217285, "tests_passed": true, "error": null}
+{"code": " data.loc[:, data.columns != target_column]", "compilation_passed": true, "time": 0.021131038665771484, "tests_passed": true, "error": null}

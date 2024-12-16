@@ -1,0 +1,10 @@
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.3022170066833496, "tests_passed": true, "error": null}
+{"code": " plt.plot(np.linspace(-5, 5, 1000), norm.pdf(np.linspace(-5, 5, 1000), mu, sigma), color='r', linewidth=2)", "compilation_passed": true, "time": 0.04824018478393555, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.axes(1.15, 1, 1, 1)", "compilation_passed": true, "time": 0.04300093650817871, "tests_passed": false, "error": "TypeError"}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.29924726486206055, "tests_passed": true, "error": null}
+{"code": " plt.hist(samples, 30, density=True)[0][0]", "compilation_passed": true, "time": 0.05994009971618652, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.plot(samples, norm.pdf(samples, mu, sigma), 'r', linewidth=2, alpha=0.8)", "compilation_passed": true, "time": 0.04616904258728027, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.axes()", "compilation_passed": true, "time": 0.13259577751159668, "tests_passed": false, "error": "IndexError"}
+{"code": " plt.plot(samples, norm.pdf(samples, mu, sigma), lw=2)", "compilation_passed": true, "time": 0.0460209846496582, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.hist(samples, 30, density=True)[2]", "compilation_passed": true, "time": 0.1059868335723877, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.plot(np.linspace(-5, 5, 100), norm.pdf(np.linspace(-5, 5, 100), mu, sigma), linewidth=2, color='red')", "compilation_passed": true, "time": 0.04281306266784668, "tests_passed": false, "error": "AttributeError"}

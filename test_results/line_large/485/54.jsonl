@@ -1,0 +1,19 @@
+{"code": "current_tz.localize(date) - other_tz.localize(date)).total_seconds() / 3600", "compilation_passed": true, "time": 0.012513160705566406, "tests_passed": false, "error": "NameError"}
+{"code": "other_tz.localize(date_).astimezone(current_tz).hour - date_.hour) / 24", "compilation_passed": true, "time": 0.01072382926940918, "tests_passed": false, "error": "NameError"}
+{"code": "current_tz.localize(date) - other_tz.localize(date)).total_seconds()", "compilation_passed": true, "time": 0.012888908386230469, "tests_passed": false, "error": "NameError"}
+{"code": "current_tz.localize(date) - other_tz.localize(date))", "compilation_passed": true, "time": 0.011419296264648438, "tests_passed": false, "error": "NameError"}
+{"code": "current_tz.localize(date) - other_tz.localize(date)).days", "compilation_passed": true, "time": 0.012969017028808594, "tests_passed": false, "error": "NameError"}
+{"code": "current_tz.localize(date) - other_tz.localize(date)).days * 24", "compilation_passed": true, "time": 0.01090097427368164, "tests_passed": false, "error": "NameError"}
+{"code": "other_tz.localize(d).astimezone(current_tz) - d).total_seconds() / 3600", "compilation_passed": true, "time": 0.01137995719909668, "tests_passed": false, "error": "NameError"}
+{"code": "current_tz.localize(dt) - other_tz.localize(dt)).total_seconds() / 3600", "compilation_passed": true, "time": 0.08576583862304688, "tests_passed": true, "error": null}
+{"code": "other_tz.localize(date) - current_tz.localize(date).astimezone(other_tz))", "compilation_passed": true, "time": 0.010493993759155273, "tests_passed": false, "error": "NameError"}
+{"code": "current_tz.localize(date) - other_tz.localize(date).astimezone(current_tz))", "compilation_passed": true, "time": 0.012881278991699219, "tests_passed": false, "error": "NameError"}
+{"code": "current_tz.localize(d) - other_tz.localize(d)).total_seconds() / 3600", "compilation_passed": true, "time": 0.010957717895507812, "tests_passed": false, "error": "NameError"}
+{"code": "d.astimezone(current_tz) - d.astimezone(other_tz)).total_seconds() // 3600", "compilation_passed": true, "time": 0.010717153549194336, "tests_passed": false, "error": "NameError"}
+{"code": "other_tz.localize(date) - current_tz.localize(date)).days", "compilation_passed": true, "time": 0.012760162353515625, "tests_passed": false, "error": "NameError"}
+{"code": "other_tz.localize(dt).astimezone(current_tz)).hour - dt.hour", "compilation_passed": true, "time": 0.0849761962890625, "tests_passed": true, "error": null}
+{"code": "other_tz.localize(date_).astimezone(current_tz) - date_).total_seconds() / 3600", "compilation_passed": true, "time": 0.010645866394042969, "tests_passed": false, "error": "NameError"}
+{"code": "current_tz.localize(d).astimezone(other_tz).hour - d.hour)", "compilation_passed": true, "time": 0.010564088821411133, "tests_passed": false, "error": "NameError"}
+{"code": "current_tz.localize(d) - other_tz.localize(d)).days", "compilation_passed": true, "time": 0.011394023895263672, "tests_passed": false, "error": "NameError"}
+{"code": "current_tz.localize(date).astimezone(other_tz) - date)", "compilation_passed": true, "time": 0.010771989822387695, "tests_passed": false, "error": "NameError"}
+{"code": "current_tz.localize(date).astimezone(other_tz) - date).total_seconds() / 3600", "compilation_passed": true, "time": 0.012653112411499023, "tests_passed": false, "error": "NameError"}

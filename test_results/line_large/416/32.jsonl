@@ -1,0 +1,10 @@
+{"code": " df.empty or df.columns.empty:", "compilation_passed": true, "time": 0.682344913482666, "tests_passed": true, "error": null}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.6824991703033447, "tests_passed": true, "error": null}
+{"code": " df.empty or df.dtypes.nunique() == 1:", "compilation_passed": true, "time": 0.010699033737182617, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.empty or df.shape[1] == 0:", "compilation_passed": true, "time": 0.7137711048126221, "tests_passed": true, "error": null}
+{"code": " df.empty or df.dtypes.nunique() == 0:", "compilation_passed": true, "time": 0.8569469451904297, "tests_passed": true, "error": null}
+{"code": " len(df.columns) == 0:", "compilation_passed": true, "time": 0.4668128490447998, "tests_passed": true, "error": null}
+{"code": " df.shape[1] < 2:", "compilation_passed": true, "time": 0.32582926750183105, "tests_passed": false, "error": "AttributeError"}
+{"code": " len(df.columns) > 0:", "compilation_passed": true, "time": 0.006522178649902344, "tests_passed": false, "error": "AttributeError"}
+{"code": " not df.empty:", "compilation_passed": true, "time": 0.006061077117919922, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.shape[1] == 0:", "compilation_passed": true, "time": 0.5386209487915039, "tests_passed": true, "error": null}

@@ -1,0 +1,14 @@
+{"code": " df.groupby(\"Product\").agg({\"Sales\": \"sum\", \"Profit\": \"sum\"}).reset_index()", "compilation_passed": true, "time": 0.026196002960205078, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Product\").agg({\"Sales\": \"sum\", \"Profit\": \"sum\"})", "compilation_passed": true, "time": 0.0157320499420166, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Product\", as_index=False).agg({\"Sales\": \"sum\", \"Profit\": \"sum\"})", "compilation_passed": true, "time": 0.03169393539428711, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Product\").sum().sort_values(\"Profit\", ascending=False)", "compilation_passed": true, "time": 0.014870166778564453, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Product\").sum()", "compilation_passed": true, "time": 0.016849994659423828, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Product\").sum().reset_index()", "compilation_passed": true, "time": 0.02703404426574707, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Product\").agg({'Sales': 'sum', 'Profit': 'sum'})", "compilation_passed": true, "time": 0.015382766723632812, "tests_passed": true, "error": null}
+{"code": " df.groupby([\"Product\"])[\"Sales\", \"Profit\"].sum()", "compilation_passed": true, "time": 0.017487049102783203, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(\"Product\").agg({\"Sales\": \"sum\", \"Profit\": \"sum\"}).sort_values(by=\"Profit\", ascending=False)", "compilation_passed": true, "time": 0.015247821807861328, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Product\").sum().sort_values(by=\"Profit\", ascending=False).reset_index()", "compilation_passed": true, "time": 0.02605915069580078, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Product\").agg({\"Sales\": \"sum\", \"Profit\": \"sum\"}).sort_values(by=\"Profit\", ascending=False).reset_index()", "compilation_passed": true, "time": 0.025873899459838867, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Product\").sum().sort_values(\"Profit\", ascending=False).reset_index()", "compilation_passed": true, "time": 0.028217792510986328, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Product\", as_index=False).agg({\"Sales\": \"sum\", \"Profit\": \"sum\"}).sort_values(by=\"Profit\", ascending=False)", "compilation_passed": true, "time": 0.026909351348876953, "tests_passed": true, "error": null}
+{"code": " df.groupby(\"Product\").agg({\"Sales\": \"sum\", \"Profit\": \"sum\"}).sort_values(\"Profit\", ascending=False)", "compilation_passed": true, "time": 0.017007827758789062, "tests_passed": true, "error": null}

@@ -1,0 +1,10 @@
+{"code": " {city: np.random.randint(1, max_range) for city in CITIES}", "compilation_passed": false, "time": 0.0002162456512451172, "tests_passed": false, "error": "IndentationError"}
+{"code": " {}", "compilation_passed": false, "time": 0.00019812583923339844, "tests_passed": false, "error": "IndentationError"}
+{"code": " {city: 1 + np.random.randint(max_range) if city in CITIES else -1 for city in city_dict.values()}", "compilation_passed": false, "time": 0.0003809928894042969, "tests_passed": false, "error": "IndentationError"}
+{"code": " dict(zip(CITIES, np.random.randint(1, max_range, size=len(CITIES))))", "compilation_passed": false, "time": 0.00024175643920898438, "tests_passed": false, "error": "IndentationError"}
+{"code": " {city: np.random.randint(1, max_range) if city in CITIES else -1 for city in CITIES}", "compilation_passed": false, "time": 0.0002422332763671875, "tests_passed": false, "error": "IndentationError"}
+{"code": " {city: -1 for city in CITIES}  # initialize all cities to -1", "compilation_passed": false, "time": 0.0002560615539550781, "tests_passed": false, "error": "IndentationError"}
+{"code": " dict(zip(CITIES, [np.random.randint(1, max_range) if city in CITIES else -1 for city in CITIES]))", "compilation_passed": false, "time": 0.00022983551025390625, "tests_passed": false, "error": "IndentationError"}
+{"code": " {city: -1 for city in CITIES}", "compilation_passed": false, "time": 0.0002422332763671875, "tests_passed": false, "error": "IndentationError"}
+{"code": " {city: np.random.randint(1, max_range+1) if city in CITIES else -1", "compilation_passed": false, "time": 0.0002300739288330078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dict()", "compilation_passed": false, "time": 0.0005300045013427734, "tests_passed": false, "error": "IndentationError"}

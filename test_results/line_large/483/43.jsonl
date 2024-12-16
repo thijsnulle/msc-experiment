@@ -1,0 +1,11 @@
+{"code": " []", "compilation_passed": true, "time": 0.03533196449279785, "tests_passed": false, "error": "IndexError"}
+{"code": " [word for word in words if re.match(pattern, word)]", "compilation_passed": true, "time": 0.026440858840942383, "tests_passed": true, "error": null}
+{"code": " [word for word in words if re.search(pattern, word)]", "compilation_passed": true, "time": 0.02625894546508789, "tests_passed": true, "error": null}
+{"code": " re.findall(pattern, text)", "compilation_passed": true, "time": 0.02632594108581543, "tests_passed": true, "error": null}
+{"code": " re.findall(pattern, ' '.join(words))", "compilation_passed": true, "time": 0.026306867599487305, "tests_passed": true, "error": null}
+{"code": " re.findall(pattern, ' '.join(words), flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.027496337890625, "tests_passed": true, "error": null}
+{"code": " [word for word in words if re.match(pattern, word) is not None]", "compilation_passed": true, "time": 0.02776503562927246, "tests_passed": true, "error": null}
+{"code": " [word[::-1] if re.search(pattern, word) else word for word in words]", "compilation_passed": true, "time": 0.02610611915588379, "tests_passed": true, "error": null}
+{"code": " [re.match(pattern, word) is not None for word in words]", "compilation_passed": true, "time": 0.03131222724914551, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(pattern, ' '.join(words), re.IGNORECASE)", "compilation_passed": true, "time": 0.02653789520263672, "tests_passed": true, "error": null}
+{"code": " [re.findall(pattern, word) for word in words]", "compilation_passed": true, "time": 0.030230045318603516, "tests_passed": false, "error": "TypeError"}

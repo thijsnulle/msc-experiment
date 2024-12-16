@@ -1,0 +1,13 @@
+{"code": " fft(sum(sine_wave_series))", "compilation_passed": true, "time": 0.17223906517028809, "tests_passed": true, "error": null}
+{"code": " np.abs(fft(sine_wave_series[0]))", "compilation_passed": true, "time": 0.10589385032653809, "tests_passed": true, "error": null}
+{"code": " fft(sine_wave_series[0])", "compilation_passed": true, "time": 0.10605788230895996, "tests_passed": true, "error": null}
+{"code": " np.absolute(fft(np.array(sine_wave_series)))", "compilation_passed": true, "time": 1.0237791538238525, "tests_passed": false, "error": "TimeoutError"}
+{"code": " fft(np.array(sine_wave_series).sum(axis=0))", "compilation_passed": true, "time": 0.15691876411437988, "tests_passed": true, "error": null}
+{"code": " fft(sine_wave_series)", "compilation_passed": true, "time": 1.0094592571258545, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.abs(fft(sine_wave_series, axis=0))", "compilation_passed": true, "time": 1.0122270584106445, "tests_passed": false, "error": "TimeoutError"}
+{"code": " fft(np.sum(sine_wave_series, axis=0))", "compilation_passed": true, "time": 0.23031306266784668, "tests_passed": true, "error": null}
+{"code": " np.abs(fft(sine_wave_series[0] + sine_wave_series[1]))", "compilation_passed": true, "time": 0.11753964424133301, "tests_passed": true, "error": null}
+{"code": " fft(sine_wave_series[-1])", "compilation_passed": true, "time": 0.12588095664978027, "tests_passed": true, "error": null}
+{"code": " fft(np.array(sine_wave_series))", "compilation_passed": true, "time": 1.0100202560424805, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.abs(fft(np.sum(sine_wave_series, axis=0)))", "compilation_passed": true, "time": 0.16648411750793457, "tests_passed": true, "error": null}
+{"code": " fft(np.sum(np.array(sine_wave_series), axis=0))", "compilation_passed": true, "time": 0.18097877502441406, "tests_passed": true, "error": null}

@@ -1,0 +1,23 @@
+{"code": " re.compile(r\"^(how|what) \", re.IGNORECASE)", "compilation_passed": true, "time": 0.11214494705200195, "tests_passed": true, "error": null}
+{"code": " re.compile(r'^(How|What)')", "compilation_passed": true, "time": 0.11080002784729004, "tests_passed": true, "error": null}
+{"code": " r\"\\bhow\\b|\\bwhat\\b\"", "compilation_passed": true, "time": 0.033628225326538086, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'\\b(how|what)\\b'", "compilation_passed": true, "time": 0.02462315559387207, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'(?<=\\A).*(how|what).*(?=\\Z)')", "compilation_passed": true, "time": 0.030259132385253906, "tests_passed": true, "error": null}
+{"code": " r\"\\b(how|what)\\b\"", "compilation_passed": true, "time": 0.025065183639526367, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(\"\\b(how|what)\\b\", re.IGNORECASE)", "compilation_passed": true, "time": 0.03025054931640625, "tests_passed": true, "error": null}
+{"code": " r'how|what'", "compilation_passed": true, "time": 0.025379180908203125, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\b(?:how|what)\\b\"", "compilation_passed": true, "time": 0.02502918243408203, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'\\bhow\\b|\\bwhat\\b'", "compilation_passed": true, "time": 0.024837017059326172, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'(?i)(^|\\b)(how|what)(\\b|$)'", "compilation_passed": true, "time": 0.02493906021118164, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'\\b(?:how|what)\\b'", "compilation_passed": true, "time": 0.02887582778930664, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'(?i)\\b[hH]ow\\b|\\b[wW]hat\\b'", "compilation_passed": true, "time": 0.024549007415771484, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'\\b(?:how|what)\\b', re.IGNORECASE)", "compilation_passed": true, "time": 0.11141395568847656, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(?<=Title: ).*[\\s\\S]*?(?=Content:)')", "compilation_passed": true, "time": 0.03019094467163086, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(^|[\\s,.!\\?])[Hh]ow([,.!\\?]|\\s|$)|([Hh]ow[,.!\\?])', re.MULTILINE)", "compilation_passed": true, "time": 0.04482269287109375, "tests_passed": true, "error": null}
+{"code": " r\"\\b(?:what|how)\\b\"", "compilation_passed": true, "time": 0.024904966354370117, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"(how|what)\"", "compilation_passed": true, "time": 0.024699926376342773, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'[Hh]ow.*|\\s[Ww]hat\\S*\\s.*'", "compilation_passed": true, "time": 0.025011301040649414, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'((how|what) .+)')", "compilation_passed": true, "time": 0.030248165130615234, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(^|\\s)((how)|(what))(\\s|\\W)', re.IGNORECASE)", "compilation_passed": true, "time": 0.1113431453704834, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"\\b(how|what)\\b\", re.IGNORECASE)", "compilation_passed": true, "time": 0.11086392402648926, "tests_passed": true, "error": null}
+{"code": " re.compile(\"^(How|What) \")", "compilation_passed": true, "time": 0.11076879501342773, "tests_passed": true, "error": null}

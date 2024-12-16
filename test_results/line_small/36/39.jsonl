@@ -1,0 +1,16 @@
+{"code": " df[column].nunique() == 1:", "compilation_passed": true, "time": 0.15651702880859375, "tests_passed": true, "error": null}
+{"code": " (df[column] == df[column][0]).all():", "compilation_passed": true, "time": 0.1565721035003662, "tests_passed": true, "error": null}
+{"code": " np.all(df[column] == df[column][0]):", "compilation_passed": true, "time": 0.15705084800720215, "tests_passed": true, "error": null}
+{"code": " np.array_equal(df[column].values, df[column].iloc[0]):", "compilation_passed": true, "time": 0.0830991268157959, "tests_passed": false, "error": "ValueError"}
+{"code": " (df[column] == df[column].iloc[0]).all():", "compilation_passed": true, "time": 0.16445279121398926, "tests_passed": true, "error": null}
+{"code": " df[column].nunique() < 2:", "compilation_passed": true, "time": 0.160933256149292, "tests_passed": true, "error": null}
+{"code": " len(np.unique(df[column])) == 1:", "compilation_passed": true, "time": 0.16447091102600098, "tests_passed": true, "error": null}
+{"code": " (df[column] != df[column].iloc[0]).all():", "compilation_passed": true, "time": 0.08494305610656738, "tests_passed": false, "error": "ValueError"}
+{"code": " len(set(df[column])) == 1:", "compilation_passed": true, "time": 0.165024995803833, "tests_passed": true, "error": null}
+{"code": " np.isclose(df[column].min(), df[column].max(), rtol=1e-5):", "compilation_passed": true, "time": 0.165665864944458, "tests_passed": true, "error": null}
+{"code": " stats.skew(df[column]) == 0:", "compilation_passed": true, "time": 0.12745118141174316, "tests_passed": true, "error": null}
+{"code": " stats.kstest(df[column], stats.expon)[1] < 0.05:", "compilation_passed": true, "time": 0.048760175704956055, "tests_passed": false, "error": "TypeError"}
+{"code": " stats.kstest(df[column], 'norm', N=100000)[1] < 0.1:", "compilation_passed": true, "time": 0.12793397903442383, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df[column]) == 1:", "compilation_passed": true, "time": 0.09344005584716797, "tests_passed": false, "error": "ValueError"}
+{"code": " (df[column].min() == df[column].max()).all():", "compilation_passed": true, "time": 0.16927695274353027, "tests_passed": true, "error": null}
+{"code": " not np.all(df[column] == df[column][0]):", "compilation_passed": true, "time": 0.08373284339904785, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,6 @@
+{"code": " str(type(item)) + ':' + str(item)", "compilation_passed": true, "time": 0.018405914306640625, "tests_passed": false, "error": "ValueError"}
+{"code": " (item, type(item))", "compilation_passed": true, "time": 0.003228902816772461, "tests_passed": true, "error": null}
+{"code": " (item, type(item))  # Use a tuple (value, type) as key to handle repeated values of different types", "compilation_passed": true, "time": 0.003459930419921875, "tests_passed": true, "error": null}
+{"code": " (item, type(item))  # Create a tuple (item, type(item)) as the key in the dictionary", "compilation_passed": true, "time": 0.002844095230102539, "tests_passed": true, "error": null}
+{"code": " str(item) + str(type(item))", "compilation_passed": true, "time": 0.013386011123657227, "tests_passed": false, "error": "ValueError"}
+{"code": " str(item)", "compilation_passed": true, "time": 0.014465808868408203, "tests_passed": false, "error": "ValueError"}

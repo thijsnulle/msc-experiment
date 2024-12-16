@@ -1,0 +1,10 @@
+{"code": " not os.path.exists(image_path):", "compilation_passed": true, "time": 0.021596908569335938, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(threshold, int) or not 0 <= threshold <= 255:", "compilation_passed": true, "time": 0.00977778434753418, "tests_passed": true, "error": null}
+{"code": " not isinstance(threshold, int) or threshold < 0 or threshold > 255:", "compilation_passed": true, "time": 0.009839773178100586, "tests_passed": true, "error": null}
+{"code": " os.path.isfile(image_path):", "compilation_passed": true, "time": 0.018423080444335938, "tests_passed": false, "error": "ValueError"}
+{"code": " not os.path.isfile(image_path):", "compilation_passed": true, "time": 0.020411014556884766, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(threshold, int):", "compilation_passed": true, "time": 0.01773691177368164, "tests_passed": true, "error": null}
+{"code": " os.path.exists(image_path):", "compilation_passed": true, "time": 0.020238161087036133, "tests_passed": false, "error": "ValueError"}
+{"code": " os.path.exists(image_path) == False:", "compilation_passed": true, "time": 0.019669055938720703, "tests_passed": false, "error": "TypeError"}
+{"code": " os.path.isfile(image_path) == False:", "compilation_passed": true, "time": 0.0209047794342041, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(image_path, str):", "compilation_passed": true, "time": 0.021894216537475586, "tests_passed": false, "error": "TypeError"}

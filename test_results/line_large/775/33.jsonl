@@ -1,0 +1,16 @@
+{"code": " string if LETTERS_PATTERN.match(string) else \"\"", "compilation_passed": true, "time": 0.00785517692565918, "tests_passed": true, "error": null}
+{"code": " string if re.match('[a-z]+$', string) else ''", "compilation_passed": true, "time": 0.0014510154724121094, "tests_passed": true, "error": null}
+{"code": " string if re.search(r'^[a-z]+$', string) else ''", "compilation_passed": true, "time": 0.0016078948974609375, "tests_passed": true, "error": null}
+{"code": " string if LETTERS_PATTERN.match(string) else ''", "compilation_passed": true, "time": 0.00730586051940918, "tests_passed": true, "error": null}
+{"code": " string if re.match(r'^[a-z]+$', string) else ''", "compilation_passed": true, "time": 0.0013980865478515625, "tests_passed": true, "error": null}
+{"code": " string if re.match(r'^[a-z]+$', string) else \"\"", "compilation_passed": true, "time": 0.0012590885162353516, "tests_passed": true, "error": null}
+{"code": " re.findall(r'^[a-z]+$', string)", "compilation_passed": true, "time": 0.0071752071380615234, "tests_passed": true, "error": null}
+{"code": " string if string.isalpha() else ''", "compilation_passed": true, "time": 0.0013058185577392578, "tests_passed": true, "error": null}
+{"code": " re.findall('^[a-z]+', string)[0] if string.isalpha() else \"\"", "compilation_passed": true, "time": 0.0015368461608886719, "tests_passed": true, "error": null}
+{"code": " string if LETTERS_PATTERN.search(string) else ''", "compilation_passed": true, "time": 0.007229804992675781, "tests_passed": true, "error": null}
+{"code": " re.search(r'^[a-z]+$', string).group(0) if re.search(r'^[a-z]+$', string) else ''", "compilation_passed": true, "time": 0.0014309883117675781, "tests_passed": true, "error": null}
+{"code": " string", "compilation_passed": true, "time": 0.0012581348419189453, "tests_passed": true, "error": null}
+{"code": " string if all(c.isalpha() for c in string) else ''", "compilation_passed": true, "time": 0.0013070106506347656, "tests_passed": true, "error": null}
+{"code": " re.findall(r'^[a-z]*$', string)", "compilation_passed": true, "time": 0.00732111930847168, "tests_passed": true, "error": null}
+{"code": " string if string.isalpha() else \"\"", "compilation_passed": true, "time": 0.0015969276428222656, "tests_passed": true, "error": null}
+{"code": " string if all(c in LETTERS for c in string) else ''", "compilation_passed": true, "time": 0.0012919902801513672, "tests_passed": true, "error": null}

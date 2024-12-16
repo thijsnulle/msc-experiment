@@ -1,0 +1,20 @@
+{"code": " np.empty((len(x), len(y)))", "compilation_passed": true, "time": 0.15712428092956543, "tests_passed": true, "error": null}
+{"code": " np.zeros((len(y), len(x)), dtype=np.complex128)  # Adjusted to have the correct dtype", "compilation_passed": true, "time": 0.07139301300048828, "tests_passed": false, "error": "TypeError"}
+{"code": " np.empty((len(x), len(y)), dtype=np.complex128)", "compilation_passed": true, "time": 0.0633857250213623, "tests_passed": false, "error": "TypeError"}
+{"code": " np.zeros((len(x), len(y)), dtype=np.complex128)", "compilation_passed": true, "time": 0.06445598602294922, "tests_passed": false, "error": "TypeError"}
+{"code": " np.zeros(x.shape)", "compilation_passed": true, "time": 0.009338855743408203, "tests_passed": false, "error": "IndexError"}
+{"code": " np.empty_like(x, dtype=np.complex128)", "compilation_passed": true, "time": 0.009476900100708008, "tests_passed": false, "error": "IndexError"}
+{"code": " np.empty((len(y), len(x)), dtype=float)", "compilation_passed": true, "time": 0.15656518936157227, "tests_passed": true, "error": null}
+{"code": " np.zeros_like(x)", "compilation_passed": true, "time": 0.013453960418701172, "tests_passed": false, "error": "IndexError"}
+{"code": " np.empty(len(x), dtype=complex)", "compilation_passed": true, "time": 0.009337902069091797, "tests_passed": false, "error": "IndexError"}
+{"code": " np.zeros((len(y), len(x)), dtype=np.complex128)", "compilation_passed": true, "time": 0.07538986206054688, "tests_passed": false, "error": "TypeError"}
+{"code": " np.zeros_like(x, dtype=np.complex128)", "compilation_passed": true, "time": 0.01341700553894043, "tests_passed": false, "error": "IndexError"}
+{"code": " np.empty((len(y), len(x)), dtype=np.complex_)", "compilation_passed": true, "time": 0.06624507904052734, "tests_passed": false, "error": "TypeError"}
+{"code": " np.empty((x.size, y.size), dtype=np.complex128)", "compilation_passed": true, "time": 0.09761810302734375, "tests_passed": false, "error": "TypeError"}
+{"code": " np.zeros_like(x, dtype=complex)  # Adjusted to initialize with complex dtype", "compilation_passed": true, "time": 0.013525962829589844, "tests_passed": false, "error": "IndexError"}
+{"code": " np.empty(x.shape + y.shape)  # Fixed the Z shape", "compilation_passed": true, "time": 0.18284106254577637, "tests_passed": true, "error": null}
+{"code": " np.zeros_like(x)  # Changed to a 1D array", "compilation_passed": true, "time": 0.009655952453613281, "tests_passed": false, "error": "IndexError"}
+{"code": " np.zeros((len(x), len(y)), dtype=np.float64)", "compilation_passed": true, "time": 0.1728661060333252, "tests_passed": true, "error": null}
+{"code": " np.empty((len(y), len(x)), dtype=complex)  # Adjusted to specify dtype=complex", "compilation_passed": true, "time": 0.06783580780029297, "tests_passed": false, "error": "TypeError"}
+{"code": " np.empty((x.size, y.size), dtype=complex)", "compilation_passed": true, "time": 0.07457804679870605, "tests_passed": false, "error": "TypeError"}
+{"code": " np.empty_like(x, dtype=complex)", "compilation_passed": true, "time": 0.008658885955810547, "tests_passed": false, "error": "IndexError"}

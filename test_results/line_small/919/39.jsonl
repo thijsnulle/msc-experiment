@@ -1,0 +1,13 @@
+{"code": " counts.reindex(CATEGORIES)", "compilation_passed": true, "time": 0.024968862533569336, "tests_passed": true, "error": null}
+{"code": " counts.reindex(CATEGORIES).sort_index()", "compilation_passed": true, "time": 0.030405759811401367, "tests_passed": true, "error": null}
+{"code": " pd.Series(counts, index=CATEGORIES)", "compilation_passed": true, "time": 0.025569915771484375, "tests_passed": true, "error": null}
+{"code": " counts.sort_index()", "compilation_passed": true, "time": 0.029979944229125977, "tests_passed": true, "error": null}
+{"code": " counts.sort_index(ascending=False)", "compilation_passed": true, "time": 0.028863906860351562, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(counts).transpose()", "compilation_passed": true, "time": 0.04603695869445801, "tests_passed": true, "error": null}
+{"code": " counts.sort_values(ascending=False)", "compilation_passed": true, "time": 0.03292584419250488, "tests_passed": true, "error": null}
+{"code": " counts.sort_index(ascending=True)", "compilation_passed": true, "time": 0.7797272205352783, "tests_passed": true, "error": null}
+{"code": " counts.astype(int)", "compilation_passed": true, "time": 0.03589296340942383, "tests_passed": true, "error": null}
+{"code": " counts.sort_values(ascending=True)", "compilation_passed": true, "time": 0.03346705436706543, "tests_passed": true, "error": null}
+{"code": " counts.reindex(CATEGORIES)  # Add missing categories with count of 0", "compilation_passed": true, "time": 0.024207115173339844, "tests_passed": true, "error": null}
+{"code": " counts.sort_values()", "compilation_passed": true, "time": 0.027374982833862305, "tests_passed": true, "error": null}
+{"code": " counts.astype('int64')", "compilation_passed": true, "time": 0.026483774185180664, "tests_passed": true, "error": null}

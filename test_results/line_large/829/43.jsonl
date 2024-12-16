@@ -1,0 +1,7 @@
+{"code": " df.groupby('Name')", "compilation_passed": true, "time": 0.03692913055419922, "tests_passed": true, "error": null}
+{"code": " df.groupby('Name')['Score']", "compilation_passed": true, "time": 0.046401023864746094, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby('Name', as_index=False)['Score'].mean()", "compilation_passed": true, "time": 0.03723311424255371, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(['Name'])['Score'].mean()", "compilation_passed": true, "time": 0.03689694404602051, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby('Name').agg(['mean']).reset_index()", "compilation_passed": true, "time": 0.04281210899353027, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby('Name').aggregate({'Score': 'mean'})", "compilation_passed": true, "time": 0.03692793846130371, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('Name').agg('mean')", "compilation_passed": true, "time": 0.0371098518371582, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,24 @@
+{"code": " rows < 0:", "compilation_passed": true, "time": 0.014084815979003906, "tests_passed": false, "error": "ValueError"}
+{"code": " min_val > max_val:", "compilation_passed": true, "time": 0.011983871459960938, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(rows, int):", "compilation_passed": true, "time": 0.011198997497558594, "tests_passed": false, "error": "ValueError"}
+{"code": " cols <= 0:", "compilation_passed": true, "time": 0.012505769729614258, "tests_passed": false, "error": "ValueError"}
+{"code": " rows is None:", "compilation_passed": true, "time": 0.012371301651000977, "tests_passed": false, "error": "ValueError"}
+{"code": " min_val < max_val:", "compilation_passed": true, "time": 0.0049648284912109375, "tests_passed": true, "error": null}
+{"code": " isinstance(min_val, int) and isinstance(max_val, int):", "compilation_passed": true, "time": 0.00442194938659668, "tests_passed": true, "error": null}
+{"code": " isinstance(min_val, list) and len(min_val) == 1:", "compilation_passed": true, "time": 0.012042999267578125, "tests_passed": false, "error": "ValueError"}
+{"code": " (rows < 0) or (cols < 0) or (max_val < 0) or (min_val < 0) or (max_val <= min_val):", "compilation_passed": true, "time": 0.0025968551635742188, "tests_passed": true, "error": null}
+{"code": " rows <= 1 or cols <= 1:", "compilation_passed": true, "time": 0.011496782302856445, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(seed, int):", "compilation_passed": true, "time": 0.004261970520019531, "tests_passed": true, "error": null}
+{"code": " min_val >= max_val:", "compilation_passed": true, "time": 0.0028197765350341797, "tests_passed": true, "error": null}
+{"code": " max_val is not None:", "compilation_passed": true, "time": 0.004430055618286133, "tests_passed": true, "error": null}
+{"code": " min_val < 0:", "compilation_passed": true, "time": 0.01146388053894043, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(seed, int) and seed > 0:", "compilation_passed": true, "time": 0.010946035385131836, "tests_passed": false, "error": "ValueError"}
+{"code": " max_val == min_val:", "compilation_passed": true, "time": 0.002373933792114258, "tests_passed": true, "error": null}
+{"code": " cols == 2:", "compilation_passed": true, "time": 0.0046846866607666016, "tests_passed": true, "error": null}
+{"code": " seed != 0:", "compilation_passed": true, "time": 0.012232065200805664, "tests_passed": false, "error": "ValueError"}
+{"code": " cols <= 0 or rows <= 0:", "compilation_passed": true, "time": 0.011451005935668945, "tests_passed": false, "error": "ValueError"}
+{"code": " min_val >= 0 and max_val >= 0:", "compilation_passed": true, "time": 0.004442930221557617, "tests_passed": true, "error": null}
+{"code": " rows < 3:", "compilation_passed": true, "time": 0.012006282806396484, "tests_passed": false, "error": "ValueError"}
+{"code": " cols == 1:", "compilation_passed": true, "time": 0.011757850646972656, "tests_passed": false, "error": "ValueError"}
+{"code": " rows == 0 or cols == 0:", "compilation_passed": true, "time": 0.012865781784057617, "tests_passed": false, "error": "ValueError"}
+{"code": " max_val - min_val < rows:", "compilation_passed": true, "time": 0.002735137939453125, "tests_passed": true, "error": null}

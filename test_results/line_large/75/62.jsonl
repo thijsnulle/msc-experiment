@@ -1,0 +1,4 @@
+{"code": " pd.concat([df, sales_data])", "compilation_passed": true, "time": 0.25577211380004883, "tests_passed": true, "error": null}
+{"code": " pd.concat([df, sales_data], ignore_index=True)", "compilation_passed": true, "time": 0.34682226181030273, "tests_passed": true, "error": null}
+{"code": " pd.concat([df, sales_data], axis=0, ignore_index=True)", "compilation_passed": true, "time": 0.6886420249938965, "tests_passed": true, "error": null}
+{"code": " pd.concat([df, sales_data]).reset_index(drop=True)", "compilation_passed": true, "time": 1.5805668830871582, "tests_passed": false, "error": "TimeoutError"}

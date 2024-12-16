@@ -1,0 +1,5 @@
+{"code": "random.shuffle(records_copy)", "compilation_passed": true, "time": 0.006857395172119141, "tests_passed": true, "error": null}
+{"code": "random.shuffle(records_copy.T)", "compilation_passed": true, "time": 0.007704019546508789, "tests_passed": true, "error": null}
+{"code": "random.shuffle(np.transpose(records_copy))", "compilation_passed": true, "time": 0.006087064743041992, "tests_passed": true, "error": null}
+{"code": "random.shuffle(records_copy)  # shuffle only along the first axis", "compilation_passed": true, "time": 0.007175922393798828, "tests_passed": true, "error": null}
+{"code": "random.shuffle(records_copy.T)  # Shuffle the columns of the copy.", "compilation_passed": true, "time": 0.00713801383972168, "tests_passed": true, "error": null}

@@ -1,0 +1,5 @@
+{"code": " csv.DictWriter(f, fieldnames=['key', 'mean', 'median'])", "compilation_passed": true, "time": 0.014000177383422852, "tests_passed": true, "error": null}
+{"code": " csv.writer(f)", "compilation_passed": true, "time": 0.011461973190307617, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.DictWriter(f, fieldnames=['field', 'mean', 'median'])", "compilation_passed": true, "time": 0.015111923217773438, "tests_passed": false, "error": "ValueError"}
+{"code": " csv.DictWriter(f, fieldnames=result.keys())", "compilation_passed": true, "time": 0.012211084365844727, "tests_passed": false, "error": "ValueError"}
+{"code": " csv.DictWriter(f, fieldnames=['Field', 'Mean', 'Median'])", "compilation_passed": true, "time": 0.011554956436157227, "tests_passed": false, "error": "ValueError"}

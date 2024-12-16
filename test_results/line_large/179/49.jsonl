@@ -1,0 +1,7 @@
+{"code": " vectorizer.fit_transform(interesting_articles['Content'])", "compilation_passed": true, "time": 0.11107397079467773, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(interesting_articles['Content'].astype(str))", "compilation_passed": true, "time": 0.11781597137451172, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(interesting_articles['Content'].values)", "compilation_passed": true, "time": 0.11165189743041992, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(interesting_articles['Content']).toarray()", "compilation_passed": true, "time": 0.11152195930480957, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(interesting_articles['Content']).todense()", "compilation_passed": true, "time": 0.11066007614135742, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(interesting_articles['Content'].values.astype('U'))", "compilation_passed": true, "time": 0.11062502861022949, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(interesting_articles['Content'].tolist())", "compilation_passed": true, "time": 0.11032676696777344, "tests_passed": true, "error": null}

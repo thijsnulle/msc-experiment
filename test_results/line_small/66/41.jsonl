@@ -1,0 +1,26 @@
+{"code": " sns.distplot(analyzed_df[COLUMNS[-1]],", "compilation_passed": false, "time": 0.0001919269561767578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.distplot(analyzed_df, x=analyzed_df[COLUMNS[-1]], bins=10)", "compilation_passed": true, "time": 0.08625411987304688, "tests_passed": true, "error": null}
+{"code": " sns.barplot(x=COLUMNS[-1], y='nunique', data=analyzed_df)", "compilation_passed": true, "time": 0.026892900466918945, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.distplot(analyzed_df, x='col3')", "compilation_passed": true, "time": 0.015530109405517578, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.distplot(analyzed_df[COLUMNS[-1]], bins=15)", "compilation_passed": true, "time": 0.10907888412475586, "tests_passed": true, "error": null}
+{"code": " sns.distplot(analyzed_df['col3'], xlabel=COLUMNS[-1])", "compilation_passed": true, "time": 0.01024007797241211, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.barplot(data=analyzed_df, x=COLUMNS[-1], y='col1', hue='col2')", "compilation_passed": true, "time": 0.355147123336792, "tests_passed": true, "error": null}
+{"code": " sns.distplot(analyzed_df[COLUMNS[-1]], kde=False,", "compilation_passed": false, "time": 0.00020813941955566406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.distplot(analyzed_df[COLUMNS[-1]], kde=True, hue=COLUMNS[0], x=COLUMNS[-1], rug=True, bins=30)", "compilation_passed": true, "time": 0.012815237045288086, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.barplot(data=analyzed_df, x='col2', y='col3')", "compilation_passed": true, "time": 0.27306270599365234, "tests_passed": true, "error": null}
+{"code": " sns.distplot(analyzed_df,", "compilation_passed": false, "time": 0.00019407272338867188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.distplot(analyzed_df, kde=False, rug=True, rug_kwargs={\"alpha\": 1})", "compilation_passed": true, "time": 0.011226892471313477, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.distplot(df[COLUMNS[-1]])", "compilation_passed": true, "time": 0.0684049129486084, "tests_passed": true, "error": null}
+{"code": " sns.distplot(analyzed_df['col3'], hist=False, label='col3')", "compilation_passed": true, "time": 0.04801201820373535, "tests_passed": true, "error": null}
+{"code": " sns.distplot(analyzed_df[COLUMNS[-1]])", "compilation_passed": true, "time": 0.056105852127075195, "tests_passed": true, "error": null}
+{"code": " sns.distplot(analyzed_df.col3)", "compilation_passed": true, "time": 0.08081412315368652, "tests_passed": true, "error": null}
+{"code": " sns.distplot(analyzed_df[COLUMNS[-1]], kde=False)", "compilation_passed": true, "time": 0.028029918670654297, "tests_passed": true, "error": null}
+{"code": " sns.distplot(analyzed_df[COLUMNS[-1]], rug=True, bins=5, kde=False, color=\"g\", hist_kws={'alpha': 0.4}, ax=plt.axes())", "compilation_passed": true, "time": 0.010078191757202148, "tests_passed": false, "error": "NameError"}
+{"code": " sns.distplot(df[COLUMNS[-1]], kde=False, hist_kws={\"color\": \"steelblue\"}, rug=True)", "compilation_passed": true, "time": 0.08788776397705078, "tests_passed": true, "error": null}
+{"code": " sns.distplot(analyzed_df[COLUMNS[-1]], kde=False, rug=True)", "compilation_passed": true, "time": 0.12485718727111816, "tests_passed": true, "error": null}
+{"code": " sns.distplot(analyzed_df['col3'], kde=False, rug=True, hist=False, rug_kws={\"alpha\": 1}, bins=3, ax=plt.gca())", "compilation_passed": true, "time": 0.01050877571105957, "tests_passed": false, "error": "NameError"}
+{"code": " sns.distplot(analyzed_df[COLUMNS[-1]], xlabel=COLUMNS[-1])", "compilation_passed": true, "time": 0.010941267013549805, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.distplot(analyzed_df[COLUMNS[-1]], kde=False, label='col3', x=COLUMNS[-1])", "compilation_passed": true, "time": 0.011245965957641602, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.distplot(analyzed_df[COLUMNS[-1]], label=analyzed_df[COLUMNS[-1]].name, kde=False)", "compilation_passed": true, "time": 0.02593708038330078, "tests_passed": true, "error": null}
+{"code": " sns.distplot(analyzed_df[COLUMNS[-1]], kde=False, rug=True, label=COLUMNS[-1])", "compilation_passed": true, "time": 0.06638693809509277, "tests_passed": true, "error": null}
+{"code": " sns.distplot(analyzed_df[COLUMNS[-1]], kde=False, hist=False)", "compilation_passed": true, "time": 0.01811814308166504, "tests_passed": true, "error": null}

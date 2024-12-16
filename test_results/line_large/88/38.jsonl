@@ -1,0 +1,12 @@
+{"code": " []", "compilation_passed": true, "time": 0.3362917900085449, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Date': pd.date_range(start_date, end_date, freq='D')})", "compilation_passed": true, "time": 0.021420955657958984, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'Date': pd.date_range(start_date, end_date)})", "compilation_passed": true, "time": 0.007854938507080078, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(start_date + timedelta(days=x)).strftime('%Y-%m-%d') for x in range((end_date - start_date).days + 1)]", "compilation_passed": true, "time": 0.020645856857299805, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.010287761688232422, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00019311904907226562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Date': [start_date + timedelta(days=x) for x in range((end_date - start_date).days + 1)]})", "compilation_passed": true, "time": 0.008440017700195312, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(columns=['Date', 'Sales'])", "compilation_passed": true, "time": 0.008702993392944336, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'Date': pd.date_range(start_date, end_date)}", "compilation_passed": true, "time": 0.01030111312866211, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(start_date + timedelta(days=i)).strftime(\"%Y-%m-%d\") for i in range((end_date - start_date).days + 1)]", "compilation_passed": true, "time": 0.01144719123840332, "tests_passed": false, "error": "ValueError"}
+{"code": " [(start_date + timedelta(days=x)).strftime(\"%Y-%m-%d\") for x in range((end_date - start_date).days + 1)]", "compilation_passed": true, "time": 0.009678125381469727, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Date': pd.date_range(start=start_date, end=end_date, freq='D'),", "compilation_passed": false, "time": 0.00021886825561523438, "tests_passed": false, "error": "SyntaxError"}

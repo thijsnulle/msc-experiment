@@ -1,0 +1,15 @@
+{"code": " isinstance(animals, list) and isinstance(mean, (int, float)):", "compilation_passed": true, "time": 0.009159088134765625, "tests_passed": true, "error": null}
+{"code": " not isinstance(animals, list) or len(animals) == 0:", "compilation_passed": true, "time": 0.0187680721282959, "tests_passed": true, "error": null}
+{"code": " not isinstance(animals, list) or len(animals) == 0 or any(not isinstance(animal, str) for animal in animals):", "compilation_passed": true, "time": 0.024021148681640625, "tests_passed": true, "error": null}
+{"code": " not isinstance(animals, list):", "compilation_passed": true, "time": 0.023750782012939453, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(animals, list) or not all(isinstance(animal, str) for animal in animals):", "compilation_passed": true, "time": 0.015983104705810547, "tests_passed": false, "error": "IndexError"}
+{"code": " not animals:", "compilation_passed": true, "time": 0.025983810424804688, "tests_passed": true, "error": null}
+{"code": " not isinstance(animals, list) or any(not isinstance(animal, str) for animal in animals):", "compilation_passed": true, "time": 0.011538028717041016, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(animals, list) or not isinstance(mean, (int, float)):", "compilation_passed": true, "time": 0.013156890869140625, "tests_passed": false, "error": "IndexError"}
+{"code": " not all(isinstance(animal, str) for animal in animals):", "compilation_passed": true, "time": 0.010831117630004883, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(animals, list) or not all(isinstance(x, str) for x in animals):", "compilation_passed": true, "time": 0.015121936798095703, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(animals, list) or not isinstance(mean, int):", "compilation_passed": true, "time": 0.01155996322631836, "tests_passed": false, "error": "IndexError"}
+{"code": " len(animals) == 0:", "compilation_passed": true, "time": 0.017425060272216797, "tests_passed": true, "error": null}
+{"code": " not animals or not all(animal and isinstance(animal, str) for animal in animals):", "compilation_passed": true, "time": 0.022160768508911133, "tests_passed": true, "error": null}
+{"code": " len(animals) == 0 or mean <= 0:", "compilation_passed": true, "time": 0.023144960403442383, "tests_passed": true, "error": null}
+{"code": " not (all(isinstance(animal, str) for animal in animals)):", "compilation_passed": true, "time": 0.010419845581054688, "tests_passed": false, "error": "IndexError"}

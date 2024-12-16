@@ -1,0 +1,5 @@
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.012586116790771484, "tests_passed": false, "error": "KeyError"}
+{"code": " not (", "compilation_passed": false, "time": 0.00020003318786621094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not (isinstance(df, pd.DataFrame) and set([\"group\", \"date\", \"value\"]).issubset(df.columns) and", "compilation_passed": false, "time": 0.00015687942504882812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not isinstance(df, pd.DataFrame) or \"date\" not in df.columns or \"value\" not in df.columns:", "compilation_passed": true, "time": 0.042832136154174805, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.DataFrame) or not isinstance(df.date, pd.Series):", "compilation_passed": true, "time": 0.012153148651123047, "tests_passed": false, "error": "AttributeError"}

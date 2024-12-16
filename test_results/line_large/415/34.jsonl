@@ -1,0 +1,6 @@
+{"code": " not isinstance(dataframe, pd.DataFrame):", "compilation_passed": true, "time": 0.008131742477416992, "tests_passed": true, "error": null}
+{"code": " isinstance(dataframe, pd.DataFrame):", "compilation_passed": true, "time": 0.01780223846435547, "tests_passed": false, "error": "TypeError"}
+{"code": " 'UnicodeString' not in dataframe.columns:", "compilation_passed": true, "time": 0.018691301345825195, "tests_passed": false, "error": "TypeError"}
+{"code": " \"UnicodeString\" not in dataframe.columns:", "compilation_passed": true, "time": 0.018771886825561523, "tests_passed": false, "error": "TypeError"}
+{"code": " 'UnicodeString' not in dataframe:", "compilation_passed": true, "time": 0.018898963928222656, "tests_passed": false, "error": "TypeError"}
+{"code": " 'UnicodeString' in dataframe.columns:", "compilation_passed": true, "time": 0.01797318458557129, "tests_passed": false, "error": "TypeError"}

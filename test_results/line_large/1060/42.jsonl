@@ -1,0 +1,10 @@
+{"code": " df.empty or column_name not in df.columns or df[column_name].isnull().all():", "compilation_passed": true, "time": 0.22121500968933105, "tests_passed": true, "error": null}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.22957897186279297, "tests_passed": true, "error": null}
+{"code": " df.empty or column_name not in df.columns or df[column_name].isna().all():", "compilation_passed": true, "time": 0.1626431941986084, "tests_passed": true, "error": null}
+{"code": " df.empty or (column_name not in df) or df[column_name].isnull().all():", "compilation_passed": true, "time": 0.1642138957977295, "tests_passed": true, "error": null}
+{"code": " df.empty:  # DataFrame is empty", "compilation_passed": true, "time": 0.15926098823547363, "tests_passed": true, "error": null}
+{"code": " df.empty or (column_name not in df.columns) or df[column_name].isnull().all():", "compilation_passed": true, "time": 0.16839003562927246, "tests_passed": true, "error": null}
+{"code": " df.empty or column_name not in df or df[column_name].isnull().all():", "compilation_passed": true, "time": 0.15973925590515137, "tests_passed": true, "error": null}
+{"code": " df.empty:  # If the DataFrame is empty", "compilation_passed": true, "time": 0.15704584121704102, "tests_passed": true, "error": null}
+{"code": " df.empty:  # Check if the DataFrame is empty.", "compilation_passed": true, "time": 0.1574420928955078, "tests_passed": true, "error": null}
+{"code": " df.empty or not column_name in df.columns or pd.isnull(df[column_name]).all():", "compilation_passed": true, "time": 0.1606452465057373, "tests_passed": true, "error": null}

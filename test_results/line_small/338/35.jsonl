@@ -1,0 +1,13 @@
+{"code": " ['% ' + ''.join(random.sample(string.ascii_letters + string.digits, 5)) + '%' for _ in range(len(elements))]", "compilation_passed": true, "time": 0.04816293716430664, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.17387604713439941, "tests_passed": true, "error": null}
+{"code": " ['% {0}%'.format(random.choice(string.ascii_letters + string.digits)) for _ in elements]", "compilation_passed": true, "time": 0.038613080978393555, "tests_passed": true, "error": null}
+{"code": " ['% ' + ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(5)) + '%' for _ in", "compilation_passed": false, "time": 0.00017189979553222656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [f\"% {''.join([random.choice(string.ascii_letters) for _ in range(5)])}%\" for _ in elements]", "compilation_passed": true, "time": 0.045068979263305664, "tests_passed": true, "error": null}
+{"code": " [\"%\" + \"\".join(random.sample(string.ascii_uppercase + string.digits, 5)) + \"%\" for _ in elements]", "compilation_passed": true, "time": 0.04599618911743164, "tests_passed": true, "error": null}
+{"code": " ['% {0}%'.format(random.choice(string.ascii_letters + string.digits))", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ['%' + ''.join(random.choices(string.ascii_letters + string.digits, k=5)) + '%' for _ in", "compilation_passed": false, "time": 0.0001373291015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [f'% {random.choice(string.ascii_letters + string.digits + string.punctuation)}%' for _ in range(len(elements))]", "compilation_passed": true, "time": 0.04210996627807617, "tests_passed": true, "error": null}
+{"code": " [''.join(random.choice(string.ascii_letters + string.digits) for _ in range(5)) for _ in elements]", "compilation_passed": true, "time": 0.04421496391296387, "tests_passed": true, "error": null}
+{"code": " [\"% \" + ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(5)) for _ in elements]", "compilation_passed": true, "time": 0.047017812728881836, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00011110305786132812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [\"% \" + \"\".join(random.choices(string.ascii_letters + string.digits, k=5)) + \"%\" for _ in elements]", "compilation_passed": true, "time": 0.042942047119140625, "tests_passed": true, "error": null}

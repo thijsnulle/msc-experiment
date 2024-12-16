@@ -1,0 +1,19 @@
+{"code": " sorted(list_input, key=lambda x: math.log10(x) if x != 0 else -np.inf)", "compilation_passed": true, "time": 0.00740361213684082, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.degrees(np.log(x)))", "compilation_passed": true, "time": 0.005302906036376953, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.log(abs(x)) if x != 0 else float(\"-inf\"), reverse=False)", "compilation_passed": true, "time": 0.004970073699951172, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.log10(x))", "compilation_passed": true, "time": 0.0045812129974365234, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.log(x))", "compilation_passed": true, "time": 0.004496097564697266, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=math.log10)", "compilation_passed": true, "time": 0.005834102630615234, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=math.degrees)", "compilation_passed": true, "time": 0.0048809051513671875, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.degrees(np.log(x)))  # Sort the input list based on degree value.", "compilation_passed": true, "time": 0.005857229232788086, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=math.log)", "compilation_passed": true, "time": 0.004925966262817383, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.degrees(math.acos(x / 100)))", "compilation_passed": true, "time": 0.006841897964477539, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.log(abs(x), 10) if x != 0 else float(\"inf\"))", "compilation_passed": true, "time": 0.005084991455078125, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.log10(x) if x > 0 else -math.inf)", "compilation_passed": true, "time": 0.0046539306640625, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.log10(x) if x > 0 else float('-inf'))", "compilation_passed": true, "time": 0.0048367977142333984, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.log10(x) if x > 0 else 0)", "compilation_passed": true, "time": 0.0046100616455078125, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.degrees(np.arctan(x)))", "compilation_passed": true, "time": 0.004586935043334961, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.log10(abs(x)) if x != 0 else 0)", "compilation_passed": true, "time": 0.004346132278442383, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.degrees(x))", "compilation_passed": true, "time": 0.005053997039794922, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.degrees(np.log(x)))  # sort the list based on degree value", "compilation_passed": true, "time": 0.0048639774322509766, "tests_passed": true, "error": null}
+{"code": " sorted(list_input, key=lambda x: math.log10(x) if x != 0 else 0)", "compilation_passed": true, "time": 0.0049059391021728516, "tests_passed": true, "error": null}

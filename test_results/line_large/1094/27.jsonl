@@ -1,0 +1,24 @@
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if len(word) > 1 and word[1:].isalnum()]", "compilation_passed": true, "time": 0.00421595573425293, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if word.startswith(\"$\") and word != '$']", "compilation_passed": true, "time": 0.0042841434478759766, "tests_passed": true, "error": null}
+{"code": " [word.lower().replace('$', '') for word in tokenizer.tokenize(text) if len(word) > 1]", "compilation_passed": true, "time": 0.004239797592163086, "tests_passed": true, "error": null}
+{"code": " tokenizer.tokenize(text)", "compilation_passed": true, "time": 0.001210927963256836, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if word[1:].isalnum()]", "compilation_passed": true, "time": 0.0039861202239990234, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if word[1:].isalpha()]", "compilation_passed": true, "time": 0.003955841064453125, "tests_passed": true, "error": null}
+{"code": " [word.replace('$', '') for word in tokenizer.tokenize(text) if re.match(r'\\$\\w+', word)]", "compilation_passed": true, "time": 0.011452913284301758, "tests_passed": false, "error": "NameError"}
+{"code": " [word.lower()[1:] for word in tokenizer.tokenize(text) if len(word) > 1]", "compilation_passed": true, "time": 0.004258155822753906, "tests_passed": true, "error": null}
+{"code": " [word.replace('$', '') for word in tokenizer.tokenize(text) if word.startswith('$')]", "compilation_passed": true, "time": 0.004236936569213867, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if len(word) > 1]", "compilation_passed": true, "time": 0.0040628910064697266, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if not word == '$$']", "compilation_passed": true, "time": 0.0044248104095458984, "tests_passed": true, "error": null}
+{"code": " [word.lstrip(\"$\") for word in tokenizer.tokenize(text) if word.startswith(\"$\")]", "compilation_passed": true, "time": 0.004188060760498047, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if word[0] == '$' and len(word) > 1]", "compilation_passed": true, "time": 0.004250288009643555, "tests_passed": true, "error": null}
+{"code": " [word.strip(\"$\") for word in tokenizer.tokenize(text) if len(word.strip(\"$\")) > 0]", "compilation_passed": true, "time": 0.00429987907409668, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if word.startswith('$') and word != '$']", "compilation_passed": true, "time": 0.0042209625244140625, "tests_passed": true, "error": null}
+{"code": " [token[1:] for token in tokenizer.tokenize(text)]", "compilation_passed": true, "time": 0.00400996208190918, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if word != '$']", "compilation_passed": true, "time": 0.0041599273681640625, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if word != \"$$\"]", "compilation_passed": true, "time": 0.004830121994018555, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if word[0] == '$' and word[1:].isalnum()]", "compilation_passed": true, "time": 0.0068721771240234375, "tests_passed": true, "error": null}
+{"code": " [word.lower().replace('$', '') for word in tokenizer.tokenize(text)]", "compilation_passed": true, "time": 0.004667043685913086, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if word.startswith(\"$\") and not word[1:].isalpha()]", "compilation_passed": true, "time": 0.004437923431396484, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if len(word[1:]) > 0]", "compilation_passed": true, "time": 0.004055023193359375, "tests_passed": true, "error": null}
+{"code": " [word[1:] for word in tokenizer.tokenize(text) if not word.startswith(\"$$\")]", "compilation_passed": true, "time": 0.003965139389038086, "tests_passed": true, "error": null}
+{"code": " [word.replace(\"$\", \"\") for word in tokenizer.tokenize(text) if \"$\" in word]", "compilation_passed": true, "time": 0.004289150238037109, "tests_passed": true, "error": null}

@@ -1,0 +1,6 @@
+{"code": " tfidf_matrix.todense()", "compilation_passed": true, "time": 0.010772943496704102, "tests_passed": false, "error": "IndexError"}
+{"code": " tfidf_matrix.todense().round(8)", "compilation_passed": true, "time": 0.0076100826263427734, "tests_passed": false, "error": "ValueError"}
+{"code": " tfidf_matrix.toarray().astype(\"float32\").round(8)", "compilation_passed": true, "time": 0.0067179203033447266, "tests_passed": false, "error": "ValueError"}
+{"code": " tfidf_matrix.toarray().round(8)", "compilation_passed": true, "time": 0.005879878997802734, "tests_passed": false, "error": "ValueError"}
+{"code": " tfidf_matrix.todense().round(decimals=8)", "compilation_passed": true, "time": 0.0061740875244140625, "tests_passed": false, "error": "ValueError"}
+{"code": " tfidf_matrix.toarray()", "compilation_passed": true, "time": 0.0060122013092041016, "tests_passed": false, "error": "ValueError"}

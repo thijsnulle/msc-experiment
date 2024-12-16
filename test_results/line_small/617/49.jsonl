@@ -1,0 +1,10 @@
+{"code": "append(result_string)", "compilation_passed": true, "time": 0.010132074356079102, "tests_passed": false, "error": "ValueError"}
+{"code": "append(f\"{team} {result_string}\")", "compilation_passed": true, "time": 0.007523059844970703, "tests_passed": false, "error": "ValueError"}
+{"code": "append([team, team_goals, penalty_cost])", "compilation_passed": true, "time": 0.00710296630859375, "tests_passed": false, "error": "ValueError"}
+{"code": "append({'Team': team, 'Goals': team_goals, 'Penalty Cost': penalty_cost})", "compilation_passed": true, "time": 0.01802206039428711, "tests_passed": false, "error": "TypeError"}
+{"code": "append(", "compilation_passed": false, "time": 0.00032901763916015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append([team, team_goals, penalty_cost, result_string])", "compilation_passed": true, "time": 0.010721921920776367, "tests_passed": false, "error": "ValueError"}
+{"code": "append((team, team_goals, penalty_cost, result_string))", "compilation_passed": true, "time": 0.00794219970703125, "tests_passed": false, "error": "ValueError"}
+{"code": "append((team, result_string))", "compilation_passed": true, "time": 0.4883232116699219, "tests_passed": true, "error": null}
+{"code": "append((team, team_goals, penalty_cost))", "compilation_passed": true, "time": 0.006494998931884766, "tests_passed": false, "error": "ValueError"}
+{"code": "append({'Team': team, 'Goals': team_goals, 'Penalty Cost': penalty_cost, 'Result': result_string})", "compilation_passed": true, "time": 0.01781487464904785, "tests_passed": false, "error": "TypeError"}

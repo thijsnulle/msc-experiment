@@ -1,0 +1,13 @@
+{"code": " not s or ' ' in s:", "compilation_passed": true, "time": 0.006011962890625, "tests_passed": false, "error": "ValueError"}
+{"code": " not s.strip():  # Check if the XML string is empty or only contains whitespace.", "compilation_passed": true, "time": 0.0024650096893310547, "tests_passed": true, "error": null}
+{"code": " s.strip() == '':", "compilation_passed": true, "time": 0.002624988555908203, "tests_passed": true, "error": null}
+{"code": " not s.strip():", "compilation_passed": true, "time": 0.0026330947875976562, "tests_passed": true, "error": null}
+{"code": " not s:", "compilation_passed": true, "time": 0.002438783645629883, "tests_passed": true, "error": null}
+{"code": " not s or not s.strip():", "compilation_passed": true, "time": 0.0029511451721191406, "tests_passed": true, "error": null}
+{"code": " not s or s.strip() == '':", "compilation_passed": true, "time": 0.0024912357330322266, "tests_passed": true, "error": null}
+{"code": " s == \"\":", "compilation_passed": true, "time": 0.002451181411743164, "tests_passed": true, "error": null}
+{"code": " len(s.strip()) == 0:", "compilation_passed": true, "time": 0.0028831958770751953, "tests_passed": true, "error": null}
+{"code": " not s or len(s.strip()) == 0:", "compilation_passed": true, "time": 0.0034470558166503906, "tests_passed": true, "error": null}
+{"code": " s:", "compilation_passed": true, "time": 0.004751920700073242, "tests_passed": false, "error": "ValueError"}
+{"code": " s is None:", "compilation_passed": true, "time": 0.005349874496459961, "tests_passed": false, "error": "xml.parsers.expat.ExpatError"}
+{"code": " len(s) < 1:", "compilation_passed": true, "time": 0.002894878387451172, "tests_passed": true, "error": null}

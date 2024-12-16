@@ -1,0 +1,10 @@
+{"code": " {}", "compilation_passed": true, "time": 0.028247833251953125, "tests_passed": false, "error": "KeyError"}
+{"code": " dic.keys()", "compilation_passed": true, "time": 0.029488801956176758, "tests_passed": false, "error": "TypeError"}
+{"code": " dic.items()", "compilation_passed": true, "time": 0.030293941497802734, "tests_passed": false, "error": "TypeError"}
+{"code": " list(dic.keys())", "compilation_passed": true, "time": 0.05200529098510742, "tests_passed": false, "error": "ValueError"}
+{"code": " list(dic.keys())  # List of location names", "compilation_passed": true, "time": 0.02818608283996582, "tests_passed": false, "error": "ValueError"}
+{"code": " []", "compilation_passed": true, "time": 0.027034997940063477, "tests_passed": false, "error": "IndexError"}
+{"code": " list(dic.items())", "compilation_passed": true, "time": 0.027233123779296875, "tests_passed": false, "error": "IndexError"}
+{"code": " [Location(name, point[\"Lat\"], point[\"Lon\"]) for name, point in dic.items()]", "compilation_passed": true, "time": 0.03685402870178223, "tests_passed": false, "error": "NameError"}
+{"code": " [(lat, lon) for loc in dic.values() for lat, lon in loc.items()]", "compilation_passed": true, "time": 0.024911165237426758, "tests_passed": false, "error": "IndexError"}
+{"code": " [geopy.distance.Point(lat, lon) for lat, lon in dic.values()]", "compilation_passed": true, "time": 0.04180097579956055, "tests_passed": false, "error": "NameError"}

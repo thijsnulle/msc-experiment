@@ -1,0 +1,26 @@
+{"code": " np.random.randint(-100, 100, n_steps)", "compilation_passed": true, "time": 0.6817858219146729, "tests_passed": true, "error": null}
+{"code": " np.random.randn(n_steps)", "compilation_passed": true, "time": 0.6035959720611572, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(low=-1, high=1, size=(n_steps, 2))", "compilation_passed": true, "time": 0.4153461456298828, "tests_passed": true, "error": null}
+{"code": " np.random.choice([-1, 1], size=n_steps).cumsum()", "compilation_passed": true, "time": 0.6548590660095215, "tests_passed": true, "error": null}
+{"code": " np.random.randint(-1, 2, size=(n_steps, 2))", "compilation_passed": true, "time": 0.45868897438049316, "tests_passed": true, "error": null}
+{"code": " np.random.choice([-1, 1], n_steps).cumsum()", "compilation_passed": true, "time": 0.6660089492797852, "tests_passed": true, "error": null}
+{"code": " (np.random.randn(2, n_steps)).cumsum(axis=1)", "compilation_passed": true, "time": 0.4155421257019043, "tests_passed": true, "error": null}
+{"code": " np.random.randint(-1, 2, size=(2, n_steps)).cumsum(axis=1)", "compilation_passed": true, "time": 0.3698239326477051, "tests_passed": true, "error": null}
+{"code": " np.cumsum(np.random.randn(n_steps))", "compilation_passed": true, "time": 0.7082328796386719, "tests_passed": true, "error": null}
+{"code": " np.random.randn(2, n_steps).cumsum(axis=1)", "compilation_passed": true, "time": 0.36927318572998047, "tests_passed": true, "error": null}
+{"code": " np.random.randint(-1, 2, size=n_steps)", "compilation_passed": true, "time": 0.6386759281158447, "tests_passed": true, "error": null}
+{"code": " np.random.randint(-1, 2, size=n_steps, dtype=np.int).cumsum()", "compilation_passed": true, "time": 0.6135668754577637, "tests_passed": true, "error": null}
+{"code": " np.random.randint(-1, 2, n_steps).cumsum()", "compilation_passed": true, "time": 0.5991649627685547, "tests_passed": true, "error": null}
+{"code": " np.random.choice([-1, +1], n_steps)", "compilation_passed": true, "time": 0.6159570217132568, "tests_passed": true, "error": null}
+{"code": " np.random.choice([0, 1], size=n_steps, p=[0.5, 0.5])", "compilation_passed": true, "time": 0.6534099578857422, "tests_passed": true, "error": null}
+{"code": " np.random.randn(n_steps, 2).cumsum(axis=0)", "compilation_passed": true, "time": 0.36511993408203125, "tests_passed": true, "error": null}
+{"code": " np.random.normal(size=n_steps, loc=0, scale=3.0)", "compilation_passed": true, "time": 0.6366052627563477, "tests_passed": true, "error": null}
+{"code": " np.random.randint(-1, 2, (n_steps, 2)).cumsum(0)", "compilation_passed": true, "time": 0.36486005783081055, "tests_passed": true, "error": null}
+{"code": " np.random.randint(-1, 2, size=n_steps).cumsum()", "compilation_passed": true, "time": 0.6339638233184814, "tests_passed": true, "error": null}
+{"code": " np.random.choice([-1, +1], size=(n_steps,)).cumsum()", "compilation_passed": true, "time": 0.6939537525177002, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 1, n_steps).cumsum() - 1", "compilation_passed": true, "time": 0.6892588138580322, "tests_passed": true, "error": null}
+{"code": " np.cumsum(np.random.choice([-1, 1], n_steps))", "compilation_passed": true, "time": 0.7786269187927246, "tests_passed": true, "error": null}
+{"code": " np.random.choice([0, 1], size=n_steps)", "compilation_passed": true, "time": 0.7326090335845947, "tests_passed": true, "error": null}
+{"code": " np.random.randint(2, size=n_steps)", "compilation_passed": true, "time": 0.7038772106170654, "tests_passed": true, "error": null}
+{"code": " np.cumsum(np.random.choice([-1, 1], size=n_steps))", "compilation_passed": true, "time": 0.8636770248413086, "tests_passed": true, "error": null}
+{"code": " np.random.normal(0, 1, (n_steps, 2)).cumsum(axis=0)", "compilation_passed": true, "time": 0.4580390453338623, "tests_passed": true, "error": null}

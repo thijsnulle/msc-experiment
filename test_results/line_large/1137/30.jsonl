@@ -1,0 +1,11 @@
+{"code": " open(url[7:], 'r', encoding='utf-8') as file:", "compilation_passed": true, "time": 0.022854089736938477, "tests_passed": true, "error": null}
+{"code": " open(url[7:], \"r\") as f:", "compilation_passed": true, "time": 0.0194089412689209, "tests_passed": false, "error": "NameError"}
+{"code": " open(url[7:], \"r\", encoding='utf-8') as f:", "compilation_passed": true, "time": 0.018908023834228516, "tests_passed": false, "error": "NameError"}
+{"code": " open(url[7:], 'r') as file:", "compilation_passed": true, "time": 0.026935100555419922, "tests_passed": true, "error": null}
+{"code": " open(url.replace(\"file://\", \"\"), \"r\") as file:", "compilation_passed": true, "time": 0.020672082901000977, "tests_passed": true, "error": null}
+{"code": " open(url.replace(\"file://\", \"\"), 'r') as f:", "compilation_passed": true, "time": 0.017778873443603516, "tests_passed": false, "error": "NameError"}
+{"code": " open(url.replace(\"file://\", \"\"), \"r\", encoding=\"utf-8\") as f:", "compilation_passed": true, "time": 0.019006013870239258, "tests_passed": false, "error": "NameError"}
+{"code": " open(url[7:], \"r\", encoding=\"utf-8\") as file:", "compilation_passed": true, "time": 0.019680023193359375, "tests_passed": true, "error": null}
+{"code": " open(url[7:], 'r') as f:", "compilation_passed": true, "time": 0.018587827682495117, "tests_passed": false, "error": "NameError"}
+{"code": " open(url[7:], \"r\") as file:", "compilation_passed": true, "time": 0.020106077194213867, "tests_passed": true, "error": null}
+{"code": " open(url[7:], 'r', encoding='utf-8') as f:", "compilation_passed": true, "time": 0.019117116928100586, "tests_passed": false, "error": "NameError"}

@@ -1,0 +1,6 @@
+{"code": " pd.read_sql_query(f'SELECT * FROM {TABLE_NAME}', conn)", "compilation_passed": true, "time": 0.025238990783691406, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f\"SELECT * FROM {TABLE_NAME}\", conn)", "compilation_passed": true, "time": 0.029000043869018555, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(f\"SELECT * FROM {TABLE_NAME}\", conn)", "compilation_passed": true, "time": 0.028799057006835938, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f'SELECT * FROM {TABLE_NAME}', conn)  # Retrieve the data as a pandas DataFrame", "compilation_passed": true, "time": 0.025216102600097656, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(f'SELECT * FROM {TABLE_NAME}', conn)", "compilation_passed": true, "time": 0.02895808219909668, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(f'SELECT * FROM {TABLE_NAME}', conn)  # Get data back as a DataFrame", "compilation_passed": true, "time": 0.02532505989074707, "tests_passed": true, "error": null}

@@ -1,0 +1,6 @@
+{"code": " xmltodict.parse(s)", "compilation_passed": true, "time": 0.011855125427246094, "tests_passed": true, "error": null}
+{"code": " json.loads(xmltodict.parse(s))", "compilation_passed": true, "time": 0.01173090934753418, "tests_passed": false, "error": "TypeError"}
+{"code": " json.loads(xmltodict.parse(s), object_pairs_hook=OrderedDict)", "compilation_passed": true, "time": 0.009192943572998047, "tests_passed": false, "error": "NameError"}
+{"code": " xmltodict.parse(s, force_list=True)", "compilation_passed": true, "time": 0.006742954254150391, "tests_passed": false, "error": "TypeError"}
+{"code": " xmltodict.parse(s, dict_constructor=dict, force_map_root=True)", "compilation_passed": true, "time": 0.014809846878051758, "tests_passed": false, "error": "TypeError"}
+{"code": " xmltodict.parse(s, dict_constructor=dict)", "compilation_passed": true, "time": 0.009072303771972656, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": " age_counts.most_common(1)", "compilation_passed": true, "time": 0.014162063598632812, "tests_passed": true, "error": null}
+{"code": " max(age_counts, key=age_counts.get) if data['Age'] else None", "compilation_passed": true, "time": 0.016384124755859375, "tests_passed": true, "error": null}
+{"code": " max(age_counts, key=age_counts.get) if age_counts else None", "compilation_passed": true, "time": 0.016607999801635742, "tests_passed": true, "error": null}
+{"code": " max(age_counts, key=age_counts.get) if len(age_counts) > 0 else None", "compilation_passed": true, "time": 0.01647806167602539, "tests_passed": true, "error": null}
+{"code": " age_counts.most_common(1)[0][0] if age_counts else None", "compilation_passed": true, "time": 0.016443252563476562, "tests_passed": true, "error": null}
+{"code": " age_counts.most_common(1)[0][0] if df['Age'].notna().any() else None", "compilation_passed": true, "time": 0.017434120178222656, "tests_passed": true, "error": null}
+{"code": " age_counts.most_common(1)[0][0] if data else None", "compilation_passed": true, "time": 0.026381254196166992, "tests_passed": false, "error": "IndexError"}
+{"code": " age_counts.most_common()[0][0] if age_counts else None", "compilation_passed": true, "time": 0.01687312126159668, "tests_passed": true, "error": null}
+{"code": " max(age_counts, key=age_counts.get) if data else None", "compilation_passed": true, "time": 0.02690720558166504, "tests_passed": false, "error": "ValueError"}

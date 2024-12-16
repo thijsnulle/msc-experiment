@@ -1,0 +1,9 @@
+{"code": " pd.read_sql_query(f\"SELECT * FROM '{table_name}'\", conn)", "compilation_passed": false, "time": 0.0002338886260986328, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.read_sql_query(f\"SELECT * FROM {table_name}\", conn)", "compilation_passed": false, "time": 0.0002617835998535156, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name}\", conn)", "compilation_passed": false, "time": 0.0006477832794189453, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.read_sql(f'SELECT * FROM \"{table_name}\"', con=conn)", "compilation_passed": false, "time": 0.0002849102020263672, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.read_sql_query(f'SELECT * FROM {table_name}', conn)", "compilation_passed": false, "time": 0.0002040863037109375, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.read_sql_query(\"SELECT * FROM {}\".format(table_name), conn)", "compilation_passed": false, "time": 0.00018405914306640625, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.read_sql_query('SELECT * FROM {}'.format(table_name), conn)", "compilation_passed": false, "time": 0.00018405914306640625, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.read_sql(f\"SELECT * FROM {table_name}\", con=conn)", "compilation_passed": false, "time": 0.0001938343048095703, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.read_sql_query(f'SELECT * FROM \"{table_name}\"', conn)", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "IndentationError"}

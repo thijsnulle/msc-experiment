@@ -1,0 +1,26 @@
+{"code": " np.random.choice(LETTERS, 500000).reshape((1000, 500))", "compilation_passed": true, "time": 0.022342920303344727, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.random.choice(LETTERS, size=20) for _ in range(10)]", "compilation_passed": true, "time": 0.012763738632202148, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(LETTERS, size=(1000, 1000)).tolist()", "compilation_passed": true, "time": 0.05495405197143555, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(LETTERS, 100000).reshape((1000, 1000))", "compilation_passed": true, "time": 0.014039039611816406, "tests_passed": false, "error": "ValueError"}
+{"code": " [[random.choice(LETTERS) for _ in range(50)] for _ in range(100)]", "compilation_passed": true, "time": 0.01849818229675293, "tests_passed": false, "error": "NameError"}
+{"code": " np.random.choice(LETTERS, size=(500, 1000))", "compilation_passed": true, "time": 0.019108057022094727, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(LETTERS, size=(50, 50))", "compilation_passed": true, "time": 0.012196063995361328, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(LETTERS, 100).reshape(10, 10)", "compilation_passed": true, "time": 0.012134790420532227, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(LETTERS, size=(1000, 1000))", "compilation_passed": true, "time": 0.025815963745117188, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(list(map(ord, LETTERS)), size=(5, 5))", "compilation_passed": true, "time": 0.011958837509155273, "tests_passed": false, "error": "AttributeError"}
+{"code": " [''.join([np.random.choice(LETTERS) for _ in range(10)]) for _ in range(10)]", "compilation_passed": true, "time": 0.014939308166503906, "tests_passed": false, "error": "AttributeError"}
+{"code": " [LETTERS] * 100", "compilation_passed": true, "time": 0.014893770217895508, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array([LETTERS for _ in range(5)])", "compilation_passed": true, "time": 0.012130022048950195, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(LETTERS, size=(10, 10))", "compilation_passed": true, "time": 0.010320186614990234, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(LETTERS, (100, 100))", "compilation_passed": true, "time": 0.012238264083862305, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(LETTERS, 1000000).reshape(1000, 1000)", "compilation_passed": true, "time": 0.025823116302490234, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(LETTERS, 10000, True).reshape((100, 100)).tolist()", "compilation_passed": true, "time": 0.010052919387817383, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(LETTERS, 49).reshape(7, 7)", "compilation_passed": true, "time": 0.012120723724365234, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(LETTERS, size=(3, 10))", "compilation_passed": true, "time": 0.012095928192138672, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.random.choice(LETTERS, size=(10, 10)))", "compilation_passed": true, "time": 0.0289151668548584, "tests_passed": true, "error": null}
+{"code": " [[LETTERS[np.random.randint(0, len(LETTERS))] for _ in range(5)] for _ in range(3)]", "compilation_passed": true, "time": 0.012306928634643555, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array([[random.choice(LETTERS) for _ in range(3)] for _ in range(3)])", "compilation_passed": true, "time": 0.01826786994934082, "tests_passed": false, "error": "NameError"}
+{"code": " [np.random.choice(LETTERS, size=100) for _ in range(50)]", "compilation_passed": true, "time": 0.0196380615234375, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(LETTERS, size=(20, 20))", "compilation_passed": true, "time": 0.009501934051513672, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array([[np.random.choice(LETTERS) for col in range(10)] for row in range(10)])", "compilation_passed": true, "time": 0.014861106872558594, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.choice(list('abcdefghijklmnopqrstuvwxyz'), size=(10, 10))", "compilation_passed": true, "time": 0.012256145477294922, "tests_passed": false, "error": "AttributeError"}

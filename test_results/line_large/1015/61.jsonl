@@ -1,0 +1,5 @@
+{"code": "to_sql(\"my_table\", conn, if_exists=\"replace\", index=False)", "compilation_passed": true, "time": 0.018219947814941406, "tests_passed": true, "error": null}
+{"code": "to_sql(\"my_table\", conn, if_exists=\"replace\")", "compilation_passed": true, "time": 0.019833087921142578, "tests_passed": true, "error": null}
+{"code": "to_sql(\"my_table\", conn, index=False, if_exists=\"replace\")", "compilation_passed": true, "time": 0.015039920806884766, "tests_passed": true, "error": null}
+{"code": "to_sql(\"my_table\", con=conn, index=False, if_exists=\"replace\")", "compilation_passed": true, "time": 0.019803285598754883, "tests_passed": true, "error": null}
+{"code": "to_sql(\"my_table\", con=conn, if_exists=\"replace\", index=False)", "compilation_passed": true, "time": 0.01465606689453125, "tests_passed": true, "error": null}

@@ -1,0 +1,11 @@
+{"code": " df['date'].astype('datetime64[ns]')  # Convert 'date' to datetime", "compilation_passed": true, "time": 0.022469282150268555, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].astype('datetime64[ns]')", "compilation_passed": true, "time": 0.018989086151123047, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].apply(lambda d: d.toordinal())", "compilation_passed": true, "time": 0.044646263122558594, "tests_passed": true, "error": null}
+{"code": " pd.to_datetime(df['date'])", "compilation_passed": true, "time": 0.017645835876464844, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].astype('datetime64')", "compilation_passed": true, "time": 0.020077228546142578, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].dt.to_pydatetime().astype(int) / 1e9", "compilation_passed": true, "time": 0.014569997787475586, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].apply(lambda x: x.to_ordinal())", "compilation_passed": true, "time": 0.02379608154296875, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.to_datetime(df['date'])  # Ensure the 'date' column is in datetime format", "compilation_passed": true, "time": 0.016002893447875977, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].astype(\"datetime64[ns]\")", "compilation_passed": true, "time": 0.015820980072021484, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.to_datetime(df['date'])  # Ensure 'date' is in datetime format", "compilation_passed": true, "time": 0.016898155212402344, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].dt.strftime('%Y-%m-%d')", "compilation_passed": true, "time": 0.013776779174804688, "tests_passed": false, "error": "ValueError"}

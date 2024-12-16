@@ -1,0 +1,5 @@
+{"code": " [STEMMER.stem(w) for w in content]", "compilation_passed": true, "time": 0.0023529529571533203, "tests_passed": true, "error": null}
+{"code": " [STEMMER.stem(word) for word in content]", "compilation_passed": true, "time": 0.002674102783203125, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.010865211486816406, "tests_passed": true, "error": null}
+{"code": " map(lambda x: STEMMER.stem(x), content)", "compilation_passed": true, "time": 0.0024356842041015625, "tests_passed": true, "error": null}
+{"code": " list(map(lambda x: STEMMER.stem(x), content))", "compilation_passed": true, "time": 0.0015988349914550781, "tests_passed": true, "error": null}

@@ -1,0 +1,4 @@
+{"code": " (df - df.mean()) / df.std()", "compilation_passed": true, "time": 0.016559839248657227, "tests_passed": true, "error": null}
+{"code": " (df - df.mean()) / df.std(ddof=0)", "compilation_passed": true, "time": 0.011123895645141602, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: (x - x.mean()) / x.std())", "compilation_passed": true, "time": 0.014302968978881836, "tests_passed": true, "error": null}
+{"code": " df.transform(lambda column: stats.zscore(column))", "compilation_passed": true, "time": 0.011038780212402344, "tests_passed": true, "error": null}

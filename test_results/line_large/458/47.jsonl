@@ -1,0 +1,9 @@
+{"code": " isinstance(value, list):", "compilation_passed": true, "time": 0.010901927947998047, "tests_passed": true, "error": null}
+{"code": " isinstance(value, dict):", "compilation_passed": true, "time": 0.019222021102905273, "tests_passed": true, "error": null}
+{"code": " isinstance(value, (int, float)):", "compilation_passed": true, "time": 0.014250040054321289, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(value, int) or isinstance(value, float):", "compilation_passed": true, "time": 0.008786916732788086, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(value, (float, int)):", "compilation_passed": true, "time": 0.011037111282348633, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(value, list) and all(isinstance(item, (int, float)) for item in value):", "compilation_passed": true, "time": 0.017821073532104492, "tests_passed": true, "error": null}
+{"code": " type(value) == list:", "compilation_passed": true, "time": 0.009122133255004883, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str):", "compilation_passed": true, "time": 0.010381937026977539, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(value, int):", "compilation_passed": true, "time": 0.014307975769042969, "tests_passed": true, "error": null}

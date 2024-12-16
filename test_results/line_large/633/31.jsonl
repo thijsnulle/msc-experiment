@@ -1,0 +1,21 @@
+{"code": " re.sub(r'\\b(\\w+)\\b\\s+(?=\\b\\1\\b)', '', text)", "compilation_passed": true, "time": 0.006268978118896484, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\\b\\w+\\b)( +\\1)+', r'\\1', text)", "compilation_passed": true, "time": 0.0054931640625, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b([^\\W_]+)(?: \\1)+\\b', r'\\1', text)", "compilation_passed": true, "time": 0.005939960479736328, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b(\\w+)\\b(?:.*\\1\\b)+', r'\\1', text)", "compilation_passed": true, "time": 0.006231784820556641, "tests_passed": true, "error": null}
+{"code": " text.lower()", "compilation_passed": true, "time": 0.005513906478881836, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b(\\w+)\\b(?:\\s+\\1\\b)+', r'\\1', text)", "compilation_passed": true, "time": 0.005590915679931641, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b(\\w+)( \\1\\b)+', r'\\1', text)", "compilation_passed": true, "time": 0.0056760311126708984, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\\b\\w+\\b)( +\\1)+', r'\\1', text.lower())", "compilation_passed": true, "time": 0.00675201416015625, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b(\\w+)(?:\\s+\\1)+\\b', r'\\1', text)", "compilation_passed": true, "time": 0.00860905647277832, "tests_passed": true, "error": null}
+{"code": " ' '.join(sorted(set(text.split())))", "compilation_passed": true, "time": 0.0027811527252197266, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\\b\\w+\\b)(\\s+\\1)+', r'\\1', text)", "compilation_passed": true, "time": 0.006368875503540039, "tests_passed": true, "error": null}
+{"code": " text.lower()  # convert text to lowercase", "compilation_passed": true, "time": 0.00706028938293457, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b(\\w+)\\b(?:.*?\\b\\1\\b)+', r'\\1', text)", "compilation_passed": true, "time": 0.006652116775512695, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b(\\w+)(?:\\W*\\1\\b)+', r'\\1', text)", "compilation_passed": true, "time": 0.007897138595581055, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b(\\w+)\\b(\\s+\\1\\b)+', r'\\1', text)", "compilation_passed": true, "time": 0.006716251373291016, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b(\\w+)\\b\\s+(?=.*?\\b\\1\\b)', '', text)", "compilation_passed": true, "time": 0.0034699440002441406, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\\b\\w+\\b)( \\1)+', r'\\1', text)", "compilation_passed": true, "time": 0.007148027420043945, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b([^\\W\\s]+)(\\s+\\1)+\\b', r'\\1', text)", "compilation_passed": true, "time": 0.006577968597412109, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\\b\\w+\\b\\s*)+\\1', r'\\1', text)", "compilation_passed": true, "time": 0.007272005081176758, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b(\\w+)\\b(?: \\1\\b)+', r'\\1', text)", "compilation_passed": true, "time": 0.006356000900268555, "tests_passed": true, "error": null}
+{"code": " ' '.join(sorted(set(re.sub(r'[^\\w\\s]', '', text).lower().split()), key=text.index))", "compilation_passed": true, "time": 0.0021109580993652344, "tests_passed": true, "error": null}

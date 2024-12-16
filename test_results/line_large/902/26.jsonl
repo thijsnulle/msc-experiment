@@ -1,0 +1,16 @@
+{"code": " Counter()", "compilation_passed": true, "time": 0.0065310001373291016, "tests_passed": true, "error": null}
+{"code": " {col: Counter(df[col]) for col in df.columns}", "compilation_passed": true, "time": 0.010614633560180664, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.006220102310180664, "tests_passed": true, "error": null}
+{"code": " {'x': Counter(df['x']), 'y': Counter(df['y']), 'z': Counter(df['z'])}", "compilation_passed": true, "time": 0.01984095573425293, "tests_passed": false, "error": "KeyError"}
+{"code": " df[['x', 'y', 'z']].count()", "compilation_passed": true, "time": 0.017321109771728516, "tests_passed": false, "error": "ValueError"}
+{"code": " {key: Counter(df[key]) for key in ['x', 'y', 'z']}", "compilation_passed": true, "time": 0.016005754470825195, "tests_passed": false, "error": "KeyError"}
+{"code": " {'x': Counter(), 'y': Counter(), 'z': Counter()}", "compilation_passed": true, "time": 0.005194902420043945, "tests_passed": true, "error": null}
+{"code": " {column: Counter(values.dropna()) for column, values in df[['x', 'y', 'z']].items()}", "compilation_passed": true, "time": 0.011436939239501953, "tests_passed": false, "error": "KeyError"}
+{"code": " df.count(numeric_only=True)", "compilation_passed": true, "time": 0.007241249084472656, "tests_passed": false, "error": "ValueError"}
+{"code": " {col: Counter(df[col].dropna()) for col in [\"x\", \"y\", \"z\"]}", "compilation_passed": true, "time": 0.011076927185058594, "tests_passed": false, "error": "KeyError"}
+{"code": " {", "compilation_passed": false, "time": 0.0001232624053955078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'x': None, 'y': None, 'z': None}", "compilation_passed": true, "time": 0.0042378902435302734, "tests_passed": true, "error": null}
+{"code": " Counter({key: Counter(df[key]) for key in [\"x\", \"y\", \"z\"] if key in df.columns})", "compilation_passed": true, "time": 0.0049626827239990234, "tests_passed": true, "error": null}
+{"code": " {'x': Counter(df['x'].fillna(0).astype(int)), 'y': Counter(df['y'].fillna(0).astype(int)), 'z': Counter(df['z'].fillna(0).astype(int))}", "compilation_passed": true, "time": 0.008105039596557617, "tests_passed": false, "error": "KeyError"}
+{"code": " df[['x', 'y', 'z']].apply(Counter)", "compilation_passed": true, "time": 0.005635738372802734, "tests_passed": false, "error": "ValueError"}
+{"code": " df.apply(Counter)", "compilation_passed": true, "time": 0.004899740219116211, "tests_passed": false, "error": "ValueError"}

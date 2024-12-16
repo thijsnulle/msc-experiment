@@ -1,0 +1,24 @@
+{"code": " df.plot(kind='bar')", "compilation_passed": true, "time": 0.1555781364440918, "tests_passed": true, "error": null}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.009645223617553711, "tests_passed": true, "error": null}
+{"code": " sns.kdeplot(data=normalized_df, kde=True, fill=True, common_norm=True, common_grid=True)", "compilation_passed": true, "time": 0.01005697250366211, "tests_passed": false, "error": "NameError"}
+{"code": " plt.subplots()[1]", "compilation_passed": true, "time": 0.10092616081237793, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot()", "compilation_passed": true, "time": 0.1431140899658203, "tests_passed": true, "error": null}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.011560916900634766, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot.bar()", "compilation_passed": true, "time": 0.19151902198791504, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(kind='bar', rot=0, figsize=(10, 4), subplots=False, legend=False, xlim=(-0.05, 1.05),", "compilation_passed": false, "time": 0.0003819465637207031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " normalized_df.plot(kind='hist', rot=90)", "compilation_passed": true, "time": 0.21622705459594727, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(subplots=True)", "compilation_passed": true, "time": 0.14409899711608887, "tests_passed": false, "error": "AttributeError"}
+{"code": " normalized_df.plot(kind='line')", "compilation_passed": true, "time": 0.18952298164367676, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='hist')", "compilation_passed": true, "time": 1.0313489437103271, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.plot.scatter(x=\"A\", y=\"B\")", "compilation_passed": true, "time": 0.16778182983398438, "tests_passed": false, "error": "KeyError"}
+{"code": " normalized_df.plot(kind='bar', rot=0)", "compilation_passed": true, "time": 0.1679849624633789, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(kind='scatter', subplots=True, figsize=(10, 5), layout=(2, 2))", "compilation_passed": true, "time": 0.010821104049682617, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.009958744049072266, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='bar', rot=0)", "compilation_passed": true, "time": 0.17851591110229492, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(kind='scatter', title=\"Normalized Data\", grid=True)", "compilation_passed": true, "time": 0.00998830795288086, "tests_passed": false, "error": "ValueError"}
+{"code": " df.plot(kind='box', rot=0, figsize=(10, 4))", "compilation_passed": true, "time": 0.16589713096618652, "tests_passed": true, "error": null}
+{"code": " plt.scatter(*normalized_df.iloc[:, [0, 1]].values.T)", "compilation_passed": true, "time": 0.011736154556274414, "tests_passed": false, "error": "AttributeError"}
+{"code": " normalized_df.plot(kind=\"scatter\")", "compilation_passed": true, "time": 0.012634992599487305, "tests_passed": false, "error": "ValueError"}
+{"code": " plt.subplot(1, 1, 1)", "compilation_passed": true, "time": 0.011547088623046875, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(kind='scatter', markers='o')", "compilation_passed": true, "time": 0.013014078140258789, "tests_passed": false, "error": "ValueError"}
+{"code": " normalized_df.plot.hist()", "compilation_passed": true, "time": 0.25581979751586914, "tests_passed": true, "error": null}

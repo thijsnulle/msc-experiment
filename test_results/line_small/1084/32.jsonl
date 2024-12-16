@@ -1,0 +1,14 @@
+{"code": " pd.read_csv(data_file_path, engine='c')", "compilation_passed": true, "time": 0.23362207412719727, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(data_file_path)", "compilation_passed": true, "time": 0.2209768295288086, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(data_file_path, sep=\",\", engine=\"python\")", "compilation_passed": true, "time": 0.22516512870788574, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(data_file_path, sep=\";\", skip_blank_lines=True, skipinitialspace=True)", "compilation_passed": true, "time": 0.23115205764770508, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(data_file_path, index_col=0)", "compilation_passed": true, "time": 0.21694421768188477, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(data_file_path, sep=',', header=0, dtype=str)", "compilation_passed": true, "time": 0.22781896591186523, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(data_file_path, header=0)", "compilation_passed": true, "time": 0.21371912956237793, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(data_file_path, delimiter=',')", "compilation_passed": true, "time": 0.23533892631530762, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(data_file_path, na_filter=False)", "compilation_passed": true, "time": 0.2366318702697754, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(data_file_path, sep='\\t')", "compilation_passed": true, "time": 0.24636101722717285, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(data_file_path, skip_header=True, skip_blank_lines=True, skip_whitespace=True)", "compilation_passed": true, "time": 0.2634410858154297, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(data_file_path,", "compilation_passed": false, "time": 0.00010919570922851562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_csv(data_file_path, sep=',')", "compilation_passed": true, "time": 0.2222440242767334, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(data_file_path, header=None)", "compilation_passed": true, "time": 0.21610212326049805, "tests_passed": true, "error": null}

@@ -1,0 +1,13 @@
+{"code": " [os.path.join(log_dir, f) for f in log_files]", "compilation_passed": true, "time": 0.0044171810150146484, "tests_passed": true, "error": null}
+{"code": " [log_dir + f for f in log_files]", "compilation_passed": true, "time": 0.003976106643676758, "tests_passed": true, "error": null}
+{"code": " [(log_file, os.path.getmtime(os.path.join(log_dir, log_file)))", "compilation_passed": false, "time": 0.00016689300537109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted(log_files, key=lambda f: os.path.getmtime(os.path.join(log_dir, f)), reverse=True)", "compilation_passed": true, "time": 0.003940105438232422, "tests_passed": true, "error": null}
+{"code": " [os.path.join(log_dir, f) for f in log_files if os.path.isfile(os.path.join(log_dir, f))]", "compilation_passed": true, "time": 0.0066339969635009766, "tests_passed": true, "error": null}
+{"code": " sorted(log_files, key=lambda x: os.path.getmtime(os.path.join(log_dir, x)), reverse=True)", "compilation_passed": true, "time": 0.003907918930053711, "tests_passed": true, "error": null}
+{"code": " [(os.path.getmtime(os.path.join(log_dir, f)), os.path.join(log_dir, f)) for f in log_files]", "compilation_passed": true, "time": 0.013438940048217773, "tests_passed": false, "error": "TypeError"}
+{"code": " [(file, os.path.getmtime(os.path.join(log_dir, file))) for file in log_files]", "compilation_passed": true, "time": 0.01045989990234375, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted(log_files, key=lambda x: os.stat(log_dir+x).st_mtime, reverse=True)", "compilation_passed": true, "time": 0.013126134872436523, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " [f for f in log_files if re.search(r'.+\\.[0-9]+$', f)]", "compilation_passed": true, "time": 0.003953218460083008, "tests_passed": true, "error": null}
+{"code": " [(f, os.stat(os.path.join(log_dir, f)).st_mtime) for f in log_files]", "compilation_passed": true, "time": 0.013695955276489258, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " [f for f in log_files if re.match(pattern, f)]", "compilation_passed": true, "time": 0.0036292076110839844, "tests_passed": true, "error": null}
+{"code": " [f for f in os.listdir(log_dir) if re.match(pattern, f)]", "compilation_passed": true, "time": 0.003915071487426758, "tests_passed": true, "error": null}

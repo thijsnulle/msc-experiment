@@ -1,0 +1,19 @@
+{"code": "rename(columns={'Value': 'Z-Score'}, inplace=True)", "compilation_passed": true, "time": 0.4542109966278076, "tests_passed": true, "error": null}
+{"code": "rename(columns={'Date': 'Date_', 'Value': 'Z_Score'}, inplace=True)", "compilation_passed": true, "time": 0.13777470588684082, "tests_passed": false, "error": "KeyError"}
+{"code": "columns = ['Date', 'Value_1', 'Value_2', 'Value_3']", "compilation_passed": true, "time": 0.09989714622497559, "tests_passed": false, "error": "ValueError"}
+{"code": "columns = ['Date', 'Z1', 'Z2', 'Z3', 'Z4']", "compilation_passed": true, "time": 0.08171606063842773, "tests_passed": false, "error": "ValueError"}
+{"code": "columns = ['Date', 'Value1', 'Value2', 'Value3']", "compilation_passed": true, "time": 0.08301210403442383, "tests_passed": false, "error": "ValueError"}
+{"code": "drop(['Date', 'Value'], axis=1, inplace=True)", "compilation_passed": true, "time": 0.11154913902282715, "tests_passed": false, "error": "KeyError"}
+{"code": "rename({'Value_0': 'Value', 'Value_1': 'Value_1', 'Value_2': 'Value_2', 'Value_3': 'Value_3'}, inplace=True)", "compilation_passed": true, "time": 0.4542667865753174, "tests_passed": true, "error": null}
+{"code": "columns = ['Date', 'Value_0', 'Value_1', 'Value_2']", "compilation_passed": true, "time": 0.08377909660339355, "tests_passed": false, "error": "ValueError"}
+{"code": "columns = ['Date', 'Value 1', 'Value 2']", "compilation_passed": true, "time": 0.08225703239440918, "tests_passed": false, "error": "ValueError"}
+{"code": "columns = ['Date', 'Value 1', 'Value 2', 'Value 3']", "compilation_passed": true, "time": 0.09372210502624512, "tests_passed": false, "error": "ValueError"}
+{"code": "columns = ['Date', 'Value1', 'Value2', 'Z-Score']", "compilation_passed": true, "time": 0.09689807891845703, "tests_passed": false, "error": "ValueError"}
+{"code": "drop('Value', axis=1, inplace=True)", "compilation_passed": true, "time": 0.11944794654846191, "tests_passed": false, "error": "KeyError"}
+{"code": "set_index('Date', inplace=True)", "compilation_passed": true, "time": 0.143110990524292, "tests_passed": false, "error": "KeyError"}
+{"code": "columns = ['Date', 'Z1', 'Z2', 'Z3']", "compilation_passed": true, "time": 0.08669495582580566, "tests_passed": false, "error": "ValueError"}
+{"code": "set_index('Date')", "compilation_passed": true, "time": 0.6567878723144531, "tests_passed": true, "error": null}
+{"code": "columns = ['Date', 'Value', 'Value0', 'Value1']", "compilation_passed": true, "time": 0.09302401542663574, "tests_passed": false, "error": "ValueError"}
+{"code": "drop(['Date', 0], axis=1, inplace=True)", "compilation_passed": true, "time": 0.12663722038269043, "tests_passed": false, "error": "KeyError"}
+{"code": "rename(columns={'Value': 'Value_1'}, inplace=True)", "compilation_passed": true, "time": 0.5154261589050293, "tests_passed": true, "error": null}
+{"code": "drop(columns=['Date', 'Value'], inplace=True)", "compilation_passed": true, "time": 0.1199338436126709, "tests_passed": false, "error": "KeyError"}

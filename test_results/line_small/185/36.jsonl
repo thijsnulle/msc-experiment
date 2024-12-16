@@ -1,0 +1,8 @@
+{"code": "append(random.uniform(lon_min, lon_max))", "compilation_passed": true, "time": 0.008594989776611328, "tests_passed": false, "error": "NameError"}
+{"code": "append(np.random.uniform(lon_min, lon_max))", "compilation_passed": true, "time": 0.01927924156188965, "tests_passed": true, "error": null}
+{"code": "append(np.random.randint(lon_min, lon_max + 1))", "compilation_passed": true, "time": 0.02107405662536621, "tests_passed": true, "error": null}
+{"code": "append(lon_min + (np.random.random() * (lon_max - lon_min)))", "compilation_passed": true, "time": 0.0212099552154541, "tests_passed": true, "error": null}
+{"code": "append(lon_min + np.random.random()*(lon_max - lon_min))", "compilation_passed": true, "time": 0.02071690559387207, "tests_passed": true, "error": null}
+{"code": "append(np.random.randint(lon_min, lon_max) / 100000)", "compilation_passed": true, "time": 0.020245790481567383, "tests_passed": true, "error": null}
+{"code": "append(np.random.randint(lon_min, lon_max) + np.random.randint(-10, 11))", "compilation_passed": true, "time": 0.012355804443359375, "tests_passed": true, "error": null}
+{"code": "append(lon_min + random.random() * (lon_max - lon_min))", "compilation_passed": true, "time": 0.008409738540649414, "tests_passed": false, "error": "NameError"}

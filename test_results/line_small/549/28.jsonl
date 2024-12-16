@@ -1,0 +1,10 @@
+{"code": " df.to_csv(\"\", index=False)", "compilation_passed": true, "time": 0.03159809112548828, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " df.to_csv(header=True, index=False)", "compilation_passed": true, "time": 0.013015985488891602, "tests_passed": true, "error": null}
+{"code": " io.StringIO()", "compilation_passed": true, "time": 0.0084991455078125, "tests_passed": false, "error": "NameError"}
+{"code": " df.to_csv(None, index=False)", "compilation_passed": true, "time": 0.01088261604309082, "tests_passed": true, "error": null}
+{"code": " df.to_csv(index=False)", "compilation_passed": true, "time": 0.01143193244934082, "tests_passed": true, "error": null}
+{"code": " io.StringIO(df.to_csv())", "compilation_passed": true, "time": 0.009234189987182617, "tests_passed": false, "error": "NameError"}
+{"code": " df.to_csv()", "compilation_passed": true, "time": 0.006579160690307617, "tests_passed": true, "error": null}
+{"code": " df.to_csv().encode()", "compilation_passed": true, "time": 0.008389949798583984, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.to_csv(None, index=False)  # use None for the file path so we don't write to the file system", "compilation_passed": true, "time": 0.010293006896972656, "tests_passed": true, "error": null}
+{"code": " io.BytesIO()", "compilation_passed": true, "time": 0.008085012435913086, "tests_passed": false, "error": "NameError"}

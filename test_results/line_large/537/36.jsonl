@@ -1,0 +1,13 @@
+{"code": " (df.age < 0).any():", "compilation_passed": true, "time": 0.5968630313873291, "tests_passed": true, "error": null}
+{"code": " any(df.age < 0):", "compilation_passed": true, "time": 0.5468220710754395, "tests_passed": true, "error": null}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.4460480213165283, "tests_passed": false, "error": "ValueError"}
+{"code": " any(df['age'] < 0):", "compilation_passed": true, "time": 0.5288119316101074, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].min() < 0:", "compilation_passed": true, "time": 0.5106728076934814, "tests_passed": true, "error": null}
+{"code": " df.age.min() < 0:", "compilation_passed": true, "time": 0.5167789459228516, "tests_passed": true, "error": null}
+{"code": " (df < 0).any().any():", "compilation_passed": true, "time": 0.5608651638031006, "tests_passed": true, "error": null}
+{"code": " (df[\"age\"] < 0).any():", "compilation_passed": true, "time": 0.5344913005828857, "tests_passed": true, "error": null}
+{"code": " df['age'].min() < 0:", "compilation_passed": true, "time": 0.5263721942901611, "tests_passed": true, "error": null}
+{"code": " df['age'].any() < 0:", "compilation_passed": true, "time": 0.6346502304077148, "tests_passed": true, "error": null}
+{"code": " df['age'].lt(0).any():", "compilation_passed": true, "time": 1.8352160453796387, "tests_passed": false, "error": "TimeoutError"}
+{"code": " any(df.iloc[:, 0] < 0):", "compilation_passed": true, "time": 0.5144898891448975, "tests_passed": true, "error": null}
+{"code": " (df['age'] < 0).any():", "compilation_passed": true, "time": 0.5234239101409912, "tests_passed": true, "error": null}

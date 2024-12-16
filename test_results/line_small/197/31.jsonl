@@ -1,0 +1,12 @@
+{"code": " [l1[i] - l2[i] for i in largest_diff_indices]", "compilation_passed": true, "time": 0.1543581485748291, "tests_passed": true, "error": null}
+{"code": " [(abs(l1[i] - l2[i])**2 for i in largest_diff_indices)]", "compilation_passed": true, "time": 0.040318965911865234, "tests_passed": false, "error": "RuntimeError"}
+{"code": " [abs(l1[i] - l2[i]) ** 0.5 for i in largest_diff_indices]", "compilation_passed": true, "time": 0.15343022346496582, "tests_passed": true, "error": null}
+{"code": " [math.sqrt(l1[i] - l2[i]) for i in largest_diff_indices]", "compilation_passed": true, "time": 0.09552788734436035, "tests_passed": false, "error": "ValueError"}
+{"code": " [(l1[i], l2[i]) for i in largest_diff_indices]", "compilation_passed": true, "time": 0.1471080780029297, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.03031611442565918, "tests_passed": true, "error": null}
+{"code": " [(l1[i] - l2[i])**2 for i in largest_diff_indices]", "compilation_passed": true, "time": 0.14991116523742676, "tests_passed": true, "error": null}
+{"code": " [math.sqrt(l1[i] ** 2 - l2[i] ** 2) for i in largest_diff_indices]", "compilation_passed": true, "time": 0.09834098815917969, "tests_passed": false, "error": "ValueError"}
+{"code": " [abs(l1[i] - l2[i])**0.5 for i in largest_diff_indices]", "compilation_passed": true, "time": 0.1477649211883545, "tests_passed": true, "error": null}
+{"code": " [(abs(l1[i] - l2[i])**2)**0.5 for i in largest_diff_indices]", "compilation_passed": true, "time": 0.14739513397216797, "tests_passed": true, "error": null}
+{"code": " [abs(l1[i] - l2[i]) for i in largest_diff_indices]", "compilation_passed": true, "time": 0.15874814987182617, "tests_passed": true, "error": null}
+{"code": " [abs(l1[i] - l2[i]) ** 2 for i in largest_diff_indices]", "compilation_passed": true, "time": 0.15877199172973633, "tests_passed": true, "error": null}

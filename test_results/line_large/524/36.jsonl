@@ -1,0 +1,5 @@
+{"code": " not isinstance(data, list) or not all(isinstance(d, dict) for d in data):", "compilation_passed": true, "time": 0.44081902503967285, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(item, dict) for item in data):", "compilation_passed": true, "time": 0.4616889953613281, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(d, dict) for d in data):", "compilation_passed": true, "time": 0.4768989086151123, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, list) or not all(isinstance(item, dict) for item in data):", "compilation_passed": true, "time": 0.493100643157959, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, list):", "compilation_passed": true, "time": 0.37000298500061035, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,13 @@
+{"code": " hashlib.md5(str(float_num).encode()).hexdigest()", "compilation_passed": true, "time": 0.0013968944549560547, "tests_passed": true, "error": null}
+{"code": " hashlib.md5(hex_key.encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.0015931129455566406, "tests_passed": true, "error": null}
+{"code": " hashlib.md5(struct.pack('!f', float_num)).hexdigest()", "compilation_passed": true, "time": 0.0016329288482666016, "tests_passed": true, "error": null}
+{"code": " hashlib.md5(bytes.fromhex(hex_key)).hexdigest()", "compilation_passed": true, "time": 0.0013837814331054688, "tests_passed": true, "error": null}
+{"code": " hashlib.md5(float_num.to_bytes(4, byteorder='little', signed=True)).hexdigest()", "compilation_passed": true, "time": 0.008150100708007812, "tests_passed": false, "error": "AttributeError"}
+{"code": " hashlib.md5(str(float_num).encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.001306772232055664, "tests_passed": true, "error": null}
+{"code": " hashlib.md5(f\"{float_num}\".encode()).hexdigest()", "compilation_passed": true, "time": 0.0013768672943115234, "tests_passed": true, "error": null}
+{"code": " hashlib.md5()", "compilation_passed": true, "time": 0.004051923751831055, "tests_passed": true, "error": null}
+{"code": " hashlib.md5(float_num.to_bytes(8, 'little')).hexdigest()", "compilation_passed": true, "time": 0.006645917892456055, "tests_passed": false, "error": "AttributeError"}
+{"code": " hashlib.md5(f\"{hex_key} {seed}\".encode(\"utf-8\")).hexdigest()", "compilation_passed": true, "time": 0.001277923583984375, "tests_passed": true, "error": null}
+{"code": " hashlib.md5(struct.pack('f', float_num)).hexdigest()", "compilation_passed": true, "time": 0.001146078109741211, "tests_passed": true, "error": null}
+{"code": " hashlib.md5(hex_key.encode()).hexdigest()", "compilation_passed": true, "time": 0.0010881423950195312, "tests_passed": true, "error": null}
+{"code": " hashlib.md5(str(hex_key).encode()).hexdigest()", "compilation_passed": true, "time": 0.0013370513916015625, "tests_passed": true, "error": null}

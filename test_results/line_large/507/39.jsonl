@@ -1,0 +1,15 @@
+{"code": "data) > 0 and not isinstance(data[0], list)", "compilation_passed": true, "time": 0.015379905700683594, "tests_passed": true, "error": null}
+{"code": "data) > 0 and not all(isinstance(x, list) for x in data)", "compilation_passed": true, "time": 0.00848388671875, "tests_passed": true, "error": null}
+{"code": "data) == 1 and not isinstance(data[0], list)", "compilation_passed": true, "time": 0.010691165924072266, "tests_passed": true, "error": null}
+{"code": "data) > 0 and all([isinstance(el, list) for el in data])", "compilation_passed": true, "time": 0.025931119918823242, "tests_passed": true, "error": null}
+{"code": "data) > 0 and (not isinstance(data[0], list) or len(data[0]) != 6)", "compilation_passed": true, "time": 0.014487028121948242, "tests_passed": true, "error": null}
+{"code": "data) > 0 and (len(data[0]) == 0 or not isinstance(data[0], list))", "compilation_passed": true, "time": 0.008707046508789062, "tests_passed": true, "error": null}
+{"code": "data) == 1 and (len(data[0]) == 0 or data[0] is None)", "compilation_passed": true, "time": 0.008454084396362305, "tests_passed": true, "error": null}
+{"code": "data) > 0 and (not isinstance(data[0], list) or len(data[0]) != 5)", "compilation_passed": true, "time": 0.024765968322753906, "tests_passed": true, "error": null}
+{"code": "data) != 0 and len(data[0]) != 6", "compilation_passed": true, "time": 0.008779048919677734, "tests_passed": true, "error": null}
+{"code": "data) > 0 and (not isinstance(data[0], list) or not data[0])", "compilation_passed": true, "time": 0.00849294662475586, "tests_passed": true, "error": null}
+{"code": "data) > 0 and (len(data) > 0 and not isinstance(data[0], list))", "compilation_passed": true, "time": 0.009034156799316406, "tests_passed": true, "error": null}
+{"code": "data) == 1 and data[0] == []", "compilation_passed": true, "time": 0.008413076400756836, "tests_passed": true, "error": null}
+{"code": "data) > 0 and (not isinstance(data[0], list) or not all(isinstance(item, str) for item in data[0]))", "compilation_passed": true, "time": 0.027093887329101562, "tests_passed": true, "error": null}
+{"code": "data) != 0 and all([not isinstance(d, list) for d in data])", "compilation_passed": true, "time": 0.008064985275268555, "tests_passed": true, "error": null}
+{"code": "data) > 0 and not isinstance(data[0], (list, tuple))", "compilation_passed": true, "time": 0.012143135070800781, "tests_passed": true, "error": null}

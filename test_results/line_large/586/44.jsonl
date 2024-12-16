@@ -1,0 +1,8 @@
+{"code": " rsa.encrypt(fernet_key, pub_key)", "compilation_passed": true, "time": 0.41056323051452637, "tests_passed": true, "error": null}
+{"code": " pub_key.encrypt(fernet_key, None)", "compilation_passed": true, "time": 0.03663206100463867, "tests_passed": false, "error": "AttributeError"}
+{"code": " pub_key.encrypt(fernet_key, None)[0]", "compilation_passed": true, "time": 0.02493739128112793, "tests_passed": false, "error": "AttributeError"}
+{"code": " b64encode(pub_key.encrypt(fernet_key, None))", "compilation_passed": true, "time": 0.044738054275512695, "tests_passed": false, "error": "AttributeError"}
+{"code": " rsa.encrypt(b64encode(fernet_key), pub_key)", "compilation_passed": true, "time": 0.03516221046447754, "tests_passed": false, "error": "OverflowError"}
+{"code": " pub_key.encrypt(b64encode(fernet_key), None)[0]", "compilation_passed": true, "time": 0.02338409423828125, "tests_passed": false, "error": "AttributeError"}
+{"code": " pub_key.encrypt(b64encode(fernet_key), None)", "compilation_passed": true, "time": 0.039170026779174805, "tests_passed": false, "error": "AttributeError"}
+{"code": " pub_key.encrypt(b64encode(fernet_key), '')", "compilation_passed": true, "time": 0.03351402282714844, "tests_passed": false, "error": "AttributeError"}

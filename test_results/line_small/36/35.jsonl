@@ -1,0 +1,22 @@
+{"code": " stats.boxcox(df, method='normal')", "compilation_passed": true, "time": 0.008334875106811523, "tests_passed": false, "error": "TypeError"}
+{"code": " df.copy()", "compilation_passed": true, "time": 1.420341968536377, "tests_passed": true, "error": null}
+{"code": " stats.boxcox(df, lmbda=None)", "compilation_passed": true, "time": 0.01355600357055664, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(stats.boxcox(df.to_numpy()))", "compilation_passed": true, "time": 0.009574174880981445, "tests_passed": false, "error": "ValueError"}
+{"code": " stats.boxcox(df, lmbda=1)", "compilation_passed": true, "time": 0.008117914199829102, "tests_passed": false, "error": "ValueError"}
+{"code": " np.exp(stats.boxcox(df.values, lmbda=None))", "compilation_passed": true, "time": 0.008183002471923828, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(stats.boxcox(df.values, 10)[0])", "compilation_passed": true, "time": 0.008432149887084961, "tests_passed": false, "error": "ValueError"}
+{"code": " np.apply_along_axis(lambda x: stats.boxcox(x), 0, df.values)", "compilation_passed": true, "time": 0.01600790023803711, "tests_passed": false, "error": "ValueError"}
+{"code": " df.apply(lambda x: np.sqrt(x + 1))", "compilation_passed": true, "time": 0.15955805778503418, "tests_passed": true, "error": null}
+{"code": " stats.boxcox(df, 1)", "compilation_passed": true, "time": 0.008764028549194336, "tests_passed": false, "error": "ValueError"}
+{"code": " stats.boxcox(df)", "compilation_passed": true, "time": 0.008235931396484375, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.16578102111816406, "tests_passed": true, "error": null}
+{"code": " stats.boxcox(df, lmbda=None)[1]", "compilation_passed": true, "time": 0.008110284805297852, "tests_passed": false, "error": "ValueError"}
+{"code": " stats.boxcox(df.values, allow_negative=True)[0]", "compilation_passed": true, "time": 0.008292198181152344, "tests_passed": false, "error": "TypeError"}
+{"code": " stats.boxcox(df, method='normal')[0]", "compilation_passed": true, "time": 0.008064031600952148, "tests_passed": false, "error": "TypeError"}
+{"code": " stats.boxcox(df, lambda x: np.log10(x + 1) if x > 0 else np.nan)[0]", "compilation_passed": true, "time": 0.008309125900268555, "tests_passed": false, "error": "ValueError"}
+{"code": " stats.boxcox(df.values)", "compilation_passed": true, "time": 0.008265972137451172, "tests_passed": false, "error": "ValueError"}
+{"code": " df.apply(lambda x: stats.boxcox(x - 1 + np.isclose(x, 0, atol=1e-6), method=\"normal\")[0], axis=0)", "compilation_passed": true, "time": 0.01517796516418457, "tests_passed": false, "error": "TypeError"}
+{"code": " stats.boxcox(df, method='normal')[0] + 1", "compilation_passed": true, "time": 0.008254051208496094, "tests_passed": false, "error": "TypeError"}
+{"code": " df.apply(stats.boxcox)", "compilation_passed": true, "time": 0.00887298583984375, "tests_passed": false, "error": "ValueError"}
+{"code": " stats.boxcox(df.astype(float), lam=None, bounds_check=True, normalize=False, nan_policy='raise')", "compilation_passed": true, "time": 0.007973909378051758, "tests_passed": false, "error": "TypeError"}
+{"code": " stats.boxcox(df, method='legacy')[1]", "compilation_passed": true, "time": 0.008868932723999023, "tests_passed": false, "error": "TypeError"}

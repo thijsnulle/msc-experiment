@@ -1,0 +1,4 @@
+{"code": " df.columns[-1]", "compilation_passed": true, "time": 0.0058689117431640625, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, -1]", "compilation_passed": true, "time": 0.01735997200012207, "tests_passed": false, "error": "KeyError"}
+{"code": " df.iloc[:, -1]  # get the last column of the dataframe", "compilation_passed": true, "time": 0.015327930450439453, "tests_passed": false, "error": "KeyError"}
+{"code": " df.iloc[:, -1]  # Get the last column of the dataframe", "compilation_passed": true, "time": 0.011590003967285156, "tests_passed": false, "error": "KeyError"}

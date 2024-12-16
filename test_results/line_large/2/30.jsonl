@@ -1,0 +1,6 @@
+{"code": " dict(sorted(random_dict.items(), key=lambda item: statistics.mean(item[1]), reverse=True))", "compilation_passed": true, "time": 0.0045070648193359375, "tests_passed": true, "error": null}
+{"code": " {k: v for k, v in sorted(random_dict.items(), key=lambda item: statistics.mean(item[1]), reverse=True)}", "compilation_passed": true, "time": 0.004299163818359375, "tests_passed": true, "error": null}
+{"code": " {k: random_dict[k] for k in sorted(random_dict, key=lambda x: statistics.mean(random_dict[x]), reverse=True)}", "compilation_passed": true, "time": 0.0040400028228759766, "tests_passed": true, "error": null}
+{"code": " {k: v for k, v in sorted(random_dict.items(), key=lambda x: statistics.mean(x[1]), reverse=True)}", "compilation_passed": true, "time": 0.0038361549377441406, "tests_passed": true, "error": null}
+{"code": " dict(sorted(random_dict.items(), key=lambda x: statistics.mean(x[1]), reverse=True))", "compilation_passed": true, "time": 0.003984928131103516, "tests_passed": true, "error": null}
+{"code": " sorted(random_dict.items(), key=lambda x: statistics.mean(x[1]), reverse=True)", "compilation_passed": true, "time": 0.003589153289794922, "tests_passed": true, "error": null}

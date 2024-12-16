@@ -1,0 +1,12 @@
+{"code": " {", "compilation_passed": false, "time": 0.000270843505859375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.Series(walk).describe()", "compilation_passed": true, "time": 0.10247993469238281, "tests_passed": false, "error": "KeyError"}
+{"code": " {'count': walk.size,", "compilation_passed": false, "time": 0.0002911090850830078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'count': len(walk), 'mean': np.mean(walk), 'std': np.std(walk),", "compilation_passed": false, "time": 0.0005092620849609375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'count': len(walk),", "compilation_passed": false, "time": 0.0006020069122314453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [np.mean(walk), np.std(walk)]", "compilation_passed": true, "time": 0.08946800231933594, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(walk).describe()", "compilation_passed": true, "time": 0.08935117721557617, "tests_passed": false, "error": "KeyError"}
+{"code": " {}", "compilation_passed": true, "time": 0.06344389915466309, "tests_passed": false, "error": "KeyError"}
+{"code": " calculate_descriptive_stats(walk)", "compilation_passed": true, "time": 0.015416860580444336, "tests_passed": false, "error": "NameError"}
+{"code": " pd.DataFrame(walk).describe().to_dict()", "compilation_passed": true, "time": 0.08997988700866699, "tests_passed": false, "error": "KeyError"}
+{"code": " {\"count\": elements,", "compilation_passed": false, "time": 0.00039887428283691406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'count': elements,", "compilation_passed": false, "time": 0.000244140625, "tests_passed": false, "error": "SyntaxError"}

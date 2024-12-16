@@ -1,0 +1,23 @@
+{"code": " X.sum(axis=0).A1()", "compilation_passed": true, "time": 0.036093950271606445, "tests_passed": false, "error": "TypeError"}
+{"code": " np.asarray(X.mean(axis=0)).ravel()", "compilation_passed": true, "time": 0.11132311820983887, "tests_passed": true, "error": null}
+{"code": " np.array(X.toarray()[0]).flatten()", "compilation_passed": true, "time": 0.11030292510986328, "tests_passed": true, "error": null}
+{"code": " np.array(X.toarray().sum(axis=0)).flatten()", "compilation_passed": true, "time": 0.11062407493591309, "tests_passed": true, "error": null}
+{"code": " np.squeeze(np.asarray(X.toarray()))", "compilation_passed": true, "time": 0.04721784591674805, "tests_passed": false, "error": "TypeError"}
+{"code": " np.asarray(X.toarray().sum(axis=0)).squeeze()", "compilation_passed": true, "time": 0.11083173751831055, "tests_passed": true, "error": null}
+{"code": " X.sum(axis=0).tolist()[0]", "compilation_passed": true, "time": 0.11094403266906738, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.squeeze(X.toarray()), columns=vectorizer.get_feature_names_out())", "compilation_passed": true, "time": 0.03771710395812988, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(X.toarray().mean(axis=0)).flatten()", "compilation_passed": true, "time": 0.10931897163391113, "tests_passed": true, "error": null}
+{"code": " np.array(X.todense())[0].tolist()", "compilation_passed": true, "time": 0.11029601097106934, "tests_passed": true, "error": null}
+{"code": " X.toarray()", "compilation_passed": true, "time": 0.03716301918029785, "tests_passed": false, "error": "TypeError"}
+{"code": " X.max(axis=0).toarray()[0]", "compilation_passed": true, "time": 0.12094807624816895, "tests_passed": true, "error": null}
+{"code": " np.array(X.sum(axis=0))[0]", "compilation_passed": true, "time": 0.10116100311279297, "tests_passed": true, "error": null}
+{"code": " np.array(X.sum(axis=0)).squeeze()", "compilation_passed": true, "time": 0.11025285720825195, "tests_passed": true, "error": null}
+{"code": " np.array(X.toarray().max(axis=0)).ravel()", "compilation_passed": true, "time": 0.11054706573486328, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.max(X.toarray(), axis=0), index=vectorizer.get_feature_names_out()).sort_values(ascending=False)", "compilation_passed": true, "time": 0.11626791954040527, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.squeeze(X.toarray().max(axis=0)), index=vectorizer.get_feature_names_out())", "compilation_passed": true, "time": 0.11124467849731445, "tests_passed": true, "error": null}
+{"code": " X.data", "compilation_passed": true, "time": 0.051362037658691406, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(X.sum(axis=0)).ravel()", "compilation_passed": true, "time": 0.1107027530670166, "tests_passed": true, "error": null}
+{"code": " np.asarray(X.sum(axis=0)).squeeze()", "compilation_passed": true, "time": 0.11072397232055664, "tests_passed": true, "error": null}
+{"code": " X.toarray()[0]", "compilation_passed": true, "time": 0.11047887802124023, "tests_passed": true, "error": null}
+{"code": " X.max(axis=0).toarray()", "compilation_passed": true, "time": 0.037956953048706055, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names_out())", "compilation_passed": true, "time": 0.037667036056518555, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,18 @@
+{"code": " []", "compilation_passed": true, "time": 0.0069921016693115234, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.00019311904907226562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [", "compilation_passed": false, "time": 0.00019621849060058594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " zip(", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [{'Student': next(student_cycle), 'Grade': randint(grade_range.start, grade_range.stop-1)} for i in range(n_grades)]", "compilation_passed": true, "time": 0.012038946151733398, "tests_passed": false, "error": "ValueError"}
+{"code": " [next(student_cycle) for _ in range(n_grades)]", "compilation_passed": true, "time": 0.009875059127807617, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00024700164794921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'Student': students, 'Grade': [randint(*grade_range) for _ in range(n_grades)]}", "compilation_passed": true, "time": 0.011348962783813477, "tests_passed": false, "error": "TypeError"}
+{"code": " [(next(student_cycle), randint(grade_range.start, grade_range.stop - 1)) for _ in range(n_grades)]", "compilation_passed": true, "time": 0.0070531368255615234, "tests_passed": true, "error": null}
+{"code": " [(next(student_cycle), randint(*grade_range)) for _ in range(n_grades)]", "compilation_passed": true, "time": 0.0114288330078125, "tests_passed": false, "error": "TypeError"}
+{"code": " [next(student_cycle) for i in range(n_grades)]", "compilation_passed": true, "time": 0.011592864990234375, "tests_passed": false, "error": "ValueError"}
+{"code": " [(next(student_cycle), randint(grade_range.start, grade_range.stop)) for _ in range(n_grades)]", "compilation_passed": true, "time": 0.007413148880004883, "tests_passed": true, "error": null}
+{"code": " [(next(student_cycle), randint(min(grade_range), max(grade_range))) for _ in range(n_grades)]", "compilation_passed": true, "time": 0.006726980209350586, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.000202178955078125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'Student': [], 'Grade': []}", "compilation_passed": true, "time": 0.009865999221801758, "tests_passed": false, "error": "AttributeError"}
+{"code": " [[student, randint(grade_range.start, grade_range.stop)]", "compilation_passed": false, "time": 0.00022077560424804688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(next(student_cycle), randint(grade_range.start, grade_range.stop - 1))", "compilation_passed": false, "time": 0.00023102760314941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [{\"Student\": next(student_cycle), \"Grade\": randint(grade_range.start, grade_range.stop - 1)} for _ in range(n_grades)]", "compilation_passed": true, "time": 0.008982181549072266, "tests_passed": false, "error": "ValueError"}

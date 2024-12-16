@@ -1,0 +1,6 @@
+{"code": "set_title(f'Distribution of {column}')", "compilation_passed": true, "time": 0.025602102279663086, "tests_passed": true, "error": null}
+{"code": "set_title('Distribution of {}'.format(column))", "compilation_passed": true, "time": 0.026208877563476562, "tests_passed": true, "error": null}
+{"code": "set_title('Distribution of ' + column)", "compilation_passed": true, "time": 0.025538206100463867, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Distribution of {column}\")", "compilation_passed": true, "time": 0.026947975158691406, "tests_passed": true, "error": null}
+{"code": "set_title('Distribution of {column}'.format(column=column))", "compilation_passed": true, "time": 0.0269320011138916, "tests_passed": true, "error": null}
+{"code": "set_title('Distribution of {} in the data'.format(column))", "compilation_passed": true, "time": 0.013768911361694336, "tests_passed": true, "error": null}

@@ -1,0 +1,7 @@
+{"code": " comment.decode(to_encoding)", "compilation_passed": false, "time": 0.00029587745666503906, "tests_passed": false, "error": "IndentationError"}
+{"code": " comment.decode(from_encoding).encode(to_encoding)", "compilation_passed": false, "time": 0.0002868175506591797, "tests_passed": false, "error": "IndentationError"}
+{"code": " comment.decode(from_encoding).encode(to_encoding).decode(to_encoding)", "compilation_passed": false, "time": 0.0002789497375488281, "tests_passed": false, "error": "IndentationError"}
+{"code": " comment.decode(\"utf-8\")", "compilation_passed": false, "time": 0.00026702880859375, "tests_passed": false, "error": "IndentationError"}
+{"code": " comment.decode(from_encoding, errors=\"ignore\").encode(to_encoding).decode(to_encoding)", "compilation_passed": false, "time": 0.0002970695495605469, "tests_passed": false, "error": "IndentationError"}
+{"code": " comment.decode(\"utf8\")  # Try to decode comment as utf8 directly", "compilation_passed": false, "time": 0.0002701282501220703, "tests_passed": false, "error": "IndentationError"}
+{"code": " comment.decode(\"utf8\")", "compilation_passed": false, "time": 0.0002770423889160156, "tests_passed": false, "error": "IndentationError"}

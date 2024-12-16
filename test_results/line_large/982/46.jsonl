@@ -1,0 +1,10 @@
+{"code": "plot(x, p, color=\"black\", linewidth=2, alpha=1)", "compilation_passed": true, "time": 0.23746299743652344, "tests_passed": true, "error": null}
+{"code": "plot(x, p, \"k\", linewidth=2)", "compilation_passed": true, "time": 0.24443292617797852, "tests_passed": true, "error": null}
+{"code": "plot(x, p, color=\"red\", linewidth=2, alpha=0.6)", "compilation_passed": true, "time": 0.23953890800476074, "tests_passed": true, "error": null}
+{"code": "plot(x, p, 'k', linewidth=2)", "compilation_passed": true, "time": 0.24005794525146484, "tests_passed": true, "error": null}
+{"code": "plot(x, p, '-k', linewidth=2)", "compilation_passed": true, "time": 0.23572778701782227, "tests_passed": true, "error": null}
+{"code": "plot(x, p, \"k--\", linewidth=1.5)", "compilation_passed": true, "time": 0.24482369422912598, "tests_passed": true, "error": null}
+{"code": "plot(x, p, '-')", "compilation_passed": true, "time": 0.34557390213012695, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Normal Fit for '{column}'\")", "compilation_passed": true, "time": 0.21773624420166016, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(x, p, color=\"b\", linewidth=2, label=f\"mu: {mu:.2f}, std: {std:.2f}\")", "compilation_passed": true, "time": 0.2670440673828125, "tests_passed": true, "error": null}
+{"code": "plot(x, p, '-k')", "compilation_passed": true, "time": 1.1691808700561523, "tests_passed": false, "error": "TimeoutError"}

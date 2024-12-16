@@ -1,0 +1,27 @@
+{"code": " sns.countplot(x=COLUMNS[-1], hue=COLUMNS[-1], data=analyzed_df)", "compilation_passed": true, "time": 0.15622830390930176, "tests_passed": true, "error": null}
+{"code": " sns.countplot(data=analyzed_df, x=COLUMNS[-1], hue=COLUMNS[:-1], palette=\"pastel\")", "compilation_passed": true, "time": 0.025416135787963867, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.barplot(x=analyzed_df[COLUMNS[-1]], y=analyzed_df[COLUMNS[0]])", "compilation_passed": true, "time": 0.18643617630004883, "tests_passed": true, "error": null}
+{"code": " sns.countplot(data=analyzed_df, x=COLUMNS[-1], hue=COLUMNS[:-1], palette='husl')", "compilation_passed": true, "time": 0.0100250244140625, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.countplot(x=COLUMNS[-1], data=analyzed_df, hue=COLUMNS[0])", "compilation_passed": true, "time": 0.1434459686279297, "tests_passed": true, "error": null}
+{"code": " sns.catplot(x=COLUMNS[-1], data=analyzed_df, kind=\"count\")", "compilation_passed": true, "time": 0.1798720359802246, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.displot(data=analyzed_df, x=COLUMNS[-1], col=COLUMNS[0], row=COLUMNS[1], xlabel=COLUMNS[-1])", "compilation_passed": true, "time": 0.31688928604125977, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.countplot(data=analyzed_df, x=COLUMNS[-1], hue=COLUMNS[:-1])", "compilation_passed": true, "time": 0.009877920150756836, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.barplot(data=analyzed_df, x=COLUMNS[-1], y=\"count\", hue=\"col2\", palette=\"rocket\")", "compilation_passed": true, "time": 0.010179996490478516, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.displot(data=analyzed_df, x=COLUMNS[-1], col=COLUMNS[0], row=COLUMNS[1])", "compilation_passed": true, "time": 0.5259950160980225, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.barplot(data=analyzed_df, x=analyzed_df[COLUMNS[-1]], y=analyzed_df['col1'])", "compilation_passed": true, "time": 0.1847531795501709, "tests_passed": true, "error": null}
+{"code": " sns.countplot(x=COLUMNS[-1], data=analyzed_df)", "compilation_passed": true, "time": 0.0953211784362793, "tests_passed": true, "error": null}
+{"code": " sns.countplot(data=analyzed_df, x=COLUMNS[-1])", "compilation_passed": true, "time": 0.10058999061584473, "tests_passed": true, "error": null}
+{"code": " sns.catplot(data=analyzed_df, x='col3', kind='count', hue='col2', col='col1')", "compilation_passed": true, "time": 0.36324000358581543, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.barplot(data=analyzed_df, x=COLUMNS[-1], y='col3')", "compilation_passed": true, "time": 0.2014920711517334, "tests_passed": true, "error": null}
+{"code": " sns.barplot(data=analyzed_df, x=COLUMNS[-1], y=COLUMNS[0])", "compilation_passed": true, "time": 0.27228713035583496, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(data=analyzed_df, x=COLUMNS[-1], y=COLUMNS[:-1], orient='h')", "compilation_passed": true, "time": 0.01604294776916504, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.histplot(data=analyzed_df, x=COLUMNS[-1], hue=COLUMNS[0], discrete=True, stat=\"probability\")", "compilation_passed": true, "time": 0.16080880165100098, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(data=analyzed_df, x=COLUMNS[-1], y=COLUMNS[0])", "compilation_passed": true, "time": 0.1491539478302002, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data=analyzed_df, x=COLUMNS[-1], hue=COLUMNS[0], multiple='dodge')", "compilation_passed": true, "time": 0.15701007843017578, "tests_passed": true, "error": null}
+{"code": " sns.countplot(x=COLUMNS[-1], hue=COLUMNS[:-1], data=analyzed_df)", "compilation_passed": true, "time": 0.010524988174438477, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.barplot(data=analyzed_df, x=analyzed_df[COLUMNS[0]], y=analyzed_df[COLUMNS[1]], hue=analyzed_df[COLUMNS[2]])", "compilation_passed": true, "time": 0.2746758460998535, "tests_passed": true, "error": null}
+{"code": " sns.histplot(analyzed_df, x=COLUMNS[-1], hue=COLUMNS[:-1], multiple='fill')", "compilation_passed": true, "time": 0.011309146881103516, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.histplot(analyzed_df, x=COLUMNS[-1], hue=COLUMNS[0], discrete=True)", "compilation_passed": true, "time": 0.12372994422912598, "tests_passed": true, "error": null}
+{"code": " sns.kdeplot(data=analyzed_df, x='col3', hue='col2', multiple=1, bw_adjust=0.1, fill=True)", "compilation_passed": true, "time": 0.01864004135131836, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.barplot(data=analyzed_df, x=COLUMNS[-1], y=COLUMNS[-1], hue=COLUMNS[:-1], palette=\"muted\")", "compilation_passed": true, "time": 0.010281801223754883, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.displot(data=analyzed_df, x=COLUMNS[-1])", "compilation_passed": true, "time": 0.1552586555480957, "tests_passed": false, "error": "AttributeError"}

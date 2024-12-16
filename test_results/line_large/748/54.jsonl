@@ -1,0 +1,10 @@
+{"code": " df[df[\"Age\"] < age]", "compilation_passed": true, "time": 0.012382030487060547, "tests_passed": true, "error": null}
+{"code": " df[(df[\"Age\"] < age) & (df[\"Weight\"] > weight)]", "compilation_passed": true, "time": 0.009106159210205078, "tests_passed": true, "error": null}
+{"code": " df[(df['Age'] < age) & (df['Weight'] > weight)]", "compilation_passed": true, "time": 0.01647782325744629, "tests_passed": true, "error": null}
+{"code": " df[(df.Age < age) & (df.Weight > weight)]", "compilation_passed": true, "time": 0.016099214553833008, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.loc[(df[\"Age\"] < age) & (df[\"Weight\"] > weight)]", "compilation_passed": true, "time": 0.00927734375, "tests_passed": true, "error": null}
+{"code": " df[df['Age'] < age]", "compilation_passed": true, "time": 0.009414911270141602, "tests_passed": true, "error": null}
+{"code": " df.query(f\"Age < {age} and Weight > {weight}\")", "compilation_passed": true, "time": 0.023346900939941406, "tests_passed": false, "error": "pandas.errors.UndefinedVariableError"}
+{"code": " df[(df[\"Age\"] <= age) & (df[\"Weight\"] > weight)]", "compilation_passed": true, "time": 0.012191057205200195, "tests_passed": true, "error": null}
+{"code": " df[", "compilation_passed": false, "time": 0.00012087821960449219, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.loc[(df['Age'] < age) & (df['Weight'] > weight)]", "compilation_passed": true, "time": 0.007992029190063477, "tests_passed": true, "error": null}

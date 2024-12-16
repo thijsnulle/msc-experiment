@@ -1,0 +1,9 @@
+{"code": " []", "compilation_passed": true, "time": 0.007227897644042969, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00016498565673828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dataframe.applymap(lambda x: x == item)", "compilation_passed": true, "time": 0.00706791877746582, "tests_passed": true, "error": null}
+{"code": " [(i, j) for j in dataframe.columns for i, x in enumerate(dataframe[j]) if x == item]", "compilation_passed": true, "time": 0.011847734451293945, "tests_passed": true, "error": null}
+{"code": " [(row, col) for row in dataframe.index for col in dataframe.columns if dataframe.at[row, col] == item]", "compilation_passed": true, "time": 0.012932062149047852, "tests_passed": true, "error": null}
+{"code": " [(i, j) for i, row in dataframe.iterrows() for j, value in enumerate(row) if value == item]", "compilation_passed": true, "time": 0.011710166931152344, "tests_passed": true, "error": null}
+{"code": " [(i, j) for j in range(len(dataframe.columns)) for i in dataframe.columns[j][dataframe.columns[j] == item].index]", "compilation_passed": true, "time": 0.01211094856262207, "tests_passed": false, "error": "TypeError"}
+{"code": " dataframe.loc[dataframe == item].stack().index.tolist()", "compilation_passed": true, "time": 0.00925898551940918, "tests_passed": false, "error": "ValueError"}
+{"code": " [(i, j) for i, row in dataframe.iterrows() for j, col in enumerate(row) if col == item]", "compilation_passed": true, "time": 0.012308835983276367, "tests_passed": true, "error": null}

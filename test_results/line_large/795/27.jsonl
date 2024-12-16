@@ -1,0 +1,10 @@
+{"code": " not isinstance(l, list):", "compilation_passed": true, "time": 0.002218961715698242, "tests_passed": true, "error": null}
+{"code": " len(l) == 0:", "compilation_passed": true, "time": 0.0015499591827392578, "tests_passed": true, "error": null}
+{"code": " all(isinstance(x, (int, float)) for x in l):", "compilation_passed": true, "time": 0.005341053009033203, "tests_passed": true, "error": null}
+{"code": " l is None or not isinstance(l, list) or len(l) == 0:", "compilation_passed": true, "time": 0.0016667842864990234, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(x, int) for x in l):", "compilation_passed": true, "time": 0.005515098571777344, "tests_passed": true, "error": null}
+{"code": " not l:", "compilation_passed": true, "time": 0.0014090538024902344, "tests_passed": true, "error": null}
+{"code": " l:", "compilation_passed": true, "time": 0.004642963409423828, "tests_passed": true, "error": null}
+{"code": " len(l) <= 3:", "compilation_passed": true, "time": 0.0014503002166748047, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(i, int) for i in l):", "compilation_passed": true, "time": 0.0059719085693359375, "tests_passed": true, "error": null}
+{"code": " any(isinstance(item, int) for item in l):", "compilation_passed": true, "time": 0.00789189338684082, "tests_passed": true, "error": null}

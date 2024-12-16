@@ -1,0 +1,6 @@
+{"code": " cleaned_text.split()", "compilation_passed": true, "time": 0.24895095825195312, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\W+\", cleaned_text)", "compilation_passed": true, "time": 0.17249584197998047, "tests_passed": true, "error": null}
+{"code": " [word for word in cleaned_text.split() if word.isalpha()]", "compilation_passed": true, "time": 0.25083279609680176, "tests_passed": true, "error": null}
+{"code": " Counter(cleaned_text.split())", "compilation_passed": true, "time": 0.24186015129089355, "tests_passed": true, "error": null}
+{"code": " re.split('\\W+', cleaned_text)", "compilation_passed": true, "time": 0.16303205490112305, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\s+\", cleaned_text)", "compilation_passed": true, "time": 0.21680998802185059, "tests_passed": true, "error": null}

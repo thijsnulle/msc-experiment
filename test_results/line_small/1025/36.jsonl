@@ -5,3 +5,5 @@
 {"code": " len(df) < 2:", "compilation_passed": true, "time": 0.1916651725769043, "tests_passed": true, "error": null}
 {"code": " len(df) > 0:", "compilation_passed": true, "time": 0.019953250885009766, "tests_passed": false, "error": "ValueError"}
 {"code": " len(df.columns) > 1:", "compilation_passed": true, "time": 0.020348072052001953, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df.columns) == 1:", "compilation_passed": true, "time": 0.0020411014556884766, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " len(df.columns) > 0:", "compilation_passed": true, "time": 0.0017189979553222656, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}

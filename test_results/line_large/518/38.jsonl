@@ -1,0 +1,26 @@
+{"code": " not isinstance(array, list) or not all(isinstance(x, list) for x in array):", "compilation_passed": true, "time": 0.00939798355102539, "tests_passed": true, "error": null}
+{"code": " not isinstance(array, list) or not all(isinstance(row, list) for row in array):", "compilation_passed": true, "time": 0.008711814880371094, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(sub, list) and all(isinstance(x, (int, float)) for x in sub) for sub in array):", "compilation_passed": true, "time": 0.009002923965454102, "tests_passed": true, "error": null}
+{"code": " not isinstance(array, list) or not all(isinstance(sub, list) for sub in array):", "compilation_passed": true, "time": 0.008889198303222656, "tests_passed": true, "error": null}
+{"code": " not isinstance(array, list) or not all(isinstance(subarray, list) for subarray in array):", "compilation_passed": true, "time": 0.009137153625488281, "tests_passed": true, "error": null}
+{"code": " not isinstance(array, list):", "compilation_passed": true, "time": 0.009774923324584961, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(row, list) for row in array):", "compilation_passed": true, "time": 0.008695840835571289, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(x, (int, float)) for row in array for x in row):", "compilation_passed": true, "time": 0.009026050567626953, "tests_passed": true, "error": null}
+{"code": " not all(all(isinstance(num, (int, float)) for num in row) for row in array):", "compilation_passed": true, "time": 0.00886392593383789, "tests_passed": true, "error": null}
+{"code": " not all(all(isinstance(num, (int, float)) for num in sublist) for sublist in array):", "compilation_passed": true, "time": 0.008879899978637695, "tests_passed": true, "error": null}
+{"code": " not isinstance(array, list) or not all(isinstance(sublist, list) for sublist in array):", "compilation_passed": true, "time": 0.008520841598510742, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(i, list) for i in array):", "compilation_passed": true, "time": 0.008061885833740234, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(x, list) for x in array):", "compilation_passed": true, "time": 0.008352994918823242, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(sublist, list) for sublist in array):", "compilation_passed": true, "time": 0.009180784225463867, "tests_passed": true, "error": null}
+{"code": " any(any(not isinstance(value, (int, float)) for value in row) for row in array):", "compilation_passed": true, "time": 0.009974956512451172, "tests_passed": true, "error": null}
+{"code": " any([not (isinstance(i, int) or isinstance(i, float)) for i in array]):", "compilation_passed": true, "time": 0.012799978256225586, "tests_passed": false, "error": "TypeError"}
+{"code": " not all(isinstance(item, int) or isinstance(item, float) for sublist in array for item in sublist):", "compilation_passed": true, "time": 0.008975028991699219, "tests_passed": true, "error": null}
+{"code": " isinstance(array, list):", "compilation_passed": true, "time": 0.015925168991088867, "tests_passed": false, "error": "TypeError"}
+{"code": " not all(all(isinstance(item, (int, float)) for item in sublist) for sublist in array):", "compilation_passed": true, "time": 0.008646249771118164, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(subarray, list) for subarray in array):", "compilation_passed": true, "time": 0.008974075317382812, "tests_passed": true, "error": null}
+{"code": " not all(len(sub) == len(array[0]) and all(isinstance(ele, (int, float)) for ele in sub) for sub in array):", "compilation_passed": true, "time": 0.01940608024597168, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(i, int) or isinstance(i, float) for sub in array for i in sub):", "compilation_passed": true, "time": 0.015437841415405273, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(sub, list) and all(isinstance(i, (int, float)) for i in sub) for sub in array):", "compilation_passed": true, "time": 0.013094902038574219, "tests_passed": true, "error": null}
+{"code": " not all(len(row) == len(array[0]) and all(isinstance(val, (int, float)) for val in row) for row in array):", "compilation_passed": true, "time": 0.012076139450073242, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(lst, list) and all(isinstance(i, (int, float)) for i in lst) for lst in array):", "compilation_passed": true, "time": 0.009572744369506836, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(x, (int, float)) for sublist in array for x in sublist):", "compilation_passed": true, "time": 0.009033918380737305, "tests_passed": true, "error": null}

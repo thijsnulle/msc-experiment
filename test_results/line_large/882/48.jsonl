@@ -1,0 +1,14 @@
+{"code": " column_name not in df.columns:", "compilation_passed": true, "time": 0.014900922775268555, "tests_passed": true, "error": null}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.011579036712646484, "tests_passed": true, "error": null}
+{"code": " pattern == '\\d+[xX]':", "compilation_passed": true, "time": 0.010673999786376953, "tests_passed": true, "error": null}
+{"code": " not (column_name in df.columns):", "compilation_passed": true, "time": 0.012147903442382812, "tests_passed": true, "error": null}
+{"code": " pattern:", "compilation_passed": true, "time": 0.02176213264465332, "tests_passed": true, "error": null}
+{"code": " not df.empty:", "compilation_passed": true, "time": 0.02526998519897461, "tests_passed": true, "error": null}
+{"code": " pattern is None:", "compilation_passed": true, "time": 0.010856151580810547, "tests_passed": true, "error": null}
+{"code": " not (df[column_name] == pattern).empty:", "compilation_passed": true, "time": 0.019700050354003906, "tests_passed": true, "error": null}
+{"code": " not column_name in df.columns:", "compilation_passed": true, "time": 0.011303901672363281, "tests_passed": true, "error": null}
+{"code": " column_name in df.columns:", "compilation_passed": true, "time": 0.018059968948364258, "tests_passed": true, "error": null}
+{"code": " column_name not in df:", "compilation_passed": true, "time": 0.010809183120727539, "tests_passed": true, "error": null}
+{"code": " df is None or df.empty:", "compilation_passed": true, "time": 0.0103759765625, "tests_passed": true, "error": null}
+{"code": " not isinstance(df[column_name], pd.Series):", "compilation_passed": true, "time": 0.010290861129760742, "tests_passed": true, "error": null}
+{"code": " not df[column_name].str.contains(pattern).any():", "compilation_passed": true, "time": 0.012261152267456055, "tests_passed": true, "error": null}

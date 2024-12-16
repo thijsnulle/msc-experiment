@@ -1,0 +1,12 @@
+{"code": " df.empty or 'Title' not in df.columns or 'Content' not in df.columns:", "compilation_passed": true, "time": 0.022854089736938477, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or not all(col in df.columns for col in ['Title', 'Content']):", "compilation_passed": true, "time": 0.021136760711669922, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.021114110946655273, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or not (('Title' in df.columns) and ('Content' in df.columns)):", "compilation_passed": true, "time": 0.021297216415405273, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or not {'Title', 'Content'}.issubset(df.columns):", "compilation_passed": true, "time": 0.021244287490844727, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or not all(col in df for col in ['Title', 'Content']):", "compilation_passed": true, "time": 0.019891977310180664, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or ('Title' not in df.columns or 'Content' not in df.columns):", "compilation_passed": true, "time": 0.018845081329345703, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or not (\"Title\" in df.columns and \"Content\" in df.columns):", "compilation_passed": true, "time": 0.021362781524658203, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or not all(column in df.columns for column in ['Title', 'Content']):", "compilation_passed": true, "time": 0.021126747131347656, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or set(['Title', 'Content']).difference(df.columns):", "compilation_passed": true, "time": 0.02124810218811035, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or any(col not in df.columns for col in ['Title', 'Content']):", "compilation_passed": true, "time": 0.015818119049072266, "tests_passed": false, "error": "ValueError"}
+{"code": " df.empty or (df.columns != ['Title', 'Content']).any():", "compilation_passed": true, "time": 0.010438203811645508, "tests_passed": false, "error": "ValueError"}

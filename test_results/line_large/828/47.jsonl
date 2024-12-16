@@ -1,0 +1,6 @@
+{"code": " os.path.join(dest_dir, os.path.basename(filename))", "compilation_passed": true, "time": 0.013175249099731445, "tests_passed": true, "error": null}
+{"code": " shutil.copy(filename, dest_dir)", "compilation_passed": true, "time": 0.013605833053588867, "tests_passed": true, "error": null}
+{"code": " shutil.copy2(filename, dest_dir)", "compilation_passed": true, "time": 0.013930082321166992, "tests_passed": true, "error": null}
+{"code": " shutil.copy2(filename, dest_dir)  # Preserves the original permissions", "compilation_passed": true, "time": 0.012242794036865234, "tests_passed": true, "error": null}
+{"code": " os.path.join(dest_dir, filename)  # Combine destination with the filename", "compilation_passed": true, "time": 0.018121004104614258, "tests_passed": true, "error": null}
+{"code": " os.path.join(dest_dir, os.path.basename(filename))  # Generate a relative destination path", "compilation_passed": true, "time": 0.013099193572998047, "tests_passed": true, "error": null}

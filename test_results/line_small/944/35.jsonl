@@ -1,0 +1,17 @@
+{"code": " np.random.uniform(100, 500, len(date_range))", "compilation_passed": true, "time": 0.23060894012451172, "tests_passed": true, "error": null}
+{"code": " 100 + 400 * np.random.rand(len(date_range))", "compilation_passed": true, "time": 0.2262861728668213, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(100, 500, size=len(date_range))", "compilation_passed": true, "time": 0.22699308395385742, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(low=100, high=500, size=len(date_range))", "compilation_passed": true, "time": 0.23306798934936523, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(low=100, high=500, size=periods)", "compilation_passed": true, "time": 0.22842812538146973, "tests_passed": true, "error": null}
+{"code": " 100 + 500 * np.random.random_sample(periods)", "compilation_passed": true, "time": 0.0924220085144043, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(100, 500, periods)", "compilation_passed": true, "time": 0.2393639087677002, "tests_passed": true, "error": null}
+{"code": " [100 + 400 * np.random.random_sample() for _ in date_range]", "compilation_passed": true, "time": 0.23694515228271484, "tests_passed": true, "error": null}
+{"code": " 100 + (500 - 100) * np.random.random((periods,))", "compilation_passed": true, "time": 0.2384648323059082, "tests_passed": true, "error": null}
+{"code": " [np.random.randint(100, 500, size=1)[0] for _ in range(len(date_range))]", "compilation_passed": true, "time": 0.2347397804260254, "tests_passed": true, "error": null}
+{"code": " 100 + 400 * np.random.random(len(date_range))", "compilation_passed": true, "time": 0.2430729866027832, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(low=100, high=500, size=date_range.shape[0])", "compilation_passed": true, "time": 0.24154114723205566, "tests_passed": true, "error": null}
+{"code": " 100 + np.random.randint(400, size=periods)", "compilation_passed": true, "time": 0.24451398849487305, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=100, high=500, size=(periods,))", "compilation_passed": true, "time": 0.2431027889251709, "tests_passed": true, "error": null}
+{"code": " [np.random.uniform(100, 500) for _ in date_range]", "compilation_passed": true, "time": 0.25226807594299316, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.uniform(100, 500, len(date_range)), index=date_range)", "compilation_passed": true, "time": 0.2471938133239746, "tests_passed": true, "error": null}
+{"code": " np.random.randint(100, 500, size=periods)", "compilation_passed": true, "time": 0.2503519058227539, "tests_passed": true, "error": null}

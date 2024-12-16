@@ -1,0 +1,21 @@
+{"code": "legend(*scatter.legend_elements(), loc='best', title='Clusters')", "compilation_passed": true, "time": 0.4518930912017822, "tests_passed": true, "error": null}
+{"code": "legend(handles=scatter.legend_elements()[0], labels=list(range(n_clusters)))", "compilation_passed": true, "time": 0.23407816886901855, "tests_passed": true, "error": null}
+{"code": "legend(handles=scatter.legend_elements()[0], labels=[f'cluster {i+1}' for i in range(n_clusters)])", "compilation_passed": true, "time": 3.586944103240967, "tests_passed": true, "error": null}
+{"code": "legend(*scatter.legend_elements(), loc=\"best\")", "compilation_passed": true, "time": 0.22260618209838867, "tests_passed": true, "error": null}
+{"code": "legend(*scatter.legend_elements(), loc='lower left')", "compilation_passed": true, "time": 0.23579788208007812, "tests_passed": true, "error": null}
+{"code": "legend(handles=scatter.legend_elements()[0], labels=[", "compilation_passed": false, "time": 0.0003771781921386719, "tests_passed": false, "error": "SyntaxError"}
+{"code": "legend(handles=[c for c in scatter.legend_elements()[0]], labels=[f\"Cluster {i+1}\" for i in range(n_clusters)])", "compilation_passed": true, "time": 0.22616982460021973, "tests_passed": true, "error": null}
+{"code": "legend(handles=scatter.legend_elements()[0], labels=[f'Cluster {i}' for i in range(n_clusters)])", "compilation_passed": true, "time": 0.21448326110839844, "tests_passed": true, "error": null}
+{"code": "legend(*scatter.legend_elements(), loc='lower left', title='Clusters')", "compilation_passed": true, "time": 0.21866083145141602, "tests_passed": true, "error": null}
+{"code": "legend(*scatter.legend_elements(), loc=\"upper right\", title=\"Clusters\")", "compilation_passed": true, "time": 0.26877617835998535, "tests_passed": true, "error": null}
+{"code": "legend(handles=scatter.legend_elements()[0], labels=range(1, n_clusters + 1))", "compilation_passed": true, "time": 0.23586726188659668, "tests_passed": true, "error": null}
+{"code": "legend(*scatter.legend_elements(), loc=\"upper left\", title=\"Clusters\")", "compilation_passed": true, "time": 0.3250598907470703, "tests_passed": true, "error": null}
+{"code": "legend(*scatter.legend_elements(), loc=\"best\", title=\"Clusters\")", "compilation_passed": true, "time": 0.3011782169342041, "tests_passed": true, "error": null}
+{"code": "legend(*scatter.legend_elements(), loc='upper left', title='Clusters')", "compilation_passed": true, "time": 0.24346613883972168, "tests_passed": true, "error": null}
+{"code": "legend(handles=scatter.legend_elements()[0], labels=['Cluster ' + str(i) for i in range(n_clusters)])", "compilation_passed": true, "time": 0.28631019592285156, "tests_passed": true, "error": null}
+{"code": "legend(handles=scatter.legend_elements()[0], labels=range(n_clusters))", "compilation_passed": true, "time": 0.4101533889770508, "tests_passed": true, "error": null}
+{"code": "legend(*scatter.legend_elements(), loc='upper left')", "compilation_passed": true, "time": 0.3423190116882324, "tests_passed": true, "error": null}
+{"code": "legend(handles=scatter.legend_elements()[0], labels=range(n_clusters), title=\"Clusters\")", "compilation_passed": true, "time": 0.34546518325805664, "tests_passed": true, "error": null}
+{"code": "legend(", "compilation_passed": false, "time": 0.0018470287322998047, "tests_passed": false, "error": "SyntaxError"}
+{"code": "legend(*scatter.legend_elements(), loc='best')", "compilation_passed": true, "time": 0.28083300590515137, "tests_passed": true, "error": null}
+{"code": "legend(handles=scatter.legend_elements()[0], labels=np.arange(n_clusters))", "compilation_passed": true, "time": 0.08402419090270996, "tests_passed": false, "error": "ValueError"}

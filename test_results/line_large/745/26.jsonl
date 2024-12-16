@@ -1,0 +1,18 @@
+{"code": "call(['bash', script_path])", "compilation_passed": true, "time": 0.014439105987548828, "tests_passed": true, "error": null}
+{"code": "run(['bash', script_path])", "compilation_passed": true, "time": 0.2554659843444824, "tests_passed": true, "error": null}
+{"code": "run(['bash', script_path], check=True)", "compilation_passed": true, "time": 0.14104866981506348, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "run(f'bash {script_path}', shell=True)", "compilation_passed": true, "time": 0.260455846786499, "tests_passed": true, "error": null}
+{"code": "Popen([script_path])", "compilation_passed": true, "time": 0.12923169136047363, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "call([\"sh\", script_path])", "compilation_passed": true, "time": 0.009405374526977539, "tests_passed": true, "error": null}
+{"code": "run([script_path], shell=True)", "compilation_passed": true, "time": 0.2407221794128418, "tests_passed": true, "error": null}
+{"code": "call(script_path)", "compilation_passed": true, "time": 0.012794017791748047, "tests_passed": true, "error": null}
+{"code": "call([script_path, 'arg1', 'arg2'])", "compilation_passed": true, "time": 0.012105941772460938, "tests_passed": true, "error": null}
+{"code": "run(['bash', script_path])  # Execute the bash script", "compilation_passed": true, "time": 0.23633694648742676, "tests_passed": true, "error": null}
+{"code": "call(['bash', script_path])  # Run the script", "compilation_passed": true, "time": 0.011970043182373047, "tests_passed": true, "error": null}
+{"code": "run([script_path], shell=True)  # Run the script", "compilation_passed": true, "time": 0.24569916725158691, "tests_passed": true, "error": null}
+{"code": "run(f\"bash {script_path}\", shell=True)", "compilation_passed": true, "time": 0.2588019371032715, "tests_passed": true, "error": null}
+{"code": "run([\"bash\", script_path], check=True)", "compilation_passed": true, "time": 0.14002609252929688, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "call([script_path])  # Use subprocess.call or subprocess.run if you want to wait for the script to finish", "compilation_passed": true, "time": 0.012596845626831055, "tests_passed": true, "error": null}
+{"code": "call(script_path, shell=True)", "compilation_passed": true, "time": 0.007917642593383789, "tests_passed": true, "error": null}
+{"code": "call([script_path])", "compilation_passed": true, "time": 0.011687994003295898, "tests_passed": true, "error": null}
+{"code": "call(['bash', script_path])  # Call bash script", "compilation_passed": true, "time": 0.011996984481811523, "tests_passed": true, "error": null}

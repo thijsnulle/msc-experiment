@@ -1,0 +1,4 @@
+{"code": " json.loads(json_data)", "compilation_passed": true, "time": 0.1512761116027832, "tests_passed": true, "error": null}
+{"code": " json.loads(json_data)[key_path[0]][key_path[1]][key_path[2]]", "compilation_passed": true, "time": 0.008447885513305664, "tests_passed": false, "error": "TypeError"}
+{"code": " json.loads(json_data)[key_path[0]]", "compilation_passed": true, "time": 0.012509822845458984, "tests_passed": false, "error": "KeyError"}
+{"code": " json.loads(json_data)[key_path[-1]]", "compilation_passed": true, "time": 0.013018131256103516, "tests_passed": false, "error": "KeyError"}

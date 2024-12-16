@@ -1,0 +1,9 @@
+{"code": " pd.DataFrame.from_dict(country_gdp, orient='index', columns=['GDP'])", "compilation_passed": true, "time": 0.003919839859008789, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(country_gdp, index=['GDP']).T", "compilation_passed": true, "time": 0.005438804626464844, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(country_gdp, index=['GDP'])", "compilation_passed": true, "time": 0.007637977600097656, "tests_passed": true, "error": null}
+{"code": " pd.Series(country_gdp).rename_axis('Country').rename('GDP')", "compilation_passed": true, "time": 0.0064771175384521484, "tests_passed": true, "error": null}
+{"code": " pd.Series(country_gdp)", "compilation_passed": true, "time": 0.004525184631347656, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(country_gdp.items(), index=country_gdp.keys(), columns=['Country', 'GDP'])", "compilation_passed": true, "time": 0.005156040191650391, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(index=COUNTRIES)", "compilation_passed": true, "time": 0.004739046096801758, "tests_passed": true, "error": null}
+{"code": " pd.Series(country_gdp, name='GDP')", "compilation_passed": true, "time": 0.006002902984619141, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(country_gdp, orient='index')", "compilation_passed": true, "time": 0.007253885269165039, "tests_passed": false, "error": "KeyError"}

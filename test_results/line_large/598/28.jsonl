@@ -1,0 +1,20 @@
+{"code": " f\"^{letter}\"", "compilation_passed": true, "time": 0.0055828094482421875, "tests_passed": true, "error": null}
+{"code": " '^' + letter", "compilation_passed": true, "time": 0.005387067794799805, "tests_passed": true, "error": null}
+{"code": " r'^{}\\w+'.format(letter)", "compilation_passed": true, "time": 0.006352901458740234, "tests_passed": true, "error": null}
+{"code": " '^{}'.format(letter)", "compilation_passed": true, "time": 0.0055389404296875, "tests_passed": true, "error": null}
+{"code": " r'^' + letter", "compilation_passed": true, "time": 0.0056340694427490234, "tests_passed": true, "error": null}
+{"code": " f'^[{letter}]'", "compilation_passed": true, "time": 0.0057909488677978516, "tests_passed": true, "error": null}
+{"code": " f\"^{letter}.*\"", "compilation_passed": true, "time": 0.00583195686340332, "tests_passed": true, "error": null}
+{"code": " r'^' + letter + r'\\w*'", "compilation_passed": true, "time": 0.00616908073425293, "tests_passed": true, "error": null}
+{"code": " r\"^\\b\" + letter + r\"\\w*\\b\"", "compilation_passed": true, "time": 0.005989789962768555, "tests_passed": true, "error": null}
+{"code": " f'^{letter}'", "compilation_passed": true, "time": 0.007009029388427734, "tests_passed": true, "error": null}
+{"code": " r'^' + letter + '[A-Za-z\\u0080-\\u02FF]*'", "compilation_passed": true, "time": 0.00815582275390625, "tests_passed": true, "error": null}
+{"code": " r\"^\" + letter  # match the first letter only", "compilation_passed": true, "time": 0.006295204162597656, "tests_passed": true, "error": null}
+{"code": " \"^\" + letter + \".*\"", "compilation_passed": true, "time": 0.0066149234771728516, "tests_passed": true, "error": null}
+{"code": " f\"^{letter}\"  # letter followed by any number of characters", "compilation_passed": true, "time": 0.006471157073974609, "tests_passed": true, "error": null}
+{"code": " r\"^{}\\w+\".format(letter)", "compilation_passed": true, "time": 0.005745887756347656, "tests_passed": true, "error": null}
+{"code": " '^{0}'.format(letter)", "compilation_passed": true, "time": 0.005643129348754883, "tests_passed": true, "error": null}
+{"code": " '^'+letter", "compilation_passed": true, "time": 0.0056819915771484375, "tests_passed": true, "error": null}
+{"code": " r'^' + letter + r'[\\w\\s]*'", "compilation_passed": true, "time": 0.006000995635986328, "tests_passed": true, "error": null}
+{"code": " fr'^[{letter}][A-Za-z]+$'", "compilation_passed": true, "time": 0.006081104278564453, "tests_passed": true, "error": null}
+{"code": " r'^' + letter + r'\\w+'", "compilation_passed": true, "time": 0.0058290958404541016, "tests_passed": true, "error": null}

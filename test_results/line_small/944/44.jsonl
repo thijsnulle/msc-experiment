@@ -1,0 +1,17 @@
+{"code": "set_xticklabels(prices_df['Date'])", "compilation_passed": true, "time": 0.05972480773925781, "tests_passed": false, "error": "KeyError"}
+{"code": "axvline('2016-12-31', color='black', linestyle='--')", "compilation_passed": true, "time": 0.2301480770111084, "tests_passed": true, "error": null}
+{"code": "grid(True)", "compilation_passed": true, "time": 0.22902512550354004, "tests_passed": true, "error": null}
+{"code": "grid()", "compilation_passed": true, "time": 0.23070430755615234, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(date_range, rotation=30, ha='right', fontsize=8)", "compilation_passed": true, "time": 0.22686171531677246, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(date_range, rotation=45)", "compilation_passed": true, "time": 0.23463821411132812, "tests_passed": true, "error": null}
+{"code": "xaxis.set_major_locator(plt.MultipleLocator(plt.YearLocator()))", "compilation_passed": true, "time": 0.050649166107177734, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_xticks(prices_df.index.date.values)", "compilation_passed": true, "time": 0.04542708396911621, "tests_passed": false, "error": "AttributeError"}
+{"code": "autoscale(axis='x')", "compilation_passed": true, "time": 0.23087024688720703, "tests_passed": true, "error": null}
+{"code": "tick_params(axis='x', rotation=30)", "compilation_passed": true, "time": 0.24458694458007812, "tests_passed": true, "error": null}
+{"code": "legend(['Price'])", "compilation_passed": true, "time": 0.2465968132019043, "tests_passed": true, "error": null}
+{"code": "set_xlim(xmin=date_range[0], xmax=date_range[-1])", "compilation_passed": true, "time": 0.24443793296813965, "tests_passed": true, "error": null}
+{"code": "axvline('2017-12-31', color='gray', linestyle='--', linewidth=0.5)", "compilation_passed": true, "time": 0.24416685104370117, "tests_passed": true, "error": null}
+{"code": "xaxis.set_major_locator(mdates.DayLocator())", "compilation_passed": true, "time": 0.049950361251831055, "tests_passed": false, "error": "NameError"}
+{"code": "tick_params(axis='y', labelcolor='orange')", "compilation_passed": true, "time": 0.24875521659851074, "tests_passed": true, "error": null}
+{"code": "set_xt_freq('M')", "compilation_passed": true, "time": 0.04993724822998047, "tests_passed": false, "error": "AttributeError"}
+{"code": "xaxis.set_major_formatter(matplotlib.dates.AutoDateFormatter(matplotlib.dates.DayLocator(bymonth=True)))", "compilation_passed": true, "time": 0.05366778373718262, "tests_passed": false, "error": "NameError"}

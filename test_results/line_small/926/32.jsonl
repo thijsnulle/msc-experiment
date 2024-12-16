@@ -1,0 +1,15 @@
+{"code": " df[column_name].apply(lambda x: str(x).replace('\\n', '<br />'))", "compilation_passed": false, "time": 0.00023889541625976562, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].replace(\"\\n\", \"<br />\")", "compilation_passed": false, "time": 0.0001819133758544922, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].apply(lambda x: x.replace('\\n', '<br />'))", "compilation_passed": false, "time": 0.0001888275146484375, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].str.replace('\\n', '<br />')", "compilation_passed": false, "time": 0.0001800060272216797, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].apply(lambda s: s.replace('\\n', '<br />'))", "compilation_passed": false, "time": 0.0001862049102783203, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].map(lambda x: x.replace('\\n', '<br />'))", "compilation_passed": false, "time": 0.00022602081298828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].apply(lambda x: x.replace(\"\\n\", \"<br />\"))", "compilation_passed": false, "time": 0.00034499168395996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].apply(", "compilation_passed": false, "time": 0.0001518726348876953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[column_name].replace('\\n', '<br />')", "compilation_passed": false, "time": 0.00018715858459472656, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].astype(str)", "compilation_passed": false, "time": 0.00018405914306640625, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].str.replace(r\"\\n\", \"<br />\")", "compilation_passed": false, "time": 0.0001862049102783203, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].astype('str')", "compilation_passed": false, "time": 0.00018095970153808594, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].str.replace(\"\\n\", \"<br />\")", "compilation_passed": false, "time": 0.00018525123596191406, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].replace(r\"\\n\", r\"<br />\")", "compilation_passed": false, "time": 0.0001850128173828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[column_name].str.replace(r'\\n', '<br />')", "compilation_passed": false, "time": 0.000186920166015625, "tests_passed": false, "error": "IndentationError"}

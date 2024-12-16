@@ -1,0 +1,4 @@
+{"code": " group1[~np.isnan(group1)]", "compilation_passed": true, "time": 0.27164125442504883, "tests_passed": true, "error": null}
+{"code": " ~np.isnan(group1)", "compilation_passed": true, "time": 0.017521142959594727, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(group1[~np.isnan(group1)])", "compilation_passed": true, "time": 0.30867505073547363, "tests_passed": true, "error": null}
+{"code": " np.delete(group1, np.where(np.isnan(group1)))", "compilation_passed": true, "time": 0.2042999267578125, "tests_passed": true, "error": null}

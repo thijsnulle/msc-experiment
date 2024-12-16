@@ -1,0 +1,23 @@
+{"code": " report_df[\"Count\"].plot(kind=\"barh\", figsize=(10, 7), title=\"Grading System\", xlabel=\"Number of Students\")", "compilation_passed": true, "time": 0.12194204330444336, "tests_passed": true, "error": null}
+{"code": " report_df.plot(", "compilation_passed": false, "time": 0.00036907196044921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " report_df.plot.bar(rot=0, title=\"Grade Distribution\", figsize=(6, 4), color=\"b\")", "compilation_passed": true, "time": 0.7764689922332764, "tests_passed": true, "error": null}
+{"code": " report_df.plot.bar(title=\"Grade Distribution\", ylabel=\"Number of Students\", figsize=(10, 6))", "compilation_passed": true, "time": 0.7914261817932129, "tests_passed": true, "error": null}
+{"code": " report_df.plot(kind=\"barh\", figsize=(4, 4), ylabel=\"Number of Students\", title=\"Grade Distribution\")", "compilation_passed": true, "time": 0.708733081817627, "tests_passed": true, "error": null}
+{"code": " report_df[\"Count\"].plot(kind=\"bar\", rot=0, title=\"Grade Distribution\")", "compilation_passed": true, "time": 0.8295021057128906, "tests_passed": true, "error": null}
+{"code": " report_df.plot(kind=\"bar\", title=\"Grade Distribution\")", "compilation_passed": true, "time": 1.0370378494262695, "tests_passed": false, "error": "TimeoutError"}
+{"code": " report_df.plot.bar(", "compilation_passed": false, "time": 0.00038504600524902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " report_df.plot.bar(rot=0, title=\"Grade Distribution\", ylabel=\"Number of Students\", xlabel=\"Grade\")", "compilation_passed": true, "time": 0.5361709594726562, "tests_passed": true, "error": null}
+{"code": " report_df[\"Count\"].plot.bar(title=\"Grade Distribution\", xlabel=\"Grade\", ylabel=\"Count\", figsize=(5, 4))", "compilation_passed": true, "time": 0.49681687355041504, "tests_passed": true, "error": null}
+{"code": " report_df.plot.bar(rot=0, figsize=(6, 5), title=\"Grade Distribution\")", "compilation_passed": true, "time": 0.47360706329345703, "tests_passed": true, "error": null}
+{"code": " report_df.plot.bar(title=\"Grade Distribution\", xlabel=\"Grade\", ylabel=\"Number of Students\")", "compilation_passed": true, "time": 0.5161881446838379, "tests_passed": true, "error": null}
+{"code": " report_df.plot.bar(title=\"Grade Distribution\", figsize=(8, 6))", "compilation_passed": true, "time": 0.5038278102874756, "tests_passed": true, "error": null}
+{"code": " report_df.plot.bar(title=\"Grade Distribution\", ylabel=\"Number of Students\")", "compilation_passed": true, "time": 0.47959399223327637, "tests_passed": true, "error": null}
+{"code": " report_df.plot(kind=\"bar\", title=\"Grade Distribution\", rot=0, ylabel=\"Number of Students\")", "compilation_passed": true, "time": 0.6126551628112793, "tests_passed": true, "error": null}
+{"code": " report_df.plot.bar(x=report_df.index, rot=0, figsize=(7, 5), title=\"Grade Distribution\")", "compilation_passed": true, "time": 0.01079416275024414, "tests_passed": false, "error": "KeyError"}
+{"code": " report_df.plot.bar(rot=0, title=\"Grade Distribution\", xlabel=\"Grade\", ylabel=\"Number of Students\")", "compilation_passed": true, "time": 0.7535660266876221, "tests_passed": true, "error": null}
+{"code": " report_df.plot.bar(figsize=(10, 6), rot=0, title=\"Grade Distribution\")", "compilation_passed": true, "time": 0.5959839820861816, "tests_passed": true, "error": null}
+{"code": " report_df[\"Count\"].plot(kind=\"bar\", figsize=(5, 3), rot=0, title=\"Grade Distribution\")", "compilation_passed": true, "time": 0.531965970993042, "tests_passed": true, "error": null}
+{"code": " report_df.plot.bar(rot=0, figsize=(6, 4), title=\"Grade Distribution\", xlabel=\"Grade\", ylabel=\"Number of Students\")", "compilation_passed": true, "time": 0.6752529144287109, "tests_passed": true, "error": null}
+{"code": " report_df.plot(kind=\"bar\", y=\"Count\", legend=False, title=\"Grade Distribution\")", "compilation_passed": true, "time": 1.735163927078247, "tests_passed": true, "error": null}
+{"code": " report_df.plot(kind=\"bar\", title=\"Grade Distribution\", ylabel=\"Number of Students\")", "compilation_passed": true, "time": 0.462993860244751, "tests_passed": true, "error": null}
+{"code": " report_df.plot.barh(title=\"Grade Distribution\", xlabel=\"Grade\", ylabel=\"Number of Students\")", "compilation_passed": true, "time": 0.4702451229095459, "tests_passed": true, "error": null}

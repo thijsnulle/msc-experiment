@@ -1,0 +1,17 @@
+{"code": " word_dict.values()", "compilation_passed": true, "time": 0.009968996047973633, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*word_dict.values()))", "compilation_passed": true, "time": 0.008126974105834961, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.004803657531738281, "tests_passed": true, "error": null}
+{"code": " itertools.chain.from_iterable(word_dict.values())", "compilation_passed": true, "time": 0.005300998687744141, "tests_passed": true, "error": null}
+{"code": " set(itertools.chain.from_iterable(word_dict.values()))", "compilation_passed": true, "time": 0.00656580924987793, "tests_passed": true, "error": null}
+{"code": " ''.join(itertools.chain(word_dict.values()))", "compilation_passed": true, "time": 0.005079030990600586, "tests_passed": true, "error": null}
+{"code": " [value for word, values in word_dict.items() for value in values]", "compilation_passed": true, "time": 0.004929065704345703, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(word_dict.values()))", "compilation_passed": true, "time": 0.00613713264465332, "tests_passed": true, "error": null}
+{"code": " Counter()", "compilation_passed": true, "time": 0.009364128112792969, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(list(word_dict.values())))", "compilation_passed": true, "time": 0.009654998779296875, "tests_passed": true, "error": null}
+{"code": " [letter for word in word_dict.values() for letter in word]", "compilation_passed": true, "time": 0.009555816650390625, "tests_passed": true, "error": null}
+{"code": " ''.join(word_dict.values())", "compilation_passed": true, "time": 0.008470773696899414, "tests_passed": true, "error": null}
+{"code": " Counter(''.join(word_dict.values()))", "compilation_passed": true, "time": 0.009959936141967773, "tests_passed": true, "error": null}
+{"code": " \"\".join(list(itertools.chain.from_iterable(word_dict.values())))", "compilation_passed": true, "time": 0.007464885711669922, "tests_passed": true, "error": null}
+{"code": " itertools.chain(*word_dict.values())", "compilation_passed": true, "time": 0.0059490203857421875, "tests_passed": true, "error": null}
+{"code": " [char for word in word_dict for char in word_dict[word]]", "compilation_passed": true, "time": 0.004730939865112305, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*word_dict.values()))  # Flatten the list of letters", "compilation_passed": true, "time": 0.0051310062408447266, "tests_passed": true, "error": null}

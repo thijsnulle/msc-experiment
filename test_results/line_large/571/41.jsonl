@@ -1,0 +1,12 @@
+{"code": " not os.path.exists(os.path.dirname(file_path)):", "compilation_passed": true, "time": 0.020982027053833008, "tests_passed": false, "error": "TypeError"}
+{"code": " not file_path or not file_path.strip():", "compilation_passed": true, "time": 0.01693105697631836, "tests_passed": false, "error": "AttributeError"}
+{"code": " not isinstance(file_path, str):", "compilation_passed": true, "time": 0.020348787307739258, "tests_passed": true, "error": null}
+{"code": " not file_path or not isinstance(file_path, str):", "compilation_passed": true, "time": 0.020412206649780273, "tests_passed": true, "error": null}
+{"code": " not file_path:", "compilation_passed": true, "time": 0.020899057388305664, "tests_passed": true, "error": null}
+{"code": " not os.path.isfile(file_path):", "compilation_passed": true, "time": 0.014398336410522461, "tests_passed": false, "error": "ValueError"}
+{"code": " not os.path.isabs(file_path):", "compilation_passed": true, "time": 0.01620030403137207, "tests_passed": false, "error": "TypeError"}
+{"code": " not os.path.isdir(os.path.dirname(file_path)):", "compilation_passed": true, "time": 0.016956090927124023, "tests_passed": false, "error": "TypeError"}
+{"code": " not os.path.exists(file_path):", "compilation_passed": true, "time": 0.017186880111694336, "tests_passed": false, "error": "ValueError"}
+{"code": " not os.path.exists(file_path) or not os.path.isfile(file_path):", "compilation_passed": true, "time": 0.017042875289916992, "tests_passed": false, "error": "ValueError"}
+{"code": " not os.access(os.path.dirname(file_path), os.W_OK):", "compilation_passed": true, "time": 0.017094850540161133, "tests_passed": false, "error": "TypeError"}
+{"code": " not file_path or not os.path.exists(os.path.dirname(file_path)):", "compilation_passed": true, "time": 0.01234292984008789, "tests_passed": false, "error": "TypeError"}

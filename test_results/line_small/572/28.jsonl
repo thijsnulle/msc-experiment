@@ -1,0 +1,18 @@
+{"code": "plot(max_values)", "compilation_passed": true, "time": 0.22840499877929688, "tests_passed": true, "error": null}
+{"code": "plot(range(1, array_length + 1), max_values)", "compilation_passed": true, "time": 0.22913098335266113, "tests_passed": true, "error": null}
+{"code": "plot(range(1, array_length+1), max_values)", "compilation_passed": true, "time": 0.22287416458129883, "tests_passed": true, "error": null}
+{"code": "plot(array1, 'r-', array2, 'g-', max_values, 'b--')", "compilation_passed": true, "time": 0.2407231330871582, "tests_passed": true, "error": null}
+{"code": "plot(max_values, max_values)", "compilation_passed": true, "time": 0.23189997673034668, "tests_passed": true, "error": null}
+{"code": "plot(max_values, label=\"Maximum Values\")", "compilation_passed": true, "time": 0.25929808616638184, "tests_passed": true, "error": null}
+{"code": "scatter(range(array_length), array1, label='First array', c='g')", "compilation_passed": true, "time": 0.058417320251464844, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(max_values, 'o-')", "compilation_passed": true, "time": 0.2590939998626709, "tests_passed": true, "error": null}
+{"code": "plot(array1, marker='o', linestyle='None', color='green')", "compilation_passed": true, "time": 0.2814810276031494, "tests_passed": true, "error": null}
+{"code": "plot(array1, array2, label='array 1', marker='o')", "compilation_passed": true, "time": 4.443642854690552, "tests_passed": false, "error": "TimeoutError"}
+{"code": "plot(array1, 'r', array2, 'g')", "compilation_passed": true, "time": 0.26992106437683105, "tests_passed": true, "error": null}
+{"code": "plot(max_values, linewidth=4)", "compilation_passed": true, "time": 0.271104097366333, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(array_length), array1, width=0.4,", "compilation_passed": false, "time": 0.00020122528076171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "bar(array1, array1)", "compilation_passed": true, "time": 0.07664775848388672, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(array1, array2, linewidth=5)", "compilation_passed": true, "time": 0.26146411895751953, "tests_passed": true, "error": null}
+{"code": "plot(array1, array2, max_values)", "compilation_passed": true, "time": 0.2566232681274414, "tests_passed": true, "error": null}
+{"code": "plot(array1, '-r', label='array1', marker='x')", "compilation_passed": true, "time": 0.25616908073425293, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(len(max_values)), max_values, align='center')", "compilation_passed": true, "time": 0.07542991638183594, "tests_passed": false, "error": "IndexError"}

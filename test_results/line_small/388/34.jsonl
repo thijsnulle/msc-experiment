@@ -1,0 +1,4 @@
+{"code": "update(df[column].value_counts())", "compilation_passed": true, "time": 0.012284040451049805, "tests_passed": true, "error": null}
+{"code": "update(df[column])", "compilation_passed": true, "time": 0.0059719085693359375, "tests_passed": true, "error": null}
+{"code": "update(df[column].dropna().astype(str))", "compilation_passed": true, "time": 0.00521087646484375, "tests_passed": true, "error": null}
+{"code": "update(df[column].unique())", "compilation_passed": true, "time": 0.008814811706542969, "tests_passed": true, "error": null}

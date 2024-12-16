@@ -1,0 +1,4 @@
+{"code": " adfuller(filtered_df[column_a])", "compilation_passed": true, "time": 0.010754108428955078, "tests_passed": true, "error": null}
+{"code": " adfuller(filtered_df[column_a].values)[0]", "compilation_passed": true, "time": 0.014804840087890625, "tests_passed": false, "error": "IndexError"}
+{"code": " adfuller(filtered_df[column_a].values)", "compilation_passed": true, "time": 0.01229095458984375, "tests_passed": true, "error": null}
+{"code": " adfuller(filtered_df[column_a], regression='ct')", "compilation_passed": true, "time": 0.016533851623535156, "tests_passed": true, "error": null}

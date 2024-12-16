@@ -1,0 +1,8 @@
+{"code": "plot(X, Y_pred, color='red')", "compilation_passed": true, "time": 0.19765686988830566, "tests_passed": true, "error": null}
+{"code": "plot(X, Y_pred, color=\"r\")", "compilation_passed": true, "time": 0.383526086807251, "tests_passed": true, "error": null}
+{"code": "set_xlabel(x_column)", "compilation_passed": true, "time": 0.0708620548248291, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(X, Y_pred, color=\"red\")", "compilation_passed": true, "time": 0.21036005020141602, "tests_passed": true, "error": null}
+{"code": "set_title(\"Scatter plot of column '\" + x_column + \"' against column '\" + y_column + \"'\")", "compilation_passed": true, "time": 0.06187796592712402, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(X, Y_pred, '-r')", "compilation_passed": true, "time": 0.2208237648010254, "tests_passed": true, "error": null}
+{"code": "set(xlabel=x_column, ylabel=y_column)", "compilation_passed": true, "time": 0.055394887924194336, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(X, Y_pred, color='r')", "compilation_passed": true, "time": 0.21817898750305176, "tests_passed": true, "error": null}

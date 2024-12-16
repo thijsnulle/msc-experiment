@@ -1,0 +1,5 @@
+{"code": " df[column]", "compilation_passed": true, "time": 0.02464008331298828, "tests_passed": true, "error": null}
+{"code": " df[column].astype(float)", "compilation_passed": true, "time": 0.012469053268432617, "tests_passed": true, "error": null}
+{"code": " df[column].values.astype(float)", "compilation_passed": true, "time": 0.01118612289428711, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[column].values", "compilation_passed": true, "time": 0.010753870010375977, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[column].astype(np.float64)", "compilation_passed": true, "time": 0.011336803436279297, "tests_passed": true, "error": null}

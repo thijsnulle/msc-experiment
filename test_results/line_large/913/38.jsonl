@@ -1,0 +1,17 @@
+{"code": " mode_items, max_count", "compilation_passed": true, "time": 0.0031280517578125, "tests_passed": true, "error": null}
+{"code": " np.array(mode_items), max_count", "compilation_passed": true, "time": 0.003888845443725586, "tests_passed": true, "error": null}
+{"code": " np.array(mode_items), np.array([max_count])", "compilation_passed": true, "time": 0.0069580078125, "tests_passed": true, "error": null}
+{"code": " np.array(mode_items, dtype=object), max_count", "compilation_passed": true, "time": 0.0033369064331054688, "tests_passed": true, "error": null}
+{"code": " sorted(mode_items)", "compilation_passed": true, "time": 0.01087188720703125, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([item for item, _ in mode_items]), np.array([max_count] * len(mode_items))", "compilation_passed": true, "time": 0.014621973037719727, "tests_passed": false, "error": "ValueError"}
+{"code": " mode_items", "compilation_passed": true, "time": 0.009584188461303711, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(sorted([item[0] for item in mode_items])), max_count", "compilation_passed": true, "time": 0.006298065185546875, "tests_passed": true, "error": null}
+{"code": " mode_items, [max_count] * len(mode_items)  # Assume counts are the same for modes", "compilation_passed": true, "time": 0.0025217533111572266, "tests_passed": true, "error": null}
+{"code": " np.array(mode_items, dtype=object), np.array([max_count])", "compilation_passed": true, "time": 0.006921052932739258, "tests_passed": true, "error": null}
+{"code": " np.array([item[0] for item in sorted(mode_items)]), [max_count]", "compilation_passed": true, "time": 0.00881195068359375, "tests_passed": true, "error": null}
+{"code": " np.array(sorted(mode_items, key=lambda x: (type(x).__name__, x))), max_count", "compilation_passed": true, "time": 0.003706693649291992, "tests_passed": true, "error": null}
+{"code": " np.array(sorted(mode_items)), np.array([max_count])", "compilation_passed": true, "time": 0.006685972213745117, "tests_passed": true, "error": null}
+{"code": " np.array(sorted(mode_items)), [max_count]", "compilation_passed": true, "time": 0.005164623260498047, "tests_passed": true, "error": null}
+{"code": " np.array([item[0] for item in mode_items]), np.array([max_count])", "compilation_passed": true, "time": 0.005618095397949219, "tests_passed": true, "error": null}
+{"code": " np.sort(np.array(mode_items)), np.array([max_count])", "compilation_passed": true, "time": 0.005903959274291992, "tests_passed": true, "error": null}
+{"code": " sorted(np.array(mode_items)), max_count", "compilation_passed": true, "time": 0.0024721622467041016, "tests_passed": true, "error": null}

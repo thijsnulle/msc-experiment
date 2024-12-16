@@ -1,0 +1,11 @@
+{"code": "scatter(group_df['date'], group_df['value'], color=next(color_cycle), label=group)", "compilation_passed": true, "time": 0.15868306159973145, "tests_passed": true, "error": null}
+{"code": "scatter('date', 'value', data=group_df, label=group, color=next(color_cycle), s=100)", "compilation_passed": true, "time": 0.160689115524292, "tests_passed": true, "error": null}
+{"code": "scatter(group_df['date'], group_df['value'], c=next(color_cycle), label=group)", "compilation_passed": true, "time": 0.16292810440063477, "tests_passed": true, "error": null}
+{"code": "scatter(group_df['date'], group_df['value'],", "compilation_passed": false, "time": 0.0004699230194091797, "tests_passed": false, "error": "SyntaxError"}
+{"code": "scatter('date', 'value', data=group_df, label=group, color=next(color_cycle))", "compilation_passed": true, "time": 0.16259002685546875, "tests_passed": true, "error": null}
+{"code": "scatter(group_df['date'], group_df['value'], c=next(color_cycle), label=f\"Group {group}\")", "compilation_passed": true, "time": 0.15912389755249023, "tests_passed": true, "error": null}
+{"code": "scatter(group_df['date'], group_df['value'], label=group, color=next(color_cycle))", "compilation_passed": true, "time": 0.1827378273010254, "tests_passed": true, "error": null}
+{"code": "scatter(group_df['date'], group_df['value'], color=next(color_cycle), label=f'{group} group')", "compilation_passed": true, "time": 0.1609940528869629, "tests_passed": true, "error": null}
+{"code": "scatter('date', 'value', data=group_df, color=next(color_cycle), label=group)", "compilation_passed": true, "time": 0.1638491153717041, "tests_passed": true, "error": null}
+{"code": "scatter(group_df['date'], group_df['value'], label=group, c=next(color_cycle))", "compilation_passed": true, "time": 0.1638650894165039, "tests_passed": true, "error": null}
+{"code": "scatter(group_df['date'], group_df['value'], c=next(color_cycle), label=group, s=50, alpha=0.7)", "compilation_passed": true, "time": 0.16623210906982422, "tests_passed": true, "error": null}

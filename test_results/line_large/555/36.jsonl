@@ -1,0 +1,15 @@
+{"code": "xlabel('A')", "compilation_passed": true, "time": 0.012091875076293945, "tests_passed": true, "error": null}
+{"code": "plot(np.unique(df['A']),", "compilation_passed": false, "time": 0.00021123886108398438, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(np.unique(a), np.poly1d(np.polyfit(df['A'], df['B'], 1))(np.unique(a)), color='r')", "compilation_passed": true, "time": 0.014802932739257812, "tests_passed": true, "error": null}
+{"code": "plot(np.unique(df['A']), np.poly1d(np.polyfit(df['A'], df['B'], 1))(np.unique(df['A'])), 'r')", "compilation_passed": true, "time": 0.014505147933959961, "tests_passed": true, "error": null}
+{"code": "title(f'Pearson correlation = {correlation:.3f}')", "compilation_passed": true, "time": 0.01163029670715332, "tests_passed": true, "error": null}
+{"code": "plot(np.unique(df['A']), np.poly1d(np.polyfit(df['A'], df['B'], 1))(np.unique(df['A'])), color='red')", "compilation_passed": true, "time": 0.014539957046508789, "tests_passed": true, "error": null}
+{"code": "title('Pearson correlation coefficient = {}'.format(correlation))", "compilation_passed": true, "time": 0.012573003768920898, "tests_passed": true, "error": null}
+{"code": "plot(np.unique(df['A']), np.poly1d(np.polyfit(df['A'], df['B'], 1))(np.unique(df['A'])))", "compilation_passed": true, "time": 0.015926122665405273, "tests_passed": true, "error": null}
+{"code": "title('Scatter plot with Regression Line')", "compilation_passed": true, "time": 0.012901067733764648, "tests_passed": true, "error": null}
+{"code": "plot(np.unique(df['A']), np.poly1d(np.polyfit(df['A'], df['B'], 1))(np.unique(df['A'])), color='r')", "compilation_passed": true, "time": 0.016693830490112305, "tests_passed": true, "error": null}
+{"code": "axline(df['A'].min(), correlation * df['A'].min(), df['A'].max(), correlation * df['A'].max(), linestyle='--')", "compilation_passed": true, "time": 0.016106367111206055, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(df['A'], np.poly1d(np.polyfit(df['A'], df['B'], 1))(df['A']), 'r')", "compilation_passed": true, "time": 0.015446901321411133, "tests_passed": true, "error": null}
+{"code": "title(f'Correlation coefficient: {correlation:.2f}')", "compilation_passed": true, "time": 0.012674093246459961, "tests_passed": true, "error": null}
+{"code": "plot(np.unique(df['A']), np.poly1d(np.polyfit(df['A'], df['B'], 1))(np.unique(df['A'])), c='r')", "compilation_passed": true, "time": 0.014979839324951172, "tests_passed": true, "error": null}
+{"code": "axline(df['A'].mean(), df['B'].mean(), color='red', linewidth=1)", "compilation_passed": true, "time": 0.01713085174560547, "tests_passed": false, "error": "ValueError"}

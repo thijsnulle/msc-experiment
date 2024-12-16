@@ -1,0 +1,6 @@
+{"code": " converted_date, to_tz", "compilation_passed": true, "time": 0.011696815490722656, "tests_passed": false, "error": "TypeError"}
+{"code": " converted_date.strftime('%Y-%m-%d %H:%M:%S'), to_tz.zone", "compilation_passed": true, "time": 0.00476384162902832, "tests_passed": true, "error": null}
+{"code": " converted_date.strftime(\"%Y-%m-%d %H:%M:%S\"), to_tz.zone", "compilation_passed": true, "time": 0.004781007766723633, "tests_passed": true, "error": null}
+{"code": " str(converted_date.replace(tzinfo=None)), to_tz.zone", "compilation_passed": true, "time": 0.00478816032409668, "tests_passed": true, "error": null}
+{"code": " converted_date, to_tz.zone", "compilation_passed": true, "time": 0.01160573959350586, "tests_passed": false, "error": "TypeError"}
+{"code": " str(converted_date), converted_date.tzinfo", "compilation_passed": true, "time": 0.015270233154296875, "tests_passed": false, "error": "ValueError"}

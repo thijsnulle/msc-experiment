@@ -1,0 +1,5 @@
+{"code": " lon1 = math.radians(coord1[0]), math.radians(coord1[1])", "compilation_passed": true, "time": 0.0043261051177978516, "tests_passed": true, "error": null}
+{"code": " lon1 = coord1", "compilation_passed": true, "time": 0.010906219482421875, "tests_passed": true, "error": null}
+{"code": " lon1 = map(math.radians, coord1)", "compilation_passed": true, "time": 0.004912853240966797, "tests_passed": true, "error": null}
+{"code": " lon1 = coord1[0] * math.pi / 180, coord1[1] * math.pi / 180", "compilation_passed": true, "time": 0.0034198760986328125, "tests_passed": true, "error": null}
+{"code": " lon1 = coord1[0] * math.pi / 180.0, coord1[1] * math.pi / 180.0", "compilation_passed": true, "time": 0.003932952880859375, "tests_passed": true, "error": null}

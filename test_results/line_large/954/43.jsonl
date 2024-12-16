@@ -1,0 +1,9 @@
+{"code": " \" \".join(random.choices(vocabulary, k=10)).lower()", "compilation_passed": true, "time": 0.011414051055908203, "tests_passed": true, "error": null}
+{"code": " \" \".join([random.choice(vocabulary) for _ in range(10)]).lower()", "compilation_passed": true, "time": 0.015141963958740234, "tests_passed": true, "error": null}
+{"code": " \" \".join(random.choices(vocabulary, k=10))", "compilation_passed": true, "time": 0.011449813842773438, "tests_passed": true, "error": null}
+{"code": " ' '.join(random.choices(vocabulary, k=10)).lower()", "compilation_passed": true, "time": 0.012828826904296875, "tests_passed": true, "error": null}
+{"code": " \" \".join([random.choice(vocabulary).lower() for _ in range(10)])", "compilation_passed": true, "time": 0.014976978302001953, "tests_passed": true, "error": null}
+{"code": " \" \".join([random.choice(vocabulary) for _ in range(10)])", "compilation_passed": true, "time": 0.014209985733032227, "tests_passed": true, "error": null}
+{"code": " ' '.join(random.choices(vocabulary, k=10))", "compilation_passed": true, "time": 0.010780096054077148, "tests_passed": true, "error": null}
+{"code": " ' '.join([random.choice(vocabulary) for _ in range(10)])", "compilation_passed": true, "time": 0.01539301872253418, "tests_passed": true, "error": null}
+{"code": " ' '.join([random.choice(vocabulary).lower() for _ in range(10)])", "compilation_passed": true, "time": 0.015398025512695312, "tests_passed": true, "error": null}

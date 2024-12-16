@@ -1,0 +1,9 @@
+{"code": " sns.boxplot(data=data, x=\"X\", y=\"Y\")", "compilation_passed": true, "time": 0.3196678161621094, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x=\"X\", y=\"Y\", data=data, whis=1000)", "compilation_passed": true, "time": 0.3238339424133301, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(data=data, x=\"X\", y=\"Y\", palette=sns.color_palette(\"pastel\"))", "compilation_passed": true, "time": 0.3870971202850342, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(x=\"X\", y=\"Y\", data=data)", "compilation_passed": true, "time": 0.3235800266265869, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(data=data)", "compilation_passed": true, "time": 0.2502741813659668, "tests_passed": true, "error": null}
+{"code": " (", "compilation_passed": false, "time": 0.00029015541076660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.boxplot(x=\"X\", y=\"Y\", data=data, order=list(results.keys()))", "compilation_passed": true, "time": 0.3191359043121338, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(data=data, x=\"X\", y=\"Y\", orient=\"v\")", "compilation_passed": true, "time": 0.329146146774292, "tests_passed": true, "error": null}
+{"code": " sns.boxplot(data=data, x=\"X\", y=\"Y\", showfliers=False)", "compilation_passed": true, "time": 0.31739091873168945, "tests_passed": true, "error": null}

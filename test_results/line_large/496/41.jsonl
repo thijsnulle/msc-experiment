@@ -1,0 +1,13 @@
+{"code": " np.random.randint(15, 36, size=len(dates))", "compilation_passed": true, "time": 0.29177403450012207, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=15, high=35, size=days_in_past)", "compilation_passed": true, "time": 0.27895402908325195, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=15, high=35, size=len(dates))", "compilation_passed": true, "time": 0.2635159492492676, "tests_passed": true, "error": null}
+{"code": " np.random.randint(15, 35, size=days_in_past)", "compilation_passed": true, "time": 0.286135196685791, "tests_passed": true, "error": null}
+{"code": " np.random.randint(15, 35, len(dates), dtype=int)", "compilation_passed": true, "time": 0.30359601974487305, "tests_passed": true, "error": null}
+{"code": " [np.random.randint(15, high=35) for _ in range(days_in_past)]", "compilation_passed": true, "time": 0.29534912109375, "tests_passed": true, "error": null}
+{"code": " [np.random.randint(15, high=36) for _ in range(len(dates))]", "compilation_passed": true, "time": 0.31714415550231934, "tests_passed": true, "error": null}
+{"code": " np.random.randint(15, 35, size=len(dates))", "compilation_passed": true, "time": 0.3041048049926758, "tests_passed": true, "error": null}
+{"code": " [np.random.randint(15, 35) for _ in range(days_in_past)]", "compilation_passed": true, "time": 1.3887627124786377, "tests_passed": false, "error": "TimeoutError"}
+{"code": " [np.random.randint(15, 35) for i in range(len(dates))]", "compilation_passed": true, "time": 0.2869832515716553, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=15, high=36, size=len(dates))", "compilation_passed": true, "time": 0.28685712814331055, "tests_passed": true, "error": null}
+{"code": " np.random.randint(15, 35, len(dates))", "compilation_passed": true, "time": 0.29788804054260254, "tests_passed": true, "error": null}
+{"code": " np.random.randint(15, 35, days_in_past)", "compilation_passed": true, "time": 0.3320319652557373, "tests_passed": true, "error": null}

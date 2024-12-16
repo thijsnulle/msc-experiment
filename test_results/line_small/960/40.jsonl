@@ -1,0 +1,12 @@
+{"code": " string.ascii_lowercase[random.randint(0, len(string.ascii_lowercase) - 1)]", "compilation_passed": true, "time": 0.002866029739379883, "tests_passed": true, "error": null}
+{"code": " random.choice(string.ascii_lowercase)", "compilation_passed": true, "time": 0.0035409927368164062, "tests_passed": true, "error": null}
+{"code": " chr(random.randint(ord('a'), ord('z')))", "compilation_passed": true, "time": 0.00356292724609375, "tests_passed": true, "error": null}
+{"code": " string.ascii_lowercase[random.randrange(0, 26)]", "compilation_passed": true, "time": 0.0036919116973876953, "tests_passed": true, "error": null}
+{"code": " chr(random.randint(97, 122))", "compilation_passed": true, "time": 0.003772258758544922, "tests_passed": true, "error": null}
+{"code": " string.ascii_lowercase[random.randint(0, 25)]", "compilation_passed": true, "time": 0.003284931182861328, "tests_passed": true, "error": null}
+{"code": " random.randint(0, 1)  # 0 means lowercase, 1 means uppercase", "compilation_passed": true, "time": 0.004168987274169922, "tests_passed": false, "error": "TypeError"}
+{"code": " random.choices([\"a\", \"b\", \"c\", \"d\", \"e\", \"f\", \"g\", \"h\", \"i\", \"j\", \"k\", \"l\", \"m\", \"n\", \"o\", \"p\", \"q\", \"r\", \"s\", \"t\", \"u\", \"v\", \"w\", \"x\", \"y\", \"z\"], weights=None, k=1)[0]", "compilation_passed": true, "time": 0.002267122268676758, "tests_passed": true, "error": null}
+{"code": " chr(ord(char) + random.randint(0, 25))", "compilation_passed": true, "time": 0.003120899200439453, "tests_passed": true, "error": null}
+{"code": " chr(random.randrange(ord('a'), ord('z') + 1))", "compilation_passed": true, "time": 0.00201416015625, "tests_passed": true, "error": null}
+{"code": " random.random() < 0.5", "compilation_passed": true, "time": 0.003576040267944336, "tests_passed": false, "error": "TypeError"}
+{"code": " chr(random.randint(ord(\"a\"), ord(\"z\")))", "compilation_passed": true, "time": 0.0018291473388671875, "tests_passed": true, "error": null}

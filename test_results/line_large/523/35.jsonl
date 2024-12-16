@@ -1,0 +1,13 @@
+{"code": "figure()", "compilation_passed": true, "time": 0.08308982849121094, "tests_passed": true, "error": null}
+{"code": "title('Data over Time', fontsize=12)", "compilation_passed": true, "time": 0.08050680160522461, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df.values)", "compilation_passed": true, "time": 0.03249311447143555, "tests_passed": true, "error": null}
+{"code": "plot(df)", "compilation_passed": true, "time": 0.03252720832824707, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df.to_numpy())", "compilation_passed": true, "time": 1.3998641967773438, "tests_passed": true, "error": null}
+{"code": "title('Data over Time')", "compilation_passed": true, "time": 0.14628386497497559, "tests_passed": true, "error": null}
+{"code": "plot(df.columns, df.values.T)", "compilation_passed": true, "time": 0.03724098205566406, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df)", "compilation_passed": true, "time": 0.0373079776763916, "tests_passed": true, "error": null}
+{"code": "plot(df.columns.values, df.sum(), label=df.index)", "compilation_passed": true, "time": 0.034768104553222656, "tests_passed": true, "error": null}
+{"code": "plot(df.columns, df)", "compilation_passed": true, "time": 0.051140785217285156, "tests_passed": false, "error": "ValueError"}
+{"code": "plot('time', 'data', data=df)", "compilation_passed": true, "time": 0.031549930572509766, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(list(df.index), df.values)", "compilation_passed": true, "time": 0.034945011138916016, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(8, 5))", "compilation_passed": true, "time": 0.14581799507141113, "tests_passed": true, "error": null}

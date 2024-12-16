@@ -1,0 +1,26 @@
+{"code": " r'like|what'  # Define the pattern to search for", "compilation_passed": true, "time": 0.029916048049926758, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"what|like\"", "compilation_passed": true, "time": 0.0268251895904541, "tests_passed": false, "error": "AttributeError"}
+{"code": " '(.*like.*)|(.*what.*)'", "compilation_passed": true, "time": 0.02462911605834961, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r\"(like|what)\")", "compilation_passed": true, "time": 0.01942300796508789, "tests_passed": true, "error": null}
+{"code": " r\"\\b(?:like|what)\\b\"", "compilation_passed": true, "time": 0.030444860458374023, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'like|what')", "compilation_passed": true, "time": 0.0198209285736084, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"(like|what)\", flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.030202150344848633, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(?:like|what)\\w+')", "compilation_passed": true, "time": 0.019662141799926758, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(like|what)')", "compilation_passed": true, "time": 0.020621061325073242, "tests_passed": true, "error": null}
+{"code": " r\"like|what\"", "compilation_passed": true, "time": 0.026885271072387695, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'(like)|(what)')", "compilation_passed": true, "time": 0.01862311363220215, "tests_passed": true, "error": null}
+{"code": " re.compile(r'.*\\b(like|what)\\b.*')", "compilation_passed": true, "time": 0.01752185821533203, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(\\blike\\b|\\bwhat\\b)', re.IGNORECASE)", "compilation_passed": true, "time": 0.019650936126708984, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"what|like\")", "compilation_passed": true, "time": 0.01850104331970215, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(like|what)', re.IGNORECASE)", "compilation_passed": true, "time": 0.03371286392211914, "tests_passed": true, "error": null}
+{"code": " r\"\\b(like|what)\\b\"", "compilation_passed": true, "time": 0.027758121490478516, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r\"(like|what)\", re.IGNORECASE)", "compilation_passed": true, "time": 0.03040170669555664, "tests_passed": true, "error": null}
+{"code": " '(what)|(like)'", "compilation_passed": true, "time": 0.026391029357910156, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'\\b(what|like)\\b'", "compilation_passed": true, "time": 0.026839017868041992, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'(?:like|what)') # Regex pattern to match filenames containing either \"like\" or \"what\"", "compilation_passed": true, "time": 0.021023035049438477, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(?i)(like|what)')", "compilation_passed": true, "time": 0.031087160110473633, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"like|what\")", "compilation_passed": true, "time": 0.01929187774658203, "tests_passed": true, "error": null}
+{"code": " r'like|what'", "compilation_passed": true, "time": 0.02812504768371582, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r\"like|what\", re.IGNORECASE)", "compilation_passed": true, "time": 0.03026103973388672, "tests_passed": true, "error": null}
+{"code": " re.compile(r'like|what', re.IGNORECASE)", "compilation_passed": true, "time": 0.030238866806030273, "tests_passed": true, "error": null}
+{"code": " r'.*(like|what).*'", "compilation_passed": true, "time": 0.02666020393371582, "tests_passed": false, "error": "AttributeError"}

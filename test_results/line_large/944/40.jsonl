@@ -1,0 +1,18 @@
+{"code": "plotting.register_matplotlib_converters()", "compilation_passed": true, "time": 0.23503422737121582, "tests_passed": true, "error": null}
+{"code": "DataFrame(prices_df)", "compilation_passed": true, "time": 0.23948192596435547, "tests_passed": true, "error": null}
+{"code": "options.plotting.backend = 'matplotlib'", "compilation_passed": true, "time": 0.23691010475158691, "tests_passed": true, "error": null}
+{"code": "DataFrame(prices_df).to_csv('prices_df.csv')", "compilation_passed": true, "time": 0.2480170726776123, "tests_passed": true, "error": null}
+{"code": "DataFrame(prices_df).plot(ax=ax, color='red')", "compilation_passed": true, "time": 0.2794370651245117, "tests_passed": true, "error": null}
+{"code": "plotting.register_matplotlib_converters()  # This is needed to fix the issue with pandas plotting", "compilation_passed": true, "time": 0.24469590187072754, "tests_passed": true, "error": null}
+{"code": "set_option(\"display.max_rows\", None)", "compilation_passed": true, "time": 0.24389410018920898, "tests_passed": true, "error": null}
+{"code": "to_numeric(prices_df.index, errors='coerce')", "compilation_passed": true, "time": 0.24565410614013672, "tests_passed": true, "error": null}
+{"code": "date_range(start=start_date, periods=periods, freq=freq).strftime(\"%B %Y\")", "compilation_passed": true, "time": 0.2512047290802002, "tests_passed": true, "error": null}
+{"code": "options.plotting.backend = 'plotly'", "compilation_passed": true, "time": 0.4897956848144531, "tests_passed": false, "error": "TypeError"}
+{"code": "DataFrame({'Date': date_range, 'Price': stock_prices})", "compilation_passed": true, "time": 0.04056501388549805, "tests_passed": false, "error": "TypeError"}
+{"code": "DataFrame(prices_df.Price.describe()).transpose().plot(ax=ax, secondary_y=True, marker='o')", "compilation_passed": true, "time": 0.04188227653503418, "tests_passed": false, "error": "TypeError"}
+{"code": "concat([prices_df])", "compilation_passed": true, "time": 0.0395200252532959, "tests_passed": false, "error": "TypeError"}
+{"code": "Series(stock_prices, index=date_range).plot(ax=ax, marker='o')", "compilation_passed": true, "time": 0.04399394989013672, "tests_passed": false, "error": "TypeError"}
+{"code": "Series(stock_prices).pct_change().rolling(window=3, min_periods=3).mean().fillna(0).plot(ax=ax, color='red')", "compilation_passed": true, "time": 0.04081416130065918, "tests_passed": false, "error": "TypeError"}
+{"code": "DataFrame(prices_df.index.date)", "compilation_passed": true, "time": 0.039572954177856445, "tests_passed": false, "error": "TypeError"}
+{"code": "options.plotting.backend = \"plotly\"", "compilation_passed": true, "time": 0.03986716270446777, "tests_passed": false, "error": "TypeError"}
+{"code": "DataFrame(prices_df).to_csv('stock_prices.csv')", "compilation_passed": true, "time": 0.04038810729980469, "tests_passed": false, "error": "TypeError"}

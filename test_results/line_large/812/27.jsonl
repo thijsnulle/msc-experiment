@@ -1,0 +1,30 @@
+{"code": " Path(f\"{directory}\\\\acrotray.tar\")", "compilation_passed": true, "time": 0.02375507354736328, "tests_passed": true, "error": null}
+{"code": " Path(directory) / 'archived.tar'", "compilation_passed": true, "time": 0.023894786834716797, "tests_passed": true, "error": null}
+{"code": " Path(directory + 'archive.tar.gz')", "compilation_passed": true, "time": 0.02204108238220215, "tests_passed": true, "error": null}
+{"code": " Path(directory, 'archive_files.tar')", "compilation_passed": true, "time": 0.023295879364013672, "tests_passed": true, "error": null}
+{"code": " Path(Path.home() / f\"f_680_tar_{int(time.time())}.tar\")", "compilation_passed": true, "time": 0.011672258377075195, "tests_passed": false, "error": "NameError"}
+{"code": " Path(__file__).parent / \"acrobat.tar\"  # Path to the created tar file", "compilation_passed": true, "time": 0.011394739151000977, "tests_passed": false, "error": "NameError"}
+{"code": " Path(directory) / 'archive.tar'", "compilation_passed": true, "time": 0.021908998489379883, "tests_passed": true, "error": null}
+{"code": " f'{Path(directory).parent}\\\\{Path(directory).parent.name}.tar'", "compilation_passed": true, "time": 0.021378040313720703, "tests_passed": true, "error": null}
+{"code": " Path(f\"{DIRECTORY}files.tar\")", "compilation_passed": true, "time": 0.02179884910583496, "tests_passed": true, "error": null}
+{"code": " Path(str(Path.home()) + \"\\\\AppData\\\\Local\\\\Temp\\\\TempTar.tar\")", "compilation_passed": true, "time": 0.010598182678222656, "tests_passed": false, "error": "PermissionError"}
+{"code": " Path(directory, \"acrobat_tray_files.tar\")", "compilation_passed": true, "time": 0.022521257400512695, "tests_passed": true, "error": null}
+{"code": " Path.home() / '.cache' / 'my_program' / 'my_tar_file.tar'", "compilation_passed": true, "time": 0.01070713996887207, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " Path(directory).parent / \"Distillr_AcroTray.tar\"", "compilation_passed": true, "time": 0.022557973861694336, "tests_passed": true, "error": null}
+{"code": " Path(__file__).parent / \"acrobat_distiller_680.tar\"", "compilation_passed": true, "time": 0.010345935821533203, "tests_passed": false, "error": "NameError"}
+{"code": " None", "compilation_passed": true, "time": 0.010653018951416016, "tests_passed": false, "error": "ValueError"}
+{"code": " f\"{directory}archive.tar\"", "compilation_passed": true, "time": 0.020948171615600586, "tests_passed": true, "error": null}
+{"code": " Path(directory)", "compilation_passed": true, "time": 0.010696887969970703, "tests_passed": false, "error": "IsADirectoryError"}
+{"code": " Path(r\"C:\\\\SomeDir\\\\\") / \"distillr_tray.tar\"", "compilation_passed": true, "time": 0.010453939437866211, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " Path(f\"{str(directory.rstrip('\\\\'))}\\\\{Path(Path(__file__).name).stem}.tar\")", "compilation_passed": false, "time": 0.0001163482666015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Path(directory, \"archive.tar\")", "compilation_passed": true, "time": 0.021795034408569336, "tests_passed": true, "error": null}
+{"code": " Path(r\"C:\\\\SomeDir\\\\archive.tar\")", "compilation_passed": true, "time": 0.021743059158325195, "tests_passed": true, "error": null}
+{"code": " str(Path(directory, 'acrotray_files.tar'))", "compilation_passed": true, "time": 0.02162480354309082, "tests_passed": true, "error": null}
+{"code": " Path() / \"acrobat.tar\"", "compilation_passed": true, "time": 0.023217201232910156, "tests_passed": true, "error": null}
+{"code": " Path(str(Path(directory) / Path(f\"_output_{datetime.now()}.tar\")).replace(\" \", \"_\"))", "compilation_passed": true, "time": 0.01248478889465332, "tests_passed": false, "error": "NameError"}
+{"code": " Path(Path(directory) / 'task_func.tar.gz')", "compilation_passed": true, "time": 0.0226438045501709, "tests_passed": true, "error": null}
+{"code": " f\"{directory}acrortray_archive.tar\"", "compilation_passed": true, "time": 0.021855831146240234, "tests_passed": true, "error": null}
+{"code": " Path(directory) / \"files.tar\"", "compilation_passed": true, "time": 0.02135777473449707, "tests_passed": true, "error": null}
+{"code": " Path(directory).resolve() / \"archive.tar.gz\"", "compilation_passed": true, "time": 0.021793127059936523, "tests_passed": true, "error": null}
+{"code": " Path(r\"C:\\Users\\Admin\\Downloads\\distillr.tar.gz\")", "compilation_passed": true, "time": 0.02198338508605957, "tests_passed": true, "error": null}
+{"code": " \"C:/\" + \"_\".join([Path(directory).parts[-1]] + [\"distilled.tar\"])", "compilation_passed": true, "time": 0.010629892349243164, "tests_passed": false, "error": "FileNotFoundError"}

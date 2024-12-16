@@ -1,0 +1,13 @@
+{"code": " [random.choice(WORDS_POOL) for _ in range(sentence_length // 2)]", "compilation_passed": true, "time": 0.0015807151794433594, "tests_passed": true, "error": null}
+{"code": " random.sample(WORDS_POOL, sentence_length)", "compilation_passed": true, "time": 0.008718252182006836, "tests_passed": false, "error": "ValueError"}
+{"code": " random.choices(WORDS_POOL, k=sentence_length)", "compilation_passed": true, "time": 0.0016007423400878906, "tests_passed": true, "error": null}
+{"code": " np.random.choice(WORDS_POOL, size=sentence_length, replace=False).tolist()", "compilation_passed": true, "time": 0.011943817138671875, "tests_passed": false, "error": "ValueError"}
+{"code": " random.sample(WORDS_POOL, sentence_length // 2)", "compilation_passed": true, "time": 0.0014216899871826172, "tests_passed": true, "error": null}
+{"code": " random.sample(WORDS_POOL, k=sentence_length // 2)", "compilation_passed": true, "time": 0.0017311573028564453, "tests_passed": true, "error": null}
+{"code": " np.random.choice(WORDS_POOL, sentence_length)", "compilation_passed": true, "time": 0.005410909652709961, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " []", "compilation_passed": true, "time": 0.0038869380950927734, "tests_passed": true, "error": null}
+{"code": " [random.choice(WORDS_POOL) for _ in range(sentence_length)]", "compilation_passed": true, "time": 0.0016400814056396484, "tests_passed": true, "error": null}
+{"code": " np.random.choice(WORDS_POOL, sentence_length, replace=False)", "compilation_passed": true, "time": 0.0055081844329833984, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " random.choices(WORDS_POOL, k=sentence_length // 2)", "compilation_passed": true, "time": 0.0017480850219726562, "tests_passed": true, "error": null}
+{"code": " \"\"", "compilation_passed": true, "time": 0.005910158157348633, "tests_passed": false, "error": "TypeError"}
+{"code": " np.random.choice(WORDS_POOL, size=sentence_length)", "compilation_passed": true, "time": 0.005769014358520508, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}

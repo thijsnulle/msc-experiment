@@ -1,0 +1,10 @@
+{"code": " raw_df.values[1::2, -1]", "compilation_passed": true, "time": 1.02105712890625, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[1::2, 2:].reshape(-1)", "compilation_passed": true, "time": 1.009855031967163, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[1::2, 2:].flatten()", "compilation_passed": true, "time": 1.014035940170288, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[1::2, 2]", "compilation_passed": true, "time": 1.010127067565918, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[1::2, 2].astype(np.float32)", "compilation_passed": true, "time": 1.0120251178741455, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[1::2, 2:]", "compilation_passed": true, "time": 1.0110909938812256, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values[1::2, 2]])", "compilation_passed": true, "time": 1.0148210525512695, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[1::2, 2].flatten()", "compilation_passed": true, "time": 1.0098729133605957, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[1::2, -2:].ravel()", "compilation_passed": true, "time": 1.0092120170593262, "tests_passed": false, "error": "ValueError"}
+{"code": " raw_df.values[1::2, 2].astype(float)", "compilation_passed": true, "time": 1.0115880966186523, "tests_passed": false, "error": "ValueError"}

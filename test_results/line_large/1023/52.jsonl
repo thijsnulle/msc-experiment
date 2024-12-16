@@ -1,0 +1,18 @@
+{"code": "title(f\"Scatter plot of {column_x} and {column_y}\")", "compilation_passed": true, "time": 0.1772158145904541, "tests_passed": true, "error": null}
+{"code": "title(f\"Scatter Plot for {column_x} and {column_y}\")  # Setting the title", "compilation_passed": true, "time": 0.17015814781188965, "tests_passed": true, "error": null}
+{"code": "title(f\"Scatter plot of '{column_x}' and '{column_y}'\")  # Adding a title", "compilation_passed": true, "time": 0.17661070823669434, "tests_passed": true, "error": null}
+{"code": "xlabel(column_x)", "compilation_passed": true, "time": 0.17855000495910645, "tests_passed": true, "error": null}
+{"code": "scatter(dataframe[column_x], dataframe[column_y])", "compilation_passed": true, "time": 0.1791858673095703, "tests_passed": true, "error": null}
+{"code": "scatter(dataframe[column_x], dataframe[column_y], color='purple', alpha=0.5, s=30)", "compilation_passed": true, "time": 0.17565178871154785, "tests_passed": true, "error": null}
+{"code": "title(f\"Scatter plot of '{column_x}' and '{column_y}'\")", "compilation_passed": true, "time": 0.17345404624938965, "tests_passed": true, "error": null}
+{"code": "title(f\"Scatter Plot for {column_x} and {column_y}\")", "compilation_passed": true, "time": 0.05133795738220215, "tests_passed": true, "error": null}
+{"code": "rcParams[\"font.size\"] = 12  # Setting the font size", "compilation_passed": true, "time": 0.05280280113220215, "tests_passed": true, "error": null}
+{"code": "scatter(dataframe[column_x], dataframe[column_y], marker='o')  # Scatter plot", "compilation_passed": true, "time": 0.05626106262207031, "tests_passed": true, "error": null}
+{"code": "scatter(dataframe[column_x], dataframe[column_y], c='blue')  # Scatter plot", "compilation_passed": true, "time": 0.05531907081604004, "tests_passed": true, "error": null}
+{"code": "title(", "compilation_passed": false, "time": 0.00033473968505859375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "scatter(dataframe[column_x], dataframe[column_y], marker='o', alpha=0.8)  # Scatter plot with opacity", "compilation_passed": true, "time": 0.056815147399902344, "tests_passed": true, "error": null}
+{"code": "scatter(dataframe[column_x], dataframe[column_y], alpha=0.8)", "compilation_passed": true, "time": 0.05558609962463379, "tests_passed": true, "error": null}
+{"code": "scatter(dataframe[column_x], dataframe[column_y], alpha=0.6)", "compilation_passed": true, "time": 0.056345224380493164, "tests_passed": true, "error": null}
+{"code": "rcParams.update({\"font.size\": 12})  # Setting font size", "compilation_passed": true, "time": 0.05110025405883789, "tests_passed": true, "error": null}
+{"code": "scatter(dataframe[column_x], dataframe[column_y], alpha=0.5)", "compilation_passed": true, "time": 0.05494999885559082, "tests_passed": true, "error": null}
+{"code": "scatter(dataframe[column_x], dataframe[column_y], alpha=0.5, color='purple')", "compilation_passed": true, "time": 0.056442975997924805, "tests_passed": true, "error": null}

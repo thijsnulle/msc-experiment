@@ -1,0 +1,23 @@
+{"code": "set_title('Histogram of Values')  # Set title", "compilation_passed": true, "time": 0.21487784385681152, "tests_passed": true, "error": null}
+{"code": "hist(df['Values'], bins=np.arange(data.min(), data.max()+2) - 0.5)", "compilation_passed": true, "time": 0.06676697731018066, "tests_passed": false, "error": "AttributeError"}
+{"code": "hist(df.Values, bins=np.arange(min(data), max(data)+2) - 0.5)", "compilation_passed": true, "time": 0.38174009323120117, "tests_passed": true, "error": null}
+{"code": "hist(df['Values'], bins=np.arange(data.min(), data.max() + 2) - 0.5)", "compilation_passed": true, "time": 0.035063743591308594, "tests_passed": false, "error": "AttributeError"}
+{"code": "hist('Values', data=df, bins=np.arange(df.min(), df.max()+2) - 0.5)  # Subtract 0.5 to center bins", "compilation_passed": true, "time": 0.04482316970825195, "tests_passed": false, "error": "ValueError"}
+{"code": "set_title('Histogram of Values')", "compilation_passed": true, "time": 0.14621806144714355, "tests_passed": true, "error": null}
+{"code": "hist('Values', data=df, bins=np.arange(min(data), max(data)+2) - 0.5)", "compilation_passed": true, "time": 0.29912805557250977, "tests_passed": true, "error": null}
+{"code": "set_title('Histogram of Values', fontsize=16)", "compilation_passed": true, "time": 0.1543288230895996, "tests_passed": true, "error": null}
+{"code": "set_title('Histogram of Values', fontsize=18)", "compilation_passed": true, "time": 0.16339898109436035, "tests_passed": true, "error": null}
+{"code": "hist(df['Values'], bins=np.arange(min(data), max(data)+2) - 0.5)", "compilation_passed": true, "time": 0.25568675994873047, "tests_passed": true, "error": null}
+{"code": "hist(df['Values'], bins=np.arange(min(df['Values']), max(df['Values'])+2) - 0.5)", "compilation_passed": true, "time": 0.26850199699401855, "tests_passed": true, "error": null}
+{"code": "hist(df['Values'], bins=np.arange(df['Values'].min(), df['Values'].max() + 2) - 0.5)  # Subtract 0.5 from the upper limit of the last bin to match the bin edges", "compilation_passed": true, "time": 0.26844191551208496, "tests_passed": true, "error": null}
+{"code": "hist('Values', data=df, bins=np.arange(min(data), max(data)+2) - 0.5)  # Add 2 to max value for the last bin", "compilation_passed": true, "time": 0.264585018157959, "tests_passed": true, "error": null}
+{"code": "set_xlim(df.min().min(), df.max().max())", "compilation_passed": true, "time": 0.1582179069519043, "tests_passed": true, "error": null}
+{"code": "hist(", "compilation_passed": false, "time": 0.00021195411682128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "hist(df['Values'], bins=np.arange(np.min(df['Values']), np.max(df['Values'])+2) - 0.5,", "compilation_passed": false, "time": 0.0003192424774169922, "tests_passed": false, "error": "SyntaxError"}
+{"code": "hist('Values', data=df, bins=np.arange(df['Values'].min(), df['Values'].max()+2) - 0.5)", "compilation_passed": true, "time": 0.264941930770874, "tests_passed": true, "error": null}
+{"code": "hist(df.Values, bins=np.arange(df.Values.min(), df.Values.max() + 2) - 0.5)", "compilation_passed": true, "time": 0.26467204093933105, "tests_passed": true, "error": null}
+{"code": "hist(df['Values'], bins=np.arange(min(data), max(data) + 2) - 0.5)", "compilation_passed": true, "time": 0.26740288734436035, "tests_passed": true, "error": null}
+{"code": "hist('Values', data=df, bins=np.arange(np.min(df), np.max(df)+2) - 0.5)", "compilation_passed": true, "time": 0.27114319801330566, "tests_passed": true, "error": null}
+{"code": "hist(df.Values, bins=np.arange(df.Values.min(), df.Values.max()+2) - 0.5)", "compilation_passed": true, "time": 0.27401280403137207, "tests_passed": true, "error": null}
+{"code": "set_facecolor((0.98,0.98,0.98))", "compilation_passed": true, "time": 0.16128802299499512, "tests_passed": true, "error": null}
+{"code": "hist('Values', data=df, bins=np.arange(df['Values'].min(), df['Values'].max() + 2) - 0.5)", "compilation_passed": true, "time": 0.27900218963623047, "tests_passed": true, "error": null}

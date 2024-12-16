@@ -1,0 +1,7 @@
+{"code": " {team: {'goals': [], 'penalties': []} for team in TEAMS}", "compilation_passed": true, "time": 0.015289068222045898, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.018500089645385742, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.015236139297485352, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.015803098678588867, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(team, randint(0, goals), randint(0, penalties)) for team in TEAMS]", "compilation_passed": true, "time": 0.01874995231628418, "tests_passed": true, "error": null}
+{"code": " [{'team': team, 'goals': randint(0, goals), 'penalties': randint(0, penalties)} for team in TEAMS]", "compilation_passed": true, "time": 0.015762805938720703, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Team': TEAMS})", "compilation_passed": true, "time": 0.01607513427734375, "tests_passed": false, "error": "AttributeError"}

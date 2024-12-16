@@ -1,0 +1,8 @@
+{"code": " parse(time_string, dayfirst=True)", "compilation_passed": true, "time": 0.003532886505126953, "tests_passed": true, "error": null}
+{"code": " parse(time_string)", "compilation_passed": true, "time": 0.006286144256591797, "tests_passed": true, "error": null}
+{"code": " parse(time_string, fuzzy=True)", "compilation_passed": true, "time": 0.00668787956237793, "tests_passed": true, "error": null}
+{"code": " datetime.strptime(time_string, TIME_FORMAT)", "compilation_passed": true, "time": 0.013477802276611328, "tests_passed": false, "error": "NameError"}
+{"code": " parse(time_string, dayfirst=True).replace(tzinfo=from_zone)", "compilation_passed": true, "time": 0.010865926742553711, "tests_passed": false, "error": "ValueError"}
+{"code": " parse(time_string, yearfirst=True)", "compilation_passed": true, "time": 0.008750677108764648, "tests_passed": true, "error": null}
+{"code": " parse(time_string).replace(tzinfo=from_zone)", "compilation_passed": true, "time": 0.008880853652954102, "tests_passed": false, "error": "ValueError"}
+{"code": " parse(time_string, ignoretz=True, yearfirst=True)", "compilation_passed": true, "time": 0.006526947021484375, "tests_passed": true, "error": null}

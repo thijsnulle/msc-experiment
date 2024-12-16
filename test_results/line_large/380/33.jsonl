@@ -1,0 +1,9 @@
+{"code": " os.path.join(directory, match.group(1))", "compilation_passed": true, "time": 0.024372100830078125, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, match[1])", "compilation_passed": true, "time": 0.023192882537841797, "tests_passed": true, "error": null}
+{"code": " match.group(1)", "compilation_passed": true, "time": 0.0198361873626709, "tests_passed": false, "error": "shutil.Error"}
+{"code": " f'{directory}/{match.group(1)}'", "compilation_passed": true, "time": 0.019042015075683594, "tests_passed": true, "error": null}
+{"code": " f'{directory}/{\"\".join(match.groups())}'", "compilation_passed": true, "time": 0.019489049911499023, "tests_passed": true, "error": null}
+{"code": " directory + '/' + match.group(1)", "compilation_passed": true, "time": 0.020899057388305664, "tests_passed": true, "error": null}
+{"code": " directory + os.sep + match.group(1)", "compilation_passed": true, "time": 0.01771998405456543, "tests_passed": true, "error": null}
+{"code": " f'./{match[1]}'", "compilation_passed": true, "time": 0.01817011833190918, "tests_passed": false, "error": "shutil.Error"}
+{"code": " os.path.join(directory, match[0].lstrip('.'))", "compilation_passed": true, "time": 0.01787281036376953, "tests_passed": true, "error": null}

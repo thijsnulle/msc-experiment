@@ -1,0 +1,6 @@
+{"code": " df.dropna()", "compilation_passed": true, "time": 0.3290128707885742, "tests_passed": true, "error": null}
+{"code": " df[df.notna().all(axis=1)]", "compilation_passed": true, "time": 0.33689212799072266, "tests_passed": true, "error": null}
+{"code": " df.dropna(axis='index')", "compilation_passed": true, "time": 0.3445920944213867, "tests_passed": true, "error": null}
+{"code": " df.loc[~df[target_column].isna()]", "compilation_passed": true, "time": 0.33943915367126465, "tests_passed": true, "error": null}
+{"code": " df.dropna(axis=0)", "compilation_passed": true, "time": 0.33922576904296875, "tests_passed": true, "error": null}
+{"code": " df.dropna(axis=0, how='any')", "compilation_passed": true, "time": 0.33635616302490234, "tests_passed": true, "error": null}

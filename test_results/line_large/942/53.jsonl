@@ -1,0 +1,26 @@
+{"code": "plot.bar(x='Date', y='Sales', ax=ax)", "compilation_passed": true, "time": 0.5327439308166504, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', kind='bar', ax=ax, figsize=(12, 8), legend=True, color=None,", "compilation_passed": false, "time": 0.0008649826049804688, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(x='Date', y='Sales', ax=ax, figsize=(12, 8))", "compilation_passed": true, "time": 0.351456880569458, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', ax=ax, style='-', marker='o')", "compilation_passed": true, "time": 0.35107994079589844, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', ax=ax, kind='bar')", "compilation_passed": true, "time": 0.5348949432373047, "tests_passed": true, "error": null}
+{"code": "set_index('Date', inplace=True)", "compilation_passed": true, "time": 0.07251501083374023, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', ax=ax, style='-o', markersize=6, title='Sales Report')", "compilation_passed": true, "time": 0.35338902473449707, "tests_passed": true, "error": null}
+{"code": "plot.line(x='Date', y='Sales', style='--', ax=ax)", "compilation_passed": true, "time": 0.35242295265197754, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', ax=ax, style='-o')", "compilation_passed": true, "time": 0.3674428462982178, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', kind='bar', ax=ax)", "compilation_passed": true, "time": 0.5377700328826904, "tests_passed": true, "error": null}
+{"code": "set_index('Date').plot(ax=ax, marker='o', xlabel='Date', ylabel='Sales', title='Sales Report')", "compilation_passed": true, "time": 0.35857319831848145, "tests_passed": true, "error": null}
+{"code": "set_index('Date').groupby('Category')['Sales'].plot(ax=ax, marker='o', grid=True, legend=True)", "compilation_passed": true, "time": 0.49740004539489746, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', kind='bar', stacked=True, ax=ax, title='Sales by Category')", "compilation_passed": true, "time": 0.5375099182128906, "tests_passed": true, "error": null}
+{"code": "groupby(['Date', 'Category'])['Sales'].sum().unstack().plot(ax=ax)", "compilation_passed": true, "time": 0.38265299797058105, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', kind='bar', ax=ax, title='Sales Report', xlabel='Date', ylabel='Sales')", "compilation_passed": true, "time": 0.5426061153411865, "tests_passed": true, "error": null}
+{"code": "set_index('Date').plot(ax=ax, title='Sales Report')", "compilation_passed": true, "time": 0.37105679512023926, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', ax=ax, marker='o', linestyle='-', linewidth=2, alpha=0.8)", "compilation_passed": true, "time": 0.3485429286956787, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', kind='bar', ax=ax, figsize=(16, 6))", "compilation_passed": true, "time": 0.6854269504547119, "tests_passed": true, "error": null}
+{"code": "groupby('Category')['Sales'].plot(ax=ax, legend=True, marker='o', rot=30, logy=True, title='Sales Report by Category')", "compilation_passed": true, "time": 0.4054422378540039, "tests_passed": true, "error": null}
+{"code": "groupby('Category')['Sales'].plot(ax=ax, legend=True, marker='o', figsize=(12, 8))", "compilation_passed": true, "time": 0.4212491512298584, "tests_passed": true, "error": null}
+{"code": "plot.barh(x='Date', y='Sales', stacked=True, ax=ax, color={'Electronics': '#A30024', 'Fashion': '#3900A3', 'Home & Kitchen': '#3900A3', 'Automotive': '#3900A3', 'Sports': '#3900A3'})", "compilation_passed": true, "time": 0.09544181823730469, "tests_passed": false, "error": "ValueError"}
+{"code": "groupby('Date').sum().plot(kind='bar', ax=ax)", "compilation_passed": true, "time": 0.3887791633605957, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', kind='bar', ax=ax, title='Sales Report', xlabel=None)", "compilation_passed": true, "time": 0.5621798038482666, "tests_passed": true, "error": null}
+{"code": "groupby(['Category', 'Date'])['Sales'].sum().unstack(level=0).plot(ax=ax, marker='o')", "compilation_passed": true, "time": 0.37857985496520996, "tests_passed": true, "error": null}
+{"code": "groupby(['Category'])['Sales'].plot(kind='bar', ax=ax, title='Sales Report')", "compilation_passed": true, "time": 0.47904515266418457, "tests_passed": true, "error": null}
+{"code": "plot(x='Date', y='Sales', ax=ax, marker='o', style='o', grid=True, title='Amazon Sales Report')", "compilation_passed": true, "time": 0.3616068363189697, "tests_passed": true, "error": null}

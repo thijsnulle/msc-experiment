@@ -1,0 +1,6 @@
+{"code": " faker_instance.random_element(validated_timezones)", "compilation_passed": true, "time": 0.5429790019989014, "tests_passed": true, "error": null}
+{"code": " faker_instance.timezone()", "compilation_passed": true, "time": 0.048829078674316406, "tests_passed": true, "error": null}
+{"code": " faker_instance.timezone() if len(validated_timezones) > 1 else \"UTC\"", "compilation_passed": true, "time": 0.06739568710327148, "tests_passed": true, "error": null}
+{"code": " faker_instance.random_element(elements=validated_timezones)", "compilation_passed": true, "time": 0.5139908790588379, "tests_passed": true, "error": null}
+{"code": " validated_timezones[faker_instance.unique.random_int() % len(validated_timezones)]", "compilation_passed": true, "time": 0.48725295066833496, "tests_passed": true, "error": null}
+{"code": " faker_instance.random.choice(validated_timezones)", "compilation_passed": true, "time": 0.48899292945861816, "tests_passed": true, "error": null}

@@ -1,0 +1,12 @@
+{"code": " stats.entropy(difference)", "compilation_passed": true, "time": 0.0020291805267333984, "tests_passed": true, "error": null}
+{"code": " stats.entropy([abs(x) for x in difference])", "compilation_passed": true, "time": 0.012418031692504883, "tests_passed": true, "error": null}
+{"code": " stats.entropy(np.bincount(difference))", "compilation_passed": true, "time": 0.0076639652252197266, "tests_passed": true, "error": null}
+{"code": " stats.entropy(difference, base=2)", "compilation_passed": true, "time": 0.005750179290771484, "tests_passed": true, "error": null}
+{"code": " stats.entropy(difference)  # Calculate entropy of the differences", "compilation_passed": true, "time": 0.0024750232696533203, "tests_passed": true, "error": null}
+{"code": " stats.entropy([1/len(difference) for i in range(len(difference))], base=2)", "compilation_passed": true, "time": 0.0059320926666259766, "tests_passed": true, "error": null}
+{"code": " stats.entropy(difference)  # Calculating entropy using scipy.stats.entropy", "compilation_passed": true, "time": 0.0023801326751708984, "tests_passed": true, "error": null}
+{"code": " stats.entropy(np.bincount(difference))  # Calculate entropy", "compilation_passed": true, "time": 0.0059909820556640625, "tests_passed": true, "error": null}
+{"code": " stats.entropy(difference + 1)", "compilation_passed": true, "time": 0.0036110877990722656, "tests_passed": true, "error": null}
+{"code": " stats.entropy([abs(i) for i in np.arange(np.min(difference), np.max(difference))])", "compilation_passed": true, "time": 0.0058438777923583984, "tests_passed": true, "error": null}
+{"code": " stats.entropy(np.unique(difference).tolist())", "compilation_passed": true, "time": 0.007399082183837891, "tests_passed": true, "error": null}
+{"code": " stats.entropy(np.array(difference))", "compilation_passed": true, "time": 0.002393960952758789, "tests_passed": true, "error": null}

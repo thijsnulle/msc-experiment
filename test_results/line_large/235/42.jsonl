@@ -1,0 +1,20 @@
+{"code": " np.delete(bins, -1)", "compilation_passed": true, "time": 0.2850511074066162, "tests_passed": true, "error": null}
+{"code": " np.array(bins)", "compilation_passed": true, "time": 0.07434225082397461, "tests_passed": false, "error": "            ^^^^"}
+{"code": " np.linspace(np.min(samples), np.max(samples), num_bins)", "compilation_passed": true, "time": 0.289139986038208, "tests_passed": true, "error": null}
+{"code": " (bins[:-1] + bins[1:]) / 2 # Use the mean of each bin", "compilation_passed": true, "time": 0.2889108657836914, "tests_passed": true, "error": null}
+{"code": " bins[:-1]", "compilation_passed": true, "time": 0.2917189598083496, "tests_passed": true, "error": null}
+{"code": " bins[1:]", "compilation_passed": true, "time": 0.31040310859680176, "tests_passed": true, "error": null}
+{"code": " bins[0:-1]", "compilation_passed": true, "time": 0.291853666305542, "tests_passed": true, "error": null}
+{"code": " np.vstack((bins, np.ones_like(bins))).T", "compilation_passed": true, "time": 0.060194969177246094, "tests_passed": false, "error": "            ^^^^"}
+{"code": " np.insert(bins, -1, bins[-1])", "compilation_passed": true, "time": 0.06355977058410645, "tests_passed": false, "error": "            ^^^^"}
+{"code": " np.array(list(bins[:-1]) + [bins[-1]])", "compilation_passed": true, "time": 0.06214714050292969, "tests_passed": false, "error": "            ^^^^"}
+{"code": " np.append(bins, bins[-1] + (bins[1] - bins[0]))", "compilation_passed": true, "time": 0.061933040618896484, "tests_passed": false, "error": "            ^^^^"}
+{"code": " (bins[1:] + bins[:-1]) / 2", "compilation_passed": true, "time": 0.2962360382080078, "tests_passed": true, "error": null}
+{"code": " np.array(bins).reshape(-1, 1)", "compilation_passed": true, "time": 0.06415796279907227, "tests_passed": false, "error": "            ^^^^"}
+{"code": " np.append(bins, max(bins))", "compilation_passed": true, "time": 0.0609278678894043, "tests_passed": false, "error": "            ^^^^"}
+{"code": " np.append(bins, 0)", "compilation_passed": true, "time": 0.05941915512084961, "tests_passed": false, "error": "            ^^^^"}
+{"code": " bins[:-1] + np.diff(bins) / 2 # bin centers", "compilation_passed": true, "time": 0.30087780952453613, "tests_passed": true, "error": null}
+{"code": " np.delete(bins, 0)", "compilation_passed": true, "time": 0.29498791694641113, "tests_passed": true, "error": null}
+{"code": " bins[:-1] # Remove the last bin as it is the same as the first bin", "compilation_passed": true, "time": 0.29412102699279785, "tests_passed": true, "error": null}
+{"code": " bins[:-1] + np.diff(bins) / 2  # calculate the bin centers", "compilation_passed": true, "time": 0.3117649555206299, "tests_passed": true, "error": null}
+{"code": " bins[:-1] + (bins[1]-bins[0])/2", "compilation_passed": true, "time": 0.3235208988189697, "tests_passed": true, "error": null}

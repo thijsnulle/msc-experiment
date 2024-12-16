@@ -1,0 +1,21 @@
+{"code": " poisson.rvs(mean)", "compilation_passed": true, "time": 0.007825374603271484, "tests_passed": false, "error": "NameError"}
+{"code": " random.poisson(mean, 1)", "compilation_passed": true, "time": 0.007868051528930664, "tests_passed": false, "error": "AttributeError"}
+{"code": " stats.poisson(mean).rvs()", "compilation_passed": true, "time": 0.01772284507751465, "tests_passed": true, "error": null}
+{"code": " random.poisson(mean, 1)[0]", "compilation_passed": true, "time": 0.00847482681274414, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.poisson(mean, 1)[0]", "compilation_passed": true, "time": 0.008040904998779297, "tests_passed": false, "error": "NameError"}
+{"code": " poisson.rvs(mu=mean)", "compilation_passed": true, "time": 0.0073430538177490234, "tests_passed": false, "error": "NameError"}
+{"code": " int(np.random.poisson(mean, 1))", "compilation_passed": true, "time": 0.008488178253173828, "tests_passed": false, "error": "NameError"}
+{"code": " int(np.random.exponential(mean))", "compilation_passed": true, "time": 0.007776975631713867, "tests_passed": false, "error": "NameError"}
+{"code": " int(np.random.poisson(mean, 1)[0])", "compilation_passed": true, "time": 0.009359121322631836, "tests_passed": false, "error": "NameError"}
+{"code": " stats.poisson.rvs(mean=mean)", "compilation_passed": true, "time": 0.007791042327880859, "tests_passed": true, "error": null}
+{"code": " stats.poisson(mean).rvs(1)[0]", "compilation_passed": true, "time": 0.00749516487121582, "tests_passed": false, "error": "TypeError"}
+{"code": " int(stats.poisson.rvs(mean=mean))", "compilation_passed": true, "time": 0.007652997970581055, "tests_passed": true, "error": null}
+{"code": " stats.poisson.rvs(mean)  # Simulate the number of customers", "compilation_passed": true, "time": 0.008467912673950195, "tests_passed": true, "error": null}
+{"code": " stats.poisson.rvs(mu=mean)", "compilation_passed": true, "time": 0.00882411003112793, "tests_passed": true, "error": null}
+{"code": " np.random.poisson(mean)", "compilation_passed": true, "time": 0.009088993072509766, "tests_passed": false, "error": "NameError"}
+{"code": " int(stats.poisson.rvs(mean))", "compilation_passed": true, "time": 0.0075838565826416016, "tests_passed": true, "error": null}
+{"code": " stats.poisson.rvs(mean)", "compilation_passed": true, "time": 0.00869297981262207, "tests_passed": true, "error": null}
+{"code": " stats.poisson.rvs(mean, size=1)[0]", "compilation_passed": true, "time": 0.008647918701171875, "tests_passed": true, "error": null}
+{"code": " stats.poisson(mean).rvs(size=1)[0]", "compilation_passed": true, "time": 0.008222818374633789, "tests_passed": false, "error": "TypeError"}
+{"code": " max(1, random.poisson(mean, 1))", "compilation_passed": true, "time": 0.007685184478759766, "tests_passed": false, "error": "AttributeError"}
+{"code": " stats.poisson(mean, len(animals)).rvs()", "compilation_passed": true, "time": 0.017907142639160156, "tests_passed": true, "error": null}

@@ -1,0 +1,8 @@
+{"code": " []", "compilation_passed": true, "time": 0.02590799331665039, "tests_passed": true, "error": null}
+{"code": " [os.path.join(root, file)", "compilation_passed": false, "time": 0.00045180320739746094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []  # Corrected naming convention to follow Python convention", "compilation_passed": true, "time": 0.022472858428955078, "tests_passed": true, "error": null}
+{"code": " [os.path.join(root, file) for root, _, files in os.walk(directory) for file in files]", "compilation_passed": true, "time": 0.015622854232788086, "tests_passed": true, "error": null}
+{"code": " os.listdir(directory)", "compilation_passed": true, "time": 0.01789712905883789, "tests_passed": true, "error": null}
+{"code": " [os.path.join(root, name) for root, dirs, files in os.walk(directory)", "compilation_passed": false, "time": 0.0004239082336425781, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [os.path.join(directory, file_name) for file_name in os.listdir(directory) if os.path.isfile(os.path.join(directory, file_name)) and re.search(BRACKET_PATTERN, file_name)]", "compilation_passed": true, "time": 0.015677213668823242, "tests_passed": true, "error": null}
+{"code": " [os.path.join(root, file) for root, _, files in os.walk(directory) for file in files if re.search(BRACKET_PATTERN, file)]", "compilation_passed": true, "time": 0.015837907791137695, "tests_passed": true, "error": null}

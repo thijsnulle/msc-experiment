@@ -1,0 +1,28 @@
+{"code": " next(y for y in MOON_PHASES_YEARS if y >= converted_date.year)", "compilation_passed": true, "time": 0.012304306030273438, "tests_passed": false, "error": "StopIteration"}
+{"code": " np.abs(np.array(converted_date.year - MOON_PHASES_YEARS)).argmin()", "compilation_passed": true, "time": 0.0020453929901123047, "tests_passed": true, "error": null}
+{"code": " np.min(np.array(np.nonzero(MOON_PHASES_YEARS > converted_date.year))[1])", "compilation_passed": true, "time": 0.013664007186889648, "tests_passed": false, "error": "IndexError"}
+{"code": " _get_moon_phase_year(converted_date)", "compilation_passed": true, "time": 0.009356975555419922, "tests_passed": false, "error": "NameError"}
+{"code": " MOON_PHASES_YEARS[(np.abs(converted_date.year - MOON_PHASES_YEARS)).argmin()]", "compilation_passed": true, "time": 0.0016312599182128906, "tests_passed": true, "error": null}
+{"code": " get_moon_phase_year(converted_date)", "compilation_passed": true, "time": 0.008968830108642578, "tests_passed": false, "error": "NameError"}
+{"code": " MOON_PHASES_YEARS[np.argmin(np.abs(given_date.year - MOON_PHASES_YEARS))]", "compilation_passed": true, "time": 0.0019218921661376953, "tests_passed": true, "error": null}
+{"code": " MOON_PHASES_YEARS[np.where((converted_date.year // 100) * 100 == MOON_PHASES_YEARS)[0][0]]", "compilation_passed": true, "time": 0.008613109588623047, "tests_passed": false, "error": "IndexError"}
+{"code": " MOON_PHASES_YEARS[np.searchsorted(MOON_PHASES_YEARS, converted_date.year, side='left')-1]", "compilation_passed": true, "time": 0.0020360946655273438, "tests_passed": true, "error": null}
+{"code": " converted_date.year if converted_date.month > 5 else converted_date.year - 1", "compilation_passed": true, "time": 0.0017230510711669922, "tests_passed": true, "error": null}
+{"code": " get_moon_phase_year(converted_date.year, MOON_PHASES_YEARS)", "compilation_passed": true, "time": 0.009812116622924805, "tests_passed": false, "error": "NameError"}
+{"code": " MOON_PHASES_YEARS[np.argmin(np.abs(", "compilation_passed": false, "time": 0.00019621849060058594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " MOON_PHASES_YEARS[np.abs(MOON_PHASES_YEARS - converted_date.year).argmin()]", "compilation_passed": true, "time": 0.001811981201171875, "tests_passed": true, "error": null}
+{"code": " np.min(MOON_PHASES_YEARS[MOON_PHASES_YEARS >= converted_date.year])", "compilation_passed": true, "time": 0.01726984977722168, "tests_passed": false, "error": "ValueError"}
+{"code": " np.intersect1d(np.arange(given_date.year - 3, given_date.year + 4),", "compilation_passed": false, "time": 0.0003361701965332031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " MOON_PHASES_YEARS.max() - math.ceil((MOON_PHASES_YEARS.max() - converted_date.year) / 7) * 7", "compilation_passed": true, "time": 0.0021047592163085938, "tests_passed": true, "error": null}
+{"code": " MOON_PHASES_YEARS[np.searchsorted(MOON_PHASES_YEARS, converted_date.year, side='right') - 1]", "compilation_passed": true, "time": 0.0018482208251953125, "tests_passed": true, "error": null}
+{"code": " MOON_PHASES_YEARS[np.searchsorted(MOON_PHASES_YEARS, converted_date.year, side='left')]", "compilation_passed": true, "time": 0.012904882431030273, "tests_passed": false, "error": "IndexError"}
+{"code": " np.searchsorted(MOON_PHASES_YEARS, converted_date.year) % 6", "compilation_passed": true, "time": 0.0019481182098388672, "tests_passed": true, "error": null}
+{"code": " np.where(converted_date.year > MOON_PHASES_YEARS, converted_date.year, MOON_PHASES_YEARS[0])", "compilation_passed": true, "time": 0.01475667953491211, "tests_passed": false, "error": "TypeError"}
+{"code": " MOON_PHASES_YEARS[np.argmin(np.abs(converted_date.year - MOON_PHASES_YEARS))]", "compilation_passed": true, "time": 0.0017528533935546875, "tests_passed": true, "error": null}
+{"code": " converted_date.year", "compilation_passed": true, "time": 0.0019271373748779297, "tests_passed": true, "error": null}
+{"code": " MOON_PHASES_YEARS[(MOON_PHASES_YEARS - converted_date.year).argmin()]", "compilation_passed": true, "time": 0.0016682147979736328, "tests_passed": true, "error": null}
+{"code": " converted_date.year + (converted_date.month - 1) / 12.0", "compilation_passed": true, "time": 0.0018520355224609375, "tests_passed": true, "error": null}
+{"code": " np.searchsorted(MOON_PHASES_YEARS, converted_date.year)", "compilation_passed": true, "time": 0.0017511844635009766, "tests_passed": true, "error": null}
+{"code": " (", "compilation_passed": false, "time": 0.00018835067749023438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " MOON_PHASES_YEARS[(", "compilation_passed": false, "time": 0.00017213821411132812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " _find_nearest(MOON_PHASES_YEARS, converted_date.year)", "compilation_passed": true, "time": 0.008966207504272461, "tests_passed": false, "error": "NameError"}

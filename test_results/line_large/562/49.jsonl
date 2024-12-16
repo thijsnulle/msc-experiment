@@ -1,0 +1,7 @@
+{"code": " subprocess.run([\"uname\", \"-a\"], capture_output=True, check=True)", "compilation_passed": true, "time": 0.10524702072143555, "tests_passed": false, "error": "AttributeError"}
+{"code": " lib.uname", "compilation_passed": true, "time": 0.129105806350708, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.uname()", "compilation_passed": true, "time": 0.09902167320251465, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " lib.uname()", "compilation_passed": true, "time": 0.09968304634094238, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " subprocess.check_output(['uname', '-a']).decode()", "compilation_passed": true, "time": 0.10470914840698242, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output(['uname', '-a']).decode().strip()", "compilation_passed": true, "time": 0.0883798599243164, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output([\"uname\", \"-a\"])", "compilation_passed": true, "time": 0.08286499977111816, "tests_passed": false, "error": "AttributeError"}

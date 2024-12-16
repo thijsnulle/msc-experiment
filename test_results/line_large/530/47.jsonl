@@ -1,0 +1,21 @@
+{"code": " df[\"age\"].values[0] < 0:", "compilation_passed": true, "time": 0.08589315414428711, "tests_passed": true, "error": null}
+{"code": " np.any(df[\"age\"] < 0):", "compilation_passed": true, "time": 0.30037593841552734, "tests_passed": true, "error": null}
+{"code": " any(df['age'] < 0):", "compilation_passed": true, "time": 0.30905723571777344, "tests_passed": true, "error": null}
+{"code": " df['age'].astype('float').lt(0).any():", "compilation_passed": true, "time": 0.3348360061645508, "tests_passed": true, "error": null}
+{"code": " (df[\"age\"] < 0).any():", "compilation_passed": true, "time": 0.33750391006469727, "tests_passed": true, "error": null}
+{"code": " df['age'].lt(0).any():", "compilation_passed": true, "time": 0.31844472885131836, "tests_passed": true, "error": null}
+{"code": " df['age'].dtype == float:", "compilation_passed": true, "time": 0.08492302894592285, "tests_passed": true, "error": null}
+{"code": " (df['age'] < 0).any():", "compilation_passed": true, "time": 0.3497331142425537, "tests_passed": true, "error": null}
+{"code": " any(df[\"age\"] < 0):", "compilation_passed": true, "time": 0.3349010944366455, "tests_passed": true, "error": null}
+{"code": " df['age'].dtype == 'float':", "compilation_passed": true, "time": 0.08557796478271484, "tests_passed": true, "error": null}
+{"code": " not isinstance(df['age'], np.floating):", "compilation_passed": true, "time": 0.013429880142211914, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"age\"].lt(0).any():", "compilation_passed": true, "time": 0.33550405502319336, "tests_passed": true, "error": null}
+{"code": " not df['age'].apply(lambda x: x >= 0).all():", "compilation_passed": true, "time": 0.41856884956359863, "tests_passed": true, "error": null}
+{"code": " 'age' in df.columns:", "compilation_passed": true, "time": 0.012613296508789062, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"age\"].dt.days < 0:", "compilation_passed": true, "time": 0.019778966903686523, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.duplicated().any():", "compilation_passed": true, "time": 0.016237974166870117, "tests_passed": false, "error": "ValueError"}
+{"code": " df['age'].min() < 0:", "compilation_passed": true, "time": 0.3413350582122803, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].dt.days < 0.0:", "compilation_passed": true, "time": 0.013657808303833008, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['age'].dtype == np.dtype(float):", "compilation_passed": true, "time": 0.08671689033508301, "tests_passed": true, "error": null}
+{"code": " np.any(df['age'] < 0):", "compilation_passed": true, "time": 0.3312392234802246, "tests_passed": true, "error": null}
+{"code": " any(df.age < 0):", "compilation_passed": true, "time": 0.3941478729248047, "tests_passed": true, "error": null}

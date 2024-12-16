@@ -1,0 +1,29 @@
+{"code": " re.compile(", "compilation_passed": true, "time": 0.0030508041381835938, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(http[s]?://)(www\\.)?.*')", "compilation_passed": false, "time": 0.00024700164794921875, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.compile(r'(https?://[^/]+)')", "compilation_passed": false, "time": 0.0002639293670654297, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.compile(r\"\\Ahttps?://[^/]+\")", "compilation_passed": false, "time": 0.00026607513427734375, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.compile(r'http[s]?://(?:www\\.)?([^/]+)')", "compilation_passed": false, "time": 0.00026488304138183594, "tests_passed": false, "error": "IndentationError"}
+{"code": " r\"https?://(www\\.)?[A-Za-z0-9.-]+\"", "compilation_passed": false, "time": 0.0002422332763671875, "tests_passed": false, "error": "IndentationError"}
+{"code": " r\"\\bhttps?://(www\\.)?\\w+(?!\\.)(com|net|ru|org|info|edu|gov)\\b\"", "compilation_passed": false, "time": 0.00023698806762695312, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.compile(r'http.+?//')", "compilation_passed": false, "time": 0.00026226043701171875, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.compile(r\"\\w*://(www.)?\\w*\\.\\w+\")", "compilation_passed": false, "time": 0.0002589225769042969, "tests_passed": false, "error": "IndentationError"}
+{"code": " r\"(https?:\\/\\/(www\\.)?)?([a-zA-Z0-9\\-]+\\.)*[a-zA-Z0-9\\-]+(:\\d+)?\\/?(\\?[a-zA-Z0-9]+\\=[a-zA-Z0-9]+)?\"", "compilation_passed": false, "time": 0.0002429485321044922, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.compile('://[^/]+')", "compilation_passed": false, "time": 0.0002460479736328125, "tests_passed": false, "error": "IndentationError"}
+{"code": " r\"^(?:(?:https?|ftp|file)://)(?:\\S+(?::\\S*)?@)?(?:(?:[1-9]\\d?|1\\d\\d|2[01]\\d|22[0-3])(?:\\.(?:1?\\d{1,2}|2[0-4]\\d|25[0-5])){2}(?:\\.(?:[1-9]\\d?|1\\d\\d|2[0-4]\\d|25[0-4]))|(?:(?:[a-z\\u00a1-\\uffff0-9]+-?)*[a-z\\u00a1-\\uffff0-9]+)(?:\\.(?:[a-z\\u00a1-\\uffff0-9]+-?)*[a-z\\u00a1-\\uffff0-9]+)*(?:\\.[a-z\\u00a1-\\uffff]{2,})(?:$|[^\\s@]))(?::\\d{2,5})?(?", "compilation_passed": false, "time": 0.00018095970153808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " \"^[a-z]{4,5}://[a-z./]+\"", "compilation_passed": false, "time": 0.00024199485778808594, "tests_passed": false, "error": "IndentationError"}
+{"code": " r\"http://(?:www.)?(.*)\"  # Extract domain names from URLs", "compilation_passed": false, "time": 0.00024199485778808594, "tests_passed": false, "error": "IndentationError"}
+{"code": " r\"^https?://\"", "compilation_passed": false, "time": 0.0001900196075439453, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.compile(r\"^https?://\")", "compilation_passed": false, "time": 0.0002598762512207031, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.compile('^[https://|http://]*([a-z0-9.]*):?[0-9]*[a-z/]*')", "compilation_passed": false, "time": 0.00025010108947753906, "tests_passed": false, "error": "IndentationError"}
+{"code": " r\"(https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b[-a-zA-Z0-9()@:%_\\+.~#?&//=]*)\"", "compilation_passed": false, "time": 0.00024390220642089844, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.compile(\"http\")", "compilation_passed": false, "time": 0.00026488304138183594, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.compile(\"^(?:https?:\\/\\/)?(www\\.)?([-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6})\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)$\")", "compilation_passed": false, "time": 0.00029587745666503906, "tests_passed": false, "error": "IndentationError"}
+{"code": " r\"https?://(www\\.)?[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+\"", "compilation_passed": false, "time": 0.0002429485321044922, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.compile(r\"(?P<url>(?P<protocol>(?P<http>(?:http|https):)?//)(?:www\\.)?\\w*.\\w*)\")", "compilation_passed": false, "time": 0.0002639293670654297, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"http(s)?://(www.)?(.*)/\"", "compilation_passed": false, "time": 0.00022602081298828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.compile(\"(https?:\\/\\/)?(www\\.)?\")", "compilation_passed": false, "time": 0.0002789497375488281, "tests_passed": false, "error": "IndentationError"}
+{"code": " r\"https?://(?:www\\.)?[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*\\.[a-zA-Z]{2,}\"", "compilation_passed": false, "time": 0.00024080276489257812, "tests_passed": false, "error": "IndentationError"}
+{"code": " r\"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+\"", "compilation_passed": false, "time": 0.00024509429931640625, "tests_passed": false, "error": "IndentationError"}
+{"code": " r\"^https?://(www\\.)?(?<=\\.)\\w+.\\w+$\"  # regex to match the url", "compilation_passed": false, "time": 0.0002460479736328125, "tests_passed": false, "error": "IndentationError"}
+{"code": " r\"^[http://|https://](www\\.)?[\\w.-]+(?<!.)((?:[\\w]+\\.)+[\\w]{2,4})$\"", "compilation_passed": false, "time": 0.00024390220642089844, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.compile(r\"^https?://(?:www\\.)?(.+)$\")", "compilation_passed": false, "time": 0.00026297569274902344, "tests_passed": false, "error": "IndentationError"}

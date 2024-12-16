@@ -1,0 +1,25 @@
+{"code": " open(os.path.join(directory, filename)) as f_in, open(os.path.join(directory, new_filename), 'w') as f_out:", "compilation_passed": true, "time": 0.011482715606689453, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(directory, filename), 'r') as f1, open(os.path.join(directory, new_filename), 'w') as f2:", "compilation_passed": true, "time": 0.0095977783203125, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(file_dir, filename), 'r') as file, \\", "compilation_passed": false, "time": 0.0002429485321044922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " open(f'{file_dir / filename}', 'r') as f:", "compilation_passed": true, "time": 0.009864091873168945, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_dir / filename, 'r') as file:", "compilation_passed": true, "time": 0.00967717170715332, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(file_dir, filename), 'r') as f:", "compilation_passed": true, "time": 0.012375116348266602, "tests_passed": false, "error": "NameError"}
+{"code": " open(filename, 'r', encoding='utf8') as old_file, open(", "compilation_passed": false, "time": 0.00024700164794921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " open(file_dir / filename, 'r') as csvfile, \\", "compilation_passed": false, "time": 0.000247955322265625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " open(file_dir / filename, 'r') as infile, open(file_dir / new_filename, 'w') as outfile:", "compilation_passed": true, "time": 0.008894920349121094, "tests_passed": true, "error": null}
+{"code": " open(filename, 'r') as file:", "compilation_passed": true, "time": 0.011842012405395508, "tests_passed": false, "error": "NameError"}
+{"code": " open(filename, 'r') as file, open(new_filename, 'w') as new_file:", "compilation_passed": true, "time": 0.010275125503540039, "tests_passed": false, "error": "NameError"}
+{"code": " open(f'{file_dir.joinpath(filename)}', 'r') as file:", "compilation_passed": true, "time": 0.010032176971435547, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_dir.joinpath(filename), 'r') as f:", "compilation_passed": true, "time": 0.009771108627319336, "tests_passed": false, "error": "NameError"}
+{"code": " open(f'{file_dir.parent}/{new_filename}', 'w') as new_file:", "compilation_passed": true, "time": 0.010523796081542969, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(directory, filename), 'r') as file:", "compilation_passed": true, "time": 0.009577035903930664, "tests_passed": false, "error": "NameError"}
+{"code": " open(filename, 'r', encoding='UTF-8') as input_file, open(new_filename, 'w', encoding='UTF-8') as output_file:", "compilation_passed": true, "time": 0.009603023529052734, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(directory, filename), 'r') as old_file, open(os.path.join(directory, new_filename), 'w') as new_file:", "compilation_passed": true, "time": 0.009581804275512695, "tests_passed": false, "error": "NameError"}
+{"code": " open(os.path.join(file_dir, filename), 'r') as src_file:", "compilation_passed": true, "time": 0.009484052658081055, "tests_passed": false, "error": "NameError"}
+{"code": " open(f'{directory}/{filename}', 'r', newline='') as in_file, \\", "compilation_passed": false, "time": 0.00029587745666503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " open(file_dir.joinpath(filename), 'r') as file:", "compilation_passed": true, "time": 0.009983062744140625, "tests_passed": false, "error": "NameError"}
+{"code": " open(f'{file_dir / filename}', 'rb') as in_file:", "compilation_passed": true, "time": 0.011281251907348633, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_dir / filename, 'rb') as old_file, open(file_dir / new_filename, 'wb') as new_file:", "compilation_passed": true, "time": 0.00933384895324707, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_dir / filename, 'r') as f:", "compilation_passed": true, "time": 0.009685039520263672, "tests_passed": false, "error": "NameError"}
+{"code": " open(f\"{file_dir}/{filename}\", 'r') as file:", "compilation_passed": true, "time": 0.009496927261352539, "tests_passed": false, "error": "NameError"}
+{"code": " open(f'{file_dir}/{filename}', 'r') as file:", "compilation_passed": true, "time": 0.009897947311401367, "tests_passed": false, "error": "NameError"}

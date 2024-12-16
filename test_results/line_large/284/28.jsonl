@@ -1,0 +1,8 @@
+{"code": " BeautifulSoup(response.read(), 'html.parser')", "compilation_passed": true, "time": 0.5355219841003418, "tests_passed": true, "error": null}
+{"code": " BeautifulSoup(response.read().decode(response.info().get_param('charset', 'utf-8')), 'html.parser')", "compilation_passed": true, "time": 0.009098052978515625, "tests_passed": false, "error": "AttributeError"}
+{"code": " BeautifulSoup(response.read(), \"html.parser\")", "compilation_passed": true, "time": 0.5443601608276367, "tests_passed": true, "error": null}
+{"code": " BeautifulSoup(response.get_data(), 'html.parser')", "compilation_passed": true, "time": 0.025068044662475586, "tests_passed": false, "error": "TypeError"}
+{"code": " BeautifulSoup(response, \"html.parser\")", "compilation_passed": true, "time": 0.528846263885498, "tests_passed": true, "error": null}
+{"code": " BeautifulSoup(response.read().decode(), 'html.parser')", "compilation_passed": true, "time": 0.00934600830078125, "tests_passed": false, "error": "AttributeError"}
+{"code": " BeautifulSoup(response.read().decode(), \"html.parser\")", "compilation_passed": true, "time": 0.008731842041015625, "tests_passed": false, "error": "AttributeError"}
+{"code": " BeautifulSoup(response, 'html.parser')", "compilation_passed": true, "time": 0.5305569171905518, "tests_passed": true, "error": null}

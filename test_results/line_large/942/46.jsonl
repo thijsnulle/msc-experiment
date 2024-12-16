@@ -1,0 +1,5 @@
+{"code": " []", "compilation_passed": true, "time": 0.34827494621276855, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.0005540847778320312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(date, category, np.random.randint(100, 500)) for date in date_range for category in categories]", "compilation_passed": true, "time": 0.08434414863586426, "tests_passed": false, "error": "ValueError"}
+{"code": " [(date, category, np.random.randint(100, 500))", "compilation_passed": false, "time": 0.0006878376007080078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Date': np.tile(date_range, len(categories)),", "compilation_passed": false, "time": 0.00067901611328125, "tests_passed": false, "error": "SyntaxError"}

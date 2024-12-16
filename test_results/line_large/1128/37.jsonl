@@ -1,0 +1,23 @@
+{"code": " f\"new_file_{time.time()}.txt\"", "compilation_passed": true, "time": 0.019788026809692383, "tests_passed": true, "error": null}
+{"code": " f'new_{time.time()}.txt'", "compilation_passed": true, "time": 0.01446986198425293, "tests_passed": true, "error": null}
+{"code": " os.path.basename(file_path).split('.')[0] + '_' + str(time.time()) + '.txt'", "compilation_passed": true, "time": 0.016972064971923828, "tests_passed": true, "error": null}
+{"code": " os.path.basename(file_path).split('.')[0] + '_hashed_' + str(time.time()) + '.txt'", "compilation_passed": true, "time": 0.029649019241333008, "tests_passed": true, "error": null}
+{"code": " f\"{int(time.time())}.txt\"", "compilation_passed": true, "time": 0.016424179077148438, "tests_passed": true, "error": null}
+{"code": " f'{time.strftime(\"%Y%m%d-%H%M%S\")}.txt'", "compilation_passed": true, "time": 0.015501976013183594, "tests_passed": true, "error": null}
+{"code": " f'result_{time.strftime(\"%Y%m%d_%H%M%S\")}.txt'", "compilation_passed": true, "time": 0.01823711395263672, "tests_passed": true, "error": null}
+{"code": " f\"{os.path.splitext(file_path)[0]}_{int(time.time())}.txt\"", "compilation_passed": true, "time": 0.019309043884277344, "tests_passed": true, "error": null}
+{"code": " f\"file_{int(time.time())}.txt\"", "compilation_passed": true, "time": 0.015792131423950195, "tests_passed": true, "error": null}
+{"code": " f'timestamp_{int(time.time())}.txt'", "compilation_passed": true, "time": 0.01708388328552246, "tests_passed": true, "error": null}
+{"code": " f\"file_{time.time()}.txt\"", "compilation_passed": true, "time": 0.01340794563293457, "tests_passed": true, "error": null}
+{"code": " f\"/home/vadim/PycharmProjects/new_file_{int(time.time())}_hashed.json\"", "compilation_passed": true, "time": 0.06151080131530762, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " f'new_file_{time.strftime(\"%Y-%m-%d-%H-%M-%S\")}.txt'", "compilation_passed": true, "time": 0.019694089889526367, "tests_passed": true, "error": null}
+{"code": " f'hashed_{time.time()}.txt'", "compilation_passed": true, "time": 0.014795064926147461, "tests_passed": true, "error": null}
+{"code": " f\"file_{time.strftime('%Y%m%d_%H%M%S')}.txt\"", "compilation_passed": true, "time": 0.012765169143676758, "tests_passed": true, "error": null}
+{"code": " f\"new_file_{time.strftime('%Y-%m-%d_%H-%M-%S', time.localtime())}.txt\"", "compilation_passed": true, "time": 0.011862754821777344, "tests_passed": true, "error": null}
+{"code": " f\"hashed_{int(time.time())}.txt\"", "compilation_passed": true, "time": 0.012577056884765625, "tests_passed": true, "error": null}
+{"code": " os.path.basename(file_path) + f\"_{int(time.time())}\"", "compilation_passed": true, "time": 0.012369871139526367, "tests_passed": true, "error": null}
+{"code": " os.path.basename(file_path) + \"-\" + str(int(time.time())) + \".bin\"", "compilation_passed": true, "time": 0.012087106704711914, "tests_passed": true, "error": null}
+{"code": " f\"output_{int(time.time())}.json\"", "compilation_passed": true, "time": 0.011941909790039062, "tests_passed": true, "error": null}
+{"code": " f\"my_file_{time.time():.0f}.txt\"", "compilation_passed": true, "time": 0.011801004409790039, "tests_passed": true, "error": null}
+{"code": " f\"{os.path.basename(file_path).split('.')[0]}_{time.strftime('%Y%m%d%H%M%S')}.json\"", "compilation_passed": true, "time": 0.012079238891601562, "tests_passed": true, "error": null}
+{"code": " os.path.join(\"./outputs\", f\"output_{time.strftime('%Y-%m-%d_%H-%M-%S')}.txt\")", "compilation_passed": true, "time": 0.00959920883178711, "tests_passed": false, "error": "FileNotFoundError"}

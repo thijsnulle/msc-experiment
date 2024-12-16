@@ -1,0 +1,14 @@
+{"code": "plot(dates, temperatures)", "compilation_passed": true, "time": 0.2696709632873535, "tests_passed": true, "error": null}
+{"code": "plot(dates, temperatures, marker='o', linestyle='-.', markersize=6, color='red')", "compilation_passed": true, "time": 0.26906800270080566, "tests_passed": true, "error": null}
+{"code": "plot(dates, temperatures, marker='o', linestyle='-')", "compilation_passed": true, "time": 0.25504517555236816, "tests_passed": true, "error": null}
+{"code": "plot(dates, temperatures, marker='o')", "compilation_passed": true, "time": 1.020324945449829, "tests_passed": false, "error": "TimeoutError"}
+{"code": "plot(dates, temperatures, \"b-o\")", "compilation_passed": true, "time": 0.281810998916626, "tests_passed": true, "error": null}
+{"code": "set(title='Temperature Trend', xlabel='Date', ylabel='Temperature (\u00b0C)')", "compilation_passed": true, "time": 0.061480045318603516, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(dates, temperatures, label='Temperature (\u00b0C)', linewidth=1, color='k')", "compilation_passed": true, "time": 0.30170106887817383, "tests_passed": true, "error": null}
+{"code": "plot(dates, temperatures, linestyle='-', marker='o')", "compilation_passed": true, "time": 0.29482078552246094, "tests_passed": true, "error": null}
+{"code": "set_title('Temperature Trend')", "compilation_passed": true, "time": 0.08975100517272949, "tests_passed": false, "error": "IndexError"}
+{"code": "set_title(\"Temperature Trend\")", "compilation_passed": true, "time": 0.06622982025146484, "tests_passed": false, "error": "IndexError"}
+{"code": "set(xlabel='Date', ylabel='Temperature (\u00b0C)', title='Temperature Trend')", "compilation_passed": true, "time": 0.06547307968139648, "tests_passed": false, "error": "IndexError"}
+{"code": "set_xlabel('Date')", "compilation_passed": true, "time": 0.06532096862792969, "tests_passed": false, "error": "IndexError"}
+{"code": "plot(dates, temperatures, '-o', color=\"black\")", "compilation_passed": true, "time": 0.34407997131347656, "tests_passed": true, "error": null}
+{"code": "plot(dates, temperatures, '-o')", "compilation_passed": true, "time": 0.3735220432281494, "tests_passed": true, "error": null}

@@ -1,0 +1,18 @@
+{"code": " s1[s1.isin(s2)]", "compilation_passed": true, "time": 0.40747690200805664, "tests_passed": true, "error": null}
+{"code": " set(s1.unique()).intersection(set(s2.unique()))", "compilation_passed": true, "time": 0.40134406089782715, "tests_passed": true, "error": null}
+{"code": " set(s1.dropna()).intersection(set(s2.dropna()))", "compilation_passed": true, "time": 0.4206981658935547, "tests_passed": true, "error": null}
+{"code": " s1.isin(s2.values)", "compilation_passed": true, "time": 0.22934198379516602, "tests_passed": true, "error": null}
+{"code": " s1.intersection(s2)", "compilation_passed": true, "time": 0.02023172378540039, "tests_passed": false, "error": "AttributeError"}
+{"code": " set(s1) & set(s2)", "compilation_passed": true, "time": 0.4923698902130127, "tests_passed": true, "error": null}
+{"code": " s1.isin(s2) & s2.isin(s1)", "compilation_passed": true, "time": 0.25699400901794434, "tests_passed": true, "error": null}
+{"code": " set(s1.unique()) & set(s2.unique())", "compilation_passed": true, "time": 0.4265017509460449, "tests_passed": true, "error": null}
+{"code": " pd.Series(s1.intersection(s2), name='Intersection')", "compilation_passed": true, "time": 0.011272907257080078, "tests_passed": false, "error": "AttributeError"}
+{"code": " set(s1).intersection(set(s2))", "compilation_passed": true, "time": 0.45565199851989746, "tests_passed": true, "error": null}
+{"code": " set(s1.values) & set(s2.values)", "compilation_passed": true, "time": 0.5856499671936035, "tests_passed": true, "error": null}
+{"code": " set(s1.tolist()) & set(s2.tolist())", "compilation_passed": true, "time": 0.4335150718688965, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(s1[s1.isin(s2.dropna())])", "compilation_passed": true, "time": 0.4739089012145996, "tests_passed": true, "error": null}
+{"code": " set(s1.to_list()).intersection(set(s2.to_list()))", "compilation_passed": true, "time": 0.43314695358276367, "tests_passed": true, "error": null}
+{"code": " set(s1).intersection(s2)", "compilation_passed": true, "time": 0.5258669853210449, "tests_passed": true, "error": null}
+{"code": " s1.to_frame().merge(s2.to_frame(), how='outer')", "compilation_passed": true, "time": 0.02176499366760254, "tests_passed": false, "error": "pandas.errors.MergeError"}
+{"code": " s1[s1.isin(s2)].index", "compilation_passed": true, "time": 0.4768698215484619, "tests_passed": true, "error": null}
+{"code": " set(s1.values).intersection(s2.values)", "compilation_passed": true, "time": 0.3998887538909912, "tests_passed": true, "error": null}

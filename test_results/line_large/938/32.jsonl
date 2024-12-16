@@ -1,0 +1,2 @@
+{"code": " input_df.apply(clean_text_and_calculate_length, axis=1)", "compilation_passed": true, "time": 0.010149955749511719, "tests_passed": true, "error": null}
+{"code": " input_df.apply(lambda x: clean_text_and_calculate_length(x), axis=1)", "compilation_passed": true, "time": 0.010317802429199219, "tests_passed": true, "error": null}

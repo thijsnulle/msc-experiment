@@ -1,0 +1,5 @@
+{"code": "append([product, category, quantity_sold, revenue])", "compilation_passed": true, "time": 0.006658077239990234, "tests_passed": true, "error": null}
+{"code": "append({'Product': product, 'Category': category, 'Quantity Sold': quantity_sold, 'Revenue': revenue})", "compilation_passed": true, "time": 0.004686117172241211, "tests_passed": true, "error": null}
+{"code": "append((product, category, quantity_sold, revenue))", "compilation_passed": true, "time": 0.00483393669128418, "tests_passed": true, "error": null}
+{"code": "append({", "compilation_passed": false, "time": 0.00023603439331054688, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append({'Product': product,", "compilation_passed": false, "time": 0.00017380714416503906, "tests_passed": false, "error": "SyntaxError"}

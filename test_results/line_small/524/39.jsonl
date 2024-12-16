@@ -1,0 +1,10 @@
+{"code": " not isinstance(d, dict) or not all(isinstance(v, (int, float)) for v in d.values()):", "compilation_passed": true, "time": 0.47514796257019043, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(val, (int, float)) for val in d.values()):", "compilation_passed": true, "time": 0.5094010829925537, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(v, (int, float)) for v in d.values()):", "compilation_passed": true, "time": 0.5181052684783936, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(value, (int, float)) for value in d.values()):", "compilation_passed": true, "time": 0.5343830585479736, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(v, (int, float, complex)) for v in d.values()):", "compilation_passed": true, "time": 0.5485038757324219, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(v, (int, float, np.integer, np.floating)) for v in d.values()):", "compilation_passed": true, "time": 0.544407844543457, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(v, (int, float, np.ndarray)) for v in d.values()):", "compilation_passed": true, "time": 0.5819330215454102, "tests_passed": true, "error": null}
+{"code": " not isinstance(d, dict):", "compilation_passed": true, "time": 0.5912199020385742, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(v, (float, int)) for v in d.values()):", "compilation_passed": true, "time": 0.60555100440979, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(val, int) or isinstance(val, float) for val in d.values()):", "compilation_passed": true, "time": 0.632598876953125, "tests_passed": true, "error": null}

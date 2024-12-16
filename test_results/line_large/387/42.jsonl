@@ -1,0 +1,13 @@
+{"code": " plt.bar(city_population.keys(), city_population.values())", "compilation_passed": true, "time": 0.24216008186340332, "tests_passed": true, "error": null}
+{"code": " plt.bar(list(city_population.keys()), list(city_population.values()))", "compilation_passed": true, "time": 0.2362220287322998, "tests_passed": true, "error": null}
+{"code": " plt.bar(CITIES, [city_population.get(city, -1) for city in CITIES])", "compilation_passed": true, "time": 0.09911894798278809, "tests_passed": true, "error": null}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.08489608764648438, "tests_passed": true, "error": null}
+{"code": " plt.bar(city_population.keys(), city_population.values(), 0.35)", "compilation_passed": true, "time": 0.24261927604675293, "tests_passed": true, "error": null}
+{"code": " plt.bar(range(len(city_population)), city_population.values(), align='center')", "compilation_passed": true, "time": 0.24646830558776855, "tests_passed": true, "error": null}
+{"code": " plt.bar(city_population.keys(), city_population.values(), color='b')", "compilation_passed": true, "time": 0.2550239562988281, "tests_passed": true, "error": null}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.08489513397216797, "tests_passed": true, "error": null}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.08476591110229492, "tests_passed": true, "error": null}
+{"code": " plt.subplot(1, 1, 1)", "compilation_passed": true, "time": 0.08652806282043457, "tests_passed": true, "error": null}
+{"code": " plt.bar(list(city_population.keys()), list(city_population.values()), color='green')", "compilation_passed": true, "time": 0.2837381362915039, "tests_passed": true, "error": null}
+{"code": " plt.axes()", "compilation_passed": true, "time": 0.11262392997741699, "tests_passed": true, "error": null}
+{"code": " plt.bar(city_population.keys(), city_population.values(), color='orange')", "compilation_passed": true, "time": 0.2832808494567871, "tests_passed": true, "error": null}

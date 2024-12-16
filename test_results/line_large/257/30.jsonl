@@ -1,0 +1,14 @@
+{"code": "set_rlabel_position(135)", "compilation_passed": true, "time": 0.14183425903320312, "tests_passed": true, "error": null}
+{"code": "set_rlabel_position(0)", "compilation_passed": true, "time": 0.11502480506896973, "tests_passed": true, "error": null}
+{"code": "set_rmax(num_turns * 2 * math.pi)", "compilation_passed": true, "time": 0.1157221794128418, "tests_passed": true, "error": null}
+{"code": "set_yticks(range(num_turns * 4))", "compilation_passed": true, "time": 0.048882246017456055, "tests_passed": false, "error": "TypeError"}
+{"code": "set_rlim(0, num_turns * 2 * math.pi)", "compilation_passed": true, "time": 0.11594986915588379, "tests_passed": true, "error": null}
+{"code": "set_yticks(np.arange(num_turns) * 2 * math.pi * 45)", "compilation_passed": true, "time": 0.21668386459350586, "tests_passed": true, "error": null}
+{"code": "set_yticklabels([])", "compilation_passed": true, "time": 0.15019798278808594, "tests_passed": true, "error": null}
+{"code": "set_yticks([])", "compilation_passed": true, "time": 0.11553597450256348, "tests_passed": true, "error": null}
+{"code": "set_yticks(np.arange(num_turns * 45, num_turns * 45 * (num_turns + 1), num_turns * 45))", "compilation_passed": true, "time": 0.2171010971069336, "tests_passed": true, "error": null}
+{"code": "set_yticks(range(num_turns * 45))", "compilation_passed": true, "time": 0.04980111122131348, "tests_passed": false, "error": "TypeError"}
+{"code": "set_yticks(range(num_turns + 1))", "compilation_passed": true, "time": 0.04921412467956543, "tests_passed": false, "error": "TypeError"}
+{"code": "set_rlabel_position(180 / num_turns)  # This sets radial tick labels at the specified angle.", "compilation_passed": true, "time": 0.11568284034729004, "tests_passed": true, "error": null}
+{"code": "set_rlabel_position(num_turns * 45)", "compilation_passed": true, "time": 0.13217806816101074, "tests_passed": true, "error": null}
+{"code": "set_rlim(0, r.max())", "compilation_passed": true, "time": 0.13250207901000977, "tests_passed": true, "error": null}

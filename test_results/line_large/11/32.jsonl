@@ -1,0 +1,16 @@
+{"code": " list(map(int, itertools.chain.from_iterable(T1)))", "compilation_passed": true, "time": 0.009071826934814453, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(num_str) for t in T1 for num_str in t]", "compilation_passed": true, "time": 0.00735783576965332, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(element) for sublist in T1 for element in sublist]", "compilation_passed": true, "time": 0.007089853286743164, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(num) for num in itertools.chain.from_iterable(T1)]", "compilation_passed": true, "time": 0.006874799728393555, "tests_passed": false, "error": "TypeError"}
+{"code": " []", "compilation_passed": true, "time": 0.014354944229125977, "tests_passed": false, "error": "IndexError"}
+{"code": " [int(item) for sublist in T1 for item in sublist]", "compilation_passed": true, "time": 0.0071871280670166016, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(x) for t in T1 for x in t]", "compilation_passed": true, "time": 0.0072400569915771484, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(elem) for tup in T1 for elem in tup]", "compilation_passed": true, "time": 0.006868839263916016, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(x) for x in T1[0] + T1[1] + T1[2]]  # Converts strings to integers", "compilation_passed": true, "time": 0.007163047790527344, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(int, itertools.chain(*T1)))", "compilation_passed": true, "time": 0.009077072143554688, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(item) for inner_tuple in T1 for item in inner_tuple]", "compilation_passed": true, "time": 0.008039236068725586, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(num) for sub in T1 for num in sub]", "compilation_passed": true, "time": 0.0073719024658203125, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(item) for sub_tuple in T1 for item in sub_tuple]", "compilation_passed": true, "time": 0.0068585872650146484, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(element) for inner_tuple in T1 for element in inner_tuple]", "compilation_passed": true, "time": 0.008324861526489258, "tests_passed": false, "error": "TypeError"}
+{"code": " list(int(elem) for tup in T1 for elem in tup)", "compilation_passed": true, "time": 0.00919032096862793, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(element) for element in list(itertools.chain(*T1))]", "compilation_passed": true, "time": 0.007915973663330078, "tests_passed": false, "error": "TypeError"}

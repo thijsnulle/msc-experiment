@@ -1,0 +1,23 @@
+{"code": " or path_obj.is_symlink():", "compilation_passed": true, "time": 0.002275228500366211, "tests_passed": true, "error": null}
+{"code": " or path_obj.parts[-1].startswith('.') or not path_obj.exists():", "compilation_passed": true, "time": 0.00539708137512207, "tests_passed": true, "error": null}
+{"code": " or \"\\\\\" in path:", "compilation_passed": true, "time": 0.0016131401062011719, "tests_passed": true, "error": null}
+{"code": " or len(path_obj.parts) > 1 and path_obj.parts[0] == \".\":", "compilation_passed": true, "time": 0.0015058517456054688, "tests_passed": true, "error": null}
+{"code": " or not path_obj.exists():", "compilation_passed": true, "time": 0.006326913833618164, "tests_passed": true, "error": null}
+{"code": " or path_obj.as_posix().startswith(delimiter):", "compilation_passed": true, "time": 0.006115913391113281, "tests_passed": true, "error": null}
+{"code": " or path_obj.name.startswith(\".\"):", "compilation_passed": true, "time": 0.0015077590942382812, "tests_passed": true, "error": null}
+{"code": " or path_obj.is_absolute() or path_obj.suffix:", "compilation_passed": true, "time": 0.0051310062408447266, "tests_passed": true, "error": null}
+{"code": " or path_obj.is_absolute():", "compilation_passed": true, "time": 0.005129098892211914, "tests_passed": true, "error": null}
+{"code": " or any(", "compilation_passed": false, "time": 0.00027298927307128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " and len(path_obj.parts) > 1:", "compilation_passed": true, "time": 0.005273103713989258, "tests_passed": true, "error": null}
+{"code": " and any(", "compilation_passed": false, "time": 0.0002090930938720703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " or any(invalid_chars.intersection(set(path))):", "compilation_passed": true, "time": 0.0014767646789550781, "tests_passed": true, "error": null}
+{"code": " and path_obj.is_absolute():", "compilation_passed": true, "time": 0.005280017852783203, "tests_passed": true, "error": null}
+{"code": " or not str(path_obj.is_absolute()) or not path_obj.exists():", "compilation_passed": true, "time": 0.006289958953857422, "tests_passed": true, "error": null}
+{"code": " or path_obj.name == \".\":", "compilation_passed": true, "time": 0.0012748241424560547, "tests_passed": true, "error": null}
+{"code": " or set(str(path_obj)).intersection(invalid_chars):", "compilation_passed": true, "time": 0.0021429061889648438, "tests_passed": true, "error": null}
+{"code": " or any(set(str(path_obj)).intersection(invalid_chars)):", "compilation_passed": true, "time": 0.0021398067474365234, "tests_passed": true, "error": null}
+{"code": " or os.path.altsep in path:", "compilation_passed": true, "time": 0.009347915649414062, "tests_passed": false, "error": "TypeError"}
+{"code": " or not path_obj.is_absolute():", "compilation_passed": true, "time": 0.005033254623413086, "tests_passed": true, "error": null}
+{"code": " or os.path.islink(path):", "compilation_passed": true, "time": 0.0023529529571533203, "tests_passed": true, "error": null}
+{"code": " or '..' in path:", "compilation_passed": true, "time": 0.0015370845794677734, "tests_passed": true, "error": null}
+{"code": " or \"/\" in path:", "compilation_passed": true, "time": 0.005326986312866211, "tests_passed": true, "error": null}

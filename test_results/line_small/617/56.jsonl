@@ -1,0 +1,27 @@
+{"code": " results_df.plot(kind='bar', x='Team', y='Goals', legend=False)", "compilation_passed": true, "time": 0.44142699241638184, "tests_passed": true, "error": null}
+{"code": " plt.subplots(figsize=(12, 4), layout='vertical')[1]", "compilation_passed": true, "time": 0.012862920761108398, "tests_passed": false, "error": "ValueError"}
+{"code": " results_df.plot(x='Team', y='Goals', figsize=(10, 5))", "compilation_passed": true, "time": 0.4906630516052246, "tests_passed": true, "error": null}
+{"code": " results_df.plot.bar(x='Team', y='Goals', col='Goals', col_order=['Team A', 'Team B', 'Team C', 'Team D', 'Team E'], figsize=(10, 5))", "compilation_passed": true, "time": 0.046537160873413086, "tests_passed": false, "error": "AttributeError"}
+{"code": " results_df.plot.bar(figsize=(16, 6))", "compilation_passed": true, "time": 0.6854090690612793, "tests_passed": true, "error": null}
+{"code": " results_df.plot.bar(x='Team', y=['Goals', 'Penalty Cost'], figsize=(10, 6), rot=20)", "compilation_passed": true, "time": 0.574199914932251, "tests_passed": true, "error": null}
+{"code": " results_df.plot.bar(x='Team', y=['Goals', 'Penalty Cost'])", "compilation_passed": true, "time": 0.5774941444396973, "tests_passed": true, "error": null}
+{"code": " results_df.plot.barh(x='Team', y='Goals', color='green', title='Goals')", "compilation_passed": true, "time": 0.5272080898284912, "tests_passed": true, "error": null}
+{"code": " results_df.plot.barh(x='Team', y='Penalty Cost', color=teams, rot=0, fontsize='10', figsize=(15, 15))", "compilation_passed": true, "time": 0.06269001960754395, "tests_passed": false, "error": "ValueError"}
+{"code": " results_df.plot(x='Team', y='Goals', figsize=(15, 5), colormap='tab10')", "compilation_passed": true, "time": 0.6234569549560547, "tests_passed": true, "error": null}
+{"code": " results_df.plot.barh(figsize=(10, 5),", "compilation_passed": false, "time": 0.0005240440368652344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " results_df.plot(kind='barh', x='Team', y='Penalty Cost', legend=False, rot=0)", "compilation_passed": true, "time": 0.4334096908569336, "tests_passed": true, "error": null}
+{"code": " results_df.plot(kind='bar', x='Team', y='Penalty Cost', title='Penalty Cost in Million Dollars',", "compilation_passed": false, "time": 0.0005650520324707031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " results_df.plot(kind='bar',", "compilation_passed": false, "time": 0.0004551410675048828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " results_df.plot(", "compilation_passed": false, "time": 0.0009789466857910156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " results_df.plot(x='Team', y='Goals', figsize=(12, 4), kind='bar', stacked=True)", "compilation_passed": true, "time": 0.45200681686401367, "tests_passed": true, "error": null}
+{"code": " results_df[['Team', 'Goals', 'Penalty Cost']].plot.barh(color=['red', 'blue', 'green', 'orange', 'purple'], stacked=True)", "compilation_passed": true, "time": 0.44713377952575684, "tests_passed": true, "error": null}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.1026909351348877, "tests_passed": true, "error": null}
+{"code": " results_df.plot(x='Team', y='Penalty Cost', kind='bar')", "compilation_passed": true, "time": 0.43998003005981445, "tests_passed": true, "error": null}
+{"code": " results_df[['Team', 'Goals']].set_index('Team').plot(kind='bar', stacked=True)", "compilation_passed": true, "time": 0.44249486923217773, "tests_passed": true, "error": null}
+{"code": " results_df.plot(x='Team', y='Goals', kind='bar', rot=0)", "compilation_passed": true, "time": 0.45549511909484863, "tests_passed": true, "error": null}
+{"code": " results_df.plot.barh(x='Team', y='Goals')", "compilation_passed": true, "time": 0.4654719829559326, "tests_passed": true, "error": null}
+{"code": " results_df.plot(x='Team', y=['Goals', 'Penalty Cost'], kind='bar', figsize=(12, 6), fontsize=14)", "compilation_passed": true, "time": 0.5956287384033203, "tests_passed": true, "error": null}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.14284181594848633, "tests_passed": true, "error": null}
+{"code": " results_df.plot.barh(x='Team', y='Penalty Cost', figsize=(6, 10))", "compilation_passed": true, "time": 0.5217628479003906, "tests_passed": true, "error": null}
+{"code": " results_df.plot.barh(rot=0)", "compilation_passed": true, "time": 0.5643332004547119, "tests_passed": true, "error": null}
+{"code": " results_df.plot(kind='bar', x='Team', y='Goals', figsize=(16, 8), title=\"Goal Distribution\")", "compilation_passed": true, "time": 0.6288740634918213, "tests_passed": true, "error": null}

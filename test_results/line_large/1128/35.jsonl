@@ -1,0 +1,5 @@
+{"code": " hashlib.sha256(value.encode('utf-8')).digest()", "compilation_passed": true, "time": 0.01735711097717285, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(value.encode()).digest()", "compilation_passed": true, "time": 0.016171932220458984, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(value.encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.020985841751098633, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(str(value).encode()).digest()", "compilation_passed": true, "time": 0.015740156173706055, "tests_passed": true, "error": null}
+{"code": " hashlib.sha256(value.encode()).hexdigest()", "compilation_passed": true, "time": 0.010197162628173828, "tests_passed": false, "error": "TypeError"}

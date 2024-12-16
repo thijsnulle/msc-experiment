@@ -1,0 +1,11 @@
+{"code": " []", "compilation_passed": true, "time": 0.027386188507080078, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.00036406517028808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"Product\": np.random.choice(products, size=n_samples),", "compilation_passed": false, "time": 0.00034618377685546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.randint(sales_lower, sales_upper + 1, n_samples).reshape(-1, len(products))", "compilation_passed": true, "time": 0.01441192626953125, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(sales_lower, sales_upper + 1, size=(n_samples, len(products)))", "compilation_passed": true, "time": 0.010184049606323242, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(sales_lower, sales_upper+1, size=(len(products), n_samples))", "compilation_passed": true, "time": 0.009771585464477539, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0003371238708496094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.randint(sales_lower, sales_upper + 1, size=(len(products), n_samples))", "compilation_passed": true, "time": 0.010150909423828125, "tests_passed": false, "error": "AttributeError"}
+{"code": " {\"Product\": np.random.choice(products, n_samples),", "compilation_passed": false, "time": 0.00034165382385253906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=[\"Product\", \"Sales\", \"Profit\"])", "compilation_passed": true, "time": 0.01071310043334961, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({\"Product\": products, \"Sales\": np.random.randint(sales_lower, sales_upper, len(products)), \"Profit\": np.random.uniform(profit_margin_min, profit_margin_max, len(products))})", "compilation_passed": true, "time": 0.011083126068115234, "tests_passed": false, "error": "AttributeError"}

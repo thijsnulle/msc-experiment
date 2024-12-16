@@ -1,0 +1,7 @@
+{"code": " df.copy()", "compilation_passed": true, "time": 0.10349535942077637, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean())", "compilation_passed": true, "time": 0.43934106826782227, "tests_passed": true, "error": null}
+{"code": " df.replace(np.nan, df[df.columns[0]].mean())", "compilation_passed": true, "time": 0.01162409782409668, "tests_passed": false, "error": "NameError"}
+{"code": " df.replace(np.nan, df.mean().iloc[0])", "compilation_passed": true, "time": 0.01942896842956543, "tests_passed": false, "error": "NameError"}
+{"code": " df.fillna(df[df.columns[0]].mean())", "compilation_passed": true, "time": 0.11886715888977051, "tests_passed": true, "error": null}
+{"code": " df.copy()  # create a copy of the original DataFrame", "compilation_passed": true, "time": 0.1260218620300293, "tests_passed": true, "error": null}
+{"code": " df.replace(np.nan, df.mean())", "compilation_passed": true, "time": 0.020076751708984375, "tests_passed": false, "error": "NameError"}

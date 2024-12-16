@@ -1,0 +1,14 @@
+{"code": " [random.randint(0, 100) for _ in date_range]", "compilation_passed": true, "time": 0.47272396087646484, "tests_passed": true, "error": null}
+{"code": " pd.Series(random.randint(0, 100) for _ in range(len(date_range)))", "compilation_passed": true, "time": 0.07479095458984375, "tests_passed": true, "error": null}
+{"code": " pd.Series(", "compilation_passed": false, "time": 0.00030994415283203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " random.sample(range(0, 100), len(date_range))", "compilation_passed": true, "time": 0.5243101119995117, "tests_passed": true, "error": null}
+{"code": " pd.Series(random.randint(0, 100) for _ in date_range)", "compilation_passed": true, "time": 0.09133291244506836, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, 100) for _ in range(len(date_range))]", "compilation_passed": true, "time": 0.5227899551391602, "tests_passed": true, "error": null}
+{"code": " random.sample(range(100), len(date_range))", "compilation_passed": true, "time": 0.5295639038085938, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.randint(0, 100, len(date_range)), index=date_range)", "compilation_passed": true, "time": 0.008318901062011719, "tests_passed": false, "error": "NameError"}
+{"code": " random.sample([i for i in range(100)], len(date_range))", "compilation_passed": true, "time": 0.5313889980316162, "tests_passed": true, "error": null}
+{"code": " random.sample([0, 100], len(date_range))", "compilation_passed": true, "time": 0.010599851608276367, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Series(random.choices(range(101), k=len(date_range)), index=date_range)", "compilation_passed": true, "time": 0.5913076400756836, "tests_passed": true, "error": null}
+{"code": " random.sample(range(101), len(date_range))", "compilation_passed": true, "time": 1.6688120365142822, "tests_passed": true, "error": null}
+{"code": " pd.Series(random.sample(range(100), len(date_range)), index=date_range)", "compilation_passed": true, "time": 0.5290889739990234, "tests_passed": true, "error": null}
+{"code": " random.sample([0, 100], 100)", "compilation_passed": true, "time": 0.009021997451782227, "tests_passed": false, "error": "ValueError"}

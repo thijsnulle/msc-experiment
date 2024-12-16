@@ -1,0 +1,18 @@
+{"code": " combinations[:len(combinations) // num_columns * num_columns]", "compilation_passed": false, "time": 0.00026607513427734375, "tests_passed": false, "error": "IndentationError"}
+{"code": " combinations[:(len(combinations) // num_columns) * num_columns]", "compilation_passed": false, "time": 0.0003292560577392578, "tests_passed": false, "error": "IndentationError"}
+{"code": " {f\"Color:State {i}\": combinations[i::num_columns] for i in range(num_columns)}", "compilation_passed": false, "time": 0.0002300739288330078, "tests_passed": false, "error": "IndentationError"}
+{"code": " {f\"Color:State {i+1}\": combinations[i::num_columns] for i in range(num_columns)}", "compilation_passed": false, "time": 0.0002498626708984375, "tests_passed": false, "error": "IndentationError"}
+{"code": " {}", "compilation_passed": false, "time": 0.00018095970153808594, "tests_passed": false, "error": "IndentationError"}
+{"code": " {f\"Color:State {i + 1}\": combinations[i::num_columns] for i in range(num_columns)}", "compilation_passed": false, "time": 0.00037026405334472656, "tests_passed": false, "error": "IndentationError"}
+{"code": " [f\"{color}:{state}\" for color, state in combinations]", "compilation_passed": false, "time": 0.00023484230041503906, "tests_passed": false, "error": "IndentationError"}
+{"code": " []", "compilation_passed": false, "time": 0.00025272369384765625, "tests_passed": false, "error": "IndentationError"}
+{"code": " [combinations[i::num_columns] for i in range(num_columns)]", "compilation_passed": false, "time": 0.00020313262939453125, "tests_passed": false, "error": "IndentationError"}
+{"code": " [", "compilation_passed": false, "time": 0.00019812583923339844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [\"{}:{}\".format(c, s) for c, s in combinations]", "compilation_passed": false, "time": 0.0002696514129638672, "tests_passed": false, "error": "IndentationError"}
+{"code": " [f\"{c[0]}:{c[1]}\" for c in combinations]", "compilation_passed": false, "time": 0.0004401206970214844, "tests_passed": false, "error": "IndentationError"}
+{"code": " [list(zip(colors, states)) for _ in range(num_columns)]", "compilation_passed": false, "time": 0.0001971721649169922, "tests_passed": false, "error": "IndentationError"}
+{"code": " combinations[:num_columns * len(combinations) // num_columns]", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "IndentationError"}
+{"code": " {f'Color:State {i + 1}': combinations[i::num_columns] for i in range(num_columns)}", "compilation_passed": false, "time": 0.0002880096435546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " {'Column ' + str(i+1): combinations[i::num_columns] for i in range(num_columns)}", "compilation_passed": false, "time": 0.0001780986785888672, "tests_passed": false, "error": "IndentationError"}
+{"code": " [list(zip(*[iter(combinations)] * num_columns))]", "compilation_passed": false, "time": 0.00018095970153808594, "tests_passed": false, "error": "IndentationError"}
+{"code": " {f'Color:State {i+1}': combinations[i::num_columns] for i in range(num_columns)}", "compilation_passed": false, "time": 0.0003070831298828125, "tests_passed": false, "error": "IndentationError"}

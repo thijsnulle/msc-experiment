@@ -1,0 +1,7 @@
+{"code": " random.sample(english_words, n)", "compilation_passed": true, "time": 0.10767507553100586, "tests_passed": true, "error": null}
+{"code": " random.sample(set(english_words), n)", "compilation_passed": true, "time": 0.10846281051635742, "tests_passed": true, "error": null}
+{"code": " sample(english_words, n)", "compilation_passed": true, "time": 0.11204791069030762, "tests_passed": true, "error": null}
+{"code": " random.sample(set(english_words), n)  # Ensure unique", "compilation_passed": true, "time": 0.11684918403625488, "tests_passed": true, "error": null}
+{"code": " random.sample(list(set(english_words)), n)", "compilation_passed": true, "time": 0.12109112739562988, "tests_passed": true, "error": null}
+{"code": " sample(english_words, n)  # Use random.sample() to sample without replacement", "compilation_passed": true, "time": 0.12145686149597168, "tests_passed": true, "error": null}
+{"code": " random.sample(set(english_words), n)  # Randomly sample n words", "compilation_passed": true, "time": 0.14701390266418457, "tests_passed": true, "error": null}

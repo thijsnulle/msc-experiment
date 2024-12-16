@@ -1,0 +1,5 @@
+{"code": " []", "compilation_passed": true, "time": 0.010658025741577148, "tests_passed": true, "error": null}
+{"code": " [{", "compilation_passed": false, "time": 0.0003178119659423828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [['-1', '-2', '-3'], ['+1', '+2', '+3'], ['0', '1', '2'], ['1', '2', '3'], ['2', '2', '3'], ['3', '2', '3'], ['4', '2', '3'], ['5', '2', '3'], ['6', '2', '3'], ['7', '2', '3']]", "compilation_passed": true, "time": 0.008634090423583984, "tests_passed": true, "error": null}
+{"code": " [[' ' if line.startswith(' ') else line[0] if line.startswith('-') else line[1:], *map(str, line[3:])] for line in diff]", "compilation_passed": true, "time": 0.011722803115844727, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 0.0003368854522705078, "tests_passed": false, "error": "SyntaxError"}

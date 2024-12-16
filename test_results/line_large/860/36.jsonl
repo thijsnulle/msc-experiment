@@ -1,0 +1,8 @@
+{"code": " ''.join(random.choices(string.ascii_letters + string.digits, k=n))", "compilation_passed": true, "time": 0.012478828430175781, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(n))", "compilation_passed": true, "time": 0.009764909744262695, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choices(string.ascii_letters+string.digits, k=n))", "compilation_passed": true, "time": 0.007984161376953125, "tests_passed": true, "error": null}
+{"code": " ''.join([random.choice(string.ascii_letters + string.digits) for _ in range(n)])", "compilation_passed": true, "time": 0.010286808013916016, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choices(string.ascii_letters + string.digits, k=n))", "compilation_passed": true, "time": 0.008672952651977539, "tests_passed": true, "error": null}
+{"code": " ''.join([random.choice(string.ascii_letters + string.digits) for i in range(n)])", "compilation_passed": true, "time": 0.010313034057617188, "tests_passed": true, "error": null}
+{"code": " \"\".join([random.choice(string.ascii_letters + string.digits) for _ in range(n)])", "compilation_passed": true, "time": 0.009486913681030273, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choices(string.ascii_letters+string.digits, k=n))", "compilation_passed": true, "time": 0.008645057678222656, "tests_passed": true, "error": null}

@@ -1,0 +1,15 @@
+{"code": "histplot(data=df, x=\"Age\", discrete=True)", "compilation_passed": true, "time": 0.1007223129272461, "tests_passed": false, "error": "ValueError"}
+{"code": "histplot(data=df, x=\"Age\")", "compilation_passed": true, "time": 0.14416289329528809, "tests_passed": true, "error": null}
+{"code": "distplot(df[\"Age\"], bins=10, kde=True)", "compilation_passed": true, "time": 0.0870978832244873, "tests_passed": true, "error": null}
+{"code": "histplot(data=df, x=\"Age\", bins=10)", "compilation_passed": true, "time": 0.1651308536529541, "tests_passed": true, "error": null}
+{"code": "histplot(df, x=\"Age\", discrete=True)", "compilation_passed": true, "time": 0.0707249641418457, "tests_passed": false, "error": "ValueError"}
+{"code": "histplot(df[\"Age\"])", "compilation_passed": true, "time": 0.11347198486328125, "tests_passed": true, "error": null}
+{"code": "histplot(data=df, x=\"Age\", kde=True)", "compilation_passed": true, "time": 0.15035200119018555, "tests_passed": true, "error": null}
+{"code": "displot(data=df, x=\"Age\", kind=\"kde\")", "compilation_passed": true, "time": 0.7769160270690918, "tests_passed": true, "error": null}
+{"code": "distplot(df[\"Age\"], kde=False)", "compilation_passed": true, "time": 0.020594358444213867, "tests_passed": true, "error": null}
+{"code": "displot(data=df, x=\"Age\")", "compilation_passed": true, "time": 0.8270959854125977, "tests_passed": true, "error": null}
+{"code": "displot(df, x=\"Age\", kind=\"kde\")", "compilation_passed": true, "time": 0.7177119255065918, "tests_passed": true, "error": null}
+{"code": "histplot(df[\"Age\"], bins=10)", "compilation_passed": true, "time": 0.09260916709899902, "tests_passed": true, "error": null}
+{"code": "histplot(df, x=\"Age\", bins=20)", "compilation_passed": true, "time": 0.1532289981842041, "tests_passed": true, "error": null}
+{"code": "histplot(df[\"Age\"], binwidth=1)", "compilation_passed": true, "time": 0.0405888557434082, "tests_passed": false, "error": "ValueError"}
+{"code": "histplot(data=df, x=\"Age\", discrete=True, kde=True)", "compilation_passed": true, "time": 0.053442955017089844, "tests_passed": false, "error": "ValueError"}

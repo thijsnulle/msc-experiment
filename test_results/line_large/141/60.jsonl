@@ -1,0 +1,9 @@
+{"code": " {'mean': df[col].mean(), 'median': statistics.median(df[col])}", "compilation_passed": false, "time": 0.00026702880859375, "tests_passed": false, "error": "IndentationError"}
+{"code": " {'mean': np.mean(df[col]), 'median': statistics.median(df[col])}", "compilation_passed": false, "time": 0.0002551078796386719, "tests_passed": false, "error": "IndentationError"}
+{"code": " {", "compilation_passed": true, "time": 0.007136106491088867, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": false, "time": 0.0002658367156982422, "tests_passed": false, "error": "IndentationError"}
+{"code": " {'mean': round(np.mean(df[col]), 1),", "compilation_passed": true, "time": 0.008624076843261719, "tests_passed": true, "error": null}
+{"code": " {'mean': df[col].mean(), 'median': df[col].median()}", "compilation_passed": false, "time": 0.0003368854522705078, "tests_passed": false, "error": "IndentationError"}
+{"code": " {'mean': int(df[col].mean()), 'median': int(df[col].median())}", "compilation_passed": false, "time": 0.0002720355987548828, "tests_passed": false, "error": "IndentationError"}
+{"code": " {'mean': int(df[col].mean()), 'median': int(statistics.median(df[col]))}", "compilation_passed": false, "time": 0.00023436546325683594, "tests_passed": false, "error": "IndentationError"}
+{"code": " {'mean': round(df[col].mean()), 'median': round(df[col].median())}", "compilation_passed": false, "time": 0.0002892017364501953, "tests_passed": false, "error": "IndentationError"}

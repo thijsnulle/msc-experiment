@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame(df_std, columns=df.columns)", "compilation_passed": true, "time": 0.05306506156921387, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df_std, index=df.index, columns=df.columns)", "compilation_passed": true, "time": 0.04664206504821777, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df_std)", "compilation_passed": true, "time": 0.047039031982421875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=df_std, columns=df.columns)", "compilation_passed": true, "time": 0.04858517646789551, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(scaler.inverse_transform(df_std), index=df.index, columns=df.columns)", "compilation_passed": true, "time": 0.050466060638427734, "tests_passed": true, "error": null}

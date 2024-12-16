@@ -1,0 +1,16 @@
+{"code": " df[\"Category\"].value_counts().plot.bar(title=\"Category Counts\")", "compilation_passed": false, "time": 0.0003070831298828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot(kind=\"bar\")", "compilation_passed": false, "time": 0.0002789497375488281, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot.bar(", "compilation_passed": true, "time": 0.39467787742614746, "tests_passed": true, "error": null}
+{"code": " (", "compilation_passed": true, "time": 0.38576316833496094, "tests_passed": true, "error": null}
+{"code": " df[\"Category\"].value_counts().plot(kind=\"bar\", color=[\"r\", \"b\"], title=\"Category Counts\")", "compilation_passed": false, "time": 0.00028228759765625, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot(kind=\"bar\", figsize=(10, 6))", "compilation_passed": false, "time": 0.0003421306610107422, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot.bar(rot=0, title=\"Category Counts\")", "compilation_passed": false, "time": 0.0003631114959716797, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot(kind=\"bar\", title=\"Category Counts\")", "compilation_passed": false, "time": 0.00031685829162597656, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"Category\").count()[\"Value\"].plot.bar()", "compilation_passed": false, "time": 0.0002689361572265625, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.Category.value_counts().plot.bar()", "compilation_passed": false, "time": 0.0002741813659667969, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"Category\").count().plot.bar(title=\"Category Counts\")", "compilation_passed": false, "time": 0.0003490447998046875, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot.bar()", "compilation_passed": false, "time": 0.00025391578674316406, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"Category\")[\"Value\"].count().plot(kind=\"bar\")", "compilation_passed": false, "time": 0.0003218650817871094, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"Category\").count().plot(kind=\"bar\", title=\"Category Counts\")", "compilation_passed": false, "time": 0.0002779960632324219, "tests_passed": false, "error": "IndentationError"}
+{"code": " df[\"Category\"].value_counts().plot.bar(rot=0)", "compilation_passed": false, "time": 0.0002810955047607422, "tests_passed": false, "error": "IndentationError"}
+{"code": " df.groupby(\"Category\")[\"Value\"].count().plot(", "compilation_passed": true, "time": 0.07065176963806152, "tests_passed": false, "error": "TypeError"}

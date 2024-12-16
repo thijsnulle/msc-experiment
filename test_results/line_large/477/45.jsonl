@@ -1,0 +1,8 @@
+{"code": " np.random.choice(", "compilation_passed": false, "time": 0.0004711151123046875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.choice(CATEGORIES, N - len(CATEGORIES), replace=True)", "compilation_passed": true, "time": 0.30344295501708984, "tests_passed": true, "error": null}
+{"code": " np.random.choice(CATEGORIES, N - len(CATEGORIES), replace=False)", "compilation_passed": true, "time": 0.023355722427368164, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.choice(guaranteed_categories, N - len(guaranteed_categories), replace=True)", "compilation_passed": true, "time": 0.3002500534057617, "tests_passed": true, "error": null}
+{"code": " N - len(CATEGORIES)", "compilation_passed": true, "time": 0.023274898529052734, "tests_passed": false, "error": "ValueError"}
+{"code": " N - len(guaranteed_categories)", "compilation_passed": true, "time": 0.020959854125976562, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.choice(CATEGORIES, N - len(guaranteed_categories), replace=True)", "compilation_passed": true, "time": 0.3032240867614746, "tests_passed": true, "error": null}
+{"code": " np.random.choice(CATEGORIES, N - len(CATEGORIES))", "compilation_passed": true, "time": 0.3012230396270752, "tests_passed": true, "error": null}

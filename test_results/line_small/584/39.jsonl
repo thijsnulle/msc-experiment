@@ -1,0 +1,21 @@
+{"code": "pub_key, priv_key, modulus) = rsa.newkeys(2048, random.SystemRandom())", "compilation_passed": true, "time": 0.009221315383911133, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(1024, random.SystemRandom())", "compilation_passed": true, "time": 0.009560108184814453, "tests_passed": false, "error": "NameError"}
+{"code": "public_key, private_key) = rsa.newkeys(1024)", "compilation_passed": true, "time": 0.7410869598388672, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(2048)", "compilation_passed": true, "time": 1.0203721523284912, "tests_passed": false, "error": "TimeoutError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(bits=2048, progress=lambda x: print(x.progress_count))", "compilation_passed": true, "time": 0.009088993072509766, "tests_passed": false, "error": "TypeError"}
+{"code": "pub_key, priv_key, modulus) = rsa.newkeys(1024, curve=rsa.SSLeay.NID_sect163k1)", "compilation_passed": true, "time": 0.008702993392944336, "tests_passed": false, "error": "AttributeError"}
+{"code": "public_key, private_key) = rsa.newkeys(512, os.urandom)", "compilation_passed": true, "time": 0.010039091110229492, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(1024)", "compilation_passed": true, "time": 1.010225772857666, "tests_passed": false, "error": "TimeoutError"}
+{"code": "public_key, private_key) = rsa.newkeys(2048, os.urandom)", "compilation_passed": true, "time": 0.008736133575439453, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = generate_rsa_keys(512)", "compilation_passed": true, "time": 0.009101152420043945, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(2048, os.urandom)", "compilation_passed": true, "time": 0.011420965194702148, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(512, randfunc=os.urandom)", "compilation_passed": true, "time": 0.00849294662475586, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(1024, randfunc=os.urandom)", "compilation_passed": true, "time": 0.011210918426513672, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(bits=512)", "compilation_passed": true, "time": 0.012176752090454102, "tests_passed": false, "error": "TypeError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(2048)  # create public and private key", "compilation_passed": true, "time": 1.01043701171875, "tests_passed": false, "error": "TimeoutError"}
+{"code": "public_key, private_key) = rsa.newkeys(2048)", "compilation_passed": true, "time": 1.012063980102539, "tests_passed": false, "error": "TimeoutError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(512)", "compilation_passed": true, "time": 0.33475303649902344, "tests_passed": true, "error": null}
+{"code": "public_key, private_key) = generate_rsa_keys()", "compilation_passed": true, "time": 0.012447118759155273, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = generate_keypair()", "compilation_passed": true, "time": 0.010586977005004883, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, private_key) = rsa.newkeys(512)", "compilation_passed": true, "time": 0.0490880012512207, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(2048)  # generate public/private keys", "compilation_passed": true, "time": 1.008648157119751, "tests_passed": false, "error": "TimeoutError"}

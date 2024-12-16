@@ -1,0 +1,23 @@
+{"code": " np.arange(datetime.now(),", "compilation_passed": false, "time": 0.00021910667419433594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(datetime.now() - timedelta(days=n)) for n in range(days_in_past)]", "compilation_passed": true, "time": 0.26645779609680176, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.04294300079345703, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.arange(datetime.today(),", "compilation_passed": false, "time": 0.00024390220642089844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(datetime.today() - timedelta(days=i)).strftime(\"%Y-%m-%d\") for i in range(days_in_past)]", "compilation_passed": true, "time": 0.30942583084106445, "tests_passed": true, "error": null}
+{"code": " np.array([(datetime.today()-timedelta(days=x)) for x in range(days_in_past)])", "compilation_passed": true, "time": 0.29509615898132324, "tests_passed": true, "error": null}
+{"code": " [datetime.now() - timedelta(days=x) for x in range(days_in_past)]", "compilation_passed": true, "time": 0.28349804878234863, "tests_passed": true, "error": null}
+{"code": " np.array(", "compilation_passed": false, "time": 0.0003261566162109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [datetime.now() - timedelta(days=i) for i in range(days_in_past)]", "compilation_passed": true, "time": 0.3042721748352051, "tests_passed": true, "error": null}
+{"code": " [(datetime.now() - timedelta(days=i)).strftime('%Y-%m-%d')", "compilation_passed": false, "time": 0.0002148151397705078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [datetime.today() - timedelta(days=i)", "compilation_passed": false, "time": 0.0002930164337158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [datetime.today() - timedelta(days=x) for x in range(days_in_past)]", "compilation_passed": true, "time": 0.30001091957092285, "tests_passed": true, "error": null}
+{"code": " [(datetime.today() - timedelta(days=d)).date() for d in range(days_in_past)]", "compilation_passed": true, "time": 0.31071019172668457, "tests_passed": true, "error": null}
+{"code": " [datetime.now() + timedelta(days=-i) for i in range(days_in_past)]", "compilation_passed": true, "time": 0.2915079593658447, "tests_passed": true, "error": null}
+{"code": " [datetime.today() - timedelta(days=x) for x in range(0, days_in_past)]", "compilation_passed": true, "time": 0.2927732467651367, "tests_passed": true, "error": null}
+{"code": " [(datetime.today() - timedelta(days=i)).strftime('%Y-%m-%d')", "compilation_passed": false, "time": 0.00021696090698242188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(datetime.now() - timedelta(days=d)).date() for d in range(days_in_past)]", "compilation_passed": true, "time": 0.285078763961792, "tests_passed": true, "error": null}
+{"code": " [datetime(2024, 3, 28) + timedelta(days=x) for x in range(days_in_past)]", "compilation_passed": true, "time": 0.28619384765625, "tests_passed": true, "error": null}
+{"code": " [datetime.today() - timedelta(days=d) for d in range(days_in_past)]", "compilation_passed": true, "time": 0.29259181022644043, "tests_passed": true, "error": null}
+{"code": " [datetime(2024, 3, 28) - timedelta(i) for i in range(days_in_past)]", "compilation_passed": true, "time": 0.29331493377685547, "tests_passed": true, "error": null}
+{"code": " [datetime.today() + timedelta(days=-x) for x in range(days_in_past)]", "compilation_passed": true, "time": 0.3300480842590332, "tests_passed": true, "error": null}
+{"code": " [datetime.today() - timedelta(days=day) for day in range(0, days_in_past)]", "compilation_passed": true, "time": 0.3427877426147461, "tests_passed": true, "error": null}

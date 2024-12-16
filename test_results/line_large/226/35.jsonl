@@ -1,0 +1,4 @@
+{"code": " iter(data)", "compilation_passed": true, "time": 0.15468692779541016, "tests_passed": false, "error": "StopIteration"}
+{"code": " ((x, math.exp(x)) for x in x_values)", "compilation_passed": true, "time": 0.6420571804046631, "tests_passed": true, "error": null}
+{"code": " ((x, math.exp(x)) for x in x_values)  # Reset the generator", "compilation_passed": true, "time": 0.6811339855194092, "tests_passed": true, "error": null}
+{"code": " iter((x, math.exp(x)) for x in x_values)", "compilation_passed": true, "time": 0.6482441425323486, "tests_passed": true, "error": null}

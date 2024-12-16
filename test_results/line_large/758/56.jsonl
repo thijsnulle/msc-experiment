@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame({'Country': countries, 'Age': ages, 'Gender': encoded_genders})", "compilation_passed": false, "time": 0.0002779960632324219, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({\"Country\": countries, \"Age\": ages, \"Gender\": encoded_genders})", "compilation_passed": false, "time": 0.00026798248291015625, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({", "compilation_passed": true, "time": 0.006356954574584961, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(zip(countries, ages, encoded_genders), columns=['Country', 'Age', 'Gender'])", "compilation_passed": false, "time": 0.00028586387634277344, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Country': countries,", "compilation_passed": true, "time": 0.006067991256713867, "tests_passed": true, "error": null}

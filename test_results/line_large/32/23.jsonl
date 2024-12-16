@@ -1,0 +1,4 @@
+{"code": " BeautifulSoup(response.text, \"html.parser\")", "compilation_passed": true, "time": 0.005852937698364258, "tests_passed": true, "error": null}
+{"code": " BeautifulSoup(response.content, 'html.parser')", "compilation_passed": true, "time": 0.06617498397827148, "tests_passed": false, "error": "TypeError"}
+{"code": " BeautifulSoup(response.content, \"html.parser\")", "compilation_passed": true, "time": 0.01078033447265625, "tests_passed": false, "error": "TypeError"}
+{"code": " BeautifulSoup(response.text, 'html.parser')", "compilation_passed": true, "time": 0.0053288936614990234, "tests_passed": true, "error": null}

@@ -1,0 +1,18 @@
+{"code": " sns.heatmap(df.corr(), annot=True, cmap='cool')", "compilation_passed": true, "time": 0.3004879951477051, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.corrcoef(df.values, rowvar=False),", "compilation_passed": false, "time": 0.0002560615539550781, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.corrcoef(data_matrix, rowvar=0)", "compilation_passed": true, "time": 1.0099878311157227, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(np.corrcoef(df.T), columns=feature_columns, index=feature_columns)", "compilation_passed": true, "time": 0.010634183883666992, "tests_passed": false, "error": "ValueError"}
+{"code": " df.corr()", "compilation_passed": true, "time": 1.018775224685669, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(df.corr(method='pearson'), index=feature_columns, columns=feature_columns)", "compilation_passed": true, "time": 1.0147521495819092, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df.corr(), cmap=\"Blues\")", "compilation_passed": true, "time": 0.7063360214233398, "tests_passed": false, "error": "ValueError"}
+{"code": " np.corrcoef(df.values, rowvar=False)", "compilation_passed": true, "time": 1.0093441009521484, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(data_matrix.T, columns=feature_columns)", "compilation_passed": true, "time": 1.0106723308563232, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df, annot=True, cmap=\"seismic\", center=0, fmt=\"\", linecolor=\"white\", cbar_kws={'label': 'Correlation', 'orientation': \"vertical\"}, ax=ax)", "compilation_passed": true, "time": 0.009261846542358398, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " pd.DataFrame(np.corrcoef(df.values, rowvar=False))", "compilation_passed": true, "time": 1.0100958347320557, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(", "compilation_passed": false, "time": 0.0004849433898925781, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.corrcoef(z_scores.T)", "compilation_passed": true, "time": 1.0142450332641602, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.crosstab(df[\"Mean\"], df[\"Mean\"], normalize=\"index\")", "compilation_passed": true, "time": 1.010025978088379, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(df.corr())", "compilation_passed": true, "time": 1.0096118450164795, "tests_passed": false, "error": "TimeoutError"}
+{"code": " df.corr(method='pearson')", "compilation_passed": true, "time": 1.0103580951690674, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sns.heatmap(df.corr(), annot=True)", "compilation_passed": true, "time": 1.015657901763916, "tests_passed": false, "error": "TimeoutError"}
+{"code": " pd.DataFrame(data_matrix.T.dot(data_matrix), columns=feature_columns, index=feature_columns)", "compilation_passed": true, "time": 1.0105030536651611, "tests_passed": false, "error": "TimeoutError"}

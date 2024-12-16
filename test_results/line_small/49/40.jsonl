@@ -1,0 +1,11 @@
+{"code": " [datetime.datetime.fromtimestamp(x) for x in timestamps]", "compilation_passed": true, "time": 0.012140035629272461, "tests_passed": false, "error": "AttributeError"}
+{"code": " [datetime.fromtimestamp(timestamp) for timestamp in timestamps]", "compilation_passed": true, "time": 0.010455131530761719, "tests_passed": false, "error": "       '1970-09-25T02"}
+{"code": " [datetime.datetime.fromtimestamp(t) for t in timestamps]", "compilation_passed": true, "time": 0.011695146560668945, "tests_passed": false, "error": "AttributeError"}
+{"code": " [datetime.utcfromtimestamp(timestamp) for timestamp in timestamps]", "compilation_passed": true, "time": 0.010674238204956055, "tests_passed": false, "error": "       '1970-09-25T01"}
+{"code": " [datetime.fromtimestamp(ts) for ts in timestamps]", "compilation_passed": true, "time": 0.010353326797485352, "tests_passed": false, "error": "       '1970-09-25T02"}
+{"code": " [datetime.fromtimestamp(ts / 1000) for ts in timestamps]", "compilation_passed": true, "time": 0.010370016098022461, "tests_passed": false, "error": "       '1970-01-01T07"}
+{"code": " []", "compilation_passed": true, "time": 0.009293794631958008, "tests_passed": false, "error": "ValueError"}
+{"code": " [datetime.datetime.fromtimestamp(ts) for ts in timestamps]", "compilation_passed": true, "time": 0.011696100234985352, "tests_passed": false, "error": "AttributeError"}
+{"code": " [datetime.datetime.fromtimestamp(timestamp) for timestamp in timestamps]", "compilation_passed": true, "time": 0.01153874397277832, "tests_passed": false, "error": "AttributeError"}
+{"code": " [datetime.utcfromtimestamp(timestamp).strftime(DATE_FORMAT)", "compilation_passed": false, "time": 0.0002598762512207031, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [datetime.fromtimestamp(timestamp).strftime(DATE_FORMAT) for timestamp in timestamps]", "compilation_passed": true, "time": 0.010704278945922852, "tests_passed": false, "error": "       '1970-09-25T02"}

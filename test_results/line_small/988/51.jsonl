@@ -1,0 +1,5 @@
+{"code": " not os.path.isdir(dir_path):", "compilation_passed": true, "time": 0.01524209976196289, "tests_passed": true, "error": null}
+{"code": " not Path(dir_path).exists():", "compilation_passed": true, "time": 0.013914108276367188, "tests_passed": true, "error": null}
+{"code": " not Path(dir_path).is_dir():", "compilation_passed": true, "time": 0.013103246688842773, "tests_passed": true, "error": null}
+{"code": " not os.path.exists(dir_path):", "compilation_passed": true, "time": 0.013116836547851562, "tests_passed": true, "error": null}
+{"code": " not Path(dir_path).exists() or not Path(dir_path).is_dir():", "compilation_passed": true, "time": 0.013213872909545898, "tests_passed": true, "error": null}

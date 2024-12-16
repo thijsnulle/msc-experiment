@@ -1,0 +1,14 @@
+{"code": " pd.DataFrame(standardized_data, columns=FEATURE_NAMES)", "compilation_passed": true, "time": 0.2700178623199463, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(standardized_data, columns=FEATURE_NAMES, index=pd.RangeIndex(len(data_matrix)))", "compilation_passed": true, "time": 0.2744879722595215, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(standardized_data, columns=FEATURE_NAMES+[\"Mean\"])", "compilation_passed": true, "time": 0.010183095932006836, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(standardized_data, columns=FEATURE_NAMES, index=data_matrix.index,", "compilation_passed": false, "time": 0.00022912025451660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(standardized_data)", "compilation_passed": true, "time": 0.0614018440246582, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(standardized_data, index=data_matrix.index, columns=FEATURE_NAMES)", "compilation_passed": true, "time": 0.008206844329833984, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(standardized_data, columns=FEATURE_NAMES + [\"Mean\"])", "compilation_passed": true, "time": 0.009683847427368164, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00021195411682128906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(standardized_data, columns=FEATURE_NAMES, index=np.arange(len(standardized_data)))", "compilation_passed": true, "time": 0.2728767395019531, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_matrix, columns=FEATURE_NAMES)", "compilation_passed": true, "time": 0.05955815315246582, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=standardized_data, columns=FEATURE_NAMES + [\"Mean\"])", "compilation_passed": true, "time": 0.009165048599243164, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(standardized_data, columns=FEATURE_NAMES, index=range(data_matrix.shape[0]))", "compilation_passed": true, "time": 0.27265095710754395, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(standardized_data, columns=FEATURE_NAMES, index=range(len(data_matrix)))", "compilation_passed": true, "time": 0.2761561870574951, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(standardized_data, columns=FEATURE_NAMES, index=[\"Mean\"])", "compilation_passed": true, "time": 0.00921010971069336, "tests_passed": false, "error": "ValueError"}

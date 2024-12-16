@@ -1,0 +1,19 @@
+{"code": "name for file in zip_dir.iterdir()", "compilation_passed": true, "time": 1.016746997833252, "tests_passed": false, "error": "IndexError"}
+{"code": "name", "compilation_passed": true, "time": 1.0171940326690674, "tests_passed": false, "error": "IndexError"}
+{"code": "name for file in zip_dir.glob(\"**/*\") if file.is_file()", "compilation_passed": true, "time": 1.0194661617279053, "tests_passed": false, "error": "IndexError"}
+{"code": "stem for file in zip_dir.iterdir() if file.is_file()]", "compilation_passed": false, "time": 0.00031495094299316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "name for file in Path(zip_dir).iterdir() if file.is_file()", "compilation_passed": true, "time": 1.0169360637664795, "tests_passed": false, "error": "IndexError"}
+{"code": "relative_to(ZIP_DIR).as_posix() for file in zip_ref.filelist", "compilation_passed": true, "time": 1.0196309089660645, "tests_passed": false, "error": "IndexError"}
+{"code": "name for file in zip_dir.iterdir() if file.is_file()", "compilation_passed": true, "time": 1.0170950889587402, "tests_passed": false, "error": "IndexError"}
+{"code": "relative_to(zip_dir).as_posix()", "compilation_passed": true, "time": 1.0159287452697754, "tests_passed": false, "error": "IndexError"}
+{"code": "name for file in zip_dir.rglob(\"*\") if file.is_file()", "compilation_passed": true, "time": 1.01521897315979, "tests_passed": false, "error": "IndexError"}
+{"code": "name for file in Path(zip_dir).glob(\"*\")", "compilation_passed": true, "time": 1.0177936553955078, "tests_passed": false, "error": "IndexError"}
+{"code": "relative_to(ZIP_DIR) for file in zip_dir.iterdir()]", "compilation_passed": false, "time": 0.0002148151397705078, "tests_passed": false, "error": "SyntaxError"}
+{"code": "name for file in Path(zip_dir).iterdir()", "compilation_passed": true, "time": 1.0147981643676758, "tests_passed": false, "error": "IndexError"}
+{"code": "stem for file in zip_dir.rglob(\"*\") if file.is_file()", "compilation_passed": true, "time": 1.017437219619751, "tests_passed": false, "error": "IndexError"}
+{"code": "replace(zip_dir, \"unzipped_files\").relative_to(zip_dir)", "compilation_passed": true, "time": 1.0179939270019531, "tests_passed": false, "error": "IndexError"}
+{"code": "name for file in zip_dir.iterdir() if file.name.endswith(\".txt\")", "compilation_passed": true, "time": 1.01607084274292, "tests_passed": false, "error": "IndexError"}
+{"code": "name for file in Path(zip_dir).iterdir() if not file.name.endswith(\"/\")", "compilation_passed": true, "time": 1.0177280902862549, "tests_passed": false, "error": "IndexError"}
+{"code": "name for file in zip_dir.rglob(\"*\")", "compilation_passed": true, "time": 1.0124800205230713, "tests_passed": false, "error": "IndexError"}
+{"code": "relative_to(zip_dir).as_posix() for file in zip_ref.filelist]", "compilation_passed": false, "time": 0.00023603439331054688, "tests_passed": false, "error": "SyntaxError"}
+{"code": "relative_to(zip_dir).with_suffix('') for file in zip_ref.infolist()", "compilation_passed": true, "time": 1.0168728828430176, "tests_passed": false, "error": "IndexError"}

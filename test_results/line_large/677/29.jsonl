@@ -1,0 +1,6 @@
+{"code": " linregress(df.var1, df.var2)", "compilation_passed": true, "time": 0.008559942245483398, "tests_passed": true, "error": null}
+{"code": " linregress(df['var1'].values, df['var2'].values)", "compilation_passed": true, "time": 0.008156776428222656, "tests_passed": true, "error": null}
+{"code": " linregress(df[['var1', 'var2']].T)", "compilation_passed": true, "time": 0.010343790054321289, "tests_passed": true, "error": null}
+{"code": " linregress(df['var1'], df['var2'])", "compilation_passed": true, "time": 0.007254123687744141, "tests_passed": true, "error": null}
+{"code": " linregress(df[\"var1\"], df[\"var2\"])", "compilation_passed": true, "time": 0.006600141525268555, "tests_passed": true, "error": null}
+{"code": " linregress(df['var1'].values.flatten(), df['var2'].values.flatten())", "compilation_passed": true, "time": 0.007521152496337891, "tests_passed": true, "error": null}

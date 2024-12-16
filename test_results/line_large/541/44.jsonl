@@ -1,0 +1,7 @@
+{"code": " os.path.isdir(module_path) and os.path.exists(os.path.join(module_path, '__init__.py')):", "compilation_passed": true, "time": 0.019795894622802734, "tests_passed": true, "error": null}
+{"code": " os.path.isfile(module_path):", "compilation_passed": true, "time": 0.01569199562072754, "tests_passed": true, "error": null}
+{"code": " os.path.isdir(module_path):", "compilation_passed": true, "time": 0.018902063369750977, "tests_passed": true, "error": null}
+{"code": " os.path.exists(module_path):", "compilation_passed": true, "time": 0.01935577392578125, "tests_passed": true, "error": null}
+{"code": " os.path.isdir(module_path) and \"__init__.py\" in os.listdir(module_path):", "compilation_passed": true, "time": 0.02145671844482422, "tests_passed": true, "error": null}
+{"code": " os.path.exists(module_path) and module_name not in sys.modules:", "compilation_passed": true, "time": 0.0355987548828125, "tests_passed": true, "error": null}
+{"code": " os.path.isdir(module_path) and not module_name.startswith('_'):", "compilation_passed": true, "time": 0.020740270614624023, "tests_passed": true, "error": null}

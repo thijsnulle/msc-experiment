@@ -1,0 +1,8 @@
+{"code": " not filepath:", "compilation_passed": true, "time": 0.10162615776062012, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " filepath.strip() == \"\":", "compilation_passed": true, "time": 0.08610987663269043, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " filepath is None or filepath.strip() == '':", "compilation_passed": true, "time": 0.08243894577026367, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not filepath or not os.path.exists(filepath):", "compilation_passed": true, "time": 0.10183906555175781, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not os.path.exists(filepath):", "compilation_passed": true, "time": 0.10143494606018066, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not os.path.exists(filepath) or not filepath:", "compilation_passed": true, "time": 0.1444408893585205, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not os.path.exists(filepath) or filepath == \"\":", "compilation_passed": true, "time": 0.10412073135375977, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not os.path.isfile(filepath):", "compilation_passed": true, "time": 0.024860858917236328, "tests_passed": false, "error": "OSError"}

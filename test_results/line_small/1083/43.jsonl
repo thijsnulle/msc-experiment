@@ -1,0 +1,15 @@
+{"code": " not ('Salary_String' in data.keys() and 'Experience' in data.keys()):", "compilation_passed": true, "time": 0.05371594429016113, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, dict) or (not 'Salary_String' in data) or (not 'Experience' in data):", "compilation_passed": true, "time": 0.05766415596008301, "tests_passed": true, "error": null}
+{"code": " not data.get('Salary_String') or not data.get('Experience'):", "compilation_passed": true, "time": 0.006936073303222656, "tests_passed": false, "error": "ValueError"}
+{"code": " not (\"Salary_String\" in data and \"Experience\" in data):", "compilation_passed": true, "time": 0.056833744049072266, "tests_passed": true, "error": null}
+{"code": " 'Salary_String' not in data or 'Experience' not in data:", "compilation_passed": true, "time": 0.0561220645904541, "tests_passed": true, "error": null}
+{"code": " ('Salary_String' not in data.keys()) or ('Experience' not in data.keys()):", "compilation_passed": true, "time": 0.05711722373962402, "tests_passed": true, "error": null}
+{"code": " 'Salary_String' not in data:", "compilation_passed": true, "time": 0.07181000709533691, "tests_passed": false, "error": "KeyError"}
+{"code": " not (data and 'Salary_String' in data and 'Experience' in data):", "compilation_passed": true, "time": 0.0582120418548584, "tests_passed": true, "error": null}
+{"code": " not (", "compilation_passed": false, "time": 0.00012111663818359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not data or ('Salary_String' not in data or 'Experience' not in data):", "compilation_passed": true, "time": 0.0556941032409668, "tests_passed": true, "error": null}
+{"code": " (", "compilation_passed": false, "time": 9.417533874511719e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not all(key in data.keys() for key in ['Salary_String', 'Experience']):", "compilation_passed": true, "time": 0.05860090255737305, "tests_passed": true, "error": null}
+{"code": " ('Salary_String' not in data or 'Experience' not in data):", "compilation_passed": true, "time": 0.05677294731140137, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, dict):", "compilation_passed": true, "time": 0.07295417785644531, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(data, dict) or 'Salary_String' not in data or 'Experience' not in data:", "compilation_passed": true, "time": 0.05629396438598633, "tests_passed": true, "error": null}

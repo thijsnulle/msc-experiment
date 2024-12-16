@@ -1,0 +1,8 @@
+{"code": " os.path.join(backup_dir, os.path.basename(src_folder))", "compilation_passed": true, "time": 0.014969110488891602, "tests_passed": true, "error": null}
+{"code": " os.path.join(backup_dir, src_folder.replace('/', '_').replace('\\\\', '_'))", "compilation_passed": true, "time": 0.009279966354370117, "tests_passed": true, "error": null}
+{"code": " os.path.join(backup_dir, 'backup_' + os.path.basename(src_folder))", "compilation_passed": true, "time": 0.00789785385131836, "tests_passed": true, "error": null}
+{"code": " os.path.join(backup_dir, 'backup')", "compilation_passed": true, "time": 0.0072977542877197266, "tests_passed": true, "error": null}
+{"code": " os.path.join(backup_dir, 'backups', os.path.basename(src_folder))", "compilation_passed": true, "time": 0.007461071014404297, "tests_passed": true, "error": null}
+{"code": " os.path.join(backup_dir, src_folder.split(os.sep)[-1])", "compilation_passed": true, "time": 0.009901046752929688, "tests_passed": true, "error": null}
+{"code": " backup_dir", "compilation_passed": true, "time": 0.013241052627563477, "tests_passed": false, "error": "FileExistsError"}
+{"code": " f\"{backup_dir}/{os.path.basename(src_folder)}\"", "compilation_passed": true, "time": 0.011537790298461914, "tests_passed": true, "error": null}

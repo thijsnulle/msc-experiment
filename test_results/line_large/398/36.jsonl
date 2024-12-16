@@ -1,0 +1,4 @@
+{"code": " isinstance(data, list) and all(isinstance(item, dict) for item in data)", "compilation_passed": true, "time": 0.009854793548583984, "tests_passed": true, "error": null}
+{"code": " isinstance(data, list) and all(isinstance(obj, dict) for obj in data)", "compilation_passed": true, "time": 0.010539054870605469, "tests_passed": true, "error": null}
+{"code": " isinstance(data, list) and all(isinstance(d, dict) for d in data)", "compilation_passed": true, "time": 0.01098012924194336, "tests_passed": true, "error": null}
+{"code": " isinstance(data, list) and all(isinstance(element, dict) for element in data)", "compilation_passed": true, "time": 0.011090993881225586, "tests_passed": true, "error": null}

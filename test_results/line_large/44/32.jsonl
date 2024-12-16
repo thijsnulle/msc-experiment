@@ -1,0 +1,11 @@
+{"code": " df.fillna(df.mean())", "compilation_passed": true, "time": 0.19030189514160156, "tests_passed": true, "error": null}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.040659189224243164, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean()) # fill missing values with column mean", "compilation_passed": true, "time": 0.18539714813232422, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean()) # \u0437\u0430\u043f\u043e\u043b\u043d\u0438\u0442\u044c \u043f\u0443\u0441\u0442\u044b\u0435 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u0441\u0440\u0435\u0434\u043d\u0438\u043c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435\u043c \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u0439 \u043a\u043e\u043b\u043e\u043d\u043a\u0438", "compilation_passed": true, "time": 0.1826159954071045, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean()) # replace missing values by columns average", "compilation_passed": true, "time": 0.181901216506958, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean()) # Replace missing values with column average", "compilation_passed": true, "time": 0.18141984939575195, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean())  # fill missing values with columns' mean", "compilation_passed": true, "time": 0.1829819679260254, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: x.fillna(x.mean()) if x.dtype in ['int64', 'float64'] else x)", "compilation_passed": true, "time": 0.17801809310913086, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean())  # Replace missing values with column mean", "compilation_passed": true, "time": 0.1842639446258545, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean())  # Replace missing values with average of each column", "compilation_passed": true, "time": 0.18132710456848145, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean()) #fill na values with column means", "compilation_passed": true, "time": 0.17730188369750977, "tests_passed": true, "error": null}

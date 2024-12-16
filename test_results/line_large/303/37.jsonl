@@ -1,0 +1,30 @@
+{"code": " ((converted_date.day_of_year + years_since_moon_phase_year) / 365.25) % 1", "compilation_passed": true, "time": 0.011475086212158203, "tests_passed": false, "error": "AttributeError"}
+{"code": " (years_since_moon_phase_year + converted_date.month / 12 +", "compilation_passed": false, "time": 0.00021910667419433594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (math.sin((years_since_moon_phase_year * 360 - 45) * math.pi / 180) + 1) / 2", "compilation_passed": true, "time": 0.00209808349609375, "tests_passed": true, "error": null}
+{"code": " (1 / 7 * years_since_moon_phase_year + 1 / 2) % 1", "compilation_passed": true, "time": 0.0019199848175048828, "tests_passed": true, "error": null}
+{"code": " (1 + math.sin(years_since_moon_phase_year * 2 * math.pi / 7)) / 2", "compilation_passed": true, "time": 0.0016100406646728516, "tests_passed": true, "error": null}
+{"code": " (years_since_moon_phase_year * 12) + converted_date.month", "compilation_passed": true, "time": 0.0063629150390625, "tests_passed": true, "error": null}
+{"code": " (math.cos(2 * math.pi * years_since_moon_phase_year) + 1) / 2", "compilation_passed": true, "time": 0.0016698837280273438, "tests_passed": true, "error": null}
+{"code": " (years_since_moon_phase_year + (converted_date.month - 1) / 12 +", "compilation_passed": false, "time": 0.000244140625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " 0.5 - math.sin(2 * math.pi * years_since_moon_phase_year / 6.5) / 2", "compilation_passed": true, "time": 0.0016949176788330078, "tests_passed": true, "error": null}
+{"code": " (1 + math.sin(2 * math.pi * (years_since_moon_phase_year % 7) / 7)) / 2", "compilation_passed": true, "time": 0.0020558834075927734, "tests_passed": true, "error": null}
+{"code": " (math.sqrt(years_since_moon_phase_year) % 1) * 100 / 100", "compilation_passed": true, "time": 0.0022640228271484375, "tests_passed": true, "error": null}
+{"code": " (1 - math.sin(years_since_moon_phase_year * math.pi)) / 2", "compilation_passed": true, "time": 0.0019040107727050781, "tests_passed": true, "error": null}
+{"code": " 1 - math.sin(math.radians(360 * (years_since_moon_phase_year + converted_date.timetuple().tm_yday / 365))) / 2 + 0.5", "compilation_passed": true, "time": 0.0054416656494140625, "tests_passed": true, "error": null}
+{"code": " 0.5 + 0.5 * math.sin(2 * math.pi * years_since_moon_phase_year / 6.01)", "compilation_passed": true, "time": 0.0029180049896240234, "tests_passed": true, "error": null}
+{"code": " math.sin((2 * math.pi * years_since_moon_phase_year) / 7) + 1", "compilation_passed": true, "time": 0.00874185562133789, "tests_passed": true, "error": null}
+{"code": " (years_since_moon_phase_year * (365.2422 / 7) + converted_date.timetuple().tm_yday) % 365", "compilation_passed": true, "time": 0.005632162094116211, "tests_passed": true, "error": null}
+{"code": " 0.5 - 0.5 * math.cos(2 * math.pi * years_since_moon_phase_year / 7)", "compilation_passed": true, "time": 0.0017731189727783203, "tests_passed": true, "error": null}
+{"code": " 1 - math.sin(2 * math.pi * (years_since_moon_phase_year % 7) / 7) / 2", "compilation_passed": true, "time": 0.0056231021881103516, "tests_passed": true, "error": null}
+{"code": " ((100 * years_since_moon_phase_year + converted_date.timetuple().tm_yday) / 36500) % 1", "compilation_passed": true, "time": 0.0019538402557373047, "tests_passed": true, "error": null}
+{"code": " (years_since_moon_phase_year + converted_date.timetuple().tm_yday / 366.0) % 1", "compilation_passed": true, "time": 0.0024099349975585938, "tests_passed": true, "error": null}
+{"code": " math.fmod(years_since_moon_phase_year, 7)", "compilation_passed": true, "time": 0.0055201053619384766, "tests_passed": true, "error": null}
+{"code": " (years_since_moon_phase_year + converted_date.timetuple().tm_yday/365) % 1", "compilation_passed": true, "time": 0.0018651485443115234, "tests_passed": true, "error": null}
+{"code": " 1 - math.cos(2 * math.pi * (years_since_moon_phase_year % 7) / 7) / 2", "compilation_passed": true, "time": 0.007456779479980469, "tests_passed": true, "error": null}
+{"code": " (converted_date.year % 7 * 12 + converted_date.month * 12 / 12 + converted_date.day - years_since_moon_phase_year * 365) / 73", "compilation_passed": true, "time": 0.005303859710693359, "tests_passed": true, "error": null}
+{"code": " (math.cos(2*math.pi*years_since_moon_phase_year/7) + 1)/2", "compilation_passed": true, "time": 0.0017490386962890625, "tests_passed": true, "error": null}
+{"code": " (years_since_moon_phase_year + converted_date.month / 12 + converted_date.day / 365 + converted_date.hour / (365 * 24) + converted_date.minute / (365 * 24 * 60) + converted_date.second / (365 * 24 * 60 * 60)) % 1", "compilation_passed": true, "time": 0.0018091201782226562, "tests_passed": true, "error": null}
+{"code": " (years_since_moon_phase_year + converted_date.timetuple().tm_yday / 365.24219) % 1", "compilation_passed": true, "time": 0.0020799636840820312, "tests_passed": true, "error": null}
+{"code": " (1 / 7) * (years_since_moon_phase_year + converted_date.timetuple().tm_yday / 365) % 1", "compilation_passed": true, "time": 0.0016939640045166016, "tests_passed": true, "error": null}
+{"code": " (years_since_moon_phase_year + converted_date.timetuple().tm_yday / 365) % 7 / 7", "compilation_passed": true, "time": 0.0017452239990234375, "tests_passed": true, "error": null}
+{"code": " 1 - (years_since_moon_phase_year / 7 % 1)", "compilation_passed": true, "time": 0.0018749237060546875, "tests_passed": true, "error": null}

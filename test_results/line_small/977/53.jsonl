@@ -1,0 +1,19 @@
+{"code": "features if features else list(range(1, array.shape[1] + 1)),", "compilation_passed": true, "time": 0.43904590606689453, "tests_passed": true, "error": null}
+{"code": "features,", "compilation_passed": true, "time": 0.14781999588012695, "tests_passed": false, "error": "TypeError"}
+{"code": "features if features is not None else list(map(str, range(1, array.shape[1] + 1))),", "compilation_passed": true, "time": 0.40470027923583984, "tests_passed": true, "error": null}
+{"code": "features if features is not None else [f\"X{i+1}\" for i in range(array.shape[1])],", "compilation_passed": true, "time": 0.23606610298156738, "tests_passed": true, "error": null}
+{"code": "features if features else np.array([f\"c{i+1}\" for i in range(array.shape[1])]),", "compilation_passed": true, "time": 0.21577811241149902, "tests_passed": true, "error": null}
+{"code": "features if features is not None else np.array([f\"{i}\" for i in range(1, array.shape[1] + 1)]),", "compilation_passed": true, "time": 0.487947940826416, "tests_passed": true, "error": null}
+{"code": "features if features else ['Column {}'.format(i + 1) for i in range(len(array.T))],", "compilation_passed": true, "time": 0.2274761199951172, "tests_passed": true, "error": null}
+{"code": "features if features is not None else None,", "compilation_passed": true, "time": 0.17691874504089355, "tests_passed": false, "error": "TypeError"}
+{"code": "features if features else np.arange(1, array.shape[1] + 1),", "compilation_passed": true, "time": 0.4788210391998291, "tests_passed": true, "error": null}
+{"code": "features if features is not None else range(1, array.shape[1] + 1),", "compilation_passed": true, "time": 0.4169018268585205, "tests_passed": true, "error": null}
+{"code": "features if features else range(1, array.shape[1] + 1),", "compilation_passed": true, "time": 0.386152982711792, "tests_passed": true, "error": null}
+{"code": "features if features is not None else list(range(1, array.shape[1] + 1)),", "compilation_passed": true, "time": 0.42100095748901367, "tests_passed": true, "error": null}
+{"code": "features or ['A', 'B', 'C', 'D', 'E'],", "compilation_passed": true, "time": 0.2750511169433594, "tests_passed": true, "error": null}
+{"code": "features if features is not None else [f\"column {i}\" for i in range(1, array.shape[1] + 1)],", "compilation_passed": true, "time": 0.24541091918945312, "tests_passed": true, "error": null}
+{"code": "features if features is not None else [f\"Column {i + 1}\" for i in range(array.shape[1])],", "compilation_passed": true, "time": 0.22552275657653809, "tests_passed": true, "error": null}
+{"code": "features if features is not None else [f\"col {i + 1}\" for i in range(array.shape[1])],", "compilation_passed": true, "time": 0.22437000274658203, "tests_passed": true, "error": null}
+{"code": "features if features is not None else f\"{array.shape[1]+1} features\",", "compilation_passed": true, "time": 0.22734379768371582, "tests_passed": true, "error": null}
+{"code": "features if features else list(map(str, range(1, array.shape[1] + 1))),", "compilation_passed": true, "time": 0.46639108657836914, "tests_passed": true, "error": null}
+{"code": "features if features else [str(i + 1) for i in range(array.shape[1])],", "compilation_passed": true, "time": 0.46309685707092285, "tests_passed": true, "error": null}

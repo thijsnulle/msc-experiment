@@ -1,0 +1,6 @@
+{"code": " [word[i:i+2] for i in range(len(word)-1)]", "compilation_passed": true, "time": 0.0056760311126708984, "tests_passed": true, "error": null}
+{"code": " [word[i:i+2] for i in range(len(word) - 1)]", "compilation_passed": true, "time": 0.005464792251586914, "tests_passed": true, "error": null}
+{"code": " [''.join(x) for x in itertools.permutations(word, 2)]", "compilation_passed": true, "time": 0.009977102279663086, "tests_passed": true, "error": null}
+{"code": " [word[i:i+2] for i in range(len(word))]", "compilation_passed": true, "time": 0.005384922027587891, "tests_passed": true, "error": null}
+{"code": " [''.join(x) for x in itertools.combinations(word, 2)]", "compilation_passed": true, "time": 0.010680913925170898, "tests_passed": true, "error": null}
+{"code": " [''.join(x) for x in zip(word, word[1:])]", "compilation_passed": true, "time": 0.005391120910644531, "tests_passed": true, "error": null}

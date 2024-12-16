@@ -1,0 +1,26 @@
+{"code": " [np.sum(repetitions[:i + 1]) for i in range(len(letters))]", "compilation_passed": true, "time": 0.03361201286315918, "tests_passed": true, "error": null}
+{"code": " np.asarray(repetitions)", "compilation_passed": true, "time": 0.08740091323852539, "tests_passed": true, "error": null}
+{"code": " np.array([repetitions.count(x) for x in letters])", "compilation_passed": true, "time": 0.033383846282958984, "tests_passed": true, "error": null}
+{"code": " [repetitions.count(l) for l in letters]", "compilation_passed": true, "time": 0.03613781929016113, "tests_passed": true, "error": null}
+{"code": " [letters.count(i) for i in letters]", "compilation_passed": true, "time": 0.033091068267822266, "tests_passed": true, "error": null}
+{"code": " np.array([np.count_nonzero(letter == letter_rep) for letter_rep in letters])", "compilation_passed": true, "time": 0.009581804275512695, "tests_passed": false, "error": "NameError"}
+{"code": " np.array([np.sum(repetitions[0:i+1]) for i in range(len(letters))])", "compilation_passed": true, "time": 0.03436398506164551, "tests_passed": true, "error": null}
+{"code": " [repetitions.count(i) for i in np.unique(repetitions)]", "compilation_passed": true, "time": 0.033735036849975586, "tests_passed": true, "error": null}
+{"code": " np.array(list(map(lambda x: repetitions.count(x), letters)))", "compilation_passed": true, "time": 0.03354501724243164, "tests_passed": true, "error": null}
+{"code": " np.array(repetitions)", "compilation_passed": true, "time": 0.0862112045288086, "tests_passed": true, "error": null}
+{"code": " [0] * len(letters)", "compilation_passed": true, "time": 0.0356748104095459, "tests_passed": true, "error": null}
+{"code": " [repetitions[i] for i in range(len(letters)) if repetitions[i] != 0]", "compilation_passed": true, "time": 0.08866715431213379, "tests_passed": true, "error": null}
+{"code": " np.array([np.count_nonzero(letters == letter) for letter in letters])", "compilation_passed": true, "time": 0.03410601615905762, "tests_passed": true, "error": null}
+{"code": " [repetitions.count(n) for n in letters]", "compilation_passed": true, "time": 0.03316307067871094, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.038717031478881836, "tests_passed": false, "error": "ValueError"}
+{"code": " [repetitions[i] for i in range(len(letters))]", "compilation_passed": true, "time": 0.0879662036895752, "tests_passed": true, "error": null}
+{"code": " [sum(1 for item in repetitions if item == letter) for letter in letters]", "compilation_passed": true, "time": 0.03258800506591797, "tests_passed": true, "error": null}
+{"code": " np.array([repetitions.count(letter) for letter in letters])", "compilation_passed": true, "time": 0.033104896545410156, "tests_passed": true, "error": null}
+{"code": " np.array([np.sum(repetitions == letter) for letter in letters])", "compilation_passed": true, "time": 0.034651994705200195, "tests_passed": true, "error": null}
+{"code": " [repetitions.count(i) for i in range(1, len(letters) + 1)]", "compilation_passed": true, "time": 0.03673815727233887, "tests_passed": true, "error": null}
+{"code": " [np.sum([letter == letter_ in repetitions for letter in letters]) for letter_ in letters]", "compilation_passed": true, "time": 0.03288578987121582, "tests_passed": true, "error": null}
+{"code": " [repetitions.count(i) for i in set(repetitions)]", "compilation_passed": true, "time": 0.03511381149291992, "tests_passed": true, "error": null}
+{"code": " np.array([repetitions])", "compilation_passed": true, "time": 0.032675743103027344, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([repetitions]).T", "compilation_passed": true, "time": 0.03381204605102539, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([letters.count(letter) for letter in letters])", "compilation_passed": true, "time": 0.03463864326477051, "tests_passed": true, "error": null}
+{"code": " np.array([repetitions.count(i) for i in letters])", "compilation_passed": true, "time": 0.03235912322998047, "tests_passed": true, "error": null}

@@ -1,0 +1,11 @@
+{"code": " min(combinations(points, 2), key=lambda pair: math.dist(pair[0], pair[1]))", "compilation_passed": true, "time": 0.10538077354431152, "tests_passed": true, "error": null}
+{"code": " None", "compilation_passed": true, "time": 0.011128664016723633, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda p: math.dist(p[0], p[1]))", "compilation_passed": true, "time": 0.10859537124633789, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda pair: math.sqrt((pair[0][0] - pair[1][0]) ** 2 + (pair[0][1] - pair[1][1]) ** 2))", "compilation_passed": true, "time": 0.2639479637145996, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda p: math.sqrt((p[0][0] - p[1][0]) ** 2 + (p[0][1] - p[1][1]) ** 2))", "compilation_passed": true, "time": 0.25582385063171387, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda p: math.hypot(p[0][0] - p[1][0], p[0][1] - p[1][1]))", "compilation_passed": true, "time": 0.1656339168548584, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda pair: math.dist(*pair))", "compilation_passed": true, "time": 0.08172488212585449, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda p: math.sqrt((p[0][0] - p[1][0])**2 + (p[0][1] - p[1][1])**2))", "compilation_passed": true, "time": 0.2525460720062256, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda p: math.hypot(p[0][0]-p[1][0], p[0][1]-p[1][1]))", "compilation_passed": true, "time": 0.16347789764404297, "tests_passed": true, "error": null}
+{"code": " min(combinations(points, 2), key=lambda pair: distance(*pair))", "compilation_passed": true, "time": 0.010461091995239258, "tests_passed": false, "error": "NameError"}
+{"code": " min(combinations(points, 2), key=lambda pair: math.sqrt((pair[0][0] - pair[1][0])**2 + (pair[0][1] - pair[1][1])**2))", "compilation_passed": true, "time": 0.24210476875305176, "tests_passed": true, "error": null}

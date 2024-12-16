@@ -1,0 +1,12 @@
+{"code": " []", "compilation_passed": true, "time": 0.008787870407104492, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(random.randint(0, 100), index=date_range, columns=['series_1', 'series_2', 'series_3'])", "compilation_passed": true, "time": 0.14861297607421875, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, 100) for _ in date_range]", "compilation_passed": true, "time": 0.008411169052124023, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(index=date_range)", "compilation_passed": true, "time": 0.5217883586883545, "tests_passed": true, "error": null}
+{"code": " [[random.randint(0, 100) for _ in range(num_series)] for _ in range(len(date_range))]", "compilation_passed": true, "time": 0.008587837219238281, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(index=date_range, columns=[f\"series_{n+1}\" for n in range(num_series)])", "compilation_passed": true, "time": 0.5471470355987549, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0002899169921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [[random.randint(0, 100) for _ in range(num_series)] for _ in date_range]", "compilation_passed": true, "time": 0.009035110473632812, "tests_passed": false, "error": "TypeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.5144119262695312, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.0002760887145996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [random.randint(0, 100) for _ in range(len(date_range))]", "compilation_passed": true, "time": 0.008619070053100586, "tests_passed": false, "error": "TypeError"}
+{"code": " [{", "compilation_passed": false, "time": 0.0003190040588378906, "tests_passed": false, "error": "SyntaxError"}

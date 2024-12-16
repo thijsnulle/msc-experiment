@@ -1,0 +1,14 @@
+{"code": " path.is_file() and re.search(file_pattern, path.name):", "compilation_passed": true, "time": 0.02925395965576172, "tests_passed": true, "error": null}
+{"code": " path.name.endswith('.exe'):", "compilation_passed": true, "time": 0.01776409149169922, "tests_passed": true, "error": null}
+{"code": " re.search(file_pattern, path.name):", "compilation_passed": true, "time": 0.023272991180419922, "tests_passed": true, "error": null}
+{"code": " re.search(file_pattern, path.name) and not path.is_dir():", "compilation_passed": true, "time": 0.022181034088134766, "tests_passed": true, "error": null}
+{"code": " re.match(file_pattern, path.name):", "compilation_passed": true, "time": 0.02296924591064453, "tests_passed": true, "error": null}
+{"code": " path.is_file() and re.match(file_pattern, path.stem):", "compilation_passed": true, "time": 0.024970054626464844, "tests_passed": true, "error": null}
+{"code": " path.is_file() and re.match(file_pattern, path.name):", "compilation_passed": true, "time": 0.023624897003173828, "tests_passed": true, "error": null}
+{"code": " path.name.match(file_pattern):", "compilation_passed": true, "time": 0.011024236679077148, "tests_passed": false, "error": "AttributeError"}
+{"code": " path.is_file() and path.name.startswith(file_pattern):", "compilation_passed": true, "time": 0.026894807815551758, "tests_passed": true, "error": null}
+{"code": " path.is_file() and path.stem.lower().search(file_pattern):", "compilation_passed": true, "time": 0.016839027404785156, "tests_passed": false, "error": "AttributeError"}
+{"code": " path.is_file() and re.search(file_pattern, str(path)):", "compilation_passed": true, "time": 0.022133827209472656, "tests_passed": true, "error": null}
+{"code": " re.search(file_pattern, str(path)):", "compilation_passed": true, "time": 0.02165508270263672, "tests_passed": true, "error": null}
+{"code": " re.match(file_pattern, str(path)):", "compilation_passed": true, "time": 0.02624201774597168, "tests_passed": true, "error": null}
+{"code": " path.is_file():", "compilation_passed": true, "time": 0.02037978172302246, "tests_passed": true, "error": null}

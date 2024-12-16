@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.516876220703125, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data['data'])", "compilation_passed": true, "time": 0.01649308204650879, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame.from_dict(data['data'])", "compilation_passed": true, "time": 0.014403820037841797, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.json_normalize(data)", "compilation_passed": true, "time": 0.019353151321411133, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.json_normalize(data['data'])", "compilation_passed": true, "time": 0.012458086013793945, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.json_normalize(data, errors='raise')", "compilation_passed": true, "time": 0.013794898986816406, "tests_passed": false, "error": "ValueError"}

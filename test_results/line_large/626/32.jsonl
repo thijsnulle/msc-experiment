@@ -1,0 +1,6 @@
+{"code": " parse(date_str)", "compilation_passed": true, "time": 0.004791975021362305, "tests_passed": true, "error": null}
+{"code": " parse(date_str).replace(tzinfo=from_tz)", "compilation_passed": true, "time": 0.004817008972167969, "tests_passed": true, "error": null}
+{"code": " from_tz.localize(parse(date_str))", "compilation_passed": true, "time": 0.005045175552368164, "tests_passed": true, "error": null}
+{"code": " parse(date_str).astimezone(from_tz)", "compilation_passed": true, "time": 0.004801034927368164, "tests_passed": true, "error": null}
+{"code": " parse(date_str, ignoretz=False).replace(tzinfo=from_tz)", "compilation_passed": true, "time": 0.004766225814819336, "tests_passed": true, "error": null}
+{"code": " parse(date_str, ignoretz=True)  # Convert datetime string to datetime object", "compilation_passed": true, "time": 0.004848003387451172, "tests_passed": true, "error": null}

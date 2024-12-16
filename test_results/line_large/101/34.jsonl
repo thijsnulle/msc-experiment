@@ -1,0 +1,5 @@
+{"code": "rc('font', **font)", "compilation_passed": true, "time": 1.0117180347442627, "tests_passed": false, "error": "ValueError"}
+{"code": "rcParams['font.family'] = 'sans-serif'", "compilation_passed": true, "time": 1.010310173034668, "tests_passed": false, "error": "ValueError"}
+{"code": "rcParams['font.family'] = font['sans-serif']", "compilation_passed": true, "time": 1.0089631080627441, "tests_passed": false, "error": "ValueError"}
+{"code": "rcParams.update(font)", "compilation_passed": true, "time": 0.011766910552978516, "tests_passed": false, "error": "ValueError"}
+{"code": "rcParams['font.sans-serif'] = ['Arial']", "compilation_passed": true, "time": 1.0107536315917969, "tests_passed": false, "error": "ValueError"}

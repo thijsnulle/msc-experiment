@@ -1,0 +1,13 @@
+{"code": " subprocess.Popen(file_path)", "compilation_passed": true, "time": 0.003715038299560547, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(file_path, cwd=directory, shell=True)", "compilation_passed": true, "time": 0.004237174987792969, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(file_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.004464864730834961, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(file_path, creationflags=subprocess.CREATE_NEW_CONSOLE)", "compilation_passed": true, "time": 0.0051538944244384766, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([file_path])", "compilation_passed": true, "time": 0.0066111087799072266, "tests_passed": true, "error": null}
+{"code": " subprocess.run([file_path], capture_output=True, shell=True)", "compilation_passed": true, "time": 0.006803989410400391, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(file_path, shell=True)", "compilation_passed": true, "time": 0.00370025634765625, "tests_passed": true, "error": null}
+{"code": " subprocess.run([file_path], timeout=15)", "compilation_passed": true, "time": 0.006618976593017578, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(file_path, cwd=directory, creationflags=subprocess.CREATE_NEW_CONSOLE)", "compilation_passed": true, "time": 0.0049250125885009766, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(file_path, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.0037369728088378906, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen(file_path, cwd=directory)", "compilation_passed": true, "time": 0.0045528411865234375, "tests_passed": true, "error": null}
+{"code": " subprocess.Popen([file_path], creationflags=subprocess.CREATE_NEW_CONSOLE)", "compilation_passed": true, "time": 0.005482912063598633, "tests_passed": true, "error": null}
+{"code": " subprocess.run([file_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.006779909133911133, "tests_passed": true, "error": null}

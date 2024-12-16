@@ -1,0 +1,15 @@
+{"code": " [len(i) for i in words]", "compilation_passed": true, "time": 0.08893060684204102, "tests_passed": true, "error": null}
+{"code": " [len(w) for w in words if len(w) != 0]", "compilation_passed": true, "time": 0.4087190628051758, "tests_passed": true, "error": null}
+{"code": " {word: words.count(word) for word in words if word}", "compilation_passed": true, "time": 0.1546170711517334, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.2155752182006836, "tests_passed": true, "error": null}
+{"code": " [len(word) for word in words]", "compilation_passed": true, "time": 0.08534407615661621, "tests_passed": true, "error": null}
+{"code": " [len(w) for w in words]", "compilation_passed": true, "time": 0.08689689636230469, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.11707115173339844, "tests_passed": true, "error": null}
+{"code": " [len(word) for word in words if word != '']", "compilation_passed": true, "time": 0.38893795013427734, "tests_passed": true, "error": null}
+{"code": " [len(word) for word in words if len(word) != 0]", "compilation_passed": true, "time": 0.44603896141052246, "tests_passed": true, "error": null}
+{"code": " Counter(words)", "compilation_passed": true, "time": 0.008375883102416992, "tests_passed": false, "error": "NameError"}
+{"code": " [len(word) for word in words if word.isalpha()]", "compilation_passed": true, "time": 0.44171595573425293, "tests_passed": true, "error": null}
+{"code": " {word: words.count(word) for word in set(words) if word != ''}", "compilation_passed": true, "time": 0.1571178436279297, "tests_passed": false, "error": "AttributeError"}
+{"code": " [len(word) for word in words if word]  # ignore empty strings", "compilation_passed": true, "time": 0.41903209686279297, "tests_passed": true, "error": null}
+{"code": " [len(word) for word in words if word.strip() != \"\"]", "compilation_passed": true, "time": 0.42733192443847656, "tests_passed": true, "error": null}
+{"code": " [len(word) for word in words if word.strip()]", "compilation_passed": true, "time": 0.4456031322479248, "tests_passed": true, "error": null}

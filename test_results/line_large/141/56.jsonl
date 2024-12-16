@@ -1,0 +1,13 @@
+{"code": " {col: np.random.randint(1, 101, size=rows) for col in columns}", "compilation_passed": true, "time": 0.008843183517456055, "tests_passed": true, "error": null}
+{"code": " {column: np.random.randint(1, 101, rows) for column in columns}", "compilation_passed": true, "time": 0.009008169174194336, "tests_passed": true, "error": null}
+{"code": " {column: np.random.randint(1, 101, size=rows) for column in columns}", "compilation_passed": true, "time": 0.011053085327148438, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=1, high=100, size=(rows, len(columns)))", "compilation_passed": true, "time": 0.005738019943237305, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.014058113098144531, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " {column: np.random.randint(low=1, high=101, size=rows) for column in columns}", "compilation_passed": true, "time": 0.010270357131958008, "tests_passed": true, "error": null}
+{"code": " {col: np.random.randint(1, 100, size=rows) for col in columns}", "compilation_passed": true, "time": 0.008389949798583984, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, 101, size=(rows, len(columns)))", "compilation_passed": true, "time": 0.006012916564941406, "tests_passed": true, "error": null}
+{"code": " {col: np.random.randint(low=1, high=101, size=rows) for col in columns}", "compilation_passed": true, "time": 0.008995771408081055, "tests_passed": true, "error": null}
+{"code": " {col: np.random.randint(1, 101, rows) for col in columns}", "compilation_passed": true, "time": 0.008276224136352539, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, 100, size=(rows, len(columns)))", "compilation_passed": true, "time": 0.005790233612060547, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=1, high=101, size=(rows, len(columns)))", "compilation_passed": true, "time": 0.005838871002197266, "tests_passed": true, "error": null}
+{"code": " {'A': np.random.randint(low=1, high=101, size=rows),", "compilation_passed": false, "time": 0.00019884109497070312, "tests_passed": false, "error": "SyntaxError"}

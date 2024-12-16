@@ -1,0 +1,6 @@
+{"code": " {k: sum(v) / len(v) for k, v in combined_dict.items()}", "compilation_passed": true, "time": 0.4874460697174072, "tests_passed": true, "error": null}
+{"code": " {k: sum(v)/len(v) for k, v in combined_dict.items()}", "compilation_passed": true, "time": 0.4815490245819092, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.01855301856994629, "tests_passed": false, "error": "ValueError"}
+{"code": " []", "compilation_passed": true, "time": 0.018584012985229492, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(k, sum(v)/len(v)) for k, v in combined_dict.items()]", "compilation_passed": true, "time": 0.019140005111694336, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(k, sum(v) / len(v)) for k, v in combined_dict.items()]", "compilation_passed": true, "time": 0.018632888793945312, "tests_passed": false, "error": "AttributeError"}

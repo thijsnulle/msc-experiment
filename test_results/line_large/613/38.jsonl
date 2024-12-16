@@ -1,0 +1,12 @@
+{"code": " {team: max(goals[team] - penalties[team], GOALS_RANGE[0]) if team in goals and team in penalties else", "compilation_passed": false, "time": 0.0005619525909423828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.23219990730285645, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.00015687942504882812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {}", "compilation_passed": true, "time": 0.007823944091796875, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}  # initialize empty dictionary to store score values", "compilation_passed": true, "time": 0.016010284423828125, "tests_passed": false, "error": "AttributeError"}
+{"code": " {team: max(min(goals[team] - penalties[team], 10), -10) for team in TEAMS}", "compilation_passed": true, "time": 0.01616501808166504, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'Team': [], 'Score': []}", "compilation_passed": true, "time": 0.014806032180786133, "tests_passed": false, "error": "AttributeError"}
+{"code": " [{", "compilation_passed": false, "time": 0.00020003318786621094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(team, goals.get(team, 0) - penalties.get(team, 0)) for team in TEAMS]", "compilation_passed": true, "time": 0.0796518325805664, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=['Team', 'Score'])", "compilation_passed": true, "time": 0.010591983795166016, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}  # Initialize a dictionary to store team scores", "compilation_passed": true, "time": 0.008246898651123047, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'Team': TEAMS, 'Score': []}", "compilation_passed": true, "time": 0.010593891143798828, "tests_passed": false, "error": "AttributeError"}

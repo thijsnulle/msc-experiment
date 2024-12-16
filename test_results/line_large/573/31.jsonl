@@ -1,0 +1,12 @@
+{"code": " df.plot.bar()", "compilation_passed": true, "time": 0.20813488960266113, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(rot=0)", "compilation_passed": true, "time": 0.23587608337402344, "tests_passed": true, "error": null}
+{"code": " df.plot.barh()", "compilation_passed": true, "time": 0.21969199180603027, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='bar', figsize=(10, 6))", "compilation_passed": true, "time": 0.220505952835083, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='bar', figsize=(10, 5))", "compilation_passed": true, "time": 0.22652816772460938, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='bar', rot=0)", "compilation_passed": true, "time": 0.23556089401245117, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='bar', title='Statistics', ylabel='Value')", "compilation_passed": true, "time": 0.22627019882202148, "tests_passed": true, "error": null}
+{"code": " df.plot.barh(title='Array Statistics', color='red')", "compilation_passed": true, "time": 0.21438097953796387, "tests_passed": true, "error": null}
+{"code": " df.plot.barh(title=\"Statistics of Random Arrays\", legend=False, xlabel='Values', ylabel='Statistic',", "compilation_passed": false, "time": 0.0002980232238769531, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot.bar(rot=0, title='Array Statistics', ylabel='Value', xlabel='Statistics')", "compilation_passed": true, "time": 0.2113940715789795, "tests_passed": true, "error": null}
+{"code": " df.plot.barh(title=\"Array Statistics\")", "compilation_passed": true, "time": 0.234755277633667, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='bar', title='Statistics Comparison', ylabel='Value', xlabel='Array')", "compilation_passed": true, "time": 0.227827787399292, "tests_passed": true, "error": null}

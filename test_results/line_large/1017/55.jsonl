@@ -1,0 +1,15 @@
+{"code": " [", "compilation_passed": false, "time": 0.00034689903259277344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [f\"{lines[0]}\\n\"]", "compilation_passed": true, "time": 0.4066438674926758, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.4081549644470215, "tests_passed": true, "error": null}
+{"code": " [lines[0].strip()]", "compilation_passed": true, "time": 0.4280838966369629, "tests_passed": true, "error": null}
+{"code": " [f\"{line}\" for line in lines if line.strip()]", "compilation_passed": true, "time": 0.4269270896911621, "tests_passed": true, "error": null}
+{"code": " [f\"{' '.join(line.split())}\" for line in lines]", "compilation_passed": true, "time": 0.43056488037109375, "tests_passed": true, "error": null}
+{"code": " [\"{:10}{:10}{:10}{:10}{:10}\".format(*line.split()) for line in lines if line.strip()]", "compilation_passed": true, "time": 0.12673473358154297, "tests_passed": false, "error": "IndexError"}
+{"code": " [f\"{line}\\n\" for line in lines if not line.startswith(\"precision\")]", "compilation_passed": true, "time": 0.4313070774078369, "tests_passed": true, "error": null}
+{"code": " [f\"{line.strip():<25}{value}\" for line, value in zip(lines, lines[1:])]", "compilation_passed": true, "time": 0.4100980758666992, "tests_passed": true, "error": null}
+{"code": " [lines[0]] + lines[2:-3]", "compilation_passed": true, "time": 0.4042949676513672, "tests_passed": true, "error": null}
+{"code": " [\"\", \"\"]", "compilation_passed": true, "time": 0.40746331214904785, "tests_passed": true, "error": null}
+{"code": " [f\"{line}\" for line in lines]", "compilation_passed": true, "time": 0.4081268310546875, "tests_passed": true, "error": null}
+{"code": " [lines[0]]", "compilation_passed": true, "time": 0.4046359062194824, "tests_passed": true, "error": null}
+{"code": " [\"class\", \"precision\", \"recall\", \"f1-score\", \"support\"]", "compilation_passed": true, "time": 0.40613508224487305, "tests_passed": true, "error": null}
+{"code": " [f\"{line} | {line.count('    ')}\" for line in lines]", "compilation_passed": true, "time": 0.4085991382598877, "tests_passed": true, "error": null}

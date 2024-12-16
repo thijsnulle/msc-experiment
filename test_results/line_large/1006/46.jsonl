@@ -1,0 +1,8 @@
+{"code": " response.headers.get('content-type') != 'application/zip':", "compilation_passed": true, "time": 0.012823104858398438, "tests_passed": true, "error": null}
+{"code": " response.headers['content-type'] != 'application/zip':", "compilation_passed": true, "time": 0.016258955001831055, "tests_passed": false, "error": "KeyError"}
+{"code": " response.headers['Content-Type'] == 'application/zip':", "compilation_passed": true, "time": 0.008108854293823242, "tests_passed": true, "error": null}
+{"code": " response.headers.get('Content-Type') != 'application/zip':", "compilation_passed": true, "time": 0.00828099250793457, "tests_passed": true, "error": null}
+{"code": " 'application/zip' not in response.headers['content-type']:", "compilation_passed": true, "time": 0.012780904769897461, "tests_passed": false, "error": "KeyError"}
+{"code": " response.headers['Content-Type'] != 'application/zip':", "compilation_passed": true, "time": 0.008224010467529297, "tests_passed": true, "error": null}
+{"code": " response.headers.get('content-type', '') != 'application/zip':", "compilation_passed": true, "time": 0.013838052749633789, "tests_passed": true, "error": null}
+{"code": " \"application/zip\" not in response.headers.get(\"Content-Type\", \"\"):", "compilation_passed": true, "time": 0.007459878921508789, "tests_passed": true, "error": null}

@@ -1,0 +1,16 @@
+{"code": " not all(isinstance(i, int) for i in numbers):", "compilation_passed": true, "time": 0.0085601806640625, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(num, int) for num in numbers):", "compilation_passed": true, "time": 0.0054149627685546875, "tests_passed": true, "error": null}
+{"code": " not isinstance(numbers, list) or not all(isinstance(num, int) for num in numbers):", "compilation_passed": true, "time": 0.0018839836120605469, "tests_passed": true, "error": null}
+{"code": " not isinstance(numbers, list) or not all(isinstance(x, int) for x in numbers):", "compilation_passed": true, "time": 0.0018329620361328125, "tests_passed": true, "error": null}
+{"code": " not isinstance(numbers, list):", "compilation_passed": true, "time": 0.0019519329071044922, "tests_passed": true, "error": null}
+{"code": " not numbers:", "compilation_passed": true, "time": 0.007652759552001953, "tests_passed": false, "error": "TypeError"}
+{"code": " not all(isinstance(x, int) for x in numbers):", "compilation_passed": true, "time": 0.005337953567504883, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(n, int) for n in numbers):", "compilation_passed": true, "time": 0.005833864212036133, "tests_passed": true, "error": null}
+{"code": " not isinstance(numbers, list) or not all(isinstance(num, int)", "compilation_passed": false, "time": 0.00013208389282226562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not (isinstance(numbers, list) and numbers):", "compilation_passed": true, "time": 0.009294748306274414, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(numbers, list) or not all(", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " numbers is not None and not isinstance(numbers, list):", "compilation_passed": true, "time": 0.0017650127410888672, "tests_passed": true, "error": null}
+{"code": " not all([isinstance(number, int) for number in numbers]):", "compilation_passed": true, "time": 0.005800008773803711, "tests_passed": true, "error": null}
+{"code": " numbers is None:", "compilation_passed": true, "time": 0.005060911178588867, "tests_passed": true, "error": null}
+{"code": " not isinstance(numbers, list) or not all(isinstance(n, int) for n in numbers):", "compilation_passed": true, "time": 0.0018742084503173828, "tests_passed": true, "error": null}
+{"code": " not isinstance(numbers, list) or any(not isinstance(num, int) for num in numbers):", "compilation_passed": true, "time": 0.0018372535705566406, "tests_passed": true, "error": null}

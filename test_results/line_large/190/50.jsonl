@@ -1,0 +1,22 @@
+{"code": "execute('DROP TABLE IF EXISTS {}'.format(TABLE_NAME))  # Drop the table if it exists", "compilation_passed": true, "time": 0.02684473991394043, "tests_passed": true, "error": null}
+{"code": "execute(f\"DROP TABLE IF EXISTS {TABLE_NAME}\")  # Create a new table or replace the existing one", "compilation_passed": true, "time": 0.02800607681274414, "tests_passed": true, "error": null}
+{"code": "execute(f'CREATE TABLE IF NOT EXISTS {TABLE_NAME} ({\", \".join(cols)})')", "compilation_passed": true, "time": 0.013425111770629883, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(f'DROP TABLE IF EXISTS {TABLE_NAME}')  # Create a new table if it exists", "compilation_passed": true, "time": 0.024565935134887695, "tests_passed": true, "error": null}
+{"code": "execute(f\"CREATE TABLE IF NOT EXISTS {TABLE_NAME} (id integer PRIMARY KEY)\" +", "compilation_passed": false, "time": 0.00028896331787109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute('CREATE TABLE IF NOT EXISTS ' + TABLE_NAME + ' (' + ','.join(cols) + ')')  # Create a new table", "compilation_passed": true, "time": 0.012665748596191406, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(f\"CREATE TABLE IF NOT EXISTS {TABLE_NAME}({','.join(cols)})\")", "compilation_passed": true, "time": 0.012272834777832031, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(f\"\"\"", "compilation_passed": false, "time": 0.00031685829162597656, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute('CREATE TABLE IF NOT EXISTS {} ({})'.format(TABLE_NAME, ' TEXT, '.join(cols) + ' TEXT'))", "compilation_passed": true, "time": 0.012180328369140625, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(\"DROP TABLE IF EXISTS {}\".format(TABLE_NAME))", "compilation_passed": true, "time": 0.026400089263916016, "tests_passed": true, "error": null}
+{"code": "execute(f'CREATE TABLE IF NOT EXISTS {TABLE_NAME} ({\", \".join([col + \" TEXT\" for col in cols])})')", "compilation_passed": true, "time": 0.01229095458984375, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(f\"DROP TABLE IF EXISTS {TABLE_NAME}\")", "compilation_passed": true, "time": 0.024164915084838867, "tests_passed": true, "error": null}
+{"code": "execute(f\"DROP TABLE IF EXISTS {TABLE_NAME};\")", "compilation_passed": true, "time": 0.02724313735961914, "tests_passed": true, "error": null}
+{"code": "execute(f\"DROP TABLE IF EXISTS {TABLE_NAME}\")  # Create or replace table", "compilation_passed": true, "time": 0.024247169494628906, "tests_passed": true, "error": null}
+{"code": "execute(f\"CREATE TABLE IF NOT EXISTS {TABLE_NAME} (id INTEGER PRIMARY KEY AUTOINCREMENT, {', '.join(cols)})\")", "compilation_passed": true, "time": 0.012140035629272461, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS {} ({})\".format(TABLE_NAME, \",\".join(cols)))", "compilation_passed": true, "time": 0.013203859329223633, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(f'DROP TABLE IF EXISTS {TABLE_NAME}')", "compilation_passed": true, "time": 0.024920940399169922, "tests_passed": true, "error": null}
+{"code": "execute(f'CREATE TABLE IF NOT EXISTS {TABLE_NAME} ({\", \".join(f\"{col} TEXT\" for col in cols)})')", "compilation_passed": true, "time": 0.014609813690185547, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS {} ({})\".format(TABLE_NAME, \", \".join(\"{} text\".format(c) for c in cols)))", "compilation_passed": true, "time": 0.017052888870239258, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(f\"DROP TABLE IF EXISTS {TABLE_NAME}\")  # Drop the existing table if it exists", "compilation_passed": true, "time": 0.024098873138427734, "tests_passed": true, "error": null}
+{"code": "execute(f\"\"\"CREATE TABLE IF NOT EXISTS {TABLE_NAME} (", "compilation_passed": false, "time": 0.00033283233642578125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute(f\"CREATE TABLE IF NOT EXISTS {TABLE_NAME}({', '.join(cols)})\")", "compilation_passed": true, "time": 0.013376951217651367, "tests_passed": false, "error": "sqlite3.OperationalError"}

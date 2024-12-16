@@ -1,0 +1,11 @@
+{"code": " str(df.to_string(index=False, header=False))", "compilation_passed": true, "time": 0.004690885543823242, "tests_passed": true, "error": null}
+{"code": " df.to_markdown(index=False, header=False, tablefmt=\"github\", numalign=\"left\")", "compilation_passed": true, "time": 0.031579017639160156, "tests_passed": false, "error": "ImportError"}
+{"code": " df.to_string(index=False, header=False)", "compilation_passed": true, "time": 0.003712892532348633, "tests_passed": true, "error": null}
+{"code": " df.to_csv(sep=' ', index=False, header=False).strip().replace('\\n', '')", "compilation_passed": true, "time": 0.010986089706420898, "tests_passed": true, "error": null}
+{"code": " str(df.to_string(index=False, header=False)).replace(' ', '')", "compilation_passed": true, "time": 0.0058441162109375, "tests_passed": true, "error": null}
+{"code": " df.to_csv(index=False, header=False)", "compilation_passed": true, "time": 0.006072998046875, "tests_passed": true, "error": null}
+{"code": " df.to_csv(index=False, header=False, sep='').replace('\\n', '')", "compilation_passed": true, "time": 0.020956039428710938, "tests_passed": false, "error": "TypeError"}
+{"code": " df.to_string(header=False, index=False)", "compilation_passed": true, "time": 0.004220724105834961, "tests_passed": true, "error": null}
+{"code": " df.to_string(index=False, header=False).replace('\\n', '').replace(' ', '')", "compilation_passed": true, "time": 0.005752086639404297, "tests_passed": true, "error": null}
+{"code": " df.to_markdown(index=False, header=False)", "compilation_passed": true, "time": 0.017387866973876953, "tests_passed": false, "error": "ImportError"}
+{"code": " str(df.to_string(index=False, header=False)).replace('\\n', ' ')", "compilation_passed": true, "time": 0.007932901382446289, "tests_passed": true, "error": null}

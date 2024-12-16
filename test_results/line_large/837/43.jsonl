@@ -1,0 +1,23 @@
+{"code": " pd.DataFrame(np.random.randint(0, high=100, size=(n_rows, len(columns))), columns=columns)", "compilation_passed": true, "time": 0.04537081718444824, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=columns)", "compilation_passed": true, "time": 0.013505935668945312, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.random.randint(50, 100, (n_rows, len(columns))), columns=columns)", "compilation_passed": true, "time": 0.018485069274902344, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(0,100,size=(n_rows, len(columns))),columns=columns)", "compilation_passed": true, "time": 0.04750990867614746, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(0, 100, size=(n_rows, len(columns))), columns=columns)", "compilation_passed": true, "time": 0.060803890228271484, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(1, 100, n_rows*len(columns)).reshape(n_rows, len(columns)))", "compilation_passed": true, "time": 0.009998083114624023, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(np.random.randint(low=10, high=100, size=(n_rows, len(columns))), columns=columns)", "compilation_passed": true, "time": 0.020668983459472656, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(low=0, high=100, size=(n_rows, len(columns))), columns=columns)", "compilation_passed": true, "time": 0.04550504684448242, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(-50, 50, (n_rows, len(columns))), columns=columns)", "compilation_passed": true, "time": 0.016190052032470703, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(25, 100, size=(n_rows, len(columns))), columns=columns)", "compilation_passed": true, "time": 0.016197919845581055, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(10, 90, n_rows * len(columns)).reshape(n_rows, len(columns)))", "compilation_passed": true, "time": 0.013730049133300781, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(columns=columns, data=np.random.randint(0, high=100, size=(n_rows, len(columns))))", "compilation_passed": true, "time": 0.050039052963256836, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({col: np.random.rand(n_rows) * 100 for col in columns})", "compilation_passed": true, "time": 0.018291950225830078, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({col: np.random.randn(n_rows) for col in columns})", "compilation_passed": true, "time": 0.01840996742248535, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(2, 100, size=(n_rows, len(columns))), columns=columns)", "compilation_passed": true, "time": 0.021410703659057617, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(-100, 100, size=(n_rows, len(columns))), columns=columns)", "compilation_passed": true, "time": 0.019756078720092773, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(0, 100, size=[n_rows, len(columns)]), columns=columns)", "compilation_passed": true, "time": 0.04450702667236328, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(1, 100, (n_rows, len(columns))))", "compilation_passed": true, "time": 0.010200262069702148, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({col: np.random.randint(50, 101, size=n_rows) for col in columns})", "compilation_passed": true, "time": 0.017427921295166016, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(5, 95, size=[n_rows, len(columns)]), columns=columns)", "compilation_passed": true, "time": 0.01633000373840332, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(10, 100, size=(n_rows, len(columns))), columns=columns)", "compilation_passed": true, "time": 0.016491174697875977, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(50, 81, size=(n_rows, len(columns))), columns=columns)", "compilation_passed": true, "time": 0.017087936401367188, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(0,100,size=(n_rows, len(columns))), columns=columns)", "compilation_passed": true, "time": 0.0499110221862793, "tests_passed": true, "error": null}

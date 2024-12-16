@@ -1,0 +1,8 @@
+{"code": "scatter(df['Age'], df['Score'])", "compilation_passed": true, "time": 0.1967029571533203, "tests_passed": true, "error": null}
+{"code": "figure()", "compilation_passed": true, "time": 0.3378121852874756, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(6, 5))", "compilation_passed": true, "time": 0.34749794006347656, "tests_passed": true, "error": null}
+{"code": "title('Scatter Plot of Standardized Age and Score')", "compilation_passed": true, "time": 0.1844170093536377, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(10, 6))", "compilation_passed": true, "time": 0.355191707611084, "tests_passed": true, "error": null}
+{"code": "plot('Age', 'Score', data=df, marker='o', linestyle='', figsize=(20, 20), label='Age vs Score')", "compilation_passed": true, "time": 0.05590200424194336, "tests_passed": false, "error": "AttributeError"}
+{"code": "scatter(df['Age'], df['Score'], alpha=0.5)", "compilation_passed": true, "time": 0.1949620246887207, "tests_passed": true, "error": null}
+{"code": "scatter(df['Age'], df['Score'], s=200)", "compilation_passed": true, "time": 0.2335500717163086, "tests_passed": true, "error": null}

@@ -1,0 +1,5 @@
+{"code": " vectorizer.fit_transform(SENTENCES + [s])", "compilation_passed": true, "time": 0.007445096969604492, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform([s] + SENTENCES)", "compilation_passed": true, "time": 0.003403186798095703, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(SENTENCES + [s]).toarray()", "compilation_passed": true, "time": 0.009362220764160156, "tests_passed": false, "error": "AttributeError"}
+{"code": " vectorizer.fit_transform([s] + SENTENCES).toarray()", "compilation_passed": true, "time": 0.011816263198852539, "tests_passed": false, "error": "AttributeError"}
+{"code": " vectorizer.fit_transform(SENTENCES)", "compilation_passed": true, "time": 0.0064661502838134766, "tests_passed": true, "error": null}

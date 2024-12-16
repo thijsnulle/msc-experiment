@@ -1,0 +1,11 @@
+{"code": " + glob.glob(f\"{source_directory}/*{extension}\"):", "compilation_passed": true, "time": 0.06318879127502441, "tests_passed": true, "error": null}
+{"code": " + glob.glob(f\"{target_directory}/**/*{extension}\", recursive=True):", "compilation_passed": true, "time": 0.10831308364868164, "tests_passed": true, "error": null}
+{"code": " + glob.glob(f\"{source_directory}/*{extension}\", recursive=True):", "compilation_passed": true, "time": 0.06017184257507324, "tests_passed": true, "error": null}
+{"code": " + glob.glob(f\"{source_directory.strip()}/*{extension}\"):", "compilation_passed": true, "time": 0.05975198745727539, "tests_passed": true, "error": null}
+{"code": " if file not in os.listdir(target_directory):", "compilation_passed": false, "time": 0.0006670951843261719, "tests_passed": false, "error": "SyntaxError"}
+{"code": " + glob.glob(f\"{source_directory}/**/*{extension}\", recursive=True):", "compilation_passed": true, "time": 0.0597078800201416, "tests_passed": true, "error": null}
+{"code": " + glob.glob(f\"{source_directory}/*{extension}\", recursive=False):", "compilation_passed": true, "time": 0.061933040618896484, "tests_passed": true, "error": null}
+{"code": " + glob.glob(f\"{source_directory}/**/{extension}\", recursive=True):", "compilation_passed": true, "time": 0.1119990348815918, "tests_passed": true, "error": null}
+{"code": " + glob.glob(f\"{source_directory}/**/*\", recursive=True):", "compilation_passed": true, "time": 0.06693601608276367, "tests_passed": true, "error": null}
+{"code": " + glob.glob(", "compilation_passed": false, "time": 0.0006992816925048828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " if os.path.exists(source_directory):", "compilation_passed": false, "time": 0.0006608963012695312, "tests_passed": false, "error": "SyntaxError"}

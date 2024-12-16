@@ -1,0 +1,8 @@
+{"code": "append(element.format(pattern))", "compilation_passed": true, "time": 0.03841686248779297, "tests_passed": true, "error": null}
+{"code": "append(element.replace(\"%\", pattern))", "compilation_passed": true, "time": 0.03516387939453125, "tests_passed": true, "error": null}
+{"code": "append(pattern)", "compilation_passed": true, "time": 0.17763710021972656, "tests_passed": true, "error": null}
+{"code": "append(pattern.format(element))", "compilation_passed": true, "time": 0.21767902374267578, "tests_passed": true, "error": null}
+{"code": "append(element.replace(\"{}\", pattern))", "compilation_passed": true, "time": 0.04639911651611328, "tests_passed": true, "error": null}
+{"code": "append(element.replace(element, pattern))", "compilation_passed": true, "time": 0.22607207298278809, "tests_passed": true, "error": null}
+{"code": "append(element.replace('{}', pattern))", "compilation_passed": true, "time": 0.03957676887512207, "tests_passed": true, "error": null}
+{"code": "append(element % pattern)", "compilation_passed": true, "time": 0.005010843276977539, "tests_passed": false, "error": "TypeError"}

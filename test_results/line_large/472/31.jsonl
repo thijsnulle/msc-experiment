@@ -1,0 +1,17 @@
+{"code": " not all(isinstance(p, list) and len(p) == 2 for p in myList):", "compilation_passed": true, "time": 1.017775297164917, "tests_passed": false, "error": "TimeoutError"}
+{"code": " not isinstance(myList, list):", "compilation_passed": true, "time": 0.5999019145965576, "tests_passed": true, "error": null}
+{"code": " not myList:", "compilation_passed": true, "time": 0.5258119106292725, "tests_passed": true, "error": null}
+{"code": " len(myList[0]) != 2:", "compilation_passed": true, "time": 0.40848207473754883, "tests_passed": false, "error": "IndexError"}
+{"code": " not myList or not n_clusters:", "compilation_passed": true, "time": 0.7693619728088379, "tests_passed": true, "error": null}
+{"code": " not isinstance(myList, list) or not isinstance(n_clusters, int):", "compilation_passed": true, "time": 0.6687271595001221, "tests_passed": true, "error": null}
+{"code": " not myList or not isinstance(myList, list):", "compilation_passed": true, "time": 0.6907570362091064, "tests_passed": true, "error": null}
+{"code": " n_clusters < 1 or not isinstance(n_clusters, int):", "compilation_passed": true, "time": 0.6084170341491699, "tests_passed": true, "error": null}
+{"code": " not isinstance(myList, list) or not all(isinstance(x, list) for x in myList):", "compilation_passed": true, "time": 0.7462739944458008, "tests_passed": true, "error": null}
+{"code": " not isinstance(n_clusters, int) or n_clusters <= 1:", "compilation_passed": true, "time": 0.017620086669921875, "tests_passed": false, "error": "ValueError"}
+{"code": " len(myList) == 0:", "compilation_passed": true, "time": 0.5741572380065918, "tests_passed": true, "error": null}
+{"code": " not isinstance(myList, list) or not myList:", "compilation_passed": true, "time": 0.5710880756378174, "tests_passed": true, "error": null}
+{"code": " not myList or not all(myList):", "compilation_passed": true, "time": 0.5818390846252441, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(point, list) for point in myList):", "compilation_passed": true, "time": 0.6144120693206787, "tests_passed": true, "error": null}
+{"code": " not myList or not all(isinstance(pt, list) and len(pt) == 2 for pt in myList):", "compilation_passed": true, "time": 0.8730838298797607, "tests_passed": true, "error": null}
+{"code": " n_clusters < 1 or n_clusters > len(myList):", "compilation_passed": true, "time": 0.5929808616638184, "tests_passed": true, "error": null}
+{"code": " not isinstance(myList, list) or len(myList) < 2 or any(", "compilation_passed": false, "time": 0.00020813941955566406, "tests_passed": false, "error": "SyntaxError"}

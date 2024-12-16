@@ -1,0 +1,9 @@
+{"code": " set()", "compilation_passed": true, "time": 0.05836820602416992, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.19971179962158203, "tests_passed": true, "error": null}
+{"code": " [key for key in keys if key in df.columns]", "compilation_passed": true, "time": 0.1898021697998047, "tests_passed": true, "error": null}
+{"code": " [ax.plot(df[k], label=k) for k in keys]", "compilation_passed": true, "time": 0.05214500427246094, "tests_passed": true, "error": null}
+{"code": " [k for k in keys if k in df.columns]", "compilation_passed": true, "time": 0.18517518043518066, "tests_passed": true, "error": null}
+{"code": " [x for x in keys if x in df.columns]", "compilation_passed": true, "time": 0.20096778869628906, "tests_passed": true, "error": null}
+{"code": " [col for col in df.columns if col in keys]", "compilation_passed": true, "time": 0.24171018600463867, "tests_passed": true, "error": null}
+{"code": " [k for k in keys if k in df]", "compilation_passed": true, "time": 0.24647283554077148, "tests_passed": true, "error": null}
+{"code": " df[keys]", "compilation_passed": true, "time": 0.050295114517211914, "tests_passed": false, "error": "AttributeError"}

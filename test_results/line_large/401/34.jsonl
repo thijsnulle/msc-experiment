@@ -1,0 +1,17 @@
+{"code": "config.update(", "compilation_passed": false, "time": 0.0003159046173095703, "tests_passed": false, "error": "SyntaxError"}
+{"code": "config['MAIL_SERVER'] = os.environ.get('MAIL_SERVER') or 'localhost'", "compilation_passed": true, "time": 0.013416767120361328, "tests_passed": true, "error": null}
+{"code": "config['MAIL_SERVER']=os.environ.get('MAIL_SERVER','localhost')", "compilation_passed": true, "time": 0.013483047485351562, "tests_passed": true, "error": null}
+{"code": "config[\"MAIL_SERVER\"] = os.environ.get(\"MAIL_SERVER\") or \"localhost\"", "compilation_passed": true, "time": 0.013389825820922852, "tests_passed": true, "error": null}
+{"code": "config['MAIL_SERVER'] = os.environ.get('MAIL_SERVER', default='localhost')", "compilation_passed": true, "time": 0.01631903648376465, "tests_passed": true, "error": null}
+{"code": "config[\"MAIL_SERVER\"] = os.environ.get(\"MAIL_SERVER\", \"localhost\")", "compilation_passed": true, "time": 0.013397693634033203, "tests_passed": true, "error": null}
+{"code": "config['MAIL_SERVER'] = os.environ.get('MAIL_SERVER', 'localhost')", "compilation_passed": true, "time": 0.01337885856628418, "tests_passed": true, "error": null}
+{"code": "config.from_pyfile(os.path.join(", "compilation_passed": false, "time": 0.00035691261291503906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "config[\"MAIL_SERVER\"] = os.getenv(\"MAIL_SERVER\", \"localhost\")", "compilation_passed": true, "time": 0.007905006408691406, "tests_passed": true, "error": null}
+{"code": "config['MAIL_SERVER'] = os.getenv(\"MAIL_SERVER\", \"localhost\")", "compilation_passed": true, "time": 0.013340950012207031, "tests_passed": true, "error": null}
+{"code": "debug = False", "compilation_passed": true, "time": 0.020033836364746094, "tests_passed": false, "error": "KeyError"}
+{"code": "debug = True", "compilation_passed": true, "time": 0.019826173782348633, "tests_passed": false, "error": "KeyError"}
+{"code": "config[\"MAIL_SERVER\"] = os.getenv('MAIL_SERVER', 'localhost')", "compilation_passed": true, "time": 0.013279914855957031, "tests_passed": true, "error": null}
+{"code": "debug=True", "compilation_passed": true, "time": 0.01944112777709961, "tests_passed": false, "error": "KeyError"}
+{"code": "config[\"TESTING\"] = True", "compilation_passed": true, "time": 0.019109725952148438, "tests_passed": false, "error": "KeyError"}
+{"code": "config['MAIL_SERVER'] = os.getenv('MAIL_SERVER', default='localhost')", "compilation_passed": true, "time": 0.013135910034179688, "tests_passed": true, "error": null}
+{"code": "config['MAIL_SERVER']= os.environ.get('MAIL_SERVER', 'localhost')", "compilation_passed": true, "time": 0.013551950454711914, "tests_passed": true, "error": null}

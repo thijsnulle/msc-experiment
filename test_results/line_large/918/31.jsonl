@@ -1,0 +1,5 @@
+{"code": " df.applymap(lambda x: pattern.sub(replace_match, x) if isinstance(x, str) else x)", "compilation_passed": true, "time": 0.005404233932495117, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: pattern.sub(replace_match, str(x)))", "compilation_passed": true, "time": 0.015306949615478516, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: pattern.sub(replace_match, x))", "compilation_passed": true, "time": 0.018730878829956055, "tests_passed": false, "error": "TypeError"}
+{"code": " df.applymap(lambda x: re.sub(pattern, replace_match, x) if isinstance(x, str) else x)", "compilation_passed": true, "time": 0.0056340694427490234, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: re.sub(pattern, replace_match, x))", "compilation_passed": true, "time": 0.018041133880615234, "tests_passed": false, "error": "TypeError"}

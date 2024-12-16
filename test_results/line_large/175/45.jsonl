@@ -1,0 +1,23 @@
+{"code": " interesting_videos.plot(x='Title', y='Like Ratio', rot=90, kind='bar')", "compilation_passed": true, "time": 0.1282823085784912, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot(x='Title', y='Like Ratio', kind='bar')", "compilation_passed": true, "time": 0.12945795059204102, "tests_passed": true, "error": null}
+{"code": " interesting_videos['Like Ratio'].plot.bar()", "compilation_passed": true, "time": 0.0202329158782959, "tests_passed": true, "error": null}
+{"code": " interesting_videos['Like Ratio'].plot(kind='bar')", "compilation_passed": true, "time": 0.017946958541870117, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot(x='Title', y='Like Ratio', legend=False, kind='bar')", "compilation_passed": true, "time": 0.12318706512451172, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot(x='Title', y='Like Ratio', legend=False, rot=30)", "compilation_passed": true, "time": 0.0421140193939209, "tests_passed": false, "error": "ValueError"}
+{"code": " interesting_videos.plot.bar(x='Title', y='Like Ratio', legend=False, title='Like Ratio for Interesting Videos')", "compilation_passed": true, "time": 0.12319612503051758, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot(kind='bar', x='Title', y='Like Ratio', legend=False)", "compilation_passed": true, "time": 0.12491703033447266, "tests_passed": true, "error": null}
+{"code": " interesting_videos['Like Ratio'].plot(kind='bar', title='Like Ratio for Videos with Title: How or What', figsize=(15, 5))", "compilation_passed": true, "time": 0.0673069953918457, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot(kind='bar', x='Title', y='Like Ratio', title='Like Ratio for Interesting Videos')", "compilation_passed": true, "time": 0.15156888961791992, "tests_passed": true, "error": null}
+{"code": " interesting_videos['Like Ratio'].plot.bar(title='Like Ratio of \"How\" or \"What\" Videos', xlabel='Videos', ylabel='Like Ratio')", "compilation_passed": true, "time": 0.02540898323059082, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot.bar(x='Title', y='Like Ratio', rot=70)", "compilation_passed": true, "time": 0.15129995346069336, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot.bar(x='Title', y='Like Ratio', figsize=(15, 7), rot=30)", "compilation_passed": true, "time": 0.14284920692443848, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot.barh(x='Title', y='Like Ratio', legend=False, figsize=(10, 5))", "compilation_passed": true, "time": 0.04278707504272461, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot.bar(x='Title', y='Like Ratio', rot=0, legend=False)", "compilation_passed": true, "time": 0.12795400619506836, "tests_passed": true, "error": null}
+{"code": " interesting_videos.sort_values('Like Ratio', ascending=False).head(10).plot(x='Title', y='Like Ratio', kind='bar')", "compilation_passed": true, "time": 0.037274837493896484, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot.bar(x='Title', y='Like Ratio')", "compilation_passed": true, "time": 0.12668204307556152, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot.bar(x='Title', y='Like Ratio', fontsize=24, figsize=(30, 10))", "compilation_passed": true, "time": 0.1573169231414795, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot.bar(x='Title', y='Like Ratio', legend=False)", "compilation_passed": true, "time": 0.13594388961791992, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot(x='Title', y='Like Ratio', kind='bar', rot=45)", "compilation_passed": true, "time": 0.13556599617004395, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot.bar(x='Title', y='Like Ratio', color='C0')", "compilation_passed": true, "time": 0.1399531364440918, "tests_passed": true, "error": null}
+{"code": " interesting_videos.plot.barh(x='Title', y='Like Ratio', legend=False, color='blue', figsize=(10, 5))", "compilation_passed": true, "time": 0.049633026123046875, "tests_passed": true, "error": null}
+{"code": " interesting_videos['Like Ratio'].plot(kind='bar', rot=90)", "compilation_passed": true, "time": 0.013900041580200195, "tests_passed": true, "error": null}

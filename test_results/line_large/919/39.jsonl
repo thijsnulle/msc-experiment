@@ -1,0 +1,4 @@
+{"code": " counts.sort_index()", "compilation_passed": true, "time": 0.04606890678405762, "tests_passed": true, "error": null}
+{"code": " counts.reindex(CATEGORIES)", "compilation_passed": true, "time": 0.040747880935668945, "tests_passed": true, "error": null}
+{"code": " counts[CATEGORIES]", "compilation_passed": true, "time": 0.043660879135131836, "tests_passed": true, "error": null}
+{"code": " counts.reindex(CATEGORIES).fillna(0).astype(int)", "compilation_passed": true, "time": 0.04406285285949707, "tests_passed": true, "error": null}

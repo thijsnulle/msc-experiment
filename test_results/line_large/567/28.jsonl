@@ -1,0 +1,18 @@
+{"code": " data.split('-')", "compilation_passed": true, "time": 0.3282291889190674, "tests_passed": true, "error": null}
+{"code": " np.array([int(x) for x in data.split('-')])", "compilation_passed": true, "time": 0.28026604652404785, "tests_passed": true, "error": null}
+{"code": " data.strip()", "compilation_passed": true, "time": 0.006132841110229492, "tests_passed": false, "error": "ValueError"}
+{"code": " [int(val) for val in data.split(\"-\")]", "compilation_passed": true, "time": 0.2604048252105713, "tests_passed": true, "error": null}
+{"code": " pd.Series(data.split('-')).astype(int)", "compilation_passed": true, "time": 0.2568318843841553, "tests_passed": true, "error": null}
+{"code": " np.array([int(value) for value in data.split('-')])", "compilation_passed": true, "time": 0.2577857971191406, "tests_passed": true, "error": null}
+{"code": " list(map(int, data.split('-')))", "compilation_passed": true, "time": 0.26600027084350586, "tests_passed": true, "error": null}
+{"code": " pd.Series([int(x) for x in data.split('-')])", "compilation_passed": true, "time": 0.2768261432647705, "tests_passed": true, "error": null}
+{"code": " data.split('-')  # Split the input string into individual values", "compilation_passed": true, "time": 0.27852916717529297, "tests_passed": true, "error": null}
+{"code": " [int(i) for i in data.split('-')]", "compilation_passed": true, "time": 0.27008795738220215, "tests_passed": true, "error": null}
+{"code": " data.strip().split('-')  # Remove leading/trailing spaces and split the data string on hyphens.", "compilation_passed": true, "time": 0.2705409526824951, "tests_passed": true, "error": null}
+{"code": " np.fromstring(data, dtype=int, sep='-')", "compilation_passed": true, "time": 0.2652299404144287, "tests_passed": true, "error": null}
+{"code": " data.split('-')  # split the data string into a list of values", "compilation_passed": true, "time": 0.2639889717102051, "tests_passed": true, "error": null}
+{"code": " data.split(\"-\")", "compilation_passed": true, "time": 0.27365994453430176, "tests_passed": true, "error": null}
+{"code": " np.fromstring(data.replace('-', ' '), dtype=np.int, sep=' ')", "compilation_passed": true, "time": 0.29730987548828125, "tests_passed": true, "error": null}
+{"code": " np.array(data.split('-'), dtype=int)", "compilation_passed": true, "time": 0.2870488166809082, "tests_passed": true, "error": null}
+{"code": " np.array([int(i) for i in data.split('-')])", "compilation_passed": true, "time": 0.2758610248565674, "tests_passed": true, "error": null}
+{"code": " [int(x) for x in data.split('-')]", "compilation_passed": true, "time": 0.2784309387207031, "tests_passed": true, "error": null}

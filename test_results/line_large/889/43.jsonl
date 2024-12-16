@@ -1,0 +1,14 @@
+{"code": " df[column].dtype in ['int64', 'float64']:", "compilation_passed": true, "time": 0.020534038543701172, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in ['int64', 'float64'] and df[column].isnull().any():", "compilation_passed": true, "time": 0.019330739974975586, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in [np.number]:", "compilation_passed": true, "time": 0.018110036849975586, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in [np.int64, np.float64]:", "compilation_passed": true, "time": 0.017167091369628906, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in [np.float64, np.int64]:", "compilation_passed": true, "time": 0.017727136611938477, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in ['float64', 'int64']:", "compilation_passed": true, "time": 0.019411087036132812, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in [int, float]:", "compilation_passed": true, "time": 0.021804094314575195, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in [np.dtype('int64'), np.dtype('float64')]:", "compilation_passed": true, "time": 0.02110004425048828, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in [np.float64, np.int64, np.int32, np.int16, np.int8]:", "compilation_passed": true, "time": 0.01792311668395996, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in [\"float64\", \"int64\", \"int32\", \"float32\"]:", "compilation_passed": true, "time": 0.0193331241607666, "tests_passed": true, "error": null}
+{"code": " df[column].dtype == 'float64' or df[column].dtype == 'int64':", "compilation_passed": true, "time": 0.018196821212768555, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in ('int64', 'float64'):", "compilation_passed": true, "time": 0.018051862716674805, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in [np.number, \"int64\", \"float64\"]:", "compilation_passed": true, "time": 0.020253896713256836, "tests_passed": true, "error": null}
+{"code": " df[column].dtype in ('int64', 'float64') and df[column].isna().any():", "compilation_passed": true, "time": 0.018954992294311523, "tests_passed": true, "error": null}

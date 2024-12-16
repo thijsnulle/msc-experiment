@@ -1,0 +1,18 @@
+{"code": " df[\"age\"].min() < 0:", "compilation_passed": true, "time": 0.569422721862793, "tests_passed": true, "error": null}
+{"code": " min(df[\"age\"]) < 0:", "compilation_passed": true, "time": 0.45737481117248535, "tests_passed": false, "error": "ValueError"}
+{"code": " np.any(df.age < 0):", "compilation_passed": true, "time": 0.018643856048583984, "tests_passed": false, "error": "NameError"}
+{"code": " df['age'].min() < 0:", "compilation_passed": true, "time": 0.5777161121368408, "tests_passed": true, "error": null}
+{"code": " not len(df[\"age\"].loc[df[\"age\"] < 0]):", "compilation_passed": true, "time": 0.03282499313354492, "tests_passed": false, "error": "ValueError"}
+{"code": " min(df.age) < 0:", "compilation_passed": true, "time": 0.4503617286682129, "tests_passed": false, "error": "ValueError"}
+{"code": " any(df['age'] < 0):", "compilation_passed": true, "time": 0.5629990100860596, "tests_passed": true, "error": null}
+{"code": " df.age.min() < 0:", "compilation_passed": true, "time": 0.5539529323577881, "tests_passed": true, "error": null}
+{"code": " df.loc[df['age'] < 0].shape[0] > 0:", "compilation_passed": true, "time": 0.4704740047454834, "tests_passed": true, "error": null}
+{"code": " df.isnull().any().any():", "compilation_passed": true, "time": 0.5469489097595215, "tests_passed": true, "error": null}
+{"code": " any(df.age < 0):", "compilation_passed": true, "time": 0.4754159450531006, "tests_passed": true, "error": null}
+{"code": " np.min(df.values) < 0:", "compilation_passed": true, "time": 0.017752885818481445, "tests_passed": false, "error": "NameError"}
+{"code": " len(df.columns) != 1 or len(df.index) != 1:", "compilation_passed": true, "time": 0.01740431785583496, "tests_passed": false, "error": "ValueError"}
+{"code": " (df < 0).any() or (df > 100).any():", "compilation_passed": true, "time": 0.06954002380371094, "tests_passed": false, "error": "ValueError"}
+{"code": " np.any(np.array(df.age) < 0):", "compilation_passed": true, "time": 0.01894998550415039, "tests_passed": false, "error": "NameError"}
+{"code": " len(df.loc[df.age < 0]):", "compilation_passed": true, "time": 0.47705698013305664, "tests_passed": true, "error": null}
+{"code": " (df.loc[:, \"age\"]).min() < 0:", "compilation_passed": true, "time": 0.4912881851196289, "tests_passed": true, "error": null}
+{"code": " df.values.min() < 0:", "compilation_passed": true, "time": 0.39723992347717285, "tests_passed": false, "error": "ValueError"}

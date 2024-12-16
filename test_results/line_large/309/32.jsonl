@@ -1,0 +1,12 @@
+{"code": " [random.randint(0, 100) for _ in range(5)]", "compilation_passed": true, "time": 0.00645899772644043, "tests_passed": true, "error": null}
+{"code": " random.sample(range(0, 100), 5)", "compilation_passed": true, "time": 0.006965160369873047, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=0, high=100, size=5).tolist()", "compilation_passed": true, "time": 0.006580829620361328, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 100, 5)", "compilation_passed": true, "time": 0.006463050842285156, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=0, high=100, size=5)", "compilation_passed": true, "time": 0.00675201416015625, "tests_passed": true, "error": null}
+{"code": " random.sample(range(0, 101), 5)", "compilation_passed": true, "time": 0.006473064422607422, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 101, size=5)", "compilation_passed": true, "time": 0.006626129150390625, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 100, size=5).tolist()", "compilation_passed": true, "time": 0.006700038909912109, "tests_passed": true, "error": null}
+{"code": " [np.random.randint(0, 101) for _ in range(5)]", "compilation_passed": true, "time": 0.007912158966064453, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 101, 5)", "compilation_passed": true, "time": 0.006521940231323242, "tests_passed": true, "error": null}
+{"code": " list(np.random.randint(0, 100, size=5))", "compilation_passed": true, "time": 0.006716012954711914, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=0, high=100, size=(5))", "compilation_passed": true, "time": 0.006850719451904297, "tests_passed": true, "error": null}

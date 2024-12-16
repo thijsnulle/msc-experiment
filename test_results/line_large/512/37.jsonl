@@ -1,0 +1,15 @@
+{"code": " df[\"Quantity Sold\"].any(lambda x: x < 0) or df[\"Total Sales\"].any(lambda x: x < 0):", "compilation_passed": true, "time": 0.012341976165771484, "tests_passed": false, "error": "TypeError"}
+{"code": " not all(df[\"Quantity Sold\"] >= 0) or not all(df[\"Total Sales\"] >= 0):", "compilation_passed": true, "time": 0.15350914001464844, "tests_passed": true, "error": null}
+{"code": " any(df[\"Quantity Sold\"] < 0) or any(df[\"Total Sales\"] < 0):", "compilation_passed": true, "time": 0.15152812004089355, "tests_passed": true, "error": null}
+{"code": " (df[\"Quantity Sold\"] < 0).any() or (df[\"Total Sales\"] < 0).any():", "compilation_passed": true, "time": 0.15254878997802734, "tests_passed": true, "error": null}
+{"code": " column not in COLUMNS:", "compilation_passed": true, "time": 0.13022780418395996, "tests_passed": false, "error": "ValueError"}
+{"code": " column == \"Product\":", "compilation_passed": true, "time": 0.14868617057800293, "tests_passed": true, "error": null}
+{"code": " column == \"Total Sales\" or column == \"Quantity Sold\":", "compilation_passed": true, "time": 0.010300159454345703, "tests_passed": false, "error": "ValueError"}
+{"code": " np.any(df[[\"Quantity Sold\", \"Total Sales\"]] < 0):", "compilation_passed": true, "time": 0.15627789497375488, "tests_passed": true, "error": null}
+{"code": " (df[[\"Quantity Sold\", \"Total Sales\"]] < 0).any().any():", "compilation_passed": true, "time": 0.15394306182861328, "tests_passed": true, "error": null}
+{"code": " column not in df.columns:", "compilation_passed": true, "time": 0.12961578369140625, "tests_passed": false, "error": "ValueError"}
+{"code": " any(df[[\"Quantity Sold\", \"Total Sales\"]] < 0).any():", "compilation_passed": true, "time": 0.012254953384399414, "tests_passed": false, "error": "AttributeError"}
+{"code": " column in COLUMNS:", "compilation_passed": true, "time": 0.010070085525512695, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Quantity Sold\"].min() < 0 or df[\"Total Sales\"].min() < 0:", "compilation_passed": true, "time": 0.15147805213928223, "tests_passed": true, "error": null}
+{"code": " any((df[\"Quantity Sold\"] < 0).any() | (df[\"Total Sales\"] < 0).any()):", "compilation_passed": true, "time": 0.010549068450927734, "tests_passed": false, "error": "TypeError"}
+{"code": " not (df[\"Quantity Sold\"].astype(int) >= 0).all() or not (df[\"Total Sales\"].astype(int) >= 0).all():", "compilation_passed": true, "time": 0.15402770042419434, "tests_passed": true, "error": null}

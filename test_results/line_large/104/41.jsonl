@@ -1,0 +1,18 @@
+{"code": " group_df['date'].map(", "compilation_passed": false, "time": 0.0003540515899658203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " group_df['date'].map(pd.to_numeric)", "compilation_passed": true, "time": 0.06934809684753418, "tests_passed": false, "error": "TypeError"}
+{"code": " group_df['date'].dt.to_ordinal()", "compilation_passed": true, "time": 0.04930901527404785, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.to_datetime(group_df['date'])", "compilation_passed": true, "time": 0.1590120792388916, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(group_df['date'])", "compilation_passed": true, "time": 0.15827703475952148, "tests_passed": true, "error": null}
+{"code": " group_df['date'].astype(int) // 10e8  # extract ordinal", "compilation_passed": true, "time": 0.1610260009765625, "tests_passed": true, "error": null}
+{"code": " group_df['date'].map(lambda x: x.to_pydatetime().toordinal())", "compilation_passed": true, "time": 0.15749502182006836, "tests_passed": true, "error": null}
+{"code": " group_df['date'].astype(str).str.replace(r'-', '', regex=True).astype(int)", "compilation_passed": true, "time": 0.16338682174682617, "tests_passed": true, "error": null}
+{"code": " group_df['date'].astype('int64')", "compilation_passed": true, "time": 0.15804314613342285, "tests_passed": true, "error": null}
+{"code": " group_df['date'].map(lambda x: x.toordinal())", "compilation_passed": true, "time": 0.15720796585083008, "tests_passed": true, "error": null}
+{"code": " group_df['date'].dt.to_period('M')", "compilation_passed": true, "time": 0.06905889511108398, "tests_passed": false, "error": "TypeError"}
+{"code": " group_df['date'].dt.to_pydatetime()", "compilation_passed": true, "time": 0.16111302375793457, "tests_passed": true, "error": null}
+{"code": " group_df['date'].view('int64') / (1e9*3600*24)  # Convert date to ordinal for plotting", "compilation_passed": true, "time": 0.16649293899536133, "tests_passed": true, "error": null}
+{"code": " group_df['date'].astype('O').dt.to_numpy()", "compilation_passed": true, "time": 0.06337475776672363, "tests_passed": false, "error": "AttributeError"}
+{"code": " group_df['date'].map(lambda x: x.to_ordinal())", "compilation_passed": true, "time": 0.05761599540710449, "tests_passed": false, "error": "AttributeError"}
+{"code": " group_df['date'].astype(str)", "compilation_passed": true, "time": 0.16260075569152832, "tests_passed": true, "error": null}
+{"code": " group_df['date'].dt.ordinal  # Convert datetime to ordinal for plotting", "compilation_passed": true, "time": 0.04918789863586426, "tests_passed": false, "error": "AttributeError"}
+{"code": " group_df['date'].dt.toordinal()", "compilation_passed": true, "time": 0.05115389823913574, "tests_passed": false, "error": "AttributeError"}

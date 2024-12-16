@@ -1,0 +1,26 @@
+{"code": " np.array([random.gauss(math.sin(PI * frequency * x / size), 0.2) for x in x_values])", "compilation_passed": true, "time": 0.04430532455444336, "tests_passed": true, "error": null}
+{"code": " [np.sin(frequency * (x/frequency * PI/180)) * random.random() for x in x_values]", "compilation_passed": true, "time": 0.5089919567108154, "tests_passed": true, "error": null}
+{"code": " [random.uniform(-1, 1) * math.sin(frequency * 2 * PI * x / size) for x in x_values]", "compilation_passed": true, "time": 0.5251200199127197, "tests_passed": true, "error": null}
+{"code": " np.sin(frequency * x_values) + np.random.uniform(0, 1, size=size)  # Add random noise to the sinusoidal wave", "compilation_passed": true, "time": 0.05569314956665039, "tests_passed": true, "error": null}
+{"code": " [np.sin(PI * (i / frequency)) + np.sin(PI * random.randint(0, 2) * (i / frequency)) for i in x_values]", "compilation_passed": true, "time": 0.5151994228363037, "tests_passed": true, "error": null}
+{"code": " [math.sin(2 * PI * frequency * (i / size)) * random.uniform(-1, 1) for i in range(size)]", "compilation_passed": true, "time": 0.5559670925140381, "tests_passed": true, "error": null}
+{"code": " np.sin(x_values * frequency * (2 * PI / size)) * 10 + [random.randint(0, RANGE) for _ in range(len(x_values))]", "compilation_passed": true, "time": 0.09431815147399902, "tests_passed": true, "error": null}
+{"code": " np.zeros(size)", "compilation_passed": true, "time": 0.4594731330871582, "tests_passed": true, "error": null}
+{"code": " [math.sin(frequency*x) + random.random() for x in x_values]", "compilation_passed": true, "time": 0.07447290420532227, "tests_passed": true, "error": null}
+{"code": " [math.sin(frequency * 2 * PI * (x / size)) + random.random() for x in x_values]", "compilation_passed": true, "time": 0.043460845947265625, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.06946110725402832, "tests_passed": false, "error": "ValueError"}
+{"code": " np.sin(2*PI*frequency*x_values) + (np.random.rand(size) - 0.5)", "compilation_passed": true, "time": 0.46138906478881836, "tests_passed": true, "error": null}
+{"code": " np.sin(x_values*2*PI*frequency)", "compilation_passed": true, "time": 0.472714900970459, "tests_passed": true, "error": null}
+{"code": " np.sin(2 * PI * frequency * (x_values / size)) + (np.random.random(size) / RANGE)", "compilation_passed": true, "time": 0.06064724922180176, "tests_passed": true, "error": null}
+{"code": " np.random.normal(0, 1, size)", "compilation_passed": true, "time": 0.05902981758117676, "tests_passed": true, "error": null}
+{"code": " np.sin(frequency * x_values)", "compilation_passed": true, "time": 0.3749198913574219, "tests_passed": true, "error": null}
+{"code": " [math.sin(frequency * 2 * PI * x / size) + random.random() / 3 for x in range(size)]", "compilation_passed": true, "time": 0.048478126525878906, "tests_passed": true, "error": null}
+{"code": " np.sin(2 * PI * frequency * x_values) * random.uniform(1, 10)", "compilation_passed": true, "time": 0.4531888961791992, "tests_passed": true, "error": null}
+{"code": " [random.normalvariate(math.sin(2*PI*x/frequency), 0.1) for x in x_values]", "compilation_passed": true, "time": 0.5341861248016357, "tests_passed": true, "error": null}
+{"code": " np.sin(x_values) + np.random.normal(0, 0.05, size)", "compilation_passed": true, "time": 0.057904958724975586, "tests_passed": true, "error": null}
+{"code": " np.sin(x_values * frequency) + np.array([random.random() for _ in range(size)])", "compilation_passed": true, "time": 0.049514055252075195, "tests_passed": true, "error": null}
+{"code": " [random.normalvariate(math.sin(frequency * 2 * PI * x / size), 0.1) for x in x_values]", "compilation_passed": true, "time": 0.053587913513183594, "tests_passed": true, "error": null}
+{"code": " [math.sin(frequency * 2 * PI * x / size) + (random.random() - 0.5) * 2 * RANGE / size for x in x_values]", "compilation_passed": true, "time": 0.05037498474121094, "tests_passed": true, "error": null}
+{"code": " [math.sin(frequency*PI*random.random()) for _ in x_values]", "compilation_passed": true, "time": 0.4322531223297119, "tests_passed": true, "error": null}
+{"code": " np.sin(PI * x_values * frequency) + (np.random.random(size) - 0.5)", "compilation_passed": true, "time": 0.045969247817993164, "tests_passed": true, "error": null}
+{"code": " [math.sin(frequency * x) for x in x_values]", "compilation_passed": true, "time": 0.38268423080444336, "tests_passed": true, "error": null}

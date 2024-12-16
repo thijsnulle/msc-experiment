@@ -1,0 +1,14 @@
+{"code": " len(parts) == 5:", "compilation_passed": true, "time": 0.4187488555908203, "tests_passed": true, "error": null}
+{"code": " len(parts) >= 5:  # Check if the line has enough parts to format", "compilation_passed": true, "time": 0.4071049690246582, "tests_passed": true, "error": null}
+{"code": " parts:", "compilation_passed": true, "time": 0.12297487258911133, "tests_passed": false, "error": "IndexError"}
+{"code": " len(parts) > 0 and parts[0].isnumeric():", "compilation_passed": true, "time": 0.40319323539733887, "tests_passed": true, "error": null}
+{"code": " not parts:", "compilation_passed": true, "time": 0.12757301330566406, "tests_passed": false, "error": "IndexError"}
+{"code": " len(parts) == 0:  # Ignore empty lines", "compilation_passed": true, "time": 0.12369394302368164, "tests_passed": false, "error": "IndexError"}
+{"code": " parts:  # exclude empty lines", "compilation_passed": true, "time": 0.13536906242370605, "tests_passed": false, "error": "IndexError"}
+{"code": " len(parts) > 0:", "compilation_passed": true, "time": 0.13733410835266113, "tests_passed": false, "error": "IndexError"}
+{"code": " len(parts) == 3:", "compilation_passed": true, "time": 0.1267988681793213, "tests_passed": false, "error": "IndexError"}
+{"code": " len(parts) > 1:  # skip the first line", "compilation_passed": true, "time": 0.12410593032836914, "tests_passed": false, "error": "IndexError"}
+{"code": " len(parts) == 4:", "compilation_passed": true, "time": 0.12459588050842285, "tests_passed": false, "error": "IndexError"}
+{"code": " len(parts) > 0 and parts[0] in [\"class\", \"accuracy\", \"macro\", \"weighted\"]:", "compilation_passed": true, "time": 0.12575602531433105, "tests_passed": false, "error": "IndexError"}
+{"code": " len(parts) == 0:", "compilation_passed": true, "time": 0.12375092506408691, "tests_passed": false, "error": "IndexError"}
+{"code": " len(parts) >= 2 and parts[1].isdigit():", "compilation_passed": true, "time": 0.41089797019958496, "tests_passed": true, "error": null}

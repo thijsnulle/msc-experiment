@@ -1,0 +1,5 @@
+{"code": " data['utc_datetime']", "compilation_passed": true, "time": 0.0021109580993652344, "tests_passed": true, "error": null}
+{"code": " data[\"utc_datetime\"]", "compilation_passed": true, "time": 0.0017380714416503906, "tests_passed": true, "error": null}
+{"code": " data.get('utc_datetime')", "compilation_passed": true, "time": 0.03956413269042969, "tests_passed": false, "error": "TypeError"}
+{"code": " data.get('utc_datetime', '')", "compilation_passed": true, "time": 0.04610419273376465, "tests_passed": false, "error": "ValueError"}
+{"code": " data.get(\"utc_datetime\")", "compilation_passed": true, "time": 0.040162086486816406, "tests_passed": false, "error": "TypeError"}

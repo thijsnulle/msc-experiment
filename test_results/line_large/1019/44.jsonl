@@ -1,0 +1,7 @@
+{"code": " extracted_text.encode(from_encoding).decode(to_encoding)", "compilation_passed": true, "time": 0.009258270263671875, "tests_passed": true, "error": null}
+{"code": " extracted_text.decode(from_encoding).encode(to_encoding)", "compilation_passed": true, "time": 0.008430957794189453, "tests_passed": true, "error": null}
+{"code": " extracted_text.decode(from_encoding).encode(to_encoding).decode(to_encoding)", "compilation_passed": true, "time": 0.0074329376220703125, "tests_passed": true, "error": null}
+{"code": " extracted_text.encode(to_encoding).decode(from_encoding)", "compilation_passed": true, "time": 0.013020038604736328, "tests_passed": true, "error": null}
+{"code": " codecs.encode(extracted_text, to_encoding).decode()", "compilation_passed": true, "time": 0.011424064636230469, "tests_passed": true, "error": null}
+{"code": " extracted_text.encode(to_encoding, errors=\"strict\").decode(from_encoding)", "compilation_passed": true, "time": 0.007555723190307617, "tests_passed": true, "error": null}
+{"code": " extracted_text.encode(\"latin-1\").decode(from_encoding).encode(to_encoding).decode(to_encoding)", "compilation_passed": true, "time": 0.007977962493896484, "tests_passed": true, "error": null}

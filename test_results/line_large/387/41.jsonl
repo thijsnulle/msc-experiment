@@ -1,0 +1,15 @@
+{"code": "style.use('ggplot')  # For a specific plot style", "compilation_passed": true, "time": 0.015410184860229492, "tests_passed": true, "error": null}
+{"code": "bar(city_population.keys(), city_population.values())", "compilation_passed": true, "time": 0.021036624908447266, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(10, 6))", "compilation_passed": true, "time": 0.23727798461914062, "tests_passed": true, "error": null}
+{"code": "clf()  # clear the previous plot, if any", "compilation_passed": true, "time": 0.1990032196044922, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(10, 5))", "compilation_passed": true, "time": 0.24940991401672363, "tests_passed": true, "error": null}
+{"code": "figure()", "compilation_passed": true, "time": 0.23901891708374023, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(8, 6))", "compilation_passed": true, "time": 0.2445681095123291, "tests_passed": true, "error": null}
+{"code": "bar(city_population.keys(), city_population.values(), width=0.5, edgecolor='black')", "compilation_passed": true, "time": 0.0218203067779541, "tests_passed": true, "error": null}
+{"code": "bar(list(city_population.keys()), list(city_population.values()))", "compilation_passed": true, "time": 0.02087998390197754, "tests_passed": true, "error": null}
+{"code": "bar(CITIES, [city_population.get(city, -1) for city in CITIES])", "compilation_passed": true, "time": 0.028177976608276367, "tests_passed": true, "error": null}
+{"code": "rcParams[\"figure.figsize\"] = (8,6)", "compilation_passed": true, "time": 0.014232873916625977, "tests_passed": true, "error": null}
+{"code": "clf()  # Clear previous plots if any", "compilation_passed": true, "time": 0.21106886863708496, "tests_passed": true, "error": null}
+{"code": "style.use(\"seaborn-pastel\")", "compilation_passed": true, "time": 0.024681806564331055, "tests_passed": true, "error": null}
+{"code": "bar(list(city_population.keys()), list(city_population.values()), color='green')", "compilation_passed": true, "time": 0.034336090087890625, "tests_passed": true, "error": null}
+{"code": "clf()", "compilation_passed": true, "time": 0.21138596534729004, "tests_passed": true, "error": null}

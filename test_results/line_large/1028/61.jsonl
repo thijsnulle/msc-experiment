@@ -1,0 +1,23 @@
+{"code": "decode(\"utf-8\").strip().split(\"\\n\")[-1]", "compilation_passed": true, "time": 0.05790209770202637, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode(\"utf-8\").strip().split(\"\\n\")[-1].strip()", "compilation_passed": true, "time": 0.06036090850830078, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "split(b\"\\n\")[-2]", "compilation_passed": true, "time": 0.05613899230957031, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode(\"utf-8\").strip().split(\"\\n\")[2].split(\",\")[1].strip()", "compilation_passed": true, "time": 0.05602216720581055, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "strip().decode(\"utf-8\").split(\"\\n\")[-1]", "compilation_passed": true, "time": 0.052247047424316406, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode(\"utf-8\").split(\"\\n\")[-2].split(\",\")[2].strip()", "compilation_passed": true, "time": 0.06222677230834961, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode(\"utf-8\").split(\"\\n\")[-2].split()[-1].strip()", "compilation_passed": true, "time": 0.05352902412414551, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode(\"utf-8\").split(\"\\n\")[-2].split(\"\\t\")[8].strip()", "compilation_passed": true, "time": 0.052308082580566406, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode(\"utf-8\").split(\"\\n\")[-2].split()[-1]", "compilation_passed": true, "time": 0.05489802360534668, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode().strip().split(\"\\n\")[-1].strip().split()", "compilation_passed": true, "time": 0.06238985061645508, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode(\"utf-8\")", "compilation_passed": true, "time": 0.06128716468811035, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode(\"utf-8\").strip().split(\"\\n\")[-1].split()", "compilation_passed": true, "time": 0.059422969818115234, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode()", "compilation_passed": true, "time": 0.05319714546203613, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "split(b\"\\n\")[0]", "compilation_passed": true, "time": 0.058912038803100586, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode().split(\"\\n\")[-2].split(\" \")[-1].strip()", "compilation_passed": true, "time": 0.06627106666564941, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode(\"utf-8\").strip().split(\"\\n\")[-1].split(\",\")[-1]", "compilation_passed": true, "time": 0.060343027114868164, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "strip().decode().split(\"\\n\")[-1].split(\",\")[7]", "compilation_passed": true, "time": 0.05883312225341797, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "strip().decode(\"utf-8\").split(\"\\n\")[-1].split(\",\")[-1].strip()", "compilation_passed": true, "time": 0.05356574058532715, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode(\"utf-8\").split(\"\\n\")[-1].strip().split(\",\")[-1]", "compilation_passed": true, "time": 0.052374839782714844, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "strip().split(b\"\\n\")[-1].decode(\"utf-8\").strip()", "compilation_passed": true, "time": 0.054222822189331055, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode(\"utf-8\").split(\"\\n\")[1]", "compilation_passed": true, "time": 0.06021618843078613, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "strip().split(b\"\\r\\n\")[-1] if platform.system() == \"Windows\" else output.split(b\"\\n\")[-1]", "compilation_passed": true, "time": 0.060437917709350586, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": "decode(\"utf-8\").split(\"\\n\")[-2].strip().split(\",\")[-1]", "compilation_passed": true, "time": 0.06103515625, "tests_passed": false, "error": "subprocess.CalledProcessError"}

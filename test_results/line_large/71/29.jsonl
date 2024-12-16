@@ -1,0 +1,4 @@
+{"code": " pd.read_csv(csv_file)", "compilation_passed": true, "time": 0.16980719566345215, "tests_passed": true, "error": null}
+{"code": " pd.read_csv(csv_file, engine='python', names=['email', 'list'])", "compilation_passed": true, "time": 0.047155141830444336, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(csv_file, names=['email', 'list'])", "compilation_passed": true, "time": 0.028209924697875977, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(csv_file, header=None, names=['email', 'list'])", "compilation_passed": true, "time": 0.032527923583984375, "tests_passed": false, "error": "ValueError"}

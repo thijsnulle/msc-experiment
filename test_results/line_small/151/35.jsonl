@@ -1,0 +1,6 @@
+{"code": " [data_dict[key] for key in data_keys]", "compilation_passed": true, "time": 0.009903192520141602, "tests_passed": false, "error": "KeyError"}
+{"code": " {key: data_dict[key] for key in data_keys}", "compilation_passed": true, "time": 0.009248018264770508, "tests_passed": false, "error": "KeyError"}
+{"code": " []", "compilation_passed": true, "time": 0.008884906768798828, "tests_passed": false, "error": "ValueError"}
+{"code": " {k: np.array(v) for k, v in data_dict.items() if k in data_keys}", "compilation_passed": true, "time": 0.009491920471191406, "tests_passed": false, "error": "NameError"}
+{"code": " [(key, np.array(data_dict[key])) for key in data_keys]", "compilation_passed": true, "time": 0.009889841079711914, "tests_passed": false, "error": "NameError"}
+{"code": " [(key, data_dict[key]) for key in data_keys]", "compilation_passed": true, "time": 0.009484052658081055, "tests_passed": false, "error": "KeyError"}

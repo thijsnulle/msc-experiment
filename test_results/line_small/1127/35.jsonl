@@ -1,0 +1,7 @@
+{"code": " [(component, hash) for component, hash in zip(path_components, hashes)]", "compilation_passed": true, "time": 0.00907588005065918, "tests_passed": true, "error": null}
+{"code": " list(zip(path_components, hashes))", "compilation_passed": true, "time": 0.007769107818603516, "tests_passed": true, "error": null}
+{"code": " [(path_component, hash) for path_component, hash in zip(path_components, hashes)]", "compilation_passed": true, "time": 0.0069408416748046875, "tests_passed": true, "error": null}
+{"code": " list(zip(path_components[:-1], hashes))", "compilation_passed": true, "time": 0.006424903869628906, "tests_passed": true, "error": null}
+{"code": " [(path_components[i], hashes[i]) for i in range(len(path_components))]", "compilation_passed": true, "time": 0.012887001037597656, "tests_passed": false, "error": "IndexError"}
+{"code": " [(component, hash_value) for component, hash_value in zip(path_components, hashes)]", "compilation_passed": true, "time": 0.007363796234130859, "tests_passed": true, "error": null}
+{"code": " [(p, h) for p, h in zip(path_components, hashes)]", "compilation_passed": true, "time": 0.007022857666015625, "tests_passed": true, "error": null}

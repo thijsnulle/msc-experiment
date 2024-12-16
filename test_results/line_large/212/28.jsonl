@@ -1,0 +1,5 @@
+{"code": " list(zip(*data))", "compilation_passed": true, "time": 0.008146047592163086, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(data)", "compilation_passed": true, "time": 0.2447071075439453, "tests_passed": true, "error": null}
+{"code": " np.array([np.array([x, y]) for x, y in data])", "compilation_passed": true, "time": 0.37378382682800293, "tests_passed": true, "error": null}
+{"code": " np.array([[point[0], point[1]] for point in data])", "compilation_passed": true, "time": 0.2500429153442383, "tests_passed": true, "error": null}
+{"code": " np.array([list(i) for i in data])", "compilation_passed": true, "time": 0.24866104125976562, "tests_passed": true, "error": null}

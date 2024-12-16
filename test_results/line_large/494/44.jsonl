@@ -1,0 +1,8 @@
+{"code": " []", "compilation_passed": true, "time": 0.5110797882080078, "tests_passed": true, "error": null}
+{"code": " validate_timezones(timezones)", "compilation_passed": true, "time": 0.06357192993164062, "tests_passed": false, "error": "NameError"}
+{"code": " [", "compilation_passed": false, "time": 0.0002613067626953125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [t for t in timezones if t in pytz.all_timezones or", "compilation_passed": false, "time": 0.0002682209014892578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [tz for tz in timezones if tz in pytz.all_timezones or re.search(r\"UTC[+-]\\d+:\\d{2}\", tz)]", "compilation_passed": true, "time": 0.564324140548706, "tests_passed": true, "error": null}
+{"code": " [tz for tz in timezones if tz in pytz.all_timezones or re.match(r'^UTC[-+](\\d{2}):(\\d{2})$', tz)]", "compilation_passed": true, "time": 0.49218106269836426, "tests_passed": true, "error": null}
+{"code": " [tz for tz in timezones if tz in pytz.all_timezones or re.match(r\"^UTC[+-][0-9]+:[0-9]{2}$\", tz)]", "compilation_passed": true, "time": 0.5002386569976807, "tests_passed": true, "error": null}
+{"code": " [tz for tz in timezones if tz in pytz.all_timezones or re.fullmatch(r'UTC[+-][0-9]{1,2}:[0-9]{2}', tz)]", "compilation_passed": true, "time": 0.47281503677368164, "tests_passed": true, "error": null}

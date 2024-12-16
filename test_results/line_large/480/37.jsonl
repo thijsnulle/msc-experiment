@@ -1,0 +1,25 @@
+{"code": " [t.strip() for t in s.split(\",\")]", "compilation_passed": true, "time": 0.005249977111816406, "tests_passed": true, "error": null}
+{"code": " [t.strip() for t in re.findall(r\"[^,]+\", s)]", "compilation_passed": true, "time": 0.005197048187255859, "tests_passed": true, "error": null}
+{"code": " s.split(',')", "compilation_passed": true, "time": 0.008723974227905273, "tests_passed": true, "error": null}
+{"code": " [x.strip() for x in re.split(r',\\s*', s) if x.strip() != '']", "compilation_passed": true, "time": 0.0053408145904541016, "tests_passed": true, "error": null}
+{"code": " [sub.strip() for sub in re.split(',|, | ,', s)]", "compilation_passed": true, "time": 0.005534172058105469, "tests_passed": true, "error": null}
+{"code": " [substr.strip() for substr in re.findall(r\",\\s*(.*?)(?:\\s*,|$)\", s)]", "compilation_passed": true, "time": 0.006785154342651367, "tests_passed": true, "error": null}
+{"code": " [substr.strip() for substr in re.split(\",\", s)]", "compilation_passed": true, "time": 0.005404233932495117, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^a-zA-Z,\\s]\", \"\", s).split(\",\")", "compilation_passed": true, "time": 0.009859085083007812, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s*,\\s*\", \",\", s).split(\",\")", "compilation_passed": true, "time": 0.006140947341918945, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\s*,\\s*\", s)", "compilation_passed": true, "time": 0.005157947540283203, "tests_passed": true, "error": null}
+{"code": " [x.strip() for x in re.split('[,]', s)]", "compilation_passed": true, "time": 0.0057659149169921875, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s*[,]\\s*\", \",\", s).split(\",\")", "compilation_passed": true, "time": 0.006121158599853516, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^a-zA-Z, ]\", \"\", s).split(\",\")", "compilation_passed": true, "time": 0.009273052215576172, "tests_passed": true, "error": null}
+{"code": " [sub.strip() for sub in re.split(\",\", s)]", "compilation_passed": true, "time": 0.0055332183837890625, "tests_passed": true, "error": null}
+{"code": " s.split(\",\")", "compilation_passed": true, "time": 0.009181022644042969, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\S.*?(?=\\s*,|$)\", s)", "compilation_passed": true, "time": 0.006173849105834961, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'\\s', '', ss) for ss in s.split(',')]", "compilation_passed": true, "time": 0.0064160823822021484, "tests_passed": true, "error": null}
+{"code": " [x.strip() for x in re.findall(\"[^,]+\", s)]", "compilation_passed": true, "time": 0.005700111389160156, "tests_passed": true, "error": null}
+{"code": " re.split(r\"(?<!\\w,\\s)\\s*(?=[^,\\s])|(?<=[^,\\s])\\s*(?=[^,\\s])\", s)", "compilation_passed": true, "time": 0.012813806533813477, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+(?=\\s*,\\s*|\\s*$)', s)", "compilation_passed": true, "time": 0.006218910217285156, "tests_passed": true, "error": null}
+{"code": " [ss.strip() for ss in re.split('([A-Z][^A-Z]*)', s) if ss.strip() != '']", "compilation_passed": true, "time": 0.009735822677612305, "tests_passed": true, "error": null}
+{"code": " [sub.strip() for sub in re.split(r\",\\s*\", s)]", "compilation_passed": true, "time": 0.005486249923706055, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^A-Za-z0-9]+\", \" \", s)", "compilation_passed": true, "time": 0.011836767196655273, "tests_passed": false, "error": "TypeError"}
+{"code": " [ss.strip() for ss in re.split(r',|\\.|-|;|:', s)]", "compilation_passed": true, "time": 0.005758047103881836, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\S.*?(?=\\s*,\\s*|$)', s)", "compilation_passed": true, "time": 0.00625920295715332, "tests_passed": true, "error": null}

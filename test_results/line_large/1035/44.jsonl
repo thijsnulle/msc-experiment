@@ -1,0 +1,4 @@
+{"code": "fit(X_train.to_frame(), y_train)", "compilation_passed": true, "time": 0.17973923683166504, "tests_passed": true, "error": null}
+{"code": "fit(X_train.to_numpy().reshape(-1, 1), y_train)", "compilation_passed": true, "time": 0.17456316947937012, "tests_passed": true, "error": null}
+{"code": "fit(X_train.values.reshape(-1, 1), y_train)", "compilation_passed": true, "time": 0.1753859519958496, "tests_passed": true, "error": null}
+{"code": "fit(np.array(X_train).reshape(-1, 1), y_train)", "compilation_passed": true, "time": 0.17214512825012207, "tests_passed": true, "error": null}

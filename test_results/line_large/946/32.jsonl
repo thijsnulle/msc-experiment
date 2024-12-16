@@ -1,0 +1,19 @@
+{"code": " np.zeros((rows, cols))", "compilation_passed": true, "time": 0.005792379379272461, "tests_passed": true, "error": null}
+{"code": " np.array([random.randint(0, 100) for _ in range(rows * cols)]).reshape(rows, cols)", "compilation_passed": true, "time": 0.005190849304199219, "tests_passed": true, "error": null}
+{"code": " np.random.choice([min_val]).reshape(rows, cols)", "compilation_passed": true, "time": 0.008591890335083008, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.randint(min_val, max_val, (rows, cols), dtype=int)", "compilation_passed": true, "time": 0.012652873992919922, "tests_passed": false, "error": "ValueError"}
+{"code": " np.full((rows, cols), min_val)", "compilation_passed": true, "time": 0.0025877952575683594, "tests_passed": true, "error": null}
+{"code": " [[min_val for _ in range(cols)] for _ in range(rows)]", "compilation_passed": true, "time": 0.0035240650177001953, "tests_passed": true, "error": null}
+{"code": " [0]", "compilation_passed": true, "time": 0.005177974700927734, "tests_passed": true, "error": null}
+{"code": " [[min_val] * cols for _ in range(rows)]", "compilation_passed": true, "time": 0.002803802490234375, "tests_passed": true, "error": null}
+{"code": " [[min_val] * cols for i in range(rows)]", "compilation_passed": true, "time": 0.0028243064880371094, "tests_passed": true, "error": null}
+{"code": " np.array([[min_val for _ in range(cols)] for _ in range(rows)])", "compilation_passed": true, "time": 0.002500772476196289, "tests_passed": true, "error": null}
+{"code": " np.ones((rows, cols)) * min_val", "compilation_passed": true, "time": 0.003244638442993164, "tests_passed": true, "error": null}
+{"code": " np.array([min_val] * rows * cols).reshape((rows, cols))", "compilation_passed": true, "time": 0.002435922622680664, "tests_passed": true, "error": null}
+{"code": " [[min_val for j in range(cols)] for i in range(rows)]", "compilation_passed": true, "time": 0.002638101577758789, "tests_passed": true, "error": null}
+{"code": " np.array([min_val])", "compilation_passed": true, "time": 0.004929065704345703, "tests_passed": true, "error": null}
+{"code": " np.array([[min_val for j in range(cols)] for i in range(rows)])", "compilation_passed": true, "time": 0.002669095993041992, "tests_passed": true, "error": null}
+{"code": " [ [min_val] * cols for _ in range(rows)]", "compilation_passed": true, "time": 0.0031087398529052734, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, max_val) for _ in range(rows*cols)]", "compilation_passed": true, "time": 0.005607128143310547, "tests_passed": true, "error": null}
+{"code": " np.random.randint(min_val, size=(rows, cols))", "compilation_passed": true, "time": 0.005911827087402344, "tests_passed": true, "error": null}
+{"code": " np.full((rows, cols), min_val, dtype=int)", "compilation_passed": true, "time": 0.002866983413696289, "tests_passed": true, "error": null}

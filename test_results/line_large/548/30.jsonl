@@ -1,0 +1,4 @@
+{"code": " zlib.compress(random_string.encode())", "compilation_passed": true, "time": 0.0030770301818847656, "tests_passed": true, "error": null}
+{"code": " zlib.compress(bytes(random_string, 'utf-8'))", "compilation_passed": true, "time": 0.0029931068420410156, "tests_passed": true, "error": null}
+{"code": " zlib.compress(random_string.encode('utf-8'))", "compilation_passed": true, "time": 0.002964019775390625, "tests_passed": true, "error": null}
+{"code": " zlib.compress(bytes(random_string, \"utf-8\"))", "compilation_passed": true, "time": 0.0030040740966796875, "tests_passed": true, "error": null}

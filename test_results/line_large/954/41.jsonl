@@ -1,0 +1,7 @@
+{"code": " [\" \".join(random.choices(vocabulary, k=10)) for _ in range(n_sentences)]", "compilation_passed": true, "time": 0.016651153564453125, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.01086735725402832, "tests_passed": true, "error": null}
+{"code": " [\" \".join(random.choices(vocabulary, k=10)) for i in range(n_sentences)]", "compilation_passed": true, "time": 0.01683497428894043, "tests_passed": true, "error": null}
+{"code": " [random.choices(vocabulary, k=10) for _ in range(n_sentences)]", "compilation_passed": true, "time": 0.016299009323120117, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0001437664031982422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [\" \".join(random.choices(vocabulary, k=10)).lower() for _ in range(n_sentences)]", "compilation_passed": true, "time": 0.018359899520874023, "tests_passed": true, "error": null}
+{"code": " [random.choice(vocabulary) + ' ' for _ in range(10)]", "compilation_passed": true, "time": 0.014219045639038086, "tests_passed": true, "error": null}

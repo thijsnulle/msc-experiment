@@ -1,0 +1,11 @@
+{"code": "hist([])", "compilation_passed": true, "time": 0.2271561622619629, "tests_passed": true, "error": null}
+{"code": "hist([], bins=0)", "compilation_passed": true, "time": 0.042885780334472656, "tests_passed": false, "error": "ValueError"}
+{"code": "hist([], bins=10)", "compilation_passed": true, "time": 0.17420291900634766, "tests_passed": true, "error": null}
+{"code": "hist([], bins=[])", "compilation_passed": true, "time": 0.1684741973876953, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Distribution of values in {column_name} (No Data)\")", "compilation_passed": true, "time": 0.16184782981872559, "tests_passed": true, "error": null}
+{"code": "hist(df[column_name], bins=10, edgecolor='black', alpha=0.7)", "compilation_passed": true, "time": 0.17600488662719727, "tests_passed": true, "error": null}
+{"code": "hist(range(0), bins=0)", "compilation_passed": true, "time": 0.03408384323120117, "tests_passed": false, "error": "ValueError"}
+{"code": "hist([], bins=1)", "compilation_passed": true, "time": 0.15794801712036133, "tests_passed": true, "error": null}
+{"code": "hist([], bins=[], edgecolor='k', alpha=0.7)", "compilation_passed": true, "time": 0.15937113761901855, "tests_passed": true, "error": null}
+{"code": "hist([], bins=1, label=\"No Data\")", "compilation_passed": true, "time": 0.17290592193603516, "tests_passed": true, "error": null}
+{"code": "hist(range(0), bins=1, edgecolor='black', alpha=0.7)", "compilation_passed": true, "time": 0.16144084930419922, "tests_passed": true, "error": null}

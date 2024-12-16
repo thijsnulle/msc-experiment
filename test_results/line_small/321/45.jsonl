@@ -1,0 +1,27 @@
+{"code": " plot.bar(name_freqs.index, name_freqs.values, color='purple')", "compilation_passed": true, "time": 0.01490020751953125, "tests_passed": false, "error": "NameError"}
+{"code": " plt.bar(name_freqs.index, name_freqs.values, color='red', alpha=0.5, label='Name frequencies')", "compilation_passed": true, "time": 0.014267206192016602, "tests_passed": false, "error": "NameError"}
+{"code": " pd.DataFrame(name_freqs).plot.bar()", "compilation_passed": true, "time": 0.07062792778015137, "tests_passed": true, "error": null}
+{"code": " pd.Series(name_freqs).plot.barh(color='g', title=\"Name Frequencies\")", "compilation_passed": true, "time": 0.05279898643493652, "tests_passed": true, "error": null}
+{"code": " name_freqs.plot(kind='bar')", "compilation_passed": true, "time": 0.046293020248413086, "tests_passed": true, "error": null}
+{"code": " sns.barplot(data=name_freqs, y=name_freqs.index, x=name_freqs.values)", "compilation_passed": true, "time": 0.014829874038696289, "tests_passed": false, "error": "NameError"}
+{"code": " plt.bar(name_freqs.index, name_freqs)", "compilation_passed": true, "time": 0.014843940734863281, "tests_passed": false, "error": "NameError"}
+{"code": " plot = name_freqs.plot.bar(stacked=True, figsize=(15, 3), fontsize=7)", "compilation_passed": true, "time": 0.06429505348205566, "tests_passed": true, "error": null}
+{"code": " plt.bar(name_freqs.index, name_freqs, align='center')", "compilation_passed": true, "time": 0.010645151138305664, "tests_passed": false, "error": "NameError"}
+{"code": " plot.barh(name_freqs.index, name_freqs.values, align='center')", "compilation_passed": true, "time": 0.011244058609008789, "tests_passed": false, "error": "NameError"}
+{"code": " sns.barplot(x=name_freqs.index, y=name_freqs)", "compilation_passed": true, "time": 0.010944128036499023, "tests_passed": false, "error": "NameError"}
+{"code": " name_freqs.plot.bar(rot=0, title='Name Frequencies')", "compilation_passed": true, "time": 0.039342641830444336, "tests_passed": true, "error": null}
+{"code": " name_freqs.plot(kind=\"barh\", rot=90, color='white', title=\"Name Frequencies\")", "compilation_passed": true, "time": 0.04172396659851074, "tests_passed": true, "error": null}
+{"code": " sns.barplot(name_freqs.index, name_freqs, palette='pastel')", "compilation_passed": true, "time": 0.011091947555541992, "tests_passed": false, "error": "NameError"}
+{"code": " plt.bar(range(len(name_freqs)), name_freqs, align='center', width=0.8)", "compilation_passed": true, "time": 0.010509014129638672, "tests_passed": false, "error": "NameError"}
+{"code": " pd.Series.plot.barh(name_freqs, rot=0)", "compilation_passed": true, "time": 0.01120305061340332, "tests_passed": false, "error": "TypeError"}
+{"code": " plot.bar(range(len(name_freqs)), name_freqs, color='#000000', width=0.8)", "compilation_passed": true, "time": 0.01101994514465332, "tests_passed": false, "error": "NameError"}
+{"code": " sns.barplot(x=name_freqs.index, y=name_freqs.values)", "compilation_passed": true, "time": 0.011644124984741211, "tests_passed": false, "error": "NameError"}
+{"code": " name_freqs.plot.bar(color=\"red\", rot=0)", "compilation_passed": true, "time": 0.029942989349365234, "tests_passed": true, "error": null}
+{"code": " name_freqs.plot.bar()", "compilation_passed": true, "time": 0.028165102005004883, "tests_passed": true, "error": null}
+{"code": " plt.bar(name_freqs.index, name_freqs.values)", "compilation_passed": true, "time": 0.0067310333251953125, "tests_passed": false, "error": "NameError"}
+{"code": " pd.Series(name_freqs).plot.bar(rot=0, title='Name Frequencies')", "compilation_passed": true, "time": 0.03101801872253418, "tests_passed": true, "error": null}
+{"code": " plot.barh(names, name_freqs, height=plot.figure.get_figheight() / 1.6, alpha=0.5)", "compilation_passed": true, "time": 0.009774208068847656, "tests_passed": false, "error": "NameError"}
+{"code": " sns.barplot(", "compilation_passed": false, "time": 0.0003750324249267578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.plotting.plot_bar(", "compilation_passed": false, "time": 0.00019621849060058594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " plt.bar(name_freqs.index, name_freqs.values, color='green', alpha=0.5)", "compilation_passed": true, "time": 0.008483171463012695, "tests_passed": false, "error": "NameError"}
+{"code": " plot = plt.barh(name_freqs.index, name_freqs.values)", "compilation_passed": true, "time": 0.008157968521118164, "tests_passed": false, "error": "NameError"}

@@ -1,0 +1,9 @@
+{"code": " max(", "compilation_passed": false, "time": 0.0006928443908691406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " operation_start_time + interval - time.time()", "compilation_passed": true, "time": 0.06244993209838867, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " interval - (time.time() - operation_start_time)", "compilation_passed": true, "time": 0.05686616897583008, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " max(0, interval - (time.time() - operation_start_time))", "compilation_passed": true, "time": 0.05880403518676758, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " max(interval - (time.time() - operation_start_time), 0)", "compilation_passed": true, "time": 0.05345916748046875, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " max(0.0, interval - (time.time() - operation_start_time))", "compilation_passed": true, "time": 0.07026004791259766, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " (", "compilation_passed": false, "time": 0.0006930828094482422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " interval - (", "compilation_passed": false, "time": 0.0009500980377197266, "tests_passed": false, "error": "SyntaxError"}
+{"code": " max(0, operation_start_time + interval - time.time())", "compilation_passed": true, "time": 0.060638427734375, "tests_passed": false, "error": "subprocess.CalledProcessError"}

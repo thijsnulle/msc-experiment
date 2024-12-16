@@ -1,0 +1,13 @@
+{"code": "writerow(DATA)", "compilation_passed": true, "time": 0.015160083770751953, "tests_passed": true, "error": null}
+{"code": "writerow(['hour'] + DATA)", "compilation_passed": true, "time": 0.015005111694335938, "tests_passed": true, "error": null}
+{"code": "writerow(['datetime'] + DATA)", "compilation_passed": true, "time": 0.015398979187011719, "tests_passed": true, "error": null}
+{"code": "writerow(['time'] + DATA)", "compilation_passed": true, "time": 0.015088796615600586, "tests_passed": true, "error": null}
+{"code": "writerow(['Time', *DATA])", "compilation_passed": true, "time": 0.009094953536987305, "tests_passed": true, "error": null}
+{"code": "writerow(['Date', *DATA])", "compilation_passed": true, "time": 0.015049219131469727, "tests_passed": true, "error": null}
+{"code": "writerow([\"Time\"] + DATA)", "compilation_passed": true, "time": 0.009006023406982422, "tests_passed": true, "error": null}
+{"code": "writerow(['time', *DATA])", "compilation_passed": true, "time": 0.014754056930541992, "tests_passed": true, "error": null}
+{"code": "writerow(['Datetime'] + DATA)", "compilation_passed": true, "time": 0.014509916305541992, "tests_passed": true, "error": null}
+{"code": "writerow(['Timestamp'] + DATA)", "compilation_passed": true, "time": 0.015033245086669922, "tests_passed": true, "error": null}
+{"code": "writerow(['Time', 'Temperature', 'Humidity', 'Pressure'])", "compilation_passed": true, "time": 0.009313821792602539, "tests_passed": true, "error": null}
+{"code": "writerow(['Time'] + DATA)", "compilation_passed": true, "time": 0.009145021438598633, "tests_passed": true, "error": null}
+{"code": "writerow(['Datetime', *DATA])", "compilation_passed": true, "time": 0.01661086082458496, "tests_passed": true, "error": null}

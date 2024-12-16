@@ -1,0 +1,12 @@
+{"code": " df[columns].copy()  # Create a copy to avoid modifying the original DataFrame", "compilation_passed": true, "time": 0.021795034408569336, "tests_passed": true, "error": null}
+{"code": " df[(df[columns[1]] > height) & (df[columns[2]] < weight)]", "compilation_passed": true, "time": 0.030670881271362305, "tests_passed": true, "error": null}
+{"code": " df.loc[(df[columns[1]] > height) & (df[columns[2]] < weight)]", "compilation_passed": true, "time": 0.024729013442993164, "tests_passed": true, "error": null}
+{"code": " df[columns].loc[(df[columns[1]] > height) & (df[columns[2]] < weight)]", "compilation_passed": true, "time": 0.050592899322509766, "tests_passed": true, "error": null}
+{"code": " df.loc[df[columns[1]] > height, columns]", "compilation_passed": true, "time": 0.024774789810180664, "tests_passed": true, "error": null}
+{"code": " df.loc[(df[columns[1]] > height) & (df[columns[2]] < weight), columns]", "compilation_passed": true, "time": 0.013394832611083984, "tests_passed": true, "error": null}
+{"code": " df[columns].copy()", "compilation_passed": true, "time": 0.04008007049560547, "tests_passed": true, "error": null}
+{"code": " df[columns]", "compilation_passed": true, "time": 0.0398252010345459, "tests_passed": true, "error": null}
+{"code": " df.loc[(df[columns[1]] >= height) & (df[columns[2]] <= weight), columns]", "compilation_passed": true, "time": 0.06391024589538574, "tests_passed": true, "error": null}
+{"code": " df[(df[columns[1]] > height) & (df[columns[2]] < weight)][columns]", "compilation_passed": true, "time": 0.09939217567443848, "tests_passed": true, "error": null}
+{"code": " df[columns].query(f'{columns[1]} >= {height} and {columns[2]} <= {weight}')", "compilation_passed": true, "time": 0.25307202339172363, "tests_passed": true, "error": null}
+{"code": " df.loc[df[columns[1]] > height].loc[df[columns[2]] < weight]", "compilation_passed": true, "time": 0.14066410064697266, "tests_passed": true, "error": null}

@@ -1,0 +1,7 @@
+{"code": "plot(df[key], label=key)", "compilation_passed": true, "time": 0.2012958526611328, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df[key], label=key)", "compilation_passed": true, "time": 0.20852088928222656, "tests_passed": true, "error": null}
+{"code": "plot(df['x'], df[key], label=key)", "compilation_passed": true, "time": 0.09644484519958496, "tests_passed": false, "error": "KeyError"}
+{"code": "plot(df[key])", "compilation_passed": true, "time": 0.051882028579711914, "tests_passed": true, "error": null}
+{"code": "plot(df[key].values, label=key)", "compilation_passed": true, "time": 0.21592235565185547, "tests_passed": true, "error": null}
+{"code": "plot(df['x'], df[key])", "compilation_passed": true, "time": 0.053624868392944336, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df[key])", "compilation_passed": true, "time": 0.05285787582397461, "tests_passed": true, "error": null}

@@ -1,0 +1,14 @@
+{"code": "histplot(data=df, x='Score', kde=True, color='green')", "compilation_passed": true, "time": 0.7851109504699707, "tests_passed": true, "error": null}
+{"code": "histplot(data=df, x=\"Score\")", "compilation_passed": true, "time": 0.6560380458831787, "tests_passed": true, "error": null}
+{"code": "histplot(data=df, x='Score', bins=10)", "compilation_passed": true, "time": 1.0151898860931396, "tests_passed": false, "error": "AttributeError"}
+{"code": "histplot(data=df, x='Score', bins=10, kde=True)", "compilation_passed": true, "time": 0.6300539970397949, "tests_passed": true, "error": null}
+{"code": "histplot(df['Score'], bins=10)", "compilation_passed": true, "time": 0.6337130069732666, "tests_passed": true, "error": null}
+{"code": "histplot(df['Score'])", "compilation_passed": true, "time": 1.0126121044158936, "tests_passed": false, "error": "AttributeError"}
+{"code": "histplot(data=df, x=\"Score\", kde=True)", "compilation_passed": true, "time": 0.722160816192627, "tests_passed": true, "error": null}
+{"code": "histplot(data=df, x='Score')", "compilation_passed": true, "time": 1.0187931060791016, "tests_passed": false, "error": "AttributeError"}
+{"code": "histplot(data=df, x='Score', bins=20)", "compilation_passed": true, "time": 0.768989086151123, "tests_passed": true, "error": null}
+{"code": "histplot(data=df, x='Score', kde=True)", "compilation_passed": true, "time": 1.0118019580841064, "tests_passed": false, "error": ""}
+{"code": "histplot(data=df, x=\"Score\", bins=10, kde=True)", "compilation_passed": true, "time": 0.48479795455932617, "tests_passed": true, "error": null}
+{"code": "histplot(df['Score'], kde=True, color='skyblue')", "compilation_passed": true, "time": 0.4500308036804199, "tests_passed": true, "error": null}
+{"code": "histplot(df['Score'], kde=True)", "compilation_passed": true, "time": 0.47787904739379883, "tests_passed": true, "error": null}
+{"code": "histplot(df['Score'], bins=10, kde=True)", "compilation_passed": true, "time": 0.5493719577789307, "tests_passed": true, "error": null}

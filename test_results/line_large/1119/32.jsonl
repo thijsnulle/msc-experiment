@@ -1,0 +1,6 @@
+{"code": " password + salt", "compilation_passed": true, "time": 0.012402772903442383, "tests_passed": false, "error": "TypeError"}
+{"code": " f\"{salt}{password}\"", "compilation_passed": true, "time": 0.0073206424713134766, "tests_passed": false, "error": "TypeError"}
+{"code": " salt + password", "compilation_passed": true, "time": 0.007381439208984375, "tests_passed": false, "error": "TypeError"}
+{"code": " salt + password + salt", "compilation_passed": true, "time": 0.007684946060180664, "tests_passed": false, "error": "TypeError"}
+{"code": " f'{salt}{password}'", "compilation_passed": true, "time": 0.0068967342376708984, "tests_passed": false, "error": "TypeError"}
+{"code": " f'{password}{salt}'", "compilation_passed": true, "time": 0.007586956024169922, "tests_passed": false, "error": "TypeError"}

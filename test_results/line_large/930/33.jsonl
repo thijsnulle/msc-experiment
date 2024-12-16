@@ -1,0 +1,8 @@
+{"code": " [pairs[i] for i in random.sample(range(len(pairs)), k=len(POSSIBLE_LETTERS))]", "compilation_passed": true, "time": 0.0036721229553222656, "tests_passed": true, "error": null}
+{"code": " [pairs[random.randint(0, len(pairs) - 1)] for _ in range(len(POSSIBLE_LETTERS))]", "compilation_passed": true, "time": 0.0035779476165771484, "tests_passed": true, "error": null}
+{"code": " random.choices(pairs, k=len(POSSIBLE_LETTERS))", "compilation_passed": true, "time": 0.0034940242767333984, "tests_passed": true, "error": null}
+{"code": " random.sample(pairs, len(POSSIBLE_LETTERS))", "compilation_passed": true, "time": 0.0034859180450439453, "tests_passed": true, "error": null}
+{"code": " [random.choice(pairs) for _ in range(len(POSSIBLE_LETTERS))]", "compilation_passed": true, "time": 0.0035359859466552734, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.010206937789916992, "tests_passed": true, "error": null}
+{"code": " [pairs[random.randint(0, len(pairs)-1)] for _ in range(len(POSSIBLE_LETTERS))]", "compilation_passed": true, "time": 0.003576993942260742, "tests_passed": true, "error": null}
+{"code": " [pairs[i] for i in random.sample(range(len(pairs)), len(POSSIBLE_LETTERS))]", "compilation_passed": true, "time": 0.003556966781616211, "tests_passed": true, "error": null}

@@ -1,0 +1,10 @@
+{"code": " np.sum(arr, axis=0)", "compilation_passed": true, "time": 0.32518696784973145, "tests_passed": true, "error": null}
+{"code": " arr.sum(axis=0)", "compilation_passed": true, "time": 0.2980659008026123, "tests_passed": true, "error": null}
+{"code": " np.array(arr.sum(axis=1))", "compilation_passed": true, "time": 0.12178587913513184, "tests_passed": true, "error": null}
+{"code": " arr.sum(axis=1)", "compilation_passed": true, "time": 0.1374812126159668, "tests_passed": true, "error": null}
+{"code": " np.apply_along_axis(np.sum, axis=1, arr=arr)", "compilation_passed": true, "time": 0.1236429214477539, "tests_passed": true, "error": null}
+{"code": " np.sum(arr, axis=1)", "compilation_passed": true, "time": 0.12612700462341309, "tests_passed": true, "error": null}
+{"code": " np.array([np.sum(row) for row in arr])", "compilation_passed": true, "time": 0.18305206298828125, "tests_passed": true, "error": null}
+{"code": " np.sum(arr, axis=1).reshape(-1, 1)", "compilation_passed": true, "time": 0.13390493392944336, "tests_passed": true, "error": null}
+{"code": " np.array(arr.sum(axis=1)).reshape(-1, 1)  # calculate the sum of each row", "compilation_passed": true, "time": 0.14126300811767578, "tests_passed": true, "error": null}
+{"code": " arr.sum(axis=0)  # Calculate the sum of values in each column", "compilation_passed": true, "time": 0.10440587997436523, "tests_passed": true, "error": null}

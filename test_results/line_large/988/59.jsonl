@@ -1,0 +1,8 @@
+{"code": " predicate_func(full_path)", "compilation_passed": true, "time": 0.012725114822387695, "tests_passed": false, "error": "NameError"}
+{"code": " predicate_functions[predicate_name](full_path)", "compilation_passed": true, "time": 0.019198894500732422, "tests_passed": true, "error": null}
+{"code": " predicate_function(full_path)", "compilation_passed": true, "time": 0.014067888259887695, "tests_passed": false, "error": "NameError"}
+{"code": " func(full_path) for predicate_name, func in predicate_functions.items() if predicate_name in predicates", "compilation_passed": true, "time": 0.019994020462036133, "tests_passed": true, "error": null}
+{"code": " func(full_path) for predicate_name, func in predicate_functions.items()", "compilation_passed": true, "time": 0.008031845092773438, "tests_passed": true, "error": null}
+{"code": " predicate_function(full_path) for predicate_name, predicate_function in predicate_functions.items() if predicate_name in predicates", "compilation_passed": true, "time": 0.01699995994567871, "tests_passed": true, "error": null}
+{"code": " function(full_path)", "compilation_passed": true, "time": 0.01220393180847168, "tests_passed": false, "error": "NameError"}
+{"code": " function(full_path) for predicate_name, function in predicate_functions.items() if predicate_name in predicates", "compilation_passed": true, "time": 0.017475128173828125, "tests_passed": true, "error": null}

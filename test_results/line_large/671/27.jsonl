@@ -1,0 +1,26 @@
+{"code": " os.path.join(directory, f\"{i}.json\")", "compilation_passed": true, "time": 0.009935855865478516, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " f\"{directory}/file{i}.json\"", "compilation_passed": true, "time": 0.009428024291992188, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " f\"{i+1}.txt\"", "compilation_passed": true, "time": 0.010696887969970703, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, f'{i}.json')", "compilation_passed": true, "time": 0.008859872817993164, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " f\"file{i}.txt\"", "compilation_passed": true, "time": 0.03811001777648926, "tests_passed": true, "error": null}
+{"code": " f\"{directory}/{random.randint(10000, 99999)}.json\"", "compilation_passed": true, "time": 0.011262893676757812, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " f'{directory}/file{i}.json'", "compilation_passed": true, "time": 0.008336067199707031, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.join(directory, f'file{i}.json')", "compilation_passed": true, "time": 0.014612913131713867, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " f'{directory}/{i}.json'", "compilation_passed": true, "time": 0.00982213020324707, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " f'file{i}.json'", "compilation_passed": true, "time": 0.03739213943481445, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, f'{random.randint(0, 1000000)}.json')", "compilation_passed": true, "time": 0.009429931640625, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.join(directory, f\"{i+1}.json\")", "compilation_passed": true, "time": 0.009955167770385742, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.join(directory, f'file_{i}.json')", "compilation_passed": true, "time": 0.008873939514160156, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " f'file{i+1}.json'", "compilation_passed": true, "time": 0.009577035903930664, "tests_passed": true, "error": null}
+{"code": " f'file_{i}.txt'", "compilation_passed": true, "time": 0.043022871017456055, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, f\"file_{i}.json\")", "compilation_passed": true, "time": 0.014367103576660156, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " f'{directory}/{i}.txt'", "compilation_passed": true, "time": 0.013284921646118164, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.join(directory, f\"file{i}.json\")", "compilation_passed": true, "time": 0.008314132690429688, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " directory + \"file_\" + str(i+1) + \".txt\"", "compilation_passed": true, "time": 0.010838031768798828, "tests_passed": true, "error": null}
+{"code": " f'{directory}/file_{i}.txt'", "compilation_passed": true, "time": 0.009362936019897461, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.join(directory, f'file_{i}.txt')", "compilation_passed": true, "time": 0.008554935455322266, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.join(directory, f'{i}.txt')", "compilation_passed": true, "time": 0.00909113883972168, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " f'{i + 1}.json'", "compilation_passed": true, "time": 0.009252071380615234, "tests_passed": true, "error": null}
+{"code": " directory + '/' + str(i) + '.json'", "compilation_passed": true, "time": 0.008745908737182617, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " '{}/{}.txt'.format(directory, i)", "compilation_passed": true, "time": 0.008906126022338867, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " 'file' + str(i) + '.txt'", "compilation_passed": true, "time": 0.033804893493652344, "tests_passed": true, "error": null}

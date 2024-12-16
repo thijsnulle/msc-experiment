@@ -1,0 +1,20 @@
+{"code": " re.sub(r'\\b' + word + r'\\b', word.replace(' ', '_'), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.14370989799499512, "tests_passed": true, "error": null}
+{"code": " text.replace(word, word.replace(\" \", \"_\"))", "compilation_passed": true, "time": 0.020720958709716797, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b' + re.escape(word) + r'\\b', word.replace(\" \", \"_\"), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.14085912704467773, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b' + word + r'\\b', word.replace(\" \", \"_\"), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.14940404891967773, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b' + re.escape(word) + r'\\b', word.replace(' ', '_'), text)", "compilation_passed": true, "time": 0.02559185028076172, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b%s\\b' % word.replace(' ', '\\s'), word.replace(' ', '_'), text)", "compilation_passed": true, "time": 0.01978302001953125, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\b\" + re.escape(word) + r\"\\b\", word.replace(\" \", \"_\"), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.14758515357971191, "tests_passed": true, "error": null}
+{"code": " text.replace(word, word.replace(' ', '_'))", "compilation_passed": true, "time": 0.019816875457763672, "tests_passed": true, "error": null}
+{"code": " re.sub(word, word.lower().replace(\" \", \"_\"), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.08173513412475586, "tests_passed": true, "error": null}
+{"code": " re.sub(rf\"(?i){word}\", word.replace(' ', '_'), text)", "compilation_passed": true, "time": 0.159592866897583, "tests_passed": true, "error": null}
+{"code": " text.replace(word, re.sub(' ', '_', word))", "compilation_passed": true, "time": 0.02067089080810547, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b{}\\b'.format(word), word.replace(' ', '_'), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.14056086540222168, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b' + re.escape(word) + r'\\b', word.replace(' ', '_'), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.14297914505004883, "tests_passed": true, "error": null}
+{"code": " text.replace(word, re.sub(r'\\s', '_', word))", "compilation_passed": true, "time": 0.021058082580566406, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\\s|^|' + word + r')', lambda m: \"_\" if m.group(0).isspace() else \"\", text)", "compilation_passed": true, "time": 0.020862817764282227, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b%s\\b' % word.replace(' ', ''), word.replace(' ', '_'), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.05301618576049805, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\b\" + re.escape(word) + r\"\\b\", word.replace(' ', '_'), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.14182496070861816, "tests_passed": true, "error": null}
+{"code": " re.sub(rf'\\b{word}\\b', word.replace(' ', '_'), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.14023089408874512, "tests_passed": true, "error": null}
+{"code": " text.replace(word.lower(), word.lower().replace(' ', '_'))", "compilation_passed": true, "time": 0.020054101943969727, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b' + re.escape(word) + r'\\b', re.sub(r'\\s+', '_', word), text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.13906383514404297, "tests_passed": true, "error": null}

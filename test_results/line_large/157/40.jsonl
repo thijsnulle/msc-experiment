@@ -1,0 +1,6 @@
+{"code": " df.mean(axis=1)", "compilation_passed": true, "time": 0.44791698455810547, "tests_passed": true, "error": null}
+{"code": " df.apply(np.mean, axis=1)", "compilation_passed": true, "time": 0.44162702560424805, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda row: np.mean(row), axis=1)", "compilation_passed": true, "time": 0.49584507942199707, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda row: row.mean(), axis=1)", "compilation_passed": true, "time": 0.49682092666625977, "tests_passed": true, "error": null}
+{"code": " df.mean(numeric_only=True, axis=1)", "compilation_passed": true, "time": 0.557424783706665, "tests_passed": true, "error": null}
+{"code": " df.mean(numeric_only=True, axis=1)", "compilation_passed": true, "time": 1.1486952304840088, "tests_passed": false, "error": "TimeoutError"}

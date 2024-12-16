@@ -1,0 +1,22 @@
+{"code": " or any(invalid_chars & set(part) for part in path_obj.parts):", "compilation_passed": true, "time": 0.0013802051544189453, "tests_passed": true, "error": null}
+{"code": " or any(", "compilation_passed": false, "time": 0.000225067138671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " or (path_obj.name and path_obj.name[-1] == \".\"):", "compilation_passed": true, "time": 0.00150299072265625, "tests_passed": true, "error": null}
+{"code": " or set(path).intersection(invalid_chars):", "compilation_passed": true, "time": 0.0017788410186767578, "tests_passed": true, "error": null}
+{"code": " or path_obj.anchor and path_obj.anchor.startswith(\"<\"):", "compilation_passed": true, "time": 0.0015399456024169922, "tests_passed": true, "error": null}
+{"code": " or path_obj.name.startswith(\".\"):", "compilation_passed": true, "time": 0.0014307498931884766, "tests_passed": true, "error": null}
+{"code": " and not path_obj.exists():", "compilation_passed": true, "time": 0.0012936592102050781, "tests_passed": true, "error": null}
+{"code": " or path_obj.anchor.startswith((\"<\", \">\", \":\", '\"', \"|\", \"?\", \"*\")):", "compilation_passed": true, "time": 0.0013358592987060547, "tests_passed": true, "error": null}
+{"code": " and all(path_obj.parts[i].isalpha() for i in range(1, len(path_obj.parts) - 1)):", "compilation_passed": true, "time": 0.0014748573303222656, "tests_passed": true, "error": null}
+{"code": " or invalid_chars.intersection(path):", "compilation_passed": true, "time": 0.0015559196472167969, "tests_passed": true, "error": null}
+{"code": " and \"/\" not in path:", "compilation_passed": true, "time": 0.007647991180419922, "tests_passed": true, "error": null}
+{"code": " or str(path_obj)[0] in invalid_chars:", "compilation_passed": true, "time": 0.0016078948974609375, "tests_passed": true, "error": null}
+{"code": " or path.endswith(\" \"):", "compilation_passed": true, "time": 0.0014688968658447266, "tests_passed": true, "error": null}
+{"code": " or path.startswith(\" \") or path.endswith(\" \"):", "compilation_passed": true, "time": 0.0013592243194580078, "tests_passed": true, "error": null}
+{"code": " or any(char in path_obj.as_posix() for char in invalid_chars):", "compilation_passed": true, "time": 0.0015020370483398438, "tests_passed": true, "error": null}
+{"code": " or any(invalid_chars.intersection(set(c)) for c in path_obj.parts):", "compilation_passed": true, "time": 0.0012569427490234375, "tests_passed": true, "error": null}
+{"code": " or str(path_obj).startswith((\" \", \".\")):", "compilation_passed": true, "time": 0.0013689994812011719, "tests_passed": true, "error": null}
+{"code": " or (path_obj.is_absolute() and (\"..\" in path_obj.parts or \".\" in path_obj.parts)):", "compilation_passed": true, "time": 0.0015370845794677734, "tests_passed": true, "error": null}
+{"code": " and any(invalid_char in path for invalid_char in invalid_chars):", "compilation_passed": true, "time": 0.0012450218200683594, "tests_passed": true, "error": null}
+{"code": " or path_obj.drive or path_obj.root:", "compilation_passed": true, "time": 0.005573272705078125, "tests_passed": true, "error": null}
+{"code": " or (", "compilation_passed": false, "time": 0.00019311904907226562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " or path_obj.root in invalid_chars:", "compilation_passed": true, "time": 0.001287221908569336, "tests_passed": true, "error": null}

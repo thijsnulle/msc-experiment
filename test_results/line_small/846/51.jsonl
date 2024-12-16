@@ -1,0 +1,14 @@
+{"code": " [getattr(obj, attr) for obj in obj_list]", "compilation_passed": true, "time": 0.006849050521850586, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.005709648132324219, "tests_passed": true, "error": null}
+{"code": " collections.Counter([getattr(obj, attr) for obj in obj_list if hasattr(obj, attr)])", "compilation_passed": true, "time": 0.0077168941497802734, "tests_passed": true, "error": null}
+{"code": " [o.__getattribute__(attr) for o in obj_list]", "compilation_passed": true, "time": 0.006930828094482422, "tests_passed": true, "error": null}
+{"code": " [obj.__dict__[attr] for obj in obj_list]", "compilation_passed": true, "time": 0.006882905960083008, "tests_passed": true, "error": null}
+{"code": " [obj.__dict__[attr] for obj in obj_list if attr in obj.__dict__]", "compilation_passed": true, "time": 0.008146286010742188, "tests_passed": true, "error": null}
+{"code": " collections.Counter([getattr(o, attr) for o in obj_list])", "compilation_passed": true, "time": 0.0070760250091552734, "tests_passed": true, "error": null}
+{"code": " collections.Counter([getattr(x, attr) for x in obj_list])", "compilation_passed": true, "time": 0.0068209171295166016, "tests_passed": true, "error": null}
+{"code": " list(map(lambda obj: getattr(obj, attr), obj_list))", "compilation_passed": true, "time": 0.007234096527099609, "tests_passed": true, "error": null}
+{"code": " [o.__dict__[attr] for o in obj_list]", "compilation_passed": true, "time": 0.006722688674926758, "tests_passed": true, "error": null}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.005988121032714844, "tests_passed": true, "error": null}
+{"code": " [obj.__getattribute__(attr) for obj in obj_list]", "compilation_passed": true, "time": 0.006863832473754883, "tests_passed": true, "error": null}
+{"code": " [attr(obj) for obj in obj_list]", "compilation_passed": true, "time": 0.008265018463134766, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(lambda obj: obj.__getattribute__(attr), obj_list))", "compilation_passed": true, "time": 0.0070629119873046875, "tests_passed": true, "error": null}

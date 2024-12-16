@@ -1,0 +1,4 @@
+{"code": " rsa.sign(hash_value, priv_key, 'SHA-256')", "compilation_passed": true, "time": 0.20169687271118164, "tests_passed": true, "error": null}
+{"code": " rsa.sign(hash_value, priv_key, 'SHA-1')", "compilation_passed": true, "time": 0.24630498886108398, "tests_passed": true, "error": null}
+{"code": " rsa.sign(hash_value, priv_key)", "compilation_passed": true, "time": 0.13471484184265137, "tests_passed": false, "error": "TypeError"}
+{"code": " rsa.sign(hash_value, priv_key, 'sha256')", "compilation_passed": true, "time": 0.030629873275756836, "tests_passed": false, "error": "ValueError"}

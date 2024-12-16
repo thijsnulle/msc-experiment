@@ -1,0 +1,7 @@
+{"code": " []", "compilation_passed": true, "time": 0.007096052169799805, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0001609325408935547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [\"\".join(random.choices(VALID_CHARACTERS, k=string_length)) for _ in range(n_strings)]", "compilation_passed": true, "time": 0.0015859603881835938, "tests_passed": true, "error": null}
+{"code": " [''.join(random.choices(VALID_CHARACTERS, k=string_length)) for _ in range(n_strings)]", "compilation_passed": true, "time": 0.0014781951904296875, "tests_passed": true, "error": null}
+{"code": " [\"\".join(random.choice(VALID_CHARACTERS) for _ in range(string_length)) for _ in range(n_strings)]", "compilation_passed": true, "time": 0.0017349720001220703, "tests_passed": true, "error": null}
+{"code": " [''.join(random.choices(VALID_CHARACTERS, k=string_length))", "compilation_passed": false, "time": 0.00012493133544921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [''.join(random.choice(VALID_CHARACTERS) for _ in range(string_length)) for _ in range(n_strings)]", "compilation_passed": true, "time": 0.0020210742950439453, "tests_passed": true, "error": null}

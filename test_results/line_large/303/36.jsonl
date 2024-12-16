@@ -1,0 +1,12 @@
+{"code": " (converted_date.year - moon_phase_year) + (", "compilation_passed": false, "time": 0.0002498626708984375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (converted_date.year - moon_phase_year) + (converted_date.month / 12)", "compilation_passed": true, "time": 0.0016999244689941406, "tests_passed": true, "error": null}
+{"code": " (converted_date - parse(f'{moon_phase_year}-12-31 23:22:00', tzinfos=pytz.timezone(to_tz).zone)).total_seconds() / (7 * 365.2425 * 24 * 3600)", "compilation_passed": true, "time": 0.012601852416992188, "tests_passed": false, "error": "AttributeError"}
+{"code": " converted_date.year - moon_phase_year", "compilation_passed": true, "time": 0.0016582012176513672, "tests_passed": true, "error": null}
+{"code": " (converted_date.year - moon_phase_year) + ((converted_date.month - 1) / 12)", "compilation_passed": true, "time": 0.0017180442810058594, "tests_passed": true, "error": null}
+{"code": " (converted_date - parse(f'{moon_phase_year}-01-01')).days / 365.25", "compilation_passed": true, "time": 0.010760068893432617, "tests_passed": false, "error": "TypeError"}
+{"code": " (converted_date - datetime(moon_phase_year, 1, 1, tzinfo=to_tz)).days / 365.2425", "compilation_passed": true, "time": 0.009234189987182617, "tests_passed": false, "error": "NameError"}
+{"code": " (converted_date - datetime(year=moon_phase_year, month=1, day=1)).days / (365.2425 * 7)", "compilation_passed": true, "time": 0.010385274887084961, "tests_passed": false, "error": "NameError"}
+{"code": " (converted_date.year - moon_phase_year) + (converted_date.month / 12.0)", "compilation_passed": true, "time": 0.002022266387939453, "tests_passed": true, "error": null}
+{"code": " (converted_date.year - moon_phase_year) / 7", "compilation_passed": true, "time": 0.0016069412231445312, "tests_passed": true, "error": null}
+{"code": " (converted_date.year - moon_phase_year) + (converted_date.month - 1) / 12", "compilation_passed": true, "time": 0.00168609619140625, "tests_passed": true, "error": null}
+{"code": " (converted_date.year - moon_phase_year) + (converted_date.month - 1) / 12 + (", "compilation_passed": false, "time": 0.00019598007202148438, "tests_passed": false, "error": "SyntaxError"}

@@ -1,0 +1,5 @@
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.1872878074645996, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(df, pd.DataFrame) or not all(", "compilation_passed": false, "time": 0.00012803077697753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not isinstance(df, pd.DataFrame) or not all([col in df.columns for col in ['Date', 'Time', 'Temperature']]):", "compilation_passed": true, "time": 1.0188868045806885, "tests_passed": false, "error": "TimeoutError"}
+{"code": " not isinstance(df, pd.DataFrame) or not all(col in df.columns for col in ['Date', 'Time', 'Temperature']):", "compilation_passed": true, "time": 1.0219438076019287, "tests_passed": false, "error": "TimeoutError"}
+{"code": " not isinstance(df, pd.DataFrame) or any(col not in df.columns for col in ['Date', 'Time', 'Temperature']):", "compilation_passed": true, "time": 1.0115339756011963, "tests_passed": false, "error": "TimeoutError"}

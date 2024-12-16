@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame({'feature': feature, 'target': target})", "compilation_passed": true, "time": 0.041298866271972656, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"feature\": feature, \"target\": target})", "compilation_passed": true, "time": 0.030540943145751953, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.019456148147583008, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=np.column_stack((feature.values, target.values)), columns=['feature', 'target'])", "compilation_passed": true, "time": 0.03199505805969238, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'feature': feature.to_list(), 'target': target.to_list()})", "compilation_passed": true, "time": 0.031579017639160156, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'feature': feature.values, 'target': target.values})", "compilation_passed": true, "time": 0.034323930740356445, "tests_passed": false, "error": "KeyError"}

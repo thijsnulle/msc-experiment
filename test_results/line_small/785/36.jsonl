@@ -1,0 +1,16 @@
+{"code": " f'{archive_file_base}.tar.gz'", "compilation_passed": true, "time": 0.21776795387268066, "tests_passed": true, "error": null}
+{"code": " f\"{archive_file_base}.tgz\"", "compilation_passed": true, "time": 0.22365069389343262, "tests_passed": true, "error": null}
+{"code": " ''.join([archive_file_base, '.tar'])", "compilation_passed": true, "time": 0.22320914268493652, "tests_passed": true, "error": null}
+{"code": " archive_file_base + '.zip'", "compilation_passed": true, "time": 0.22179603576660156, "tests_passed": true, "error": null}
+{"code": " os.path.join(ARCHIVE_DIR, f'{pattern}.tgz')", "compilation_passed": true, "time": 0.0767669677734375, "tests_passed": true, "error": null}
+{"code": " archive_file_base + '.tar.gz'", "compilation_passed": true, "time": 0.2152099609375, "tests_passed": true, "error": null}
+{"code": " f\"{archive_file_base}.zip\"", "compilation_passed": true, "time": 0.2178502082824707, "tests_passed": true, "error": null}
+{"code": " archive_file_base + '.tgz'", "compilation_passed": true, "time": 0.21901679039001465, "tests_passed": true, "error": null}
+{"code": " f'{archive_file_base}.zip'", "compilation_passed": true, "time": 0.2180030345916748, "tests_passed": true, "error": null}
+{"code": " archive_file_base + '.' + os.path.basename(pattern)", "compilation_passed": true, "time": 0.21459388732910156, "tests_passed": true, "error": null}
+{"code": " archive_file_base + '.gz'", "compilation_passed": true, "time": 0.21845507621765137, "tests_passed": true, "error": null}
+{"code": " f\"{archive_file_base}.tar.gz\"", "compilation_passed": true, "time": 0.22545695304870605, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(archive_file_base)[0] + '.gz'", "compilation_passed": true, "time": 0.21293997764587402, "tests_passed": true, "error": null}
+{"code": " f\"{archive_file_base}.{pattern.split('*')[1]}.tar.gz\"", "compilation_passed": true, "time": 0.21924090385437012, "tests_passed": true, "error": null}
+{"code": " ''.join([archive_file_base, str(os.getpid()), '.tgz'])", "compilation_passed": true, "time": 0.21731781959533691, "tests_passed": true, "error": null}
+{"code": " archive_file_base + os.path.splitext(os.path.basename(pattern))[1]", "compilation_passed": true, "time": 0.2196669578552246, "tests_passed": true, "error": null}

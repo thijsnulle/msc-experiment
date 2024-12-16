@@ -1,0 +1,4 @@
+{"code": " counter", "compilation_passed": true, "time": 0.003751039505004883, "tests_passed": true, "error": null}
+{"code": " {column: collections.Counter(values) for column, values in counter.items()}", "compilation_passed": true, "time": 0.004099845886230469, "tests_passed": true, "error": null}
+{"code": " {column: dict(count) for column, count in counter.items()}", "compilation_passed": true, "time": 0.003900289535522461, "tests_passed": true, "error": null}
+{"code": " {column: counter[column].most_common() for column in my_tuple}", "compilation_passed": true, "time": 0.006951808929443359, "tests_passed": true, "error": null}

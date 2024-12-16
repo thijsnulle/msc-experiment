@@ -1,0 +1,6 @@
+{"code": " np.argwhere(z_scores > outlier_z_score)", "compilation_passed": true, "time": 0.4247109889984131, "tests_passed": true, "error": null}
+{"code": " np.where(z_scores > outlier_z_score)[0]", "compilation_passed": true, "time": 0.5113441944122314, "tests_passed": true, "error": null}
+{"code": " np.argwhere(z_scores > outlier_z_score).reshape(-1)", "compilation_passed": true, "time": 0.41176700592041016, "tests_passed": true, "error": null}
+{"code": " z_scores > outlier_z_score", "compilation_passed": true, "time": 0.021885156631469727, "tests_passed": false, "error": "ValueError"}
+{"code": " np.argwhere(z_scores > outlier_z_score).flatten()", "compilation_passed": true, "time": 0.43024206161499023, "tests_passed": true, "error": null}
+{"code": " np.where(z_scores > outlier_z_score)", "compilation_passed": true, "time": 0.2747478485107422, "tests_passed": true, "error": null}

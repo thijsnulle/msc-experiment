@@ -1,0 +1,9 @@
+{"code": "scatter(dataframe[column_x], dataframe[column_y])", "compilation_passed": true, "time": 0.03380608558654785, "tests_passed": true, "error": null}
+{"code": "plot(dataframe[column_x], dataframe[column_y])", "compilation_passed": true, "time": 0.03943228721618652, "tests_passed": true, "error": null}
+{"code": "scatter(x=dataframe[column_x], y=dataframe[column_y])", "compilation_passed": true, "time": 0.04468417167663574, "tests_passed": true, "error": null}
+{"code": "scatter(dataframe[column_x], dataframe[column_y], label=\"Correlation\")", "compilation_passed": true, "time": 0.04467129707336426, "tests_passed": true, "error": null}
+{"code": "scatter(", "compilation_passed": false, "time": 0.0007200241088867188, "tests_passed": false, "error": "SyntaxError"}
+{"code": "figure(figsize=(7, 7))", "compilation_passed": true, "time": 0.20954179763793945, "tests_passed": true, "error": null}
+{"code": "plot(dataframe[column_x], dataframe[column_y], 'ro')", "compilation_passed": true, "time": 0.028972148895263672, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(8, 6))", "compilation_passed": true, "time": 0.2256777286529541, "tests_passed": true, "error": null}
+{"code": "scatter(dataframe[column_x], dataframe[column_y], label=column_x + \" vs. \" + column_y)", "compilation_passed": true, "time": 0.04420208930969238, "tests_passed": true, "error": null}

@@ -1,0 +1,18 @@
+{"code": " [random.randint(1, total) for _ in range(n)]", "compilation_passed": true, "time": 0.027919769287109375, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, total) for i in range(n)]", "compilation_passed": true, "time": 0.05756187438964844, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, 100) for _ in range(n)]", "compilation_passed": true, "time": 1.0138139724731445, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sorted(random.sample(range(total), n))", "compilation_passed": true, "time": 0.019747018814086914, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, total - 1) for i in range(n)]", "compilation_passed": true, "time": 0.008756160736083984, "tests_passed": true, "error": null}
+{"code": " sorted(array('I', (random.randint(0, total) for _ in range(n))))", "compilation_passed": true, "time": 0.040488243103027344, "tests_passed": true, "error": null}
+{"code": " sorted(random.randint(1, total) for _ in range(n))", "compilation_passed": true, "time": 0.025957822799682617, "tests_passed": true, "error": null}
+{"code": " sorted(array('H', [random.randint(1, total) for i in range(n)]))", "compilation_passed": true, "time": 0.03044605255126953, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, total) for _ in range(n)]", "compilation_passed": true, "time": 0.017291784286499023, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, total - 1) for _ in range(n)]", "compilation_passed": true, "time": 0.0245668888092041, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, total // n) for _ in range(n)]", "compilation_passed": true, "time": 1.0118989944458008, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sorted(random.randint(0, total) for _ in range(n))", "compilation_passed": true, "time": 0.0456080436706543, "tests_passed": true, "error": null}
+{"code": " sorted(random.randint(1, total) for i in range(n))", "compilation_passed": true, "time": 0.03509235382080078, "tests_passed": true, "error": null}
+{"code": " sorted([random.randint(1, total) for _ in range(n)])", "compilation_passed": true, "time": 0.04631519317626953, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 1.0099549293518066, "tests_passed": false, "error": "TimeoutError"}
+{"code": " sorted([random.randint(0, total) for _ in range(n)])", "compilation_passed": true, "time": 0.023320674896240234, "tests_passed": true, "error": null}
+{"code": " sorted(", "compilation_passed": false, "time": 0.00013780593872070312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [random.randint(1, total - sum(nums)) for _ in range(n)]", "compilation_passed": true, "time": 0.012525081634521484, "tests_passed": false, "error": "ValueError"}

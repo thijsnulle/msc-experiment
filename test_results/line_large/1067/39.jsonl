@@ -1,0 +1,12 @@
+{"code": " or \"X-RateLimit-Reset\" in response.headers:", "compilation_passed": true, "time": 0.0064508914947509766, "tests_passed": true, "error": null}
+{"code": " or response.status_code == 429:", "compilation_passed": true, "time": 0.005594730377197266, "tests_passed": true, "error": null}
+{"code": " or \"X-RateLimit-Remaining\" in response.headers:", "compilation_passed": true, "time": 0.005652904510498047, "tests_passed": true, "error": null}
+{"code": " or repo_info.get(\"message\") == \"API rate limit reached\":", "compilation_passed": true, "time": 0.007027864456176758, "tests_passed": true, "error": null}
+{"code": " or (", "compilation_passed": false, "time": 0.00022721290588378906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " or \"X-RateLimit-Limit\" in response.headers:", "compilation_passed": true, "time": 0.006259918212890625, "tests_passed": true, "error": null}
+{"code": " or response.status_code == 404:", "compilation_passed": true, "time": 0.007144927978515625, "tests_passed": true, "error": null}
+{"code": " or \"API rate limit exceeded\" in str(response):", "compilation_passed": true, "time": 0.005401134490966797, "tests_passed": true, "error": null}
+{"code": " or response.status_code == 429:  # GitHub API rate limit exceeded", "compilation_passed": true, "time": 0.004846811294555664, "tests_passed": true, "error": null}
+{"code": " or \"x-ratelimit-limit\" in response.headers:", "compilation_passed": true, "time": 0.00608515739440918, "tests_passed": true, "error": null}
+{"code": " or \"rate limit exceeded\" in response.text.lower():", "compilation_passed": true, "time": 0.007158041000366211, "tests_passed": true, "error": null}
+{"code": " or \"RateLimit\" in repo_info.keys():", "compilation_passed": true, "time": 0.004469871520996094, "tests_passed": true, "error": null}

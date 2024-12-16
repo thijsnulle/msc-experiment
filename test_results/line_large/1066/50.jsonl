@@ -1,0 +1,10 @@
+{"code": " np.random.normal(size=num_samples) if num_samples > 0 else []", "compilation_passed": true, "time": 0.23876094818115234, "tests_passed": true, "error": null}
+{"code": " np.random.normal(loc=0, scale=1, size=num_samples) if num_samples > 0 else []", "compilation_passed": true, "time": 0.3117828369140625, "tests_passed": true, "error": null}
+{"code": " np.random.normal(loc=0, scale=1, size=num_samples) if num_samples > 0 else np.array([])", "compilation_passed": true, "time": 0.2583122253417969, "tests_passed": true, "error": null}
+{"code": " None", "compilation_passed": true, "time": 0.010674238204956055, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.normal(0, 1, num_samples) if num_samples > 0 else np.array([])", "compilation_passed": true, "time": 0.28318214416503906, "tests_passed": true, "error": null}
+{"code": " np.random.normal(loc=0.0, scale=1.0, size=num_samples) if num_samples > 0 else np.array([])", "compilation_passed": true, "time": 0.27457523345947266, "tests_passed": true, "error": null}
+{"code": " np.random.normal(0, 1, num_samples) if num_samples > 0 else []", "compilation_passed": true, "time": 0.27681994438171387, "tests_passed": true, "error": null}
+{"code": " np.random.normal(size=num_samples) if num_samples > 0 else np.array([])", "compilation_passed": true, "time": 0.26057887077331543, "tests_passed": true, "error": null}
+{"code": " np.random.randn(num_samples) if num_samples > 0 else np.array([])", "compilation_passed": true, "time": 0.24240899085998535, "tests_passed": true, "error": null}
+{"code": " np.random.normal(size=num_samples) if num_samples > 0 else None", "compilation_passed": true, "time": 0.2554349899291992, "tests_passed": true, "error": null}

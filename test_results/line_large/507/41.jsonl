@@ -1,0 +1,26 @@
+{"code": "inner_list, list) and isinstance(inner_list[0], datetime)", "compilation_passed": true, "time": 0.009910106658935547, "tests_passed": false, "error": "NameError"}
+{"code": "d, list) and len(d) == 6 for d in data[0] if data[0][0] is None", "compilation_passed": true, "time": 0.010014057159423828, "tests_passed": true, "error": null}
+{"code": "row, list) and len(row) == 6 for row in data[1:]  # noqa: PLR2004", "compilation_passed": true, "time": 0.024590015411376953, "tests_passed": true, "error": null}
+{"code": "sub, list) and len(sub) == 6 for sub in data[1:]", "compilation_passed": true, "time": 0.030947208404541016, "tests_passed": true, "error": null}
+{"code": "row, list) and len(row) == 6 for row in data)", "compilation_passed": false, "time": 0.00022912025451660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": "row, (list, tuple))", "compilation_passed": true, "time": 0.01612687110900879, "tests_passed": false, "error": "NameError"}
+{"code": "item, list) or isinstance(item, np.ndarray) for item in data", "compilation_passed": true, "time": 0.011781692504882812, "tests_passed": true, "error": null}
+{"code": "lst, list)", "compilation_passed": true, "time": 0.02409219741821289, "tests_passed": false, "error": "NameError"}
+{"code": "elem, datetime) or isinstance(elem, int) for elem in data", "compilation_passed": true, "time": 0.010603904724121094, "tests_passed": false, "error": "ValueError"}
+{"code": "row, list)", "compilation_passed": true, "time": 0.009920120239257812, "tests_passed": false, "error": "NameError"}
+{"code": "row, list) and len(row) == 6 for row in data", "compilation_passed": true, "time": 0.0232541561126709, "tests_passed": true, "error": null}
+{"code": "row, list) and len(row) == 6", "compilation_passed": true, "time": 0.010106801986694336, "tests_passed": false, "error": "NameError"}
+{"code": "row, list) and len(row) == 6 for row in data[1:] if row != []", "compilation_passed": true, "time": 0.009476184844970703, "tests_passed": true, "error": null}
+{"code": "row, list) and len(row) == 6 for row in data if row != []", "compilation_passed": true, "time": 0.008333921432495117, "tests_passed": true, "error": null}
+{"code": "inner_list, list)", "compilation_passed": true, "time": 0.010386943817138672, "tests_passed": false, "error": "NameError"}
+{"code": "inner_list, list) and len(inner_list) == 6 for inner_list in data", "compilation_passed": true, "time": 0.02368783950805664, "tests_passed": true, "error": null}
+{"code": "element, (list, tuple)) for element in data", "compilation_passed": true, "time": 0.008373022079467773, "tests_passed": true, "error": null}
+{"code": "sub_list, list)", "compilation_passed": true, "time": 0.010105133056640625, "tests_passed": false, "error": "NameError"}
+{"code": "inner, list) and len(inner) == 5 for inner in data", "compilation_passed": true, "time": 0.01079702377319336, "tests_passed": false, "error": "ValueError"}
+{"code": "item, list)", "compilation_passed": true, "time": 0.009790897369384766, "tests_passed": false, "error": "NameError"}
+{"code": "sub_list, list) and len(sub_list) == 6 for sub_list in data", "compilation_passed": true, "time": 0.023801803588867188, "tests_passed": true, "error": null}
+{"code": "x, (float, int)) for x in np.array(data)[:, valid_columns.index(column)]", "compilation_passed": true, "time": 0.011071920394897461, "tests_passed": false, "error": "IndexError"}
+{"code": "inner_list, list) and isinstance(inner_list[0], (int, float))", "compilation_passed": true, "time": 0.009798049926757812, "tests_passed": false, "error": "NameError"}
+{"code": "x, list) or isinstance(x, np.ndarray) for x in data", "compilation_passed": true, "time": 0.008527040481567383, "tests_passed": true, "error": null}
+{"code": "elem, (pd.Timestamp, int, float, np.integer, np.float64))", "compilation_passed": true, "time": 0.010381937026977539, "tests_passed": false, "error": "NameError"}
+{"code": "row, list) and len(row) == 6 for row in data[1:]  # skip header", "compilation_passed": true, "time": 0.023517847061157227, "tests_passed": true, "error": null}

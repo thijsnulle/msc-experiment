@@ -1,0 +1,15 @@
+{"code": " pd.Series(category_counts[category] for category in CATEGORIES)", "compilation_passed": true, "time": 0.2788071632385254, "tests_passed": true, "error": null}
+{"code": " category_counts[category_counts.index.isin(CATEGORIES)]", "compilation_passed": true, "time": 0.27362990379333496, "tests_passed": true, "error": null}
+{"code": " category_counts.reindex(CATEGORIES, fill_value=0)", "compilation_passed": true, "time": 0.28546714782714844, "tests_passed": true, "error": null}
+{"code": " pd.Series({cat: category_counts.get(cat, 0) for cat in CATEGORIES})", "compilation_passed": true, "time": 0.274658203125, "tests_passed": true, "error": null}
+{"code": " [category_counts.get(category, 0) for category in CATEGORIES]", "compilation_passed": true, "time": 0.012624979019165039, "tests_passed": false, "error": "AttributeError"}
+{"code": " category_counts[CATEGORIES]", "compilation_passed": true, "time": 0.27768421173095703, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.21329402923583984, "tests_passed": true, "error": null}
+{"code": " [category_counts[category] if category in category_counts else 0 for category in CATEGORIES]", "compilation_passed": true, "time": 0.013006210327148438, "tests_passed": false, "error": "AttributeError"}
+{"code": " category_counts.reindex(CATEGORIES)", "compilation_passed": true, "time": 0.28484201431274414, "tests_passed": true, "error": null}
+{"code": " [category_counts.get(cat, 0) for cat in CATEGORIES]", "compilation_passed": true, "time": 0.01327824592590332, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series([0, 0, 0, 0, 0], index=CATEGORIES)", "compilation_passed": true, "time": 0.21919512748718262, "tests_passed": true, "error": null}
+{"code": " [category_counts[category] for category in CATEGORIES if category in category_counts]", "compilation_passed": true, "time": 0.013149023056030273, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Series(data=[0]*len(CATEGORIES), index=CATEGORIES)", "compilation_passed": true, "time": 0.21663594245910645, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.00025916099548339844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {c: category_counts.get(c, 0) for c in CATEGORIES}", "compilation_passed": true, "time": 0.014256000518798828, "tests_passed": false, "error": "AttributeError"}

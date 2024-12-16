@@ -1,0 +1,16 @@
+{"code": "execute(\"CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER, country TEXT)\")", "compilation_passed": false, "time": 0.0004699230194091797, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute('CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, age INTEGER, country TEXT)')", "compilation_passed": false, "time": 0.0003380775451660156, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute('''CREATE TABLE IF NOT EXISTS users", "compilation_passed": true, "time": 0.06416893005371094, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER, country TEXT)')", "compilation_passed": false, "time": 0.00043892860412597656, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, age INT, country TEXT)\")", "compilation_passed": false, "time": 0.0004811286926269531, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"CREATE TABLE users(id INTEGER PRIMARY KEY, name TEXT, age INTEGER, country TEXT)\")", "compilation_passed": false, "time": 0.0004849433898925781, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute('DROP TABLE IF EXISTS users')", "compilation_passed": false, "time": 0.00048279762268066406, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute('CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER, country TEXT)')", "compilation_passed": false, "time": 0.0004851818084716797, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER, country TEXT)\")", "compilation_passed": false, "time": 0.0004761219024658203, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, age INTEGER, country TEXT)\")", "compilation_passed": false, "time": 0.0004780292510986328, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute('DROP TABLE IF EXISTS users;')", "compilation_passed": false, "time": 0.00047397613525390625, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute('''CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT,", "compilation_passed": true, "time": 0.053195953369140625, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute('CREATE TABLE users (id integer, name text, age integer, country text)')", "compilation_passed": false, "time": 0.00047516822814941406, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute(\"\"\"CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER, country TEXT)\"\"\")", "compilation_passed": false, "time": 0.0003199577331542969, "tests_passed": false, "error": "IndentationError"}
+{"code": "execute('''CREATE TABLE users", "compilation_passed": true, "time": 0.06446194648742676, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(\"DROP TABLE IF EXISTS users\")", "compilation_passed": false, "time": 0.00047707557678222656, "tests_passed": false, "error": "IndentationError"}

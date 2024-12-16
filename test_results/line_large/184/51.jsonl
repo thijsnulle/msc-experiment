@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(vectorized_data.toarray(), columns=vectorizer.get_feature_names_out())", "compilation_passed": true, "time": 0.012665748596191406, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(vectorized_data.toarray(), columns=vectorizer.get_feature_names())", "compilation_passed": true, "time": 0.011477947235107422, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame.sparse.from_spmatrix(vectorized_data, columns=vectorizer.get_feature_names_out())", "compilation_passed": true, "time": 0.011429071426391602, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(vectorized_data.todense(), columns=vectorizer.get_feature_names_out())", "compilation_passed": true, "time": 0.012496232986450195, "tests_passed": true, "error": null}

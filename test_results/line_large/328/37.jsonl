@@ -1,0 +1,10 @@
+{"code": " random.sample(POINTS, len(POINTS))", "compilation_passed": true, "time": 0.0043261051177978516, "tests_passed": true, "error": null}
+{"code": " random.choices(POINTS, k=number_teams)", "compilation_passed": true, "time": 0.0042781829833984375, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, max(POINTS)) for i in range(len(POINTS))]", "compilation_passed": true, "time": 0.004434108734130859, "tests_passed": true, "error": null}
+{"code": " [random.choice(POINTS) for _ in range(number_teams)]", "compilation_passed": true, "time": 0.00438690185546875, "tests_passed": true, "error": null}
+{"code": " [x for _, x in sorted(random.sample(", "compilation_passed": false, "time": 0.0004930496215820312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " random.sample(POINTS, number_teams)", "compilation_passed": true, "time": 0.004295825958251953, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.010705947875976562, "tests_passed": true, "error": null}
+{"code": " [i for i in POINTS if random.randint(0, 1)]", "compilation_passed": true, "time": 0.011671066284179688, "tests_passed": true, "error": null}
+{"code": " POINTS[:]", "compilation_passed": true, "time": 0.004163980484008789, "tests_passed": true, "error": null}
+{"code": " [POINTS[i] for i in random.sample(range(number_teams),number_teams)]", "compilation_passed": true, "time": 0.004426002502441406, "tests_passed": true, "error": null}

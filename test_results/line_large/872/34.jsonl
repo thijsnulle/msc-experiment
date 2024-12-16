@@ -1,0 +1,13 @@
+{"code": " list(itertools.zip_longest(*data_list, fillvalue=np.nan))", "compilation_passed": true, "time": 0.002748250961303711, "tests_passed": true, "error": null}
+{"code": " itertools.zip_longest(*data_list, fillvalue=np.nan)", "compilation_passed": true, "time": 0.0028209686279296875, "tests_passed": true, "error": null}
+{"code": " list(zip(*[pad_tuple(tuple, len(data_list[0]), np.nan) for tuple in data_list]))", "compilation_passed": true, "time": 0.007139921188354492, "tests_passed": false, "error": "NameError"}
+{"code": " list(zip_longest(*data_list, fillvalue=np.nan))", "compilation_passed": true, "time": 0.00672602653503418, "tests_passed": false, "error": "NameError"}
+{"code": " list(itertools.zip_longest(*data_list, fillvalue=None))", "compilation_passed": true, "time": 0.0027272701263427734, "tests_passed": true, "error": null}
+{"code": " itertools.zip_longest(*data_list, fillvalue=None)", "compilation_passed": true, "time": 0.0026388168334960938, "tests_passed": true, "error": null}
+{"code": " [list(itertools.zip_longest(*data_list, fillvalue=np.nan))]", "compilation_passed": true, "time": 0.0042150020599365234, "tests_passed": true, "error": null}
+{"code": " zip(*itertools.zip_longest(*data_list, fillvalue=np.nan))", "compilation_passed": true, "time": 0.00397801399230957, "tests_passed": true, "error": null}
+{"code": " list(itertools.zip_longest(*data_list))", "compilation_passed": true, "time": 0.0027289390563964844, "tests_passed": true, "error": null}
+{"code": " zip_longest(*data_list, fillvalue=np.nan)", "compilation_passed": true, "time": 0.005702972412109375, "tests_passed": false, "error": "NameError"}
+{"code": " [tuple(itertools.zip_longest(*data_list, fillvalue=np.nan))]", "compilation_passed": true, "time": 0.003977060317993164, "tests_passed": true, "error": null}
+{"code": " zip(*[pad_tuple(d, data_list, fillvalue=np.nan) for d in data_list])", "compilation_passed": true, "time": 0.007164955139160156, "tests_passed": false, "error": "NameError"}
+{"code": " [list(map(lambda x: float(x) if x.isdigit() else np.nan,", "compilation_passed": false, "time": 0.0001747608184814453, "tests_passed": false, "error": "SyntaxError"}

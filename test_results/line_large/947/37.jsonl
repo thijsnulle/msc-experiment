@@ -1,0 +1,13 @@
+{"code": " (end_date_np - start_date_np).astype(\"m8[D]\").astype(int) + 1", "compilation_passed": true, "time": 0.0023801326751708984, "tests_passed": true, "error": null}
+{"code": " (end_date - start_date).days + 1", "compilation_passed": true, "time": 0.0020079612731933594, "tests_passed": true, "error": null}
+{"code": " (end_date_np - start_date_np).astype('timedelta64[D]').item()", "compilation_passed": true, "time": 0.010329008102416992, "tests_passed": false, "error": "TypeError"}
+{"code": " (end_date_np - start_date_np).astype(\"timedelta64[D]\").astype(int)", "compilation_passed": true, "time": 0.011137723922729492, "tests_passed": false, "error": "ValueError"}
+{"code": " (end_date - start_date).days", "compilation_passed": true, "time": 0.010315656661987305, "tests_passed": false, "error": "ValueError"}
+{"code": " (end_date_np - start_date_np).astype('timedelta64[D]') + 1", "compilation_passed": true, "time": 0.01326608657836914, "tests_passed": false, "error": "TypeError"}
+{"code": " (end_date_np - start_date_np).astype('timedelta64[D]').astype(int) + 1", "compilation_passed": true, "time": 0.002023935317993164, "tests_passed": true, "error": null}
+{"code": " (end_date_np - start_date_np).astype('timedelta64[D]').astype('int')", "compilation_passed": true, "time": 0.010043859481811523, "tests_passed": false, "error": "ValueError"}
+{"code": " (end_date_np - start_date_np).astype(int)", "compilation_passed": true, "time": 0.006281137466430664, "tests_passed": true, "error": null}
+{"code": " (end_date_np - start_date_np).astype('timedelta64[D]').astype(np.int64)", "compilation_passed": true, "time": 0.010370016098022461, "tests_passed": false, "error": "ValueError"}
+{"code": " (end_date_np - start_date_np).astype('timedelta64[D]').astype(np.int64) + 1", "compilation_passed": true, "time": 0.0022232532501220703, "tests_passed": true, "error": null}
+{"code": " (end_date_np - start_date_np).astype(np.timedelta64(1, 'D')).astype(np.int64)", "compilation_passed": true, "time": 0.01002192497253418, "tests_passed": false, "error": "ValueError"}
+{"code": " (end_date_np - start_date_np).astype(\"timedelta64[D]\") + 1", "compilation_passed": true, "time": 0.01030588150024414, "tests_passed": false, "error": "TypeError"}

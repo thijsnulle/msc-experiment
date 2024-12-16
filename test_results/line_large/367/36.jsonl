@@ -1,0 +1,9 @@
+{"code": " ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']", "compilation_passed": true, "time": 0.11013388633728027, "tests_passed": true, "error": null}
+{"code": " list(activity_counts.keys())", "compilation_passed": true, "time": 0.027248144149780273, "tests_passed": false, "error": "IndexError"}
+{"code": " sorted(activity_counts.keys(), key=lambda day: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'].index(day))", "compilation_passed": true, "time": 0.02662491798400879, "tests_passed": false, "error": "IndexError"}
+{"code": " sorted(activity_counts.keys(), key=lambda day: datetime.strptime(day, '%A').toordinal())", "compilation_passed": true, "time": 0.025941133499145508, "tests_passed": false, "error": "IndexError"}
+{"code": " sorted(activity_counts.keys(), key=lambda day: activity_counts[day])", "compilation_passed": true, "time": 0.024150848388671875, "tests_passed": false, "error": "IndexError"}
+{"code": " sorted(activity_counts.keys())", "compilation_passed": true, "time": 0.023180007934570312, "tests_passed": false, "error": "IndexError"}
+{"code": " sorted(activity_counts.keys(), key=lambda x: datetime.strptime(x, '%A').date())", "compilation_passed": true, "time": 0.02593374252319336, "tests_passed": false, "error": "IndexError"}
+{"code": " sorted(activity_counts.keys(), key=lambda day: datetime.strptime(day, '%A').weekday())", "compilation_passed": true, "time": 0.023147106170654297, "tests_passed": false, "error": "IndexError"}
+{"code": " activity_counts.keys()", "compilation_passed": true, "time": 0.02653813362121582, "tests_passed": false, "error": "IndexError"}

@@ -1,0 +1,23 @@
+{"code": " (", "compilation_passed": false, "time": 0.00017714500427246094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.groupby(df.columns.drop(df.columns[-1]), as_index=False).min()", "compilation_passed": true, "time": 0.015926122665405273, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(COLUMNS[:-1]).mean().reset_index()", "compilation_passed": true, "time": 0.06944799423217773, "tests_passed": true, "error": null}
+{"code": " df.groupby(by=[col for col in df.columns[:-1]])[df.columns[-1]].unique()", "compilation_passed": true, "time": 0.059436798095703125, "tests_passed": false, "error": "KeyError"}
+{"code": " df.drop_duplicates(subset=df.columns.difference([df.columns[-1]])).reset_index(drop=True)", "compilation_passed": true, "time": 0.0691530704498291, "tests_passed": true, "error": null}
+{"code": " df[df[COLUMNS[:-1]].nunique() == 1].copy()", "compilation_passed": true, "time": 0.012000799179077148, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.05567002296447754, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(COLUMNS[:-1])[COLUMNS[-1]].sum().reset_index()", "compilation_passed": true, "time": 0.07328510284423828, "tests_passed": true, "error": null}
+{"code": " df.groupby(df.columns[:-1])[df.columns[-1]].unique()", "compilation_passed": true, "time": 0.00937962532043457, "tests_passed": false, "error": "ValueError"}
+{"code": " df", "compilation_passed": true, "time": 0.05931806564331055, "tests_passed": true, "error": null}
+{"code": " df.groupby(COLUMNS[:-1])[COLUMNS[-1]].unique().reset_index()", "compilation_passed": true, "time": 0.07316899299621582, "tests_passed": false, "error": "ValueError"}
+{"code": " df[[COLUMNS[-1]]].groupby(COLUMNS[:-1]).nunique().reset_index()", "compilation_passed": true, "time": 0.010582923889160156, "tests_passed": false, "error": "KeyError"}
+{"code": " None", "compilation_passed": true, "time": 0.058042049407958984, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby(df.columns[:-1])[COLUMNS[-1]].unique().to_frame(name=\"unique\").reset_index()", "compilation_passed": true, "time": 0.008494853973388672, "tests_passed": false, "error": "ValueError"}
+{"code": " df[[COLUMNS[0], COLUMNS[1], COLUMNS[-1]]].groupby([COLUMNS[0], COLUMNS[1]]).sum().reset_index()", "compilation_passed": true, "time": 0.08181977272033691, "tests_passed": true, "error": null}
+{"code": " df.groupby(COLUMNS[:-1]).first().reset_index()", "compilation_passed": true, "time": 0.07182788848876953, "tests_passed": true, "error": null}
+{"code": " df.groupby(COLUMNS[:-1]).agg(sum).reset_index()", "compilation_passed": true, "time": 0.07140922546386719, "tests_passed": true, "error": null}
+{"code": " df[df.duplicated(subset=df.columns[:-1], keep=False)].drop_duplicates()", "compilation_passed": true, "time": 0.07889413833618164, "tests_passed": true, "error": null}
+{"code": " df.groupby(COLUMNS[:-1])[COLUMNS[-1]].nunique().reset_index()", "compilation_passed": true, "time": 0.2810099124908447, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0002601146697998047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[df[COLUMNS[:-1]].ne(df[COLUMNS[:-1]].shift()).any(axis=1)].reset_index(drop=True)", "compilation_passed": true, "time": 0.06066012382507324, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset=df.columns.difference([df.columns[-1]]))", "compilation_passed": true, "time": 0.06700015068054199, "tests_passed": true, "error": null}
+{"code": " df.groupby(COLUMNS[:-1])[COLUMNS[-1]].unique()", "compilation_passed": true, "time": 0.07421278953552246, "tests_passed": false, "error": "KeyError"}

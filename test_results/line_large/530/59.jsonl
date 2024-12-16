@@ -1,0 +1,12 @@
+{"code": " sns.histplot(x=\"age\", data=duplicates_df, bins=bins, stat=\"count\")", "compilation_passed": true, "time": 0.30713605880737305, "tests_passed": true, "error": null}
+{"code": " sns.histplot(duplicates_df[\"age\"], bins=bins)", "compilation_passed": true, "time": 0.31857991218566895, "tests_passed": true, "error": null}
+{"code": " sns.histplot(duplicates_df[\"age\"], bins=bins, binwidth=1, discrete=True)", "compilation_passed": true, "time": 0.3223090171813965, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data=duplicates_df, x=\"age\", bins=bins, discrete=True)", "compilation_passed": true, "time": 0.31865906715393066, "tests_passed": true, "error": null}
+{"code": " sns.histplot(duplicates_df, x=\"age\", bins=bins, discrete=True)", "compilation_passed": true, "time": 0.3323550224304199, "tests_passed": true, "error": null}
+{"code": " sns.histplot(duplicates_df[\"age\"], bins=bins, binwidth=1, kde=False)", "compilation_passed": true, "time": 0.08030104637145996, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.histplot(", "compilation_passed": false, "time": 0.0003991127014160156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.histplot(duplicates_df[\"age\"], bins=bins, discrete=True)", "compilation_passed": true, "time": 0.3484618663787842, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data=duplicates_df, x=\"age\", bins=bins)", "compilation_passed": true, "time": 0.32713985443115234, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data=duplicates_df, x=\"age\", bins=bins, stat=\"count\")", "compilation_passed": true, "time": 0.3375232219696045, "tests_passed": true, "error": null}
+{"code": " sns.histplot(x=\"age\", data=duplicates_df, bins=bins, discrete=True)", "compilation_passed": true, "time": 0.33495497703552246, "tests_passed": true, "error": null}
+{"code": " sns.histplot(duplicates_df[\"age\"], bins=bins, discrete=True, color=\"blue\")", "compilation_passed": true, "time": 0.355241060256958, "tests_passed": true, "error": null}

@@ -1,0 +1,11 @@
+{"code": " _, content = line", "compilation_passed": true, "time": 0.010847091674804688, "tests_passed": false, "error": "ValueError"}
+{"code": " content = line[0], line[2:].strip()", "compilation_passed": true, "time": 0.010963916778564453, "tests_passed": true, "error": null}
+{"code": " content = line[:1], line[1:].strip()", "compilation_passed": true, "time": 0.010412216186523438, "tests_passed": true, "error": null}
+{"code": " _, content = line.partition(' ')", "compilation_passed": true, "time": 0.009781122207641602, "tests_passed": true, "error": null}
+{"code": " content = line[0], line[2:]", "compilation_passed": true, "time": 0.011022806167602539, "tests_passed": true, "error": null}
+{"code": " line = line[0], line[2:]", "compilation_passed": true, "time": 0.010637044906616211, "tests_passed": false, "error": "Exception"}
+{"code": " content = line[:1], line[2:]", "compilation_passed": true, "time": 0.012356281280517578, "tests_passed": true, "error": null}
+{"code": " content = line[0], line[2:].strip()  # Added a .strip() here to remove leading/trailing whitespace", "compilation_passed": true, "time": 0.011046886444091797, "tests_passed": true, "error": null}
+{"code": " line_number, content = line[0], i + 1, line[1:].strip()", "compilation_passed": true, "time": 0.011945009231567383, "tests_passed": true, "error": null}
+{"code": " content = line[0], line[2:].strip()  # Remove leading spaces", "compilation_passed": true, "time": 0.010519981384277344, "tests_passed": true, "error": null}
+{"code": " content = line[0], line[1:].strip()", "compilation_passed": true, "time": 0.01077127456665039, "tests_passed": true, "error": null}

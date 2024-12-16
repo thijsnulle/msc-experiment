@@ -1,0 +1,4 @@
+{"code": " (None,) * (len(headers) - len(row))", "compilation_passed": true, "time": 0.2210681438446045, "tests_passed": true, "error": null}
+{"code": " (len(headers) - len(row)) * (None,)", "compilation_passed": true, "time": 0.22333216667175293, "tests_passed": true, "error": null}
+{"code": " [None] * (len(headers) - len(row))", "compilation_passed": true, "time": 0.15145015716552734, "tests_passed": false, "error": "TypeError"}
+{"code": " (len(headers) - len(row)) * [None]", "compilation_passed": true, "time": 0.15137004852294922, "tests_passed": false, "error": "TypeError"}

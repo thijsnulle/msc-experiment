@@ -1,0 +1,17 @@
+{"code": " {f\"series_{i}\": random.randint(0, 100) for i in range(1, num_series + 1) for _ in date_range}", "compilation_passed": true, "time": 0.1584796905517578, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.00024390220642089844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(index=date_range)", "compilation_passed": true, "time": 0.1617429256439209, "tests_passed": true, "error": null}
+{"code": " {f\"series_{i}\": random.randint(0, 100) for i in range(num_series)}", "compilation_passed": true, "time": 0.0333249568939209, "tests_passed": true, "error": null}
+{"code": " {f\"series_{i}\": [random.randint(0, 100) for _ in range(len(date_range))]", "compilation_passed": false, "time": 0.000308990478515625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {f\"series_{i}\": random.randint(0, 100) for i in range(1, num_series+1)}", "compilation_passed": true, "time": 0.1584162712097168, "tests_passed": true, "error": null}
+{"code": " {f\"series_{i+1}\": [random.randint(0, 100) for _ in date_range] for i in range(num_series)}", "compilation_passed": true, "time": 0.16024279594421387, "tests_passed": true, "error": null}
+{"code": " {f\"series_{i}\": [random.randint(0, 100) for _ in date_range] for i in range(1, num_series + 1)}", "compilation_passed": true, "time": 0.15555500984191895, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00025200843811035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {f\"series_{i+1}\": [random.randint(0, 100) for _ in range(len(date_range))] for i in range(num_series)}", "compilation_passed": true, "time": 0.15917587280273438, "tests_passed": true, "error": null}
+{"code": " {f\"series_{i + 1}\": [random.randint(0, 100) for _ in date_range] for i in range(num_series)}", "compilation_passed": true, "time": 0.16338300704956055, "tests_passed": true, "error": null}
+{"code": " {f\"series_{i}\": [random.randint(0, 100) for _ in range(len(date_range))] for i in range(1, num_series+1)}", "compilation_passed": true, "time": 0.16040778160095215, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({f\"series_{i}\": [random.randint(0, 100) for _ in date_range]", "compilation_passed": false, "time": 0.0002727508544921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {}", "compilation_passed": true, "time": 0.16055798530578613, "tests_passed": true, "error": null}
+{"code": " {f\"series_{i+1}\": [random.randint(0, 100) for _ in date_range]", "compilation_passed": false, "time": 0.00032782554626464844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {f\"series_{i}\": random.sample(range(100), len(date_range)) for i in range(num_series)}", "compilation_passed": true, "time": 0.03472304344177246, "tests_passed": true, "error": null}
+{"code": " {f\"series_{i}\": [random.randint(0, 100) for _ in date_range]", "compilation_passed": false, "time": 0.00032591819763183594, "tests_passed": false, "error": "SyntaxError"}

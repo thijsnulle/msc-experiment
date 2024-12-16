@@ -1,0 +1,7 @@
+{"code": " hmac.new(secret_key.encode(), msg=decoded_msg.encode(), digestmod=hashlib.sha1).digest()", "compilation_passed": true, "time": 0.0071527957916259766, "tests_passed": false, "error": "AttributeError"}
+{"code": " hmac.new(secret_key.encode(), decoded_msg.encode(), hashlib.sha1).hexdigest()", "compilation_passed": true, "time": 0.011179924011230469, "tests_passed": false, "error": "AttributeError"}
+{"code": " hmac.new(secret_key.encode(), msg=decoded_msg.encode(), digestmod=hashlib.sha1).hexdigest()", "compilation_passed": true, "time": 0.009604692459106445, "tests_passed": false, "error": "AttributeError"}
+{"code": " hmac.new(secret_key.encode(), decoded_msg.encode(), hashlib.sha1).digest()", "compilation_passed": true, "time": 0.010452985763549805, "tests_passed": false, "error": "AttributeError"}
+{"code": " hmac.new(", "compilation_passed": false, "time": 0.00014209747314453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " binascii.hexlify(hmac.HMAC(secret_key.encode(), decoded_msg.encode(), hashlib.sha1).digest())", "compilation_passed": true, "time": 0.014806985855102539, "tests_passed": false, "error": "AttributeError"}
+{"code": " binascii.hexlify(hmac.new(secret_key.encode(), decoded_msg.encode(), hashlib.sha1).digest())", "compilation_passed": true, "time": 0.015282869338989258, "tests_passed": false, "error": "AttributeError"}

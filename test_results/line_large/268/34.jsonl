@@ -1,0 +1,13 @@
+{"code": " [[i for i in range(1, n_values + 1)] for _ in range(n_keys)]", "compilation_passed": true, "time": 0.01153111457824707, "tests_passed": true, "error": null}
+{"code": " [[j for j in range(1, n_values + 1)] for _ in range(n_keys)]", "compilation_passed": true, "time": 0.010322809219360352, "tests_passed": true, "error": null}
+{"code": " [list(range(1, n_values+1)) for _ in range(n_keys)]", "compilation_passed": true, "time": 0.011468887329101562, "tests_passed": true, "error": null}
+{"code": " [[i + 1 for i in range(n_values)] for _ in range(n_keys)]", "compilation_passed": true, "time": 0.011499881744384766, "tests_passed": true, "error": null}
+{"code": " [list(range(1, n_values + 1)) for _ in range(n_keys)]", "compilation_passed": true, "time": 0.01182103157043457, "tests_passed": true, "error": null}
+{"code": " [[i * 10 + j for i in range(n_values)] for _ in range(n_keys)]", "compilation_passed": true, "time": 0.027737855911254883, "tests_passed": false, "error": "NameError"}
+{"code": " [[i for i in range(1, n_values+1)] for _ in range(n_keys)]", "compilation_passed": true, "time": 0.011245965957641602, "tests_passed": true, "error": null}
+{"code": " [[value for value in range(1, n_values + 1)] for key in range(n_keys)]", "compilation_passed": true, "time": 0.011453866958618164, "tests_passed": true, "error": null}
+{"code": " [[i for i in range(1, n_values + 1)]] * n_keys", "compilation_passed": true, "time": 0.011515140533447266, "tests_passed": true, "error": null}
+{"code": " [[i + 1 for _ in range(n_values)] for i in range(n_keys)]", "compilation_passed": true, "time": 0.01153707504272461, "tests_passed": true, "error": null}
+{"code": " [[value for value in range(1, n_values + 1)] for _ in range(n_keys)]", "compilation_passed": true, "time": 0.011762857437133789, "tests_passed": true, "error": null}
+{"code": " [[i for i in range(1, n_values+1)] for _ in keys]", "compilation_passed": true, "time": 0.011656999588012695, "tests_passed": true, "error": null}
+{"code": " [[i for i in range(1, n_values + 1)] for _ in range(len(keys))]", "compilation_passed": true, "time": 0.011406660079956055, "tests_passed": true, "error": null}

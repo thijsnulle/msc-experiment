@@ -1,0 +1,9 @@
+{"code": " []", "compilation_passed": true, "time": 0.009549617767333984, "tests_passed": false, "error": "AttributeError"}
+{"code": " [repo['name'] for repo in data]", "compilation_passed": true, "time": 0.009490966796875, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.005491018295288086, "tests_passed": true, "error": null}
+{"code": " collections.defaultdict(list)", "compilation_passed": true, "time": 0.005635738372802734, "tests_passed": true, "error": null}
+{"code": " [(repo['name'], repo['created_at']) for repo in data]", "compilation_passed": true, "time": 0.008319854736328125, "tests_passed": false, "error": "AttributeError"}
+{"code": " [{rep[\"name\"]:rep['created_at']} for rep in data]", "compilation_passed": true, "time": 0.00955510139465332, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.namedtuple('repos', ['name', 'created_at'])", "compilation_passed": true, "time": 0.008599996566772461, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(x['name'], x['created_at']) for x in data]", "compilation_passed": true, "time": 0.008158206939697266, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.OrderedDict()", "compilation_passed": true, "time": 0.0069789886474609375, "tests_passed": true, "error": null}

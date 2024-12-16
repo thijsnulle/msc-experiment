@@ -1,0 +1,16 @@
+{"code": " 0", "compilation_passed": true, "time": 0.006704807281494141, "tests_passed": false, "error": "TypeError"}
+{"code": " text.strip().split()", "compilation_passed": true, "time": 0.0018129348754882812, "tests_passed": true, "error": null}
+{"code": " len(text.split())", "compilation_passed": true, "time": 0.0069429874420166016, "tests_passed": false, "error": "TypeError"}
+{"code": " re.split(r\"\\s+\", text)", "compilation_passed": true, "time": 0.00468897819519043, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\w+\", text)", "compilation_passed": true, "time": 0.0049359798431396484, "tests_passed": true, "error": null}
+{"code": " len(re.findall(r'\\w+', text))", "compilation_passed": true, "time": 0.008213996887207031, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(r'\\w+', text)", "compilation_passed": true, "time": 0.004920005798339844, "tests_passed": true, "error": null}
+{"code": " len(re.findall(r'\\S+', text))", "compilation_passed": true, "time": 0.007215976715087891, "tests_passed": false, "error": "TypeError"}
+{"code": " re.split('\\s+', text)", "compilation_passed": true, "time": 0.0042438507080078125, "tests_passed": true, "error": null}
+{"code": " len(re.split(\"\\s+\", text))", "compilation_passed": true, "time": 0.006412029266357422, "tests_passed": false, "error": "TypeError"}
+{"code": " 1", "compilation_passed": true, "time": 0.005815029144287109, "tests_passed": false, "error": "TypeError"}
+{"code": " re.split(r\"\\s+\", text.strip())", "compilation_passed": true, "time": 0.0041179656982421875, "tests_passed": true, "error": null}
+{"code": " re.sub('\\s+', ' ', text.lower()).strip().split(' ')", "compilation_passed": true, "time": 0.0043792724609375, "tests_passed": true, "error": null}
+{"code": " re.split(r'[\\s]+', text)", "compilation_passed": true, "time": 0.0037953853607177734, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\W\", \" \", text).split()", "compilation_passed": true, "time": 0.004046201705932617, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text).strip().split(' ')", "compilation_passed": true, "time": 0.0037412643432617188, "tests_passed": true, "error": null}

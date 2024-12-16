@@ -1,0 +1,18 @@
+{"code": " normalized_df.plot(kind='bar')", "compilation_passed": true, "time": 0.2474958896636963, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(kind='bar', figsize=(10, 6))", "compilation_passed": true, "time": 0.24584007263183594, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(kind='line', subplots=True)", "compilation_passed": true, "time": 0.15779495239257812, "tests_passed": false, "error": "AttributeError"}
+{"code": " normalized_df.plot.line()", "compilation_passed": true, "time": 0.23107194900512695, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot()", "compilation_passed": true, "time": 0.22056221961975098, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(title=\"Normalized Data\")", "compilation_passed": true, "time": 0.23211097717285156, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(kind='line')", "compilation_passed": true, "time": 0.20779013633728027, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(title='Normalized data', ylabel='value')", "compilation_passed": true, "time": 0.2426762580871582, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(x=data_keys[0])", "compilation_passed": true, "time": 0.1675119400024414, "tests_passed": false, "error": "TypeError"}
+{"code": " normalized_df.plot(x=data_keys[0], y=data_keys[1:], style='.', figsize=(6, 6))", "compilation_passed": true, "time": 0.16078996658325195, "tests_passed": false, "error": "TypeError"}
+{"code": " normalized_df.plot.bar(title=\"Normalized Data\")", "compilation_passed": true, "time": 0.2570362091064453, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot.line(rot=45)", "compilation_passed": true, "time": 0.23715496063232422, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(legend=True)", "compilation_passed": true, "time": 0.2303922176361084, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot.line(title='MinMax Scaling for Keys')", "compilation_passed": true, "time": 0.23647618293762207, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(title='Normalized data')", "compilation_passed": true, "time": 0.22058415412902832, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot.line(legend=True)", "compilation_passed": true, "time": 0.2314600944519043, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(legend=False)", "compilation_passed": true, "time": 0.20965886116027832, "tests_passed": true, "error": null}
+{"code": " normalized_df.plot(title='Normalized Values', legend=False)", "compilation_passed": true, "time": 0.2544090747833252, "tests_passed": true, "error": null}

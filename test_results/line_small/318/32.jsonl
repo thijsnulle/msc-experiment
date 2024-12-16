@@ -1,0 +1,14 @@
+{"code": " []", "compilation_passed": false, "time": 0.00013399124145507812, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[random.uniform(-1, 1), random.uniform(-1, 1)] for _ in range(points_count)]", "compilation_passed": false, "time": 0.00015115737915039062, "tests_passed": false, "error": "IndentationError"}
+{"code": " [random.uniform(-radius, radius), random.uniform(-radius, radius)]", "compilation_passed": false, "time": 0.000141143798828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " [(random.random() * 2 - 1) * radius, (random.random() * 2 - 1) * radius]", "compilation_passed": false, "time": 0.0001480579376220703, "tests_passed": false, "error": "IndentationError"}
+{"code": " [", "compilation_passed": false, "time": 9.5367431640625e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(random.uniform(-radius, radius), random.uniform(-radius, radius)) for _ in range(points_count)]", "compilation_passed": false, "time": 0.00013494491577148438, "tests_passed": false, "error": "IndentationError"}
+{"code": " random.sample(range(1000), points_count)", "compilation_passed": false, "time": 0.0001430511474609375, "tests_passed": false, "error": "IndentationError"}
+{"code": " random.sample(range(100000000000), points_count)", "compilation_passed": false, "time": 0.00013327598571777344, "tests_passed": false, "error": "IndentationError"}
+{"code": " random.uniform(radius, 2 * radius, size=(points_count, 2))", "compilation_passed": false, "time": 0.0001518726348876953, "tests_passed": false, "error": "IndentationError"}
+{"code": " [Point2D(random.uniform(-radius, radius), random.uniform(-radius, radius)) for i in range(points_count)]", "compilation_passed": false, "time": 0.0002448558807373047, "tests_passed": false, "error": "IndentationError"}
+{"code": " random.normalvariate(0, radius, points_count)  # mean=0, radius=1", "compilation_passed": false, "time": 0.00012493133544921875, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[random.uniform(-radius, radius), random.uniform(-radius, radius)] for _ in range(points_count)]", "compilation_passed": false, "time": 0.00015687942504882812, "tests_passed": false, "error": "IndentationError"}
+{"code": " [(random.random() - 0.5) * radius, (random.random() - 0.5) * radius]", "compilation_passed": false, "time": 0.0001552104949951172, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[random.gauss(0, radius), random.gauss(0, radius)] for _ in range(points_count)]", "compilation_passed": false, "time": 0.00015687942504882812, "tests_passed": false, "error": "IndentationError"}

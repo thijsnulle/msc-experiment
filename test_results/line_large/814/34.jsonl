@@ -1,0 +1,8 @@
+{"code": " re.search(file_pattern, filename):", "compilation_passed": true, "time": 0.023135900497436523, "tests_passed": true, "error": null}
+{"code": " re.match(file_pattern, filename):", "compilation_passed": true, "time": 0.028647899627685547, "tests_passed": true, "error": null}
+{"code": " not re.match(file_pattern, filename):", "compilation_passed": true, "time": 0.015015840530395508, "tests_passed": true, "error": null}
+{"code": " re.match(file_pattern, filename) and filename not in os.listdir(target_dir):", "compilation_passed": true, "time": 0.023563146591186523, "tests_passed": true, "error": null}
+{"code": " re.fullmatch(file_pattern, filename):", "compilation_passed": true, "time": 0.023000717163085938, "tests_passed": true, "error": null}
+{"code": " not filename.endswith((\".txt\", \".doc\", \".docx\")):", "compilation_passed": true, "time": 0.010972976684570312, "tests_passed": true, "error": null}
+{"code": " not re.search(file_pattern, filename):", "compilation_passed": true, "time": 0.010406255722045898, "tests_passed": true, "error": null}
+{"code": " not re.fullmatch(file_pattern, filename):", "compilation_passed": true, "time": 0.010632991790771484, "tests_passed": true, "error": null}

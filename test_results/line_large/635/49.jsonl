@@ -1,0 +1,11 @@
+{"code": " [word for word in text.split() if word.casefold() not in stop_words]", "compilation_passed": true, "time": 0.011249065399169922, "tests_passed": false, "error": "AttributeError"}
+{"code": " [word for word in text.split() if word not in stop_words]", "compilation_passed": true, "time": 0.01992511749267578, "tests_passed": false, "error": "AttributeError"}
+{"code": " [word for word in text.lower().split() if word not in stop_words]", "compilation_passed": true, "time": 0.019380807876586914, "tests_passed": false, "error": "AttributeError"}
+{"code": " [word for word in text.split() if word.lower() not in stop_words]", "compilation_passed": true, "time": 0.01814413070678711, "tests_passed": false, "error": "AttributeError"}
+{"code": " [w for w in text.lower().split() if w not in stop_words]", "compilation_passed": true, "time": 0.020285367965698242, "tests_passed": false, "error": "AttributeError"}
+{"code": " ' '.join([w for w in text.lower().split() if w not in stop_words])", "compilation_passed": true, "time": 0.3505079746246338, "tests_passed": true, "error": null}
+{"code": " [word for word in re.split('\\W+', text) if word and word not in stop_words]", "compilation_passed": true, "time": 0.014783143997192383, "tests_passed": false, "error": "AttributeError"}
+{"code": " ' '.join([w for w in text.split() if w not in stop_words])", "compilation_passed": true, "time": 0.3627798557281494, "tests_passed": true, "error": null}
+{"code": " ' '.join([word for word in text.split() if word not in stop_words])", "compilation_passed": true, "time": 0.8070027828216553, "tests_passed": true, "error": null}
+{"code": " [word for word in re.split(' |\\n', text) if word not in stop_words]", "compilation_passed": true, "time": 0.017302989959716797, "tests_passed": false, "error": "AttributeError"}
+{"code": " [word for word in re.split('\\W+', text) if word not in stop_words and len(word) > 0]", "compilation_passed": true, "time": 0.01235198974609375, "tests_passed": false, "error": "AttributeError"}

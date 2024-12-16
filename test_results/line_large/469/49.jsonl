@@ -1,0 +1,10 @@
+{"code": "show()", "compilation_passed": true, "time": 0.6702468395233154, "tests_passed": true, "error": null}
+{"code": "close(ax.get_figure())  # close the plot so it doesn't show up when returning ax", "compilation_passed": true, "time": 0.5281450748443604, "tests_passed": true, "error": null}
+{"code": "xticks(rotation=0)", "compilation_passed": true, "time": 0.5459530353546143, "tests_passed": true, "error": null}
+{"code": "tight_layout()", "compilation_passed": true, "time": 0.7019329071044922, "tests_passed": true, "error": null}
+{"code": "close()", "compilation_passed": true, "time": 0.5476698875427246, "tests_passed": true, "error": null}
+{"code": "savefig(\"../data/bar.png\")", "compilation_passed": true, "time": 0.7178008556365967, "tests_passed": true, "error": null}
+{"code": "close(ax.figure)  # prevent memory leak from interactive backends", "compilation_passed": true, "time": 0.25873494148254395, "tests_passed": true, "error": null}
+{"code": "close(ax.figure)  # Close the plot so it doesn't show up in Jupyter Notebook", "compilation_passed": true, "time": 0.38657402992248535, "tests_passed": true, "error": null}
+{"code": "close(report_df)", "compilation_passed": true, "time": 0.06269288063049316, "tests_passed": false, "error": "ValueError"}
+{"code": "close(ax.figure)", "compilation_passed": true, "time": 0.29251813888549805, "tests_passed": true, "error": null}

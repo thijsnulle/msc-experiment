@@ -1,0 +1,5 @@
+{"code": " sorted(input_list, key=lambda x: math.degrees(x))", "compilation_passed": true, "time": 0.004086017608642578, "tests_passed": true, "error": null}
+{"code": " sorted([math.degrees(x) for x in input_list])", "compilation_passed": true, "time": 0.011224031448364258, "tests_passed": true, "error": null}
+{"code": " sorted(input_list)", "compilation_passed": true, "time": 0.004145145416259766, "tests_passed": true, "error": null}
+{"code": " sorted([x for x in input_list], key=lambda x: math.degrees(x))", "compilation_passed": true, "time": 0.0041980743408203125, "tests_passed": true, "error": null}
+{"code": " sorted(input_list, key=math.degrees)", "compilation_passed": true, "time": 0.003924846649169922, "tests_passed": true, "error": null}

@@ -1,0 +1,20 @@
+{"code": " pd.date_range(start_date, end_date, freq='B')  # Exclude weekends", "compilation_passed": true, "time": 0.04546976089477539, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, end_date, freq='D')", "compilation_passed": true, "time": 0.0360870361328125, "tests_passed": true, "error": null}
+{"code": " pd.bdate_range(start_date, end_date, freq='C', tz=None).to_pydatetime().tolist()", "compilation_passed": true, "time": 0.04973912239074707, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, end_date, freq='B').tolist()", "compilation_passed": true, "time": 0.04252910614013672, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, end_date)", "compilation_passed": true, "time": 0.04237532615661621, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start=start_date, end=end_date)", "compilation_passed": true, "time": 0.04085707664489746, "tests_passed": true, "error": null}
+{"code": " pd.bdate_range(start_date, end_date, freq='B', closed='left')", "compilation_passed": true, "time": 0.018442153930664062, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.date_range(start_date, end_date, freq='B')", "compilation_passed": true, "time": 0.0420989990234375, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start=start_date, end=end_date, freq='D')", "compilation_passed": true, "time": 0.03771805763244629, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, end_date, freq=\"D\").tolist()", "compilation_passed": true, "time": 0.039691925048828125, "tests_passed": true, "error": null}
+{"code": " pd.bdate_range(start_date, end_date, closed='both')  # Include both endpoints", "compilation_passed": true, "time": 0.014177083969116211, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.date_range(start_date.date(), end_date.date())", "compilation_passed": true, "time": 0.038391828536987305, "tests_passed": true, "error": null}
+{"code": " pd.bdate_range(start_date, end_date).to_pydatetime().tolist()", "compilation_passed": true, "time": 0.04314112663269043, "tests_passed": true, "error": null}
+{"code": " pd.bdate_range(start_date.strftime(\"%Y-%m-%d\"), end_date.strftime(\"%Y-%m-%d\"))", "compilation_passed": true, "time": 0.043827056884765625, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, end_date, freq='D').to_pydatetime()", "compilation_passed": true, "time": 0.03722381591796875, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start=start_date, end=end_date, freq='B').to_pydatetime()", "compilation_passed": true, "time": 0.042315006256103516, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start=start_date, end=end_date, freq='D', closed='both')", "compilation_passed": true, "time": 0.018220186233520508, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.bdate_range(start=start_date, end=end_date, freq='B').to_pydatetime().tolist()", "compilation_passed": true, "time": 0.046434879302978516, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start_date, end_date, freq='B')  # Create a series of business days", "compilation_passed": true, "time": 0.04733896255493164, "tests_passed": true, "error": null}
+{"code": " pd.bdate_range(start_date, end_date, freq='B')", "compilation_passed": true, "time": 0.04589104652404785, "tests_passed": true, "error": null}

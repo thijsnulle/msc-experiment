@@ -1,0 +1,14 @@
+{"code": " itertools.combinations(LETTERS, n)", "compilation_passed": true, "time": 0.006286144256591797, "tests_passed": true, "error": null}
+{"code": " list(itertools.combinations(LETTERS, n))", "compilation_passed": true, "time": 0.005827188491821289, "tests_passed": true, "error": null}
+{"code": " list(itertools.product(LETTERS, repeat=n))", "compilation_passed": true, "time": 0.005544900894165039, "tests_passed": true, "error": null}
+{"code": " itertools.permutations(LETTERS, n)", "compilation_passed": true, "time": 0.0058269500732421875, "tests_passed": true, "error": null}
+{"code": " itertools.product(LETTERS, repeat=n)", "compilation_passed": true, "time": 0.005940914154052734, "tests_passed": true, "error": null}
+{"code": " set(itertools.product(LETTERS, repeat=n))", "compilation_passed": true, "time": 0.006381034851074219, "tests_passed": true, "error": null}
+{"code": " [''.join(i) for i in itertools.product(LETTERS, repeat=n)]", "compilation_passed": true, "time": 0.005754947662353516, "tests_passed": true, "error": null}
+{"code": " [''.join(i) for i in itertools.combinations(LETTERS, n)]", "compilation_passed": true, "time": 0.0056688785552978516, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.005726814270019531, "tests_passed": true, "error": null}
+{"code": " [''.join(combo) for combo in itertools.permutations(LETTERS, n)]", "compilation_passed": true, "time": 0.005558967590332031, "tests_passed": true, "error": null}
+{"code": " set(itertools.combinations(LETTERS, n))", "compilation_passed": true, "time": 0.00569605827331543, "tests_passed": true, "error": null}
+{"code": " defaultdict(int)", "compilation_passed": true, "time": 0.005468130111694336, "tests_passed": true, "error": null}
+{"code": " [''.join(p) for p in itertools.product(LETTERS, repeat=n)]", "compilation_passed": true, "time": 0.0054819583892822266, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0001838207244873047, "tests_passed": false, "error": "SyntaxError"}

@@ -1,0 +1,5 @@
+{"code": " csv.writer(f)", "compilation_passed": true, "time": 0.006609916687011719, "tests_passed": true, "error": null}
+{"code": " csv.DictWriter(f, fieldnames=data[0].keys())", "compilation_passed": true, "time": 0.008515119552612305, "tests_passed": false, "error": "KeyError"}
+{"code": " csv.DictWriter(f, data[0].keys())", "compilation_passed": true, "time": 0.012328863143920898, "tests_passed": false, "error": "KeyError"}
+{"code": " csv.DictWriter(f, fieldnames=data.keys())", "compilation_passed": true, "time": 0.011508941650390625, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.writer(f, delimiter=',')", "compilation_passed": true, "time": 0.006928205490112305, "tests_passed": true, "error": null}

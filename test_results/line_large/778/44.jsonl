@@ -1,0 +1,8 @@
+{"code": "sort(key=itemgetter('title'))", "compilation_passed": true, "time": 0.06609296798706055, "tests_passed": true, "error": null}
+{"code": "sort(key=itemgetter(\"title\"))", "compilation_passed": true, "time": 0.09187817573547363, "tests_passed": true, "error": null}
+{"code": "sort(key=itemgetter('category', 'title'))", "compilation_passed": true, "time": 0.08721590042114258, "tests_passed": true, "error": null}
+{"code": "sort(key=itemgetter(\"category\", \"title\"))", "compilation_passed": true, "time": 0.055764198303222656, "tests_passed": true, "error": null}
+{"code": "sort(key=lambda d: (d[\"category\"], d[\"title\"]))", "compilation_passed": true, "time": 0.05003809928894043, "tests_passed": true, "error": null}
+{"code": "sort(key = itemgetter('category', 'title'))", "compilation_passed": true, "time": 0.05041003227233887, "tests_passed": true, "error": null}
+{"code": "sort(key = itemgetter('title'))", "compilation_passed": true, "time": 0.04841899871826172, "tests_passed": true, "error": null}
+{"code": "sort(key=lambda x:x[\"title\"])", "compilation_passed": true, "time": 0.04731106758117676, "tests_passed": true, "error": null}

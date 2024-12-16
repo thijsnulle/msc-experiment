@@ -1,0 +1,4 @@
+{"code": " fernet.encrypt(message.encode())", "compilation_passed": true, "time": 0.0035529136657714844, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(fernet.encrypt(message.encode())).decode()", "compilation_passed": true, "time": 0.015413999557495117, "tests_passed": false, "error": "TypeError"}
+{"code": " base64.b64encode(fernet.encrypt(message.encode()))", "compilation_passed": true, "time": 0.001722097396850586, "tests_passed": true, "error": null}
+{"code": " base64.urlsafe_b64encode(fernet.encrypt(message.encode())).decode()", "compilation_passed": true, "time": 0.012486696243286133, "tests_passed": false, "error": "TypeError"}

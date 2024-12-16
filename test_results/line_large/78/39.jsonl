@@ -1,0 +1,6 @@
+{"code": " csv.DictWriter(csv_io, fieldnames=header)", "compilation_passed": true, "time": 0.014186382293701172, "tests_passed": false, "error": "AttributeError"}
+{"code": " csv.writer(csv_io)", "compilation_passed": true, "time": 0.02172684669494629, "tests_passed": true, "error": null}
+{"code": " csv.writer(csv_io, delimiter=',')", "compilation_passed": true, "time": 0.021206140518188477, "tests_passed": true, "error": null}
+{"code": " csv.writer(csv_io, delimiter=\",\")", "compilation_passed": true, "time": 0.021151065826416016, "tests_passed": true, "error": null}
+{"code": " csv.writer(csv_io, quoting=csv.QUOTE_ALL)", "compilation_passed": true, "time": 0.021130084991455078, "tests_passed": true, "error": null}
+{"code": " csv.writer(csv_io, delimiter=',', quotechar='\"', quoting=csv.QUOTE_MINIMAL)", "compilation_passed": true, "time": 0.02240896224975586, "tests_passed": true, "error": null}

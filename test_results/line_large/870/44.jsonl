@@ -1,0 +1,12 @@
+{"code": " itertools.zip_longest(*data_list, fillvalue=np.nan)", "compilation_passed": true, "time": 0.009650945663452148, "tests_passed": false, "error": "TypeError"}
+{"code": " list(zip(*itertools.zip_longest(*data_list, fillvalue=np.nan)))", "compilation_passed": true, "time": 0.0050508975982666016, "tests_passed": true, "error": null}
+{"code": " list(itertools.zip_longest(*data_list, fillvalue=np.nan))", "compilation_passed": true, "time": 0.0041637420654296875, "tests_passed": true, "error": null}
+{"code": " [list(itertools.chain.from_iterable(itertools.zip_longest(*tuple, fillvalue=np.nan))) for tuple in data_list]", "compilation_passed": true, "time": 0.01052713394165039, "tests_passed": false, "error": "TypeError"}
+{"code": " list(zip_longest(*data_list, fillvalue=np.nan))", "compilation_passed": true, "time": 0.0070781707763671875, "tests_passed": false, "error": "NameError"}
+{"code": " [np.nan_to_num([getattr(dat, '__getitem__', lambda x: np.nan)(i) for dat in data_list], nan=np.nan) for i in range(len(data_list[0]))]", "compilation_passed": true, "time": 0.005445003509521484, "tests_passed": true, "error": null}
+{"code": " [list(itertools.zip_longest(*data_list, fillvalue=np.nan))]", "compilation_passed": true, "time": 0.015954971313476562, "tests_passed": false, "error": "KeyError"}
+{"code": " itertools.zip_longest(*data_list, fillvalue=np.NaN)", "compilation_passed": true, "time": 0.007753849029541016, "tests_passed": false, "error": "TypeError"}
+{"code": " list(itertools.zip_longest(*data_list))", "compilation_passed": true, "time": 0.004009246826171875, "tests_passed": true, "error": null}
+{"code": " [np.array(x, dtype=np.float64) for x in itertools.zip_longest(*data_list, fillvalue=np.nan)]", "compilation_passed": true, "time": 0.01120901107788086, "tests_passed": false, "error": "ValueError"}
+{"code": " [list(itertools.zip_longest(*data_list))]", "compilation_passed": true, "time": 0.018556833267211914, "tests_passed": false, "error": "KeyError"}
+{"code": " list(zip(*itertools.zip_longest(*data_list)))", "compilation_passed": true, "time": 0.0052030086517333984, "tests_passed": true, "error": null}

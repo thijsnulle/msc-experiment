@@ -1,0 +1,4 @@
+{"code": " requests.get(url, headers=HEADERS, params=parameters)", "compilation_passed": true, "time": 0.3160691261291504, "tests_passed": true, "error": null}
+{"code": " requests.get(url, params=parameters, headers=HEADERS)", "compilation_passed": true, "time": 1.0532801151275635, "tests_passed": false, "error": "TimeoutError"}
+{"code": " requests.request('GET', url, headers=HEADERS, params=parameters)", "compilation_passed": true, "time": 0.9043929576873779, "tests_passed": false, "error": "requests.exceptions.ConnectionError"}
+{"code": " requests.request(method='GET', url=url, headers=HEADERS, params=parameters)", "compilation_passed": true, "time": 0.02376699447631836, "tests_passed": false, "error": "requests.exceptions.ConnectionError"}

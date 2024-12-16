@@ -1,0 +1,5 @@
+{"code": " normal_data + outliers", "compilation_passed": true, "time": 0.00708317756652832, "tests_passed": false, "error": "ValueError"}
+{"code": " np.concatenate((normal_data, outliers))", "compilation_passed": true, "time": 0.2489011287689209, "tests_passed": true, "error": null}
+{"code": " np.concatenate([normal_data, outliers])", "compilation_passed": true, "time": 0.24490690231323242, "tests_passed": true, "error": null}
+{"code": " np.concatenate((normal_data, outliers), axis=0)", "compilation_passed": true, "time": 0.26437807083129883, "tests_passed": true, "error": null}
+{"code": " normal_data.copy()", "compilation_passed": true, "time": 0.0688927173614502, "tests_passed": true, "error": null}

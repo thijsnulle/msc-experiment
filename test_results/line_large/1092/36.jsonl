@@ -1,0 +1,8 @@
+{"code": " in soup.select('script:not([src])'):", "compilation_passed": true, "time": 0.00592803955078125, "tests_passed": true, "error": null}
+{"code": " in soup.find_all('script'):", "compilation_passed": true, "time": 0.007104158401489258, "tests_passed": true, "error": null}
+{"code": " in soup.find_all(\"script\"):", "compilation_passed": true, "time": 0.006936073303222656, "tests_passed": true, "error": null}
+{"code": " in soup.select('script'):", "compilation_passed": true, "time": 0.007256746292114258, "tests_passed": true, "error": null}
+{"code": "_tag in soup.select('script'):", "compilation_passed": true, "time": 0.01595020294189453, "tests_passed": false, "error": "NameError"}
+{"code": " in soup.select(\"script[type='application/ld+json']\"):", "compilation_passed": true, "time": 0.013163089752197266, "tests_passed": true, "error": null}
+{"code": " in soup.select('script[type=\"application/ld+json\"], script[type=\"application/ld+json;profile=\\\"https://jsonfeed.org/version/1\\\"\"]'):", "compilation_passed": true, "time": 1.027026891708374, "tests_passed": false, "error": "TimeoutError"}
+{"code": " in soup.select(\"script\"):", "compilation_passed": true, "time": 0.003964900970458984, "tests_passed": true, "error": null}

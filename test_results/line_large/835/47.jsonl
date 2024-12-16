@@ -1,0 +1,6 @@
+{"code": " df.drop(columns=columns[remove_cols])", "compilation_passed": true, "time": 0.008584260940551758, "tests_passed": false, "error": "TypeError"}
+{"code": " df.drop(df.columns[remove_cols], axis=1)", "compilation_passed": true, "time": 0.006619930267333984, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=df.columns[remove_cols])", "compilation_passed": true, "time": 0.006105899810791016, "tests_passed": true, "error": null}
+{"code": " df.drop(columns=[columns[i] for i in remove_cols])", "compilation_passed": true, "time": 0.006846904754638672, "tests_passed": true, "error": null}
+{"code": " df.drop(columns[remove_cols], axis=1)", "compilation_passed": true, "time": 0.008574962615966797, "tests_passed": false, "error": "TypeError"}
+{"code": " df[[col for i, col in enumerate(df.columns.to_list()) if i not in remove_cols]]", "compilation_passed": true, "time": 0.0075702667236328125, "tests_passed": true, "error": null}

@@ -1,0 +1,17 @@
+{"code": " filepath.stem", "compilation_passed": true, "time": 0.01700282096862793, "tests_passed": false, "error": "AttributeError"}
+{"code": " ZIP_DIR / filename.strip(\".zip\")", "compilation_passed": true, "time": 1.0213449001312256, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.rstrip(\".zip\")", "compilation_passed": true, "time": 1.0220460891723633, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.split(\".\")[0]", "compilation_passed": true, "time": 1.0171749591827393, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.split('.zip')[0]", "compilation_passed": true, "time": 1.0224452018737793, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / Path(url).stem", "compilation_passed": true, "time": 1.02201509475708, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.rsplit(\".\", 1)[0]  # Get the directory name from the file name", "compilation_passed": true, "time": 1.0212910175323486, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / Path(filename).stem", "compilation_passed": true, "time": 1.021557092666626, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / Path(filepath).stem", "compilation_passed": true, "time": 1.0241539478302002, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.rsplit(\".\", 1)[0]", "compilation_passed": true, "time": 1.0218229293823242, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.rsplit(\".\", maxsplit=1)[0]", "compilation_passed": true, "time": 1.0225510597229004, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.replace(\".zip\", \"\")", "compilation_passed": true, "time": 1.0228080749511719, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.split('.')[0]", "compilation_passed": true, "time": 1.0234968662261963, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / Path(filepath.stem)", "compilation_passed": true, "time": 1.0221900939941406, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename", "compilation_passed": true, "time": 1.0207130908966064, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.split(\".zip\")[0]", "compilation_passed": true, "time": 1.0220859050750732, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.rsplit('.zip', 1)[0]", "compilation_passed": true, "time": 1.0212161540985107, "tests_passed": false, "error": "IndexError"}

@@ -1,0 +1,8 @@
+{"code": " os.path.join(target_dir, os.path.basename(file))", "compilation_passed": true, "time": 0.015590906143188477, "tests_passed": true, "error": null}
+{"code": " Path(target_dir, Path(file).name)", "compilation_passed": true, "time": 0.014933109283447266, "tests_passed": true, "error": null}
+{"code": " target_dir + \"/\" + os.path.basename(file)", "compilation_passed": true, "time": 0.017038822174072266, "tests_passed": true, "error": null}
+{"code": " Path(target_dir, os.path.basename(file))", "compilation_passed": true, "time": 0.015818357467651367, "tests_passed": true, "error": null}
+{"code": " str(Path(target_dir) / os.path.basename(file))", "compilation_passed": true, "time": 0.016421079635620117, "tests_passed": true, "error": null}
+{"code": " Path(target_dir, file)", "compilation_passed": true, "time": 0.02343463897705078, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " str(Path(target_dir, os.path.basename(file)))", "compilation_passed": true, "time": 0.015355825424194336, "tests_passed": true, "error": null}
+{"code": " str(Path(target_dir, Path(file).name))", "compilation_passed": true, "time": 0.01099085807800293, "tests_passed": true, "error": null}

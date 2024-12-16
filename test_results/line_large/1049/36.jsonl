@@ -1,0 +1,25 @@
+{"code": " [line for line in input_string.split('\\n') if line.strip() != '']", "compilation_passed": true, "time": 0.005752086639404297, "tests_passed": true, "error": null}
+{"code": " [line for line in re.split('\\n|\\r', input_string) if line.strip()]", "compilation_passed": true, "time": 0.00521397590637207, "tests_passed": true, "error": null}
+{"code": " [line for line in input_string.split('\\n') if line.strip()]", "compilation_passed": true, "time": 0.004904031753540039, "tests_passed": true, "error": null}
+{"code": " [re.sub('[\\t\\r]', ' ', line) for line in input_string.splitlines() if line.strip() != '']", "compilation_passed": true, "time": 0.005149126052856445, "tests_passed": true, "error": null}
+{"code": " input_string.split('\\n')", "compilation_passed": true, "time": 0.006749868392944336, "tests_passed": true, "error": null}
+{"code": " [line for line in input_string.splitlines() if line.strip()]", "compilation_passed": true, "time": 0.005188941955566406, "tests_passed": true, "error": null}
+{"code": " list(filter(str.strip, input_string.splitlines()))", "compilation_passed": true, "time": 0.004834651947021484, "tests_passed": true, "error": null}
+{"code": " [re.sub('\\s+', ' ', line.strip()) for line in input_string.splitlines() if line.strip()]", "compilation_passed": true, "time": 0.006203889846801758, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[^\\n]+', input_string)", "compilation_passed": true, "time": 0.008841753005981445, "tests_passed": true, "error": null}
+{"code": " re.split(r'\\n', input_string)", "compilation_passed": true, "time": 0.009106874465942383, "tests_passed": true, "error": null}
+{"code": " [line.strip() for line in input_string.splitlines() if line.strip()]", "compilation_passed": true, "time": 0.005634784698486328, "tests_passed": true, "error": null}
+{"code": " [line for line in input_string.splitlines() if line.strip() != '']", "compilation_passed": true, "time": 0.006445884704589844, "tests_passed": true, "error": null}
+{"code": " [line for line in re.split(r'\\n+', input_string) if line.strip()]", "compilation_passed": true, "time": 0.0076487064361572266, "tests_passed": true, "error": null}
+{"code": " re.findall('[^\\\\n\\\\r].*?(?:\\\\n|\\\\Z)', input_string)", "compilation_passed": true, "time": 0.012561798095703125, "tests_passed": true, "error": null}
+{"code": " [line for line in input_string.split('\\n') if not re.match('^\\s*$', line)]", "compilation_passed": true, "time": 0.0050699710845947266, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'^\\s*', '', line) for line in input_string.splitlines() if line.strip()]", "compilation_passed": true, "time": 0.00508880615234375, "tests_passed": true, "error": null}
+{"code": " [line for line in re.split(r\"(?:\\r\\n|\\r|\\n)\", input_string) if len(line) != 0 and not line.isspace()]", "compilation_passed": true, "time": 0.0050318241119384766, "tests_passed": true, "error": null}
+{"code": " [line for line in input_string.split('\\n') if re.search('[^\\s]', line)]", "compilation_passed": true, "time": 0.005137205123901367, "tests_passed": true, "error": null}
+{"code": " [line.strip() for line in input_string.split('\\n') if not line.isspace() and line]", "compilation_passed": true, "time": 0.005209922790527344, "tests_passed": true, "error": null}
+{"code": " list(filter(None, input_string.split('\\n')))", "compilation_passed": true, "time": 0.007801055908203125, "tests_passed": true, "error": null}
+{"code": " [re.sub(r\"\\n\", \" \", line) for line in input_string.split('\\n') if line.strip()]", "compilation_passed": true, "time": 0.004858255386352539, "tests_passed": true, "error": null}
+{"code": " re.sub(r'^\\s*\\n', '', input_string, flags=re.M).split('\\n')", "compilation_passed": true, "time": 0.005851030349731445, "tests_passed": true, "error": null}
+{"code": " [line for line in re.split(\"\\n\", input_string) if not re.match(\"^\\\\s*$\", line)]", "compilation_passed": true, "time": 0.005190849304199219, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\S\\n]+', ' ', input_string.strip()).split(\"\\n\")", "compilation_passed": true, "time": 0.006074190139770508, "tests_passed": true, "error": null}
+{"code": " input_string.splitlines()", "compilation_passed": true, "time": 0.006860017776489258, "tests_passed": true, "error": null}

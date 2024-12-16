@@ -1,0 +1,9 @@
+{"code": " [val for val in column if isinstance(val, (int, float, complex))]", "compilation_passed": true, "time": 0.0035948753356933594, "tests_passed": true, "error": null}
+{"code": " [val for val in column if isinstance(val, (int, float))]", "compilation_passed": true, "time": 0.003498077392578125, "tests_passed": true, "error": null}
+{"code": " [value for value in column if isinstance(value, (int, float))]", "compilation_passed": true, "time": 0.003593921661376953, "tests_passed": true, "error": null}
+{"code": " [float(i) for i in column if isinstance(i, (float, int))]", "compilation_passed": true, "time": 0.0034308433532714844, "tests_passed": true, "error": null}
+{"code": " [x for x in column if isinstance(x, (int, float))]", "compilation_passed": true, "time": 0.0037910938262939453, "tests_passed": true, "error": null}
+{"code": " np.array(column)[pd.to_numeric(column, errors='coerce', downcast='float').notna()]", "compilation_passed": true, "time": 0.01114797592163086, "tests_passed": false, "error": "AttributeError"}
+{"code": " [float(x) for x in column if isinstance(x, (int, float)) or", "compilation_passed": false, "time": 0.00025391578674316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.array(column)[np.isreal(column)]", "compilation_passed": true, "time": 0.007096052169799805, "tests_passed": false, "error": "ValueError"}
+{"code": " [float(value) for value in column if isinstance(value, int) or isinstance(value, float)]", "compilation_passed": true, "time": 0.0034868717193603516, "tests_passed": true, "error": null}

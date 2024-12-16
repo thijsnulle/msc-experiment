@@ -1,0 +1,20 @@
+{"code": "value_counts().where(lambda x: x > 1).dropna().index.values", "compilation_passed": true, "time": 0.2957007884979248, "tests_passed": true, "error": null}
+{"code": "value_counts()", "compilation_passed": true, "time": 0.009650945663452148, "tests_passed": true, "error": null}
+{"code": "value_counts().loc[lambda x: x > 1].index.tolist()", "compilation_passed": true, "time": 0.32065510749816895, "tests_passed": true, "error": null}
+{"code": "value_counts(dropna=False).loc[lambda x: x > 1].index.tolist()", "compilation_passed": true, "time": 0.3277461528778076, "tests_passed": true, "error": null}
+{"code": "value_counts(dropna=False)[df[\"name\"].value_counts(dropna=False) > 1]", "compilation_passed": true, "time": 0.012304067611694336, "tests_passed": true, "error": null}
+{"code": "value_counts().where(lambda x: x > 1).dropna().index.tolist()", "compilation_passed": true, "time": 0.31119298934936523, "tests_passed": true, "error": null}
+{"code": "value_counts().where(lambda x: x > 1).dropna().index.to_list()", "compilation_passed": true, "time": 0.31757020950317383, "tests_passed": true, "error": null}
+{"code": "value_counts()[df[\"name\"].value_counts() > 1].index.tolist()", "compilation_passed": true, "time": 0.35656309127807617, "tests_passed": true, "error": null}
+{"code": "value_counts().loc[lambda x: x > 1].index.to_list()", "compilation_passed": true, "time": 0.3307304382324219, "tests_passed": true, "error": null}
+{"code": "value_counts().loc[lambda c: c > 1].index.tolist()", "compilation_passed": true, "time": 0.33211708068847656, "tests_passed": true, "error": null}
+{"code": "value_counts().reset_index(name=\"counts\").query(\"counts > 1\")[\"name\"]", "compilation_passed": true, "time": 0.3246631622314453, "tests_passed": true, "error": null}
+{"code": "value_counts().loc[lambda x: x > 1].index.values", "compilation_passed": true, "time": 0.3442378044128418, "tests_passed": true, "error": null}
+{"code": "value_counts().loc[lambda x: x > 1].index.values.tolist()", "compilation_passed": true, "time": 0.3058030605316162, "tests_passed": true, "error": null}
+{"code": "value_counts().loc[df[\"name\"].value_counts() > 1].index.tolist()", "compilation_passed": true, "time": 0.33377528190612793, "tests_passed": true, "error": null}
+{"code": "value_counts()  # count the occurrences of each name", "compilation_passed": true, "time": 0.010827064514160156, "tests_passed": true, "error": null}
+{"code": "value_counts().loc[lambda c: c > 1].index.to_list()", "compilation_passed": true, "time": 0.33382296562194824, "tests_passed": true, "error": null}
+{"code": "value_counts()  # Count name occurrences in the DataFrame", "compilation_passed": true, "time": 0.009769916534423828, "tests_passed": true, "error": null}
+{"code": "value_counts().loc[lambda s: s > 1]", "compilation_passed": true, "time": 0.010605096817016602, "tests_passed": true, "error": null}
+{"code": "value_counts().loc[lambda s: s > 1].index.tolist()", "compilation_passed": true, "time": 0.33437609672546387, "tests_passed": true, "error": null}
+{"code": "value_counts().loc[lambda s: s > 1].index.values.tolist()", "compilation_passed": true, "time": 0.3280940055847168, "tests_passed": true, "error": null}

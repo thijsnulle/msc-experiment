@@ -1,0 +1,15 @@
+{"code": " []", "compilation_passed": true, "time": 0.08709001541137695, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {zone: [] for zone in TIMEZONES}", "compilation_passed": true, "time": 0.00878596305847168, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.zeros((len(TIMEZONES), len(dates)))", "compilation_passed": true, "time": 0.008775949478149414, "tests_passed": false, "error": "AttributeError"}
+{"code": " {t: [] for t in TIMEZONES}", "compilation_passed": true, "time": 0.008093833923339844, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.zeros((len(TIMEZONES), len(dates), 24))", "compilation_passed": true, "time": 0.008718013763427734, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.zeros((len(dates), len(TIMEZONES)))", "compilation_passed": true, "time": 0.008620738983154297, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.008707284927368164, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.zeros((5, len(dates)))", "compilation_passed": true, "time": 0.008592844009399414, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.zeros((dates.size, len(TIMEZONES)))", "compilation_passed": true, "time": 0.00798177719116211, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.empty((5, dates.shape[0]), dtype=np.float64)", "compilation_passed": true, "time": 0.008839845657348633, "tests_passed": false, "error": "AttributeError"}
+{"code": " {", "compilation_passed": false, "time": 0.0004467964172363281, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [[] for _ in range(len(TIMEZONES))]", "compilation_passed": true, "time": 0.021385908126831055, "tests_passed": false, "error": "ValueError"}
+{"code": " np.zeros((dates.shape[0], len(TIMEZONES)))", "compilation_passed": true, "time": 0.008723974227905273, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.zeros(shape=(len(TIMEZONES), len(dates)), dtype=int)", "compilation_passed": true, "time": 0.008044004440307617, "tests_passed": false, "error": "AttributeError"}

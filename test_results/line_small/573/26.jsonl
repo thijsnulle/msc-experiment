@@ -1,0 +1,13 @@
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00016999244689941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Array1': array1, 'Array2': array2})", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Mean': (array1 + array2)/2,", "compilation_passed": false, "time": 0.0002827644348144531, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00027489662170410156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Mean': array1.mean(), 'Median': array1.median(), 'Standard Deviation': array1.std()})", "compilation_passed": false, "time": 0.0001900196075439453, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(data={'Array1': array1, 'Array2': array2})", "compilation_passed": false, "time": 0.00020694732666015625, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame()", "compilation_passed": false, "time": 0.00014591217041015625, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({'Array1': array1, 'Array2': array2, 'Mean': (array1.mean(), array2.mean()), 'Median': (array1.median(), array2.median()), 'Standard Deviation': (array1.std(), array2.std())})", "compilation_passed": false, "time": 0.0002911090850830078, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(data=[array1.mean(), np.median(array1), array1.std(),", "compilation_passed": false, "time": 0.000247955322265625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Array1': [np.mean(array1)], 'Array2': [np.mean(array2)]})", "compilation_passed": false, "time": 0.00015306472778320312, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame({\"Array1\": array1, \"Array2\": array2})", "compilation_passed": false, "time": 0.00018095970153808594, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dict(Mean=(np.mean(array1), np.mean(array2)), Median=(np.median(array1), np.median(array2)),", "compilation_passed": false, "time": 0.00017118453979492188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.array([array1.mean(), array2.mean()]), index=[\"Array1\", \"Array2\"])", "compilation_passed": false, "time": 0.0002448558807373047, "tests_passed": false, "error": "IndentationError"}

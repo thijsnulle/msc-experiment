@@ -1,0 +1,23 @@
+{"code": "check_output([\"pyenv\", \"global\", python_version])", "compilation_passed": true, "time": 0.006742000579833984, "tests_passed": true, "error": null}
+{"code": "run(['py', '-{}'.format(python_version)])", "compilation_passed": true, "time": 0.006038188934326172, "tests_passed": true, "error": null}
+{"code": "call([\"pyenv\", \"global\", python_version])", "compilation_passed": true, "time": 0.07421588897705078, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "run(['pyenv', 'global', python_version])", "compilation_passed": true, "time": 0.008228063583374023, "tests_passed": true, "error": null}
+{"code": "run([f'python{python_version}', '-m', 'pip', 'install', '--upgrade', 'python-dotenv'])", "compilation_passed": true, "time": 0.006469011306762695, "tests_passed": true, "error": null}
+{"code": "run([f'pyenv global {python_version}', f'python -m pip install virtualenv'])", "compilation_passed": true, "time": 0.007427215576171875, "tests_passed": true, "error": null}
+{"code": "run(['pyenv', 'global', python_version], check=True)", "compilation_passed": true, "time": 0.003972053527832031, "tests_passed": true, "error": null}
+{"code": "call('python{} -c \"import sys; sys.path.append(\\'{}\\')\"'.format(python_version, path_to_append), shell=True)", "compilation_passed": true, "time": 0.07603693008422852, "tests_passed": true, "error": null}
+{"code": "check_call([\"conda\", \"run\", \"-n\", python_version, \"python\", \"-m\", \"site\"])", "compilation_passed": true, "time": 0.0627601146697998, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "call(['py', '-{}'.format(python_version)])", "compilation_passed": true, "time": 0.06048011779785156, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "check_call([f\"py -{python_version}\", \"-m\", \"venv\", \"venv\"])", "compilation_passed": true, "time": 0.06094813346862793, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "call(['pip', 'install', 'virtualenv'])", "compilation_passed": true, "time": 0.059561967849731445, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "call(f'pyenv local {python_version}', shell=True)", "compilation_passed": true, "time": 0.06998777389526367, "tests_passed": true, "error": null}
+{"code": "run([\"conda\", \"install\", \"python={}\".format(python_version)])", "compilation_passed": true, "time": 0.008722782135009766, "tests_passed": true, "error": null}
+{"code": "call(['pyenv', 'global', python_version])", "compilation_passed": true, "time": 0.06283307075500488, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "run(['pyenv', 'local', python_version])", "compilation_passed": true, "time": 0.008494138717651367, "tests_passed": true, "error": null}
+{"code": "check_call([\"conda\", \"run\", \"--live-stream\", \"-n\", python_version, \"python\", \"-m\", \"pip\", \"install\", \"ipython\"])", "compilation_passed": true, "time": 0.05906987190246582, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "check_output('chpy --set {} --global'.format(python_version), shell=True)", "compilation_passed": true, "time": 0.008776187896728516, "tests_passed": true, "error": null}
+{"code": "run([\"pyenv\", \"global\", python_version])", "compilation_passed": true, "time": 0.007640838623046875, "tests_passed": true, "error": null}
+{"code": "check_call(['sudo', '-H', 'update-alternatives', '--set',", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": "check_call([f\"/usr/local/bin/python{python_version}\", '-c', 'import sys; print(sys.version)'])", "compilation_passed": true, "time": 0.05734419822692871, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "run(f\"conda activate py{python_version}\", shell=True)", "compilation_passed": true, "time": 0.008064031600952148, "tests_passed": true, "error": null}
+{"code": "check_call(['pyenv', 'global', python_version])", "compilation_passed": true, "time": 0.05787515640258789, "tests_passed": false, "error": "FileNotFoundError"}

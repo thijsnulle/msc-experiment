@@ -1,0 +1,16 @@
+{"code": " s.lower()", "compilation_passed": true, "time": 0.003941059112548828, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', s)", "compilation_passed": true, "time": 0.0037441253662109375, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', s).lower()", "compilation_passed": true, "time": 0.003846883773803711, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z]', ' ', s)", "compilation_passed": true, "time": 0.0034711360931396484, "tests_passed": true, "error": null}
+{"code": " s.lower()  # Convert to lowercase", "compilation_passed": true, "time": 0.0032722949981689453, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z0-9 ]', '', s)", "compilation_passed": true, "time": 0.0036160945892333984, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z]+', ' ', s)", "compilation_passed": true, "time": 0.003341197967529297, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^A-Za-z ]', '', s).lower()", "compilation_passed": true, "time": 0.0035552978515625, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z0-9]', ' ', s).lower().split()", "compilation_passed": true, "time": 0.014375925064086914, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r'[^a-zA-Z]', ' ', s)", "compilation_passed": true, "time": 0.0037467479705810547, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', ' ', s).lower()", "compilation_passed": true, "time": 0.0035448074340820312, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z ]', '', s)", "compilation_passed": true, "time": 0.0034666061401367188, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^a-zA-Z ]+\", \"\", s)", "compilation_passed": true, "time": 0.0033049583435058594, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s]\", \"\", s).lower()  # remove punctuation and convert to lowercase", "compilation_passed": true, "time": 0.004538059234619141, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z0-9\\s]', '', s)", "compilation_passed": true, "time": 0.0036640167236328125, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', s).lower()", "compilation_passed": true, "time": 0.003704071044921875, "tests_passed": true, "error": null}

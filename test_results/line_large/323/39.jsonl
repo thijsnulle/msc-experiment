@@ -1,0 +1,30 @@
+{"code": " re.findall(r'([A-Z][a-z]* [A-Z][a-z]*)', text)", "compilation_passed": true, "time": 0.02232503890991211, "tests_passed": true, "error": null}
+{"code": " re.findall('[A-Za-z]+', text)", "compilation_passed": true, "time": 0.009351015090942383, "tests_passed": true, "error": null}
+{"code": " re.findall(r'([a-zA-Z]+)', re.sub(r'\\[[^\\]]*\\]', '', text))", "compilation_passed": true, "time": 0.013410091400146484, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?<!\\[)(\\w+\\s+\\w+)(?!\\])\", text)", "compilation_passed": true, "time": 0.008718013763427734, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\[(.*?)\\]\", \"\", text) #remove everything that's inside the brackets", "compilation_passed": true, "time": 0.012251138687133789, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\\[\\d+ \\w+ \\w+\\, \\w+\\, \\w+ \\d+\\])','',text).split()", "compilation_passed": true, "time": 0.030654191970825195, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?<!\\[)[A-Za-z ]+(?=\\])\", text) # Find names not within brackets", "compilation_passed": true, "time": 0.014768123626708984, "tests_passed": false, "error": "Exception"}
+{"code": " re.findall(r'[^[]+(?=\\])', text) # Extract the names", "compilation_passed": true, "time": 0.016728878021240234, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?<=\\s|^)[a-zA-Z]+(?=\\s|$)\", re.sub(r\"\\[[^]]*\\]\", \"\", text))", "compilation_passed": true, "time": 0.014523029327392578, "tests_passed": false, "error": "re.error"}
+{"code": " re.findall(r'((?<!\\[)[A-Z][a-z]+ [A-Z][a-z]+(?!\\])|[A-Z][a-z]+)', text)", "compilation_passed": true, "time": 0.010525941848754883, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?<!\\[)\\w+\\s+\\w+(?!\\])\", text)", "compilation_passed": true, "time": 0.014293193817138672, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?<!\\[)(\\w+\\s+)+(?!\\])\", text)", "compilation_passed": true, "time": 0.015614986419677734, "tests_passed": true, "error": null}
+{"code": " re.findall(r'((?<!\\[[^\\]]*)[A-Z][^\\[\\s]*\\s?)', text)", "compilation_passed": true, "time": 0.012015104293823242, "tests_passed": false, "error": "re.error"}
+{"code": " re.split(r'\\[[^]]*\\]', text)", "compilation_passed": true, "time": 0.017091035842895508, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\[.*?\\]', '', text).split(',')", "compilation_passed": true, "time": 0.013888120651245117, "tests_passed": true, "error": null}
+{"code": " re.findall('[^[]*\\[.*?\\]', text)", "compilation_passed": true, "time": 0.009189128875732422, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\[[^]]*\\]', '', text)", "compilation_passed": true, "time": 0.009238958358764648, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(\\w+(?:\\s+\\w+)*)(?=\\s*[\\[<])', text)", "compilation_passed": true, "time": 0.014354944229125977, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[A-Z]+', text)", "compilation_passed": true, "time": 0.011845111846923828, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[^[\\]]+', text)", "compilation_passed": true, "time": 0.009249210357666016, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(?<!\\[)[A-Za-z]+\\s+[A-Za-z]+\\s+(?!\\])', text)", "compilation_passed": true, "time": 0.010626792907714844, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b[A-Za-z]{4,}\\b', text)", "compilation_passed": true, "time": 0.007993936538696289, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"[^[]+[^\\[]\", text)", "compilation_passed": true, "time": 0.0076558589935302734, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[A-Za-z]+', re.sub(r'\\[[^\\]]*\\]', '', text))", "compilation_passed": true, "time": 0.011761903762817383, "tests_passed": true, "error": null}
+{"code": " re.split('[[ ]', text)", "compilation_passed": true, "time": 0.010411977767944336, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"[A-Za-z]+\", text)", "compilation_passed": true, "time": 0.008792877197265625, "tests_passed": true, "error": null}
+{"code": " re.split('[\\[\\]]', text)[1::2]", "compilation_passed": true, "time": 0.01286005973815918, "tests_passed": true, "error": null}
+{"code": " re.sub(r'(\\[[^]]*\\])', '', text)", "compilation_passed": true, "time": 0.008613824844360352, "tests_passed": true, "error": null}
+{"code": " re.findall('([^[]+?) \\[\\d', text)", "compilation_passed": true, "time": 0.00946807861328125, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?<=\\][^[]+)(\\w+)\", text)", "compilation_passed": true, "time": 0.012346982955932617, "tests_passed": false, "error": "re.error"}

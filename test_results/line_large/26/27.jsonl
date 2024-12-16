@@ -1,0 +1,10 @@
+{"code": " Fernet(base64.urlsafe_b64encode(encryption_key.encode()))", "compilation_passed": true, "time": 0.0021049976348876953, "tests_passed": true, "error": null}
+{"code": " Fernet(encryption_key)", "compilation_passed": true, "time": 0.017932891845703125, "tests_passed": false, "error": "ValueError"}
+{"code": " Fernet(encryption_key.encode())", "compilation_passed": true, "time": 0.014007091522216797, "tests_passed": false, "error": "ValueError"}
+{"code": " Fernet(bytes(encryption_key, 'utf-8'))", "compilation_passed": true, "time": 0.012740850448608398, "tests_passed": false, "error": "ValueError"}
+{"code": " Fernet(encryption_key.encode('utf-8'))", "compilation_passed": true, "time": 0.012153863906860352, "tests_passed": false, "error": "ValueError"}
+{"code": " Fernet(base64.urlsafe_b64encode(encryption_key.encode())[:32])", "compilation_passed": true, "time": 0.011852741241455078, "tests_passed": false, "error": "ValueError"}
+{"code": " Fernet(base64.urlsafe_b64encode(encryption_key.encode()).zfill(32))", "compilation_passed": true, "time": 0.0016231536865234375, "tests_passed": true, "error": null}
+{"code": " Fernet(base64.urlsafe_b64encode(bytes(encryption_key, 'utf-8')))", "compilation_passed": true, "time": 0.002087831497192383, "tests_passed": true, "error": null}
+{"code": " Fernet(base64.urlsafe_b64encode(encryption_key.encode('utf-8')))", "compilation_passed": true, "time": 0.002192258834838867, "tests_passed": true, "error": null}
+{"code": " Fernet(base64.urlsafe_b64encode(encryption_key.encode('ascii')))", "compilation_passed": true, "time": 0.0017518997192382812, "tests_passed": true, "error": null}

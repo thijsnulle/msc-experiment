@@ -1,0 +1,8 @@
+{"code": " in range(num_groups):", "compilation_passed": true, "time": 0.052290916442871094, "tests_passed": false, "error": "NameError"}
+{"code": ", group in enumerate(group_mean.index):", "compilation_passed": true, "time": 0.05312514305114746, "tests_passed": false, "error": "NameError"}
+{"code": ", (grp, mean, std) in enumerate(zip(group_mean.keys(), group_mean, group_std)):", "compilation_passed": true, "time": 0.6103448867797852, "tests_passed": true, "error": null}
+{"code": ", (group, mean, std) in enumerate(zip(group_mean.index, group_mean, group_std)):", "compilation_passed": true, "time": 0.6080150604248047, "tests_passed": true, "error": null}
+{"code": ", (group, mean) in enumerate(group_mean.items()):", "compilation_passed": true, "time": 0.08701896667480469, "tests_passed": false, "error": "NameError"}
+{"code": " in range(len(group_mean)):", "compilation_passed": true, "time": 0.05105900764465332, "tests_passed": false, "error": "NameError"}
+{"code": ", (name, mean, std) in enumerate(zip(group_mean.index, group_mean, group_std)):", "compilation_passed": true, "time": 0.6537747383117676, "tests_passed": true, "error": null}
+{"code": ", (group, mean) in enumerate(group_mean.iteritems()):", "compilation_passed": true, "time": 0.08569884300231934, "tests_passed": false, "error": "AttributeError"}

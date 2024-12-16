@@ -1,0 +1,11 @@
+{"code": " not pd.api.types.is_datetime64_any_dtype(df['date']):", "compilation_passed": true, "time": 1.0302300453186035, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df['date'][0], datetime.datetime):", "compilation_passed": true, "time": 0.012840032577514648, "tests_passed": false, "error": "NameError"}
+{"code": " not isinstance(df['date'].iloc[0], pd.Timestamp):", "compilation_passed": true, "time": 1.0149331092834473, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df['date'][0], pd.Timestamp):", "compilation_passed": true, "time": 1.0157599449157715, "tests_passed": false, "error": "ValueError"}
+{"code": " not df['date'].dt.strftime('%Y-%m-%d').str.startswith('2022').all():", "compilation_passed": true, "time": 0.02497410774230957, "tests_passed": false, "error": "AttributeError"}
+{"code": " not pd.core.dtypes.common.is_datetime64_dtype(df['date']):", "compilation_passed": true, "time": 2.181755781173706, "tests_passed": true, "error": null}
+{"code": " not pd.api.types.is_datetime64_any_dtype(df[\"date\"]):", "compilation_passed": true, "time": 1.0136446952819824, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df['date'][0], pd._libs.tslibs.timestamps.Timestamp):", "compilation_passed": true, "time": 1.0142998695373535, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"date\"].dtype != \"datetime64[ns]\":", "compilation_passed": true, "time": 1.0223360061645508, "tests_passed": false, "error": "ValueError"}
+{"code": " not df['date'].dtype == 'datetime64[ns]':", "compilation_passed": true, "time": 1.3319931030273438, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(df['date'].values[0], pd.Timestamp):", "compilation_passed": true, "time": 0.018265724182128906, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame.from_dict(data)", "compilation_passed": true, "time": 0.04614615440368652, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.04584312438964844, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0003237724304199219, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Hours': data['Hours'], 'Scores': data['Scores']})", "compilation_passed": true, "time": 0.04576921463012695, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Hours':data['Hours'],'Scores':data['Scores']})", "compilation_passed": true, "time": 0.04635787010192871, "tests_passed": true, "error": null}

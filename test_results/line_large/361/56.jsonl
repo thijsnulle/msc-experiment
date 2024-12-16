@@ -1,0 +1,8 @@
+{"code": " dict(column_sum)", "compilation_passed": true, "time": 0.07761192321777344, "tests_passed": true, "error": null}
+{"code": " {'Column{}'.format(i + 1): value for i, value in enumerate(column_sum)}", "compilation_passed": true, "time": 0.04905962944030762, "tests_passed": true, "error": null}
+{"code": " column_sum.to_dict()", "compilation_passed": true, "time": 0.09272193908691406, "tests_passed": true, "error": null}
+{"code": " dict(zip(df.columns, column_sum))", "compilation_passed": true, "time": 0.0771028995513916, "tests_passed": true, "error": null}
+{"code": " {column: sum for column, sum in column_sum.items()}", "compilation_passed": true, "time": 0.10036301612854004, "tests_passed": true, "error": null}
+{"code": " dict(zip(column_sum.index, column_sum.values))", "compilation_passed": true, "time": 0.08606100082397461, "tests_passed": true, "error": null}
+{"code": " {'Column' + str(i): v for i, v in enumerate(column_sum, 1)}", "compilation_passed": true, "time": 0.049298763275146484, "tests_passed": true, "error": null}
+{"code": " {k: v for k, v in column_sum.items() if k in df.columns}", "compilation_passed": true, "time": 0.07518196105957031, "tests_passed": true, "error": null}

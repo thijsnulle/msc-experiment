@@ -1,0 +1,20 @@
+{"code": " [f\"{hour:02d}:00\"]", "compilation_passed": true, "time": 0.009263038635253906, "tests_passed": true, "error": null}
+{"code": " [f\"{hour:02}:00:00\"]", "compilation_passed": true, "time": 0.008793830871582031, "tests_passed": true, "error": null}
+{"code": " [datetime.datetime.today().replace(hour=hour)]", "compilation_passed": true, "time": 0.018536806106567383, "tests_passed": false, "error": "NameError"}
+{"code": " [hour]", "compilation_passed": true, "time": 0.00892496109008789, "tests_passed": true, "error": null}
+{"code": " [f'{hour:02d}:00']", "compilation_passed": true, "time": 0.009040117263793945, "tests_passed": true, "error": null}
+{"code": " [datetime.datetime.now().strftime('%H:%M:%S')]", "compilation_passed": true, "time": 0.020190000534057617, "tests_passed": false, "error": "NameError"}
+{"code": " [f'{hour}:00:00']", "compilation_passed": true, "time": 0.00879216194152832, "tests_passed": true, "error": null}
+{"code": " [f'{hour:02}:00']", "compilation_passed": true, "time": 0.009220123291015625, "tests_passed": true, "error": null}
+{"code": " [datetime.time(hour=hour)]", "compilation_passed": true, "time": 0.018349170684814453, "tests_passed": false, "error": "NameError"}
+{"code": " [f\"{hour}:00\"]", "compilation_passed": true, "time": 0.00899195671081543, "tests_passed": true, "error": null}
+{"code": " [str(hour)]", "compilation_passed": true, "time": 0.008944988250732422, "tests_passed": true, "error": null}
+{"code": " [str(hour).zfill(2)]", "compilation_passed": true, "time": 0.010290861129760742, "tests_passed": true, "error": null}
+{"code": " [f\"{hour:02d}:00:00\"]", "compilation_passed": true, "time": 0.00908803939819336, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.015275001525878906, "tests_passed": false, "error": "IndexError"}
+{"code": " [f\"2021-01-01 {hour:02}:00:00\"]", "compilation_passed": true, "time": 0.009119987487792969, "tests_passed": true, "error": null}
+{"code": " ['{:02d}:00'.format(hour)]", "compilation_passed": true, "time": 0.009549856185913086, "tests_passed": true, "error": null}
+{"code": " [datetime.time(hour=hour, minute=0)]", "compilation_passed": true, "time": 0.020307064056396484, "tests_passed": false, "error": "NameError"}
+{"code": " [str(datetime.datetime.now().replace(", "compilation_passed": false, "time": 0.0006020069122314453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [f'{hour:02}:00:00']", "compilation_passed": true, "time": 0.009092092514038086, "tests_passed": true, "error": null}
+{"code": " [str(hour) + ':00']", "compilation_passed": true, "time": 0.010605096817016602, "tests_passed": true, "error": null}

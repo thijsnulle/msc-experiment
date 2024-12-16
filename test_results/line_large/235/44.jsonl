@@ -1,0 +1,5 @@
+{"code": "plot(bins, model.fittedvalues, linewidth=2, color='g')", "compilation_passed": false, "time": 0.00041103363037109375, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(", "compilation_passed": true, "time": 0.2916419506072998, "tests_passed": true, "error": null}
+{"code": "plot(bins, model.fittedvalues, color='g')", "compilation_passed": false, "time": 0.00039076805114746094, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(bins, model.params[0] + model.params[1] * bins + model.params[2] * np.power(bins, 2), linewidth=2, color='g')", "compilation_passed": false, "time": 0.0003159046173095703, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(bins, model.params[0] + model.params[1] * bins + model.params[2] * np.square(bins), 'g-')", "compilation_passed": false, "time": 0.0004930496215820312, "tests_passed": false, "error": "IndentationError"}

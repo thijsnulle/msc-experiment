@@ -15,7 +15,7 @@ sns.set_theme()
 sns.color_palette("colorblind")
 
 RESULTS_DIR = '/Users/thijs/Documents/Git/msc-experiment/results'
-TEST_RESULTS_DIR = '/Users/thijs/Documents/Git/msc-experiment/tests/results/line_small'
+TEST_RESULTS_DIR = '/Users/thijs/Documents/Git/msc-experiment/test_results/line_small'
 
 def load_results(file_name):
     output = defaultdict(list)

@@ -1,0 +1,6 @@
+{"code": " base64.b64encode(zlib.compress(random_string.encode()))", "compilation_passed": true, "time": 0.00542902946472168, "tests_passed": true, "error": null}
+{"code": " zlib.compress(random_string.encode('utf-8'))", "compilation_passed": true, "time": 0.0013048648834228516, "tests_passed": true, "error": null}
+{"code": " zlib.compress(random_string.encode())", "compilation_passed": true, "time": 0.0014679431915283203, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(zlib.compress(random_string.encode('utf-8'))).decode('utf-8')", "compilation_passed": true, "time": 0.00768589973449707, "tests_passed": false, "error": "TypeError"}
+{"code": " base64.b64encode(zlib.compress(random_string.encode('utf-8')))", "compilation_passed": true, "time": 0.006443977355957031, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(zlib.compress(random_string.encode())).decode()", "compilation_passed": true, "time": 0.006509065628051758, "tests_passed": false, "error": "TypeError"}

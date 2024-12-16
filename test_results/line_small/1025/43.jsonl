@@ -1,3 +1,4 @@
 {"code": " plt.gca()", "compilation_passed": true, "time": 0.01838207244873047, "tests_passed": true, "error": null}
 {"code": " df_scaled.plot.scatter(x=\"a\", y=\"b\")", "compilation_passed": true, "time": 0.25021886825561523, "tests_passed": true, "error": null}
 {"code": " df_scaled.plot(subplots=True, legend=False)", "compilation_passed": true, "time": 0.1468961238861084, "tests_passed": false, "error": "AttributeError"}
+{"code": " df_scaled.plot.bar()", "compilation_passed": true, "time": 0.0018889904022216797, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}

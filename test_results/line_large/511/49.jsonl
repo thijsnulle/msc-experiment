@@ -1,0 +1,10 @@
+{"code": "pie(column_data, labels=df[\"Age\"])", "compilation_passed": true, "time": 0.12876605987548828, "tests_passed": true, "error": null}
+{"code": "pie(", "compilation_passed": false, "time": 0.0003459453582763672, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pie(column_data, labels=COLUMNS)", "compilation_passed": true, "time": 0.02560710906982422, "tests_passed": false, "error": "ValueError"}
+{"code": "pie(column_data, labels=df[\"Age\"], autopct=\"%1.1f%%\")", "compilation_passed": true, "time": 0.14447784423828125, "tests_passed": true, "error": null}
+{"code": "pie(df[\"Age\"], labels=COLUMNS)", "compilation_passed": true, "time": 0.02094101905822754, "tests_passed": false, "error": "ValueError"}
+{"code": "pie(df[\"Age\"], labels=df[\"Age\"].astype(str))", "compilation_passed": true, "time": 0.12529397010803223, "tests_passed": true, "error": null}
+{"code": "pie(column_data, labels=df[\"Age\"], autopct=\"%1.1f%%\", shadow=True)", "compilation_passed": true, "time": 0.16525506973266602, "tests_passed": true, "error": null}
+{"code": "pie(df[column], labels=df[\"Age\"])", "compilation_passed": true, "time": 0.1278059482574463, "tests_passed": true, "error": null}
+{"code": "pie(column_data, labels=df[\"Age\"], autopct=\"%1.1f%%\", startangle=90)", "compilation_passed": true, "time": 0.13323974609375, "tests_passed": true, "error": null}
+{"code": "pie(df[\"Age\"], labels=df[\"Age\"])", "compilation_passed": true, "time": 0.1270139217376709, "tests_passed": true, "error": null}

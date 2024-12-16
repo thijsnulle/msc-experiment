@@ -1,0 +1,23 @@
+{"code": " [name.strip() for name in names]", "compilation_passed": true, "time": 0.04370307922363281, "tests_passed": true, "error": null}
+{"code": " [name for name in names if not re.search(r'\\[.*?\\]', name) and not re.search(r'\\].*', name)]", "compilation_passed": true, "time": 0.03441619873046875, "tests_passed": false, "error": "KeyError"}
+{"code": " [x.strip() for x in names if x != '']", "compilation_passed": true, "time": 0.040593862533569336, "tests_passed": true, "error": null}
+{"code": " [n.strip() for n in names]", "compilation_passed": true, "time": 0.04881691932678223, "tests_passed": true, "error": null}
+{"code": " [name.strip() for name in names if name]", "compilation_passed": true, "time": 0.047116994857788086, "tests_passed": true, "error": null}
+{"code": " list(map(lambda x: x[0], names))", "compilation_passed": true, "time": 0.017735958099365234, "tests_passed": false, "error": "IndexError"}
+{"code": " [n.strip() for n in names if n]", "compilation_passed": true, "time": 0.043000221252441406, "tests_passed": true, "error": null}
+{"code": " [x.strip() for x in names if x.strip()]", "compilation_passed": true, "time": 0.03932905197143555, "tests_passed": true, "error": null}
+{"code": " [name.strip().split('[')[0] for name in names]", "compilation_passed": true, "time": 0.04430103302001953, "tests_passed": true, "error": null}
+{"code": " [name.strip().strip('.') for name in names]", "compilation_passed": true, "time": 0.04071402549743652, "tests_passed": true, "error": null}
+{"code": " [n.strip().lower() for n in names]", "compilation_passed": true, "time": 0.03050708770751953, "tests_passed": false, "error": "KeyError"}
+{"code": " [name.strip() for name in names if name.strip()]", "compilation_passed": true, "time": 0.040418148040771484, "tests_passed": true, "error": null}
+{"code": " [name for name in names if len(name) > 3]", "compilation_passed": true, "time": 0.02990889549255371, "tests_passed": false, "error": "KeyError"}
+{"code": " [name.strip() for name in names if len(name.strip()) > 0]", "compilation_passed": true, "time": 0.04838395118713379, "tests_passed": true, "error": null}
+{"code": " [n.strip().lower() for n in names if n in dir(pd) and not n.lower() in ['nan', 'inf', '-inf']]", "compilation_passed": true, "time": 0.01387786865234375, "tests_passed": false, "error": "KeyError"}
+{"code": " [name.strip() for name in names if name.strip() != '']", "compilation_passed": true, "time": 0.030749082565307617, "tests_passed": true, "error": null}
+{"code": " list(set(names))", "compilation_passed": true, "time": 0.019902944564819336, "tests_passed": false, "error": "KeyError"}
+{"code": " [name.strip() for name in names if name != \"\"]", "compilation_passed": true, "time": 0.029728174209594727, "tests_passed": true, "error": null}
+{"code": " [name for name in names if name not in [\"Josie Smith\", \"Mugsy Dog Smith\"]]", "compilation_passed": true, "time": 0.019678831100463867, "tests_passed": false, "error": "KeyError"}
+{"code": " [n for n in names if n]  # remove empty strings", "compilation_passed": true, "time": 0.019311904907226562, "tests_passed": false, "error": "KeyError"}
+{"code": " list(map(lambda x: x.strip(), names))", "compilation_passed": true, "time": 0.031954050064086914, "tests_passed": true, "error": null}
+{"code": " [x.strip() for x in names if x.strip() != '']", "compilation_passed": true, "time": 0.030178070068359375, "tests_passed": true, "error": null}
+{"code": " [name.replace(\"'\", \"\") for name in names]", "compilation_passed": true, "time": 0.019835948944091797, "tests_passed": false, "error": "KeyError"}

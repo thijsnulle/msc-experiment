@@ -1,0 +1,24 @@
+{"code": " len(component) > 0 or component == path_obj.name", "compilation_passed": true, "time": 0.007334232330322266, "tests_passed": true, "error": null}
+{"code": " component", "compilation_passed": true, "time": 0.005877971649169922, "tests_passed": true, "error": null}
+{"code": " not any(set(str(component)).intersection(invalid_chars))", "compilation_passed": true, "time": 0.008071184158325195, "tests_passed": true, "error": null}
+{"code": " component not in invalid_chars and component != \"..\"", "compilation_passed": true, "time": 0.0057048797607421875, "tests_passed": true, "error": null}
+{"code": " component not in invalid_chars and component != \"\"", "compilation_passed": true, "time": 0.005331993103027344, "tests_passed": true, "error": null}
+{"code": " not (component.startswith(\".\") or component.startswith(\"~\"))", "compilation_passed": true, "time": 0.006537914276123047, "tests_passed": true, "error": null}
+{"code": " component != '.' and component != '..'", "compilation_passed": true, "time": 0.007203102111816406, "tests_passed": true, "error": null}
+{"code": " component and component != \"..\" and component != \".\"", "compilation_passed": true, "time": 0.006518125534057617, "tests_passed": true, "error": null}
+{"code": " (component not in {'.', '..', '.git', '.gitignore'})", "compilation_passed": true, "time": 0.007566928863525391, "tests_passed": true, "error": null}
+{"code": " (component and \".\" not in component) or os.path.isfile(str(path_obj / component))", "compilation_passed": true, "time": 0.00608372688293457, "tests_passed": true, "error": null}
+{"code": " len(component) > 0 or component == '.'", "compilation_passed": true, "time": 0.006289005279541016, "tests_passed": true, "error": null}
+{"code": " len(component) != 0", "compilation_passed": true, "time": 0.005877017974853516, "tests_passed": true, "error": null}
+{"code": " len(component) > 0 and component not in invalid_chars", "compilation_passed": true, "time": 0.008347749710083008, "tests_passed": true, "error": null}
+{"code": " not set(str(component)).intersection(invalid_chars)", "compilation_passed": true, "time": 0.005477190017700195, "tests_passed": true, "error": null}
+{"code": " component not in [\".\", \"..\", os.path.pardir]", "compilation_passed": true, "time": 0.005501985549926758, "tests_passed": true, "error": null}
+{"code": " not (", "compilation_passed": false, "time": 0.00012493133544921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " component not in (path_obj, path_obj.parent, path_obj.anchor)", "compilation_passed": true, "time": 0.0015721321105957031, "tests_passed": true, "error": null}
+{"code": " len(component) > 0 and not component.startswith(\".\")", "compilation_passed": true, "time": 0.0056209564208984375, "tests_passed": true, "error": null}
+{"code": " component and component not in invalid_chars", "compilation_passed": true, "time": 0.005012989044189453, "tests_passed": true, "error": null}
+{"code": " component not in (os.pardir, \".\", \"..\")", "compilation_passed": true, "time": 0.005587100982666016, "tests_passed": true, "error": null}
+{"code": " not any(", "compilation_passed": false, "time": 0.00014019012451171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " component not in (\".\", \"..\", \".DS_Store\")", "compilation_passed": true, "time": 0.0062808990478515625, "tests_passed": true, "error": null}
+{"code": " component not in (os.pardir, os.curdir)", "compilation_passed": true, "time": 0.006381034851074219, "tests_passed": true, "error": null}
+{"code": " not set(component).intersection(invalid_chars)", "compilation_passed": true, "time": 0.007415771484375, "tests_passed": true, "error": null}

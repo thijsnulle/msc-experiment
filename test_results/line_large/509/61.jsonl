@@ -1,0 +1,16 @@
+{"code": " []", "compilation_passed": true, "time": 0.010380029678344727, "tests_passed": true, "error": null}
+{"code": " [row[0].split(' ', 1) + [row[2]] for row in enumerate(diff, start=1)]", "compilation_passed": true, "time": 0.013751029968261719, "tests_passed": false, "error": "Exception"}
+{"code": " [row for row in diff if row[0] != ' ']", "compilation_passed": true, "time": 0.010880708694458008, "tests_passed": false, "error": "ValueError"}
+{"code": " [headers]", "compilation_passed": true, "time": 0.012776374816894531, "tests_passed": true, "error": null}
+{"code": " [tuple(line.split(' ', 2)) for line in diff]", "compilation_passed": true, "time": 0.010065078735351562, "tests_passed": true, "error": null}
+{"code": " [[idx + 1, status, content] for idx, (status, content) in enumerate(diff)", "compilation_passed": false, "time": 0.00037598609924316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [row for row in diff]", "compilation_passed": true, "time": 0.011809110641479492, "tests_passed": false, "error": "ValueError"}
+{"code": " {header: [] for header in headers}", "compilation_passed": true, "time": 0.011920928955078125, "tests_passed": false, "error": "Exception"}
+{"code": " [(i, status, line) for i, (status, line) in enumerate(diff, 1)]", "compilation_passed": true, "time": 0.012868165969848633, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 0.0003230571746826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(line_num + 1, change, line) for line_num, (change, line) in enumerate(diff)]", "compilation_passed": true, "time": 0.012710809707641602, "tests_passed": false, "error": "ValueError"}
+{"code": " [{'Line Number': i+1, 'Status': line[0], 'Content': line[2:]}", "compilation_passed": false, "time": 0.0003731250762939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [diff.__next__() for i in range(len(list(diff)))]", "compilation_passed": true, "time": 0.012801170349121094, "tests_passed": false, "error": "Exception"}
+{"code": " [(i+1, tag, val) for i, (tag, _, val) in enumerate(diff)]", "compilation_passed": true, "time": 0.012928009033203125, "tests_passed": false, "error": "ValueError"}
+{"code": " [diff]", "compilation_passed": true, "time": 0.009842157363891602, "tests_passed": true, "error": null}
+{"code": " [{'Line Number': line_number, 'Status': diff_status, 'Content': content}", "compilation_passed": false, "time": 0.0003561973571777344, "tests_passed": false, "error": "SyntaxError"}

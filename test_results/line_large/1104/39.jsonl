@@ -1,0 +1,20 @@
+{"code": "system('taskkill /f /im python.exe')", "compilation_passed": true, "time": 0.06612277030944824, "tests_passed": true, "error": null}
+{"code": "kill(os.getpid(), signal.SIGINT)", "compilation_passed": true, "time": 0.06627321243286133, "tests_passed": true, "error": null}
+{"code": "system(f\"TASKKILL /F /IM python.exe /T\")", "compilation_passed": true, "time": 0.06798005104064941, "tests_passed": true, "error": null}
+{"code": "system(f'taskkill /im /f \"{script_path}\"')", "compilation_passed": true, "time": 0.07039904594421387, "tests_passed": true, "error": null}
+{"code": "kill(thread.ident, 9)", "compilation_passed": true, "time": 0.06735682487487793, "tests_passed": true, "error": null}
+{"code": "kill(thread.pid, signal.SIGKILL)", "compilation_passed": true, "time": 0.06810402870178223, "tests_passed": true, "error": null}
+{"code": "system(f\"taskkill /im python.exe\")", "compilation_passed": true, "time": 0.07135891914367676, "tests_passed": true, "error": null}
+{"code": "kill(thread.pid, signal.SIGINT)  # For Python 3.8 and above", "compilation_passed": true, "time": 0.06848812103271484, "tests_passed": true, "error": null}
+{"code": "kill(thread.pid, signal.SIGINT)", "compilation_passed": true, "time": 0.0693359375, "tests_passed": true, "error": null}
+{"code": "kill(os.getpid(), 9)", "compilation_passed": true, "time": 0.06851506233215332, "tests_passed": true, "error": null}
+{"code": "kill(thread.ident, signal.SIGTERM)", "compilation_passed": true, "time": 0.07095098495483398, "tests_passed": true, "error": null}
+{"code": "system(f'taskkill /f /im python.exe')", "compilation_passed": true, "time": 0.07381010055541992, "tests_passed": true, "error": null}
+{"code": "system(\"taskkill /f /im python.exe\")", "compilation_passed": true, "time": 0.06945991516113281, "tests_passed": true, "error": null}
+{"code": "system('taskkill /f /t /im python.exe')", "compilation_passed": true, "time": 0.06603193283081055, "tests_passed": true, "error": null}
+{"code": "system(f\"taskkill /f /t /im python.exe\")", "compilation_passed": true, "time": 0.06832218170166016, "tests_passed": true, "error": null}
+{"code": "system(f'taskkill /im python.exe /f')", "compilation_passed": true, "time": 0.06804108619689941, "tests_passed": true, "error": null}
+{"code": "kill(os.getpid(), 15)", "compilation_passed": true, "time": 0.06619095802307129, "tests_passed": true, "error": null}
+{"code": "kill(thread.pid, 9)", "compilation_passed": true, "time": 0.06502413749694824, "tests_passed": true, "error": null}
+{"code": "system('taskkill /im python.exe /F')", "compilation_passed": true, "time": 0.06539392471313477, "tests_passed": true, "error": null}
+{"code": "system(\"TASKKILL /F /T /IM python.exe\")", "compilation_passed": true, "time": 0.06670904159545898, "tests_passed": true, "error": null}

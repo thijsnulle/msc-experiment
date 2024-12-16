@@ -1,0 +1,7 @@
+{"code": " pd.concat([df.iloc[:, :-1], pd.DataFrame(normalized_values, columns=[last_col_name])], axis=1)", "compilation_passed": true, "time": 0.39922380447387695, "tests_passed": true, "error": null}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.19369888305664062, "tests_passed": true, "error": null}
+{"code": " pd.concat([df.drop(columns=[last_col_name]), pd.DataFrame(normalized_values, columns=[last_col_name])], axis=1)", "compilation_passed": true, "time": 0.21685099601745605, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(normalized_values, columns=[last_col_name])", "compilation_passed": true, "time": 0.12463593482971191, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(normalized_values, columns=[last_col_name], index=df.index)", "compilation_passed": true, "time": 0.12574481964111328, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(normalized_values, index=df.index, columns=[last_col_name])", "compilation_passed": true, "time": 0.1443777084350586, "tests_passed": true, "error": null}
+{"code": " pd.concat([df, pd.DataFrame(normalized_values, columns=[last_col_name])], axis=1)", "compilation_passed": true, "time": 0.2772829532623291, "tests_passed": true, "error": null}

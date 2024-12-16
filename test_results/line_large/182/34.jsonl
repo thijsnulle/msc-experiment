@@ -1,0 +1,27 @@
+{"code": " [i for i in range(len(df.Title)) if re.search(pattern, df.Title[i])]", "compilation_passed": true, "time": 0.014456987380981445, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.loc[df['Title'].str.contains(pattern)]", "compilation_passed": true, "time": 0.014905214309692383, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.loc[df['Title'].str.contains(pattern, case=False)]", "compilation_passed": true, "time": 0.017133235931396484, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df[\"Title\"].apply(lambda x: bool(pattern.search(x)))]", "compilation_passed": true, "time": 0.022961854934692383, "tests_passed": true, "error": null}
+{"code": " df[df[\"Title\"].str.contains(pattern)]", "compilation_passed": true, "time": 0.02262711524963379, "tests_passed": true, "error": null}
+{"code": " df[df['Title'].str.contains(pattern)]", "compilation_passed": true, "time": 0.022418737411499023, "tests_passed": true, "error": null}
+{"code": " df[df['Title'].str.contains(pattern, case=False, na=False)].reset_index(drop=True)", "compilation_passed": true, "time": 0.013993978500366211, "tests_passed": false, "error": "ValueError"}
+{"code": " df[[pattern.search(title) is not None for title in df.Title.values]]", "compilation_passed": true, "time": 0.014500141143798828, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[df['Title'].apply(lambda x: pattern.search(x) is not None)]", "compilation_passed": true, "time": 0.022889137268066406, "tests_passed": true, "error": null}
+{"code": " df[(~df['Title'].str.lower().str.contains('how|what'))]", "compilation_passed": true, "time": 0.02771306037902832, "tests_passed": true, "error": null}
+{"code": " df[df['Title'].str.lower().str.contains(pattern)][['Title', 'Content']]", "compilation_passed": true, "time": 0.02436995506286621, "tests_passed": true, "error": null}
+{"code": " df[(df['Title'].apply(lambda x: re.search(pattern, x))) & (df['Content'] != \"\")]", "compilation_passed": true, "time": 0.0351719856262207, "tests_passed": false, "error": "TypeError"}
+{"code": " df[(df['Title'].str.lower().str.contains(pattern, na=False))]", "compilation_passed": true, "time": 0.023369789123535156, "tests_passed": true, "error": null}
+{"code": " df[df['Title'].str.contains(pattern, case=False)]", "compilation_passed": true, "time": 0.015260934829711914, "tests_passed": false, "error": "ValueError"}
+{"code": " [title for title in df['Title'] if pattern.search(title)]", "compilation_passed": true, "time": 0.013393878936767578, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[['Title']].copy()", "compilation_passed": true, "time": 0.039047956466674805, "tests_passed": false, "error": "KeyError"}
+{"code": " df[(df['Title'].str.contains(pattern, case=False))]", "compilation_passed": true, "time": 0.013937950134277344, "tests_passed": false, "error": "ValueError"}
+{"code": " df[(df['Title'].str.contains(pattern))].reset_index(drop=True)", "compilation_passed": true, "time": 0.02278280258178711, "tests_passed": true, "error": null}
+{"code": " df[(df['Title'].str.contains(pattern))]", "compilation_passed": true, "time": 0.022228002548217773, "tests_passed": true, "error": null}
+{"code": " df.loc[df['Title'].str.contains(pattern, case=False), ['Title', 'Content']]", "compilation_passed": true, "time": 0.01411890983581543, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df[\"Title\"].apply(lambda x: pattern.search(x))]", "compilation_passed": true, "time": 0.016453981399536133, "tests_passed": false, "error": "KeyError"}
+{"code": " df[[\"Title\", \"Content\"]][df['Title'].str.contains(pattern)]", "compilation_passed": true, "time": 0.023478031158447266, "tests_passed": true, "error": null}
+{"code": " df[df['Title'].str.contains(pattern, case=False)].reset_index(drop=True)", "compilation_passed": true, "time": 0.013633966445922852, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df['Title'].str.contains(pattern, na=False, regex=True)]", "compilation_passed": true, "time": 0.022400856018066406, "tests_passed": true, "error": null}
+{"code": " df[(df['Title'].str.contains(pattern, case=False)) | (df['Content'].str.contains(pattern, case=False))]", "compilation_passed": true, "time": 0.014069080352783203, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df.Title.str.contains(pattern)].index.tolist()", "compilation_passed": true, "time": 0.01411294937133789, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[['Title', 'Content']][(df['Title'].str.contains(pattern, case=False)) | (df['Content'].str.contains(pattern, case=False))]", "compilation_passed": true, "time": 0.014716863632202148, "tests_passed": false, "error": "ValueError"}

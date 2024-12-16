@@ -1,0 +1,6 @@
+{"code": " text.split()", "compilation_passed": true, "time": 0.001486063003540039, "tests_passed": true, "error": null}
+{"code": " len(re.findall(r'\\w+', text))", "compilation_passed": true, "time": 0.010942935943603516, "tests_passed": false, "error": "TypeError"}
+{"code": " len(text.split())", "compilation_passed": true, "time": 0.009368181228637695, "tests_passed": false, "error": "TypeError"}
+{"code": " re.split(' |\\n|\\t', text.replace(' ', '').replace('\\n', ''))", "compilation_passed": true, "time": 0.004771709442138672, "tests_passed": true, "error": null}
+{"code": " re.split(' |\\n', text)", "compilation_passed": true, "time": 0.004608869552612305, "tests_passed": true, "error": null}
+{"code": " len(re.findall(r'\\S+', text))", "compilation_passed": true, "time": 0.006890058517456055, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.4479701519012451, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=[f\"Feature {i+1}\" for i in range(data.shape[1])])", "compilation_passed": true, "time": 0.5580530166625977, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=np.arange(data.shape[1]))", "compilation_passed": true, "time": 0.4864976406097412, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, dtype=float)", "compilation_passed": true, "time": 0.4816141128540039, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=data)", "compilation_passed": true, "time": 0.5273008346557617, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=data)", "compilation_passed": true, "time": 0.5999767780303955, "tests_passed": true, "error": null}

@@ -1,0 +1,23 @@
+{"code": " pd.read_csv(data_url, sep='\\s+', header=2)", "compilation_passed": true, "time": 0.8575060367584229, "tests_passed": false, "error": ""}
+{"code": " pd.read_csv(data_url, skiprows=14, sep=\"\\s+\", header=None)", "compilation_passed": true, "time": 0.8522250652313232, "tests_passed": false, "error": ""}
+{"code": " pd.read_csv(\"boston.csv\")", "compilation_passed": true, "time": 0.008999109268188477, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(data_url, sep='\\n', header=None, skiprows=15)", "compilation_passed": true, "time": 0.008983850479125977, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(data_url, sep='\\n', skiprows=5, header=None, names=['raw_text'])", "compilation_passed": true, "time": 0.009599924087524414, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(data_url, header=None)", "compilation_passed": true, "time": 0.8506250381469727, "tests_passed": false, "error": ""}
+{"code": " pd.read_csv(data_url)", "compilation_passed": true, "time": 0.9399101734161377, "tests_passed": false, "error": ""}
+{"code": " pd.read_csv(\"http://lib.stat.cmu.edu/datasets/boston\",", "compilation_passed": false, "time": 0.00022101402282714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_csv(\"boston.txt\", sep=\"\\s+\", header=None)", "compilation_passed": true, "time": 0.010120868682861328, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(data_url, sep='\\n', header=None, skiprows=11)", "compilation_passed": true, "time": 0.008542299270629883, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(data_url, skiprows=1, sep=' ', header=None, names=['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'RM', 'AGE', 'DIS', 'RAD', 'TAX', 'PTRATIO', 'B', 'LSTAT', 'MEDV'])", "compilation_passed": true, "time": 0.8478012084960938, "tests_passed": false, "error": ""}
+{"code": " pd.read_csv(data_url, sep='\\n', skiprows=24, header=None)", "compilation_passed": true, "time": 0.008755207061767578, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(data_url, header=2, delimiter=r\"\\s+\")", "compilation_passed": true, "time": 0.8509860038757324, "tests_passed": false, "error": ""}
+{"code": " pd.read_csv(data_url + \".txt\", sep=\"\\s+\", skiprows=14, header=None, names=pd.read_csv(data_url + \".txt\", nrows=0).columns)", "compilation_passed": true, "time": 0.6424350738525391, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(", "compilation_passed": false, "time": 0.0002930164337158203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_csv(data_url, sep=\"\\n\", header=None, skiprows=17)", "compilation_passed": true, "time": 0.009373903274536133, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(data_url, sep='\\n', skiprows=24, header=None, names=boston.feature_names)", "compilation_passed": true, "time": 0.01314997673034668, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(\"http://lib.stat.cmu.edu/datasets/boston\")", "compilation_passed": true, "time": 0.8488731384277344, "tests_passed": false, "error": ""}
+{"code": " pd.read_csv(data_url, sep='\\s+', skiprows=22, header=None)", "compilation_passed": true, "time": 1.0082981586456299, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.data',", "compilation_passed": false, "time": 0.00037407875061035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_csv(data_url + '/boston.tab-delim', sep='\\s+')", "compilation_passed": true, "time": 0.6366569995880127, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_csv(data_url,", "compilation_passed": false, "time": 0.00024580955505371094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.read_csv(data_url, sep='\\n', header=None, skiprows=18)", "compilation_passed": true, "time": 0.008165836334228516, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,15 @@
+{"code": " pd.concat([pd.DataFrame(data=data, columns=columns), pd.DataFrame(target, columns=['TARGET'])], axis=1)", "compilation_passed": true, "time": 1.0141048431396484, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, columns=columns)", "compilation_passed": true, "time": 1.0098369121551514, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.hstack([data, target.reshape(-1, 1)]), columns=columns + ['TARGET'])", "compilation_passed": true, "time": 1.0098741054534912, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data=data, columns=columns)", "compilation_passed": true, "time": 1.0095899105072021, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.concat([pd.DataFrame(data, columns=columns), pd.DataFrame(target, columns=['TARGET'])], axis=1)", "compilation_passed": true, "time": 1.0091378688812256, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.hstack((data, target[:, None])), columns=columns + ['TARGET'])", "compilation_passed": true, "time": 1.0085182189941406, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data=np.concatenate((data, target.reshape(-1, 1)), axis=1), columns=columns+[\"TARGET\"])", "compilation_passed": true, "time": 1.0252101421356201, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.append(data, target).reshape(data.shape[0], -1), columns=columns)", "compilation_passed": true, "time": 0.8301100730895996, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.column_stack([data, target]), columns=columns + ['TARGET'])", "compilation_passed": true, "time": 1.0128188133239746, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.concatenate((data, target[:, None]), axis=1), columns=columns + [\"TARGET\"])", "compilation_passed": true, "time": 1.0098578929901123, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.hstack([data, target[:, np.newaxis]]), columns=columns + ['TARGET'])", "compilation_passed": true, "time": 1.0107100009918213, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data=np.c_[data, target], columns=columns + ['TARGET'])", "compilation_passed": true, "time": 1.0089621543884277, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.append(data, target[:, np.newaxis], axis=1), columns=columns + ['target'])", "compilation_passed": true, "time": 1.0100066661834717, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data=np.concatenate([data, target.reshape(-1, 1)], axis=1), columns=columns + [\"TARGET\"])", "compilation_passed": true, "time": 1.0160892009735107, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.hstack((data, target.reshape(-1, 1))), columns=columns + ['TARGET'])", "compilation_passed": true, "time": 1.0118749141693115, "tests_passed": false, "error": "ValueError"}

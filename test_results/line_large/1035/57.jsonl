@@ -1,0 +1,21 @@
+{"code": "set_xticks(np.arange(0, len(np.unique(target)), 1))", "compilation_passed": true, "time": 0.17341279983520508, "tests_passed": true, "error": null}
+{"code": "set_yticks(np.arange(len(set(y_test))))", "compilation_passed": true, "time": 0.18568181991577148, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(len(np.unique(df[\"Target\"]))), minor=True)", "compilation_passed": true, "time": 0.19028997421264648, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(2))", "compilation_passed": true, "time": 0.17536115646362305, "tests_passed": true, "error": null}
+{"code": "set_xticks(range(len(set(y_pred))), minor=True)", "compilation_passed": true, "time": 0.19079089164733887, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(len(np.unique(target))), np.unique(target))", "compilation_passed": true, "time": 0.1759788990020752, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(len(np.unique(y_test))), labels=np.unique(y_test))", "compilation_passed": true, "time": 0.17618989944458008, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(len(np.unique(y_test))), minor=True)", "compilation_passed": true, "time": 0.1902761459350586, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(0, 2), minor=True)", "compilation_passed": true, "time": 0.1894693374633789, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(len(np.unique(target))), labels=np.unique(target))", "compilation_passed": true, "time": 0.17522311210632324, "tests_passed": true, "error": null}
+{"code": "xaxis.set_ticks(np.arange(len(np.unique(y_test))))", "compilation_passed": true, "time": 0.17624878883361816, "tests_passed": true, "error": null}
+{"code": "set_xticks(range(len(set(df[\"Target\"]))), ticks=list(set(df[\"Target\"])))", "compilation_passed": true, "time": 0.056157827377319336, "tests_passed": false, "error": "TypeError"}
+{"code": "set_xticks(range(len(np.unique(y_test))))", "compilation_passed": true, "time": 0.17452621459960938, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(len(np.unique(target))))", "compilation_passed": true, "time": 0.1756281852722168, "tests_passed": true, "error": null}
+{"code": "xaxis.set_ticks(np.arange(len(np.unique(df[\"Target\"]))))", "compilation_passed": true, "time": 0.1760540008544922, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(len(target.unique())), labels=target.unique())", "compilation_passed": true, "time": 0.178084135055542, "tests_passed": true, "error": null}
+{"code": "set_xticks([i for i in range(len(np.unique(df[\"Target\"])))])", "compilation_passed": true, "time": 0.17474675178527832, "tests_passed": true, "error": null}
+{"code": "xaxis.set_ticks(range(2))", "compilation_passed": true, "time": 0.17676281929016113, "tests_passed": true, "error": null}
+{"code": "xaxis.set(ticks=np.arange(2), ticklabels=[0, 1])", "compilation_passed": true, "time": 0.1750960350036621, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(len(np.unique(df[\"Target\"]))))", "compilation_passed": true, "time": 0.1755361557006836, "tests_passed": true, "error": null}
+{"code": "set_yticks(np.arange(len(np.unique(y_test))))", "compilation_passed": true, "time": 0.18808388710021973, "tests_passed": true, "error": null}

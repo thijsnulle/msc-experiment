@@ -1,0 +1,8 @@
+{"code": " {}", "compilation_passed": true, "time": 0.010043144226074219, "tests_passed": false, "error": "KeyError"}
+{"code": " defaultdict(lambda: defaultdict(lambda: 0))", "compilation_passed": true, "time": 0.009828805923461914, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(dict)", "compilation_passed": true, "time": 0.013147830963134766, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(lambda: defaultdict(float))", "compilation_passed": true, "time": 0.00894618034362793, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(lambda: defaultdict(list))", "compilation_passed": true, "time": 0.008777379989624023, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(lambda: {'mean': None, 'std': None})", "compilation_passed": true, "time": 0.009000778198242188, "tests_passed": false, "error": "AttributeError"}
+{"code": " {key: {'mean': np.mean([d[key] for d in data]), 'std': np.std([d[key] for d in data])} for key in set(key for d in data for key in d.keys())}", "compilation_passed": true, "time": 0.01769399642944336, "tests_passed": false, "error": "AttributeError"}
+{"code": " defaultdict(lambda: {'mean': 0, 'std': 0})", "compilation_passed": true, "time": 0.016868114471435547, "tests_passed": false, "error": "AttributeError"}

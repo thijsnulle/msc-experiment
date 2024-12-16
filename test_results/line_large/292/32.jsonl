@@ -1,0 +1,14 @@
+{"code": " group: group.assign(", "compilation_passed": true, "time": 0.08271384239196777, "tests_passed": false, "error": "NameError"}
+{"code": " x: pd.Series({", "compilation_passed": false, "time": 0.00017786026000976562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " g: pd.Series({", "compilation_passed": false, "time": 0.00017905235290527344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " x: x.assign(", "compilation_passed": true, "time": 0.08144879341125488, "tests_passed": false, "error": "TypeError"}
+{"code": " x: pd.DataFrame(", "compilation_passed": true, "time": 0.19440007209777832, "tests_passed": true, "error": null}
+{"code": " x: x.assign(age=(x['age'] - x['age'].min()) / (x['age'].max() - x['age'].min()),income=(x['income'] - x['income'].min()) / (x['income'].max() - x['income'].min()))", "compilation_passed": false, "time": 0.00022602081298828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " x: pd.DataFrame(data={", "compilation_passed": false, "time": 0.0002281665802001953, "tests_passed": false, "error": "SyntaxError"}
+{"code": " g: pd.DataFrame(columns=g.columns).assign(", "compilation_passed": true, "time": 0.08425188064575195, "tests_passed": false, "error": "NameError"}
+{"code": " x: pd.DataFrame({", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " x: pd.DataFrame({'id': x['id'], 'age': x['age'], 'income': x['income']}).pipe(", "compilation_passed": true, "time": 0.11053919792175293, "tests_passed": false, "error": "KeyError"}
+{"code": " x: pd.DataFrame(dict(", "compilation_passed": false, "time": 0.00015878677368164062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " group: pd.Series(scaler.fit_transform(group[['age', 'income']].values.reshape(-1, 1)).reshape(-1, 2), index=group.index, columns=['age', 'income']))", "compilation_passed": false, "time": 0.0002760887145996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " x: pd.DataFrame({'age':scaler.fit_transform(x[['age']]).flatten(),", "compilation_passed": false, "time": 0.00024127960205078125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " x: pd.DataFrame({'age': scaler.fit_transform(np.array(x.age).reshape(-1,1)).tolist(),", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "SyntaxError"}

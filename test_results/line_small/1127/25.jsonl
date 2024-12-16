@@ -1,0 +1,9 @@
+{"code": " []", "compilation_passed": true, "time": 0.007096052169799805, "tests_passed": true, "error": null}
+{"code": " path.split(delimiter)", "compilation_passed": true, "time": 0.007676839828491211, "tests_passed": true, "error": null}
+{"code": " re.split(delimiter, path)", "compilation_passed": true, "time": 0.0062868595123291016, "tests_passed": true, "error": null}
+{"code": " re.split(rf\"({delimiter})\", path)", "compilation_passed": true, "time": 0.007592916488647461, "tests_passed": true, "error": null}
+{"code": " os.path.split(path)", "compilation_passed": true, "time": 0.005891084671020508, "tests_passed": true, "error": null}
+{"code": " re.split(f\"[{delimiter}]\", path)", "compilation_passed": true, "time": 0.006643056869506836, "tests_passed": true, "error": null}
+{"code": " re.split(r'\\\\', path)", "compilation_passed": true, "time": 0.0065670013427734375, "tests_passed": true, "error": null}
+{"code": " re.split(f\"{delimiter}|(?<!\\\\G)/|\\\\/|(?<!\\\\\\\\G)/\", path)", "compilation_passed": true, "time": 0.014965057373046875, "tests_passed": false, "error": "re.error"}
+{"code": " re.split(f'[{delimiter}]', path)", "compilation_passed": true, "time": 0.006249904632568359, "tests_passed": true, "error": null}

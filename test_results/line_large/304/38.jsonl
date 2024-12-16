@@ -1,0 +1,14 @@
+{"code": " pd.json_normalize(df['Value'].explode(column='Value')).rename(columns={0: 'Value1', 1: 'Value2', 2: 'Value3'})", "compilation_passed": true, "time": 0.04827713966369629, "tests_passed": false, "error": "TypeError"}
+{"code": " df.explode('Value').reset_index(drop=True)", "compilation_passed": true, "time": 0.4546029567718506, "tests_passed": true, "error": null}
+{"code": " df.dropna()", "compilation_passed": true, "time": 0.01946091651916504, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(df.apply(lambda x: pd.Series(x['Value']) if x.name == 'Value' else x))", "compilation_passed": true, "time": 0.025133132934570312, "tests_passed": false, "error": "KeyError"}
+{"code": " df.set_index('Date')", "compilation_passed": true, "time": 0.018159151077270508, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.json_normalize(df['Value'])", "compilation_passed": true, "time": 0.01564788818359375, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.concat([df['Date'], df['Value'].apply(pd.Series)], axis=1)", "compilation_passed": true, "time": 0.4357888698577881, "tests_passed": true, "error": null}
+{"code": " df.dropna(subset=['Value'])", "compilation_passed": true, "time": 0.021452903747558594, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop_duplicates(subset='Date')", "compilation_passed": true, "time": 0.0207521915435791, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.concat([df['Date'], pd.DataFrame(df['Value'].tolist())], axis=1)", "compilation_passed": true, "time": 0.4664418697357178, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([val for sublist in df['Value'] for val in sublist], columns=['Value'])", "compilation_passed": true, "time": 0.017951011657714844, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame([{f\"{col}_{idx}\": val for idx, val in enumerate(row[1])} for row in df.itertuples()])", "compilation_passed": true, "time": 0.036370038986206055, "tests_passed": false, "error": "TypeError"}
+{"code": " df.explode('Value')", "compilation_passed": true, "time": 0.47467899322509766, "tests_passed": true, "error": null}
+{"code": " df.explode('Value').rename(columns={'Value': 'Data'})", "compilation_passed": true, "time": 0.4640970230102539, "tests_passed": true, "error": null}

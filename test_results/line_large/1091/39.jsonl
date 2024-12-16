@@ -1,0 +1,4 @@
+{"code": "append(ast.literal_eval(line))", "compilation_passed": true, "time": 0.04413008689880371, "tests_passed": true, "error": null}
+{"code": "append(ast.literal_eval(line.rstrip()))", "compilation_passed": true, "time": 0.03759503364562988, "tests_passed": true, "error": null}
+{"code": "append(ast.literal_eval(line.strip()))", "compilation_passed": true, "time": 0.04001569747924805, "tests_passed": true, "error": null}
+{"code": "append(eval(line))", "compilation_passed": true, "time": 0.05566716194152832, "tests_passed": false, "error": "NameError"}

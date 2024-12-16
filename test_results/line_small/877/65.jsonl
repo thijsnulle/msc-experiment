@@ -1,0 +1,10 @@
+{"code": " data.empty:", "compilation_passed": true, "time": 0.0381619930267334, "tests_passed": true, "error": null}
+{"code": " not data.empty:", "compilation_passed": true, "time": 0.013392210006713867, "tests_passed": false, "error": "ValueError"}
+{"code": " data.isna().values.any():", "compilation_passed": true, "time": 0.03736305236816406, "tests_passed": true, "error": null}
+{"code": " data.isnull().any().any():", "compilation_passed": true, "time": 0.04202985763549805, "tests_passed": true, "error": null}
+{"code": " not data.dropna().empty:", "compilation_passed": true, "time": 0.015311717987060547, "tests_passed": false, "error": "ValueError"}
+{"code": " len(data) == 0:", "compilation_passed": true, "time": 0.047241926193237305, "tests_passed": true, "error": null}
+{"code": " not all(data.dtypes.apply(lambda x: x.isnumeric())):", "compilation_passed": true, "time": 0.03898286819458008, "tests_passed": false, "error": "AttributeError"}
+{"code": " len(data.columns) == 0:", "compilation_passed": true, "time": 0.04577016830444336, "tests_passed": true, "error": null}
+{"code": " not data.columns.isnull().all():", "compilation_passed": true, "time": 0.01522207260131836, "tests_passed": false, "error": "ValueError"}
+{"code": " len(data.columns) < 2:", "compilation_passed": true, "time": 0.048480987548828125, "tests_passed": true, "error": null}

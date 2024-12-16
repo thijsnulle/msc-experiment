@@ -1,0 +1,14 @@
+{"code": " glob.glob(os.path.join(directory, \"*.json\"))", "compilation_passed": true, "time": 0.008520841598510742, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(directory, '*.json'))", "compilation_passed": true, "time": 0.008405923843383789, "tests_passed": true, "error": null}
+{"code": " glob.glob('**/*.json', recursive=True)", "compilation_passed": true, "time": 0.02817082405090332, "tests_passed": false, "error": "json.decoder.JSONDecodeError"}
+{"code": " glob.glob(f'{directory}/**/*.json', recursive=True)", "compilation_passed": true, "time": 0.008365869522094727, "tests_passed": true, "error": null}
+{"code": " glob.glob(directory + '/**/*.json', recursive=True)", "compilation_passed": true, "time": 0.009073019027709961, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(directory, '**/*.json'))", "compilation_passed": true, "time": 0.0066111087799072266, "tests_passed": true, "error": null}
+{"code": " glob.glob('./' + directory + '/*')", "compilation_passed": true, "time": 0.007217884063720703, "tests_passed": true, "error": null}
+{"code": " glob.glob(f'{directory}/*.json')", "compilation_passed": true, "time": 0.009259939193725586, "tests_passed": true, "error": null}
+{"code": " glob.glob('./' + directory + '/*.json')", "compilation_passed": true, "time": 0.007353067398071289, "tests_passed": true, "error": null}
+{"code": " glob.glob('%s/**/*.json' % os.path.abspath(directory))", "compilation_passed": true, "time": 0.007158041000366211, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(directory, '**', '*.json'))", "compilation_passed": true, "time": 0.012286901473999023, "tests_passed": true, "error": null}
+{"code": " glob.glob(directory + \"/*.json\")", "compilation_passed": true, "time": 0.010384321212768555, "tests_passed": true, "error": null}
+{"code": " glob.glob(f\"{directory}/*.json\")", "compilation_passed": true, "time": 0.00933074951171875, "tests_passed": true, "error": null}
+{"code": " glob.glob(directory + '/**/*.json')", "compilation_passed": true, "time": 0.007534980773925781, "tests_passed": true, "error": null}

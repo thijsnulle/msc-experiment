@@ -1,0 +1,28 @@
+{"code": " np.random.random((num_labels, num_labels))", "compilation_passed": true, "time": 0.016585826873779297, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(*data_range, (num_labels,))", "compilation_passed": true, "time": 0.019421815872192383, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(*data_range, size=num_labels) + 0.9", "compilation_passed": true, "time": 0.01724100112915039, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.random.randint(*data_range, num_labels), columns=columns).cumsum()", "compilation_passed": true, "time": 0.011383056640625, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.randint(*data_range, (2, num_labels))", "compilation_passed": true, "time": 0.011930227279663086, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.random.randint(data_range[0], data_range[1], size=(1, num_labels)) for _ in range(num_labels)]", "compilation_passed": true, "time": 0.010268211364746094, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.uniform(*data_range, num_labels)", "compilation_passed": true, "time": 0.013518810272216797, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(data=np.random.uniform(low=data_range[0], high=data_range[1], size=(num_labels, num_labels)))", "compilation_passed": true, "time": 0.008896112442016602, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(low=data_range[0], high=data_range[1], size=(1, num_labels))[0]", "compilation_passed": true, "time": 0.016303062438964844, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.random.uniform(low=data_range[0], high=data_range[1]) for _ in range(num_labels)]", "compilation_passed": true, "time": 0.017129182815551758, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(*data_range, size=(10, num_labels))", "compilation_passed": true, "time": 0.022700071334838867, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.random.randint(low=data_range[0], high=data_range[1], size=(1, num_labels)), columns=columns)", "compilation_passed": true, "time": 0.010124921798706055, "tests_passed": true, "error": null}
+{"code": " np.random.random(num_labels) * (data_range[1] - data_range[0]) + data_range[0]", "compilation_passed": true, "time": 0.014885902404785156, "tests_passed": false, "error": "AttributeError"}
+{"code": " dict(zip(columns, [np.random.randint(data_range[0], data_range[1], 5) for i in range(num_labels)]))", "compilation_passed": true, "time": 0.010659217834472656, "tests_passed": false, "error": "AttributeError"}
+{"code": " {column: np.random.uniform(*data_range, 20) for column in columns}", "compilation_passed": true, "time": 0.01822829246520996, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(*data_range, size=num_labels)", "compilation_passed": true, "time": 0.016800880432128906, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(*data_range, size=(num_labels, 3))", "compilation_passed": true, "time": 0.01752495765686035, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.011533260345458984, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.random.randint(data_range[0], data_range[1]) for _ in range(num_labels)]", "compilation_passed": true, "time": 0.012327909469604492, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.rand(*[num_labels] * 3) * (data_range[1] - data_range[0]) + data_range[0]", "compilation_passed": true, "time": 0.010355949401855469, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.random.randint(data_range[0], data_range[1], size=(50)) for i in range(num_labels)]", "compilation_passed": true, "time": 0.0111846923828125, "tests_passed": false, "error": "AttributeError"}
+{"code": " {", "compilation_passed": false, "time": 0.0001900196075439453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({col: np.random.uniform(*data_range, 10) for col in columns})", "compilation_passed": true, "time": 0.0065119266510009766, "tests_passed": true, "error": null}
+{"code": " np.random.rand(*(num_labels, 100)) * np.diff(data_range) + data_range[0]", "compilation_passed": true, "time": 0.011424064636230469, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.uniform(data_range[0], data_range[1], size=(10, num_labels))", "compilation_passed": true, "time": 0.018026113510131836, "tests_passed": false, "error": "AttributeError"}
+{"code": " dict((columns[i], np.random.randint(data_range[0], data_range[1], num_labels))", "compilation_passed": false, "time": 0.00021600723266601562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.uniform(low=data_range[0], high=data_range[1], size=(20, num_labels))", "compilation_passed": true, "time": 0.010268926620483398, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.uniform(data_range[0], data_range[1], (num_labels, 3))", "compilation_passed": true, "time": 0.010620832443237305, "tests_passed": false, "error": "AttributeError"}

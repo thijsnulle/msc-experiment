@@ -1,0 +1,13 @@
+{"code": " {", "compilation_passed": false, "time": 0.00030517578125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'mode': np.array(mode), 'count': np.array(count), 'fft': scipy.fft.fft(repeated_data)}", "compilation_passed": true, "time": 0.005563020706176758, "tests_passed": true, "error": null}
+{"code": " {'mode': np.array(mode), 'count': np.array(count), 'fft': scipy.fft.fft(repeated_data, norm=None)}", "compilation_passed": true, "time": 0.005457162857055664, "tests_passed": true, "error": null}
+{"code": " {'mode': np.array(mode, dtype='object'), 'count': np.array(count, dtype=int), 'fft': scipy.fft.fft(repeated_data, axis=0)}", "compilation_passed": true, "time": 0.005589008331298828, "tests_passed": true, "error": null}
+{"code": " {'mode': np.array(mode, dtype='object'), 'count': np.array(count, dtype=int), 'fft': scipy.fft.fftshift(scipy.fft.fftn(repeated_data))}", "compilation_passed": true, "time": 0.005520820617675781, "tests_passed": true, "error": null}
+{"code": " {'mode': np.array(mode, dtype='object'), 'count': np.array(count, dtype=int), 'fft': scipy.fft.fft(data)}", "compilation_passed": true, "time": 0.002414226531982422, "tests_passed": true, "error": null}
+{"code": " {'mode': mode, 'count': count, 'fft': scipy.fft.fftshift(scipy.fft.fft(repeated_data))}", "compilation_passed": true, "time": 0.005760908126831055, "tests_passed": true, "error": null}
+{"code": " {'mode': mode, 'count': count, 'fft': scipy.stats.mode(np.array(repeated_data, dtype='object'), mode='fft')}", "compilation_passed": true, "time": 0.007060050964355469, "tests_passed": false, "error": "TypeError"}
+{"code": " {'mode': np.array(mode, dtype='object'), 'count': np.array(count, dtype=int), 'fft': scipy.fft.fft(repeated_data)}", "compilation_passed": true, "time": 0.005280017852783203, "tests_passed": true, "error": null}
+{"code": "_dict = {\"mode\": mode, \"count\": count, \"fft\": scipy.fft.fft(repeated_data)}", "compilation_passed": true, "time": 0.004560947418212891, "tests_passed": false, "error": "TypeError"}
+{"code": " {'mode': np.array(mode), 'count': np.array(count), 'fft': np.array(scipy.fft.fft(repeated_data))}", "compilation_passed": true, "time": 0.0050928592681884766, "tests_passed": true, "error": null}
+{"code": " {'mode': np.array(mode, dtype=object), 'count': np.array(count, dtype=int), 'fft': scipy.fft.fft(repeated_data)}", "compilation_passed": true, "time": 0.005098104476928711, "tests_passed": true, "error": null}
+{"code": " {'mode': np.array(mode, dtype='object'), 'count': np.array(count, dtype=int),", "compilation_passed": false, "time": 0.0004048347473144531, "tests_passed": false, "error": "SyntaxError"}

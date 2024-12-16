@@ -1,0 +1,5 @@
+{"code": " n_components == 1:", "compilation_passed": true, "time": 0.07667708396911621, "tests_passed": true, "error": null}
+{"code": " len(transformed_data.shape) > 1:", "compilation_passed": true, "time": 0.019685745239257812, "tests_passed": true, "error": null}
+{"code": " transformed_data.shape[1] == 1:", "compilation_passed": true, "time": 0.07441401481628418, "tests_passed": true, "error": null}
+{"code": " len(transformed_data.shape) == 1:", "compilation_passed": true, "time": 0.03594398498535156, "tests_passed": false, "error": "IndexError"}
+{"code": " len(transformed_data.shape) == 1 or transformed_data.shape[1] == 1:", "compilation_passed": true, "time": 0.07233023643493652, "tests_passed": true, "error": null}

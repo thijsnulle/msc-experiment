@@ -1,0 +1,4 @@
+{"code": " p_val < alpha", "compilation_passed": true, "time": 0.2884690761566162, "tests_passed": true, "error": null}
+{"code": " (p_val < alpha) and (len(valid_group1) >= 2) and (len(valid_group2) >= 2)", "compilation_passed": true, "time": 0.23438811302185059, "tests_passed": true, "error": null}
+{"code": " (p_val < alpha) and not (np.isnan(p_val))", "compilation_passed": true, "time": 0.19986510276794434, "tests_passed": true, "error": null}
+{"code": " (p_val < alpha) & (not np.isnan(p_val))  # Check if p-value is not NaN", "compilation_passed": true, "time": 0.27645230293273926, "tests_passed": true, "error": null}

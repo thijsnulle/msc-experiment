@@ -1,0 +1,15 @@
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.045185089111328125, "tests_passed": true, "error": null}
+{"code": " df.plot.hist(bins=5)", "compilation_passed": true, "time": 0.0994722843170166, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"hist\", title=\"Distribution of Means\")", "compilation_passed": true, "time": 0.5632109642028809, "tests_passed": true, "error": null}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.03774118423461914, "tests_passed": true, "error": null}
+{"code": " df[\"Mean\"].hist(bins=10)", "compilation_passed": true, "time": 0.04494118690490723, "tests_passed": true, "error": null}
+{"code": " df.Mean.plot(kind=\"hist\", title=\"Distribution of Means\")", "compilation_passed": true, "time": 0.27189207077026367, "tests_passed": true, "error": null}
+{"code": " df[\"Mean\"].plot(kind='hist', title='Distribution of Means')", "compilation_passed": true, "time": 0.27555418014526367, "tests_passed": true, "error": null}
+{"code": " df.mean(axis=1).plot()", "compilation_passed": true, "time": 0.049249887466430664, "tests_passed": true, "error": null}
+{"code": " plt.axes()", "compilation_passed": true, "time": 0.03602719306945801, "tests_passed": true, "error": null}
+{"code": " df.plot.hist(bins=15, color=\"darkgreen\", edgecolor=\"black\", rot=0)", "compilation_passed": true, "time": 0.1490769386291504, "tests_passed": true, "error": null}
+{"code": " df.boxplot()", "compilation_passed": true, "time": 0.07088685035705566, "tests_passed": true, "error": null}
+{"code": " df.plot.hist(column=\"Mean\", bins=10, range=(-2, 2))", "compilation_passed": true, "time": 0.08629894256591797, "tests_passed": true, "error": null}
+{"code": " df.plot.hist(x=\"Mean\")", "compilation_passed": true, "time": 0.12090086936950684, "tests_passed": true, "error": null}
+{"code": " df[\"Mean\"].plot.hist(bins=10, color='green', title='Distribution of Means')", "compilation_passed": true, "time": 0.2827939987182617, "tests_passed": true, "error": null}
+{"code": " df.hist(\"Mean\", bins=10, range=(-2, 2), rwidth=0.8)", "compilation_passed": true, "time": 0.06757688522338867, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,15 @@
+{"code": " ZIP_DIR / filename.replace(\".zip\", \"\")", "compilation_passed": true, "time": 1.010789155960083, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.rsplit(\".\", 1)[0]", "compilation_passed": true, "time": 1.0170202255249023, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename[:-4]", "compilation_passed": true, "time": 1.0181329250335693, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.split(\".\")[0]", "compilation_passed": true, "time": 1.0162339210510254, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / Path(filename).stem", "compilation_passed": true, "time": 1.017591953277588, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename", "compilation_passed": true, "time": 1.0146701335906982, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.rsplit(\".zip\")[0]", "compilation_passed": true, "time": 1.0172019004821777, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / Path(filename).parent", "compilation_passed": true, "time": 1.0156018733978271, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.removesuffix('.zip')", "compilation_passed": true, "time": 1.0189740657806396, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.rsplit('.', 1)[0]", "compilation_passed": true, "time": 1.0150799751281738, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.replace('.zip', '')", "compilation_passed": true, "time": 1.022273063659668, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename[:-4]  # Get the parent directory name", "compilation_passed": true, "time": 1.0143959522247314, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename[:-len(\".zip\")]", "compilation_passed": true, "time": 1.0153579711914062, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.split('.')[0]", "compilation_passed": true, "time": 1.015376091003418, "tests_passed": false, "error": "IndexError"}
+{"code": " ZIP_DIR / filename.removesuffix(\".zip\")", "compilation_passed": true, "time": 1.0167937278747559, "tests_passed": false, "error": "IndexError"}

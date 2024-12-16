@@ -1,0 +1,9 @@
+{"code": " open(f'{directory}/{file_name}', 'r') as f:", "compilation_passed": true, "time": 0.06509637832641602, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(os.path.join(directory, file_name), 'r') as file:", "compilation_passed": true, "time": 0.23120689392089844, "tests_passed": true, "error": null}
+{"code": " open(directory + os.sep + file_name, 'r') as f:", "compilation_passed": true, "time": 0.04755997657775879, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(os.path.join(directory, file_name), 'r') as f:", "compilation_passed": true, "time": 0.04994821548461914, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(os.path.join(directory, file_name), 'r', encoding='utf-8') as f:", "compilation_passed": true, "time": 0.04667401313781738, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(directory + file_name, 'r', encoding='utf-8') as f:", "compilation_passed": true, "time": 0.046148061752319336, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(directory + file_name, 'r') as f:", "compilation_passed": true, "time": 0.04864215850830078, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(os.path.join(directory, file_name)) as f:", "compilation_passed": true, "time": 0.046590328216552734, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(f\"{directory}{file_name}\", 'r') as file:", "compilation_passed": true, "time": 0.1654038429260254, "tests_passed": false, "error": "FileNotFoundError"}

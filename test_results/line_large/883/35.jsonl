@@ -1,0 +1,4 @@
+{"code": " df[(df[column_b] > 50) & (df[column_c] == 900)]", "compilation_passed": true, "time": 0.00967097282409668, "tests_passed": true, "error": null}
+{"code": " df.loc[(df[column_b] > 50) & (df[column_c] == 900)]", "compilation_passed": true, "time": 0.009737014770507812, "tests_passed": true, "error": null}
+{"code": " df.loc[(df[column_b] > 50) & (df[column_c] == 900), [column_a]]", "compilation_passed": true, "time": 0.01244974136352539, "tests_passed": true, "error": null}
+{"code": " df.loc[(df[column_b] > 50) & (df[column_c] == 900)][column_a]", "compilation_passed": true, "time": 0.01811504364013672, "tests_passed": false, "error": "KeyError"}

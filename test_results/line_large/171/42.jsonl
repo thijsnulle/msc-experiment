@@ -1,0 +1,14 @@
+{"code": " pd.DataFrame.from_dict(vegetable_counter, orient='index', columns=['Count'])", "compilation_passed": true, "time": 0.007627010345458984, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Count': vegetable_counter.values(),", "compilation_passed": false, "time": 0.0002219676971435547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(vegetable_counter.items(), columns=['Vegetable', 'Count'])", "compilation_passed": true, "time": 0.00675511360168457, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(vegetable_counter.most_common(), columns=['Count', 'Percentage'])", "compilation_passed": true, "time": 0.009994983673095703, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(vegetable_counter.most_common(), columns=[\"Vegetable\", \"Count\"])", "compilation_passed": true, "time": 0.007012844085693359, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(vegetable_counter, orient='index')", "compilation_passed": true, "time": 0.009721040725708008, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(vegetable_counter.items(), columns=['vegetable', 'Count'])", "compilation_passed": true, "time": 0.006646871566772461, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00019693374633789062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(list(vegetable_counter.items()), columns=['Vegetable', 'Count'])", "compilation_passed": true, "time": 0.006606101989746094, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=['Count', 'Percentage'])", "compilation_passed": true, "time": 0.00700688362121582, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Count': vegetable_counter.values()})", "compilation_passed": true, "time": 0.007153987884521484, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(vegetable_counter, index=VEGETABLES)", "compilation_passed": true, "time": 0.026865243911743164, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(vegetable_counter, index=['Count']).T", "compilation_passed": true, "time": 0.007086277008056641, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(vegetable_counter.most_common(), columns=['vegetable_name', 'count'])", "compilation_passed": true, "time": 0.025903940200805664, "tests_passed": false, "error": "KeyError"}

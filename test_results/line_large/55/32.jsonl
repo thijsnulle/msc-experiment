@@ -1,0 +1,5 @@
+{"code": " {}", "compilation_passed": true, "time": 0.0035479068756103516, "tests_passed": true, "error": null}
+{"code": " [len([word for word in sentence.split(\" \") if word not in STOPWORDS and word != \"\"]) for sentence in sentences]", "compilation_passed": true, "time": 0.007901191711425781, "tests_passed": false, "error": "TypeError"}
+{"code": " {f\"Sentence {i+1}\": len([word for word in sentence.split() if word not in STOPWORDS]) for i, sentence in enumerate(sentences) if sentence != \"\"}", "compilation_passed": true, "time": 0.004909038543701172, "tests_passed": true, "error": null}
+{"code": " {f\"Sentence {i + 1}\": sum(word not in STOPWORDS for word in sentence.split()) for i, sentence in enumerate(sentences) if sentence.strip()}", "compilation_passed": true, "time": 0.003256082534790039, "tests_passed": true, "error": null}
+{"code": " {f\"Sentence {i+1}\": len(sentence.split()) - len(set(sentence.split()) & set(STOPWORDS)) for i, sentence in enumerate(sentences) if sentence}", "compilation_passed": true, "time": 0.003492116928100586, "tests_passed": true, "error": null}

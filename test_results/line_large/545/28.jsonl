@@ -1,0 +1,10 @@
+{"code": " float_num.hex().encode('utf-8')", "compilation_passed": true, "time": 0.0013890266418457031, "tests_passed": true, "error": null}
+{"code": " codecs.encode(str(float_num), 'utf-8')", "compilation_passed": true, "time": 0.001127004623413086, "tests_passed": true, "error": null}
+{"code": " str(float_num).encode('utf-8')", "compilation_passed": true, "time": 0.0011610984802246094, "tests_passed": true, "error": null}
+{"code": " codecs.encode(str(float_num), encoding='utf-8')", "compilation_passed": true, "time": 0.0011479854583740234, "tests_passed": true, "error": null}
+{"code": " codecs.encode(str(float_num).encode(), 'utf-8')", "compilation_passed": true, "time": 0.007025957107543945, "tests_passed": false, "error": "TypeError"}
+{"code": " struct.pack('f', float_num).decode('utf-8')", "compilation_passed": true, "time": 0.008346080780029297, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " struct.pack('>f', float_num)", "compilation_passed": true, "time": 0.0015151500701904297, "tests_passed": true, "error": null}
+{"code": " codecs.encode(str(float_num).encode('utf-8'), 'utf-8')", "compilation_passed": true, "time": 0.0063898563385009766, "tests_passed": false, "error": "TypeError"}
+{"code": " float_num.__str__().encode('utf-8')", "compilation_passed": true, "time": 0.001154184341430664, "tests_passed": true, "error": null}
+{"code": " struct.pack('>f', float_num).decode('utf-8')", "compilation_passed": true, "time": 0.009077787399291992, "tests_passed": false, "error": "UnicodeDecodeError"}

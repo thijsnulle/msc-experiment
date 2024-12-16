@@ -1,0 +1,11 @@
+{"code": " text.lower()", "compilation_passed": true, "time": 0.0018050670623779297, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+|_', ' ', text)", "compilation_passed": true, "time": 0.00948023796081543, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', text).lower()", "compilation_passed": true, "time": 0.0024530887603759766, "tests_passed": true, "error": null}
+{"code": " text.lower().translate(str.maketrans('', '', string.punctuation))", "compilation_passed": true, "time": 0.0026581287384033203, "tests_passed": true, "error": null}
+{"code": " ''.join(char for char in text.lower() if char.isalnum() or char == ' ')", "compilation_passed": true, "time": 0.0022542476654052734, "tests_passed": true, "error": null}
+{"code": " ''.join(char for char in text.lower() if char.isalnum() or char.isspace())", "compilation_passed": true, "time": 0.0024330615997314453, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]+', '', text)", "compilation_passed": true, "time": 0.0047228336334228516, "tests_passed": true, "error": null}
+{"code": " ''.join(char for char in text.lower() if char not in string.punctuation)", "compilation_passed": true, "time": 0.002101898193359375, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', text).translate(str.maketrans('', '', string.punctuation))", "compilation_passed": true, "time": 0.005068063735961914, "tests_passed": true, "error": null}
+{"code": " text.lower().translate(str.maketrans('', '', string.punctuation)).translate(str.maketrans({key: None for key in string.punctuation + string.digits}))", "compilation_passed": true, "time": 0.0049479007720947266, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', text.lower())", "compilation_passed": true, "time": 0.002183198928833008, "tests_passed": true, "error": null}

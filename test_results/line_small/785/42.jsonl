@@ -1,0 +1,18 @@
+{"code": "call(['tar', '-czf', archive_file, ' '.join(file_list)])", "compilation_passed": true, "time": 0.22328495979309082, "tests_passed": true, "error": null}
+{"code": "run(['tar', 'czf', archive_file, *file_list], check=True)", "compilation_passed": true, "time": 0.22100281715393066, "tests_passed": true, "error": null}
+{"code": "check_call(f\"tar -czf {archive_file} {' '.join(file_list)}\", shell=True)", "compilation_passed": true, "time": 0.2581367492675781, "tests_passed": true, "error": null}
+{"code": "run(['tar', 'czf', archive_file] + file_list,", "compilation_passed": false, "time": 0.0007228851318359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "call(['tar', '-czf', archive_file, *file_list])", "compilation_passed": true, "time": 0.32596492767333984, "tests_passed": true, "error": null}
+{"code": "check_call(['tar', 'czf', archive_file, *file_list])", "compilation_passed": true, "time": 0.21618103981018066, "tests_passed": true, "error": null}
+{"code": "run(['tar', 'czf', archive_file, *file_list])", "compilation_passed": true, "time": 0.21904206275939941, "tests_passed": true, "error": null}
+{"code": "run(['tar', '-czf', archive_file, *file_list])", "compilation_passed": true, "time": 0.21683788299560547, "tests_passed": true, "error": null}
+{"code": "run(['tar', 'cvzf', archive_file, *file_list], check=True)", "compilation_passed": true, "time": 0.22583866119384766, "tests_passed": true, "error": null}
+{"code": "run(['tar', 'czf', archive_file, '--transform',", "compilation_passed": false, "time": 0.00041103363037109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "run(['tar', 'cvzf', archive_file] + file_list)", "compilation_passed": true, "time": 0.2284839153289795, "tests_passed": true, "error": null}
+{"code": "call(['tar', 'czf', archive_file, *file_list])", "compilation_passed": true, "time": 0.2191929817199707, "tests_passed": true, "error": null}
+{"code": "run(['tar', 'cf', archive_file, *file_list])", "compilation_passed": true, "time": 0.2199077606201172, "tests_passed": true, "error": null}
+{"code": "call(['tar', 'czf', archive_file] + file_list)", "compilation_passed": true, "time": 0.2200789451599121, "tests_passed": true, "error": null}
+{"code": "run(['tar', 'czf', archive_file, '--absolute-names'] + file_list)", "compilation_passed": true, "time": 0.07893204689025879, "tests_passed": true, "error": null}
+{"code": "check_call(['tar', 'czf', archive_file] + file_list)", "compilation_passed": true, "time": 0.2184598445892334, "tests_passed": true, "error": null}
+{"code": "run(['tar', 'czf', archive_file, *file_list], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.21733999252319336, "tests_passed": true, "error": null}
+{"code": "run(['tar', 'czf', archive_file] + file_list, check=True)", "compilation_passed": true, "time": 0.21749114990234375, "tests_passed": true, "error": null}

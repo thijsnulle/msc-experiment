@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.014833927154541016, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=COLUMNS)", "compilation_passed": true, "time": 0.21123600006103516, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=COLUMNS).sort_values(by=COLUMNS[-1], ascending=True)", "compilation_passed": true, "time": 0.20864629745483398, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=COLUMNS).sort_values(COLUMNS[-1], ascending=False)", "compilation_passed": true, "time": 0.21917128562927246, "tests_passed": true, "error": null}

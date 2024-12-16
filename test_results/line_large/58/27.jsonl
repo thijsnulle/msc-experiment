@@ -1,0 +1,14 @@
+{"code": "set_title(\"Normal Distribution\")", "compilation_passed": true, "time": 0.04426383972167969, "tests_passed": true, "error": null}
+{"code": "hist(samples, bins=100, density=True, edgecolor='black')", "compilation_passed": true, "time": 0.5104629993438721, "tests_passed": true, "error": null}
+{"code": "set_title('Normal Distribution')", "compilation_passed": true, "time": 0.0439600944519043, "tests_passed": true, "error": null}
+{"code": "hist(samples, bins=50, edgecolor='black')", "compilation_passed": true, "time": 0.34943604469299316, "tests_passed": true, "error": null}
+{"code": "hist(samples, bins='auto', alpha=0.5, label='Random Samples')", "compilation_passed": true, "time": 0.23621726036071777, "tests_passed": true, "error": null}
+{"code": "hist(samples, bins=50)", "compilation_passed": true, "time": 0.35543179512023926, "tests_passed": true, "error": null}
+{"code": "hist(samples, bins=20, density=True)", "compilation_passed": true, "time": 0.25756382942199707, "tests_passed": true, "error": null}
+{"code": "hist(samples, bins=30)", "compilation_passed": true, "time": 0.3034331798553467, "tests_passed": true, "error": null}
+{"code": "hist(samples, bins=20, alpha=0.5, density=True)", "compilation_passed": true, "time": 0.2568039894104004, "tests_passed": true, "error": null}
+{"code": "plot(np.linspace(mu - 3 * sigma, mu + 3 * sigma, 100), stats.norm.pdf(np.linspace(mu - 3 * sigma, mu + 3 * sigma, 100), mu, sigma), linewidth=3, label=\"normal distribution\")", "compilation_passed": true, "time": 0.04909086227416992, "tests_passed": true, "error": null}
+{"code": "hist(samples, bins=100, density=True, alpha=0.5)", "compilation_passed": true, "time": 0.5243949890136719, "tests_passed": true, "error": null}
+{"code": "plot(np.linspace(mu - 3 * sigma, mu + 3 * sigma, 100), stats.norm.pdf(np.linspace(mu - 3 * sigma, mu + 3 * sigma, 100), mu, sigma), color='red')", "compilation_passed": true, "time": 0.05950522422790527, "tests_passed": true, "error": null}
+{"code": "hist(samples, bins='auto', density=True)", "compilation_passed": true, "time": 0.26355886459350586, "tests_passed": true, "error": null}
+{"code": "hist(samples, bins=100, density=True)", "compilation_passed": true, "time": 0.5243690013885498, "tests_passed": true, "error": null}

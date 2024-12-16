@@ -1,0 +1,11 @@
+{"code": "public_key, private_key) = rsa.newkeys(1024)", "compilation_passed": true, "time": 0.6890010833740234, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(1024)", "compilation_passed": true, "time": 1.0132689476013184, "tests_passed": false, "error": "TimeoutError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(512)", "compilation_passed": true, "time": 0.2608821392059326, "tests_passed": true, "error": null}
+{"code": "pub_key, priv_key) = rsa.newkeys(2048)", "compilation_passed": true, "time": 1.0065181255340576, "tests_passed": false, "error": "TimeoutError"}
+{"code": "", "compilation_passed": false, "time": 0.00011706352233886719, "tests_passed": false, "error": "SyntaxError"}
+{"code": "pubkey, privkey) = rsa.newkeys(512)", "compilation_passed": true, "time": 0.07767796516418457, "tests_passed": false, "error": "NameError"}
+{"code": "public_key, private_key) = rsa.newkeys(2048)", "compilation_passed": true, "time": 1.006415843963623, "tests_passed": false, "error": "TimeoutError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(1024)  # Generate an RSA key pair with 1024 bit size.", "compilation_passed": true, "time": 1.00577712059021, "tests_passed": false, "error": "TimeoutError"}
+{"code": "pubkey, privkey) = rsa.newkeys(1024)", "compilation_passed": true, "time": 0.1671149730682373, "tests_passed": false, "error": "NameError"}
+{"code": "pub_key, priv_key) = rsa.newkeys(1024)  # generate RSA public and private keys", "compilation_passed": true, "time": 1.0068771839141846, "tests_passed": false, "error": "TimeoutError"}
+{"code": "public_key, private_key) = rsa.newkeys(512)  # Generate RSA keys", "compilation_passed": true, "time": 0.05400705337524414, "tests_passed": false, "error": "NameError"}

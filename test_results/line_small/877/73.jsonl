@@ -1,0 +1,12 @@
+{"code": " pd.DataFrame(data_reduced, columns=['PC'+str(i) for i in range(1, n_components+1)])", "compilation_passed": true, "time": 0.058537960052490234, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_reduced, columns=data.columns)", "compilation_passed": true, "time": 0.014251947402954102, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data_reduced, columns=data.columns, index=data.index)", "compilation_passed": true, "time": 0.01594090461730957, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data_reduced)", "compilation_passed": true, "time": 0.055779218673706055, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_reduced, columns=[f\"PC{i+1}\" for i in range(n_components)])", "compilation_passed": true, "time": 0.05630326271057129, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_reduced, index=data.index, columns=[f\"{i:.4f}\" for i in pca.explained_variance_ratio_])", "compilation_passed": true, "time": 0.05574393272399902, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_reduced, columns=list(range(n_components)))", "compilation_passed": true, "time": 0.05738377571105957, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_reduced, index=data.index, columns=['principal_component_' + str(i) for i in range(n_components)])", "compilation_passed": true, "time": 0.05325913429260254, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_reduced, columns=[f\"pca_{i+1}\" for i in range(n_components)])", "compilation_passed": true, "time": 0.07410311698913574, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_reduced, columns=[f\"pc{i}\" for i in range(1, n_components + 1)])", "compilation_passed": true, "time": 0.07357597351074219, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_reduced, columns=[col.replace(\"_\", \" \").title().strip(\" \") for col in data.columns])", "compilation_passed": true, "time": 0.020380020141601562, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data_reduced, index=data.index, columns=['0', '1'])", "compilation_passed": true, "time": 0.0532841682434082, "tests_passed": false, "error": "ValueError"}

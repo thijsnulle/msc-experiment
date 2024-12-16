@@ -1,0 +1,9 @@
+{"code": " zscore(data_matrix)", "compilation_passed": true, "time": 0.15975594520568848, "tests_passed": true, "error": null}
+{"code": " zscore(data_matrix, axis=1)", "compilation_passed": true, "time": 1.0128190517425537, "tests_passed": false, "error": "TimeoutError"}
+{"code": " zscore(data_matrix)  # calculate Z-values", "compilation_passed": true, "time": 0.5311486721038818, "tests_passed": true, "error": null}
+{"code": " zscore(data_matrix)  # Calculate Z-scores", "compilation_passed": true, "time": 0.8162600994110107, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(zscore(data_matrix))", "compilation_passed": true, "time": 0.8286888599395752, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(zscore(data_matrix), columns=[f'Feature {i+1}' for i in range(data_matrix.shape[1])])", "compilation_passed": true, "time": 0.8953032493591309, "tests_passed": true, "error": null}
+{"code": " np.apply_along_axis(zscore, axis=1, arr=data_matrix)", "compilation_passed": true, "time": 1.012812852859497, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.apply_along_axis(zscore, 1, data_matrix)", "compilation_passed": true, "time": 1.0129368305206299, "tests_passed": false, "error": "TimeoutError"}
+{"code": " zscore(data_matrix)  # Calculate Z-scores of data matrix", "compilation_passed": true, "time": 1.0153331756591797, "tests_passed": false, "error": "TimeoutError"}

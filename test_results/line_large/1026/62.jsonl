@@ -1,0 +1,10 @@
+{"code": " np.var(group1, ddof=1) < 1e-8 or np.var(group2, ddof=1) < 1e-8:", "compilation_passed": true, "time": 0.34677720069885254, "tests_passed": true, "error": null}
+{"code": " (", "compilation_passed": false, "time": 0.0006761550903320312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.var(valid_group1) < 1e-8 or np.var(valid_group2) < 1e-8:", "compilation_passed": true, "time": 0.27305102348327637, "tests_passed": true, "error": null}
+{"code": " np.var(valid_group1, ddof=1) < 1e-8 or np.var(valid_group2, ddof=1) < 1e-8:", "compilation_passed": true, "time": 0.2844531536102295, "tests_passed": true, "error": null}
+{"code": " np.nanvar(group1) < 1e-8 or np.nanvar(group2) < 1e-8:", "compilation_passed": true, "time": 0.19519305229187012, "tests_passed": true, "error": null}
+{"code": " np.nanvar(group1, ddof=0) < 1e-8 or np.nanvar(group2, ddof=0) < 1e-8:", "compilation_passed": true, "time": 0.19771862030029297, "tests_passed": true, "error": null}
+{"code": " np.var(group1) < 1e-8 or np.var(group2) < 1e-8:", "compilation_passed": true, "time": 0.23575115203857422, "tests_passed": true, "error": null}
+{"code": " np.std(valid_group1) < 1e-8 or np.std(valid_group2) < 1e-8:", "compilation_passed": true, "time": 0.22524595260620117, "tests_passed": true, "error": null}
+{"code": " np.nanstd(group1) < 1e-8 or np.nanstd(group2) < 1e-8:", "compilation_passed": true, "time": 0.2269890308380127, "tests_passed": true, "error": null}
+{"code": " np.nanstd(group1, ddof=1) < 1e-8 or np.nanstd(group2, ddof=1) < 1e-8:", "compilation_passed": true, "time": 0.21943426132202148, "tests_passed": true, "error": null}

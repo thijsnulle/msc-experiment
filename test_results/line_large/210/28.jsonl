@@ -1,0 +1,5 @@
+{"code": " max(letter_counts.items(), key=itemgetter(1))[0]", "compilation_passed": true, "time": 0.09753823280334473, "tests_passed": true, "error": null}
+{"code": " letter_counts.most_common(1)[0][0]", "compilation_passed": true, "time": 0.09751415252685547, "tests_passed": true, "error": null}
+{"code": " max(letter_counts, key=lambda x: letter_counts[x])", "compilation_passed": true, "time": 0.09770798683166504, "tests_passed": true, "error": null}
+{"code": " max(letter_counts, key=letter_counts.get)", "compilation_passed": true, "time": 0.09795594215393066, "tests_passed": true, "error": null}
+{"code": " max(letter_counts, key=itemgetter(0))", "compilation_passed": true, "time": 0.09791398048400879, "tests_passed": true, "error": null}

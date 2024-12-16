@@ -1,0 +1,4 @@
+{"code": "parent.mkdir(parents=True, exist_ok=True)", "compilation_passed": true, "time": 1.0223870277404785, "tests_passed": false, "error": "IndexError"}
+{"code": "parent.mkdir(exist_ok=True, parents=True)", "compilation_passed": true, "time": 1.0225129127502441, "tests_passed": false, "error": "IndexError"}
+{"code": "parent.mkdir(exist_ok=True)", "compilation_passed": true, "time": 1.0213351249694824, "tests_passed": false, "error": "IndexError"}
+{"code": "parent.mkdir(exist_ok=True)  # Make sure the directory exists", "compilation_passed": true, "time": 1.0289018154144287, "tests_passed": false, "error": "IndexError"}

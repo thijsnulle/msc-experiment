@@ -1,0 +1,17 @@
+{"code": " np.all(segmented_image == kmeans.cluster_centers_[i], axis=-1)", "compilation_passed": true, "time": 0.02566385269165039, "tests_passed": true, "error": null}
+{"code": " np.ones_like(pixels)", "compilation_passed": true, "time": 0.03925490379333496, "tests_passed": false, "error": "ValueError"}
+{"code": " np.where(kmeans.labels_ == i, segmented_image, 0)", "compilation_passed": true, "time": 0.03947329521179199, "tests_passed": false, "error": "ValueError"}
+{"code": " (kmeans.labels_ == i).reshape(img.shape[:2])", "compilation_passed": true, "time": 0.026765823364257812, "tests_passed": true, "error": null}
+{"code": " np.array(kmeans.labels_ == i).reshape(img.shape[:2])", "compilation_passed": true, "time": 0.025406837463378906, "tests_passed": true, "error": null}
+{"code": " np.all(img == kmeans.cluster_centers_[i], axis=-1)", "compilation_passed": true, "time": 0.0265350341796875, "tests_passed": true, "error": null}
+{"code": " np.zeros(img.shape[:2], dtype='uint8')", "compilation_passed": true, "time": 0.0258939266204834, "tests_passed": true, "error": null}
+{"code": " np.all(pixels == kmeans.cluster_centers_[i], axis=1)", "compilation_passed": true, "time": 0.03882312774658203, "tests_passed": false, "error": "ValueError"}
+{"code": " np.where(kmeans.labels_ == i, 1, 0)", "compilation_passed": true, "time": 0.04138803482055664, "tests_passed": false, "error": "ValueError"}
+{"code": " np.ones_like(img, dtype=np.uint8) * kmeans.cluster_centers_[i]", "compilation_passed": true, "time": 0.039544105529785156, "tests_passed": false, "error": "ValueError"}
+{"code": " np.all(img == kmeans.cluster_centers_[i], axis=-1, keepdims=True)", "compilation_passed": true, "time": 0.026790142059326172, "tests_passed": true, "error": null}
+{"code": " np.array(kmeans.labels_ == i, dtype='uint8') * 255", "compilation_passed": true, "time": 0.04074907302856445, "tests_passed": false, "error": "ValueError"}
+{"code": " np.all(segmented_image == kmeans.cluster_centers_[i], axis=2)", "compilation_passed": true, "time": 0.02672600746154785, "tests_passed": true, "error": null}
+{"code": " np.all(segmented_image == kmeans.cluster_centers_[i], axis=-1, keepdims=True)", "compilation_passed": true, "time": 0.02688288688659668, "tests_passed": true, "error": null}
+{"code": " np.where(kmeans.labels_ == i, 1, 0).reshape(img.shape[:2])", "compilation_passed": true, "time": 0.026346921920776367, "tests_passed": true, "error": null}
+{"code": " np.array(kmeans.labels_, dtype='bool')", "compilation_passed": true, "time": 0.03979992866516113, "tests_passed": false, "error": "ValueError"}
+{"code": " np.zeros(img.shape[:2], dtype=np.uint8)", "compilation_passed": true, "time": 0.027189970016479492, "tests_passed": true, "error": null}

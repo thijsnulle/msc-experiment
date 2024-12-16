@@ -1,0 +1,9 @@
+{"code": " []", "compilation_passed": false, "time": 0.000308990478515625, "tests_passed": false, "error": "IndentationError"}
+{"code": " [r.text_content().strip() for r in rows[1:]]", "compilation_passed": false, "time": 0.00030112266540527344, "tests_passed": false, "error": "IndentationError"}
+{"code": " [row.attrib.get(\"id\") for row in rows]", "compilation_passed": false, "time": 0.0003657341003417969, "tests_passed": false, "error": "IndentationError"}
+{"code": " [row.attrib for row in rows]", "compilation_passed": false, "time": 0.00028705596923828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " [row.xpath(\"td/text()\") for row in rows if len(row.xpath(\"td/text()\")) >= 3]", "compilation_passed": false, "time": 0.00037598609924316406, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[col.text_content() for col in row.xpath(\"./td\")] for row in rows]", "compilation_passed": false, "time": 0.0002989768981933594, "tests_passed": false, "error": "IndentationError"}
+{"code": " [row.text_content().strip() for row in rows]", "compilation_passed": false, "time": 0.0002918243408203125, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[cell.text for cell in row.xpath(\".//td|.//th\")] for row in rows]", "compilation_passed": false, "time": 0.00029206275939941406, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame([list(map(lambda x: x.text_content(), row.xpath(\"td\"))) for row in rows])", "compilation_passed": false, "time": 0.00038313865661621094, "tests_passed": false, "error": "IndentationError"}

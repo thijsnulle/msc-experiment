@@ -1,0 +1,5 @@
+{"code": " np.array(df)", "compilation_passed": true, "time": 0.005006074905395508, "tests_passed": true, "error": null}
+{"code": " df.to_numpy()", "compilation_passed": true, "time": 0.005570173263549805, "tests_passed": true, "error": null}
+{"code": " np.asarray(df)", "compilation_passed": true, "time": 0.005934000015258789, "tests_passed": true, "error": null}
+{"code": " np.array(df.loc[:, df.columns[np.all(df.dtypes == \"int64\", axis=1)]])", "compilation_passed": true, "time": 0.026926040649414062, "tests_passed": false, "error": "ValueError"}
+{"code": " df.select_dtypes(include=['number']).values", "compilation_passed": true, "time": 0.005864858627319336, "tests_passed": true, "error": null}

@@ -1,0 +1,22 @@
+{"code": " df[\"age\"].apply(int)", "compilation_passed": true, "time": 0.29614877700805664, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].round().astype(int)  # Round ages down and convert to integers", "compilation_passed": true, "time": 0.2978360652923584, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].round(decimals=-1)", "compilation_passed": true, "time": 0.07759404182434082, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].astype(float).apply(np.floor).astype(int)", "compilation_passed": true, "time": 0.34966015815734863, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(lambda x: np.floor(x) if not np.isnan(x) else np.nan)", "compilation_passed": true, "time": 0.3242189884185791, "tests_passed": true, "error": null}
+{"code": " np.floor(df[\"age\"]).astype(int)", "compilation_passed": true, "time": 0.32132673263549805, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].round().astype(int)", "compilation_passed": true, "time": 0.3167388439178467, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(np.floor)", "compilation_passed": true, "time": 0.3485429286956787, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(np.floor).astype(int)  # Convert float ages to integers", "compilation_passed": true, "time": 0.3555619716644287, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].astype(float).apply(np.floor)", "compilation_passed": true, "time": 0.32213568687438965, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].round().astype(int)  # Ensure age is rounded to nearest integer and cast to int", "compilation_passed": true, "time": 0.33789896965026855, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].round(0).astype(int)", "compilation_passed": true, "time": 0.33650994300842285, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].round()", "compilation_passed": true, "time": 0.3308889865875244, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].astype(float).apply(lambda x: int(np.floor(x)))", "compilation_passed": true, "time": 0.32712817192077637, "tests_passed": true, "error": null}
+{"code": " np.floor(df[\"age\"])", "compilation_passed": true, "time": 0.33527088165283203, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].astype(np.int64)", "compilation_passed": true, "time": 0.3367190361022949, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].astype(int)", "compilation_passed": true, "time": 0.35358095169067383, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].astype(int)  # If age is provided as floats, round down", "compilation_passed": true, "time": 0.3522298336029053, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].astype(int)  # Convert age to integers", "compilation_passed": true, "time": 0.37375593185424805, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(int)  # Ensure age is an integer", "compilation_passed": true, "time": 0.32450079917907715, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(lambda x: int(x))", "compilation_passed": true, "time": 0.3665199279785156, "tests_passed": true, "error": null}
+{"code": " df[\"age\"].apply(lambda x: np.floor(x))", "compilation_passed": true, "time": 0.3517019748687744, "tests_passed": true, "error": null}

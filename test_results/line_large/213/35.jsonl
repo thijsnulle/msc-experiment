@@ -1,0 +1,5 @@
+{"code": "append(time.time())", "compilation_passed": true, "time": 0.06547307968139648, "tests_passed": true, "error": null}
+{"code": "append(datetime.now())", "compilation_passed": true, "time": 0.008394956588745117, "tests_passed": false, "error": "NameError"}
+{"code": "append(time.perf_counter())", "compilation_passed": true, "time": 0.06569910049438477, "tests_passed": true, "error": null}
+{"code": "append(time.time() - times[0] if times else 0)", "compilation_passed": true, "time": 0.06696820259094238, "tests_passed": true, "error": null}
+{"code": "append(time.time()-start_time)", "compilation_passed": true, "time": 0.009060144424438477, "tests_passed": false, "error": "NameError"}

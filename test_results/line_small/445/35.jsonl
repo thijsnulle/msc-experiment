@@ -1,0 +1,17 @@
+{"code": " len(points.shape) != 2 or points.shape[1] != 2:", "compilation_passed": true, "time": 0.07414889335632324, "tests_passed": true, "error": null}
+{"code": " points.ndim != 2 or points.shape[1] != 2:", "compilation_passed": true, "time": 0.07414698600769043, "tests_passed": true, "error": null}
+{"code": " len(points.shape) != 2:", "compilation_passed": true, "time": 0.07501387596130371, "tests_passed": true, "error": null}
+{"code": " not points.shape[1] == 2:", "compilation_passed": true, "time": 0.07251811027526855, "tests_passed": true, "error": null}
+{"code": " not (len(points.shape) == 2 and points.shape[1] == 2):", "compilation_passed": true, "time": 0.07691001892089844, "tests_passed": true, "error": null}
+{"code": " not points.shape[0] >= 2:", "compilation_passed": true, "time": 0.07270383834838867, "tests_passed": true, "error": null}
+{"code": " not points.shape[0] < points.shape[1]:", "compilation_passed": true, "time": 0.007814884185791016, "tests_passed": false, "error": "ValueError"}
+{"code": " points.shape[0] < 2:", "compilation_passed": true, "time": 0.07096719741821289, "tests_passed": true, "error": null}
+{"code": " points.dtype != np.float64 or points.shape[1] != 2:", "compilation_passed": true, "time": 0.008070945739746094, "tests_passed": false, "error": "ValueError"}
+{"code": " points.shape != (4, 2):", "compilation_passed": true, "time": 0.06661128997802734, "tests_passed": false, "error": "ValueError"}
+{"code": " not len(points.shape) == 2 or points.shape[1] != 2:", "compilation_passed": true, "time": 0.07161402702331543, "tests_passed": true, "error": null}
+{"code": " points.shape[1] != 2:", "compilation_passed": true, "time": 0.07135486602783203, "tests_passed": true, "error": null}
+{"code": " not np.array(points).shape == (len(points), 2):", "compilation_passed": true, "time": 0.0716712474822998, "tests_passed": true, "error": null}
+{"code": " points.ndim != 2:", "compilation_passed": true, "time": 0.07464313507080078, "tests_passed": true, "error": null}
+{"code": " points.shape != (len(points), 2):", "compilation_passed": true, "time": 0.07289600372314453, "tests_passed": true, "error": null}
+{"code": " not isinstance(seed, int):", "compilation_passed": true, "time": 0.07495808601379395, "tests_passed": true, "error": null}
+{"code": " not np.issubdtype(points.dtype, np.floating):", "compilation_passed": true, "time": 0.007838249206542969, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,13 @@
+{"code": " set(corr_matrix.columns)", "compilation_passed": true, "time": 0.0072057247161865234, "tests_passed": true, "error": null}
+{"code": " set(df.columns)", "compilation_passed": true, "time": 0.00833892822265625, "tests_passed": true, "error": null}
+{"code": " [c for c in corr_matrix.columns if c != c]", "compilation_passed": true, "time": 0.007586002349853516, "tests_passed": true, "error": null}
+{"code": " corr_matrix.columns.tolist()", "compilation_passed": true, "time": 0.003773927688598633, "tests_passed": true, "error": null}
+{"code": " [cols[i] for i in range(len(cols))]", "compilation_passed": true, "time": 0.004022836685180664, "tests_passed": true, "error": null}
+{"code": " list(corr_matrix.columns)", "compilation_passed": true, "time": 0.00393223762512207, "tests_passed": true, "error": null}
+{"code": " tuple(corr_matrix.columns)", "compilation_passed": true, "time": 0.0038220882415771484, "tests_passed": true, "error": null}
+{"code": " corr_matrix.columns.to_list()", "compilation_passed": true, "time": 0.0032961368560791016, "tests_passed": true, "error": null}
+{"code": " df.columns.tolist()", "compilation_passed": true, "time": 0.003258943557739258, "tests_passed": true, "error": null}
+{"code": " corr_matrix.columns", "compilation_passed": true, "time": 0.0039141178131103516, "tests_passed": true, "error": null}
+{"code": " [i for i in corr_matrix.columns if len(i) > 1]", "compilation_passed": true, "time": 0.007561922073364258, "tests_passed": true, "error": null}
+{"code": " set(cols)", "compilation_passed": true, "time": 0.008177995681762695, "tests_passed": true, "error": null}
+{"code": " cols", "compilation_passed": true, "time": 0.003512144088745117, "tests_passed": true, "error": null}

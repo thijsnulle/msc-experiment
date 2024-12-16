@@ -1,0 +1,11 @@
+{"code": "plot(fft.real)", "compilation_passed": true, "time": 0.25077295303344727, "tests_passed": true, "error": null}
+{"code": "set_title('FFT of the signal', fontsize=16)", "compilation_passed": true, "time": 0.25780701637268066, "tests_passed": true, "error": null}
+{"code": "plot(fft.T)", "compilation_passed": true, "time": 1.026747226715088, "tests_passed": false, "error": "TimeoutError"}
+{"code": "plot(fft.T, alpha=0.5, lw=2)", "compilation_passed": true, "time": 1.0273842811584473, "tests_passed": false, "error": "TimeoutError"}
+{"code": "plot(np.abs(fft))", "compilation_passed": true, "time": 0.2788999080657959, "tests_passed": true, "error": null}
+{"code": "plot(fft)", "compilation_passed": true, "time": 0.291367769241333, "tests_passed": true, "error": null}
+{"code": "set_title('FFT of the signal', fontsize=14)", "compilation_passed": true, "time": 0.24166202545166016, "tests_passed": true, "error": null}
+{"code": "plot(np.abs(fft), linewidth=3)", "compilation_passed": true, "time": 0.2417459487915039, "tests_passed": true, "error": null}
+{"code": "plot(time, fft)", "compilation_passed": true, "time": 0.2461872100830078, "tests_passed": true, "error": null}
+{"code": "plot(np.arange(len(fft)), np.abs(fft))", "compilation_passed": true, "time": 0.2553732395172119, "tests_passed": true, "error": null}
+{"code": "plot(np.abs(fft[:sample_rate // 2]))", "compilation_passed": true, "time": 0.23130011558532715, "tests_passed": true, "error": null}

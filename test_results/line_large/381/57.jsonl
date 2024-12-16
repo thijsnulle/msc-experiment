@@ -1,0 +1,7 @@
+{"code": "barplot(x=X.columns, y=importances, ax=ax)", "compilation_passed": true, "time": 0.33425188064575195, "tests_passed": true, "error": null}
+{"code": "barplot(x=importances, y=X.columns)", "compilation_passed": true, "time": 0.33535218238830566, "tests_passed": true, "error": null}
+{"code": "barplot(x=importances, y=X.columns.values)", "compilation_passed": true, "time": 0.3352489471435547, "tests_passed": true, "error": null}
+{"code": "barplot(x=importances, y=X.columns, ax=ax)", "compilation_passed": true, "time": 0.33634090423583984, "tests_passed": true, "error": null}
+{"code": "barplot(x=X.columns, y=importances)", "compilation_passed": true, "time": 0.33617281913757324, "tests_passed": true, "error": null}
+{"code": "barplot(x=importances, y=X.columns.values,ax=ax)", "compilation_passed": true, "time": 0.335784912109375, "tests_passed": true, "error": null}
+{"code": "barplot(importances, X.columns)", "compilation_passed": true, "time": 0.1437840461730957, "tests_passed": false, "error": "TypeError"}

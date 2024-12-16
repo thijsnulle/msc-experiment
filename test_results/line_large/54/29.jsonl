@@ -1,0 +1,24 @@
+{"code": " re.split(r\"\\.\\s*\", text)", "compilation_passed": true, "time": 0.0065021514892578125, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\.\\s\", text)", "compilation_passed": true, "time": 0.005366086959838867, "tests_passed": true, "error": null}
+{"code": " re.split(r'[.]\\W', text, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.007549762725830078, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\.\\s+\", text)  # split sentences by period plus any whitespace", "compilation_passed": true, "time": 0.0062100887298583984, "tests_passed": true, "error": null}
+{"code": " re.split(r'[^\\s]+\\.\\s', text)", "compilation_passed": true, "time": 0.008728742599487305, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\.\", text)", "compilation_passed": true, "time": 0.005820035934448242, "tests_passed": true, "error": null}
+{"code": " re.split(r'(\\.\\s*)', text)", "compilation_passed": true, "time": 0.00680088996887207, "tests_passed": true, "error": null}
+{"code": " re.split('\\.\\s*', text)", "compilation_passed": true, "time": 0.005181074142456055, "tests_passed": true, "error": null}
+{"code": " [sentence for sentence in re.split('\\.\\s*', text) if sentence]", "compilation_passed": true, "time": 0.0053560733795166016, "tests_passed": true, "error": null}
+{"code": " re.split(r'\\.\\s*', text)", "compilation_passed": true, "time": 0.0055811405181884766, "tests_passed": true, "error": null}
+{"code": " re.split('\\.', text)", "compilation_passed": true, "time": 0.0054247379302978516, "tests_passed": true, "error": null}
+{"code": " re.split(r'([.!?]+)', text)  # Split the text into sentences while preserving the delimiters", "compilation_passed": true, "time": 0.006014108657836914, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\.\\s*\", text.strip().lower())", "compilation_passed": true, "time": 0.00522613525390625, "tests_passed": true, "error": null}
+{"code": " re.split('\\. ', text)", "compilation_passed": true, "time": 0.006219625473022461, "tests_passed": true, "error": null}
+{"code": " [s.strip() for s in re.split(r'\\.\\s+', text) if s.strip()]", "compilation_passed": true, "time": 0.005430698394775391, "tests_passed": true, "error": null}
+{"code": " text.split('.')", "compilation_passed": true, "time": 0.004893779754638672, "tests_passed": true, "error": null}
+{"code": " re.split(r'\\.\\s+', text.lower().strip())", "compilation_passed": true, "time": 0.00495600700378418, "tests_passed": true, "error": null}
+{"code": " text.split(\".\")", "compilation_passed": true, "time": 0.005573272705078125, "tests_passed": true, "error": null}
+{"code": " re.split('\\.\\s', text)", "compilation_passed": true, "time": 0.004670143127441406, "tests_passed": true, "error": null}
+{"code": " [sentence for sentence in re.split(r'\\.\\s*', text) if sentence]", "compilation_passed": true, "time": 0.008443117141723633, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\.\\s*\", text.lower())  # split text into sentences", "compilation_passed": true, "time": 0.005106925964355469, "tests_passed": true, "error": null}
+{"code": " [sent.strip() for sent in text.strip().split('.') if sent.strip()]", "compilation_passed": true, "time": 0.005312204360961914, "tests_passed": true, "error": null}
+{"code": " re.split('(?<=[.!?])\\s+', text)", "compilation_passed": true, "time": 0.006714820861816406, "tests_passed": true, "error": null}
+{"code": " [s for s in text.split(\".\") if len(s.strip()) > 0]", "compilation_passed": true, "time": 0.005636930465698242, "tests_passed": true, "error": null}

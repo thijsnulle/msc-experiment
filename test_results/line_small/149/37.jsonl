@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame(data_dict)", "compilation_passed": true, "time": 0.006031036376953125, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_dict).set_index('Index')", "compilation_passed": true, "time": 0.00866389274597168, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data_dict).reindex_range(count_df.index)", "compilation_passed": true, "time": 0.009386062622070312, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(data_dict, dtype='object')", "compilation_passed": true, "time": 0.006053924560546875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_dict, index=None)", "compilation_passed": true, "time": 0.005909919738769531, "tests_passed": true, "error": null}

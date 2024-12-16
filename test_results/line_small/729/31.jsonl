@@ -1,0 +1,27 @@
+{"code": " f\"{random.randint(1, 10000)}.pkl\"", "compilation_passed": true, "time": 0.07199978828430176, "tests_passed": true, "error": null}
+{"code": " f'task_{''.join(random.choice(string.ascii_letters + string.digits) for _ in range(16))}.pkl'", "compilation_passed": false, "time": 9.679794311523438e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"{os.path.dirname(os.path.abspath(__file__))}/task_func_{''.join(random.choice(string.ascii_letters + string.digits) for _ in range(16))}.pkl\"", "compilation_passed": true, "time": 0.013909101486206055, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.join(", "compilation_passed": false, "time": 0.0001571178436279297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " 'random_strings_' + ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(10)) + '.pkl'", "compilation_passed": true, "time": 0.07740902900695801, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(10))", "compilation_passed": true, "time": 0.07653212547302246, "tests_passed": true, "error": null}
+{"code": " \"task_\" + \"\".join(random.choice(string.ascii_letters + string.digits) for _ in range(10)) + \".pickle\"", "compilation_passed": true, "time": 0.0759270191192627, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.getcwd(), f'task_{random.randint(1, 1000000)}.pkl')", "compilation_passed": true, "time": 0.07612800598144531, "tests_passed": true, "error": null}
+{"code": " \"%s.pkl\" % ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(16))", "compilation_passed": true, "time": 0.07884716987609863, "tests_passed": true, "error": null}
+{"code": " f\"file_{random.randint(1, 1000000)}.pickle\"", "compilation_passed": true, "time": 0.07579207420349121, "tests_passed": true, "error": null}
+{"code": " '{}.pickle'.format(''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(10)))", "compilation_passed": true, "time": 0.07578110694885254, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(10))", "compilation_passed": true, "time": 0.07474374771118164, "tests_passed": true, "error": null}
+{"code": " f\"strings_{'_'.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(16))}.pkl\"", "compilation_passed": true, "time": 0.07392382621765137, "tests_passed": true, "error": null}
+{"code": " f\"tmp.pickle.{random.random()}\"", "compilation_passed": true, "time": 0.07585716247558594, "tests_passed": true, "error": null}
+{"code": " './test_file_{:03d}.pickle'.format(random.randint(1, 999))", "compilation_passed": true, "time": 0.07604384422302246, "tests_passed": true, "error": null}
+{"code": " f\"{os.path.dirname(__file__)}/task_{''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(10))}.pkl\"", "compilation_passed": true, "time": 0.010114192962646484, "tests_passed": false, "error": "NameError"}
+{"code": " f'task_{'.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(16))}.pkl'", "compilation_passed": false, "time": 0.00011086463928222656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " os.urandom(24).hex() + '.pkl'", "compilation_passed": true, "time": 0.08342409133911133, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(16)) + '.pickle'", "compilation_passed": true, "time": 0.07752275466918945, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.getcwd(), f\"{''.join(random.choice(string.ascii_letters + string.digits) for _ in range(10))}.pickle\")", "compilation_passed": true, "time": 0.08134126663208008, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choice(string.ascii_letters + string.digits) for _ in range(15)) + \".pkl\"", "compilation_passed": true, "time": 0.08004188537597656, "tests_passed": true, "error": null}
+{"code": " f'{random.randint(0, 1000)}.pickle'", "compilation_passed": true, "time": 0.0752110481262207, "tests_passed": true, "error": null}
+{"code": " 'strings_{}.pkl'.format(''.join(random.choice(string.ascii_letters + string.digits) for _ in range(16)))", "compilation_passed": true, "time": 0.0747690200805664, "tests_passed": true, "error": null}
+{"code": " \"tmp\" + ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(16)) + '.pickle'", "compilation_passed": true, "time": 0.07363581657409668, "tests_passed": true, "error": null}
+{"code": " f'strings{str(random.randint(1, 10000000))}.pickle'", "compilation_passed": true, "time": 0.07375526428222656, "tests_passed": true, "error": null}
+{"code": " 'random_strings.pkl'", "compilation_passed": true, "time": 0.06980109214782715, "tests_passed": true, "error": null}
+{"code": " 'task_' + ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(10)) + '.pkl'", "compilation_passed": true, "time": 0.06933093070983887, "tests_passed": true, "error": null}

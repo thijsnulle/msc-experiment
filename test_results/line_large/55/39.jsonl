@@ -1,0 +1,13 @@
+{"code": " {k: v for k, v in sentence_counts.items() if v != 0}", "compilation_passed": true, "time": 0.005825042724609375, "tests_passed": true, "error": null}
+{"code": " pd.Series(sentence_counts)", "compilation_passed": true, "time": 0.0033512115478515625, "tests_passed": true, "error": null}
+{"code": " {k: v for k, v in sorted(sentence_counts.items(), key=lambda x: x[0])}", "compilation_passed": true, "time": 0.005131959915161133, "tests_passed": true, "error": null}
+{"code": " {k: v for k, v in sorted(sentence_counts.items(), key=lambda item: item[0])}", "compilation_passed": true, "time": 0.0048639774322509766, "tests_passed": true, "error": null}
+{"code": " {k: v for k, v in sorted(sentence_counts.items(), key=lambda item: item[1])}", "compilation_passed": true, "time": 0.0052988529205322266, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.00024700164794921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {key: value for key, value in sorted(sentence_counts.items())}", "compilation_passed": true, "time": 0.004694938659667969, "tests_passed": true, "error": null}
+{"code": " {f\"Sentence {i+1}\": count for i, count in enumerate(sentence_counts)}", "compilation_passed": true, "time": 0.004651784896850586, "tests_passed": true, "error": null}
+{"code": " {key: value for key, value in sentence_counts.items() if value > 0}", "compilation_passed": true, "time": 0.004700899124145508, "tests_passed": true, "error": null}
+{"code": " {k: v for k, v in sorted(sentence_counts.items(), key=lambda item: item[1]) if v > 0}", "compilation_passed": true, "time": 0.007277727127075195, "tests_passed": true, "error": null}
+{"code": " {k: v for k, v in sorted(sentence_counts.items(), key=lambda x: int(x[0].split()[1]))}", "compilation_passed": true, "time": 0.004934787750244141, "tests_passed": true, "error": null}
+{"code": " {f\"Sentence {i+1}\": sentence_counts[f\"Sentence {i+1}\"] for i in range(len(sentence_counts))}", "compilation_passed": true, "time": 0.0047910213470458984, "tests_passed": true, "error": null}
+{"code": " pd.Series(sentence_counts, name=\"Word Count\")", "compilation_passed": true, "time": 0.005137205123901367, "tests_passed": true, "error": null}

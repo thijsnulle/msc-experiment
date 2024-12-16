@@ -1,0 +1,8 @@
+{"code": " in zip_longest(points, points[1:], fillvalue=(0, 0)):", "compilation_passed": true, "time": 0.00485992431640625, "tests_passed": true, "error": null}
+{"code": " in zip_longest(points, points[1:], fillvalue=(0,0)):", "compilation_passed": true, "time": 0.0044040679931640625, "tests_passed": true, "error": null}
+{"code": " in zip_longest(points, points[1:], fillvalue=(0,)):", "compilation_passed": true, "time": 0.0043697357177734375, "tests_passed": true, "error": null}
+{"code": " in zip_longest(points, points[1:], fillvalue=points[-1]):", "compilation_passed": true, "time": 0.00541996955871582, "tests_passed": false, "error": "IndexError"}
+{"code": " in zip_longest(points, points[1:]):", "compilation_passed": true, "time": 0.001550912857055664, "tests_passed": true, "error": null}
+{"code": " in zip_longest(points[:-1], points[1:]):", "compilation_passed": true, "time": 0.001569986343383789, "tests_passed": true, "error": null}
+{"code": " in zip_longest(points, points[1:], fillvalue=points[0]):", "compilation_passed": true, "time": 0.00503993034362793, "tests_passed": false, "error": "IndexError"}
+{"code": " in zip_longest(points[:-1], points[1:], fillvalue=(None, None)):", "compilation_passed": true, "time": 0.001580953598022461, "tests_passed": true, "error": null}

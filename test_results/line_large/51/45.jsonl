@@ -1,0 +1,9 @@
+{"code": "scatter(selected_df[\"Age\"], selected_df[\"Height\"], c=selected_df[\"Cluster\"])", "compilation_passed": true, "time": 0.8446269035339355, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(10, 6))", "compilation_passed": true, "time": 0.15205979347229004, "tests_passed": true, "error": null}
+{"code": "scatter(", "compilation_passed": false, "time": 0.0005502700805664062, "tests_passed": false, "error": "SyntaxError"}
+{"code": "scatter(selected_df[\"Age\"], selected_df[\"Height\"], c=selected_df[\"Cluster\"], s=30)", "compilation_passed": true, "time": 0.05837607383728027, "tests_passed": true, "error": null}
+{"code": "scatter(selected_df[\"Age\"], selected_df[\"Height\"], c=selected_df[\"Cluster\"], cmap='tab20')", "compilation_passed": true, "time": 0.058460235595703125, "tests_passed": true, "error": null}
+{"code": "figure()", "compilation_passed": true, "time": 0.15265107154846191, "tests_passed": true, "error": null}
+{"code": "scatter(selected_df[\"Age\"], selected_df[\"Height\"], c=selected_df[\"Cluster\"], cmap=\"viridis\")", "compilation_passed": true, "time": 0.05856800079345703, "tests_passed": true, "error": null}
+{"code": "scatter(selected_df[\"Age\"], selected_df[\"Height\"], c=selected_df[\"Cluster\"], cmap=\"rainbow\")", "compilation_passed": true, "time": 0.0588679313659668, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(8, 6))", "compilation_passed": true, "time": 0.1614370346069336, "tests_passed": true, "error": null}

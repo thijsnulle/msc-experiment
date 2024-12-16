@@ -1,0 +1,26 @@
+{"code": " sns.heatmap(corr_df, cmap=sns.color_palette(\"YlOrRd\", 255), annot=True)", "compilation_passed": true, "time": 0.2061467170715332, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, cmap='coolwarm', annot=True, vmin=-1, vmax=1)", "compilation_passed": true, "time": 0.2192230224609375, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, annot=True, cmap='Blues')", "compilation_passed": true, "time": 0.20615601539611816, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, mask=np.zeros_like(corr_df, dtype=bool), cmap=plt.cm.coolwarm, vmin=-1.0, vmax=1.0,", "compilation_passed": false, "time": 0.0004286766052246094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(corr_df, annot=True, vmin=-1, vmax=1, fmt='.2f', linewidths=1, square=True)", "compilation_passed": true, "time": 0.19222187995910645, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, mask=np.zeros_like(corr_df, dtype=np.bool), \\", "compilation_passed": false, "time": 0.0004508495330810547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(corr_df, linewidth=0.2, cmap='coolwarm', annot=True)", "compilation_passed": true, "time": 0.22018885612487793, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, vmax=1.0,", "compilation_passed": false, "time": 0.0007238388061523438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(corr_df, cmap=sns.color_palette(\"BrBG\", 12), vmin=-1, vmax=1, annot=True)", "compilation_passed": true, "time": 0.3418600559234619, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, linewidth=0.5)", "compilation_passed": true, "time": 0.16165399551391602, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr_df, cmap=sns.color_palette(\"BrBG\", as_cmap=True))", "compilation_passed": true, "time": 0.11760807037353516, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr_df, annot=True, cmap='coolwarm')", "compilation_passed": true, "time": 0.21514201164245605, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, vmax=1, square=True)", "compilation_passed": true, "time": 0.10976290702819824, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr_df, cmap=\"Blues\")", "compilation_passed": true, "time": 0.13259601593017578, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr_df, linewidths=0.5)", "compilation_passed": true, "time": 0.12713027000427246, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr_df, annot=True)", "compilation_passed": true, "time": 0.21712708473205566, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, annot=True, vmin=-1, vmax=1, center=0, cmap='Spectral')", "compilation_passed": true, "time": 0.20783734321594238, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, cmap=sns.color_palette('mako', 25), annot=True, vmin=-1, vmax=1)", "compilation_passed": true, "time": 0.18658089637756348, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, cmap=sns.color_palette('BrBG', n_colors=256), annot=False, vmin=-1, vmax=1, square=True)", "compilation_passed": true, "time": 0.12941884994506836, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(corr_df, annot=True, fmt=\".2f\", vmin=-1, vmax=1, center=0, cmap='coolwarm')", "compilation_passed": true, "time": 0.2074909210205078, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, mask=np.zeros_like(corr_df, dtype=bool), cmap='coolwarm', annot=True, fmt='.2f', square=True)", "compilation_passed": true, "time": 0.21792817115783691, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, vmax=1, square=True, annot=True)", "compilation_passed": true, "time": 0.20721006393432617, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, vmin=-1, vmax=1, annot=True, cmap='RdYlGn')", "compilation_passed": true, "time": 0.19706487655639648, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, cbar=True, annot=True, vmin=-1, vmax=1, fmt='.2f',", "compilation_passed": false, "time": 0.00041604042053222656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(corr_df, cmap='coolwarm_r', annot=True)", "compilation_passed": true, "time": 0.21567702293395996, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(corr_df, annot=False, vmin=-1, vmax=1, cmap=\"Blues\")", "compilation_passed": true, "time": 0.11476993560791016, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,6 @@
+{"code": " [[td.text_content() for td in row.findall(\"td\")] for row in rows]", "compilation_passed": false, "time": 0.0003159046173095703, "tests_passed": false, "error": "IndentationError"}
+{"code": " []", "compilation_passed": false, "time": 0.0002949237823486328, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[td.text_content() for td in tr.findall(\"td\")] for tr in rows]", "compilation_passed": false, "time": 0.00028395652770996094, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[cell.text_content() for cell in row.xpath(\"td\")] for row in rows]", "compilation_passed": false, "time": 0.0005068778991699219, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[td.text for td in row] for row in rows]", "compilation_passed": false, "time": 0.0002982616424560547, "tests_passed": false, "error": "IndentationError"}
+{"code": " [[cell.text_content().strip() for cell in row.xpath(\"./td\")] for row in rows]", "compilation_passed": false, "time": 0.00038814544677734375, "tests_passed": false, "error": "IndentationError"}

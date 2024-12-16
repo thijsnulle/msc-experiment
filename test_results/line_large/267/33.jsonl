@@ -1,0 +1,23 @@
+{"code": " np.zeros(1000)", "compilation_passed": true, "time": 1.0977890491485596, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.array([value for value in data.values()])", "compilation_passed": true, "time": 0.24414896965026855, "tests_passed": true, "error": null}
+{"code": " np.sum(list(data.values())) * np.sin(data['a'] * np.linspace(0, 100, num=sample_rate))", "compilation_passed": true, "time": 2.9755208492279053, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.random.uniform(size=100)", "compilation_passed": true, "time": 0.9212601184844971, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.02123880386352539, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(list(data.values()))", "compilation_passed": true, "time": 0.29038310050964355, "tests_passed": true, "error": null}
+{"code": " np.array([value for key, value in sorted(data.items())])", "compilation_passed": true, "time": 0.36052894592285156, "tests_passed": true, "error": null}
+{"code": " np.sum([data[key] * np.sin(np.linspace(-np.pi * 2, np.pi * 2, sample_rate)) for key in data.keys()])", "compilation_passed": true, "time": 0.2433638572692871, "tests_passed": true, "error": null}
+{"code": " np.array([key * val for key, val in data.items()])", "compilation_passed": true, "time": 0.010335922241210938, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " np.array([data[key] for key in sorted(data.keys())])", "compilation_passed": true, "time": 0.24419474601745605, "tests_passed": true, "error": null}
+{"code": " np.array([int(i) for i in data.values()])", "compilation_passed": true, "time": 0.2505619525909424, "tests_passed": true, "error": null}
+{"code": " [value * 10 + len(data) * 10 + 20 for value in data.values()]", "compilation_passed": true, "time": 0.23882699012756348, "tests_passed": true, "error": null}
+{"code": " sum([value * np.sin(key + 1) for key, value in data.items()])", "compilation_passed": true, "time": 0.009917020797729492, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(list(data.values())) * 0.5", "compilation_passed": true, "time": 0.2586219310760498, "tests_passed": true, "error": null}
+{"code": " np.arange(10)", "compilation_passed": true, "time": 0.2898390293121338, "tests_passed": true, "error": null}
+{"code": " np.sum([np.sin(key * np.arange(sample_rate) / sample_rate + value) for key, value in data.items()])", "compilation_passed": true, "time": 0.010718822479248047, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " np.sin(2 * np.pi * .05 * np.arange(48000))", "compilation_passed": true, "time": 5.777037143707275, "tests_passed": false, "error": "TimeoutError"}
+{"code": " [v ** 2 for v in data.values()]", "compilation_passed": true, "time": 0.49934911727905273, "tests_passed": true, "error": null}
+{"code": " np.array(list(data.values())) * np.cos(", "compilation_passed": false, "time": 0.0008976459503173828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [value for key, value in data.items() if key in 'abcdefgh']", "compilation_passed": true, "time": 0.3043537139892578, "tests_passed": true, "error": null}
+{"code": " np.zeros(100)", "compilation_passed": true, "time": 0.9284608364105225, "tests_passed": true, "error": null}
+{"code": " sum(value for key, value in data.items() if not isinstance(value, dict))", "compilation_passed": true, "time": 0.24382996559143066, "tests_passed": true, "error": null}
+{"code": " np.zeros(2 * sample_rate)", "compilation_passed": true, "time": 1.222769021987915, "tests_passed": false, "error": "TimeoutError"}

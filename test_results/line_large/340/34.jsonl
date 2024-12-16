@@ -1,0 +1,5 @@
+{"code": " json.dumps(req_data).encode()", "compilation_passed": true, "time": 0.0265347957611084, "tests_passed": false, "error": "AttributeError"}
+{"code": " json.dumps(req_data, sort_keys=True)", "compilation_passed": true, "time": 0.002257108688354492, "tests_passed": true, "error": null}
+{"code": " json.dumps(req_data)", "compilation_passed": true, "time": 0.0028905868530273438, "tests_passed": true, "error": null}
+{"code": " json.dumps(req_data, sort_keys=True, default=str)", "compilation_passed": true, "time": 0.004524946212768555, "tests_passed": true, "error": null}
+{"code": " json.dumps(req_data).encode('utf-8')", "compilation_passed": true, "time": 0.026412010192871094, "tests_passed": false, "error": "AttributeError"}

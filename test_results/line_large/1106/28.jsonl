@@ -1,0 +1,11 @@
+{"code": " not isinstance(file_path, str):", "compilation_passed": true, "time": 0.012839078903198242, "tests_passed": true, "error": null}
+{"code": " not file_path:", "compilation_passed": true, "time": 0.012431144714355469, "tests_passed": true, "error": null}
+{"code": " file_path is None or not isinstance(file_path, str):", "compilation_passed": true, "time": 0.01255488395690918, "tests_passed": true, "error": null}
+{"code": " not os.path.exists(file_path):", "compilation_passed": true, "time": 0.012511014938354492, "tests_passed": true, "error": null}
+{"code": " Path(file_path).is_file():", "compilation_passed": true, "time": 0.02021026611328125, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " os.path.exists(file_path):", "compilation_passed": true, "time": 0.024307966232299805, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not Path(file_path).is_file():", "compilation_passed": true, "time": 0.026602983474731445, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not isinstance(file_path, str) or not os.path.exists(file_path):", "compilation_passed": true, "time": 0.012550830841064453, "tests_passed": true, "error": null}
+{"code": " not isinstance(file_path, str) or not os.path.isfile(file_path):", "compilation_passed": true, "time": 0.02492499351501465, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not os.path.isfile(file_path):", "compilation_passed": true, "time": 0.024945974349975586, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " file_path is None or file_path == '':", "compilation_passed": true, "time": 0.012477874755859375, "tests_passed": true, "error": null}

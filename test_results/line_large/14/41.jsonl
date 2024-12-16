@@ -1,0 +1,7 @@
+{"code": " os.path.join(archive_dir, os.path.basename(project_dir) + '.zip')", "compilation_passed": true, "time": 0.018836021423339844, "tests_passed": false, "error": "NameError"}
+{"code": " shutil.make_archive(os.path.join(archive_dir, os.path.basename(project_dir)), 'zip', project_dir)", "compilation_passed": true, "time": 0.018452882766723633, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.join(archive_dir, os.path.basename(project_dir) + \".zip\")", "compilation_passed": true, "time": 0.018676042556762695, "tests_passed": false, "error": "NameError"}
+{"code": " f'{os.path.basename(project_dir)}.zip'", "compilation_passed": true, "time": 0.05692911148071289, "tests_passed": true, "error": null}
+{"code": " os.path.join(archive_dir, os.path.basename(project_dir))", "compilation_passed": true, "time": 0.018771886825561523, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.join(archive_dir, os.path.basename(project_dir)+'.zip')", "compilation_passed": true, "time": 0.017957210540771484, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.basename(project_dir) + '.zip'", "compilation_passed": true, "time": 0.05581212043762207, "tests_passed": true, "error": null}

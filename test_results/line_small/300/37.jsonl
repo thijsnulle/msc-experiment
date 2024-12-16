@@ -1,0 +1,20 @@
+{"code": " df.explode('Value').reset_index(drop=True)", "compilation_passed": true, "time": 0.10248494148254395, "tests_passed": false, "error": "TypeError"}
+{"code": " df.sort_values(['Date'])", "compilation_passed": true, "time": 0.07085800170898438, "tests_passed": false, "error": "ValueError"}
+{"code": " df.merge(", "compilation_passed": false, "time": 0.0001533031463623047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.explode('Value')", "compilation_passed": true, "time": 0.07527303695678711, "tests_passed": false, "error": "TypeError"}
+{"code": " df.sort_values('Date')", "compilation_passed": true, "time": 0.06960105895996094, "tests_passed": false, "error": "ValueError"}
+{"code": " df.set_index('Date')", "compilation_passed": true, "time": 0.1242220401763916, "tests_passed": false, "error": "KeyError"}
+{"code": " df.rename({'Value': 'Value_0'}, axis=1)", "compilation_passed": true, "time": 0.06987905502319336, "tests_passed": false, "error": "ValueError"}
+{"code": " df.explode('Value').dropna(subset='Value')", "compilation_passed": true, "time": 0.07367777824401855, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby('Date').apply(lambda x: zscore(x['Value'])).reset_index().rename(columns={0: 'Value'})", "compilation_passed": true, "time": 0.08142209053039551, "tests_passed": false, "error": "ValueError"}
+{"code": " df.explode('Value')  # split 'Value' lists into separate columns", "compilation_passed": true, "time": 0.08185791969299316, "tests_passed": false, "error": "TypeError"}
+{"code": " df.groupby(\"Date\")[\"Value\"].apply(lambda x: list(map(zscore, x)))", "compilation_passed": true, "time": 0.09723901748657227, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " df.set_index(['Date', 'Value'])", "compilation_passed": true, "time": 0.23057198524475098, "tests_passed": false, "error": "TypeError"}
+{"code": " df.merge(pd.DataFrame({'Z-Score': [zscore(i) for i in df['Value']]}), left_on='Value', right_index=True, how='left').set_index('Date')", "compilation_passed": true, "time": 0.09077239036560059, "tests_passed": false, "error": "ValueError"}
+{"code": " df.pivot_table(index='Date', columns='Value', aggfunc='count')", "compilation_passed": true, "time": 0.1399860382080078, "tests_passed": false, "error": "TypeError"}
+{"code": " df.rename(columns={'Value': 'Value1', 'Value1': 'Value2'})", "compilation_passed": true, "time": 0.0774390697479248, "tests_passed": false, "error": "ValueError"}
+{"code": " df.set_index(['Date'])", "compilation_passed": true, "time": 0.1331329345703125, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.concat([df.assign(col=x).assign(col=zscore(df['col'])) for x in df['Value']], axis=1)", "compilation_passed": true, "time": 0.10001301765441895, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby('Date', as_index=False).apply(lambda x: pd.Series(pd.Series(x['Value']).apply(zscore))).reset_index()", "compilation_passed": true, "time": 0.11641597747802734, "tests_passed": false, "error": "ValueError"}
+{"code": " df.rename(columns={'Value': 'Value_Z'})", "compilation_passed": true, "time": 0.13404488563537598, "tests_passed": false, "error": "ValueError"}
+{"code": " df.assign(Value1=df['Value'].apply(lambda x: zscore(x)),", "compilation_passed": false, "time": 0.00022101402282714844, "tests_passed": false, "error": "SyntaxError"}

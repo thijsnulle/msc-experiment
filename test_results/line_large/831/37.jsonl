@@ -1,0 +1,10 @@
+{"code": " ((a, b, math.sqrt(abs(a - b))) for a, b in pairs)", "compilation_passed": true, "time": 0.03346729278564453, "tests_passed": true, "error": null}
+{"code": " ((p[0], p[1], math.sqrt(abs(p[0] - p[1]))) for p in pairs)", "compilation_passed": true, "time": 0.0351259708404541, "tests_passed": true, "error": null}
+{"code": " ((pair[0], pair[1], math.sqrt(abs(pair[0] - pair[1]))) for pair in pairs)", "compilation_passed": true, "time": 0.03523874282836914, "tests_passed": true, "error": null}
+{"code": " ((num1, num2, math.sqrt(abs(num1 - num2))) for num1, num2 in pairs)", "compilation_passed": true, "time": 0.036448001861572266, "tests_passed": true, "error": null}
+{"code": " ((a, b, math.sqrt(abs(a-b))) for a, b in pairs)", "compilation_passed": true, "time": 0.03360319137573242, "tests_passed": true, "error": null}
+{"code": " (pair + (math.sqrt(abs(pair[0]-pair[1])),) for pair in pairs)", "compilation_passed": true, "time": 0.03251910209655762, "tests_passed": true, "error": null}
+{"code": " ((pair, math.sqrt(abs(pair[0] - pair[1]))) for pair in pairs)", "compilation_passed": true, "time": 0.0339813232421875, "tests_passed": false, "error": "ValueError"}
+{"code": " ((pair[0], pair[1], math.sqrt(abs(pair[0]-pair[1]))) for pair in pairs)", "compilation_passed": true, "time": 0.03200817108154297, "tests_passed": true, "error": null}
+{"code": " ((p1, p2, math.sqrt(abs(p1-p2))) for p1, p2 in pairs)", "compilation_passed": true, "time": 0.03321194648742676, "tests_passed": true, "error": null}
+{"code": " ((p[0], p[1], math.sqrt(abs(p[0]-p[1]))) for p in pairs)", "compilation_passed": true, "time": 0.033531904220581055, "tests_passed": true, "error": null}

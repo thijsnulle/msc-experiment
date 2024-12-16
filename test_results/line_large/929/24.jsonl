@@ -1,0 +1,11 @@
+{"code": " not isinstance(word, str):", "compilation_passed": true, "time": 0.003038167953491211, "tests_passed": true, "error": null}
+{"code": " word is None:", "compilation_passed": true, "time": 0.0022430419921875, "tests_passed": true, "error": null}
+{"code": " len(word) < 2:", "compilation_passed": true, "time": 0.006041049957275391, "tests_passed": false, "error": "IndexError"}
+{"code": " len(word) == 0:", "compilation_passed": true, "time": 0.002785205841064453, "tests_passed": true, "error": null}
+{"code": " len(word) <= 1:", "compilation_passed": true, "time": 0.007692813873291016, "tests_passed": false, "error": "IndexError"}
+{"code": " not word:", "compilation_passed": true, "time": 0.002234220504760742, "tests_passed": true, "error": null}
+{"code": " isinstance(word, str):", "compilation_passed": true, "time": 0.00539708137512207, "tests_passed": false, "error": "IndexError"}
+{"code": " word is None or not word.strip():", "compilation_passed": true, "time": 0.0023009777069091797, "tests_passed": true, "error": null}
+{"code": " not word or len(word) == 1:", "compilation_passed": true, "time": 0.005992889404296875, "tests_passed": false, "error": "IndexError"}
+{"code": " isinstance(word, str) and not any(char.isdigit() for char in word):", "compilation_passed": true, "time": 0.007380008697509766, "tests_passed": false, "error": "IndexError"}
+{"code": " not word or not isinstance(word, str):", "compilation_passed": true, "time": 0.0024209022521972656, "tests_passed": true, "error": null}

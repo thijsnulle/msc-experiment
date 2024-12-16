@@ -1,0 +1,15 @@
+{"code": " list(zip(df['item1'], df['item2'], df['item3'], df['item4'], df['item5']))", "compilation_passed": true, "time": 0.0056231021881103516, "tests_passed": true, "error": null}
+{"code": " df[['item1', 'item2', 'item3', 'item4', 'item5']].agg(tuple, axis=1)", "compilation_passed": true, "time": 0.009130001068115234, "tests_passed": true, "error": null}
+{"code": " df[['item1', 'item2', 'item3', 'item4', 'item5']].apply(lambda x: tuple(x.values), axis=1)", "compilation_passed": true, "time": 0.010203123092651367, "tests_passed": true, "error": null}
+{"code": " df[['item1', 'item2', 'item3', 'item4', 'item5']].values.tolist()", "compilation_passed": true, "time": 0.015239953994750977, "tests_passed": false, "error": "TypeError"}
+{"code": " df.apply(lambda row: tuple(row[['item1', 'item2', 'item3', 'item4', 'item5']].values), axis=1)", "compilation_passed": true, "time": 0.01022195816040039, "tests_passed": true, "error": null}
+{"code": " df[['item1', 'item2', 'item3', 'item4', 'item5']].apply(lambda x: tuple(x), axis=1)", "compilation_passed": true, "time": 0.008083820343017578, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: tuple(x.values), axis=1)", "compilation_passed": true, "time": 0.007585048675537109, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: tuple(x[['item1', 'item2', 'item3', 'item4', 'item5']]), axis=1)", "compilation_passed": true, "time": 0.011414051055908203, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda row: tuple(sorted([row['item1'], row['item2'], row['item3'], row['item4'], row['item5']])), axis=1)", "compilation_passed": true, "time": 0.005889892578125, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: tuple(sorted(x[['item1', 'item2', 'item3', 'item4', 'item5']])), axis=1)", "compilation_passed": true, "time": 0.009659767150878906, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: tuple(x[1:]), axis=1)", "compilation_passed": true, "time": 0.008766889572143555, "tests_passed": false, "error": "KeyError"}
+{"code": " df['item1'] + \",\" + df['item2'] + \",\" + df['item3'] + \",\" + df['item4'] + \",\" + df['item5']", "compilation_passed": true, "time": 0.007169961929321289, "tests_passed": false, "error": "KeyError"}
+{"code": " df['item1'] + ', ' + df['item2'] + ', ' + df['item3'] + ', ' + df['item4'] + ', ' + df['item5']", "compilation_passed": true, "time": 0.009597063064575195, "tests_passed": false, "error": "KeyError"}
+{"code": " df.loc[:, 'item1':'item5'].apply(tuple, axis=1)", "compilation_passed": true, "time": 0.008759021759033203, "tests_passed": true, "error": null}
+{"code": " df[['item1', 'item2', 'item3', 'item4', 'item5']].apply(tuple, axis=1)", "compilation_passed": true, "time": 0.009031057357788086, "tests_passed": true, "error": null}

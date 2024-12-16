@@ -1,0 +1,10 @@
+{"code": " np.log1p(df[column])", "compilation_passed": true, "time": 0.08611607551574707, "tests_passed": true, "error": null}
+{"code": " 0", "compilation_passed": true, "time": 0.10799407958984375, "tests_passed": true, "error": null}
+{"code": " np.log(df[column] + 1)", "compilation_passed": true, "time": 0.09880709648132324, "tests_passed": true, "error": null}
+{"code": " np.zeros_like(df[column])", "compilation_passed": true, "time": 0.1098182201385498, "tests_passed": true, "error": null}
+{"code": " 0  # Set to 0 or any default value for constant data", "compilation_passed": true, "time": 0.10731792449951172, "tests_passed": true, "error": null}
+{"code": " df[column]", "compilation_passed": true, "time": 0.18545818328857422, "tests_passed": true, "error": null}
+{"code": " np.log(1 + df[column])", "compilation_passed": true, "time": 0.10175704956054688, "tests_passed": true, "error": null}
+{"code": " stats.boxcox(df[column] + 1)[0]", "compilation_passed": true, "time": 0.1071169376373291, "tests_passed": false, "error": "ValueError"}
+{"code": " df[column].map(lambda x: 0 if x == 0 else np.log(x + 1))", "compilation_passed": true, "time": 0.13014721870422363, "tests_passed": true, "error": null}
+{"code": " 0  # Apply any constant value", "compilation_passed": true, "time": 0.11015701293945312, "tests_passed": true, "error": null}

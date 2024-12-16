@@ -1,0 +1,26 @@
+{"code": " pd.Series(np.random.rand(periods), index=date_range)", "compilation_passed": true, "time": 0.010796070098876953, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.randint(1, 10, periods), date_range)", "compilation_passed": true, "time": 0.010928869247436523, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.randint(0, 10, size=len(date_range)))", "compilation_passed": true, "time": 0.008516073226928711, "tests_passed": false, "error": "KeyError"}
+{"code": " np.random.randint(10, 50, len(date_range))", "compilation_passed": true, "time": 0.010392904281616211, "tests_passed": true, "error": null}
+{"code": " np.random.normal(size=periods)", "compilation_passed": true, "time": 0.013684988021850586, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.uniform(size=periods), index=date_range)", "compilation_passed": true, "time": 0.00978994369506836, "tests_passed": true, "error": null}
+{"code": " np.random.rand(periods)", "compilation_passed": true, "time": 0.010375022888183594, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.randint(low=10, high=20, size=periods), index=date_range)", "compilation_passed": true, "time": 0.011712074279785156, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.uniform(0, 100, len(date_range)), index=date_range)", "compilation_passed": true, "time": 0.013330221176147461, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 100, size=len(date_range))", "compilation_passed": true, "time": 0.012566089630126953, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 100, size=periods)", "compilation_passed": true, "time": 0.011280059814453125, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.randint(0, 100, len(date_range)), index=date_range)", "compilation_passed": true, "time": 0.011752843856811523, "tests_passed": true, "error": null}
+{"code": " [np.random.rand(periods) for _ in range(1)]", "compilation_passed": true, "time": 0.013547182083129883, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Series(np.random.randint(1, 100, size=periods))", "compilation_passed": true, "time": 0.011897802352905273, "tests_passed": false, "error": "KeyError"}
+{"code": " np.random.normal(0, 1000, len(date_range))", "compilation_passed": true, "time": 0.012102127075195312, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 10, size=len(date_range))", "compilation_passed": true, "time": 0.01174306869506836, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.randn(len(date_range)), index=date_range)", "compilation_passed": true, "time": 0.016108989715576172, "tests_passed": true, "error": null}
+{"code": " np.random.randint(10, 50, periods)", "compilation_passed": true, "time": 0.014043807983398438, "tests_passed": true, "error": null}
+{"code": " np.random.randint(10, 20, size=periods)", "compilation_passed": true, "time": 0.011842012405395508, "tests_passed": true, "error": null}
+{"code": " np.random.rand(len(date_range))", "compilation_passed": true, "time": 0.009490966796875, "tests_passed": true, "error": null}
+{"code": " np.random.randn(periods) * 100", "compilation_passed": true, "time": 0.010436058044433594, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=1, high=50, size=periods)", "compilation_passed": true, "time": 0.009095907211303711, "tests_passed": true, "error": null}
+{"code": " pd.Series([25, 20, 26, 25, 22, 19, 20, 20, 25, 26, 27, 22, 22, 25, 26, 24, 20, 22, 19, 22, 18, 20, 21, 20, 22, 22],", "compilation_passed": false, "time": 0.00025177001953125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.randint(0, 500, size=periods)", "compilation_passed": true, "time": 0.00960683822631836, "tests_passed": true, "error": null}
+{"code": " pd.Series(np.random.uniform(1, 10, len(date_range)), index=date_range)", "compilation_passed": true, "time": 0.009706974029541016, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 50, size=periods)", "compilation_passed": true, "time": 0.00982809066772461, "tests_passed": true, "error": null}

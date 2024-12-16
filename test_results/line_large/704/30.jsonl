@@ -1,0 +1,6 @@
+{"code": " df.corr().abs()", "compilation_passed": true, "time": 0.004186868667602539, "tests_passed": true, "error": null}
+{"code": " df.corr(method='pearson')", "compilation_passed": true, "time": 0.0063359737396240234, "tests_passed": true, "error": null}
+{"code": " df.corr(method='pearson').to_dict()  # .loc[:, cols]", "compilation_passed": true, "time": 0.010564088821411133, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.corr()", "compilation_passed": true, "time": 0.0067670345306396484, "tests_passed": true, "error": null}
+{"code": " df.corr(numeric_only=True)", "compilation_passed": true, "time": 0.0063898563385009766, "tests_passed": true, "error": null}
+{"code": " df.corr(numeric_only=True).stack()", "compilation_passed": true, "time": 0.015640974044799805, "tests_passed": false, "error": "AttributeError"}

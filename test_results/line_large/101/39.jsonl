@@ -1,0 +1,20 @@
+{"code": " np.hstack([raw_df.values, pd.read_csv(data_url, sep=\"\\s+\", skiprows=22, header=None).values])", "compilation_passed": true, "time": 1.0140342712402344, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(raw_df.values.reshape(-1, 5), columns=[\"CRIM\", \"ZN\", \"INDUS\", \"CHAS\", \"NOX\", \"RM\", \"AGE\", \"DIS\", \"RAD\", \"TAX\", \"PTRATIO\", \"B\", \"LSTAT\", \"MEDV\"])", "compilation_passed": true, "time": 0.8333902359008789, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([np.repeat(i, 13).reshape(506, 1) for i in range(13)])", "compilation_passed": true, "time": 0.8314907550811768, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values[:, 1:].reshape(-1, 1), raw_df.values[:, :-1]])", "compilation_passed": true, "time": 0.8432130813598633, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values[::2], raw_df.values[1::2]])", "compilation_passed": true, "time": 0.8490591049194336, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values, pd.read_csv(data_url, sep=\"\\s+\", skiprows=22, header=None)])", "compilation_passed": true, "time": 1.01613187789917, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values, np.zeros((506, 1)])", "compilation_passed": false, "time": 0.00011491775512695312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.hstack([raw_df.values[:, 1:], raw_df.values[:, 0]])", "compilation_passed": true, "time": 0.847383975982666, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values[::2, :], raw_df.values[1::2, :]])", "compilation_passed": true, "time": 0.8678970336914062, "tests_passed": false, "error": "ValueError"}
+{"code": " np.loadtxt(data_url, skiprows=1)", "compilation_passed": true, "time": 1.02701997756958, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values, np.loadtxt(data_url, skiprows=22)[0:50, -1:]])", "compilation_passed": true, "time": 1.0158390998840332, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values[:, 1:], raw_df.values[:, 0]]).astype(np.float64)", "compilation_passed": true, "time": 0.8539876937866211, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(raw_df)", "compilation_passed": true, "time": 1.0118119716644287, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values, raw_df.index.values.reshape(-1, 1)])", "compilation_passed": true, "time": 0.840709924697876, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values[:, 1:], np.array(raw_df.values[:, 0])])", "compilation_passed": true, "time": 0.8511028289794922, "tests_passed": false, "error": "ValueError"}
+{"code": " np.loadtxt(data_url, skiprows=3)", "compilation_passed": true, "time": 1.020498275756836, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([[el] * 5 for el in raw_df.values])", "compilation_passed": true, "time": 0.8496401309967041, "tests_passed": false, "error": "ValueError"}
+{"code": " np.loadtxt(raw_df.to_csv())", "compilation_passed": true, "time": 0.8590378761291504, "tests_passed": false, "error": " not found."}
+{"code": " np.hstack([raw_df.values[:, 1:-1], raw_df.values[:, -1:]])", "compilation_passed": true, "time": 0.8413071632385254, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([raw_df.values, pd.read_csv(data_url, sep=\"\\s+\", skiprows=22 + 50*2, nrows=50, header=None).values])", "compilation_passed": true, "time": 1.0141150951385498, "tests_passed": false, "error": "ValueError"}

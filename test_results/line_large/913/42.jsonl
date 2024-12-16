@@ -1,0 +1,11 @@
+{"code": " list(np.repeat(np.array(data), repetitions))", "compilation_passed": true, "time": 0.011147022247314453, "tests_passed": true, "error": null}
+{"code": " data * repetitions", "compilation_passed": true, "time": 0.0030858516693115234, "tests_passed": true, "error": null}
+{"code": " sum([list(map(str, data))] * repetitions, [])", "compilation_passed": true, "time": 0.006352901458740234, "tests_passed": true, "error": null}
+{"code": " np.repeat(np.array(data), repetitions)", "compilation_passed": true, "time": 0.006392955780029297, "tests_passed": true, "error": null}
+{"code": " sum([data for _ in range(repetitions)], [])", "compilation_passed": true, "time": 0.0027909278869628906, "tests_passed": true, "error": null}
+{"code": " np.tile(data, repetitions)", "compilation_passed": true, "time": 0.0061609745025634766, "tests_passed": true, "error": null}
+{"code": " [item for item in data for _ in range(repetitions)]", "compilation_passed": true, "time": 0.002995014190673828, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.011613130569458008, "tests_passed": false, "error": "ValueError"}
+{"code": " [item for _ in range(repetitions) for item in data]", "compilation_passed": true, "time": 0.0038759708404541016, "tests_passed": true, "error": null}
+{"code": " sum([[x] * repetitions for x in data], [])", "compilation_passed": true, "time": 0.0055999755859375, "tests_passed": true, "error": null}
+{"code": " list(np.tile(np.asarray(data), repetitions))", "compilation_passed": true, "time": 0.005576133728027344, "tests_passed": true, "error": null}

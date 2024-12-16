@@ -1,0 +1,18 @@
+{"code": " collections.Counter()  # Count the occurrences of each word", "compilation_passed": true, "time": 0.06906604766845703, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.01007390022277832, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.Counter([word for sentence in sentences_dict.values() for word in sentence.split()])", "compilation_passed": true, "time": 0.285693883895874, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.00948786735534668, "tests_passed": false, "error": "KeyError"}
+{"code": " collections.defaultdict(int)", "compilation_passed": true, "time": 0.059381961822509766, "tests_passed": true, "error": null}
+{"code": " collections.Counter([", "compilation_passed": false, "time": 0.00021028518676757812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dict()", "compilation_passed": true, "time": 0.010454893112182617, "tests_passed": false, "error": "KeyError"}
+{"code": " [sentences_dict[sentence].count(word) for sentence in sentences_dict.keys() for word in word_keys]", "compilation_passed": true, "time": 0.009795188903808594, "tests_passed": false, "error": "TypeError"}
+{"code": " [sentence.split().count(word) for word in word_keys for sentence in sentences_dict.values()]", "compilation_passed": true, "time": 0.009016990661621094, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.0687711238861084, "tests_passed": true, "error": null}
+{"code": " collections.Counter(", "compilation_passed": false, "time": 0.00025391578674316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.Series(WORDS).to_dict()", "compilation_passed": true, "time": 0.010689020156860352, "tests_passed": false, "error": "KeyError"}
+{"code": " collections.Counter(WORDS + word_keys)", "compilation_passed": true, "time": 0.06582880020141602, "tests_passed": true, "error": null}
+{"code": " collections.Counter(sentences_dict[word_keys[0]])", "compilation_passed": true, "time": 0.006841182708740234, "tests_passed": false, "error": "KeyError"}
+{"code": " [sentences_dict[x].count(k) for x in sentences_dict for k in word_keys]", "compilation_passed": true, "time": 0.008908987045288086, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.Counter(sentences_dict[sent_num].split() for sent_num in word_keys)", "compilation_passed": true, "time": 0.012300968170166016, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.Series(WORDS)", "compilation_passed": true, "time": 0.012119054794311523, "tests_passed": false, "error": "KeyError"}
+{"code": " collections.defaultdict(int)  # Count occurrences of each word", "compilation_passed": true, "time": 0.06496310234069824, "tests_passed": true, "error": null}

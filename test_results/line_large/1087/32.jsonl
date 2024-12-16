@@ -1,0 +1,17 @@
+{"code": " np.random.normal(mean, std_dev, size=100)", "compilation_passed": true, "time": 0.7263660430908203, "tests_passed": true, "error": null}
+{"code": " np.random.normal(mean, std_dev, 1000)", "compilation_passed": true, "time": 0.6916089057922363, "tests_passed": true, "error": null}
+{"code": " np.random.normal(mean, std_dev, 1000000)", "compilation_passed": true, "time": 1.0287470817565918, "tests_passed": false, "error": "TimeoutError"}
+{"code": " stats.norm.rvs(mean, std_dev, size=10000)  # Generate a sample from a normal distribution", "compilation_passed": true, "time": 0.8223748207092285, "tests_passed": true, "error": null}
+{"code": " stats.norm.rvs(mean, std_dev, size=1000)", "compilation_passed": true, "time": 0.6988029479980469, "tests_passed": true, "error": null}
+{"code": " np.random.normal(mean, std_dev, 10000)", "compilation_passed": true, "time": 0.7702558040618896, "tests_passed": true, "error": null}
+{"code": " np.random.normal(mean, std_dev, size=1000)", "compilation_passed": true, "time": 0.6812701225280762, "tests_passed": true, "error": null}
+{"code": " stats.norm.rvs(loc=mean, scale=std_dev, size=10000)", "compilation_passed": true, "time": 0.7568619251251221, "tests_passed": true, "error": null}
+{"code": " np.random.normal(mean, std_dev, size=10000)", "compilation_passed": true, "time": 0.76792311668396, "tests_passed": true, "error": null}
+{"code": " np.random.normal(mean, std_dev, 100000)", "compilation_passed": true, "time": 1.11012601852417, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.random.normal(mean, std_dev, 500000)", "compilation_passed": true, "time": 1.4277310371398926, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.random.normal(mean, std_dev, size=5000)", "compilation_passed": true, "time": 0.7438101768493652, "tests_passed": true, "error": null}
+{"code": " np.random.normal(mean, std_dev, 100)", "compilation_passed": true, "time": 0.6569538116455078, "tests_passed": true, "error": null}
+{"code": " np.random.normal(mean, std_dev, 2500)", "compilation_passed": true, "time": 0.7152831554412842, "tests_passed": true, "error": null}
+{"code": " stats.norm.rvs(loc=mean, scale=std_dev, size=5000)", "compilation_passed": true, "time": 0.7230889797210693, "tests_passed": true, "error": null}
+{"code": " stats.norm.rvs(loc=mean, scale=std_dev, size=5000, random_state=0)", "compilation_passed": true, "time": 0.7495138645172119, "tests_passed": true, "error": null}
+{"code": " stats.norm.rvs(loc=mean, scale=std_dev, size=1000)", "compilation_passed": true, "time": 0.68650221824646, "tests_passed": true, "error": null}

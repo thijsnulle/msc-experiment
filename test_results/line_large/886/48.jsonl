@@ -1,0 +1,11 @@
+{"code": " not isinstance(data, dict) or not all(key in data for key in ['Name', 'Age', 'Score']):", "compilation_passed": true, "time": 0.016679048538208008, "tests_passed": true, "error": null}
+{"code": " 'Name' not in data or 'Age' not in data or 'Score' not in data:", "compilation_passed": true, "time": 0.016592025756835938, "tests_passed": true, "error": null}
+{"code": " any(key not in data for key in ('Name', 'Age', 'Score')):", "compilation_passed": true, "time": 0.016465187072753906, "tests_passed": true, "error": null}
+{"code": " not set(data.keys()) == {'Name', 'Age', 'Score'}:", "compilation_passed": true, "time": 0.016199827194213867, "tests_passed": true, "error": null}
+{"code": " set(data.keys()) != {'Name', 'Age', 'Score'}:", "compilation_passed": true, "time": 0.016438961029052734, "tests_passed": true, "error": null}
+{"code": " not {'Name', 'Age', 'Score'} <= set(data.keys()):", "compilation_passed": true, "time": 0.016450881958007812, "tests_passed": true, "error": null}
+{"code": " \"Name\" not in data or \"Age\" not in data or \"Score\" not in data:", "compilation_passed": true, "time": 0.01655721664428711, "tests_passed": true, "error": null}
+{"code": " not isinstance(data, dict):", "compilation_passed": true, "time": 0.02839493751525879, "tests_passed": false, "error": "KeyError"}
+{"code": " not all(k in data for k in ['Name', 'Age', 'Score']):", "compilation_passed": true, "time": 0.016595125198364258, "tests_passed": true, "error": null}
+{"code": " not all(key in data for key in ['Name', 'Age', 'Score']):", "compilation_passed": true, "time": 0.01642322540283203, "tests_passed": true, "error": null}
+{"code": " any(k not in data for k in ('Name', 'Age', 'Score')):", "compilation_passed": true, "time": 0.016164779663085938, "tests_passed": true, "error": null}

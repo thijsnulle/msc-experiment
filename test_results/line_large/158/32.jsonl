@@ -1,0 +1,8 @@
+{"code": "write(json.dumps(json_data).encode())", "compilation_passed": true, "time": 0.015824079513549805, "tests_passed": true, "error": null}
+{"code": "write(data.encode('utf-8'))", "compilation_passed": true, "time": 0.012662887573242188, "tests_passed": true, "error": null}
+{"code": "write(data.encode())", "compilation_passed": true, "time": 0.012037038803100586, "tests_passed": true, "error": null}
+{"code": "write(bytes(json.dumps(json_data).encode()))", "compilation_passed": true, "time": 0.014022350311279297, "tests_passed": true, "error": null}
+{"code": "write(json.dumps(json_data, indent=4).encode())", "compilation_passed": true, "time": 0.01421809196472168, "tests_passed": true, "error": null}
+{"code": "write(json.dumps(json_data).encode('utf-8'))", "compilation_passed": true, "time": 0.014169931411743164, "tests_passed": true, "error": null}
+{"code": "write(bytes(json.dumps(json_data), encoding='utf-8'))", "compilation_passed": true, "time": 0.014046907424926758, "tests_passed": true, "error": null}
+{"code": "write(str.encode(json.dumps(json_data)))", "compilation_passed": true, "time": 0.013756752014160156, "tests_passed": true, "error": null}

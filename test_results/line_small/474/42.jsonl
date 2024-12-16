@@ -1,0 +1,29 @@
+{"code": "set_xlim([-5, 5])", "compilation_passed": false, "time": 0.00036716461181640625, "tests_passed": false, "error": "IndentationError"}
+{"code": "set_xticks(np.linspace(ax.get_xlim()[0], ax.get_xlim()[1], 7))", "compilation_passed": false, "time": 0.00028896331787109375, "tests_passed": false, "error": "IndentationError"}
+{"code": "grid()", "compilation_passed": false, "time": 0.00032806396484375, "tests_passed": false, "error": "IndentationError"}
+{"code": "yaxis.grid()", "compilation_passed": false, "time": 0.0002713203430175781, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(samples, norm.pdf(samples, mu, sigma), '--k', linewidth=2)", "compilation_passed": false, "time": 0.00038886070251464844, "tests_passed": false, "error": "IndentationError"}
+{"code": "set(xlabel=\"Normal Distribution\", ylabel=\"PDF\")", "compilation_passed": false, "time": 0.00026702880859375, "tests_passed": false, "error": "IndentationError"}
+{"code": "set_xlabel('Sample')", "compilation_passed": false, "time": 0.000263214111328125, "tests_passed": false, "error": "IndentationError"}
+{"code": "xaxis.set_major_locator(MaxNLocator(integer=True))", "compilation_passed": false, "time": 0.00027179718017578125, "tests_passed": false, "error": "IndentationError"}
+{"code": "axvline(mu, color='r', lw=2)", "compilation_passed": false, "time": 0.0002779960632324219, "tests_passed": false, "error": "IndentationError"}
+{"code": "axvline(mu, c=\"r\", linewidth=2, ls=\"--\")", "compilation_passed": false, "time": 0.0002949237823486328, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(samples, norm.pdf(samples, mu, sigma), \"r\", linewidth=2)", "compilation_passed": false, "time": 0.00028705596923828125, "tests_passed": false, "error": "IndentationError"}
+{"code": "axvline(mu, color=\"black\", linewidth=2)", "compilation_passed": false, "time": 0.0002818107604980469, "tests_passed": false, "error": "IndentationError"}
+{"code": "set_xlabel(\"x\", fontsize=15, fontweight=\"bold\", color='r')", "compilation_passed": false, "time": 0.0002770423889160156, "tests_passed": false, "error": "IndentationError"}
+{"code": "xaxis.set_label_text(\"x\")", "compilation_passed": false, "time": 0.0002582073211669922, "tests_passed": false, "error": "IndentationError"}
+{"code": "get_xticklabels()", "compilation_passed": false, "time": 0.00025391578674316406, "tests_passed": false, "error": "IndentationError"}
+{"code": "set(", "compilation_passed": true, "time": 0.0422210693359375, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(np.arange(-5, 6, 1), norm.pdf(np.arange(-5, 6, 1)), 'r-', linewidth=2)", "compilation_passed": false, "time": 0.0002980232238769531, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(samples, norm.pdf(samples, mu, sigma), lw=2)", "compilation_passed": false, "time": 0.0002918243408203125, "tests_passed": false, "error": "IndentationError"}
+{"code": "axvline(mu, label='mean', linewidth=2, color='k')", "compilation_passed": false, "time": 0.0004589557647705078, "tests_passed": false, "error": "IndentationError"}
+{"code": "spines['right'].set_color('none')", "compilation_passed": false, "time": 0.00027632713317871094, "tests_passed": false, "error": "IndentationError"}
+{"code": "axvline(x=mu, linewidth=2, color='red', label=\"PDF\")", "compilation_passed": false, "time": 0.000560760498046875, "tests_passed": false, "error": "IndentationError"}
+{"code": "spines['right'].set_visible(False)", "compilation_passed": false, "time": 0.0003027915954589844, "tests_passed": false, "error": "IndentationError"}
+{"code": "hist(samples, density=True)", "compilation_passed": false, "time": 0.0002770423889160156, "tests_passed": false, "error": "IndentationError"}
+{"code": "set_xticks([-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5])", "compilation_passed": false, "time": 0.0003218650817871094, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(samples, norm.pdf(samples, mu, sigma), linewidth=2, color='r')", "compilation_passed": false, "time": 0.00041604042053222656, "tests_passed": false, "error": "IndentationError"}
+{"code": "xaxis.set_label_position(\"top\")", "compilation_passed": false, "time": 0.00031495094299316406, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(np.linspace(-5, 5, 100), norm.pdf(np.linspace(-5, 5, 100), mu, sigma), 'r-', linewidth=2)", "compilation_passed": false, "time": 0.0006048679351806641, "tests_passed": false, "error": "IndentationError"}
+{"code": "set_title(rf\"Histogram & PDF of Normal Distribution with \u03bc = {mu}, \u03c3 = {sigma}\")", "compilation_passed": false, "time": 0.0004208087921142578, "tests_passed": false, "error": "IndentationError"}
+{"code": "xaxis.label.set_fontsize(14)", "compilation_passed": false, "time": 0.00028204917907714844, "tests_passed": false, "error": "IndentationError"}

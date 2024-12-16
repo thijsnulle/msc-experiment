@@ -1,0 +1,14 @@
+{"code": " in glob(os.path.join(src_folder, '*.txt')):", "compilation_passed": true, "time": 0.49485087394714355, "tests_passed": true, "error": null}
+{"code": " in glob(f'{src_folder}/*'):", "compilation_passed": true, "time": 0.38268089294433594, "tests_passed": true, "error": null}
+{"code": " in glob(os.path.join(src_folder, '*')):", "compilation_passed": true, "time": 0.42435717582702637, "tests_passed": true, "error": null}
+{"code": "_path in glob(f'{src_folder}/*.txt'):", "compilation_passed": true, "time": 0.017967700958251953, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": "_path in glob(os.path.join(src_folder, \"*\")):", "compilation_passed": true, "time": 0.01590704917907715, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": "path in glob(src_folder + '/*'):", "compilation_passed": true, "time": 0.014739036560058594, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " in glob(f\"{src_folder}/*\"):", "compilation_passed": true, "time": 0.41113901138305664, "tests_passed": true, "error": null}
+{"code": " in glob(os.path.join(src_folder, '*.*')):", "compilation_passed": true, "time": 0.4162747859954834, "tests_passed": true, "error": null}
+{"code": "path in glob(os.path.join(src_folder, '*.txt')):", "compilation_passed": true, "time": 0.016407012939453125, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": "_path in glob(os.path.join(src_folder, '*')):", "compilation_passed": true, "time": 0.015901803970336914, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " in glob(os.path.join(src_folder, \"*\")):", "compilation_passed": true, "time": 0.424602746963501, "tests_passed": true, "error": null}
+{"code": "_name in glob(os.path.join(src_folder, '*')):", "compilation_passed": true, "time": 0.024628162384033203, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": "_path in glob(os.path.join(src_folder, '*.txt')):", "compilation_passed": true, "time": 0.015923261642456055, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " in os.listdir(src_folder):", "compilation_passed": true, "time": 0.15082597732543945, "tests_passed": true, "error": null}

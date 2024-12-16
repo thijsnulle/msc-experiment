@@ -1,0 +1,23 @@
+{"code": " np.linspace(0, 2 * PI, size)", "compilation_passed": true, "time": 0.32921600341796875, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, 2 * PI, size)  # Generate x-values between 0 and 2*PI", "compilation_passed": true, "time": 0.3590829372406006, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, RANGE, size)", "compilation_passed": true, "time": 0.38172078132629395, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, 2 * PI, size)  # Generate x-values in the range [0, 2 * pi]", "compilation_passed": true, "time": 0.5765020847320557, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, 2 * PI * frequency, size)", "compilation_passed": true, "time": 0.5759220123291016, "tests_passed": true, "error": null}
+{"code": " [i for i in range(size)]", "compilation_passed": true, "time": 0.6645586490631104, "tests_passed": true, "error": null}
+{"code": " np.arange(size)", "compilation_passed": true, "time": 0.49704408645629883, "tests_passed": true, "error": null}
+{"code": " np.linspace(-np.pi, np.pi, size)", "compilation_passed": true, "time": 0.47879815101623535, "tests_passed": true, "error": null}
+{"code": " np.arange(size) / size", "compilation_passed": true, "time": 0.4105820655822754, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, 10 * PI, size)", "compilation_passed": true, "time": 0.4676032066345215, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.06787681579589844, "tests_passed": false, "error": "ValueError"}
+{"code": " [i for i in range(0, size)]", "compilation_passed": true, "time": 0.46152591705322266, "tests_passed": true, "error": null}
+{"code": " np.array([i * PI / size for i in range(size)])", "compilation_passed": true, "time": 0.4259037971496582, "tests_passed": true, "error": null}
+{"code": " [i * 2 * PI / size for i in range(size)]", "compilation_passed": true, "time": 0.428631067276001, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, 2*PI, size)", "compilation_passed": true, "time": 0.48837828636169434, "tests_passed": true, "error": null}
+{"code": " np.linspace(-3 * np.pi, 3 * np.pi, size)", "compilation_passed": true, "time": 0.4301900863647461, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, 1, size)", "compilation_passed": true, "time": 0.42574310302734375, "tests_passed": true, "error": null}
+{"code": " np.linspace(0, 2 * np.pi, size)  # Create an array of evenly-spaced x-values between 0 and 2*pi", "compilation_passed": true, "time": 0.4383819103240967, "tests_passed": true, "error": null}
+{"code": " np.linspace(-PI, PI, size)  # Generate equally spaced values for x-axis", "compilation_passed": true, "time": 2.2877707481384277, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.linspace(0, 2*np.pi, size)", "compilation_passed": true, "time": 0.4288949966430664, "tests_passed": true, "error": null}
+{"code": " [i * PI * frequency for i in np.arange(0, RANGE, SIZE)]", "compilation_passed": true, "time": 0.05577802658081055, "tests_passed": false, "error": "ValueError"}
+{"code": " np.linspace(0, PI * frequency, size)", "compilation_passed": true, "time": 0.3825700283050537, "tests_passed": true, "error": null}
+{"code": " [i / frequency for i in range(size)]", "compilation_passed": true, "time": 0.4089021682739258, "tests_passed": true, "error": null}

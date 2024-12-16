@@ -1,0 +1,11 @@
+{"code": " df[['Age', 'Score']]", "compilation_passed": true, "time": 0.6607420444488525, "tests_passed": true, "error": null}
+{"code": " df.loc[:, ['Age', 'Score']]", "compilation_passed": true, "time": 0.6652951240539551, "tests_passed": true, "error": null}
+{"code": " df.drop('Category', axis=1)", "compilation_passed": true, "time": 0.05705118179321289, "tests_passed": false, "error": "ValueError"}
+{"code": " df[['Age', 'Score']].values", "compilation_passed": true, "time": 0.6507189273834229, "tests_passed": true, "error": null}
+{"code": " df.drop('Name', axis=1)", "compilation_passed": true, "time": 0.03987717628479004, "tests_passed": false, "error": "ValueError"}
+{"code": " df[['Age', 'Score']].to_numpy()", "compilation_passed": true, "time": 0.6544229984283447, "tests_passed": true, "error": null}
+{"code": " df.loc[:, ['Age', 'Score']].values", "compilation_passed": true, "time": 0.646946907043457, "tests_passed": true, "error": null}
+{"code": " df.drop(['Name', 'Category'], axis=1)", "compilation_passed": true, "time": 0.6599857807159424, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 1:-1].values", "compilation_passed": true, "time": 0.6414082050323486, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 1:-1]", "compilation_passed": true, "time": 0.6583659648895264, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, [1, 2]].values", "compilation_passed": true, "time": 0.6470091342926025, "tests_passed": true, "error": null}

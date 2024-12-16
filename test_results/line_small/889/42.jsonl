@@ -1,0 +1,5 @@
+{"code": " in df.columns:", "compilation_passed": true, "time": 0.021461963653564453, "tests_passed": true, "error": null}
+{"code": " in df.select_dtypes(include=['float', 'int']):", "compilation_passed": true, "time": 0.02148890495300293, "tests_passed": true, "error": null}
+{"code": " in df:", "compilation_passed": true, "time": 0.019239187240600586, "tests_passed": true, "error": null}
+{"code": "_name in df.columns:", "compilation_passed": true, "time": 0.009645938873291016, "tests_passed": false, "error": "NameError"}
+{"code": " in df.select_dtypes(np.number).columns:", "compilation_passed": true, "time": 0.019231081008911133, "tests_passed": true, "error": null}

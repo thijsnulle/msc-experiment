@@ -1,0 +1,9 @@
+{"code": " [\"wmic\", \"cpu\", \"get\", \"loadpercentage\"]", "compilation_passed": false, "time": 0.00038504600524902344, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"wmic cpu get loadpercentage /all\"", "compilation_passed": false, "time": 0.0003960132598876953, "tests_passed": false, "error": "IndentationError"}
+{"code": " 'wmic cpu get loadpercentage /format:value'", "compilation_passed": false, "time": 0.00039505958557128906, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"powershell.exe\", \"Get-WmiObject -class Win32_PerfFormattedData_PerfOS_Processor\"", "compilation_passed": false, "time": 0.00038695335388183594, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"wmic cpu get loadpercentage\"", "compilation_passed": false, "time": 0.0005979537963867188, "tests_passed": false, "error": "IndentationError"}
+{"code": " 'wmic cpu get loadpercentage'", "compilation_passed": false, "time": 0.0003960132598876953, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"typeperf WMI_Perf.Processor.*/PercentProcessorTime\"", "compilation_passed": false, "time": 0.0005030632019042969, "tests_passed": false, "error": "IndentationError"}
+{"code": " 'powershell \"Get-Process -Id $PID | Select-Object -ExpandProperty CPU; $sleepTime = 5; Start-Sleep -Seconds $sleepTime\"'", "compilation_passed": false, "time": 0.0004417896270751953, "tests_passed": false, "error": "IndentationError"}
+{"code": " \"typeperf 'Processor Information(_Total)\\% Processor Time' -sc 1 -si {}\".format(interval)", "compilation_passed": false, "time": 0.0004220008850097656, "tests_passed": false, "error": "IndentationError"}

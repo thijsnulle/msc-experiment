@@ -1,0 +1,5 @@
+{"code": "write(json.dumps(data, indent=4))", "compilation_passed": true, "time": 0.011124134063720703, "tests_passed": false, "error": "json.decoder.JSONDecodeError"}
+{"code": "truncate()", "compilation_passed": true, "time": 0.008275985717773438, "tests_passed": true, "error": null}
+{"code": "truncate()  # Erase the existing JSON content", "compilation_passed": true, "time": 0.009872913360595703, "tests_passed": true, "error": null}
+{"code": "write(json.dumps(data))", "compilation_passed": true, "time": 0.0073320865631103516, "tests_passed": false, "error": "json.decoder.JSONDecodeError"}
+{"code": "truncate()  # Clear the file", "compilation_passed": true, "time": 0.00824284553527832, "tests_passed": true, "error": null}

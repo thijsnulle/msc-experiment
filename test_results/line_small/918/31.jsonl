@@ -1,0 +1,18 @@
+{"code": " df.applymap(lambda x: re.sub(pattern, replace_match, x), na_action='ignore')", "compilation_passed": true, "time": 0.022741079330444336, "tests_passed": false, "error": "TypeError"}
+{"code": " df.applymap(lambda x: re.sub(pattern, replace_match, x))", "compilation_passed": true, "time": 0.020510196685791016, "tests_passed": false, "error": "TypeError"}
+{"code": " df.apply(lambda x: pd.Series(pattern.sub(replace_match, x, na=True)), axis=1)", "compilation_passed": true, "time": 0.013007164001464844, "tests_passed": false, "error": "TypeError"}
+{"code": " df.apply(lambda x: pattern.sub(replace_match, x))", "compilation_passed": true, "time": 0.015098094940185547, "tests_passed": false, "error": "TypeError"}
+{"code": " df.apply(lambda x: pattern.sub(replace_match, x), axis=1)", "compilation_passed": true, "time": 0.014083147048950195, "tests_passed": false, "error": "TypeError"}
+{"code": " df.apply(lambda row: pattern.sub(replace_match, row), axis=0)", "compilation_passed": true, "time": 0.012298822402954102, "tests_passed": false, "error": "TypeError"}
+{"code": " df.replace(str.finditer(pattern, df.text), replace_match, inplace=False)", "compilation_passed": true, "time": 0.008088111877441406, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.apply(lambda x: re.sub(pattern, replace_match, x), axis='columns')", "compilation_passed": true, "time": 0.012114286422729492, "tests_passed": false, "error": "TypeError"}
+{"code": " df.apply(lambda x: pattern.sub(replace_match, x), axis=0)", "compilation_passed": true, "time": 0.012272119522094727, "tests_passed": false, "error": "TypeError"}
+{"code": " df.applymap(lambda x: pattern.sub(replace_match, x))", "compilation_passed": true, "time": 0.019244909286499023, "tests_passed": false, "error": "TypeError"}
+{"code": " df.apply(lambda x: re.sub(pattern, replace_match, x), axis=1)", "compilation_passed": true, "time": 0.01159977912902832, "tests_passed": false, "error": "TypeError"}
+{"code": " df.apply(lambda x: re.sub(pattern, replace_match, str(x)), axis=1)", "compilation_passed": true, "time": 0.008022069931030273, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: re.sub(pattern, replace_match, str(x)))", "compilation_passed": true, "time": 0.01755380630493164, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: pattern.sub(replace_match, x, regex=True))", "compilation_passed": true, "time": 0.015388250350952148, "tests_passed": false, "error": "TypeError"}
+{"code": " df.applymap(lambda x: pattern.sub(replace_match, str(x)))", "compilation_passed": true, "time": 0.016701221466064453, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: pattern.sub(replace_match, x),", "compilation_passed": false, "time": 0.0001800060272216797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.apply(lambda col: pattern.sub(replace_match, col), axis=0)", "compilation_passed": true, "time": 0.011216163635253906, "tests_passed": false, "error": "TypeError"}
+{"code": " df.applymap(replace_match)", "compilation_passed": true, "time": 0.01428675651550293, "tests_passed": false, "error": "AttributeError"}

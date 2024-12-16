@@ -1,0 +1,9 @@
+{"code": " df[column]", "compilation_passed": true, "time": 0.4687199592590332, "tests_passed": true, "error": null}
+{"code": " df[column].to_dict()", "compilation_passed": true, "time": 0.012970924377441406, "tests_passed": false, "error": "TypeError"}
+{"code": " df[column].tolist()", "compilation_passed": true, "time": 0.6473290920257568, "tests_passed": true, "error": null}
+{"code": " df[[column]].copy()", "compilation_passed": true, "time": 0.08893179893493652, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(\"Product\")[column].apply(np.sum)", "compilation_passed": true, "time": 0.5325949192047119, "tests_passed": true, "error": null}
+{"code": " df[[column]]", "compilation_passed": true, "time": 0.08726978302001953, "tests_passed": false, "error": "ValueError"}
+{"code": " df.groupby(\"Product\")[column]", "compilation_passed": true, "time": 0.00950312614440918, "tests_passed": false, "error": "TypeError"}
+{"code": " df[column].values.tolist()", "compilation_passed": true, "time": 0.5002710819244385, "tests_passed": true, "error": null}
+{"code": " df.groupby([\"Product\"])[column]", "compilation_passed": true, "time": 0.010358095169067383, "tests_passed": false, "error": "TypeError"}

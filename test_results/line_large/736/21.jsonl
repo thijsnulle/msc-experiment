@@ -1,0 +1,14 @@
+{"code": " np.array(L).flatten()", "compilation_passed": true, "time": 0.01445770263671875, "tests_passed": false, "error": "ValueError"}
+{"code": " []", "compilation_passed": true, "time": 0.013790130615234375, "tests_passed": false, "error": "IndexError"}
+{"code": " [item for sublist in L for item in sublist]", "compilation_passed": true, "time": 0.004048824310302734, "tests_passed": true, "error": null}
+{"code": " np.hstack(L)", "compilation_passed": true, "time": 0.003944873809814453, "tests_passed": true, "error": null}
+{"code": " np.array(L).flatten().tolist()", "compilation_passed": true, "time": 0.014412879943847656, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([item for sublist in L for item in sublist])", "compilation_passed": true, "time": 0.004203081130981445, "tests_passed": true, "error": null}
+{"code": " np.array(L).flatten() # flatten list into one dimensional list", "compilation_passed": true, "time": 0.01669931411743164, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(L).flatten() # flatten the list", "compilation_passed": true, "time": 0.01445913314819336, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(L).flatten() #flatten the list", "compilation_passed": true, "time": 0.01449131965637207, "tests_passed": false, "error": "ValueError"}
+{"code": " [item for sublist in L for item in sublist] # Flatten the list", "compilation_passed": true, "time": 0.003996133804321289, "tests_passed": true, "error": null}
+{"code": " [val for sublist in L for val in sublist]", "compilation_passed": true, "time": 0.004110097885131836, "tests_passed": true, "error": null}
+{"code": " np.hstack(L) # flatten", "compilation_passed": true, "time": 0.004052877426147461, "tests_passed": true, "error": null}
+{"code": " [x for y in L for x in y]", "compilation_passed": true, "time": 0.004029035568237305, "tests_passed": true, "error": null}
+{"code": " np.array(L).flatten() # flatten the nested list to a 1D array", "compilation_passed": true, "time": 0.014937877655029297, "tests_passed": false, "error": "ValueError"}

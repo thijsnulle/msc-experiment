@@ -1,0 +1,22 @@
+{"code": " np.array([ord(letter) for letter in word])", "compilation_passed": true, "time": 0.002295970916748047, "tests_passed": true, "error": null}
+{"code": " [ord(letter) for letter in word]  # Converting each letter to ASCII value", "compilation_passed": true, "time": 0.002354145050048828, "tests_passed": true, "error": null}
+{"code": " np.array([ord(letter) for letter in word])  # Convert each letter to its ASCII value", "compilation_passed": true, "time": 0.004918098449707031, "tests_passed": true, "error": null}
+{"code": " [ord(letter) for letter in word]", "compilation_passed": true, "time": 0.002244710922241211, "tests_passed": true, "error": null}
+{"code": " np.array([ord(char) for char in word], dtype=np.int32)", "compilation_passed": true, "time": 0.003790140151977539, "tests_passed": true, "error": null}
+{"code": " [ord(c) for c in word]  # Convert the letters to their ASCII values", "compilation_passed": true, "time": 0.0024518966674804688, "tests_passed": true, "error": null}
+{"code": " np.array([ord(letter) for letter in word])  # Convert the string to ASCII values", "compilation_passed": true, "time": 0.002329111099243164, "tests_passed": true, "error": null}
+{"code": " np.array(list(map(ord, word)))", "compilation_passed": true, "time": 0.0023260116577148438, "tests_passed": true, "error": null}
+{"code": " [ord(char) for char in word]", "compilation_passed": true, "time": 0.0022840499877929688, "tests_passed": true, "error": null}
+{"code": " np.frombuffer(word.encode(), dtype='int8')  # Convert word to array of ASCII values", "compilation_passed": true, "time": 0.002960205078125, "tests_passed": true, "error": null}
+{"code": " np.array([ord(c) for c in word])", "compilation_passed": true, "time": 0.0026090145111083984, "tests_passed": true, "error": null}
+{"code": " [ord(letter) for letter in word]  # Convert letters to their ASCII values", "compilation_passed": true, "time": 0.0022089481353759766, "tests_passed": true, "error": null}
+{"code": " [ord(i) for i in word]  # Convert each character in the string to ASCII values", "compilation_passed": true, "time": 0.002447843551635742, "tests_passed": true, "error": null}
+{"code": " np.array([ord(char) for char in word])", "compilation_passed": true, "time": 0.002292156219482422, "tests_passed": true, "error": null}
+{"code": " [ord(ch) for ch in word]", "compilation_passed": true, "time": 0.0025610923767089844, "tests_passed": true, "error": null}
+{"code": " [ord(c) for c in word]", "compilation_passed": true, "time": 0.002279996871948242, "tests_passed": true, "error": null}
+{"code": " np.fromiter(map(ord, word), dtype=np.int32)", "compilation_passed": true, "time": 0.002404928207397461, "tests_passed": true, "error": null}
+{"code": " np.array([ord(letter) for letter in word])  # Convert the word to ASCII values", "compilation_passed": true, "time": 0.0022461414337158203, "tests_passed": true, "error": null}
+{"code": " [ord(char) for char in word]  # Convert each letter to ASCII value", "compilation_passed": true, "time": 0.002382040023803711, "tests_passed": true, "error": null}
+{"code": " np.fromiter(map(ord, word), int)", "compilation_passed": true, "time": 0.002151966094970703, "tests_passed": true, "error": null}
+{"code": " [ord(c) for c in word]  # Convert the letters in the word to their ASCII values", "compilation_passed": true, "time": 0.002218008041381836, "tests_passed": true, "error": null}
+{"code": " [ord(c) for c in word]  # Convert the word to a list of ASCII values", "compilation_passed": true, "time": 0.002359151840209961, "tests_passed": true, "error": null}

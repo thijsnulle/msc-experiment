@@ -1,0 +1,7 @@
+{"code": " ''.join(random.choices(string.ascii_letters, k=length))", "compilation_passed": true, "time": 0.0015101432800292969, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choices(string.ascii_uppercase + string.ascii_lowercase, k=length))", "compilation_passed": true, "time": 0.0012769699096679688, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(string.ascii_letters) for _ in range(length))", "compilation_passed": true, "time": 0.0017871856689453125, "tests_passed": true, "error": null}
+{"code": " ''.join(", "compilation_passed": false, "time": 0.00013709068298339844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ''.join(random.choice(string.ascii_letters) for i in range(length))", "compilation_passed": true, "time": 0.0019838809967041016, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choices(string.ascii_letters, k=length))", "compilation_passed": true, "time": 0.0014088153839111328, "tests_passed": true, "error": null}
+{"code": " \"\".join(", "compilation_passed": false, "time": 0.0003399848937988281, "tests_passed": false, "error": "SyntaxError"}

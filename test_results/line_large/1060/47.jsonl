@@ -1,0 +1,4 @@
+{"code": " df[column_name].nunique()", "compilation_passed": true, "time": 0.2163689136505127, "tests_passed": true, "error": null}
+{"code": " df[column_name].value_counts().count()", "compilation_passed": true, "time": 0.1668710708618164, "tests_passed": true, "error": null}
+{"code": " len(df[column_name].unique())", "compilation_passed": true, "time": 0.1708369255065918, "tests_passed": true, "error": null}
+{"code": " df[column_name].value_counts()", "compilation_passed": true, "time": 0.03508710861206055, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,5 @@
+{"code": " hmac.compare_digest(signature, computed_signature.hexdigest())", "compilation_passed": true, "time": 0.0017440319061279297, "tests_passed": true, "error": null}
+{"code": " hmac.compare_digest(computed_signature.hexdigest(), signature)", "compilation_passed": true, "time": 0.0020668506622314453, "tests_passed": true, "error": null}
+{"code": " computed_signature.hexdigest() == signature", "compilation_passed": true, "time": 0.001961946487426758, "tests_passed": true, "error": null}
+{"code": " hmac.compare_digest(binascii.unhexlify(signature), computed_signature.digest())", "compilation_passed": true, "time": 0.012191057205200195, "tests_passed": false, "error": "binascii.Error"}
+{"code": " hmac.compare_digest(binascii.hexlify(computed_signature.digest()).decode(), signature)", "compilation_passed": true, "time": 0.0018379688262939453, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": "x.columns,", "compilation_passed": true, "time": 0.08470010757446289, "tests_passed": false, "error": "ValueError"}
+{"code": "x.columns))", "compilation_passed": false, "time": 0.00017523765563964844, "tests_passed": false, "error": "IndentationError"}
+{"code": "x.columns", "compilation_passed": false, "time": 0.00014090538024902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "x.columns)", "compilation_passed": false, "time": 0.00021314620971679688, "tests_passed": false, "error": "SyntaxError"}
+{"code": "x.columns[1:]", "compilation_passed": false, "time": 0.00014090538024902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "x.columns)).reset_index()", "compilation_passed": false, "time": 0.0001468658447265625, "tests_passed": false, "error": "IndentationError"}
+{"code": "x.columns, index=x.index)).reset_index(drop=True)", "compilation_passed": false, "time": 0.00015020370483398438, "tests_passed": false, "error": "IndentationError"}
+{"code": "x.columns)).reset_index(drop=True)", "compilation_passed": false, "time": 0.00015497207641601562, "tests_passed": false, "error": "IndentationError"}
+{"code": "x[['age', 'income']].columns,", "compilation_passed": true, "time": 0.19245624542236328, "tests_passed": true, "error": null}

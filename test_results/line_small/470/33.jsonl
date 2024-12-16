@@ -1,0 +1,13 @@
+{"code": " ax = plt.subplots()", "compilation_passed": true, "time": 0.285369873046875, "tests_passed": true, "error": null}
+{"code": " bins = np.histogram(myList, bins=len(myList))", "compilation_passed": true, "time": 0.0070536136627197266, "tests_passed": false, "error": "NameError"}
+{"code": " ax = plt.subplots(1)", "compilation_passed": true, "time": 0.2929511070251465, "tests_passed": true, "error": null}
+{"code": " bins, patches = plt.hist(myList)", "compilation_passed": true, "time": 0.05697798728942871, "tests_passed": false, "error": "NameError"}
+{"code": " bins = np.histogram(myList)", "compilation_passed": true, "time": 0.007688045501708984, "tests_passed": false, "error": "NameError"}
+{"code": " ax = plt.subplots(figsize=(10, 5), dpi=80)", "compilation_passed": true, "time": 0.26871514320373535, "tests_passed": true, "error": null}
+{"code": " bins, patches = plt.hist(myList, bins=5, edgecolor='k')", "compilation_passed": true, "time": 0.05155611038208008, "tests_passed": false, "error": "NameError"}
+{"code": " ax = plt.subplots(1, figsize=(5, 4.8), dpi=80, constrained_layout=True,", "compilation_passed": false, "time": 0.0001919269561767578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " bins = np.histogram(myList, bins=5, align='left')", "compilation_passed": true, "time": 0.00904083251953125, "tests_passed": false, "error": "TypeError"}
+{"code": " bins, patches = plt.hist(myList,", "compilation_passed": false, "time": 0.00012993812561035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " _, patches = plt.hist(myList, bins=np.arange(-0.5, 5.6, 1), linewidth=0)", "compilation_passed": true, "time": 0.0466618537902832, "tests_passed": false, "error": "NameError"}
+{"code": " _, patches = plt.hist(myList, bins=5)", "compilation_passed": true, "time": 0.048204898834228516, "tests_passed": false, "error": "NameError"}
+{"code": " ax = plt.subplots(figsize=(4, 3))", "compilation_passed": true, "time": 0.28019022941589355, "tests_passed": true, "error": null}

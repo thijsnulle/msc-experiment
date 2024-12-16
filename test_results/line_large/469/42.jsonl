@@ -1,0 +1,22 @@
+{"code": " Counter([*filter(lambda g: g in possible_grades, student_grades)])", "compilation_passed": true, "time": 0.6097831726074219, "tests_passed": true, "error": null}
+{"code": " Counter([g.strip().upper() for g in student_grades])", "compilation_passed": true, "time": 0.7416949272155762, "tests_passed": true, "error": null}
+{"code": " Counter([g.upper() for g in student_grades])", "compilation_passed": true, "time": 0.7038719654083252, "tests_passed": true, "error": null}
+{"code": " Counter([g.upper() for g in student_grades if g in possible_grades])", "compilation_passed": true, "time": 0.6218419075012207, "tests_passed": true, "error": null}
+{"code": " Counter(g for g in student_grades if g.upper() in possible_grades)", "compilation_passed": true, "time": 0.6519849300384521, "tests_passed": true, "error": null}
+{"code": " Counter([grade.upper().strip() for grade in student_grades", "compilation_passed": false, "time": 0.0002181529998779297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Counter(student_grades)", "compilation_passed": true, "time": 1.0051372051239014, "tests_passed": false, "error": ""}
+{"code": " Counter([*dict.fromkeys([grade.upper() for grade in student_grades if grade.upper() in possible_grades])])", "compilation_passed": true, "time": 0.1567070484161377, "tests_passed": true, "error": null}
+{"code": " Counter(g.upper() for g in student_grades if g in possible_grades)", "compilation_passed": true, "time": 0.941784143447876, "tests_passed": true, "error": null}
+{"code": " Counter([g.upper() for g in student_grades if g.upper() in possible_grades])", "compilation_passed": true, "time": 1.0605309009552002, "tests_passed": false, "error": "TimeoutError"}
+{"code": " Counter()", "compilation_passed": true, "time": 0.08283209800720215, "tests_passed": true, "error": null}
+{"code": " Counter([grade.upper() for grade in student_grades if grade.upper() in possible_grades])", "compilation_passed": true, "time": 0.4867401123046875, "tests_passed": true, "error": null}
+{"code": " Counter(g for g in [*student_grades] if g in possible_grades)", "compilation_passed": true, "time": 0.42938709259033203, "tests_passed": true, "error": null}
+{"code": " Counter([g for g in [*dict.fromkeys(student_grades)] if g.upper() in possible_grades])", "compilation_passed": true, "time": 0.1133570671081543, "tests_passed": true, "error": null}
+{"code": " Counter(g for g in student_grades if g in possible_grades)", "compilation_passed": true, "time": 0.4922051429748535, "tests_passed": true, "error": null}
+{"code": " Counter([grade for grade in student_grades if grade in possible_grades])", "compilation_passed": true, "time": 0.5485591888427734, "tests_passed": true, "error": null}
+{"code": " Counter(g.upper() for g in student_grades if g.upper() in possible_grades)", "compilation_passed": true, "time": 0.6110589504241943, "tests_passed": true, "error": null}
+{"code": " Counter([g for g in student_grades if g in possible_grades])", "compilation_passed": true, "time": 0.48464298248291016, "tests_passed": true, "error": null}
+{"code": " Counter(grade for grade in student_grades if grade in possible_grades)", "compilation_passed": true, "time": 0.4876079559326172, "tests_passed": true, "error": null}
+{"code": " Counter([g for g in student_grades if g.upper() in possible_grades])", "compilation_passed": true, "time": 0.4032630920410156, "tests_passed": true, "error": null}
+{"code": " Counter([*dict.fromkeys(student_grades)])", "compilation_passed": true, "time": 0.08484506607055664, "tests_passed": true, "error": null}
+{"code": " Counter(s for s in [g.strip().upper() for g in student_grades] if s in possible_grades)", "compilation_passed": true, "time": 0.48815321922302246, "tests_passed": true, "error": null}

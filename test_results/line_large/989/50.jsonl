@@ -1,0 +1,10 @@
+{"code": " predicates:", "compilation_passed": true, "time": 0.008304119110107422, "tests_passed": false, "error": "KeyError"}
+{"code": " not predicates:", "compilation_passed": true, "time": 0.009026050567626953, "tests_passed": false, "error": "KeyError"}
+{"code": " any(predicate not in predicate_functions for predicate in predicates):", "compilation_passed": true, "time": 0.01945209503173828, "tests_passed": true, "error": null}
+{"code": " not all(predicate in predicate_functions for predicate in predicates):", "compilation_passed": true, "time": 0.019038915634155273, "tests_passed": true, "error": null}
+{"code": " not all(p in predicate_functions for p in predicates):", "compilation_passed": true, "time": 0.018963098526000977, "tests_passed": true, "error": null}
+{"code": " any(p not in predicate_functions for p in predicates):", "compilation_passed": true, "time": 0.01982402801513672, "tests_passed": true, "error": null}
+{"code": " not set(predicates).issubset(predicate_functions.keys()):", "compilation_passed": true, "time": 0.021040916442871094, "tests_passed": true, "error": null}
+{"code": " not set(predicates).issubset(set(predicate_functions)):", "compilation_passed": true, "time": 0.01939988136291504, "tests_passed": true, "error": null}
+{"code": " len(predicates) == 0:", "compilation_passed": true, "time": 0.008938074111938477, "tests_passed": false, "error": "KeyError"}
+{"code": " not all(pred in predicate_functions for pred in predicates):", "compilation_passed": true, "time": 0.019199848175048828, "tests_passed": true, "error": null}

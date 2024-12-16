@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame({'Timestamp': timestamps, 'Datetime': datetimes})", "compilation_passed": true, "time": 0.021873950958251953, "tests_passed": false, "error": "       '1970-09-25T02"}
+{"code": " pd.DataFrame(zip(timestamps, datetimes), columns=['Timestamp', 'Datetime'])", "compilation_passed": true, "time": 0.022033214569091797, "tests_passed": false, "error": "       '1970-09-25T02"}
+{"code": " pd.DataFrame(list(zip(timestamps, datetimes)), columns=['Timestamp', 'Datetime'])", "compilation_passed": true, "time": 0.021892070770263672, "tests_passed": false, "error": "       '1970-09-25T02"}
+{"code": " pd.DataFrame({\"Timestamp\": timestamps, \"Datetime\": datetimes})", "compilation_passed": true, "time": 0.02154707908630371, "tests_passed": false, "error": "       '1970-09-25T02"}
+{"code": " pd.DataFrame(list(zip(timestamps, datetimes)), columns=[\"Timestamp\", \"Datetime\"])", "compilation_passed": true, "time": 0.02220320701599121, "tests_passed": false, "error": "       '1970-09-25T02"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.000431060791015625, "tests_passed": false, "error": "SyntaxError"}

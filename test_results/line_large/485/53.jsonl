@@ -1,0 +1,7 @@
+{"code": " np.zeros_like(dates, dtype=int)", "compilation_passed": false, "time": 0.0002810955047607422, "tests_passed": false, "error": "IndentationError"}
+{"code": " current_tz.utcoffset(dates[0]) - other_tz.utcoffset(dates[0])", "compilation_passed": false, "time": 0.0002899169921875, "tests_passed": false, "error": "IndentationError"}
+{"code": " (", "compilation_passed": false, "time": 0.00017118453979492188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.array(", "compilation_passed": false, "time": 0.0001780986785888672, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": false, "time": 0.0002739429473876953, "tests_passed": false, "error": "IndentationError"}
+{"code": " (current_tz.localize(dates) - other_tz.localize(dates)) / timedelta(hours=1)", "compilation_passed": false, "time": 0.0002770423889160156, "tests_passed": false, "error": "IndentationError"}
+{"code": " [(other_tz.localize(date) - current_tz.localize(date)).days for date in dates]", "compilation_passed": false, "time": 0.0003170967102050781, "tests_passed": false, "error": "IndentationError"}

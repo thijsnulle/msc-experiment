@@ -1,0 +1,13 @@
+{"code": "boxplot(y=df[col], ax=axes[1], color='blue', width=0.5, fliersize=5, linewidth=1.5)", "compilation_passed": true, "time": 0.23594880104064941, "tests_passed": true, "error": null}
+{"code": "boxplot(y=df[col], ax=axes[1])", "compilation_passed": true, "time": 0.23483586311340332, "tests_passed": true, "error": null}
+{"code": "boxplot(y=df[col], ax=axes[1])  # Using seaborn's boxplot function for numerical data", "compilation_passed": true, "time": 0.24030709266662598, "tests_passed": true, "error": null}
+{"code": "boxplot(x=col, data=df, ax=axes[1])", "compilation_passed": true, "time": 0.23656392097473145, "tests_passed": true, "error": null}
+{"code": "boxplot(y=df[col], ax=axes[1], color=\"white\")  # Using seaborn's boxplot function for numerical data", "compilation_passed": true, "time": 0.23793816566467285, "tests_passed": true, "error": null}
+{"code": "boxplot(x=col, y=col, data=df, ax=axes[1])", "compilation_passed": true, "time": 0.3061549663543701, "tests_passed": true, "error": null}
+{"code": "boxplot(y=df[col], ax=axes[1], color='green')  # Using seaborn's boxplot function for numerical data", "compilation_passed": true, "time": 0.25193190574645996, "tests_passed": true, "error": null}
+{"code": "boxplot(x=col, y=df[col], data=df, ax=axes[1])", "compilation_passed": true, "time": 0.32000303268432617, "tests_passed": true, "error": null}
+{"code": "boxplot(x=col, y=df[col], ax=axes[1], orient='h')  # Using seaborn's boxplot function for numerical data", "compilation_passed": true, "time": 0.14770984649658203, "tests_passed": false, "error": "ValueError"}
+{"code": "boxplot(y=df[col], ax=axes[1], color='skyblue', orient='v')", "compilation_passed": true, "time": 0.25373411178588867, "tests_passed": true, "error": null}
+{"code": "boxplot(x=col, y=df[col], ax=axes[1])  # Using seaborn's boxplot for numerical data", "compilation_passed": true, "time": 0.1542661190032959, "tests_passed": false, "error": "ValueError"}
+{"code": "boxplot(y=df[col], ax=axes[1], color='skyblue')", "compilation_passed": true, "time": 0.26910400390625, "tests_passed": true, "error": null}
+{"code": "boxplot(y=df[col], ax=axes[1], color='lightblue')", "compilation_passed": true, "time": 0.25881290435791016, "tests_passed": true, "error": null}

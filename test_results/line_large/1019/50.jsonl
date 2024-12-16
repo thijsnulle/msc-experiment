@@ -1,0 +1,18 @@
+{"code": " image.info.get(\"comment\")", "compilation_passed": true, "time": 0.009317159652709961, "tests_passed": true, "error": null}
+{"code": " image.info.get('comment')", "compilation_passed": true, "time": 0.009099006652832031, "tests_passed": true, "error": null}
+{"code": " image.info.get(\"comment\", \"\").replace(b'\\r\\n'.decode(), '\\n')", "compilation_passed": true, "time": 0.010710954666137695, "tests_passed": false, "error": "TypeError"}
+{"code": " image.info.get(\"Comment\")", "compilation_passed": true, "time": 0.009086370468139648, "tests_passed": true, "error": null}
+{"code": " image.getexif().get(270) or \"\"", "compilation_passed": true, "time": 0.006372690200805664, "tests_passed": true, "error": null}
+{"code": " image.info.get(\"comment\", \"\")", "compilation_passed": true, "time": 0.008914947509765625, "tests_passed": true, "error": null}
+{"code": " image.info.get('comment', b'')", "compilation_passed": true, "time": 0.008742809295654297, "tests_passed": true, "error": null}
+{"code": " image.info.get('comment', '')", "compilation_passed": true, "time": 0.008597850799560547, "tests_passed": true, "error": null}
+{"code": " image.applicaitons[\"Comment\"] if \"Comment\" in image.applicaitons else None", "compilation_passed": true, "time": 0.009459972381591797, "tests_passed": false, "error": "TypeError"}
+{"code": " image.getexif().get(0x9286)", "compilation_passed": true, "time": 0.006609916687011719, "tests_passed": true, "error": null}
+{"code": " image.info.get('Comment', '')", "compilation_passed": true, "time": 0.00810694694519043, "tests_passed": true, "error": null}
+{"code": " image.getexif().get(37510)", "compilation_passed": true, "time": 0.006990671157836914, "tests_passed": true, "error": null}
+{"code": " image.getexif().get(0x9286) if image.getexif() else \"\"", "compilation_passed": true, "time": 0.006018877029418945, "tests_passed": true, "error": null}
+{"code": " image.getexif().get(0x9102, '')  # Get image comment, default to empty string", "compilation_passed": true, "time": 0.00750279426574707, "tests_passed": true, "error": null}
+{"code": " image.info[\"comment\"].decode(\"ISO-8859-1\")", "compilation_passed": true, "time": 0.008068084716796875, "tests_passed": false, "error": "TypeError"}
+{"code": " image.getexif().get(37510, \"\")  # 37510 is the EXIF tag for image comment", "compilation_passed": true, "time": 0.0059740543365478516, "tests_passed": true, "error": null}
+{"code": " image.info[\"comment\"] if image.info else None", "compilation_passed": true, "time": 0.009600162506103516, "tests_passed": false, "error": "TypeError"}
+{"code": " image.getexif().get(37510)  # 37510 is the EXIF comment tag", "compilation_passed": true, "time": 0.005736827850341797, "tests_passed": true, "error": null}

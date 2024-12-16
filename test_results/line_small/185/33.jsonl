@@ -1,0 +1,11 @@
+{"code": " []", "compilation_passed": true, "time": 0.008838176727294922, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(index=range(len(cities)))", "compilation_passed": true, "time": 0.008827924728393555, "tests_passed": false, "error": "KeyError"}
+{"code": " {'City': cities,", "compilation_passed": false, "time": 0.0002276897430419922, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=['City', 'Longitude', 'Latitude'])", "compilation_passed": true, "time": 0.008948087692260742, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'City': cities,", "compilation_passed": false, "time": 0.00024890899658203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'City': cities, 'Longitude': np.random.randint(lon_min, lon_max, len(cities)), 'Latitude': np.random.randint(lat_min, lat_max, len(cities))}", "compilation_passed": true, "time": 0.015311241149902344, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(index=range(len(cities)), columns=['City', 'Longitude', 'Latitude'])", "compilation_passed": true, "time": 0.009570598602294922, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.uniform(lon_min, lon_max, size=100)", "compilation_passed": true, "time": 0.009431123733520508, "tests_passed": false, "error": "IndexError"}
+{"code": " {}", "compilation_passed": true, "time": 0.012892007827758789, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'City': cities, 'Longitude': np.random.randint(lon_min, lon_max, len(cities)),", "compilation_passed": false, "time": 0.00024199485778808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'City': cities, 'Lon': np.random.uniform(lon_min, lon_max, len(cities)), 'Lat': np.random.uniform(lat_min, lat_max, len(cities))}", "compilation_passed": true, "time": 0.009676933288574219, "tests_passed": false, "error": "KeyError"}

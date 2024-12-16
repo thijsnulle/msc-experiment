@@ -1,0 +1,29 @@
+{"code": "heatmap(shuffled_array, yticklabels=False, ax=ax, xticklabels=features or [str(i) for i in range(1, shuffled_array.shape[1]+1)], cmap='viridis', annot=True)", "compilation_passed": false, "time": 0.0004458427429199219, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, yticklabels=1, xticklabels=features or np.arange(1, shuffled_array.shape[1] + 1), ax=ax)", "compilation_passed": false, "time": 0.00031375885009765625, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, ax=ax, yticklabels=False, cmap='coolwarm', cbar=False)", "compilation_passed": false, "time": 0.0003180503845214844, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, annot=True, ax=ax, cmap='viridis', cbar=False)", "compilation_passed": false, "time": 0.0004558563232421875, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, annot=True, fmt='.3f', ax=ax, cmap=\"viridis\", xticklabels=features)", "compilation_passed": false, "time": 0.0006382465362548828, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, annot=True, fmt='.4f', ax=ax)", "compilation_passed": false, "time": 0.0004801750183105469, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, ax=ax, cmap='viridis')", "compilation_passed": false, "time": 0.000640869140625, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, cmap=\"Blues\", annot=True, fmt=\".2f\", xticklabels=features, ax=ax)", "compilation_passed": false, "time": 0.0005886554718017578, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, annot=True, fmt='.3f', ax=ax)", "compilation_passed": false, "time": 0.0007660388946533203, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, ax=ax)", "compilation_passed": false, "time": 0.000621795654296875, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, cmap=\"YlGnBu\", ax=ax)", "compilation_passed": false, "time": 0.0007081031799316406, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, ax=ax, cmap=\"Reds\", cbar=False)", "compilation_passed": false, "time": 0.0006811618804931641, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array,", "compilation_passed": true, "time": 0.07048702239990234, "tests_passed": false, "error": "TypeError"}
+{"code": "heatmap(shuffled_array, linewidth=0.5, ax=ax)", "compilation_passed": false, "time": 0.0006158351898193359, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, cmap=sns.color_palette(\"rocket\", as_cmap=True), ax=ax)", "compilation_passed": false, "time": 0.002277851104736328, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, annot=True, fmt='.3f', ax=ax, cmap='viridis',", "compilation_passed": false, "time": 0.0005791187286376953, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(shuffled_array, yticklabels=False, cbar=False, ax=ax)", "compilation_passed": false, "time": 0.0007331371307373047, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, ax=ax, cbar=False, xticklabels=features if features else np.arange(shuffled_array.shape[1]) + 1,", "compilation_passed": false, "time": 0.0010898113250732422, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(shuffled_array, linewidth=.1, ax=ax, yticklabels=False,", "compilation_passed": false, "time": 0.00080108642578125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(shuffled_array, annot=True, xticklabels=features if features else [str(i) for i in range(1, array.shape[1]+1)], yticklabels=False, ax=ax)", "compilation_passed": false, "time": 0.0006117820739746094, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, ax=ax, cmap=\"coolwarm\",", "compilation_passed": false, "time": 0.0009150505065917969, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(shuffled_array, ax=ax, yticklabels=False, cmap=\"YlGnBu\")", "compilation_passed": false, "time": 0.0006840229034423828, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, annot=True, ax=ax,", "compilation_passed": false, "time": 0.0006010532379150391, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(shuffled_array, ax=ax, xticklabels=features if features else range(1, shuffled_array.shape[1]+1), cmap=sns.color_palette(\"coolwarm\", as_cmap=True))", "compilation_passed": false, "time": 0.0005180835723876953, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, ax=ax, xticklabels=features if features is not None else np.arange(1, shuffled_array.shape[1] + 1))", "compilation_passed": false, "time": 0.00041985511779785156, "tests_passed": false, "error": "IndentationError"}
+{"code": "heatmap(shuffled_array, ax=ax, cmap=\"YlGn\", yticklabels=False,", "compilation_passed": false, "time": 0.0007822513580322266, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(shuffled_array, cmap='Reds', annot=True, fmt='.2f',", "compilation_passed": false, "time": 0.0006041526794433594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(shuffled_array, ax=ax, yticklabels=False,", "compilation_passed": false, "time": 0.0007617473602294922, "tests_passed": false, "error": "SyntaxError"}
+{"code": "heatmap(shuffled_array, ax=ax, cbar=False, linewidths=.5, cmap='Blues')", "compilation_passed": false, "time": 0.0029392242431640625, "tests_passed": false, "error": "IndentationError"}

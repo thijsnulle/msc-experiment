@@ -1,0 +1,17 @@
+{"code": " re.compile(r'\\b(' + '|'.join(mapping.keys()) + r')\\b')", "compilation_passed": true, "time": 0.007437229156494141, "tests_passed": true, "error": null}
+{"code": " re.compile(r'\\b(%s)\\b' % '|'.join(map(re.escape, mapping.keys())))", "compilation_passed": true, "time": 0.006127834320068359, "tests_passed": true, "error": null}
+{"code": " re.compile(r'\\b({})\\b'.format('|'.join(mapping.keys())), flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.005387067794799805, "tests_passed": true, "error": null}
+{"code": " re.compile('|'.join(mapping.keys()))", "compilation_passed": true, "time": 0.0055539608001708984, "tests_passed": true, "error": null}
+{"code": " re.compile('|'.join(re.escape(key) for key in mapping.keys()))", "compilation_passed": true, "time": 0.0052378177642822266, "tests_passed": true, "error": null}
+{"code": " r'\\b({})\\b'.format('|'.join(map(re.escape, mapping.keys())))", "compilation_passed": true, "time": 0.019234180450439453, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile('|'.join(re.escape(k) for k in mapping.keys()), flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.00546717643737793, "tests_passed": true, "error": null}
+{"code": " re.compile(r'\\b({})\\b'.format('|'.join(mapping.keys())))", "compilation_passed": true, "time": 0.00498199462890625, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"(?<=\\W|^)({})(?=\\W|$)\".format(\"|\".join(map(re.escape, mapping.keys()))))", "compilation_passed": true, "time": 0.011168956756591797, "tests_passed": false, "error": "re.error"}
+{"code": " r'\\b(' + '|'.join(mapping.keys()) + r')\\b'", "compilation_passed": true, "time": 0.01955890655517578, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"|\".join([re.escape(k) for k in mapping.keys()])", "compilation_passed": true, "time": 0.01929616928100586, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\b({})\\b\".format(r\"|\".join(map(re.escape, mapping.keys())))", "compilation_passed": true, "time": 0.017894983291625977, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.compile(r'\\b(%s)\\b' % r'|'.join(mapping.keys()), re.IGNORECASE)", "compilation_passed": true, "time": 0.006202220916748047, "tests_passed": true, "error": null}
+{"code": " '|'.join(map(re.escape, mapping.keys()))", "compilation_passed": true, "time": 0.017177104949951172, "tests_passed": false, "error": "AttributeError"}
+{"code": " r\"\\b(\" + \"|\".join(map(re.escape, mapping.keys())) + r\")\\b\"", "compilation_passed": true, "time": 0.014793157577514648, "tests_passed": false, "error": "AttributeError"}
+{"code": " r'\\b(' + '|'.join(re.escape(key) for key in mapping.keys()) + r')\\b'", "compilation_passed": true, "time": 0.014623880386352539, "tests_passed": false, "error": "AttributeError"}
+{"code": " '(' + '|'.join(mapping.keys()) + ')'", "compilation_passed": true, "time": 0.01628422737121582, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,5 @@
+{"code": " df['list'].apply(lambda x: ast.literal_eval(x))", "compilation_passed": true, "time": 0.16698598861694336, "tests_passed": true, "error": null}
+{"code": " df['list'].apply(ast.literal_eval)  # Convert 'list' column to a list of integers", "compilation_passed": true, "time": 0.17837095260620117, "tests_passed": true, "error": null}
+{"code": " df['list'].apply(ast.literal_eval)", "compilation_passed": true, "time": 0.1790788173675537, "tests_passed": true, "error": null}
+{"code": " df['list'].apply(ast.literal_eval)  # Convert list-like strings to lists", "compilation_passed": true, "time": 0.17897486686706543, "tests_passed": true, "error": null}
+{"code": " df['list'].apply(lambda x: ast.literal_eval(x))  # Convert the list-like string into an actual list", "compilation_passed": true, "time": 0.1843268871307373, "tests_passed": true, "error": null}

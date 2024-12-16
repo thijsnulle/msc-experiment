@@ -1,0 +1,14 @@
+{"code": "df.columns)", "compilation_passed": true, "time": 0.08804726600646973, "tests_passed": false, "error": "ValueError"}
+{"code": "df.columns.to_list()).T", "compilation_passed": true, "time": 0.0905599594116211, "tests_passed": false, "error": "ValueError"}
+{"code": "df.columns.tolist()).T", "compilation_passed": true, "time": 0.08977198600769043, "tests_passed": false, "error": "ValueError"}
+{"code": "df.columns).T", "compilation_passed": true, "time": 0.08861899375915527, "tests_passed": false, "error": "ValueError"}
+{"code": "df.columns[df.dtypes != 'object'])", "compilation_passed": true, "time": 0.08915925025939941, "tests_passed": false, "error": "ValueError"}
+{"code": "list(df.columns)[1:])", "compilation_passed": true, "time": 0.09864330291748047, "tests_passed": false, "error": "KeyError"}
+{"code": "df.columns[1:])", "compilation_passed": true, "time": 0.10073995590209961, "tests_passed": false, "error": "KeyError"}
+{"code": "df.columns.tolist()).T.stack().unstack(1)", "compilation_passed": true, "time": 0.09116291999816895, "tests_passed": false, "error": "ValueError"}
+{"code": "df.columns.tolist())", "compilation_passed": true, "time": 0.08957123756408691, "tests_passed": false, "error": "ValueError"}
+{"code": "df.columns[1:].tolist()).transpose()", "compilation_passed": true, "time": 0.0990750789642334, "tests_passed": false, "error": "KeyError"}
+{"code": "list(df.columns)).T", "compilation_passed": true, "time": 0.09005284309387207, "tests_passed": false, "error": "ValueError"}
+{"code": "df.columns.tolist()).transpose()", "compilation_passed": true, "time": 0.08894824981689453, "tests_passed": false, "error": "ValueError"}
+{"code": "df.columns[df.columns != 'Name'])", "compilation_passed": true, "time": 0.0867910385131836, "tests_passed": false, "error": "ValueError"}
+{"code": "df.columns[1:]).transpose()", "compilation_passed": true, "time": 0.09842491149902344, "tests_passed": false, "error": "KeyError"}

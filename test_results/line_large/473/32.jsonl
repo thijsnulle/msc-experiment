@@ -1,0 +1,17 @@
+{"code": " not (", "compilation_passed": false, "time": 0.00017786026000976562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not (isinstance(n_walks, int) or isinstance(n_steps, int)):", "compilation_passed": true, "time": 3.490508794784546, "tests_passed": false, "error": "TimeoutError"}
+{"code": " n_steps <= 0 or n_walks <= 0:", "compilation_passed": true, "time": 0.056208133697509766, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(n_walks, int) or not isinstance(n_steps, int) or n_walks < 1 or n_steps < 1:", "compilation_passed": true, "time": 0.05365586280822754, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(n_walks, int) or n_walks <= 0:", "compilation_passed": true, "time": 0.04810905456542969, "tests_passed": false, "error": "ValueError"}
+{"code": " seed:", "compilation_passed": true, "time": 0.018059968948364258, "tests_passed": false, "error": "ValueError"}
+{"code": " n_walks <= 0 or n_walks >= 8:", "compilation_passed": true, "time": 0.05549883842468262, "tests_passed": false, "error": "ValueError"}
+{"code": " n_walks <= 0 or n_steps <= 0:", "compilation_passed": true, "time": 0.06876778602600098, "tests_passed": false, "error": "ValueError"}
+{"code": " n_walks <= 0:", "compilation_passed": true, "time": 0.07266783714294434, "tests_passed": false, "error": "ValueError"}
+{"code": " n_walks < 1:", "compilation_passed": true, "time": 0.04893898963928223, "tests_passed": false, "error": "ValueError"}
+{"code": " n_walks < 1 or n_walks > 7:", "compilation_passed": true, "time": 0.06635379791259766, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(n_walks, int) or not isinstance(n_steps, int):", "compilation_passed": true, "time": 0.6453061103820801, "tests_passed": true, "error": null}
+{"code": " not (isinstance(n_walks, int) and isinstance(n_steps, int)):", "compilation_passed": true, "time": 0.7236800193786621, "tests_passed": true, "error": null}
+{"code": " n_walks < 1 or type(n_walks) != int:", "compilation_passed": true, "time": 0.04784369468688965, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(n_walks, int) or not isinstance(n_steps, int) or not isinstance(seed, int):", "compilation_passed": true, "time": 0.8251907825469971, "tests_passed": true, "error": null}
+{"code": " not isinstance(n_walks, int) or not isinstance(n_steps, int) or not isinstance(seed, (int, type(None))):", "compilation_passed": true, "time": 0.8394870758056641, "tests_passed": true, "error": null}
+{"code": " n_steps <= 1 or n_walks <= 1:", "compilation_passed": true, "time": 0.05944204330444336, "tests_passed": false, "error": "ValueError"}

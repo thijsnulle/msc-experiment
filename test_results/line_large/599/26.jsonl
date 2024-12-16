@@ -1,0 +1,8 @@
+{"code": " df[df['Word'].str.match(regex)]", "compilation_passed": true, "time": 0.032025814056396484, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.contains(regex, case=False)]", "compilation_passed": true, "time": 0.030690670013427734, "tests_passed": true, "error": null}
+{"code": " df.loc[df['Word'].str.match(regex)]", "compilation_passed": true, "time": 0.03429698944091797, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.lower().str.match(regex)]", "compilation_passed": true, "time": 0.030274152755737305, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.contains(regex)]", "compilation_passed": true, "time": 0.03621506690979004, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.lower().str.contains(regex)]", "compilation_passed": true, "time": 0.030228853225708008, "tests_passed": true, "error": null}
+{"code": " df[df['Word'].str.lower().str.match(regex)].assign(Length=df['Word'].str.len())", "compilation_passed": true, "time": 0.03173017501831055, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df['Word'].str.lower().str.startswith(letter) == True]", "compilation_passed": true, "time": 0.03178000450134277, "tests_passed": true, "error": null}

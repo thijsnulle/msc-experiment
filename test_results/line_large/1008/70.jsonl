@@ -1,0 +1,8 @@
+{"code": " pd.read_html(str(table))[0]", "compilation_passed": true, "time": 0.013309001922607422, "tests_passed": true, "error": null}
+{"code": " pd.read_html(str(table))", "compilation_passed": true, "time": 0.02241992950439453, "tests_passed": true, "error": null}
+{"code": " pd.read_html(str(table), flavor='html5lib')[0]", "compilation_passed": true, "time": 0.021691083908081055, "tests_passed": false, "error": "ImportError"}
+{"code": " pd.read_html(str(table), flavor=\"lxml\")[0]", "compilation_passed": true, "time": 0.00935816764831543, "tests_passed": true, "error": null}
+{"code": " pd.read_html(str(table), flavor=\"html5lib\")[0]", "compilation_passed": true, "time": 0.016444921493530273, "tests_passed": false, "error": "ImportError"}
+{"code": " pd.read_html(url)[0]", "compilation_passed": true, "time": 0.22713112831115723, "tests_passed": false, "error": "ImportError"}
+{"code": " pd.read_html(str(table), flavor='lxml')[0]", "compilation_passed": true, "time": 0.01253199577331543, "tests_passed": true, "error": null}
+{"code": " pd.read_html(url, flavor=\"lxml\", match=table)[0]", "compilation_passed": true, "time": 0.02021479606628418, "tests_passed": false, "error": "TypeError"}

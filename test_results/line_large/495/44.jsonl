@@ -1,0 +1,7 @@
+{"code": "set_index(\"date\", inplace=True)", "compilation_passed": true, "time": 0.0624241828918457, "tests_passed": true, "error": null}
+{"code": "loc[:, \"Groceries\":\"Miscellaneous\"] = np.random.randint(0, 101, size=(len(df), 5))", "compilation_passed": true, "time": 0.018522977828979492, "tests_passed": false, "error": "ValueError"}
+{"code": "date = df.date.dt.date", "compilation_passed": true, "time": 0.02031993865966797, "tests_passed": true, "error": null}
+{"code": "date = pd.to_datetime(df.date)", "compilation_passed": true, "time": 0.016942262649536133, "tests_passed": true, "error": null}
+{"code": "set_index([\"date\"], inplace=True)", "compilation_passed": true, "time": 0.06488800048828125, "tests_passed": true, "error": null}
+{"code": "loc[:, [\"Groceries\", \"Entertainment\", \"Rent\", \"Utilities\", \"Miscellaneous\"]] = np.random.randint(0, 100, size=(days, 5))", "compilation_passed": true, "time": 0.017405033111572266, "tests_passed": true, "error": null}
+{"code": "date = df.date.dt.strftime(\"%Y-%m-%d\")", "compilation_passed": true, "time": 0.014065980911254883, "tests_passed": true, "error": null}

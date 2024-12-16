@@ -1,0 +1,19 @@
+{"code": " [", "compilation_passed": false, "time": 0.00048828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'Team': teams})", "compilation_passed": true, "time": 0.013962030410766602, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.6213560104370117, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()  # Empty DataFrame to store match results", "compilation_passed": true, "time": 0.022896766662597656, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'Team': teams}", "compilation_passed": true, "time": 0.013759851455688477, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.014747142791748047, "tests_passed": false, "error": "AttributeError"}
+{"code": " DataFrame(columns=('Team', 'Goals', 'Penalty'))", "compilation_passed": true, "time": 0.014927864074707031, "tests_passed": false, "error": "NameError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0005500316619873047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {", "compilation_passed": false, "time": 0.0006651878356933594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [f\"Team A scored {randint(0, goals)} goals and received {randint(0, penalties)} penalties.\",", "compilation_passed": false, "time": 0.0009872913360595703, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=['Team', 'Goals', 'Penalty Cost'])", "compilation_passed": true, "time": 0.013303041458129883, "tests_passed": false, "error": "AttributeError"}
+{"code": " {f\"{team}_{i + 1}\": {", "compilation_passed": false, "time": 0.0015149116516113281, "tests_passed": false, "error": "SyntaxError"}
+{"code": " DataFrame({'Team': teams, 'Goals': [randint(0, goals) for _ in range(len(teams))],", "compilation_passed": false, "time": 0.0005080699920654297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " generate_match_results(goals, penalties, rng_seed, teams)", "compilation_passed": true, "time": 0.031103134155273438, "tests_passed": false, "error": "NameError"}
+{"code": " generate_match_results(goals, penalties, rng_seed)", "compilation_passed": true, "time": 0.9049100875854492, "tests_passed": false, "error": "NameError"}
+{"code": " {team: randint(0, goals) for team in teams}", "compilation_passed": true, "time": 0.0055141448974609375, "tests_passed": false, "error": "AttributeError"}
+{"code": " [randint(0, goals) for _ in range(len(teams))]", "compilation_passed": true, "time": 0.01283884048461914, "tests_passed": false, "error": "ValueError"}
+{"code": " [generate_match_results(teams) for _ in teams]", "compilation_passed": true, "time": 0.008035898208618164, "tests_passed": false, "error": "NameError"}
+{"code": " generate_matches(goals, penalties, rng_seed, teams)", "compilation_passed": true, "time": 0.007464885711669922, "tests_passed": false, "error": "NameError"}

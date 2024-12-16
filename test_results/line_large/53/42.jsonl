@@ -1,0 +1,6 @@
+{"code": "append([match[0], match[1], int(match[2]), match[3]])", "compilation_passed": true, "time": 0.13965296745300293, "tests_passed": true, "error": null}
+{"code": "append(match)", "compilation_passed": true, "time": 0.015265941619873047, "tests_passed": false, "error": "ValueError"}
+{"code": "append({\"Name\": match[0], \"Email\": match[1], \"Age\": int(match[2]), \"Country\": match[3]})", "compilation_passed": true, "time": 0.14447903633117676, "tests_passed": true, "error": null}
+{"code": "append(list(match))", "compilation_passed": true, "time": 0.010341882705688477, "tests_passed": false, "error": "ValueError"}
+{"code": "append([match[0], match[1], match[2], match[3]])", "compilation_passed": true, "time": 0.1380159854888916, "tests_passed": true, "error": null}
+{"code": "append(match[:4])", "compilation_passed": true, "time": 0.08277297019958496, "tests_passed": true, "error": null}

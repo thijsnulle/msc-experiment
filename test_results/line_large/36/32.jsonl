@@ -1,0 +1,17 @@
+{"code": " (df <= 0).any().any():", "compilation_passed": true, "time": 0.17035865783691406, "tests_passed": true, "error": null}
+{"code": " (df < 0).any().any():", "compilation_passed": true, "time": 0.22114205360412598, "tests_passed": true, "error": null}
+{"code": " not df.all(axis=0).astype(float).le(0).any():", "compilation_passed": true, "time": 0.009978771209716797, "tests_passed": false, "error": "ValueError"}
+{"code": " not np.all(df >= 0):", "compilation_passed": true, "time": 0.2309560775756836, "tests_passed": true, "error": null}
+{"code": " df.max().min() <= 0:", "compilation_passed": true, "time": 0.24820899963378906, "tests_passed": true, "error": null}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.2307429313659668, "tests_passed": true, "error": null}
+{"code": " not df.all(axis=1).all():", "compilation_passed": true, "time": 0.2525448799133301, "tests_passed": true, "error": null}
+{"code": " not np.all(df.values >= 0):", "compilation_passed": true, "time": 0.23746585845947266, "tests_passed": true, "error": null}
+{"code": " not ((df >= 0).all()).all():", "compilation_passed": true, "time": 0.2563498020172119, "tests_passed": true, "error": null}
+{"code": " not (df.values >= 0).all():", "compilation_passed": true, "time": 0.24384117126464844, "tests_passed": true, "error": null}
+{"code": " df.max().max() <= 0:", "compilation_passed": true, "time": 0.2518911361694336, "tests_passed": true, "error": null}
+{"code": " not all(column.all() > 0 for column in df.values):", "compilation_passed": true, "time": 0.23936986923217773, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include='number').isin(TARGET_VALUES).any().all():", "compilation_passed": true, "time": 0.01087498664855957, "tests_passed": false, "error": "ValueError"}
+{"code": " df.min().min() < 0:", "compilation_passed": true, "time": 0.25908827781677246, "tests_passed": true, "error": null}
+{"code": " not (df[df.columns] > 0).all().all():", "compilation_passed": true, "time": 0.3305947780609131, "tests_passed": true, "error": null}
+{"code": " not df.all(axis=None, min_count=1) >= 0:", "compilation_passed": true, "time": 0.02125096321105957, "tests_passed": false, "error": "TypeError"}
+{"code": " not df.all(axis=None, skipna=False).all():", "compilation_passed": true, "time": 0.3444201946258545, "tests_passed": true, "error": null}

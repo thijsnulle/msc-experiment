@@ -1,0 +1,27 @@
+{"code": " [c for c in df.columns if c != \"id\" and df[c].dtype in (\"int64\", \"float64\")]", "compilation_passed": true, "time": 0.25859928131103516, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include='int64').columns.tolist()", "compilation_passed": true, "time": 0.01836991310119629, "tests_passed": false, "error": "ValueError"}
+{"code": " [col for col in df.columns if df[col].dtype in [np.int32, np.int64, np.float64]]", "compilation_passed": true, "time": 0.02022385597229004, "tests_passed": false, "error": "NameError"}
+{"code": " [column for column in df.columns if df[column].dtype in (int, float)][:2]", "compilation_passed": true, "time": 0.017470121383666992, "tests_passed": false, "error": "ValueError"}
+{"code": " [col for col in df.columns if df[col].dtype in ['float32', 'float64', 'int16', 'int32', 'int64']][:-1]", "compilation_passed": true, "time": 0.023090124130249023, "tests_passed": false, "error": "ValueError"}
+{"code": " [column for column in df.columns if df[column].dtype in [int, float] and column != 'id']", "compilation_passed": true, "time": 0.2552471160888672, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=['int', 'float']).columns", "compilation_passed": true, "time": 0.01512598991394043, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.select_dtypes(include='number').columns", "compilation_passed": true, "time": 0.015977859497070312, "tests_passed": false, "error": "AttributeError"}
+{"code": " [col for col in df.columns if pd.api.types.is_float_dtype(df[col])]", "compilation_passed": true, "time": 0.018164396286010742, "tests_passed": false, "error": "ValueError"}
+{"code": " [col for col in df.columns if col != 'id' and df[col].dtype.kind in 'iuf']", "compilation_passed": true, "time": 0.2913839817047119, "tests_passed": true, "error": null}
+{"code": " [c for c in df.columns if df[c].dtype in (int, float)]", "compilation_passed": true, "time": 0.3047001361846924, "tests_passed": true, "error": null}
+{"code": " [col for col in df.columns if col != 'id']", "compilation_passed": true, "time": 0.10151791572570801, "tests_passed": true, "error": null}
+{"code": " list(df.select_dtypes(include=np.number).columns.drop([\"id\"]))", "compilation_passed": true, "time": 0.030421018600463867, "tests_passed": false, "error": "NameError"}
+{"code": " df.select_dtypes(include=[int, float, complex]).columns.tolist()[1:]", "compilation_passed": true, "time": 0.2775239944458008, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=['float', 'int']).columns.tolist()", "compilation_passed": true, "time": 0.26538705825805664, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=['float', 'int']).columns.to_list()[1:]", "compilation_passed": true, "time": 0.2801027297973633, "tests_passed": true, "error": null}
+{"code": " [c for c in df.columns if c != 'id' and df[c].dtype in ('float64', 'int64')]", "compilation_passed": true, "time": 0.28746509552001953, "tests_passed": true, "error": null}
+{"code": " [col for col in df.columns if df[col].dtype in ('int64', 'float64') and col != 'id']", "compilation_passed": true, "time": 0.4322381019592285, "tests_passed": true, "error": null}
+{"code": " list(df.select_dtypes(include=[int, float]).columns)", "compilation_passed": true, "time": 0.2906959056854248, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include='number').columns.tolist()", "compilation_passed": true, "time": 0.35875678062438965, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=np.number).columns.tolist()", "compilation_passed": true, "time": 0.019737958908081055, "tests_passed": false, "error": "NameError"}
+{"code": " df.select_dtypes(include=[int, float]).columns.tolist()", "compilation_passed": true, "time": 0.29178905487060547, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=[int, float, pd.Int64Dtype()]).columns", "compilation_passed": true, "time": 0.015462875366210938, "tests_passed": false, "error": "AttributeError"}
+{"code": " [", "compilation_passed": false, "time": 0.0001900196075439453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [col for col in df.columns if col != 'id' and df[col].dtype in [np.dtype('int64'), np.dtype('float64')]]", "compilation_passed": true, "time": 0.019122838973999023, "tests_passed": false, "error": "NameError"}
+{"code": " [col for col in df.columns if pd.api.types.is_numeric_dtype(df[col]) and col != 'id']", "compilation_passed": true, "time": 0.26172900199890137, "tests_passed": true, "error": null}
+{"code": " [col for col in df.columns if df[col].dtype in [int, float] and col != 'id'][:2]", "compilation_passed": true, "time": 0.26753997802734375, "tests_passed": true, "error": null}

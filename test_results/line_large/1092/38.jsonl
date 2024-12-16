@@ -1,0 +1,10 @@
+{"code": "append(ast.literal_eval(script.text))", "compilation_passed": true, "time": 0.0070149898529052734, "tests_passed": true, "error": null}
+{"code": "append(ast.literal_eval(script.string))", "compilation_passed": true, "time": 0.006871938705444336, "tests_passed": true, "error": null}
+{"code": "extend([ast.literal_eval(node) for node in ast.walk(ast.parse(script.string)) if isinstance(node, ast.Dict)])", "compilation_passed": true, "time": 0.007085084915161133, "tests_passed": true, "error": null}
+{"code": "append(ast.literal_eval(script.text.strip()))", "compilation_passed": true, "time": 0.0068738460540771484, "tests_passed": true, "error": null}
+{"code": "append(eval(script.text))", "compilation_passed": true, "time": 0.0068302154541015625, "tests_passed": true, "error": null}
+{"code": "append(eval(script.string))", "compilation_passed": true, "time": 0.006752967834472656, "tests_passed": true, "error": null}
+{"code": "extend([ast.literal_eval(r) for r in script.string.split('\\n') if r])", "compilation_passed": true, "time": 0.0056607723236083984, "tests_passed": true, "error": null}
+{"code": "append(eval(ast.literal_eval(script.text.strip())))", "compilation_passed": true, "time": 0.011536836624145508, "tests_passed": false, "error": "TypeError"}
+{"code": "extend(eval(script.string))", "compilation_passed": true, "time": 0.00687408447265625, "tests_passed": true, "error": null}
+{"code": "extend(ast.literal_eval(script.text))", "compilation_passed": true, "time": 0.0057790279388427734, "tests_passed": true, "error": null}

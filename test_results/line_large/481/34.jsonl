@@ -1,0 +1,21 @@
+{"code": " s.split(\",\")", "compilation_passed": true, "time": 0.008066654205322266, "tests_passed": true, "error": null}
+{"code": " re.sub(\"[ ]+\", \" \", s.strip()).split(',')", "compilation_passed": true, "time": 0.010473012924194336, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[,\\s]+', ', ', s).split(', ')", "compilation_passed": true, "time": 0.008926153182983398, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\w+\", s)", "compilation_passed": true, "time": 0.013316869735717773, "tests_passed": true, "error": null}
+{"code": " re.split(r'\\s*,\\s*', s)", "compilation_passed": true, "time": 0.008908987045288086, "tests_passed": true, "error": null}
+{"code": " re.split(r\",\\s*\", s)", "compilation_passed": true, "time": 0.010724067687988281, "tests_passed": true, "error": null}
+{"code": " re.split(r'\\s*,\\s*', s.strip())", "compilation_passed": true, "time": 0.008385181427001953, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s*,\\s*\", \", \", s).split(\", \")  # normalize whitespace", "compilation_passed": true, "time": 0.008846044540405273, "tests_passed": true, "error": null}
+{"code": " s.split(',')", "compilation_passed": true, "time": 0.0060138702392578125, "tests_passed": true, "error": null}
+{"code": " re.sub(\"[ ,]\", \"\", s)", "compilation_passed": true, "time": 0.009135961532592773, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\s*,\\s*\", s)  # split on comma-separated substrings", "compilation_passed": true, "time": 0.007749080657958984, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+|,', s)", "compilation_passed": true, "time": 0.006352901458740234, "tests_passed": true, "error": null}
+{"code": " re.findall('[^,]*\\w[^,]*', s)", "compilation_passed": true, "time": 0.00709986686706543, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s*,\\s*\", \",\", s).split(\",\")", "compilation_passed": true, "time": 0.008136987686157227, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00018310546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " re.split(', *', s)", "compilation_passed": true, "time": 0.010684967041015625, "tests_passed": true, "error": null}
+{"code": " re.split(r', *', s)", "compilation_passed": true, "time": 0.010130882263183594, "tests_passed": true, "error": null}
+{"code": " re.sub(r' *, *', ',', s).split(\",\")", "compilation_passed": true, "time": 0.008893966674804688, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+(?:, ?\\w+)*', s)", "compilation_passed": true, "time": 0.006781101226806641, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\s*,\\s*\", \", \", s).split(\", \")", "compilation_passed": true, "time": 0.008186817169189453, "tests_passed": true, "error": null}
+{"code": " s.split(\", \")", "compilation_passed": true, "time": 0.008482694625854492, "tests_passed": true, "error": null}

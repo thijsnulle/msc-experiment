@@ -1,0 +1,5 @@
+{"code": " {item: counter[item] for item in items if item in counter}", "compilation_passed": true, "time": 0.0791630744934082, "tests_passed": false, "error": "TypeError"}
+{"code": " {item: counter[item] for item in items}", "compilation_passed": true, "time": 0.08736205101013184, "tests_passed": false, "error": "TypeError"}
+{"code": " [counter[item] for item in items]", "compilation_passed": true, "time": 0.6016950607299805, "tests_passed": true, "error": null}
+{"code": " [counter.get(item, 0) for item in items]", "compilation_passed": true, "time": 0.5888707637786865, "tests_passed": true, "error": null}
+{"code": " {item: counter.get(item, 0) for item in items}", "compilation_passed": true, "time": 0.07817506790161133, "tests_passed": false, "error": "TypeError"}

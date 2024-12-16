@@ -1,0 +1,23 @@
+{"code": " pd.DataFrame(vegetable_counter)", "compilation_passed": true, "time": 0.009920835494995117, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00022220611572265625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.01076197624206543, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'Vegetable': vegetable_counter.keys(),", "compilation_passed": false, "time": 0.00021576881408691406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(vegetable_counter, index=[\"Count\", \"Percentage\"])", "compilation_passed": true, "time": 0.021528005599975586, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame([", "compilation_passed": false, "time": 0.00020813941955566406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(vegetable_counter, index=['Count', 'Percentage'],", "compilation_passed": false, "time": 0.00021314620971679688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(vegetable_counter.most_common())", "compilation_passed": true, "time": 0.008975982666015625, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=list(vegetable_counter.items()), columns=['Vegetable', 'Count'])", "compilation_passed": true, "time": 0.006534099578857422, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Count': vegetable_counter.values(),", "compilation_passed": false, "time": 0.0002167224884033203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame.from_dict(vegetable_counter, orient='index')", "compilation_passed": true, "time": 0.009823799133300781, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(list(zip(reversed_dict.keys(), vegetable_counter.values())))", "compilation_passed": true, "time": 0.010548114776611328, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(vegetable_counter, index=list(reversed_dict.keys()), columns=['Count', 'Percentage'])", "compilation_passed": true, "time": 0.01343393325805664, "tests_passed": false, "error": "ZeroDivisionError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'vegetable': vegetable_counter.keys(), 'Count': vegetable_counter.values()})", "compilation_passed": true, "time": 0.006574869155883789, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(vegetable_counter.items(), columns=['Vegetable', 'Count'])", "compilation_passed": true, "time": 0.006676912307739258, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([[vegetable, vegetable_counter[vegetable], (vegetable_counter[vegetable] / sum(vegetable_counter.values()) * 100)] for vegetable in VEGETABLES if vegetable in vegetable_counter])", "compilation_passed": true, "time": 0.009217023849487305, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(vegetable_counter).T", "compilation_passed": true, "time": 0.009098052978515625, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame.from_dict(vegetable_counter, orient='index', columns=['Count', 'Percentage'])", "compilation_passed": true, "time": 0.00863790512084961, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame.from_dict(vegetable_counter)", "compilation_passed": true, "time": 0.008624792098999023, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(vegetable_counter.most_common(), columns=['Count', 'Percentage'])", "compilation_passed": true, "time": 0.009266138076782227, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(data=[(vegetable, vegetable_counter[vegetable], (vegetable_counter[vegetable] / sum(vegetable_counter.values()))) for vegetable in VEGETABLES], columns=['Count', 'Random Count', 'Percentage'])", "compilation_passed": true, "time": 0.00942683219909668, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(vegetable_counter.most_common(), columns=['Name', 'Count'])", "compilation_passed": true, "time": 0.007448911666870117, "tests_passed": true, "error": null}

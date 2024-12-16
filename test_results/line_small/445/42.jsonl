@@ -1,0 +1,6 @@
+{"code": " Voronoi(jittered_points)", "compilation_passed": true, "time": 0.07506513595581055, "tests_passed": true, "error": null}
+{"code": " Voronoi(jittered_points, furthest=True)", "compilation_passed": true, "time": 0.011466026306152344, "tests_passed": false, "error": "TypeError"}
+{"code": " Voronoi(jittered_points, furthest_site=False)", "compilation_passed": true, "time": 0.07342100143432617, "tests_passed": true, "error": null}
+{"code": " Voronoi(jittered_points, qhull_options='QJ')", "compilation_passed": true, "time": 0.06962990760803223, "tests_passed": false, "error": ""}
+{"code": " Voronoi(jittered_points, furthest_site=True)", "compilation_passed": true, "time": 0.07343196868896484, "tests_passed": false, "error": ""}
+{"code": " Voronoi(jittered_points, furthest_site_distance=1.5 * max(voronoi_plot_2d.dist(jittered_points).flat))", "compilation_passed": true, "time": 0.012887954711914062, "tests_passed": false, "error": "AttributeError"}

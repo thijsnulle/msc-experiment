@@ -1,0 +1,12 @@
+{"code": " np.array(list(chain(*L))).reshape(-1, 1)", "compilation_passed": true, "time": 0.3794381618499756, "tests_passed": true, "error": null}
+{"code": " list(chain(*L))", "compilation_passed": true, "time": 0.39278197288513184, "tests_passed": true, "error": null}
+{"code": " list(chain.from_iterable(L))", "compilation_passed": true, "time": 0.33657288551330566, "tests_passed": true, "error": null}
+{"code": " np.array(list(chain.from_iterable(L)))", "compilation_passed": true, "time": 0.37628912925720215, "tests_passed": true, "error": null}
+{"code": " np.array(list(chain(*L)))", "compilation_passed": true, "time": 0.34387874603271484, "tests_passed": true, "error": null}
+{"code": " np.array(list(chain.from_iterable(L))).reshape(-1, 1)", "compilation_passed": true, "time": 0.35320496559143066, "tests_passed": true, "error": null}
+{"code": " [x for x in chain.from_iterable(L)]", "compilation_passed": true, "time": 0.38338494300842285, "tests_passed": true, "error": null}
+{"code": " np.array(list(chain(*L))).reshape(-1, 1)  # Convert to a NumPy array of shape (n_samples, 1)", "compilation_passed": true, "time": 0.4035520553588867, "tests_passed": true, "error": null}
+{"code": " np.array(L)", "compilation_passed": true, "time": 0.3474748134613037, "tests_passed": true, "error": null}
+{"code": " list(chain.from_iterable(L))  # Flatten the input list into a single list", "compilation_passed": true, "time": 0.36244988441467285, "tests_passed": true, "error": null}
+{"code": " np.asarray(list(chain.from_iterable(L)))  # convert list of lists into array of ints", "compilation_passed": true, "time": 0.3970623016357422, "tests_passed": true, "error": null}
+{"code": " [list(chain.from_iterable(L))]", "compilation_passed": true, "time": 0.4648890495300293, "tests_passed": true, "error": null}

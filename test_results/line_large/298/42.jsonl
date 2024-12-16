@@ -1,0 +1,24 @@
+{"code": " pd.concat([df, pd.DataFrame(df['Value'].tolist())], axis=1)", "compilation_passed": true, "time": 0.021837234497070312, "tests_passed": false, "error": "TypeError"}
+{"code": " df.set_index('Date')", "compilation_passed": true, "time": 0.017822980880737305, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.concat([", "compilation_passed": false, "time": 0.00017213821411132812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.concat([df['Date'], pd.DataFrame(df['Value'].tolist())], axis=1, keys=['Date'])", "compilation_passed": true, "time": 0.016180992126464844, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.concat([df['Date'], pd.DataFrame(df['Value'].apply(pd.Series)).apply(StandardScaler().fit_transform)],", "compilation_passed": false, "time": 0.00025177001953125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.concat([df.assign(**{f'Value_{i}': val[i] for i in range(len(val))}) for _, val in df.iterrows()], axis=1)", "compilation_passed": true, "time": 0.016618967056274414, "tests_passed": true, "error": null}
+{"code": " pd.concat([df.pop('Date'), pd.DataFrame(df.pop('Value').to_list())], axis=1)", "compilation_passed": true, "time": 0.18831682205200195, "tests_passed": true, "error": null}
+{"code": " pd.concat([df.drop('Value', axis=1).join(pd.DataFrame(df['Value'].values.tolist()).set_index(df.index))], axis=1)", "compilation_passed": true, "time": 0.1925489902496338, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={'Value': 'Value List'})", "compilation_passed": true, "time": 0.013323068618774414, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.concat([df.assign(**{f'Scaled Value {i}': v}) for i, v in enumerate(df['Value'].apply(lambda x: StandardScaler().fit_transform(x.reshape(-1, 1))).values)], axis=1)", "compilation_passed": true, "time": 0.02405405044555664, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame([sub for val in df['Value'] for sub in val], columns=df['Value'].iloc[0])", "compilation_passed": true, "time": 0.01154184341430664, "tests_passed": false, "error": "ValueError"}
+{"code": " df.explode('Value')", "compilation_passed": true, "time": 0.013849973678588867, "tests_passed": true, "error": null}
+{"code": " pd.concat([df, pd.DataFrame(df['Value'].tolist(), index=df.index)], axis=1)", "compilation_passed": true, "time": 0.011490106582641602, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.concat([df[['Date']], pd.DataFrame(df['Value'].tolist())], axis=1)", "compilation_passed": true, "time": 0.20076513290405273, "tests_passed": true, "error": null}
+{"code": " pd.concat([df[['Date']], pd.DataFrame(df['Value'].explode().values.tolist())], axis=1)", "compilation_passed": true, "time": 0.013387918472290039, "tests_passed": true, "error": null}
+{"code": " df.join(df['Value'].apply(pd.Series))", "compilation_passed": true, "time": 0.01253819465637207, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.concat([df['Date'], df['Value'].apply(pd.Series)], axis=1)", "compilation_passed": true, "time": 0.19315099716186523, "tests_passed": true, "error": null}
+{"code": " pd.concat([df.join(pd.DataFrame(df['Value'].values.tolist(), columns=['Scaled Value' for i in range(len(df['Value'][0]))]))], axis=1)", "compilation_passed": true, "time": 0.01837611198425293, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.concat([df['Date'], pd.DataFrame(df['Value'].tolist())], axis=1)", "compilation_passed": true, "time": 0.18835997581481934, "tests_passed": true, "error": null}
+{"code": " pd.concat([df.drop(['Value'], axis=1).reset_index(drop=True),", "compilation_passed": false, "time": 0.0002522468566894531, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.concat([df, df['Value'].explode()], axis=1).drop('Value', axis=1)", "compilation_passed": true, "time": 0.01720285415649414, "tests_passed": false, "error": "ValueError"}
+{"code": " df.join(pd.DataFrame(df['Value'].tolist()).fillna(0))", "compilation_passed": true, "time": 0.012803792953491211, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.concat([df, pd.DataFrame(df['Value'].tolist(), index=df.index)], axis=1).drop('Value', axis=1)", "compilation_passed": true, "time": 0.19971990585327148, "tests_passed": true, "error": null}
+{"code": " pd.concat([df['Date'], pd.DataFrame([{'V{}'.format(i): v[i] for i in range(len(v))} for v in df['Value'].values])], axis=1)", "compilation_passed": true, "time": 0.20690703392028809, "tests_passed": true, "error": null}

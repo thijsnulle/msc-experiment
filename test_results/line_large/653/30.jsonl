@@ -1,0 +1,17 @@
+{"code": " dataframe.applymap(lambda x: target_value in str(x))", "compilation_passed": true, "time": 0.4358408451080322, "tests_passed": true, "error": null}
+{"code": " dataframe == target_value", "compilation_passed": true, "time": 0.49879026412963867, "tests_passed": true, "error": null}
+{"code": " dataframe.applymap(", "compilation_passed": false, "time": 0.0002200603485107422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dataframe.isin([target_value])", "compilation_passed": true, "time": 0.8474068641662598, "tests_passed": true, "error": null}
+{"code": " dataframe.applymap(lambda x: x == target_value)  # Searching for the target value in the input DataFrame and storing the Boolean values in 'mask'.", "compilation_passed": true, "time": 0.9854810237884521, "tests_passed": true, "error": null}
+{"code": " dataframe.astype(str).apply(lambda x: target_value in x.astype(str))", "compilation_passed": true, "time": 0.13557195663452148, "tests_passed": false, "error": "IndexError"}
+{"code": " dataframe.applymap(lambda x: x == target_value)", "compilation_passed": true, "time": 0.7088382244110107, "tests_passed": true, "error": null}
+{"code": " dataframe.astype(str).applymap(", "compilation_passed": false, "time": 0.000209808349609375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dataframe.applymap(lambda x: str(x).startswith(str(target_value)))", "compilation_passed": true, "time": 0.6639549732208252, "tests_passed": true, "error": null}
+{"code": " dataframe.applymap(lambda x: True if target_value in str(x) else False)", "compilation_passed": true, "time": 0.7239997386932373, "tests_passed": true, "error": null}
+{"code": " dataframe.isin([target_value])  # \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c \u043c\u0435\u0442\u043e\u0434 isin \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430 \u043f\u043e\u0434\u0441\u0442\u0440\u043e\u043a\u0438", "compilation_passed": true, "time": 0.7188119888305664, "tests_passed": true, "error": null}
+{"code": " dataframe.applymap(lambda x: True if str(x) == target_value else False)", "compilation_passed": true, "time": 0.6290826797485352, "tests_passed": true, "error": null}
+{"code": " dataframe.eq(target_value)  # Create a mask of boolean values indicating the presence of the target value", "compilation_passed": true, "time": 0.5641200542449951, "tests_passed": true, "error": null}
+{"code": " dataframe.isin([target_value])  # Create a boolean mask", "compilation_passed": true, "time": 0.5357556343078613, "tests_passed": true, "error": null}
+{"code": " dataframe.applymap(lambda x: True if str(target_value) in str(x) else False)", "compilation_passed": true, "time": 0.47556495666503906, "tests_passed": true, "error": null}
+{"code": " dataframe.astype(str).apply(lambda x: x.str.contains(target_value))", "compilation_passed": true, "time": 0.6330921649932861, "tests_passed": true, "error": null}
+{"code": " dataframe.apply(lambda x: x == target_value, axis=0)", "compilation_passed": true, "time": 0.5674726963043213, "tests_passed": true, "error": null}

@@ -1,0 +1,8 @@
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.01425480842590332, "tests_passed": true, "error": null}
+{"code": " selected_df", "compilation_passed": true, "time": 0.01005101203918457, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()  # Return an empty DataFrame if the selection is empty", "compilation_passed": true, "time": 0.01034092903137207, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=df.columns)", "compilation_passed": true, "time": 0.009274959564208984, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()  # Return an empty DataFrame if no rows satisfy the condition", "compilation_passed": true, "time": 0.00912618637084961, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({})", "compilation_passed": true, "time": 0.008986234664916992, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({col: [] for col in selected_df.columns})", "compilation_passed": true, "time": 0.007910013198852539, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()  # Return an empty DataFrame", "compilation_passed": true, "time": 0.009021997451782227, "tests_passed": true, "error": null}

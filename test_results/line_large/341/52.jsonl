@@ -1,0 +1,10 @@
+{"code": "stripplot(x=col, y=df[col], data=df, ax=axes[1], color='grey')", "compilation_passed": true, "time": 0.24101567268371582, "tests_passed": true, "error": null}
+{"code": "stripplot(x=col, y=df[col], ax=axes[1])", "compilation_passed": true, "time": 0.08987689018249512, "tests_passed": false, "error": "ValueError"}
+{"code": "stripplot(x=df[col], ax=axes[1])", "compilation_passed": true, "time": 0.23743796348571777, "tests_passed": true, "error": null}
+{"code": "stripplot(y=df[col], ax=axes[1])", "compilation_passed": true, "time": 0.2370588779449463, "tests_passed": true, "error": null}
+{"code": "stripplot(x=df[col], y=range(len(df)), ax=axes[1])", "compilation_passed": true, "time": 0.2436208724975586, "tests_passed": true, "error": null}
+{"code": "stripplot(y=df[col], ax=axes[1], size=8)", "compilation_passed": true, "time": 0.24082207679748535, "tests_passed": true, "error": null}
+{"code": "stripplot(x=df[col], y=df[col], ax=axes[1])", "compilation_passed": true, "time": 0.24414396286010742, "tests_passed": true, "error": null}
+{"code": "stripplot(y=df[col], ax=axes[1], size=5)", "compilation_passed": true, "time": 0.24967288970947266, "tests_passed": true, "error": null}
+{"code": "stripplot(x=col, y=df[col], data=df, ax=axes[1])", "compilation_passed": true, "time": 0.26535701751708984, "tests_passed": true, "error": null}
+{"code": "stripplot(x=df[col], y=df.index, ax=axes[1], orient='h')", "compilation_passed": true, "time": 0.28275513648986816, "tests_passed": true, "error": null}

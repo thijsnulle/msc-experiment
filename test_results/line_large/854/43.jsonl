@@ -1,0 +1,9 @@
+{"code": " not all(isinstance(x, int) for x in numbers):", "compilation_passed": true, "time": 0.0019741058349609375, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(num, int) for num in numbers):", "compilation_passed": true, "time": 0.0017421245574951172, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(num, int) for num in numbers):", "compilation_passed": true, "time": 0.001712799072265625, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(i, int) or i < 0 for i in numbers):", "compilation_passed": true, "time": 0.0017137527465820312, "tests_passed": true, "error": null}
+{"code": " any(not isinstance(number, int) for number in numbers):", "compilation_passed": true, "time": 0.001744985580444336, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(i, int) for i in numbers):", "compilation_passed": true, "time": 0.0019910335540771484, "tests_passed": true, "error": null}
+{"code": " not all([isinstance(number, int) for number in numbers]):", "compilation_passed": true, "time": 0.002296924591064453, "tests_passed": true, "error": null}
+{"code": " not all([isinstance(n, int) for n in numbers]):", "compilation_passed": true, "time": 0.0018968582153320312, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(number, int) for number in numbers):", "compilation_passed": true, "time": 0.00196075439453125, "tests_passed": true, "error": null}

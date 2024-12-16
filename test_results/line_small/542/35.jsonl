@@ -1,0 +1,14 @@
+{"code": " struct.unpack('<f', bytes.fromhex(hex_key))[0]", "compilation_passed": true, "time": 0.0019237995147705078, "tests_passed": true, "error": null}
+{"code": " int(hex_key, 16)", "compilation_passed": true, "time": 0.0014390945434570312, "tests_passed": true, "error": null}
+{"code": " struct.unpack('d', hex_key.encode('utf-8'))[0]", "compilation_passed": true, "time": 0.008421182632446289, "tests_passed": false, "error": "struct.error"}
+{"code": " struct.unpack('f', bytes.fromhex(hex_key))[0]", "compilation_passed": true, "time": 0.0017709732055664062, "tests_passed": true, "error": null}
+{"code": " struct.unpack(\"f\", bytes.fromhex(hex_key))[0]", "compilation_passed": true, "time": 0.0013928413391113281, "tests_passed": true, "error": null}
+{"code": " struct.unpack('d', hex_key.encode())[0]", "compilation_passed": true, "time": 0.008099079132080078, "tests_passed": false, "error": "struct.error"}
+{"code": " struct.unpack('>f', bytes.fromhex(hex_key))[0]", "compilation_passed": true, "time": 0.001943826675415039, "tests_passed": true, "error": null}
+{"code": " struct.unpack(\"<d\", bytes.fromhex(hex_key))[0]", "compilation_passed": true, "time": 0.006567955017089844, "tests_passed": false, "error": "struct.error"}
+{"code": " struct.unpack('f', hex_key.encode())[0]", "compilation_passed": true, "time": 0.006585121154785156, "tests_passed": false, "error": "struct.error"}
+{"code": " struct.unpack(\"d\", bytes.fromhex(hex_key))[0]", "compilation_passed": true, "time": 0.006545066833496094, "tests_passed": false, "error": "struct.error"}
+{"code": " struct.unpack('d', bytes.fromhex(hex_key))[0]", "compilation_passed": true, "time": 0.006737947463989258, "tests_passed": false, "error": "struct.error"}
+{"code": " float(hex_key)", "compilation_passed": true, "time": 0.009192943572998047, "tests_passed": false, "error": "ValueError"}
+{"code": " struct.unpack(", "compilation_passed": false, "time": 0.000164031982421875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " float.from_bytes(bytearray.fromhex(hex_key), byteorder='big')", "compilation_passed": true, "time": 0.0062940120697021484, "tests_passed": false, "error": "AttributeError"}

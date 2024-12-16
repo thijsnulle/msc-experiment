@@ -1,0 +1,25 @@
+{"code": " skewness is not None:", "compilation_passed": true, "time": 0.049742937088012695, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(ax, matplotlib.axes._axes.Axes) and isinstance(skewness, float) and isinstance(kurtosis, float):", "compilation_passed": true, "time": 0.022456884384155273, "tests_passed": false, "error": "NameError"}
+{"code": " type(ax) == Axes:", "compilation_passed": true, "time": 0.022591114044189453, "tests_passed": false, "error": "NameError"}
+{"code": " kurtosis == 'Nan':", "compilation_passed": true, "time": 0.04685831069946289, "tests_passed": true, "error": null}
+{"code": " skewness is None:", "compilation_passed": true, "time": 0.047363996505737305, "tests_passed": true, "error": null}
+{"code": " skewness is None or kurtosis is None:", "compilation_passed": true, "time": 0.04812192916870117, "tests_passed": true, "error": null}
+{"code": " not skewness or not kurtosis:", "compilation_passed": true, "time": 0.036264896392822266, "tests_passed": true, "error": null}
+{"code": " type(ax) == Axes:  # Checking if the bar chart is a valid matplotlib.axes._axes.Axes object", "compilation_passed": true, "time": 0.019428730010986328, "tests_passed": false, "error": "NameError"}
+{"code": " kurtosis is not None:", "compilation_passed": true, "time": 0.04517793655395508, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(ax, Axes):", "compilation_passed": true, "time": 0.019130229949951172, "tests_passed": false, "error": "NameError"}
+{"code": " ax is not None:", "compilation_passed": true, "time": 0.04420208930969238, "tests_passed": false, "error": "TypeError"}
+{"code": " ax:", "compilation_passed": true, "time": 0.04647994041442871, "tests_passed": false, "error": "TypeError"}
+{"code": " skewness is not None and kurtosis is not None:", "compilation_passed": true, "time": 0.04388713836669922, "tests_passed": false, "error": "TypeError"}
+{"code": " ax is not None:  # Setting the plot's title and adding x-axis label", "compilation_passed": true, "time": 0.04485511779785156, "tests_passed": false, "error": "TypeError"}
+{"code": " (not np.isnan(skewness) or not np.isnan(kurtosis)):", "compilation_passed": true, "time": 1.6822090148925781, "tests_passed": false, "error": "NameError"}
+{"code": " skewness == kurtosis == -np.inf or skewness == kurtosis == np.inf:", "compilation_passed": true, "time": 0.030219078063964844, "tests_passed": false, "error": "NameError"}
+{"code": " name_freqs.empty:", "compilation_passed": true, "time": 0.02947998046875, "tests_passed": true, "error": null}
+{"code": " not names:", "compilation_passed": true, "time": 0.02913188934326172, "tests_passed": true, "error": null}
+{"code": " isinstance(ax, Axes):", "compilation_passed": true, "time": 0.012778282165527344, "tests_passed": false, "error": "NameError"}
+{"code": " isinstance(ax, Axes) and isinstance(skewness, float) and isinstance(kurtosis, float):", "compilation_passed": true, "time": 0.014248132705688477, "tests_passed": false, "error": "NameError"}
+{"code": " not ax:  # Returning None if no names are found", "compilation_passed": true, "time": 0.029626846313476562, "tests_passed": true, "error": null}
+{"code": " ax is not None:  # If no names were found, None will be returned instead", "compilation_passed": true, "time": 0.03411388397216797, "tests_passed": false, "error": "TypeError"}
+{"code": " skew is None:", "compilation_passed": true, "time": 0.013269901275634766, "tests_passed": false, "error": "NameError"}
+{"code": " type(ax) is None or type(skewness) is None or type(kurtosis) is None:", "compilation_passed": true, "time": 0.0298309326171875, "tests_passed": true, "error": null}
+{"code": " kurtosis == -numpy.inf:", "compilation_passed": true, "time": 0.01594090461730957, "tests_passed": false, "error": "NameError"}

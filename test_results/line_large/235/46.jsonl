@@ -1,0 +1,10 @@
+{"code": "params['Intercept'] + model.params['bins'] * bins + model.params['np.power(bins, 2)'] * np.power(bins, 2), linewidth=2, color='g'", "compilation_passed": false, "time": 0.0005841255187988281, "tests_passed": false, "error": "SyntaxError"}
+{"code": "params[0] + model.params[1] * bins + model.params[2] * np.power(bins, 2), linewidth=2, color='g'", "compilation_passed": false, "time": 0.0004589557647705078, "tests_passed": false, "error": "SyntaxError"}
+{"code": "fittedvalues,", "compilation_passed": true, "time": 0.13564801216125488, "tests_passed": true, "error": null}
+{"code": "params[0] + model.params[1]*bins + model.params[2]*np.power(bins, 2),", "compilation_passed": true, "time": 0.1285691261291504, "tests_passed": true, "error": null}
+{"code": "params[0] + model.params[1] * bins + model.params[2] * np.power(bins, 2),", "compilation_passed": true, "time": 0.12655997276306152, "tests_passed": true, "error": null}
+{"code": "fittedvalues, linewidth=2, color='g'", "compilation_passed": false, "time": 0.0002961158752441406, "tests_passed": false, "error": "SyntaxError"}
+{"code": "params[0] + bins * model.params[1] + np.power(bins, 2) * model.params[2],", "compilation_passed": true, "time": 0.12855291366577148, "tests_passed": true, "error": null}
+{"code": "params[0] + model.params[1]*bins + model.params[2]*np.power(bins, 2), ", "compilation_passed": true, "time": 0.12900018692016602, "tests_passed": true, "error": null}
+{"code": "params['Intercept'] + model.params['bins'] * bins + model.params['np.power(bins, 2)'] * np.power(bins, 2),", "compilation_passed": true, "time": 0.12814879417419434, "tests_passed": true, "error": null}
+{"code": "params['Intercept'] +", "compilation_passed": true, "time": 0.1886298656463623, "tests_passed": true, "error": null}

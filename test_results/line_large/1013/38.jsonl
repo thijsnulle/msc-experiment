@@ -1,0 +1,18 @@
+{"code": " set([urljoin(base_url, link.get(\"href\")) for link in soup.find_all(\"a\")])", "compilation_passed": true, "time": 0.010869979858398438, "tests_passed": true, "error": null}
+{"code": " [urljoin(base_url, a[\"href\"]) for a in soup.select(\"a[href]\")]", "compilation_passed": true, "time": 0.014425277709960938, "tests_passed": true, "error": null}
+{"code": " [urljoin(base_url, link[\"href\"]) for link in soup.find_all(\"a\", href=True)]", "compilation_passed": true, "time": 0.007811069488525391, "tests_passed": true, "error": null}
+{"code": " {urljoin(base_url, link.get(\"href\"))", "compilation_passed": false, "time": 0.00023603439331054688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [urljoin(full_url, a[\"href\"]) for a in soup.select(\"a[href]\")]", "compilation_passed": true, "time": 0.007653951644897461, "tests_passed": true, "error": null}
+{"code": " set()", "compilation_passed": true, "time": 0.0072019100189208984, "tests_passed": true, "error": null}
+{"code": " [urljoin(base_url, a[\"href\"]) for a in soup.find_all(\"a\", href=True)]", "compilation_passed": true, "time": 0.012098073959350586, "tests_passed": true, "error": null}
+{"code": " {urljoin(full_url, a[\"href\"]) for a in soup.select(\"a[href]\")}", "compilation_passed": true, "time": 0.009292840957641602, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00019884109497070312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " set(", "compilation_passed": false, "time": 0.0002040863037109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [urljoin(base_url, link.get(\"href\")) for link in soup.find_all(\"a\")]", "compilation_passed": true, "time": 0.0142059326171875, "tests_passed": true, "error": null}
+{"code": " [urljoin(base_url, link.get('href')) for link in soup.find_all('a') if link.get('href')]", "compilation_passed": true, "time": 0.017040014266967773, "tests_passed": true, "error": null}
+{"code": " {urljoin(full_url, link.get(\"href\")) for link in soup.find_all(\"a\")}", "compilation_passed": true, "time": 0.013649940490722656, "tests_passed": true, "error": null}
+{"code": " [urljoin(full_url, link.get(\"href\")) for link in soup.find_all(\"a\")]", "compilation_passed": true, "time": 0.015951871871948242, "tests_passed": true, "error": null}
+{"code": " {urljoin(base_url, a[\"href\"]) for a in soup.select(\"a[href]\")}", "compilation_passed": true, "time": 0.009820222854614258, "tests_passed": true, "error": null}
+{"code": " {link.get(\"href\") for link in soup.find_all(\"a\")}", "compilation_passed": true, "time": 0.007285594940185547, "tests_passed": true, "error": null}
+{"code": " [urljoin(base_url, link[\"href\"]) for link in soup.find_all(\"a\")]", "compilation_passed": true, "time": 0.009827852249145508, "tests_passed": true, "error": null}
+{"code": " [urljoin(full_url, a[\"href\"]) for a in soup.find_all(\"a\", href=True)]", "compilation_passed": true, "time": 0.00789189338684082, "tests_passed": true, "error": null}

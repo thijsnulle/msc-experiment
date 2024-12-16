@@ -1,0 +1,5 @@
+{"code": " Path(dir_path) / item", "compilation_passed": true, "time": 0.014501810073852539, "tests_passed": true, "error": null}
+{"code": " os.path.join(dir_path, item)", "compilation_passed": true, "time": 0.018519878387451172, "tests_passed": false, "error": "AttributeError"}
+{"code": " Path(dir_path).joinpath(item)", "compilation_passed": true, "time": 0.013000965118408203, "tests_passed": true, "error": null}
+{"code": " Path(os.path.join(dir_path, item))", "compilation_passed": true, "time": 0.013441085815429688, "tests_passed": true, "error": null}
+{"code": " Path(dir_path, item)", "compilation_passed": true, "time": 0.012390851974487305, "tests_passed": true, "error": null}

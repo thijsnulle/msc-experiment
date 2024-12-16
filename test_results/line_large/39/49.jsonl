@@ -1,0 +1,14 @@
+{"code": "plot([0, len(means)], [population_mean, population_mean], \"g-\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.10645508766174316, "tests_passed": true, "error": null}
+{"code": "axhline(population_mean, color=\"g\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.2556290626525879, "tests_passed": true, "error": null}
+{"code": "plot([0, len(means) - 1], [population_mean] * 2, \"g\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.05351090431213379, "tests_passed": true, "error": null}
+{"code": "plot([0, len(means)], [population_mean, population_mean], \"g\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.044801950454711914, "tests_passed": true, "error": null}
+{"code": "plot([0, data_matrix.shape[0] - 1], [population_mean, population_mean], \"go\", markersize=10, label=\"Population Mean\")", "compilation_passed": true, "time": 0.12636375427246094, "tests_passed": true, "error": null}
+{"code": "plot(np.arange(len(means)), [population_mean] * len(means), \"go\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.10797691345214844, "tests_passed": true, "error": null}
+{"code": "axhline(", "compilation_passed": false, "time": 0.0005471706390380859, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(means.shape[0] * [population_mean], \"g-\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.11853981018066406, "tests_passed": true, "error": null}
+{"code": "hlines(", "compilation_passed": false, "time": 0.0007472038269042969, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot([0, len(data_matrix) - 1], [population_mean, population_mean], \"go\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.1465449333190918, "tests_passed": true, "error": null}
+{"code": "axhline(y=population_mean, color=\"g\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.11340785026550293, "tests_passed": true, "error": null}
+{"code": "plot([0, len(means) - 1], [population_mean, population_mean], \"g\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.05385994911193848, "tests_passed": true, "error": null}
+{"code": "plot([0, means.shape[0]], [population_mean, population_mean], \"go\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.12870192527770996, "tests_passed": true, "error": null}
+{"code": "plot([0, len(means) - 1], [population_mean] * 2, \"g-\", label=\"Population Mean\")", "compilation_passed": true, "time": 0.09111595153808594, "tests_passed": true, "error": null}

@@ -1,0 +1,10 @@
+{"code": " re.sub(r'\\bis\\b', 'was', wrapped_string)", "compilation_passed": true, "time": 0.0014569759368896484, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b(is)\\b', 'was', wrapped_string)", "compilation_passed": true, "time": 0.0016722679138183594, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\bwas\\b', 'is', wrapped_string)", "compilation_passed": true, "time": 0.004890918731689453, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b[Ii]s\\b', 'was', wrapped_string)", "compilation_passed": true, "time": 0.0014319419860839844, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b(is)\\b', r'was', wrapped_string)", "compilation_passed": true, "time": 0.0012087821960449219, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\bis\\b\", \"was\", wrapped_string)", "compilation_passed": true, "time": 0.0012469291687011719, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\bis\\b', 'was', wrapped_string, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.0012090206146240234, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b(?i)is\\b', 'was', wrapped_string)", "compilation_passed": true, "time": 0.001402139663696289, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b[Ii][Ss]\\b', 'was', wrapped_string)", "compilation_passed": true, "time": 0.001856088638305664, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\b' + re.escape('is') + r'\\b', 'was', wrapped_string)", "compilation_passed": true, "time": 0.0012259483337402344, "tests_passed": true, "error": null}

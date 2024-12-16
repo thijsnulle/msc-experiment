@@ -1,0 +1,4 @@
+{"code": " col1 not in data.columns:", "compilation_passed": true, "time": 0.06102585792541504, "tests_passed": true, "error": null}
+{"code": " col1 not in data.columns or col2 not in data.columns:", "compilation_passed": true, "time": 0.05050778388977051, "tests_passed": true, "error": null}
+{"code": " not all(col in data.columns for col in [col1, col2]):", "compilation_passed": true, "time": 0.026190757751464844, "tests_passed": true, "error": null}
+{"code": " not (col1 in data.columns and col2 in data.columns):", "compilation_passed": true, "time": 0.0264132022857666, "tests_passed": true, "error": null}

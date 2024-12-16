@@ -1,0 +1,5 @@
+{"code": " [", "compilation_passed": false, "time": 0.00018215179443359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.mean(axis=1)", "compilation_passed": true, "time": 0.21612811088562012, "tests_passed": true, "error": null}
+{"code": " transformed_data.mean(axis=1)", "compilation_passed": true, "time": 0.21424317359924316, "tests_passed": true, "error": null}
+{"code": " np.mean(transformed_data, axis=0)", "compilation_passed": true, "time": 0.05618929862976074, "tests_passed": false, "error": "ValueError"}
+{"code": " np.mean(transformed_data, axis=1)", "compilation_passed": true, "time": 0.21675705909729004, "tests_passed": true, "error": null}

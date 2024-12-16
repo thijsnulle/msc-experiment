@@ -1,0 +1,6 @@
+{"code": " Counter(letters)", "compilation_passed": true, "time": 0.0018849372863769531, "tests_passed": true, "error": null}
+{"code": " dict(Counter(letters))", "compilation_passed": true, "time": 0.001489877700805664, "tests_passed": true, "error": null}
+{"code": " dict(Counter(letters).most_common())", "compilation_passed": true, "time": 0.0015230178833007812, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.004845142364501953, "tests_passed": true, "error": null}
+{"code": " dict(sorted(Counter(letters).items(), key=itemgetter(1), reverse=True))", "compilation_passed": true, "time": 0.0017428398132324219, "tests_passed": true, "error": null}
+{"code": " {letter: letters.count(letter) for letter in letters}", "compilation_passed": true, "time": 0.002476215362548828, "tests_passed": true, "error": null}

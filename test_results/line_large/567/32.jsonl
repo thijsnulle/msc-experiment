@@ -1,0 +1,26 @@
+{"code": " plt.hist(df['Values'], bins=np.arange(min(data), max(data)+2) - 0.5)", "compilation_passed": true, "time": 0.04900789260864258, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.hist(df['Values'], bins=np.arange(df['Values'].min(), df['Values'].max()+2) - 0.5)", "compilation_passed": true, "time": 0.07511281967163086, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.hist(df.Values, bins=np.arange(df.Values.min(), df.Values.max()+2) - 0.5, edgecolor='black')", "compilation_passed": true, "time": 0.06929397583007812, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.hist(df['Values'], bins=np.arange(min(data), max(data)+2)-0.5)", "compilation_passed": true, "time": 0.044461727142333984, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['Values'].plot.hist(bins=np.arange(df['Values'].min(), df['Values'].max() + 2) - 0.5, ec='black')", "compilation_passed": true, "time": 0.4925260543823242, "tests_passed": true, "error": null}
+{"code": " plt.hist(data, bins=np.arange(min(data), max(data)+2) - 0.5)", "compilation_passed": true, "time": 0.036604881286621094, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['Values'].plot.hist(bins=np.arange(min(data), max(data)+2) - 0.5, edgecolor='black')", "compilation_passed": true, "time": 0.42523813247680664, "tests_passed": true, "error": null}
+{"code": " plt.hist(df['Values'], bins=np.arange(df['Values'].min(), df['Values'].max()+2)-0.5, edgecolor='black')", "compilation_passed": true, "time": 0.039743900299072266, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.hist(df['Values'], bins=np.arange(np.min(data), np.max(data)+2) - 0.5, edgecolor='white')", "compilation_passed": true, "time": 0.881702184677124, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.hist(df['Values'], bins=np.arange(np.min(df['Values']), np.max(df['Values']) + 2) - 0.5)", "compilation_passed": true, "time": 0.03699302673339844, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot.hist(bins=np.arange(df.min()[0], df.max()[0] + 2) - 0.5, edgecolor='black')", "compilation_passed": true, "time": 0.5502619743347168, "tests_passed": true, "error": null}
+{"code": " df['Values'].plot.hist(bins=np.arange(np.min(data), np.max(data)+2) - 0.5, edgecolor='black', grid=True)", "compilation_passed": true, "time": 0.4246950149536133, "tests_passed": true, "error": null}
+{"code": " plt.hist(df['Values'], bins=np.arange(min(data), max(data)+2) - 0.5, edgecolor='white', linewidth=1.0)", "compilation_passed": true, "time": 0.03836321830749512, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['Values'].plot.hist(bins=np.arange(df['Values'].min(), df['Values'].max()+2) - 0.5)", "compilation_passed": true, "time": 0.4205620288848877, "tests_passed": true, "error": null}
+{"code": " plt.hist(df.Values, bins=np.arange(df.Values.min(), df.Values.max() + 2) - 0.5)", "compilation_passed": true, "time": 0.03810882568359375, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['Values'].plot.hist()", "compilation_passed": true, "time": 0.3573319911956787, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data, bins=np.arange(data.min(), data.max() + 2) - 0.5, color='skyblue', kde=True)", "compilation_passed": true, "time": 0.028842926025390625, "tests_passed": false, "error": "NameError"}
+{"code": " plt.hist(df['Values'], bins=np.arange(min(df['Values']), max(df['Values']) + 2) - 0.5)", "compilation_passed": true, "time": 0.03583216667175293, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['Values'].plot(kind='hist', title='Histogram of Values', bins=np.arange(", "compilation_passed": false, "time": 0.00032806396484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot.hist(bins=np.arange(np.min(data), np.max(data) + 2) - 0.5)", "compilation_passed": true, "time": 0.5017578601837158, "tests_passed": true, "error": null}
+{"code": " df['Values'].plot(kind='hist')", "compilation_passed": true, "time": 0.37331581115722656, "tests_passed": true, "error": null}
+{"code": " plt.bar(np.arange(df.min().values[0], df.max().values[0]+2) - 0.5, df.groupby('Values').size(), width=1)", "compilation_passed": true, "time": 0.04828381538391113, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.histplot(x=\"Values\", data=df, bins=np.arange(np.min(data), np.max(data)+2) - 0.5)", "compilation_passed": true, "time": 0.027842998504638672, "tests_passed": false, "error": "NameError"}
+{"code": " plt.hist(df['Values'], bins=np.arange(np.min(data), np.max(data)+2) - 0.5)", "compilation_passed": true, "time": 0.04083991050720215, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.histplot(data=df['Values'], bins=np.arange(df['Values'].min(), df['Values'].max()+2) - 0.5, discrete=True)", "compilation_passed": true, "time": 0.023762226104736328, "tests_passed": false, "error": "NameError"}
+{"code": " df.plot.hist(bins=np.arange(np.array(data).min(), np.array(data).max() + 2) - 0.5, ec='black')", "compilation_passed": true, "time": 0.5346701145172119, "tests_passed": true, "error": null}

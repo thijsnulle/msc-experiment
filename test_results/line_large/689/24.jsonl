@@ -1,0 +1,5 @@
+{"code": " {}", "compilation_passed": true, "time": 0.008491992950439453, "tests_passed": true, "error": null}
+{"code": " {column: stats.shapiro(df[column]).pvalue for column in df}", "compilation_passed": true, "time": 0.008980989456176758, "tests_passed": true, "error": null}
+{"code": " {i: stats.shapiro(df[i]).pvalue for i in range(df.shape[1])}", "compilation_passed": true, "time": 0.04152679443359375, "tests_passed": false, "error": "KeyError"}
+{"code": " dict()", "compilation_passed": true, "time": 0.00830388069152832, "tests_passed": true, "error": null}
+{"code": " {i: stats.shapiro(df[i])[1] for i in df.columns}", "compilation_passed": true, "time": 0.008945941925048828, "tests_passed": true, "error": null}

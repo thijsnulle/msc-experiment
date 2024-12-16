@@ -1,0 +1,10 @@
+{"code": " sorted([(word, count) for word, count in word_counts.items() if word != \"\"], key=lambda x: x[1], reverse=True)[:5]", "compilation_passed": true, "time": 0.0015420913696289062, "tests_passed": true, "error": null}
+{"code": " word_counts.most_common(3)", "compilation_passed": true, "time": 0.004801034927368164, "tests_passed": true, "error": null}
+{"code": " word_counts.most_common(5)", "compilation_passed": true, "time": 0.001355886459350586, "tests_passed": true, "error": null}
+{"code": " sorted(word_counts.most_common(5), key=lambda x: (x[1], x[0]), reverse=True)", "compilation_passed": true, "time": 0.004253864288330078, "tests_passed": true, "error": null}
+{"code": " [(k, v) for k, v in word_counts.most_common(5)]", "compilation_passed": true, "time": 0.0013401508331298828, "tests_passed": true, "error": null}
+{"code": " sorted(word_counts.most_common(5), key=lambda x: (-x[1], x[0]))", "compilation_passed": true, "time": 0.0013051033020019531, "tests_passed": true, "error": null}
+{"code": " [(word, count) for word, count in word_counts.most_common(5) if len(word) > 0]", "compilation_passed": true, "time": 0.0013310909271240234, "tests_passed": true, "error": null}
+{"code": " [(word, count) for word, count in word_counts.most_common() if word != \"$\"]", "compilation_passed": true, "time": 0.00424504280090332, "tests_passed": true, "error": null}
+{"code": " word_counts.most_common()[:5]", "compilation_passed": true, "time": 0.0014810562133789062, "tests_passed": true, "error": null}
+{"code": " [pair for pair in word_counts.most_common(5) if pair[0] != \"\"]", "compilation_passed": true, "time": 0.00145721435546875, "tests_passed": true, "error": null}

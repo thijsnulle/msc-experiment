@@ -1,0 +1,25 @@
+{"code": " np.random.rand(rows, cols)", "compilation_passed": true, "time": 0.014547109603881836, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.random.randint(0, 100, size=(rows, cols)),", "compilation_passed": false, "time": 0.00032782554626464844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {category: np.random.randint(low=0, high=100, size=rows) for category in categories[:cols]}", "compilation_passed": true, "time": 0.011609077453613281, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.random.randint(1, 10, (rows, cols)), columns=categories[:cols])", "compilation_passed": true, "time": 0.22655010223388672, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(0, 50, (rows, cols)), columns=categories[:cols])", "compilation_passed": true, "time": 0.22522306442260742, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(1, 100, size=(rows, cols)), columns=categories[:cols])", "compilation_passed": true, "time": 0.2543060779571533, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.rand(rows, cols), columns=categories[:cols])", "compilation_passed": true, "time": 0.17592287063598633, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 101, size=(rows, cols))", "compilation_passed": true, "time": 0.009540081024169922, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(low=1, high=5, size=(rows, cols))", "compilation_passed": true, "time": 0.009238958358764648, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.random.randint(1, 10, size=(rows, cols)), columns=categories[:cols])", "compilation_passed": true, "time": 0.1636359691619873, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(1, 25, (rows, cols)), columns=categories[:cols])", "compilation_passed": true, "time": 0.16302490234375, "tests_passed": true, "error": null}
+{"code": " np.random.randint(10, 100, size=(rows, cols))", "compilation_passed": true, "time": 0.010545969009399414, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(low=0, high=100, size=(rows, cols))", "compilation_passed": true, "time": 0.009242057800292969, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.random.randint(100, 500, (rows, cols)), columns=categories[:cols])", "compilation_passed": true, "time": 0.16082978248596191, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, high=100, size=(rows, cols), dtype=int)", "compilation_passed": true, "time": 0.013493061065673828, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.random.randint(0, 101, (rows, cols)), columns=categories[:cols])", "compilation_passed": true, "time": 0.17283105850219727, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(1, 11, size=(rows, cols)), columns=categories[:cols])", "compilation_passed": true, "time": 0.17728114128112793, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 20, (rows, cols))", "compilation_passed": true, "time": 0.043778181076049805, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.random.randint(1, 50, size=(rows, cols)), columns=categories[:cols])", "compilation_passed": true, "time": 0.20145893096923828, "tests_passed": true, "error": null}
+{"code": " {category: np.random.rand(rows) for category in categories}", "compilation_passed": true, "time": 0.01737499237060547, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.random.randint(0, 100, size=(rows, cols)), columns=categories[:cols])", "compilation_passed": true, "time": 0.17446088790893555, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, 100, size=(rows, cols))", "compilation_passed": true, "time": 0.008433818817138672, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.random.randint(1, 100, (rows, cols)))", "compilation_passed": true, "time": 0.16342377662658691, "tests_passed": true, "error": null}
+{"code": " np.random.randint(10, 30, size=(rows, cols))", "compilation_passed": true, "time": 0.013385772705078125, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(low=0, high=50, size=(rows, cols))", "compilation_passed": true, "time": 0.009504079818725586, "tests_passed": false, "error": "AttributeError"}

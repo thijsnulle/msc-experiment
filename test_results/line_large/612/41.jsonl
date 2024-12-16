@@ -1,0 +1,5 @@
+{"code": " max(0, team_goals - team_penalties)", "compilation_passed": true, "time": 0.002939939498901367, "tests_passed": false, "error": "AttributeError"}
+{"code": " max(team_goals - team_penalties, 0)", "compilation_passed": true, "time": 0.0030541419982910156, "tests_passed": false, "error": "AttributeError"}
+{"code": " team_goals - team_penalties", "compilation_passed": true, "time": 0.003939151763916016, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.maximum(team_goals - team_penalties, 0)", "compilation_passed": true, "time": 0.004612922668457031, "tests_passed": false, "error": "AttributeError"}
+{"code": " team_goals - team_penalties if team_goals >= team_penalties else 0", "compilation_passed": true, "time": 0.003050088882446289, "tests_passed": false, "error": "AttributeError"}

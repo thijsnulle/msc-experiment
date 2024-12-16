@@ -1,0 +1,22 @@
+{"code": " list(calculate_distance(target, coord) for coord in data[['Latitude', 'Longitude']].values)", "compilation_passed": true, "time": 0.006610870361328125, "tests_passed": false, "error": "AttributeError"}
+{"code": " [calculate_distance(row, target) for row in data]", "compilation_passed": true, "time": 0.02019190788269043, "tests_passed": false, "error": "TypeError"}
+{"code": " [calculate_distance(data_row, target) for data_row in data.values]", "compilation_passed": true, "time": 0.010078191757202148, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.zeros(len(data))", "compilation_passed": true, "time": 0.004857063293457031, "tests_passed": true, "error": null}
+{"code": " np.apply_along_axis(calculate_distance, axis=1, arr=data, coord2=target)", "compilation_passed": true, "time": 0.0035147666931152344, "tests_passed": true, "error": null}
+{"code": " np.array([calculate_distance(target, point) for point in data.values])", "compilation_passed": true, "time": 0.004064083099365234, "tests_passed": true, "error": null}
+{"code": " np.array([calculate_distance(target, coord) for coord in data.values])", "compilation_passed": true, "time": 0.00451207160949707, "tests_passed": true, "error": null}
+{"code": " [(coord, calculate_distance(coord, target)) for coord in data[['Latitude', 'Longitude']].values]", "compilation_passed": true, "time": 0.006767749786376953, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(calculate_distance([lat, lon], target), [lat, lon]) for lat, lon in data[['Latitude', 'Longitude']].values]", "compilation_passed": true, "time": 0.006645917892456055, "tests_passed": false, "error": "AttributeError"}
+{"code": " data[['Latitude', 'Longitude']].apply(lambda x: calculate_distance(target, x), axis=1)", "compilation_passed": true, "time": 0.0074920654296875, "tests_passed": true, "error": null}
+{"code": " [calculate_distance(target, coords) for coords in data[['Latitude', 'Longitude']].values]", "compilation_passed": true, "time": 0.006865978240966797, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.006093025207519531, "tests_passed": false, "error": "AttributeError"}
+{"code": " [calculate_distance(row[['Latitude', 'Longitude']].values, target) for _, row in data.iterrows()]", "compilation_passed": true, "time": 0.007959604263305664, "tests_passed": false, "error": "AttributeError"}
+{"code": " [calculate_distance(coord, target) for coord in data.values]", "compilation_passed": true, "time": 0.006896018981933594, "tests_passed": false, "error": "AttributeError"}
+{"code": " [calculate_distance(row, target) for row in data[['Latitude', 'Longitude']].values]", "compilation_passed": true, "time": 0.00775909423828125, "tests_passed": false, "error": "AttributeError"}
+{"code": " [calculate_distance(row[['Latitude', 'Longitude']].to_list(), target) for idx, row in data.iterrows()]", "compilation_passed": true, "time": 0.007833242416381836, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array([calculate_distance(coord, target) for coord in data[['Latitude', 'Longitude']].values])", "compilation_passed": true, "time": 0.004786968231201172, "tests_passed": true, "error": null}
+{"code": " [calculate_distance(target, coord) for coord in data[['Latitude', 'Longitude']].values]", "compilation_passed": true, "time": 0.0062999725341796875, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array([calculate_distance(row, target) for row in data.values])", "compilation_passed": true, "time": 0.0035791397094726562, "tests_passed": true, "error": null}
+{"code": " np.apply_along_axis(calculate_distance, axis=1, arr=data.values, coord2=target)", "compilation_passed": true, "time": 0.004674196243286133, "tests_passed": true, "error": null}
+{"code": " [calculate_distance(coord, target) for coord in data[['Latitude', 'Longitude']].values]", "compilation_passed": true, "time": 0.010221004486083984, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.apply_along_axis(calculate_distance, 1, data.values, target)", "compilation_passed": true, "time": 0.004565000534057617, "tests_passed": true, "error": null}

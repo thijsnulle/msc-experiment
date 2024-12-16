@@ -1,0 +1,26 @@
+{"code": " pd.pivot_table(", "compilation_passed": false, "time": 0.0003478527069091797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.pivot_table(index='col1', columns='col2', values='col3', aggfunc='count')", "compilation_passed": true, "time": 0.028137922286987305, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby([\"col1\", \"col2\"])[\"col3\"].value_counts().unstack()", "compilation_passed": true, "time": 0.023051023483276367, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby([\"col1\", \"col2\"])[\"col3\"].count().unstack().fillna(0)", "compilation_passed": true, "time": 0.01766514778137207, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby([\"col1\", \"col2\"])[\"col3\"].value_counts().unstack().fillna(0)", "compilation_passed": true, "time": 0.01726984977722168, "tests_passed": false, "error": "KeyError"}
+{"code": " df['col3'].groupby(by=[df['col1'], df['col2']]).size().unstack().fillna(0)", "compilation_passed": true, "time": 0.028567075729370117, "tests_passed": false, "error": "KeyError"}
+{"code": " df[['col1', 'col2', 'col3']].copy()", "compilation_passed": true, "time": 0.031832218170166016, "tests_passed": false, "error": "ValueError"}
+{"code": " df['col3'].groupby([df['col1'], df['col2']]).size().unstack(fill_value=0)", "compilation_passed": true, "time": 0.017659902572631836, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.crosstab(df['col1'], [df['col2'], df['col3']])", "compilation_passed": true, "time": 0.026705026626586914, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(['col1', 'col2'])['col3'].value_counts().unstack().fillna(0)", "compilation_passed": true, "time": 0.033087968826293945, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby([COLUMNS[0], COLUMNS[1]])[COLUMNS[2]].value_counts().unstack()", "compilation_passed": true, "time": 0.017242908477783203, "tests_passed": false, "error": "KeyError"}
+{"code": " df[COLUMNS].pivot_table(index='col2', columns='col1', values='col3', aggfunc='count')", "compilation_passed": true, "time": 0.028383970260620117, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(['col1', 'col2']).value_counts().unstack()", "compilation_passed": true, "time": 0.018152952194213867, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby([\"col1\", \"col2\"])[\"col3\"].count().unstack(fill_value=0).fillna(0).astype(int)", "compilation_passed": true, "time": 0.017132043838500977, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.crosstab(df['col1'], df['col2'])", "compilation_passed": true, "time": 0.03165102005004883, "tests_passed": false, "error": "KeyError"}
+{"code": " df.pivot_table(index='col2', columns='col1', values='col3', aggfunc='count', fill_value=0)", "compilation_passed": true, "time": 0.019828081130981445, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby([\"col1\", \"col2\"]).agg(\"count\")[\"col3\"].unstack()", "compilation_passed": true, "time": 0.020833969116210938, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.crosstab(df['col1'], df['col2'], values=df['col3'], aggfunc='count')", "compilation_passed": true, "time": 0.023483991622924805, "tests_passed": false, "error": "KeyError"}
+{"code": " df.pivot_table(index='col2', columns='col1', values='col3', aggfunc='size', fill_value=0)", "compilation_passed": true, "time": 0.017100095748901367, "tests_passed": false, "error": "KeyError"}
+{"code": " df.pivot_table(index='col1', columns='col2', values='col3', aggfunc='count', fill_value=0)", "compilation_passed": true, "time": 0.01794576644897461, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.pivot_table(df, index='col3', columns='col2', values='col1', aggfunc='count')", "compilation_passed": true, "time": 0.01672196388244629, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby([\"col1\", \"col2\"])[\"col3\"].count().unstack().fillna(0).astype(int)", "compilation_passed": true, "time": 0.01440572738647461, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.crosstab(df['col1'], df['col2'], values=df['col3'], aggfunc=lambda x: len(x))", "compilation_passed": true, "time": 0.0169219970703125, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(['col1', 'col2'])['col3'].value_counts().unstack().fillna(0).T", "compilation_passed": true, "time": 0.016095876693725586, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(['col1', 'col2'])[['col3']].count()", "compilation_passed": true, "time": 0.02083611488342285, "tests_passed": false, "error": "KeyError"}
+{"code": " df.groupby(['col1', 'col2'])['col3'].value_counts().unstack()", "compilation_passed": true, "time": 0.030256032943725586, "tests_passed": false, "error": "KeyError"}

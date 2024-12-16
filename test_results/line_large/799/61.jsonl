@@ -1,0 +1,11 @@
+{"code": " 'abcdefghijklmnopqrstuvwxyz'", "compilation_passed": true, "time": 0.0755150318145752, "tests_passed": true, "error": null}
+{"code": " [chr(letter) for letter in range(97, 123)]", "compilation_passed": true, "time": 0.0809941291809082, "tests_passed": true, "error": null}
+{"code": " list(string.ascii_lowercase)", "compilation_passed": true, "time": 0.041335105895996094, "tests_passed": false, "error": "NameError"}
+{"code": " list('abcdefghijklmnopqrstuvwxyz')", "compilation_passed": true, "time": 0.07577991485595703, "tests_passed": true, "error": null}
+{"code": " [chr(i) for i in range(ord('a'), ord('z')+1)]", "compilation_passed": true, "time": 0.07817792892456055, "tests_passed": true, "error": null}
+{"code": " [chr(i) for i in range(97, 123)]", "compilation_passed": true, "time": 0.08689403533935547, "tests_passed": true, "error": null}
+{"code": " ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']", "compilation_passed": true, "time": 0.08822894096374512, "tests_passed": true, "error": null}
+{"code": " \"abcdefghijklmnopqrstuvwxyz\"", "compilation_passed": true, "time": 0.08536291122436523, "tests_passed": true, "error": null}
+{"code": " [chr(i) for i in range(97, 97 + 26)]", "compilation_passed": true, "time": 0.08164691925048828, "tests_passed": true, "error": null}
+{"code": " list(ascii_lowercase)", "compilation_passed": true, "time": 0.03753018379211426, "tests_passed": false, "error": "NameError"}
+{"code": " [", "compilation_passed": false, "time": 0.0001881122589111328, "tests_passed": false, "error": "SyntaxError"}

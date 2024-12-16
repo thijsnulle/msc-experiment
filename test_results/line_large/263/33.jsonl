@@ -1,0 +1,5 @@
+{"code": " glob.glob(os.path.join(my_path, f'*{ext}'))", "compilation_passed": true, "time": 0.009859085083007812, "tests_passed": true, "error": null}
+{"code": " glob.glob(f'{my_path}/*{ext}')", "compilation_passed": true, "time": 0.012080192565917969, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(my_path, '*'+ext))", "compilation_passed": true, "time": 0.011601924896240234, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(my_path, f\"*{ext}\"))", "compilation_passed": true, "time": 0.010457754135131836, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(my_path, '*' + ext))", "compilation_passed": true, "time": 0.00919198989868164, "tests_passed": true, "error": null}

@@ -1,0 +1,19 @@
+{"code": " data['Job'].value_counts()", "compilation_passed": true, "time": 0.23557090759277344, "tests_passed": true, "error": null}
+{"code": " data.groupby(by='Job')['Name'].count()", "compilation_passed": true, "time": 0.24399209022521973, "tests_passed": true, "error": null}
+{"code": " data.groupby(['Job'])['Date'].count()", "compilation_passed": true, "time": 0.24676299095153809, "tests_passed": true, "error": null}
+{"code": " data.groupby(\"Job\").size().to_dict()", "compilation_passed": true, "time": 0.010408878326416016, "tests_passed": false, "error": "AttributeError"}
+{"code": " data.groupby('Job')['Name'].count()", "compilation_passed": true, "time": 0.25061893463134766, "tests_passed": true, "error": null}
+{"code": " data.groupby(by='Job').count()", "compilation_passed": true, "time": 0.10735774040222168, "tests_passed": false, "error": "ValueError"}
+{"code": " data.groupby(\"Job\").count()[\"Name\"].value_counts()", "compilation_passed": true, "time": 0.15968799591064453, "tests_passed": true, "error": null}
+{"code": " data.groupby('Job')['Job'].count()", "compilation_passed": true, "time": 0.25194716453552246, "tests_passed": true, "error": null}
+{"code": " data[\"Job\"].value_counts()", "compilation_passed": true, "time": 0.24980401992797852, "tests_passed": true, "error": null}
+{"code": " data.groupby('Job').count()['Name']", "compilation_passed": true, "time": 0.28582096099853516, "tests_passed": true, "error": null}
+{"code": " data.groupby('Job')['Job'].agg(['count']).reset_index().rename(columns={'count': 'count_Job'})", "compilation_passed": true, "time": 0.11175799369812012, "tests_passed": false, "error": "ValueError"}
+{"code": " data.groupby('Job').size()", "compilation_passed": true, "time": 0.28867506980895996, "tests_passed": true, "error": null}
+{"code": " pd.Series(data['Job'].value_counts())", "compilation_passed": true, "time": 0.3391749858856201, "tests_passed": true, "error": null}
+{"code": " pd.Series(data[\"Job\"].value_counts())", "compilation_passed": true, "time": 0.3233318328857422, "tests_passed": true, "error": null}
+{"code": " data['Job'].value_counts(normalize=True)", "compilation_passed": true, "time": 0.24657106399536133, "tests_passed": true, "error": null}
+{"code": " data.groupby(\"Job\").count().sort_values(\"Name\", ascending=False)", "compilation_passed": true, "time": 0.08970403671264648, "tests_passed": false, "error": "ValueError"}
+{"code": " data.groupby('Job').agg({'Job': pd.Series.count}).sort_values(by=['Job']).reset_index()", "compilation_passed": true, "time": 0.010841846466064453, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Series(data.job.value_counts()).sort_values(ascending=False)", "compilation_passed": true, "time": 0.010200023651123047, "tests_passed": false, "error": "AttributeError"}
+{"code": " data.groupby('Job').size().reset_index(name='Count')", "compilation_passed": true, "time": 0.11208796501159668, "tests_passed": false, "error": "ValueError"}

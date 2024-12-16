@@ -1,0 +1,11 @@
+{"code": " df.rename(columns={'index': 'attribute', 'count': 'count'})", "compilation_passed": true, "time": 0.00604701042175293, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={'index': 'attribute', 0: 'count'})", "compilation_passed": true, "time": 0.006891012191772461, "tests_passed": true, "error": null}
+{"code": " df.rename({0: 'attribute', 1: 'count'}, axis=1)", "compilation_passed": true, "time": 0.011872053146362305, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={0: \"attribute\", 1: \"count\"})", "compilation_passed": true, "time": 0.010962247848510742, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={'index': 'attribute', '0': 'count'})", "compilation_passed": true, "time": 0.005592823028564453, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={'index': 'attribute'})", "compilation_passed": true, "time": 0.006199836730957031, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={'index': 'attribute', 'value': 'count'})", "compilation_passed": true, "time": 0.005592823028564453, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={0: 'attribute', 'index': 'count'})", "compilation_passed": true, "time": 0.010974884033203125, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={0: 'attribute', 1: 'count'})", "compilation_passed": true, "time": 0.011452198028564453, "tests_passed": true, "error": null}
+{"code": " df.rename({0: 'attribute', 1: 'count'}, axis='columns')", "compilation_passed": true, "time": 0.010127067565917969, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={'index':'attribute', 0:'count'})", "compilation_passed": true, "time": 0.0067958831787109375, "tests_passed": true, "error": null}

@@ -1,0 +1,22 @@
+{"code": " re.sub(r'\\W', '', text)", "compilation_passed": true, "time": 0.0013699531555175781, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\w\", text)", "compilation_passed": true, "time": 0.0014171600341796875, "tests_passed": true, "error": null}
+{"code": " ''.join(re.findall(f'[^{string.punctuation}\\s]', text))", "compilation_passed": true, "time": 0.001680135726928711, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w', text)", "compilation_passed": true, "time": 0.0014269351959228516, "tests_passed": true, "error": null}
+{"code": " [c for c in text if c.isalnum()]", "compilation_passed": true, "time": 0.0013570785522460938, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', '', text)", "compilation_passed": true, "time": 0.001497030258178711, "tests_passed": true, "error": null}
+{"code": " re.sub(rf\"[{string.whitespace}{string.punctuation}]\", '', text)", "compilation_passed": true, "time": 0.001428842544555664, "tests_passed": true, "error": null}
+{"code": " [char for char in text if char not in string.punctuation and not char.isspace()]", "compilation_passed": true, "time": 0.0014760494232177734, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[\\W_]', '', text)", "compilation_passed": true, "time": 0.0017910003662109375, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[\\W\\d_]', '', text)", "compilation_passed": true, "time": 0.00757288932800293, "tests_passed": true, "error": null}
+{"code": " re.sub(rf'[{string.punctuation} ]', '', text)", "compilation_passed": true, "time": 0.0016260147094726562, "tests_passed": true, "error": null}
+{"code": " [char for char in text if char not in string.whitespace + string.punctuation]", "compilation_passed": true, "time": 0.0014829635620117188, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text)", "compilation_passed": true, "time": 0.004876613616943359, "tests_passed": true, "error": null}
+{"code": " [char for char in text if char not in string.punctuation and char not in string.whitespace]", "compilation_passed": true, "time": 0.001477956771850586, "tests_passed": true, "error": null}
+{"code": " len(re.sub(r'[^A-Za-z]', '', text))", "compilation_passed": true, "time": 0.0066509246826171875, "tests_passed": false, "error": "TypeError"}
+{"code": " re.sub(r'[\\W]', '', text)", "compilation_passed": true, "time": 0.0018870830535888672, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w]\", \"\", text)", "compilation_passed": true, "time": 0.0014500617980957031, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[\\s\\W]', '', text)", "compilation_passed": true, "time": 0.001753091812133789, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[a-zA-Z]', text)", "compilation_passed": true, "time": 0.004884004592895508, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', '', text)", "compilation_passed": true, "time": 0.004488945007324219, "tests_passed": true, "error": null}
+{"code": " [ch for ch in text if ch not in string.punctuation and not ch.isspace()]", "compilation_passed": true, "time": 0.0014700889587402344, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\W\", \"\", text)", "compilation_passed": true, "time": 0.0013659000396728516, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": " open(json_file, 'r') as file:", "compilation_passed": true, "time": 0.02218031883239746, "tests_passed": true, "error": null}
+{"code": " open(json_file, 'r+') as file:", "compilation_passed": true, "time": 0.01193094253540039, "tests_passed": true, "error": null}
+{"code": " open(json_file, \"r\") as file:", "compilation_passed": true, "time": 0.01292109489440918, "tests_passed": true, "error": null}
+{"code": " open(json_file, 'r') as f:", "compilation_passed": true, "time": 0.009401798248291016, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(json_file, \"r\") as f:", "compilation_passed": true, "time": 0.010296106338500977, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " open(json_file, \"r+\") as file:", "compilation_passed": true, "time": 0.012200117111206055, "tests_passed": true, "error": null}
+{"code": " open(json_file) as file:", "compilation_passed": true, "time": 0.013241291046142578, "tests_passed": true, "error": null}
+{"code": " open(json_file, 'r', encoding=\"utf-8\") as file:", "compilation_passed": true, "time": 0.011028051376342773, "tests_passed": true, "error": null}
+{"code": " open(json_file, \"r+\") as f:", "compilation_passed": true, "time": 0.008590221405029297, "tests_passed": false, "error": "UnboundLocalError"}

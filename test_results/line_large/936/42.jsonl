@@ -1,0 +1,11 @@
+{"code": "bar(np.arange(len(word)), letter_positions)", "compilation_passed": true, "time": 0.1472771167755127, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(len(letter_positions)), letter_positions)", "compilation_passed": true, "time": 0.13849806785583496, "tests_passed": true, "error": null}
+{"code": "bar(range(len(word)), letter_positions)", "compilation_passed": true, "time": 0.13857197761535645, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(1, len(word) + 1), letter_positions)", "compilation_passed": true, "time": 0.14297890663146973, "tests_passed": true, "error": null}
+{"code": "bar(range(1, len(word) + 1), letter_positions)", "compilation_passed": true, "time": 0.14595508575439453, "tests_passed": true, "error": null}
+{"code": "bar(list(range(len(word))), letter_positions)", "compilation_passed": true, "time": 0.15325188636779785, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(1, len(word) + 1), letter_positions, align='center')", "compilation_passed": true, "time": 0.14555788040161133, "tests_passed": true, "error": null}
+{"code": "bar(range(len(letter_positions)), letter_positions)", "compilation_passed": true, "time": 0.16068100929260254, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(len(word)), letter_positions, color='blue', align='center')", "compilation_passed": true, "time": 0.16255521774291992, "tests_passed": true, "error": null}
+{"code": "bar(range(len(word)), letter_positions, tick_label=list(word))", "compilation_passed": true, "time": 0.17307686805725098, "tests_passed": true, "error": null}
+{"code": "bar(np.arange(1, len(word)+1), letter_positions)", "compilation_passed": true, "time": 0.21743106842041016, "tests_passed": true, "error": null}

@@ -1,0 +1,18 @@
+{"code": " logging.FileHandler(f'{log_path}task_func.log', mode='w', encoding='utf-8')", "compilation_passed": true, "time": 0.012192964553833008, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " logging.FileHandler(log_path + '/task_func.log', mode='w', encoding='utf-8')", "compilation_passed": true, "time": 0.010580062866210938, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(f'{log_path}/task_func.log', mode='w', encoding='utf-8')", "compilation_passed": true, "time": 0.01063084602355957, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(f'{log_path}/task_func.log', 'w', encoding='utf-8')", "compilation_passed": true, "time": 0.009062767028808594, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(f'{log_path}/task_func.log', 'w')", "compilation_passed": true, "time": 0.009165048599243164, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(f'{log_path}task_func.log', encoding=\"utf8\")", "compilation_passed": true, "time": 0.012412786483764648, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " logging.FileHandler(os.path.join(log_path,'task_func.log'),encoding='utf-8',mode='w')", "compilation_passed": true, "time": 0.009279966354370117, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(log_path + 'task_func.log')", "compilation_passed": true, "time": 0.012194633483886719, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " logging.FileHandler(os.path.join(log_path, 'task_func.log'), mode='w', encoding='utf-8')", "compilation_passed": true, "time": 0.010068893432617188, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(log_path + '/task_func.log', 'w')", "compilation_passed": true, "time": 0.009171247482299805, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(f'{log_path}/task_func.log', mode='w')", "compilation_passed": true, "time": 0.009327173233032227, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(os.path.join(log_path, 'task_func.log'), 'w')", "compilation_passed": true, "time": 0.011336088180541992, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(f\"{log_path}/task_func.log\", mode=\"w\", encoding=\"utf-8\")", "compilation_passed": true, "time": 0.00917816162109375, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(os.path.join(log_path, 'task_func.log'), mode='w')", "compilation_passed": true, "time": 0.009298086166381836, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(f'{log_path}/task_func.log')", "compilation_passed": true, "time": 0.009549140930175781, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(os.path.join(log_path, 'task_func.log'), encoding='utf-8')", "compilation_passed": true, "time": 0.006821870803833008, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(f\"{log_path}/task_func.log\")", "compilation_passed": true, "time": 0.009456872940063477, "tests_passed": true, "error": null}
+{"code": " logging.FileHandler(log_path + 'task_func.log', mode='w', encoding='utf-8')", "compilation_passed": true, "time": 0.012072086334228516, "tests_passed": false, "error": "FileNotFoundError"}

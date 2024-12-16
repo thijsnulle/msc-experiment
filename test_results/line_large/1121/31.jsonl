@@ -1,0 +1,9 @@
+{"code": " json.loads(response.text) if response.ok else None", "compilation_passed": true, "time": 0.00827789306640625, "tests_passed": false, "error": "AttributeError"}
+{"code": " response.json() if response.status_code == 200 else None", "compilation_passed": true, "time": 0.0033311843872070312, "tests_passed": true, "error": null}
+{"code": " response.json()", "compilation_passed": true, "time": 0.0038940906524658203, "tests_passed": true, "error": null}
+{"code": " json.loads(response.text)", "compilation_passed": true, "time": 0.004069328308105469, "tests_passed": true, "error": null}
+{"code": " response.json() if response.ok else None", "compilation_passed": true, "time": 0.009336233139038086, "tests_passed": false, "error": "AttributeError"}
+{"code": " json.loads(response.text) if response.status_code == 200 else None", "compilation_passed": true, "time": 0.0032341480255126953, "tests_passed": true, "error": null}
+{"code": " json.loads(response.content.decode('utf-8'))", "compilation_passed": true, "time": 0.007761240005493164, "tests_passed": false, "error": "AttributeError"}
+{"code": " json.loads(response.content) if response.status_code == 200 else None", "compilation_passed": true, "time": 0.0073070526123046875, "tests_passed": false, "error": "AttributeError"}
+{"code": " json.loads(response.content.decode()) if response.status_code == 200 else None", "compilation_passed": true, "time": 0.007313966751098633, "tests_passed": false, "error": "AttributeError"}

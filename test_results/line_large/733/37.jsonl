@@ -1,0 +1,22 @@
+{"code": " [", "compilation_passed": false, "time": 0.0003719329833984375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [x for x in content if not x in STOPWORDS]", "compilation_passed": true, "time": 0.005917787551879883, "tests_passed": true, "error": null}
+{"code": " set([x.strip(string.punctuation).lower() for x in content])", "compilation_passed": true, "time": 0.0016560554504394531, "tests_passed": true, "error": null}
+{"code": " [x for x in content if x.lower() not in STOPWORDS]", "compilation_passed": true, "time": 0.0014920234680175781, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.006103038787841797, "tests_passed": true, "error": null}
+{"code": " set()", "compilation_passed": true, "time": 0.006720066070556641, "tests_passed": true, "error": null}
+{"code": " [w for w in content if w not in STOPWORDS and w.translate(str.maketrans('', '', string.punctuation)) != \"\"]", "compilation_passed": true, "time": 0.005879878997802734, "tests_passed": true, "error": null}
+{"code": " ' '.join(content)", "compilation_passed": true, "time": 0.005845069885253906, "tests_passed": true, "error": null}
+{"code": " [i for i in content if i.isalpha() and i not in STOPWORDS]", "compilation_passed": true, "time": 0.006326913833618164, "tests_passed": true, "error": null}
+{"code": " [word for word in content if word not in STOPWORDS]", "compilation_passed": true, "time": 0.006667137145996094, "tests_passed": true, "error": null}
+{"code": " [w for w in content if w.isalpha() and not w in STOPWORDS]", "compilation_passed": true, "time": 0.005533933639526367, "tests_passed": true, "error": null}
+{"code": " set([word.lower() for word in content])", "compilation_passed": true, "time": 0.0016889572143554688, "tests_passed": true, "error": null}
+{"code": " ' '.join(content).split(' ')", "compilation_passed": true, "time": 0.007735013961791992, "tests_passed": true, "error": null}
+{"code": " [w.strip(string.punctuation) for w in content]", "compilation_passed": true, "time": 0.006863117218017578, "tests_passed": true, "error": null}
+{"code": " [word.strip(string.punctuation).lower() for word in content]", "compilation_passed": true, "time": 0.001631021499633789, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w']\", \" \", \" \".join(content)).split(' ')", "compilation_passed": true, "time": 0.008301258087158203, "tests_passed": true, "error": null}
+{"code": " set([w.lower() for w in content])", "compilation_passed": true, "time": 0.0017628669738769531, "tests_passed": true, "error": null}
+{"code": " set([word for word in content if word not in STOPWORDS])", "compilation_passed": true, "time": 0.0069577693939208984, "tests_passed": true, "error": null}
+{"code": " [x for x in content if x not in STOPWORDS and re.match(\"^[A-Za-z]*$\", x)]", "compilation_passed": true, "time": 0.0057220458984375, "tests_passed": true, "error": null}
+{"code": " [re.sub(r'[^\\w\\d\\s]+', '', word).strip().lower() for word in content]", "compilation_passed": true, "time": 0.0025107860565185547, "tests_passed": true, "error": null}
+{"code": " set([w for w in content if not re.search(f\"\\w*[a-zA-Z]+\\w*[a-zA-Z]\\w*\", w)])", "compilation_passed": true, "time": 0.009774923324584961, "tests_passed": true, "error": null}
+{"code": " set(content)", "compilation_passed": true, "time": 0.007543087005615234, "tests_passed": true, "error": null}

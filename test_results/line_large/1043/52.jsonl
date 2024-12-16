@@ -1,0 +1,21 @@
+{"code": " not predefined_counts.all():", "compilation_passed": true, "time": 0.2135639190673828, "tests_passed": true, "error": null}
+{"code": " predefined_counts.std() == 0:", "compilation_passed": true, "time": 0.21050095558166504, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.equals(predefined_counts[0]):", "compilation_passed": true, "time": 0.2832057476043701, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.isnull().any() and predefined_counts.sum() == len(data_list):", "compilation_passed": true, "time": 0.2962009906768799, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.to_list().count(predefined_counts.max()) == len(predefined_counts):", "compilation_passed": true, "time": 0.28052496910095215, "tests_passed": true, "error": null}
+{"code": " len(set(predefined_counts.values)) != 1:", "compilation_passed": true, "time": 0.2748408317565918, "tests_passed": true, "error": null}
+{"code": " predefined_counts.min() != predefined_counts.max():", "compilation_passed": true, "time": 0.2799720764160156, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.equals(predefined_counts.iloc[0]):", "compilation_passed": true, "time": 0.28736209869384766, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.isnull().any() and (predefined_counts != predefined_counts.mean()).any():", "compilation_passed": true, "time": 0.2851259708404541, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.isnull().any() and (predefined_counts == 0).sum() == 4:", "compilation_passed": true, "time": 0.21782827377319336, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.is_monotonic_increasing:", "compilation_passed": true, "time": 0.281451940536499, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.index.isin(CATEGORIES).all():", "compilation_passed": true, "time": 0.22298908233642578, "tests_passed": true, "error": null}
+{"code": " (predefined_counts != predefined_counts.mode()).any():", "compilation_passed": true, "time": 0.02470111846923828, "tests_passed": false, "error": "ValueError"}
+{"code": " not predefined_counts.equals(predefined_counts.max()):", "compilation_passed": true, "time": 0.3444380760192871, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.is_monotonic:", "compilation_passed": true, "time": 0.011288166046142578, "tests_passed": false, "error": "AttributeError"}
+{"code": " (predefined_counts != predefined_counts[0]).any():", "compilation_passed": true, "time": 0.29047608375549316, "tests_passed": true, "error": null}
+{"code": " predefined_counts.std() > 0:", "compilation_passed": true, "time": 0.28674817085266113, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.equals(pd.Series([0.2, 0.2, 0.2, 0.2, 0.2])):", "compilation_passed": true, "time": 0.3349156379699707, "tests_passed": true, "error": null}
+{"code": " not predefined_counts.equals(predefined_counts.max() * pd.Series(1, index=predefined_counts.index)):", "compilation_passed": true, "time": 0.28934288024902344, "tests_passed": true, "error": null}
+{"code": " predefined_counts.std() != 0:", "compilation_passed": true, "time": 0.2872438430786133, "tests_passed": true, "error": null}
+{"code": " (predefined_counts != predefined_counts.mean()).any():", "compilation_passed": true, "time": 0.2853851318359375, "tests_passed": true, "error": null}

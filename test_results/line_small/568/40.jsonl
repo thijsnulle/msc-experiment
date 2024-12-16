@@ -1,0 +1,13 @@
+{"code": " inspect.isfunction(f):", "compilation_passed": true, "time": 0.00824594497680664, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(f, FunctionType):", "compilation_passed": true, "time": 0.007302761077880859, "tests_passed": false, "error": "NameError"}
+{"code": " not callable(f):", "compilation_passed": true, "time": 0.1251671314239502, "tests_passed": true, "error": null}
+{"code": " callable(f):", "compilation_passed": true, "time": 0.013141870498657227, "tests_passed": false, "error": "ValueError"}
+{"code": " f.__name__ == \"<lambda>\":", "compilation_passed": true, "time": 0.3352189064025879, "tests_passed": true, "error": null}
+{"code": " not isinstance(f, (types.FunctionType, types.MethodType)):", "compilation_passed": true, "time": 0.006369113922119141, "tests_passed": false, "error": "NameError"}
+{"code": " isinstance(f, (types.FunctionType, types.BuiltinFunctionType)):", "compilation_passed": true, "time": 0.006236076354980469, "tests_passed": false, "error": "NameError"}
+{"code": " isinstance(f, (FunctionType, LambdaType)):", "compilation_passed": true, "time": 0.010043859481811523, "tests_passed": false, "error": "NameError"}
+{"code": " inspect.isfunction(f) or inspect.ismethod(f):", "compilation_passed": true, "time": 0.009289026260375977, "tests_passed": false, "error": "ValueError"}
+{"code": " not inspect.isfunction(f):", "compilation_passed": true, "time": 0.20788002014160156, "tests_passed": true, "error": null}
+{"code": " hasattr(f, '__code__'):", "compilation_passed": true, "time": 0.016871929168701172, "tests_passed": false, "error": "ValueError"}
+{"code": " f.__code__.co_argcount == 1 and f.__code__.co_name.startswith(\"<\") and f.__code__.co_name.endswith(\">\"):", "compilation_passed": true, "time": 0.12784385681152344, "tests_passed": true, "error": null}
+{"code": " inspect.isroutine(f):", "compilation_passed": true, "time": 0.00736689567565918, "tests_passed": false, "error": "ValueError"}

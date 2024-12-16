@@ -4,3 +4,6 @@
 {"code": " plt.subplot()", "compilation_passed": true, "time": 0.27859997749328613, "tests_passed": true, "error": null}
 {"code": " plt.subplot(1, 1, 1)", "compilation_passed": true, "time": 0.26033616065979004, "tests_passed": true, "error": null}
 {"code": " plt.figure(\"No data found\").add_subplot()", "compilation_passed": true, "time": 0.34628725051879883, "tests_passed": true, "error": null}
+{"code": " plt.subplots()[1]", "compilation_passed": true, "time": 0.02093195915222168, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.0024030208587646484, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " plt.Axes(None, (0, 0, 1, 1))", "compilation_passed": true, "time": 0.001909017562866211, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}

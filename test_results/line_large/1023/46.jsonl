@@ -1,0 +1,21 @@
+{"code": " tuple(abs_corr_matrix.unstack().dropna().nlargest(2).index)", "compilation_passed": true, "time": 0.02345108985900879, "tests_passed": false, "error": "IndexError"}
+{"code": " abs_corr_matrix.unstack().dropna().idxmax()", "compilation_passed": true, "time": 0.021206140518188477, "tests_passed": false, "error": "IndexError"}
+{"code": " abs_corr_matrix.unstack().dropna().nlargest(2).index[-1]", "compilation_passed": true, "time": 0.02315497398376465, "tests_passed": false, "error": "IndexError"}
+{"code": " tuple(sorted(abs_corr_matrix.stack().idxmax()))", "compilation_passed": true, "time": 0.021087169647216797, "tests_passed": false, "error": "IndexError"}
+{"code": " tuple(abs_corr_matrix[abs_corr_matrix.unstack().dropna() == highest_corr_value].stack().index[0])", "compilation_passed": true, "time": 0.02852010726928711, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " abs_corr_matrix.unstack().dropna().nlargest(2).index[1]", "compilation_passed": true, "time": 0.0190889835357666, "tests_passed": false, "error": "IndexError"}
+{"code": " list(abs_corr_matrix.unstack().dropna().nlargest(2).index)[1]", "compilation_passed": true, "time": 0.023335933685302734, "tests_passed": false, "error": "IndexError"}
+{"code": " tuple(sorted(abs_corr_matrix.stack().loc[abs_corr_matrix.unstack().dropna().nlargest(1).index].index))", "compilation_passed": true, "time": 0.030213117599487305, "tests_passed": false, "error": "IndexError"}
+{"code": " list(abs_corr_matrix.unstack().dropna().nlargest(2).index)[-1]", "compilation_passed": true, "time": 0.01865696907043457, "tests_passed": false, "error": "IndexError"}
+{"code": " abs_corr_matrix.stack().idxmax().values", "compilation_passed": true, "time": 0.013520956039428711, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(i[0], i[1]) for i in abs_corr_matrix.unstack().dropna().nlargest(2).index if i[0] != i[1]]", "compilation_passed": true, "time": 0.014816999435424805, "tests_passed": false, "error": "IndexError"}
+{"code": " (abs_corr_matrix.unstack().dropna().nlargest(2).index[-1])", "compilation_passed": true, "time": 0.016016721725463867, "tests_passed": false, "error": "IndexError"}
+{"code": " list(abs_corr_matrix.unstack().dropna().nlargest(1).index)", "compilation_passed": true, "time": 0.015060901641845703, "tests_passed": false, "error": "IndexError"}
+{"code": " abs_corr_matrix.stack().abs().nlargest(1).index.tolist()[0]", "compilation_passed": true, "time": 0.014635801315307617, "tests_passed": false, "error": "IndexError"}
+{"code": " tuple(abs_corr_matrix.stack().abs().idxmax().tolist())", "compilation_passed": true, "time": 0.016095876693725586, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(corr_var, dataframe.columns[idx]) for corr_var, idx in zip(dataframe.columns, np.triu_indices_from(abs_corr_matrix, k=1)) if abs_corr_matrix[corr_var][idx] == highest_corr_value][0]", "compilation_passed": true, "time": 0.016961097717285156, "tests_passed": false, "error": "ValueError"}
+{"code": " (abs_corr_matrix.unstack().dropna().nlargest(2).index)[-1]", "compilation_passed": true, "time": 0.015398740768432617, "tests_passed": false, "error": "IndexError"}
+{"code": " [(column1, column2) for column1, column2 in abs_corr_matrix.columns][", "compilation_passed": false, "time": 0.0002810955047607422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " abs_corr_matrix.stack().dropna().nlargest(2).index[-1]", "compilation_passed": true, "time": 0.015110015869140625, "tests_passed": false, "error": "IndexError"}
+{"code": " tuple(abs_corr_matrix.unstack().dropna().nlargest(1).index)", "compilation_passed": true, "time": 0.015038013458251953, "tests_passed": false, "error": "IndexError"}
+{"code": " abs_corr_matrix.unstack().dropna()[abs_corr_matrix.unstack().dropna() == highest_corr_value].index.tolist()[0]", "compilation_passed": true, "time": 0.015158891677856445, "tests_passed": false, "error": "IndexError"}

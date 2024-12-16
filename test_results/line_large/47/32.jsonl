@@ -1,0 +1,8 @@
+{"code": " df.copy()", "compilation_passed": true, "time": 0.10632014274597168, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean())", "compilation_passed": true, "time": 0.35771727561950684, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean())  # Replace missing values with column means", "compilation_passed": true, "time": 0.3556699752807617, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean()) # Replace missing values with column means", "compilation_passed": true, "time": 0.36528515815734863, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean())  # Replace missing values with the column's mean", "compilation_passed": true, "time": 0.3673372268676758, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean())  # Replace missing values with column mean", "compilation_passed": true, "time": 0.38079190254211426, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: x.fillna(x.mean()) if x.dtype in ['int64','float64'] else x)", "compilation_passed": true, "time": 0.3635411262512207, "tests_passed": true, "error": null}
+{"code": " df.fillna(df.mean())  # Replace missing values with the column mean", "compilation_passed": true, "time": 0.371628999710083, "tests_passed": true, "error": null}

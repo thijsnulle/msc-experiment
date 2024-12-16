@@ -1,0 +1,17 @@
+{"code": " re.findall(r'https?://[^\\s]+', myString)", "compilation_passed": true, "time": 0.007035017013549805, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(https?://\\S+)', myString)", "compilation_passed": true, "time": 0.006879091262817383, "tests_passed": true, "error": null}
+{"code": " re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString)", "compilation_passed": true, "time": 0.006290912628173828, "tests_passed": true, "error": null}
+{"code": " re.findall(r'https?://(?:[-\\w.]|(?:%[\\da-fA-F]{2}))+', myString)", "compilation_passed": true, "time": 0.0037360191345214844, "tests_passed": true, "error": null}
+{"code": " re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString) # Extract URLs from the string", "compilation_passed": true, "time": 0.006719112396240234, "tests_passed": true, "error": null}
+{"code": " re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString)", "compilation_passed": true, "time": 0.006742000579833984, "tests_passed": true, "error": null}
+{"code": " re.findall(r'https?://(?:[-\\w.]|(?:%[\\da-fA-F]{2}))+', myString) # Use regular expression to find all URLs in the string", "compilation_passed": true, "time": 0.0038771629333496094, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(https?:\\/\\/[^\\s]+)', myString)", "compilation_passed": true, "time": 0.005990028381347656, "tests_passed": true, "error": null}
+{"code": " re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\\\(\\\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString)", "compilation_passed": true, "time": 0.0057680606842041016, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(https?://\\S+)\", myString)", "compilation_passed": true, "time": 0.006992816925048828, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?i)\\b((?:https?://|www\\d{0,3}[.]|[a-z0-9.\\-]+[.][a-z]{2,4}/)(?:[^\\s()<>]+|\\(([^\\s()<>]+|(\\([^\\s()<>]+\\)))*\\))+(?:\\(([^\\s()<>]+|(\\([^\\s()<>]+\\)))*\\)|[^\\s`!()\\[\\]{};:'\\\".,<>?\u00ab\u00bb\u201c\u201d\u2018\u2019]))\", myString)", "compilation_passed": true, "time": 0.011124134063720703, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\\\(\\\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString)", "compilation_passed": true, "time": 0.005845069885253906, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(?:http://|https://)[^\\s\\'\\\"<>]*', myString) # Extract all URLs from the string", "compilation_passed": true, "time": 0.005547046661376953, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(https?://[^\\s]+)', myString)", "compilation_passed": true, "time": 0.005774259567260742, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(https?://[^\\s]+)', myString)  # Extract all URLs from the provided string", "compilation_passed": true, "time": 0.0053441524505615234, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(?:(?:https?|ftp):\\/\\/)?[\\w/\\-?=%.]+\\.[\\w/\\-&?=%.]+', myString)  # Extract all URLs from the string", "compilation_passed": true, "time": 0.009065866470336914, "tests_passed": false, "error": "Exception"}
+{"code": " re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString) # Use regular expression to find all URLs in the string", "compilation_passed": true, "time": 0.005661964416503906, "tests_passed": true, "error": null}

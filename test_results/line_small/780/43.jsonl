@@ -1,0 +1,4 @@
+{"code": " len(articles) == 0:", "compilation_passed": true, "time": 0.0022618770599365234, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " not articles:", "compilation_passed": true, "time": 0.0025060176849365234, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute 'core' (most likely due to a circular import)"}
+{"code": " len(articles) < 1:", "compilation_passed": true, "time": 0.02012801170349121, "tests_passed": false, "error": "TypeError"}
+{"code": " not all(isinstance(article, dict) for article in articles):", "compilation_passed": true, "time": 0.01145792007446289, "tests_passed": true, "error": null}

@@ -1,0 +1,10 @@
+{"code": " [random.choice(NUMBERS) for _ in range(rolls)]", "compilation_passed": true, "time": 0.7092249393463135, "tests_passed": true, "error": null}
+{"code": " np.zeros(6, dtype=int)", "compilation_passed": true, "time": 0.06115412712097168, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.05919814109802246, "tests_passed": true, "error": null}
+{"code": " np.zeros(len(NUMBERS))", "compilation_passed": true, "time": 0.01435995101928711, "tests_passed": false, "error": "TypeError"}
+{"code": " [0 for i in NUMBERS]", "compilation_passed": true, "time": 0.11866593360900879, "tests_passed": true, "error": null}
+{"code": " np.zeros(len(NUMBERS), dtype=int)", "compilation_passed": true, "time": 0.060101985931396484, "tests_passed": true, "error": null}
+{"code": " np.zeros(len(NUMBERS), dtype=int)  # Using int type for frequency array", "compilation_passed": true, "time": 0.0568239688873291, "tests_passed": true, "error": null}
+{"code": " [random.choice(NUMBERS) for i in range(rolls)]", "compilation_passed": true, "time": 0.5786309242248535, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, 7, size=rolls)", "compilation_passed": true, "time": 0.15481305122375488, "tests_passed": true, "error": null}
+{"code": " np.array([random.choice(NUMBERS) for _ in range(rolls)])", "compilation_passed": true, "time": 0.06839990615844727, "tests_passed": false, "error": "TypeError"}

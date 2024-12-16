@@ -1,0 +1,8 @@
+{"code": "scatter(df[df[\"category\"] == category][\"x\"], df[df[\"category\"] == category][\"y\"], label=category)", "compilation_passed": false, "time": 0.0006067752838134766, "tests_passed": false, "error": "IndentationError"}
+{"code": "scatter(df[\"x\"][df[\"category\"] == category], df[\"y\"][df[\"category\"] == category], label=category)", "compilation_passed": false, "time": 0.0007891654968261719, "tests_passed": false, "error": "IndentationError"}
+{"code": "scatter(", "compilation_passed": true, "time": 0.30138182640075684, "tests_passed": true, "error": null}
+{"code": "scatter(df[df[\"category\"] == category].x, df[df[\"category\"] == category].y, label=category)", "compilation_passed": false, "time": 0.0007810592651367188, "tests_passed": false, "error": "IndentationError"}
+{"code": "scatter(df[df.category == category].x, df[df.category == category].y, label=category)", "compilation_passed": false, "time": 0.0008101463317871094, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(", "compilation_passed": true, "time": 0.25699424743652344, "tests_passed": true, "error": null}
+{"code": "scatter(df.loc[df[\"category\"] == category, \"x\"],", "compilation_passed": true, "time": 0.31180691719055176, "tests_passed": true, "error": null}
+{"code": "scatter(df[df[\"category\"] == category][\"x\"], df[df[\"category\"] == category][\"y\"])", "compilation_passed": false, "time": 0.0007779598236083984, "tests_passed": false, "error": "IndentationError"}

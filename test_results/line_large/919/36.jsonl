@@ -1,0 +1,4 @@
+{"code": " set(CATEGORIES) - set(counts.index)", "compilation_passed": true, "time": 0.03935980796813965, "tests_passed": true, "error": null}
+{"code": " set(CATEGORIES) - set(counts.index.values)", "compilation_passed": true, "time": 0.04108095169067383, "tests_passed": true, "error": null}
+{"code": " [cat for cat in CATEGORIES if cat not in counts.index]", "compilation_passed": true, "time": 0.04127979278564453, "tests_passed": true, "error": null}
+{"code": " [cat for cat in CATEGORIES if cat not in counts.keys()]", "compilation_passed": true, "time": 0.04354524612426758, "tests_passed": true, "error": null}

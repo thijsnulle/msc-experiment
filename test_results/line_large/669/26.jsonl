@@ -1,0 +1,10 @@
+{"code": " max(pairs, key=lambda pair: math.cos(x[pair[0]]) + math.cos(x[pair[1]]))", "compilation_passed": true, "time": 0.0012881755828857422, "tests_passed": true, "error": null}
+{"code": " pairs[0]", "compilation_passed": true, "time": 0.003757953643798828, "tests_passed": true, "error": null}
+{"code": " max(pairs, key=lambda p: math.cos(x[p[0]]) + math.cos(x[p[1]]))", "compilation_passed": true, "time": 0.0011091232299804688, "tests_passed": true, "error": null}
+{"code": " max(pairs, key=lambda p: sum(math.cos(x[c]) for c in p))", "compilation_passed": true, "time": 0.0012888908386230469, "tests_passed": true, "error": null}
+{"code": " max(pairs, key=lambda p: (math.cos(x[p[0]]) + math.cos(x[p[1]])))", "compilation_passed": true, "time": 0.0011560916900634766, "tests_passed": true, "error": null}
+{"code": " None", "compilation_passed": true, "time": 0.0037848949432373047, "tests_passed": false, "error": "TypeError"}
+{"code": " max(pairs, key=lambda p: sum(map(math.cos, map(x.get, p))))", "compilation_passed": true, "time": 0.0012891292572021484, "tests_passed": true, "error": null}
+{"code": " max(pairs, key=lambda pair: sum(math.cos(x[p]) for p in pair))", "compilation_passed": true, "time": 0.001318216323852539, "tests_passed": true, "error": null}
+{"code": " max(pairs, key=lambda p: (math.cos(x[p[0]]) + math.cos(x[p[1]]), p[0]))", "compilation_passed": true, "time": 0.0011920928955078125, "tests_passed": true, "error": null}
+{"code": " max(pairs, key=lambda p: sum(map(math.cos, (x[p[0]], x[p[1]]))))", "compilation_passed": true, "time": 0.0012660026550292969, "tests_passed": true, "error": null}

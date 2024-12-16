@@ -1,0 +1,8 @@
+{"code": " SCALER.fit_transform(my_dict[\"array\"].reshape(-1, 1))", "compilation_passed": true, "time": 0.015223026275634766, "tests_passed": true, "error": null}
+{"code": " my_dict[\"array\"]", "compilation_passed": true, "time": 0.01609492301940918, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.array(my_dict[\"array\"]).reshape((-1, 1))", "compilation_passed": true, "time": 0.009174108505249023, "tests_passed": true, "error": null}
+{"code": " np.reshape(my_dict[\"array\"], (-1, 1))", "compilation_passed": true, "time": 0.00899195671081543, "tests_passed": true, "error": null}
+{"code": " my_dict[\"array\"].reshape(-1, 1)", "compilation_passed": true, "time": 0.008810997009277344, "tests_passed": true, "error": null}
+{"code": " my_dict[\"array\"].reshape((-1, 1))", "compilation_passed": true, "time": 0.00896310806274414, "tests_passed": true, "error": null}
+{"code": " SCALER.fit_transform(my_dict[\"array\"])", "compilation_passed": true, "time": 0.01672506332397461, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.array(my_dict[\"array\"]).reshape(-1, 1)", "compilation_passed": true, "time": 0.00905609130859375, "tests_passed": true, "error": null}

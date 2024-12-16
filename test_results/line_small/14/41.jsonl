@@ -1,0 +1,11 @@
+{"code": " os.path.join(archive_dir, os.path.basename(project_dir)) + '.zip'", "compilation_passed": true, "time": 0.020719051361083984, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.basename(project_dir) + '.zip'", "compilation_passed": true, "time": 0.13799810409545898, "tests_passed": true, "error": null}
+{"code": " os.path.basename(project_dir)", "compilation_passed": true, "time": 0.02026987075805664, "tests_passed": false, "error": "Exception"}
+{"code": " os.path.join(archieve_dir, os.path.basename(project_dir)+'.zip')", "compilation_passed": true, "time": 0.1311192512512207, "tests_passed": true, "error": null}
+{"code": " os.path.basename(project_dir) + \".zip\"", "compilation_passed": true, "time": 0.13666725158691406, "tests_passed": true, "error": null}
+{"code": " os.path.join(archive_dir, os.path.basename(project_dir) + '.zip')", "compilation_passed": true, "time": 0.013542890548706055, "tests_passed": false, "error": "NameError"}
+{"code": " f'{project_dir.split(os.sep)[-1]}.zip'", "compilation_passed": true, "time": 0.10437798500061035, "tests_passed": true, "error": null}
+{"code": " os.path.join(archive_dir, os.path.basename(project_dir)+'.zip')", "compilation_passed": true, "time": 0.017934799194335938, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.join(archive_dir, os.path.basename(project_dir))", "compilation_passed": true, "time": 0.014582157135009766, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.join(archieve_dir, os.path.basename(project_dir))", "compilation_passed": true, "time": 0.01603102684020996, "tests_passed": false, "error": "Exception"}
+{"code": " f\"{os.path.basename(project_dir)}.zip\"", "compilation_passed": true, "time": 0.08783364295959473, "tests_passed": true, "error": null}

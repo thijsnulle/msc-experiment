@@ -1,0 +1,13 @@
+{"code": " [name for name in names if name != \"\"]", "compilation_passed": true, "time": 0.031903982162475586, "tests_passed": false, "error": "KeyError"}
+{"code": " [n.strip() for n in names if n.strip()]", "compilation_passed": true, "time": 0.03993701934814453, "tests_passed": true, "error": null}
+{"code": " [name.strip() for name in names if name.strip()]", "compilation_passed": true, "time": 0.042530059814453125, "tests_passed": true, "error": null}
+{"code": " [n for n in names if n.strip()]", "compilation_passed": true, "time": 0.02907705307006836, "tests_passed": false, "error": "KeyError"}
+{"code": " [name for name in names if name]", "compilation_passed": true, "time": 0.03593897819519043, "tests_passed": false, "error": "KeyError"}
+{"code": " [n for n in names if n]", "compilation_passed": true, "time": 0.03534889221191406, "tests_passed": false, "error": "KeyError"}
+{"code": " [name.strip() for name in names if name.strip() != '']", "compilation_passed": true, "time": 0.04086780548095703, "tests_passed": true, "error": null}
+{"code": " [name for name in names if name]  # removing empty strings", "compilation_passed": true, "time": 0.03684806823730469, "tests_passed": false, "error": "KeyError"}
+{"code": " [name for name in names if name != '']", "compilation_passed": true, "time": 0.036665916442871094, "tests_passed": false, "error": "KeyError"}
+{"code": " list(filter(None, names))", "compilation_passed": true, "time": 0.03720283508300781, "tests_passed": false, "error": "KeyError"}
+{"code": " [name for name in names if name.strip()]", "compilation_passed": true, "time": 0.036546945571899414, "tests_passed": false, "error": "KeyError"}
+{"code": " [name for name in names if len(name.strip()) > 0]", "compilation_passed": true, "time": 0.0368649959564209, "tests_passed": false, "error": "KeyError"}
+{"code": " [name for name in names if name != '']  # Removing empty strings from the list of names", "compilation_passed": true, "time": 0.03708004951477051, "tests_passed": false, "error": "KeyError"}

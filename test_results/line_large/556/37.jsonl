@@ -1,0 +1,10 @@
+{"code": " ''.join(random.choice(letters) for _ in range(string_length))", "compilation_passed": true, "time": 0.001806020736694336, "tests_passed": true, "error": null}
+{"code": " \"\".join(np.random.choice(list(letters), string_length))", "compilation_passed": true, "time": 0.002357959747314453, "tests_passed": true, "error": null}
+{"code": " ''.join(np.random.choice(list(letters), size=string_length))", "compilation_passed": true, "time": 0.002145051956176758, "tests_passed": true, "error": null}
+{"code": " \"\".join(np.random.choice(list(letters), size=string_length))", "compilation_passed": true, "time": 0.0021550655364990234, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choices(letters, k=string_length))", "compilation_passed": true, "time": 0.0015420913696289062, "tests_passed": true, "error": null}
+{"code": " ''.join(np.random.choice(list(letters), string_length))", "compilation_passed": true, "time": 0.0019290447235107422, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choice(letters) for _ in range(string_length))", "compilation_passed": true, "time": 0.0018150806427001953, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choices(letters, k=string_length))", "compilation_passed": true, "time": 0.0018329620361328125, "tests_passed": true, "error": null}
+{"code": " ''.join(np.random.choice(list(letters)) for i in range(string_length))", "compilation_passed": true, "time": 0.0028600692749023438, "tests_passed": true, "error": null}
+{"code": " np.random.choice(list(letters), size=string_length).tobytes().decode()", "compilation_passed": true, "time": 0.005905866622924805, "tests_passed": true, "error": null}

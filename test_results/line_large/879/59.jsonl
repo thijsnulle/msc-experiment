@@ -1,0 +1,8 @@
+{"code": " len(data[col1].cat.categories) == 1 or len(data[col2].cat.categories) == 1:", "compilation_passed": true, "time": 0.035881996154785156, "tests_passed": false, "error": "AttributeError"}
+{"code": " data[col1].nunique() < 2 or data[col2].nunique() < 2:", "compilation_passed": true, "time": 0.029265165328979492, "tests_passed": true, "error": null}
+{"code": " len(data[col1].unique()) == 1 or len(data[col2].unique()) == 1:", "compilation_passed": true, "time": 0.048811912536621094, "tests_passed": true, "error": null}
+{"code": " data[col1].nunique() == 1 or data[col2].nunique() == 1:", "compilation_passed": true, "time": 0.04140520095825195, "tests_passed": true, "error": null}
+{"code": " len(data[col1].value_counts()) < 2 or len(data[col2].value_counts()) < 2:", "compilation_passed": true, "time": 0.035698890686035156, "tests_passed": true, "error": null}
+{"code": " len(data[col1].unique()) < 2 or len(data[col2].unique()) < 2:", "compilation_passed": true, "time": 0.029371976852416992, "tests_passed": true, "error": null}
+{"code": " len(data[col1].cat.categories) < 2 or len(data[col2].cat.categories) < 2:", "compilation_passed": true, "time": 0.009721040725708008, "tests_passed": false, "error": "AttributeError"}
+{"code": " len(data[col1].value_counts()) == 1 or len(data[col2].value_counts()) == 1:", "compilation_passed": true, "time": 0.03260612487792969, "tests_passed": true, "error": null}

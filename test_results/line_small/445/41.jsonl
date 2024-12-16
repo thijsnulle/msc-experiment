@@ -1,0 +1,24 @@
+{"code": " points + np.random.rand(points.shape[0], 2)", "compilation_passed": true, "time": 0.07493782043457031, "tests_passed": true, "error": null}
+{"code": " points + np.random.randn(*points.shape)", "compilation_passed": true, "time": 0.07246088981628418, "tests_passed": true, "error": null}
+{"code": " points + np.random.normal(scale=0.1, size=points.shape)", "compilation_passed": true, "time": 0.07417011260986328, "tests_passed": true, "error": null}
+{"code": " points + 0.1 * np.random.randn(*points.shape)", "compilation_passed": true, "time": 0.07244706153869629, "tests_passed": true, "error": null}
+{"code": " points + 0.05 * np.random.normal(size=points.shape)", "compilation_passed": true, "time": 0.07295584678649902, "tests_passed": true, "error": null}
+{"code": " points + (0.001 * np.random.rand(*points.shape))", "compilation_passed": true, "time": 0.07061576843261719, "tests_passed": true, "error": null}
+{"code": " points + np.random.normal(0.0, 0.01, size=points.shape)", "compilation_passed": true, "time": 0.06996798515319824, "tests_passed": true, "error": null}
+{"code": " np.array(points) + 0.5 * np.random.randn(len(points), 2)", "compilation_passed": true, "time": 0.06244373321533203, "tests_passed": false, "error": "AttributeError"}
+{"code": " points + np.random.normal(scale=1e-4, size=points.shape)", "compilation_passed": true, "time": 0.07271194458007812, "tests_passed": true, "error": null}
+{"code": " points + np.random.rand(len(points), 2) * 0.01", "compilation_passed": true, "time": 0.06987166404724121, "tests_passed": true, "error": null}
+{"code": " points + np.random.normal(size=points.shape)", "compilation_passed": true, "time": 0.07311105728149414, "tests_passed": true, "error": null}
+{"code": " points + 0.1 * (np.random.random(points.shape) - 0.5)", "compilation_passed": true, "time": 0.07159185409545898, "tests_passed": true, "error": null}
+{"code": " points + np.random.normal(0, 0.001, points.shape)", "compilation_passed": true, "time": 0.07104301452636719, "tests_passed": true, "error": null}
+{"code": " points + np.random.uniform(0, 0.01, size=points.shape)", "compilation_passed": true, "time": 0.07187294960021973, "tests_passed": true, "error": null}
+{"code": " np.random.rand(len(points), 2) * 0.05 + points", "compilation_passed": true, "time": 0.07070088386535645, "tests_passed": true, "error": null}
+{"code": " points + np.random.randn(*points.shape) * 0.05", "compilation_passed": true, "time": 0.07588911056518555, "tests_passed": true, "error": null}
+{"code": " points + np.random.rand(*points.shape) * 0.01", "compilation_passed": true, "time": 0.07440876960754395, "tests_passed": true, "error": null}
+{"code": " points + np.random.randn(len(points), 2) * 0.1", "compilation_passed": true, "time": 0.07034897804260254, "tests_passed": true, "error": null}
+{"code": " points + np.random.normal(0, 0.01, size=points.shape)", "compilation_passed": true, "time": 0.0700531005859375, "tests_passed": true, "error": null}
+{"code": " points + np.random.normal(0, 0.1, size=points.shape)", "compilation_passed": true, "time": 0.07163310050964355, "tests_passed": true, "error": null}
+{"code": " points + np.random.rand(*points.shape) * 0.05", "compilation_passed": true, "time": 0.0719609260559082, "tests_passed": true, "error": null}
+{"code": " points + 0.001 * np.random.randn(*points.shape)", "compilation_passed": true, "time": 0.07734799385070801, "tests_passed": true, "error": null}
+{"code": " points + np.random.randn(points.shape[0], 2) * 0.1", "compilation_passed": true, "time": 0.07363080978393555, "tests_passed": true, "error": null}
+{"code": " points + 0.1 * np.random.normal(0, 1, points.shape)", "compilation_passed": true, "time": 0.07280516624450684, "tests_passed": true, "error": null}

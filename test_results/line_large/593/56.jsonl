@@ -1,0 +1,28 @@
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, figsize=(10, 5))", "compilation_passed": true, "time": 0.002816915512084961, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, legend=False, color='red', title=\"Traffic Data\")", "compilation_passed": true, "time": 0.003258228302001953, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[VEHICLE_TYPES].plot(x='Time', marker='o', figsize=(12,6), subplots=True)", "compilation_passed": true, "time": 0.002964019775390625, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', figsize=(10, 6))", "compilation_passed": true, "time": 0.0032978057861328125, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', figsize=(10, 6), title='Traffic Data')", "compilation_passed": true, "time": 0.0033571720123291016, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[VEHICLE_TYPES].plot(figsize=(15, 5), linewidth=4, subplots=True, layout=(2, 2))", "compilation_passed": true, "time": 0.0032749176025390625, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, figsize=(10, 5), title='Traffic Data', grid=True)", "compilation_passed": true, "time": 0.0032110214233398438, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, figsize=(10, 5), title='Traffic Data')", "compilation_passed": true, "time": 0.0028209686279296875, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, figsize=(10, 5), title=f'Traffic Data (generated in {hours} hours)')", "compilation_passed": true, "time": 0.0028569698333740234, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, figsize=(10, 6))", "compilation_passed": true, "time": 0.003165006637573242, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', figsize=(16, 6))", "compilation_passed": true, "time": 0.0027930736541748047, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, figsize=(10, 6), grid=True, title='Traffic Data')", "compilation_passed": true, "time": 0.0031769275665283203, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, figsize=(8, 4), grid=True, colormap='Set2')", "compilation_passed": true, "time": 0.003200054168701172, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot.line(x='Time', y=VEHICLE_TYPES)", "compilation_passed": true, "time": 0.0029718875885009766, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, figsize=(10, 6), rot=45)", "compilation_passed": true, "time": 0.0030279159545898438, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot.line(x='Time', y=VEHICLE_TYPES, style='r--', title='Vehicle Count', legend=True, grid=True, figsize=(10, 6))", "compilation_passed": true, "time": 0.0030241012573242188, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, rot=45, title='Traffic Data', grid=True, style='o-')", "compilation_passed": true, "time": 0.003292083740234375, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', figsize=(20, 5), title='Traffic Data', grid=True)", "compilation_passed": true, "time": 0.0032720565795898438, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.iloc[:, 1:].plot(x='Time', title='Traffic Count by Vehicle Type')", "compilation_passed": true, "time": 0.0028328895568847656, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, figsize=(10, 5), marker='.', linestyle='-', legend=True)", "compilation_passed": true, "time": 0.0031588077545166016, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.iloc[:, 1:].plot(x=\"Time\", kind=\"line\", figsize=(10, 6))", "compilation_passed": true, "time": 0.003231048583984375, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot.line(x='Time', y=VEHICLE_TYPES, figsize=(10, 6), title='Traffic Data')", "compilation_passed": true, "time": 0.002892017364501953, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, figsize=(10, 5), legend=True, grid=True, marker='o')", "compilation_passed": true, "time": 0.0029878616333007812, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, kind='line', legend=True)", "compilation_passed": true, "time": 0.0033109188079833984, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Time', y=VEHICLE_TYPES, figsize=(10, 5), title=\"Vehicle Count vs Time\")", "compilation_passed": true, "time": 0.003383159637451172, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[df.columns[1:]].plot.line(x=df.columns[0], marker='o', figsize=(10, 5), legend=True, fontsize=12)", "compilation_passed": true, "time": 0.0029501914978027344, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[VEHICLE_TYPES].plot(x=\"Time\", y=VEHICLE_TYPES, figsize=(10, 5))", "compilation_passed": true, "time": 0.003548860549926758, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[df.columns[1:]].plot(title=\"Traffic Data\", x=df.columns[0], figsize=(10, 6), subplots=True, legend=True, style='.-')", "compilation_passed": true, "time": 0.003245830535888672, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,23 @@
+{"code": " {key: 0 for key in permutations}", "compilation_passed": true, "time": 0.010713815689086914, "tests_passed": false, "error": "KeyError"}
+{"code": " {}", "compilation_passed": true, "time": 0.010365009307861328, "tests_passed": false, "error": "KeyError"}
+{"code": " Counter()", "compilation_passed": true, "time": 0.010461091995239258, "tests_passed": false, "error": "KeyError"}
+{"code": " Counter([word[i:i+2] for i in range(len(word)-1)])", "compilation_passed": true, "time": 0.010571002960205078, "tests_passed": false, "error": "KeyError"}
+{"code": " {k: 0 for k in permutations}", "compilation_passed": true, "time": 0.0107879638671875, "tests_passed": false, "error": "KeyError"}
+{"code": " dict(Counter([word[i:i + 2] for i in range(len(word) - 1)]))", "compilation_passed": true, "time": 0.010665178298950195, "tests_passed": false, "error": "KeyError"}
+{"code": " {k: word.count(k) for k in permutations}", "compilation_passed": true, "time": 0.010780811309814453, "tests_passed": false, "error": "KeyError"}
+{"code": " dict.fromkeys(permutations, 0)", "compilation_passed": true, "time": 0.010780811309814453, "tests_passed": false, "error": "KeyError"}
+{"code": " [word[i:i+2] for i in range(0, len(word) - 1)]", "compilation_passed": true, "time": 0.010622978210449219, "tests_passed": false, "error": "KeyError"}
+{"code": " Counter([word[i:i + 2] for i in range(len(word))])", "compilation_passed": true, "time": 0.010569095611572266, "tests_passed": false, "error": "KeyError"}
+{"code": " [word[i:i + 2] for i in range(0, len(word) - 1, 2)]", "compilation_passed": true, "time": 0.01067495346069336, "tests_passed": false, "error": "KeyError"}
+{"code": " [word[i:i+2] for i in range(len(word)-1)]", "compilation_passed": true, "time": 0.010644912719726562, "tests_passed": false, "error": "KeyError"}
+{"code": " [x for x in permutations if x in word]", "compilation_passed": true, "time": 0.010710954666137695, "tests_passed": false, "error": "KeyError"}
+{"code": " [", "compilation_passed": false, "time": 0.0003840923309326172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [word[i:i + 2] for i in range(0, len(word) - 1)]", "compilation_passed": true, "time": 0.010679960250854492, "tests_passed": false, "error": "KeyError"}
+{"code": " {p:0 for p in permutations}", "compilation_passed": true, "time": 0.01110386848449707, "tests_passed": false, "error": "KeyError"}
+{"code": " [x for x in permutations if x[0] != x[1]]", "compilation_passed": true, "time": 0.010315895080566406, "tests_passed": false, "error": "KeyError"}
+{"code": " Counter(word[i:i+2] for i in range(len(word) - 1))", "compilation_passed": true, "time": 0.010854005813598633, "tests_passed": false, "error": "KeyError"}
+{"code": " Counter([word[i:i+2] for i in range(len(word) - 1)])", "compilation_passed": true, "time": 0.01063990592956543, "tests_passed": false, "error": "KeyError"}
+{"code": " itertools.permutations(word, 2)", "compilation_passed": true, "time": 0.010582923889160156, "tests_passed": false, "error": "KeyError"}
+{"code": " Counter([word[i:i + 2] for i in range(0, len(word) - 1)])", "compilation_passed": true, "time": 0.011255025863647461, "tests_passed": false, "error": "KeyError"}
+{"code": " Counter([word[i:i+2] for i in range(0, len(word), 2)])", "compilation_passed": true, "time": 0.010625123977661133, "tests_passed": false, "error": "KeyError"}
+{"code": " {x: word.count(x) for x in permutations}", "compilation_passed": true, "time": 0.011072158813476562, "tests_passed": false, "error": "KeyError"}

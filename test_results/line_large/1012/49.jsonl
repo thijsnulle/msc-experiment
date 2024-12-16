@@ -1,0 +1,4 @@
+{"code": "name for file in zip_dir.iterdir() if file.is_file()", "compilation_passed": true, "time": 1.025238037109375, "tests_passed": false, "error": "IndexError"}
+{"code": "name for file in zip_dir.iterdir()", "compilation_passed": true, "time": 1.0212631225585938, "tests_passed": false, "error": "IndexError"}
+{"code": "name for file in list(zip_dir.iterdir())", "compilation_passed": true, "time": 1.0225567817687988, "tests_passed": false, "error": "IndexError"}
+{"code": "name for file in list(zip_dir.glob(\"**/*\")) if file.is_file()", "compilation_passed": true, "time": 1.02354097366333, "tests_passed": false, "error": "IndexError"}

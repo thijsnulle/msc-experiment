@@ -1,0 +1,16 @@
+{"code": " df[column_name].astype('category')", "compilation_passed": true, "time": 0.14568305015563965, "tests_passed": true, "error": null}
+{"code": " df[column_name].apply(lambda x: x if pd.api.types.is_numeric_dtype(x) else 0)", "compilation_passed": true, "time": 0.07814311981201172, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Categorical(df[column_name]).cat.recode_as(ordered=True)", "compilation_passed": true, "time": 0.008269786834716797, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.Categorical(df[column_name])", "compilation_passed": true, "time": 0.13765358924865723, "tests_passed": true, "error": null}
+{"code": " df[column_name].astype(\"category\").cat.codes", "compilation_passed": true, "time": 0.20150995254516602, "tests_passed": true, "error": null}
+{"code": " df[column_name].map({'Yes': 1, 'No': 0})", "compilation_passed": true, "time": 0.1977541446685791, "tests_passed": true, "error": null}
+{"code": " pd.Categorical(df[column_name]).cat.reorder_categories(['A', 'B', 'C'], ordered=True).cat.codes", "compilation_passed": true, "time": 0.008144855499267578, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[column_name].apply(lambda x: {", "compilation_passed": false, "time": 0.00021505355834960938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[column_name].apply(", "compilation_passed": false, "time": 0.00021123886108398438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[column_name].astype(\"category\")", "compilation_passed": true, "time": 0.13326072692871094, "tests_passed": true, "error": null}
+{"code": " pd.Categorical(df[column_name]).codes", "compilation_passed": true, "time": 0.2061009407043457, "tests_passed": true, "error": null}
+{"code": " df[column_name].astype('category').cat.codes", "compilation_passed": true, "time": 0.19844293594360352, "tests_passed": true, "error": null}
+{"code": " pd.Categorical(df[column_name]).cat.reorder_categories(", "compilation_passed": false, "time": 0.0002410411834716797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.Categorical(df[column_name], ordered=True, categories=df[column_name].unique())", "compilation_passed": true, "time": 0.14162683486938477, "tests_passed": true, "error": null}
+{"code": " df[column_name].map(lambda x: 1 if x == \"true\" else 0)", "compilation_passed": true, "time": 0.20760297775268555, "tests_passed": true, "error": null}
+{"code": " df[column_name].astype(\"object\")", "compilation_passed": true, "time": 0.1671280860900879, "tests_passed": true, "error": null}

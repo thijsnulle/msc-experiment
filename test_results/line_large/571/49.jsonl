@@ -1,0 +1,6 @@
+{"code": "spec.args),", "compilation_passed": true, "time": 0.02029585838317871, "tests_passed": true, "error": null}
+{"code": "spec.args), ", "compilation_passed": true, "time": 0.02010488510131836, "tests_passed": true, "error": null}
+{"code": "spec.args) + len(spec.kwonlyargs), ", "compilation_passed": true, "time": 0.020202159881591797, "tests_passed": true, "error": null}
+{"code": "spec.args) + (len(spec.varargs) if spec.varargs else 0) + (len(spec.varkw) if spec.varkw else 0),", "compilation_passed": true, "time": 0.019962787628173828, "tests_passed": true, "error": null}
+{"code": "spec.args) + (len(spec.kwonlyargs) if spec.varkw else 0), ", "compilation_passed": true, "time": 0.02442002296447754, "tests_passed": true, "error": null}
+{"code": "spec.args) - len(spec.defaults or ()), # Counts the number of args", "compilation_passed": true, "time": 0.01593804359436035, "tests_passed": true, "error": null}

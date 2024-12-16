@@ -1,0 +1,11 @@
+{"code": " re.sub(r'http\\S+', '', text)", "compilation_passed": true, "time": 0.7674849033355713, "tests_passed": true, "error": null}
+{"code": " re.sub(r'https?:\\/\\/\\S+', '', text)", "compilation_passed": true, "time": 0.4671943187713623, "tests_passed": true, "error": null}
+{"code": " re.sub(r'https?://(?:[-\\w.]|(?:%[\\da-fA-F]{2}))+', '', text)", "compilation_passed": true, "time": 0.49547481536865234, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"https?:\\/\\/\\S+\", \"\", text)", "compilation_passed": true, "time": 0.5042529106140137, "tests_passed": true, "error": null}
+{"code": " re.sub(r'https?:\\/\\/[^\\s]+', '', text)", "compilation_passed": true, "time": 0.49155092239379883, "tests_passed": true, "error": null}
+{"code": " re.sub(r'http\\S+|www\\S+', '', text)", "compilation_passed": true, "time": 0.48951196670532227, "tests_passed": true, "error": null}
+{"code": " re.sub(r'https?://\\S+|www\\.\\S+', '', text)", "compilation_passed": true, "time": 0.4940829277038574, "tests_passed": true, "error": null}
+{"code": " re.sub(r'https?:\\/\\/(www\\.)?[^\\s]+', '', text)", "compilation_passed": true, "time": 0.525954008102417, "tests_passed": true, "error": null}
+{"code": " re.sub(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', '', text)", "compilation_passed": true, "time": 0.5051288604736328, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"https?://(?:[-\\w.]|(?:%[\\da-fA-F]{2}))+\", \"\", text)", "compilation_passed": true, "time": 0.4949479103088379, "tests_passed": true, "error": null}
+{"code": " re.sub(r'https?:\\/\\/[\\w\\.-]+', '', text)", "compilation_passed": true, "time": 0.5239028930664062, "tests_passed": true, "error": null}

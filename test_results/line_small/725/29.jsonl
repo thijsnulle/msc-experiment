@@ -1,0 +1,24 @@
+{"code": " in glob.iglob(os.path.join(directory, \"**/*.txt\"), recursive=True):", "compilation_passed": true, "time": 0.008868932723999023, "tests_passed": true, "error": null}
+{"code": " in glob.glob(os.path.join(directory, '*.txt')):", "compilation_passed": true, "time": 0.009111881256103516, "tests_passed": true, "error": null}
+{"code": " in glob.glob(directory+'*'):", "compilation_passed": true, "time": 0.013096094131469727, "tests_passed": true, "error": null}
+{"code": " in glob.iglob(directory + '*.txt', recursive=True):", "compilation_passed": true, "time": 0.012968063354492188, "tests_passed": true, "error": null}
+{"code": " in glob.iglob(directory + '**/*.txt', recursive=True):", "compilation_passed": true, "time": 0.011043787002563477, "tests_passed": true, "error": null}
+{"code": " in glob.glob(os.path.join(directory, '*')):", "compilation_passed": true, "time": 0.0136871337890625, "tests_passed": true, "error": null}
+{"code": " in glob.glob(directory+'*.txt'):", "compilation_passed": true, "time": 0.013180017471313477, "tests_passed": true, "error": null}
+{"code": " in glob.glob(directory + '**/*.txt', recursive=True):", "compilation_passed": true, "time": 0.01244497299194336, "tests_passed": true, "error": null}
+{"code": " in glob.iglob(directory+'*.txt'):", "compilation_passed": true, "time": 0.00939178466796875, "tests_passed": true, "error": null}
+{"code": " in glob.iglob(f'{directory}**/*.txt', recursive=True):", "compilation_passed": true, "time": 0.01235508918762207, "tests_passed": true, "error": null}
+{"code": " in glob.glob(directory + '/*'):  # Loop through all files in the directory", "compilation_passed": true, "time": 0.008543968200683594, "tests_passed": true, "error": null}
+{"code": " in glob.glob(f\"{directory}/*.txt\"):", "compilation_passed": true, "time": 0.009338855743408203, "tests_passed": true, "error": null}
+{"code": " in glob.iglob(os.path.join(directory, '*.txt')):", "compilation_passed": true, "time": 0.008842945098876953, "tests_passed": true, "error": null}
+{"code": " in glob.glob(f'{directory}/*.txt'):", "compilation_passed": true, "time": 0.008085012435913086, "tests_passed": true, "error": null}
+{"code": " in glob.iglob('**/*.txt', recursive=True):", "compilation_passed": true, "time": 0.0165560245513916, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " in glob.glob(directory + '/*.txt'):", "compilation_passed": true, "time": 0.007403850555419922, "tests_passed": true, "error": null}
+{"code": " in glob.glob(directory+'/*.txt'):", "compilation_passed": true, "time": 0.008918046951293945, "tests_passed": true, "error": null}
+{"code": " in glob.glob(directory + '/*.txt', recursive=False):", "compilation_passed": true, "time": 0.0076258182525634766, "tests_passed": true, "error": null}
+{"code": " in glob.iglob(f'{directory}*'):", "compilation_passed": true, "time": 0.008240938186645508, "tests_passed": true, "error": null}
+{"code": " in glob.glob(f'{directory}*'):", "compilation_passed": true, "time": 0.008826971054077148, "tests_passed": true, "error": null}
+{"code": " in glob.glob(os.path.join(directory, \"*.txt\")):", "compilation_passed": true, "time": 0.007938861846923828, "tests_passed": true, "error": null}
+{"code": " in glob.glob(directory + '*.txt'):", "compilation_passed": true, "time": 0.008126258850097656, "tests_passed": true, "error": null}
+{"code": " in glob.iglob(os.path.join(directory, '**', '*.txt'), recursive=True):", "compilation_passed": true, "time": 0.007853984832763672, "tests_passed": true, "error": null}
+{"code": " in glob.iglob(directory + '/*.txt'):", "compilation_passed": true, "time": 0.008046865463256836, "tests_passed": true, "error": null}

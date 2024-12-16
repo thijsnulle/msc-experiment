@@ -1,0 +1,8 @@
+{"code": " hmac.new(secret.encode('utf-8'), message.encode('utf-8'), hashlib.sha256).hexdigest()", "compilation_passed": true, "time": 0.0009369850158691406, "tests_passed": true, "error": null}
+{"code": " hmac.new(key=bytes(secret, 'utf-8'), msg=bytes(message, 'utf-8'), digestmod=hashlib.sha256).hexdigest()", "compilation_passed": true, "time": 0.001085042953491211, "tests_passed": true, "error": null}
+{"code": " hmac.new(key=secret.encode(), msg=message.encode(), digestmod=hashlib.sha256).hexdigest()", "compilation_passed": true, "time": 0.001230001449584961, "tests_passed": true, "error": null}
+{"code": " hmac.new(secret.encode(), message.encode(), hashlib.sha256).hexdigest()", "compilation_passed": true, "time": 0.0016078948974609375, "tests_passed": true, "error": null}
+{"code": " hmac.new(", "compilation_passed": false, "time": 0.00010776519775390625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " hmac.new(bytes(secret, 'utf-8'), bytes(message, 'utf-8'), hashlib.sha256).hexdigest()", "compilation_passed": true, "time": 0.0026040077209472656, "tests_passed": true, "error": null}
+{"code": " hmac.new(key=secret.encode('utf-8'),", "compilation_passed": false, "time": 0.00011301040649414062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " hmac.new(key=bytes(secret, encoding='utf-8'), msg=bytes(message, encoding='utf-8'), digestmod=hashlib.sha256).hexdigest()", "compilation_passed": true, "time": 0.0011830329895019531, "tests_passed": true, "error": null}

@@ -1,0 +1,4 @@
+{"code": " [float(row[0]) for row in reader]", "compilation_passed": true, "time": 0.030277252197265625, "tests_passed": true, "error": null}
+{"code": " np.array([float(row[0]) for row in reader])", "compilation_passed": true, "time": 0.03199601173400879, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.021784067153930664, "tests_passed": false, "error": "ValueError"}
+{"code": " [int(row[0]) for row in reader]", "compilation_passed": true, "time": 0.030305862426757812, "tests_passed": true, "error": null}

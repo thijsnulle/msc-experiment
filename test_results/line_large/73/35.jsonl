@@ -1,0 +1,7 @@
+{"code": " pd.read_sql('SELECT * FROM EmailData', conn)", "compilation_passed": true, "time": 0.21203184127807617, "tests_passed": true, "error": null}
+{"code": " pd.read_sql(\"SELECT * FROM EmailData\", conn)", "compilation_passed": true, "time": 0.22870802879333496, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query('SELECT * FROM EmailData', conn)", "compilation_passed": true, "time": 0.22940516471862793, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(\"SELECT * FROM EmailData\", conn)", "compilation_passed": true, "time": 0.2667670249938965, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query(\"SELECT email, list FROM EmailData\", conn)", "compilation_passed": true, "time": 0.25336217880249023, "tests_passed": true, "error": null}
+{"code": " pd.read_sql('SELECT email, list FROM EmailData', conn)", "compilation_passed": true, "time": 0.23523616790771484, "tests_passed": true, "error": null}
+{"code": " pd.read_sql_query('SELECT email, list FROM EmailData', conn)", "compilation_passed": true, "time": 0.3177201747894287, "tests_passed": true, "error": null}

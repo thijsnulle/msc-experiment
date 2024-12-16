@@ -1,0 +1,23 @@
+{"code": " df.replace(to_replace=list(df.columns.drop(target_column).values), value=0)", "compilation_passed": true, "time": 0.04430222511291504, "tests_passed": true, "error": null}
+{"code": " df[df[target_column].isin(target_values)]", "compilation_passed": true, "time": 0.04036688804626465, "tests_passed": true, "error": null}
+{"code": " df.mask(~df.isin(target_values), 0)", "compilation_passed": true, "time": 0.05226612091064453, "tests_passed": true, "error": null}
+{"code": " df[df[target_column].isin(target_values)].copy()", "compilation_passed": true, "time": 0.040711164474487305, "tests_passed": true, "error": null}
+{"code": " df.replace(set(df.columns) - {target_column}, target_values, value=0)", "compilation_passed": true, "time": 0.038909912109375, "tests_passed": false, "error": "TypeError"}
+{"code": " df.mask(~df.isin(target_values)).fillna(0)", "compilation_passed": true, "time": 0.05270814895629883, "tests_passed": true, "error": null}
+{"code": " df.where(df.isin(target_values), other=0)", "compilation_passed": true, "time": 0.04775190353393555, "tests_passed": true, "error": null}
+{"code": " df[~df[df.columns.difference([target_column])].isin(target_values).any(axis=1)]", "compilation_passed": true, "time": 0.05189204216003418, "tests_passed": true, "error": null}
+{"code": " df.mask(~df[target_column].isin(target_values), 0)", "compilation_passed": true, "time": 0.051605939865112305, "tests_passed": true, "error": null}
+{"code": " df.reindex(target_values, axis=1, fill_value=0)", "compilation_passed": true, "time": 0.06325006484985352, "tests_passed": false, "error": "KeyError"}
+{"code": " df.replace(to_replace=df[df.columns != target_column].columns, value=0, limit=None, regex=False, inplace=False)", "compilation_passed": true, "time": 0.04840493202209473, "tests_passed": false, "error": "ValueError"}
+{"code": " df.replace(pd.Series(df[~df[target_column].isin(target_values)].to_dict(orient='records')).explode(),0)", "compilation_passed": true, "time": 0.041937828063964844, "tests_passed": true, "error": null}
+{"code": " df.dropna()", "compilation_passed": true, "time": 0.04717206954956055, "tests_passed": true, "error": null}
+{"code": " df.replace(to_replace=target_values, value=np.nan)", "compilation_passed": true, "time": 0.05092573165893555, "tests_passed": false, "error": "LinearRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https"}
+{"code": " df.loc[np.isin(df[target_column], target_values)]", "compilation_passed": true, "time": 0.047582149505615234, "tests_passed": true, "error": null}
+{"code": " df.where(df.isin(target_values), np.NaN)", "compilation_passed": true, "time": 0.036334991455078125, "tests_passed": false, "error": "LinearRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https"}
+{"code": " df.apply(", "compilation_passed": false, "time": 0.00027179718017578125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.loc[df[target_column].isin(target_values)]", "compilation_passed": true, "time": 0.04065108299255371, "tests_passed": true, "error": null}
+{"code": " df.mask(~df.isin(target_values), other=0)", "compilation_passed": true, "time": 0.05649709701538086, "tests_passed": true, "error": null}
+{"code": " df.replace(to_replace=[elem for elem in df.values.flat if not np.isin(elem, target_values)], value=0)", "compilation_passed": true, "time": 0.2908170223236084, "tests_passed": true, "error": null}
+{"code": " df[df.apply(lambda row: row[target_column] in target_values, axis=1)]", "compilation_passed": true, "time": 0.04315304756164551, "tests_passed": true, "error": null}
+{"code": " df.reindex(columns=list(target_values)).reset_index().replace(np.NaN, 0)", "compilation_passed": true, "time": 0.038620948791503906, "tests_passed": false, "error": "KeyError"}
+{"code": " df.replace(to_replace=target_values, value=0)", "compilation_passed": true, "time": 0.03986978530883789, "tests_passed": true, "error": null}

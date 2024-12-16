@@ -1,0 +1,7 @@
+{"code": " np.max(matrix, axis=1)", "compilation_passed": true, "time": 0.1984388828277588, "tests_passed": true, "error": null}
+{"code": " np.max(matrix, axis=1)  # calculate the maximum values of each row in the matrix", "compilation_passed": true, "time": 0.19443821907043457, "tests_passed": true, "error": null}
+{"code": " [max(row) for row in matrix]", "compilation_passed": true, "time": 0.19482684135437012, "tests_passed": true, "error": null}
+{"code": " np.amax(matrix, axis=1)", "compilation_passed": true, "time": 0.22678089141845703, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0665442943572998, "tests_passed": true, "error": null}
+{"code": " np.amax(np.array(matrix), axis=1)", "compilation_passed": true, "time": 0.19615721702575684, "tests_passed": true, "error": null}
+{"code": " matrix.max(axis=1)", "compilation_passed": true, "time": 0.00718998908996582, "tests_passed": false, "error": "AttributeError"}

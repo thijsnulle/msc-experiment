@@ -1,0 +1,2 @@
+{"code": " df[df['Employee ID'].str.startswith(emp_prefix)]", "compilation_passed": true, "time": 0.10904383659362793, "tests_passed": true, "error": null}
+{"code": " df[df['Employee ID'].astype(str).str.startswith(emp_prefix)]", "compilation_passed": true, "time": 0.27606701850891113, "tests_passed": true, "error": null}

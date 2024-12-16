@@ -1,0 +1,21 @@
+{"code": " input_string.strip()", "compilation_passed": true, "time": 0.005429983139038086, "tests_passed": true, "error": null}
+{"code": " re.sub('\\t', ' ', input_string)", "compilation_passed": true, "time": 0.005638837814331055, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\n\\s*\\n', '\\n\\n', input_string).rstrip()", "compilation_passed": true, "time": 0.004945278167724609, "tests_passed": true, "error": null}
+{"code": " input_string.strip('\\n')  # Strip leading or trailing newline characters", "compilation_passed": true, "time": 0.004842042922973633, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\t', ' ', input_string)", "compilation_passed": true, "time": 0.005051136016845703, "tests_passed": true, "error": null}
+{"code": " re.sub(pattern='\\\\n\\\\s*\\\\n+', repl='\\n', string=input_string)  # Remove multiple consecutive newlines", "compilation_passed": true, "time": 0.005249977111816406, "tests_passed": true, "error": null}
+{"code": " input_string.split('\\n')", "compilation_passed": true, "time": 0.00973200798034668, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r\"\\n\\s*\\n\", \"\\n\\n\", input_string)", "compilation_passed": true, "time": 0.0064089298248291016, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[\\t]\", \" \", input_string)", "compilation_passed": true, "time": 0.0058650970458984375, "tests_passed": true, "error": null}
+{"code": " re.sub('[\\t]*', ' ', input_string.replace('\\t', ' '))", "compilation_passed": true, "time": 0.017753124237060547, "tests_passed": true, "error": null}
+{"code": " re.sub(r'^\\s*\\n', '', input_string, flags=re.MULTILINE)", "compilation_passed": true, "time": 0.007261753082275391, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\t', ' ', input_string.strip().splitlines())", "compilation_passed": true, "time": 0.012222051620483398, "tests_passed": false, "error": "TypeError"}
+{"code": " input_string.encode('ascii', 'ignore').decode()", "compilation_passed": true, "time": 0.0051326751708984375, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\r\\n', r'\\n', input_string)", "compilation_passed": true, "time": 0.00516510009765625, "tests_passed": true, "error": null}
+{"code": " re.sub('\\n', '\\\\n', input_string)", "compilation_passed": true, "time": 0.006803989410400391, "tests_passed": true, "error": null}
+{"code": " re.sub('[^\\S\\n]+', ' ', input_string.strip())  # Convert tabs to spaces and remove leading/trailing whitespaces", "compilation_passed": true, "time": 0.005700826644897461, "tests_passed": true, "error": null}
+{"code": " input_string.replace('\\t', ' ')", "compilation_passed": true, "time": 0.005380868911743164, "tests_passed": true, "error": null}
+{"code": " re.sub(r'^\\s*\\n', '', input_string, flags=re.M)", "compilation_passed": true, "time": 0.005252838134765625, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\\\n\", \"\\n\", input_string)", "compilation_passed": true, "time": 0.0052568912506103516, "tests_passed": true, "error": null}
+{"code": " re.sub(\"\\t\", \" \", input_string)", "compilation_passed": true, "time": 0.005245208740234375, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\t\", \" \", input_string)", "compilation_passed": true, "time": 0.005170106887817383, "tests_passed": true, "error": null}

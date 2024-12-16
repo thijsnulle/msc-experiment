@@ -1,0 +1,9 @@
+{"code": " np.asarray(list(chain.from_iterable(L)))", "compilation_passed": true, "time": 0.002396106719970703, "tests_passed": true, "error": null}
+{"code": " list(chain(*L)) # Flattens the list", "compilation_passed": true, "time": 0.002087831497192383, "tests_passed": true, "error": null}
+{"code": " np.array(list(chain(*L)))", "compilation_passed": true, "time": 0.0023238658905029297, "tests_passed": true, "error": null}
+{"code": " list(chain(*L))", "compilation_passed": true, "time": 0.002135038375854492, "tests_passed": true, "error": null}
+{"code": " list(chain.from_iterable(L))", "compilation_passed": true, "time": 0.0021600723266601562, "tests_passed": true, "error": null}
+{"code": " np.array(list(chain.from_iterable(L)))", "compilation_passed": true, "time": 0.0022547245025634766, "tests_passed": true, "error": null}
+{"code": " chain.from_iterable(L)", "compilation_passed": true, "time": 0.019069910049438477, "tests_passed": false, "error": "TypeError"}
+{"code": " np.asarray(list(chain(*L)))", "compilation_passed": true, "time": 0.002330303192138672, "tests_passed": true, "error": null}
+{"code": " list(chain(*L))  # Flatten the nested list using chain from itertools", "compilation_passed": true, "time": 0.0025942325592041016, "tests_passed": true, "error": null}

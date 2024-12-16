@@ -1,0 +1,9 @@
+{"code": " [sum(subset) for subset in combinations]", "compilation_passed": true, "time": 0.035180091857910156, "tests_passed": true, "error": null}
+{"code": " [sum(combination) for combination in combinations]", "compilation_passed": true, "time": 0.029262781143188477, "tests_passed": true, "error": null}
+{"code": " list(map(lambda x: sum(x), combinations))", "compilation_passed": true, "time": 0.030270099639892578, "tests_passed": true, "error": null}
+{"code": " [sum(x) for x in combinations]", "compilation_passed": true, "time": 0.030498027801513672, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.012500286102294922, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " [sum(sub) for sub in combinations]", "compilation_passed": true, "time": 0.03151512145996094, "tests_passed": true, "error": null}
+{"code": " list(map(sum, combinations))", "compilation_passed": true, "time": 0.03201007843017578, "tests_passed": true, "error": null}
+{"code": " [sum(c) for c in combinations]", "compilation_passed": true, "time": 0.031022071838378906, "tests_passed": true, "error": null}
+{"code": " [sum(elem) for elem in combinations]", "compilation_passed": true, "time": 0.02935504913330078, "tests_passed": true, "error": null}

@@ -1,0 +1,10 @@
+{"code": " pd.DataFrame(data=data)", "compilation_passed": true, "time": 0.013486862182617188, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=columns)", "compilation_passed": true, "time": 0.01588726043701172, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.013520002365112305, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([list(row) for row in data], columns=columns)", "compilation_passed": true, "time": 0.01590418815612793, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([t + (None,) * (len(columns) - len(t)) for t in data], columns=columns)", "compilation_passed": true, "time": 0.015964031219482422, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=columns)", "compilation_passed": true, "time": 0.013764142990112305, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([[element if element else None for element in row] for row in data], columns=columns)", "compilation_passed": true, "time": 0.015927791595458984, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_records(data, columns=columns)", "compilation_passed": true, "time": 0.015282869338989258, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=data, columns=columns)", "compilation_passed": true, "time": 0.01588916778564453, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({column: [row[i] if i < len(row) else None for row in data] for i, column in enumerate(columns)})", "compilation_passed": true, "time": 0.018403053283691406, "tests_passed": true, "error": null}

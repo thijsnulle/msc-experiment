@@ -1,0 +1,11 @@
+{"code": " [word_counts[i] for i in word_keys]", "compilation_passed": true, "time": 0.3261430263519287, "tests_passed": true, "error": null}
+{"code": " pd.Series(word_counts)", "compilation_passed": true, "time": 0.2806990146636963, "tests_passed": true, "error": null}
+{"code": " [word_counts[w] for w in word_keys]", "compilation_passed": true, "time": 0.2848091125488281, "tests_passed": true, "error": null}
+{"code": " [word_counts[word] for word in word_keys]", "compilation_passed": true, "time": 0.2784409523010254, "tests_passed": true, "error": null}
+{"code": " [word_counts.get(word, 0) for word in word_keys]", "compilation_passed": true, "time": 0.2873249053955078, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0072100162506103516, "tests_passed": false, "error": "ValueError"}
+{"code": " [(word, word_counts[word]) for word in word_keys]", "compilation_passed": true, "time": 0.05090618133544922, "tests_passed": false, "error": "TypeError"}
+{"code": " [word_counts[x] for x in word_keys]", "compilation_passed": true, "time": 2.8044559955596924, "tests_passed": true, "error": null}
+{"code": " pd.Series(word_counts).sort_index()", "compilation_passed": true, "time": 0.2835698127746582, "tests_passed": true, "error": null}
+{"code": " [word_counts[key] for key in word_keys]", "compilation_passed": true, "time": 0.2788569927215576, "tests_passed": true, "error": null}
+{"code": " list(map(word_counts.get, word_keys))", "compilation_passed": true, "time": 0.27493906021118164, "tests_passed": true, "error": null}

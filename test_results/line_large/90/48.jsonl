@@ -1,0 +1,4 @@
+{"code": " distances.argsort()", "compilation_passed": true, "time": 0.00449824333190918, "tests_passed": true, "error": null}
+{"code": " distances.argsort()[:k]", "compilation_passed": true, "time": 0.004312038421630859, "tests_passed": true, "error": null}
+{"code": " np.argsort(distances)[:k]", "compilation_passed": true, "time": 0.0035409927368164062, "tests_passed": true, "error": null}
+{"code": " np.argpartition(distances, kth=k-1)[:k]  # Get the top 'k' nearest neighbors", "compilation_passed": true, "time": 0.012096881866455078, "tests_passed": false, "error": "ValueError"}

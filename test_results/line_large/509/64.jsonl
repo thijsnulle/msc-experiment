@@ -1,0 +1,8 @@
+{"code": "append((i+1, status, content))", "compilation_passed": true, "time": 0.012025833129882812, "tests_passed": true, "error": null}
+{"code": "append([i + 1, status, content])", "compilation_passed": true, "time": 0.010798931121826172, "tests_passed": true, "error": null}
+{"code": "append((i + 1, status, content))", "compilation_passed": true, "time": 0.011581897735595703, "tests_passed": true, "error": null}
+{"code": "append({'Line Number': i + 1, 'Status': status, 'Content': content})", "compilation_passed": true, "time": 0.012006998062133789, "tests_passed": true, "error": null}
+{"code": "append({headers[0]: i, headers[1]: status, headers[2]: content})", "compilation_passed": true, "time": 0.01041102409362793, "tests_passed": true, "error": null}
+{"code": "append([i+1, status, content])", "compilation_passed": true, "time": 0.011120796203613281, "tests_passed": true, "error": null}
+{"code": "append({", "compilation_passed": false, "time": 0.0005350112915039062, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append({'Line Number': i+1, 'Status': status, 'Content': content})", "compilation_passed": true, "time": 0.010685205459594727, "tests_passed": true, "error": null}

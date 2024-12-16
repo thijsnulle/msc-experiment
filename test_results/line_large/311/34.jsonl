@@ -1,0 +1,6 @@
+{"code": " [random.randint(0, 100) for _ in range(size)]", "compilation_passed": true, "time": 0.0028629302978515625, "tests_passed": true, "error": null}
+{"code": " random.sample(range(100), size)", "compilation_passed": true, "time": 0.0028679370880126953, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, 100) for i in range(size)]", "compilation_passed": true, "time": 0.002992868423461914, "tests_passed": true, "error": null}
+{"code": " random.sample(range(101), size)", "compilation_passed": true, "time": 0.0030951499938964844, "tests_passed": true, "error": null}
+{"code": " random.choices(range(101), k=size)", "compilation_passed": true, "time": 0.002882719039916992, "tests_passed": true, "error": null}
+{"code": " random.sample(range(0, 100), size)", "compilation_passed": true, "time": 0.0030820369720458984, "tests_passed": true, "error": null}

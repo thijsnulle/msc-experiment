@@ -1,0 +1,7 @@
+{"code": " pd.DataFrame(data).T", "compilation_passed": true, "time": 0.03240203857421875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.08359408378601074, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data).mean(axis=0)", "compilation_passed": true, "time": 0.02779698371887207, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame.from_dict(data)", "compilation_passed": true, "time": 0.1473557949066162, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_records(data)", "compilation_passed": true, "time": 0.14519500732421875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_records(data, index='Time')", "compilation_passed": true, "time": 0.02570509910583496, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame.from_dict(data).reset_index()", "compilation_passed": true, "time": 0.03330039978027344, "tests_passed": true, "error": null}

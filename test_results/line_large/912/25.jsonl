@@ -1,0 +1,11 @@
+{"code": " list(itertools.chain(*[letters] * repetitions))", "compilation_passed": true, "time": 0.0012431144714355469, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable([letters] * repetitions))", "compilation_passed": true, "time": 0.0015940666198730469, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(", "compilation_passed": false, "time": 0.00023603439331054688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(itertools.chain.from_iterable(itertools.repeat(letters, repetitions)))", "compilation_passed": true, "time": 0.0011379718780517578, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*[[letter] * repetitions for letter in letters]))", "compilation_passed": true, "time": 0.0015459060668945312, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable([letters]*repetitions))", "compilation_passed": true, "time": 0.0013349056243896484, "tests_passed": true, "error": null}
+{"code": " [item for sublist in itertools.repeat(letters, repetitions) for item in sublist]", "compilation_passed": true, "time": 0.0010676383972167969, "tests_passed": true, "error": null}
+{"code": " itertools.chain(*([letter] * repetitions for letter in letters))", "compilation_passed": true, "time": 0.001401662826538086, "tests_passed": true, "error": null}
+{"code": " itertools.chain(*[letters] * repetitions)", "compilation_passed": true, "time": 0.001146078109741211, "tests_passed": true, "error": null}
+{"code": " [letter * repetitions for letter in letters]", "compilation_passed": true, "time": 0.005897045135498047, "tests_passed": true, "error": null}
+{"code": " itertools.chain.from_iterable(itertools.repeat(letters, repetitions))", "compilation_passed": true, "time": 0.0011341571807861328, "tests_passed": true, "error": null}

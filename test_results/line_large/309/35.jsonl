@@ -1,0 +1,8 @@
+{"code": " scaler.fit_transform(reshaped_data)[:, 0].tolist()", "compilation_passed": true, "time": 0.008121728897094727, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(reshaped_data)", "compilation_passed": true, "time": 0.00652003288269043, "tests_passed": true, "error": null}
+{"code": " list(scaler.fit_transform(reshaped_data).flatten())", "compilation_passed": true, "time": 0.007961034774780273, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(reshaped_data).flatten().tolist()", "compilation_passed": true, "time": 0.007959127426147461, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(reshaped_data).reshape(-1).tolist()", "compilation_passed": true, "time": 0.008041858673095703, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(reshaped_data).flatten()", "compilation_passed": true, "time": 0.00659489631652832, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(reshaped_data).tolist()", "compilation_passed": true, "time": 0.007850885391235352, "tests_passed": false, "error": "AttributeError"}
+{"code": " scaler.fit_transform(reshaped_data)[:, 0]", "compilation_passed": true, "time": 0.0074198246002197266, "tests_passed": true, "error": null}

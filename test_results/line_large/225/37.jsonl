@@ -1,0 +1,9 @@
+{"code": " pd.DataFrame({col: df[col].map(dct) for col in df.columns})", "compilation_passed": true, "time": 0.01844000816345215, "tests_passed": true, "error": null}
+{"code": " df.replace(dct)", "compilation_passed": true, "time": 0.01248788833618164, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'col1': df.apply(lambda x: dct[x['col1']], axis=1),", "compilation_passed": false, "time": 0.00020933151245117188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.010833024978637695, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(index=df.index)", "compilation_passed": true, "time": 0.0063800811767578125, "tests_passed": true, "error": null}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.006482839584350586, "tests_passed": true, "error": null}
+{"code": " df.copy()  # make a copy of the original DataFrame", "compilation_passed": true, "time": 0.006262063980102539, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: dct[x] if x in dct else x)", "compilation_passed": true, "time": 0.00861501693725586, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: dct[x])", "compilation_passed": true, "time": 0.008051872253417969, "tests_passed": true, "error": null}

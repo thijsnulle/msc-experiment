@@ -1,0 +1,17 @@
+{"code": " df.copy()", "compilation_passed": true, "time": 0.11989188194274902, "tests_passed": true, "error": null}
+{"code": " df.astype(float)", "compilation_passed": true, "time": 0.08052802085876465, "tests_passed": true, "error": null}
+{"code": " df.fillna(0)", "compilation_passed": true, "time": 0.1224057674407959, "tests_passed": true, "error": null}
+{"code": " df.copy()  # to avoid modifying the original DataFrame", "compilation_passed": true, "time": 0.1237480640411377, "tests_passed": true, "error": null}
+{"code": " df.fillna(0)  # Ensure the DataFrame contains non-null values", "compilation_passed": true, "time": 0.12414216995239258, "tests_passed": true, "error": null}
+{"code": " df.astype(int)", "compilation_passed": true, "time": 0.12638592720031738, "tests_passed": true, "error": null}
+{"code": " df.replace(TARGET_VALUES, 1)", "compilation_passed": true, "time": 0.08646583557128906, "tests_passed": true, "error": null}
+{"code": " df.clip(min=TARGET_VALUES.min(), max=TARGET_VALUES.max())", "compilation_passed": true, "time": 0.011570930480957031, "tests_passed": false, "error": "TypeError"}
+{"code": " df.clip(0, np.inf)", "compilation_passed": true, "time": 0.13053417205810547, "tests_passed": true, "error": null}
+{"code": " df.replace(0, np.nan)", "compilation_passed": true, "time": 0.13298821449279785, "tests_passed": true, "error": null}
+{"code": " df.replace(TARGET_VALUES, np.nan)", "compilation_passed": true, "time": 0.04371809959411621, "tests_passed": false, "error": "ValueError"}
+{"code": " df.copy()  # Copy the DataFrame to avoid modifying the original one", "compilation_passed": true, "time": 0.1310441493988037, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda col: stats.boxcox(col, lmbda=0.5)[1] + 1, axis=0)  # Add 1 to account for zeros", "compilation_passed": true, "time": 0.03911089897155762, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.replace(0, np.nan).fillna(df.median())", "compilation_passed": true, "time": 0.13702607154846191, "tests_passed": true, "error": null}
+{"code": " df.copy()  # Make a copy to avoid modifying the original DataFrame", "compilation_passed": true, "time": 0.13088369369506836, "tests_passed": true, "error": null}
+{"code": " df.replace({column: np.nan for column in df.columns if np.nan in df[column].values})", "compilation_passed": true, "time": 0.13741707801818848, "tests_passed": true, "error": null}
+{"code": " df.replace(0, np.nan)  # Replace 0 values with NaN", "compilation_passed": true, "time": 0.13534307479858398, "tests_passed": true, "error": null}

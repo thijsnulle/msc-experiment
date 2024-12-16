@@ -1,0 +1,9 @@
+{"code": " list(itertools.chain.from_iterable(itertools.repeat(input_list, repetitions)))", "compilation_passed": true, "time": 0.0021049976348876953, "tests_passed": true, "error": null}
+{"code": " [element for sublist in itertools.repeat(input_list, repetitions) for element in sublist]", "compilation_passed": true, "time": 0.0023190975189208984, "tests_passed": true, "error": null}
+{"code": " [item for sublist in [input_list for i in range(repetitions)] for item in sublist]", "compilation_passed": true, "time": 0.002457141876220703, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*[input_list] * repetitions))", "compilation_passed": true, "time": 0.002155780792236328, "tests_passed": true, "error": null}
+{"code": " [elem for sublist in itertools.repeat(input_list, repetitions) for elem in sublist]", "compilation_passed": true, "time": 0.002135038375854492, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*[input_list for _ in range(repetitions)]))", "compilation_passed": true, "time": 0.002223968505859375, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*([input_list] * repetitions)))", "compilation_passed": true, "time": 0.0019648075103759766, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*[input_list * repetitions]))", "compilation_passed": true, "time": 0.001997232437133789, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable([input_list] * repetitions))", "compilation_passed": true, "time": 0.002447843551635742, "tests_passed": true, "error": null}

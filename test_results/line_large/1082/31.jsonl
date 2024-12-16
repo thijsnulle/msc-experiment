@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame.from_dict(data)", "compilation_passed": true, "time": 0.009339094161987305, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.008979320526123047, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Score_Float': data['Score_String'], 'Grade': data['Grade']})", "compilation_passed": true, "time": 0.03442716598510742, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'Score_Float': [float(score) for score in data['Score_String']], 'Grade': data['Grade']})", "compilation_passed": true, "time": 0.03413891792297363, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'Score': data['Score_String'], 'Grade': data['Grade']})", "compilation_passed": true, "time": 0.037428855895996094, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'Score_String': data['Score_String'], 'Grade': data['Grade']})", "compilation_passed": true, "time": 0.009160995483398438, "tests_passed": true, "error": null}

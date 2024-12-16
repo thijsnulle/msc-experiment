@@ -1,0 +1,21 @@
+{"code": " sns.kdeplot(x=df[\"age\"], palette=\"seaborn\")", "compilation_passed": true, "time": 0.4060361385345459, "tests_passed": true, "error": null}
+{"code": " sns.kdeplot(df.age, kde=True, bw=2)", "compilation_passed": true, "time": 0.082672119140625, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.distplot(df[\"age\"], bins=30, kde=True)", "compilation_passed": true, "time": 0.5374851226806641, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df[\"age\"], kde=True, bins=30)", "compilation_passed": true, "time": 0.5249850749969482, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df[\"age\"], kde=True, bins=30, axlabel=\"Age\", label=\"Age\")", "compilation_passed": true, "time": 0.5184099674224854, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df['age'], kde=True, bins=30, ax=None)", "compilation_passed": true, "time": 0.5203909873962402, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data=df, x=\"age\", bins=30, kde=True)", "compilation_passed": true, "time": 1.4210100173950195, "tests_passed": false, "error": ""}
+{"code": " sns.distplot(df[\"age\"])", "compilation_passed": true, "time": 0.3239450454711914, "tests_passed": true, "error": null}
+{"code": " sns.histplot(df, kde=True, bins=30)", "compilation_passed": true, "time": 0.45278120040893555, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df.age, kde=True, bins=30)", "compilation_passed": true, "time": 0.4307558536529541, "tests_passed": true, "error": null}
+{"code": " sns.kdeplot(x=df[\"age\"])", "compilation_passed": true, "time": 0.307830810546875, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df[\"age\"], bins=30, kde=True, color='g')", "compilation_passed": true, "time": 0.4291510581970215, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df[\"age\"], bins=[0, 20, 30, 40, 50, 60, 70, 80, 90, 100, 120])", "compilation_passed": true, "time": 0.35638976097106934, "tests_passed": true, "error": null}
+{"code": " sns.histplot(df[\"age\"])", "compilation_passed": true, "time": 0.07112908363342285, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df.age, kde=True, bins=30,", "compilation_passed": false, "time": 0.0002570152282714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.distplot(df[\"age\"], bins=30, kde=True, ax=None)", "compilation_passed": true, "time": 0.4267280101776123, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df[\"age\"], bins=30, kde=True, label='Age', ax=None)", "compilation_passed": true, "time": 0.43717288970947266, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data=df, x=\"age\", kde=True, bins=30, ax=None)", "compilation_passed": true, "time": 0.5012068748474121, "tests_passed": true, "error": null}
+{"code": " sns.kdeplot(df[\"age\"], kde=True, bins=30)", "compilation_passed": true, "time": 0.06604480743408203, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.displot(df, kde=True, bins=30, x=\"age\", discrete=True)", "compilation_passed": true, "time": 0.14713072776794434, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.displot(df[\"age\"])", "compilation_passed": true, "time": 0.1373298168182373, "tests_passed": false, "error": "AttributeError"}

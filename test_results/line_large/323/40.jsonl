@@ -1,0 +1,21 @@
+{"code": " [word.strip().lower() for word in ' '.join(names).split()]", "compilation_passed": true, "time": 0.012942790985107422, "tests_passed": true, "error": null}
+{"code": " Counter(word for name in names for word in name.split())", "compilation_passed": true, "time": 0.015783071517944336, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.010109901428222656, "tests_passed": false, "error": "Exception"}
+{"code": " Counter([word for name in names for word in name.split()])", "compilation_passed": true, "time": 0.013086080551147461, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', ' '.join(names))", "compilation_passed": true, "time": 0.020013093948364258, "tests_passed": true, "error": null}
+{"code": " [word.strip() for word in \" \".join(names).split()]", "compilation_passed": true, "time": 0.02361774444580078, "tests_passed": true, "error": null}
+{"code": " [word for name in names for word in name.split() if word != \"\"]", "compilation_passed": true, "time": 0.017547130584716797, "tests_passed": true, "error": null}
+{"code": " Counter([word for name in names for word in re.findall(r'\\w+', name)])", "compilation_passed": true, "time": 0.013192892074584961, "tests_passed": true, "error": null}
+{"code": " [w.strip() for name in names for w in name.split() if name != \"\"]", "compilation_passed": true, "time": 0.017606019973754883, "tests_passed": true, "error": null}
+{"code": " [word.lower() for name in names for word in name.split() if name.strip()]", "compilation_passed": true, "time": 0.013467788696289062, "tests_passed": true, "error": null}
+{"code": " [word for name in names for word in name.split()]", "compilation_passed": true, "time": 0.013670921325683594, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', ' '.join(names))", "compilation_passed": true, "time": 0.014001131057739258, "tests_passed": true, "error": null}
+{"code": " names[0].split()", "compilation_passed": true, "time": 0.009285926818847656, "tests_passed": true, "error": null}
+{"code": " [word for name in names for word in name.strip().split()]", "compilation_passed": true, "time": 0.013458251953125, "tests_passed": true, "error": null}
+{"code": " [word.strip() for name in names for word in name.split() if word.strip()]", "compilation_passed": true, "time": 0.012603044509887695, "tests_passed": true, "error": null}
+{"code": " [word.strip() for name in names for word in name.split() if word]", "compilation_passed": true, "time": 0.011574029922485352, "tests_passed": true, "error": null}
+{"code": " [word for name in names for word in re.findall(r'\\w+', name)]", "compilation_passed": true, "time": 0.012643098831176758, "tests_passed": true, "error": null}
+{"code": " [word.strip() for name in names for word in name.split()]", "compilation_passed": true, "time": 0.01219630241394043, "tests_passed": true, "error": null}
+{"code": " [w.lower() for name in names for w in name.split()]", "compilation_passed": true, "time": 0.009495973587036133, "tests_passed": true, "error": null}
+{"code": " [word.split(' ') for name in names if name.strip() for word in name.strip().split(' ')]", "compilation_passed": true, "time": 0.012022018432617188, "tests_passed": false, "error": "TypeError"}
+{"code": " ' '.join(names).split(' ')", "compilation_passed": true, "time": 0.008403778076171875, "tests_passed": true, "error": null}

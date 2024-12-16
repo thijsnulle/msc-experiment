@@ -104,6 +104,11 @@ class CodeVerifier:
         cache_hits = 0
         non_cache_hits = 0
 
+        for cache in self.cache.values():
+            non_cache_hits += len(cache)
+
+        current_cache_size = non_cache_hits
+
         for result in generation_results:
             for i, output in enumerate(result.outputs):
                 if psutil.Process().memory_info().rss / 1024**2 > 2000:
@@ -139,6 +144,8 @@ class CodeVerifier:
             for result in line_index_values.values():
                 tests_total += 1
                 tests_passed += 1 if result.tests_passed else 0
+
+        cache_hits -= current_cache_size # To offset from the already existing elements in the cache that were doubled counted
 
         print(f'Problem {problem.id}\t- Cache Hit %: {cache_hits/(cache_hits+non_cache_hits):.2f},\tTest Pass %: {tests_passed/tests_total:.2f}, \tMemory Usage: {psutil.Process().memory_info().rss / 1024**2:.2f} MB') 
 
@@ -238,6 +245,8 @@ if __name__ == '__main__':
     code_verifier = CodeVerifier()
 
     line_small = load_data('line_small')
+    #line_large = load_data('line_large')
+
     problems = DataProcessor.load(input_file_path='../data/test-dataset.jsonl')
 
     for problem_id, generation_results in line_small.items():

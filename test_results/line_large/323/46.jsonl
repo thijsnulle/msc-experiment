@@ -1,0 +1,11 @@
+{"code": " GaussianMixture(n_components=num_gaussians, random_state=seed).fit(np.array(list(word_freqs.values()))[:, np.newaxis])", "compilation_passed": true, "time": 0.02434825897216797, "tests_passed": true, "error": null}
+{"code": " GaussianMixture(n_components=num_gaussians)", "compilation_passed": true, "time": 0.017166852951049805, "tests_passed": true, "error": null}
+{"code": " GaussianMixture(n_components=num_gaussians,", "compilation_passed": false, "time": 0.00030994415283203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " GaussianMixture(num_gaussians)", "compilation_passed": true, "time": 0.016772985458374023, "tests_passed": true, "error": null}
+{"code": " GaussianMixture(n_components=num_gaussians).fit(np.array(list(word_freqs.values())).reshape(-1,1))", "compilation_passed": true, "time": 0.03784608840942383, "tests_passed": true, "error": null}
+{"code": " GaussianMixture(n_components=num_gaussians, covariance_type='full')", "compilation_passed": true, "time": 0.022355079650878906, "tests_passed": true, "error": null}
+{"code": " GaussianMixture(n_components=num_gaussians, random_state=seed)", "compilation_passed": true, "time": 0.019558191299438477, "tests_passed": true, "error": null}
+{"code": " GaussianMixture(num_gaussians, 'full')", "compilation_passed": true, "time": 0.01623082160949707, "tests_passed": false, "error": "TypeError"}
+{"code": " GaussianMixture(n_components=num_gaussians, random_state=seed).fit(np.array([[freq] for freq in word_freqs.values()]))", "compilation_passed": true, "time": 0.024147987365722656, "tests_passed": true, "error": null}
+{"code": " GaussianMixture(n_components=num_gaussians, random_state=seed).fit(np.array(list(word_freqs.values())).reshape(-1, 1))", "compilation_passed": true, "time": 0.029790163040161133, "tests_passed": true, "error": null}
+{"code": " GaussianMixture(n_components=num_gaussians, tol=1e-3, random_state=seed)", "compilation_passed": true, "time": 0.01633286476135254, "tests_passed": true, "error": null}

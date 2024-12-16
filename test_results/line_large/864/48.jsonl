@@ -1,0 +1,20 @@
+{"code": " pd.Series(counts).groupby(fruits).sum()", "compilation_passed": false, "time": 0.00019884109497070312, "tests_passed": false, "error": "IndentationError"}
+{"code": " []", "compilation_passed": false, "time": 0.0001761913299560547, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.zeros_like(unique_values, dtype=int)", "compilation_passed": false, "time": 0.00018525123596191406, "tests_passed": false, "error": "IndentationError"}
+{"code": " [0] * len(fruits)", "compilation_passed": false, "time": 0.0002281665802001953, "tests_passed": false, "error": "IndentationError"}
+{"code": " {fruit: 0 for fruit in fruits}", "compilation_passed": false, "time": 0.0001888275146484375, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.array([counts.count(fruit) for fruit in fruits])", "compilation_passed": false, "time": 0.00016832351684570312, "tests_passed": false, "error": "IndentationError"}
+{"code": " [counts.count(fruit) for fruit in fruits]", "compilation_passed": false, "time": 0.00016498565673828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " list(np.array(counts).sum(0))", "compilation_passed": false, "time": 0.0001881122589111328, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.Series(counts).groupby(fruits).sum().tolist()", "compilation_passed": false, "time": 0.0001628398895263672, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.array([counts.count(count) for count in unique_values])", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "IndentationError"}
+{"code": " [sum(count for fruit, count in fruit_data if fruit == fruit_name) for fruit_name in fruits]", "compilation_passed": false, "time": 0.00021195411682128906, "tests_passed": false, "error": "IndentationError"}
+{"code": " dict.fromkeys(fruits, 0)", "compilation_passed": false, "time": 0.0001857280731201172, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.array(counts).reshape(len(unique_values), -1).sum(axis=1)", "compilation_passed": false, "time": 0.00018310546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " {fruit: counts.count(fruit) for fruit in unique_values}", "compilation_passed": false, "time": 0.0001552104949951172, "tests_passed": false, "error": "IndentationError"}
+{"code": " {fruit: sum([count for fruit_name, count in zip(fruits, counts) if fruit_name == fruit]) for fruit in fruits}", "compilation_passed": false, "time": 0.00021505355834960938, "tests_passed": false, "error": "IndentationError"}
+{"code": " {fruit: sum(count for name, count in fruit_data if name == fruit) for fruit in fruits}", "compilation_passed": false, "time": 0.0001850128173828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " dict(Counter(fruit_data).items())", "compilation_passed": false, "time": 0.0001919269561767578, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.array([np.sum(count == fruit) for fruit in fruits for count in counts])", "compilation_passed": false, "time": 0.00019121170043945312, "tests_passed": false, "error": "IndentationError"}
+{"code": " [sum([count for name, count in fruit_data if name == fruit]) for fruit in fruits]", "compilation_passed": false, "time": 0.00021600723266601562, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.array(list(np.sum(np.array([count for fruit, count in fruit_data if fruit == fruit_name]) for fruit_name in fruits)))", "compilation_passed": false, "time": 0.00021505355834960938, "tests_passed": false, "error": "IndentationError"}

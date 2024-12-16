@@ -1,0 +1,7 @@
+{"code": " hashlib.md5(password.encode('utf-8')).hexdigest()", "compilation_passed": true, "time": 0.012842893600463867, "tests_passed": false, "error": "TypeError"}
+{"code": " hashlib.sha256(password.encode()).digest()", "compilation_passed": true, "time": 0.00585484504699707, "tests_passed": true, "error": null}
+{"code": " hashlib.md5(password.encode()).digest()", "compilation_passed": true, "time": 0.010077953338623047, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " hashlib.md5(password.encode('utf-8')).digest()", "compilation_passed": true, "time": 0.009727954864501953, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " hashlib.sha256(password.encode('utf-8')).digest()", "compilation_passed": true, "time": 0.006262063980102539, "tests_passed": true, "error": null}
+{"code": " hashlib.sha512(password.encode()).digest()", "compilation_passed": true, "time": 0.012549877166748047, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " hashlib.md5(password.encode()).hexdigest()", "compilation_passed": true, "time": 0.01169586181640625, "tests_passed": false, "error": "TypeError"}

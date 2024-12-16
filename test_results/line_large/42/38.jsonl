@@ -1,0 +1,14 @@
+{"code": " pd.DataFrame(data=transformed_data, columns=[f'Component {i+1}' for i in range(n_components)])", "compilation_passed": false, "time": 0.00021195411682128906, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(transformed_data)", "compilation_passed": false, "time": 0.00021886825561523438, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(transformed_data, columns=['Component ' + str(i+1) for i in range(n_components)])", "compilation_passed": false, "time": 0.00015497207641601562, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(data=transformed_data, columns=[f\"Component {i}\" for i in range(1, n_components+1)])", "compilation_passed": false, "time": 0.00022101402282714844, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(columns=[f\"Component {i}\" for i in range(1, n_components + 1)], data=transformed_data)", "compilation_passed": false, "time": 0.0001971721649169922, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(transformed_data, columns=[f\"Component {i+1}\" for i in range(n_components)])", "compilation_passed": false, "time": 0.0002276897430419922, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(transformed_data, columns=[f'Component {i}' for i in range(n_components)])", "compilation_passed": false, "time": 0.00016617774963378906, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(data=transformed_data, columns=[f\"Component {i+1}\" for i in range(n_components)])", "compilation_passed": false, "time": 0.00018310546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(transformed_data, columns=[f'Component {i+1}' for i in range(n_components)])", "compilation_passed": false, "time": 0.0002028942108154297, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(transformed_data, columns=[f\"Component {i}\" for i in range(1, n_components+1)])", "compilation_passed": false, "time": 0.00017309188842773438, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(data=transformed_data, columns=[", "compilation_passed": false, "time": 0.00014209747314453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(transformed_data, columns=[f\"Component {i}\" for i in range(n_components)])", "compilation_passed": false, "time": 0.00015020370483398438, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(transformed_data, columns=['Component {}'.format(i + 1) for i in range(n_components)])", "compilation_passed": false, "time": 0.00021195411682128906, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(transformed_data, columns=[f\"Component {i + 1}\" for i in range(n_components)])", "compilation_passed": false, "time": 0.00018405914306640625, "tests_passed": false, "error": "IndentationError"}

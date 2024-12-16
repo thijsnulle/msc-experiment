@@ -1,0 +1,27 @@
+{"code": " results_df['Match Result'].apply(lambda x: re.findall(r\"\\((.*)\\)\", x)[0].split(\" \")[0])", "compilation_passed": true, "time": 0.20478582382202148, "tests_passed": false, "error": "TypeError"}
+{"code": " results_df['Match Result'].str.extract(r\"\\((\\d+) goals, \\$([0-9]+)\\)\", expand=False).astype(int)", "compilation_passed": true, "time": 0.007544994354248047, "tests_passed": false, "error": "ValueError"}
+{"code": " results_df['Match Result'].apply(lambda x: re.findall(r'(\\d+)', x)[0])", "compilation_passed": true, "time": 0.18437886238098145, "tests_passed": false, "error": "TypeError"}
+{"code": " results_df['Match Result'].str.extract(r\"\\(\\s*(\\d+)\\s+goals\\s*,\\s*(\\d+)\\s+fines\\s*\\)\")", "compilation_passed": true, "time": 0.0074231624603271484, "tests_passed": false, "error": "ValueError"}
+{"code": " results_df.apply(lambda row: re.findall(r'\\d+', row['Match Result'])[0], axis=1)", "compilation_passed": true, "time": 0.2040858268737793, "tests_passed": false, "error": "TypeError"}
+{"code": " results_df['Match Result'].apply(lambda x: re.findall(r'\\((\\d+) goals, \\$([0-9]+)\\)', x)[0][0])", "compilation_passed": true, "time": 0.2266080379486084, "tests_passed": false, "error": "TypeError"}
+{"code": " results_df['Match Result'].str.extract('(\\d+)\\s*(.*)')[0]", "compilation_passed": true, "time": 0.222398042678833, "tests_passed": false, "error": "TypeError"}
+{"code": " results_df['Match Result'].apply(", "compilation_passed": false, "time": 0.0003509521484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " results_df['Match Result'].map(", "compilation_passed": false, "time": 0.00047326087951660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " results_df['Match Result'].str.extract(r'(\\d+)').astype(int)", "compilation_passed": true, "time": 0.6982381343841553, "tests_passed": true, "error": null}
+{"code": " results_df['Match Result'].apply(lambda x: re.findall(r'\\(([0-9]+) goals, \\$([0-9]+)', x)[0][0])", "compilation_passed": true, "time": 0.2038426399230957, "tests_passed": false, "error": "TypeError"}
+{"code": " results_df['Match Result'].apply(lambda x: re.findall(r'\\((.*),\\s*(\\d+)\\)', x)[0][0])", "compilation_passed": true, "time": 0.01421809196472168, "tests_passed": false, "error": "IndexError"}
+{"code": " results_df['Match Result'].apply(lambda x: re.findall(r'\\((.+?)\\)', x)[0][0])", "compilation_passed": true, "time": 0.2027120590209961, "tests_passed": false, "error": "TypeError"}
+{"code": " results_df['Match Result'].str.extract(r\"\\(\\s*(\\d+)(\\s+)goals\\s+(\\d+)\\s+(\\d+)\\s+fines\\)\")", "compilation_passed": true, "time": 0.008810043334960938, "tests_passed": false, "error": "ValueError"}
+{"code": " results_df['Match Result'].apply(lambda x: re.search(r\"\\(\\d+ goals, \\$\\d+\\)\", x).group(0)[1:-1])", "compilation_passed": true, "time": 0.19689607620239258, "tests_passed": false, "error": "TypeError"}
+{"code": " results_df.Match_Result.apply(lambda x: re.findall(r'\\((\\d+) goals, \\$([\\d]+)\\)', x)[0]).apply(lambda x: int(x[0]))", "compilation_passed": true, "time": 0.007443904876708984, "tests_passed": false, "error": "AttributeError"}
+{"code": " results_df['Match Result'].apply(lambda x: re.findall('\\((.+)\\)', x)[0])", "compilation_passed": true, "time": 0.1892688274383545, "tests_passed": false, "error": "TypeError"}
+{"code": " results_df['Match Result'].apply(lambda x: re.findall(r'\\((.+?), ', x)[0]).astype(int)", "compilation_passed": true, "time": 0.024425029754638672, "tests_passed": false, "error": "ValueError"}
+{"code": " results_df['Match Result'].str.extract(r'(?:\\(\\s*(\\d+)\\s*goals\\s*)?(\\d+)\\s*(\\$(\\d+)\\s*)?\\)')[0]", "compilation_passed": true, "time": 0.20929884910583496, "tests_passed": true, "error": null}
+{"code": " results_df['Match Result'].str.extract(r'(?P<goals>\\d+)', expand=False)", "compilation_passed": true, "time": 0.20152497291564941, "tests_passed": false, "error": "TypeError"}
+{"code": " results_df.apply(lambda row: re.search(r'\\((.*?),\\s*(.*?)\\)', row['Match Result']).group(1), axis=1)", "compilation_passed": true, "time": 0.1865980625152588, "tests_passed": false, "error": "TypeError"}
+{"code": " results_df['Match Result'].apply(lambda x: int(re.findall(r\"\\d+\", x)[0]))", "compilation_passed": true, "time": 0.49853086471557617, "tests_passed": true, "error": null}
+{"code": " results_df['Match Result'].str.extract('(\\d*)').astype(int)", "compilation_passed": true, "time": 0.008479833602905273, "tests_passed": false, "error": "ValueError"}
+{"code": " results_df['Match Result'].str.extract(r\"(\\d+) goals\")", "compilation_passed": true, "time": 0.21757268905639648, "tests_passed": false, "error": "TypeError"}
+{"code": " results_df['Match Result'].apply(lambda x: re.search(r\"\\(([0-9]+) goals, \\$([0-9]+)\", x).groups()).apply(lambda x: int(x[0]))", "compilation_passed": true, "time": 0.534466028213501, "tests_passed": true, "error": null}
+{"code": " results_df['Match Result'].str.extract(r\"\\((.*?), (.*?)\\)\", expand=False)", "compilation_passed": true, "time": 0.017858028411865234, "tests_passed": false, "error": "ValueError"}
+{"code": " results_df['Match Result'].apply(lambda x: int(re.findall(r'\\d+', x)[0]))", "compilation_passed": true, "time": 0.6333911418914795, "tests_passed": true, "error": null}

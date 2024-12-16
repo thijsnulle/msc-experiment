@@ -1,0 +1,15 @@
+{"code": " pd.DataFrame(l)", "compilation_passed": true, "time": 0.016680002212524414, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(l).sample(frac=1)", "compilation_passed": true, "time": 0.007470846176147461, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.array(l).reshape(-1, len(l)))", "compilation_passed": true, "time": 0.007115602493286133, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(columns=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'], data=np.array(l).reshape(n_groups, len(l) // n_groups))", "compilation_passed": true, "time": 0.013823270797729492, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'data': l})", "compilation_passed": true, "time": 0.006370067596435547, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.array(l).reshape(-1, n_groups))", "compilation_passed": true, "time": 0.009042024612426758, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(l, columns=['data'])", "compilation_passed": true, "time": 0.008478164672851562, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'group': l})", "compilation_passed": true, "time": 0.0072896480560302734, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'tasks': l})", "compilation_passed": true, "time": 0.006456136703491211, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(l, columns=[0])", "compilation_passed": true, "time": 0.007495880126953125, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'labels': l})", "compilation_passed": true, "time": 0.006330966949462891, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.array(l).reshape(-1, len(l)), columns=range(1, len(l)+1))", "compilation_passed": true, "time": 0.00763392448425293, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.array_split(l, n_groups))", "compilation_passed": true, "time": 0.007237672805786133, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'A': l})", "compilation_passed": true, "time": 0.008334159851074219, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.array(l).reshape(n_groups,-1))", "compilation_passed": true, "time": 0.007185935974121094, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,5 @@
+{"code": " base64.b64encode(compressed).decode()", "compilation_passed": true, "time": 0.001476287841796875, "tests_passed": true, "error": null}
+{"code": " base64.urlsafe_b64encode(compressed).decode()", "compilation_passed": true, "time": 0.009437084197998047, "tests_passed": false, "error": "binascii.Error"}
+{"code": " base64.b64encode(compressed).decode('utf-8')", "compilation_passed": true, "time": 0.0016472339630126953, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(compressed)", "compilation_passed": true, "time": 0.005645036697387695, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(compressed).decode('ascii')", "compilation_passed": true, "time": 0.0015799999237060547, "tests_passed": true, "error": null}

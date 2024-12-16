@@ -1,0 +1,12 @@
+{"code": " collections.Counter(letter for letter, count in data)", "compilation_passed": true, "time": 0.09687185287475586, "tests_passed": true, "error": null}
+{"code": " collections.Counter(map(itemgetter(0), data))", "compilation_passed": true, "time": 0.0995030403137207, "tests_passed": true, "error": null}
+{"code": " collections.Counter(x for x, count in data)", "compilation_passed": true, "time": 0.09770989418029785, "tests_passed": true, "error": null}
+{"code": " collections.Counter(dict(data))", "compilation_passed": true, "time": 0.09826803207397461, "tests_passed": true, "error": null}
+{"code": " collections.Counter(", "compilation_passed": false, "time": 0.0003581047058105469, "tests_passed": false, "error": "SyntaxError"}
+{"code": " collections.Counter(d[0] for d in data)", "compilation_passed": true, "time": 0.09918093681335449, "tests_passed": true, "error": null}
+{"code": " collections.defaultdict(int)", "compilation_passed": true, "time": 0.017774105072021484, "tests_passed": false, "error": "ValueError"}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.017688989639282227, "tests_passed": false, "error": "ValueError"}
+{"code": " collections.Counter(data)", "compilation_passed": true, "time": 0.04299426078796387, "tests_passed": false, "error": "ValueError"}
+{"code": " {}  # \u0441\u043e\u0437\u0434\u0430\u0435\u043c \u043f\u0443\u0441\u0442\u043e\u0439 \u0441\u043b\u043e\u0432\u0430\u0440\u044c \u0434\u043b\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0441\u0447\u0451\u0442\u0447\u0438\u043a\u043e\u0432 \u0431\u0443\u043a\u0432", "compilation_passed": true, "time": 0.01789689064025879, "tests_passed": false, "error": "ValueError"}
+{"code": " {} # Initialize an empty dictionary to store the frequency of each letter", "compilation_passed": true, "time": 0.01776885986328125, "tests_passed": false, "error": "ValueError"}
+{"code": " {}  # create empty dictionary to store letter counts", "compilation_passed": true, "time": 0.01767563819885254, "tests_passed": false, "error": "ValueError"}

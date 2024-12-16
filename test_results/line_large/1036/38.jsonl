@@ -1,0 +1,6 @@
+{"code": " pd.concat([df1, df2], ignore_index=True)", "compilation_passed": true, "time": 0.3792431354522705, "tests_passed": true, "error": null}
+{"code": " pd.concat([df1, df2])", "compilation_passed": true, "time": 0.4169158935546875, "tests_passed": true, "error": null}
+{"code": " pd.concat([df1, df2], axis=0).reset_index(drop=True)", "compilation_passed": true, "time": 0.3826770782470703, "tests_passed": true, "error": null}
+{"code": " pd.concat([df1, df2]).reset_index(drop=True)", "compilation_passed": true, "time": 0.4292411804199219, "tests_passed": true, "error": null}
+{"code": " pd.concat([df1, df2]).reset_index()", "compilation_passed": true, "time": 0.5011610984802246, "tests_passed": true, "error": null}
+{"code": " pd.concat([df1, df2], axis=0, ignore_index=True)", "compilation_passed": true, "time": 0.4521300792694092, "tests_passed": true, "error": null}

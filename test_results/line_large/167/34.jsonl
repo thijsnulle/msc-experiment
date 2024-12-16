@@ -1,0 +1,21 @@
+{"code": "plot(kind='barh', ax=ax, stacked=True, color=plt.colormaps['cividis'])", "compilation_passed": true, "time": 0.034258127212524414, "tests_passed": false, "error": "TypeError"}
+{"code": "plot.barh(stacked=True, ax=ax)", "compilation_passed": true, "time": 0.22269201278686523, "tests_passed": true, "error": null}
+{"code": "T.plot.barh(ax=ax, stacked=True)", "compilation_passed": true, "time": 0.22303295135498047, "tests_passed": true, "error": null}
+{"code": "plot.barh(ax=ax, stacked=True)", "compilation_passed": true, "time": 0.22056818008422852, "tests_passed": true, "error": null}
+{"code": "plot.barh(ax=ax, stacked=True, color=plt.rcParams['axes.prop_cycle'].by_key()['color'])", "compilation_passed": true, "time": 0.22161412239074707, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, kind='barh', stacked=True)", "compilation_passed": true, "time": 0.22695088386535645, "tests_passed": true, "error": null}
+{"code": "plot(kind='barh', stacked=True, ax=ax)", "compilation_passed": true, "time": 0.22281503677368164, "tests_passed": true, "error": null}
+{"code": "plot.barh(ax=ax, stackplot=True)", "compilation_passed": true, "time": 0.0334010124206543, "tests_passed": false, "error": "AttributeError"}
+{"code": "plot(kind='barh', ax=ax)", "compilation_passed": true, "time": 0.23216509819030762, "tests_passed": true, "error": null}
+{"code": "plot.barh(ax=ax, stacked=True, color=['red', 'green', 'blue', 'orange', 'purple'])", "compilation_passed": true, "time": 0.23143291473388672, "tests_passed": true, "error": null}
+{"code": "plot(kind='barh', ax=ax, stacked=True, xlabel='', ylabel='', legend=False)", "compilation_passed": true, "time": 0.21590209007263184, "tests_passed": true, "error": null}
+{"code": "T.plot(ax=ax, kind='barh', stacked=True)", "compilation_passed": true, "time": 0.2341291904449463, "tests_passed": true, "error": null}
+{"code": "plot(kind='barh', stacked=True, ax=ax, color=[(i / num_types, 0, (num_types - i) / num_types) for i in range(num_types)])", "compilation_passed": true, "time": 0.23728013038635254, "tests_passed": true, "error": null}
+{"code": "plot.barh(ax=ax, stacked=True, color=['red', 'green', 'blue', 'yellow', 'orange'], edgecolor='black')", "compilation_passed": true, "time": 0.2251579761505127, "tests_passed": true, "error": null}
+{"code": "plot(kind='barh', ax=ax, stacked=True, color=plt.rcParams['axes.prop_cycle'].by_key()['color'])", "compilation_passed": true, "time": 0.22598004341125488, "tests_passed": true, "error": null}
+{"code": "plot.barh(ax=ax, stacked=True, width=1)", "compilation_passed": true, "time": 0.23061823844909668, "tests_passed": true, "error": null}
+{"code": "plot.barh(ax=ax, stacked=True, edgecolor='black')", "compilation_passed": true, "time": 1.865123987197876, "tests_passed": false, "error": "TimeoutError"}
+{"code": "plot(kind='barh', stacked=True, ax=ax, width=.9)", "compilation_passed": true, "time": 0.22615385055541992, "tests_passed": true, "error": null}
+{"code": "plot(", "compilation_passed": false, "time": 0.0002779960632324219, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot.barh(stacked=True, color=plt.cm.viridis(np.linspace(0, 1., num_types)), ax=ax)", "compilation_passed": true, "time": 0.01969003677368164, "tests_passed": false, "error": "NameError"}
+{"code": "plot.barh(ax=ax, stacked=True, color=['cyan', 'lightblue', 'darkblue', 'skyblue', 'blue'])", "compilation_passed": true, "time": 0.22550201416015625, "tests_passed": true, "error": null}

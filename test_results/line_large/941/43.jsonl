@@ -1,0 +1,7 @@
+{"code": " pd.period_range(start=start_date, periods=periods, freq=freq)", "compilation_passed": true, "time": 0.023582935333251953, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(start_date, periods=periods, freq=freq)", "compilation_passed": true, "time": 0.1571791172027588, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start=start_date, periods=periods, freq=freq)", "compilation_passed": true, "time": 0.1682591438293457, "tests_passed": true, "error": null}
+{"code": " pd.period_range(start_date, periods=periods, freq=freq)", "compilation_passed": true, "time": 0.012192010879516602, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.period_range(start=start_date, periods=periods, freq=freq).to_timestamp()", "compilation_passed": true, "time": 0.012139081954956055, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(start=start_date, periods=periods, freq=freq, name='Date')", "compilation_passed": true, "time": 0.14832806587219238, "tests_passed": true, "error": null}
+{"code": " pd.period_range(start_date, freq=freq, periods=periods)", "compilation_passed": true, "time": 0.012285232543945312, "tests_passed": false, "error": "ValueError"}

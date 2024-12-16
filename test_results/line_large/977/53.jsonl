@@ -1,0 +1,22 @@
+{"code": "features if features is not None else [str(i + 1) for i in range(array.shape[1])],", "compilation_passed": true, "time": 0.4721200466156006, "tests_passed": true, "error": null}
+{"code": "features if features is not None else [i + 1 for i in range(shuffled_array.shape[1])],", "compilation_passed": true, "time": 0.43901801109313965, "tests_passed": true, "error": null}
+{"code": "features if features is not None else np.arange(1, array.shape[1] + 1),", "compilation_passed": true, "time": 0.48094725608825684, "tests_passed": true, "error": null}
+{"code": "features", "compilation_passed": false, "time": 0.00045108795166015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "features if features is not None else [i for i in range(1, array.shape[1] + 1)],", "compilation_passed": true, "time": 0.47965002059936523, "tests_passed": true, "error": null}
+{"code": "features if features is not None else range(1, array.shape[1] + 1),", "compilation_passed": true, "time": 0.41250109672546387, "tests_passed": true, "error": null}
+{"code": "features if features is not None else [str(i) for i in range(1, shuffled_array.shape[1] + 1)],", "compilation_passed": true, "time": 0.4157578945159912, "tests_passed": true, "error": null}
+{"code": "features or [f\"{i+1}\" for i in range(array.shape[1])],", "compilation_passed": true, "time": 0.4705798625946045, "tests_passed": true, "error": null}
+{"code": "features if features is not None else np.arange(1, array.shape[1]+1),", "compilation_passed": true, "time": 0.430952787399292, "tests_passed": true, "error": null}
+{"code": "features if features is not None else np.arange(1, shuffled_array.shape[1] + 1),", "compilation_passed": true, "time": 0.4213738441467285, "tests_passed": true, "error": null}
+{"code": "features or [f\"{i}\" for i in range(1, array.shape[1] + 1)],", "compilation_passed": true, "time": 0.5043911933898926, "tests_passed": true, "error": null}
+{"code": "features or np.arange(1, array.shape[1] + 1).astype(str),", "compilation_passed": true, "time": 0.5668449401855469, "tests_passed": true, "error": null}
+{"code": "features if features is not None else [f\"{i+1}\" for i in range(len(shuffled_array[0]))],", "compilation_passed": true, "time": 0.4415900707244873, "tests_passed": true, "error": null}
+{"code": "features or [str(i + 1) for i in range(array.shape[1])],", "compilation_passed": true, "time": 0.5083281993865967, "tests_passed": true, "error": null}
+{"code": "features or range(1, array.shape[1] + 1),", "compilation_passed": true, "time": 0.48345494270324707, "tests_passed": true, "error": null}
+{"code": "features if features is not None else list(map(str, range(1, array.shape[1] + 1))),", "compilation_passed": true, "time": 0.4318099021911621, "tests_passed": true, "error": null}
+{"code": "features if features else [i for i in range(1, array.shape[1] + 1)],", "compilation_passed": true, "time": 0.5037918090820312, "tests_passed": true, "error": null}
+{"code": "features or np.arange(1, shuffled_array.shape[1] + 1),", "compilation_passed": true, "time": 0.44040918350219727, "tests_passed": true, "error": null}
+{"code": "features if features is not None else list(range(1, array.shape[1] + 1)),", "compilation_passed": true, "time": 0.4742751121520996, "tests_passed": true, "error": null}
+{"code": "features if features is not None else [i for i in range(1, len(shuffled_array.T) + 1)],", "compilation_passed": true, "time": 0.43155479431152344, "tests_passed": true, "error": null}
+{"code": "features if features is not None else [str(i) for i in range(1, array.shape[1] + 1)],", "compilation_passed": true, "time": 0.6288073062896729, "tests_passed": true, "error": null}
+{"code": "features if features else list(range(1, shuffled_array.shape[1] + 1)),", "compilation_passed": true, "time": 0.45387816429138184, "tests_passed": true, "error": null}

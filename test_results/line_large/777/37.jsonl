@@ -1,0 +1,20 @@
+{"code": "rename(extract_path, extract_path[:-1])", "compilation_passed": true, "time": 0.00963592529296875, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "system(\"mv {0}/*/* {0}/\".format(extract_path))", "compilation_passed": true, "time": 0.06794023513793945, "tests_passed": true, "error": null}
+{"code": "remove(file_path)", "compilation_passed": true, "time": 0.010367155075073242, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "makedirs(os.path.join(extract_path, 'logs'), exist_ok=True)", "compilation_passed": true, "time": 0.009382009506225586, "tests_passed": true, "error": null}
+{"code": "rmdir(extract_path)", "compilation_passed": true, "time": 0.009990930557250977, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "mkdir(os.path.join(extract_path, 'temp_zip'))", "compilation_passed": true, "time": 0.010699987411499023, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "rmdir(os.path.join(extract_path, \".Trash-1000\"))", "compilation_passed": true, "time": 0.010946035385131836, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "rename(f\"{extract_path}\", f\"{extract_path}_1\")", "compilation_passed": true, "time": 0.009459257125854492, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "system('mv {}/{}.zip .'.format(extract_path, base_name))", "compilation_passed": true, "time": 0.06187605857849121, "tests_passed": true, "error": null}
+{"code": "chmod(extract_path, 0o755)", "compilation_passed": true, "time": 0.01400303840637207, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "mkdir(os.path.join(extract_path, base_name))", "compilation_passed": true, "time": 0.010309934616088867, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "chmod(extract_path, 0o700)", "compilation_passed": true, "time": 0.009516000747680664, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "remove(file_path)  # Remove the original zip file after extracting.", "compilation_passed": true, "time": 0.010236740112304688, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "mkdir(f\"{extract_path}-\" + datetime.now().strftime(\"%Y%m%d%H%M%S\"))", "compilation_passed": true, "time": 0.009584903717041016, "tests_passed": false, "error": "NameError"}
+{"code": "rename(extract_path, os.path.join(directory, base_name))", "compilation_passed": true, "time": 0.009913206100463867, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "chdir(directory)", "compilation_passed": true, "time": 0.010855913162231445, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "rename(extract_path, f\"{directory}/{base_name}.zip\")", "compilation_passed": true, "time": 0.009301185607910156, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "chmod(extract_path, 0o777)", "compilation_passed": true, "time": 0.009898900985717773, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "mkdir(os.path.join(extract_path, \"..\", f\"{base_name}_raw\"))", "compilation_passed": true, "time": 0.009985923767089844, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "system(f\"echo '{extract_path}'\")", "compilation_passed": true, "time": 0.045516014099121094, "tests_passed": true, "error": null}

@@ -1,0 +1,6 @@
+{"code": " client_socket.recv(BUFFER_SIZE)", "compilation_passed": true, "time": 0.018747806549072266, "tests_passed": false, "error": "KeyError"}
+{"code": " client_socket.recv(BUFFER_SIZE).decode()", "compilation_passed": true, "time": 0.022405147552490234, "tests_passed": true, "error": null}
+{"code": " client_socket.recv(BUFFER_SIZE).decode(\"UTF-8\")", "compilation_passed": true, "time": 0.027844905853271484, "tests_passed": true, "error": null}
+{"code": " client_socket.recv(BUFFER_SIZE).decode('utf-8')", "compilation_passed": true, "time": 0.026952743530273438, "tests_passed": true, "error": null}
+{"code": " client_socket.recv(BUFFER_SIZE).decode('ascii')", "compilation_passed": true, "time": 0.02903890609741211, "tests_passed": true, "error": null}
+{"code": " client_socket.recv(BUFFER_SIZE).decode(\"utf-8\")", "compilation_passed": true, "time": 0.027164936065673828, "tests_passed": true, "error": null}

@@ -1,0 +1,7 @@
+{"code": " dt.replace(tzinfo=from_zone)", "compilation_passed": true, "time": 0.011647939682006836, "tests_passed": true, "error": null}
+{"code": " from_zone.localize(dt)", "compilation_passed": true, "time": 0.002237081527709961, "tests_passed": true, "error": null}
+{"code": " from_zone.localize(dt.replace(tzinfo=None))", "compilation_passed": true, "time": 0.0022890567779541016, "tests_passed": true, "error": null}
+{"code": " from_zone.localize(dt, is_dst=True)", "compilation_passed": true, "time": 0.004929065704345703, "tests_passed": true, "error": null}
+{"code": " dt.replace(microsecond=int(dt.microsecond / 1000) * 1000)", "compilation_passed": true, "time": 0.004507303237915039, "tests_passed": true, "error": null}
+{"code": " from_zone.localize(dt, is_dst=None)", "compilation_passed": true, "time": 0.0029718875885009766, "tests_passed": true, "error": null}
+{"code": " dt.replace(microsecond=0)", "compilation_passed": true, "time": 0.006199836730957031, "tests_passed": true, "error": null}

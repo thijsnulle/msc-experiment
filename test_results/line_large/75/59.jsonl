@@ -1,0 +1,16 @@
+{"code": " [(f, d, np.random.randint(sales_lower_bound, sales_upper_bound + 1)) for f, d in itertools.product(fruits, days)]", "compilation_passed": true, "time": 0.013206958770751953, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00037097930908203125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {", "compilation_passed": false, "time": 0.0003368854522705078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.012027978897094727, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(columns=['Fruit', 'Day', 'Sales'])", "compilation_passed": true, "time": 0.008890867233276367, "tests_passed": false, "error": "AttributeError"}
+{"code": " [{'Fruit': fruit, 'Day': day, 'Sales': np.random.randint(sales_lower_bound, sales_upper_bound + 1)}", "compilation_passed": false, "time": 0.0003771781921386719, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(fruit, day, np.random.randint(sales_lower_bound, sales_upper_bound + 1)) for fruit, day in itertools.product(fruits, days)]", "compilation_passed": true, "time": 0.011200904846191406, "tests_passed": false, "error": "ValueError"}
+{"code": " [{", "compilation_passed": false, "time": 0.00044989585876464844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [{\"Fruit\": fruit, \"Day\": day, \"Sales\": np.random.randint(sales_lower_bound, sales_upper_bound + 1)}", "compilation_passed": false, "time": 0.0003948211669921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [{\"Fruit\": fruit, \"Day\": day, \"Sales\": np.random.randint(sales_lower_bound, sales_upper_bound + 1)} for fruit, day in itertools.product(fruits, days)]", "compilation_passed": true, "time": 0.6812219619750977, "tests_passed": false, "error": "TypeError"}
+{"code": " [(fruit, day, np.random.randint(sales_lower_bound, sales_upper_bound)) for (fruit, day) in itertools.product(fruits, days)]", "compilation_passed": true, "time": 0.01070404052734375, "tests_passed": false, "error": "ValueError"}
+{"code": " itertools.product(fruits, days)", "compilation_passed": true, "time": 0.01034402847290039, "tests_passed": false, "error": "TypeError"}
+{"code": " [(fruit, day, np.random.randint(sales_lower_bound, sales_upper_bound+1)) for (fruit, day) in itertools.product(fruits, days)]", "compilation_passed": true, "time": 0.009541749954223633, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 0.0003590583801269531, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(itertools.product(fruits, days))", "compilation_passed": true, "time": 0.9132061004638672, "tests_passed": true, "error": null}
+{"code": " {'Fruit': np.random.choice(fruits, len(days)*len(fruits)),", "compilation_passed": false, "time": 0.0005009174346923828, "tests_passed": false, "error": "SyntaxError"}

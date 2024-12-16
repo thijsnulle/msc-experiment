@@ -1,0 +1,20 @@
+{"code": " set(predicates)", "compilation_passed": true, "time": 0.02151179313659668, "tests_passed": true, "error": null}
+{"code": " set(predicates)  # deduplicate predicates", "compilation_passed": true, "time": 0.01677703857421875, "tests_passed": true, "error": null}
+{"code": " [predicate_functions[p] for p in predicates if p in predicate_functions]", "compilation_passed": true, "time": 0.009934186935424805, "tests_passed": true, "error": null}
+{"code": " list(set(predicates).intersection(predicate_functions.keys()))", "compilation_passed": true, "time": 0.012849092483520508, "tests_passed": true, "error": null}
+{"code": " deduplicate(predicates)", "compilation_passed": true, "time": 0.009746313095092773, "tests_passed": false, "error": "NameError"}
+{"code": " list(", "compilation_passed": false, "time": 0.00020885467529296875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(dict.fromkeys(predicates))", "compilation_passed": true, "time": 0.015227079391479492, "tests_passed": true, "error": null}
+{"code": " [predicate_functions[pred] for predicate in predicates]", "compilation_passed": true, "time": 0.012598037719726562, "tests_passed": false, "error": "NameError"}
+{"code": " [predicate.lower() for predicate in predicates]", "compilation_passed": true, "time": 0.015962839126586914, "tests_passed": true, "error": null}
+{"code": " [p for p in predicates if p in predicate_functions]", "compilation_passed": true, "time": 0.012717962265014648, "tests_passed": true, "error": null}
+{"code": " [predicate_functions[predicate] for predicate in predicates if predicate in predicate_functions]", "compilation_passed": true, "time": 0.009886980056762695, "tests_passed": true, "error": null}
+{"code": " dedupe_predicates(predicates)", "compilation_passed": true, "time": 0.010006904602050781, "tests_passed": false, "error": "NameError"}
+{"code": " [predicate for predicate in predicates if predicate in predicate_functions]", "compilation_passed": true, "time": 0.012560129165649414, "tests_passed": true, "error": null}
+{"code": " [p for p in predicates if p in predicate_functions.keys()]", "compilation_passed": true, "time": 0.013560056686401367, "tests_passed": true, "error": null}
+{"code": " set(predicates).intersection(predicate_functions.keys())", "compilation_passed": true, "time": 0.012789011001586914, "tests_passed": true, "error": null}
+{"code": " list(set(predicates) & predicate_functions.keys())", "compilation_passed": true, "time": 0.01251983642578125, "tests_passed": true, "error": null}
+{"code": " list(set(predicates))", "compilation_passed": true, "time": 0.015229940414428711, "tests_passed": true, "error": null}
+{"code": " [p.lower() for p in predicates]", "compilation_passed": true, "time": 0.01519012451171875, "tests_passed": true, "error": null}
+{"code": " deduplicate_list(predicates)", "compilation_passed": true, "time": 0.009580135345458984, "tests_passed": false, "error": "NameError"}
+{"code": " deduplicate_predicates(predicates)", "compilation_passed": true, "time": 0.00975799560546875, "tests_passed": false, "error": "NameError"}

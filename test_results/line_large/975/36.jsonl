@@ -1,0 +1,6 @@
+{"code": " np.random.rand(rows, len(columns))", "compilation_passed": true, "time": 0.003471851348876953, "tests_passed": true, "error": null}
+{"code": " {c: np.random.random(rows) for c in columns}", "compilation_passed": true, "time": 0.009608030319213867, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.rand(rows, len(columns)), columns=columns)", "compilation_passed": true, "time": 0.004682064056396484, "tests_passed": true, "error": null}
+{"code": " np.random.random([rows, len(columns)])", "compilation_passed": true, "time": 0.0026090145111083984, "tests_passed": true, "error": null}
+{"code": " np.random.random((rows, len(columns)))", "compilation_passed": true, "time": 0.0026230812072753906, "tests_passed": true, "error": null}
+{"code": " np.random.random(size=(rows, len(columns)))", "compilation_passed": true, "time": 0.002633333206176758, "tests_passed": true, "error": null}

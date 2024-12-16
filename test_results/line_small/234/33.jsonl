@@ -1,0 +1,7 @@
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.20231008529663086, "tests_passed": true, "error": null}
+{"code": " type(df) != pd.core.frame.DataFrame:", "compilation_passed": true, "time": 0.12925505638122559, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.core.frame.DataFrame):", "compilation_passed": true, "time": 0.14332008361816406, "tests_passed": true, "error": null}
+{"code": " isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.007899284362792969, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(df, pd.DataFrame) is False:", "compilation_passed": true, "time": 0.13744783401489258, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, pd.core.generic.DataFrame):", "compilation_passed": true, "time": 0.006498098373413086, "tests_passed": false, "error": "AttributeError"}
+{"code": " type(df) != pd.DataFrame:", "compilation_passed": true, "time": 0.15592598915100098, "tests_passed": true, "error": null}

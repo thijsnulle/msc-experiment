@@ -1,0 +1,14 @@
+{"code": " subprocess.check_output(command).decode(\"utf-8\")", "compilation_passed": true, "time": 0.06142783164978027, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.run(", "compilation_passed": false, "time": 0.0005240440368652344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.check_output(command).decode(\"utf-8\").strip()", "compilation_passed": true, "time": 0.060881853103637695, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.run(command, capture_output=True, text=True)", "compilation_passed": true, "time": 0.061181068420410156, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output(command)", "compilation_passed": true, "time": 0.05334591865539551, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.run(command, capture_output=True, text=True).stdout", "compilation_passed": true, "time": 0.058081865310668945, "tests_passed": false, "error": "AttributeError"}
+{"code": " subprocess.check_output(command, encoding=\"utf-8\")", "compilation_passed": true, "time": 0.0551300048828125, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(command, shell=False)", "compilation_passed": true, "time": 0.06367802619934082, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.run(command, check=True, capture_output=True)", "compilation_passed": true, "time": 0.06053614616394043, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(command, stderr=subprocess.STDOUT)", "compilation_passed": true, "time": 0.057621002197265625, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(command, universal_newlines=True)", "compilation_passed": true, "time": 0.055948734283447266, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.run(command, capture_output=True, text=True, check=True)", "compilation_passed": true, "time": 0.061170101165771484, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(command, text=True)", "compilation_passed": true, "time": 0.05991196632385254, "tests_passed": false, "error": "subprocess.CalledProcessError"}
+{"code": " subprocess.check_output(command, shell=True, universal_newlines=True)", "compilation_passed": true, "time": 1.0144829750061035, "tests_passed": true, "error": null}

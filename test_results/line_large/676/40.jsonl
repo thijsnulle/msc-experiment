@@ -1,0 +1,7 @@
+{"code": " pd.Series(df.apply(determine_winner, axis=1))", "compilation_passed": true, "time": 0.008094310760498047, "tests_passed": true, "error": null}
+{"code": " df[['team1', 'team2', 'score1', 'score2']].apply(determine_winner, axis=1)", "compilation_passed": true, "time": 0.00857400894165039, "tests_passed": true, "error": null}
+{"code": " pd.Series(df[['team1', 'team2', 'score1', 'score2']].apply(determine_winner, axis=1), name='winner')", "compilation_passed": true, "time": 0.00996088981628418, "tests_passed": true, "error": null}
+{"code": " pd.Series([determine_winner(row) for idx, row in df.iterrows()])", "compilation_passed": true, "time": 0.007091045379638672, "tests_passed": true, "error": null}
+{"code": " df.apply(determine_winner, axis=1)", "compilation_passed": true, "time": 0.006591796875, "tests_passed": true, "error": null}
+{"code": " pd.Series(df.apply(determine_winner, axis=1), name='winner')", "compilation_passed": true, "time": 0.008279085159301758, "tests_passed": true, "error": null}
+{"code": " pd.Series([determine_winner(row) for _, row in df.iterrows()], name='winner')", "compilation_passed": true, "time": 0.010035037994384766, "tests_passed": true, "error": null}

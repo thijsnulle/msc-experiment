@@ -1,0 +1,10 @@
+{"code": " pd.DataFrame.from_dict(my_dict, orient=\"index\").transpose()", "compilation_passed": true, "time": 0.019742965698242188, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(my_dict)", "compilation_passed": true, "time": 0.010334968566894531, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([value for key, value in my_dict.items()])", "compilation_passed": true, "time": 0.019164323806762695, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(my_dict, index=range(len(list(my_dict.values())[0])))", "compilation_passed": true, "time": 0.010089874267578125, "tests_passed": true, "error": null}
+{"code": " pd.json_normalize(my_dict)", "compilation_passed": true, "time": 0.008849859237670898, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(my_dict, orient=\"columns\")", "compilation_passed": true, "time": 0.009963035583496094, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([v for v in my_dict.values()], columns=my_dict.keys())", "compilation_passed": true, "time": 0.015141010284423828, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame.from_records(my_dict)", "compilation_passed": true, "time": 0.00917673110961914, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([v if isinstance(v, list) else [v] for v in my_dict.values()], index=my_dict.keys()).T", "compilation_passed": true, "time": 0.019287109375, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([value for value in my_dict.values()])", "compilation_passed": true, "time": 0.016041994094848633, "tests_passed": false, "error": "TypeError"}

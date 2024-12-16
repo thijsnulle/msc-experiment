@@ -1,0 +1,17 @@
+{"code": " '.' in content:", "compilation_passed": true, "time": 0.007902145385742188, "tests_passed": true, "error": null}
+{"code": " content[-1] == '.':", "compilation_passed": true, "time": 0.006864070892333984, "tests_passed": true, "error": null}
+{"code": " not content:", "compilation_passed": true, "time": 0.0058367252349853516, "tests_passed": true, "error": null}
+{"code": " content[-1] in STOPWORDS:", "compilation_passed": true, "time": 0.00970315933227539, "tests_passed": true, "error": null}
+{"code": " len(content) == 1:", "compilation_passed": true, "time": 0.006064891815185547, "tests_passed": true, "error": null}
+{"code": " len(content) == 0:", "compilation_passed": true, "time": 0.0065839290618896484, "tests_passed": true, "error": null}
+{"code": " len(content) <= 2:", "compilation_passed": true, "time": 0.005738019943237305, "tests_passed": true, "error": null}
+{"code": " len(content) > 1:", "compilation_passed": true, "time": 0.0017120838165283203, "tests_passed": true, "error": null}
+{"code": " content[-1] not in STOPWORDS:", "compilation_passed": true, "time": 0.0016732215881347656, "tests_passed": true, "error": null}
+{"code": " not re.findall(r'\\s', content[-1]):", "compilation_passed": true, "time": 0.0019788742065429688, "tests_passed": true, "error": null}
+{"code": " len(content) < 2:", "compilation_passed": true, "time": 0.005534172058105469, "tests_passed": true, "error": null}
+{"code": " content[len(content) - 1] in STOPWORDS:", "compilation_passed": true, "time": 0.00738978385925293, "tests_passed": true, "error": null}
+{"code": " len(content) >= 2:", "compilation_passed": true, "time": 0.0017528533935546875, "tests_passed": true, "error": null}
+{"code": " len(content) < 1:", "compilation_passed": true, "time": 0.0059278011322021484, "tests_passed": true, "error": null}
+{"code": " len(content) > 2:", "compilation_passed": true, "time": 0.001744985580444336, "tests_passed": true, "error": null}
+{"code": " len(content) > 2 and content[-1] not in STOPWORDS:", "compilation_passed": true, "time": 0.0017397403717041016, "tests_passed": true, "error": null}
+{"code": " len(content) <= 1:", "compilation_passed": true, "time": 0.006281137466430664, "tests_passed": true, "error": null}

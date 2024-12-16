@@ -1,0 +1,13 @@
+{"code": " X.todense()", "compilation_passed": true, "time": 0.006376981735229492, "tests_passed": true, "error": null}
+{"code": " X[-1]", "compilation_passed": true, "time": 0.008503198623657227, "tests_passed": true, "error": null}
+{"code": " X[0].toarray()[0]", "compilation_passed": true, "time": 0.0041179656982421875, "tests_passed": true, "error": null}
+{"code": " X[0]", "compilation_passed": true, "time": 0.006060123443603516, "tests_passed": true, "error": null}
+{"code": " np.array(X[0].todense()).astype(int)", "compilation_passed": true, "time": 0.003634929656982422, "tests_passed": true, "error": null}
+{"code": " X[-1].toarray()[0]", "compilation_passed": true, "time": 0.006691932678222656, "tests_passed": true, "error": null}
+{"code": " X[-1].toarray().flatten()", "compilation_passed": true, "time": 0.006338834762573242, "tests_passed": true, "error": null}
+{"code": " X[0].toarray().flatten()", "compilation_passed": true, "time": 0.005330801010131836, "tests_passed": true, "error": null}
+{"code": " X[-1, :]", "compilation_passed": true, "time": 0.006474971771240234, "tests_passed": true, "error": null}
+{"code": " X.todense()[0]", "compilation_passed": true, "time": 0.005120992660522461, "tests_passed": true, "error": null}
+{"code": " X.toarray()[-1]", "compilation_passed": true, "time": 0.007397174835205078, "tests_passed": true, "error": null}
+{"code": " X.toarray()[0]", "compilation_passed": true, "time": 0.0033190250396728516, "tests_passed": true, "error": null}
+{"code": " np.array(X.sum(axis=0)).ravel()", "compilation_passed": true, "time": 0.007059335708618164, "tests_passed": true, "error": null}

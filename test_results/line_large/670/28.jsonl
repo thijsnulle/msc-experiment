@@ -1,0 +1,7 @@
+{"code": " sum(w[c] for c in substr)", "compilation_passed": true, "time": 0.0031480789184570312, "tests_passed": true, "error": null}
+{"code": " sum(w.get(char, 0) for char in substr)", "compilation_passed": true, "time": 0.00533604621887207, "tests_passed": true, "error": null}
+{"code": " sum([w.get(c, 0) for c in substr])", "compilation_passed": true, "time": 0.008190155029296875, "tests_passed": true, "error": null}
+{"code": " sum(w[char] for char in substr)", "compilation_passed": true, "time": 0.0017521381378173828, "tests_passed": true, "error": null}
+{"code": " sum(w.get(c, 0) for c in substr)", "compilation_passed": true, "time": 0.0013146400451660156, "tests_passed": true, "error": null}
+{"code": " sum([w[char] for char in substr])", "compilation_passed": true, "time": 0.008574962615966797, "tests_passed": true, "error": null}
+{"code": " sum([w[c] for c in substr])", "compilation_passed": true, "time": 0.001332998275756836, "tests_passed": true, "error": null}

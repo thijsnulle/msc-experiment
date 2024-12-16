@@ -1,0 +1,16 @@
+{"code": " not pd.api.types.is_numeric_dtype(df[column_name]):", "compilation_passed": true, "time": 0.20013070106506348, "tests_passed": true, "error": null}
+{"code": " pd.api.types.is_numeric_dtype(df[column_name]):", "compilation_passed": true, "time": 0.1317908763885498, "tests_passed": true, "error": null}
+{"code": " df[column_name].dtype == \"object\":", "compilation_passed": true, "time": 0.19998598098754883, "tests_passed": true, "error": null}
+{"code": " not df[column_name].dtype.kind in ('i', 'f'):", "compilation_passed": true, "time": 0.1956939697265625, "tests_passed": true, "error": null}
+{"code": " df[column_name].dtype == 'object':", "compilation_passed": true, "time": 0.19738006591796875, "tests_passed": true, "error": null}
+{"code": " df[column_name].dtype != \"float64\" or df[column_name].dtype != \"int64\":", "compilation_passed": true, "time": 0.19742679595947266, "tests_passed": true, "error": null}
+{"code": " not df[column_name].dtype.is_numeric:", "compilation_passed": true, "time": 0.008569002151489258, "tests_passed": false, "error": "AttributeError"}
+{"code": " df[column_name].dtype not in ['int64', 'float64']:", "compilation_passed": true, "time": 0.20486092567443848, "tests_passed": true, "error": null}
+{"code": " not df[column_name].apply(lambda x: isinstance(x, (int, float))).all():", "compilation_passed": true, "time": 0.2170429229736328, "tests_passed": true, "error": null}
+{"code": " not df[column_name].isnumeric().all():", "compilation_passed": true, "time": 0.00974273681640625, "tests_passed": false, "error": "AttributeError"}
+{"code": " not is_numeric_dtype(df[column_name]):", "compilation_passed": true, "time": 0.008011102676391602, "tests_passed": false, "error": "NameError"}
+{"code": " df[column_name].dtype.kind not in \"iuf\":", "compilation_passed": true, "time": 0.19809508323669434, "tests_passed": true, "error": null}
+{"code": " df[column_name].dtype.name != \"object\":", "compilation_passed": true, "time": 0.1365978717803955, "tests_passed": true, "error": null}
+{"code": " df[column_name].dtype != \"int64\" and df[column_name].dtype != \"float64\":", "compilation_passed": true, "time": 0.20192193984985352, "tests_passed": true, "error": null}
+{"code": " not df[column_name].dtype.kind in \"bifc\":", "compilation_passed": true, "time": 0.20116019248962402, "tests_passed": true, "error": null}
+{"code": " df[column_name].dtype not in (np.float32, np.float64, np.int32, np.int64):", "compilation_passed": true, "time": 0.008263111114501953, "tests_passed": false, "error": "NameError"}

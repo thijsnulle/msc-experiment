@@ -1,0 +1,19 @@
+{"code": " re.findall(r'\\w+', text.lower())", "compilation_passed": true, "time": 0.0017628669738769531, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', text.lower())  # Find words and convert to lowercase", "compilation_passed": true, "time": 0.0017333030700683594, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', text)", "compilation_passed": true, "time": 0.009361982345581055, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b[A-Za-z]+\\b', text)", "compilation_passed": true, "time": 0.012225627899169922, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in re.findall(r'\\b\\w+\\b', text)]", "compilation_passed": true, "time": 0.0017580986022949219, "tests_passed": true, "error": null}
+{"code": " text.lower().split()", "compilation_passed": true, "time": 0.009063959121704102, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b[^\\W\\d_]{2,}\\b', text)  # Find continuous words in the text", "compilation_passed": true, "time": 0.008810997009277344, "tests_passed": true, "error": null}
+{"code": " text.split()", "compilation_passed": true, "time": 0.009103059768676758, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.000164031982421875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " re.findall(r'\\b\\w+\\b', text.lower())", "compilation_passed": true, "time": 0.001477956771850586, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b[a-z]+[\\']?[a-z]*\\b', text.lower())", "compilation_passed": true, "time": 0.008292198181152344, "tests_passed": true, "error": null}
+{"code": " nltk.word_tokenize(text)", "compilation_passed": true, "time": 0.0075778961181640625, "tests_passed": true, "error": null}
+{"code": " nltk.word_tokenize(text.lower())", "compilation_passed": true, "time": 0.006407022476196289, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', text)  # find words", "compilation_passed": true, "time": 0.006188869476318359, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', text.lower())  # Find individual words using regular expressions", "compilation_passed": true, "time": 0.0015239715576171875, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', text.lower())  # Extract words using regular expressions and lowercase them", "compilation_passed": true, "time": 0.0014469623565673828, "tests_passed": true, "error": null}
+{"code": " [w.lower() for w in re.sub(r'[^\\w\\s]', '', text).split() if w.lower() not in STOPWORDS]", "compilation_passed": true, "time": 0.007894039154052734, "tests_passed": true, "error": null}
+{"code": " [word.lower().strip(\".,!?\") for word in text.split()]", "compilation_passed": true, "time": 0.006644248962402344, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b[a-zA-Z]+\\b', text.lower())", "compilation_passed": true, "time": 0.0070078372955322266, "tests_passed": true, "error": null}

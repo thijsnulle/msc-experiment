@@ -1,0 +1,22 @@
+{"code": "set_xlabel('Words')", "compilation_passed": true, "time": 0.1954789161682129, "tests_passed": true, "error": null}
+{"code": "set_xticks(list(word_freq))", "compilation_passed": true, "time": 0.877701997756958, "tests_passed": true, "error": null}
+{"code": "set_ylabel(\"Frequency\")", "compilation_passed": true, "time": 0.28193092346191406, "tests_passed": true, "error": null}
+{"code": "set_xticks([word[0] for word in top_words])", "compilation_passed": true, "time": 0.20495915412902832, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Word')", "compilation_passed": true, "time": 0.2004871368408203, "tests_passed": true, "error": null}
+{"code": "set_xticks(list(word_freq.keys()))", "compilation_passed": true, "time": 0.19968295097351074, "tests_passed": true, "error": null}
+{"code": "set_ylabel('Frequency')", "compilation_passed": true, "time": 0.2068171501159668, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Word\")", "compilation_passed": true, "time": 0.20594310760498047, "tests_passed": true, "error": null}
+{"code": "set_title(\"Top 10 Words\")", "compilation_passed": true, "time": 0.20366907119750977, "tests_passed": true, "error": null}
+{"code": "set_title('Frequencies of ten most common words')", "compilation_passed": true, "time": 0.2051241397857666, "tests_passed": true, "error": null}
+{"code": "set_xticks(top_words[0:10])", "compilation_passed": true, "time": 0.10695004463195801, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": "set_xticks(top_words[1:11], rotation=45, ha='right', rotation_mode='anchor', fontsize=7,)", "compilation_passed": true, "time": 0.054293155670166016, "tests_passed": false, "error": "ValueError"}
+{"code": "set_ylabel('Word Frequency')", "compilation_passed": true, "time": 0.20567703247070312, "tests_passed": true, "error": null}
+{"code": "set_title('The most frequent words in the text file')", "compilation_passed": true, "time": 0.2094740867614746, "tests_passed": true, "error": null}
+{"code": "set_ylabel('Occurrences')", "compilation_passed": true, "time": 0.2157878875732422, "tests_passed": true, "error": null}
+{"code": "set_title('Most Common Words in file')", "compilation_passed": true, "time": 0.2050471305847168, "tests_passed": true, "error": null}
+{"code": "set_xticks([])", "compilation_passed": true, "time": 0.20432209968566895, "tests_passed": true, "error": null}
+{"code": "set_title(\"Frequencies of top words\")", "compilation_passed": true, "time": 0.21224212646484375, "tests_passed": true, "error": null}
+{"code": "set_ylabel('Count')", "compilation_passed": true, "time": 0.2018580436706543, "tests_passed": true, "error": null}
+{"code": "set_title('Words Frequency')", "compilation_passed": true, "time": 0.20444536209106445, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([word[0] for word in top_words])", "compilation_passed": true, "time": 0.21671390533447266, "tests_passed": true, "error": null}
+{"code": "set_ylabel('Word Count')", "compilation_passed": true, "time": 0.2132878303527832, "tests_passed": true, "error": null}

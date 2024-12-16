@@ -1,0 +1,23 @@
+{"code": " outliers[np.logical_and(data < upper_bound, data > lower_bound)]", "compilation_passed": true, "time": 0.007411003112792969, "tests_passed": false, "error": "IndexError"}
+{"code": " data[np.logical_and(data > lower_bound, data < upper_bound)]", "compilation_passed": true, "time": 0.0651712417602539, "tests_passed": true, "error": null}
+{"code": " outliers[", "compilation_passed": false, "time": 0.0002970695495605469, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.where((data < lower_bound) | (data > upper_bound))[0]", "compilation_passed": true, "time": 0.27771806716918945, "tests_passed": true, "error": null}
+{"code": " outliers[data < lower_bound]", "compilation_passed": true, "time": 0.008640766143798828, "tests_passed": false, "error": "IndexError"}
+{"code": " outliers[data > upper_bound]", "compilation_passed": true, "time": 0.00793910026550293, "tests_passed": false, "error": "IndexError"}
+{"code": " data[np.logical_and(data < upper_bound, data > lower_bound)]", "compilation_passed": true, "time": 0.07295799255371094, "tests_passed": true, "error": null}
+{"code": " data[normal_data < lower_bound]", "compilation_passed": true, "time": 0.00834512710571289, "tests_passed": false, "error": "IndexError"}
+{"code": " outliers[np.logical_and(data > lower_bound, data < upper_bound)]", "compilation_passed": true, "time": 0.008140087127685547, "tests_passed": false, "error": "IndexError"}
+{"code": " data[np.where((data < lower_bound) | (data > upper_bound))]", "compilation_passed": true, "time": 0.2593870162963867, "tests_passed": true, "error": null}
+{"code": " data[", "compilation_passed": false, "time": 0.0003840923309326172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " data[data > upper_bound]", "compilation_passed": true, "time": 0.06444692611694336, "tests_passed": true, "error": null}
+{"code": " outliers[np.logical_and(outliers > lower_bound, outliers < upper_bound)]", "compilation_passed": true, "time": 0.10199403762817383, "tests_passed": true, "error": null}
+{"code": " data[data < lower_bound]", "compilation_passed": true, "time": 0.06805777549743652, "tests_passed": true, "error": null}
+{"code": " data[normal_data > upper_bound]", "compilation_passed": true, "time": 0.008009910583496094, "tests_passed": false, "error": "IndexError"}
+{"code": " data[(data < upper_bound) & (data > lower_bound)]", "compilation_passed": true, "time": 0.06761336326599121, "tests_passed": true, "error": null}
+{"code": " outliers[np.abs(outliers) > upper_bound or outliers[np.abs(outliers) < lower_bound]]", "compilation_passed": true, "time": 0.009554147720336914, "tests_passed": false, "error": "ValueError"}
+{"code": " np.sort(data[data > lower_bound])[:num_samples // 10]", "compilation_passed": true, "time": 0.06865286827087402, "tests_passed": true, "error": null}
+{"code": " data[np.logical_and(lower_bound < data, data < upper_bound)]", "compilation_passed": true, "time": 0.06684494018554688, "tests_passed": true, "error": null}
+{"code": " data[(data <= upper_bound) & (data >= lower_bound)]", "compilation_passed": true, "time": 0.06438779830932617, "tests_passed": true, "error": null}
+{"code": " outliers[np.abs(outliers) <= (upper_bound - lower_bound)]", "compilation_passed": true, "time": 0.06766414642333984, "tests_passed": true, "error": null}
+{"code": " data[data > upper_bound] + outliers_detected", "compilation_passed": true, "time": 0.007793903350830078, "tests_passed": false, "error": "ValueError"}
+{"code": " np.where(data < lower_bound)", "compilation_passed": true, "time": 0.08103227615356445, "tests_passed": true, "error": null}

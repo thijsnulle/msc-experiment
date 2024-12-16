@@ -1,0 +1,4 @@
+{"code": "title(title)", "compilation_passed": true, "time": 0.04346919059753418, "tests_passed": true, "error": null}
+{"code": "setp(ax.get_children()[1:4], visible=False)  # Hide the labels and markers", "compilation_passed": true, "time": 0.046317100524902344, "tests_passed": true, "error": null}
+{"code": "set_title(title)", "compilation_passed": true, "time": 0.060420989990234375, "tests_passed": false, "error": "AttributeError"}
+{"code": "setp(ax.get_title(), text=title)", "compilation_passed": true, "time": 0.04986119270324707, "tests_passed": false, "error": "AttributeError"}

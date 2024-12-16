@@ -1,0 +1,14 @@
+{"code": " sorted(list(zip(TEAMS, POINTS)), key=lambda x: random.randint(0, 10), reverse=True)", "compilation_passed": true, "time": 0.007021188735961914, "tests_passed": false, "error": "TypeError"}
+{"code": " [a for a,b in zip(POINTS, TEAMS)]", "compilation_passed": true, "time": 0.0018000602722167969, "tests_passed": true, "error": null}
+{"code": " list(zip(TEAMS, POINTS))", "compilation_passed": true, "time": 0.0063169002532958984, "tests_passed": false, "error": "TypeError"}
+{"code": " [random.choice(POINTS) for _ in range(len(TEAMS))]", "compilation_passed": true, "time": 0.002902984619140625, "tests_passed": true, "error": null}
+{"code": " random.sample(POINTS, len(TEAMS))", "compilation_passed": true, "time": 0.0020499229431152344, "tests_passed": true, "error": null}
+{"code": " sorted(list(zip(POINTS, TEAMS)))", "compilation_passed": true, "time": 0.00664210319519043, "tests_passed": false, "error": "TypeError"}
+{"code": " [points for points in random.sample(POINTS, len(POINTS))]", "compilation_passed": true, "time": 0.001950979232788086, "tests_passed": true, "error": null}
+{"code": " [0] * len(TEAMS)", "compilation_passed": true, "time": 0.0016820430755615234, "tests_passed": true, "error": null}
+{"code": " random.sample(POINTS, len(POINTS))", "compilation_passed": true, "time": 0.0018799304962158203, "tests_passed": true, "error": null}
+{"code": " [random.randint(0,100) for _ in range(number_teams)]", "compilation_passed": true, "time": 0.0017299652099609375, "tests_passed": true, "error": null}
+{"code": " [POINTS[i] for i in range(number_teams)]", "compilation_passed": true, "time": 0.0019371509552001953, "tests_passed": true, "error": null}
+{"code": " sorted(list(zip(POINTS, TEAMS)), reverse=True)", "compilation_passed": true, "time": 0.006081104278564453, "tests_passed": false, "error": "TypeError"}
+{"code": " [random.randint(1, 100) for _ in range(number_teams)]", "compilation_passed": true, "time": 0.0017669200897216797, "tests_passed": true, "error": null}
+{"code": " list(zip(TEAMS,POINTS))", "compilation_passed": true, "time": 0.006028890609741211, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,27 @@
+{"code": " np.random.randint(low=0, high=1000, size=ARRAY_LENGTH).reshape(-1, 1)", "compilation_passed": true, "time": 0.012122154235839844, "tests_passed": true, "error": null}
+{"code": " np.random.random((ARRAY_LENGTH, 1))  # Generate a random array", "compilation_passed": true, "time": 0.013031244277954102, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=0, high=10, size=(ARRAY_LENGTH, 1))", "compilation_passed": true, "time": 0.007615089416503906, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 10, size=ARRAY_LENGTH).reshape(-1, 1)  # Reshape to make it a 2D array", "compilation_passed": true, "time": 0.007688999176025391, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, 10, ARRAY_LENGTH).reshape(-1, 1)", "compilation_passed": true, "time": 0.007650613784790039, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=10, high=99, size=ARRAY_LENGTH).reshape(ARRAY_LENGTH, 1)", "compilation_passed": true, "time": 0.007605075836181641, "tests_passed": true, "error": null}
+{"code": " np.random.rand(ARRAY_LENGTH, 1)", "compilation_passed": true, "time": 0.012238025665283203, "tests_passed": true, "error": null}
+{"code": " np.random.rand(ARRAY_LENGTH, 1)  # 10 random values", "compilation_passed": true, "time": 0.007052898406982422, "tests_passed": true, "error": null}
+{"code": " np.random.random((ARRAY_LENGTH, 1))  # Generate a 10x1 random array", "compilation_passed": true, "time": 0.007050037384033203, "tests_passed": true, "error": null}
+{"code": " np.random.rand(ARRAY_LENGTH, 1)  # Generate a random array", "compilation_passed": true, "time": 0.0069696903228759766, "tests_passed": true, "error": null}
+{"code": " np.random.rand(ARRAY_LENGTH).reshape((ARRAY_LENGTH, 1))  # Reshape for 2D array", "compilation_passed": true, "time": 0.007061958312988281, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 11, ARRAY_LENGTH).reshape(-1, 1)", "compilation_passed": true, "time": 0.007608175277709961, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=1, high=100, size=ARRAY_LENGTH).reshape(-1, 1)", "compilation_passed": true, "time": 0.007603168487548828, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 1000, size=ARRAY_LENGTH)  # Generate random integers between 0 and 1000", "compilation_passed": true, "time": 0.012490034103393555, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.random.randint(low=0, high=20, size=ARRAY_LENGTH).reshape(-1, 1)", "compilation_passed": true, "time": 0.007593870162963867, "tests_passed": true, "error": null}
+{"code": " np.random.random(size=ARRAY_LENGTH).reshape(-1, 1)  # Create a random 1-D array", "compilation_passed": true, "time": 0.006963253021240234, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 5, (ARRAY_LENGTH, 1))  # Create random integer array", "compilation_passed": true, "time": 0.0076999664306640625, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 100, size=ARRAY_LENGTH)", "compilation_passed": true, "time": 0.015657901763916016, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.random.rand(ARRAY_LENGTH, 1)  # Create a random array with a specified length and one column", "compilation_passed": true, "time": 0.007034778594970703, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 100, ARRAY_LENGTH)", "compilation_passed": true, "time": 0.015629053115844727, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.random.randint(-100, 100, ARRAY_LENGTH).reshape(ARRAY_LENGTH, 1)", "compilation_passed": true, "time": 0.007496833801269531, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 5000, size=(ARRAY_LENGTH, 1))  # Random integer values between 0 and 5000", "compilation_passed": true, "time": 0.00644993782043457, "tests_passed": true, "error": null}
+{"code": " np.random.random((ARRAY_LENGTH, 1))", "compilation_passed": true, "time": 0.0069119930267333984, "tests_passed": true, "error": null}
+{"code": " np.random.rand(ARRAY_LENGTH, 1)  # Create random array", "compilation_passed": true, "time": 0.007028818130493164, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=1, high=100, size=ARRAY_LENGTH)", "compilation_passed": true, "time": 0.0157928466796875, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.random.randint(0, 101, (ARRAY_LENGTH, 1))  # Generate random integers between 0 and 100", "compilation_passed": true, "time": 0.007749319076538086, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, 100, size=ARRAY_LENGTH).reshape(-1, 1)", "compilation_passed": true, "time": 0.007651805877685547, "tests_passed": true, "error": null}

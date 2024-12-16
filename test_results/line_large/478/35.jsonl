@@ -1,0 +1,20 @@
+{"code": " re.findall(r'\"[^\"]*\"|[^,\\s]+', s)", "compilation_passed": true, "time": 0.008377790451049805, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\w+\", s)", "compilation_passed": true, "time": 0.007088899612426758, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\s*,\\s*\", s.strip())", "compilation_passed": true, "time": 0.006886720657348633, "tests_passed": true, "error": null}
+{"code": " s.split(', ')", "compilation_passed": true, "time": 0.006978034973144531, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\s*,\\s*\", s)  # split on commas with whitespaces around", "compilation_passed": true, "time": 0.0069959163665771484, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\S+', s)", "compilation_passed": true, "time": 0.009474039077758789, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(?<=\\A|,)\\s*\\w+\\s*\", s)", "compilation_passed": true, "time": 0.011759042739868164, "tests_passed": false, "error": "re.error"}
+{"code": " re.split(r\",\\s+\", s)", "compilation_passed": true, "time": 0.007073163986206055, "tests_passed": true, "error": null}
+{"code": " s.split(\", \")", "compilation_passed": true, "time": 0.007090091705322266, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[^,]+', s)", "compilation_passed": true, "time": 0.00934600830078125, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"[^,]+\", s.strip())  # find substrings between commas", "compilation_passed": true, "time": 0.009030818939208984, "tests_passed": true, "error": null}
+{"code": " re.split(r\",\\s*\", s.strip())", "compilation_passed": true, "time": 0.0069658756256103516, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"([^,]+?)(?=,|\\Z)\", s)", "compilation_passed": true, "time": 0.008700847625732422, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\s*,\\s*\", s.strip())  # split on comma surrounded by zero or more whitespaces", "compilation_passed": true, "time": 0.006845951080322266, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"[^,]+\", s.strip())", "compilation_passed": true, "time": 0.008360862731933594, "tests_passed": true, "error": null}
+{"code": " s.strip().split(\", \")", "compilation_passed": true, "time": 0.006843090057373047, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"([^,]+)\\s*,\", s.strip())", "compilation_passed": true, "time": 0.01512598991394043, "tests_passed": false, "error": "IndexError"}
+{"code": " re.findall(r'\\w+', s.strip())", "compilation_passed": true, "time": 0.006966829299926758, "tests_passed": true, "error": null}
+{"code": " re.split(r'\\s*,\\s*', s)", "compilation_passed": true, "time": 0.006905794143676758, "tests_passed": true, "error": null}
+{"code": " s.split(\",\")", "compilation_passed": true, "time": 0.008459806442260742, "tests_passed": true, "error": null}

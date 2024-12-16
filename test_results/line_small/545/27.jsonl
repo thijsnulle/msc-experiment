@@ -1,0 +1,14 @@
+{"code": " random.uniform(0, 1)", "compilation_passed": true, "time": 0.0046689510345458984, "tests_passed": true, "error": null}
+{"code": " random.random()", "compilation_passed": true, "time": 0.004017829895019531, "tests_passed": true, "error": null}
+{"code": " random.randrange(0, 10) / 100", "compilation_passed": true, "time": 0.003520965576171875, "tests_passed": true, "error": null}
+{"code": " struct.unpack('f', codecs.decode(hex_key, 'hex'))[0]", "compilation_passed": true, "time": 0.002820253372192383, "tests_passed": true, "error": null}
+{"code": " random.randint(-100, 100) / 100.0", "compilation_passed": true, "time": 0.0036568641662597656, "tests_passed": true, "error": null}
+{"code": " random.randint(0, 1000) / 1000", "compilation_passed": true, "time": 0.0035152435302734375, "tests_passed": true, "error": null}
+{"code": " struct.unpack('<f', struct.pack(f'<Q{hex_key}'))[0]", "compilation_passed": true, "time": 0.005667924880981445, "tests_passed": false, "error": "struct.error"}
+{"code": " random.random() * 2 ** 64", "compilation_passed": true, "time": 0.003498077392578125, "tests_passed": true, "error": null}
+{"code": " struct.unpack('<f', struct.pack('<Q', int(hex_key, 16)))[0]", "compilation_passed": true, "time": 0.0055789947509765625, "tests_passed": false, "error": "struct.error"}
+{"code": " struct.unpack(\"<f\", struct.pack(\">f\", random.randrange(10000)))[0]", "compilation_passed": true, "time": 0.0035278797149658203, "tests_passed": true, "error": null}
+{"code": " random.randint(0, 255) * 0.00001", "compilation_passed": true, "time": 0.003648042678833008, "tests_passed": true, "error": null}
+{"code": " struct.unpack('<f', struct.pack(f'<Q', int(hex_key, 16)))[0]", "compilation_passed": true, "time": 0.005422115325927734, "tests_passed": false, "error": "struct.error"}
+{"code": " random.uniform(0, 1000)", "compilation_passed": true, "time": 0.0034990310668945312, "tests_passed": true, "error": null}
+{"code": " random.randint(0, 0xffffffff)", "compilation_passed": true, "time": 0.003620147705078125, "tests_passed": true, "error": null}

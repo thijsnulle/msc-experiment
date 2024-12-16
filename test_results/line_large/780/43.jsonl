@@ -1,0 +1,6 @@
+{"code": " len(articles) == 0:", "compilation_passed": true, "time": 0.031119108200073242, "tests_passed": false, "error": "TypeError"}
+{"code": " not articles:", "compilation_passed": true, "time": 0.031131982803344727, "tests_passed": false, "error": "TypeError"}
+{"code": " not all(isinstance(item, dict) for item in articles):", "compilation_passed": true, "time": 0.021899938583374023, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(article, dict) for article in articles):", "compilation_passed": true, "time": 0.022130966186523438, "tests_passed": true, "error": null}
+{"code": " not len(articles):", "compilation_passed": true, "time": 0.0310211181640625, "tests_passed": false, "error": "TypeError"}
+{"code": " not all(isinstance(d, dict) for d in articles):", "compilation_passed": true, "time": 0.021722793579101562, "tests_passed": true, "error": null}

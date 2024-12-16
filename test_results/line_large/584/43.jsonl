@@ -1,0 +1,5 @@
+{"code": " rsa.sign(hash_value, priv_key, 'SHA-256').hex()", "compilation_passed": true, "time": 0.2365109920501709, "tests_passed": true, "error": null}
+{"code": " rsa.sign(hash_value, priv_key, 'SHA-256')", "compilation_passed": true, "time": 0.21200299263000488, "tests_passed": true, "error": null}
+{"code": " rsa.pkcs1.sign(hash_value, priv_key, 'SHA-256')", "compilation_passed": true, "time": 0.36393308639526367, "tests_passed": true, "error": null}
+{"code": " rsa.sign(hash_value, priv_key, \"SHA-256\")", "compilation_passed": true, "time": 0.33351683616638184, "tests_passed": true, "error": null}
+{"code": " rsa.sign(hash_value, priv_key, \"SHA-256\").hex()", "compilation_passed": true, "time": 0.2989029884338379, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": " re.findall(pattern, rand_str, overlapped=True)", "compilation_passed": true, "time": 0.017343997955322266, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(pattern, rand_str)", "compilation_passed": true, "time": 0.008529186248779297, "tests_passed": true, "error": null}
+{"code": " re.findall(pattern, rand_str, re.MULTILINE | re.DOTALL)", "compilation_passed": true, "time": 0.008424997329711914, "tests_passed": true, "error": null}
+{"code": " re.findall(pattern, rand_str, flags=0)", "compilation_passed": true, "time": 0.010618209838867188, "tests_passed": true, "error": null}
+{"code": " re.findall(pattern, rand_str, flags=re.I | re.U | re.X)", "compilation_passed": true, "time": 0.009280681610107422, "tests_passed": true, "error": null}
+{"code": " re.findall(pattern, rand_str, overlapped=False)", "compilation_passed": true, "time": 0.015342235565185547, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(pattern, rand_str, flags=re.IGNORECASE)", "compilation_passed": true, "time": 0.012976884841918945, "tests_passed": true, "error": null}
+{"code": " re.findall(pattern, rand_str, re.DOTALL)", "compilation_passed": true, "time": 0.010171175003051758, "tests_passed": true, "error": null}
+{"code": " re.findall(pattern=pattern, string=rand_str)", "compilation_passed": true, "time": 0.011074066162109375, "tests_passed": true, "error": null}

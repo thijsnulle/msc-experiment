@@ -1,0 +1,10 @@
+{"code": " re.sub(r'[^\\w\\s]', ' ', text)", "compilation_passed": true, "time": 0.012924909591674805, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W', ' ', text)", "compilation_passed": true, "time": 0.017383098602294922, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^\\w\\s]\", \" \", text)", "compilation_passed": true, "time": 0.013603925704956055, "tests_passed": true, "error": null}
+{"code": " re.sub('\\W+', ' ', text)", "compilation_passed": true, "time": 0.012341022491455078, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w\\s]', '', text)", "compilation_passed": true, "time": 0.012316226959228516, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W+', ' ', text)", "compilation_passed": true, "time": 0.013993024826049805, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^a-zA-Z]+\", ' ', text)", "compilation_passed": true, "time": 0.012589216232299805, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', ' ', text)", "compilation_passed": true, "time": 0.012826919555664062, "tests_passed": true, "error": null}
+{"code": " ' '.join([word for word in text.split() if word not in STOPWORDS])", "compilation_passed": true, "time": 0.012849807739257812, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z]', ' ', text)", "compilation_passed": true, "time": 0.012616872787475586, "tests_passed": true, "error": null}

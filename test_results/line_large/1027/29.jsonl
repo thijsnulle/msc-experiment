@@ -1,0 +1,11 @@
+{"code": " binascii.unhexlify(query).decode(\"utf-8\")", "compilation_passed": true, "time": 0.009881973266601562, "tests_passed": false, "error": "TypeError"}
+{"code": " binascii.unhexlify(query).decode('utf-8') if query else None", "compilation_passed": true, "time": 0.0017650127410888672, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(query).decode(\"utf-8\") if query is not None else None", "compilation_passed": true, "time": 0.0013339519500732422, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(query).decode(\"utf8\") if query is not None else None", "compilation_passed": true, "time": 0.0009698867797851562, "tests_passed": true, "error": null}
+{"code": " str(binascii.unhexlify(query), \"utf-8\") if query is not None else None", "compilation_passed": true, "time": 0.0009768009185791016, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(query).decode(\"utf-8\") if query else None", "compilation_passed": true, "time": 0.0014698505401611328, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(query).decode('utf8') if query else None", "compilation_passed": true, "time": 0.0011649131774902344, "tests_passed": true, "error": null}
+{"code": " binascii.a2b_hex(query).decode(\"utf-8\")", "compilation_passed": true, "time": 0.009178876876831055, "tests_passed": false, "error": "TypeError"}
+{"code": " binascii.a2b_hex(query).decode('utf-8')", "compilation_passed": true, "time": 0.011030912399291992, "tests_passed": false, "error": "TypeError"}
+{"code": " binascii.unhexlify(query).decode('utf-8') if query is not None else None", "compilation_passed": true, "time": 0.001110076904296875, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(query).decode('utf-8')", "compilation_passed": true, "time": 0.00954294204711914, "tests_passed": false, "error": "TypeError"}

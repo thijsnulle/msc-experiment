@@ -1,0 +1,15 @@
+{"code": " re.sub(r'[^a-z]', '', word.lower())", "compilation_passed": true, "time": 0.0014710426330566406, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"[^a-z]\", \"\", word.lower())", "compilation_passed": true, "time": 0.0013930797576904297, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z]', '', word.lower())", "compilation_passed": true, "time": 0.00150299072265625, "tests_passed": true, "error": null}
+{"code": " ''.join(filter(str.isalpha, word.lower()))", "compilation_passed": true, "time": 0.0012691020965576172, "tests_passed": true, "error": null}
+{"code": " \"\".join(re.findall(r\"[a-z]+\", word.lower()))", "compilation_passed": true, "time": 0.0020751953125, "tests_passed": true, "error": null}
+{"code": " \"\".join(re.findall(r\"[a-zA-Z]+\", word.lower()))", "compilation_passed": true, "time": 0.0014379024505615234, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-z]', '', word.lower())", "compilation_passed": true, "time": 0.0011751651763916016, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\W', '', word.lower())", "compilation_passed": true, "time": 0.0020651817321777344, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z]*', '', word.lower())", "compilation_passed": true, "time": 0.001277923583984375, "tests_passed": true, "error": null}
+{"code": " \"\".join(re.findall(r'[a-z]+', word.lower()))", "compilation_passed": true, "time": 0.0016210079193115234, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-z]+', '', word.lower())", "compilation_passed": true, "time": 0.0016481876373291016, "tests_passed": true, "error": null}
+{"code": " re.sub('[^a-zA-Z]', '', word.lower())", "compilation_passed": true, "time": 0.001207113265991211, "tests_passed": true, "error": null}
+{"code": " ''.join(re.findall(r'[a-z]+', word.lower()))", "compilation_passed": true, "time": 0.00133514404296875, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z]+', '', word.lower())", "compilation_passed": true, "time": 0.001416921615600586, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^a-zA-Z]', '', word).lower()", "compilation_passed": true, "time": 0.0013530254364013672, "tests_passed": true, "error": null}

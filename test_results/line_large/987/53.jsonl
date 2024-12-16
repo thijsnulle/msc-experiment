@@ -1,0 +1,14 @@
+{"code": " pd.Series(scaler.fit_transform(values.values.reshape(-1, 1)).flatten(), dtype=pd.Float64Dtype)", "compilation_passed": false, "time": 0.0003287792205810547, "tests_passed": false, "error": "IndentationError"}
+{"code": " scaler.fit_transform(values.values.reshape(-1, 1))", "compilation_passed": false, "time": 0.0003609657287597656, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.Series(scaler.fit_transform(values.to_numpy().reshape(-1, 1)).flatten(), dtype=pd.Float64Dtype)", "compilation_passed": false, "time": 0.00040435791015625, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.Series(scaler.fit_transform(values.values.reshape(-1, 1)), dtype=pd.Float64Dtype)", "compilation_passed": false, "time": 0.0003581047058105469, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.Series(scaler.fit_transform(values.to_frame())[0],", "compilation_passed": true, "time": 0.020739078521728516, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Series(", "compilation_passed": true, "time": 0.31559181213378906, "tests_passed": true, "error": null}
+{"code": " pd.Series(scaler.fit_transform(values.to_frame()), index=values.index, dtype=pd.Float64Dtype).squeeze()", "compilation_passed": false, "time": 0.00043129920959472656, "tests_passed": false, "error": "IndentationError"}
+{"code": " scaler.fit_transform(values.to_frame())", "compilation_passed": false, "time": 0.0007150173187255859, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.Series(scaler.fit_transform(values.to_frame()).squeeze(), index=values.index)", "compilation_passed": false, "time": 0.0003688335418701172, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.Series(scaler.fit_transform(values.values.reshape(-1, 1))).astype(pd.Float64Dtype)", "compilation_passed": false, "time": 0.000308990478515625, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.Series(scaler.fit_transform(values.values.reshape(-1, 1)).reshape(-1), dtype=pd.Float64Dtype)", "compilation_passed": false, "time": 0.0003566741943359375, "tests_passed": false, "error": "IndentationError"}
+{"code": " scaler.fit_transform(values.to_frame().T).flatten()", "compilation_passed": false, "time": 0.0002961158752441406, "tests_passed": false, "error": "IndentationError"}
+{"code": " scaler.fit_transform(", "compilation_passed": true, "time": 0.02092909812927246, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.Series(scaler.fit_transform(values.to_numpy().reshape(-1, 1)).reshape(-1), dtype=pd.Float64Dtype)", "compilation_passed": false, "time": 0.0008032321929931641, "tests_passed": false, "error": "IndentationError"}

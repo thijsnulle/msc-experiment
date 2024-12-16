@@ -1,0 +1,9 @@
+{"code": "data, iris.target, test_size=0.33, random_state=0)", "compilation_passed": true, "time": 0.01477193832397461, "tests_passed": true, "error": null}
+{"code": "data, iris.target, test_size=0.33, random_state=42", "compilation_passed": false, "time": 0.00018215179443359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "data,", "compilation_passed": false, "time": 0.00016117095947265625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "data, iris.target, test_size=0.33, random_state=1)", "compilation_passed": true, "time": 0.016289234161376953, "tests_passed": true, "error": null}
+{"code": "data, iris.target, random_state=42)", "compilation_passed": true, "time": 0.015958070755004883, "tests_passed": true, "error": null}
+{"code": "data, iris.target, test_size=0.33, random_state=42)", "compilation_passed": true, "time": 0.014808893203735352, "tests_passed": true, "error": null}
+{"code": "data, iris.target, random_state=42, test_size=0.33)", "compilation_passed": true, "time": 0.01581096649169922, "tests_passed": true, "error": null}
+{"code": "data, iris.target, test_size=0.33, random_state=1, stratify=iris.target_names)", "compilation_passed": true, "time": 0.020142078399658203, "tests_passed": false, "error": "ValueError"}
+{"code": "data, iris.target, random_state=1)", "compilation_passed": true, "time": 0.014663219451904297, "tests_passed": true, "error": null}

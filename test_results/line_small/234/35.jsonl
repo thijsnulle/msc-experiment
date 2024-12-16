@@ -1,0 +1,22 @@
+{"code": " df.set_index(\"Name\")", "compilation_passed": true, "time": 0.12822294235229492, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(['Name'], keep='first')", "compilation_passed": true, "time": 0.12804198265075684, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates('Name', keep='first')", "compilation_passed": true, "time": 0.12993097305297852, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset=\"Name\")", "compilation_passed": true, "time": 0.16779780387878418, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={\"Name\": \"Name\"}).sort_values(\"Name\")", "compilation_passed": true, "time": 0.13367819786071777, "tests_passed": true, "error": null}
+{"code": " df.sort_values('Name')", "compilation_passed": true, "time": 0.14943528175354004, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset=[\"Name\"], keep='first')", "compilation_passed": true, "time": 0.8173696994781494, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(keep='first')", "compilation_passed": true, "time": 0.15267109870910645, "tests_passed": true, "error": null}
+{"code": " df[df.index != df.duplicated()]", "compilation_passed": true, "time": 0.13958191871643066, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset=['Name'])", "compilation_passed": true, "time": 0.14310598373413086, "tests_passed": true, "error": null}
+{"code": " df.reset_index().drop_duplicates(subset=\"Name\", keep=\"first\")", "compilation_passed": true, "time": 0.14840912818908691, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates('Name')", "compilation_passed": true, "time": 0.14562010765075684, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset=[\"Name\"])", "compilation_passed": true, "time": 0.1455080509185791, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(keep=False)", "compilation_passed": true, "time": 0.14366579055786133, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(\"Name\")", "compilation_passed": true, "time": 0.14265108108520508, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={\"Name\": \"Student\"}, inplace=False)", "compilation_passed": true, "time": 0.14638018608093262, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={\"Age\": \"age\", \"Score\": \"score\"})", "compilation_passed": true, "time": 0.027209997177124023, "tests_passed": false, "error": "KeyError"}
+{"code": " df.drop_duplicates(keep=\"first\")", "compilation_passed": true, "time": 0.15191888809204102, "tests_passed": true, "error": null}
+{"code": " df.sort_values(\"Name\")", "compilation_passed": true, "time": 0.14827299118041992, "tests_passed": true, "error": null}
+{"code": " df.rename(columns={'Name': 'name'}).drop_duplicates()", "compilation_passed": true, "time": 0.15816402435302734, "tests_passed": true, "error": null}
+{"code": " df.loc[df['Name'] != 'Bob']", "compilation_passed": true, "time": 0.15563178062438965, "tests_passed": true, "error": null}
+{"code": " df.sort_values(by='Name')", "compilation_passed": true, "time": 0.1588430404663086, "tests_passed": true, "error": null}

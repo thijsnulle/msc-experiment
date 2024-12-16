@@ -1,0 +1,18 @@
+{"code": " {}", "compilation_passed": true, "time": 0.009385108947753906, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['Letters'].value_counts()", "compilation_passed": true, "time": 0.07787632942199707, "tests_passed": true, "error": null}
+{"code": " df['Letters'].value_counts(normalize=True)", "compilation_passed": true, "time": 0.08072924613952637, "tests_passed": true, "error": null}
+{"code": " df['Letters'].value_counts().reindex(letters, fill_value=0)", "compilation_passed": true, "time": 0.09041190147399902, "tests_passed": true, "error": null}
+{"code": " {letter: 0 for letter in letters}", "compilation_passed": true, "time": 0.008459091186523438, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['Letters'].value_counts(sort=False).reindex(letters).fillna(0).astype(int)", "compilation_passed": true, "time": 0.09658312797546387, "tests_passed": true, "error": null}
+{"code": " df['Letters'].value_counts().sort_values(ascending=False)", "compilation_passed": true, "time": 0.10551786422729492, "tests_passed": true, "error": null}
+{"code": " df['Letters'].value_counts().loc[letters]", "compilation_passed": true, "time": 0.013647079467773438, "tests_passed": false, "error": "KeyError"}
+{"code": " df['Letters'].value_counts(dropna=False, normalize=False).reindex(letters, fill_value=0).sort_index()", "compilation_passed": true, "time": 0.1117103099822998, "tests_passed": true, "error": null}
+{"code": " df['Letters'].value_counts().sort_index()", "compilation_passed": true, "time": 0.0887460708618164, "tests_passed": true, "error": null}
+{"code": " df['Letters'].value_counts(sort=False)", "compilation_passed": true, "time": 0.09771871566772461, "tests_passed": true, "error": null}
+{"code": " df['Letters'].value_counts(dropna=False)", "compilation_passed": true, "time": 0.09436225891113281, "tests_passed": true, "error": null}
+{"code": " df['Letters'].value_counts(dropna=False, normalize=True)", "compilation_passed": true, "time": 0.10392594337463379, "tests_passed": true, "error": null}
+{"code": " df['Letters'].value_counts().reindex(letters).fillna(0).astype(int)", "compilation_passed": true, "time": 0.15430808067321777, "tests_passed": true, "error": null}
+{"code": " df['Letters'].value_counts(sort=False, normalize=True)", "compilation_passed": true, "time": 0.1308591365814209, "tests_passed": true, "error": null}
+{"code": " df['Letters'].value_counts().reindex(letters).fillna(0)", "compilation_passed": true, "time": 0.10000419616699219, "tests_passed": true, "error": null}
+{"code": " df['Letters'].value_counts(sort=False).reindex(letters).fillna(0)", "compilation_passed": true, "time": 0.11571407318115234, "tests_passed": true, "error": null}
+{"code": " {letter: df['Letters'].str.count(letter).sum() for letter in letters}", "compilation_passed": true, "time": 0.01719498634338379, "tests_passed": false, "error": "AttributeError"}

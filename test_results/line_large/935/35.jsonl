@@ -1,0 +1,9 @@
+{"code": " not word.isalpha() or not word.islower():", "compilation_passed": true, "time": 0.011210918426513672, "tests_passed": true, "error": null}
+{"code": " not word.islower():", "compilation_passed": true, "time": 0.008989095687866211, "tests_passed": true, "error": null}
+{"code": " not word.islower() or not word.isalpha():", "compilation_passed": true, "time": 0.007268190383911133, "tests_passed": true, "error": null}
+{"code": " not all(c.isalpha() and c.islower() for c in word):", "compilation_passed": true, "time": 0.010563135147094727, "tests_passed": false, "error": "ValueError"}
+{"code": " not all([char.isalpha() for char in word]) or not word.islower():", "compilation_passed": true, "time": 0.010741949081420898, "tests_passed": true, "error": null}
+{"code": " not all(letter.islower() for letter in word) or not word.isalpha():", "compilation_passed": true, "time": 0.007133007049560547, "tests_passed": true, "error": null}
+{"code": " not all(letter in string.ascii_lowercase for letter in word):", "compilation_passed": true, "time": 0.015532970428466797, "tests_passed": false, "error": "ValueError"}
+{"code": " not all(c.isalpha() for c in word):", "compilation_passed": true, "time": 0.0098419189453125, "tests_passed": false, "error": "ValueError"}
+{"code": " not all([x in string.ascii_lowercase for x in word]):", "compilation_passed": true, "time": 0.01103520393371582, "tests_passed": false, "error": "ValueError"}

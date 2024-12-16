@@ -1,0 +1,11 @@
+{"code": " not all(inspect.isfunction(f) for f in f_list):", "compilation_passed": true, "time": 0.021368980407714844, "tests_passed": true, "error": null}
+{"code": " not isinstance(f_list, list) or not all(callable(func) for func in f_list):", "compilation_passed": true, "time": 0.02016592025756836, "tests_passed": true, "error": null}
+{"code": " not isinstance(f_list, list):", "compilation_passed": true, "time": 0.021670818328857422, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(f_list, list) or not all(callable(f) for f in f_list):", "compilation_passed": true, "time": 0.019707202911376953, "tests_passed": true, "error": null}
+{"code": " not isinstance(f_list, list) or not all(callable(f) for f in f_list) or not f_list:", "compilation_passed": true, "time": 0.019867897033691406, "tests_passed": true, "error": null}
+{"code": " not isinstance(f_list, list) or len(f_list) == 0:", "compilation_passed": true, "time": 0.018497943878173828, "tests_passed": false, "error": "TypeError"}
+{"code": " not all(callable(f) for f in f_list):", "compilation_passed": true, "time": 0.019835948944091797, "tests_passed": true, "error": null}
+{"code": " not f_list:", "compilation_passed": true, "time": 0.019424915313720703, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(f_list, list) or not all(callable(f) for f in f_list) or len(f_list) == 0:", "compilation_passed": true, "time": 0.020205020904541016, "tests_passed": true, "error": null}
+{"code": " not isinstance(f_list, list) or not all(callable(func) for func in f_list) or len(f_list) == 0:", "compilation_passed": true, "time": 0.019937992095947266, "tests_passed": true, "error": null}
+{"code": " not isinstance(f_list, list) or not all(callable(x) for x in f_list):", "compilation_passed": true, "time": 0.020071983337402344, "tests_passed": true, "error": null}

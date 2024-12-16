@@ -1,0 +1,21 @@
+{"code": " len(word_counts) > 1:", "compilation_passed": true, "time": 0.40534305572509766, "tests_passed": true, "error": null}
+{"code": " len(words) > 1:", "compilation_passed": true, "time": 0.39536309242248535, "tests_passed": true, "error": null}
+{"code": " word_counts:", "compilation_passed": true, "time": 0.3897089958190918, "tests_passed": true, "error": null}
+{"code": " len(set(word_counts)) > 1:", "compilation_passed": true, "time": 0.2441110610961914, "tests_passed": true, "error": null}
+{"code": " len(word_counts) <= 2:", "compilation_passed": true, "time": 0.08944320678710938, "tests_passed": true, "error": null}
+{"code": " len(word_counts) >= 2:", "compilation_passed": true, "time": 0.4096999168395996, "tests_passed": true, "error": null}
+{"code": " max(word_counts) != min(word_counts):", "compilation_passed": true, "time": 0.08094000816345215, "tests_passed": false, "error": "ValueError"}
+{"code": " min(word_counts) < max(word_counts) / 100:", "compilation_passed": true, "time": 0.07136011123657227, "tests_passed": false, "error": "ValueError"}
+{"code": " len(word_counts) > 100:", "compilation_passed": true, "time": 0.12314605712890625, "tests_passed": true, "error": null}
+{"code": " max(word_counts) <= 10:", "compilation_passed": true, "time": 0.06319785118103027, "tests_passed": false, "error": "ValueError"}
+{"code": " len(set(word_counts)) >= 2:", "compilation_passed": true, "time": 0.2269906997680664, "tests_passed": true, "error": null}
+{"code": " len(word_counts) == 1:", "compilation_passed": true, "time": 0.14700102806091309, "tests_passed": true, "error": null}
+{"code": " len(words) >= 10:", "compilation_passed": true, "time": 0.16473102569580078, "tests_passed": true, "error": null}
+{"code": " all(word_counts[i] == word_counts[i + 1] for i in range(len(word_counts) - 1)):", "compilation_passed": true, "time": 0.09585690498352051, "tests_passed": true, "error": null}
+{"code": " max(word_counts) == min(word_counts):", "compilation_passed": true, "time": 0.07636880874633789, "tests_passed": false, "error": "ValueError"}
+{"code": " max(word_counts) - min(word_counts) > 1:", "compilation_passed": true, "time": 0.07237887382507324, "tests_passed": false, "error": "ValueError"}
+{"code": " all([1 <= w <= 20 for w in word_counts]):", "compilation_passed": true, "time": 0.09039902687072754, "tests_passed": true, "error": null}
+{"code": " len(word_counts) > 10:", "compilation_passed": true, "time": 0.18126201629638672, "tests_passed": true, "error": null}
+{"code": " max(word_counts) <= 200:", "compilation_passed": true, "time": 0.06644415855407715, "tests_passed": false, "error": "ValueError"}
+{"code": " min(word_counts) < max(word_counts):", "compilation_passed": true, "time": 0.09315204620361328, "tests_passed": false, "error": "ValueError"}
+{"code": " len(word_counts) <= 1:", "compilation_passed": true, "time": 0.10146498680114746, "tests_passed": true, "error": null}

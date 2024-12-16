@@ -1,0 +1,6 @@
+{"code": "writerows(reader)", "compilation_passed": true, "time": 0.008311033248901367, "tests_passed": true, "error": null}
+{"code": "writerow(['key_column', 'new_column'])", "compilation_passed": true, "time": 0.009919881820678711, "tests_passed": true, "error": null}
+{"code": "writerow(next(reader))", "compilation_passed": true, "time": 0.008794069290161133, "tests_passed": true, "error": null}
+{"code": "writerow(reader.next())", "compilation_passed": true, "time": 0.009725093841552734, "tests_passed": false, "error": "AttributeError"}
+{"code": "writerow(reader.readline())", "compilation_passed": true, "time": 0.009506940841674805, "tests_passed": false, "error": "AttributeError"}
+{"code": "writerow(['index', 'value'])", "compilation_passed": true, "time": 0.0076601505279541016, "tests_passed": true, "error": null}

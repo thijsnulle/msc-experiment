@@ -1,0 +1,15 @@
+{"code": " random.choices(WORD_LIST, k=sentence_len)", "compilation_passed": true, "time": 0.017539024353027344, "tests_passed": false, "error": "TypeError"}
+{"code": " ' '.join(random.choices(WORD_LIST, k=sentence_len))", "compilation_passed": true, "time": 0.011488676071166992, "tests_passed": true, "error": null}
+{"code": " ' '.join([random.choice(WORD_LIST) for _ in range(sentence_len)])", "compilation_passed": true, "time": 0.011501073837280273, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.013964176177978516, "tests_passed": false, "error": "TypeError"}
+{"code": " \" \".join(random.choices(WORD_LIST, k=sentence_len)) + \".\"", "compilation_passed": true, "time": 0.0035560131072998047, "tests_passed": true, "error": null}
+{"code": " \" \".join(random.choices(WORD_LIST, k=sentence_len))", "compilation_passed": true, "time": 0.011426210403442383, "tests_passed": true, "error": null}
+{"code": " ' '.join(random.choices(WORD_LIST, k=sentence_len)) + '.'", "compilation_passed": true, "time": 0.003385782241821289, "tests_passed": true, "error": null}
+{"code": " \" \".join(random.choice(WORD_LIST) for _ in range(sentence_len)) + \".\"", "compilation_passed": true, "time": 0.0036842823028564453, "tests_passed": true, "error": null}
+{"code": " \"\"", "compilation_passed": true, "time": 0.011493921279907227, "tests_passed": true, "error": null}
+{"code": " [random.choice(WORD_LIST) for _ in range(sentence_len - 1)]", "compilation_passed": true, "time": 0.017510175704956055, "tests_passed": false, "error": "TypeError"}
+{"code": " \" \".join(random.sample(WORD_LIST, sentence_len))", "compilation_passed": true, "time": 0.018433809280395508, "tests_passed": false, "error": "ValueError"}
+{"code": " random.sample(WORD_LIST, sentence_len)", "compilation_passed": true, "time": 0.017377138137817383, "tests_passed": false, "error": "ValueError"}
+{"code": " [random.choice(WORD_LIST) for _ in range(sentence_len)]", "compilation_passed": true, "time": 0.01733708381652832, "tests_passed": false, "error": "TypeError"}
+{"code": " \" \".join([WORD_LIST[random.randint(0, len(WORD_LIST) - 1)] for _ in range(sentence_len)]).lower()", "compilation_passed": true, "time": 0.011446952819824219, "tests_passed": true, "error": null}
+{"code": " \" \".join([random.choice(WORD_LIST) for _ in range(sentence_len)]) + \".\"", "compilation_passed": true, "time": 0.0036389827728271484, "tests_passed": true, "error": null}

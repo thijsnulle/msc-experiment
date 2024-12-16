@@ -1,0 +1,20 @@
+{"code": " re.findall(r'https?://(?:[-\\w.]|(?:%[\\da-fA-F]{2}))+', myString)", "compilation_passed": true, "time": 0.004960060119628906, "tests_passed": true, "error": null}
+{"code": " re.findall(r'https?://[^\\s]+', myString)", "compilation_passed": true, "time": 0.010981082916259766, "tests_passed": true, "error": null}
+{"code": " re.findall(r'https?://(www\\.)?([^\\s,.]+)', myString)", "compilation_passed": true, "time": 0.018572092056274414, "tests_passed": false, "error": "AttributeError"}
+{"code": " extract_urls(myString)", "compilation_passed": true, "time": 0.01442718505859375, "tests_passed": false, "error": "NameError"}
+{"code": " re.findall(r\"(http|https)://[a-zA-Z0-9_\\-\\.]+\\.[a-zA-Z]{2,5}[^\\s]*\", myString)", "compilation_passed": true, "time": 0.010280132293701172, "tests_passed": true, "error": null}
+{"code": " re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString)", "compilation_passed": true, "time": 0.010968208312988281, "tests_passed": true, "error": null}
+{"code": " re.findall('https?://(?:[-\\w.]|(?:%[\\da-fA-F]{2}))+', myString)", "compilation_passed": true, "time": 0.004662036895751953, "tests_passed": true, "error": null}
+{"code": " re.findall(r'https?://(www\\.[A-Za-z0-9-]+\\.[A-Za-z]{2,4})', myString)", "compilation_passed": true, "time": 0.009723901748657227, "tests_passed": true, "error": null}
+{"code": " re.findall(r'https?://(www\\.[A-Za-z0-9\\-]+\\.[A-Za-z]{2,4})(?:/[A-Za-z0-9\\./?=&#]+)?', myString)", "compilation_passed": true, "time": 0.009629964828491211, "tests_passed": true, "error": null}
+{"code": " re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString)", "compilation_passed": true, "time": 0.010673046112060547, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"https?://(www\\.)?([^ ]+)\", myString)", "compilation_passed": true, "time": 0.014760017395019531, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*(),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString)", "compilation_passed": true, "time": 0.011059045791625977, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"https?://(www\\.)?([^/\\s]+)\", myString)", "compilation_passed": true, "time": 0.014739274978637695, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\\\(\\\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString)", "compilation_passed": true, "time": 0.011127710342407227, "tests_passed": true, "error": null}
+{"code": " re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\\\(\\\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString)", "compilation_passed": true, "time": 0.010759830474853516, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"https?://(?:[-\\w.]|(?:%[\\da-fA-F]{2}))+\", myString)", "compilation_passed": true, "time": 0.0047397613525390625, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(https?://[^\\s]+)', myString)", "compilation_passed": true, "time": 0.010683298110961914, "tests_passed": true, "error": null}
+{"code": " re.findall(r'https?://(www\\.[^\\s]+)', myString)", "compilation_passed": true, "time": 0.010079383850097656, "tests_passed": true, "error": null}
+{"code": " re.findall(r'https?://(www\\.)?([^\\s,]+)', myString)", "compilation_passed": true, "time": 0.015207767486572266, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r'https?://(www\\.)?([^ ]+)', myString)", "compilation_passed": true, "time": 0.014449834823608398, "tests_passed": false, "error": "AttributeError"}

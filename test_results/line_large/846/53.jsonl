@@ -1,0 +1,7 @@
+{"code": " count:", "compilation_passed": true, "time": 0.005498170852661133, "tests_passed": true, "error": null}
+{"code": " not count:", "compilation_passed": true, "time": 0.007114887237548828, "tests_passed": true, "error": null}
+{"code": " attr not in obj_list[0].__dict__:", "compilation_passed": true, "time": 0.011677980422973633, "tests_passed": false, "error": "IndexError"}
+{"code": " len(count) > 0:", "compilation_passed": true, "time": 0.005341053009033203, "tests_passed": true, "error": null}
+{"code": " attr not in count:", "compilation_passed": true, "time": 0.005324125289916992, "tests_passed": true, "error": null}
+{"code": " attr not in [col for col in pd.DataFrame(obj_list).columns]:", "compilation_passed": true, "time": 0.005240201950073242, "tests_passed": true, "error": null}
+{"code": " len(count) == 0:", "compilation_passed": true, "time": 0.006488800048828125, "tests_passed": true, "error": null}

@@ -1,0 +1,5 @@
+{"code": " inspect.getfullargspec(f)", "compilation_passed": true, "time": 0.2629220485687256, "tests_passed": true, "error": null}
+{"code": " inspect.signature(f).parameters", "compilation_passed": true, "time": 0.00807499885559082, "tests_passed": false, "error": "AttributeError"}
+{"code": " inspect.getargspec(f)", "compilation_passed": true, "time": 0.28168702125549316, "tests_passed": true, "error": null}
+{"code": " inspect.signature(f)", "compilation_passed": true, "time": 0.008388996124267578, "tests_passed": false, "error": "AttributeError"}
+{"code": " inspect.getargs(f.__code__).args", "compilation_passed": true, "time": 0.008043050765991211, "tests_passed": false, "error": "AttributeError"}

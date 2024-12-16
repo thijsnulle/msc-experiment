@@ -1,0 +1,6 @@
+{"code": " random.choice(string.digits)", "compilation_passed": true, "time": 0.001882791519165039, "tests_passed": true, "error": null}
+{"code": " random.randint(0, 1)", "compilation_passed": true, "time": 0.007582187652587891, "tests_passed": false, "error": "TypeError"}
+{"code": " random.choice(\"0123456789\")", "compilation_passed": true, "time": 0.0037338733673095703, "tests_passed": true, "error": null}
+{"code": " random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])", "compilation_passed": true, "time": 0.004375934600830078, "tests_passed": false, "error": "TypeError"}
+{"code": " random.choice([str(digit) for digit in range(10)])", "compilation_passed": true, "time": 0.002028226852416992, "tests_passed": true, "error": null}
+{"code": " str(random.randint(0, 9))", "compilation_passed": true, "time": 0.0017840862274169922, "tests_passed": true, "error": null}

@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(articles)", "compilation_passed": true, "time": 0.021757841110229492, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(articles).groupby('category')['published_time'].agg(['count', 'mean', 'min', 'max'])", "compilation_passed": true, "time": 0.03883504867553711, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(articles).set_index('category')", "compilation_passed": true, "time": 0.02330493927001953, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(articles).convert_dtypes()", "compilation_passed": true, "time": 0.033280134201049805, "tests_passed": true, "error": null}

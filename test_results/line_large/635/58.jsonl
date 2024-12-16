@@ -1,0 +1,22 @@
+{"code": " np.array(X.toarray().squeeze())  # Convert to a square matrix", "compilation_passed": true, "time": 0.019681930541992188, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(np.sum(X.toarray(), axis=0), index=vectorizer.get_feature_names_out())", "compilation_passed": true, "time": 0.025876998901367188, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.squeeze(np.asarray(X.todense()))", "compilation_passed": true, "time": 0.026761770248413086, "tests_passed": false, "error": "ValueError"}
+{"code": " X.T.dot(X)", "compilation_passed": true, "time": 0.031138896942138672, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names())", "compilation_passed": true, "time": 0.01959705352783203, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.zeros((X.shape[1], X.shape[1]), dtype=int)", "compilation_passed": true, "time": 0.3795650005340576, "tests_passed": true, "error": null}
+{"code": " np.zeros((len(vectorizer.get_feature_names_out()), len(vectorizer.get_feature_names_out())), dtype=int)", "compilation_passed": true, "time": 0.3562347888946533, "tests_passed": true, "error": null}
+{"code": " np.square(X.toarray()).sum(axis=0)", "compilation_passed": true, "time": 0.024679183959960938, "tests_passed": false, "error": "ValueError"}
+{"code": " np.zeros((X.shape[1], X.shape[1]))", "compilation_passed": true, "time": 0.4220452308654785, "tests_passed": true, "error": null}
+{"code": " X.dot(X.T)  # Compute the co-occurrence matrix", "compilation_passed": true, "time": 0.029422998428344727, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.mat(X.todense())  # Convert to a matrix", "compilation_passed": true, "time": 0.15903520584106445, "tests_passed": false, "error": "ValueError"}
+{"code": " X.toarray()", "compilation_passed": true, "time": 0.203125, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(X.toarray().flatten(), index=vectorizer.get_feature_names_out(), columns=['Count'])", "compilation_passed": true, "time": 0.02695298194885254, "tests_passed": false, "error": "AttributeError"}
+{"code": " X.T.dot(X)  # Calculate co-occurrence matrix", "compilation_passed": true, "time": 0.024331092834472656, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(X.toarray().flatten(), index=vectorizer.get_feature_names_out())", "compilation_passed": true, "time": 0.025825023651123047, "tests_passed": false, "error": "AttributeError"}
+{"code": " X.dot(X.T)  # Co-occurrence matrix", "compilation_passed": true, "time": 0.02788710594177246, "tests_passed": false, "error": "AttributeError"}
+{"code": " X.T @ X", "compilation_passed": true, "time": 0.024266958236694336, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names_out())", "compilation_passed": true, "time": 0.026087284088134766, "tests_passed": false, "error": "AttributeError"}
+{"code": " vectorizer.transform(vectorizer.get_feature_names_out())  # Generate the co-occurrence matrix", "compilation_passed": true, "time": 0.02740025520324707, "tests_passed": false, "error": "AttributeError"}
+{"code": " X.T.dot(X)  # Calculating co-occurrence matrix", "compilation_passed": true, "time": 0.02553105354309082, "tests_passed": false, "error": "AttributeError"}
+{"code": " X.toarray().sum(axis=0)  # Summing over the rows of X to get a single row for each ngram", "compilation_passed": true, "time": 0.03372788429260254, "tests_passed": false, "error": "ValueError"}
+{"code": " X.dot(X.T)", "compilation_passed": true, "time": 0.024924039840698242, "tests_passed": false, "error": "AttributeError"}

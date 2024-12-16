@@ -1,0 +1,26 @@
+{"code": " [i for pair in zip(letters, categories) for i in pair]", "compilation_passed": true, "time": 0.013396024703979492, "tests_passed": false, "error": "ValueError"}
+{"code": " list(itertools.chain(*[[letter] * len(categories) for letter in letters]))", "compilation_passed": true, "time": 0.0024766921997070312, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*[list(itertools.repeat(letter, len(categories))) for letter in letters]))", "compilation_passed": true, "time": 0.002225160598754883, "tests_passed": true, "error": null}
+{"code": " [letter for letter in letters for _ in categories]", "compilation_passed": true, "time": 0.0027990341186523438, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(itertools.repeat(x, len(categories)) for x in letters))", "compilation_passed": true, "time": 0.003354787826538086, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(itertools.repeat(categories, len(letters))))", "compilation_passed": true, "time": 0.00286102294921875, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(", "compilation_passed": false, "time": 0.000225067138671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.006424903869628906, "tests_passed": false, "error": "ValueError"}
+{"code": " list(itertools.chain.from_iterable(itertools.repeat(x, 2) for x in letters))", "compilation_passed": true, "time": 0.004755973815917969, "tests_passed": false, "error": "ValueError"}
+{"code": " list(itertools.chain(*[[c] * len(letters) for c in categories]))", "compilation_passed": true, "time": 0.0031769275665283203, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*[[i, i] for i in letters]))", "compilation_passed": true, "time": 0.004846096038818359, "tests_passed": false, "error": "ValueError"}
+{"code": " list(itertools.chain(*[[i]*len(categories) for i in letters]))", "compilation_passed": true, "time": 0.0029959678649902344, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*[[letter]*len(categories) for letter in letters]))", "compilation_passed": true, "time": 0.0026030540466308594, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable([[i] * len(categories) for i in letters]))", "compilation_passed": true, "time": 0.0022211074829101562, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*list(itertools.repeat(letters, len(categories)))))", "compilation_passed": true, "time": 0.002602100372314453, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*list(itertools.repeat(categories, len(letters)))), )", "compilation_passed": true, "time": 0.003365755081176758, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable([[l] * len(categories) for l in letters]))", "compilation_passed": true, "time": 0.0025370121002197266, "tests_passed": true, "error": null}
+{"code": " [item for sublist in list(itertools.combinations_with_replacement(letters, r=2)) for item in sublist]", "compilation_passed": true, "time": 0.004448890686035156, "tests_passed": false, "error": "ValueError"}
+{"code": " list(itertools.chain(*[list(zip([i] * len(categories), categories)) for i in letters]))", "compilation_passed": true, "time": 0.0030019283294677734, "tests_passed": true, "error": null}
+{"code": " [letter for t in itertools.product(letters, categories) for letter in t]", "compilation_passed": true, "time": 0.0046062469482421875, "tests_passed": false, "error": "ValueError"}
+{"code": " list(itertools.chain.from_iterable(zip(letters*len(categories), categories*len(letters))))", "compilation_passed": true, "time": 0.005738019943237305, "tests_passed": false, "error": "ValueError"}
+{"code": " [item for sublist in list(itertools.zip_longest(*categories)) for item in sublist if item is not None]", "compilation_passed": true, "time": 0.004809856414794922, "tests_passed": false, "error": "ValueError"}
+{"code": " list(itertools.chain.from_iterable(list(itertools.product(letters, categories))))", "compilation_passed": true, "time": 0.004676103591918945, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 0.00023293495178222656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(itertools.product(*[letters, categories]))", "compilation_passed": true, "time": 0.002582073211669922, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable([list(x) for x in itertools.product(letters, categories)]))", "compilation_passed": true, "time": 0.004651069641113281, "tests_passed": false, "error": "ValueError"}

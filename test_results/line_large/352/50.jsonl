@@ -1,0 +1,5 @@
+{"code": " ax, dict(top_k_words)", "compilation_passed": true, "time": 0.052573204040527344, "tests_passed": true, "error": null}
+{"code": " ax, {word: freq for word, freq in top_k_words}", "compilation_passed": true, "time": 0.05322909355163574, "tests_passed": true, "error": null}
+{"code": " ax, {word[0]: word[1] for word in top_k_words}", "compilation_passed": true, "time": 0.05603528022766113, "tests_passed": true, "error": null}
+{"code": " ax, {item[0]: item[1] for item in top_k_words}", "compilation_passed": true, "time": 0.06512188911437988, "tests_passed": true, "error": null}
+{"code": " ax, {word: frequency for word, frequency in top_k_words}", "compilation_passed": true, "time": 0.04909968376159668, "tests_passed": true, "error": null}

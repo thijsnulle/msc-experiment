@@ -1,0 +1,13 @@
+{"code": " mean <= 0:", "compilation_passed": true, "time": 0.011599063873291016, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(animals, list):", "compilation_passed": true, "time": 0.008503198623657227, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(mean, (int, float)):", "compilation_passed": true, "time": 0.009243011474609375, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(mean, int) or mean < 1:", "compilation_passed": true, "time": 0.009035110473632812, "tests_passed": false, "error": "IndexError"}
+{"code": " not all(animal in ANIMALS for animal in set(animals)):", "compilation_passed": true, "time": 0.00980997085571289, "tests_passed": false, "error": "NameError"}
+{"code": " not (isinstance(animals, list) and isinstance(mean, int)):", "compilation_passed": true, "time": 0.008491039276123047, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(animals, list) or not isinstance(mean, int) or mean < 1:", "compilation_passed": true, "time": 0.008970022201538086, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(animals, list) or not all(isinstance(animal, str) for animal in animals):", "compilation_passed": true, "time": 0.008489131927490234, "tests_passed": false, "error": "IndexError"}
+{"code": " type(animals) != list:", "compilation_passed": true, "time": 0.008256196975708008, "tests_passed": false, "error": "IndexError"}
+{"code": " mean < 0:", "compilation_passed": true, "time": 0.008678913116455078, "tests_passed": false, "error": "IndexError"}
+{"code": " not animals:", "compilation_passed": true, "time": 0.017104148864746094, "tests_passed": true, "error": null}
+{"code": " not isinstance(animals, (list, tuple)):", "compilation_passed": true, "time": 0.009218692779541016, "tests_passed": false, "error": "IndexError"}
+{"code": " not all([isinstance(animals, list), isinstance(mean, float), mean >= 0]):", "compilation_passed": true, "time": 0.0063588619232177734, "tests_passed": true, "error": null}

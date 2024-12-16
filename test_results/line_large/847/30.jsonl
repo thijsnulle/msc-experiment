@@ -1,0 +1,12 @@
+{"code": " ''.join(random.choices(string.digits, k=5)) + '.txt'", "compilation_passed": true, "time": 0.012196779251098633, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(string.digits) for _ in range(5)) + '.txt'", "compilation_passed": true, "time": 0.009536981582641602, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choices('0123456789', k=5)) + '.txt'", "compilation_passed": true, "time": 0.01114797592163086, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(string.digits) for i in range(5)) + '.txt'", "compilation_passed": true, "time": 0.009884357452392578, "tests_passed": true, "error": null}
+{"code": " os.path.join(directory, ''.join(random.choices(string.digits, k=5))+'.txt')", "compilation_passed": true, "time": 0.02245473861694336, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " directory + '/' + ''.join(random.choices(string.digits, k=5)) + '.txt'", "compilation_passed": true, "time": 0.0255582332611084, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " ''.join(random.choices(string.digits, k=5))", "compilation_passed": true, "time": 0.014482259750366211, "tests_passed": true, "error": null}
+{"code": " str(random.randint(10000, 99999)) + '.txt'", "compilation_passed": true, "time": 0.0061092376708984375, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choices('0123456789', k=5))", "compilation_passed": true, "time": 0.006753206253051758, "tests_passed": true, "error": null}
+{"code": " random.randint(10000, 99999)", "compilation_passed": true, "time": 0.015443086624145508, "tests_passed": false, "error": "TypeError"}
+{"code": " f'{random.randint(10000,99999)}.txt'", "compilation_passed": true, "time": 0.007200717926025391, "tests_passed": true, "error": null}
+{"code": " f'{directory}/{random.randint(10000, 99999)}.txt'", "compilation_passed": true, "time": 0.01784801483154297, "tests_passed": false, "error": "FileNotFoundError"}

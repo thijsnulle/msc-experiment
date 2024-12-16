@@ -1,0 +1,16 @@
+{"code": " df[df['Date'] >= df['Date'].min()]", "compilation_passed": true, "time": 0.012690067291259766, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df['Date'].dt.year == 2021]", "compilation_passed": true, "time": 0.011391878128051758, "tests_passed": false, "error": "ValueError"}
+{"code": " df.set_index('Date')", "compilation_passed": true, "time": 0.008500099182128906, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([list(map(lambda x: int(x), row['Value'])) for row in df.itertuples()], index=df['Date'])", "compilation_passed": true, "time": 0.014589786529541016, "tests_passed": false, "error": "TypeError"}
+{"code": " df.sort_values('Date')", "compilation_passed": true, "time": 0.012418270111083984, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(df['Value'].str.split(', ').tolist(), index=df['Date'])", "compilation_passed": true, "time": 0.009964942932128906, "tests_passed": true, "error": null}
+{"code": " pd.json_normalize(df['Value'])", "compilation_passed": true, "time": 0.008733034133911133, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.concat([df, df['Value'].apply(pd.Series)], axis=1)", "compilation_passed": true, "time": 0.009819746017456055, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.concat([df['Date'], pd.DataFrame(df['Value'].tolist()).astype('float')], axis=1)", "compilation_passed": true, "time": 0.25852417945861816, "tests_passed": true, "error": null}
+{"code": " pd.json_normalize(df['Value'].tolist(), max_level=1)", "compilation_passed": true, "time": 0.01935291290283203, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.dropna().sort_values('Date')", "compilation_passed": true, "time": 0.009463787078857422, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.concat(df.pop('Value').apply(pd.Series).stack().reset_index(drop=True).groupby(level=0).apply(pd.Series.to_list).to_frame(), df)", "compilation_passed": true, "time": 0.016509056091308594, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.concat([df['Date'], df['Value'].apply(pd.Series)], axis=1)", "compilation_passed": true, "time": 0.22395014762878418, "tests_passed": true, "error": null}
+{"code": " df.sort_values(by=['Date'])", "compilation_passed": true, "time": 0.01759624481201172, "tests_passed": false, "error": "ValueError"}
+{"code": " df.drop_duplicates(subset=['Date']).sort_values(by='Date')", "compilation_passed": true, "time": 0.01647210121154785, "tests_passed": false, "error": "ValueError"}
+{"code": " df.dropna()", "compilation_passed": true, "time": 0.008781909942626953, "tests_passed": false, "error": "ValueError"}

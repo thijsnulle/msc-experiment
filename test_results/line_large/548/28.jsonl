@@ -1,0 +1,5 @@
+{"code": " ''.join(random.choices(string.ascii_uppercase + string.digits, k=string_length))", "compilation_passed": true, "time": 0.003014802932739258, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choices(string.ascii_uppercase + string.digits, k=string_length))", "compilation_passed": true, "time": 0.002964019775390625, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(string_length))", "compilation_passed": true, "time": 0.010349035263061523, "tests_passed": true, "error": null}
+{"code": " \"\"", "compilation_passed": true, "time": 0.009715080261230469, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choice(string.ascii_uppercase + string.digits) for i in range(string_length))", "compilation_passed": true, "time": 0.010165929794311523, "tests_passed": true, "error": null}

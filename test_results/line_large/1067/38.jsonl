@@ -1,0 +1,12 @@
+{"code": " \"X-RateLimit-Remaining\" in response.headers", "compilation_passed": true, "time": 0.014143943786621094, "tests_passed": true, "error": null}
+{"code": " \"API rate limit exceeded\" in response.text", "compilation_passed": true, "time": 0.006639957427978516, "tests_passed": true, "error": null}
+{"code": " \"API rate limit exceeded\" in repo_info[\"message\"]", "compilation_passed": true, "time": 0.005506038665771484, "tests_passed": true, "error": null}
+{"code": " \"x-ratelimit-remaining\" in response.headers", "compilation_passed": true, "time": 0.0071680545806884766, "tests_passed": true, "error": null}
+{"code": " \"status\" in repo_info", "compilation_passed": true, "time": 0.005442142486572266, "tests_passed": true, "error": null}
+{"code": " \"rate limit exceeded\" in str(repo_info)", "compilation_passed": true, "time": 0.005646944046020508, "tests_passed": true, "error": null}
+{"code": " \"API rate limit exceeded\" in str(response.content)", "compilation_passed": true, "time": 0.007496833801269531, "tests_passed": true, "error": null}
+{"code": " response.headers[\"X-RateLimit-Remaining\"] == \"0\"", "compilation_passed": true, "time": 0.006476163864135742, "tests_passed": true, "error": null}
+{"code": " \"rate limit exceeded\" in repo_info.get(\"message\", \"\").lower()", "compilation_passed": true, "time": 0.004857063293457031, "tests_passed": true, "error": null}
+{"code": " \"API rate limit exceeded\" in repo_info.get(\"message\", \"\")", "compilation_passed": true, "time": 0.006328105926513672, "tests_passed": true, "error": null}
+{"code": " \"rate limit exceeded\" in response.text", "compilation_passed": true, "time": 0.009468317031860352, "tests_passed": true, "error": null}
+{"code": " response.json().get(\"message\") == \"API rate limit exceeded\"", "compilation_passed": true, "time": 0.004825115203857422, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": "bar(items, item_counts)", "compilation_passed": true, "time": 0.43674802780151367, "tests_passed": true, "error": null}
+{"code": "bar(ITEMS, item_counts)", "compilation_passed": true, "time": 0.44345808029174805, "tests_passed": true, "error": null}
+{"code": "bar(range(1, len(ITEMS) + 1), item_counts)", "compilation_passed": true, "time": 0.5443177223205566, "tests_passed": true, "error": null}
+{"code": "bar(range(len(items)), item_counts)", "compilation_passed": true, "time": 0.425839900970459, "tests_passed": true, "error": null}
+{"code": "bar(items, item_counts, color='blue')", "compilation_passed": true, "time": 0.3547823429107666, "tests_passed": true, "error": null}
+{"code": "bar(ITEMS, item_counts, width=0.8, color='red')", "compilation_passed": true, "time": 0.8814821243286133, "tests_passed": true, "error": null}
+{"code": "bar(ITEMS, item_counts, align='center')", "compilation_passed": true, "time": 0.5278940200805664, "tests_passed": true, "error": null}
+{"code": "bar(ITEMS, item_counts, color='#3F90CE')", "compilation_passed": true, "time": 0.5481348037719727, "tests_passed": true, "error": null}
+{"code": "bar(items, item_counts, color='b')", "compilation_passed": true, "time": 1.0219578742980957, "tests_passed": false, "error": "TimeoutError"}

@@ -1,0 +1,8 @@
+{"code": " ''.join(random.choices('ABCDEFGHIJKLMNOPQRSTUVWXYZ', k=5)),", "compilation_passed": true, "time": 0.04447817802429199, "tests_passed": true, "error": null}
+{"code": " ''.join([chr(random.randint(65, 90)) for _ in range(5)]),", "compilation_passed": true, "time": 0.03882122039794922, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choices(string.ascii_uppercase, k=5)),", "compilation_passed": true, "time": 0.04096412658691406, "tests_passed": false, "error": "NameError"}
+{"code": " ''.join([chr(random.randint(65,90)) for _ in range(5)]),", "compilation_passed": true, "time": 0.04692888259887695, "tests_passed": true, "error": null}
+{"code": " ''.join([chr(random.randint(65, 91)) for _ in range(5)]),", "compilation_passed": true, "time": 0.0423579216003418, "tests_passed": true, "error": null}
+{"code": " ''.join(random.sample(ascii_uppercase, 5)),", "compilation_passed": true, "time": 0.03814888000488281, "tests_passed": false, "error": "NameError"}
+{"code": " ''.join(chr(random.randint(ord('A'), ord('Z'))) for _ in range(5)),", "compilation_passed": true, "time": 0.039917945861816406, "tests_passed": true, "error": null}
+{"code": " ''.join(chr(random.randint(65, 90)) for _ in range(5)),", "compilation_passed": true, "time": 0.03888416290283203, "tests_passed": true, "error": null}

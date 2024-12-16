@@ -1,0 +1,9 @@
+{"code": "add_rows([['File', 'Rows', 'Columns']] + summary_data)", "compilation_passed": true, "time": 0.030033111572265625, "tests_passed": true, "error": null}
+{"code": "add_rows(summary_data, header=True)", "compilation_passed": true, "time": 0.035384178161621094, "tests_passed": true, "error": null}
+{"code": "header(['File', 'Rows', 'Columns'])", "compilation_passed": true, "time": 0.02030014991760254, "tests_passed": true, "error": null}
+{"code": "add_rows([['File', 'Rows', 'Columns']] + summary_data, header=True)", "compilation_passed": true, "time": 0.028149843215942383, "tests_passed": true, "error": null}
+{"code": "add_rows([[\"File\", \"Rows\", \"Columns\"]] + summary_data)", "compilation_passed": true, "time": 0.02758502960205078, "tests_passed": true, "error": null}
+{"code": "set_deco(Texttable.HEADER)", "compilation_passed": true, "time": 0.019947052001953125, "tests_passed": false, "error": "TypeError"}
+{"code": "header([\"File\", \"Rows\", \"Columns\"])", "compilation_passed": true, "time": 0.021045923233032227, "tests_passed": true, "error": null}
+{"code": "set_cols_align(['l', 'r', 'r'])", "compilation_passed": true, "time": 0.02022099494934082, "tests_passed": false, "error": "TypeError"}
+{"code": "set_deco(Texttable.HEADER | Texttable.VLINES)", "compilation_passed": true, "time": 0.02003931999206543, "tests_passed": false, "error": "TypeError"}

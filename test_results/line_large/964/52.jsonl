@@ -1,0 +1,13 @@
+{"code": " os.path.basename(file) + \".csv\"", "compilation_passed": true, "time": 0.016927003860473633, "tests_passed": true, "error": null}
+{"code": "", "compilation_passed": true, "time": 0.042742252349853516, "tests_passed": false, "error": "IsADirectoryError"}
+{"code": " file.replace(extension, \".csv\")", "compilation_passed": true, "time": 0.15023326873779297, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(file)[0] + \".csv\"", "compilation_passed": true, "time": 0.1393568515777588, "tests_passed": true, "error": null}
+{"code": " os.path.basename(file)", "compilation_passed": true, "time": 0.020006179809570312, "tests_passed": true, "error": null}
+{"code": " Path(file).stem + \".csv\"", "compilation_passed": true, "time": 0.13909697532653809, "tests_passed": true, "error": null}
+{"code": " f\"{Path(file).stem}.csv\"", "compilation_passed": true, "time": 0.15110301971435547, "tests_passed": true, "error": null}
+{"code": " os.path.basename(file)[:-len(extension)] + \".csv\"", "compilation_passed": true, "time": 0.15259885787963867, "tests_passed": true, "error": null}
+{"code": " file.split(\".\")[0] + \".csv\"", "compilation_passed": true, "time": 0.14997506141662598, "tests_passed": true, "error": null}
+{"code": " os.path.basename(file).split(\".\")[0]", "compilation_passed": true, "time": 1.00386381149292, "tests_passed": false, "error": ""}
+{"code": " os.path.basename(file).split(\".\")[0] + \".csv\"", "compilation_passed": true, "time": 0.12586593627929688, "tests_passed": true, "error": null}
+{"code": " os.path.basename(file) + \".csv\")", "compilation_passed": false, "time": 0.0001537799835205078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"{file.replace(extension, '.csv')}\"", "compilation_passed": true, "time": 0.12032723426818848, "tests_passed": true, "error": null}

@@ -1,0 +1,7 @@
+{"code": " from_tz.localize(parse(date_str)).astimezone(to_tz)", "compilation_passed": true, "time": 0.0029969215393066406, "tests_passed": true, "error": null}
+{"code": " parse(date_str).replace(tzinfo=from_tz)", "compilation_passed": true, "time": 0.0016891956329345703, "tests_passed": true, "error": null}
+{"code": " parse(date_str)", "compilation_passed": true, "time": 0.0017461776733398438, "tests_passed": true, "error": null}
+{"code": " parse(date_str).astimezone(from_tz).astimezone(to_tz)", "compilation_passed": true, "time": 0.002019166946411133, "tests_passed": true, "error": null}
+{"code": " from_tz.localize(parse(date_str))", "compilation_passed": true, "time": 0.0021398067474365234, "tests_passed": true, "error": null}
+{"code": " parse(date_str).replace(tzinfo=from_tz).astimezone(tz=to_tz)", "compilation_passed": true, "time": 0.0018198490142822266, "tests_passed": true, "error": null}
+{"code": " parse(date_str, tzinfos=pytz.tzinfo.tzstr)", "compilation_passed": true, "time": 0.00838613510131836, "tests_passed": false, "error": "AttributeError"}

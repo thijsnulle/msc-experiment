@@ -1,0 +1,12 @@
+{"code": " [''.join(i) for i in product(alphabets, repeat=length)]", "compilation_passed": true, "time": 0.009336233139038086, "tests_passed": true, "error": null}
+{"code": " [\"\".join(elem) for elem in product(alphabets, repeat=length)]", "compilation_passed": true, "time": 0.014606952667236328, "tests_passed": true, "error": null}
+{"code": " product(alphabets, repeat=length)", "compilation_passed": true, "time": 0.027984142303466797, "tests_passed": false, "error": "ValueError"}
+{"code": " list(product(alphabets, repeat=length))", "compilation_passed": true, "time": 0.022537946701049805, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 0.00021409988403320312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [\"\".join(combination) for combination in product(alphabets, repeat=length)]", "compilation_passed": true, "time": 0.012048959732055664, "tests_passed": true, "error": null}
+{"code": " [\"\".join(item) for item in product(alphabets, repeat=length)]", "compilation_passed": true, "time": 0.01059103012084961, "tests_passed": true, "error": null}
+{"code": " [''.join(comb) for comb in product(alphabets, repeat=length)]", "compilation_passed": true, "time": 0.011765003204345703, "tests_passed": true, "error": null}
+{"code": " [''.join(chars) for chars in product(alphabets, repeat=length)]", "compilation_passed": true, "time": 0.011711835861206055, "tests_passed": true, "error": null}
+{"code": " [''.join(combination)", "compilation_passed": false, "time": 0.0002498626708984375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [''.join(x) for x in product(alphabets, repeat=length)]", "compilation_passed": true, "time": 0.00974893569946289, "tests_passed": true, "error": null}
+{"code": " [''.join(combination) for combination in product(alphabets, repeat=length)]", "compilation_passed": true, "time": 0.010473966598510742, "tests_passed": true, "error": null}

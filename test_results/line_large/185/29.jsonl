@@ -1,0 +1,8 @@
+{"code": " 'Lon' not in dic or 'Lat' not in dic:", "compilation_passed": true, "time": 0.018732786178588867, "tests_passed": true, "error": null}
+{"code": " not all(key in dic for key in ['Lon', 'Lat']):", "compilation_passed": true, "time": 0.018670082092285156, "tests_passed": true, "error": null}
+{"code": " 'Lon' not in dic or 'Lat' not in dic or not isinstance(dic['Lon'], tuple) or not isinstance(dic['Lat'], tuple):", "compilation_passed": true, "time": 0.02045297622680664, "tests_passed": true, "error": null}
+{"code": " not all(k in dic for k in ('Lon', 'Lat')):", "compilation_passed": true, "time": 0.021229028701782227, "tests_passed": true, "error": null}
+{"code": " not all(k in dic for k in ('Lon', 'Lat')) or not all(isinstance(dic[k], tuple) for k in ('Lon', 'Lat')):", "compilation_passed": true, "time": 0.02015209197998047, "tests_passed": true, "error": null}
+{"code": " not all(k in dic for k in ('Lon', 'Lat')) or not all(isinstance(v, tuple) for v in dic.values()):", "compilation_passed": true, "time": 0.018883228302001953, "tests_passed": true, "error": null}
+{"code": " not set(['Lon', 'Lat']).issubset(dic.keys()) or not all([isinstance(dic[key], tuple) for key in dic]):", "compilation_passed": true, "time": 0.020093202590942383, "tests_passed": true, "error": null}
+{"code": " not {'Lon', 'Lat'}.issubset(dic.keys()) or not all(isinstance(val, tuple) for val in dic.values()):", "compilation_passed": true, "time": 0.02027297019958496, "tests_passed": true, "error": null}

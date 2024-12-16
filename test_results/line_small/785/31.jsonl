@@ -1,0 +1,6 @@
+{"code": " glob.glob(os.path.join(os.getcwd(), pattern))", "compilation_passed": true, "time": 0.23907899856567383, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(ARCHIVE_DIR, pattern))", "compilation_passed": true, "time": 0.011745214462280273, "tests_passed": true, "error": null}
+{"code": " glob.glob(pattern)", "compilation_passed": true, "time": 0.22125697135925293, "tests_passed": true, "error": null}
+{"code": " glob.glob(f'{pattern}')", "compilation_passed": true, "time": 0.23227381706237793, "tests_passed": true, "error": null}
+{"code": " glob.glob(f'{ARCHIVE_DIR}/{pattern}')", "compilation_passed": true, "time": 0.010478973388671875, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(os.curdir, pattern))", "compilation_passed": true, "time": 0.221390962600708, "tests_passed": true, "error": null}

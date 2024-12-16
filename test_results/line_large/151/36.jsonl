@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame(data_for_keys)", "compilation_passed": true, "time": 0.23363733291625977, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_for_keys, columns=data_keys)", "compilation_passed": true, "time": 0.2198479175567627, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(data_for_keys)", "compilation_passed": true, "time": 0.2253413200378418, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(data_for_keys, orient='index').T", "compilation_passed": true, "time": 0.22664999961853027, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_for_keys, index=range(len(data_for_keys[data_keys[0]])))", "compilation_passed": true, "time": 0.00811910629272461, "tests_passed": false, "error": "IndexError"}
+{"code": " pd.DataFrame.from_dict(data_for_keys, orient='index').transpose()", "compilation_passed": true, "time": 0.22314977645874023, "tests_passed": true, "error": null}

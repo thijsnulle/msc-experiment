@@ -1,0 +1,20 @@
+{"code": " collections.Counter([val for v in vegetable_dict.values() for val in v.split()])", "compilation_passed": true, "time": 0.011004924774169922, "tests_passed": true, "error": null}
+{"code": " collections.Counter({value: key for key, value in vegetable_dict.items()})", "compilation_passed": true, "time": 0.007421016693115234, "tests_passed": true, "error": null}
+{"code": " dict(zip(vegetable_dict.values(), vegetable_dict.keys()))", "compilation_passed": true, "time": 0.006544828414916992, "tests_passed": true, "error": null}
+{"code": " collections.Counter({v: random.randrange(1, 11) for k, v in vegetable_dict.items()})", "compilation_passed": true, "time": 0.006964921951293945, "tests_passed": true, "error": null}
+{"code": " collections.Counter([value for key in vegetable_dict.values() for value in list(key.keys())])", "compilation_passed": true, "time": 0.01314401626586914, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.Counter(vegetable_dict.values())", "compilation_passed": true, "time": 0.007172107696533203, "tests_passed": true, "error": null}
+{"code": " collections.Counter({v: k for k, v in vegetable_dict.items()})", "compilation_passed": true, "time": 0.006681203842163086, "tests_passed": true, "error": null}
+{"code": " collections.Counter([value for person, value in vegetable_dict.items()])", "compilation_passed": true, "time": 0.006554126739501953, "tests_passed": true, "error": null}
+{"code": " collections.Counter({v: random.randint(1, 10) for k, v in vegetable_dict.items()})", "compilation_passed": true, "time": 0.0065500736236572266, "tests_passed": true, "error": null}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.006909847259521484, "tests_passed": true, "error": null}
+{"code": " collections.Counter(vegetable_dict)", "compilation_passed": true, "time": 0.008821964263916016, "tests_passed": true, "error": null}
+{"code": " collections.Counter([vegetable_dict[key] for key in vegetable_dict])", "compilation_passed": true, "time": 0.007060050964355469, "tests_passed": true, "error": null}
+{"code": " {value: key for key, value in vegetable_dict.items()}", "compilation_passed": true, "time": 0.006397247314453125, "tests_passed": true, "error": null}
+{"code": " collections.Counter(dict(zip(vegetable_dict.values(), range(len(vegetable_dict)))))", "compilation_passed": true, "time": 0.008471012115478516, "tests_passed": true, "error": null}
+{"code": " dict((v, k) for k, v in vegetable_dict.items())", "compilation_passed": true, "time": 0.006881237030029297, "tests_passed": true, "error": null}
+{"code": " dict((value, key) for key, value in vegetable_dict.items())", "compilation_passed": true, "time": 0.006235837936401367, "tests_passed": true, "error": null}
+{"code": " {val: key for key, val in vegetable_dict.items()}", "compilation_passed": true, "time": 0.0066492557525634766, "tests_passed": true, "error": null}
+{"code": " collections.Counter([v for k in vegetable_dict for v in vegetable_dict[k]])", "compilation_passed": true, "time": 0.0066070556640625, "tests_passed": true, "error": null}
+{"code": " {v: k for k, v in vegetable_dict.items()}", "compilation_passed": true, "time": 0.0072438716888427734, "tests_passed": true, "error": null}
+{"code": " collections.Counter(vegetable_dict.items())", "compilation_passed": true, "time": 0.006754159927368164, "tests_passed": true, "error": null}

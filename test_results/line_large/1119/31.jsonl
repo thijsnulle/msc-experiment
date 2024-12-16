@@ -1,0 +1,9 @@
+{"code": " salt + password", "compilation_passed": true, "time": 0.0013420581817626953, "tests_passed": true, "error": null}
+{"code": " password + salt", "compilation_passed": true, "time": 0.001233816146850586, "tests_passed": true, "error": null}
+{"code": " codecs.encode((password + salt), \"utf-8\", errors=\"strict\")", "compilation_passed": true, "time": 0.0076863765716552734, "tests_passed": false, "error": "TypeError"}
+{"code": " bytes(password + salt, 'utf-8')", "compilation_passed": true, "time": 0.007735729217529297, "tests_passed": false, "error": "TypeError"}
+{"code": " bytes(password, 'utf-8') + bytes(salt, 'utf-8')", "compilation_passed": true, "time": 0.007074117660522461, "tests_passed": false, "error": "TypeError"}
+{"code": " bytes(password, 'utf-8')", "compilation_passed": true, "time": 0.007277011871337891, "tests_passed": false, "error": "TypeError"}
+{"code": " password.encode('utf-8')", "compilation_passed": true, "time": 0.007097005844116211, "tests_passed": false, "error": "TypeError"}
+{"code": " codecs.encode(f\"{salt}{password}\".encode('utf-8'), 'hex')", "compilation_passed": true, "time": 0.009341955184936523, "tests_passed": false, "error": "TypeError"}
+{"code": " bytes(password + salt, \"utf-8\")", "compilation_passed": true, "time": 0.007066965103149414, "tests_passed": false, "error": "TypeError"}

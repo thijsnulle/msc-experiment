@@ -1,0 +1,7 @@
+{"code": " df['list'].apply(lambda x: ast.literal_eval(x))", "compilation_passed": true, "time": 0.33445024490356445, "tests_passed": true, "error": null}
+{"code": " df['list'].apply(lambda x: [ast.literal_eval(i) for i in x.split(',')])", "compilation_passed": true, "time": 0.027737140655517578, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df['list'].apply(ast.literal_eval)", "compilation_passed": true, "time": 0.32317209243774414, "tests_passed": true, "error": null}
+{"code": " df['list'].map(ast.literal_eval)", "compilation_passed": true, "time": 0.3627908229827881, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df['list'])", "compilation_passed": true, "time": 0.021193981170654297, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame([list(map(int, l.split(','))) for l in df['list']])", "compilation_passed": true, "time": 0.016521930694580078, "tests_passed": false, "error": "ValueError"}
+{"code": " df['list'].map(lambda x: ast.literal_eval(x))", "compilation_passed": true, "time": 0.9572808742523193, "tests_passed": true, "error": null}

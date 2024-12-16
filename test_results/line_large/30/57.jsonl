@@ -1,0 +1,9 @@
+{"code": " not isinstance(data[key], INPUT_JSON['properties'][key]['type']):", "compilation_passed": true, "time": 0.005940914154052734, "tests_passed": true, "error": null}
+{"code": " data[key] is None or isinstance(data[key], str) and data[key].strip() == \"\":", "compilation_passed": true, "time": 0.004312992095947266, "tests_passed": true, "error": null}
+{"code": " data[key] is None:", "compilation_passed": true, "time": 0.00489497184753418, "tests_passed": true, "error": null}
+{"code": " type(data[key]) != INPUT_JSON['properties'][key]['type']:", "compilation_passed": true, "time": 0.004172801971435547, "tests_passed": true, "error": null}
+{"code": " data[key] is not None and type(data[key]) != INPUT_JSON['properties'][key]['type']:", "compilation_passed": true, "time": 0.0045719146728515625, "tests_passed": true, "error": null}
+{"code": " isinstance(INPUT_JSON['properties'][key], dict):", "compilation_passed": true, "time": 0.012742042541503906, "tests_passed": false, "error": "ValueError"}
+{"code": " isinstance(data[key], INPUT_JSON['properties'][key]['type']):", "compilation_passed": true, "time": 0.011570930480957031, "tests_passed": false, "error": "ValueError"}
+{"code": " data[key] is None or not isinstance(data[key], INPUT_JSON['properties'][key]['type']):", "compilation_passed": true, "time": 0.005023002624511719, "tests_passed": true, "error": null}
+{"code": " data[key] is None or data[key] == '' or str(data[key]).strip() == '':", "compilation_passed": true, "time": 0.004353046417236328, "tests_passed": true, "error": null}

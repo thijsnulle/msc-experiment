@@ -1,0 +1,22 @@
+{"code": " [float(i) * 2 if isinstance(i, str) and NUMBERS.match(i) else i for i in value]", "compilation_passed": true, "time": 0.020624160766601562, "tests_passed": true, "error": null}
+{"code": " [2 * val for val in value]", "compilation_passed": true, "time": 0.019264936447143555, "tests_passed": true, "error": null}
+{"code": " [float(num) * 2 if NUMBERS.match(str(num)) else num for num in value]", "compilation_passed": true, "time": 0.00927114486694336, "tests_passed": true, "error": null}
+{"code": " [2 * v if NUMBERS.match(str(v)) else v for v in value]", "compilation_passed": true, "time": 0.01067495346069336, "tests_passed": true, "error": null}
+{"code": " [float(v) * 2 if NUMBERS.match(str(v)) else v for v in value]", "compilation_passed": true, "time": 0.009657859802246094, "tests_passed": true, "error": null}
+{"code": " [float(num) * 2 for num in value if NUMBERS.match(str(num))]", "compilation_passed": true, "time": 0.010139226913452148, "tests_passed": true, "error": null}
+{"code": " [float(x) * 2 if NUMBERS.match(str(x)) else x for x in value]", "compilation_passed": true, "time": 0.008769035339355469, "tests_passed": true, "error": null}
+{"code": " [float(i) * 2 if re.match(NUMBERS, str(i)) else i for i in value]", "compilation_passed": true, "time": 0.009465694427490234, "tests_passed": true, "error": null}
+{"code": " [2 * val if isinstance(val, (int, float)) else float(val) if NUMBERS.match(val) else val for val in value]", "compilation_passed": true, "time": 0.0205228328704834, "tests_passed": false, "error": "TypeError"}
+{"code": " [float(str(i))*2 if NUMBERS.match(str(i)) else i for i in my_dict[key]]", "compilation_passed": true, "time": 0.01041102409362793, "tests_passed": true, "error": null}
+{"code": " [float(x) * 2 for x in value]", "compilation_passed": true, "time": 0.01652979850769043, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 0.0001800060272216797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [float(v) * 2 if isinstance(v, str) and NUMBERS.match(v) else v * 2 for v in value]", "compilation_passed": true, "time": 0.018590927124023438, "tests_passed": true, "error": null}
+{"code": " [float(x) * 2 if isinstance(x, (int, float)) or NUMBERS.match(str(x)) else x for x in value]", "compilation_passed": true, "time": 0.012585163116455078, "tests_passed": true, "error": null}
+{"code": " [float(re.sub(r'\\D', '', str(x))) * 2 if NUMBERS.match(str(x)) else x for x in value]", "compilation_passed": true, "time": 0.009605169296264648, "tests_passed": true, "error": null}
+{"code": " [float(str(elem)) * 2 if NUMBERS.match(str(elem)) else elem for elem in value]", "compilation_passed": true, "time": 0.010205984115600586, "tests_passed": true, "error": null}
+{"code": " [2 * i if isinstance(i, (int, float)) else", "compilation_passed": false, "time": 0.0002999305725097656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [float(str(i)) * 2 if isinstance(i, (int, float)) or", "compilation_passed": false, "time": 0.0002300739288330078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [float(i) * 2 if NUMBERS.match(str(i)) else i for i in value]", "compilation_passed": true, "time": 0.012092828750610352, "tests_passed": true, "error": null}
+{"code": " [2 * item if isinstance(item, int) or item.isdigit() else item for item in value]", "compilation_passed": true, "time": 0.019026994705200195, "tests_passed": false, "error": "AttributeError"}
+{"code": " [float(str(i)) * 2 for i in value]", "compilation_passed": true, "time": 0.019683122634887695, "tests_passed": false, "error": "ValueError"}
+{"code": " [float(i) * 2 if isinstance(i, (int, float)) or (isinstance(i, str) and NUMBERS.match(i)) else i for i in value]", "compilation_passed": true, "time": 0.008599996566772461, "tests_passed": true, "error": null}

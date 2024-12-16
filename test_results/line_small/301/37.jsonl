@@ -1,0 +1,26 @@
+{"code": " converted_date.year - 1986", "compilation_passed": true, "time": 0.006082057952880859, "tests_passed": true, "error": null}
+{"code": " SOLAR_CYCLE_YEARS[converted_date.year // 11]", "compilation_passed": true, "time": 0.007761955261230469, "tests_passed": false, "error": "IndexError"}
+{"code": " SOLAR_CYCLE_YEARS[converted_date.year % len(SOLAR_CYCLE_YEARS)]", "compilation_passed": true, "time": 0.008454084396362305, "tests_passed": true, "error": null}
+{"code": " math.floor(", "compilation_passed": false, "time": 0.00022101402282714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " math.floor(converted_date.year / 11) + 1", "compilation_passed": true, "time": 0.010989665985107422, "tests_passed": true, "error": null}
+{"code": " math.floor(converted_date.year / 11) * 11", "compilation_passed": true, "time": 0.008015871047973633, "tests_passed": true, "error": null}
+{"code": " None", "compilation_passed": true, "time": 0.020233869552612305, "tests_passed": false, "error": "TypeError"}
+{"code": " math.floor((converted_date.year - 1986) / 11) * 11 + 1986", "compilation_passed": true, "time": 0.00716710090637207, "tests_passed": true, "error": null}
+{"code": " _find_closest_solar_cycle_year(converted_date)", "compilation_passed": true, "time": 0.015804052352905273, "tests_passed": false, "error": "NameError"}
+{"code": " math.floor((converted_date.year - SOLAR_CYCLE_YEARS[0]) / 11.0)", "compilation_passed": true, "time": 0.006394863128662109, "tests_passed": true, "error": null}
+{"code": " int(converted_date.strftime('%Y'))", "compilation_passed": true, "time": 0.011054277420043945, "tests_passed": true, "error": null}
+{"code": " int(round(converted_date.year / 11.0, 0)) * 11 + 11", "compilation_passed": true, "time": 0.008793830871582031, "tests_passed": true, "error": null}
+{"code": " _find_closest_solar_cycle_year(converted_date.year)", "compilation_passed": true, "time": 0.007481098175048828, "tests_passed": false, "error": "NameError"}
+{"code": " int(converted_date.year - math.floor((converted_date.year - 1986) / 11))", "compilation_passed": true, "time": 0.004372835159301758, "tests_passed": true, "error": null}
+{"code": " math.floor(converted_date.year / 11) * 11 + 11 * (SOLAR_CYCLE_YEARS < converted_date.year)", "compilation_passed": true, "time": 0.00822901725769043, "tests_passed": false, "error": "TypeError"}
+{"code": " int(converted_date.year - 1986) % 11 + 1986", "compilation_passed": true, "time": 0.0054819583892822266, "tests_passed": true, "error": null}
+{"code": " math.floor((converted_date.year - SOLAR_CYCLE_YEARS[0]) / 11) * 11 + SOLAR_CYCLE_YEARS[0]", "compilation_passed": true, "time": 0.0050508975982666016, "tests_passed": true, "error": null}
+{"code": " next(", "compilation_passed": false, "time": 0.00026488304138183594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " math.floor((converted_date.year - SOLAR_CYCLE_YEARS[0]) / 11) + 1", "compilation_passed": true, "time": 0.007118701934814453, "tests_passed": true, "error": null}
+{"code": " min(math.floor((converted_date.year - SOLAR_CYCLE_YEARS[0])/11)*11 + SOLAR_CYCLE_YEARS[0], converted_date.year)", "compilation_passed": true, "time": 0.006592988967895508, "tests_passed": true, "error": null}
+{"code": " math.floor(converted_date.year/11)*11", "compilation_passed": true, "time": 0.008291006088256836, "tests_passed": true, "error": null}
+{"code": " math.floor((converted_date - SOLAR_CYCLE_YEARS[0]).days / 365)", "compilation_passed": true, "time": 0.007215976715087891, "tests_passed": false, "error": "TypeError"}
+{"code": " SOLAR_CYCLE_YEARS[math.floor(converted_date.year/11)]", "compilation_passed": true, "time": 0.007314920425415039, "tests_passed": false, "error": "IndexError"}
+{"code": " math.floor((converted_date.year - 1985) / 11) * 11 + 1986", "compilation_passed": true, "time": 0.005731105804443359, "tests_passed": true, "error": null}
+{"code": " math.floor(math.floor(converted_date.year) / 11) * 11 + 1986", "compilation_passed": true, "time": 0.0021550655364990234, "tests_passed": true, "error": null}
+{"code": " np.interp(converted_date.year, SOLAR_CYCLE_YEARS, SOLAR_CYCLE_YEARS)", "compilation_passed": true, "time": 0.008991003036499023, "tests_passed": true, "error": null}
