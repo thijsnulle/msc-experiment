@@ -1,0 +1,15 @@
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00018715858459472656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=COLUMNS, index=np.arange(len(timestamps)))", "compilation_passed": true, "time": 0.17356395721435547, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(timestamps, columns=COLUMNS)", "compilation_passed": true, "time": 0.0017628669738769531, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00021409988403320312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"Timestamp\": timestamps})", "compilation_passed": true, "time": 0.17457890510559082, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=COLUMNS)", "compilation_passed": true, "time": 0.17934513092041016, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Timestamp\": [datetime.utcfromtimestamp(t / 1000.0) for t in timestamps]})", "compilation_passed": true, "time": 0.19315099716186523, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Timestamp\": timestamps,", "compilation_passed": false, "time": 0.0002307891845703125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(index=pd.to_datetime(timestamps), columns=COLUMNS)", "compilation_passed": true, "time": 0.2007901668548584, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Timestamp\": timestamps, \"Value\": np.sin(timestamps / period) * amplitude + np.random.normal(0, 0.1, size=len(timestamps))})", "compilation_passed": true, "time": 0.20871400833129883, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({COLUMNS[0]: timestamps})", "compilation_passed": true, "time": 0.20938396453857422, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Timestamp\": timestamps, \"Value\": amplitude * np.sin(2 * np.pi * timestamps / period) +", "compilation_passed": false, "time": 0.00023412704467773438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"Timestamp\": timestamps}, columns=COLUMNS)", "compilation_passed": true, "time": 0.221466064453125, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Timestamp\": timestamps, \"Value\": amplitude * np.sin(2 * np.pi * timestamps / period) + np.random.normal(0, amplitude / 5, len(timestamps))})", "compilation_passed": true, "time": 0.21890020370483398, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=timestamps, columns=COLUMNS)", "compilation_passed": true, "time": 0.0018429756164550781, "tests_passed": false, "error": "ValueError"}

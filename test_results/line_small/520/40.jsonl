@@ -1,0 +1,16 @@
+{"code": " {key: sum([d.get(key, 0) for d in data]) for key in all_keys}", "compilation_passed": true, "time": 0.001577138900756836, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.defaultdict(int)", "compilation_passed": true, "time": 0.0015227794647216797, "tests_passed": false, "error": "ValueError"}
+{"code": " dict()", "compilation_passed": true, "time": 0.0012671947479248047, "tests_passed": false, "error": "ValueError"}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.0023190975189208984, "tests_passed": false, "error": "ValueError"}
+{"code": " {k: sum(d[k] for d in data) for k in all_keys}", "compilation_passed": true, "time": 0.0015909671783447266, "tests_passed": false, "error": "TypeError"}
+{"code": " {k: sum([d[k] for d in data]) for k in all_keys}", "compilation_passed": true, "time": 0.0015819072723388672, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.defaultdict(list)", "compilation_passed": true, "time": 0.0015430450439453125, "tests_passed": false, "error": "ValueError"}
+{"code": " {key: sum([d[key] for d in data]) for key in all_keys}", "compilation_passed": true, "time": 0.0023932456970214844, "tests_passed": false, "error": "TypeError"}
+{"code": " {k: sum([d[k] for d in data if k in d]) for k in all_keys}", "compilation_passed": true, "time": 0.0015637874603271484, "tests_passed": false, "error": "TypeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.001531839370727539, "tests_passed": false, "error": "ValueError"}
+{"code": " dict(zip(all_keys, [0] * len(all_keys)))", "compilation_passed": true, "time": 0.001566171646118164, "tests_passed": false, "error": "TypeError"}
+{"code": " {k: sum(d.get(k, 0) for d in data) for k in all_keys}", "compilation_passed": true, "time": 0.0015971660614013672, "tests_passed": false, "error": "TypeError"}
+{"code": " dict(collections.Counter(all_keys).items())", "compilation_passed": true, "time": 0.0015981197357177734, "tests_passed": false, "error": "TypeError"}
+{"code": " dict.fromkeys(all_keys)", "compilation_passed": true, "time": 0.0015418529510498047, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.defaultdict(lambda: 0)", "compilation_passed": true, "time": 0.0016109943389892578, "tests_passed": false, "error": "ValueError"}
+{"code": " dict.fromkeys(all_keys, 0)", "compilation_passed": true, "time": 0.0015101432800292969, "tests_passed": false, "error": "TypeError"}

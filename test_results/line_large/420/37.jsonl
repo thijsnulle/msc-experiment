@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame.from_dict(data)", "compilation_passed": true, "time": 0.0056879520416259766, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.005609989166259766, "tests_passed": true, "error": null}
+{"code": " data[\"x\"]", "compilation_passed": true, "time": 0.0013899803161621094, "tests_passed": false, "error": "KeyError"}
+{"code": " data['x']", "compilation_passed": true, "time": 0.0013959407806396484, "tests_passed": false, "error": "KeyError"}
+{"code": " data.copy()", "compilation_passed": true, "time": 0.0014100074768066406, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,13 @@
+{"code": " not path:", "compilation_passed": true, "time": 0.0018131732940673828, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not isinstance(path, str) or not path:", "compilation_passed": true, "time": 0.0028259754180908203, "tests_passed": true, "error": null}
+{"code": " path == \"\":", "compilation_passed": true, "time": 0.0016880035400390625, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " path is None or path == \"\":", "compilation_passed": true, "time": 0.0016608238220214844, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not path or not isinstance(path, str):", "compilation_passed": true, "time": 0.0030760765075683594, "tests_passed": true, "error": null}
+{"code": " not isinstance(path, str):", "compilation_passed": true, "time": 0.0016608238220214844, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not os.path.exists(path):", "compilation_passed": true, "time": 0.002919912338256836, "tests_passed": true, "error": null}
+{"code": " not path or type(path) != str:", "compilation_passed": true, "time": 0.0030260086059570312, "tests_passed": true, "error": null}
+{"code": " not path or not isinstance(path, str) or \"/\" not in path:", "compilation_passed": true, "time": 0.0026619434356689453, "tests_passed": false, "error": "ValueError"}
+{"code": " not path or type(path) is not str or delimiter not in path:", "compilation_passed": true, "time": 0.002691030502319336, "tests_passed": false, "error": "ValueError"}
+{"code": " not path or not isinstance(path, str) or not path.strip():", "compilation_passed": true, "time": 0.0030221939086914062, "tests_passed": true, "error": null}
+{"code": " path.strip() == \"\":", "compilation_passed": true, "time": 0.0016398429870605469, "tests_passed": false, "error": "AttributeError"}
+{"code": " not path or type(path) is not str or delimiter == \"\":", "compilation_passed": true, "time": 0.003001689910888672, "tests_passed": true, "error": null}

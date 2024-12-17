@@ -1,0 +1,12 @@
+{"code": " fdist.most_common(top_n)", "compilation_passed": true, "time": 0.019550323486328125, "tests_passed": true, "error": null}
+{"code": " dict(fdist.most_common(top_n))", "compilation_passed": true, "time": 0.10857009887695312, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.018779754638671875, "tests_passed": true, "error": null}
+{"code": " dict(fdist.most_common())", "compilation_passed": true, "time": 0.0586240291595459, "tests_passed": true, "error": null}
+{"code": " {word: freq for word, freq in fdist.items() if freq >= 30}", "compilation_passed": true, "time": 0.020634889602661133, "tests_passed": true, "error": null}
+{"code": " dict(zip(fdist.tab(), fdist.values()))", "compilation_passed": true, "time": 0.020817041397094727, "tests_passed": false, "error": "AttributeError"}
+{"code": " {word: fdist[word] for word in fdist.most_common(top_n)}", "compilation_passed": true, "time": 0.021013736724853516, "tests_passed": true, "error": null}
+{"code": " dict(zip(fdist.samples(), fdist.values()))", "compilation_passed": true, "time": 0.0193328857421875, "tests_passed": false, "error": "AttributeError"}
+{"code": " dict(zip(fdist.keys()[:top_n], fdist.values()[:top_n]))", "compilation_passed": true, "time": 0.019887208938598633, "tests_passed": false, "error": "TypeError"}
+{"code": " dict(sorted(fdist.items(), key=lambda x: x[1], reverse=True)[:top_n])", "compilation_passed": true, "time": 0.1006629467010498, "tests_passed": true, "error": null}
+{"code": " dict(zip(fdist.keys(), fdist.values()))", "compilation_passed": true, "time": 0.05892515182495117, "tests_passed": true, "error": null}
+{"code": " dict(zip(fdist.items(), fdist.values()))", "compilation_passed": true, "time": 0.02332329750061035, "tests_passed": true, "error": null}

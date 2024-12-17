@@ -1,0 +1,9 @@
+{"code": " df['target']", "compilation_passed": true, "time": 0.0037910938262939453, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.loc(df, ['target'])", "compilation_passed": true, "time": 0.0014498233795166016, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame['target'](df)", "compilation_passed": true, "time": 0.0014009475708007812, "tests_passed": false, "error": "TypeError"}
+{"code": " df.target", "compilation_passed": true, "time": 0.0037848949432373047, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.loc[df, 'target']", "compilation_passed": true, "time": 0.0014219284057617188, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame.loc[:, 'target']", "compilation_passed": true, "time": 0.0014667510986328125, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame.loc(df, 'target')", "compilation_passed": true, "time": 0.0014216899871826172, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame.loc[:, df.target]", "compilation_passed": true, "time": 0.0014510154724121094, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame.loc[:, df['target']]", "compilation_passed": true, "time": 0.0014328956604003906, "tests_passed": false, "error": "TypeError"}

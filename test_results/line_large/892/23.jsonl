@@ -1,0 +1,24 @@
+{"code": " random.choice(strings)", "compilation_passed": true, "time": 0.0007529258728027344, "tests_passed": true, "error": null}
+{"code": " \"ab\"", "compilation_passed": true, "time": 0.0006880760192871094, "tests_passed": true, "error": null}
+{"code": " random.choice(['123', 'abc', 'xyz'])", "compilation_passed": true, "time": 0.0006427764892578125, "tests_passed": true, "error": null}
+{"code": " '{pattern}'", "compilation_passed": true, "time": 0.0006241798400878906, "tests_passed": true, "error": null}
+{"code": " '}{'", "compilation_passed": true, "time": 0.0006730556488037109, "tests_passed": true, "error": null}
+{"code": " '}.{2}'", "compilation_passed": true, "time": 0.0006229877471923828, "tests_passed": true, "error": null}
+{"code": " random.choice(['}', ']', '}', '}'])", "compilation_passed": true, "time": 0.0006399154663085938, "tests_passed": true, "error": null}
+{"code": " r'[^a-z0-9\\s}]{2,}'", "compilation_passed": true, "time": 0.0006308555603027344, "tests_passed": true, "error": null}
+{"code": " \"{}\"", "compilation_passed": true, "time": 0.0006678104400634766, "tests_passed": true, "error": null}
+{"code": " re.compile(r'}')", "compilation_passed": true, "time": 0.0006759166717529297, "tests_passed": false, "error": "NameError"}
+{"code": " \"\".join([random.choice(string) for string in strings])", "compilation_passed": true, "time": 0.0006978511810302734, "tests_passed": true, "error": null}
+{"code": " random.choice(['}{', '}'])", "compilation_passed": true, "time": 0.000659942626953125, "tests_passed": true, "error": null}
+{"code": " r'}.{'", "compilation_passed": true, "time": 0.0006721019744873047, "tests_passed": true, "error": null}
+{"code": " '{}'", "compilation_passed": true, "time": 0.0006687641143798828, "tests_passed": true, "error": null}
+{"code": " random.choice(['}'])", "compilation_passed": true, "time": 0.0006306171417236328, "tests_passed": true, "error": null}
+{"code": " r'\\{([a-zA-Z]+)\\}'", "compilation_passed": true, "time": 0.0006160736083984375, "tests_passed": true, "error": null}
+{"code": " '}'  # \u0421\u0438\u043c\u0432\u043e\u043b \u0434\u043b\u044f \u0430\u043d\u0430\u043b\u0438\u0437\u0430", "compilation_passed": true, "time": 0.0006308555603027344, "tests_passed": true, "error": null}
+{"code": " '}#}'", "compilation_passed": true, "time": 0.0006210803985595703, "tests_passed": true, "error": null}
+{"code": " re.compile(r'.{1,}?}')", "compilation_passed": true, "time": 0.0006098747253417969, "tests_passed": false, "error": "NameError"}
+{"code": " strings[0][-3:]", "compilation_passed": true, "time": 0.0006258487701416016, "tests_passed": true, "error": null}
+{"code": " '}...}...}'", "compilation_passed": true, "time": 0.0006618499755859375, "tests_passed": true, "error": null}
+{"code": " '}abc{'", "compilation_passed": true, "time": 0.0006117820739746094, "tests_passed": true, "error": null}
+{"code": " '}'", "compilation_passed": true, "time": 0.0006771087646484375, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(.)\\1}')  # match a repeated character followed by '}'", "compilation_passed": true, "time": 0.0006651878356933594, "tests_passed": false, "error": "NameError"}

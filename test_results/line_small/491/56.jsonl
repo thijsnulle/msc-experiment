@@ -1,0 +1,11 @@
+{"code": "plot(range(days_diff), sales, label=category)", "compilation_passed": true, "time": 0.06386804580688477, "tests_passed": true, "error": null}
+{"code": "plot(sales, label=category)", "compilation_passed": true, "time": 0.06319689750671387, "tests_passed": true, "error": null}
+{"code": "bar(range(len(sales)), sales, color=random.random(), label=category)", "compilation_passed": true, "time": 0.01866769790649414, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(list(range(days_diff)), sales, label=category)", "compilation_passed": true, "time": 0.06514096260070801, "tests_passed": true, "error": null}
+{"code": "plot(range(days_diff), sales, label=category, marker='o')", "compilation_passed": true, "time": 0.07001805305480957, "tests_passed": true, "error": null}
+{"code": "plot(sales, label=category, color='#%06X' % random.randint(0, 0xFFFFFF))", "compilation_passed": true, "time": 0.06543183326721191, "tests_passed": true, "error": null}
+{"code": "plot(range(1, len(sales) + 1), sales, label=category, color=random.randcolor())", "compilation_passed": true, "time": 0.015201091766357422, "tests_passed": false, "error": "AttributeError"}
+{"code": "plot(sales, label=category, linewidth=2)", "compilation_passed": true, "time": 0.06712698936462402, "tests_passed": true, "error": null}
+{"code": "plot(list(range(len(sales))), sales, label=category)", "compilation_passed": true, "time": 0.06795096397399902, "tests_passed": true, "error": null}
+{"code": "plot(range(len(sales)), sales, label=category)", "compilation_passed": true, "time": 0.07095980644226074, "tests_passed": true, "error": null}
+{"code": "plot(range(len(sales)), sales, label=category, linewidth=1, marker='o')", "compilation_passed": true, "time": 0.071990966796875, "tests_passed": true, "error": null}

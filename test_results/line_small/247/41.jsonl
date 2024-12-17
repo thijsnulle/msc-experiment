@@ -1,0 +1,7 @@
+{"code": " pd.DataFrame({'Normalized Value': data})", "compilation_passed": true, "time": 0.001461029052734375, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=[\"Normalized Value\"])", "compilation_passed": true, "time": 0.0014231204986572266, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data, columns=['Normalized Value'])", "compilation_passed": true, "time": 0.001316070556640625, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.0014820098876953125, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.0014410018920898438, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data).rename(columns={\"Normalized Value\": \"Normalized Value\"})", "compilation_passed": true, "time": 0.0017299652099609375, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"Normalized Value\": data})", "compilation_passed": true, "time": 0.0014150142669677734, "tests_passed": false, "error": "KeyError"}

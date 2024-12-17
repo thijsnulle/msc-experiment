@@ -1,0 +1,12 @@
+{"code": " CountVectorizer(lowercase=False)", "compilation_passed": true, "time": 0.002234935760498047, "tests_passed": true, "error": null}
+{"code": " CountVectorizer()", "compilation_passed": true, "time": 0.0021278858184814453, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(token_pattern=r\"[^\\s]+\")", "compilation_passed": true, "time": 0.0022177696228027344, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(lowercase=True, token_pattern=r'\\b\\w+\\b', min_df=1, max_df=0.25)", "compilation_passed": true, "time": 0.0011510848999023438, "tests_passed": false, "error": "ValueError"}
+{"code": " CountVectorizer(min_df=0.5, max_df=0.9, token_pattern='(?u)\\\\b\\\\w+\\\\b')", "compilation_passed": true, "time": 0.0014498233795166016, "tests_passed": false, "error": "ValueError"}
+{"code": " CountVectorizer(token_pattern=r'(?u)\\b\\w+\\b')", "compilation_passed": true, "time": 0.0021500587463378906, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(ngram_range=(1, 2))", "compilation_passed": true, "time": 0.0021429061889648438, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(ngram_range=(1, 1),", "compilation_passed": false, "time": 0.00014829635620117188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " CountVectorizer(ngram_range=(1, 1), max_features=300)", "compilation_passed": true, "time": 0.0021049976348876953, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(token_pattern=r\"\\b[a-zA-Z0-9]+\\b\", lowercase=True, max_df=0.9)", "compilation_passed": true, "time": 0.00203704833984375, "tests_passed": false, "error": "ValueError"}
+{"code": " CountVectorizer(token_pattern=r'\\b[^\\d\\W]+\\b')", "compilation_passed": true, "time": 0.0021209716796875, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(token_pattern=r\"(?u)\\b\\w+\\b\")", "compilation_passed": true, "time": 0.0021681785583496094, "tests_passed": true, "error": null}

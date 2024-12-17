@@ -1,0 +1,13 @@
+{"code": " dict()", "compilation_passed": true, "time": 0.0012989044189453125, "tests_passed": false, "error": "ValueError"}
+{"code": " {key: sum(val for val in values) for key, values in combined_dict.items()}", "compilation_passed": true, "time": 0.13827729225158691, "tests_passed": true, "error": null}
+{"code": " {fruit: sum(sales) for fruit, sales in combined_dict.items()}", "compilation_passed": true, "time": 0.13212275505065918, "tests_passed": true, "error": null}
+{"code": " dict((k, sum(v)) for k, v in combined_dict.items())", "compilation_passed": true, "time": 0.1357731819152832, "tests_passed": true, "error": null}
+{"code": " {k: sum(v) for k, v in combined_dict.items()}", "compilation_passed": true, "time": 0.14272212982177734, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.0015430450439453125, "tests_passed": false, "error": "ValueError"}
+{"code": " {fruit: sum(quantities) for fruit, quantities in combined_dict.items()}", "compilation_passed": true, "time": 0.14000201225280762, "tests_passed": true, "error": null}
+{"code": " dict((fruit, sum(quantity for quantity in quantities)) for fruit, quantities in combined_dict.items())", "compilation_passed": true, "time": 0.13959717750549316, "tests_passed": true, "error": null}
+{"code": " dict(zip(all_keys, [sum(v) for v in zip(*combined_dict.values())]))", "compilation_passed": true, "time": 0.020134925842285156, "tests_passed": true, "error": null}
+{"code": " {fruit: sum(quantity for quantity in sales_list) for fruit, sales_list in combined_dict.items()}", "compilation_passed": true, "time": 0.14461302757263184, "tests_passed": true, "error": null}
+{"code": " {k: sum(v for v in d.values()) for k, d in combined_dict.items()}", "compilation_passed": true, "time": 0.0015971660614013672, "tests_passed": false, "error": "AttributeError"}
+{"code": " dict((fruit, sum(quantities)) for fruit, quantities in combined_dict.items())", "compilation_passed": true, "time": 0.16047096252441406, "tests_passed": true, "error": null}
+{"code": " dict((k, sum(v for v in v)) for k, v in combined_dict.items())", "compilation_passed": true, "time": 0.1558377742767334, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": " data[FEATURES].copy()", "compilation_passed": false, "time": 0.00015282630920410156, "tests_passed": false, "error": "IndentationError"}
+{"code": " data.loc[:, FEATURES]", "compilation_passed": false, "time": 0.00013017654418945312, "tests_passed": false, "error": "IndentationError"}
+{"code": " scaler.fit_transform(data[FEATURES])", "compilation_passed": false, "time": 0.0001399517059326172, "tests_passed": false, "error": "IndentationError"}
+{"code": " data[FEATURES]", "compilation_passed": false, "time": 0.00012803077697753906, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(scaler.fit_transform(data[FEATURES]))", "compilation_passed": false, "time": 0.0001659393310546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " scaler.fit_transform(data[FEATURES].to_numpy())", "compilation_passed": false, "time": 0.00015616416931152344, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(scaler.fit_transform(data[FEATURES]), columns=data[FEATURES].columns)", "compilation_passed": false, "time": 0.00012111663818359375, "tests_passed": false, "error": "IndentationError"}
+{"code": " scaler.fit_transform(data[FEATURES], y=None)", "compilation_passed": false, "time": 0.00010395050048828125, "tests_passed": false, "error": "IndentationError"}
+{"code": " data.copy()", "compilation_passed": false, "time": 9.179115295410156e-05, "tests_passed": false, "error": "IndentationError"}

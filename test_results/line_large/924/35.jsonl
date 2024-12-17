@@ -1,0 +1,8 @@
+{"code": " df[column_name].str.replace('\\n', '<br>', regex=False)", "compilation_passed": true, "time": 0.0008561611175537109, "tests_passed": false, "error": "FileExistsError"}
+{"code": " df[column_name].str.replace('\\n', '<br>')", "compilation_passed": true, "time": 0.0008528232574462891, "tests_passed": false, "error": "FileExistsError"}
+{"code": " df[column_name].str.replace(r'\\n', '<br />')", "compilation_passed": true, "time": 0.0008478164672851562, "tests_passed": false, "error": "FileExistsError"}
+{"code": " df[column_name].str.replace('\\n', '<br >')", "compilation_passed": true, "time": 0.0008509159088134766, "tests_passed": false, "error": "FileExistsError"}
+{"code": " df[column_name].str.replace('\\n', '<br />')", "compilation_passed": true, "time": 0.0008451938629150391, "tests_passed": false, "error": "FileExistsError"}
+{"code": " df[column_name].str.replace(r'\\n', '<br>')", "compilation_passed": true, "time": 0.0008318424224853516, "tests_passed": false, "error": "FileExistsError"}
+{"code": " df[column_name].str.replace(r'\\n', r'<br />', regex=True)", "compilation_passed": true, "time": 0.0008368492126464844, "tests_passed": false, "error": "FileExistsError"}
+{"code": " df[column_name].str.replace('\\n', '<br />', regex=True)", "compilation_passed": true, "time": 0.0008318424224853516, "tests_passed": false, "error": "FileExistsError"}

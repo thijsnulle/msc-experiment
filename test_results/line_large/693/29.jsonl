@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(scaler.fit_transform(df), columns=columns)", "compilation_passed": true, "time": 0.004971981048583984, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(df)", "compilation_passed": true, "time": 0.001725912094116211, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(scaler.fit_transform(df), columns=df.columns)", "compilation_passed": true, "time": 0.0046520233154296875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(scaler.fit_transform(df.values), index=df.index, columns=df.columns)", "compilation_passed": true, "time": 0.0022821426391601562, "tests_passed": true, "error": null}

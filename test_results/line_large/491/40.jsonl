@@ -1,0 +1,11 @@
+{"code": " not 0 <= epoch_milliseconds <= datetime.utcnow().timestamp():", "compilation_passed": true, "time": 0.10840082168579102, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0:", "compilation_passed": true, "time": 0.27582573890686035, "tests_passed": true, "error": null}
+{"code": " seed is not None:", "compilation_passed": true, "time": 0.08648514747619629, "tests_passed": true, "error": null}
+{"code": " not (0 <= epoch_milliseconds <= 10**10 and epoch_milliseconds <= int(datetime.now().timestamp() * 1000)):", "compilation_passed": true, "time": 0.08790802955627441, "tests_passed": true, "error": null}
+{"code": " seed:", "compilation_passed": true, "time": 0.09449219703674316, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0 or epoch_milliseconds >= int(datetime.now().timestamp() * 1000):", "compilation_passed": true, "time": 0.2629830837249756, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0 or datetime.fromtimestamp(epoch_milliseconds // 1000) >= datetime.utcnow():", "compilation_passed": true, "time": 0.2672591209411621, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0 or datetime.utcfromtimestamp(epoch_milliseconds) > datetime.utcnow():", "compilation_passed": true, "time": 0.001374959945678711, "tests_passed": false, "error": "ValueError"}
+{"code": " epoch_milliseconds < 0 or epoch_milliseconds > int(datetime.now().timestamp() * 1000):", "compilation_passed": true, "time": 0.27628087997436523, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0 or epoch_milliseconds > datetime.now().timestamp() * 1000:", "compilation_passed": true, "time": 0.28207898139953613, "tests_passed": true, "error": null}
+{"code": " not isinstance(epoch_milliseconds, int) or epoch_milliseconds < 0:", "compilation_passed": true, "time": 0.2776641845703125, "tests_passed": true, "error": null}

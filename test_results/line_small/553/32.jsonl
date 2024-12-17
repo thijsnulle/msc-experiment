@@ -1,0 +1,19 @@
+{"code": " len(b) != 5:", "compilation_passed": true, "time": 0.06769013404846191, "tests_passed": true, "error": null}
+{"code": " len(a) != len(b):", "compilation_passed": true, "time": 0.019504070281982422, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(a, list) and isinstance(b, list):", "compilation_passed": true, "time": 0.06735920906066895, "tests_passed": true, "error": null}
+{"code": " not isinstance(a, list):", "compilation_passed": true, "time": 0.022060155868530273, "tests_passed": false, "error": "TypeError"}
+{"code": " len(a) > 0:", "compilation_passed": true, "time": 0.017703771591186523, "tests_passed": false, "error": "TypeError"}
+{"code": " len(a) == 0 or len(b) == 0:", "compilation_passed": true, "time": 0.09462690353393555, "tests_passed": true, "error": null}
+{"code": " len(a) < 1 or len(b) < 1:", "compilation_passed": true, "time": 0.08350682258605957, "tests_passed": true, "error": null}
+{"code": " type(a) is not list or len(a) == 0 or not isinstance(a[0], int) or type(b) is not list or len(b) == 0:", "compilation_passed": true, "time": 0.10053396224975586, "tests_passed": true, "error": null}
+{"code": " len(a) < 2 or len(b) < 1:", "compilation_passed": true, "time": 0.10020780563354492, "tests_passed": true, "error": null}
+{"code": " len(b) > 0:", "compilation_passed": true, "time": 0.022616147994995117, "tests_passed": false, "error": "TypeError"}
+{"code": " len(b) > 5 or len(b) == 0 or (len(a) == 0 and len(b) > 1):", "compilation_passed": true, "time": 0.09540820121765137, "tests_passed": true, "error": null}
+{"code": " not isinstance(a, list) or not isinstance(b, list):", "compilation_passed": true, "time": 0.02625417709350586, "tests_passed": false, "error": "TypeError"}
+{"code": " len(b) < 1:", "compilation_passed": true, "time": 0.06379103660583496, "tests_passed": false, "error": "IndexError"}
+{"code": " not isinstance(a, (list, np.ndarray, pd.Series)):", "compilation_passed": true, "time": 0.0274960994720459, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(a, list) or len(a) < 0:", "compilation_passed": true, "time": 0.024661779403686523, "tests_passed": false, "error": "TypeError"}
+{"code": " len(a) < len(b):", "compilation_passed": true, "time": 0.025458097457885742, "tests_passed": false, "error": "TypeError"}
+{"code": " len(a) > 10 or len(b) > len(COLUMNS):", "compilation_passed": true, "time": 0.030210018157958984, "tests_passed": false, "error": "TypeError"}
+{"code": " (len(b) <= len(COLUMNS)) or (len(b) > len(COLUMNS) + 2):", "compilation_passed": true, "time": 0.08362507820129395, "tests_passed": true, "error": null}
+{"code": " len(b) != len(COLUMNS):", "compilation_passed": true, "time": 0.09198999404907227, "tests_passed": true, "error": null}

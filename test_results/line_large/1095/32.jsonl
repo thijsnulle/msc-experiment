@@ -1,0 +1,6 @@
+{"code": " tokenizer.tokenize(text)", "compilation_passed": true, "time": 0.0019571781158447266, "tests_passed": true, "error": null}
+{"code": " [word.strip('$') for word in tokenizer.tokenize(text)]", "compilation_passed": true, "time": 0.001461029052734375, "tests_passed": true, "error": null}
+{"code": " [token[1:] for token in tokenizer.tokenize(text)]", "compilation_passed": true, "time": 0.0014519691467285156, "tests_passed": true, "error": null}
+{"code": " [word for word in tokenizer.tokenize(text) if not punctuation_set.issuperset(word[1:])]", "compilation_passed": true, "time": 0.001958131790161133, "tests_passed": true, "error": null}
+{"code": " tokenizer.tokenize(input_text)", "compilation_passed": true, "time": 0.0010569095611572266, "tests_passed": false, "error": "NameError"}
+{"code": " set(tokenizer.tokenize(text))", "compilation_passed": true, "time": 0.0012853145599365234, "tests_passed": true, "error": null}

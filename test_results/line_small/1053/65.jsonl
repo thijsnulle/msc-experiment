@@ -1,0 +1,7 @@
+{"code": " words_freq[0:10]", "compilation_passed": true, "time": 0.09670400619506836, "tests_passed": true, "error": null}
+{"code": " [words_freq[i] for i in range(10)]", "compilation_passed": true, "time": 0.0015940666198730469, "tests_passed": true, "error": null}
+{"code": " words_freq[:10]", "compilation_passed": true, "time": 0.09523391723632812, "tests_passed": true, "error": null}
+{"code": " [w[0] for w in words_freq[:10]]", "compilation_passed": true, "time": 0.002110004425048828, "tests_passed": true, "error": null}
+{"code": " [word for word, _ in words_freq][:10]", "compilation_passed": true, "time": 0.0019388198852539062, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00024700164794921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [words for words, _ in words_freq]", "compilation_passed": true, "time": 0.0016071796417236328, "tests_passed": true, "error": null}

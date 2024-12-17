@@ -1,0 +1,27 @@
+{"code": " np.random.randn(len(timestamps)) * amplitude", "compilation_passed": true, "time": 0.23194479942321777, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(amplitude - amplitude * 0.5, amplitude + amplitude * 0.5, size=len(timestamps))", "compilation_passed": true, "time": 0.23955297470092773, "tests_passed": true, "error": null}
+{"code": " amplitude * np.sin(2 * np.pi / period * (timestamps - start_time))", "compilation_passed": true, "time": 0.24937796592712402, "tests_passed": true, "error": null}
+{"code": " np.random.normal(loc=amplitude, scale=amplitude/5, size=len(timestamps))", "compilation_passed": true, "time": 0.2461531162261963, "tests_passed": true, "error": null}
+{"code": " amplitude * np.cos(2 * np.pi * timestamps / (1000 * period))", "compilation_passed": true, "time": 0.2518882751464844, "tests_passed": true, "error": null}
+{"code": " [amplitude * np.sin((timestamps % period) / (period / 2.0)).sum()", "compilation_passed": false, "time": 0.00026106834411621094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.uniform(amplitude / 2, amplitude * 2, len(timestamps))", "compilation_passed": true, "time": 0.26024603843688965, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(0, amplitude, len(timestamps))", "compilation_passed": true, "time": 0.24548602104187012, "tests_passed": true, "error": null}
+{"code": " [amplitude * np.sin(2.0 * np.pi * period * (ts / 1000) / (period / step)) for ts in timestamps]", "compilation_passed": true, "time": 0.25374484062194824, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(-amplitude, amplitude, len(timestamps))", "compilation_passed": true, "time": 0.2830021381378174, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0017371177673339844, "tests_passed": false, "error": "IndexError"}
+{"code": " [(amplitude - np.random.normal(0.0, amplitude * 0.25, 1)) * (period / 1000.0) for _ in timestamps]", "compilation_passed": true, "time": 0.003170013427734375, "tests_passed": false, "error": "TypeError"}
+{"code": " np.random.uniform(0, amplitude, size=len(timestamps))", "compilation_passed": true, "time": 0.2659158706665039, "tests_passed": true, "error": null}
+{"code": " np.random.normal(", "compilation_passed": false, "time": 0.00024700164794921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.normal(loc=amplitude / 2, scale=amplitude, size=len(timestamps))", "compilation_passed": true, "time": 0.27052783966064453, "tests_passed": true, "error": null}
+{"code": " [amplitude * np.sin(2 * np.pi / 1000 * t + (period - 1000) / 1000) for t in timestamps]", "compilation_passed": true, "time": 0.26375317573547363, "tests_passed": true, "error": null}
+{"code": " np.random.normal(amplitude, amplitude * 0.1, len(timestamps))", "compilation_passed": true, "time": 0.28072285652160645, "tests_passed": true, "error": null}
+{"code": " [amplitude * np.sin(2 * np.pi / period * t) for t in timestamps]", "compilation_passed": true, "time": 0.267071008682251, "tests_passed": true, "error": null}
+{"code": " np.random.randint(", "compilation_passed": false, "time": 0.00026988983154296875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [amplitude * (np.sin(2.0 * np.pi * (t / period)) + 1.0) for t in timestamps]", "compilation_passed": true, "time": 0.2822608947753906, "tests_passed": true, "error": null}
+{"code": " np.random.randint(-amplitude, amplitude + 1, len(timestamps))", "compilation_passed": true, "time": 0.27249813079833984, "tests_passed": true, "error": null}
+{"code": " (amplitude - 0.5) * np.random.rand(len(timestamps)) + 0.5", "compilation_passed": true, "time": 0.2791471481323242, "tests_passed": true, "error": null}
+{"code": " amplitude * np.sin(", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.normal(0, amplitude, len(timestamps))", "compilation_passed": true, "time": 0.27944493293762207, "tests_passed": true, "error": null}
+{"code": " amplitude * np.sin(2 * np.pi * (timestamps / 1000.0) / period)", "compilation_passed": true, "time": 0.29547595977783203, "tests_passed": true, "error": null}
+{"code": " np.sin(timestamps / period) * amplitude", "compilation_passed": true, "time": 0.28939104080200195, "tests_passed": true, "error": null}
+{"code": " [amplitude * np.sin(2 * np.pi * p / 1000 * (t - start_time) / period) for p, t in zip(period, timestamps)]", "compilation_passed": true, "time": 0.0018968582153320312, "tests_passed": false, "error": "TypeError"}

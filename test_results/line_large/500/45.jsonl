@@ -1,0 +1,9 @@
+{"code": " row_values.get(col)", "compilation_passed": true, "time": 0.003216981887817383, "tests_passed": true, "error": null}
+{"code": " row_values[col]", "compilation_passed": true, "time": 0.0015397071838378906, "tests_passed": false, "error": "KeyError"}
+{"code": " row_values.get(col, '')", "compilation_passed": true, "time": 0.003182649612426758, "tests_passed": true, "error": null}
+{"code": " row_values.get(col) or ''", "compilation_passed": true, "time": 0.0031130313873291016, "tests_passed": true, "error": null}
+{"code": " row_values[col] if col in row_values else \"\"", "compilation_passed": true, "time": 0.003245115280151367, "tests_passed": true, "error": null}
+{"code": " row_values.get(col, None)", "compilation_passed": true, "time": 0.0031659603118896484, "tests_passed": true, "error": null}
+{"code": " row_values.get(col) if row_values is not None else ''", "compilation_passed": true, "time": 0.0031261444091796875, "tests_passed": true, "error": null}
+{"code": " row_values.get(col, \"\")", "compilation_passed": true, "time": 0.003088235855102539, "tests_passed": true, "error": null}
+{"code": " row_values[col] if col in row_values else None", "compilation_passed": true, "time": 0.003237009048461914, "tests_passed": true, "error": null}

@@ -1,0 +1,6 @@
+{"code": " not os.path.exists(BACKUP_DIR):", "compilation_passed": true, "time": 0.0037240982055664062, "tests_passed": false, "error": "AttributeError"}
+{"code": " os.path.isfile(directory):", "compilation_passed": true, "time": 0.003804922103881836, "tests_passed": false, "error": "AttributeError"}
+{"code": " not os.path.isdir(directory):", "compilation_passed": true, "time": 0.0031747817993164062, "tests_passed": false, "error": "AttributeError"}
+{"code": " os.path.islink(directory):", "compilation_passed": true, "time": 0.0032410621643066406, "tests_passed": false, "error": "AttributeError"}
+{"code": " os.path.isdir(directory):", "compilation_passed": true, "time": 0.0037751197814941406, "tests_passed": false, "error": "AttributeError"}
+{"code": " os.path.islink(directory) or os.path.isfile(directory):", "compilation_passed": true, "time": 0.0032379627227783203, "tests_passed": false, "error": "AttributeError"}

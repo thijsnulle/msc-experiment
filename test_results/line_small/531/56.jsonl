@@ -1,0 +1,22 @@
+{"code": "set_title(\"Clustered Data\")", "compilation_passed": true, "time": 0.13353896141052246, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"x\")", "compilation_passed": true, "time": 0.13480186462402344, "tests_passed": true, "error": null}
+{"code": "set_title(\"Clustered data\")", "compilation_passed": true, "time": 0.13964009284973145, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Clustering Data with KMeans (n_clusters = {n_clusters})\")", "compilation_passed": true, "time": 0.14121603965759277, "tests_passed": true, "error": null}
+{"code": "legend(handles=scatter.legend_.legendHandles)", "compilation_passed": true, "time": 0.01838207244873047, "tests_passed": false, "error": "AttributeError"}
+{"code": "legend(handles=scatter.legend_handles, labels=unique_df[\"cluster\"].unique())", "compilation_passed": true, "time": 0.01774001121520996, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_aspect(\"equal\", \"box\")", "compilation_passed": true, "time": 0.1410360336303711, "tests_passed": true, "error": null}
+{"code": "set_title(\"KMeans Clustering\")", "compilation_passed": true, "time": 0.14630603790283203, "tests_passed": true, "error": null}
+{"code": "set(xlabel=\"X\", ylabel=\"Y\")", "compilation_passed": true, "time": 0.14966917037963867, "tests_passed": true, "error": null}
+{"code": "set(xlim=(unique_df[\"x\"].min() - 1, unique_df[\"x\"].max() + 1),", "compilation_passed": false, "time": 0.0003578662872314453, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set(xlabel=\"x\", ylabel=\"y\", title=\"Clustered Data\")", "compilation_passed": true, "time": 0.14732789993286133, "tests_passed": true, "error": null}
+{"code": "set_title(f\"K-Means clustering on {len(unique_df)} unique points\")", "compilation_passed": true, "time": 0.1449260711669922, "tests_passed": true, "error": null}
+{"code": "legend(handles=scatter.legend_.legendHandles, labels=scatter.legend_.text.s,", "compilation_passed": false, "time": 0.00034999847412109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "legend(*scatter.legend.legends)", "compilation_passed": true, "time": 0.017925739288330078, "tests_passed": false, "error": "AttributeError"}
+{"code": "legend([\"Cluster 0\", \"Cluster 1\", \"Cluster 2\"])", "compilation_passed": true, "time": 0.15185213088989258, "tests_passed": true, "error": null}
+{"code": "set_title(f\"KMeans clustering with {n_clusters} clusters\")", "compilation_passed": true, "time": 0.15091490745544434, "tests_passed": true, "error": null}
+{"code": "set(xlim=(0, 5), ylim=(0, 5))", "compilation_passed": true, "time": 0.15718293190002441, "tests_passed": true, "error": null}
+{"code": "legend([\"Duplicates\", \"Unique Points\", \"Clustered\"], loc=\"upper left\")", "compilation_passed": true, "time": 0.152299165725708, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Duplicate Points Clustering (n_clusters: {n_clusters})\")", "compilation_passed": true, "time": 0.1525871753692627, "tests_passed": true, "error": null}
+{"code": "set_aspect('equal')", "compilation_passed": true, "time": 0.15267300605773926, "tests_passed": true, "error": null}
+{"code": "legend(labels=[\"Cluster {}\".format(cluster) for cluster in range(n_clusters)])", "compilation_passed": true, "time": 0.16232085227966309, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Clustered data with {n_clusters} clusters\")", "compilation_passed": true, "time": 0.15796613693237305, "tests_passed": true, "error": null}

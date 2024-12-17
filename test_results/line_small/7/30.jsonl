@@ -1,0 +1,5 @@
+{"code": " csv.reader(f)", "compilation_passed": true, "time": 0.002096891403198242, "tests_passed": true, "error": null}
+{"code": " csv.DictReader(f)", "compilation_passed": true, "time": 0.0011861324310302734, "tests_passed": false, "error": "KeyError"}
+{"code": " csv.reader(f, delimiter=\",\")", "compilation_passed": true, "time": 0.001995086669921875, "tests_passed": true, "error": null}
+{"code": " csv.reader(f, delimiter=',')", "compilation_passed": true, "time": 0.001989126205444336, "tests_passed": true, "error": null}
+{"code": " csv.DictReader(f, delimiter=',')", "compilation_passed": true, "time": 0.0011608600616455078, "tests_passed": false, "error": "KeyError"}

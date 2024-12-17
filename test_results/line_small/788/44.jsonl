@@ -1,0 +1,17 @@
+{"code": " not isinstance(df, pd.DataFrame):", "compilation_passed": true, "time": 0.0027289390563964844, "tests_passed": true, "error": null}
+{"code": " N < 1:", "compilation_passed": true, "time": 0.002290964126586914, "tests_passed": true, "error": null}
+{"code": " col1 not in df.columns:", "compilation_passed": true, "time": 0.002218961715698242, "tests_passed": true, "error": null}
+{"code": " col1 not in df or col2 not in df:", "compilation_passed": true, "time": 0.0022771358489990234, "tests_passed": true, "error": null}
+{"code": " col1 not in df:", "compilation_passed": true, "time": 0.0022268295288085938, "tests_passed": true, "error": null}
+{"code": " col1 not in df.columns or col2 not in df.columns:", "compilation_passed": true, "time": 0.002382040023803711, "tests_passed": true, "error": null}
+{"code": " (col1 not in df) or (col2 not in df):", "compilation_passed": true, "time": 0.002298116683959961, "tests_passed": true, "error": null}
+{"code": " not isinstance(df, DataFrame):", "compilation_passed": true, "time": 0.001171112060546875, "tests_passed": false, "error": "NameError"}
+{"code": " not all(col in df.columns for col in [col1, col2]):", "compilation_passed": true, "time": 0.0022399425506591797, "tests_passed": true, "error": null}
+{"code": " not all(col in df for col in [col1, col2]):", "compilation_passed": true, "time": 0.002359151840209961, "tests_passed": true, "error": null}
+{"code": " not col1 in df:", "compilation_passed": true, "time": 0.0022652149200439453, "tests_passed": true, "error": null}
+{"code": " (col1 not in df.columns) or (col2 not in df.columns):", "compilation_passed": true, "time": 0.0022211074829101562, "tests_passed": true, "error": null}
+{"code": " N <= 1:", "compilation_passed": true, "time": 0.005342006683349609, "tests_passed": true, "error": null}
+{"code": " not (col1 in df.columns and col2 in df.columns):", "compilation_passed": true, "time": 0.0023920536041259766, "tests_passed": true, "error": null}
+{"code": " not col1 in df.columns:", "compilation_passed": true, "time": 0.0022058486938476562, "tests_passed": true, "error": null}
+{"code": " not all([(col1 in df.columns), (col2 in df.columns)]):", "compilation_passed": true, "time": 0.002366781234741211, "tests_passed": true, "error": null}
+{"code": " not (col1 in df.columns) and (col2 in df.columns):", "compilation_passed": true, "time": 0.0022699832916259766, "tests_passed": true, "error": null}

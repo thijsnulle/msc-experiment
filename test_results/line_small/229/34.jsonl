@@ -1,0 +1,6 @@
+{"code": " datetime.now()", "compilation_passed": true, "time": 0.0035049915313720703, "tests_passed": true, "error": null}
+{"code": " datetime.now().isoformat()", "compilation_passed": true, "time": 0.0011432170867919922, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.utcnow()", "compilation_passed": true, "time": 0.003428936004638672, "tests_passed": true, "error": null}
+{"code": " datetime.now().replace(microsecond=0)", "compilation_passed": true, "time": 0.0035009384155273438, "tests_passed": true, "error": null}
+{"code": " datetime.utcnow().isoformat() + 'Z'", "compilation_passed": true, "time": 0.00119781494140625, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.now().timestamp()", "compilation_passed": true, "time": 0.0012102127075195312, "tests_passed": false, "error": "AttributeError"}

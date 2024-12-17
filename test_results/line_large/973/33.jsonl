@@ -1,0 +1,12 @@
+{"code": " not path.strip():", "compilation_passed": true, "time": 0.002973794937133789, "tests_passed": true, "error": null}
+{"code": " delimiter not in path or path.strip() == delimiter:", "compilation_passed": true, "time": 0.002847909927368164, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not os.path.exists(path):", "compilation_passed": true, "time": 0.0030989646911621094, "tests_passed": true, "error": null}
+{"code": " delimiter not in path:", "compilation_passed": true, "time": 0.0027201175689697266, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not delimiter or not isinstance(delimiter, str):", "compilation_passed": true, "time": 0.002830982208251953, "tests_passed": true, "error": null}
+{"code": " not all(c.isalnum() or c in ['_', '-', '.'] for c in path if c != delimiter):", "compilation_passed": true, "time": 0.002934694290161133, "tests_passed": true, "error": null}
+{"code": " not all(char.isalnum() or char in ['_', '-', delimiter] for char in path):", "compilation_passed": true, "time": 0.0029218196868896484, "tests_passed": true, "error": null}
+{"code": " not all(x.isprintable() and x != delimiter for x in path):", "compilation_passed": true, "time": 0.0016732215881347656, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not all(char.isalnum() or char == delimiter for char in path):", "compilation_passed": true, "time": 0.0028076171875, "tests_passed": true, "error": null}
+{"code": " not all(c.isprintable() and not c.isspace() and c.encode().isprintable() for c in delimiter):", "compilation_passed": true, "time": 0.0016281604766845703, "tests_passed": false, "error": "AttributeError"}
+{"code": " not path.split(delimiter):", "compilation_passed": true, "time": 0.002840280532836914, "tests_passed": true, "error": null}
+{"code": " not isinstance(delimiter, str):", "compilation_passed": true, "time": 0.002820253372192383, "tests_passed": true, "error": null}

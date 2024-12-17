@@ -1,0 +1,13 @@
+{"code": " epoch_milliseconds < 0 or datetime.utcnow() < datetime.utcfromtimestamp(epoch_milliseconds):", "compilation_passed": true, "time": 0.001294851303100586, "tests_passed": false, "error": "ValueError"}
+{"code": " epoch_milliseconds < 0:", "compilation_passed": true, "time": 0.06368684768676758, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0 or epoch_milliseconds >= datetime.now().timestamp() * 1000:", "compilation_passed": true, "time": 0.0676729679107666, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0 or epoch_milliseconds >= datetime.now().timestamp():", "compilation_passed": true, "time": 0.0012700557708740234, "tests_passed": false, "error": "ValueError"}
+{"code": " epoch_milliseconds < datetime.utcnow().timestamp():", "compilation_passed": true, "time": 0.06550288200378418, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0 or epoch_milliseconds >= int(datetime.now().timestamp() * 1000):", "compilation_passed": true, "time": 0.06584811210632324, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < datetime.now().timestamp():", "compilation_passed": true, "time": 0.06640410423278809, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0 or datetime.utcfromtimestamp(epoch_milliseconds) > datetime.utcnow():", "compilation_passed": true, "time": 0.0013010501861572266, "tests_passed": false, "error": "ValueError"}
+{"code": " epoch_milliseconds < 0 or epoch_milliseconds > int(datetime.now().timestamp() * 1000):", "compilation_passed": true, "time": 0.06969809532165527, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0 or datetime.utcfromtimestamp(epoch_milliseconds / 1000) > datetime.utcnow():", "compilation_passed": true, "time": 0.06675195693969727, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0 or datetime.utcfromtimestamp(epoch_milliseconds / 1000) >= datetime.utcnow():", "compilation_passed": true, "time": 0.06865882873535156, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds <= 0 or epoch_milliseconds >= int(datetime.now().timestamp() * 1000):", "compilation_passed": true, "time": 0.06885695457458496, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < datetime.utcfromtimestamp(0).timestamp() * 1000:", "compilation_passed": true, "time": 0.07212281227111816, "tests_passed": true, "error": null}

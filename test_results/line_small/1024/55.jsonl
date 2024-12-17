@@ -1,0 +1,22 @@
+{"code": " sns.histplot(data=df, bins=bin_edges, kde=False, color=\"#554B4B\")", "compilation_passed": true, "time": 0.0315699577331543, "tests_passed": true, "error": null}
+{"code": " sns.histplot(df, bins=bin_edges, kde=False)", "compilation_passed": true, "time": 0.03261423110961914, "tests_passed": true, "error": null}
+{"code": " sns.histplot(", "compilation_passed": false, "time": 0.00019025802612304688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.distplot(", "compilation_passed": false, "time": 0.00021576881408691406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.distplot(df, kde=False, bins=bin_edges, color='blue', hist_kws={\"linewidth\": 15, 'alpha': 1})", "compilation_passed": true, "time": 0.004984140396118164, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data=df, bins=bin_edges, kde=False)", "compilation_passed": true, "time": 0.031123876571655273, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df, kde=False, bins=bin_edges)", "compilation_passed": true, "time": 0.0056629180908203125, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df, kde=False, bins=bin_edges, label=PLOT_TITLE)", "compilation_passed": true, "time": 0.005697727203369141, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data=df, kde=False, bins=bin_edges, title=PLOT_TITLE,", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.distplot(df, hist=False, kde=False, bins=bin_edges, color='green')", "compilation_passed": true, "time": 0.0029449462890625, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data=df, kde=False, bins=bin_edges)", "compilation_passed": true, "time": 0.03176403045654297, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data=df, bins=bin_edges)", "compilation_passed": true, "time": 0.03219795227050781, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df, kde=False, bins=bin_edges, color='b', hist_kws=dict(linewidth=1.5, alpha=1))", "compilation_passed": true, "time": 0.005048990249633789, "tests_passed": true, "error": null}
+{"code": " sns.histplot(df, bins=bin_edges)", "compilation_passed": true, "time": 0.032176971435546875, "tests_passed": true, "error": null}
+{"code": " sns.histplot(data=df, kde=False, bins=bin_edges, color=\"red\")", "compilation_passed": true, "time": 0.030812978744506836, "tests_passed": true, "error": null}
+{"code": " sns.histplot(df, bins=bin_edges, kde=False, legend=False, title=PLOT_TITLE)", "compilation_passed": true, "time": 0.006506919860839844, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.histplot(df.values, bins=bin_edges, kde=False)", "compilation_passed": true, "time": 0.03219771385192871, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df, bins=bin_edges, kde=False, title=PLOT_TITLE)", "compilation_passed": true, "time": 0.0012309551239013672, "tests_passed": false, "error": "TypeError"}
+{"code": " sns.histplot(df, kde=False, bins=bin_edges, label=\"Generated Histogram\")", "compilation_passed": true, "time": 0.03315997123718262, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df, hist=False, kde=False, bins=bin_edges)", "compilation_passed": true, "time": 0.003557920455932617, "tests_passed": true, "error": null}
+{"code": " sns.histplot(df, kde=False, bins=bin_edges, ax=None)", "compilation_passed": true, "time": 0.03342795372009277, "tests_passed": true, "error": null}
+{"code": " sns.distplot(df, bins=bin_edges, kde=False, hist_kws={\"edgecolor\": \"white\"}, axlabel=None)", "compilation_passed": true, "time": 0.005644083023071289, "tests_passed": true, "error": null}

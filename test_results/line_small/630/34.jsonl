@@ -1,0 +1,12 @@
+{"code": "to_json(f, indent=4, orient='records')", "compilation_passed": true, "time": 0.0035898685455322266, "tests_passed": true, "error": null}
+{"code": "to_json(f)", "compilation_passed": true, "time": 0.0015468597412109375, "tests_passed": true, "error": null}
+{"code": "to_json(f, orient='records')", "compilation_passed": true, "time": 0.003681659698486328, "tests_passed": true, "error": null}
+{"code": "to_json(f, indent=4)", "compilation_passed": true, "time": 0.001522064208984375, "tests_passed": true, "error": null}
+{"code": "to_json(f, indent=2)", "compilation_passed": true, "time": 0.0015728473663330078, "tests_passed": true, "error": null}
+{"code": "to_json(f, orient='records', index=False)", "compilation_passed": true, "time": 0.0021190643310546875, "tests_passed": false, "error": "ValueError"}
+{"code": "to_json(f, orient='records', allow_nan=False, indent=4)", "compilation_passed": true, "time": 0.0014920234680175781, "tests_passed": false, "error": "TypeError"}
+{"code": "to_json(f, orient='records', lines=True)", "compilation_passed": true, "time": 0.0023407936096191406, "tests_passed": false, "error": "json.decoder.JSONDecodeError"}
+{"code": "to_json(f, orient='records', default_handler=json_handler)", "compilation_passed": true, "time": 0.0015141963958740234, "tests_passed": false, "error": "NameError"}
+{"code": "to_json(f, orient='records', allow_nan=False, ensure_ascii=False)", "compilation_passed": true, "time": 0.0014688968658447266, "tests_passed": false, "error": "TypeError"}
+{"code": "to_json(f, orient='records', indent=2)", "compilation_passed": true, "time": 0.0035309791564941406, "tests_passed": true, "error": null}
+{"code": "to_json(f, orient='records', indent=4)", "compilation_passed": true, "time": 0.003422975540161133, "tests_passed": true, "error": null}

@@ -1,0 +1,13 @@
+{"code": " {}", "compilation_passed": true, "time": 0.0025310516357421875, "tests_passed": false, "error": "ValueError"}
+{"code": " dict()", "compilation_passed": true, "time": 0.0015158653259277344, "tests_passed": false, "error": "ValueError"}
+{"code": " {key: sum(d[key] for d in data) for key in all_keys}", "compilation_passed": true, "time": 0.0015740394592285156, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.defaultdict(lambda: 0)", "compilation_passed": true, "time": 0.0025298595428466797, "tests_passed": false, "error": "ValueError"}
+{"code": " {key: sum(d.get(key, 0) for d in data) for key in all_keys}", "compilation_passed": true, "time": 0.0027382373809814453, "tests_passed": false, "error": "TypeError"}
+{"code": " dict.fromkeys(all_keys)", "compilation_passed": true, "time": 0.0015530586242675781, "tests_passed": false, "error": "TypeError"}
+{"code": " {k: 0 for k in all_keys}", "compilation_passed": true, "time": 0.0028810501098632812, "tests_passed": false, "error": "TypeError"}
+{"code": " dict.fromkeys(all_keys, 0)", "compilation_passed": true, "time": 0.0015120506286621094, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.defaultdict(int)", "compilation_passed": true, "time": 0.0015630722045898438, "tests_passed": false, "error": "ValueError"}
+{"code": " {k: sum([d.get(k, 0) for d in data]) for k in all_keys}", "compilation_passed": true, "time": 0.0015671253204345703, "tests_passed": false, "error": "TypeError"}
+{"code": " {k: sum(d[k] for d in data if k in d) for k in all_keys}", "compilation_passed": true, "time": 0.0016109943389892578, "tests_passed": false, "error": "TypeError"}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.0015039443969726562, "tests_passed": false, "error": "ValueError"}
+{"code": " {k: sum(d.get(k, 0) for d in data) for k in all_keys}", "compilation_passed": true, "time": 0.0025320053100585938, "tests_passed": false, "error": "TypeError"}

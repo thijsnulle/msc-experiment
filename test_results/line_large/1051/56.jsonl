@@ -1,0 +1,6 @@
+{"code": "min(10, len(np.unique(counts))),", "compilation_passed": true, "time": 0.0682830810546875, "tests_passed": true, "error": null}
+{"code": "min(10, len(set(counts))),", "compilation_passed": true, "time": 0.07107281684875488, "tests_passed": true, "error": null}
+{"code": "np.min([10, len(np.unique(counts))]),", "compilation_passed": true, "time": 0.08143997192382812, "tests_passed": true, "error": null}
+{"code": "min(len(np.unique(counts)), 10),", "compilation_passed": true, "time": 0.07328414916992188, "tests_passed": true, "error": null}
+{"code": "np.min([10, len(data_counter)]),", "compilation_passed": true, "time": 0.07694101333618164, "tests_passed": true, "error": null}
+{"code": "min(10, len(counts)),", "compilation_passed": true, "time": 0.07430601119995117, "tests_passed": true, "error": null}

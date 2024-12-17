@@ -1,0 +1,9 @@
+{"code": " filename.split('.')[-1]", "compilation_passed": true, "time": 0.007136821746826172, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(filename)[1][1:]  # Get the extension without the '.'", "compilation_passed": true, "time": 0.006967067718505859, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(filename)[1][1:]", "compilation_passed": true, "time": 0.0069959163665771484, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(filename)[1].lstrip('.')", "compilation_passed": true, "time": 0.007061958312988281, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(filename)[1]", "compilation_passed": true, "time": 0.007215023040771484, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(filename)[1].replace('.', '')", "compilation_passed": true, "time": 0.007038116455078125, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(filename)[1][1:]  # Remove the dot from the extension", "compilation_passed": true, "time": 0.007117748260498047, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(filename)[1].lower()", "compilation_passed": true, "time": 0.0071790218353271484, "tests_passed": true, "error": null}
+{"code": " os.path.splitext(filename)[1][1:]  # Get extension without the leading dot", "compilation_passed": true, "time": 0.007085084915161133, "tests_passed": true, "error": null}

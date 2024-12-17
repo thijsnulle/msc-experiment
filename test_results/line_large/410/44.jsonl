@@ -1,0 +1,4 @@
+{"code": " pd.read_excel(excel_file)", "compilation_passed": true, "time": 0.056134939193725586, "tests_passed": true, "error": null}
+{"code": " pd.read_excel(excel_file, sheet_name='Sheet1')", "compilation_passed": true, "time": 0.057772159576416016, "tests_passed": true, "error": null}
+{"code": " pd.read_excel(excel_file, engine='openpyxl', header=0)", "compilation_passed": true, "time": 0.05762195587158203, "tests_passed": true, "error": null}
+{"code": " pd.read_excel(excel_file, index_col=0, header=0)", "compilation_passed": true, "time": 0.0571751594543457, "tests_passed": false, "error": "ValueError"}

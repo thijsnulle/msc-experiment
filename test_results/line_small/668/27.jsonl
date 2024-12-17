@@ -1,0 +1,19 @@
+{"code": " sum(y for _, y in subseq)", "compilation_passed": true, "time": 0.0006909370422363281, "tests_passed": true, "error": null}
+{"code": " sum(map(lambda x: x[1], subseq))", "compilation_passed": true, "time": 0.0007040500640869141, "tests_passed": true, "error": null}
+{"code": " sum(len(key) for key, val in subseq if val > 0)", "compilation_passed": true, "time": 0.0007162094116210938, "tests_passed": true, "error": null}
+{"code": " sum(len(key) for key, _ in subseq)", "compilation_passed": true, "time": 0.0006263256072998047, "tests_passed": true, "error": null}
+{"code": " sum(x[key] for key in subseq)", "compilation_passed": true, "time": 0.0005960464477539062, "tests_passed": false, "error": "KeyError"}
+{"code": " sum(len(item[0]) for item in subseq)", "compilation_passed": true, "time": 0.0006480216979980469, "tests_passed": true, "error": null}
+{"code": " sum(v for _, v in subseq)", "compilation_passed": true, "time": 0.0006809234619140625, "tests_passed": true, "error": null}
+{"code": " sum(len(letter) for letter, _ in subseq)", "compilation_passed": true, "time": 0.0006241798400878906, "tests_passed": true, "error": null}
+{"code": " sum(map(lambda y: y[1], subseq))", "compilation_passed": true, "time": 0.0006079673767089844, "tests_passed": true, "error": null}
+{"code": " sum(y[1] for y in subseq)", "compilation_passed": true, "time": 0.0005939006805419922, "tests_passed": true, "error": null}
+{"code": " sum(x[k] for k, _ in subseq)", "compilation_passed": true, "time": 0.0006539821624755859, "tests_passed": true, "error": null}
+{"code": " sum(val for _, val in subseq)", "compilation_passed": true, "time": 0.0006411075592041016, "tests_passed": true, "error": null}
+{"code": " sum(length for letter, length in subseq)", "compilation_passed": true, "time": 0.0005929470062255859, "tests_passed": true, "error": null}
+{"code": " sum([abs(value) for _, value in subseq])", "compilation_passed": true, "time": 0.0006251335144042969, "tests_passed": true, "error": null}
+{"code": " sum([length for _, length in subseq])", "compilation_passed": true, "time": 0.000591278076171875, "tests_passed": true, "error": null}
+{"code": " sum(len(s[0]) for s in subseq)", "compilation_passed": true, "time": 0.0006241798400878906, "tests_passed": true, "error": null}
+{"code": " sum([length for (_, length) in subseq])", "compilation_passed": true, "time": 0.0005857944488525391, "tests_passed": true, "error": null}
+{"code": " sum([value for _, value in subseq])", "compilation_passed": true, "time": 0.0006399154663085938, "tests_passed": true, "error": null}
+{"code": " sum([y[1] for y in subseq])", "compilation_passed": true, "time": 0.0005819797515869141, "tests_passed": true, "error": null}

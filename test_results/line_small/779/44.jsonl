@@ -1,0 +1,11 @@
+{"code": "copytree(directory, backup_dir)", "compilation_passed": true, "time": 0.0035469532012939453, "tests_passed": false, "error": "AttributeError"}
+{"code": "make_archive(backup_dir, 'tar', directory)", "compilation_passed": true, "time": 0.00215911865234375, "tests_passed": true, "error": null}
+{"code": "make_archive(backup_dir, 'zip', directory)", "compilation_passed": true, "time": 0.0016210079193115234, "tests_passed": true, "error": null}
+{"code": "make_archive(backup_dir, 'gztar', directory)", "compilation_passed": true, "time": 0.0017118453979492188, "tests_passed": true, "error": null}
+{"code": "make_archive(backup_dir, \"zip\", directory)", "compilation_passed": true, "time": 0.0017971992492675781, "tests_passed": true, "error": null}
+{"code": "copytree(directory, backup_dir, ignore=shutil.ignore_patterns('*.bak', '*~'))", "compilation_passed": true, "time": 0.0031938552856445312, "tests_passed": false, "error": "AttributeError"}
+{"code": "make_archive(backup_dir, \"gztar\", directory)", "compilation_passed": true, "time": 0.001627206802368164, "tests_passed": true, "error": null}
+{"code": "make_archive(backup_dir, 'gztar', directory, '.')", "compilation_passed": true, "time": 0.002076864242553711, "tests_passed": true, "error": null}
+{"code": "make_archive(backup_dir, 'zip', directory, os.path.basename(directory))", "compilation_passed": true, "time": 0.001644134521484375, "tests_passed": true, "error": null}
+{"code": "make_archive(backup_dir, 'zip', directory, base_dir=directory)", "compilation_passed": true, "time": 0.0016338825225830078, "tests_passed": true, "error": null}
+{"code": "make_archive(backup_dir, \"tar\", directory)", "compilation_passed": true, "time": 0.002177000045776367, "tests_passed": true, "error": null}

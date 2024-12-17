@@ -1,0 +1,30 @@
+{"code": " [amplitude * math.sin(2 * math.pi * frequency * x[i] + phase_shift) for i in range(len(x))]", "compilation_passed": true, "time": 0.05815720558166504, "tests_passed": true, "error": null}
+{"code": " [amplitude * math.sin(2 * math.pi * frequency * t + phase_shift) for t in x]", "compilation_passed": true, "time": 0.058763980865478516, "tests_passed": true, "error": null}
+{"code": " [amplitude*math.sin((frequency * i + phase_shift)/360*2*math.pi) for i in x]", "compilation_passed": true, "time": 0.059262990951538086, "tests_passed": true, "error": null}
+{"code": " [amplitude*math.sin(i*2*math.pi*frequency/360+phase_shift) for i in x]", "compilation_passed": true, "time": 0.06388211250305176, "tests_passed": true, "error": null}
+{"code": " [amplitude*math.sin(frequency*x[i] + phase_shift) for i in range(len(x))]", "compilation_passed": true, "time": 0.06436395645141602, "tests_passed": true, "error": null}
+{"code": " [math.sin(math.pi*2*frequency*i/100 + phase_shift) * amplitude for i in x]", "compilation_passed": true, "time": 0.06266021728515625, "tests_passed": true, "error": null}
+{"code": " [amplitude*math.sin(i*frequency+phase_shift) for i in range(len(x))]", "compilation_passed": true, "time": 0.06089901924133301, "tests_passed": true, "error": null}
+{"code": " [amplitude*math.sin((i*frequency)+phase_shift) for i in range(1000)]", "compilation_passed": true, "time": 0.0626528263092041, "tests_passed": true, "error": null}
+{"code": " [amplitude * math.sin((i + phase_shift) * 2 * math.pi / 180) for i in x]", "compilation_passed": true, "time": 0.07644224166870117, "tests_passed": true, "error": null}
+{"code": " [amplitude * math.sin((i*frequency) + phase_shift) for i in x]", "compilation_passed": true, "time": 0.06351685523986816, "tests_passed": true, "error": null}
+{"code": " [amplitude * math.sin(2 * math.pi * frequency * i + phase_shift) for i in range(1000)]", "compilation_passed": true, "time": 0.06284213066101074, "tests_passed": true, "error": null}
+{"code": " [amplitude*math.sin(i*frequency + phase_shift) for i in x]", "compilation_passed": true, "time": 0.06539082527160645, "tests_passed": true, "error": null}
+{"code": " [amplitude * math.sin(math.pi * (i * frequency + phase_shift)) for i in range(1000)]", "compilation_passed": true, "time": 0.06397795677185059, "tests_passed": true, "error": null}
+{"code": " [amplitude*math.sin(math.radians(frequency*t+phase_shift)) for t in x]", "compilation_passed": true, "time": 0.06690406799316406, "tests_passed": true, "error": null}
+{"code": " [math.sin(i*frequency + phase_shift) * amplitude for i in x]", "compilation_passed": true, "time": 0.06456112861633301, "tests_passed": true, "error": null}
+{"code": " [amplitude*math.sin(i*frequency*2*math.pi/360 + phase_shift) for i in x]", "compilation_passed": true, "time": 0.06816506385803223, "tests_passed": true, "error": null}
+{"code": " [math.sin(i) for i in x]", "compilation_passed": true, "time": 0.06507086753845215, "tests_passed": true, "error": null}
+{"code": " [amplitude * (math.sin((frequency*i) + (phase_shift*math.pi/180))+0.5) for i in x]", "compilation_passed": true, "time": 0.06691288948059082, "tests_passed": true, "error": null}
+{"code": " [math.sin(i / 100 * math.pi * frequency + phase_shift/100 * math.pi) * amplitude for i in x]", "compilation_passed": true, "time": 0.06983590126037598, "tests_passed": true, "error": null}
+{"code": " [amplitude*math.sin((i*frequency+phase_shift)*(math.pi/180)) for i in x]", "compilation_passed": true, "time": 0.06926608085632324, "tests_passed": true, "error": null}
+{"code": " [math.sin(i * frequency * math.pi/180 + phase_shift * math.pi/180) * amplitude for i in x]", "compilation_passed": true, "time": 0.06973409652709961, "tests_passed": true, "error": null}
+{"code": " [math.sin(3.14159265 * frequency * t + phase_shift) for t in x]", "compilation_passed": true, "time": 0.06765103340148926, "tests_passed": true, "error": null}
+{"code": " [amplitude*math.sin((i*frequency+phase_shift)*math.pi/180) for i in x]", "compilation_passed": true, "time": 0.07105779647827148, "tests_passed": true, "error": null}
+{"code": " [amplitude*math.sin(frequency*2*math.pi*x + phase_shift)]", "compilation_passed": true, "time": 0.0009918212890625, "tests_passed": false, "error": "TypeError"}
+{"code": " [amplitude*math.sin((math.pi/180)*frequency*t + phase_shift) for t in x]", "compilation_passed": true, "time": 0.0794370174407959, "tests_passed": true, "error": null}
+{"code": " [amplitude*math.sin(2*math.pi*frequency*t + phase_shift) for t in x]", "compilation_passed": true, "time": 0.07024884223937988, "tests_passed": true, "error": null}
+{"code": " [math.sin(i*2*math.pi/frequency + phase_shift) * amplitude for i in x]", "compilation_passed": true, "time": 0.06964707374572754, "tests_passed": true, "error": null}
+{"code": " [math.sin(math.radians(i)) for i in x]", "compilation_passed": true, "time": 0.07202005386352539, "tests_passed": true, "error": null}
+{"code": " [amplitude * math.sin(i * frequency + phase_shift) for i in x]", "compilation_passed": true, "time": 0.0701758861541748, "tests_passed": true, "error": null}
+{"code": " [amplitude*math.sin(frequency*t+phase_shift) for t in x]", "compilation_passed": true, "time": 0.07248878479003906, "tests_passed": true, "error": null}

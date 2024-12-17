@@ -1,0 +1,12 @@
+{"code": " []", "compilation_passed": true, "time": 0.0015459060668945312, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " random.sample(range(0, total_nums), total_nums)", "compilation_passed": true, "time": 0.0016639232635498047, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, RANGE) for _ in range(total_nums)]", "compilation_passed": true, "time": 0.0037670135498046875, "tests_passed": true, "error": null}
+{"code": " [random.randint(0,RANGE) for _ in range(total_nums)]", "compilation_passed": true, "time": 0.0037000179290771484, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, RANGE) for _ in range(total_nums)]", "compilation_passed": true, "time": 0.0038750171661376953, "tests_passed": true, "error": null}
+{"code": " np.random.choice(flattened_list, total_nums).tolist()", "compilation_passed": true, "time": 0.003851175308227539, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, RANGE) for i in range(total_nums)]", "compilation_passed": true, "time": 0.0037870407104492188, "tests_passed": true, "error": null}
+{"code": " random.sample(flattened_list, total_nums)", "compilation_passed": true, "time": 0.002591848373413086, "tests_passed": false, "error": "ValueError"}
+{"code": " [random.randint(0, RANGE) for i in range(total_nums)]", "compilation_passed": true, "time": 0.0038421154022216797, "tests_passed": true, "error": null}
+{"code": " [random.randrange(1, RANGE+1) for _ in range(total_nums)]", "compilation_passed": true, "time": 0.0017790794372558594, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=0, high=RANGE, size=total_nums)", "compilation_passed": true, "time": 0.0016779899597167969, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, RANGE) for x in range(0, total_nums)]", "compilation_passed": true, "time": 0.0038411617279052734, "tests_passed": true, "error": null}

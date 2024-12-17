@@ -1,0 +1,10 @@
+{"code": " delimiter.join(path_components[:index + 1])", "compilation_passed": true, "time": 0.0030007362365722656, "tests_passed": true, "error": null}
+{"code": " delimiter.join([path, component]) if index < len(path_components) - 1 else path", "compilation_passed": true, "time": 0.003387928009033203, "tests_passed": true, "error": null}
+{"code": " delimiter.join(path_components[:index+1])", "compilation_passed": true, "time": 0.0029120445251464844, "tests_passed": true, "error": null}
+{"code": " delimiter.join([delimiter.join(path_components[:index]), component])", "compilation_passed": true, "time": 0.0028409957885742188, "tests_passed": true, "error": null}
+{"code": " delimiter.join((path, *path_components[index:]))", "compilation_passed": true, "time": 0.0032701492309570312, "tests_passed": true, "error": null}
+{"code": " delimiter.join([component] + path_components[index + 1:])", "compilation_passed": true, "time": 0.0036039352416992188, "tests_passed": true, "error": null}
+{"code": " delimiter.join((path_components[:index+1]))", "compilation_passed": true, "time": 0.003004789352416992, "tests_passed": true, "error": null}
+{"code": " delimiter.join([path, *path_components[index + 1:]])", "compilation_passed": true, "time": 0.003226041793823242, "tests_passed": true, "error": null}
+{"code": " delimiter.join([path, *path_components[index:]])", "compilation_passed": true, "time": 0.0032320022583007812, "tests_passed": true, "error": null}
+{"code": " delimiter.join([path, component])", "compilation_passed": true, "time": 0.0032923221588134766, "tests_passed": true, "error": null}

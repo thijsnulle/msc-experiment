@@ -1,0 +1,13 @@
+{"code": " list(data[0].keys())", "compilation_passed": true, "time": 0.06824088096618652, "tests_passed": true, "error": null}
+{"code": " [key for d in data for key in d.keys()]", "compilation_passed": true, "time": 0.13382387161254883, "tests_passed": true, "error": null}
+{"code": " set()", "compilation_passed": true, "time": 0.001631021499633789, "tests_passed": false, "error": "ValueError"}
+{"code": " set(data[0].keys())", "compilation_passed": true, "time": 0.06931090354919434, "tests_passed": true, "error": null}
+{"code": " set(list(data[0]))", "compilation_passed": true, "time": 0.0691828727722168, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0016050338745117188, "tests_passed": false, "error": "ValueError"}
+{"code": " [i for i in data[0].keys()]", "compilation_passed": true, "time": 0.07726526260375977, "tests_passed": true, "error": null}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.0016167163848876953, "tests_passed": false, "error": "ValueError"}
+{"code": " set(map(lambda d: d.keys(), data))", "compilation_passed": true, "time": 0.0016567707061767578, "tests_passed": false, "error": "TypeError"}
+{"code": " [key for d in data for key in d]", "compilation_passed": true, "time": 0.15770602226257324, "tests_passed": true, "error": null}
+{"code": " collections.ChainMap(*[dict_.keys() for dict_ in data])", "compilation_passed": true, "time": 0.5151801109313965, "tests_passed": true, "error": null}
+{"code": " {key for sublist in map(dict.keys, data) for key in sublist}", "compilation_passed": true, "time": 0.15365099906921387, "tests_passed": true, "error": null}
+{"code": " set([key for d in data for key in d])", "compilation_passed": true, "time": 0.16059017181396484, "tests_passed": true, "error": null}

@@ -1,0 +1,16 @@
+{"code": " all(char in punctuation_set for char in word)]", "compilation_passed": true, "time": 0.0019910335540771484, "tests_passed": true, "error": null}
+{"code": " all(letter in punctuation_set for letter in word)]", "compilation_passed": true, "time": 0.0019540786743164062, "tests_passed": true, "error": null}
+{"code": " all(char in punctuation_set for char in word)]  # excluding purely punctuation characters", "compilation_passed": true, "time": 0.0019681453704833984, "tests_passed": true, "error": null}
+{"code": " set(word[1:]).issubset(punctuation_set)]  # skip '$' symbol", "compilation_passed": true, "time": 0.0019969940185546875, "tests_passed": true, "error": null}
+{"code": " all(char in punctuation_set for char in word.strip('$'))]", "compilation_passed": true, "time": 0.0020101070404052734, "tests_passed": true, "error": null}
+{"code": " set(word).issubset(punctuation_set)]", "compilation_passed": true, "time": 0.0019330978393554688, "tests_passed": true, "error": null}
+{"code": " set(word[1:]).issubset(punctuation_set)]", "compilation_passed": true, "time": 0.0019106864929199219, "tests_passed": true, "error": null}
+{"code": " set(word.replace('$', '')).issubset(punctuation_set)]", "compilation_passed": true, "time": 0.0019307136535644531, "tests_passed": true, "error": null}
+{"code": " all(c in punctuation_set for c in word[1:])]", "compilation_passed": true, "time": 0.001992940902709961, "tests_passed": true, "error": null}
+{"code": " (set(word[1:]) <= punctuation_set) and not (set(word[1:]) == punctuation_set)]", "compilation_passed": true, "time": 0.0019729137420654297, "tests_passed": true, "error": null}
+{"code": " all(char in punctuation_set for char in word[1:])]", "compilation_passed": true, "time": 0.0020580291748046875, "tests_passed": true, "error": null}
+{"code": " set(word[1:]) <= punctuation_set]", "compilation_passed": true, "time": 0.0019478797912597656, "tests_passed": true, "error": null}
+{"code": " punctuation_set.issuperset(set(word[1:]))]", "compilation_passed": true, "time": 0.001940011978149414, "tests_passed": true, "error": null}
+{"code": " all(character in punctuation_set for character in word[1:])]", "compilation_passed": true, "time": 0.0019540786743164062, "tests_passed": true, "error": null}
+{"code": " set(word[1:]) <= punctuation_set]  # Check if not only punctuation after $", "compilation_passed": true, "time": 0.0019161701202392578, "tests_passed": true, "error": null}
+{"code": " all(character in punctuation_set for character in word)]", "compilation_passed": true, "time": 0.0019559860229492188, "tests_passed": true, "error": null}

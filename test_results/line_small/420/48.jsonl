@@ -1,0 +1,12 @@
+{"code": " pd.to_numeric(dataframe[column], errors=\"coerce\")", "compilation_passed": true, "time": 0.00534820556640625, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(dataframe[column], downcast=\"float\")", "compilation_passed": true, "time": 0.0026488304138183594, "tests_passed": false, "error": "ValueError"}
+{"code": " dataframe[column]", "compilation_passed": true, "time": 0.0026540756225585938, "tests_passed": false, "error": "ValueError"}
+{"code": " dataframe[column].apply(lambda x: float(x))", "compilation_passed": true, "time": 0.002400636672973633, "tests_passed": false, "error": "ValueError"}
+{"code": " dataframe[column].apply(lambda x: float(x) if pd.api.types.is_numeric_dtype(x) else x)", "compilation_passed": true, "time": 0.002782106399536133, "tests_passed": false, "error": "ValueError"}
+{"code": " dataframe[column].apply(", "compilation_passed": false, "time": 0.00016379356384277344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dataframe[column].astype(float)", "compilation_passed": true, "time": 0.0032227039337158203, "tests_passed": false, "error": "ValueError"}
+{"code": " dataframe[column].astype(\"float64\")", "compilation_passed": true, "time": 0.002537965774536133, "tests_passed": false, "error": "ValueError"}
+{"code": " dataframe[column].apply(pd.to_numeric, errors=\"coerce\")", "compilation_passed": true, "time": 0.0054378509521484375, "tests_passed": true, "error": null}
+{"code": " dataframe[column].apply(float).values.reshape(-1, 1)", "compilation_passed": true, "time": 0.0023779869079589844, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.to_numeric(", "compilation_passed": false, "time": 0.0001621246337890625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.to_numeric(dataframe[column])", "compilation_passed": true, "time": 0.0023179054260253906, "tests_passed": false, "error": "ValueError"}

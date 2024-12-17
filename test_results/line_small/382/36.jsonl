@@ -1,0 +1,13 @@
+{"code": " norm.rvs(MU, SIGMA, size=length)", "compilation_passed": true, "time": 0.1332390308380127, "tests_passed": true, "error": null}
+{"code": " np.random.normal(MU, SIGMA, length)", "compilation_passed": true, "time": 0.12433886528015137, "tests_passed": true, "error": null}
+{"code": " norm.rvs(MU, SIGMA, length)", "compilation_passed": true, "time": 0.12464404106140137, "tests_passed": true, "error": null}
+{"code": " norm.rvs(loc=MU, scale=SIGMA, size=length)", "compilation_passed": true, "time": 0.13011980056762695, "tests_passed": true, "error": null}
+{"code": " norm.pdf(np.linspace(MU-SIGMA, MU+SIGMA, length), MU, SIGMA)", "compilation_passed": true, "time": 0.07883214950561523, "tests_passed": true, "error": null}
+{"code": " norm.rvs(size=length)", "compilation_passed": true, "time": 0.12829089164733887, "tests_passed": true, "error": null}
+{"code": " np.random.normal(MU,SIGMA,length)", "compilation_passed": true, "time": 0.1373600959777832, "tests_passed": true, "error": null}
+{"code": " norm.rvs(size=length, scale=SIGMA, loc=MU)", "compilation_passed": true, "time": 0.12877178192138672, "tests_passed": true, "error": null}
+{"code": " norm.pdf(np.linspace(-5, 5, 10000), MU, SIGMA)", "compilation_passed": true, "time": 0.06709885597229004, "tests_passed": true, "error": null}
+{"code": " norm(MU, SIGMA).rvs(length)", "compilation_passed": true, "time": 0.14180684089660645, "tests_passed": true, "error": null}
+{"code": " norm.pdf(np.arange(-length, length, 1), MU, SIGMA)", "compilation_passed": true, "time": 0.05427384376525879, "tests_passed": true, "error": null}
+{"code": " norm.rvs(mu=MU, sigma=SIGMA, loc=MU, size=length)", "compilation_passed": true, "time": 0.003204822540283203, "tests_passed": false, "error": "TypeError"}
+{"code": " norm.rvs(loc = MU, scale = SIGMA, size = length)", "compilation_passed": true, "time": 0.13123202323913574, "tests_passed": true, "error": null}

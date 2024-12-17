@@ -1,0 +1,4 @@
+{"code": " min(n_clusters, len(unique_df) - 1)", "compilation_passed": true, "time": 0.0411069393157959, "tests_passed": false, "error": "sklearn.utils._param_validation.InvalidParameterError"}
+{"code": " min(len(unique_df), n_clusters)", "compilation_passed": true, "time": 0.1905372142791748, "tests_passed": true, "error": null}
+{"code": " min(n_clusters, unique_df.shape[0])", "compilation_passed": true, "time": 0.17408394813537598, "tests_passed": true, "error": null}
+{"code": " min(n_clusters, len(unique_df))", "compilation_passed": true, "time": 0.18602323532104492, "tests_passed": true, "error": null}

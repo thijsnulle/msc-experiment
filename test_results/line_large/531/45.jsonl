@@ -1,0 +1,5 @@
+{"code": " Counter(zip(df['x'], df['y']))", "compilation_passed": true, "time": 0.0026848316192626953, "tests_passed": false, "error": "TypeError"}
+{"code": " Counter(list(zip(df.x, df.y)))", "compilation_passed": true, "time": 0.001974821090698242, "tests_passed": false, "error": "TypeError"}
+{"code": " Counter(zip(df.x, df.y)).most_common()", "compilation_passed": true, "time": 0.0019788742065429688, "tests_passed": false, "error": "TypeError"}
+{"code": " Counter(zip(df.x, df.y))", "compilation_passed": true, "time": 0.0022029876708984375, "tests_passed": false, "error": "TypeError"}
+{"code": " Counter(list(zip(df['x'], df['y'])))", "compilation_passed": true, "time": 0.002057313919067383, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,25 @@
+{"code": " sns.heatmap(df_cumsum,", "compilation_passed": false, "time": 0.00016307830810546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(df_cumsum, cmap='RdBu_r')", "compilation_passed": true, "time": 0.17616581916809082, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum)", "compilation_passed": true, "time": 0.17574071884155273, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, annot=True, cmap=\"coolwarm\")", "compilation_passed": true, "time": 0.1787431240081787, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, cmap=\"Blues\")", "compilation_passed": true, "time": 0.17877411842346191, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, linewidth=0.1, cmap=\"Blues\")", "compilation_passed": true, "time": 0.17931175231933594, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, cmap=\"RdBu\", annot=True)", "compilation_passed": true, "time": 0.18479013442993164, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, annot=True, cmap='Blues')", "compilation_passed": true, "time": 0.18172216415405273, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, cmap='coolwarm', linewidths=0.5, linecolor='white', cbar=False, annot=True)", "compilation_passed": true, "time": 0.11769914627075195, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, annot=True, fmt='g', cmap='cool')", "compilation_passed": true, "time": 0.18421196937561035, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, cmap='coolwarm', linewidth=0,", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(df_cumsum, cmap='RdYlGn')", "compilation_passed": true, "time": 0.18084406852722168, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, linewidth=0.1, linecolor=\"white\", square=True)", "compilation_passed": true, "time": 0.17957782745361328, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, cmap='viridis')", "compilation_passed": true, "time": 0.18213295936584473, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, annot=True),", "compilation_passed": true, "time": 0.03145194053649902, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.heatmap(df_cumsum, cmap=\"Blues\", linewidth=0.2, annot=True)", "compilation_passed": true, "time": 0.1819899082183838, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum.to_numpy(), xticklabels=data.keys(), yticklabels=data.keys(), annot=True, square=True, linewidths=0.2, cbar_kws={\"shrink\": 1})", "compilation_passed": true, "time": 0.059927940368652344, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, annot=True, cmap='viridis', cbar_kws={'label': 'Cumulative Sum'},", "compilation_passed": false, "time": 0.0001556873321533203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sns.heatmap(df_cumsum, cmap='viridis', annot=True, fmt=\"\")", "compilation_passed": true, "time": 0.18715596199035645, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, cmap='RdYlGn', annot=False, fmt='')", "compilation_passed": true, "time": 0.1845388412475586, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, cmap='RdBu_r', vmin=df_cumsum.min(), vmax=df_cumsum.max(), linewidth=1, annot=True, fmt='.1g', cbar_kws={\"label\": \"Sum\"})", "compilation_passed": true, "time": 0.019167184829711914, "tests_passed": false, "error": "ValueError"}
+{"code": " sns.heatmap(df_cumsum, cmap='coolwarm')", "compilation_passed": true, "time": 0.18209290504455566, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, linewidth=0.0, cbar=False, cmap=\"RdYlGn_r\", line_props={\"color\": \"white\"})", "compilation_passed": true, "time": 0.016891002655029297, "tests_passed": false, "error": "AttributeError"}
+{"code": " sns.heatmap(df_cumsum.T, cmap='YlGnBu')", "compilation_passed": true, "time": 0.03287911415100098, "tests_passed": true, "error": null}
+{"code": " sns.heatmap(df_cumsum, cmap=\"coolwarm\", annot=True, cbar=False, annot_kws={\"size\": 5})", "compilation_passed": true, "time": 0.11809706687927246, "tests_passed": true, "error": null}

@@ -1,0 +1,16 @@
+{"code": " [value['from_user'] for value in result]", "compilation_passed": true, "time": 0.011929035186767578, "tests_passed": false, "error": "KeyError"}
+{"code": " [d[\"from_user\"] for d in result]", "compilation_passed": true, "time": 0.012669801712036133, "tests_passed": false, "error": "KeyError"}
+{"code": " np.array([x.get('from_user') for x in result])", "compilation_passed": true, "time": 0.015043973922729492, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([d[\"from_user\"] for d in result])", "compilation_passed": true, "time": 0.01220083236694336, "tests_passed": false, "error": "KeyError"}
+{"code": " np.array([d['from_user'] for d in result])", "compilation_passed": true, "time": 0.012753725051879883, "tests_passed": false, "error": "KeyError"}
+{"code": " np.array([res['from_user'] for res in result])", "compilation_passed": true, "time": 0.01185297966003418, "tests_passed": false, "error": "KeyError"}
+{"code": " np.array([item[\"from_user\"] for item in result])", "compilation_passed": true, "time": 0.011893987655639648, "tests_passed": false, "error": "KeyError"}
+{"code": " np.array([row['from_user'] for row in result])", "compilation_passed": true, "time": 0.011923074722290039, "tests_passed": false, "error": "KeyError"}
+{"code": " [d.get('from_user') for d in result]", "compilation_passed": true, "time": 0.015075206756591797, "tests_passed": false, "error": "TypeError"}
+{"code": " [data.get('from_user') for data in result]", "compilation_passed": true, "time": 0.01309514045715332, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([d.get('from_user', 0) for d in result])", "compilation_passed": true, "time": 0.02616405487060547, "tests_passed": true, "error": null}
+{"code": " [item[\"from_user\"] for item in result]", "compilation_passed": true, "time": 0.012426137924194336, "tests_passed": false, "error": "KeyError"}
+{"code": " [d['from_user'] for d in result]", "compilation_passed": true, "time": 0.012211084365844727, "tests_passed": false, "error": "KeyError"}
+{"code": " [d.get('from_user', None) for d in result]", "compilation_passed": true, "time": 0.012105226516723633, "tests_passed": false, "error": "TypeError"}
+{"code": " [item.get('from_user', None) for item in result]", "compilation_passed": true, "time": 0.012650012969970703, "tests_passed": false, "error": "TypeError"}
+{"code": " [item['from_user'] for item in result]", "compilation_passed": true, "time": 0.013684988021850586, "tests_passed": false, "error": "KeyError"}

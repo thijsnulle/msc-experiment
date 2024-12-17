@@ -1,3 +1,3 @@
-{"code": " os.path.join(root, file)", "compilation_passed": true, "time": 0.002332925796508789, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " Path(root, file)", "compilation_passed": true, "time": 0.0022559165954589844, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " Path(root) / file", "compilation_passed": true, "time": 0.0023040771484375, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": " os.path.join(root, file)", "compilation_passed": true, "time": 0.002694845199584961, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " Path(root, file)", "compilation_passed": true, "time": 0.0021550655364990234, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " Path(root) / file", "compilation_passed": true, "time": 0.0021009445190429688, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}

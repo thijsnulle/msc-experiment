@@ -1,0 +1,5 @@
+{"code": " list(data_counter.values())", "compilation_passed": true, "time": 0.06650710105895996, "tests_passed": true, "error": null}
+{"code": " data_counter.values()", "compilation_passed": true, "time": 0.06743597984313965, "tests_passed": true, "error": null}
+{"code": " np.array(data_counter.values())", "compilation_passed": true, "time": 0.0010750293731689453, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(list(data_counter.values()))", "compilation_passed": true, "time": 0.07439517974853516, "tests_passed": true, "error": null}
+{"code": " np.array([count for count in data_counter.values()])", "compilation_passed": true, "time": 0.07313203811645508, "tests_passed": true, "error": null}

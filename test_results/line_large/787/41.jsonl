@@ -1,0 +1,9 @@
+{"code": " np.linalg.norm(comb[0][0]-comb[1][0])", "compilation_passed": true, "time": 0.0006937980651855469, "tests_passed": true, "error": null}
+{"code": " np.linalg.norm(np.array(comb[0]) - np.array(comb[1]))", "compilation_passed": true, "time": 0.0007200241088867188, "tests_passed": true, "error": null}
+{"code": " np.sqrt(np.sum(np.square(comb[0][0] - comb[0][1])))", "compilation_passed": true, "time": 0.0008699893951416016, "tests_passed": true, "error": null}
+{"code": " np.sqrt(", "compilation_passed": false, "time": 0.00013184547424316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.linalg.norm(comb[0][0] - comb[1][0]) + np.linalg.norm(comb[0][1] - comb[1][1])", "compilation_passed": true, "time": 0.0007498264312744141, "tests_passed": true, "error": null}
+{"code": " np.sqrt((comb[0][0] - comb[1][0])**2 + (comb[0][1] - comb[1][1])**2)", "compilation_passed": true, "time": 0.0007166862487792969, "tests_passed": true, "error": null}
+{"code": " np.sqrt(np.sum((comb[0][0] - comb[1][0])**2 +", "compilation_passed": false, "time": 0.00014734268188476562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.sqrt(sum((x[0] - x[1]) ** 2 for x in zip(*comb)))", "compilation_passed": true, "time": 0.0007760524749755859, "tests_passed": true, "error": null}
+{"code": " np.sqrt(np.sum(np.power(comb[0][0] - comb[1][0], 2) +", "compilation_passed": false, "time": 0.00014209747314453125, "tests_passed": false, "error": "SyntaxError"}

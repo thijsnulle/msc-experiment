@@ -1,0 +1,11 @@
+{"code": "loc[:, features] = pd.DataFrame(scaler.fit_transform(df[features]), index=df.index, columns=features)", "compilation_passed": true, "time": 0.00795292854309082, "tests_passed": true, "error": null}
+{"code": "loc[:, features] = pd.DataFrame(scaler.fit_transform(df[features]),", "compilation_passed": false, "time": 0.0001442432403564453, "tests_passed": false, "error": "SyntaxError"}
+{"code": "loc[:, features] = pd.DataFrame(scaler.fit_transform(df[features]), columns=features, index=df.index)", "compilation_passed": true, "time": 0.007946014404296875, "tests_passed": true, "error": null}
+{"code": "loc[:, features] = pd.DataFrame(", "compilation_passed": false, "time": 0.00011587142944335938, "tests_passed": false, "error": "SyntaxError"}
+{"code": "loc[:, features] = pd.DataFrame(scaler.fit_transform(df.loc[:, features]), index=df.index, columns=features)", "compilation_passed": true, "time": 0.007985353469848633, "tests_passed": true, "error": null}
+{"code": "loc[:, features] = pd.DataFrame(scaler.fit_transform(df[features]), index=df.index)", "compilation_passed": true, "time": 0.0028672218322753906, "tests_passed": true, "error": null}
+{"code": "loc[:, features] = pd.DataFrame(scaler.fit_transform(df.loc[:, features].values), index=df.index)", "compilation_passed": true, "time": 0.0023849010467529297, "tests_passed": true, "error": null}
+{"code": "loc[:, features] = pd.DataFrame(scaler.fit_transform(df.loc[:, features]),", "compilation_passed": false, "time": 0.00013017654418945312, "tests_passed": false, "error": "SyntaxError"}
+{"code": "loc[:, features] = pd.DataFrame(scaler.fit_transform(df[features]), columns=features)", "compilation_passed": true, "time": 0.00791621208190918, "tests_passed": true, "error": null}
+{"code": "loc[:, features] = pd.DataFrame(scaler.fit_transform(df.loc[:, features].values),", "compilation_passed": false, "time": 0.00013065338134765625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "loc[:, features] = pd.DataFrame(scaler.fit_transform(df.loc[:, features]), columns=features, index=df.index)", "compilation_passed": true, "time": 0.008009910583496094, "tests_passed": true, "error": null}

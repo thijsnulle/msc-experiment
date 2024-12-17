@@ -1,0 +1,10 @@
+{"code": " pd.crosstab(selected[col_categorical], selected[col_numerical])", "compilation_passed": true, "time": 0.21343398094177246, "tests_passed": true, "error": null}
+{"code": " pd.crosstab(index=selected[col_categorical],", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.crosstab(index=selected[col_categorical], columns=selected[col_numerical])", "compilation_passed": true, "time": 0.21293115615844727, "tests_passed": true, "error": null}
+{"code": " chi2_contingency(pd.crosstab(selected[col_categorical], selected[col_numerical]))", "compilation_passed": true, "time": 0.07503318786621094, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.crosstab(index=selected[col_categorical], columns=[col_categorical])", "compilation_passed": true, "time": 0.07381463050842285, "tests_passed": true, "error": null}
+{"code": " chi2_contingency(selected.values)", "compilation_passed": true, "time": 0.07028889656066895, "tests_passed": false, "error": "TypeError"}
+{"code": " chi2_contingency(selected[[col_categorical, col_numerical]])", "compilation_passed": true, "time": 0.06894373893737793, "tests_passed": false, "error": "TypeError"}
+{"code": " chi2_contingency(pd.crosstab(selected[col_categorical], selected[col_numerical]))[1]", "compilation_passed": true, "time": 0.07264995574951172, "tests_passed": false, "error": "TypeError"}
+{"code": " chi2_contingency(selected)", "compilation_passed": true, "time": 0.06792497634887695, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.crosstab(index=selected[col_categorical], columns=selected[col_numerical]).values", "compilation_passed": true, "time": 0.2155778408050537, "tests_passed": true, "error": null}

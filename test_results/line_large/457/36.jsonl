@@ -1,0 +1,15 @@
+{"code": " pd.DataFrame(flattened).plot.hist(bins=bins, rwidth=0.8)", "compilation_passed": true, "time": 0.36480212211608887, "tests_passed": true, "error": null}
+{"code": " pd.Series(flattened).plot.hist(bins=bins, rwidth=0.8)", "compilation_passed": true, "time": 0.3475987911224365, "tests_passed": true, "error": null}
+{"code": " pd.Series(flattened).plot(kind=\"hist\", bins=bins, rwidth=0.8)", "compilation_passed": true, "time": 0.36061692237854004, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(flattened).hist(bins=bins, ax=ax, rwidth=0.8)", "compilation_passed": true, "time": 0.0027348995208740234, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": " pd.Series(flattened).hist(bins=bins, rwidth=0.8)", "compilation_passed": true, "time": 0.3536508083343506, "tests_passed": true, "error": null}
+{"code": " pd.Series(flattened).plot(kind='hist', rwidth=0.8, bins=bins)", "compilation_passed": true, "time": 0.36087703704833984, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(flattened, columns=[\"L\"]).hist(column=\"L\", bins=bins, rwidth=0.8)", "compilation_passed": true, "time": 0.02845001220703125, "tests_passed": true, "error": null}
+{"code": " pd.Series(flattened).plot.hist(bins=bins,rwidth=.8)", "compilation_passed": true, "time": 0.3738710880279541, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(flattened, columns=[\"value\"]).plot.hist(bins=bins, rwidth=0.8)", "compilation_passed": true, "time": 0.36844706535339355, "tests_passed": true, "error": null}
+{"code": " pd.Series(flattened).value_counts().sort_index().plot.hist(bins=bins, rwidth=0.8)", "compilation_passed": true, "time": 0.041760921478271484, "tests_passed": true, "error": null}
+{"code": " pd.Series(flattened).plot.hist(bins = bins, rwidth = 0.8)", "compilation_passed": true, "time": 0.36377596855163574, "tests_passed": true, "error": null}
+{"code": " pd.Series(flattened).hist(bins=bins, alpha=0.5, rwidth=0.8)", "compilation_passed": true, "time": 0.37459301948547363, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(flattened).plot(kind=\"hist\", bins=bins, rwidth=0.8)", "compilation_passed": true, "time": 0.3965780735015869, "tests_passed": true, "error": null}
+{"code": " pd.Series(flattened).plot.hist(bins=bins,rwidth=0.8)", "compilation_passed": true, "time": 0.40757083892822266, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(flattened).hist(bins=bins, rwidth=0.8)", "compilation_passed": true, "time": 0.042758941650390625, "tests_passed": true, "error": null}

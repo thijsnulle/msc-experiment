@@ -1,0 +1,5 @@
+{"code": " pathlib.Path(source_path)", "compilation_passed": true, "time": 0.00809788703918457, "tests_passed": true, "error": null}
+{"code": " str(source_path)", "compilation_passed": true, "time": 0.0018930435180664062, "tests_passed": false, "error": "AttributeError"}
+{"code": " pathlib.Path(source_path).absolute()", "compilation_passed": true, "time": 0.007752895355224609, "tests_passed": true, "error": null}
+{"code": " pathlib.Path(source_path).resolve()", "compilation_passed": true, "time": 0.007773160934448242, "tests_passed": true, "error": null}
+{"code": " pathlib.Path(source_path).expanduser().resolve()", "compilation_passed": true, "time": 0.007905006408691406, "tests_passed": true, "error": null}

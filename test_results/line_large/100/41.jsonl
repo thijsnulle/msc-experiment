@@ -1,0 +1,25 @@
+{"code": " pd.date_range(datetime.now().strftime('%Y-%m-%d'), periods=30, freq='D')", "compilation_passed": true, "time": 0.09863018989562988, "tests_passed": true, "error": null}
+{"code": " [datetime.now()-pd.to_timedelta('%s days' % i) for i in range(30, 0, -1)]", "compilation_passed": true, "time": 0.10187196731567383, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.today() - pd.DateOffset(days=30),", "compilation_passed": false, "time": 0.00013637542724609375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.date_range(datetime.now() - pd.DateOffset(days=30), periods=30)", "compilation_passed": true, "time": 0.10163402557373047, "tests_passed": true, "error": null}
+{"code": " [datetime.today() - pd.Timedelta(days=i) for i in range(30)]", "compilation_passed": true, "time": 0.09991121292114258, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.today() - pd.to_timedelta(30, unit='day'), datetime.today())", "compilation_passed": true, "time": 0.017229080200195312, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(start='2023-07-01', end='2023-07-30')", "compilation_passed": true, "time": 0.10339903831481934, "tests_passed": true, "error": null}
+{"code": " pd.date_range(\"2022-01-01\", \"2022-01-30\")", "compilation_passed": true, "time": 0.10315179824829102, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.now() - pd.DateOffset(days=30), periods=30, freq='D')", "compilation_passed": true, "time": 0.10634183883666992, "tests_passed": true, "error": null}
+{"code": " pd.date_range(end=datetime.now(), periods=30, freq='D').date", "compilation_passed": true, "time": 0.1084909439086914, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.now() - pd.DateOffset(days=30), datetime.now(), freq='D')", "compilation_passed": true, "time": 0.014450311660766602, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(end=datetime.now(), periods=30, freq='D')", "compilation_passed": true, "time": 0.10463809967041016, "tests_passed": true, "error": null}
+{"code": " [datetime.now() + datetime.timedelta(days=-x) for x in range(30)]", "compilation_passed": true, "time": 0.0012581348419189453, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(start='2023-05-01', end='2023-05-30', freq='D')", "compilation_passed": true, "time": 0.1111149787902832, "tests_passed": true, "error": null}
+{"code": " pd.date_range(\"2023-03-02\", \"2023-04-02\", freq=\"D\")", "compilation_passed": true, "time": 0.015625953674316406, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(datetime.now() - pd.to_timedelta(30, unit='days'), periods=30)", "compilation_passed": true, "time": 0.1115577220916748, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.now() - pd.Timedelta(days=30), periods=30)", "compilation_passed": true, "time": 0.11210393905639648, "tests_passed": true, "error": null}
+{"code": " [datetime(2020, 1, 1) +", "compilation_passed": false, "time": 0.0001647472381591797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.date_range(datetime.now() - pd.to_timedelta('30d'), periods=30)", "compilation_passed": true, "time": 0.1173391342163086, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.now() - pd.Timedelta(days=30), datetime.now(), freq='D')", "compilation_passed": true, "time": 0.015007257461547852, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(datetime.today() - pd.DateOffset(days=30), datetime.today())", "compilation_passed": true, "time": 0.015191078186035156, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(start='2023-01-01', periods=30)", "compilation_passed": true, "time": 0.12174010276794434, "tests_passed": true, "error": null}
+{"code": " [datetime.today() + pd.Timedelta(days=x) for x in range(-29, 1)]", "compilation_passed": true, "time": 0.13321805000305176, "tests_passed": true, "error": null}
+{"code": " pd.date_range(start='2023-06-01', end='2023-06-30')", "compilation_passed": true, "time": 0.1168820858001709, "tests_passed": true, "error": null}
+{"code": " [datetime.now() + timedelta(days=i) for i in range(-29, 1)]", "compilation_passed": true, "time": 0.0012969970703125, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,14 @@
+{"code": " {key: (value if value is not None else REPLACE_NONE) for key, value in data.items()}", "compilation_passed": true, "time": 0.0011432170867919922, "tests_passed": true, "error": null}
+{"code": " dict()", "compilation_passed": true, "time": 0.0008461475372314453, "tests_passed": true, "error": null}
+{"code": " {k: REPLACE_NONE if v == None else v for k, v in data.items()}", "compilation_passed": true, "time": 0.001096963882446289, "tests_passed": true, "error": null}
+{"code": " {key: value if value != None else REPLACE_NONE for key, value in data.items()}", "compilation_passed": true, "time": 0.001110076904296875, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.000762939453125, "tests_passed": true, "error": null}
+{"code": " {key: value if value is not None else REPLACE_NONE for key, value in data.items() if value is not None or re.match(r'^[^@]+@[^@]+\\.[^@]+$', value)}", "compilation_passed": true, "time": 0.0011439323425292969, "tests_passed": false, "error": "TypeError"}
+{"code": " {key: (value if value != REPLACE_NONE else REPLACE_NONE if type(value) is str and re.search(", "compilation_passed": false, "time": 9.703636169433594e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {key: (value if value is not None else REPLACE_NONE) if key == \"email\" else value for key, value in data.items()}", "compilation_passed": true, "time": 0.0011410713195800781, "tests_passed": true, "error": null}
+{"code": " dict(", "compilation_passed": false, "time": 8.082389831542969e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {key: (REPLACE_NONE if value == REPLACE_NONE else value) if value is not None else REPLACE_NONE for key, value in data.items()}", "compilation_passed": true, "time": 0.0011310577392578125, "tests_passed": true, "error": null}
+{"code": " json.dumps({\"name\": REPLACE_NONE, \"age\": REPLACE_NONE, \"email\": REPLACE_NONE})", "compilation_passed": true, "time": 0.0007302761077880859, "tests_passed": false, "error": "TypeError"}
+{"code": " {", "compilation_passed": false, "time": 7.987022399902344e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {key: REPLACE_NONE if value == None else value for key, value in data.items() if not isinstance(value, list)}", "compilation_passed": true, "time": 0.0011119842529296875, "tests_passed": true, "error": null}
+{"code": " {k: v if v is not None else REPLACE_NONE for k, v in data.items() if k != \"email\"}", "compilation_passed": true, "time": 0.001107931137084961, "tests_passed": true, "error": null}

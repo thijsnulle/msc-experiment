@@ -1,0 +1,8 @@
+{"code": " np.array(list(zip(x_values, y_values)))", "compilation_passed": true, "time": 0.1823129653930664, "tests_passed": true, "error": null}
+{"code": " list(zip(x_values, y_values))", "compilation_passed": true, "time": 0.039347171783447266, "tests_passed": true, "error": null}
+{"code": " np.stack([x_values, y_values], axis=1)", "compilation_passed": true, "time": 0.04063606262207031, "tests_passed": true, "error": null}
+{"code": " np.column_stack((x_values, y_values))", "compilation_passed": true, "time": 0.038134098052978516, "tests_passed": true, "error": null}
+{"code": " np.array([[x, y] for x, y in zip(x_values, y_values)])", "compilation_passed": true, "time": 0.03825092315673828, "tests_passed": true, "error": null}
+{"code": " np.array([list(x) for x in zip(x_values, y_values)])", "compilation_passed": true, "time": 0.03977203369140625, "tests_passed": true, "error": null}
+{"code": " np.array([x_values, y_values]).transpose()", "compilation_passed": true, "time": 0.03926992416381836, "tests_passed": true, "error": null}
+{"code": " np.array([x_values, y_values]).T", "compilation_passed": true, "time": 0.041837215423583984, "tests_passed": true, "error": null}

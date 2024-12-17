@@ -1,0 +1,9 @@
+{"code": " seed:", "compilation_passed": true, "time": 0.06439971923828125, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0:", "compilation_passed": true, "time": 0.9777989387512207, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0 or epoch_milliseconds >= datetime.utcnow().timestamp():", "compilation_passed": true, "time": 0.06573796272277832, "tests_passed": true, "error": null}
+{"code": " not seed:", "compilation_passed": true, "time": 0.980971097946167, "tests_passed": true, "error": null}
+{"code": " seed is not None:", "compilation_passed": true, "time": 0.06687188148498535, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0 or datetime.utcfromtimestamp(epoch_milliseconds / 1000) >= datetime.utcnow():", "compilation_passed": true, "time": 0.9826698303222656, "tests_passed": true, "error": null}
+{"code": " epoch_milliseconds < 0 or datetime.utcfromtimestamp(", "compilation_passed": false, "time": 0.00015807151794433594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " epoch_milliseconds < 0 or epoch_milliseconds > time.time_ns():", "compilation_passed": true, "time": 0.0013167858123779297, "tests_passed": false, "error": "NameError"}
+{"code": " epoch_milliseconds <= 0 or datetime.utcnow().timestamp() < epoch_milliseconds:", "compilation_passed": true, "time": 0.0679922103881836, "tests_passed": true, "error": null}

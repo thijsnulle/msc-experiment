@@ -1,0 +1,18 @@
+{"code": " np.expand_dims(result.flatten(), axis=1)", "compilation_passed": true, "time": 0.002337217330932617, "tests_passed": false, "error": "ValueError"}
+{"code": " result.reshape(len(result), -1)", "compilation_passed": true, "time": 0.005370140075683594, "tests_passed": true, "error": null}
+{"code": " result.reshape(result.shape[0], -1)", "compilation_passed": true, "time": 0.005366086959838867, "tests_passed": true, "error": null}
+{"code": " result.reshape(-1, result.shape[-1])", "compilation_passed": true, "time": 0.002248048782348633, "tests_passed": false, "error": "ValueError"}
+{"code": " StandardScaler().fit_transform(result)", "compilation_passed": true, "time": 0.0033638477325439453, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(StandardScaler().fit_transform(result).flatten())", "compilation_passed": true, "time": 0.0019457340240478516, "tests_passed": false, "error": "ValueError"}
+{"code": " np.concatenate(result).reshape(1, -1)", "compilation_passed": true, "time": 0.0023360252380371094, "tests_passed": false, "error": "ValueError"}
+{"code": " result.reshape(-1, result.shape[1])", "compilation_passed": true, "time": 0.0022149085998535156, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(result)", "compilation_passed": true, "time": 0.0018451213836669922, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([np.repeat(P, result.shape[1], axis=0), result.reshape(result.shape[0], -1)])", "compilation_passed": true, "time": 0.0021429061889648438, "tests_passed": false, "error": "ValueError"}
+{"code": " np.tensordot(P, T, axes=[1, 0])", "compilation_passed": true, "time": 0.0019478797912597656, "tests_passed": false, "error": "ValueError"}
+{"code": " StandardScaler().fit_transform(result.reshape(-1, 1))", "compilation_passed": true, "time": 0.0023360252380371094, "tests_passed": false, "error": "ValueError"}
+{"code": " StandardScaler().fit_transform(result.reshape(-1, result.shape[-1]))", "compilation_passed": true, "time": 0.002363920211791992, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(result).reshape(result.shape[0], -1)", "compilation_passed": true, "time": 0.005308866500854492, "tests_passed": true, "error": null}
+{"code": " result.reshape(P.shape[0], -1)", "compilation_passed": true, "time": 0.002300739288330078, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(StandardScaler().fit_transform(result.ravel().reshape(-1, 1)))", "compilation_passed": true, "time": 0.002889871597290039, "tests_passed": false, "error": "ValueError"}
+{"code": " result.flatten()", "compilation_passed": true, "time": 0.002093076705932617, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " np.concatenate(result, axis=0)", "compilation_passed": true, "time": 0.002254962921142578, "tests_passed": false, "error": "ValueError"}

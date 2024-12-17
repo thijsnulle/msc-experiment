@@ -1,0 +1,11 @@
+{"code": " pd.DataFrame({'Student': students})", "compilation_passed": true, "time": 0.0018498897552490234, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'Student': students}", "compilation_passed": true, "time": 0.0008912086486816406, "tests_passed": false, "error": "AttributeError"}
+{"code": " {", "compilation_passed": false, "time": 0.0001087188720703125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {subject: [random.randint(0, 100) for _ in students] for subject in subjects}", "compilation_passed": true, "time": 0.0009288787841796875, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.002115964889526367, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.0008697509765625, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00010895729064941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {subject: [random.randint(0, 100) for _ in range(len(students))] for subject in subjects}", "compilation_passed": true, "time": 0.0009331703186035156, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(columns=['Student'] + subjects)", "compilation_passed": true, "time": 0.0012750625610351562, "tests_passed": false, "error": "AttributeError"}
+{"code": " {subject: [random.randint(1, 100) for _ in range(len(students))] for subject in subjects}", "compilation_passed": true, "time": 0.0008947849273681641, "tests_passed": false, "error": "AttributeError"}
+{"code": " {student: [random.randint(1, 100) for _ in subjects] for student in students}", "compilation_passed": true, "time": 0.0008759498596191406, "tests_passed": false, "error": "AttributeError"}

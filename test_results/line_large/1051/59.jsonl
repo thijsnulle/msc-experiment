@@ -1,0 +1,14 @@
+{"code": "set_xticks(list(data_dict.keys()))", "compilation_passed": true, "time": 0.016955852508544922, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": "set_xticks(data_counter.keys())", "compilation_passed": true, "time": 0.017029762268066406, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": "set_xlabel(\"Category\")", "compilation_passed": true, "time": 0.08289098739624023, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(data_counter.keys())", "compilation_passed": true, "time": 0.08044719696044922, "tests_passed": true, "error": null}
+{"code": "set_xticks(range(min(counts), max(counts) + 1))", "compilation_passed": true, "time": 0.07812094688415527, "tests_passed": false, "error": "ValueError"}
+{"code": "set_xlabel(\"Counts\")", "compilation_passed": true, "time": 0.0774679183959961, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(list(data_dict.keys()))", "compilation_passed": true, "time": 0.0825657844543457, "tests_passed": true, "error": null}
+{"code": "set_xticks(counts)", "compilation_passed": true, "time": 0.07189202308654785, "tests_passed": true, "error": null}
+{"code": "set_xticks(list(data_counter.keys()))", "compilation_passed": true, "time": 0.017290830612182617, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": "set_xlabel(\"Category Count\")", "compilation_passed": true, "time": 0.07288122177124023, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Count\")", "compilation_passed": true, "time": 0.07741689682006836, "tests_passed": true, "error": null}
+{"code": "set_xticks(range(len(data_counter)))", "compilation_passed": true, "time": 0.07200884819030762, "tests_passed": true, "error": null}
+{"code": "set_xticks(counts, data_counter.keys())", "compilation_passed": true, "time": 0.07738804817199707, "tests_passed": true, "error": null}
+{"code": "set_title(\"Counts\")", "compilation_passed": true, "time": 0.07368016242980957, "tests_passed": true, "error": null}

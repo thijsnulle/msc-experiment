@@ -1,0 +1,6 @@
+{"code": " []", "compilation_passed": true, "time": 0.0015590190887451172, "tests_passed": true, "error": null}
+{"code": " [random.randint(22, 60) for x in range(dict1[\"EMP$$\"])]", "compilation_passed": true, "time": 0.0009779930114746094, "tests_passed": false, "error": "KeyError"}
+{"code": " [random.randint(*AGE_RANGE) for _ in range(dict1['EMP$$'])]", "compilation_passed": true, "time": 0.0009708404541015625, "tests_passed": false, "error": "KeyError"}
+{"code": " [random.randint(22, 60) for x in range(dict1.get(\"EMP$$\",0))]", "compilation_passed": true, "time": 0.00201416015625, "tests_passed": true, "error": null}
+{"code": " [random.choice(AGE_RANGE) for i in range(sum(dict1.values()))]", "compilation_passed": true, "time": 0.0009899139404296875, "tests_passed": true, "error": null}
+{"code": " [random.randint(*AGE_RANGE) for _ in range(dict1[\"EMP$$\"])]", "compilation_passed": true, "time": 0.0009636878967285156, "tests_passed": false, "error": "KeyError"}

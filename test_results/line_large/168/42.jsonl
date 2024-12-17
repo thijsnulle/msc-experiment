@@ -1,0 +1,11 @@
+{"code": " np.random.rand(data_size, num_groups)", "compilation_passed": true, "time": 0.004578113555908203, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.random.random((data_size, num_groups)), columns=labels)", "compilation_passed": true, "time": 0.20806312561035156, "tests_passed": true, "error": null}
+{"code": " np.random.randn(data_size, num_groups)", "compilation_passed": true, "time": 0.004436969757080078, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({label: np.random.rand(data_size) for label in labels})", "compilation_passed": true, "time": 0.20184612274169922, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randn(data_size, num_groups), columns=labels)", "compilation_passed": true, "time": 0.08264660835266113, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.rand(data_size, num_groups))", "compilation_passed": true, "time": 0.039707183837890625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.rand(data_size, num_groups), columns=labels)", "compilation_passed": true, "time": 0.20351600646972656, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randn(data_size, num_groups))", "compilation_passed": true, "time": 0.04181194305419922, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.random((data_size, num_groups)),", "compilation_passed": false, "time": 0.00026917457580566406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.rand(num_groups, data_size)", "compilation_passed": true, "time": 0.004527091979980469, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(np.random.randn(data_size, num_groups).cumsum(axis=1), columns=labels)", "compilation_passed": true, "time": 0.08264780044555664, "tests_passed": true, "error": null}

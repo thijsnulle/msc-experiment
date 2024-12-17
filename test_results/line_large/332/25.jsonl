@@ -1,0 +1,14 @@
+{"code": " [w for w in words if w.lower() not in stopwords.words('english')]", "compilation_passed": true, "time": 0.0015988349914550781, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word not in stopwords.words('english')]", "compilation_passed": true, "time": 0.0008151531219482422, "tests_passed": true, "error": null}
+{"code": " [w.lower() for w in words if w.lower() not in set(stopwords.words('english'))]", "compilation_passed": true, "time": 0.0014088153839111328, "tests_passed": true, "error": null}
+{"code": " [w for w in words if w.lower() not in set(stopwords.words('english'))]", "compilation_passed": true, "time": 0.0016551017761230469, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in words if word.lower() not in stopwords.words()]", "compilation_passed": true, "time": 0.029491901397705078, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word.lower() not in stopwords.words('english')]", "compilation_passed": true, "time": 0.0015401840209960938, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word.lower() not in stopwords.words()]", "compilation_passed": true, "time": 0.04519200325012207, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word not in set(stopwords.words('english'))]", "compilation_passed": true, "time": 0.0009281635284423828, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word.lower() not in set(stopwords.words('english'))]", "compilation_passed": true, "time": 0.0016710758209228516, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word not in set(stopwords.words())]", "compilation_passed": true, "time": 0.01221609115600586, "tests_passed": true, "error": null}
+{"code": " [w for w in words if w.lower() not in stopwords.words()]", "compilation_passed": true, "time": 0.04534196853637695, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word not in stopwords.words()]", "compilation_passed": true, "time": 0.009788274765014648, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in words if word.lower() not in set(stopwords.words())]", "compilation_passed": true, "time": 0.03729414939880371, "tests_passed": true, "error": null}
+{"code": " [word.lower() for word in words if word.lower() not in set(stopwords.words('english'))]", "compilation_passed": true, "time": 0.0013918876647949219, "tests_passed": true, "error": null}

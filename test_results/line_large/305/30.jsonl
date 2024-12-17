@@ -1,0 +1,19 @@
+{"code": " list(itertools.chain(*(", "compilation_passed": false, "time": 5.507469177246094e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.0006151199340820312, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(map(lambda x: x or random.sample(ALPHABET, k=5), list_of_lists)))", "compilation_passed": true, "time": 0.0006589889526367188, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 8.487701416015625e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " itertools.chain.from_iterable(", "compilation_passed": false, "time": 7.82012939453125e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(itertools.chain.from_iterable(", "compilation_passed": false, "time": 8.606910705566406e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(itertools.chain(*[x or random.sample(ALPHABET, 4) for x in list_of_lists]))", "compilation_passed": true, "time": 0.0006489753723144531, "tests_passed": true, "error": null}
+{"code": " [letter for sublist in list_of_lists for letter in (sublist if sublist else random.sample(ALPHABET, 3))]", "compilation_passed": true, "time": 0.0007131099700927734, "tests_passed": true, "error": null}
+{"code": " [letter for lst in list_of_lists for letter in lst]", "compilation_passed": true, "time": 0.0006542205810546875, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*[random.sample(ALPHABET, k=3) if len(lst) == 0 else lst for lst in list_of_lists]))", "compilation_passed": true, "time": 0.0006647109985351562, "tests_passed": true, "error": null}
+{"code": " [letter for sublist in list_of_lists for letter in sublist]", "compilation_passed": true, "time": 0.0006568431854248047, "tests_passed": true, "error": null}
+{"code": " itertools.chain(*list_of_lists)", "compilation_passed": true, "time": 0.0006709098815917969, "tests_passed": false, "error": "TypeError"}
+{"code": " list(itertools.chain(*[list(l) if l else random.sample(ALPHABET, 2) for l in list_of_lists]))", "compilation_passed": true, "time": 0.0007030963897705078, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(list_of_lists))", "compilation_passed": true, "time": 0.0006561279296875, "tests_passed": true, "error": null}
+{"code": " itertools.chain.from_iterable(list_of_lists)", "compilation_passed": true, "time": 0.0006170272827148438, "tests_passed": false, "error": "TypeError"}
+{"code": " itertools.chain(*(list_ if list_ else random.sample(ALPHABET, len(list_)) for list_ in list_of_lists))", "compilation_passed": true, "time": 0.0007007122039794922, "tests_passed": false, "error": "TypeError"}
+{"code": " [letter for sublist in list_of_lists for letter in sublist if letter]", "compilation_passed": true, "time": 0.0006580352783203125, "tests_passed": true, "error": null}
+{"code": " itertools.chain(*[", "compilation_passed": false, "time": 5.0067901611328125e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [item for sublist in list_of_lists for item in sublist]", "compilation_passed": true, "time": 0.0007228851318359375, "tests_passed": true, "error": null}

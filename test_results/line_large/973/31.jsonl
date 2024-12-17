@@ -1,0 +1,10 @@
+{"code": " not isinstance(path, str) or not path.strip():", "compilation_passed": true, "time": 0.003155231475830078, "tests_passed": true, "error": null}
+{"code": " not isinstance(path, str):", "compilation_passed": true, "time": 0.0017442703247070312, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not path:", "compilation_passed": true, "time": 0.0019011497497558594, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": " not isinstance(path, str) or not path:", "compilation_passed": true, "time": 0.0030961036682128906, "tests_passed": true, "error": null}
+{"code": " not path or not isinstance(path, str):", "compilation_passed": true, "time": 0.0030999183654785156, "tests_passed": true, "error": null}
+{"code": " not isinstance(path, str) or path == \"\":", "compilation_passed": true, "time": 0.002874135971069336, "tests_passed": true, "error": null}
+{"code": " not isinstance(path, str) or len(path) == 0:", "compilation_passed": true, "time": 0.0028481483459472656, "tests_passed": true, "error": null}
+{"code": " not path or not isinstance(path, str) or not path.strip():", "compilation_passed": true, "time": 0.0028810501098632812, "tests_passed": true, "error": null}
+{"code": " not isinstance(path, str) or path.strip() == \"\":", "compilation_passed": true, "time": 0.002874135971069336, "tests_passed": true, "error": null}
+{"code": " not path or not isinstance(path, str) or not all(", "compilation_passed": false, "time": 0.00011515617370605469, "tests_passed": false, "error": "SyntaxError"}

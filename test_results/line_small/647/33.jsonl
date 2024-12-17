@@ -1,0 +1,13 @@
+{"code": " datetime.now(to_tz_obj)", "compilation_passed": true, "time": 0.0008151531219482422, "tests_passed": true, "error": null}
+{"code": " pytz.utc.localize(datetime.now())", "compilation_passed": true, "time": 0.00098419189453125, "tests_passed": true, "error": null}
+{"code": " pytz.timezone(to_tz).localize(datetime.now())", "compilation_passed": true, "time": 0.0009338855743408203, "tests_passed": true, "error": null}
+{"code": " to_tz_obj.localize(datetime.now())", "compilation_passed": true, "time": 0.0008459091186523438, "tests_passed": true, "error": null}
+{"code": " datetime.now().astimezone(to_tz_obj)", "compilation_passed": true, "time": 0.0008199214935302734, "tests_passed": true, "error": null}
+{"code": " pytz.utc.localize(datetime.datetime.now()).astimezone(to_tz_obj)", "compilation_passed": true, "time": 0.0010600090026855469, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.datetime.now(to_tz_obj)", "compilation_passed": true, "time": 0.0006561279296875, "tests_passed": false, "error": "AttributeError"}
+{"code": " pytz.utc.localize(datetime.datetime.now())", "compilation_passed": true, "time": 0.0006990432739257812, "tests_passed": false, "error": "AttributeError"}
+{"code": " pytz.timezone(to_tz).now()", "compilation_passed": true, "time": 0.0007302761077880859, "tests_passed": false, "error": "AttributeError"}
+{"code": " to_tz_obj.localize(datetime.now()).astimezone(to_tz_obj)", "compilation_passed": true, "time": 0.0008637905120849609, "tests_passed": true, "error": null}
+{"code": " pytz.utc.localize(datetime.now()).astimezone(to_tz_obj)", "compilation_passed": true, "time": 0.0008246898651123047, "tests_passed": true, "error": null}
+{"code": " to_tz_obj.localize(datetime.utcnow())", "compilation_passed": true, "time": 0.0008442401885986328, "tests_passed": true, "error": null}
+{"code": " datetime.now(tz=to_tz_obj)", "compilation_passed": true, "time": 0.0008139610290527344, "tests_passed": true, "error": null}

@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(data, columns=columns)", "compilation_passed": true, "time": 0.0016779899597167969, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0002219676971435547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(data, columns)", "compilation_passed": true, "time": 0.0016269683837890625, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " pd.DataFrame(data, columns=columns).set_index(\"Timestamp\")", "compilation_passed": true, "time": 0.0016570091247558594, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}

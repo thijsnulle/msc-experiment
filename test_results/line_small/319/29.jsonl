@@ -1,0 +1,28 @@
+{"code": " re.findall(r'\\S+', example_str)", "compilation_passed": true, "time": 0.0009710788726806641, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r'(\\[[^\\]]*\\])', '', example_str)", "compilation_passed": true, "time": 0.10203099250793457, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\[.*\\]\", \"\", example_str)", "compilation_passed": true, "time": 0.019196748733520508, "tests_passed": true, "error": null}
+{"code": " re.split(\"[\\[\\]]\", example_str)", "compilation_passed": true, "time": 0.0008356571197509766, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r'\\[.+?\\]', '', example_str)", "compilation_passed": true, "time": 0.10420775413513184, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\[[^\\]]*\\]', ' ', example_str)", "compilation_passed": true, "time": 0.09574294090270996, "tests_passed": true, "error": null}
+{"code": " re.sub(r'[^\\w ]+', ' ', example_str)", "compilation_passed": true, "time": 0.022697925567626953, "tests_passed": true, "error": null}
+{"code": " example_str.replace('[', ' ').replace(']', ' ').replace(',', ' ')", "compilation_passed": true, "time": 0.02425694465637207, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\[[^\\]]*\\]\", example_str)", "compilation_passed": true, "time": 0.0008361339569091797, "tests_passed": false, "error": "AttributeError"}
+{"code": " example_str", "compilation_passed": true, "time": 0.02419304847717285, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\[.*\\]\", example_str)", "compilation_passed": true, "time": 0.0009951591491699219, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r'\\[.*?\\]', example_str)", "compilation_passed": true, "time": 0.0009930133819580078, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r\"\\[(.*?)\\]\", example_str)", "compilation_passed": true, "time": 0.0009100437164306641, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.split(r\"\\[.+?\\]\", example_str)", "compilation_passed": true, "time": 0.0009658336639404297, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.split(\"[\\[,\\]]\", example_str)", "compilation_passed": true, "time": 0.0009889602661132812, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r\"\\[.*?\\]\", \"\", example_str)", "compilation_passed": true, "time": 0.09819889068603516, "tests_passed": true, "error": null}
+{"code": " \"\"", "compilation_passed": true, "time": 0.018601179122924805, "tests_passed": true, "error": null}
+{"code": " re.findall(r'[\\w\\']+', example_str)", "compilation_passed": true, "time": 0.0009720325469970703, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r'\\[(.*?)\\]', '', example_str)", "compilation_passed": true, "time": 0.101715087890625, "tests_passed": true, "error": null}
+{"code": " re.split(r\"\\[.+?\\]\", example_str, maxsplit=1)", "compilation_passed": true, "time": 0.0009179115295410156, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(\"\\s+\", \" \", example_str)", "compilation_passed": true, "time": 0.026150226593017578, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\[.*?\\]\", \" \", example_str)  # Remove all square brackets using regex", "compilation_passed": true, "time": 0.10674715042114258, "tests_passed": true, "error": null}
+{"code": " re.split(r\"[ ,.!?\\[\\]]\", example_str)", "compilation_passed": true, "time": 0.0010008811950683594, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r\"\\[[^\\]]*?\\]\", \"\", example_str)", "compilation_passed": true, "time": 0.1139678955078125, "tests_passed": true, "error": null}
+{"code": " re.split('[^\\w]', example_str.strip())", "compilation_passed": true, "time": 0.0009810924530029297, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(\"[A-Za-z]+[.,\\']?\\s*\", example_str)", "compilation_passed": true, "time": 0.0009491443634033203, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.split(',|\\[|\\]|\\n', example_str)", "compilation_passed": true, "time": 0.0009691715240478516, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r'[^\\[\\]']+', example_str)", "compilation_passed": false, "time": 6.508827209472656e-05, "tests_passed": false, "error": "SyntaxError"}

@@ -1,0 +1,10 @@
+{"code": " feature not in df.columns:", "compilation_passed": true, "time": 0.007537841796875, "tests_passed": true, "error": null}
+{"code": " feature not in df:", "compilation_passed": true, "time": 0.0073816776275634766, "tests_passed": true, "error": null}
+{"code": " feature not in df.columns or target not in df.columns:", "compilation_passed": true, "time": 0.007212162017822266, "tests_passed": true, "error": null}
+{"code": " not set(feature).issubset(df.columns):", "compilation_passed": true, "time": 0.002482175827026367, "tests_passed": false, "error": "ValueError"}
+{"code": " not (feature in df.columns and target in df.columns):", "compilation_passed": true, "time": 0.007368326187133789, "tests_passed": true, "error": null}
+{"code": " feature not in df or target not in df:", "compilation_passed": true, "time": 0.0070209503173828125, "tests_passed": true, "error": null}
+{"code": " (feature not in df.columns) or (target not in df.columns):", "compilation_passed": true, "time": 0.006929874420166016, "tests_passed": true, "error": null}
+{"code": " not all(col in df for col in [feature, target]):", "compilation_passed": true, "time": 0.0075380802154541016, "tests_passed": true, "error": null}
+{"code": " not all(col in df.columns for col in [feature, target]):", "compilation_passed": true, "time": 0.0070230960845947266, "tests_passed": true, "error": null}
+{"code": " not set(feature).issubset(df.columns) or not set(target).issubset(df.columns):", "compilation_passed": true, "time": 0.0024559497833251953, "tests_passed": false, "error": "ValueError"}

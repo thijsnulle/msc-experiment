@@ -1,0 +1,11 @@
+{"code": " ax.scatter(unique_df.x, unique_df.y, c=unique_df.cluster, s=50, alpha=0.7, cmap=plt.cm.Spectral_r)", "compilation_passed": true, "time": 0.13483691215515137, "tests_passed": true, "error": null}
+{"code": " ax.scatter(unique_df.x, unique_df.y, c=unique_df.cluster, cmap='tab10')", "compilation_passed": true, "time": 0.14218974113464355, "tests_passed": true, "error": null}
+{"code": " ax.scatter(df[\"x\"], df[\"y\"], c=unique_df[\"cluster\"], s=100, alpha=0.75, edgecolors='w', linewidths=1, linewidth=1)", "compilation_passed": true, "time": 0.01946878433227539, "tests_passed": false, "error": "TypeError"}
+{"code": " ax.scatter(df[\"x\"], df[\"y\"], c=unique_df[\"cluster\"], cmap=plt.cm.Spectral)", "compilation_passed": true, "time": 0.017880916595458984, "tests_passed": false, "error": "ValueError"}
+{"code": " ax.scatter(", "compilation_passed": false, "time": 0.00030684471130371094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ax.scatter(unique_df[\"x\"], unique_df[\"y\"], c=unique_df[\"cluster\"])", "compilation_passed": true, "time": 0.144927978515625, "tests_passed": true, "error": null}
+{"code": " unique_df.plot.scatter(x='x', y='y', c='cluster', ax=ax)", "compilation_passed": true, "time": 0.23075389862060547, "tests_passed": true, "error": null}
+{"code": " ax.scatter(unique_df.x, unique_df.y, c=unique_df.cluster, cmap=plt.cm.Spectral_r)", "compilation_passed": true, "time": 0.14439010620117188, "tests_passed": true, "error": null}
+{"code": " ax.scatter(unique_df[\"x\"], unique_df[\"y\"], c=unique_df[\"cluster\"], cmap=\"tab10\")", "compilation_passed": true, "time": 0.14779281616210938, "tests_passed": true, "error": null}
+{"code": " ax.scatter(unique_df.x, unique_df.y, c=unique_df.cluster, cmap=\"rainbow\")", "compilation_passed": true, "time": 0.1514599323272705, "tests_passed": true, "error": null}
+{"code": " ax.scatter(unique_df.x, unique_df.y, c=unique_df[\"cluster\"])", "compilation_passed": true, "time": 0.1594541072845459, "tests_passed": true, "error": null}

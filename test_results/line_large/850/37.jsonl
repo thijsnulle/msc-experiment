@@ -1,0 +1,7 @@
+{"code": " []", "compilation_passed": true, "time": 0.0015239715576171875, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " [random.randint(1, 100) for _ in subjects]", "compilation_passed": true, "time": 0.002122163772583008, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, 100) for _ in subjects]", "compilation_passed": true, "time": 0.0021049976348876953, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, 100) for _ in range(len(subjects))]", "compilation_passed": true, "time": 0.0021109580993652344, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, 100) for _ in range(len(subjects))]", "compilation_passed": true, "time": 0.0022058486938476562, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, 100) for subject in subjects]", "compilation_passed": true, "time": 0.002115964889526367, "tests_passed": true, "error": null}
+{"code": " {subject: random.randint(1, 100) for subject in subjects}", "compilation_passed": true, "time": 0.0009720325469970703, "tests_passed": false, "error": "TypeError"}

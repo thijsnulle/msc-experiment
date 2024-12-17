@@ -1,0 +1,10 @@
+{"code": " int(self.headers.get('content-length', 0))", "compilation_passed": true, "time": 0.004968166351318359, "tests_passed": true, "error": null}
+{"code": " int(pdict.get('Content-Length', 0))", "compilation_passed": true, "time": 0.0054280757904052734, "tests_passed": true, "error": null}
+{"code": " int(self.headers.get('content-length'))", "compilation_passed": true, "time": 0.005445241928100586, "tests_passed": true, "error": null}
+{"code": " int(self.headers.get('content-length', '0'))", "compilation_passed": true, "time": 0.0054209232330322266, "tests_passed": true, "error": null}
+{"code": " self.headers.get('content-length')", "compilation_passed": true, "time": 0.004792213439941406, "tests_passed": true, "error": null}
+{"code": " int(self.headers.get('content-length')) or 0", "compilation_passed": true, "time": 0.005417823791503906, "tests_passed": true, "error": null}
+{"code": " self.headers.get('content-length', '0')", "compilation_passed": true, "time": 0.004812955856323242, "tests_passed": true, "error": null}
+{"code": " int(pdict.get('content-length', '0'))", "compilation_passed": true, "time": 0.005434751510620117, "tests_passed": true, "error": null}
+{"code": " int(pdict.get('content-length', 0))", "compilation_passed": true, "time": 0.0048410892486572266, "tests_passed": true, "error": null}
+{"code": " int(pdict.get('content-length'))", "compilation_passed": true, "time": 0.003335237503051758, "tests_passed": false, "error": "TypeError"}

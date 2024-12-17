@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.0060040950775146484, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=list('abcde'))", "compilation_passed": true, "time": 0.0020308494567871094, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(data, columns=[str(i) for i in range(data.shape[1])])", "compilation_passed": true, "time": 0.006078004837036133, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=[f\"X{i}\" for i in range(5)])", "compilation_passed": true, "time": 0.0019659996032714844, "tests_passed": false, "error": "ValueError"}

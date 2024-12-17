@@ -1,0 +1,10 @@
+{"code": " in pathlib.Path(directory).iterdir():", "compilation_passed": true, "time": 0.0022819042205810547, "tests_passed": true, "error": null}
+{"code": " in os.listdir(directory):", "compilation_passed": true, "time": 0.0009522438049316406, "tests_passed": false, "error": "AttributeError"}
+{"code": " in pathlib.Path(directory).glob(\"*\"):", "compilation_passed": true, "time": 0.002275705337524414, "tests_passed": true, "error": null}
+{"code": " in pathlib.Path(directory).rglob('*'):", "compilation_passed": true, "time": 0.0022978782653808594, "tests_passed": true, "error": null}
+{"code": " in pathlib.Path(directory).glob(\"**/*\"):", "compilation_passed": true, "time": 0.0023040771484375, "tests_passed": true, "error": null}
+{"code": " in pathlib.Path(directory).glob('*'):", "compilation_passed": true, "time": 0.002279996871948242, "tests_passed": true, "error": null}
+{"code": " in pathlib.Path(directory).rglob('*.*'):  # get all the files in the directory", "compilation_passed": true, "time": 0.0024292469024658203, "tests_passed": true, "error": null}
+{"code": " in pathlib.Path(directory).rglob(\"*.txt\"):", "compilation_passed": true, "time": 0.0025069713592529297, "tests_passed": true, "error": null}
+{"code": " in pathlib.Path(directory).rglob(\"*\"):", "compilation_passed": true, "time": 0.0023038387298583984, "tests_passed": true, "error": null}
+{"code": " in pathlib.Path(directory).rglob('**/*'):", "compilation_passed": true, "time": 0.0025522708892822266, "tests_passed": true, "error": null}

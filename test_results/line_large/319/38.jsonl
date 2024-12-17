@@ -1,0 +1,6 @@
+{"code": " {word: count for word, count in fdist.most_common(top_n)}", "compilation_passed": true, "time": 0.16971325874328613, "tests_passed": true, "error": null}
+{"code": " {word: freq for word, freq in fdist.most_common(top_n)}", "compilation_passed": true, "time": 0.15511393547058105, "tests_passed": true, "error": null}
+{"code": " fdist.most_common(top_n)", "compilation_passed": true, "time": 0.04544186592102051, "tests_passed": true, "error": null}
+{"code": " dict(fdist.most_common(top_n))", "compilation_passed": true, "time": 0.1555330753326416, "tests_passed": true, "error": null}
+{"code": " {word: fdist[word] for word in fdist.most_common(top_n)}", "compilation_passed": true, "time": 0.03420591354370117, "tests_passed": true, "error": null}
+{"code": " {k: v for k, v in fdist.most_common(top_n)}", "compilation_passed": true, "time": 0.16104483604431152, "tests_passed": true, "error": null}

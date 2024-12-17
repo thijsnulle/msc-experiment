@@ -1,0 +1,29 @@
+{"code": " \"@\".join([name.replace(' ', '').lower(), str(birth_year), email_domain])", "compilation_passed": true, "time": 0.009264945983886719, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s', '', name).lower() + '@' + email_domain", "compilation_passed": true, "time": 0.009379148483276367, "tests_passed": true, "error": null}
+{"code": " name.replace(' ', '').lower() + '{}@{}'.format(birth_year, email_domain)", "compilation_passed": true, "time": 0.009293079376220703, "tests_passed": true, "error": null}
+{"code": " \"\".join(name.lower().replace(' ', '').encode(\"ascii\")) + str(birth_year) + '@' + email_domain", "compilation_passed": true, "time": 0.0010788440704345703, "tests_passed": false, "error": "TypeError"}
+{"code": " (name.replace(' ', '')).lower() + str(birth_year) + '@' + email_domain", "compilation_passed": true, "time": 0.009199142456054688, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', '', name.lower()) + '@' + email_domain", "compilation_passed": true, "time": 0.009353876113891602, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s+', '', name).lower()", "compilation_passed": true, "time": 0.0026738643646240234, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\s', '', name).lower() + '.' + dob.strftime('%y%m%d') + '@' + email_domain", "compilation_passed": true, "time": 0.010442972183227539, "tests_passed": true, "error": null}
+{"code": " name.lower().replace(' ', '') + str(birth_year) + '@' + email_domain", "compilation_passed": true, "time": 0.009285926818847656, "tests_passed": true, "error": null}
+{"code": " (name.replace(' ', '').lower() + '@' + email_domain)", "compilation_passed": true, "time": 0.009137868881225586, "tests_passed": true, "error": null}
+{"code": " '{}.{}@{}'.format(''.join(re.findall('\\w+', name)), dob.strftime('%Y'), email_domain)", "compilation_passed": true, "time": 0.010350227355957031, "tests_passed": true, "error": null}
+{"code": " (name.lower().replace(' ', '')) + '-' + str(birth_year) + '@' + email_domain", "compilation_passed": true, "time": 0.009239912033081055, "tests_passed": true, "error": null}
+{"code": " \"\".join(re.sub('\\s+', '_', name).lower().strip()) + '_' + str(birth_year) + \"@\" + email_domain", "compilation_passed": true, "time": 0.009612083435058594, "tests_passed": true, "error": null}
+{"code": " (re.sub('[^\\w@.]', '_', name.lower()) + str(i)).strip('_') + '@' + email_domain", "compilation_passed": true, "time": 0.009427070617675781, "tests_passed": true, "error": null}
+{"code": " name.replace(' ', '').lower() + '_' + str(dob) + '@' + email_domain", "compilation_passed": true, "time": 0.009679079055786133, "tests_passed": true, "error": null}
+{"code": " ('@'.join(re.sub('[\\W_]+', '', name).split())", "compilation_passed": false, "time": 0.0002779960632324219, "tests_passed": false, "error": "SyntaxError"}
+{"code": " name.replace(\" \", \"\").lower() + str(birth_year) + \"@\" + email_domain", "compilation_passed": true, "time": 0.009320974349975586, "tests_passed": true, "error": null}
+{"code": " name.replace(' ', '').lower() + '_' + str(birth_year) + '@' + email_domain", "compilation_passed": true, "time": 0.009168863296508789, "tests_passed": true, "error": null}
+{"code": " email_domain.lower().replace('.', '').replace('@', '') + f\"{dob:%Y}{np.random.randint(1, 1000):03d}{np.random.randint(1, 1000):03d}\"", "compilation_passed": true, "time": 0.0031392574310302734, "tests_passed": true, "error": null}
+{"code": " ('@'.join(name.lower().split(' ')) + str(i) + '@' + email_domain)", "compilation_passed": true, "time": 0.009212970733642578, "tests_passed": true, "error": null}
+{"code": " re.sub(r' +', '', name).lower() + '@' + email_domain", "compilation_passed": true, "time": 0.009428977966308594, "tests_passed": true, "error": null}
+{"code": " f\"{name.replace(' ', '').lower()}@{email_domain}\"", "compilation_passed": true, "time": 0.009229898452758789, "tests_passed": true, "error": null}
+{"code": " (\"\".join(name.split())).lower() + str(dob.date()) + '@' + email_domain", "compilation_passed": true, "time": 0.009486913681030273, "tests_passed": true, "error": null}
+{"code": " name.replace(' ', '').lower() + str(birth_year) + '@' + email_domain", "compilation_passed": true, "time": 0.009199857711791992, "tests_passed": true, "error": null}
+{"code": " \"@\".join([name.replace(\" \", \"\").lower(), str(birth_year), email_domain])", "compilation_passed": true, "time": 0.009198188781738281, "tests_passed": true, "error": null}
+{"code": " f'{name.lower().replace(\" \", \"\")}.{dob.year}@example.com'", "compilation_passed": true, "time": 0.002562999725341797, "tests_passed": true, "error": null}
+{"code": " ''.join(re.split(r'\\s+', name)).lower() + str(birth_year) + '@' + email_domain", "compilation_passed": true, "time": 0.009396076202392578, "tests_passed": true, "error": null}
+{"code": " f'{name.replace(\" \", \"\").lower()}-{birth_year}{np.random.randint(1, 100)}@{email_domain}'", "compilation_passed": true, "time": 0.00981593132019043, "tests_passed": true, "error": null}
+{"code": " '{}@{}'.format(", "compilation_passed": false, "time": 0.0002651214599609375, "tests_passed": false, "error": "SyntaxError"}

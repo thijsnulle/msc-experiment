@@ -1,0 +1,22 @@
+{"code": " type(L) != list or type(flattened) != np.ndarray:", "compilation_passed": true, "time": 0.3697490692138672, "tests_passed": true, "error": null}
+{"code": " not all(type(l) == int for l in flattened):", "compilation_passed": true, "time": 0.0018241405487060547, "tests_passed": false, "error": "TypeError"}
+{"code": " not np.issubdtype(flattened.dtype, np.integer):", "compilation_passed": true, "time": 0.35132312774658203, "tests_passed": true, "error": null}
+{"code": " not (isinstance(flattened, np.ndarray) and", "compilation_passed": false, "time": 0.00012493133544921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.issubdtype(flattened.dtype, np.integer):", "compilation_passed": true, "time": 0.0014510154724121094, "tests_passed": false, "error": "TypeError"}
+{"code": " any([not isinstance(l, list) for l in L]):", "compilation_passed": true, "time": 0.3748178482055664, "tests_passed": true, "error": null}
+{"code": " not isinstance(flattened, np.ndarray):", "compilation_passed": true, "time": 0.36948204040527344, "tests_passed": true, "error": null}
+{"code": " not (isinstance(flattened, np.ndarray) and flattened.dtype == int):", "compilation_passed": true, "time": 0.3776130676269531, "tests_passed": true, "error": null}
+{"code": " not all([isinstance(x, int) for x in flattened]) or not isinstance(flattened, np.ndarray):", "compilation_passed": true, "time": 0.001729726791381836, "tests_passed": false, "error": "TypeError"}
+{"code": " not np.issubdtype(np.dtype(flattened), np.integer):", "compilation_passed": true, "time": 0.0017130374908447266, "tests_passed": false, "error": "TypeError"}
+{"code": " any([not isinstance(x, int) for x in flattened]):", "compilation_passed": true, "time": 0.001705169677734375, "tests_passed": false, "error": "TypeError"}
+{"code": " not all([isinstance(i, int) for i in flattened]):", "compilation_passed": true, "time": 0.0014982223510742188, "tests_passed": false, "error": "TypeError"}
+{"code": " not all([type(el) == int for el in flattened]):", "compilation_passed": true, "time": 0.001444101333618164, "tests_passed": false, "error": "TypeError"}
+{"code": " not all([isinstance(l, list) and all([isinstance(v, int) for v in l]) for l in L]):", "compilation_passed": true, "time": 0.07609081268310547, "tests_passed": false, "error": "TypeError"}
+{"code": " not np.all(flattened.dtype == np.int64):", "compilation_passed": true, "time": 0.3682131767272949, "tests_passed": true, "error": null}
+{"code": " np.issubdtype(np.array([1,2,3]).dtype, np.integer) and all(np.issubdtype(np.array(l).dtype, np.integer) for l in L):", "compilation_passed": true, "time": 0.0027098655700683594, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(flattened, np.ndarray) or not np.issubdtype(flattened.dtype, np.integer):", "compilation_passed": true, "time": 0.38796496391296387, "tests_passed": true, "error": null}
+{"code": " not all(isinstance(l, list) for l in L):", "compilation_passed": true, "time": 0.3890419006347656, "tests_passed": true, "error": null}
+{"code": " np.any([np.issubdtype(type(x), np.integer) for x in flattened]) == False:", "compilation_passed": true, "time": 0.3869659900665283, "tests_passed": true, "error": null}
+{"code": " not all([isinstance(l, list) for l in L]):", "compilation_passed": true, "time": 0.39774584770202637, "tests_passed": true, "error": null}
+{"code": " not (isinstance(L, list) and all(isinstance(l, list) and all(isinstance(x, int) for x in l) for l in L)):", "compilation_passed": true, "time": 0.06800532341003418, "tests_passed": false, "error": "TypeError"}
+{"code": " np.size(flattened) != np.size(flattened.astype(int)) or not np.equal(flattened, flattened.astype(int)).all() or not isinstance(L, list):", "compilation_passed": true, "time": 0.10102725028991699, "tests_passed": false, "error": "ValueError"}

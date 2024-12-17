@@ -1,0 +1,18 @@
+{"code": " [value for sublist in L for value in sublist if len(sublist) > 0]", "compilation_passed": true, "time": 0.0016748905181884766, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array([item for sublist in L for item in sublist])", "compilation_passed": true, "time": 0.06444597244262695, "tests_passed": false, "error": "TypeError"}
+{"code": " list(chain(*L))", "compilation_passed": true, "time": 0.0016667842864990234, "tests_passed": false, "error": "NameError"}
+{"code": " []", "compilation_passed": true, "time": 0.0016078948974609375, "tests_passed": false, "error": "AttributeError"}
+{"code": " [item for sublist in L for item in sublist]", "compilation_passed": true, "time": 0.0027840137481689453, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.asarray(list(np.nditer(L)))", "compilation_passed": true, "time": 0.003634214401245117, "tests_passed": false, "error": "ValueError"}
+{"code": " [n for sublist in L for n in sublist]  # Flattens the list of lists into a list of integers.", "compilation_passed": true, "time": 0.0022640228271484375, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(L).ravel(order=\"C\")", "compilation_passed": true, "time": 0.02332592010498047, "tests_passed": false, "error": "ValueError"}
+{"code": " [i for sublist in L for i in sublist]", "compilation_passed": true, "time": 0.00144195556640625, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.ndarray.flatten(L)", "compilation_passed": true, "time": 0.0027420520782470703, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(L).flatten()", "compilation_passed": true, "time": 0.02331399917602539, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array([number for sublist in L for number in sublist])", "compilation_passed": true, "time": 0.06764888763427734, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([])", "compilation_passed": true, "time": 0.0017240047454833984, "tests_passed": false, "error": "TypeError"}
+{"code": " [el for sub_list in L for el in sub_list]", "compilation_passed": true, "time": 0.0014951229095458984, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(pd.Series(np.array(L).flatten()), dtype=object)", "compilation_passed": true, "time": 0.001687765121459961, "tests_passed": false, "error": "TypeError"}
+{"code": " [num for sublist in L for num in sublist]", "compilation_passed": true, "time": 0.0015981197357177734, "tests_passed": false, "error": "AttributeError"}
+{"code": " [elem for sublist in L for elem in sublist]", "compilation_passed": true, "time": 0.0019528865814208984, "tests_passed": false, "error": "AttributeError"}
+{"code": " [x for sub_list in L for x in sub_list]", "compilation_passed": true, "time": 0.0016376972198486328, "tests_passed": false, "error": "AttributeError"}

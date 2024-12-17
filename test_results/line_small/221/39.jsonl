@@ -1,0 +1,8 @@
+{"code": " stats.mode(df[feature])[0][0]", "compilation_passed": true, "time": 0.0009360313415527344, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " stats.mode(df[feature])[0]", "compilation_passed": true, "time": 0.0009388923645019531, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " stats.mode(df[feature], axis=None)[0][0]", "compilation_passed": true, "time": 0.0009491443634033203, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " stats.mode(df[feature])", "compilation_passed": true, "time": 0.0009295940399169922, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " stats.mode(df[feature], axis=0).mode.flatten()", "compilation_passed": true, "time": 0.0009181499481201172, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " stats.mode(df[feature]).mode.item()", "compilation_passed": true, "time": 0.0009188652038574219, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " stats.mode(df[feature]).mode[0]", "compilation_passed": true, "time": 0.0009107589721679688, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " stats.mode(df[feature], axis=None)", "compilation_passed": true, "time": 0.0009109973907470703, "tests_passed": false, "error": "No module named 'scipy'"}

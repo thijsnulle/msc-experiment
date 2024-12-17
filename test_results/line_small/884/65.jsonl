@@ -1,0 +1,21 @@
+{"code": " df[df[col_categorical] == 'Yes']", "compilation_passed": true, "time": 0.07022309303283691, "tests_passed": false, "error": "ValueError"}
+{"code": " df.loc[(df[col_categorical] == 'Yes') &", "compilation_passed": false, "time": 0.00020122528076171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.loc[(df[col_categorical] == 'Yes') & (df[col_numerical] > larger)", "compilation_passed": false, "time": 0.00019311904907226562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.loc[", "compilation_passed": false, "time": 0.0001881122589111328, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.loc[(df[col_numerical] > larger) & (df[col_filter] == equal)]", "compilation_passed": true, "time": 0.21296000480651855, "tests_passed": true, "error": null}
+{"code": " df.loc[df[col_categorical] == 'Yes', [col_categorical, col_numerical]]", "compilation_passed": true, "time": 0.07299995422363281, "tests_passed": false, "error": "ValueError"}
+{"code": " df[(df[col_filter] == equal) & (df[col_categorical] > larger)]", "compilation_passed": true, "time": 0.0744178295135498, "tests_passed": false, "error": "TypeError"}
+{"code": " df.loc[(df[col_categorical] == 'Yes') & (df[col_numerical] > larger) & (df[col_filter] == equal)]", "compilation_passed": true, "time": 0.06961488723754883, "tests_passed": false, "error": "ValueError"}
+{"code": " df.loc[(df[col_categorical] == 'Yes')", "compilation_passed": false, "time": 0.0002110004425048828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[(df[col_numerical] > larger) & (df[col_categorical] == equal)]", "compilation_passed": true, "time": 0.07270002365112305, "tests_passed": false, "error": "ValueError"}
+{"code": " df.loc[(df[col_numerical] > larger)", "compilation_passed": false, "time": 0.0002028942108154297, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.query(f\"{col_categorical} == 'Yes' and {col_numerical} > {larger} and {col_categorical} == 'Yes'\")", "compilation_passed": true, "time": 0.970513105392456, "tests_passed": false, "error": "ValueError"}
+{"code": " df[(df[col_numerical] > larger) & (df[col_filter] == equal)]", "compilation_passed": true, "time": 0.22096586227416992, "tests_passed": true, "error": null}
+{"code": " df[(df[col_filter] == equal) & (df[col_categorical] == 'Yes') & (df[col_numerical] > larger)]", "compilation_passed": true, "time": 0.07035994529724121, "tests_passed": false, "error": "ValueError"}
+{"code": " df.query('second > @larger and third == @equal')", "compilation_passed": true, "time": 0.07180523872375488, "tests_passed": false, "error": "pandas.errors.UndefinedVariableError"}
+{"code": " df.loc[(df[col_numerical] > larger) & (df[col_categorical] == equal)]", "compilation_passed": true, "time": 0.07017016410827637, "tests_passed": false, "error": "ValueError"}
+{"code": " df[(df[col_categorical] == 'Yes') &", "compilation_passed": false, "time": 0.00019478797912597656, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[(df[col_categorical].str.contains(\"Yes\"))", "compilation_passed": false, "time": 0.00021409988403320312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[df[col_categorical] == 'Yes'][col_categorical] == 'Yes'", "compilation_passed": true, "time": 0.0680539608001709, "tests_passed": false, "error": "KeyError"}
+{"code": " df.loc[(df[col_categorical] == 'Yes') & (df[col_filter] == equal)]", "compilation_passed": true, "time": 0.06996488571166992, "tests_passed": false, "error": "ValueError"}
+{"code": " df[(df[col_categorical] == 'Yes') & (df[col_numerical] > larger) & (df[col_filter] == equal)]", "compilation_passed": true, "time": 0.06972408294677734, "tests_passed": false, "error": "ValueError"}

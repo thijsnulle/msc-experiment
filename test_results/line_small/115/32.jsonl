@@ -1,0 +1,10 @@
+{"code": " {}", "compilation_passed": true, "time": 0.0007607936859130859, "tests_passed": false, "error": "KeyError"}
+{"code": " {'mode': None, 'entropy': None}", "compilation_passed": true, "time": 0.0006949901580810547, "tests_passed": false, "error": "KeyError"}
+{"code": " dict()", "compilation_passed": true, "time": 0.0007038116455078125, "tests_passed": false, "error": "KeyError"}
+{"code": " {'mode': mode(numbers), 'entropy': entropy(numbers, 2)}", "compilation_passed": true, "time": 0.0009958744049072266, "tests_passed": false, "error": "KeyError"}
+{"code": " {'mode': 0, 'entropy': 0}", "compilation_passed": true, "time": 0.0007109642028808594, "tests_passed": false, "error": "KeyError"}
+{"code": " dict(mode=mode.mode(numbers)[0][0], entropy=entropy.entropy(numbers, 2))", "compilation_passed": true, "time": 0.0007531642913818359, "tests_passed": false, "error": "AttributeError"}
+{"code": " {", "compilation_passed": false, "time": 0.00010395050048828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'mode': mode(np.array(numbers))[0], 'entropy': entropy(np.array(numbers), 2)}", "compilation_passed": true, "time": 0.0010020732879638672, "tests_passed": false, "error": "KeyError"}
+{"code": " {'mode': mode(numbers)[0], 'entropy': entropy(numbers, 2)}", "compilation_passed": true, "time": 0.0010428428649902344, "tests_passed": false, "error": "KeyError"}
+{"code": " {'mode': mode(numbers)[0], 'entropy': entropy(numbers, base=2)}", "compilation_passed": true, "time": 0.0009369850158691406, "tests_passed": false, "error": "KeyError"}

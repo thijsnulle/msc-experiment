@@ -1,0 +1,20 @@
+{"code": " \"\".join(random.choice(LETTERS) for i in range(length - num_digits))", "compilation_passed": true, "time": 0.0008068084716796875, "tests_passed": false, "error": "AttributeError"}
+{"code": " ''.join(random.choices(LETTERS, k=length - num_digits))", "compilation_passed": true, "time": 0.0009648799896240234, "tests_passed": false, "error": "AttributeError"}
+{"code": " ''.join(random.choices(LETTERS, k=length-num_digits))", "compilation_passed": true, "time": 0.0007281303405761719, "tests_passed": false, "error": "AttributeError"}
+{"code": " ''.join(random.choice(LETTERS) for i in range(length - num_digits))", "compilation_passed": true, "time": 0.0008089542388916016, "tests_passed": false, "error": "AttributeError"}
+{"code": " ''.join(random.sample(LETTERS + DIGITS, length))", "compilation_passed": true, "time": 0.0007369518280029297, "tests_passed": false, "error": "AttributeError"}
+{"code": " random.sample(LETTERS, length - num_digits) + random.sample(DIGITS, num_digits)", "compilation_passed": true, "time": 0.0007386207580566406, "tests_passed": true, "error": null}
+{"code": " ''.join(random.choices(LETTERS + DIGITS, k=length))", "compilation_passed": true, "time": 0.0007991790771484375, "tests_passed": false, "error": "AttributeError"}
+{"code": " ''.join(random.choice(LETTERS) for _ in range(length - num_digits))", "compilation_passed": true, "time": 0.0008780956268310547, "tests_passed": false, "error": "AttributeError"}
+{"code": " \"\".join(random.sample(LETTERS + DIGITS, length))", "compilation_passed": true, "time": 0.0008299350738525391, "tests_passed": false, "error": "AttributeError"}
+{"code": " ''.join(random.choice(LETTERS + DIGITS) for _ in range(length))", "compilation_passed": true, "time": 0.0007767677307128906, "tests_passed": false, "error": "AttributeError"}
+{"code": " \"\"", "compilation_passed": true, "time": 0.00080108642578125, "tests_passed": false, "error": "AttributeError"}
+{"code": " \"\".join([random.choice(LETTERS + DIGITS) for _ in range(length)])", "compilation_passed": true, "time": 0.0008912086486816406, "tests_passed": false, "error": "AttributeError"}
+{"code": " \"\".join(random.choice(LETTERS) for _ in range(length - num_digits))", "compilation_passed": true, "time": 0.0012559890747070312, "tests_passed": false, "error": "AttributeError"}
+{"code": " \"\".join(random.choice(LETTERS + DIGITS) for _ in range(length))", "compilation_passed": true, "time": 0.0008680820465087891, "tests_passed": false, "error": "AttributeError"}
+{"code": " ''", "compilation_passed": true, "time": 0.0010120868682861328, "tests_passed": false, "error": "AttributeError"}
+{"code": " random.sample(LETTERS + DIGITS, length)", "compilation_passed": true, "time": 0.0008230209350585938, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0007617473602294922, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.sample(LETTERS + DIGITS, length - num_digits))", "compilation_passed": true, "time": 0.00080108642578125, "tests_passed": false, "error": "AttributeError"}
+{"code": " list(random.choices(LETTERS + DIGITS, k=length))", "compilation_passed": true, "time": 0.0007569789886474609, "tests_passed": true, "error": null}
+{"code": " \"\".join(random.choices(LETTERS, k=length - num_digits))", "compilation_passed": true, "time": 0.0008199214935302734, "tests_passed": false, "error": "AttributeError"}

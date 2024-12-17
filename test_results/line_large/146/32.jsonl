@@ -1,0 +1,25 @@
+{"code": "run(['ping', '-c', '1', str(ip)], timeout=1, check=True)", "compilation_passed": true, "time": 1.0085909366607666, "tests_passed": false, "error": "TimeoutError"}
+{"code": "run([\"ping\", \"-c\", \"1\", str(ip)], timeout=1, check=True)", "compilation_passed": true, "time": 1.0085880756378174, "tests_passed": false, "error": "TimeoutError"}
+{"code": "check_output(['ping', '-c', '1', str(ip)], stderr=subprocess.STDOUT)", "compilation_passed": true, "time": 0.0075531005859375, "tests_passed": true, "error": null}
+{"code": "check_call(['ping', '-c', '1', str(ip)], stdout=subprocess.DEVNULL)", "compilation_passed": true, "time": 1.005436897277832, "tests_passed": false, "error": "TimeoutError"}
+{"code": "run(", "compilation_passed": false, "time": 0.0007369518280029297, "tests_passed": false, "error": "SyntaxError"}
+{"code": "check_output(", "compilation_passed": false, "time": 0.0004601478576660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": "check_output(['ping', str(ip)])", "compilation_passed": true, "time": 0.009011983871459961, "tests_passed": true, "error": null}
+{"code": "check_call(", "compilation_passed": false, "time": 0.00041222572326660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": "check_call(['ping', '-n', '1', str(ip)], stdout=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.4427378177642822, "tests_passed": true, "error": null}
+{"code": "check_call([\"ping\", \"-c\", \"1\", str(ip)], timeout=1)", "compilation_passed": true, "time": 1.0078160762786865, "tests_passed": false, "error": "TimeoutError"}
+{"code": "check_output([\"ping\", str(ip), \"-n\", \"1\"], timeout=1)", "compilation_passed": true, "time": 0.0072100162506103516, "tests_passed": true, "error": null}
+{"code": "check_call([\"ping\", \"-c\", \"1\", str(ip)], stdout=subprocess.DEVNULL)", "compilation_passed": true, "time": 1.006688117980957, "tests_passed": false, "error": "TimeoutError"}
+{"code": "run([\"ping\", \"-c\", \"1\", str(ip)], stdout=subprocess.DEVNULL, check=True)", "compilation_passed": true, "time": 1.0062987804412842, "tests_passed": false, "error": "TimeoutError"}
+{"code": "run([\"ping\", \"-n\", \"1\", str(ip)], timeout=5)", "compilation_passed": true, "time": 0.31647324562072754, "tests_passed": true, "error": null}
+{"code": "check_call(['ping', '-n', '1', str(ip)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.4180610179901123, "tests_passed": true, "error": null}
+{"code": "run(['ping', '-c', '1', str(ip)], stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=1)", "compilation_passed": true, "time": 1.0076570510864258, "tests_passed": false, "error": "TimeoutError"}
+{"code": "check_call(['ping', str(ip), '-n', '1'], stdout=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.43338823318481445, "tests_passed": true, "error": null}
+{"code": "check_output(f\"ping -c 1 -t 10 {ip}\", shell=True, stderr=subprocess.STDOUT, universal_newlines=True)", "compilation_passed": true, "time": 0.0021729469299316406, "tests_passed": true, "error": null}
+{"code": "run(['ping', '-c', '1', str(ip)], timeout=1)", "compilation_passed": true, "time": 1.0076301097869873, "tests_passed": false, "error": "TimeoutError"}
+{"code": "run([\"ping\", \"-n\", \"1\", str(ip)], check=True, timeout=1)", "compilation_passed": true, "time": 0.452286958694458, "tests_passed": true, "error": null}
+{"code": "run(['ping', '-c', '1', str(ip)], capture_output=True, check=True)", "compilation_passed": true, "time": 1.007737159729004, "tests_passed": false, "error": "TimeoutError"}
+{"code": "check_call([\"ping\", str(ip), \"-c\", \"1\", \"-w\", \"1\"], stdout=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.4528350830078125, "tests_passed": true, "error": null}
+{"code": "check_call(['ping', str(ip), '-n', '1', '-w', '1000'], stdout=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.38488197326660156, "tests_passed": true, "error": null}
+{"code": "check_call(['ping', '-c', '1', str(ip)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 1.0044512748718262, "tests_passed": false, "error": "TimeoutError"}
+{"code": "run([\"ping\", str(ip), \"-c\", \"1\"], check=True, timeout=1)", "compilation_passed": true, "time": 1.0094869136810303, "tests_passed": false, "error": "TimeoutError"}

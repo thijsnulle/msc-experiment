@@ -1,0 +1,19 @@
+{"code": "simplefilter('always', UserWarning)", "compilation_passed": true, "time": 0.0038530826568603516, "tests_passed": true, "error": null}
+{"code": "filterwarnings('once', message='The data contains more than 10000 rows.')", "compilation_passed": true, "time": 0.003554105758666992, "tests_passed": true, "error": null}
+{"code": "warn(\"The data contains more than 10000 rows.\")", "compilation_passed": true, "time": 0.0019807815551757812, "tests_passed": true, "error": null}
+{"code": "simplefilter(\"always\")", "compilation_passed": true, "time": 0.003909111022949219, "tests_passed": true, "error": null}
+{"code": "warn(\"The data contains more than 10000 rows.\", UserWarning)", "compilation_passed": true, "time": 0.001920938491821289, "tests_passed": true, "error": null}
+{"code": "simplefilter(action=\"ignore\", category=pd.errors.PerformanceWarning)", "compilation_passed": true, "time": 0.0034508705139160156, "tests_passed": true, "error": null}
+{"code": "filterwarnings(\"always\", \"The data contains more than 10000 rows.\")", "compilation_passed": true, "time": 0.0034978389739990234, "tests_passed": true, "error": null}
+{"code": "filterwarnings(\"once\", \"The data contains more than 10000 rows.\")", "compilation_passed": true, "time": 0.003452301025390625, "tests_passed": true, "error": null}
+{"code": "filterwarnings('always')", "compilation_passed": true, "time": 0.0035490989685058594, "tests_passed": true, "error": null}
+{"code": "warn(", "compilation_passed": false, "time": 0.00010704994201660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": "simplefilter('always')", "compilation_passed": true, "time": 0.003513813018798828, "tests_passed": true, "error": null}
+{"code": "warn('The data contains more than 10000 rows.', Warning)", "compilation_passed": true, "time": 0.0018963813781738281, "tests_passed": true, "error": null}
+{"code": "filterwarnings(\"once\")", "compilation_passed": true, "time": 0.0034720897674560547, "tests_passed": true, "error": null}
+{"code": "filterwarnings(", "compilation_passed": false, "time": 0.0001087188720703125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "filterwarnings(\"once\", category=UserWarning, message=\"The data contains more than 10000 rows.\")", "compilation_passed": true, "time": 0.003525972366333008, "tests_passed": true, "error": null}
+{"code": "simplefilter('always', ResourceWarning)", "compilation_passed": true, "time": 0.0034661293029785156, "tests_passed": true, "error": null}
+{"code": "simplefilter('always', UserWarning, append=True)", "compilation_passed": true, "time": 0.0034728050231933594, "tests_passed": true, "error": null}
+{"code": "filterwarnings(\"once\", \".*The data contains more than 10000 rows.*\")", "compilation_passed": true, "time": 0.00409388542175293, "tests_passed": true, "error": null}
+{"code": "filterwarnings(\"always\")", "compilation_passed": true, "time": 0.003968000411987305, "tests_passed": true, "error": null}

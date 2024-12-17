@@ -1,0 +1,9 @@
+{"code": " random.sample(range(min_value, max_value + 1), list_length)", "compilation_passed": true, "time": 0.0008387565612792969, "tests_passed": false, "error": "ValueError"}
+{"code": " [random.randint(min_value, max_value) for _ in range(list_length)]", "compilation_passed": true, "time": 0.0006198883056640625, "tests_passed": true, "error": null}
+{"code": " random.sample(range(min_value, max_value+1), list_length)", "compilation_passed": true, "time": 0.0007190704345703125, "tests_passed": false, "error": "ValueError"}
+{"code": " random.choices(range(min_value, max_value + 1), k=list_length)", "compilation_passed": true, "time": 0.0006127357482910156, "tests_passed": true, "error": null}
+{"code": " [random.randint(min_value, max_value) for i in range(list_length)]", "compilation_passed": true, "time": 0.0006189346313476562, "tests_passed": true, "error": null}
+{"code": " random.sample(range(min_value, max_value), list_length)", "compilation_passed": true, "time": 0.0006961822509765625, "tests_passed": false, "error": "ValueError"}
+{"code": " []", "compilation_passed": true, "time": 0.0005860328674316406, "tests_passed": true, "error": null}
+{"code": " random.choices(range(min_value, max_value+1), k=list_length)", "compilation_passed": true, "time": 0.0005948543548583984, "tests_passed": true, "error": null}
+{"code": " random.sample(range(min_value,max_value), list_length)", "compilation_passed": true, "time": 0.0006988048553466797, "tests_passed": false, "error": "ValueError"}

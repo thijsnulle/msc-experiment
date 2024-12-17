@@ -1,0 +1,23 @@
+{"code": "set(title=f\"Sales Trend (1236472051807 - {start_time.date()})\")", "compilation_passed": true, "time": 0.06315183639526367, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Days since (the start date)\")", "compilation_passed": true, "time": 0.06418800354003906, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Days since (start_date)\")", "compilation_passed": true, "time": 0.06517410278320312, "tests_passed": true, "error": null}
+{"code": "set_xticks(range(0, days_diff))", "compilation_passed": true, "time": 1.0034658908843994, "tests_passed": false, "error": "TimeoutError"}
+{"code": "set(title=\"Sales Trend\", xlabel=\"Days since (the start date)\", ylabel=\"Sales (units)\")", "compilation_passed": true, "time": 0.06715631484985352, "tests_passed": true, "error": null}
+{"code": "legend()", "compilation_passed": true, "time": 0.06844401359558105, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Sales Trend for {days_diff} Days\")", "compilation_passed": true, "time": 0.06696295738220215, "tests_passed": true, "error": null}
+{"code": "set_title(\"Sales Trend\")", "compilation_passed": true, "time": 0.06618690490722656, "tests_passed": true, "error": null}
+{"code": "legend(loc='upper left', bbox_to_anchor=(1, 1))", "compilation_passed": true, "time": 0.07087373733520508, "tests_passed": true, "error": null}
+{"code": "set(xlabel=\"Days since (the start date)\", ylabel=\"Sales\", title=\"Sales Trend\")", "compilation_passed": true, "time": 0.06680917739868164, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Days since start time\")", "compilation_passed": true, "time": 0.06731510162353516, "tests_passed": true, "error": null}
+{"code": "set(title=\"Sales Trend\",", "compilation_passed": false, "time": 0.00032401084899902344, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_title(\"Sales Trend for {} Category\".format(category))", "compilation_passed": true, "time": 0.06762218475341797, "tests_passed": true, "error": null}
+{"code": "set(", "compilation_passed": false, "time": 0.0002739429473876953, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_title(f\"Sales Trend for {start_time:%B %Y}\")", "compilation_passed": true, "time": 0.06962394714355469, "tests_passed": true, "error": null}
+{"code": "set_ylabel(\"Sales\")", "compilation_passed": true, "time": 0.06686806678771973, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Sales Trend: {start_time.date()}-{current_time.date()}\")", "compilation_passed": true, "time": 0.06804990768432617, "tests_passed": true, "error": null}
+{"code": "set(title='Sales Trend', xlabel='Days since (' + str(start_time) + ')', ylabel='Sales units')", "compilation_passed": true, "time": 0.06888890266418457, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Days since start date\")", "compilation_passed": true, "time": 0.06775498390197754, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Day since Start Date\")", "compilation_passed": true, "time": 0.09703707695007324, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Days since \" + str(start_time.date()))", "compilation_passed": true, "time": 0.07186317443847656, "tests_passed": true, "error": null}
+{"code": "set_xticks(range(days_diff))", "compilation_passed": true, "time": 1.0046663284301758, "tests_passed": false, "error": "TimeoutError"}
+{"code": "set_xlabel(\"Days since (start date)\")", "compilation_passed": true, "time": 0.07343268394470215, "tests_passed": true, "error": null}

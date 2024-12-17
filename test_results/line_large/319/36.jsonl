@@ -1,0 +1,20 @@
+{"code": " fdist.plot_cumulative(top_n, cumulative=False)", "compilation_passed": true, "time": 0.027637004852294922, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot_cumulative(top_n, cumulative=True)", "compilation_passed": true, "time": 0.025335073471069336, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.040129661560058594, "tests_passed": true, "error": null}
+{"code": " fdist.plot_horizontal(top_n, title=f'Top {top_n} words')", "compilation_passed": true, "time": 0.02690410614013672, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot_simple(top_n, cumulative=False)", "compilation_passed": true, "time": 0.02603602409362793, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot_simple(top_n)", "compilation_passed": true, "time": 0.026870012283325195, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot_cumulative(top_n)", "compilation_passed": true, "time": 0.024572372436523438, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot_freqdist(top_n, title=f\"Frequency distribution of the top {top_n} most common words\")", "compilation_passed": true, "time": 0.02948617935180664, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot(top_n, cumulative=False)", "compilation_passed": true, "time": 0.1711888313293457, "tests_passed": true, "error": null}
+{"code": " fdist.plot(top_n, title='Frequency Distribution of Words')", "compilation_passed": true, "time": 0.1445598602294922, "tests_passed": true, "error": null}
+{"code": " fdist.plot(top_n, title=\"Frequency Distribution of the Most Common Words\")", "compilation_passed": true, "time": 0.14306879043579102, "tests_passed": true, "error": null}
+{"code": " fdist.plot(top_n, cumulative=False, title=f\"Frequency distribution for the top {top_n} words in the input string\")", "compilation_passed": true, "time": 0.14679980278015137, "tests_passed": true, "error": null}
+{"code": " fdist.plot_cumulative(top_n, title=f\"Frequency distribution of top {top_n} words\")", "compilation_passed": true, "time": 0.02525496482849121, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot_cumulative(top_n, x_label='Words', y_label='Frequency', cumulative=True)", "compilation_passed": true, "time": 0.03603506088256836, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot_cumulative(top_n, xlabel = 'Words', ylabel = 'Frequency', title = f'Cumulative frequency distribution of the {top_n} most common words in the input string')", "compilation_passed": true, "time": 0.02549910545349121, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot(top_n, title='Top {} Most Common Words in \"{}\"'.format(top_n, example_str), cumulative=False)", "compilation_passed": true, "time": 0.16586995124816895, "tests_passed": true, "error": null}
+{"code": " fdist.plot_simple(top_n=top_n)", "compilation_passed": true, "time": 0.025436878204345703, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot_freqdist(top_n)", "compilation_passed": true, "time": 0.025582075119018555, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot(top_n, title='Most Frequent Words', cumulative=False)", "compilation_passed": true, "time": 0.14758896827697754, "tests_passed": true, "error": null}
+{"code": " fdist.plot(top_n)", "compilation_passed": true, "time": 0.1541447639465332, "tests_passed": true, "error": null}

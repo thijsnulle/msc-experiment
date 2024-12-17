@@ -1,0 +1,21 @@
+{"code": " df['date'].values.astype(np.int64)", "compilation_passed": true, "time": 0.012602090835571289, "tests_passed": true, "error": null}
+{"code": " df['date'].apply(lambda x: x.timestamp())", "compilation_passed": true, "time": 0.05944395065307617, "tests_passed": true, "error": null}
+{"code": " df['date'].dt.astype('datetime64[s]')", "compilation_passed": true, "time": 0.0012409687042236328, "tests_passed": false, "error": "AttributeError"}
+{"code": " (df['date'].dt.hour * 60 * 60 + df['date'].dt.minute * 60 + df['date'].dt.second).astype(int)", "compilation_passed": true, "time": 0.015287160873413086, "tests_passed": true, "error": null}
+{"code": " df['date'].apply(pd.Timestamp.timestamp)", "compilation_passed": true, "time": 0.06160092353820801, "tests_passed": true, "error": null}
+{"code": " (df['date'] - pd.Series(df['date'].dt.tz_convert(None)).dt.tz_localize(None)).dt.total_seconds() / 24 * 60 * 60", "compilation_passed": true, "time": 0.00356292724609375, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].values.astype('datetime64[s]').astype(int)", "compilation_passed": true, "time": 0.060945987701416016, "tests_passed": true, "error": null}
+{"code": " df['date'].astype(np.int64)", "compilation_passed": true, "time": 0.013442039489746094, "tests_passed": true, "error": null}
+{"code": " df['date'].values.astype(np.float64)", "compilation_passed": true, "time": 0.01317906379699707, "tests_passed": true, "error": null}
+{"code": " df['date'].dt.tz_convert(None)", "compilation_passed": true, "time": 0.0016231536865234375, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].dt.total_seconds()", "compilation_passed": true, "time": 0.0012688636779785156, "tests_passed": false, "error": "AttributeError"}
+{"code": " df['date'].apply(lambda x: (x.date() - datetime.datetime.today()).total_seconds())", "compilation_passed": true, "time": 0.0021669864654541016, "tests_passed": false, "error": "NameError"}
+{"code": " df['date'].astype('int64') / (60*60*24)", "compilation_passed": true, "time": 0.014308929443359375, "tests_passed": true, "error": null}
+{"code": " df['date'].astype(int)", "compilation_passed": true, "time": 0.013581037521362305, "tests_passed": true, "error": null}
+{"code": " df['date'].astype(np.int64) / 1000 / 60 / 60", "compilation_passed": true, "time": 0.013155937194824219, "tests_passed": true, "error": null}
+{"code": " df['date'].map(lambda x: x.timestamp())", "compilation_passed": true, "time": 0.06403708457946777, "tests_passed": true, "error": null}
+{"code": " df['date'].map(pd.Timedelta(24*60*60).total_seconds) + pd.Timestamp(0)", "compilation_passed": true, "time": 0.001981019973754883, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].to_numpy()", "compilation_passed": true, "time": 0.001901865005493164, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].astype('int64')", "compilation_passed": true, "time": 0.013777971267700195, "tests_passed": true, "error": null}
+{"code": " df['date'].astype(np.int64) / 1000  # convert to epoch timestamp in seconds", "compilation_passed": true, "time": 0.015334129333496094, "tests_passed": true, "error": null}
+{"code": " df['date'].dt.timestamp()", "compilation_passed": true, "time": 0.0015568733215332031, "tests_passed": false, "error": "AttributeError"}

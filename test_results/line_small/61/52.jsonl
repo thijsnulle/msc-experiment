@@ -1,0 +1,30 @@
+{"code": "annotate(now_str, xy=(16, 4), xytext=(15, 5), arrowprops=dict(facecolor='black', shrink=0.05))", "compilation_passed": true, "time": 0.05356121063232422, "tests_passed": true, "error": null}
+{"code": "annotate(now_str, xy=(0, 0), xytext=(10, 10), arrowprops={'facecolor': 'black'})", "compilation_passed": true, "time": 0.053524017333984375, "tests_passed": true, "error": null}
+{"code": "annotate(f'Plot generated on: {now_str}', (0, 0), (0, 1), ha='right', va='bottom', size=8)", "compilation_passed": true, "time": 0.012996912002563477, "tests_passed": false, "error": "ValueError"}
+{"code": "text(0, max(square_roots) + 0.02, now_str,", "compilation_passed": false, "time": 0.00023698806762695312, "tests_passed": false, "error": "SyntaxError"}
+{"code": "annotate(", "compilation_passed": false, "time": 0.0002541542053222656, "tests_passed": false, "error": "SyntaxError"}
+{"code": "annotate(f'Current date and time: {now_str}', (0, 0), (0.5, 0.5),", "compilation_passed": false, "time": 0.00026226043701171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "annotate(f'Plot generated on {now_str}', (0, 1.05), (0, 1.05), xycoords='figure points')", "compilation_passed": true, "time": 0.012511968612670898, "tests_passed": false, "error": "ValueError"}
+{"code": "annotate(f'Current time: {now_str}', xy=(0, 0), xytext=(5, 5), arrowprops=dict(facecolor='red', shrink=0.05))", "compilation_passed": true, "time": 0.011900901794433594, "tests_passed": false, "error": "ValueError"}
+{"code": "annotate(f'Data: {now_str}', xy=(0, 0), xytext=(10, 10),", "compilation_passed": false, "time": 0.0002551078796386719, "tests_passed": false, "error": "SyntaxError"}
+{"code": "annotate(now_str, xy=(0, 0), xytext=(30, 30),", "compilation_passed": false, "time": 0.00022983551025390625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "annotate(f'Date/Time: {now_str}',", "compilation_passed": false, "time": 0.00022077560424804688, "tests_passed": false, "error": "SyntaxError"}
+{"code": "figtext(0.05, 0.025, f'Date/Time: {now_str}')", "compilation_passed": true, "time": 0.01184701919555664, "tests_passed": false, "error": "IndexError"}
+{"code": "text(-1, -1.5, now_str, transform=plt.gca().transAxes, fontsize=10)", "compilation_passed": true, "time": 0.011698007583618164, "tests_passed": false, "error": "IndexError"}
+{"code": "text(0, 1, f'Plot created on: {now_str}', ha='right', va='top', fontsize=10)", "compilation_passed": true, "time": 0.012069225311279297, "tests_passed": false, "error": "IndexError"}
+{"code": "annotate(now_str, (0, 0), (1, 1), xycoords='figure fraction',", "compilation_passed": false, "time": 0.00025916099548339844, "tests_passed": false, "error": "SyntaxError"}
+{"code": "annotate(now_str, xy=(0, 0), xytext=(10, 10), arrowprops={\"facecolor\": \"k\", \"shrink\": 0.05})", "compilation_passed": true, "time": 0.05488085746765137, "tests_passed": true, "error": null}
+{"code": "text(0, 0, f'Plot generated at {now_str}')", "compilation_passed": true, "time": 0.012260198593139648, "tests_passed": false, "error": "IndexError"}
+{"code": "annotate(f'Current date and time: {now_str}', xy=(0, 0), xytext=(10, 10),", "compilation_passed": false, "time": 0.0002720355987548828, "tests_passed": false, "error": "SyntaxError"}
+{"code": "annotate(now_str, xy=(0, 0), xytext=(10, 10), ha='center',", "compilation_passed": false, "time": 0.0002779960632324219, "tests_passed": false, "error": "SyntaxError"}
+{"code": "figtext(0.5, 0.05, f'Current date/time: {now_str}', wrap=True, horizontalalignment='center', fontsize=10)", "compilation_passed": true, "time": 0.012641191482543945, "tests_passed": false, "error": "IndexError"}
+{"code": "text(0, 1.0, now_str)", "compilation_passed": true, "time": 0.01186513900756836, "tests_passed": false, "error": "IndexError"}
+{"code": "annotate(f'Updated on: {now_str}',", "compilation_passed": false, "time": 0.00020599365234375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "text(0, len(from_user_values) / 2, now_str, ha='right', va='top')", "compilation_passed": true, "time": 0.012511968612670898, "tests_passed": false, "error": "IndexError"}
+{"code": "annotate(now_str, xy=(0, 0), xytext=(30, 30), ha='left',", "compilation_passed": false, "time": 0.000225067138671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "annotate(f'Plot generated on {now_str}', xy=(0, 0), xytext=(0, 24), xycoords='figure pixels', textcoords='offset pixels', ha='center', va='bottom')", "compilation_passed": true, "time": 0.012039899826049805, "tests_passed": false, "error": "ValueError"}
+{"code": "annotate(f\"Current date and time: {now_str}\", xy=(-0.5, -0.5), xycoords='figure pixels', xytext=(3, -3), textcoords='figure pixels', arrowprops={'arrowstyle': '->'})", "compilation_passed": true, "time": 0.012979984283447266, "tests_passed": false, "error": "ValueError"}
+{"code": "annotate(now_str, xy=(0, 0), xytext=(30, 20), fontsize=16, arrowprops={\"facecolor\": \"red\"})", "compilation_passed": true, "time": 0.05742597579956055, "tests_passed": true, "error": null}
+{"code": "text(0.01, 0.98, now_str, transform=plt.gcf().transFigure,", "compilation_passed": false, "time": 0.00026702880859375, "tests_passed": false, "error": "SyntaxError"}
+{"code": "annotate(now_str, xy=(0, 0), xytext=(10, 10),", "compilation_passed": false, "time": 0.00021910667419433594, "tests_passed": false, "error": "SyntaxError"}
+{"code": "annotate(f\"Today: {now_str}\", xy=(0, 0), xytext=(0, -30), xycoords=\"page pixels\", textcoords=\"offset points\", ha=\"left\", va=\"top\")", "compilation_passed": true, "time": 0.01285099983215332, "tests_passed": false, "error": "ValueError"}

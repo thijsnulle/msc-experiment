@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame(list_of_pairs, columns=['Category', 'Value'])", "compilation_passed": true, "time": 0.2141258716583252, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list_of_pairs, columns=[\"Category\", \"Value\"])", "compilation_passed": true, "time": 0.2393949031829834, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(list_of_pairs, columns = ['Category', 'Value'])", "compilation_passed": true, "time": 0.22466397285461426, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Category': [item[0] for item in list_of_pairs],", "compilation_passed": false, "time": 0.00015878677368164062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(list_of_pairs)", "compilation_passed": true, "time": 0.0167391300201416, "tests_passed": false, "error": "ValueError"}

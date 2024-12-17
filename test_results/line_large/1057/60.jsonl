@@ -1,0 +1,14 @@
+{"code": " np.array(pairs)", "compilation_passed": true, "time": 0.0020401477813720703, "tests_passed": false, "error": "ValueError"}
+{"code": " np.reshape(pairs, (len(animals), -1))", "compilation_passed": true, "time": 0.0010919570922851562, "tests_passed": true, "error": null}
+{"code": " np.reshape(np.random.permutation(pairs), (len(animals), len(foods)))", "compilation_passed": true, "time": 0.00160980224609375, "tests_passed": true, "error": null}
+{"code": " np.array(pairs).reshape(len(animals), len(foods))", "compilation_passed": true, "time": 0.0011060237884521484, "tests_passed": true, "error": null}
+{"code": " np.array(pairs).reshape(-1, len(foods))", "compilation_passed": true, "time": 0.0010862350463867188, "tests_passed": true, "error": null}
+{"code": " np.reshape(np.array(pairs), (len(animals), len(foods)))", "compilation_passed": true, "time": 0.0010759830474853516, "tests_passed": true, "error": null}
+{"code": " np.reshape(pairs, (len(animals), len(foods)))", "compilation_passed": true, "time": 0.0010998249053955078, "tests_passed": true, "error": null}
+{"code": " np.reshape(pairs, (int(np.sqrt(len(pairs))), int(np.sqrt(len(pairs)))))", "compilation_passed": true, "time": 0.001744985580444336, "tests_passed": false, "error": "ValueError"}
+{"code": " np.reshape(pairs, (len(pairs) // len(foods), len(foods)))", "compilation_passed": true, "time": 0.0013308525085449219, "tests_passed": true, "error": null}
+{"code": " np.reshape(pairs, (-1, len(foods)))", "compilation_passed": true, "time": 0.0011620521545410156, "tests_passed": true, "error": null}
+{"code": " np.array(pairs).reshape((-1, len(foods)))", "compilation_passed": true, "time": 0.0010738372802734375, "tests_passed": true, "error": null}
+{"code": " np.array(pairs).reshape((len(pairs) // len(foods), len(foods)))", "compilation_passed": true, "time": 0.0010819435119628906, "tests_passed": true, "error": null}
+{"code": " np.reshape(pairs, (len(foods), len(animals)))", "compilation_passed": true, "time": 0.0011568069458007812, "tests_passed": false, "error": "ValueError"}
+{"code": " np.reshape(pairs, (int(np.square(len(pairs))), -1))", "compilation_passed": true, "time": 0.001043081283569336, "tests_passed": false, "error": "ValueError"}

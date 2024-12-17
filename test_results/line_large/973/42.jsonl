@@ -1,0 +1,9 @@
+{"code": " delimiter + sub_path", "compilation_passed": true, "time": 0.0032122135162353516, "tests_passed": true, "error": null}
+{"code": " f\"{os.getcwd()}{delimiter}{sub_path}\"", "compilation_passed": true, "time": 0.003403902053833008, "tests_passed": true, "error": null}
+{"code": " os.path.join(path_components[0], sub_path)", "compilation_passed": true, "time": 0.0032989978790283203, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.getcwd(), sub_path)", "compilation_passed": true, "time": 0.0034301280975341797, "tests_passed": true, "error": null}
+{"code": " os.getcwd() + delimiter + sub_path", "compilation_passed": true, "time": 0.00356292724609375, "tests_passed": true, "error": null}
+{"code": " os.path.abspath(sub_path)", "compilation_passed": true, "time": 0.0033719539642333984, "tests_passed": true, "error": null}
+{"code": " os.path.join(\".\", sub_path)", "compilation_passed": true, "time": 0.0034110546112060547, "tests_passed": true, "error": null}
+{"code": " f\"/{sub_path}\"", "compilation_passed": true, "time": 0.0028989315032958984, "tests_passed": true, "error": null}
+{"code": " f\"{delimiter}{sub_path}\"", "compilation_passed": true, "time": 0.0028998851776123047, "tests_passed": true, "error": null}

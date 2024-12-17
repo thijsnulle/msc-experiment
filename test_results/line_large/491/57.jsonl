@@ -1,0 +1,21 @@
+{"code": "set_title(\"Sales Trend over Days\")", "compilation_passed": true, "time": 0.08560013771057129, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Days since (the start date)')", "compilation_passed": true, "time": 0.08901572227478027, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Sales Trend: {start_time:%m-%d-%Y} to {current_time:%m-%d-%Y}\")", "compilation_passed": true, "time": 0.08657193183898926, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Days since start date\")", "compilation_passed": true, "time": 0.0895700454711914, "tests_passed": true, "error": null}
+{"code": "legend(loc='best')", "compilation_passed": true, "time": 0.09113192558288574, "tests_passed": true, "error": null}
+{"code": "set_title(\"Sales Trend\")", "compilation_passed": true, "time": 0.09566402435302734, "tests_passed": true, "error": null}
+{"code": "legend()", "compilation_passed": true, "time": 0.09112310409545898, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Days since (\" + start_time.strftime(\"%Y-%m-%d\") + \")\")", "compilation_passed": true, "time": 0.0880899429321289, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Sales Trend from {start_time:%m/%d/%Y} to {current_time:%m/%d/%Y}\")", "compilation_passed": true, "time": 0.08786392211914062, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Days since (the start date)\")", "compilation_passed": true, "time": 0.10141706466674805, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Days since ' + start_time.strftime(\"%m/%d/%Y\"))", "compilation_passed": true, "time": 0.09519600868225098, "tests_passed": true, "error": null}
+{"code": "set_title(\"Sales Trends\")", "compilation_passed": true, "time": 0.09354305267333984, "tests_passed": true, "error": null}
+{"code": "set_title(\"Sales Trends over Days\")", "compilation_passed": true, "time": 0.08842611312866211, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Sales Trend\")", "compilation_passed": true, "time": 0.09601569175720215, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Days since ' + start_time.strftime('%Y-%m-%d'))", "compilation_passed": true, "time": 0.08859086036682129, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Sales Trend from {start_time.strftime('%Y-%m-%d')} to {current_time.strftime('%Y-%m-%d')}\")", "compilation_passed": true, "time": 0.09523320198059082, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Days since ' + start_time.strftime(\"%d/%m/%Y\"))", "compilation_passed": true, "time": 0.08949589729309082, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Days since {}'.format(start_time))", "compilation_passed": true, "time": 0.09173321723937988, "tests_passed": true, "error": null}
+{"code": "set_xlabel('Days since ' + str(start_time.date()))", "compilation_passed": true, "time": 0.0923299789428711, "tests_passed": true, "error": null}
+{"code": "set_xlabel(\"Days since start\")", "compilation_passed": true, "time": 0.09744906425476074, "tests_passed": true, "error": null}
+{"code": "set_title(f\"Sales Trends for {days_diff} Days\")", "compilation_passed": true, "time": 0.09780097007751465, "tests_passed": true, "error": null}

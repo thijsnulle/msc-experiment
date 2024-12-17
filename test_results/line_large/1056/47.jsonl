@@ -1,0 +1,15 @@
+{"code": " list(zip(LETTERS, NUMBERS))", "compilation_passed": true, "time": 0.0044460296630859375, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " list(zip(LETTERS, NUMBERS))[:n_pairs]", "compilation_passed": true, "time": 0.0014469623565673828, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " list(zip(LETTERS[:n_pairs], NUMBERS[:n_pairs]))", "compilation_passed": true, "time": 0.0014882087707519531, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " [f\"{letter}:{number}\" for letter, number in zip(LETTERS, NUMBERS)]", "compilation_passed": true, "time": 0.0018849372863769531, "tests_passed": false, "error": "ValueError"}
+{"code": " [(LETTER, NUMBER) for LETTER in LETTERS for NUMBER in NUMBERS]", "compilation_passed": true, "time": 0.0021300315856933594, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " zip(LETTERS[:n_pairs], NUMBERS[:n_pairs])", "compilation_passed": true, "time": 0.0012028217315673828, "tests_passed": false, "error": "TypeError"}
+{"code": " [(LETTERS[i], NUMBERS[i]) for i in range(n_pairs)]", "compilation_passed": true, "time": 0.0012629032135009766, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " []", "compilation_passed": true, "time": 0.0011920928955078125, "tests_passed": false, "error": "ValueError"}
+{"code": " zip(LETTERS, NUMBERS)", "compilation_passed": true, "time": 0.001007080078125, "tests_passed": false, "error": "TypeError"}
+{"code": " [LETTER + str(NUMBER) for LETTER in LETTERS]", "compilation_passed": true, "time": 0.001222848892211914, "tests_passed": false, "error": "NameError"}
+{"code": " [(l, n) for l, n in zip(LETTERS, NUMBERS)]", "compilation_passed": true, "time": 0.001249074935913086, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " [(LETTERS[i], str(NUMBERS[i])) for i in range(n_pairs)]", "compilation_passed": true, "time": 0.0016179084777832031, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " random.sample(zip(LETTERS, NUMBERS), n_pairs)", "compilation_passed": true, "time": 0.0013687610626220703, "tests_passed": false, "error": "TypeError"}
+{"code": " [f\"{LETTERS[i]}:{NUMBERS[i]}\" for i in range(n_pairs)]", "compilation_passed": true, "time": 0.014309883117675781, "tests_passed": true, "error": null}
+{"code": " [f\"{letter}:{number}\" for letter in LETTERS for number in NUMBERS]", "compilation_passed": true, "time": 0.0020079612731933594, "tests_passed": false, "error": "ValueError"}

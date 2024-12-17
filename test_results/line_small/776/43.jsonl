@@ -1,0 +1,3 @@
+{"code": " df[x_column].to_numpy()", "compilation_passed": true, "time": 0.004945039749145508, "tests_passed": false, "error": "Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample."}
+{"code": " df[x_column]", "compilation_passed": true, "time": 0.004434347152709961, "tests_passed": false, "error": "Exception"}
+{"code": " df[x_column].values.reshape(-1, 1)", "compilation_passed": true, "time": 0.0063631534576416016, "tests_passed": true, "error": null}

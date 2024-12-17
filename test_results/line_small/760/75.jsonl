@@ -1,0 +1,26 @@
+{"code": " list(map(lambda name: re.sub(r'\\W+', '', name.replace('\u00e1', 'a').replace('\u00e9', 'e').replace('\u00ed', 'i').replace('\u00f3', 'o').replace('\u00fa', 'u')), latin_names))", "compilation_passed": true, "time": 0.0061147212982177734, "tests_passed": true, "error": null}
+{"code": " [correct_encoding(name) for name in latin_names]", "compilation_passed": true, "time": 0.0010366439819335938, "tests_passed": false, "error": "NameError"}
+{"code": " [name.encode('ascii', errors='ignore').decode('utf-8') for name in latin_names]", "compilation_passed": true, "time": 0.005858898162841797, "tests_passed": true, "error": null}
+{"code": " [_.decode('cp1252') for _ in latin_names]", "compilation_passed": true, "time": 0.0011250972747802734, "tests_passed": false, "error": "AttributeError"}
+{"code": " [_.encode('ascii').decode() for _ in latin_names]", "compilation_passed": true, "time": 0.001026153564453125, "tests_passed": false, "error": "UnicodeEncodeError"}
+{"code": " [i.encode('ascii','replace').decode(\"ASCII\") for i in latin_names]", "compilation_passed": true, "time": 0.005821943283081055, "tests_passed": true, "error": null}
+{"code": " [name.encode('latin1').decode('utf-8') for name in latin_names]", "compilation_passed": true, "time": 0.0010459423065185547, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " [encode_latin(x) for x in latin_names]", "compilation_passed": true, "time": 0.001024007797241211, "tests_passed": false, "error": "NameError"}
+{"code": " [", "compilation_passed": false, "time": 0.00015282630920410156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [re.sub(r'[^A-Za-z]', '', name) for name in latin_names]", "compilation_passed": true, "time": 0.0059130191802978516, "tests_passed": true, "error": null}
+{"code": " [latin_name.encode('utf-8', 'replace').decode('utf-8')", "compilation_passed": false, "time": 0.00016927719116210938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [x.encode(\"cp1252\") for x in latin_names]", "compilation_passed": true, "time": 0.0021638870239257812, "tests_passed": false, "error": "TypeError"}
+{"code": " [unicode(name, encoding='utf-8', errors='replace')", "compilation_passed": false, "time": 0.00016999244689941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [name.encode('utf-8', errors='replace').decode('utf-8', errors='replace') for name in latin_names]", "compilation_passed": true, "time": 0.00948786735534668, "tests_passed": true, "error": null}
+{"code": " [latin_name.encode('ascii', 'ignore').decode('utf-8') for latin_name in latin_names]", "compilation_passed": true, "time": 0.00587010383605957, "tests_passed": true, "error": null}
+{"code": " [name.encode('cp1252').decode('cp1250') for name in latin_names]", "compilation_passed": true, "time": 0.0098419189453125, "tests_passed": true, "error": null}
+{"code": " [s.decode('utf-8').encode('ascii') for s in latin_names]", "compilation_passed": true, "time": 0.0010190010070800781, "tests_passed": false, "error": "AttributeError"}
+{"code": " [latin_name.encode('latin-1').decode('utf8') for latin_name in latin_names]", "compilation_passed": true, "time": 0.0010156631469726562, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " [correct_name_encoding(name) for name in latin_names]", "compilation_passed": true, "time": 0.001027822494506836, "tests_passed": false, "error": "NameError"}
+{"code": " [name.encode('cp1252', 'ignore').decode('cp1252') for name in latin_names]", "compilation_passed": true, "time": 0.009455204010009766, "tests_passed": true, "error": null}
+{"code": " [s.encode(\"cp1252\").decode() for s in latin_names]", "compilation_passed": true, "time": 0.0010118484497070312, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " [name.encode(\"cp437\").decode(\"cp437\").encode(\"cp437\").decode(\"cp437\").encode(\"utf8\") for name in latin_names]", "compilation_passed": true, "time": 0.0017251968383789062, "tests_passed": false, "error": "TypeError"}
+{"code": " [x.encode('ascii', 'ignore').decode('utf-8') for x in latin_names]", "compilation_passed": true, "time": 0.0059549808502197266, "tests_passed": true, "error": null}
+{"code": " [re.sub('\\u0303', '', name) for name in latin_names]", "compilation_passed": true, "time": 0.009466886520385742, "tests_passed": true, "error": null}
+{"code": " [name.replace('\u00c1', '\u00c0').replace('\u00c0', '\u00c1') for name in latin_names]", "compilation_passed": true, "time": 0.009404897689819336, "tests_passed": true, "error": null}
+{"code": " [_correct_encoding(name) for name in latin_names]", "compilation_passed": true, "time": 0.0010120868682861328, "tests_passed": false, "error": "NameError"}

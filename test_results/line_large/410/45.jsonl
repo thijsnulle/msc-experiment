@@ -1,0 +1,5 @@
+{"code": " not df[column_name].dtype == 'datetime64[ns]':", "compilation_passed": true, "time": 0.012886762619018555, "tests_passed": false, "error": "KeyError"}
+{"code": " not pd.api.types.is_datetime64_any_dtype(df[column_name]):", "compilation_passed": true, "time": 0.013154029846191406, "tests_passed": false, "error": "KeyError"}
+{"code": " not pd.core.dtypes.common.is_datetime64_any_dtype(df[column_name]):", "compilation_passed": true, "time": 0.013457059860229492, "tests_passed": false, "error": "KeyError"}
+{"code": " column_name not in df.columns:", "compilation_passed": true, "time": 0.05700516700744629, "tests_passed": true, "error": null}
+{"code": " not pd.core.dtypes.common.is_datetime64_dtype(df[column_name]):", "compilation_passed": true, "time": 0.01335906982421875, "tests_passed": false, "error": "KeyError"}

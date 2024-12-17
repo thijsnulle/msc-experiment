@@ -1,0 +1,11 @@
+{"code": " [f for f in os.listdir(BACKUP_DIR) if os.path.isdir(os.path.join(BACKUP_DIR, f))]", "compilation_passed": true, "time": 0.001512289047241211, "tests_passed": true, "error": null}
+{"code": " sorted(os.listdir(BACKUP_DIR))", "compilation_passed": true, "time": 0.0030770301818847656, "tests_passed": true, "error": null}
+{"code": " os.listdir(BACKUP_DIR)", "compilation_passed": true, "time": 0.002502918243408203, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00011110305786132812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [f for f in os.listdir(BACKUP_DIR) if f.startswith(directory)]", "compilation_passed": true, "time": 0.0012617111206054688, "tests_passed": true, "error": null}
+{"code": " [file for file in os.listdir(BACKUP_DIR) if file.startswith('backup_')]", "compilation_passed": true, "time": 0.0012793540954589844, "tests_passed": true, "error": null}
+{"code": " [file for file in os.listdir(BACKUP_DIR) if file.startswith(f'{directory.replace(\"/\", \"_\")}_')]", "compilation_passed": true, "time": 0.0012378692626953125, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.00115203857421875, "tests_passed": true, "error": null}
+{"code": " [os.path.join(BACKUP_DIR, backup) for backup in os.listdir(BACKUP_DIR)]", "compilation_passed": true, "time": 0.002482891082763672, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(BACKUP_DIR, '*'))", "compilation_passed": true, "time": 0.0012979507446289062, "tests_passed": false, "error": "NameError"}
+{"code": " glob.glob(os.path.join(BACKUP_DIR, f'*{directory}.zip'))", "compilation_passed": true, "time": 0.0012059211730957031, "tests_passed": false, "error": "NameError"}

@@ -1,0 +1,18 @@
+{"code": " soup.find('table')", "compilation_passed": true, "time": 0.005627870559692383, "tests_passed": true, "error": null}
+{"code": " soup.find_all('table')[0]", "compilation_passed": true, "time": 0.0056819915771484375, "tests_passed": true, "error": null}
+{"code": " soup.find_all('table', class_='table')[0]", "compilation_passed": true, "time": 0.002680063247680664, "tests_passed": false, "error": "IndexError"}
+{"code": " soup.find(id='my-table')", "compilation_passed": true, "time": 0.0026581287384033203, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find(\"table\", {'border':'1'})", "compilation_passed": true, "time": 0.0027129650115966797, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('table', {'class': 'table'})", "compilation_passed": true, "time": 0.0027358531951904297, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('table', {'id': 'data-table'})", "compilation_passed": true, "time": 0.0027341842651367188, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('table', {'id': 'mytable'})", "compilation_passed": true, "time": 0.0028040409088134766, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('table', {'class': 'data'})", "compilation_passed": true, "time": 0.0029850006103515625, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find_all('table')", "compilation_passed": true, "time": 0.0027599334716796875, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('table', {'class': 'table-condensed table-striped table-hover'})", "compilation_passed": true, "time": 0.0027832984924316406, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('table', class_='table-data')", "compilation_passed": true, "time": 0.002624034881591797, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('table', {'class': 'table table-striped'})", "compilation_passed": true, "time": 0.002809762954711914, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('table', class_=\"dataTable\")", "compilation_passed": true, "time": 0.0029141902923583984, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('table', {'class': 'table table-bordered'})", "compilation_passed": true, "time": 0.0026388168334960938, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find(\"table\")", "compilation_passed": true, "time": 0.0056531429290771484, "tests_passed": true, "error": null}
+{"code": " soup.find('table', {'id': 'productstable'})", "compilation_passed": true, "time": 0.002804994583129883, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find('table', {'class': 'wikitable'})", "compilation_passed": true, "time": 0.0027761459350585938, "tests_passed": false, "error": "AttributeError"}

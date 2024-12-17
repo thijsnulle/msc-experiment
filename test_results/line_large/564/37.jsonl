@@ -1,0 +1,10 @@
+{"code": " creation_time", "compilation_passed": true, "time": 0.002833843231201172, "tests_passed": true, "error": null}
+{"code": " creation_time.isoformat()", "compilation_passed": true, "time": 0.002023935317993164, "tests_passed": true, "error": null}
+{"code": " str(creation_time)", "compilation_passed": true, "time": 0.0021719932556152344, "tests_passed": true, "error": null}
+{"code": " creation_time.strftime(", "compilation_passed": false, "time": 0.00016188621520996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " creation_time.strftime('%d-%m-%Y %H:%M:%S %Z')", "compilation_passed": true, "time": 0.0020570755004882812, "tests_passed": true, "error": null}
+{"code": " creation_time.strftime('%Y-%m-%d %H:%M:%S %Z')", "compilation_passed": true, "time": 0.0027747154235839844, "tests_passed": true, "error": null}
+{"code": " creation_time.strftime('%Y-%m-%d %H:%M:%S UTC')", "compilation_passed": true, "time": 0.0020101070404052734, "tests_passed": true, "error": null}
+{"code": " creation_time.strftime(\"%Y-%m-%d %H:%M:%S %Z\")", "compilation_passed": true, "time": 0.001989126205444336, "tests_passed": true, "error": null}
+{"code": " creation_time.strftime(\"%Y-%m-%d %H:%M:%S%z\")", "compilation_passed": true, "time": 0.0019919872283935547, "tests_passed": true, "error": null}
+{"code": " creation_time.strftime(\"%Y-%m-%d %H:%M:%S UTC\")", "compilation_passed": true, "time": 0.001995086669921875, "tests_passed": true, "error": null}

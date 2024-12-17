@@ -1,0 +1,23 @@
+{"code": " pd.read_excel(excel_file)", "compilation_passed": true, "time": 0.05301713943481445, "tests_passed": true, "error": null}
+{"code": " pd.read_excel(excel_file, header=None)", "compilation_passed": true, "time": 0.040024757385253906, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_excel(excel_file, index_col=False)", "compilation_passed": true, "time": 0.05313396453857422, "tests_passed": true, "error": null}
+{"code": " pd.read_excel(excel_file, sheet_name=\"Sheet1\", dtype=float)", "compilation_passed": true, "time": 0.014348983764648438, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.read_excel(excel_file, usecols=[column_name])", "compilation_passed": true, "time": 0.051946163177490234, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_excel(excel_file, engine='xlrd')", "compilation_passed": true, "time": 0.00970602035522461, "tests_passed": false, "error": "ImportError"}
+{"code": " pd.read_excel(excel_file, sheet_name='Sheet1', dtype=float, index_col=0, skipfooter=1)", "compilation_passed": true, "time": 0.01285409927368164, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.read_excel(excel_file, index_col=0, engine='openpyxl', na_values=[\"NaN\"])", "compilation_passed": true, "time": 0.05322599411010742, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_excel(excel_file, usecols=[0])", "compilation_passed": true, "time": 0.03999519348144531, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_excel(excel_file, index_col=0, dtype={'Value': object})", "compilation_passed": true, "time": 0.0532381534576416, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_excel(excel_file, index_col=0, header=None).iloc[::-1]", "compilation_passed": true, "time": 0.04014396667480469, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_excel(excel_file, index_col=0, dtype=str)", "compilation_passed": true, "time": 0.05434989929199219, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_excel(excel_file, sheet_name=None)", "compilation_passed": true, "time": 0.012015819549560547, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.read_excel(excel_file, usecols=[1], index_col=0)", "compilation_passed": true, "time": 0.04019021987915039, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_excel(excel_file, index_col=False, header=1).set_index('Unnamed: 0')", "compilation_passed": true, "time": 0.012309789657592773, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.read_excel(excel_file, engine='openpyxl', sheet_name='Sheet1', index_col=None, na_values=['-'])", "compilation_passed": true, "time": 0.05303692817687988, "tests_passed": true, "error": null}
+{"code": " pd.read_excel(excel_file, sheet_name=0, usecols=1, index_col=False)", "compilation_passed": true, "time": 0.039190053939819336, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_excel(excel_file, index_col=None)", "compilation_passed": true, "time": 0.052995920181274414, "tests_passed": true, "error": null}
+{"code": " pd.read_excel(excel_file, index_col=0)", "compilation_passed": true, "time": 0.053421974182128906, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_excel(excel_file, sheet_name='Sheet1', usecols=[0, 1])", "compilation_passed": true, "time": 0.05287599563598633, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.read_excel(excel_file, dtype=str)", "compilation_passed": true, "time": 0.05318903923034668, "tests_passed": true, "error": null}
+{"code": " pd.read_excel(excel_file, engine='openpyxl', sheet_name=0, header=0)", "compilation_passed": true, "time": 0.05301189422607422, "tests_passed": true, "error": null}
+{"code": " pd.read_excel(excel_file, header=0, index_col=0, dtype='string')", "compilation_passed": true, "time": 0.057507991790771484, "tests_passed": false, "error": "ValueError"}

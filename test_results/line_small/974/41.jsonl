@@ -1,0 +1,7 @@
+{"code": "copy(str(entry), str(destination_path / entry.name))", "compilation_passed": true, "time": 0.007862091064453125, "tests_passed": true, "error": null}
+{"code": "copy(str(entry.resolve()), str(destination_path / entry.name))", "compilation_passed": true, "time": 0.008322000503540039, "tests_passed": true, "error": null}
+{"code": "copy2(str(entry), str(destination_path / entry.name))", "compilation_passed": true, "time": 0.008213996887207031, "tests_passed": true, "error": null}
+{"code": "copy(str(entry), str(destination_path))", "compilation_passed": true, "time": 0.007962942123413086, "tests_passed": true, "error": null}
+{"code": "copy(entry, destination_path)", "compilation_passed": true, "time": 0.00781702995300293, "tests_passed": true, "error": null}
+{"code": "copyfile(str(entry), str(destination_path / entry.name))", "compilation_passed": true, "time": 0.007716178894042969, "tests_passed": true, "error": null}
+{"code": "copy2(entry, destination_path)", "compilation_passed": true, "time": 0.008257150650024414, "tests_passed": true, "error": null}

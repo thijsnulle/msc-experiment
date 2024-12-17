@@ -1,0 +1,19 @@
+{"code": " Counter(w.lower() for w in blob.words if w.isalnum())", "compilation_passed": true, "time": 0.0012600421905517578, "tests_passed": false, "error": ""}
+{"code": " Counter(re.findall(r'\\w+', text))", "compilation_passed": true, "time": 0.0007760524749755859, "tests_passed": false, "error": "NameError"}
+{"code": " Counter(blob.words)", "compilation_passed": true, "time": 0.0012142658233642578, "tests_passed": false, "error": ""}
+{"code": " Counter(", "compilation_passed": false, "time": 9.274482727050781e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Counter(re.findall(r'\\w+|\\d+', text))", "compilation_passed": true, "time": 0.0007550716400146484, "tests_passed": false, "error": "NameError"}
+{"code": " Counter([w for w in blob.words if len(w) >= n])", "compilation_passed": true, "time": 0.0012209415435791016, "tests_passed": false, "error": ""}
+{"code": " Counter(sorted(blob.words, key=lambda x: text.count(x), reverse=True))", "compilation_passed": true, "time": 0.001219034194946289, "tests_passed": false, "error": ""}
+{"code": " Counter(blob.words).most_common(top_k)", "compilation_passed": true, "time": 0.0011789798736572266, "tests_passed": false, "error": ""}
+{"code": " Counter()", "compilation_passed": true, "time": 0.015262365341186523, "tests_passed": true, "error": null}
+{"code": " Counter(w for word in blob.ngrams(n) for w in word)", "compilation_passed": true, "time": 0.0012440681457519531, "tests_passed": false, "error": ""}
+{"code": " Counter(w for w in blob.words)", "compilation_passed": true, "time": 0.0012018680572509766, "tests_passed": false, "error": ""}
+{"code": " Counter([word for word in blob.words]).most_common()", "compilation_passed": true, "time": 0.001180887222290039, "tests_passed": false, "error": ""}
+{"code": " Counter(re.findall(r'\\w+', str(blob.words)))", "compilation_passed": true, "time": 0.0007679462432861328, "tests_passed": false, "error": "NameError"}
+{"code": " Counter(re.findall(r'\\w+', blob.raw_sentences))", "compilation_passed": true, "time": 0.0007569789886474609, "tests_passed": false, "error": "NameError"}
+{"code": " Counter(re.findall(r'\\w+', text.lower()))", "compilation_passed": true, "time": 0.0007619857788085938, "tests_passed": false, "error": "NameError"}
+{"code": " Counter([i.lower() for i in re.sub('\\W', ' ', text).split()])", "compilation_passed": true, "time": 0.0007829666137695312, "tests_passed": false, "error": "NameError"}
+{"code": " Counter(\"\".join(re.findall('[a-zA-Z]+', text))).most_common(top_k)", "compilation_passed": true, "time": 0.0007560253143310547, "tests_passed": false, "error": "NameError"}
+{"code": " Counter(re.findall(f'(?:(\\\\b[a-z]{{1,{n}}}\\\\b))+', text.lower()))", "compilation_passed": true, "time": 0.0007610321044921875, "tests_passed": false, "error": "NameError"}
+{"code": " Counter(re.findall(r'\\w+', blob.lower()))", "compilation_passed": true, "time": 0.0007500648498535156, "tests_passed": false, "error": "NameError"}

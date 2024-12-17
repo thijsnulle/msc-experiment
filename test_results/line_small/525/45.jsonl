@@ -1,0 +1,14 @@
+{"code": "set(xlabel=key, ylabel=\"value\")", "compilation_passed": true, "time": 0.03419303894042969, "tests_passed": true, "error": null}
+{"code": "set_ylabel(key)", "compilation_passed": true, "time": 0.03526115417480469, "tests_passed": true, "error": null}
+{"code": "set(xticklabels=[key], title=key)", "compilation_passed": true, "time": 0.11852788925170898, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([\"mean\", \"median\"])", "compilation_passed": true, "time": 0.033555030822753906, "tests_passed": true, "error": null}
+{"code": "set_title(f\"{key}\")", "compilation_passed": true, "time": 0.127305269241333, "tests_passed": true, "error": null}
+{"code": "set_title(key)", "compilation_passed": true, "time": 0.12351512908935547, "tests_passed": true, "error": null}
+{"code": "set_xticks([0, 1])", "compilation_passed": true, "time": 0.03540396690368652, "tests_passed": true, "error": null}
+{"code": "set_xticks(ax.get_xticks(), [\"mean\", \"median\"])", "compilation_passed": true, "time": 0.03520464897155762, "tests_passed": true, "error": null}
+{"code": "set(", "compilation_passed": false, "time": 0.0002601146697998047, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_xticks(ax.get_xticks())", "compilation_passed": true, "time": 0.03479909896850586, "tests_passed": true, "error": null}
+{"code": "set_title(f\"{key} values\")", "compilation_passed": true, "time": 0.1260051727294922, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([key, \"\"])", "compilation_passed": true, "time": 0.03593707084655762, "tests_passed": true, "error": null}
+{"code": "set_xticks([\"mean\", \"median\"])", "compilation_passed": true, "time": 0.03537106513977051, "tests_passed": true, "error": null}
+{"code": "set_title(\"Values for {}\".format(key))", "compilation_passed": true, "time": 0.12280130386352539, "tests_passed": true, "error": null}

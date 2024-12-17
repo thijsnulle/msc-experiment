@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(normalized_data, columns=['Normalized Value'])", "compilation_passed": true, "time": 0.00571894645690918, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Normalized Value': normalized_data})", "compilation_passed": true, "time": 0.0022232532501220703, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({'Normalized Value': normalized_data.flatten()})", "compilation_passed": true, "time": 0.005808115005493164, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Normalized Value': normalized_data[:, 0]})", "compilation_passed": true, "time": 0.006081819534301758, "tests_passed": true, "error": null}

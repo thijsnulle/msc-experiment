@@ -1,22 +1,22 @@
-{"code": " os.path.join(target_directory, os.path.splitext(file)[0] + \".csv\")", "compilation_passed": false, "time": 0.00026988983154296875, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, filepath.replace(\".\", \"_\").replace(\"/\", \"_\").replace(\"\\\\\", \"_\").replace(\"-\", \"_\").replace(\" \", \"_\") + \".csv\")", "compilation_passed": false, "time": 0.0002989768981933594, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, os.path.basename(filepath)[:-4] + '.csv')", "compilation_passed": false, "time": 0.0003120899200439453, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, file.replace(extension, \".csv\"))", "compilation_passed": false, "time": 0.0002758502960205078, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, f\"{file.replace(extension, '.csv').lower()}\")", "compilation_passed": false, "time": 0.0003428459167480469, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, filepath)", "compilation_passed": false, "time": 0.00025582313537597656, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, file.replace(extension, '.csv'))", "compilation_passed": false, "time": 0.00027179718017578125, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, file.split(\".\")[0] + \".csv\")", "compilation_passed": false, "time": 0.0003509521484375, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, file.replace(\".\" + extension, \".csv\"))", "compilation_passed": false, "time": 0.00026869773864746094, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, f\"{filepath.stem}.csv\")", "compilation_passed": false, "time": 0.00026988983154296875, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, f\"{file}.csv\")", "compilation_passed": false, "time": 0.00026798248291015625, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, file + \".csv\")", "compilation_passed": false, "time": 0.00027108192443847656, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, f\"{file[:-len(extension)]}.csv\")", "compilation_passed": false, "time": 0.0002770423889160156, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, f\"{Path(file).stem}.csv\")", "compilation_passed": false, "time": 0.0003609657287597656, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, f\"{Path(file).stem}{extensions[extensions.index(extension)]}\")", "compilation_passed": false, "time": 0.0002880096435546875, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, os.path.basename(filepath))", "compilation_passed": false, "time": 0.0002818107604980469, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, f\"converted_{filepath}.csv\")", "compilation_passed": false, "time": 0.0002758502960205078, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, f\"{file.split('.')[0]}.csv\")", "compilation_passed": false, "time": 0.0002841949462890625, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, Path(file).with_suffix(\".csv\"))", "compilation_passed": false, "time": 0.0002639293670654297, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, Path(file).stem + \".csv\")", "compilation_passed": false, "time": 0.0002560615539550781, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, os.path.splitext(file)[0]+\".csv\")", "compilation_passed": false, "time": 0.0002727508544921875, "tests_passed": false, "error": "IndentationError"}
-{"code": " os.path.join(target_directory, os.path.basename(filepath).replace(extension, \".csv\"))", "compilation_passed": false, "time": 0.0002732276916503906, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, os.path.splitext(file)[0] + \".csv\")", "compilation_passed": false, "time": 0.000244140625, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, filepath.replace(\".\", \"_\").replace(\"/\", \"_\").replace(\"\\\\\", \"_\").replace(\"-\", \"_\").replace(\" \", \"_\") + \".csv\")", "compilation_passed": false, "time": 0.00020599365234375, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, os.path.basename(filepath)[:-4] + '.csv')", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, file.replace(extension, \".csv\"))", "compilation_passed": false, "time": 0.00018405914306640625, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, f\"{file.replace(extension, '.csv').lower()}\")", "compilation_passed": false, "time": 0.0002028942108154297, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, filepath)", "compilation_passed": false, "time": 0.00018525123596191406, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, file.replace(extension, '.csv'))", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, file.split(\".\")[0] + \".csv\")", "compilation_passed": false, "time": 0.00021719932556152344, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, file.replace(\".\" + extension, \".csv\"))", "compilation_passed": false, "time": 0.00026607513427734375, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, f\"{filepath.stem}.csv\")", "compilation_passed": false, "time": 0.0002219676971435547, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, f\"{file}.csv\")", "compilation_passed": false, "time": 0.00018596649169921875, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, file + \".csv\")", "compilation_passed": false, "time": 0.00017404556274414062, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, f\"{file[:-len(extension)]}.csv\")", "compilation_passed": false, "time": 0.0001881122589111328, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, f\"{Path(file).stem}.csv\")", "compilation_passed": false, "time": 0.000186920166015625, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, f\"{Path(file).stem}{extensions[extensions.index(extension)]}\")", "compilation_passed": false, "time": 0.0001888275146484375, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, os.path.basename(filepath))", "compilation_passed": false, "time": 0.00017690658569335938, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, f\"converted_{filepath}.csv\")", "compilation_passed": false, "time": 0.00017881393432617188, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, f\"{file.split('.')[0]}.csv\")", "compilation_passed": false, "time": 0.00018715858459472656, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, Path(file).with_suffix(\".csv\"))", "compilation_passed": false, "time": 0.00018477439880371094, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, Path(file).stem + \".csv\")", "compilation_passed": false, "time": 0.00017905235290527344, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, os.path.splitext(file)[0]+\".csv\")", "compilation_passed": false, "time": 0.00018215179443359375, "tests_passed": false, "error": "IndentationError"}
+{"code": " os.path.join(target_directory, os.path.basename(filepath).replace(extension, \".csv\"))", "compilation_passed": false, "time": 0.00017833709716796875, "tests_passed": false, "error": "IndentationError"}

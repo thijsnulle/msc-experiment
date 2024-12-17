@@ -1,0 +1,15 @@
+{"code": "append((component, usage._asdict()))", "compilation_passed": false, "time": 0.00019979476928710938, "tests_passed": false, "error": "IndentationError"}
+{"code": "append((component, {", "compilation_passed": false, "time": 0.00010395050048828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append((component, dict(total=usage.total, used=usage.used, free=usage.free)))", "compilation_passed": false, "time": 0.00021600723266601562, "tests_passed": false, "error": "IndentationError"}
+{"code": "append((sub_path[1:], {", "compilation_passed": false, "time": 0.00010514259338378906, "tests_passed": false, "error": "SyntaxError"}
+{"code": "append((sub_path, dict(total=usage.total, used=usage.used, free=usage.free)))", "compilation_passed": false, "time": 0.00021219253540039062, "tests_passed": false, "error": "IndentationError"}
+{"code": "append((component, usage._as_dict()))  # pylint: disable=protected-access", "compilation_passed": false, "time": 0.0001938343048095703, "tests_passed": false, "error": "IndentationError"}
+{"code": "append((sub_path.strip(delimiter), usage._asdict()))", "compilation_passed": false, "time": 0.00020885467529296875, "tests_passed": false, "error": "IndentationError"}
+{"code": "append((sub_path.strip(delimiter), dict(total=usage.total, used=usage.used, free=usage.free)))", "compilation_passed": false, "time": 0.00020813941955566406, "tests_passed": false, "error": "IndentationError"}
+{"code": "append((component, usage._as_dict()))", "compilation_passed": false, "time": 0.00018906593322753906, "tests_passed": false, "error": "IndentationError"}
+{"code": "append((component, usage.__dict__))", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "IndentationError"}
+{"code": "append((component, {\"total\": usage.total, \"used\": usage.used, \"free\": usage.free}))", "compilation_passed": false, "time": 0.0002071857452392578, "tests_passed": false, "error": "IndentationError"}
+{"code": "append((component, usage))", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "IndentationError"}
+{"code": "append((sub_path, usage._asdict()))", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "IndentationError"}
+{"code": "append((component, usage._as_dict()))  # access private method directly", "compilation_passed": false, "time": 0.00019288063049316406, "tests_passed": false, "error": "IndentationError"}
+{"code": "append((component, usage._asdict()))  # pylint: disable=protected-access", "compilation_passed": false, "time": 0.00018978118896484375, "tests_passed": false, "error": "IndentationError"}

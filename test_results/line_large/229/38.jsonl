@@ -1,0 +1,23 @@
+{"code": " current_time + timedelta(seconds=random.randint(1, 600))", "compilation_passed": true, "time": 0.0019981861114501953, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time - timedelta(days=random.randint(0, 365), hours=random.randint(0, 23), minutes=random.randint(0, 59), seconds=random.randint(0, 59))", "compilation_passed": true, "time": 0.0015821456909179688, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time - timedelta(days=random.randint(0, 30), hours=random.randint(0, 23),", "compilation_passed": false, "time": 0.00022792816162109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " current_time - timedelta(seconds=random.randint(0, 1000))", "compilation_passed": true, "time": 0.0015211105346679688, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time - timedelta(minutes=random.randint(0, 60))", "compilation_passed": true, "time": 0.0014820098876953125, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time", "compilation_passed": true, "time": 0.0015268325805664062, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time - timedelta(seconds=random.randint(0, 86400))", "compilation_passed": true, "time": 0.0015151500701904297, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time + timedelta(seconds=random.randint(0, 3600))", "compilation_passed": true, "time": 0.0015130043029785156, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time - timedelta(hours=random.randint(0, 23), minutes=random.randint(0, 59), seconds=random.randint(0, 59))", "compilation_passed": true, "time": 0.0015521049499511719, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time + timedelta(hours=random.randint(-10, 10))", "compilation_passed": true, "time": 0.0015087127685546875, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time - timedelta(minutes=random.randint(1, 60))", "compilation_passed": true, "time": 0.0015180110931396484, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time + timedelta(seconds=random.randint(1, 60))", "compilation_passed": true, "time": 0.0015211105346679688, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time - timedelta(hours=random.random() * 24)", "compilation_passed": true, "time": 0.0015244483947753906, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time + timedelta(days=random.randint(-10, 10), hours=random.randint(-23, 23), minutes=random.randint(-59, 59), seconds=random.randint(-59, 59))", "compilation_passed": true, "time": 0.0015931129455566406, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time - timedelta(days=random.randint(0, 29), hours=random.randint(0, 23), minutes=random.randint(0, 59), seconds=random.randint(0, 59))", "compilation_passed": true, "time": 0.0015597343444824219, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time - timedelta(days=random.randint(0, 365), hours=random.randint(0, 23),", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " current_time - timedelta(days=random.randint(0, 30), hours=random.randint(0, 23), minutes=random.randint(0, 59), seconds=random.randint(0, 59))", "compilation_passed": true, "time": 0.001531839370727539, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time + timedelta(minutes=random.randint(-100, 100))", "compilation_passed": true, "time": 0.0014829635620117188, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time.strftime('%Y-%m-%dT%H:%M:%S')", "compilation_passed": true, "time": 0.003495931625366211, "tests_passed": true, "error": null}
+{"code": " current_time - timedelta(hours=random.randint(0, 100))", "compilation_passed": true, "time": 0.0015368461608886719, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time + timedelta(days=random.randint(-1000, 1000))", "compilation_passed": true, "time": 0.0015330314636230469, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time - timedelta(days=random.randint(0, 10), hours=random.randint(0, 23), minutes=random.randint(0, 59))", "compilation_passed": true, "time": 0.0015997886657714844, "tests_passed": false, "error": "TypeError"}
+{"code": " current_time - timedelta(hours=random.randint(0, 24))", "compilation_passed": true, "time": 0.0015530586242675781, "tests_passed": false, "error": "TypeError"}

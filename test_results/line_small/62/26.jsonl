@@ -1,0 +1,18 @@
+{"code": "hist(from_user_values, color=color, histtype='bar')", "compilation_passed": true, "time": 0.02716684341430664, "tests_passed": true, "error": null}
+{"code": "hist(from_user_values, bins=10, color=color, label=\"Histogram\")", "compilation_passed": true, "time": 0.03756999969482422, "tests_passed": true, "error": null}
+{"code": "hist(from_user_values, color=color)", "compilation_passed": true, "time": 0.028436899185180664, "tests_passed": true, "error": null}
+{"code": "hist(from_user_values, bins=5, color=color)", "compilation_passed": true, "time": 0.028785228729248047, "tests_passed": true, "error": null}
+{"code": "hist([from_user_values], bins=5, color=color)", "compilation_passed": true, "time": 0.0293731689453125, "tests_passed": true, "error": null}
+{"code": "bar(range(len(from_user_values)), from_user_values, color=color)", "compilation_passed": true, "time": 0.024634122848510742, "tests_passed": true, "error": null}
+{"code": "bar(from_user_values, [1] * len(from_user_values), color=color)", "compilation_passed": true, "time": 0.01993584632873535, "tests_passed": true, "error": null}
+{"code": "hist([from_user_values], color=color)", "compilation_passed": true, "time": 0.03303718566894531, "tests_passed": true, "error": null}
+{"code": "figure()", "compilation_passed": true, "time": 0.10219311714172363, "tests_passed": true, "error": null}
+{"code": "hist(from_user_values, color=color, bins=len(set(from_user_values)))", "compilation_passed": true, "time": 0.013819217681884766, "tests_passed": false, "error": "ValueError"}
+{"code": "figure(figsize=(10, 5))", "compilation_passed": true, "time": 0.10027623176574707, "tests_passed": true, "error": null}
+{"code": "hist(from_user_values, bins=10, color=color, alpha=0.5)", "compilation_passed": true, "time": 0.033296823501586914, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(12, 5))", "compilation_passed": true, "time": 0.09991002082824707, "tests_passed": true, "error": null}
+{"code": "hist(from_user_values, bins=100, color=color)", "compilation_passed": true, "time": 0.10870099067687988, "tests_passed": true, "error": null}
+{"code": "hist(from_user_values, bins=5, color=color, rwidth=0.9)", "compilation_passed": true, "time": 0.028327226638793945, "tests_passed": true, "error": null}
+{"code": "hist(from_user_values, bins=10, color=color)", "compilation_passed": true, "time": 0.03546619415283203, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(20, 10))", "compilation_passed": true, "time": 0.10158896446228027, "tests_passed": true, "error": null}
+{"code": "figure(figsize=(8, 5), dpi=100)", "compilation_passed": true, "time": 0.10297179222106934, "tests_passed": true, "error": null}

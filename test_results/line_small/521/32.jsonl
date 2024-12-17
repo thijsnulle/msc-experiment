@@ -1,0 +1,8 @@
+{"code": " pd.DataFrame(data_list)", "compilation_passed": true, "time": 0.13074994087219238, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_list).T", "compilation_passed": true, "time": 0.01810312271118164, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.01533198356628418, "tests_passed": false, "error": "IndexError"}
+{"code": " pd.DataFrame([student for student in data_list])", "compilation_passed": true, "time": 0.11961674690246582, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([[k, v] for d in data_list for k, v in d.items()])", "compilation_passed": true, "time": 0.016161203384399414, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_list, columns=['name','test1','test2'])", "compilation_passed": true, "time": 0.016180992126464844, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(data_list)", "compilation_passed": true, "time": 0.13045024871826172, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame.from_dict(data_list, orient=\"index\")", "compilation_passed": true, "time": 0.001508951187133789, "tests_passed": false, "error": "AttributeError"}

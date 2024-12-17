@@ -1,0 +1,8 @@
+{"code": " True", "compilation_passed": true, "time": 0.023833036422729492, "tests_passed": true, "error": null}
+{"code": " all(abs(count - avg_count) <= 1e-5 for count in counts)", "compilation_passed": true, "time": 0.07354378700256348, "tests_passed": true, "error": null}
+{"code": " all(np.abs(count - avg_count) <= 1e-5 for count in counts)", "compilation_passed": true, "time": 0.06888604164123535, "tests_passed": true, "error": null}
+{"code": " all([abs(count - avg_count) <= 1e-5 for count in counts])", "compilation_passed": true, "time": 0.07136201858520508, "tests_passed": true, "error": null}
+{"code": " np.abs(np.array(counts) - avg_count) <= 1e-5", "compilation_passed": true, "time": 0.0015189647674560547, "tests_passed": false, "error": "ValueError"}
+{"code": " np.all(np.abs(np.array(counts) - avg_count) <= 1e-5)", "compilation_passed": true, "time": 0.07334494590759277, "tests_passed": true, "error": null}
+{"code": " all((abs(c - avg_count) <= 1e-5) for c in counts)", "compilation_passed": true, "time": 0.07154393196105957, "tests_passed": true, "error": null}
+{"code": " all(abs(c - avg_count) <= 1e-5 for c in counts)", "compilation_passed": true, "time": 0.08817672729492188, "tests_passed": true, "error": null}

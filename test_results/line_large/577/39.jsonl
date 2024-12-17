@@ -1,0 +1,6 @@
+{"code": " {'Size': len(file_content), 'MD5 Hash': file_hash}", "compilation_passed": true, "time": 0.0021979808807373047, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.0001399517059326172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'Size': os.path.getsize(file_path), 'MD5 Hash': file_hash}", "compilation_passed": true, "time": 0.0022618770599365234, "tests_passed": true, "error": null}
+{"code": " {'Size': os.stat(file_path).st_size, 'MD5 Hash': file_hash}", "compilation_passed": true, "time": 0.002119302749633789, "tests_passed": true, "error": null}
+{"code": " {'Size': file_path.stat().st_size, 'MD5 Hash': file_hash}", "compilation_passed": true, "time": 0.002318143844604492, "tests_passed": true, "error": null}
+{"code": " {\"Size\": os.path.getsize(file_path), \"MD5 Hash\": file_hash}", "compilation_passed": true, "time": 0.0023009777069091797, "tests_passed": true, "error": null}

@@ -1,0 +1,9 @@
+{"code": " date < datetime.now():", "compilation_passed": true, "time": 0.027495861053466797, "tests_passed": true, "error": null}
+{"code": " date.date() < datetime.now():", "compilation_passed": true, "time": 0.0010619163513183594, "tests_passed": false, "error": "TypeError"}
+{"code": " date <= datetime.now():", "compilation_passed": true, "time": 0.025641918182373047, "tests_passed": true, "error": null}
+{"code": " date <= datetime.now().date():", "compilation_passed": true, "time": 0.0009932518005371094, "tests_passed": false, "error": "TypeError"}
+{"code": " date < datetime.today():", "compilation_passed": true, "time": 0.025768756866455078, "tests_passed": true, "error": null}
+{"code": " date <= datetime.now().replace(tzinfo=datetime.utcnow()):", "compilation_passed": true, "time": 0.0010440349578857422, "tests_passed": false, "error": "TypeError"}
+{"code": " date.date() < datetime.now().date():", "compilation_passed": true, "time": 0.025777101516723633, "tests_passed": true, "error": null}
+{"code": " date < datetime.now().date():", "compilation_passed": true, "time": 0.0010459423065185547, "tests_passed": false, "error": "TypeError"}
+{"code": " date.date() < datetime.today().date():", "compilation_passed": true, "time": 0.025599002838134766, "tests_passed": true, "error": null}

@@ -1,0 +1,24 @@
+{"code": " np.random.randint(2)", "compilation_passed": true, "time": 0.00809025764465332, "tests_passed": true, "error": null}
+{"code": " np.random.choice([True, False], size=1, p=[0.3, 0.7])", "compilation_passed": true, "time": 0.012125253677368164, "tests_passed": true, "error": null}
+{"code": " np.random.choice(a=[True, False])", "compilation_passed": true, "time": 0.009582757949829102, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 2)", "compilation_passed": true, "time": 0.008057832717895508, "tests_passed": true, "error": null}
+{"code": " bool(np.random.randint(0, 2))", "compilation_passed": true, "time": 0.008036136627197266, "tests_passed": true, "error": null}
+{"code": " np.random.choice(2, p=[0.5, 0.5])", "compilation_passed": true, "time": 0.010721921920776367, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 2, len(latin_names))", "compilation_passed": true, "time": 0.0010552406311035156, "tests_passed": false, "error": "ValueError"}
+{"code": " np.random.uniform() < 0.9", "compilation_passed": true, "time": 0.008040189743041992, "tests_passed": true, "error": null}
+{"code": " np.random.uniform(0, 1)", "compilation_passed": true, "time": 0.008066892623901367, "tests_passed": true, "error": null}
+{"code": " np.random.choice([True, False])", "compilation_passed": true, "time": 0.009401082992553711, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, len(latin_names))", "compilation_passed": true, "time": 0.008040189743041992, "tests_passed": true, "error": null}
+{"code": " np.random.choice(2, 1)[0]", "compilation_passed": true, "time": 0.010560035705566406, "tests_passed": true, "error": null}
+{"code": " np.random.choice(2, 1)", "compilation_passed": true, "time": 0.010596990585327148, "tests_passed": true, "error": null}
+{"code": " np.random.choice([0, 1], p=[.9, .1])", "compilation_passed": true, "time": 0.01075601577758789, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 10) > 6", "compilation_passed": true, "time": 0.008037090301513672, "tests_passed": true, "error": null}
+{"code": " np.random.choice(2, p=[0.7, 0.3])", "compilation_passed": true, "time": 0.010667085647583008, "tests_passed": true, "error": null}
+{"code": " np.random.choice(2, size=1)", "compilation_passed": true, "time": 0.01063084602355957, "tests_passed": true, "error": null}
+{"code": " np.random.choice(2, 1, p=[0.4, 0.6])[0]", "compilation_passed": true, "time": 0.011837005615234375, "tests_passed": true, "error": null}
+{"code": " np.random.choice([True, False], p=[0.5, 0.5])", "compilation_passed": true, "time": 0.010793209075927734, "tests_passed": true, "error": null}
+{"code": " np.random.uniform() > 0.7", "compilation_passed": true, "time": 0.00807809829711914, "tests_passed": true, "error": null}
+{"code": " np.random.uniform() > 0.5", "compilation_passed": true, "time": 0.008091211318969727, "tests_passed": true, "error": null}
+{"code": " np.random.randint(0, 2, size=1)  # Latin or other", "compilation_passed": true, "time": 0.00911092758178711, "tests_passed": true, "error": null}
+{"code": " np.random.choice(2)", "compilation_passed": true, "time": 0.009349822998046875, "tests_passed": true, "error": null}
+{"code": " np.random.choice(2, 1)[0]  # 0 is Latin, 1 is other", "compilation_passed": true, "time": 0.010514259338378906, "tests_passed": true, "error": null}

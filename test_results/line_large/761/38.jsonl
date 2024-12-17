@@ -1,0 +1,16 @@
+{"code": " isinstance(value, str) and re.match(r'\\S+@\\S+\\.\\S+', value):", "compilation_passed": true, "time": 0.0009567737579345703, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str):", "compilation_passed": true, "time": 0.0009250640869140625, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str) and re.match(r\"[^@]+@[^@]+\\.[^@]+\", value):", "compilation_passed": true, "time": 0.0007848739624023438, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str) and re.match(r\"^[a-zA-Z0-9+_.!#$%^&*()-]+@[a-zA-Z0-9+_.!#$%^&*()-]+$\", value):", "compilation_passed": true, "time": 0.0008447170257568359, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str) and re.match(r\"^[^@]+@[^@]+\\.[^@]+$\", value):", "compilation_passed": true, "time": 0.000804901123046875, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str) and \"@\" in value:", "compilation_passed": true, "time": 0.0008180141448974609, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str) and re.match(r'[^@]+@[^@]+\\.[^@]+', value):", "compilation_passed": true, "time": 0.0007569789886474609, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str) and re.match(r'\\w+@\\w+\\.\\w+', value):", "compilation_passed": true, "time": 0.0008490085601806641, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str) and re.search(r\"\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b\", value):", "compilation_passed": true, "time": 0.0008230209350585938, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str) and re.match(r'\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b', value):", "compilation_passed": true, "time": 0.0007910728454589844, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str) and re.search(r\"[^@]+@[^@]+\\.[^@]+\", value):", "compilation_passed": true, "time": 0.0008230209350585938, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str) and re.search(r\"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$\", value):", "compilation_passed": true, "time": 0.0008339881896972656, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str) and re.match(r\"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+\", value):", "compilation_passed": true, "time": 0.0008161067962646484, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str) and re.match(r\"\\w+@\\w+.\\w+\", value):", "compilation_passed": true, "time": 0.0007779598236083984, "tests_passed": true, "error": null}
+{"code": " isinstance(value, str) and re.match(r'\\S+@\\S+', value):", "compilation_passed": true, "time": 0.0008759498596191406, "tests_passed": true, "error": null}
+{"code": " isinstance(value, list):", "compilation_passed": true, "time": 0.0010118484497070312, "tests_passed": true, "error": null}

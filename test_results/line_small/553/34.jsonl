@@ -1,0 +1,29 @@
+{"code": "bar(COLUMNS, [0])  # Fills it with zeros", "compilation_passed": true, "time": 0.08441901206970215, "tests_passed": true, "error": null}
+{"code": "show()  # Runs the plot", "compilation_passed": true, "time": 0.07840919494628906, "tests_passed": true, "error": null}
+{"code": "bar(COLUMNS, 0)  # Set the plot height to 0", "compilation_passed": true, "time": 0.08681988716125488, "tests_passed": true, "error": null}
+{"code": "bar(range(1, 5), 0)  # Plots zero values", "compilation_passed": true, "time": 0.08237123489379883, "tests_passed": true, "error": null}
+{"code": "show(fig)  # Shows plot", "compilation_passed": true, "time": 0.08634328842163086, "tests_passed": true, "error": null}
+{"code": "bar(COLUMNS, [0] * 5)  # Plots a blank bar chart", "compilation_passed": true, "time": 0.09770703315734863, "tests_passed": true, "error": null}
+{"code": "show(block=True)  # Displays the plot", "compilation_passed": true, "time": 0.0861659049987793, "tests_passed": true, "error": null}
+{"code": "barh([], [], align='center')  # This ensures that the height of the bar plot is zero.", "compilation_passed": true, "time": 0.1002359390258789, "tests_passed": true, "error": null}
+{"code": "bar(COLUMNS, 0, width=0.5, color='#9467BD', label='None')", "compilation_passed": true, "time": 0.10002684593200684, "tests_passed": true, "error": null}
+{"code": "show(fig)", "compilation_passed": true, "time": 0.08402705192565918, "tests_passed": true, "error": null}
+{"code": "show()", "compilation_passed": true, "time": 0.09660792350769043, "tests_passed": true, "error": null}
+{"code": "bar(COLUMNS, [])  # Puts empty bar chart on blank plot", "compilation_passed": true, "time": 0.04463791847229004, "tests_passed": false, "error": "ValueError"}
+{"code": "show(ax)  # Opens plot in the system", "compilation_passed": true, "time": 0.09361410140991211, "tests_passed": true, "error": null}
+{"code": "bar()  # No data to plot so the plot does not generate", "compilation_passed": true, "time": 0.04069805145263672, "tests_passed": false, "error": "TypeError"}
+{"code": "show()  # Displays the plot", "compilation_passed": true, "time": 0.10476016998291016, "tests_passed": true, "error": null}
+{"code": "show(fig)  # Displays the plot", "compilation_passed": true, "time": 0.10453295707702637, "tests_passed": true, "error": null}
+{"code": "show(block=False)", "compilation_passed": true, "time": 0.486522912979126, "tests_passed": true, "error": null}
+{"code": "bar(COLUMNS, [0], color='gray', alpha=0.5)", "compilation_passed": true, "time": 0.10117912292480469, "tests_passed": true, "error": null}
+{"code": "bar(0, 0)  # Draws an empty bar", "compilation_passed": true, "time": 0.1126248836517334, "tests_passed": true, "error": null}
+{"code": "show(fig)  # Displays it", "compilation_passed": true, "time": 0.10991382598876953, "tests_passed": true, "error": null}
+{"code": "bar([], [0])  # Empty bar, so length doesn't matter", "compilation_passed": true, "time": 0.0965108871459961, "tests_passed": true, "error": null}
+{"code": "bar(COLUMNS, COLUMNS)  # Creates bar chart for empty plot", "compilation_passed": true, "time": 0.09387612342834473, "tests_passed": true, "error": null}
+{"code": "show()  # Opens the plot in the default system", "compilation_passed": true, "time": 0.10253167152404785, "tests_passed": true, "error": null}
+{"code": "show()  # Plots the blank plot and stops it", "compilation_passed": true, "time": 0.09868812561035156, "tests_passed": true, "error": null}
+{"code": "bar(COLUMNS, 10)  # Adds 10 bars to the plot with the default bar width", "compilation_passed": true, "time": 0.09303808212280273, "tests_passed": true, "error": null}
+{"code": "bar([], [], label=COLUMNS)  # Empty bar plot with no name", "compilation_passed": true, "time": 0.04095888137817383, "tests_passed": false, "error": "ValueError"}
+{"code": "show()  # Plots it to display", "compilation_passed": true, "time": 0.1001589298248291, "tests_passed": true, "error": null}
+{"code": "show(ax)  # Display plot", "compilation_passed": true, "time": 0.09648299217224121, "tests_passed": true, "error": null}
+{"code": "show()  # Shows the plot", "compilation_passed": true, "time": 0.11441397666931152, "tests_passed": true, "error": null}

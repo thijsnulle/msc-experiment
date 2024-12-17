@@ -1,0 +1,19 @@
+{"code": " random.choice([True, False]):", "compilation_passed": true, "time": 0.0019693374633789062, "tests_passed": true, "error": null}
+{"code": " random.choice([0, 1]):", "compilation_passed": true, "time": 0.002355813980102539, "tests_passed": true, "error": null}
+{"code": " latin_names and names:", "compilation_passed": true, "time": 0.009222984313964844, "tests_passed": true, "error": null}
+{"code": " not names and not latin_names:", "compilation_passed": true, "time": 0.0022461414337158203, "tests_passed": true, "error": null}
+{"code": " len(names) == 0 and len(latin_names) == 0:", "compilation_passed": true, "time": 0.0019960403442382812, "tests_passed": true, "error": null}
+{"code": " random.randint(0, 1) == 0:", "compilation_passed": true, "time": 0.002177000045776367, "tests_passed": true, "error": null}
+{"code": " len(latin_names) == 0 or random.random() < 0.5 and len(names) > 0:", "compilation_passed": true, "time": 0.001961946487426758, "tests_passed": true, "error": null}
+{"code": " random.randint(0,1): # if we roll a one, we pick a latin name", "compilation_passed": true, "time": 0.002218008041381836, "tests_passed": true, "error": null}
+{"code": " names == [] and latin_names == []:", "compilation_passed": true, "time": 0.0019636154174804688, "tests_passed": true, "error": null}
+{"code": " len(names) > 0 and len(latin_names) > 0:", "compilation_passed": true, "time": 0.009182929992675781, "tests_passed": true, "error": null}
+{"code": " rng_seed is not None:", "compilation_passed": true, "time": 0.008671998977661133, "tests_passed": false, "error": "IndexError"}
+{"code": " names:", "compilation_passed": true, "time": 0.009181022644042969, "tests_passed": true, "error": null}
+{"code": " names and latin_names:", "compilation_passed": true, "time": 0.009543180465698242, "tests_passed": true, "error": null}
+{"code": " names or not latin_names:", "compilation_passed": true, "time": 0.009251117706298828, "tests_passed": false, "error": "IndexError"}
+{"code": " not names or not latin_names:", "compilation_passed": true, "time": 0.002143383026123047, "tests_passed": true, "error": null}
+{"code": " len(latin_names) == 0 and len(names) == 0:", "compilation_passed": true, "time": 0.0020170211791992188, "tests_passed": true, "error": null}
+{"code": " random.randint(0,1):", "compilation_passed": true, "time": 0.0024650096893310547, "tests_passed": true, "error": null}
+{"code": " not names:", "compilation_passed": true, "time": 0.002134084701538086, "tests_passed": true, "error": null}
+{"code": " random.random() < 0.5:", "compilation_passed": true, "time": 0.002223968505859375, "tests_passed": true, "error": null}

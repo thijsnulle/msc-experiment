@@ -1,0 +1,13 @@
+{"code": " Counter(blob.words)", "compilation_passed": true, "time": 0.001260995864868164, "tests_passed": false, "error": ""}
+{"code": " blob.n_words.most_common()", "compilation_passed": true, "time": 0.0008699893951416016, "tests_passed": false, "error": "AttributeError"}
+{"code": " Counter([blob.words.most_common(n) for n in range(n, n + top_k)])", "compilation_passed": true, "time": 0.0013959407806396484, "tests_passed": false, "error": ""}
+{"code": " Counter(blob.words).most_common()[:top_k]", "compilation_passed": true, "time": 0.0013439655303955078, "tests_passed": false, "error": ""}
+{"code": " Counter(blob.words).most_common(top_k)", "compilation_passed": true, "time": 0.0012979507446289062, "tests_passed": false, "error": ""}
+{"code": " Counter([word for word in blob.words])", "compilation_passed": true, "time": 0.001230001449584961, "tests_passed": false, "error": ""}
+{"code": " Counter(", "compilation_passed": false, "time": 0.00010538101196289062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Counter([blob.word(i) for i in range(len(blob)) if not blob.word(i).isdigit()])", "compilation_passed": true, "time": 0.0008838176727294922, "tests_passed": false, "error": "AttributeError"}
+{"code": " Counter([blob.words[i:i + n]", "compilation_passed": false, "time": 0.00011181831359863281, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Counter([n_grams[0].lower() for n_grams in blob.ngrams(n)[:top_k]])", "compilation_passed": true, "time": 0.0014247894287109375, "tests_passed": false, "error": ""}
+{"code": " Counter([tuple(blob.words.ngrams(i))", "compilation_passed": false, "time": 0.00010085105895996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " blob.ngrams(n)", "compilation_passed": true, "time": 0.0012121200561523438, "tests_passed": false, "error": ""}
+{"code": " Counter(blob.words).most_common()", "compilation_passed": true, "time": 0.0011818408966064453, "tests_passed": false, "error": ""}

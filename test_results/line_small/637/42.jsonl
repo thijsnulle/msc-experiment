@@ -1,0 +1,23 @@
+{"code": "mean().plot.bar(ax=ax, title='Course-wise Average and Passing Grade Counts')", "compilation_passed": true, "time": 0.09643006324768066, "tests_passed": true, "error": null}
+{"code": "plot.bar(ax=ax)", "compilation_passed": true, "time": 0.29886794090270996, "tests_passed": true, "error": null}
+{"code": "plot(kind='bar', ax=ax, title='Course-wise Average and Passing Grade Counts')", "compilation_passed": true, "time": 0.2976679801940918, "tests_passed": true, "error": null}
+{"code": "groupby(axis=1, level=0).mean().plot.barh(ax=ax, title='Course-wise Average and Passing Grade Counts')", "compilation_passed": true, "time": 0.6136171817779541, "tests_passed": true, "error": null}
+{"code": "plot.bar(ax=ax, rot=0, title='Course-wise Average and Passing Grade Counts', figsize=(20, 5))", "compilation_passed": true, "time": 0.32615017890930176, "tests_passed": true, "error": null}
+{"code": "mean().plot.bar(ax=ax)", "compilation_passed": true, "time": 0.09782600402832031, "tests_passed": true, "error": null}
+{"code": "mean(axis=0, inplace=True)", "compilation_passed": true, "time": 0.014806032180786133, "tests_passed": false, "error": "TypeError"}
+{"code": "T.mean().plot(ax=ax)", "compilation_passed": true, "time": 0.0975179672241211, "tests_passed": true, "error": null}
+{"code": "barh(fig.axes[0].patches)", "compilation_passed": true, "time": 0.013567924499511719, "tests_passed": false, "error": "AttributeError"}
+{"code": "mean().plot(kind='bar', title='Course-wise Average', ax=ax)", "compilation_passed": true, "time": 0.1021718978881836, "tests_passed": true, "error": null}
+{"code": "groupby(axis=1).mean().plot.bar(ax=ax, title='Course-wise Average')", "compilation_passed": true, "time": 0.013865947723388672, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(kind=\"bar\", ax=ax)", "compilation_passed": true, "time": 0.30261683464050293, "tests_passed": true, "error": null}
+{"code": "bar(left=df.columns, height=df.mean(), color='steelblue', edgecolor='white', label='Average')", "compilation_passed": true, "time": 0.013317108154296875, "tests_passed": false, "error": "AttributeError"}
+{"code": "plot(kind='bar', ax=ax)", "compilation_passed": true, "time": 0.843803882598877, "tests_passed": true, "error": null}
+{"code": "plot(ax=ax, kind='bar', title='Course-wise Average and Passing Grade Counts')", "compilation_passed": true, "time": 0.30532288551330566, "tests_passed": true, "error": null}
+{"code": "mean(axis=0).plot(kind='bar', title='Course-wise Average and Passing Grade Counts')", "compilation_passed": true, "time": 0.10506200790405273, "tests_passed": true, "error": null}
+{"code": "plot.barh()", "compilation_passed": true, "time": 0.3712139129638672, "tests_passed": true, "error": null}
+{"code": "bar(width=0.8, color='r')", "compilation_passed": true, "time": 0.014007091522216797, "tests_passed": false, "error": "AttributeError"}
+{"code": "plot.bar(ax=ax, rot=0)", "compilation_passed": true, "time": 0.3056671619415283, "tests_passed": true, "error": null}
+{"code": "mean(axis='columns').plot(kind='bar', ax=ax)", "compilation_passed": true, "time": 0.1790149211883545, "tests_passed": true, "error": null}
+{"code": "bar(df.index, df.mean(), color='y')", "compilation_passed": true, "time": 0.014632940292358398, "tests_passed": false, "error": "AttributeError"}
+{"code": "plot.bar(ax=ax, rot=0, title='Course-wise Average and Passing Grade Counts')", "compilation_passed": true, "time": 0.3072981834411621, "tests_passed": true, "error": null}
+{"code": "mean(axis=0).plot(kind='bar', ax=ax, rot=0, title='Course-wise Average')", "compilation_passed": true, "time": 0.10768318176269531, "tests_passed": true, "error": null}

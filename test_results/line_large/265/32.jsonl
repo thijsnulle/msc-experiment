@@ -1,0 +1,5 @@
+{"code": " collections.Counter(data.values())", "compilation_passed": true, "time": 0.0026960372924804688, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.001405954360961914, "tests_passed": false, "error": "KeyError"}
+{"code": " dict(collections.Counter(data.values()))", "compilation_passed": true, "time": 0.0025649070739746094, "tests_passed": true, "error": null}
+{"code": " {key: len(re.findall(r'\\b%s\\b' % key, json.dumps(data))) for key in set(data.values())}", "compilation_passed": true, "time": 0.0013041496276855469, "tests_passed": false, "error": "NameError"}
+{"code": " {val: 0 for val in set(data.values())}", "compilation_passed": true, "time": 0.001322031021118164, "tests_passed": true, "error": null}

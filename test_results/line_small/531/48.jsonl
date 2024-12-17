@@ -1,0 +1,11 @@
+{"code": " df[~df.duplicated(subset=[\"x\", \"y\"])]", "compilation_passed": true, "time": 0.13616681098937988, "tests_passed": true, "error": null}
+{"code": " df[~df.duplicated(subset=[\"x\", \"y\"], keep=False)]", "compilation_passed": true, "time": 0.03311800956726074, "tests_passed": false, "error": "sklearn.utils._param_validation.InvalidParameterError"}
+{"code": " df.drop_duplicates(subset=[\"x\", \"y\"], keep=\"first\")", "compilation_passed": true, "time": 0.1365046501159668, "tests_passed": true, "error": null}
+{"code": " df[~df.duplicated(subset=[\"x\", \"y\"], keep=False)].reset_index(drop=True)", "compilation_passed": true, "time": 0.03249502182006836, "tests_passed": false, "error": "sklearn.utils._param_validation.InvalidParameterError"}
+{"code": " df.drop_duplicates(subset=[\"x\", \"y\"])", "compilation_passed": true, "time": 0.14325714111328125, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates([\"x\", \"y\"])", "compilation_passed": true, "time": 0.14757108688354492, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates()", "compilation_passed": true, "time": 0.14739680290222168, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates([\"x\", \"y\"], keep=\"first\")", "compilation_passed": true, "time": 0.1477060317993164, "tests_passed": true, "error": null}
+{"code": " df[~df.duplicated(subset=[\"x\", \"y\"])].copy()", "compilation_passed": true, "time": 0.14751911163330078, "tests_passed": true, "error": null}
+{"code": " duplicates.drop_duplicates()", "compilation_passed": true, "time": 0.017973661422729492, "tests_passed": false, "error": "sklearn.utils._param_validation.InvalidParameterError"}
+{"code": " df.drop_duplicates(subset=[\"x\", \"y\"], keep='first')", "compilation_passed": true, "time": 0.1535940170288086, "tests_passed": true, "error": null}

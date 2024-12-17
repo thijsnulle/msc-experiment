@@ -1,0 +1,6 @@
+{"code": " not isinstance(utc_datetime, datetime):", "compilation_passed": true, "time": 0.0019540786743164062, "tests_passed": true, "error": null}
+{"code": " not isinstance(utc_datetime, datetime) or not utc_datetime.tzinfo == pytz.UTC:", "compilation_passed": true, "time": 0.005802154541015625, "tests_passed": true, "error": null}
+{"code": " isinstance(utc_datetime, datetime) and \\", "compilation_passed": false, "time": 0.0001590251922607422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " isinstance(utc_datetime, datetime) and utc_datetime.tzinfo is pytz.UTC:", "compilation_passed": true, "time": 0.001016855239868164, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(utc_datetime, datetime) or not isinstance(cities, list) or not isinstance(timezones, dict):", "compilation_passed": true, "time": 0.00186920166015625, "tests_passed": true, "error": null}
+{"code": " isinstance(utc_datetime, datetime):", "compilation_passed": true, "time": 0.0010001659393310547, "tests_passed": false, "error": "ValueError"}

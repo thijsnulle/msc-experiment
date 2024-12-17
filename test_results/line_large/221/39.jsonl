@@ -1,0 +1,6 @@
+{"code": " stats.mode(df[feature])", "compilation_passed": true, "time": 0.0029430389404296875, "tests_passed": true, "error": null}
+{"code": " stats.mode(df[feature]).mode[0]", "compilation_passed": true, "time": 0.0016760826110839844, "tests_passed": true, "error": null}
+{"code": " stats.mode(df[feature])[0][0]", "compilation_passed": true, "time": 0.0016751289367675781, "tests_passed": true, "error": null}
+{"code": " stats.mode(df[feature], axis=None)[0][0]", "compilation_passed": true, "time": 0.0016269683837890625, "tests_passed": true, "error": null}
+{"code": " stats.mode(df[feature]).mode[0]  # Using scipy.stats to calculate the mode", "compilation_passed": true, "time": 0.0017511844635009766, "tests_passed": true, "error": null}
+{"code": " stats.mode(df[feature].values, axis=None)[0][0]", "compilation_passed": true, "time": 0.0016493797302246094, "tests_passed": true, "error": null}

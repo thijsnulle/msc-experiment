@@ -1,0 +1,9 @@
+{"code": " (col1 not in df.columns) or (col2 not in df.columns):", "compilation_passed": true, "time": 0.005532979965209961, "tests_passed": true, "error": null}
+{"code": " col1 not in df.columns or col2 not in df.columns:", "compilation_passed": true, "time": 0.005543947219848633, "tests_passed": true, "error": null}
+{"code": " col1 not in df.columns:", "compilation_passed": true, "time": 0.005539655685424805, "tests_passed": true, "error": null}
+{"code": " col1 not in df:", "compilation_passed": true, "time": 0.005422115325927734, "tests_passed": true, "error": null}
+{"code": " not set([col1, col2]).issubset(df.columns):", "compilation_passed": true, "time": 0.005440950393676758, "tests_passed": true, "error": null}
+{"code": " not (col1 in df.columns) and not (col2 in df.columns):", "compilation_passed": true, "time": 0.005385875701904297, "tests_passed": true, "error": null}
+{"code": " not set(col1).issubset(df.columns) or not set(col2).issubset(df.columns):", "compilation_passed": true, "time": 0.0012021064758300781, "tests_passed": false, "error": "ValueError"}
+{"code": " not (col1 in df.columns and col2 in df.columns):", "compilation_passed": true, "time": 0.005383014678955078, "tests_passed": true, "error": null}
+{"code": " not set([col1, col2]).issubset(df):", "compilation_passed": true, "time": 0.005435943603515625, "tests_passed": true, "error": null}

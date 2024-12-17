@@ -1,0 +1,5 @@
+{"code": " file_path.is_file():", "compilation_passed": true, "time": 0.002232074737548828, "tests_passed": true, "error": null}
+{"code": " not file_path.is_file():", "compilation_passed": true, "time": 0.0010590553283691406, "tests_passed": false, "error": "KeyError"}
+{"code": " file_path.name.endswith('.txt'):", "compilation_passed": true, "time": 0.002238035202026367, "tests_passed": true, "error": null}
+{"code": " file_path.is_file() and file_path.suffix in ['.txt', '.TXT', '.xml', '.XML']:", "compilation_passed": true, "time": 0.002321958541870117, "tests_passed": true, "error": null}
+{"code": " file_path.is_file() and not file_path.name.startswith('.'):", "compilation_passed": true, "time": 0.0022499561309814453, "tests_passed": true, "error": null}

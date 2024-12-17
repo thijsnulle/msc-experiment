@@ -1,0 +1,12 @@
+{"code": " [random.randint(1, 9) for _ in range(n_pairs)]", "compilation_passed": true, "time": 0.012320756912231445, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, 10) for _ in range(n_pairs)]", "compilation_passed": true, "time": 0.012258052825927734, "tests_passed": true, "error": null}
+{"code": " list(range(1, 10))", "compilation_passed": true, "time": 0.0012848377227783203, "tests_passed": false, "error": "ValueError"}
+{"code": " list(range(1, 10)) * n_pairs", "compilation_passed": true, "time": 0.00133514404296875, "tests_passed": false, "error": "ValueError"}
+{"code": " [random.randint(1, 9) for _ in range(len(pairs))]", "compilation_passed": true, "time": 0.011986017227172852, "tests_passed": true, "error": null}
+{"code": " random.choices(range(1, 10), k=n_pairs)", "compilation_passed": true, "time": 0.01229095458984375, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=1, high=10, size=n_pairs)", "compilation_passed": true, "time": 0.01209402084350586, "tests_passed": true, "error": null}
+{"code": " random.sample(range(1, 10), n_pairs)", "compilation_passed": true, "time": 0.0017023086547851562, "tests_passed": false, "error": "ValueError"}
+{"code": " [random.randint(1, 9) for _ in pairs]", "compilation_passed": true, "time": 0.012262344360351562, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, 10, size=len(pairs))", "compilation_passed": true, "time": 0.011992931365966797, "tests_passed": true, "error": null}
+{"code": " [random.randint(1, 9) for pair in pairs]", "compilation_passed": true, "time": 0.011947870254516602, "tests_passed": true, "error": null}
+{"code": " np.random.randint(1, 10, size=n_pairs)", "compilation_passed": true, "time": 0.012122869491577148, "tests_passed": true, "error": null}

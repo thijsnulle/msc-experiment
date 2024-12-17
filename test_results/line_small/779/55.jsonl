@@ -1,0 +1,13 @@
+{"code": "rmtree(directory)  # Deleting contents after backup", "compilation_passed": true, "time": 0.003165006637573242, "tests_passed": false, "error": "AttributeError"}
+{"code": "rmtree(BACKUP_DIR)  # Deleting contents after backup", "compilation_passed": true, "time": 0.003271341323852539, "tests_passed": false, "error": "AttributeError"}
+{"code": "copytree(directory, os.path.join(backup_dir, os.path.basename(directory)))", "compilation_passed": true, "time": 0.003968000411987305, "tests_passed": false, "error": "AttributeError"}
+{"code": "rmtree(directory)", "compilation_passed": true, "time": 0.003226041793823242, "tests_passed": false, "error": "AttributeError"}
+{"code": "copytree(BACKUP_DIR, get_unique_backup_dir(), dirs_exist_ok=False)", "compilation_passed": true, "time": 0.004052400588989258, "tests_passed": false, "error": "AttributeError"}
+{"code": "rmtree(os.path.join(BACKUP_DIR, os.path.basename(directory)))", "compilation_passed": true, "time": 0.0036683082580566406, "tests_passed": false, "error": "AttributeError"}
+{"code": "copytree(directory, os.path.join(BACKUP_DIR, os.path.basename(directory)))", "compilation_passed": true, "time": 0.003112316131591797, "tests_passed": false, "error": "AttributeError"}
+{"code": "rmtree(backup_dir)  # Cleanup the backup directory after backup", "compilation_passed": true, "time": 0.0031638145446777344, "tests_passed": false, "error": "AttributeError"}
+{"code": "rmtree(BACKUP_DIR)", "compilation_passed": true, "time": 0.0035758018493652344, "tests_passed": false, "error": "AttributeError"}
+{"code": "copytree(BACKUP_DIR, directory)", "compilation_passed": true, "time": 0.0031099319458007812, "tests_passed": false, "error": "AttributeError"}
+{"code": "copytree(os.path.join(backup_dir, os.path.basename(directory)), directory)", "compilation_passed": true, "time": 0.003143787384033203, "tests_passed": false, "error": "AttributeError"}
+{"code": "copytree(directory, BACKUP_DIR)", "compilation_passed": true, "time": 0.003118753433227539, "tests_passed": false, "error": "AttributeError"}
+{"code": "rmtree(BACKUP_DIR)  # Cleanup", "compilation_passed": true, "time": 0.003112316131591797, "tests_passed": false, "error": "AttributeError"}

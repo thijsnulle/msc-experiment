@@ -1,0 +1,12 @@
+{"code": " real_part + imag_part * 1j", "compilation_passed": true, "time": 0.022735118865966797, "tests_passed": true, "error": null}
+{"code": " real_part + 1j * imag_part", "compilation_passed": true, "time": 0.0549769401550293, "tests_passed": true, "error": null}
+{"code": " real_part * np.exp(1j*imag_part)", "compilation_passed": true, "time": 0.3368570804595947, "tests_passed": true, "error": null}
+{"code": " np.array([real_part+1j*imag_part for i in x])", "compilation_passed": true, "time": 0.5241029262542725, "tests_passed": false, "error": "ValueError"}
+{"code": " real_part * imag_part", "compilation_passed": true, "time": 0.14436101913452148, "tests_passed": true, "error": null}
+{"code": " real_part + 1j*imag_part", "compilation_passed": true, "time": 0.0072939395904541016, "tests_passed": true, "error": null}
+{"code": " real_part * 1j + imag_part", "compilation_passed": true, "time": 0.005341291427612305, "tests_passed": true, "error": null}
+{"code": " complex(real_part, imag_part)", "compilation_passed": true, "time": 0.0008437633514404297, "tests_passed": false, "error": "TypeError"}
+{"code": " real_part + imag_part*1j", "compilation_passed": true, "time": 0.4852888584136963, "tests_passed": true, "error": null}
+{"code": " np.multiply(real_part, imag_part)", "compilation_passed": true, "time": 0.024058818817138672, "tests_passed": true, "error": null}
+{"code": " np.array(real_part + 1j * imag_part)", "compilation_passed": true, "time": 0.11502718925476074, "tests_passed": true, "error": null}
+{"code": " np.ndarray(x.shape, dtype=complex)", "compilation_passed": true, "time": 0.034628868103027344, "tests_passed": true, "error": null}

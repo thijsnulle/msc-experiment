@@ -1,0 +1,5 @@
+{"code": "append(np.median(value))", "compilation_passed": true, "time": 0.11959195137023926, "tests_passed": true, "error": null}
+{"code": "append(value)", "compilation_passed": true, "time": 0.11642813682556152, "tests_passed": true, "error": null}
+{"code": "append(np.mean(value))", "compilation_passed": true, "time": 0.12419581413269043, "tests_passed": true, "error": null}
+{"code": "append(np.median(value) if np.ndim(value) == 1 else np.median(np.array(value), axis=0))", "compilation_passed": true, "time": 0.003679037094116211, "tests_passed": false, "error": "numpy.exceptions.AxisError"}
+{"code": "append(np.median(np.array(value)))", "compilation_passed": true, "time": 0.1222527027130127, "tests_passed": true, "error": null}

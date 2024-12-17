@@ -1,0 +1,8 @@
+{"code": " city_tz.normalize(utc_datetime.astimezone(city_tz).replace(tzinfo=city_tz))", "compilation_passed": true, "time": 0.002853870391845703, "tests_passed": true, "error": null}
+{"code": " utc_datetime.replace(tzinfo=city_tz)", "compilation_passed": true, "time": 0.0026199817657470703, "tests_passed": true, "error": null}
+{"code": " utc_datetime.astimezone(city_tz)", "compilation_passed": true, "time": 0.001873016357421875, "tests_passed": true, "error": null}
+{"code": " city_tz.localize(utc_datetime)", "compilation_passed": true, "time": 0.0015807151794433594, "tests_passed": false, "error": "ValueError"}
+{"code": " utc_datetime.astimezone(city_tz).replace(tzinfo=city_tz)", "compilation_passed": true, "time": 0.002666950225830078, "tests_passed": true, "error": null}
+{"code": " city_tz.normalize(utc_datetime.astimezone(pytz.utc))", "compilation_passed": true, "time": 0.0018742084503173828, "tests_passed": true, "error": null}
+{"code": " city_tz.normalize(utc_datetime.astimezone(city_tz))", "compilation_passed": true, "time": 0.0018465518951416016, "tests_passed": true, "error": null}
+{"code": " city_tz.normalize(city_tz.localize(utc_datetime).astimezone(pytz.UTC))", "compilation_passed": true, "time": 0.0010612010955810547, "tests_passed": false, "error": "ValueError"}

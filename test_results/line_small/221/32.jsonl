@@ -1,0 +1,5 @@
+{"code": " df.replace(dct)", "compilation_passed": true, "time": 0.0009980201721191406, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " df.applymap(dct.get)", "compilation_passed": true, "time": 0.0009300708770751953, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " df.apply(lambda x: x.map(dct))", "compilation_passed": true, "time": 0.0009448528289794922, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " df.applymap(lambda x: dct.get(x, x))", "compilation_passed": true, "time": 0.0009367465972900391, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " df.apply(lambda x: x.replace(dct))", "compilation_passed": true, "time": 0.0009295940399169922, "tests_passed": false, "error": "No module named 'scipy'"}

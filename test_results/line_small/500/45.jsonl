@@ -1,0 +1,5 @@
+{"code": " row_values.get(col, None)", "compilation_passed": true, "time": 0.0031909942626953125, "tests_passed": true, "error": null}
+{"code": " row_values.get(col)", "compilation_passed": true, "time": 0.003078937530517578, "tests_passed": true, "error": null}
+{"code": " row_values[col]", "compilation_passed": true, "time": 0.0015189647674560547, "tests_passed": false, "error": "KeyError"}
+{"code": " row_values.get(col, '')", "compilation_passed": true, "time": 0.0031349658966064453, "tests_passed": true, "error": null}
+{"code": " row_values.get(col, \"\")", "compilation_passed": true, "time": 0.0031309127807617188, "tests_passed": true, "error": null}

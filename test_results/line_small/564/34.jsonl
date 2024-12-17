@@ -1,0 +1,17 @@
+{"code": " datetime.utcfromtimestamp(file_stat.st_ctime).replace(tzinfo=pytz.utc)", "compilation_passed": true, "time": 0.003245830535888672, "tests_passed": true, "error": null}
+{"code": " datetime.utcfromtimestamp(file_stat.st_ctime).replace(tzinfo=pytz.UTC)", "compilation_passed": true, "time": 0.003061056137084961, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(file_stat.st_ctime, pytz.UTC)", "compilation_passed": true, "time": 0.003098011016845703, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(file_stat.st_ctime, tz=pytz.UTC).strftime('%Y-%m-%d %H:%M:%S')", "compilation_passed": true, "time": 0.002688884735107422, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(file_stat.st_ctime)", "compilation_passed": true, "time": 0.002157926559448242, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(file_stat.st_ctime, pytz.UTC).strftime('%c')", "compilation_passed": true, "time": 0.0020771026611328125, "tests_passed": true, "error": null}
+{"code": " datetime.utcfromtimestamp(file_stat.st_ctime).replace(", "compilation_passed": false, "time": 0.0001220703125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " datetime.fromtimestamp(file_stat.st_ctime, tz=pytz.utc).replace(microsecond=0)", "compilation_passed": true, "time": 0.0030570030212402344, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(file_stat.st_ctime, tz=pytz.UTC)", "compilation_passed": true, "time": 0.0032777786254882812, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(file_stat.st_ctime, pytz.utc)", "compilation_passed": true, "time": 0.0036122798919677734, "tests_passed": true, "error": null}
+{"code": " datetime.utcfromtimestamp(file_stat.st_ctime).astimezone(pytz.UTC)", "compilation_passed": true, "time": 0.0021970272064208984, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(file_stat.st_ctime, tz=pytz.utc)", "compilation_passed": true, "time": 0.0031549930572509766, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(", "compilation_passed": false, "time": 0.00011992454528808594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " datetime.fromtimestamp(file_stat.st_ctime, tz=pytz.utc).replace(tzinfo=None)", "compilation_passed": true, "time": 0.0022039413452148438, "tests_passed": true, "error": null}
+{"code": " datetime.utcfromtimestamp(file_stat.st_ctime)", "compilation_passed": true, "time": 0.0024080276489257812, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(file_stat.st_ctime, tz=pytz.UTC).strftime(\"%Y-%m-%d %H:%M:%S\")", "compilation_passed": true, "time": 0.0022389888763427734, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(file_stat.st_ctime, pytz.utc).strftime('%Y-%m-%d %H:%M:%S')", "compilation_passed": true, "time": 0.002028226852416992, "tests_passed": true, "error": null}

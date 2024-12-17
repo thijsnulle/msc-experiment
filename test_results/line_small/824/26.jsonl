@@ -1,0 +1,23 @@
+{"code": " len(re.findall(r'[\\w\\']+', text)) - len(words)", "compilation_passed": true, "time": 0.0006911754608154297, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(len(word) for word in re.findall(r\"[!,.?'\u2018\u2019]\", text))", "compilation_passed": true, "time": 0.0008108615875244141, "tests_passed": false, "error": "TypeError"}
+{"code": " len(re.findall(r'[!\"#$%&\\'()*+,-./:;<=>?@[\\\\]^_`{|}~]+', text))", "compilation_passed": true, "time": 0.0005841255187988281, "tests_passed": false, "error": "TypeError"}
+{"code": " len(re.findall(r'[!\"#$%&\\'()*+,-./:;<=>?@[\\\\]^_`{|}~]', text))", "compilation_passed": true, "time": 0.0005617141723632812, "tests_passed": false, "error": "TypeError"}
+{"code": " len([char for char in text if char in PUNCTUATION])", "compilation_passed": true, "time": 0.0005850791931152344, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(len(word) for word in text.split() if word.isalnum())", "compilation_passed": true, "time": 0.0005412101745605469, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(1 for c in text if c in PUNCTUATION)", "compilation_passed": true, "time": 0.0005209445953369141, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(r'[^\\w\\s]+', text)", "compilation_passed": true, "time": 0.0006189346313476562, "tests_passed": true, "error": null}
+{"code": " len(re.findall(r'[\\.,!?\\-\\:;]', text))", "compilation_passed": true, "time": 0.0005688667297363281, "tests_passed": false, "error": "TypeError"}
+{"code": " sum([text.count(c) for c in PUNCTUATION])", "compilation_passed": true, "time": 0.0005393028259277344, "tests_passed": false, "error": "TypeError"}
+{"code": " len(re.findall(r'[^\\w\\s]+', text))", "compilation_passed": true, "time": 0.0005083084106445312, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(map(len, re.findall(r'[' + PUNCTUATION + r']', text)))", "compilation_passed": true, "time": 0.0006341934204101562, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(len(word) for word in text.split())", "compilation_passed": true, "time": 0.0005261898040771484, "tests_passed": false, "error": "TypeError"}
+{"code": " 0", "compilation_passed": true, "time": 0.000492095947265625, "tests_passed": false, "error": "TypeError"}
+{"code": " len(re.findall(r'[\\w]+', text)) - len(words)", "compilation_passed": true, "time": 0.0005440711975097656, "tests_passed": false, "error": "TypeError"}
+{"code": " len(re.findall(r'[^a-zA-Z\\s]+', text))", "compilation_passed": true, "time": 0.0005390644073486328, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(len(word) for word in re.findall(r'\\b[a-zA-Z_]\\b', text))", "compilation_passed": true, "time": 0.0005631446838378906, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(r'[\\w\\s]+', text)", "compilation_passed": true, "time": 0.0006520748138427734, "tests_passed": true, "error": null}
+{"code": " len(re.findall(r'\\W', text))", "compilation_passed": true, "time": 0.0005071163177490234, "tests_passed": false, "error": "TypeError"}
+{"code": " len(re.findall(r'[^\\w\\s]', text))", "compilation_passed": true, "time": 0.0005311965942382812, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(len(word) for word in text if word in PUNCTUATION)", "compilation_passed": true, "time": 0.0005812644958496094, "tests_passed": false, "error": "TypeError"}
+{"code": " len(re.findall(r'[\\w\\']+', text))", "compilation_passed": true, "time": 0.0005071163177490234, "tests_passed": false, "error": "TypeError"}
+{"code": " len(re.findall(r'[^A-Za-z\\s]+', text))", "compilation_passed": true, "time": 0.0005402565002441406, "tests_passed": false, "error": "TypeError"}

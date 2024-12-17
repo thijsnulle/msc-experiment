@@ -1,0 +1,11 @@
+{"code": " {", "compilation_passed": false, "time": 0.00020503997802734375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.009582042694091797, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.0010716915130615234, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.random.randint(low=1, high=100, size=(100, 4))", "compilation_passed": true, "time": 0.001104116439819336, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'ID': range(1, 101), 'Name': np.random.choice(latin_names + other_names, size=100)}", "compilation_passed": true, "time": 0.001110076904296875, "tests_passed": false, "error": "AttributeError"}
+{"code": " [{", "compilation_passed": false, "time": 0.00019216537475585938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {'ID': np.arange(1, 101).astype(int),", "compilation_passed": false, "time": 0.00020003318786621094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(np.arange(100, dtype='int32'))", "compilation_passed": true, "time": 0.0011639595031738281, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.0013439655303955078, "tests_passed": false, "error": "AttributeError"}
+{"code": " {'ID': np.arange(1, 101), 'Name': np.random.choice(latin_names, 100),", "compilation_passed": false, "time": 0.00020813941955566406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=['ID', 'Name', 'Date of Birth', 'Email'])", "compilation_passed": true, "time": 0.0013871192932128906, "tests_passed": false, "error": "AttributeError"}

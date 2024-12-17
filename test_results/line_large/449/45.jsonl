@@ -1,0 +1,8 @@
+{"code": "fit_transform(data[FEATURES]),", "compilation_passed": true, "time": 0.01595592498779297, "tests_passed": false, "error": "KeyError"}
+{"code": "fit_transform(data[FEATURES].to_numpy()), columns=FEATURES", "compilation_passed": true, "time": 0.6756410598754883, "tests_passed": true, "error": null}
+{"code": "fit_transform(data[FEATURES]), columns=FEATURES", "compilation_passed": true, "time": 0.6869182586669922, "tests_passed": true, "error": null}
+{"code": "fit_transform(data[FEATURES]), index=data.index, columns=FEATURES", "compilation_passed": true, "time": 0.6996417045593262, "tests_passed": true, "error": null}
+{"code": "fit_transform(data[FEATURES]), index=data.index", "compilation_passed": true, "time": 0.017124176025390625, "tests_passed": false, "error": "KeyError"}
+{"code": "fit_transform(data[FEATURES].values), index=data.index, columns=data.columns", "compilation_passed": true, "time": 0.6155858039855957, "tests_passed": false, "error": "ValueError"}
+{"code": "fit_transform(data[FEATURES]), columns=data.columns", "compilation_passed": true, "time": 0.961392879486084, "tests_passed": false, "error": "ValueError"}
+{"code": "fit_transform(data[FEATURES].to_numpy()), index=data.index, columns=FEATURES", "compilation_passed": true, "time": 0.7305142879486084, "tests_passed": true, "error": null}

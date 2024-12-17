@@ -1,0 +1,12 @@
+{"code": " f\"({team_goals} goals, $\" \\", "compilation_passed": false, "time": 0.0001628398895263672, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"({team_goals} goals, ${penalty_cost})\"", "compilation_passed": true, "time": 0.001867055892944336, "tests_passed": true, "error": null}
+{"code": " \"({} goals, ${}\".format(team_goals, penalty_cost)", "compilation_passed": true, "time": 0.0014138221740722656, "tests_passed": false, "error": "ValueError"}
+{"code": " f'({team_goals} goals, ${penalty_cost})'", "compilation_passed": true, "time": 0.0018627643585205078, "tests_passed": true, "error": null}
+{"code": " f\"({team_goals} goals, {penalty_cost} dollars)\"", "compilation_passed": true, "time": 0.0012331008911132812, "tests_passed": false, "error": "ValueError"}
+{"code": " f\"({team_goals} goals, ${(penalty_cost)}\"", "compilation_passed": true, "time": 0.001397848129272461, "tests_passed": false, "error": "ValueError"}
+{"code": " '(' + str(team_goals) + ' goals, $' + str(penalty_cost) + ')'", "compilation_passed": true, "time": 0.0018908977508544922, "tests_passed": true, "error": null}
+{"code": " f'({\"+\" * team_goals} goals, ${\"+\" * penalty_cost})'", "compilation_passed": true, "time": 0.0013909339904785156, "tests_passed": false, "error": "ValueError"}
+{"code": " f\"({team_goals} goals, ${(penalty_cost * team_penalties) - penalty_cost})\"", "compilation_passed": true, "time": 0.001233816146850586, "tests_passed": true, "error": null}
+{"code": " f'{team_goals} goals, ${penalty_cost}'", "compilation_passed": true, "time": 0.0013761520385742188, "tests_passed": false, "error": "ValueError"}
+{"code": " f\"{team} ({team_goals} goals, ${penalty_cost})\"", "compilation_passed": true, "time": 0.0012309551239013672, "tests_passed": false, "error": "ValueError"}
+{"code": " '{} ({})'.format(team_goals, ', ${}'.format(penalty_cost) if team_penalties else '')", "compilation_passed": true, "time": 0.0013890266418457031, "tests_passed": false, "error": "ValueError"}

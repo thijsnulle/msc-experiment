@@ -1,0 +1,23 @@
+{"code": " df.apply(lambda col: np.cumsum(col > 0) / col.size)", "compilation_passed": true, "time": 0.0013899803161621094, "tests_passed": true, "error": null}
+{"code": " df.cumsum()", "compilation_passed": true, "time": 0.0007500648498535156, "tests_passed": true, "error": null}
+{"code": " df.cumsum() / df.sum().astype(float)", "compilation_passed": true, "time": 0.0014450550079345703, "tests_passed": true, "error": null}
+{"code": " df.cumsum().cumsum()", "compilation_passed": true, "time": 0.0007627010345458984, "tests_passed": true, "error": null}
+{"code": " df.cumsum() / df.cumsum().sum()", "compilation_passed": true, "time": 0.0009748935699462891, "tests_passed": true, "error": null}
+{"code": " df.cumsum() / df.cumsum().iloc[-1]", "compilation_passed": true, "time": 0.0009090900421142578, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: np.cumsum(x.notna().astype(int)) / x.count(), axis=0)", "compilation_passed": true, "time": 0.0014650821685791016, "tests_passed": true, "error": null}
+{"code": " df.cumsum() / length", "compilation_passed": true, "time": 0.0007779598236083984, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: np.cumsum(x.notnull()) / x.count().values)", "compilation_passed": true, "time": 0.0009903907775878906, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.cumsum()/df.cumsum().max()", "compilation_passed": true, "time": 0.0009641647338867188, "tests_passed": true, "error": null}
+{"code": " df.cumsum() / df.sum()", "compilation_passed": true, "time": 0.0009338855743408203, "tests_passed": true, "error": null}
+{"code": " df.cumsum(axis=0) / len(df)", "compilation_passed": true, "time": 0.0008249282836914062, "tests_passed": true, "error": null}
+{"code": " df.cumsum().cumsum(axis=0)", "compilation_passed": true, "time": 0.0007660388946533203, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: np.cumsum(x.value_counts() / len(df)), axis=0)", "compilation_passed": true, "time": 0.0024759769439697266, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: np.cumsum(x / x.sum()), axis=1)", "compilation_passed": true, "time": 0.0076351165771484375, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: pd.Series(x.apply(lambda y: y.cumsum())), axis=1)", "compilation_passed": true, "time": 0.001068115234375, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.apply(lambda x: np.cumsum(x.notna()) / x.notna().size)", "compilation_passed": true, "time": 0.0013778209686279297, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: np.cumsum(x.value_counts(normalize=True)), axis=0)", "compilation_passed": true, "time": 0.0024666786193847656, "tests_passed": true, "error": null}
+{"code": " df.cumsum() / len(df)", "compilation_passed": true, "time": 0.0007920265197753906, "tests_passed": true, "error": null}
+{"code": " df.cumsum(axis=0)", "compilation_passed": true, "time": 0.0007460117340087891, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: np.cumsum(x != x.shift(1)) / len(x))", "compilation_passed": true, "time": 0.0015501976013183594, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: np.cumsum(x.value_counts().divide(length)) * 100)", "compilation_passed": true, "time": 0.0026841163635253906, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data, columns=COLUMNS)", "compilation_passed": true, "time": 0.0007469654083251953, "tests_passed": true, "error": null}

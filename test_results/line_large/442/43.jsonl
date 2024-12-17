@@ -1,0 +1,11 @@
+{"code": " result.reshape(result.shape[0], -1)", "compilation_passed": true, "time": 0.06993794441223145, "tests_passed": true, "error": null}
+{"code": " np.reshape(result, (P.shape[0], -1))", "compilation_passed": true, "time": 0.0708627700805664, "tests_passed": true, "error": null}
+{"code": " np.reshape(result, (result.shape[0], np.prod(result.shape[1:])))", "compilation_passed": true, "time": 0.3927600383758545, "tests_passed": true, "error": null}
+{"code": " result.reshape(len(P), -1)", "compilation_passed": true, "time": 0.08038616180419922, "tests_passed": true, "error": null}
+{"code": " result.reshape(len(P), np.prod(result.shape[1:]))", "compilation_passed": true, "time": 0.07354283332824707, "tests_passed": true, "error": null}
+{"code": " result.reshape(-1, 54)  # 54 = 3 * 3 * 3 (the number of elements in a 3x3x3 tensor)", "compilation_passed": true, "time": 0.0014247894287109375, "tests_passed": false, "error": "ValueError"}
+{"code": " result.reshape(P.shape[0], -1)", "compilation_passed": true, "time": 0.07374691963195801, "tests_passed": true, "error": null}
+{"code": " np.reshape(result, (result.shape[0], -1))", "compilation_passed": true, "time": 0.0764780044555664, "tests_passed": true, "error": null}
+{"code": " result.reshape(-1, np.prod(result.shape[1:]))", "compilation_passed": true, "time": 0.08465194702148438, "tests_passed": true, "error": null}
+{"code": " result.reshape(-1, 27)", "compilation_passed": true, "time": 0.0014798641204833984, "tests_passed": false, "error": "ValueError"}
+{"code": " result.reshape(-1, P.shape[0]).T", "compilation_passed": true, "time": 0.0864708423614502, "tests_passed": true, "error": null}

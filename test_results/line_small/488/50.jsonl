@@ -1,0 +1,23 @@
+{"code": " df.plot(x='Timestamp', y='Value')", "compilation_passed": true, "time": 0.023719072341918945, "tests_passed": true, "error": null}
+{"code": " df.plot(xticklabels=None)", "compilation_passed": true, "time": 0.02762007713317871, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(kind='line', marker='o', xlabel='Timestamp', ylabel='Value')", "compilation_passed": true, "time": 0.026476621627807617, "tests_passed": true, "error": null}
+{"code": " df.plot(", "compilation_passed": false, "time": 0.0002808570861816406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(kind=\"line\", x=\"Timestamp\", y=\"Value\", figsize=(10, 4), title=\"Time Series with Seasonality\",", "compilation_passed": false, "time": 0.0003440380096435547, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(x=\"Timestamp\", y=\"Value\", loci=\"none\", lw=2, title=\"Time Series with Seasonality\")", "compilation_passed": true, "time": 0.023159265518188477, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x='Timestamp', y='Value', label='Time Series')", "compilation_passed": true, "time": 0.025755882263183594, "tests_passed": true, "error": null}
+{"code": " df.plot.line(x=\"Timestamp\", y=\"Value\")", "compilation_passed": true, "time": 0.026198863983154297, "tests_passed": true, "error": null}
+{"code": " df.plot.scatter(x=\"Timestamp\", y=\"Value\", s=10, col=\"Timestamp\")", "compilation_passed": true, "time": 0.02846503257751465, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(x=\"Timestamp\", y=\"Value\")", "compilation_passed": true, "time": 0.03150606155395508, "tests_passed": true, "error": null}
+{"code": " df.plot(y=\"Value\", x=\"Timestamp\", grid=True, marker=\"\")", "compilation_passed": true, "time": 0.02704000473022461, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Timestamp', y='Value', subplots=False)", "compilation_passed": true, "time": 0.025578022003173828, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Timestamp\", y=\"Value\", linewidth=0, figsize=(20, 5),", "compilation_passed": false, "time": 0.0003509521484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(x=\"Timestamp\", y=\"Value\", kind=\"bar\")", "compilation_passed": true, "time": 0.07410907745361328, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Timestamp', y='Value', ylabel='Value')", "compilation_passed": true, "time": 0.04347705841064453, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Timestamp\", y=\"Value\",", "compilation_passed": false, "time": 0.000354766845703125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot.line()", "compilation_passed": true, "time": 0.027194976806640625, "tests_passed": true, "error": null}
+{"code": " df.plot.line(x=\"Timestamp\", y=\"Value\", grid=True)", "compilation_passed": true, "time": 0.027676105499267578, "tests_passed": true, "error": null}
+{"code": " df.plot(x='Timestamp', y='Value', linewidth=3)", "compilation_passed": true, "time": 0.029564857482910156, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"line\", x=\"Timestamp\", y=\"Value\", label=\"Time Series with Seasonality\")", "compilation_passed": true, "time": 0.027729034423828125, "tests_passed": true, "error": null}
+{"code": " df.plot(kind=\"line\", legend=False, marker=None)", "compilation_passed": true, "time": 0.02837514877319336, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='line',", "compilation_passed": false, "time": 0.0003399848937988281, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(kind=\"line\", xlabel=\"Timestamp\", ylabel=\"Value\", title=\"Time Series with Seasonality\")", "compilation_passed": true, "time": 0.29465198516845703, "tests_passed": true, "error": null}

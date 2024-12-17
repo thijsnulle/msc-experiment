@@ -1,0 +1,6 @@
+{"code": " ax.scatter(unique_df[\"x\"], unique_df[\"y\"], c=unique_df[\"cluster\"])", "compilation_passed": true, "time": 0.1760420799255371, "tests_passed": true, "error": null}
+{"code": " unique_df.plot(kind='scatter', x='x', y='y', c='cluster', ax=ax)", "compilation_passed": true, "time": 0.2721700668334961, "tests_passed": true, "error": null}
+{"code": " ax.scatter(x=unique_df[\"x\"], y=unique_df[\"y\"], c=unique_df[\"cluster\"])", "compilation_passed": true, "time": 0.1875171661376953, "tests_passed": true, "error": null}
+{"code": " ax.scatter(", "compilation_passed": false, "time": 0.00030684471130371094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ax.scatter(unique_df[\"x\"], unique_df[\"y\"], c=unique_df[\"cluster\"], alpha=0.5)", "compilation_passed": true, "time": 0.18733882904052734, "tests_passed": true, "error": null}
+{"code": " unique_df.plot.scatter(x=\"x\", y=\"y\", c=unique_df[\"cluster\"], ax=ax, edgecolors=\"black\")", "compilation_passed": true, "time": 0.21804213523864746, "tests_passed": true, "error": null}

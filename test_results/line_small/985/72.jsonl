@@ -1,0 +1,14 @@
+{"code": " pd.DataFrame.from_dict(country_data_dict, orient=\"index\")", "compilation_passed": false, "time": 0.00032901763916015625, "tests_passed": false, "error": "IndentationError"}
+{"code": " list(country_data_dict.items())", "compilation_passed": false, "time": 0.0003299713134765625, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame.from_dict(country_data_dict, orient=\"index\", columns=[\"Country\", \"Population\"])", "compilation_passed": false, "time": 0.0003478527069091797, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(country_data_dict, index=[0])", "compilation_passed": false, "time": 0.00034308433532714844, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(country_data_dict, columns=[\"Country\", \"Population\"])", "compilation_passed": false, "time": 0.0003428459167480469, "tests_passed": false, "error": "IndentationError"}
+{"code": " []", "compilation_passed": false, "time": 0.000354766845703125, "tests_passed": false, "error": "IndentationError"}
+{"code": " [", "compilation_passed": true, "time": 0.007622957229614258, "tests_passed": true, "error": null}
+{"code": " [(country, population) for country, population in country_data_dict.items()]", "compilation_passed": false, "time": 0.00033974647521972656, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(country_data_dict, index=[])", "compilation_passed": false, "time": 0.0003650188446044922, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(country_data_dict.items(), columns=[\"Country\", \"Population\"])", "compilation_passed": false, "time": 0.0003437995910644531, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame.from_dict(country_data_dict)", "compilation_passed": false, "time": 0.0003330707550048828, "tests_passed": false, "error": "IndentationError"}
+{"code": " [(name, population) for name, population in country_data_dict.items()]", "compilation_passed": false, "time": 0.00035309791564941406, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(data=country_data_dict, index=[], columns=[\"Country\", \"Population\"])", "compilation_passed": false, "time": 0.0003561973571777344, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(country_data_dict).sort_values(\"Population\", ascending=False)", "compilation_passed": false, "time": 0.00034308433532714844, "tests_passed": false, "error": "IndentationError"}

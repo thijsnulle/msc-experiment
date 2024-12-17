@@ -1,0 +1,4 @@
+{"code": " date < datetime.now():", "compilation_passed": true, "time": 0.027791976928710938, "tests_passed": true, "error": null}
+{"code": " date < datetime.now().date():", "compilation_passed": true, "time": 0.0011830329895019531, "tests_passed": false, "error": "TypeError"}
+{"code": " date < datetime.now().replace(hour=0, minute=0, second=0, microsecond=0):", "compilation_passed": true, "time": 0.026387929916381836, "tests_passed": true, "error": null}
+{"code": " date.date() < datetime.now().date():", "compilation_passed": true, "time": 0.02622509002685547, "tests_passed": true, "error": null}

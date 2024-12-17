@@ -1,0 +1,12 @@
+{"code": " re.findall(r\"https?://(?:[-\\w.]|(?:%[\\da-fA-F]{2}))+\", myString)", "compilation_passed": true, "time": 0.006227970123291016, "tests_passed": true, "error": null}
+{"code": " re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\\\(\\\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString)", "compilation_passed": true, "time": 0.002288818359375, "tests_passed": true, "error": null}
+{"code": " re.findall(r'https?://(?:[-\\w.]|(?:%[\\da-fA-F]{2}))+', myString)", "compilation_passed": true, "time": 0.005771160125732422, "tests_passed": true, "error": null}
+{"code": " re.findall('https?://(?:[-\\w.]|(?:%[\\da-fA-F]{2}))+', myString)", "compilation_passed": true, "time": 0.00536799430847168, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"(https?://\\S+)\", myString)", "compilation_passed": true, "time": 0.0028390884399414062, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(https?://[^\\s]+)', myString)", "compilation_passed": true, "time": 0.002089977264404297, "tests_passed": true, "error": null}
+{"code": " re.findall(r'https://[^\\s]+', myString)", "compilation_passed": true, "time": 0.0021278858184814453, "tests_passed": true, "error": null}
+{"code": " re.findall(r'(?:(?:http:\\/\\/)|(?:https:\\/\\/))(\\S+)', myString)", "compilation_passed": true, "time": 0.0021572113037109375, "tests_passed": true, "error": null}
+{"code": " re.findall(r'https://[\\w.-]+', myString)", "compilation_passed": true, "time": 0.007691144943237305, "tests_passed": true, "error": null}
+{"code": " re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\\\(\\\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString)", "compilation_passed": true, "time": 0.002103090286254883, "tests_passed": true, "error": null}
+{"code": " re.findall('https://([^ ,]+)', myString)  # Extract all HTTPS URLs from the input string", "compilation_passed": true, "time": 0.002205371856689453, "tests_passed": true, "error": null}
+{"code": " re.findall(r'https?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\\\(\\\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', myString)", "compilation_passed": true, "time": 0.002916097640991211, "tests_passed": true, "error": null}

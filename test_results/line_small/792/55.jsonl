@@ -1,0 +1,22 @@
+{"code": " [abs(model.predict(df[feature].values.reshape(1, -1))[0] - df[target].values[i])", "compilation_passed": false, "time": 0.0002567768096923828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.abs(y - model.predict(X))", "compilation_passed": true, "time": 0.0032079219818115234, "tests_passed": false, "error": "NameError"}
+{"code": " [model.resid_sum_squares]", "compilation_passed": true, "time": 0.003312826156616211, "tests_passed": false, "error": "AttributeError"}
+{"code": " [abs(model.predict(X)[i] - y[i]) for i in range(len(y))]", "compilation_passed": true, "time": 0.011523008346557617, "tests_passed": true, "error": null}
+{"code": " model.resid", "compilation_passed": true, "time": 0.002894163131713867, "tests_passed": false, "error": "AttributeError"}
+{"code": " [abs(y[i] - model.predict(X[i].reshape(1, -1))) for i in range(len(y))]", "compilation_passed": true, "time": 0.011591911315917969, "tests_passed": true, "error": null}
+{"code": " np.array(model.predict(X) - y)", "compilation_passed": true, "time": 0.0027740001678466797, "tests_passed": false, "error": "NameError"}
+{"code": " [abs(model.predict(df[[feature]])[i] - df[target][i])", "compilation_passed": false, "time": 0.000225067138671875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.array([abs(model.predict([[x]])[0] - y) for x in X])", "compilation_passed": true, "time": 0.0027480125427246094, "tests_passed": false, "error": "NameError"}
+{"code": " y - model.predict(X)", "compilation_passed": true, "time": 0.007457256317138672, "tests_passed": true, "error": null}
+{"code": " np.array(df[target]) - model.predict(X)", "compilation_passed": true, "time": 0.003142118453979492, "tests_passed": false, "error": "NameError"}
+{"code": " [abs(i - model.predict(np.array([i]).reshape(-1, 1))) for i in df[feature]]", "compilation_passed": true, "time": 0.0028269290924072266, "tests_passed": false, "error": "NameError"}
+{"code": " [", "compilation_passed": false, "time": 0.00022411346435546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.loc[:, 'col1'].drop(target).values.reshape(-1)", "compilation_passed": true, "time": 0.003589153289794922, "tests_passed": false, "error": "KeyError"}
+{"code": " [abs(y_pred - y) for y_pred in model.predict(X)]", "compilation_passed": true, "time": 0.0038971900939941406, "tests_passed": false, "error": "ValueError"}
+{"code": " (y - model.predict(X)).tolist()", "compilation_passed": true, "time": 0.007157087326049805, "tests_passed": true, "error": null}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.003081083297729492, "tests_passed": false, "error": "KeyError"}
+{"code": " (y - model.predict(X)).ravel()", "compilation_passed": true, "time": 0.006765842437744141, "tests_passed": true, "error": null}
+{"code": " [abs(y - model.predict(X))[i] for i in range(len(y))]", "compilation_passed": true, "time": 0.010591983795166016, "tests_passed": true, "error": null}
+{"code": " np.abs(model.predict(X) - y)", "compilation_passed": true, "time": 0.00269317626953125, "tests_passed": false, "error": "NameError"}
+{"code": " abs(y - model.predict(X))", "compilation_passed": true, "time": 0.0066602230072021484, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, -1].copy()", "compilation_passed": true, "time": 0.4370560646057129, "tests_passed": true, "error": null}

@@ -1,0 +1,13 @@
+{"code": " lxml.html.HTMLParser() if use_lxml else BeautifulSoup", "compilation_passed": true, "time": 0.0020799636840820312, "tests_passed": true, "error": null}
+{"code": " \"lxml\" if use_lxml else \"html.parser\"", "compilation_passed": true, "time": 0.0026443004608154297, "tests_passed": true, "error": null}
+{"code": " BeautifulSoup(decoded_content, \"lxml\" if use_lxml else \"html.parser\")", "compilation_passed": true, "time": 0.0020139217376708984, "tests_passed": true, "error": null}
+{"code": " 'lxml' if use_lxml else 'html.parser'", "compilation_passed": true, "time": 0.002274036407470703, "tests_passed": true, "error": null}
+{"code": " lxml.html.HTMLParser() if use_lxml else bs4.BeautifulSoup(decoded_content, 'html.parser')", "compilation_passed": true, "time": 0.002020120620727539, "tests_passed": true, "error": null}
+{"code": " \"html.parser\" if not use_lxml else \"lxml\"", "compilation_passed": true, "time": 0.0022652149200439453, "tests_passed": true, "error": null}
+{"code": " lxml.html.HTMLParser if use_lxml else bs4.BeautifulSoup", "compilation_passed": true, "time": 0.0019600391387939453, "tests_passed": true, "error": null}
+{"code": " lxml if use_lxml else 'html.parser'", "compilation_passed": true, "time": 0.0022830963134765625, "tests_passed": true, "error": null}
+{"code": " lxml.html if use_lxml else bs4.BeautifulSoup", "compilation_passed": true, "time": 0.00197601318359375, "tests_passed": true, "error": null}
+{"code": " lxml.html if use_lxml else html.parser", "compilation_passed": true, "time": 0.0019481182098388672, "tests_passed": true, "error": null}
+{"code": " lxml if use_lxml else HTMLParser", "compilation_passed": true, "time": 0.0018830299377441406, "tests_passed": true, "error": null}
+{"code": " BeautifulSoup(decoded_content, 'lxml' if use_lxml else \"html.parser\")", "compilation_passed": true, "time": 0.0019218921661376953, "tests_passed": true, "error": null}
+{"code": " lxml.html.soup if use_lxml else BeautifulSoup", "compilation_passed": true, "time": 0.001986980438232422, "tests_passed": true, "error": null}

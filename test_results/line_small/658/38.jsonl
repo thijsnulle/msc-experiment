@@ -1,0 +1,13 @@
+{"code": " [ALPHANUMERIC.sub('', text).lower() for text in texts]", "compilation_passed": true, "time": 0.002332925796508789, "tests_passed": true, "error": null}
+{"code": " [ALPHANUMERIC.sub(' ', t.lower()) for t in texts]", "compilation_passed": true, "time": 0.017443180084228516, "tests_passed": true, "error": null}
+{"code": " [ALPHANUMERIC.sub(' ', text).lower() for text in texts]", "compilation_passed": true, "time": 0.00220489501953125, "tests_passed": true, "error": null}
+{"code": " [ALPHANUMERIC.sub(' ', doc.lower()).strip() for doc in texts]", "compilation_passed": true, "time": 0.0022749900817871094, "tests_passed": true, "error": null}
+{"code": " [ALPHANUMERIC.sub(' ', t.lower()).split() for t in texts]", "compilation_passed": true, "time": 0.0009019374847412109, "tests_passed": false, "error": "AttributeError"}
+{"code": " [ALPHANUMERIC.sub(' ', text).strip() for text in texts]", "compilation_passed": true, "time": 0.0022110939025878906, "tests_passed": true, "error": null}
+{"code": " [ALPHANUMERIC.sub(\"\", text).lower().strip() for text in texts]", "compilation_passed": true, "time": 0.0018551349639892578, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0009491443634033203, "tests_passed": false, "error": "ValueError"}
+{"code": " [ALPHANUMERIC.sub(' ', text.lower()) for text in texts]", "compilation_passed": true, "time": 0.0019850730895996094, "tests_passed": true, "error": null}
+{"code": " [ALPHANUMERIC.sub(' ', text.lower()).strip() for text in texts]", "compilation_passed": true, "time": 0.0019609928131103516, "tests_passed": true, "error": null}
+{"code": " [ALPHANUMERIC.sub(' ', text).lower().split() for text in texts]", "compilation_passed": true, "time": 0.0008230209350585938, "tests_passed": false, "error": "AttributeError"}
+{"code": " [ALPHANUMERIC.sub(' ', text).lower().strip().split() for text in texts]", "compilation_passed": true, "time": 0.0007622241973876953, "tests_passed": false, "error": "AttributeError"}
+{"code": " [ALPHANUMERIC.sub('', text.lower()) for text in texts]", "compilation_passed": true, "time": 0.0019998550415039062, "tests_passed": true, "error": null}

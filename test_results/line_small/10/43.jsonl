@@ -1,0 +1,11 @@
+{"code": " sum(int_list, [])", "compilation_passed": true, "time": 0.003818988800048828, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain(*int_list))", "compilation_passed": true, "time": 0.0037369728088378906, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0015981197357177734, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " [j for sub in int_list for j in sub]", "compilation_passed": true, "time": 0.0037250518798828125, "tests_passed": true, "error": null}
+{"code": " [val for sublist in int_list for val in sublist]", "compilation_passed": true, "time": 0.0038671493530273438, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(int_list))", "compilation_passed": true, "time": 0.003919124603271484, "tests_passed": true, "error": null}
+{"code": " [x for sublist in int_list for x in sublist]", "compilation_passed": true, "time": 0.0038318634033203125, "tests_passed": true, "error": null}
+{"code": " [item for sublist in int_list for item in sublist]", "compilation_passed": true, "time": 0.003704071044921875, "tests_passed": true, "error": null}
+{"code": " itertools.chain.from_iterable(int_list)", "compilation_passed": true, "time": 0.0037119388580322266, "tests_passed": true, "error": null}
+{"code": " [i for sublist in int_list for i in sublist]", "compilation_passed": true, "time": 0.003877878189086914, "tests_passed": true, "error": null}
+{"code": " itertools.chain(*int_list)", "compilation_passed": true, "time": 0.0037069320678710938, "tests_passed": true, "error": null}

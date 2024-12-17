@@ -1,0 +1,7 @@
+{"code": " not isinstance(P, np.ndarray) or not isinstance(T, np.ndarray):", "compilation_passed": true, "time": 0.06869006156921387, "tests_passed": true, "error": null}
+{"code": " not isinstance(P, np.ndarray):", "compilation_passed": true, "time": 0.07127499580383301, "tests_passed": true, "error": null}
+{"code": " P.shape[1] != tensor_shape[0]:", "compilation_passed": true, "time": 0.020090103149414062, "tests_passed": false, "error": "TypeError"}
+{"code": " P.shape[1] != T.shape[0]:", "compilation_passed": true, "time": 0.019273042678833008, "tests_passed": false, "error": "TypeError"}
+{"code": " P.shape[1] != tensor_shape[0] or P.shape[0] != tensor_shape[1] or tensor_shape[1] != tensor_shape[2]:", "compilation_passed": true, "time": 0.0194091796875, "tests_passed": false, "error": "TypeError"}
+{"code": " P.shape[1] != np.prod(tensor_shape):", "compilation_passed": true, "time": 0.0014429092407226562, "tests_passed": false, "error": "TypeError"}
+{"code": " T.shape != tensor_shape:", "compilation_passed": true, "time": 0.0766301155090332, "tests_passed": true, "error": null}

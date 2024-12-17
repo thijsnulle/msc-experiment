@@ -1,0 +1,27 @@
+{"code": " [re.sub(r'[\\u0300-\\u036f]', '', name)", "compilation_passed": false, "time": 0.0002009868621826172, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [re.sub('([^a-zA-Z])', '', name) for name in latin_names]", "compilation_passed": true, "time": 0.006095170974731445, "tests_passed": true, "error": null}
+{"code": " [codecs.decode(n, 'unicode-escape') for n in latin_names]", "compilation_passed": true, "time": 0.00739598274230957, "tests_passed": true, "error": null}
+{"code": " [codecs.encode(name, \"utf-8\").decode(\"utf-8\") for name in latin_names]", "compilation_passed": true, "time": 0.009741783142089844, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00017499923706054688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [codecs.encode(name, 'utf8').decode('unicode_escape') for name in latin_names]", "compilation_passed": true, "time": 0.006443977355957031, "tests_passed": true, "error": null}
+{"code": " [codecs.decode(i, 'latin-1') for i in latin_names]", "compilation_passed": true, "time": 0.0013251304626464844, "tests_passed": false, "error": "TypeError"}
+{"code": " [codecs.encode(name.encode(), 'unicode_escape').decode() for name in latin_names]", "compilation_passed": true, "time": 0.0010802745819091797, "tests_passed": false, "error": "TypeError"}
+{"code": " [codecs.decode(x, 'unicode_escape') for x in latin_names]", "compilation_passed": true, "time": 0.006217002868652344, "tests_passed": true, "error": null}
+{"code": " [codecs.decode(name, 'latin') for name in latin_names]", "compilation_passed": true, "time": 0.0010480880737304688, "tests_passed": false, "error": "TypeError"}
+{"code": " [codecs.decode(name, 'utf-8') for name in latin_names]", "compilation_passed": true, "time": 0.0014078617095947266, "tests_passed": false, "error": "TypeError"}
+{"code": " [codecs.decode(name, 'unicode_escape') for name in latin_names]", "compilation_passed": true, "time": 0.006021976470947266, "tests_passed": true, "error": null}
+{"code": " [codecs.encode(n, 'ascii', 'ignore').decode('ascii') for n in latin_names]", "compilation_passed": true, "time": 0.006361961364746094, "tests_passed": true, "error": null}
+{"code": " [codecs.decode(name, 'latin-1') for name in latin_names]", "compilation_passed": true, "time": 0.001207113265991211, "tests_passed": false, "error": "TypeError"}
+{"code": " [codecs.encode(name, \"utf8\").decode(\"latin-1\") for name in latin_names]", "compilation_passed": true, "time": 0.006024837493896484, "tests_passed": true, "error": null}
+{"code": " [codecs.decode(latin_name.encode(), 'cp437') for latin_name in latin_names]", "compilation_passed": true, "time": 0.006287813186645508, "tests_passed": true, "error": null}
+{"code": " [codecs.encode(name, \"latin_1\", \"replace\").decode(\"latin_1\") for name in latin_names]", "compilation_passed": true, "time": 0.010001897811889648, "tests_passed": true, "error": null}
+{"code": " [codecs.decode(name.encode('cp1252'), 'utf-8') for name in latin_names]", "compilation_passed": true, "time": 0.0018451213836669922, "tests_passed": false, "error": "UnicodeDecodeError"}
+{"code": " [re.sub('\\s+', '%', name.encode('cp1252').decode('cp1252'))", "compilation_passed": false, "time": 0.0001900196075439453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [codecs.decode(name, encoding='ascii', errors='surrogateescape') for name in latin_names]", "compilation_passed": true, "time": 0.0010421276092529297, "tests_passed": false, "error": "TypeError"}
+{"code": " [codecs.encode(n, 'utf8').decode('unicode_escape') for n in latin_names]", "compilation_passed": true, "time": 0.00606989860534668, "tests_passed": true, "error": null}
+{"code": " [codecs.encode(n, 'cp1251').decode('utf-8') for n in latin_names]", "compilation_passed": true, "time": 0.0016791820526123047, "tests_passed": false, "error": "UnicodeEncodeError"}
+{"code": " [codecs.encode(name.encode('latin-1'), 'ascii', 'ignore').decode('ascii') for name in latin_names]", "compilation_passed": true, "time": 0.001132965087890625, "tests_passed": false, "error": "TypeError"}
+{"code": " list(map(lambda x: codecs.decode(x, \"unicode-escape\"), latin_names))", "compilation_passed": true, "time": 0.006102085113525391, "tests_passed": true, "error": null}
+{"code": " [codecs.decode(n, 'latin1') for n in latin_names]", "compilation_passed": true, "time": 0.0010323524475097656, "tests_passed": false, "error": "TypeError"}
+{"code": " [codecs.decode(name.encode(), 'unicode_escape') for name in latin_names]", "compilation_passed": true, "time": 0.005995988845825195, "tests_passed": true, "error": null}
+{"code": " [codecs.decode(name.encode(), \"unicode_escape\") for name in latin_names]", "compilation_passed": true, "time": 0.00612187385559082, "tests_passed": true, "error": null}

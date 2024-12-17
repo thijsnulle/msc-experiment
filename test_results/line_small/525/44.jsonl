@@ -1,0 +1,14 @@
+{"code": "bar(values.keys(), values.values())", "compilation_passed": true, "time": 0.11780190467834473, "tests_passed": true, "error": null}
+{"code": "bar([\"mean\", \"median\"], [values[\"mean\"], values[\"median\"]])", "compilation_passed": true, "time": 0.12296390533447266, "tests_passed": true, "error": null}
+{"code": "bar(values.keys(), values.values(), color=\"grey\", alpha=0.6, width=0.3)", "compilation_passed": true, "time": 0.11843609809875488, "tests_passed": true, "error": null}
+{"code": "bar([1, 2], values.values(), 0.6)", "compilation_passed": true, "time": 0.12504291534423828, "tests_passed": true, "error": null}
+{"code": "bar([0, 1], values.values(), width=0.25, label=key)", "compilation_passed": true, "time": 0.1232600212097168, "tests_passed": true, "error": null}
+{"code": "bar([\"Mean\", \"Median\"], [values[\"mean\"], values[\"median\"]], width=0.5)", "compilation_passed": true, "time": 0.12394404411315918, "tests_passed": true, "error": null}
+{"code": "bar([0, 1], [values[\"mean\"], values[\"median\"]])", "compilation_passed": true, "time": 0.12818384170532227, "tests_passed": true, "error": null}
+{"code": "bar([\"mean\", \"median\"], values.values())", "compilation_passed": true, "time": 0.12139606475830078, "tests_passed": true, "error": null}
+{"code": "bar([0, 1], list(values.values()))", "compilation_passed": true, "time": 0.11947011947631836, "tests_passed": true, "error": null}
+{"code": "bar(list(values.keys()), list(values.values()), width=0.4)", "compilation_passed": true, "time": 0.12700486183166504, "tests_passed": true, "error": null}
+{"code": "bar(values.keys(), values.values(), width=0.5, align=\"center\")", "compilation_passed": true, "time": 0.12209010124206543, "tests_passed": true, "error": null}
+{"code": "bar([k for k in values.keys()], [values[k] for k in values.keys()])", "compilation_passed": true, "time": 0.1302042007446289, "tests_passed": true, "error": null}
+{"code": "bar(range(1, len(values.keys()) + 1), values.values())", "compilation_passed": true, "time": 0.12175893783569336, "tests_passed": true, "error": null}
+{"code": "bar(", "compilation_passed": false, "time": 0.00022602081298828125, "tests_passed": false, "error": "SyntaxError"}

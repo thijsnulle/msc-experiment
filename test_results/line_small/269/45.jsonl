@@ -1,3 +1,7 @@
 {"code": " _ = stats.mode(values)", "compilation_passed": true, "time": 0.31184983253479004, "tests_passed": true, "error": null}
 {"code": " mode_count = stats.mode(values)", "compilation_passed": true, "time": 0.29047393798828125, "tests_passed": true, "error": null}
 {"code": " mode_frequency = stats.mode(values)", "compilation_passed": true, "time": 0.3281137943267822, "tests_passed": true, "error": null}
+{"code": " mode_count = stats.mode(values, return_counts=True)", "compilation_passed": true, "time": 0.0018198490142822266, "tests_passed": false, "error": "TypeError"}
+{"code": " count = stats.mode(values, return_counts=True)", "compilation_passed": true, "time": 0.0014340877532958984, "tests_passed": false, "error": "TypeError"}
+{"code": " mode_freq = stats.mode(values, return_counts=True)[0]", "compilation_passed": true, "time": 0.0013408660888671875, "tests_passed": false, "error": "TypeError"}
+{"code": " count = stats.mode(values)", "compilation_passed": true, "time": 0.0677483081817627, "tests_passed": true, "error": null}

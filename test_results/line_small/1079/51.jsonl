@@ -1,0 +1,14 @@
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.07509779930114746, "tests_passed": true, "error": null}
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.07568097114562988, "tests_passed": true, "error": null}
+{"code": " df[\"Price_Float\"].plot.hist(bins=70, color='b', alpha=0.7, rwidth=0.85)", "compilation_passed": true, "time": 0.14292693138122559, "tests_passed": true, "error": null}
+{"code": " df[\"Price_Float\"].plot.hist(color='blue', alpha=0.7, rwidth=0.85, bins='auto', rot=-15, title='Histogram of Product Prices')", "compilation_passed": true, "time": 0.04332900047302246, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Price_Float\"].plot.hist(rwidth=0.85, alpha=0.7, color='blue')", "compilation_passed": true, "time": 0.09594297409057617, "tests_passed": true, "error": null}
+{"code": " plt.subplot(1, 1, 1)", "compilation_passed": true, "time": 0.07610797882080078, "tests_passed": true, "error": null}
+{"code": " plt.subplots(1,1)[0]", "compilation_passed": true, "time": 0.07112407684326172, "tests_passed": true, "error": null}
+{"code": " plt.subplots()[1]", "compilation_passed": true, "time": 0.07670903205871582, "tests_passed": true, "error": null}
+{"code": " df[\"Price_Float\"].hist(color=\"blue\", alpha=0.7, rwidth=0.85)", "compilation_passed": true, "time": 0.08681201934814453, "tests_passed": true, "error": null}
+{"code": " plt.hist(df[\"Price_Float\"], bins='auto', rwidth=0.85, alpha=0.7, color='blue', label='Price Distribution')", "compilation_passed": true, "time": 0.08599400520324707, "tests_passed": true, "error": null}
+{"code": " df[\"Price_String\"].plot.hist(bins='auto', alpha=0.7, rwidth=0.85, color='blue', label='Histogram of Product Prices')", "compilation_passed": true, "time": 0.002003908157348633, "tests_passed": false, "error": "TypeError"}
+{"code": " df[\"Price_Float\"].plot(kind='hist', bins='auto', color='#0000FF', alpha=0.7, rwidth=0.85)", "compilation_passed": true, "time": 0.04311800003051758, "tests_passed": false, "error": "ValueError"}
+{"code": " df[\"Price_Float\"].plot.hist(color=\"blue\", alpha=0.7, rwidth=0.85, bins=\"auto\", title=\"Histogram of Product Prices\",", "compilation_passed": false, "time": 0.00025081634521484375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df[\"Price_Float\"].plot.hist(rwidth=0.85, alpha=0.7, color=\"blue\", bins=\"auto\", title='Histogram of Product Prices')", "compilation_passed": true, "time": 0.044506072998046875, "tests_passed": false, "error": "ValueError"}

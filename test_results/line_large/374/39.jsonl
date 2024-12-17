@@ -1,0 +1,12 @@
+{"code": " not isinstance(cell.value, str):", "compilation_passed": true, "time": 0.020468950271606445, "tests_passed": true, "error": null}
+{"code": " cell.value:", "compilation_passed": true, "time": 0.053440093994140625, "tests_passed": true, "error": null}
+{"code": " isinstance(cell.value, str):", "compilation_passed": true, "time": 0.053521156311035156, "tests_passed": true, "error": null}
+{"code": " cell.value is not None:", "compilation_passed": true, "time": 0.052616119384765625, "tests_passed": true, "error": null}
+{"code": " '\"' in cell.value:", "compilation_passed": true, "time": 0.054947853088378906, "tests_passed": true, "error": null}
+{"code": " cell.data_type == 's':", "compilation_passed": true, "time": 0.05254507064819336, "tests_passed": true, "error": null}
+{"code": " cell.data_type == 's' and re.search(r'\"', cell.value):", "compilation_passed": true, "time": 0.05265498161315918, "tests_passed": true, "error": null}
+{"code": " cell.value and '\"' in str(cell.value):", "compilation_passed": true, "time": 0.056902170181274414, "tests_passed": true, "error": null}
+{"code": " cell.value and type(cell.value) == str:", "compilation_passed": true, "time": 0.05385613441467285, "tests_passed": true, "error": null}
+{"code": " cell.value is None:", "compilation_passed": true, "time": 0.021200180053710938, "tests_passed": true, "error": null}
+{"code": " cell.value is not None and isinstance(cell.value, str):", "compilation_passed": true, "time": 0.05545520782470703, "tests_passed": true, "error": null}
+{"code": " not cell.data_type == 's':", "compilation_passed": true, "time": 0.01984095573425293, "tests_passed": true, "error": null}

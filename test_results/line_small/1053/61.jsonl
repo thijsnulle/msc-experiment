@@ -1,0 +1,20 @@
+{"code": "word, sum_words[i]) for word, i in vectorizer.vocabulary_.items()", "compilation_passed": true, "time": 0.0017080307006835938, "tests_passed": true, "error": null}
+{"code": "word, word_count[0, idx] / sum_words[1])", "compilation_passed": true, "time": 0.0021371841430664062, "tests_passed": true, "error": null}
+{"code": "word, word_count.get_count(word), word_count.get_weight(word) / sum_words)", "compilation_passed": true, "time": 0.001650094985961914, "tests_passed": true, "error": null}
+{"code": "word, sum_words[0, word])", "compilation_passed": true, "time": 0.002008676528930664, "tests_passed": true, "error": null}
+{"code": "word, sum_words[word])", "compilation_passed": true, "time": 0.001968860626220703, "tests_passed": true, "error": null}
+{"code": "word_count[i].toarray().flatten(), sum_words[i])", "compilation_passed": true, "time": 0.0016658306121826172, "tests_passed": true, "error": null}
+{"code": "word, sum_words[i])", "compilation_passed": true, "time": 0.0019440650939941406, "tests_passed": true, "error": null}
+{"code": "word, sum_words[0, idx]) for word, idx in vectorizer.vocabulary_.items()", "compilation_passed": true, "time": 0.10644102096557617, "tests_passed": true, "error": null}
+{"code": "word, sum_words[0][i]) for word, i in vectorizer.vocabulary_.items()", "compilation_passed": true, "time": 0.0032749176025390625, "tests_passed": true, "error": null}
+{"code": "word, count / (sum_words + 0.0001) * 100)", "compilation_passed": true, "time": 0.0016598701477050781, "tests_passed": true, "error": null}
+{"code": "word, word_count.get_count(word) / sum_words.get(\"count\"))", "compilation_passed": true, "time": 0.0017561912536621094, "tests_passed": true, "error": null}
+{"code": "word, count)", "compilation_passed": true, "time": 0.0020160675048828125, "tests_passed": true, "error": null}
+{"code": "word, sum_words[0][word_count[0][word]])", "compilation_passed": true, "time": 0.0019631385803222656, "tests_passed": true, "error": null}
+{"code": "word, sum_words.get(word, 0)) for word in vectorizer.vocabulary_", "compilation_passed": true, "time": 0.001995086669921875, "tests_passed": true, "error": null}
+{"code": "word, sum_words[index] / (sum_words.sum() + 1)) for word, index in vectorizer.vocabulary_.items()", "compilation_passed": true, "time": 0.0017709732055664062, "tests_passed": true, "error": null}
+{"code": "word, int(sum_words[word]))", "compilation_passed": true, "time": 0.001970052719116211, "tests_passed": true, "error": null}
+{"code": "word, count / sum_words)", "compilation_passed": true, "time": 0.0015990734100341797, "tests_passed": true, "error": null}
+{"code": "word_count[i, :].A1.index[0], word_count[i, :].A1.sum())", "compilation_passed": true, "time": 0.0015850067138671875, "tests_passed": true, "error": null}
+{"code": "word, count) for word, count in zip(vectorizer.get_feature_names(), sum_words)", "compilation_passed": true, "time": 0.0019059181213378906, "tests_passed": true, "error": null}
+{"code": "word, word_count[i])", "compilation_passed": true, "time": 0.001706838607788086, "tests_passed": true, "error": null}

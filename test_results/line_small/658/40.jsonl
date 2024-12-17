@@ -1,0 +1,5 @@
+{"code": " CountVectorizer()", "compilation_passed": true, "time": 0.00225830078125, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(analyzer='word')", "compilation_passed": true, "time": 0.0019788742065429688, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(analyzer='char_wb')", "compilation_passed": true, "time": 0.002070188522338867, "tests_passed": true, "error": null}
+{"code": " CountVectorizer(min_df=0.001, max_features=0.25, stop_words=STOPWORDS)", "compilation_passed": true, "time": 0.001035928726196289, "tests_passed": false, "error": "sklearn.utils._param_validation.InvalidParameterError"}
+{"code": " CountVectorizer(tokenizer=lambda s: s.split())", "compilation_passed": true, "time": 0.0020160675048828125, "tests_passed": true, "error": null}

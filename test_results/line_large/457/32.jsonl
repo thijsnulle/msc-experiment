@@ -1,0 +1,22 @@
+{"code": " np.hstack([np.array(sub) for sub in L if isinstance(sub, list)])", "compilation_passed": true, "time": 0.038091182708740234, "tests_passed": false, "error": "TypeError"}
+{"code": " np.concatenate(L)", "compilation_passed": true, "time": 0.0325770378112793, "tests_passed": false, "error": "TypeError"}
+{"code": " np.concatenate([a for a in L if a])", "compilation_passed": true, "time": 0.37270021438598633, "tests_passed": true, "error": null}
+{"code": " np.asarray(L).flatten()", "compilation_passed": true, "time": 0.03389120101928711, "tests_passed": false, "error": "ValueError"}
+{"code": " []", "compilation_passed": true, "time": 0.0016357898712158203, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array([item for sublist in L for item in sublist if item is not None])", "compilation_passed": true, "time": 0.09656214714050293, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(L).flatten()", "compilation_passed": true, "time": 0.033106088638305664, "tests_passed": false, "error": "ValueError"}
+{"code": " np.hstack([item for item in L if len(item) != 0])", "compilation_passed": true, "time": 0.36215829849243164, "tests_passed": true, "error": null}
+{"code": " np.array([x for sublist in L for x in sublist])", "compilation_passed": true, "time": 0.09888410568237305, "tests_passed": false, "error": "TypeError"}
+{"code": " np.hstack([np.hstack(sublist) for sublist in L if sublist]) # flatten the input list of lists to a 1D array of integers", "compilation_passed": true, "time": 1.462968111038208, "tests_passed": false, "error": "TimeoutError"}
+{"code": " np.concatenate(np.array(L, dtype=object).flatten())", "compilation_passed": true, "time": 0.0016529560089111328, "tests_passed": false, "error": "ValueError"}
+{"code": " np.concatenate(L) # flatten the list of lists into a 1D array", "compilation_passed": true, "time": 0.03624773025512695, "tests_passed": false, "error": "TypeError"}
+{"code": " [val for sublist in L for val in sublist]", "compilation_passed": true, "time": 0.002626180648803711, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array([item for sublist in L for item in sublist if isinstance(item, (int, np.integer))])", "compilation_passed": true, "time": 0.0994868278503418, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([element for sublist in L for element in sublist if isinstance(sublist, list)])", "compilation_passed": true, "time": 0.0997469425201416, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([el for sublist in L for el in sublist if sublist is not None])", "compilation_passed": true, "time": 0.0986790657043457, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([num for sublist in L for num in sublist])", "compilation_passed": true, "time": 0.10012698173522949, "tests_passed": false, "error": "TypeError"}
+{"code": " [item for sublist in L for item in sublist if item != []]", "compilation_passed": true, "time": 0.0017399787902832031, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array([item for sublist in L for item in sublist]) # flattens the nested list and uses Numpy for array handling", "compilation_passed": true, "time": 0.11233687400817871, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([x for xs in L if len(xs) > 0 for x in xs])", "compilation_passed": true, "time": 0.10127115249633789, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([item for sublist in L for item in sublist])", "compilation_passed": true, "time": 0.10103106498718262, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array([el for subl in L for el in subl])", "compilation_passed": true, "time": 0.1108558177947998, "tests_passed": false, "error": "TypeError"}

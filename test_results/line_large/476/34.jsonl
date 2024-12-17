@@ -1,0 +1,6 @@
+{"code": " _ = curve_fit(func, X, Y)", "compilation_passed": true, "time": 0.06857895851135254, "tests_passed": true, "error": null}
+{"code": " pcov = curve_fit(func, X, Y)", "compilation_passed": true, "time": 0.06925606727600098, "tests_passed": true, "error": null}
+{"code": " pcov = curve_fit(func, X, Y, maxfev=5000000)", "compilation_passed": true, "time": 0.07186198234558105, "tests_passed": true, "error": null}
+{"code": " pcov = curve_fit(func, X, Y, method=\"lm\")", "compilation_passed": true, "time": 0.07072997093200684, "tests_passed": true, "error": null}
+{"code": " _ = curve_fit(func, X, Y, p0=[1, 1, 1])", "compilation_passed": true, "time": 0.0731191635131836, "tests_passed": true, "error": null}
+{"code": " _ = curve_fit(func, X, Y, p0=(1, 1, 1))", "compilation_passed": true, "time": 0.07848381996154785, "tests_passed": true, "error": null}

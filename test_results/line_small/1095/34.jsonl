@@ -1,0 +1,12 @@
+{"code": " any(char in punctuation_set for char in word)]", "compilation_passed": true, "time": 0.0017857551574707031, "tests_passed": true, "error": null}
+{"code": " any(c in punctuation_set for c in word)]", "compilation_passed": true, "time": 0.0012350082397460938, "tests_passed": true, "error": null}
+{"code": " all(c in punctuation_set for c in word)]", "compilation_passed": true, "time": 0.004023075103759766, "tests_passed": true, "error": null}
+{"code": " (set(word) <= punctuation_set)]", "compilation_passed": true, "time": 0.003223896026611328, "tests_passed": true, "error": null}
+{"code": " all(char in punctuation_set for char in word)]", "compilation_passed": true, "time": 0.0025212764739990234, "tests_passed": true, "error": null}
+{"code": " word.lower().isspace() and not word.lower().isupper() and not any(", "compilation_passed": false, "time": 0.000125885009765625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " any(char in punctuation_set for char in word)", "compilation_passed": false, "time": 0.00012803077697753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " (set(word.lower()) <= punctuation_set)]", "compilation_passed": true, "time": 0.002089262008666992, "tests_passed": true, "error": null}
+{"code": " set(word.lower()).issubset(punctuation_set)]", "compilation_passed": true, "time": 0.001980304718017578, "tests_passed": true, "error": null}
+{"code": " (len(word) == 1 and word in punctuation_set)]", "compilation_passed": true, "time": 0.0023717880249023438, "tests_passed": true, "error": null}
+{"code": " (set(word) - punctuation_set)]", "compilation_passed": true, "time": 0.001584768295288086, "tests_passed": true, "error": null}
+{"code": " (set(word).issubset(punctuation_set))]", "compilation_passed": true, "time": 0.0023419857025146484, "tests_passed": true, "error": null}

@@ -1,0 +1,13 @@
+{"code": " in pathlib.Path(directory).rglob(\"*\"):", "compilation_passed": true, "time": 0.002403736114501953, "tests_passed": true, "error": null}
+{"code": " in sorted(pathlib.Path(directory).rglob('*')):", "compilation_passed": true, "time": 0.0023407936096191406, "tests_passed": true, "error": null}
+{"code": " in pathlib.Path(directory).glob(\"**/*\"):", "compilation_passed": true, "time": 0.0022487640380859375, "tests_passed": true, "error": null}
+{"code": " in sorted(pathlib.Path(directory).iterdir(), key=lambda x: x.stem):", "compilation_passed": true, "time": 0.0022559165954589844, "tests_passed": true, "error": null}
+{"code": " in pathlib.Path(directory).glob('**/*'):", "compilation_passed": true, "time": 0.0025479793548583984, "tests_passed": true, "error": null}
+{"code": " in pathlib.Path(directory).rglob('*'):", "compilation_passed": true, "time": 0.002267122268676758, "tests_passed": true, "error": null}
+{"code": " in os.listdir(directory):", "compilation_passed": true, "time": 0.00092315673828125, "tests_passed": false, "error": "AttributeError"}
+{"code": " in os.scandir(directory):", "compilation_passed": true, "time": 0.002273082733154297, "tests_passed": true, "error": null}
+{"code": " in pathlib.Path(directory).glob('*'):", "compilation_passed": true, "time": 0.002710103988647461, "tests_passed": true, "error": null}
+{"code": " in pathlib.Path(directory).iterdir():", "compilation_passed": true, "time": 0.002782106399536133, "tests_passed": true, "error": null}
+{"code": " in sorted(pathlib.Path(directory).rglob(\"*\"), key=lambda x: str(x).lower()):", "compilation_passed": true, "time": 0.0030219554901123047, "tests_passed": true, "error": null}
+{"code": " in pathlib.Path(directory).glob(\"*\"):", "compilation_passed": true, "time": 0.002838134765625, "tests_passed": true, "error": null}
+{"code": " in sorted(pathlib.Path(directory).rglob(\"*\")):", "compilation_passed": true, "time": 0.0026879310607910156, "tests_passed": true, "error": null}

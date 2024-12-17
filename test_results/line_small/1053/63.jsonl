@@ -1,0 +1,4 @@
+{"code": " sorted(words_freq, key=lambda x: x[1], reverse=True)", "compilation_passed": true, "time": 0.09549212455749512, "tests_passed": true, "error": null}
+{"code": " sorted(", "compilation_passed": false, "time": 0.00022077560424804688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sorted(words_freq, key=lambda x: -x[1])", "compilation_passed": true, "time": 0.09551262855529785, "tests_passed": true, "error": null}
+{"code": " sorted(words_freq, key=lambda x: x[1], reverse=True)[:10]", "compilation_passed": true, "time": 0.09617280960083008, "tests_passed": true, "error": null}

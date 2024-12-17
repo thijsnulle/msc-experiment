@@ -1,0 +1,10 @@
+{"code": " df.assign(", "compilation_passed": false, "time": 0.00021719932556152344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=[\"Timestamp\", \"Level\", \"Message\"])", "compilation_passed": true, "time": 0.0036880970001220703, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([], columns=[\"Timestamp\", \"Level\", \"Message\"])", "compilation_passed": true, "time": 0.003754854202270508, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([[\"Timestamp\", \"Level\", \"Message\"]] * 3, columns=[\"Timestamp\", \"Level\", \"Message\"])", "compilation_passed": true, "time": 0.0022232532501220703, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Timestamp': [], 'Level': [], 'Message': []})", "compilation_passed": true, "time": 0.003482818603515625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([[None, None, None]], columns=[\"Timestamp\", \"Level\", \"Message\"])", "compilation_passed": true, "time": 0.002161264419555664, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([[\"Timestamp\", \"Level\", \"Message\"]], columns=[\"Timestamp\", \"Level\", \"Message\"])", "compilation_passed": true, "time": 0.002208709716796875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00020766258239746094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"Timestamp\": [\"\"], \"Level\": [\"\"], \"Message\": [\"\"]})", "compilation_passed": true, "time": 0.002207040786743164, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00021195411682128906, "tests_passed": false, "error": "SyntaxError"}

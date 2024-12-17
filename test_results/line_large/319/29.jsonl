@@ -1,0 +1,25 @@
+{"code": " re.findall(r'\\[[^]]*\\]', example_str)  # Find all substrings enclosed in square brackets", "compilation_passed": true, "time": 0.0009431838989257812, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r'\\[[^\\]]+\\]', '', example_str)", "compilation_passed": true, "time": 0.15264606475830078, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\[(.*?)\\]', example_str)", "compilation_passed": true, "time": 0.000995635986328125, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r'\\[[^\\]]*\\]', '', example_str)", "compilation_passed": true, "time": 0.14755988121032715, "tests_passed": true, "error": null}
+{"code": " re.sub(r\"\\[[^\\]]*\\]\", \" \", example_str)", "compilation_passed": true, "time": 0.19937515258789062, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\[[^\\]]*\\]', '', example_str)  # extract only text not enclosed in brackets", "compilation_passed": true, "time": 0.14955997467041016, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\[[^\\]]*\\]\", example_str)  # extract all texts enclosed in square brackets", "compilation_passed": true, "time": 0.0009140968322753906, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r'[^\\[]+(?=\\])', example_str)", "compilation_passed": true, "time": 0.0009768009185791016, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(\"\\[[\\w\\s\\,\\.]*\\]\", \"\", example_str)", "compilation_passed": true, "time": 0.21755170822143555, "tests_passed": true, "error": null}
+{"code": " re.sub('\\[.*?\\]', '', example_str)", "compilation_passed": true, "time": 0.15482282638549805, "tests_passed": true, "error": null}
+{"code": " re.sub(r'\\[[^]]*\\]', ' ', example_str)", "compilation_passed": true, "time": 0.14943885803222656, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\[[^\\]]*\\]', example_str)", "compilation_passed": true, "time": 0.0008640289306640625, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r'\\[.*?\\]', '', example_str)", "compilation_passed": true, "time": 0.15586304664611816, "tests_passed": true, "error": null}
+{"code": " re.findall('(?<!\\[).+(?=\\].?)', example_str) # extracts all texts that are not enclosed in square brackets from the given string", "compilation_passed": true, "time": 0.0009899139404296875, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r\"\\[[^]]*\\]\", \"\", example_str)", "compilation_passed": true, "time": 0.14831995964050293, "tests_passed": true, "error": null}
+{"code": " re.sub('\\[[^]]*\\]', '', example_str)", "compilation_passed": true, "time": 0.16576170921325684, "tests_passed": true, "error": null}
+{"code": " re.findall('[^[\\]]*[^[\\]]+', example_str)", "compilation_passed": true, "time": 0.0009510517120361328, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r'\\[[^]]*\\]', '', example_str).strip()", "compilation_passed": true, "time": 0.1542949676513672, "tests_passed": true, "error": null}
+{"code": " re.findall('(?<!\\[)[^\\[]+', example_str)", "compilation_passed": true, "time": 0.000965118408203125, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.sub(r\"\\[[^]]+\\]\", \"\", example_str)", "compilation_passed": true, "time": 0.15018010139465332, "tests_passed": true, "error": null}
+{"code": " re.sub(\"\\[.*?\\]\", \"\", example_str)", "compilation_passed": true, "time": 0.16657114028930664, "tests_passed": true, "error": null}
+{"code": " re.findall(\"[^[]+\", example_str)", "compilation_passed": true, "time": 0.0009601116180419922, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(\"(?!\\[)([^\\]]+)\", example_str)", "compilation_passed": true, "time": 0.0009570121765136719, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r'\\[[^\\]]+\\]', example_str)", "compilation_passed": true, "time": 0.0009148120880126953, "tests_passed": false, "error": "AttributeError"}
+{"code": " re.findall(r\"[^[]*\\b[^[]*\\b\", example_str)  # extracts texts that are not enclosed in square brackets", "compilation_passed": true, "time": 0.0009641647338867188, "tests_passed": false, "error": "AttributeError"}

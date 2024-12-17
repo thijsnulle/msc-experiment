@@ -1,0 +1,17 @@
+{"code": " [word for word in dollar_prefixed_words", "compilation_passed": false, "time": 0.0001556873321533203, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [word for word in dollar_prefixed_words if len(word) > 1 and not all(char in punctuation_set for char in word)]", "compilation_passed": false, "time": 0.00010991096496582031, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word for word in dollar_prefixed_words if not any(char in punctuation_set for char in word)]", "compilation_passed": false, "time": 0.00011181831359863281, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word.lower() for word in dollar_prefixed_words if word.isalpha() and set(word).issubset(punctuation_set)]", "compilation_passed": false, "time": 0.00013303756713867188, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word for word in dollar_prefixed_words if set(word) - punctuation_set]", "compilation_passed": false, "time": 0.00013875961303710938, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word.lower() for word in dollar_prefixed_words if set(word) - punctuation_set]", "compilation_passed": false, "time": 0.00010704994201660156, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word for word in dollar_prefixed_words if not word.isascii() and all(ch not in punctuation_set for ch in word)]", "compilation_passed": false, "time": 0.0001361370086669922, "tests_passed": false, "error": "IndentationError"}
+{"code": " []", "compilation_passed": false, "time": 0.00011014938354492188, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word for word in dollar_prefixed_words if set(word.lower()).isdisjoint(punctuation_set)]", "compilation_passed": false, "time": 0.00011992454528808594, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word for word in dollar_prefixed_words if not set(word).issubset(punctuation_set)]", "compilation_passed": false, "time": 0.00010800361633300781, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word.lower() for word in dollar_prefixed_words if len(word) > 1 and set(word).isdisjoint(punctuation_set)]", "compilation_passed": false, "time": 0.00011706352233886719, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word.strip(punctuation_set) for word in dollar_prefixed_words]", "compilation_passed": false, "time": 0.0001251697540283203, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word for word in dollar_prefixed_words if any(char not in punctuation_set for char in word)]", "compilation_passed": false, "time": 0.00012111663818359375, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word for word in dollar_prefixed_words if set(word).isdisjoint(punctuation_set)]", "compilation_passed": false, "time": 9.512901306152344e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word for word in dollar_prefixed_words if not word[0] in punctuation_set]", "compilation_passed": false, "time": 9.012222290039062e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " [word.lower() for word in dollar_prefixed_words if not any(", "compilation_passed": false, "time": 7.081031799316406e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [word for word in dollar_prefixed_words if not set(word.lower()).issubset(punctuation_set)]", "compilation_passed": false, "time": 0.000141143798828125, "tests_passed": false, "error": "IndentationError"}

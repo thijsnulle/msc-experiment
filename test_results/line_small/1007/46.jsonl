@@ -1,0 +1,20 @@
+{"code": " SystemError from e", "compilation_passed": true, "time": 0.003726959228515625, "tests_passed": true, "error": null}
+{"code": " SystemError from e  # Raises a specific SystemError for network-related issues", "compilation_passed": true, "time": 0.0040662288665771484, "tests_passed": true, "error": null}
+{"code": " SystemError(f\"There was an issue with fetching the data from {url}. Please try again later.\") from e", "compilation_passed": true, "time": 0.004082918167114258, "tests_passed": true, "error": null}
+{"code": " SystemError(f\"Network error occurred: {e}\")", "compilation_passed": true, "time": 0.004061222076416016, "tests_passed": true, "error": null}
+{"code": " SystemError(str(e))", "compilation_passed": true, "time": 0.004064798355102539, "tests_passed": true, "error": null}
+{"code": " SystemError(f'Network request to {url} failed with error: {e}')", "compilation_passed": true, "time": 0.0036191940307617188, "tests_passed": true, "error": null}
+{"code": " SystemError(str(e)) from e", "compilation_passed": true, "time": 0.004060029983520508, "tests_passed": true, "error": null}
+{"code": " SystemError(f\"Network error occurred while fetching data from {url}\") from e", "compilation_passed": true, "time": 0.0035851001739501953, "tests_passed": true, "error": null}
+{"code": " SystemError(\"Network request failed due to a connection error, timeout, or network issue.\") from e", "compilation_passed": true, "time": 0.004050254821777344, "tests_passed": true, "error": null}
+{"code": " SystemError(f\"Connection error while fetching data from URL: {url}\") from e", "compilation_passed": true, "time": 0.0041120052337646484, "tests_passed": true, "error": null}
+{"code": " SystemError(f\"Network error: {e}\") from e", "compilation_passed": true, "time": 0.00407099723815918, "tests_passed": true, "error": null}
+{"code": " SystemError(str(e))  # Raises a SystemError if there is a network issue", "compilation_passed": true, "time": 0.003579854965209961, "tests_passed": true, "error": null}
+{"code": " SystemError from e  # re-raises the original exception from requests", "compilation_passed": true, "time": 0.004063129425048828, "tests_passed": true, "error": null}
+{"code": " SystemError(f'Request failed: {e}')", "compilation_passed": true, "time": 0.004057168960571289, "tests_passed": true, "error": null}
+{"code": " SystemError('Network-related error occurred') from e", "compilation_passed": true, "time": 0.0035791397094726562, "tests_passed": true, "error": null}
+{"code": " SystemError(str(e))  # Raises a custom system error", "compilation_passed": true, "time": 0.004029035568237305, "tests_passed": true, "error": null}
+{"code": " SystemError(", "compilation_passed": false, "time": 0.00014209747314453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " SystemError(f\"Network request to {url} failed: {str(e)}\")", "compilation_passed": true, "time": 0.004083156585693359, "tests_passed": true, "error": null}
+{"code": " SystemError from e  # Re-raised exception to provide a more specific error message", "compilation_passed": true, "time": 0.004021644592285156, "tests_passed": true, "error": null}
+{"code": " SystemError('Network Error') from e", "compilation_passed": true, "time": 0.003619670867919922, "tests_passed": true, "error": null}

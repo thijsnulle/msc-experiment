@@ -1,0 +1,24 @@
+{"code": " f'wget -O {os.path.join(download_dir, filename)} ftp://{ftp_server}/{ftp_dir}/{filename}'", "compilation_passed": true, "time": 0.0033130645751953125, "tests_passed": true, "error": null}
+{"code": " f'wget ftp://{ftp_server}/{ftp_dir}/{filename} -O {download_dir}/{filename}'", "compilation_passed": true, "time": 0.0038208961486816406, "tests_passed": true, "error": null}
+{"code": " f'wget -c ftp://{ftp_server}{ftp_dir}/{filename} -O {os.path.join(download_dir, filename)}'", "compilation_passed": true, "time": 0.004605770111083984, "tests_passed": true, "error": null}
+{"code": " f\"wget --no-check-certificate ftp://{ftp_server}/{ftp_dir}/{filename} -O ./{download_dir}/{filename}\"", "compilation_passed": true, "time": 0.004957914352416992, "tests_passed": true, "error": null}
+{"code": " f\"wget --timeout=10 -P {download_dir} ftp://{ftp_server}/ftp{ftp_dir}/{filename} -O {download_dir}/{filename}\"", "compilation_passed": true, "time": 0.0038819313049316406, "tests_passed": true, "error": null}
+{"code": " f'wget --directory-prefix={download_dir} ftp://{ftp_server}/{ftp_dir}/{filename}'", "compilation_passed": true, "time": 0.004147052764892578, "tests_passed": true, "error": null}
+{"code": " f'wget ftp://{ftp_server}/{ftp_dir}/{filename} -P {download_dir}'", "compilation_passed": true, "time": 0.0038559436798095703, "tests_passed": true, "error": null}
+{"code": " f'wget -P {download_dir} -nc --progress=bar -q {ftp_server}/{ftp_dir}/{filename}'", "compilation_passed": true, "time": 0.0032758712768554688, "tests_passed": true, "error": null}
+{"code": " f\"wget ftp://{ftp_server}{ftp_dir}/{filename} -P {download_dir}\"", "compilation_passed": true, "time": 0.005343198776245117, "tests_passed": true, "error": null}
+{"code": " f\"wget -O {os.path.join(download_dir, filename)} ftp://{ftp_server}{ftp_dir}/{filename}\"", "compilation_passed": true, "time": 0.005391836166381836, "tests_passed": true, "error": null}
+{"code": " f'wget -O {os.path.join(download_dir, filename)} ftp://{ftp_server}{ftp_dir}/{filename}'", "compilation_passed": true, "time": 0.0040400028228759766, "tests_passed": true, "error": null}
+{"code": " f\"wget -P {download_dir} ftp://{ftp_user}:{ftp_password}@{ftp_server}/{ftp_dir}/{filename}\"", "compilation_passed": true, "time": 0.0034580230712890625, "tests_passed": true, "error": null}
+{"code": " ['wget', '-c', f'ftp://{ftp_server}/{ftp_dir}/{filename}', '-P', download_dir]", "compilation_passed": true, "time": 0.003301858901977539, "tests_passed": true, "error": null}
+{"code": " f\"wget -P {download_dir} -nc {ftp_obj.pwd()}/{filename}\"", "compilation_passed": true, "time": 0.0034570693969726562, "tests_passed": true, "error": null}
+{"code": " f'wget -P {download_dir} ftp://{ftp_server}/{ftp_dir}/{filename}'", "compilation_passed": true, "time": 0.003226041793823242, "tests_passed": true, "error": null}
+{"code": " f'wget -nc -O {download_dir}/{filename} ftp://{ftp_server}/test/{filename}'", "compilation_passed": true, "time": 0.0037500858306884766, "tests_passed": true, "error": null}
+{"code": " f\"wget -P {download_dir} -nv ftp://{ftp_server}{ftp_dir}/{filename}\"", "compilation_passed": true, "time": 0.0037832260131835938, "tests_passed": true, "error": null}
+{"code": " f\"wget -O {os.path.join(download_dir, filename)} 'ftp://{ftp_server}{ftp_dir}/{filename}'\"", "compilation_passed": true, "time": 0.003875255584716797, "tests_passed": true, "error": null}
+{"code": " f\"wget ftp://{ftp_server}/ftp/test/{filename} -O {download_dir}/{filename}\"", "compilation_passed": true, "time": 0.0037932395935058594, "tests_passed": true, "error": null}
+{"code": " f'wget -P {download_dir} -r {ftp_dir}/{filename} --no-parent --no-directories --no-host-dir'", "compilation_passed": true, "time": 0.003178834915161133, "tests_passed": true, "error": null}
+{"code": " f'wget -nv --user {ftp_user} --password {ftp_password} ftp://{ftp_server}{ftp_dir}/{filename} -O {download_dir}/{filename}'", "compilation_passed": true, "time": 0.0032198429107666016, "tests_passed": true, "error": null}
+{"code": " subprocess.check_output(f\"wget ftp://{ftp_server}{ftp_dir}/{filename} -P {download_dir}\", shell=True)", "compilation_passed": true, "time": 1.0082619190216064, "tests_passed": false, "error": "TimeoutError"}
+{"code": " ['wget', '-q', '--no-parent', '-P', download_dir, f'ftp://{ftp_server}/{ftp_dir}/{filename}']", "compilation_passed": true, "time": 0.006360292434692383, "tests_passed": true, "error": null}
+{"code": " f'wget -O ./{download_dir}/{filename} ftp://{ftp_user}:{ftp_password}@{ftp_server}/{ftp_dir}/{filename}'", "compilation_passed": true, "time": 0.004675149917602539, "tests_passed": true, "error": null}

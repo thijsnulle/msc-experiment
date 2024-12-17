@@ -1,0 +1,14 @@
+{"code": " []", "compilation_passed": true, "time": 0.034665822982788086, "tests_passed": true, "error": null}
+{"code": " [random.gauss(0, 1) for _ in range(DISTRIBUTION_SIZE)]", "compilation_passed": true, "time": 0.1109919548034668, "tests_passed": true, "error": null}
+{"code": " random.normalvariate(0, 0.1) for _ in range(DISTRIBUTION_SIZE)", "compilation_passed": false, "time": 9.870529174804688e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " random.gauss(0, 1) for _ in range(DISTRIBUTION_SIZE)", "compilation_passed": false, "time": 7.796287536621094e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [random.gauss(10, 2) for _ in range(DISTRIBUTION_SIZE)]", "compilation_passed": true, "time": 0.09834909439086914, "tests_passed": true, "error": null}
+{"code": " [random.gauss(mu=0, sigma=1) for _ in range(DISTRIBUTION_SIZE)]", "compilation_passed": true, "time": 0.09790492057800293, "tests_passed": true, "error": null}
+{"code": " [random.gauss(10, 25) for _ in range(DISTRIBUTION_SIZE)]", "compilation_passed": true, "time": 0.10034608840942383, "tests_passed": true, "error": null}
+{"code": " random.gauss(mu=0, sigma=1)", "compilation_passed": true, "time": 0.3791491985321045, "tests_passed": false, "error": "TypeError"}
+{"code": " [random.gauss(mu=0.0, sigma=1.0) for _ in range(DISTRIBUTION_SIZE)]", "compilation_passed": true, "time": 0.10085773468017578, "tests_passed": true, "error": null}
+{"code": " [random.gauss(0, 1) for i in range(DISTRIBUTION_SIZE)]", "compilation_passed": true, "time": 0.11527085304260254, "tests_passed": true, "error": null}
+{"code": " random.normalvariate(0, 1)", "compilation_passed": true, "time": 0.0364069938659668, "tests_passed": false, "error": "TypeError"}
+{"code": " [random.normalvariate(0, 1) for _ in range(DISTRIBUTION_SIZE)]", "compilation_passed": true, "time": 0.10302495956420898, "tests_passed": true, "error": null}
+{"code": " random.gauss(mu=0.0, sigma=1.0, k=DISTRIBUTION_SIZE)", "compilation_passed": true, "time": 0.0007779598236083984, "tests_passed": false, "error": "TypeError"}
+{"code": " [random.gauss(0.0, 1.0) for _ in range(DISTRIBUTION_SIZE)]", "compilation_passed": true, "time": 0.10071110725402832, "tests_passed": true, "error": null}

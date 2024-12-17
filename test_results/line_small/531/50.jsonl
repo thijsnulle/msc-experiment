@@ -1,0 +1,18 @@
+{"code": " max(2, len(unique_df) // 3)", "compilation_passed": true, "time": 0.032594919204711914, "tests_passed": false, "error": "ValueError"}
+{"code": " min(len(unique_df), n_clusters)", "compilation_passed": true, "time": 0.13509511947631836, "tests_passed": true, "error": null}
+{"code": " max(2, min(len(unique_df), n_clusters))", "compilation_passed": true, "time": 0.03230118751525879, "tests_passed": false, "error": "ValueError"}
+{"code": " min(n_clusters, len(unique_df))", "compilation_passed": true, "time": 0.13743090629577637, "tests_passed": true, "error": null}
+{"code": " max(n_clusters, len(unique_df) // 2)", "compilation_passed": true, "time": 0.03431987762451172, "tests_passed": false, "error": "ValueError"}
+{"code": " max(2, len(unique_df) // 4)", "compilation_passed": true, "time": 0.03446507453918457, "tests_passed": false, "error": "ValueError"}
+{"code": " max(int(len(unique_df) / 4), n_clusters)", "compilation_passed": true, "time": 0.036261796951293945, "tests_passed": false, "error": "ValueError"}
+{"code": " max(3, n_clusters)", "compilation_passed": true, "time": 0.035151004791259766, "tests_passed": false, "error": "ValueError"}
+{"code": " max(2, n_clusters)", "compilation_passed": true, "time": 0.036366939544677734, "tests_passed": false, "error": "ValueError"}
+{"code": " max(n_clusters, len(unique_df))", "compilation_passed": true, "time": 0.03673696517944336, "tests_passed": false, "error": "ValueError"}
+{"code": " max(int(n_clusters * (unique_df.shape[0] / df.shape[0])), 1)", "compilation_passed": true, "time": 0.14040613174438477, "tests_passed": true, "error": null}
+{"code": " max(1, int(len(unique_df) / 3))", "compilation_passed": true, "time": 0.14310503005981445, "tests_passed": true, "error": null}
+{"code": " min(n_clusters, unique_df.shape[0])", "compilation_passed": true, "time": 0.14612889289855957, "tests_passed": true, "error": null}
+{"code": " min(n_clusters, unique_df.shape[0] - 1)", "compilation_passed": true, "time": 0.03554487228393555, "tests_passed": false, "error": "sklearn.utils._param_validation.InvalidParameterError"}
+{"code": " max(2, min(2, len(unique_df)))", "compilation_passed": true, "time": 0.0349888801574707, "tests_passed": false, "error": "ValueError"}
+{"code": " max(2, n_clusters if len(unique_df) >= n_clusters else len(unique_df))", "compilation_passed": true, "time": 0.0365900993347168, "tests_passed": false, "error": "ValueError"}
+{"code": " max(3, len(unique_df) // 5)", "compilation_passed": true, "time": 0.0376589298248291, "tests_passed": false, "error": "ValueError"}
+{"code": " max(int(len(unique_df)**0.5), n_clusters)", "compilation_passed": true, "time": 0.0360407829284668, "tests_passed": false, "error": "ValueError"}

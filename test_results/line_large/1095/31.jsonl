@@ -1,0 +1,15 @@
+{"code": " RegexpTokenizer(r'\\$\\w+')", "compilation_passed": true, "time": 0.001978158950805664, "tests_passed": true, "error": null}
+{"code": " RegexpTokenizer(r'[A-Za-z]+')", "compilation_passed": true, "time": 0.001499176025390625, "tests_passed": true, "error": null}
+{"code": " RegexpTokenizer(r'\\w+')", "compilation_passed": true, "time": 0.0014939308166503906, "tests_passed": true, "error": null}
+{"code": " RegexpTokenizer('(?<=\\$)[A-Za-z0-9]+')", "compilation_passed": true, "time": 0.0014760494232177734, "tests_passed": true, "error": null}
+{"code": " RegexpTokenizer(r'[a-zA-Z0-9]+')", "compilation_passed": true, "time": 0.0015549659729003906, "tests_passed": true, "error": null}
+{"code": " RegexpTokenizer(r\"[\\w'.$]+\")", "compilation_passed": true, "time": 0.0015788078308105469, "tests_passed": true, "error": null}
+{"code": " RegexpTokenizer('\\$\\w+')", "compilation_passed": true, "time": 0.0019807815551757812, "tests_passed": true, "error": null}
+{"code": " RegexpTokenizer(r'\\w+|\\$')", "compilation_passed": true, "time": 0.0017020702362060547, "tests_passed": true, "error": null}
+{"code": " RegexpTokenizer(r\"^\\$\", gaps=True)", "compilation_passed": true, "time": 0.0012960433959960938, "tests_passed": true, "error": null}
+{"code": " RegexpTokenizer(r'\\$[\\w]+\\b')", "compilation_passed": true, "time": 0.0019762516021728516, "tests_passed": true, "error": null}
+{"code": " RegexpTokenizer(r'\\$\\S+')", "compilation_passed": true, "time": 0.001653909683227539, "tests_passed": true, "error": null}
+{"code": " RegexpTokenizer('[$]?\\w+', gaps=False)", "compilation_passed": true, "time": 0.0014848709106445312, "tests_passed": true, "error": null}
+{"code": " RegexpTokenizer(r\"[\\w]+\")", "compilation_passed": true, "time": 0.0014600753784179688, "tests_passed": true, "error": null}
+{"code": " RegexpTokenizer(r'(\\$.+?)(\\s|$)', gaps=False)", "compilation_passed": true, "time": 0.0012140274047851562, "tests_passed": false, "error": "TypeError"}
+{"code": " RegexpTokenizer('\\$[^\\$!]+')", "compilation_passed": true, "time": 0.0014789104461669922, "tests_passed": true, "error": null}

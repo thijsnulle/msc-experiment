@@ -1,0 +1,13 @@
+{"code": " os.path.join(os.path.dirname(json_file_name), 'data.json')", "compilation_passed": true, "time": 0.002772092819213867, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.getcwd(), json_file_name)", "compilation_passed": true, "time": 0.0026569366455078125, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.path.dirname(os.path.abspath(json_file_name)), json_file_name)", "compilation_passed": true, "time": 0.002414226531982422, "tests_passed": true, "error": null}
+{"code": " json_file_name", "compilation_passed": true, "time": 0.002576112747192383, "tests_passed": true, "error": null}
+{"code": " json.dumps(json_data, ensure_ascii=False, indent=4)", "compilation_passed": true, "time": 0.002615690231323242, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.path.dirname(__file__), json_file_name)", "compilation_passed": true, "time": 0.0011730194091796875, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.join(os.path.dirname(os.path.abspath(__file__)), json_file_name)", "compilation_passed": true, "time": 0.001177072525024414, "tests_passed": false, "error": "NameError"}
+{"code": " os.path.join(os.path.dirname(json_file_name), '{}.json'.format(json_file_name))", "compilation_passed": true, "time": 0.0025360584259033203, "tests_passed": true, "error": null}
+{"code": " os.path.join(", "compilation_passed": false, "time": 0.00013327598571777344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " os.path.join(os.path.abspath(os.path.dirname(json_file_name)), json_file_name)", "compilation_passed": true, "time": 0.0023949146270751953, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.path.dirname(json_file_name), json_file_name)", "compilation_passed": true, "time": 0.0024209022521972656, "tests_passed": true, "error": null}
+{"code": " os.path.join(json_file_name)", "compilation_passed": true, "time": 0.0023348331451416016, "tests_passed": true, "error": null}
+{"code": " os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data.json')", "compilation_passed": true, "time": 0.001688241958618164, "tests_passed": false, "error": "NameError"}

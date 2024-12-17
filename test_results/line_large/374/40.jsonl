@@ -1,0 +1,14 @@
+{"code": "value = re.sub(r'\"', r'\\\\' + r'\"', cell.value)", "compilation_passed": false, "time": 0.00019097328186035156, "tests_passed": false, "error": "IndentationError"}
+{"code": "value = re.sub(r'(?<!\\\\)(\")', r'\\\\' + '\\\\1', cell.value)", "compilation_passed": false, "time": 0.00021600723266601562, "tests_passed": false, "error": "IndentationError"}
+{"code": "value = re.sub('(?<!\\\\\\\\)\"', '\\\\\"', cell.value)", "compilation_passed": false, "time": 0.00021719932556152344, "tests_passed": false, "error": "IndentationError"}
+{"code": "value = re.sub(r'(?<![^\\\\])\"', r'\\\\', cell.value)", "compilation_passed": false, "time": 0.00023984909057617188, "tests_passed": false, "error": "IndentationError"}
+{"code": "value = re.sub(r'(?<!\\\\)\"', r'\\\\\"', cell.value)", "compilation_passed": false, "time": 0.00020623207092285156, "tests_passed": false, "error": "IndentationError"}
+{"code": "value = re.sub(r'(?<![\"\\\\])\"', r'\\\"', cell.value)", "compilation_passed": false, "time": 0.00019598007202148438, "tests_passed": false, "error": "IndentationError"}
+{"code": "value = re.sub(r'\"', r'\\\\\"', cell.value)", "compilation_passed": false, "time": 0.0001919269561767578, "tests_passed": false, "error": "IndentationError"}
+{"code": "value = re.sub(r'(?<!\\\\)\"', r'\\\"', cell.value)", "compilation_passed": false, "time": 0.00020694732666015625, "tests_passed": false, "error": "IndentationError"}
+{"code": "value = re.sub(r'(?<![^\\\\]\\\\)\"', r'\\\"', cell.value)", "compilation_passed": false, "time": 0.00020599365234375, "tests_passed": false, "error": "IndentationError"}
+{"code": "value = re.sub(r'\"', r'\\\\' + '\"', cell.value)", "compilation_passed": false, "time": 0.00022673606872558594, "tests_passed": false, "error": "IndentationError"}
+{"code": "value = re.sub(", "compilation_passed": true, "time": 0.010643959045410156, "tests_passed": false, "error": "TypeError"}
+{"code": "value = re.sub(r'(?<!\\\\\\\\)\"', r'\\\\\"', cell.value)", "compilation_passed": false, "time": 0.00020623207092285156, "tests_passed": false, "error": "IndentationError"}
+{"code": "value = re.sub(r'(\")', r'\\\\' + '\\\\1', cell.value)", "compilation_passed": false, "time": 0.00025177001953125, "tests_passed": false, "error": "IndentationError"}
+{"code": "value = re.sub(r'(?<!\\\\)\"', r'\\\\', cell.value)", "compilation_passed": false, "time": 0.0001857280731201172, "tests_passed": false, "error": "IndentationError"}

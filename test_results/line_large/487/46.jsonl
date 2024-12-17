@@ -1,0 +1,23 @@
+{"code": " (", "compilation_passed": false, "time": 0.00011229515075683594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " r\"^(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d{6}) - (\\w+) - (.*)$\"", "compilation_passed": true, "time": 0.003763914108276367, "tests_passed": true, "error": null}
+{"code": " re.compile(", "compilation_passed": false, "time": 0.00010800361633300781, "tests_passed": false, "error": "SyntaxError"}
+{"code": " r\"(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}.\\d{6}) - ([A-Z]+) - (.*)\"", "compilation_passed": true, "time": 0.0036809444427490234, "tests_passed": true, "error": null}
+{"code": " r\"(?P<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}.\\d{6}) - \" \\", "compilation_passed": false, "time": 0.00010514259338378906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " r\"\\[(?P<Timestamp>\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}[\\+,-]\\d{2}:\\d{2})\\] \\[(?P<Level>DEBUG|INFO|WARNING|ERROR|CRITICAL)\\] \\- (?P<Message>.*)\"", "compilation_passed": true, "time": 0.002237081527709961, "tests_passed": true, "error": null}
+{"code": " r\"(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d{6}) - (\\w+) - (.*)\"", "compilation_passed": true, "time": 0.0037009716033935547, "tests_passed": true, "error": null}
+{"code": " re.compile(r'^(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d{6}) - ([A-Z]+) - (.*)')", "compilation_passed": true, "time": 0.0036950111389160156, "tests_passed": true, "error": null}
+{"code": " r\"^([^ ]+) - ([^ -]+) - (.*)$\"", "compilation_passed": true, "time": 0.0021038055419921875, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"^(?P<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}.\\d{6}) - (?P<level>[a-zA-Z]+) - (?P<message>.*)\")", "compilation_passed": true, "time": 0.0037696361541748047, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"(.*?) \\- (.*?) \\- (.*)\")", "compilation_passed": true, "time": 0.003750324249267578, "tests_passed": true, "error": null}
+{"code": " r\"(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}.\\d{6}) - (\\w+)(?:- )(.*)\"", "compilation_passed": true, "time": 0.002104043960571289, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d{6}) - (\\w+) - (.*)\")", "compilation_passed": true, "time": 0.0037021636962890625, "tests_passed": true, "error": null}
+{"code": " r\"(?P<Timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}.\\d{6}) - (?P<Level>DEBUG|INFO|WARN|ERROR|CRITICAL) - (?P<Message>.*)\"", "compilation_passed": true, "time": 0.0031998157501220703, "tests_passed": true, "error": null}
+{"code": " r'([0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}\\.[0-9]{6}) - ([A-Z]+) - (.+)'", "compilation_passed": true, "time": 0.003677845001220703, "tests_passed": true, "error": null}
+{"code": " r'(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}.\\d{6}) - (\\w+) - (.*)$'", "compilation_passed": true, "time": 0.0037641525268554688, "tests_passed": true, "error": null}
+{"code": " r\"(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d{6}) - (\\w+) - (.+)\"", "compilation_passed": true, "time": 0.003728151321411133, "tests_passed": true, "error": null}
+{"code": " r\"^(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}.\\d{6}) - (\\w+) - (.*)$\"", "compilation_passed": true, "time": 0.003667116165161133, "tests_passed": true, "error": null}
+{"code": " r'(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d{6}) - ([A-Z]+) - (.+)'", "compilation_passed": true, "time": 0.003734111785888672, "tests_passed": true, "error": null}
+{"code": " r\"^(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}.\\d{6}) - (\\w+) - (.+)$\"", "compilation_passed": true, "time": 0.003844738006591797, "tests_passed": true, "error": null}
+{"code": " r\"^(\\d+-\\d+-\\d+\\s\\d+:\\d+:\\d+.\\d+) - (\\w+) - (.*)\"", "compilation_passed": true, "time": 0.0037221908569335938, "tests_passed": true, "error": null}
+{"code": " r\"(^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}.\\d{6}) - (\\w+) - (.*)\"", "compilation_passed": true, "time": 0.003760814666748047, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d{6}) - (\\w+) - (.+)\")", "compilation_passed": true, "time": 0.0036847591400146484, "tests_passed": true, "error": null}

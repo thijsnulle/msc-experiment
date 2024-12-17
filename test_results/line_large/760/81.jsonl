@@ -1,0 +1,2 @@
+{"code": " np.random.choice(latin_names) if is_latin else np.random.choice(other_names)", "compilation_passed": true, "time": 0.009691715240478516, "tests_passed": true, "error": null}
+{"code": " np.random.choice(latin_names if is_latin else other_names)", "compilation_passed": true, "time": 0.009602069854736328, "tests_passed": true, "error": null}

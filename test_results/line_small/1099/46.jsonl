@@ -1,0 +1,11 @@
+{"code": " []", "compilation_passed": true, "time": 0.0009138584136962891, "tests_passed": false, "error": "TypeError"}
+{"code": " list(word_freq.items())", "compilation_passed": true, "time": 0.0008308887481689453, "tests_passed": false, "error": "TypeError"}
+{"code": " [word_freq[word] for word in word_freq]", "compilation_passed": true, "time": 0.001100778579711914, "tests_passed": false, "error": "TypeError"}
+{"code": " word_freq.most_common(3)", "compilation_passed": true, "time": 0.0009748935699462891, "tests_passed": false, "error": "TypeError"}
+{"code": " [word_freq[word] for word in words if word.lower() not in PREDEFINED_STOPWORDS]", "compilation_passed": true, "time": 0.0008752346038818359, "tests_passed": false, "error": "TypeError"}
+{"code": " [word for word in word_freq if word.lower() not in PREDEFINED_STOPWORDS]", "compilation_passed": true, "time": 0.0008440017700195312, "tests_passed": false, "error": "TypeError"}
+{"code": " [", "compilation_passed": false, "time": 0.00028014183044433594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(word, freq) for word, freq in word_freq.items() if word.lower() not in PREDEFINED_STOPWORDS]", "compilation_passed": true, "time": 0.0008549690246582031, "tests_passed": false, "error": "TypeError"}
+{"code": " [word for word in word_freq if word not in PREDEFINED_STOPWORDS]", "compilation_passed": true, "time": 0.0008749961853027344, "tests_passed": false, "error": "TypeError"}
+{"code": " [(word.lower(), freq) for word, freq in word_freq.items() if word not in PREDEFINED_STOPWORDS and word not in {\"\", \"-\"}]", "compilation_passed": true, "time": 0.0009090900421142578, "tests_passed": false, "error": "TypeError"}
+{"code": " [word for word, _ in word_freq.most_common()]", "compilation_passed": true, "time": 0.0008378028869628906, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,16 @@
+{"code": "barplot(x=\"Category\", y=\"Value\", data=df)", "compilation_passed": true, "time": 0.21691274642944336, "tests_passed": true, "error": null}
+{"code": "barplot(data=df, x=\"Category\", y=\"Value\")", "compilation_passed": true, "time": 0.24793100357055664, "tests_passed": true, "error": null}
+{"code": "set(style=\"whitegrid\")", "compilation_passed": true, "time": 0.021025896072387695, "tests_passed": true, "error": null}
+{"code": "barplot(x=\"Category\", y=\"Value\", data=df, color=\"blue\")", "compilation_passed": true, "time": 0.21880507469177246, "tests_passed": true, "error": null}
+{"code": "barplot(x=\"Category\", y=\"Value\", data=df, palette=\"rocket\")", "compilation_passed": true, "time": 0.28946375846862793, "tests_passed": true, "error": null}
+{"code": "barplot(y=\"Category\", x=\"Value\", data=df, color='blue')", "compilation_passed": true, "time": 0.02886199951171875, "tests_passed": true, "error": null}
+{"code": "barplot(data=df, x=\"Category\", y=\"Value\", ax=plt.gca())", "compilation_passed": true, "time": 0.2174210548400879, "tests_passed": true, "error": null}
+{"code": "barplot(data=df, x='Category', y='Value')", "compilation_passed": true, "time": 0.22408294677734375, "tests_passed": true, "error": null}
+{"code": "set(style=\"ticks\")", "compilation_passed": true, "time": 0.02042388916015625, "tests_passed": true, "error": null}
+{"code": "barplot(data=df, x=\"Category\", y=\"Value\"),", "compilation_passed": true, "time": 0.6027019023895264, "tests_passed": true, "error": null}
+{"code": "barplot(x=\"Category\", y=\"Value\", data=df, color=\"grey\")", "compilation_passed": true, "time": 0.2307450771331787, "tests_passed": true, "error": null}
+{"code": "barplot(data=df, x=\"Category\", y=\"Value\", ax=ax,)", "compilation_passed": true, "time": 0.013206243515014648, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": "barplot(data=df, x=\"Category\", y=\"Value\", palette=\"colorblind\", ax=plt.gca())", "compilation_passed": true, "time": 0.2975790500640869, "tests_passed": true, "error": null}
+{"code": "barplot(df, x='Category', y='Value')", "compilation_passed": true, "time": 0.22721409797668457, "tests_passed": true, "error": null}
+{"code": "barplot(x='Category', y='Value', data=df, palette=\"rainbow\")", "compilation_passed": true, "time": 0.3125619888305664, "tests_passed": true, "error": null}
+{"code": "barplot(y=\"Category\", x=\"Value\", data=df)", "compilation_passed": true, "time": 0.03148484230041504, "tests_passed": true, "error": null}

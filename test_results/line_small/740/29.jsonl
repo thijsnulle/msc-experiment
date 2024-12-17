@@ -1,0 +1,7 @@
+{"code": " heapq.nlargest(3, letter_counter.keys(), letter_counter.get)", "compilation_passed": true, "time": 0.0007860660552978516, "tests_passed": true, "error": null}
+{"code": " heapq.nlargest(3, letter_counter.keys(), key=letter_counter.get)", "compilation_passed": true, "time": 0.0007979869842529297, "tests_passed": true, "error": null}
+{"code": " heapq.nlargest(3, letter_counter, key=letter_counter.get)", "compilation_passed": true, "time": 0.0007650852203369141, "tests_passed": true, "error": null}
+{"code": " heapq.nsmallest(3, letter_counter.items(), key=lambda x: x[1])", "compilation_passed": true, "time": 0.0007700920104980469, "tests_passed": true, "error": null}
+{"code": " heapq.nlargest(3, letter_counter, letter_counter.get)", "compilation_passed": true, "time": 0.0007910728454589844, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 8.606910705566406e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " heapq.nlargest(3, LETTERS, key=letter_counter.get)", "compilation_passed": true, "time": 0.0013039112091064453, "tests_passed": false, "error": "TypeError"}

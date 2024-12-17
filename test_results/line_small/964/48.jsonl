@@ -1,7 +1,7 @@
-{"code": " os.path.splitext(file)[1].lower()", "compilation_passed": true, "time": 0.0024971961975097656, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " os.path.splitext(file)[-1]", "compilation_passed": true, "time": 0.002482891082763672, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " Path(file).suffix", "compilation_passed": true, "time": 0.0026099681854248047, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " os.path.splitext(file)[1]", "compilation_passed": true, "time": 0.0026497840881347656, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " os.path.splitext(file)[-1].lower()", "compilation_passed": true, "time": 0.0023941993713378906, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " file.lower().split(\".\")[-1]", "compilation_passed": true, "time": 0.002335071563720703, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " Path(file).suffix.lower()", "compilation_passed": true, "time": 0.002989053726196289, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": " os.path.splitext(file)[1].lower()", "compilation_passed": true, "time": 0.0030088424682617188, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " os.path.splitext(file)[-1]", "compilation_passed": true, "time": 0.0021152496337890625, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " Path(file).suffix", "compilation_passed": true, "time": 0.002229928970336914, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " os.path.splitext(file)[1]", "compilation_passed": true, "time": 0.0021219253540039062, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " os.path.splitext(file)[-1].lower()", "compilation_passed": true, "time": 0.0021431446075439453, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " file.lower().split(\".\")[-1]", "compilation_passed": true, "time": 0.0021829605102539062, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " Path(file).suffix.lower()", "compilation_passed": true, "time": 0.002054929733276367, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}

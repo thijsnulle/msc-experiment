@@ -1,0 +1,11 @@
+{"code": " np.unique(flattened)", "compilation_passed": true, "time": 0.03554201126098633, "tests_passed": true, "error": null}
+{"code": " pd.cut(flattened, pd.unique(flattened)).to_numpy().flatten()", "compilation_passed": true, "time": 0.03082585334777832, "tests_passed": false, "error": "TypeError"}
+{"code": " [min(flattened)] + [max(l) for l in L if l] + [max(flattened) + 1]", "compilation_passed": true, "time": 0.03605914115905762, "tests_passed": true, "error": null}
+{"code": " np.arange(flattened.min() - 0.5, flattened.max() + 1.5)", "compilation_passed": true, "time": 0.07464599609375, "tests_passed": true, "error": null}
+{"code": " pd.cut(flattened, sorted(set(flattened)))", "compilation_passed": true, "time": 0.029281139373779297, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.cut(flattened, pd.IntervalIndex.from_tuples(zip(flattened.min() - 1, flattened.max() + 1)), include_lowest=True, right=True)", "compilation_passed": true, "time": 0.0017359256744384766, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.unique(flattened)", "compilation_passed": true, "time": 0.03490710258483887, "tests_passed": true, "error": null}
+{"code": " list(set(flattened))", "compilation_passed": true, "time": 0.035742998123168945, "tests_passed": true, "error": null}
+{"code": " pd.cut(flattened, np.arange(flattened.min(), flattened.max() + 1), right=False)", "compilation_passed": true, "time": 0.029208898544311523, "tests_passed": false, "error": "TypeError"}
+{"code": " [float(x) - 0.5 for x in np.unique(flattened)] + [", "compilation_passed": false, "time": 0.00019502639770507812, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [i - 0.5 for i in range(flattened.max() + 2)]", "compilation_passed": true, "time": 0.038208961486816406, "tests_passed": true, "error": null}

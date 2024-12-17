@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00017690658569335938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"Timezone\": TIMEZONES, \"Datetime\": datetimes})", "compilation_passed": true, "time": 0.1387488842010498, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Timezone': TIMEZONES, 'Datetime': datetimes})", "compilation_passed": true, "time": 0.12923097610473633, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.000148773193359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(zip(TIMEZONES, datetimes), columns=[\"Timezone\", \"Datetime\"])", "compilation_passed": true, "time": 0.14576315879821777, "tests_passed": true, "error": null}

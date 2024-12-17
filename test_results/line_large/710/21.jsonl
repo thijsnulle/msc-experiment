@@ -1,0 +1,7 @@
+{"code": " df.values", "compilation_passed": true, "time": 0.009111881256103516, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 0:4].values", "compilation_passed": true, "time": 0.006785154342651367, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 1:].values", "compilation_passed": true, "time": 0.002443075180053711, "tests_passed": false, "error": "ValueError"}
+{"code": " df.iloc[:, 0:8].values", "compilation_passed": true, "time": 0.005776166915893555, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, :].values", "compilation_passed": true, "time": 0.005645751953125, "tests_passed": true, "error": null}
+{"code": " df.iloc[:, 1:]", "compilation_passed": true, "time": 0.0030100345611572266, "tests_passed": false, "error": "ValueError"}
+{"code": " df.values[:, 1:]", "compilation_passed": true, "time": 0.0022897720336914062, "tests_passed": false, "error": "ValueError"}

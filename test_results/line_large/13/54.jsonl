@@ -1,0 +1,9 @@
+{"code": "run(command, shell=True)", "compilation_passed": true, "time": 1.0090079307556152, "tests_passed": false, "error": "TimeoutError"}
+{"code": "run(command.split(), check=True)", "compilation_passed": true, "time": 1.008232831954956, "tests_passed": false, "error": "TimeoutError"}
+{"code": "call(command, shell=True)", "compilation_passed": true, "time": 0.010083913803100586, "tests_passed": true, "error": null}
+{"code": "run(command.split(), check=False)", "compilation_passed": true, "time": 1.0118210315704346, "tests_passed": false, "error": "TimeoutError"}
+{"code": "call(command.split(), shell=False)", "compilation_passed": true, "time": 0.005264997482299805, "tests_passed": true, "error": null}
+{"code": "run(command, shell=True, check=True)", "compilation_passed": true, "time": 1.0054268836975098, "tests_passed": false, "error": "TimeoutError"}
+{"code": "call(command)", "compilation_passed": true, "time": 0.007097959518432617, "tests_passed": true, "error": null}
+{"code": "check_call(command, shell=True)", "compilation_passed": true, "time": 0.004481077194213867, "tests_passed": true, "error": null}
+{"code": "call(command.split())", "compilation_passed": true, "time": 0.004214048385620117, "tests_passed": true, "error": null}

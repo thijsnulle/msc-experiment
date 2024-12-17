@@ -1,0 +1,7 @@
+{"code": " x_column not in df.columns or y_column not in df.columns:", "compilation_passed": true, "time": 0.006835222244262695, "tests_passed": true, "error": null}
+{"code": " x_column in df.columns and y_column in df.columns:", "compilation_passed": true, "time": 0.003493785858154297, "tests_passed": true, "error": null}
+{"code": " x_column is None or y_column is None:", "compilation_passed": true, "time": 0.004037141799926758, "tests_passed": true, "error": null}
+{"code": " not x_column or not y_column:", "compilation_passed": true, "time": 0.0035429000854492188, "tests_passed": true, "error": null}
+{"code": " x_column in df and y_column in df:", "compilation_passed": true, "time": 0.0037500858306884766, "tests_passed": true, "error": null}
+{"code": " x_column and y_column:", "compilation_passed": true, "time": 0.004189968109130859, "tests_passed": false, "error": "Exception"}
+{"code": " x_column not in df or y_column not in df:", "compilation_passed": true, "time": 0.0067293643951416016, "tests_passed": true, "error": null}

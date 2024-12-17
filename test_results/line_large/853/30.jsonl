@@ -1,0 +1,14 @@
+{"code": " os.path.isfile(os.path.join(directory_path, filename)):", "compilation_passed": true, "time": 0.007400989532470703, "tests_passed": true, "error": null}
+{"code": " any(c in INVALID_CHARACTERS for c in filename):", "compilation_passed": true, "time": 0.007105827331542969, "tests_passed": true, "error": null}
+{"code": " os.path.isdir(os.path.join(directory_path, filename)):", "compilation_passed": true, "time": 0.0027170181274414062, "tests_passed": true, "error": null}
+{"code": " filename.startswith(\".\"):", "compilation_passed": true, "time": 0.0027740001678466797, "tests_passed": true, "error": null}
+{"code": " filename.endswith(\".txt\"):", "compilation_passed": true, "time": 0.0026710033416748047, "tests_passed": true, "error": null}
+{"code": " filename.startswith('.') or filename.endswith('~'):", "compilation_passed": true, "time": 0.0026731491088867188, "tests_passed": true, "error": null}
+{"code": " all(char not in INVALID_CHARACTERS for char in filename):", "compilation_passed": true, "time": 0.002769947052001953, "tests_passed": true, "error": null}
+{"code": " not all(c not in INVALID_CHARACTERS for c in filename):", "compilation_passed": true, "time": 0.0069828033447265625, "tests_passed": true, "error": null}
+{"code": " any(char in INVALID_CHARACTERS for char in filename):", "compilation_passed": true, "time": 0.007215261459350586, "tests_passed": true, "error": null}
+{"code": " filename.endswith(INVALID_CHARACTERS):", "compilation_passed": true, "time": 0.0027277469635009766, "tests_passed": true, "error": null}
+{"code": " not any(char in INVALID_CHARACTERS for char in filename):", "compilation_passed": true, "time": 0.0027170181274414062, "tests_passed": true, "error": null}
+{"code": " any(invalid_char in filename for invalid_char in INVALID_CHARACTERS):", "compilation_passed": true, "time": 0.007149934768676758, "tests_passed": true, "error": null}
+{"code": " not os.path.isfile(os.path.join(directory_path, filename)):", "compilation_passed": true, "time": 0.002763986587524414, "tests_passed": true, "error": null}
+{"code": " not os.path.isdir(os.path.join(directory_path, filename)):", "compilation_passed": true, "time": 0.007141828536987305, "tests_passed": true, "error": null}

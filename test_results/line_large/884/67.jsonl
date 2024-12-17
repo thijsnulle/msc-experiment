@@ -1,0 +1,5 @@
+{"code": " pd.crosstab(selected[col_categorical], selected[col_numerical])", "compilation_passed": true, "time": 0.21769499778747559, "tests_passed": true, "error": null}
+{"code": " pd.crosstab(selected.index, selected[col_categorical])", "compilation_passed": true, "time": 0.07760190963745117, "tests_passed": true, "error": null}
+{"code": " pd.crosstab(selected.index, [selected[col_categorical]])", "compilation_passed": true, "time": 0.07524800300598145, "tests_passed": true, "error": null}
+{"code": " pd.crosstab(selected[col_categorical], selected[col_numerical], dropna=False)", "compilation_passed": true, "time": 0.21584415435791016, "tests_passed": true, "error": null}
+{"code": " pd.crosstab(selected[col_categorical], selected[col_numerical],", "compilation_passed": false, "time": 0.00025725364685058594, "tests_passed": false, "error": "SyntaxError"}

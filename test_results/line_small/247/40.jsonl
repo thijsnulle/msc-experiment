@@ -1,0 +1,11 @@
+{"code": " []", "compilation_passed": true, "time": 0.0026998519897460938, "tests_passed": false, "error": "ValueError"}
+{"code": " random.sample(range(min_value, max_value), n_data_points)", "compilation_passed": true, "time": 0.0007691383361816406, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.0017077922821044922, "tests_passed": false, "error": "ValueError"}
+{"code": " [random.uniform(min_value, max_value) for _ in range(n_data_points)]", "compilation_passed": true, "time": 0.004597902297973633, "tests_passed": true, "error": null}
+{"code": " random.sample(range(int(min_value * 1000), int(max_value * 1000)), n_data_points)", "compilation_passed": true, "time": 0.004939079284667969, "tests_passed": true, "error": null}
+{"code": " pd.Series()", "compilation_passed": true, "time": 0.0015017986297607422, "tests_passed": false, "error": "ValueError"}
+{"code": " [random.random() * (max_value - min_value) + min_value for _ in range(n_data_points)]", "compilation_passed": true, "time": 0.004240989685058594, "tests_passed": true, "error": null}
+{"code": " [round(random.uniform(min_value, max_value), 3) for _ in range(n_data_points)]", "compilation_passed": true, "time": 0.005445718765258789, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Normalized Value': [random.uniform(min_value, max_value) for _ in range(n_data_points)]})", "compilation_passed": true, "time": 0.0018990039825439453, "tests_passed": true, "error": null}
+{"code": " pd.Series([random.uniform(min_value, max_value) for _ in range(n_data_points)])", "compilation_passed": true, "time": 0.004117012023925781, "tests_passed": true, "error": null}
+{"code": " [round(random.uniform(min_value, max_value), 3) for i in range(n_data_points)]", "compilation_passed": true, "time": 0.005408048629760742, "tests_passed": true, "error": null}

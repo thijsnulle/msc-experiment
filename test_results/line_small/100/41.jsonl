@@ -1,0 +1,23 @@
+{"code": " [datetime(2023, 1, 1) + timedelta(days=i) for i in range(30)]", "compilation_passed": true, "time": 0.0016570091247558594, "tests_passed": false, "error": "ValueError"}
+{"code": " []", "compilation_passed": true, "time": 0.016404151916503906, "tests_passed": false, "error": "ValueError"}
+{"code": " [datetime.strftime(datetime(2023, 1, 1) + datetime.timedelta(days=i), \"%m/%d/%Y\")", "compilation_passed": false, "time": 0.0001342296600341797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.date_range(start='2020-01-01', end='2020-12-31', freq='D')", "compilation_passed": true, "time": 0.015330076217651367, "tests_passed": false, "error": "ValueError"}
+{"code": " [datetime.now().strftime('%Y-%m-%d') for _ in range(30)]", "compilation_passed": true, "time": 0.12611103057861328, "tests_passed": true, "error": null}
+{"code": " [datetime(year=2020, month=1, day=1) + timedelta(days=i) for i in range(30)]", "compilation_passed": true, "time": 0.0012097358703613281, "tests_passed": false, "error": "ValueError"}
+{"code": " [datetime.now().strftime(\"%b-%d-%Y\")] + [datetime(year, random.randint(1, 12), random.randint(1, 28)).strftime(\"%b-%d-%Y\")", "compilation_passed": false, "time": 0.00013828277587890625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [datetime(2020, 1, 1) + pd.DateOffset(days=i)", "compilation_passed": false, "time": 0.0001227855682373047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.date_range(start='2023-01-01', freq='1D', periods=30)", "compilation_passed": true, "time": 0.12129497528076172, "tests_passed": true, "error": null}
+{"code": " [datetime(2021, 5, 1, 0, 0, 0) + timedelta(hours=x) for x in range(30)]", "compilation_passed": true, "time": 0.0012140274047851562, "tests_passed": false, "error": "ValueError"}
+{"code": " [datetime(2023, 6, 1) + timedelta(days=i) for i in range(30)]", "compilation_passed": true, "time": 0.0012149810791015625, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(\"2023-01-01\", periods=30)", "compilation_passed": true, "time": 0.7437758445739746, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00015306472778320312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [datetime.now()] * 30", "compilation_passed": true, "time": 0.12425494194030762, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.now(), periods=30)", "compilation_passed": true, "time": 0.12705707550048828, "tests_passed": true, "error": null}
+{"code": " [datetime.today() - timedelta(days=i) for i in range(30)]", "compilation_passed": true, "time": 0.001255035400390625, "tests_passed": false, "error": "ValueError"}
+{"code": " [datetime.now()]", "compilation_passed": true, "time": 0.017149925231933594, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(start=datetime.now().replace(year=2023).replace(month=1, day=1), periods=30)", "compilation_passed": true, "time": 0.1367790699005127, "tests_passed": true, "error": null}
+{"code": " pd.date_range(datetime.now().strftime('%d-%m-%Y'), periods=30, freq='D')", "compilation_passed": true, "time": 0.1306469440460205, "tests_passed": true, "error": null}
+{"code": " [datetime.fromordinal(i) for i in range(30, 0, -1)]", "compilation_passed": true, "time": 0.018918991088867188, "tests_passed": false, "error": "pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime"}
+{"code": " [datetime(2023, 2, 2)]", "compilation_passed": true, "time": 0.01916217803955078, "tests_passed": false, "error": "ValueError"}
+{"code": " [datetime(2021, 8, 1) + timedelta(days=i) for i in range(30)]", "compilation_passed": true, "time": 0.0012969970703125, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.date_range(datetime.today().date(), periods=30)", "compilation_passed": true, "time": 0.14557695388793945, "tests_passed": true, "error": null}

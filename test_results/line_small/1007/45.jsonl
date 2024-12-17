@@ -1,0 +1,10 @@
+{"code": " requests.exceptions.RequestException:  # Raises a custom error message for network-related issues", "compilation_passed": true, "time": 0.00462794303894043, "tests_passed": false, "error": "NameError"}
+{"code": " requests.RequestException as e:", "compilation_passed": true, "time": 0.003997087478637695, "tests_passed": true, "error": null}
+{"code": " requests.RequestException:", "compilation_passed": true, "time": 0.003325939178466797, "tests_passed": false, "error": "NameError"}
+{"code": " requests.RequestException as err:", "compilation_passed": true, "time": 0.0037050247192382812, "tests_passed": false, "error": "NameError"}
+{"code": " requests.RequestException as e:  # For network-related issues such as connection errors or timeouts", "compilation_passed": true, "time": 0.0040721893310546875, "tests_passed": true, "error": null}
+{"code": " requests.exceptions.Timeout as e:", "compilation_passed": true, "time": 0.0032529830932617188, "tests_passed": false, "error": "requests.exceptions.RequestException"}
+{"code": " requests.exceptions.ConnectionError:", "compilation_passed": true, "time": 0.0032749176025390625, "tests_passed": false, "error": "requests.exceptions.RequestException"}
+{"code": " requests.exceptions.RequestException as e:", "compilation_passed": true, "time": 0.003634214401245117, "tests_passed": true, "error": null}
+{"code": " requests.RequestException as exc:", "compilation_passed": true, "time": 0.0032651424407958984, "tests_passed": false, "error": "NameError"}
+{"code": " requests.exceptions.RequestException as e:  # Catch all other network-related exceptions", "compilation_passed": true, "time": 0.004038810729980469, "tests_passed": true, "error": null}

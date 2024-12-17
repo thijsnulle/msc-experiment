@@ -1,0 +1,5 @@
+{"code": "append([team, result_string])", "compilation_passed": true, "time": 0.0019428730010986328, "tests_passed": true, "error": null}
+{"code": "append((team, result_string))", "compilation_passed": true, "time": 0.0018761157989501953, "tests_passed": true, "error": null}
+{"code": "append(f\"{team} {result_string}\")", "compilation_passed": true, "time": 0.0013937950134277344, "tests_passed": false, "error": "ValueError"}
+{"code": "append(f\"{team}: {result_string}\")", "compilation_passed": true, "time": 0.0013930797576904297, "tests_passed": false, "error": "ValueError"}
+{"code": "append(result_string)", "compilation_passed": true, "time": 0.0013740062713623047, "tests_passed": false, "error": "ValueError"}

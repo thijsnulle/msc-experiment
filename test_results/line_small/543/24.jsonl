@@ -1,0 +1,8 @@
+{"code": " base64.b64encode(float_bytes).decode('ascii')", "compilation_passed": true, "time": 0.0005390644073486328, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.urlsafe_b64encode(float_bytes).decode(\"utf-8\")", "compilation_passed": true, "time": 0.0005018711090087891, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.b64encode(float_bytes).decode()", "compilation_passed": true, "time": 0.0005390644073486328, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.b64encode(float_bytes)", "compilation_passed": true, "time": 0.00047206878662109375, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(float_bytes).decode('utf-8')", "compilation_passed": true, "time": 0.0005280971527099609, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.urlsafe_b64encode(float_bytes).decode()", "compilation_passed": true, "time": 0.0004749298095703125, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.b16encode(float_bytes).decode(\"utf-8\")", "compilation_passed": true, "time": 0.0006871223449707031, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.b64encode(", "compilation_passed": false, "time": 6.389617919921875e-05, "tests_passed": false, "error": "SyntaxError"}

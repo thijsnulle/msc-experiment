@@ -1,0 +1,14 @@
+{"code": " len(b) != len(COLUMNS):", "compilation_passed": true, "time": 0.07857918739318848, "tests_passed": true, "error": null}
+{"code": " len(a) != len(b):", "compilation_passed": true, "time": 0.021687984466552734, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(a, list):", "compilation_passed": true, "time": 0.022897958755493164, "tests_passed": false, "error": "TypeError"}
+{"code": " not isinstance(a, list) or not isinstance(b, list):", "compilation_passed": true, "time": 0.023315906524658203, "tests_passed": false, "error": "TypeError"}
+{"code": " len(b) > len(COLUMNS):", "compilation_passed": true, "time": 0.024038076400756836, "tests_passed": false, "error": "TypeError"}
+{"code": " len(a) < len(b):", "compilation_passed": true, "time": 0.02495574951171875, "tests_passed": false, "error": "TypeError"}
+{"code": " len(a) <= 0:", "compilation_passed": true, "time": 0.05931401252746582, "tests_passed": false, "error": "TypeError"}
+{"code": " not (isinstance(a, list) and isinstance(b, list)):", "compilation_passed": true, "time": 0.024819135665893555, "tests_passed": false, "error": "TypeError"}
+{"code": " len(a) <= len(b):", "compilation_passed": true, "time": 0.06275701522827148, "tests_passed": false, "error": "TypeError"}
+{"code": " len(a) < 3 or len(a) > 10:", "compilation_passed": true, "time": 0.06218290328979492, "tests_passed": false, "error": "TypeError"}
+{"code": " len(a) <= 0 or len(b) <= 0:", "compilation_passed": true, "time": 0.10145092010498047, "tests_passed": true, "error": null}
+{"code": " len(a) == 0 or len(b) == 0:", "compilation_passed": true, "time": 0.10073995590209961, "tests_passed": true, "error": null}
+{"code": " len(a) > len(b):", "compilation_passed": true, "time": 0.023212194442749023, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(a, list) and isinstance(b, list):", "compilation_passed": true, "time": 0.09726905822753906, "tests_passed": true, "error": null}

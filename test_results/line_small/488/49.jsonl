@@ -1,0 +1,5 @@
+{"code": " pd.DataFrame(data, columns=COLUMNS)", "compilation_passed": true, "time": 0.22915196418762207, "tests_passed": true, "error": null}
+{"code": " df.from_records(data, index=False)", "compilation_passed": true, "time": 0.0023827552795410156, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=data, index=timestamps)", "compilation_passed": true, "time": 0.002655029296875, "tests_passed": false, "error": "KeyError"}
+{"code": " df.append(pd.DataFrame(data, columns=COLUMNS))", "compilation_passed": true, "time": 0.0023429393768310547, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(data, columns=df.columns)", "compilation_passed": true, "time": 0.2705190181732178, "tests_passed": true, "error": null}

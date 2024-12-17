@@ -1,0 +1,17 @@
+{"code": " pd.isnull(converted_column).any()", "compilation_passed": true, "time": 0.005494832992553711, "tests_passed": true, "error": null}
+{"code": " converted_column.isna().any()", "compilation_passed": true, "time": 0.005458831787109375, "tests_passed": true, "error": null}
+{"code": " converted_column.isnull().all()", "compilation_passed": true, "time": 0.0054280757904052734, "tests_passed": true, "error": null}
+{"code": " converted_column.empty", "compilation_passed": true, "time": 0.002933025360107422, "tests_passed": true, "error": null}
+{"code": " pd.isnull(converted_column).all()", "compilation_passed": true, "time": 0.005460023880004883, "tests_passed": true, "error": null}
+{"code": " converted_column.isin([0, 1]).any()", "compilation_passed": true, "time": 0.0030090808868408203, "tests_passed": true, "error": null}
+{"code": " converted_column.dtype.name.lower().endswith(\"float\")", "compilation_passed": true, "time": 0.0029802322387695312, "tests_passed": true, "error": null}
+{"code": " converted_column.isna().all()", "compilation_passed": true, "time": 0.005423069000244141, "tests_passed": true, "error": null}
+{"code": " converted_column.dropna()", "compilation_passed": true, "time": 0.0024161338806152344, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.isnull(converted_column.nunique())", "compilation_passed": true, "time": 0.0030226707458496094, "tests_passed": true, "error": null}
+{"code": " converted_column.isnull().any()", "compilation_passed": true, "time": 0.0054721832275390625, "tests_passed": true, "error": null}
+{"code": " converted_column.is_numeric()", "compilation_passed": true, "time": 0.0023529529571533203, "tests_passed": false, "error": "AttributeError"}
+{"code": " converted_column.apply(pd.to_numeric).isna().all()", "compilation_passed": true, "time": 0.0056629180908203125, "tests_passed": true, "error": null}
+{"code": " converted_column.isin([np.nan, None]).any()", "compilation_passed": true, "time": 0.005524158477783203, "tests_passed": true, "error": null}
+{"code": " converted_column.dropna().apply(pd.to_numeric).empty", "compilation_passed": true, "time": 0.0056111812591552734, "tests_passed": true, "error": null}
+{"code": " converted_column.dropna().apply(pd.Series.dtype).dtypes.unique()", "compilation_passed": true, "time": 0.002371072769165039, "tests_passed": false, "error": "AttributeError"}
+{"code": " converted_column.dropna().empty", "compilation_passed": true, "time": 0.005422115325927734, "tests_passed": true, "error": null}

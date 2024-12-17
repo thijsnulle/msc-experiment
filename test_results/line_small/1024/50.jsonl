@@ -1,0 +1,25 @@
+{"code": " len(df) == 0:  # Empty", "compilation_passed": true, "time": 0.021441936492919922, "tests_passed": true, "error": null}
+{"code": " df.empty or np.all(np.isclose(df.min(), df.max(), equal_nan=True)):", "compilation_passed": true, "time": 0.021306991577148438, "tests_passed": true, "error": null}
+{"code": " not df.empty:", "compilation_passed": true, "time": 0.001756906509399414, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.empty or df.apply(pd.Series.nunique).min() == 1:", "compilation_passed": true, "time": 0.020242929458618164, "tests_passed": true, "error": null}
+{"code": " df.empty or (df['a'].nunique() == 1):", "compilation_passed": true, "time": 0.020025014877319336, "tests_passed": true, "error": null}
+{"code": " len(df.columns) == 0:", "compilation_passed": true, "time": 0.020048141479492188, "tests_passed": true, "error": null}
+{"code": " len(df) <= 1:", "compilation_passed": true, "time": 0.019771814346313477, "tests_passed": true, "error": null}
+{"code": " len(df) < 2 or df.nunique() < 2:", "compilation_passed": true, "time": 0.0026459693908691406, "tests_passed": false, "error": "ValueError"}
+{"code": " len(df.columns) == 0 or df.nunique() < 2:", "compilation_passed": true, "time": 0.0014033317565917969, "tests_passed": false, "error": "ValueError"}
+{"code": " not df.empty and len(df.iloc[:, 0].value_counts()) > 1:", "compilation_passed": true, "time": 0.0020127296447753906, "tests_passed": false, "error": "AttributeError"}
+{"code": " len(df) == 0:", "compilation_passed": true, "time": 0.02034306526184082, "tests_passed": true, "error": null}
+{"code": " not df.empty and len(df.columns) >= 2:", "compilation_passed": true, "time": 0.0016608238220214844, "tests_passed": false, "error": "AttributeError"}
+{"code": " len(df) == 0:  # Check if the DataFrame is empty", "compilation_passed": true, "time": 0.020678997039794922, "tests_passed": true, "error": null}
+{"code": " len(df) == 0 or all(val == df[df.columns[0]].iloc[0] for val in df[df.columns[0]]) is True:", "compilation_passed": true, "time": 0.021001100540161133, "tests_passed": true, "error": null}
+{"code": " len(df) == 0 or np.all(df.iloc[:,0].values == df.iloc[:,1].values):", "compilation_passed": true, "time": 0.01606130599975586, "tests_passed": false, "error": "IndexError"}
+{"code": " len(df) == 0 or np.all(df[df.columns[0]] == df[df.columns[0]][0]):", "compilation_passed": true, "time": 0.02136969566345215, "tests_passed": true, "error": null}
+{"code": " not df.empty and df.nunique() > 1:", "compilation_passed": true, "time": 0.001322031021118164, "tests_passed": false, "error": "ValueError"}
+{"code": " not df.empty or not np.array_equal(df, df.iloc[0]):", "compilation_passed": true, "time": 0.00167083740234375, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.empty or df.nunique() < 2:", "compilation_passed": true, "time": 0.0012929439544677734, "tests_passed": false, "error": "ValueError"}
+{"code": " not df.empty and not df.apply(lambda x: x.dtype in [np.number, np.bool, np.bool_, np.str_, np.object_], axis=0).any():", "compilation_passed": true, "time": 0.0021347999572753906, "tests_passed": false, "error": "    https"}
+{"code": " df.empty or len(df) == 1:", "compilation_passed": true, "time": 0.021927833557128906, "tests_passed": true, "error": null}
+{"code": " df.empty:", "compilation_passed": true, "time": 0.02158212661743164, "tests_passed": true, "error": null}
+{"code": " len(df) == 0 or df[df.apply(lambda x: all(x == x[0]))].empty:", "compilation_passed": true, "time": 0.0017261505126953125, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " len(df.columns) == 0 or len(df.columns) == 1:", "compilation_passed": true, "time": 0.01641988754272461, "tests_passed": false, "error": "AttributeError"}
+{"code": " not df.empty or df.nunique() > 1:", "compilation_passed": true, "time": 0.001687765121459961, "tests_passed": false, "error": "AttributeError"}

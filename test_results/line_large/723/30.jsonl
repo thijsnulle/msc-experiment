@@ -1,0 +1,9 @@
+{"code": " soup.find_all('a')", "compilation_passed": true, "time": 0.00579524040222168, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.005674839019775391, "tests_passed": true, "error": null}
+{"code": " soup.find_all('p')", "compilation_passed": true, "time": 0.0057220458984375, "tests_passed": true, "error": null}
+{"code": " soup.find_all('div', {'class': 'article'})", "compilation_passed": true, "time": 0.005095958709716797, "tests_passed": true, "error": null}
+{"code": " soup.find_all('div', {'class': 'post'})", "compilation_passed": true, "time": 0.005805015563964844, "tests_passed": true, "error": null}
+{"code": " [[soup.title.string]]", "compilation_passed": true, "time": 0.002232074737548828, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find_all('div', class_='data')", "compilation_passed": true, "time": 0.005800008773803711, "tests_passed": true, "error": null}
+{"code": " [['Title', soup.title.string]]", "compilation_passed": true, "time": 0.0022521018981933594, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find_all('div', class_='container')", "compilation_passed": true, "time": 0.005841970443725586, "tests_passed": true, "error": null}

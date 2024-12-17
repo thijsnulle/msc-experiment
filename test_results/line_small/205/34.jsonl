@@ -1,0 +1,14 @@
+{"code": " Pool(len(commands)) as pool:", "compilation_passed": true, "time": 0.014140844345092773, "tests_passed": false, "error": "_pickle.PicklingError"}
+{"code": " Pool() as pool:", "compilation_passed": true, "time": 0.2086329460144043, "tests_passed": false, "error": "_pickle.PicklingError"}
+{"code": " Pool(len(commands)) as p:", "compilation_passed": true, "time": 0.012192010879516602, "tests_passed": false, "error": "NameError"}
+{"code": " Pool(len(commands)) as pool:  # Use Pool with the length of the list `commands`", "compilation_passed": true, "time": 0.013827085494995117, "tests_passed": false, "error": "_pickle.PicklingError"}
+{"code": " Pool(4) as p:", "compilation_passed": true, "time": 0.02562403678894043, "tests_passed": false, "error": "NameError"}
+{"code": " Pool() as p:", "compilation_passed": true, "time": 0.16821002960205078, "tests_passed": false, "error": "NameError"}
+{"code": " Pool(processes=len(commands)) as pool:", "compilation_passed": true, "time": 0.015366077423095703, "tests_passed": false, "error": "_pickle.PicklingError"}
+{"code": " Pool(4) as pool:", "compilation_passed": true, "time": 0.030787944793701172, "tests_passed": false, "error": "_pickle.PicklingError"}
+{"code": " Pool(processes=32) as pool:", "compilation_passed": true, "time": 0.2531578540802002, "tests_passed": false, "error": "_pickle.PicklingError"}
+{"code": " Pool() as p:  # Execute the commands in parallel using multiprocessing.Pool()", "compilation_passed": true, "time": 0.35729289054870605, "tests_passed": false, "error": "NameError"}
+{"code": " Pool(2) as p:", "compilation_passed": true, "time": 0.014200925827026367, "tests_passed": false, "error": "NameError"}
+{"code": " Pool() as pool:  # Use a pool of processes to execute the commands", "compilation_passed": true, "time": 0.2607419490814209, "tests_passed": false, "error": "_pickle.PicklingError"}
+{"code": " Pool(2) as pool:  # Create a multiprocessing pool with two workers", "compilation_passed": true, "time": 0.02385997772216797, "tests_passed": false, "error": "_pickle.PicklingError"}
+{"code": " Pool(3) as p:  # Create a pool with 3 worker processes", "compilation_passed": true, "time": 0.02257513999938965, "tests_passed": false, "error": "NameError"}

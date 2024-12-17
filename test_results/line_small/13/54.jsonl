@@ -1,0 +1,8 @@
+{"code": "run(command, shell=True, check=True)", "compilation_passed": true, "time": 1.0165088176727295, "tests_passed": false, "error": "TimeoutError"}
+{"code": "run(command, shell=True)", "compilation_passed": true, "time": 1.0082108974456787, "tests_passed": false, "error": "TimeoutError"}
+{"code": "call(command, shell=True)", "compilation_passed": true, "time": 0.00439906120300293, "tests_passed": true, "error": null}
+{"code": "run(command.split(), check=True, stdout=subprocess.DEVNULL)", "compilation_passed": true, "time": 1.0069897174835205, "tests_passed": false, "error": "TimeoutError"}
+{"code": "check_output(command, shell=True)", "compilation_passed": true, "time": 1.0123989582061768, "tests_passed": false, "error": "TimeoutError"}
+{"code": "call(command.split(), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)", "compilation_passed": true, "time": 0.004876136779785156, "tests_passed": true, "error": null}
+{"code": "check_output(command.split())", "compilation_passed": true, "time": 1.013127326965332, "tests_passed": false, "error": "TimeoutError"}
+{"code": "check_call(command, shell=True)", "compilation_passed": true, "time": 0.00489497184753418, "tests_passed": true, "error": null}

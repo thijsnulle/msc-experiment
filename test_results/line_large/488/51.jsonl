@@ -1,0 +1,12 @@
+{"code": "set_xlabel(\"Timestamp\")", "compilation_passed": true, "time": 0.01897907257080078, "tests_passed": true, "error": null}
+{"code": "set_ylabel(\"Value\")", "compilation_passed": true, "time": 0.1735999584197998, "tests_passed": true, "error": null}
+{"code": "get_legend().remove()", "compilation_passed": true, "time": 0.019321203231811523, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(df[\"Timestamp\"], rotation=45)", "compilation_passed": true, "time": 0.020788908004760742, "tests_passed": false, "error": "ValueError"}
+{"code": "set_xticks(np.arange(0, max(timestamps), 800))", "compilation_passed": true, "time": 0.025049924850463867, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(df[\"Timestamp\"].dt.strftime(\"%Y-%m-%d %H:%M:%S.%f\"))", "compilation_passed": true, "time": 0.02177882194519043, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_xticklabels(ax.get_xticklabels(), rotation=30)", "compilation_passed": true, "time": 0.022715091705322266, "tests_passed": true, "error": null}
+{"code": "set(xlabel=\"Timestamp\", ylabel=\"Value\")", "compilation_passed": true, "time": 0.2033536434173584, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(ax.get_xticklabels(), rotation=90)", "compilation_passed": true, "time": 0.025613069534301758, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(ax.get_xticklabels(), rotation=75)", "compilation_passed": true, "time": 0.0229189395904541, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(ax.get_xticks(), rotation=45)", "compilation_passed": true, "time": 0.022815942764282227, "tests_passed": true, "error": null}
+{"code": "set(xlabel='Timestamp', ylabel='Value')", "compilation_passed": true, "time": 0.221710205078125, "tests_passed": true, "error": null}

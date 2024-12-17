@@ -1,0 +1,6 @@
+{"code": " pd.DataFrame(data_dict)", "compilation_passed": true, "time": 0.013458013534545898, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data=data_dict)", "compilation_passed": true, "time": 0.009896993637084961, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data_dict).dropna()", "compilation_passed": true, "time": 0.020438194274902344, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_dict).replace(None, np.nan).dropna()", "compilation_passed": true, "time": 0.0014810562133789062, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(data_dict).fillna(method='backfill')", "compilation_passed": true, "time": 0.011358976364135742, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_dict).replace({None: \"\"})", "compilation_passed": true, "time": 0.010223865509033203, "tests_passed": false, "error": "KeyError"}

@@ -1,0 +1,10 @@
+{"code": " in sales_data.columns:", "compilation_passed": true, "time": 0.05563497543334961, "tests_passed": true, "error": null}
+{"code": " in sales_data.columns[1:]:", "compilation_passed": true, "time": 0.13291215896606445, "tests_passed": true, "error": null}
+{"code": ", sales_list in sales_data.iloc[:, 1:].items():", "compilation_passed": true, "time": 0.13866925239562988, "tests_passed": true, "error": null}
+{"code": ", data in sales_data[sales_data.columns[1:]].items():", "compilation_passed": true, "time": 0.5662541389465332, "tests_passed": true, "error": null}
+{"code": ", data in sales_data.items():", "compilation_passed": true, "time": 0.0658259391784668, "tests_passed": true, "error": null}
+{"code": ", data in sales_data.drop('Month', axis=1).items():", "compilation_passed": true, "time": 0.1557459831237793, "tests_passed": true, "error": null}
+{"code": ", sales in sales_data.iloc[:, 1:].items():", "compilation_passed": true, "time": 0.13914179801940918, "tests_passed": true, "error": null}
+{"code": ", product in sales_data.iloc[:, 1:].items():", "compilation_passed": true, "time": 0.14645004272460938, "tests_passed": true, "error": null}
+{"code": ", group in sales_data.groupby('Month'):", "compilation_passed": true, "time": 0.022949934005737305, "tests_passed": false, "error": "KeyError"}
+{"code": ", product in sales_data.iloc[:, 1:].iteritems():", "compilation_passed": true, "time": 0.02391195297241211, "tests_passed": false, "error": "AttributeError"}

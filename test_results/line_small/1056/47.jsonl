@@ -1,0 +1,16 @@
+{"code": " []", "compilation_passed": true, "time": 0.0041217803955078125, "tests_passed": false, "error": "ValueError"}
+{"code": " [\"{}{}\".format(LETTERS[i], NUMBERS[i]) for i in range(n_pairs)]", "compilation_passed": true, "time": 0.012984752655029297, "tests_passed": true, "error": null}
+{"code": " list(zip(LETTERS[:n_pairs], NUMBERS[:n_pairs]))", "compilation_passed": true, "time": 0.003574848175048828, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " list(zip(LETTERS[:n_pairs], NUMBERS))", "compilation_passed": true, "time": 0.0012471675872802734, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " [(LETTERS[i], NUMBERS[random.randint(0, 25)]) for i in range(n_pairs)]", "compilation_passed": true, "time": 0.0012102127075195312, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " [f\"{random.choice(LETTERS)}:{random.randint(1, 9)}\" for _ in range(n_pairs)]", "compilation_passed": true, "time": 0.012520074844360352, "tests_passed": true, "error": null}
+{"code": " [(LETTERS[i], NUMBERS[i]) for i in range(n_pairs)]", "compilation_passed": true, "time": 0.001249074935913086, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " [random.sample(LETTERS, 1) + NUMBERS for _ in range(n_pairs)]", "compilation_passed": true, "time": 0.0013871192932128906, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " [(LETTERS[i], NUMBERS[j]) for i in range(n_pairs) for j in range(3)]", "compilation_passed": true, "time": 0.0012958049774169922, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " random.sample(list(zip(LETTERS, NUMBERS)), n_pairs)", "compilation_passed": true, "time": 0.0012700557708740234, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " [\"{}:{}\".format(l, n) for l in LETTERS[:n_pairs] for n in NUMBERS]", "compilation_passed": true, "time": 0.0016698837280273438, "tests_passed": false, "error": "ValueError"}
+{"code": " [", "compilation_passed": false, "time": 0.00013589859008789062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(zip(LETTERS, NUMBERS))", "compilation_passed": true, "time": 0.00128173828125, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " [f\"{l}:{random.randint(1, 9)}\" for l in LETTERS[:n_pairs]]", "compilation_passed": true, "time": 0.012082099914550781, "tests_passed": true, "error": null}
+{"code": " [random.sample(LETTERS, 1) + random.sample(NUMBERS, 1) for i in range(n_pairs)]", "compilation_passed": true, "time": 0.001280069351196289, "tests_passed": false, "error": "matplotlib.units.ConversionError"}
+{"code": " np.random.choice(LETTERS, size=(n_pairs,)) + np.random.choice(NUMBERS, size=(n_pairs,))", "compilation_passed": true, "time": 0.0013480186462402344, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}

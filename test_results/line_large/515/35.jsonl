@@ -1,0 +1,13 @@
+{"code": " not array or any(len(sub) != len(COLUMNS) for sub in array):", "compilation_passed": true, "time": 0.22557806968688965, "tests_passed": true, "error": null}
+{"code": " not array:", "compilation_passed": true, "time": 0.28206419944763184, "tests_passed": true, "error": null}
+{"code": " not array or any(len(row) != len(array[0]) for row in array):", "compilation_passed": true, "time": 0.23616290092468262, "tests_passed": true, "error": null}
+{"code": " len(array) == 0:", "compilation_passed": true, "time": 0.2886512279510498, "tests_passed": true, "error": null}
+{"code": " not array or any(len(lst) != len(COLUMNS) for lst in array):", "compilation_passed": true, "time": 0.23052096366882324, "tests_passed": true, "error": null}
+{"code": " not array or any(len(subarray) != len(array[0]) for subarray in array):", "compilation_passed": true, "time": 0.22124075889587402, "tests_passed": true, "error": null}
+{"code": " not array or any(len(lst) != 5 for lst in array):", "compilation_passed": true, "time": 0.22502994537353516, "tests_passed": true, "error": null}
+{"code": " not array or any(len(row) != len(COLUMNS) for row in array):", "compilation_passed": true, "time": 0.2290632724761963, "tests_passed": true, "error": null}
+{"code": " not array or any(len(row) != 5 for row in array):", "compilation_passed": true, "time": 0.2306959629058838, "tests_passed": true, "error": null}
+{"code": " len(array) == 0 or any(len(x) != len(COLUMNS) for x in array):", "compilation_passed": true, "time": 0.24153685569763184, "tests_passed": true, "error": null}
+{"code": " len(array) == 0 or len({len(row) for row in array}) != 1:", "compilation_passed": true, "time": 0.22321605682373047, "tests_passed": true, "error": null}
+{"code": " not array or not all(len(row) == 5 for row in array):", "compilation_passed": true, "time": 0.2642333507537842, "tests_passed": true, "error": null}
+{"code": " not array or any(len(sublist) != 5 for sublist in array):", "compilation_passed": true, "time": 0.26692819595336914, "tests_passed": true, "error": null}

@@ -1,0 +1,7 @@
+{"code": " contingency_table.empty:", "compilation_passed": true, "time": 0.2149677276611328, "tests_passed": true, "error": null}
+{"code": " contingency_table.empty or (contingency_table.sum(axis=1) == 0).all():", "compilation_passed": true, "time": 0.22038888931274414, "tests_passed": true, "error": null}
+{"code": " contingency_table.size == 0:", "compilation_passed": true, "time": 0.2178199291229248, "tests_passed": true, "error": null}
+{"code": " contingency_table.empty or contingency_table.count().sum() < 5:", "compilation_passed": true, "time": 0.2175579071044922, "tests_passed": false, "error": "ValueError"}
+{"code": " contingency_table.empty or contingency_table.size < 2:", "compilation_passed": true, "time": 0.21536588668823242, "tests_passed": false, "error": "ValueError"}
+{"code": " contingency_table.empty or contingency_table.size == 0:", "compilation_passed": true, "time": 0.21774530410766602, "tests_passed": true, "error": null}
+{"code": " contingency_table.empty or contingency_table.sum().sum() < 5:", "compilation_passed": true, "time": 0.2168409824371338, "tests_passed": true, "error": null}

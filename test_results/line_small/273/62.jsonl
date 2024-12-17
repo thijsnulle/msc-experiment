@@ -1,0 +1,4 @@
+{"code": "send_response(200, json.dumps(SUCCESS_RESPONSE))", "compilation_passed": true, "time": 0.005547046661376953, "tests_passed": true, "error": null}
+{"code": "send_response(200)", "compilation_passed": true, "time": 0.005391836166381836, "tests_passed": true, "error": null}
+{"code": "send_response(200, SUCCESS_RESPONSE['message'])", "compilation_passed": true, "time": 0.004940032958984375, "tests_passed": true, "error": null}
+{"code": "send_response(200, json.dumps(message['data']), len(json.dumps(message['data'])))", "compilation_passed": true, "time": 0.00556182861328125, "tests_passed": true, "error": null}

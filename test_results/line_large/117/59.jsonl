@@ -1,0 +1,5 @@
+{"code": " np.random.randint(age_range[0], age_range[1] + 1)", "compilation_passed": true, "time": 0.0027022361755371094, "tests_passed": true, "error": null}
+{"code": " np.random.randint(*age_range)", "compilation_passed": true, "time": 0.0024518966674804688, "tests_passed": true, "error": null}
+{"code": " choice(range(age_range[0], age_range[1] + 1))", "compilation_passed": true, "time": 0.002863168716430664, "tests_passed": true, "error": null}
+{"code": " np.random.randint(age_range[0], age_range[1]+1)", "compilation_passed": true, "time": 0.0024979114532470703, "tests_passed": true, "error": null}
+{"code": " choice(list(np.random.randint(age_range[0], age_range[1]+1, num_of_students)))", "compilation_passed": true, "time": 0.0030732154846191406, "tests_passed": true, "error": null}

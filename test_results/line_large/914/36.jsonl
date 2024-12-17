@@ -1,0 +1,10 @@
+{"code": " df['date'].apply(lambda x: x.timestamp())", "compilation_passed": true, "time": 0.002536773681640625, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.to_datetime(df['date']).astype(np.int64) // 10 ** 9", "compilation_passed": true, "time": 0.0018200874328613281, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].astype('datetime64[ns]').view('int64') / (24*60*60*10**9)", "compilation_passed": true, "time": 0.001833200454711914, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.to_datetime(df['date'])", "compilation_passed": true, "time": 0.10646772384643555, "tests_passed": true, "error": null}
+{"code": " df['date'].astype(np.int64) // 10 ** 9", "compilation_passed": true, "time": 0.0017638206481933594, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.to_datetime(df['date']).apply(lambda x: x.timestamp())", "compilation_passed": true, "time": 0.001856088638305664, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].astype(np.int64) // 10**9", "compilation_passed": true, "time": 0.0017371177673339844, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].apply(lambda x: (x - pd.Timestamp('1970-01-01')) // pd.Timedelta(1, unit='s'))", "compilation_passed": true, "time": 0.0017991065979003906, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].apply(lambda x: int(x.timestamp()))", "compilation_passed": true, "time": 0.0017333030700683594, "tests_passed": false, "error": "TypeError"}
+{"code": " df['date'].astype(np.float64) / (24 * 60 * 60 * 1e9)", "compilation_passed": true, "time": 0.003449678421020508, "tests_passed": false, "error": "TypeError"}

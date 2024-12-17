@@ -1,0 +1,8 @@
+{"code": " Counter(s.count(pattern) for s in random_choices)", "compilation_passed": true, "time": 0.000720977783203125, "tests_passed": true, "error": null}
+{"code": " [string.count(pattern) for string in random_choices]", "compilation_passed": true, "time": 0.0006170272827148438, "tests_passed": false, "error": "AttributeError"}
+{"code": " [s.count(pattern) for s in random_choices]", "compilation_passed": true, "time": 0.0006120204925537109, "tests_passed": false, "error": "AttributeError"}
+{"code": " [s.count(pattern) for s in random_choices if pattern in s]", "compilation_passed": true, "time": 0.0006089210510253906, "tests_passed": false, "error": "AttributeError"}
+{"code": " [string.count(pattern) for string in random_choices if pattern in string]", "compilation_passed": true, "time": 0.0008409023284912109, "tests_passed": false, "error": "AttributeError"}
+{"code": " [Counter(string) for string in random_choices if pattern in string]", "compilation_passed": true, "time": 0.0006451606750488281, "tests_passed": false, "error": "AttributeError"}
+{"code": " [s.count(pattern) for s in random_choices if s.count(pattern)]", "compilation_passed": true, "time": 0.0006568431854248047, "tests_passed": false, "error": "AttributeError"}
+{"code": " [str.count(pattern) for str in random_choices]", "compilation_passed": true, "time": 0.0006031990051269531, "tests_passed": false, "error": "AttributeError"}

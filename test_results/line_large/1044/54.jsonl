@@ -1,0 +1,19 @@
+{"code": " report_df.plot(x=\"Room\", y=\"Booking Status\", kind=\"bar\")", "compilation_passed": false, "time": 0.00019693374633789062, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df.plot(x=\"Room\", y=\"Booking Status\", kind=\"bar\", legend=False, rot=90)", "compilation_passed": false, "time": 0.0002028942108154297, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df.plot.barh(x=\"Room\", y=\"Booking Status\", legend=False, title=f\"Booking Status Report - {date_str}\")", "compilation_passed": false, "time": 0.0002110004425048828, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df.plot.bar(x=\"Room\", y=\"Booking Status\", rot=0)", "compilation_passed": false, "time": 0.00016570091247558594, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df[\"Booking Status\"].value_counts().plot.bar()", "compilation_passed": false, "time": 0.00018286705017089844, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df.plot.barh(x=\"Room\", y=\"Booking Status\", title=f\"Room Booking Status ({date_str})\")", "compilation_passed": false, "time": 0.0002040863037109375, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df[\"Booking Status\"].value_counts().plot(kind=\"bar\", rot=0)", "compilation_passed": false, "time": 0.00019311904907226562, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df.set_index(\"Room\")[\"Booking Status\"].plot(kind=\"bar\")", "compilation_passed": false, "time": 0.0001900196075439453, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df.set_index(\"Room\")[\"Booking Status\"].plot(kind=\"bar\", rot=0)", "compilation_passed": false, "time": 0.00019216537475585938, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df[\"Booking Status\"].value_counts().plot(kind=\"bar\")", "compilation_passed": false, "time": 0.0001919269561767578, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df.plot(x=\"Room\", y=\"Booking Status\", kind=\"bar\", rot=0)", "compilation_passed": false, "time": 0.00019311904907226562, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df.plot.barh(x=\"Room\", y=\"Booking Status\", title=f\"Booking Status for {date.date()}\")", "compilation_passed": false, "time": 0.0002002716064453125, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df.plot.barh(", "compilation_passed": true, "time": 0.009892702102661133, "tests_passed": false, "error": "KeyError"}
+{"code": " report_df[\"Booking Status\"].value_counts().plot.bar(title=f\"Room Bookings ({date_str})\")", "compilation_passed": false, "time": 0.0002040863037109375, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df[\"Booking Status\"].value_counts().plot(", "compilation_passed": true, "time": 0.009885787963867188, "tests_passed": false, "error": "TypeError"}
+{"code": " report_df[\"Booking Status\"].value_counts().plot(kind=\"bar\", color=\"green\")", "compilation_passed": false, "time": 0.0001971721649169922, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df.plot(x=\"Room\", y=\"Booking Status\", kind=\"bar\", figsize=(10, 6))", "compilation_passed": false, "time": 0.0001952648162841797, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df[\"Booking Status\"].value_counts().plot.bar(title=f\"Booking Status for {date_str}\")", "compilation_passed": false, "time": 0.00019311904907226562, "tests_passed": false, "error": "IndentationError"}
+{"code": " report_df[\"Booking Status\"].value_counts().plot.bar(rot=0, title=f\"Room Bookings for {date_str}\")", "compilation_passed": false, "time": 0.00019812583923339844, "tests_passed": false, "error": "IndentationError"}

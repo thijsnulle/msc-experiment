@@ -1,0 +1,13 @@
+{"code": " {}", "compilation_passed": true, "time": 0.0010471343994140625, "tests_passed": true, "error": null}
+{"code": " dict(zip(list_, [POSSIBLE_VALUES[:] for _ in list_]))", "compilation_passed": true, "time": 0.001544952392578125, "tests_passed": true, "error": null}
+{"code": " dict()", "compilation_passed": true, "time": 0.0009279251098632812, "tests_passed": true, "error": null}
+{"code": " {col: [] for col in list_}", "compilation_passed": true, "time": 0.0014140605926513672, "tests_passed": true, "error": null}
+{"code": " dict(zip(list_, POSSIBLE_VALUES * len(list_)))", "compilation_passed": true, "time": 0.0029532909393310547, "tests_passed": false, "error": "ValueError"}
+{"code": " {col: POSSIBLE_VALUES[:len(col)] for col in list_}", "compilation_passed": true, "time": 0.0015180110931396484, "tests_passed": true, "error": null}
+{"code": " {name: [random.choice(POSSIBLE_VALUES) for i in range(len(POSSIBLE_VALUES))] for name in list_}", "compilation_passed": true, "time": 0.0015797615051269531, "tests_passed": true, "error": null}
+{"code": " {column: [] for column in list_}", "compilation_passed": true, "time": 0.0014140605926513672, "tests_passed": true, "error": null}
+{"code": " {name: POSSIBLE_VALUES[:len(name)] for name in list_}", "compilation_passed": true, "time": 0.0015873908996582031, "tests_passed": true, "error": null}
+{"code": " {column: POSSIBLE_VALUES[:] for column in list_}", "compilation_passed": true, "time": 0.0014879703521728516, "tests_passed": true, "error": null}
+{"code": " {col: pd.Series([random.choice(POSSIBLE_VALUES) for _ in range(len(POSSIBLE_VALUES))]) for col in list_}", "compilation_passed": true, "time": 0.0031728744506835938, "tests_passed": true, "error": null}
+{"code": " dict.fromkeys(POSSIBLE_VALUES, None)", "compilation_passed": true, "time": 0.0013310909271240234, "tests_passed": false, "error": "TypeError"}
+{"code": " dict(zip(list_, [[random.choice(POSSIBLE_VALUES) for _ in range(len(POSSIBLE_VALUES))] for _ in range(len(POSSIBLE_VALUES))]))", "compilation_passed": true, "time": 0.0018260478973388672, "tests_passed": true, "error": null}

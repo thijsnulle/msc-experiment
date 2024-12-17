@@ -1,0 +1,28 @@
+{"code": " [word for word, freq in words_freq.most_common(top_k) if freq > 1]  # Filter out duplicates", "compilation_passed": true, "time": 0.0016481876373291016, "tests_passed": false, "error": ""}
+{"code": " Counter([word for word in words_freq if len(word.split()) == 1])  # Filter out n-grams with multiple words", "compilation_passed": true, "time": 0.0014760494232177734, "tests_passed": false, "error": ""}
+{"code": " words_freq.most_common(top_k)", "compilation_passed": true, "time": 0.0013470649719238281, "tests_passed": false, "error": ""}
+{"code": " Counter(w for w, c in words_freq.items() if c > top_k)  # Filter for n-grams above top_k", "compilation_passed": true, "time": 0.00138092041015625, "tests_passed": false, "error": ""}
+{"code": " Counter({word: freq for word, freq in words_freq.most_common(top_k)})", "compilation_passed": true, "time": 0.001397848129272461, "tests_passed": false, "error": ""}
+{"code": " Counter([word for word, freq in words_freq.items() if freq > 1])  # Filter out words with frequency less than 2", "compilation_passed": true, "time": 0.0013399124145507812, "tests_passed": false, "error": ""}
+{"code": " dict([word for word, freq in words_freq.items() if freq > 1])", "compilation_passed": true, "time": 0.0012769699096679688, "tests_passed": false, "error": ""}
+{"code": " {word: freq for word, freq in words_freq.items() if freq > 1}  # Filter out words with frequency less than 1", "compilation_passed": true, "time": 0.001341104507446289, "tests_passed": false, "error": ""}
+{"code": " Counter(words_freq.items())  # Get top k n-grams", "compilation_passed": true, "time": 0.0014047622680664062, "tests_passed": false, "error": ""}
+{"code": " {key: value for key, value in words_freq.items() if key != ' '}  # Remove words that only consist of single letters", "compilation_passed": true, "time": 0.0013310909271240234, "tests_passed": false, "error": ""}
+{"code": " {word: freq for word, freq in words_freq.items() if freq > 10}  # Filter out n-grams with frequency < 10", "compilation_passed": true, "time": 0.0013670921325683594, "tests_passed": false, "error": ""}
+{"code": " Counter(words for words in words_freq.keys() if len(words) > n)", "compilation_passed": true, "time": 0.0013141632080078125, "tests_passed": false, "error": ""}
+{"code": " Counter(words_freq)  # Get top top_k words and count frequency", "compilation_passed": true, "time": 0.0014810562133789062, "tests_passed": false, "error": ""}
+{"code": " Counter(words_freq.keys())", "compilation_passed": true, "time": 0.0013818740844726562, "tests_passed": false, "error": ""}
+{"code": " Counter(word for word in words_freq if len(word) >= n)  # Filter words less than n characters", "compilation_passed": true, "time": 0.0012969970703125, "tests_passed": false, "error": ""}
+{"code": " Counter(", "compilation_passed": false, "time": 0.00012493133544921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Counter({word: freq for word, freq in words_freq.items() if freq >= top_k})  # Filter out low freq n-grams", "compilation_passed": true, "time": 0.0014219284057617188, "tests_passed": false, "error": ""}
+{"code": " sorted(words_freq.most_common(), key=lambda x: x[1], reverse=True)", "compilation_passed": true, "time": 0.0014111995697021484, "tests_passed": false, "error": ""}
+{"code": " Counter([w for w, freq in words_freq.items() if freq >= top_k])  # Filter out words with less than top_k frequency", "compilation_passed": true, "time": 0.001361846923828125, "tests_passed": false, "error": ""}
+{"code": " {key: value for key, value in words_freq.items() if value > 1}  # Filter out n-grams with frequency less than 2", "compilation_passed": true, "time": 0.0012640953063964844, "tests_passed": false, "error": ""}
+{"code": " Counter([word for word, count in words_freq.items() if count > 1])  # Filter out infrequent n-grams", "compilation_passed": true, "time": 0.0013279914855957031, "tests_passed": false, "error": ""}
+{"code": " Counter(words_freq)  # Remove words with 0 frequency", "compilation_passed": true, "time": 0.0013508796691894531, "tests_passed": false, "error": ""}
+{"code": " Counter(words for (words, freq) in words_freq.items() if freq >= top_k)  # Filter out words with less frequency", "compilation_passed": true, "time": 0.0012421607971191406, "tests_passed": false, "error": ""}
+{"code": " list(filter(lambda x: words_freq[x] > 1, words_freq))  # Get the top n-grams", "compilation_passed": true, "time": 0.0012600421905517578, "tests_passed": false, "error": ""}
+{"code": " Counter([word for word in words_freq.keys() if word.isalpha()])  # Remove non-alphabet words", "compilation_passed": true, "time": 0.0013000965118408203, "tests_passed": false, "error": ""}
+{"code": " sorted(words_freq, key=lambda x: words_freq[x], reverse=True)[:top_k]  # Get top k words", "compilation_passed": true, "time": 0.0013561248779296875, "tests_passed": false, "error": ""}
+{"code": " sorted(words_freq.items(), key=lambda x: x[1], reverse=True)[:top_k]  # Get top n-grams", "compilation_passed": true, "time": 0.0014739036560058594, "tests_passed": false, "error": ""}
+{"code": " sorted(words_freq.items(), key=lambda x: x[1], reverse=True)  # Sort by frequency", "compilation_passed": true, "time": 0.0012853145599365234, "tests_passed": false, "error": ""}

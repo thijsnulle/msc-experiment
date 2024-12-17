@@ -1,0 +1,5 @@
+{"code": " scaler.fit_transform(df)", "compilation_passed": true, "time": 0.0016469955444335938, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.apply(scaler.fit_transform)", "compilation_passed": true, "time": 0.0026340484619140625, "tests_passed": false, "error": "ValueError"}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.001157999038696289, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.001194000244140625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(scaler.fit_transform(df), columns=columns)", "compilation_passed": true, "time": 0.0045130252838134766, "tests_passed": true, "error": null}

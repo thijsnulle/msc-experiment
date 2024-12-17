@@ -1,0 +1,8 @@
+{"code": " wikipedia.summary(page_title)", "compilation_passed": true, "time": 1.006950855255127, "tests_passed": false, "error": "TimeoutError"}
+{"code": " wikipedia.page(page_title).summary", "compilation_passed": true, "time": 0.5209300518035889, "tests_passed": true, "error": null}
+{"code": " wikipedia.page(page_title).content", "compilation_passed": true, "time": 0.749758243560791, "tests_passed": true, "error": null}
+{"code": " wikipedia.summary(page_title, sentences=5)", "compilation_passed": true, "time": 1.0027310848236084, "tests_passed": true, "error": null}
+{"code": " wikipedia.summary(page_title, auto_suggest=False)", "compilation_passed": true, "time": 0.9227068424224854, "tests_passed": true, "error": null}
+{"code": " wikipedia.search(page_title)", "compilation_passed": true, "time": 0.3346247673034668, "tests_passed": false, "error": "TypeError"}
+{"code": " wikipedia.page(page_title).content.replace('<references/>','')", "compilation_passed": true, "time": 0.7861220836639404, "tests_passed": true, "error": null}
+{"code": " wikipedia.page(page_title).content.strip()", "compilation_passed": true, "time": 0.7341408729553223, "tests_passed": true, "error": null}

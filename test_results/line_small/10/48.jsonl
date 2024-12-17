@@ -1,0 +1,8 @@
+{"code": " statistics.mode(random_nums)", "compilation_passed": true, "time": 0.003648996353149414, "tests_passed": true, "error": null}
+{"code": " max([random_nums.count(x) for x in random_nums])", "compilation_passed": true, "time": 0.0019211769104003906, "tests_passed": true, "error": null}
+{"code": " stats.mode(random_nums)", "compilation_passed": true, "time": 0.0018239021301269531, "tests_passed": false, "error": "NameError"}
+{"code": " statistics.mode(flattened_list)", "compilation_passed": true, "time": 0.0019240379333496094, "tests_passed": true, "error": null}
+{"code": " max(set(random_nums), key=random_nums.count)", "compilation_passed": true, "time": 0.0036780834197998047, "tests_passed": true, "error": null}
+{"code": " max(set(random_nums), key = random_nums.count)", "compilation_passed": true, "time": 0.0037338733673095703, "tests_passed": true, "error": null}
+{"code": " max(itertools.groupby(sorted(random_nums)))[1]", "compilation_passed": true, "time": 0.001730203628540039, "tests_passed": true, "error": null}
+{"code": " np.bincount(random_nums).argmax()", "compilation_passed": true, "time": 0.001585245132446289, "tests_passed": true, "error": null}

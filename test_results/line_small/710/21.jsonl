@@ -1,0 +1,10 @@
+{"code": " df.values", "compilation_passed": true, "time": 0.007266044616699219, "tests_passed": true, "error": null}
+{"code": " df.copy()", "compilation_passed": true, "time": 0.008518218994140625, "tests_passed": true, "error": null}
+{"code": " df.to_numpy()", "compilation_passed": true, "time": 0.00549006462097168, "tests_passed": true, "error": null}
+{"code": " MinMaxScaler()", "compilation_passed": true, "time": 0.00422978401184082, "tests_passed": false, "error": "TypeError"}
+{"code": " df.iloc[:, :].values.astype(float)", "compilation_passed": true, "time": 0.005590915679931641, "tests_passed": true, "error": null}
+{"code": " MinMaxScaler().fit_transform(df)", "compilation_passed": true, "time": 0.008427858352661133, "tests_passed": true, "error": null}
+{"code": " df.values[:, :-1]", "compilation_passed": true, "time": 0.002363920211791992, "tests_passed": false, "error": "ValueError"}
+{"code": " df.to_dict('records')", "compilation_passed": true, "time": 0.0024230480194091797, "tests_passed": false, "error": "TypeError"}
+{"code": " MinMaxScaler().fit(df).transform(df)", "compilation_passed": true, "time": 0.00836491584777832, "tests_passed": true, "error": null}
+{"code": " MinMaxScaler(feature_range=(0, 1)).fit_transform(df)", "compilation_passed": true, "time": 0.008723974227905273, "tests_passed": true, "error": null}

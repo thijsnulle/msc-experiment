@@ -1,0 +1,5 @@
+{"code": " df[x_column].to_numpy().reshape(-1, 1)", "compilation_passed": true, "time": 0.0064771175384521484, "tests_passed": true, "error": null}
+{"code": " df[x_column].values.reshape(-1, 1)", "compilation_passed": true, "time": 0.006432294845581055, "tests_passed": true, "error": null}
+{"code": " df[x_column].values.reshape(-1, 1)  # reshape as a 2D array", "compilation_passed": true, "time": 0.006370067596435547, "tests_passed": true, "error": null}
+{"code": " df[[x_column]]", "compilation_passed": true, "time": 0.007343769073486328, "tests_passed": true, "error": null}
+{"code": " df[[x_column]].values.reshape(-1,1)", "compilation_passed": true, "time": 0.006625175476074219, "tests_passed": true, "error": null}

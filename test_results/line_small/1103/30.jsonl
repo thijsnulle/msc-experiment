@@ -1,0 +1,22 @@
+{"code": " subprocess.run([\"python\", temp_script_path], cwd=temp_dir, capture_output=True, text=True)", "compilation_passed": true, "time": 0.10119509696960449, "tests_passed": true, "error": null}
+{"code": " subprocess.check_output([sys.executable, temp_script_path])", "compilation_passed": true, "time": 0.013840198516845703, "tests_passed": true, "error": null}
+{"code": " subprocess.run(", "compilation_passed": false, "time": 0.00019288063049316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.run([temp_script_path], cwd=temp_dir, capture_output=True)", "compilation_passed": true, "time": 0.031078100204467773, "tests_passed": true, "error": null}
+{"code": " subprocess.run(['python3', temp_script_path])", "compilation_passed": true, "time": 0.10644888877868652, "tests_passed": true, "error": null}
+{"code": " subprocess.call([temp_script_path])", "compilation_passed": true, "time": 0.07852888107299805, "tests_passed": true, "error": null}
+{"code": " subprocess.check_output([sys.executable, temp_script_path], stderr=subprocess.STDOUT)", "compilation_passed": true, "time": 0.012154340744018555, "tests_passed": true, "error": null}
+{"code": " subprocess.check_call([\"python\", temp_script_path])", "compilation_passed": true, "time": 1.0098481178283691, "tests_passed": true, "error": null}
+{"code": " subprocess.call([sys.executable, temp_script_path])", "compilation_passed": true, "time": 0.012560129165649414, "tests_passed": true, "error": null}
+{"code": " subprocess.check_call([sys.executable, temp_script_path])", "compilation_passed": true, "time": 0.003801107406616211, "tests_passed": true, "error": null}
+{"code": " subprocess.run(['python', temp_script_path], capture_output=True)", "compilation_passed": true, "time": 0.1037592887878418, "tests_passed": true, "error": null}
+{"code": " subprocess.run([temp_script_path], capture_output=True, text=True, cwd=temp_dir)", "compilation_passed": true, "time": 0.03241610527038574, "tests_passed": true, "error": null}
+{"code": " subprocess.check_output(f\"cd {temp_dir} && python3 {temp_script_path} \", shell=True, stderr=subprocess.STDOUT).strip()", "compilation_passed": true, "time": 0.12361788749694824, "tests_passed": true, "error": null}
+{"code": " subprocess.check_output(", "compilation_passed": false, "time": 0.00019598007202148438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " subprocess.run([sys.executable, temp_script_path], capture_output=True, text=True)", "compilation_passed": true, "time": 0.0038597583770751953, "tests_passed": true, "error": null}
+{"code": " subprocess.run([sys.executable, temp_script_path], capture_output=True, text=True, check=True)", "compilation_passed": true, "time": 0.003815174102783203, "tests_passed": true, "error": null}
+{"code": " subprocess.check_output(['python3', temp_script_path]).decode('utf-8')", "compilation_passed": true, "time": 0.05848383903503418, "tests_passed": true, "error": null}
+{"code": " subprocess.run(['python', temp_script_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)", "compilation_passed": true, "time": 0.058145761489868164, "tests_passed": true, "error": null}
+{"code": " subprocess.run(['python', temp_script_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.0585939884185791, "tests_passed": true, "error": null}
+{"code": " subprocess.run([sys.executable, temp_script_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)", "compilation_passed": true, "time": 0.0035729408264160156, "tests_passed": true, "error": null}
+{"code": " subprocess.run(['python', temp_script_path])", "compilation_passed": true, "time": 0.05812811851501465, "tests_passed": true, "error": null}
+{"code": " subprocess.check_output(['python', temp_script_path]).decode('utf-8')", "compilation_passed": true, "time": 0.05870795249938965, "tests_passed": true, "error": null}

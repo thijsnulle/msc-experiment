@@ -1,0 +1,25 @@
+{"code": " [float(elem) for elem in column if not np.isnan(elem)]", "compilation_passed": true, "time": 0.001544952392578125, "tests_passed": false, "error": "TypeError"}
+{"code": " np.nan_to_num(column)", "compilation_passed": true, "time": 0.0010979175567626953, "tests_passed": false, "error": "ValueError"}
+{"code": " [value for value in column if np.isreal(value)]", "compilation_passed": true, "time": 0.0018339157104492188, "tests_passed": true, "error": null}
+{"code": " [float(element) for element in column if not element is np.nan]", "compilation_passed": true, "time": 0.0015780925750732422, "tests_passed": false, "error": "ValueError"}
+{"code": " [val for val in column if not np.isnan(val)]", "compilation_passed": true, "time": 0.0014901161193847656, "tests_passed": false, "error": "TypeError"}
+{"code": " list(column)", "compilation_passed": true, "time": 0.0016088485717773438, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " [value for value in column if not np.isnan(value)]", "compilation_passed": true, "time": 0.0014739036560058594, "tests_passed": false, "error": "TypeError"}
+{"code": " [value for value in column if isinstance(value, (int, float))]", "compilation_passed": true, "time": 0.0018160343170166016, "tests_passed": true, "error": null}
+{"code": " [element for element in column if np.isnumeric(element)]", "compilation_passed": true, "time": 0.0015480518341064453, "tests_passed": false, "error": "AttributeError"}
+{"code": " list(itertools.filterfalse(lambda x: np.isnan(x), column))", "compilation_passed": true, "time": 0.0015170574188232422, "tests_passed": false, "error": "TypeError"}
+{"code": " list(filter(np.isreal, column))", "compilation_passed": true, "time": 0.001791238784790039, "tests_passed": true, "error": null}
+{"code": " list(map(lambda x: x if not np.isnan(x) else np.nan, column))", "compilation_passed": true, "time": 0.0016450881958007812, "tests_passed": false, "error": "TypeError"}
+{"code": " np.array(column).astype(float)", "compilation_passed": true, "time": 0.0010640621185302734, "tests_passed": false, "error": "ValueError"}
+{"code": " np.asarray([i for i in column if np.isreal(i)])", "compilation_passed": true, "time": 0.0010421276092529297, "tests_passed": false, "error": "ValueError"}
+{"code": " list(filter(lambda x: np.issubdtype(type(x), np.number), column))", "compilation_passed": true, "time": 0.0018110275268554688, "tests_passed": true, "error": null}
+{"code": " [x for x in column if np.isnumber(x)]", "compilation_passed": true, "time": 0.00113677978515625, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(column)", "compilation_passed": true, "time": 0.001081228256225586, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(column, dtype=np.float64)", "compilation_passed": true, "time": 0.0010368824005126953, "tests_passed": false, "error": "ValueError"}
+{"code": " [x for x in column if np.isreal(x)]", "compilation_passed": true, "time": 0.00179290771484375, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0014958381652832031, "tests_passed": true, "error": null}
+{"code": " [float(num) for num in column if np.isreal(num)]", "compilation_passed": true, "time": 0.001811981201171875, "tests_passed": true, "error": null}
+{"code": " [val for val in column if isinstance(val, (int, float))]", "compilation_passed": true, "time": 0.0018072128295898438, "tests_passed": true, "error": null}
+{"code": " np.array([val for val in column if not np.isnan(val)])", "compilation_passed": true, "time": 0.0013949871063232422, "tests_passed": false, "error": "ValueError"}
+{"code": " list(map(float, column))", "compilation_passed": true, "time": 0.001547098159790039, "tests_passed": false, "error": "ValueError"}
+{"code": " [value for value in column if np.isfinite(value)]", "compilation_passed": true, "time": 0.0015401840209960938, "tests_passed": false, "error": "TypeError"}

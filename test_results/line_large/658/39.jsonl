@@ -1,0 +1,8 @@
+{"code": " [text.split() for text in cleaned_texts]", "compilation_passed": true, "time": 0.0011250972747802734, "tests_passed": false, "error": "AttributeError"}
+{"code": " [[word for word in text.split() if word not in STOPWORDS] for text in cleaned_texts]", "compilation_passed": true, "time": 0.0010733604431152344, "tests_passed": false, "error": "AttributeError"}
+{"code": " [[token for token in text.split(' ') if token not in STOPWORDS] for text in cleaned_texts]", "compilation_passed": true, "time": 0.0010418891906738281, "tests_passed": false, "error": "AttributeError"}
+{"code": " [nltk.tokenize.word_tokenize(text) for text in cleaned_texts]", "compilation_passed": true, "time": 0.002819061279296875, "tests_passed": false, "error": ""}
+{"code": " [nltk.word_tokenize(text) for text in cleaned_texts]", "compilation_passed": true, "time": 0.0011682510375976562, "tests_passed": false, "error": ""}
+{"code": " [[word for word in nltk.word_tokenize(text) if word not in STOPWORDS]", "compilation_passed": false, "time": 0.00013899803161621094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [[token for token in text.split() if token not in STOPWORDS] for text in cleaned_texts]", "compilation_passed": true, "time": 0.0010328292846679688, "tests_passed": false, "error": "AttributeError"}
+{"code": " [[word for word in doc.split() if word not in STOPWORDS] for doc in cleaned_texts]", "compilation_passed": true, "time": 0.001064300537109375, "tests_passed": false, "error": "AttributeError"}

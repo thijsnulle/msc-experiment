@@ -1,20 +1,20 @@
-{"code": " f\"{file[:-4]}.csv\")", "compilation_passed": false, "time": 0.0001590251922607422, "tests_passed": false, "error": "SyntaxError"}
-{"code": " f\"{os.path.splitext(filepath)[0]}.csv\"", "compilation_passed": true, "time": 0.0024809837341308594, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " Path(filepath).with_suffix(\".csv\").name)", "compilation_passed": false, "time": 0.0001590251922607422, "tests_passed": false, "error": "SyntaxError"}
-{"code": " f\"{Path(file).stem}.csv\"", "compilation_passed": true, "time": 0.002810239791870117, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " f\"{filepath.split('.')[0]}.csv\"", "compilation_passed": true, "time": 0.002496004104614258, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " Path(file).name.replace(extension, \".csv\")", "compilation_passed": true, "time": 0.0025420188903808594, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " f\"{Path(file).stem}.csv\")", "compilation_passed": false, "time": 0.00015091896057128906, "tests_passed": false, "error": "SyntaxError"}
-{"code": " os.path.basename(filepath).replace(extension, \".csv\"))", "compilation_passed": false, "time": 0.00015020370483398438, "tests_passed": false, "error": "SyntaxError"}
-{"code": " file.replace(extension, \".csv\")", "compilation_passed": true, "time": 0.0025637149810791016, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " f\"{Path(file).stem}{'.csv'}\"", "compilation_passed": true, "time": 0.0025849342346191406, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " Path(filepath).stem + \".csv\"", "compilation_passed": true, "time": 0.0026280879974365234, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " filepath.replace(\".\" + extension, \".csv\")", "compilation_passed": true, "time": 0.002541065216064453, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " Path(file).stem + \".csv\")", "compilation_passed": false, "time": 0.00015306472778320312, "tests_passed": false, "error": "SyntaxError"}
-{"code": " Path(file).stem + \".csv\"", "compilation_passed": true, "time": 0.0027320384979248047, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " f\"{file.split('.')[0]}.csv\")", "compilation_passed": false, "time": 0.00016379356384277344, "tests_passed": false, "error": "SyntaxError"}
-{"code": " file.replace(extension, \".csv\"))", "compilation_passed": false, "time": 0.00015020370483398438, "tests_passed": false, "error": "SyntaxError"}
-{"code": " filepath.split(\"/\")[-1].replace(extension, \".csv\")", "compilation_passed": true, "time": 0.002420186996459961, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": "", "compilation_passed": true, "time": 0.0023190975189208984, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " Path(file).stem + '.csv')", "compilation_passed": false, "time": 0.0001659393310546875, "tests_passed": false, "error": "SyntaxError"}
-{"code": " file.split('.')[0] + '.csv')", "compilation_passed": false, "time": 0.00015211105346679688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"{file[:-4]}.csv\")", "compilation_passed": false, "time": 0.00011587142944335938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"{os.path.splitext(filepath)[0]}.csv\"", "compilation_passed": true, "time": 0.0021140575408935547, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " Path(filepath).with_suffix(\".csv\").name)", "compilation_passed": false, "time": 8.988380432128906e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"{Path(file).stem}.csv\"", "compilation_passed": true, "time": 0.0020880699157714844, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " f\"{filepath.split('.')[0]}.csv\"", "compilation_passed": true, "time": 0.0022017955780029297, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " Path(file).name.replace(extension, \".csv\")", "compilation_passed": true, "time": 0.0020940303802490234, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " f\"{Path(file).stem}.csv\")", "compilation_passed": false, "time": 8.916854858398438e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " os.path.basename(filepath).replace(extension, \".csv\"))", "compilation_passed": false, "time": 8.821487426757812e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " file.replace(extension, \".csv\")", "compilation_passed": true, "time": 0.00255584716796875, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " f\"{Path(file).stem}{'.csv'}\"", "compilation_passed": true, "time": 0.002106189727783203, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " Path(filepath).stem + \".csv\"", "compilation_passed": true, "time": 0.002093076705932617, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " filepath.replace(\".\" + extension, \".csv\")", "compilation_passed": true, "time": 0.0020759105682373047, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " Path(file).stem + \".csv\")", "compilation_passed": false, "time": 8.606910705566406e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " Path(file).stem + \".csv\"", "compilation_passed": true, "time": 0.002086162567138672, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " f\"{file.split('.')[0]}.csv\")", "compilation_passed": false, "time": 0.00010395050048828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " file.replace(extension, \".csv\"))", "compilation_passed": false, "time": 8.392333984375e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " filepath.split(\"/\")[-1].replace(extension, \".csv\")", "compilation_passed": true, "time": 0.0020868778228759766, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": "", "compilation_passed": true, "time": 0.0020432472229003906, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " Path(file).stem + '.csv')", "compilation_passed": false, "time": 8.893013000488281e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " file.split('.')[0] + '.csv')", "compilation_passed": false, "time": 8.225440979003906e-05, "tests_passed": false, "error": "SyntaxError"}

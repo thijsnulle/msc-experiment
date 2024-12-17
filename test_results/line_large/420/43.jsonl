@@ -1,0 +1,6 @@
+{"code": " scaler.fit_transform(dataframe[[column]])", "compilation_passed": false, "time": 0.00012969970703125, "tests_passed": false, "error": "IndentationError"}
+{"code": " scaler.fit_transform(dataframe[column].values.reshape(-1, 1))", "compilation_passed": false, "time": 0.0001251697540283203, "tests_passed": false, "error": "IndentationError"}
+{"code": " scaler.fit_transform(", "compilation_passed": true, "time": 0.005589962005615234, "tests_passed": true, "error": null}
+{"code": " scaler.fit_transform(dataframe[[column]].values)", "compilation_passed": false, "time": 0.00011873245239257812, "tests_passed": false, "error": "IndentationError"}
+{"code": " scaler.fit_transform(dataframe[column].values.reshape(-1,1))", "compilation_passed": false, "time": 0.00011420249938964844, "tests_passed": false, "error": "IndentationError"}
+{"code": " scaler.fit_transform(dataframe[[column]].values.reshape(-1, 1))", "compilation_passed": false, "time": 0.00012421607971191406, "tests_passed": false, "error": "IndentationError"}

@@ -1,0 +1,6 @@
+{"code": " glob.glob(directory_path + '/*.xlsx')", "compilation_passed": true, "time": 0.051323890686035156, "tests_passed": true, "error": null}
+{"code": " glob.glob(os.path.join(directory_path, '*.xlsx'))", "compilation_passed": true, "time": 0.051241397857666016, "tests_passed": true, "error": null}
+{"code": " glob.glob(directory_path + '*.xlsx')", "compilation_passed": true, "time": 0.05148911476135254, "tests_passed": true, "error": null}
+{"code": " glob.glob(f'{directory_path}/*.xlsx')", "compilation_passed": true, "time": 0.0514218807220459, "tests_passed": true, "error": null}
+{"code": " [filename for filename in glob.glob(os.path.join(directory_path, '*.xlsx'))]", "compilation_passed": true, "time": 0.05155801773071289, "tests_passed": true, "error": null}
+{"code": " glob.glob(f'{directory_path}*.xlsx')", "compilation_passed": true, "time": 0.05144000053405762, "tests_passed": true, "error": null}

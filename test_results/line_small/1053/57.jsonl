@@ -1,0 +1,9 @@
+{"code": " vectorizer.fit_transform(df[\"Text\"]).toarray()", "compilation_passed": true, "time": 0.002440929412841797, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(df[\"Text\"])", "compilation_passed": true, "time": 0.09873294830322266, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(df.Text)", "compilation_passed": true, "time": 0.10207891464233398, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(df['Text'].values)", "compilation_passed": true, "time": 0.09622597694396973, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(df['Text'])", "compilation_passed": true, "time": 0.10176301002502441, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(df[\"Text\"].values)", "compilation_passed": true, "time": 0.10233497619628906, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(df[\"Text\"].values.flatten()).toarray()", "compilation_passed": true, "time": 0.0018990039825439453, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(df[\"Text\"].tolist()).toarray()", "compilation_passed": true, "time": 0.0019083023071289062, "tests_passed": true, "error": null}
+{"code": " vectorizer.fit_transform(df['Text']).toarray()", "compilation_passed": true, "time": 0.00191497802734375, "tests_passed": true, "error": null}

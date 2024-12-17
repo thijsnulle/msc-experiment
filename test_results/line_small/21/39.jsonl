@@ -1,0 +1,23 @@
+{"code": " f'{((used_memory / total_memory) * 100):.2f}'", "compilation_passed": true, "time": 0.028477191925048828, "tests_passed": true, "error": null}
+{"code": " f\"{((used_memory / total_memory) * 100):.2f}%\"", "compilation_passed": true, "time": 0.1572401523590088, "tests_passed": true, "error": null}
+{"code": " '{:.2f}%'.format((used_memory / total_memory) * 100)", "compilation_passed": true, "time": 0.15054678916931152, "tests_passed": true, "error": null}
+{"code": " f\"{round(used_memory/total_memory*100, 2)}%\"", "compilation_passed": true, "time": 0.16411113739013672, "tests_passed": true, "error": null}
+{"code": " format(round((used_memory / total_memory) * 100, 2), '.2f') + '%'", "compilation_passed": true, "time": 0.15047192573547363, "tests_passed": true, "error": null}
+{"code": " f\"{format(100 * used_memory / total_memory, '.2f')}%\"", "compilation_passed": true, "time": 0.1588120460510254, "tests_passed": true, "error": null}
+{"code": " (used_memory / total_memory) * 100", "compilation_passed": true, "time": 0.028810977935791016, "tests_passed": false, "error": "TypeError"}
+{"code": " '{}%'.format((used_memory / total_memory) * 100)", "compilation_passed": true, "time": 0.03016495704650879, "tests_passed": true, "error": null}
+{"code": " f\"{((used_memory / total_memory) * 100) * 100:.0f} %\"", "compilation_passed": true, "time": 0.028567075729370117, "tests_passed": true, "error": null}
+{"code": " '{:.2f}%'.format((used_memory/total_memory) * 100)", "compilation_passed": true, "time": 0.1488661766052246, "tests_passed": true, "error": null}
+{"code": " f'{100.0*used_memory/total_memory:.2f}%'", "compilation_passed": true, "time": 0.1468808650970459, "tests_passed": true, "error": null}
+{"code": " f\"{used_memory / total_memory:.2%}\"", "compilation_passed": true, "time": 0.14532828330993652, "tests_passed": true, "error": null}
+{"code": " '{:.2f}%'.format(", "compilation_passed": false, "time": 0.0002300739288330078, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"{round(used_memory / total_memory * 100, 2)}%\"", "compilation_passed": true, "time": 0.14587688446044922, "tests_passed": true, "error": null}
+{"code": " f'{100*used_memory/total_memory:.1f}%'", "compilation_passed": true, "time": 0.027734994888305664, "tests_passed": true, "error": null}
+{"code": " f'{100 * (used_memory / total_memory):.2f}%'", "compilation_passed": true, "time": 0.14693498611450195, "tests_passed": true, "error": null}
+{"code": " f'{100*used_memory/total_memory:.2f}%'", "compilation_passed": true, "time": 0.14519715309143066, "tests_passed": true, "error": null}
+{"code": " str(used_memory / total_memory * 100) + \"%\"", "compilation_passed": true, "time": 0.028227806091308594, "tests_passed": true, "error": null}
+{"code": " \"{}%\".format(round((used_memory / total_memory) * 100, 2))", "compilation_passed": true, "time": 0.1434319019317627, "tests_passed": true, "error": null}
+{"code": " \"{:.2f}%\".format((used_memory / total_memory) * 100)", "compilation_passed": true, "time": 0.15105390548706055, "tests_passed": true, "error": null}
+{"code": " (used_memory/total_memory)*100", "compilation_passed": true, "time": 0.02816009521484375, "tests_passed": false, "error": "TypeError"}
+{"code": " f\"{round((used_memory / total_memory) * 100, 2)}%\"", "compilation_passed": true, "time": 0.14691710472106934, "tests_passed": true, "error": null}
+{"code": " str(int((used_memory / total_memory) * 100)) + '%'", "compilation_passed": true, "time": 0.02868509292602539, "tests_passed": true, "error": null}

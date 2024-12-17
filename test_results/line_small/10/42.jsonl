@@ -1,0 +1,7 @@
+{"code": " []", "compilation_passed": true, "time": 0.0038361549377441406, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " list()", "compilation_passed": true, "time": 0.0016260147094726562, "tests_passed": false, "error": "statistics.StatisticsError"}
+{"code": " [int(i) for i in itertools.chain.from_iterable(T1)]", "compilation_passed": true, "time": 0.001458883285522461, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(i) for sub_list in T1 for i in sub_list]", "compilation_passed": true, "time": 0.0014119148254394531, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(x) for l in T1 for x in l]", "compilation_passed": true, "time": 0.0015192031860351562, "tests_passed": false, "error": "TypeError"}
+{"code": " list(itertools.chain.from_iterable(map(int, i) for i in T1))", "compilation_passed": true, "time": 0.0015292167663574219, "tests_passed": false, "error": "TypeError"}
+{"code": " [int(i) for t in T1 for i in t]", "compilation_passed": true, "time": 0.001402139663696289, "tests_passed": false, "error": "TypeError"}

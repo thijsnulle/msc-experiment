@@ -1,0 +1,11 @@
+{"code": " df.select_dtypes(include=['int64', 'float64'])", "compilation_passed": true, "time": 0.17181611061096191, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=[\"number\", \"float\", \"integer\"])", "compilation_passed": true, "time": 0.17669987678527832, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(np.number)", "compilation_passed": true, "time": 0.1747608184814453, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=float)", "compilation_passed": true, "time": 0.0014200210571289062, "tests_passed": false, "error": "ValueError"}
+{"code": " df.select_dtypes(include=['int', 'float'])", "compilation_passed": true, "time": 0.1749129295349121, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=[np.number])", "compilation_passed": true, "time": 0.4933509826660156, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=['number'])", "compilation_passed": true, "time": 0.17821907997131348, "tests_passed": true, "error": null}
+{"code": " df.select_dtypes(include=[\"number\"])", "compilation_passed": true, "time": 0.17806124687194824, "tests_passed": true, "error": null}
+{"code": " df[df.apply(pd.to_numeric).all()]", "compilation_passed": true, "time": 0.003409147262573242, "tests_passed": false, "error": "pandas.errors.IndexingError"}
+{"code": " df[df.columns[df.apply(lambda x: x.dtype.type in (int, float))]]", "compilation_passed": true, "time": 0.0016551017761230469, "tests_passed": false, "error": "ValueError"}
+{"code": " df.select_dtypes(include=[int, float, \"int8\", \"int16\", \"int32\", \"int64\", \"uint8\", \"uint16\", \"uint32\", \"uint64\"])", "compilation_passed": true, "time": 0.18214869499206543, "tests_passed": true, "error": null}

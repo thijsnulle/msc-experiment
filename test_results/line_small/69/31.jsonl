@@ -1,0 +1,12 @@
+{"code": " random.choices(range(*SALARY_RANGE), k=dict1['EMPXX'])", "compilation_passed": true, "time": 0.011321067810058594, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.000888824462890625, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.010773181915283203, "tests_passed": true, "error": null}
+{"code": " [random.randint(*SALARY_RANGE) for _ in range(dict1['EMPXX'])]", "compilation_passed": true, "time": 0.011052846908569336, "tests_passed": true, "error": null}
+{"code": " [random.randint(*SALARY_RANGE) for _ in range(dict1[\"EMPXX\"])]", "compilation_passed": true, "time": 0.011105060577392578, "tests_passed": true, "error": null}
+{"code": " [random.randint(SALARY_RANGE[0],SALARY_RANGE[1]) for i in range(dict1['EMPXX'])]", "compilation_passed": true, "time": 0.011075973510742188, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00011897087097167969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " random.choices(population=range(SALARY_RANGE[0], SALARY_RANGE[1] + 1), k=dict1['EMPXX'])", "compilation_passed": true, "time": 0.011127948760986328, "tests_passed": true, "error": null}
+{"code": " [random.randint(SALARY_RANGE[0], SALARY_RANGE[1]) for emp_count in dict1.values()]", "compilation_passed": true, "time": 0.012772083282470703, "tests_passed": true, "error": null}
+{"code": " random.sample(", "compilation_passed": false, "time": 0.00010895729064941406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " random.choices(range(SALARY_RANGE[0], SALARY_RANGE[1]),", "compilation_passed": false, "time": 0.0001049041748046875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " random.choices(", "compilation_passed": false, "time": 9.083747863769531e-05, "tests_passed": false, "error": "SyntaxError"}

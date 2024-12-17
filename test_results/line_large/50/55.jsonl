@@ -1,0 +1,14 @@
+{"code": " df.plot.bar(x=\"Timezone\", y=\"Datetime\", figsize=(10, 5))", "compilation_passed": true, "time": 0.13887381553649902, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x=\"Timezone\", y=\"Datetime\", rot=0)", "compilation_passed": true, "time": 0.13481497764587402, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x=\"Timezone\", y=\"Datetime\", rot=90, title=\"Datetime = f(Timezone)\")", "compilation_passed": true, "time": 0.1316828727722168, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x=\"Timezone\", y=\"Datetime\", rot=45)", "compilation_passed": true, "time": 0.13735604286193848, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x=\"Timezone\", y=\"Datetime\", rot=90, title=f\"Datetime = f(Timezone)\")", "compilation_passed": true, "time": 0.1435542106628418, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Timezone\", y=\"Datetime\", legend=False, kind=\"bar\")", "compilation_passed": true, "time": 0.13284707069396973, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x=\"Timezone\", y=\"Datetime\", rot=90)", "compilation_passed": true, "time": 0.1356339454650879, "tests_passed": true, "error": null}
+{"code": " df.plot(x=\"Timezone\", y=\"Datetime\", kind=\"bar\", rot=90)", "compilation_passed": true, "time": 0.13805222511291504, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x=\"Timezone\", y=\"Datetime\", rot=45, title=\"Datetime = f(Timezone)\")", "compilation_passed": true, "time": 0.1407639980316162, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x=\"Timezone\", y=\"Datetime\", figsize=(12, 6))", "compilation_passed": true, "time": 0.142744779586792, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x=\"Timezone\", y=\"Datetime\")", "compilation_passed": true, "time": 0.14099788665771484, "tests_passed": true, "error": null}
+{"code": " df.plot(", "compilation_passed": false, "time": 0.00016736984252929688, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(x=\"Timezone\", y=\"Datetime\", kind=\"bar\", legend=False)", "compilation_passed": true, "time": 0.1366868019104004, "tests_passed": true, "error": null}
+{"code": " df.plot.bar(x=\"Timezone\", y=\"Datetime\", figsize=(10, 6))", "compilation_passed": true, "time": 0.14241814613342285, "tests_passed": true, "error": null}

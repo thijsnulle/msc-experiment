@@ -1,0 +1,6 @@
+{"code": " self.rfile.read(length).decode('utf-8')", "compilation_passed": true, "time": 0.002933979034423828, "tests_passed": false, "error": "AttributeError"}
+{"code": " json.loads(self.rfile.read(length).decode('utf-8'))", "compilation_passed": true, "time": 0.005658864974975586, "tests_passed": true, "error": null}
+{"code": " json.loads(self.rfile.read(length))", "compilation_passed": true, "time": 0.00556492805480957, "tests_passed": true, "error": null}
+{"code": " self.rfile.read(length).decode()", "compilation_passed": true, "time": 0.0029320716857910156, "tests_passed": false, "error": "AttributeError"}
+{"code": " self.rfile.read(length)", "compilation_passed": true, "time": 0.002908945083618164, "tests_passed": false, "error": "TypeError"}
+{"code": " json.loads(self.rfile.read(length).decode())", "compilation_passed": true, "time": 0.005613088607788086, "tests_passed": true, "error": null}

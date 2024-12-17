@@ -1,0 +1,12 @@
+{"code": " pdict = cgi.parse_header(self.headers.get('content-type', ''))", "compilation_passed": true, "time": 0.005769968032836914, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_header(self.headers.get(", "compilation_passed": false, "time": 0.00013494491577148438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pdict = cgi.parse_headers(self.headers.get('Content-Type', ''))", "compilation_passed": true, "time": 0.0019502639770507812, "tests_passed": false, "error": "AttributeError"}
+{"code": " pdict = self.parse_header()", "compilation_passed": true, "time": 0.0019562244415283203, "tests_passed": false, "error": "AttributeError"}
+{"code": " pdict = cgi.parse_header(self.headers.get(\"content-type\", \"\"))", "compilation_passed": true, "time": 0.004807949066162109, "tests_passed": true, "error": null}
+{"code": " pdict = self.headers['content-type'].split(';')", "compilation_passed": true, "time": 0.0019419193267822266, "tests_passed": false, "error": "ValueError"}
+{"code": " pdict = cgi.parse_header(self.headers.get('Content-Type', ''))", "compilation_passed": true, "time": 0.003451108932495117, "tests_passed": true, "error": null}
+{"code": " pdict = cgi.parse_header(self.headers.get('content-type'))", "compilation_passed": true, "time": 0.005454063415527344, "tests_passed": true, "error": null}
+{"code": " pdict = self.headers.get_content_type_and_params()", "compilation_passed": true, "time": 0.0019588470458984375, "tests_passed": false, "error": "AttributeError"}
+{"code": " pdict = self.headers[\"content-type\"], self.headers[\"content-length\"]", "compilation_passed": true, "time": 0.001953125, "tests_passed": false, "error": "KeyError"}
+{"code": " cntlen = self.headers['Content-Type'], 0", "compilation_passed": true, "time": 0.002604246139526367, "tests_passed": false, "error": "KeyError"}
+{"code": " pdict = cgi.parse_headers(self.headers.get('content-type', ''))", "compilation_passed": true, "time": 0.001950979232788086, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,13 @@
+{"code": " [(city, randint(1000, 50000)) for city in cities_list]", "compilation_passed": true, "time": 0.001013040542602539, "tests_passed": true, "error": null}
+{"code": " [{'City': city, 'Population': randint(10000, 2000000)} for city in cities_list]", "compilation_passed": true, "time": 0.001085042953491211, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.0009148120880126953, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(columns=[\"City\", \"Population\"])", "compilation_passed": true, "time": 0.0010859966278076172, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.0015158653259277344, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 7.772445678710938e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'City': cities_list, 'Population': [round(randint(1, 1000000)) for _ in cities_list]})", "compilation_passed": true, "time": 0.0008819103240966797, "tests_passed": false, "error": "AttributeError"}
+{"code": " {}", "compilation_passed": true, "time": 0.0007941722869873047, "tests_passed": false, "error": "AttributeError"}
+{"code": " [", "compilation_passed": false, "time": 6.67572021484375e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 6.008148193359375e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({'City': cities_list, 'Population': [0] * len(cities_list)})", "compilation_passed": true, "time": 0.0008456707000732422, "tests_passed": false, "error": "AttributeError"}
+{"code": " [[city, int(math.ceil(randint(0, 1000)))]", "compilation_passed": false, "time": 8.988380432128906e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"City\": cities_list,", "compilation_passed": false, "time": 6.866455078125e-05, "tests_passed": false, "error": "SyntaxError"}

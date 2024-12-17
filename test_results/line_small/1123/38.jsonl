@@ -1,0 +1,23 @@
+{"code": " ssock.get_expiration_time()", "compilation_passed": true, "time": 0.0030159950256347656, "tests_passed": true, "error": null}
+{"code": " ssock.get_ssn().cert.notAfter.decode('utf-8')", "compilation_passed": true, "time": 0.0025491714477539062, "tests_passed": true, "error": null}
+{"code": " ssock.get_certificate_info()[4].split('= ')[1]", "compilation_passed": true, "time": 0.0033600330352783203, "tests_passed": true, "error": null}
+{"code": " ssock.get_cert_expire_time().strftime(\"%Y-%m-%d %H:%M:%S\")", "compilation_passed": true, "time": 0.002393960952758789, "tests_passed": true, "error": null}
+{"code": " ssock.get_full_cert_status()", "compilation_passed": true, "time": 0.0028727054595947266, "tests_passed": true, "error": null}
+{"code": " ssock.get_server_certificate()['notAfter'].decode()", "compilation_passed": true, "time": 0.002602100372314453, "tests_passed": true, "error": null}
+{"code": " datetime.datetime.fromtimestamp(", "compilation_passed": false, "time": 0.00016617774963378906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ssock.get_expiry_date()", "compilation_passed": true, "time": 0.0022389888763427734, "tests_passed": true, "error": null}
+{"code": " ssock.get_certificate_expiry().strftime(\"%Y-%m-%d %H:%M:%S\")", "compilation_passed": true, "time": 0.0026810169219970703, "tests_passed": true, "error": null}
+{"code": " datetime.datetime.utcfromtimestamp(ssock.get_ssl_version().version_info.max_proto_version).strftime('%Y-%m-%d %H:%M:%S')", "compilation_passed": true, "time": 0.0025637149810791016, "tests_passed": false, "error": "NameError"}
+{"code": " ssock.get_certificate_expiry().isoformat()", "compilation_passed": true, "time": 0.002608776092529297, "tests_passed": true, "error": null}
+{"code": " ssock.get_certificate_expires()", "compilation_passed": true, "time": 0.002489805221557617, "tests_passed": true, "error": null}
+{"code": " ssock.get_certificate_expiry().strftime('%Y-%m-%d %H:%M:%S')", "compilation_passed": true, "time": 0.0024950504302978516, "tests_passed": true, "error": null}
+{"code": " datetime.strftime(datetime.fromtimestamp(ssock.get_certificate_expiration_time()), '%Y-%m-%d %H:%M:%S')", "compilation_passed": true, "time": 0.0019159317016601562, "tests_passed": false, "error": "NameError"}
+{"code": " datetime.datetime.strftime(", "compilation_passed": false, "time": 0.0001659393310546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " ssock.get_certificate_expired_time().ctime()", "compilation_passed": true, "time": 0.0024690628051757812, "tests_passed": true, "error": null}
+{"code": " ssock.get_cert_status()['dates'][1].strftime('%Y-%m-%d %H:%M:%S')", "compilation_passed": true, "time": 0.0033690929412841797, "tests_passed": true, "error": null}
+{"code": " ssock.get_certificate_info()[1]", "compilation_passed": true, "time": 0.002385854721069336, "tests_passed": true, "error": null}
+{"code": " ssock.get_expires_date()", "compilation_passed": true, "time": 0.0022118091583251953, "tests_passed": true, "error": null}
+{"code": " ssock.get_certificate_expiry()", "compilation_passed": true, "time": 0.0027141571044921875, "tests_passed": true, "error": null}
+{"code": " ssock.get_server_certificate()['notAfter']", "compilation_passed": true, "time": 0.0023529529571533203, "tests_passed": true, "error": null}
+{"code": " ssock.get_certificate_expiration().strftime('%Y-%m-%d %H:%M:%S')", "compilation_passed": true, "time": 0.0028409957885742188, "tests_passed": true, "error": null}
+{"code": " ssock.get_full_certs()['validity_notBefore']", "compilation_passed": true, "time": 0.0024449825286865234, "tests_passed": true, "error": null}

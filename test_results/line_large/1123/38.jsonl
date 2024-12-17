@@ -1,0 +1,9 @@
+{"code": " ssock.getpeercert()['notAfter']", "compilation_passed": true, "time": 0.007445096969604492, "tests_passed": true, "error": null}
+{"code": " ssock.getpeercert()[\"notAfter\"]", "compilation_passed": true, "time": 0.007308006286621094, "tests_passed": true, "error": null}
+{"code": " ssl.DER_cert_to_PEM_cert(ssock.getpeercert(True))", "compilation_passed": true, "time": 0.0029900074005126953, "tests_passed": false, "error": "TypeError"}
+{"code": " str(ssl.cert_time_to_seconds(ssl.get_server_certificate((domain, 443))))", "compilation_passed": true, "time": 0.022045135498046875, "tests_passed": false, "error": "ValueError"}
+{"code": " ssl.cert_time_to_seconds(ssock.getpeercert()[\"notAfter\"])", "compilation_passed": true, "time": 0.0020241737365722656, "tests_passed": false, "error": "ValueError"}
+{"code": " ssl.cert_time_to_seconds(ssl.get_server_certificate(sock.getpeername()))", "compilation_passed": true, "time": 0.0022470951080322266, "tests_passed": false, "error": "ValueError"}
+{"code": " ssock.getpeercert()[\"notAfter\"].decode().strip()", "compilation_passed": true, "time": 0.0019359588623046875, "tests_passed": false, "error": "AttributeError"}
+{"code": " ssl._ssl._ssl_time_to_unix(ssock.getpeercert()['notAfter'])", "compilation_passed": true, "time": 0.0019578933715820312, "tests_passed": false, "error": "AttributeError"}
+{"code": " str(ssl._ssl._ssl_time_arg_to_int(ssock.getpeercert()['notAfter']))", "compilation_passed": true, "time": 0.001958131790161133, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,24 @@
+{"code": " int(sum(", "compilation_passed": false, "time": 0.0001499652862548828, "tests_passed": false, "error": "SyntaxError"}
+{"code": " len(re.findall(BRACKETS_PATTERN, df.values.tolist()))", "compilation_passed": false, "time": 9.822845458984375e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.subn(BRACKETS_PATTERN, '', str(df))[1]", "compilation_passed": false, "time": 0.00012421607971191406, "tests_passed": false, "error": "IndentationError"}
+{"code": " len(re.sub(BRACKETS_PATTERN, '', df.values.astype(str).flatten()).tolist())", "compilation_passed": false, "time": 0.0001049041748046875, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum(map(", "compilation_passed": false, "time": 0.00014591217041015625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sum([len(re.findall(BRACKETS_PATTERN, col)) for col in df.sum() if pd.notna(col)])", "compilation_passed": false, "time": 0.00010633468627929688, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum([len(re.findall(BRACKETS_PATTERN, str(col))) for col in df.values.flatten()])", "compilation_passed": false, "time": 0.00012993812561035156, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum(len(re.findall(BRACKETS_PATTERN, str(elem))) for _, row in df.iterrows() for elem in row)", "compilation_passed": false, "time": 0.00011301040649414062, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum([len(re.findall(BRACKETS_PATTERN, str(col)))", "compilation_passed": false, "time": 9.083747863769531e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sum(", "compilation_passed": true, "time": 0.0016701221466064453, "tests_passed": false, "error": "TypeError"}
+{"code": " sum(df.astype(str).applymap(lambda x: len(re.findall(BRACKETS_PATTERN, x))))", "compilation_passed": false, "time": 0.0001480579376220703, "tests_passed": false, "error": "IndentationError"}
+{"code": " int(df.astype(str).sum().str.count(BRACKETS_PATTERN))", "compilation_passed": false, "time": 9.894371032714844e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum(len(re.findall(BRACKETS_PATTERN, str(value)))", "compilation_passed": false, "time": 0.00012493133544921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sum([re.findall(BRACKETS_PATTERN, df.iloc[i].to_string()) for i in range(len(df))])", "compilation_passed": false, "time": 0.00011324882507324219, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum([len(re.findall(BRACKETS_PATTERN, str(row))) for row in df.values.flatten()])", "compilation_passed": false, "time": 9.489059448242188e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum([", "compilation_passed": false, "time": 5.412101745605469e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " int(len(\"\".join(df.values.astype(str))) \\", "compilation_passed": false, "time": 0.00011706352233886719, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sum(re.subn(BRACKETS_PATTERN, '', str(df))[1])", "compilation_passed": false, "time": 0.00010204315185546875, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.findall(BRACKETS_PATTERN, str(df.values)).count('(') + re.findall(BRACKETS_PATTERN, str(df.values)).count('{') + re.findall(BRACKETS_PATTERN, str(df.values)).count('[')", "compilation_passed": false, "time": 0.00011491775512695312, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum([len(re.findall(BRACKETS_PATTERN, str(cell))) for cell in df.values.flatten()])", "compilation_passed": false, "time": 9.393692016601562e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum([len(re.findall(BRACKETS_PATTERN, str(col))) for col in df.values])", "compilation_passed": false, "time": 0.00010228157043457031, "tests_passed": false, "error": "IndentationError"}
+{"code": " len(re.findall(BRACKETS_PATTERN, df.values.astype(str).sum()))", "compilation_passed": false, "time": 9.584426879882812e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum(df.astype(str).applymap(lambda x: len(re.findall(BRACKETS_PATTERN, x)).sum()))", "compilation_passed": false, "time": 0.00010514259338378906, "tests_passed": false, "error": "IndentationError"}
+{"code": " re.findall(BRACKETS_PATTERN, df.to_csv(header=False))", "compilation_passed": false, "time": 8.702278137207031e-05, "tests_passed": false, "error": "IndentationError"}

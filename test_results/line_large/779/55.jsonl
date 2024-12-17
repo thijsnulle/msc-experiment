@@ -1,0 +1,4 @@
+{"code": "rmtree(directory)", "compilation_passed": true, "time": 0.0032203197479248047, "tests_passed": false, "error": "AttributeError"}
+{"code": "copytree(directory, os.path.join(backup_dir, os.path.basename(directory)))", "compilation_passed": true, "time": 0.003158092498779297, "tests_passed": false, "error": "AttributeError"}
+{"code": "rmtree(directory)  # Deleting contents after backup", "compilation_passed": true, "time": 0.0037078857421875, "tests_passed": false, "error": "AttributeError"}
+{"code": "copytree(directory, backup_dir)", "compilation_passed": true, "time": 0.003841876983642578, "tests_passed": false, "error": "AttributeError"}

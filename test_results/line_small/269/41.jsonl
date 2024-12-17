@@ -1,3 +1,4 @@
 {"code": " np.array(list(data_dict.values()))", "compilation_passed": true, "time": 0.300706148147583, "tests_passed": true, "error": null}
 {"code": " np.array(data_dict.values())", "compilation_passed": true, "time": 0.021924972534179688, "tests_passed": false, "error": "TypeError"}
 {"code": " np.array([data_dict.get(key) for key in data_dict])", "compilation_passed": true, "time": 0.3165440559387207, "tests_passed": true, "error": null}
+{"code": " np.asarray(list(data_dict.values()))", "compilation_passed": true, "time": 0.06525301933288574, "tests_passed": true, "error": null}

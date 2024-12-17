@@ -1,0 +1,17 @@
+{"code": " and dataframe[column].dtype in [\"object\", \"string\"]:", "compilation_passed": true, "time": 0.005586147308349609, "tests_passed": true, "error": null}
+{"code": " and converted_column.dtype in [\"float64\", \"int64\"]:", "compilation_passed": true, "time": 0.005583047866821289, "tests_passed": true, "error": null}
+{"code": " and pd.api.types.is_numeric_dtype(converted_column):", "compilation_passed": true, "time": 0.005643129348754883, "tests_passed": true, "error": null}
+{"code": " and pd.api.types.is_float_dtype(converted_column):", "compilation_passed": true, "time": 0.005618095397949219, "tests_passed": true, "error": null}
+{"code": " and converted_column.dtype not in [", "compilation_passed": false, "time": 0.0001850128173828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " and dataframe[column].dtype == converted_column.dtype:", "compilation_passed": true, "time": 0.004669904708862305, "tests_passed": false, "error": "TypeError"}
+{"code": " and not converted_column.isna().any():  # Check if any NaN values are present", "compilation_passed": true, "time": 0.005639076232910156, "tests_passed": true, "error": null}
+{"code": " and (converted_column.dtype in [\"float64\", \"int64\"]):", "compilation_passed": true, "time": 0.0055828094482421875, "tests_passed": true, "error": null}
+{"code": " and converted_column.notna().any():  # Check if there are any non-nan values", "compilation_passed": true, "time": 0.005737781524658203, "tests_passed": true, "error": null}
+{"code": " and converted_column.dtype == \"float64\":", "compilation_passed": true, "time": 0.005613088607788086, "tests_passed": true, "error": null}
+{"code": " and dataframe[column].dtype not in [\"float64\", \"int64\"]:", "compilation_passed": true, "time": 0.005567073822021484, "tests_passed": true, "error": null}
+{"code": " and converted_column.dtype not in [\"float64\", \"int64\"]:", "compilation_passed": true, "time": 0.004534244537353516, "tests_passed": false, "error": "TypeError"}
+{"code": " and converted_column.dtype == \"float64\":  # noqa: E225", "compilation_passed": true, "time": 0.00590205192565918, "tests_passed": true, "error": null}
+{"code": " and not converted_column.dtype in [", "compilation_passed": false, "time": 0.00017309188842773438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " and not converted_column.eq(dataframe[column]).all():", "compilation_passed": true, "time": 0.005690097808837891, "tests_passed": true, "error": null}
+{"code": " and not converted_column.dtype == \"int64\":", "compilation_passed": true, "time": 0.005619049072265625, "tests_passed": true, "error": null}
+{"code": " and dataframe[column].dtype not in [\"datetime64\"]:", "compilation_passed": true, "time": 0.005632877349853516, "tests_passed": true, "error": null}

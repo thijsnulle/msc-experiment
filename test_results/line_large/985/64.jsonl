@@ -1,0 +1,7 @@
+{"code": " isinstance(population, float):", "compilation_passed": true, "time": 0.00605010986328125, "tests_passed": true, "error": null}
+{"code": " isinstance(population, float) and math.floor(population) == population:", "compilation_passed": true, "time": 0.005691051483154297, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(population, float):", "compilation_passed": true, "time": 0.004884004592895508, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(population, float) and population.is_integer():", "compilation_passed": true, "time": 0.005619049072265625, "tests_passed": false, "error": "ValueError"}
+{"code": " not math.isnan(population):", "compilation_passed": true, "time": 0.0049059391021728516, "tests_passed": false, "error": "TypeError"}
+{"code": " isinstance(population, float) and math.isfinite(population):", "compilation_passed": true, "time": 0.006051063537597656, "tests_passed": true, "error": null}
+{"code": " not math.isnan(population) and math.modf(population)[0] != 0:", "compilation_passed": true, "time": 0.004876852035522461, "tests_passed": false, "error": "TypeError"}

@@ -1,0 +1,15 @@
+{"code": " plt.subplot()", "compilation_passed": true, "time": 0.01942610740661621, "tests_passed": true, "error": null}
+{"code": " plt.subplot(1, 1, 1)", "compilation_passed": true, "time": 0.019301891326904297, "tests_passed": true, "error": null}
+{"code": " fdist.plot(top_n)", "compilation_passed": true, "time": 0.09243083000183105, "tests_passed": true, "error": null}
+{"code": " plt.axes()", "compilation_passed": true, "time": 0.02571415901184082, "tests_passed": true, "error": null}
+{"code": " plt.gca()", "compilation_passed": true, "time": 0.020337820053100586, "tests_passed": true, "error": null}
+{"code": " plt.subplot(111)", "compilation_passed": true, "time": 0.021893024444580078, "tests_passed": true, "error": null}
+{"code": " fdist.plot(top_n, title=\"Frequency Distribution\", figsize=(8, 4))", "compilation_passed": true, "time": 0.01981067657470703, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot(top_n, figsize=(12, 7), cum=True, show=False)", "compilation_passed": true, "time": 0.019469022750854492, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot(top_n, title='Top most common words')", "compilation_passed": true, "time": 0.09328913688659668, "tests_passed": true, "error": null}
+{"code": " fdist.plot(top_n, bins=5, cumulative=False, title='Frequency Distribution')", "compilation_passed": true, "time": 0.018851041793823242, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot(top_n,", "compilation_passed": false, "time": 0.00017905235290527344, "tests_passed": false, "error": "SyntaxError"}
+{"code": " fdist.plot(top_n, width=0.5, histtype='step', alpha=0.4, label='Frequency Distribution')", "compilation_passed": true, "time": 0.01975274085998535, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot(top_n, cumulative=True)", "compilation_passed": true, "time": 0.09894824028015137, "tests_passed": true, "error": null}
+{"code": " fdist.plot(top_n=top_n, title=\"Frequency Distribution of Words\")", "compilation_passed": true, "time": 0.026012897491455078, "tests_passed": false, "error": "AttributeError"}
+{"code": " fdist.plot(top_n=top_n, title=\"Frequency Distribution\", facecolor='white',", "compilation_passed": false, "time": 0.00017309188842773438, "tests_passed": false, "error": "SyntaxError"}

@@ -1,0 +1,28 @@
+{"code": " df.apply(lambda x: np.cumsum(np.unique(x, return_counts=True)[1]) / length)", "compilation_passed": true, "time": 0.0019180774688720703, "tests_passed": true, "error": null}
+{"code": " df.cumsum(axis=0)", "compilation_passed": true, "time": 0.0008440017700195312, "tests_passed": true, "error": null}
+{"code": " df.cumsum() / length", "compilation_passed": true, "time": 0.00096893310546875, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: x.sort_values())", "compilation_passed": true, "time": 0.0012900829315185547, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda col: col.value_counts(normalize=True).sort_index().cumsum())", "compilation_passed": true, "time": 0.0027642250061035156, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: [float(i) / sum(x) for i in x.cumsum()], axis=0)", "compilation_passed": true, "time": 0.001264810562133789, "tests_passed": false, "error": "ZeroDivisionError"}
+{"code": " df.apply(lambda x: (x - np.min(x)) / (np.max(x) - np.min(x)))", "compilation_passed": true, "time": 0.0014982223510742188, "tests_passed": true, "error": null}
+{"code": " pd.concat([df[col].value_counts(normalize=True, sort=False).cumsum() for col in COLUMNS], axis=1)", "compilation_passed": true, "time": 0.0015959739685058594, "tests_passed": true, "error": null}
+{"code": " df.applymap(lambda x: sum(x < np.mean(df))) / length", "compilation_passed": true, "time": 0.0011370182037353516, "tests_passed": false, "error": "TypeError"}
+{"code": " df.apply(lambda x: np.linspace(0, 1, len(x)), axis=1).stack()", "compilation_passed": true, "time": 0.0017650127410888672, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame([df[col].value_counts(normalize=True).sort_index().cumsum() for col in COLUMNS]).T", "compilation_passed": true, "time": 0.0019371509552001953, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: x.rank(method='dense') / len(x), axis=0)", "compilation_passed": true, "time": 0.002073049545288086, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: (x - min_value) / (max_value - min_value))", "compilation_passed": true, "time": 0.0012819766998291016, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda col: col.value_counts(normalize=True).sort_index())", "compilation_passed": true, "time": 0.0025250911712646484, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: np.cumsum(x) / length, axis=0)", "compilation_passed": true, "time": 0.0012028217315673828, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda col: col.cumsum() / length, axis=0)", "compilation_passed": true, "time": 0.0012187957763671875, "tests_passed": true, "error": null}
+{"code": " pd.concat([df, pd.DataFrame({col: df[col].rank(method='dense', ascending=True) / len(df) for col in COLUMNS})], axis=1)", "compilation_passed": true, "time": 0.0016410350799560547, "tests_passed": true, "error": null}
+{"code": " pd.concat([df[column].value_counts(normalize=True).sort_index().cumsum() for column in COLUMNS], axis=1, keys=COLUMNS)", "compilation_passed": true, "time": 0.0030579566955566406, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: np.sort(np.hstack((x, np.arange(length)))))", "compilation_passed": true, "time": 0.001138925552368164, "tests_passed": true, "error": null}
+{"code": " pd.concat([df, df.apply(lambda x: x.value_counts(normalize=True).sort_index().cumsum())], axis=1)", "compilation_passed": true, "time": 0.0020961761474609375, "tests_passed": true, "error": null}
+{"code": " pd.concat([df[col].rank(pct=True) for col in df], axis=1)", "compilation_passed": true, "time": 0.0012180805206298828, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: x.rank(method='min') / len(x))", "compilation_passed": true, "time": 0.0013570785522460938, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda col: np.cumsum(np.bincount(col.astype(np.int64), minlength=max_value) / length), axis=0)", "compilation_passed": true, "time": 0.00138092041015625, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda col: (col - min_value) / (max_value - min_value))", "compilation_passed": true, "time": 0.0012309551239013672, "tests_passed": true, "error": null}
+{"code": " pd.concat([df[c].rank(pct=True) for c in COLUMNS], axis=1)", "compilation_passed": true, "time": 0.0011699199676513672, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({column: df[column].value_counts().sort_index().cumsum() / length for column in df.columns})", "compilation_passed": true, "time": 0.0028548240661621094, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: np.cumsum(np.unique(np.sort(x))) / x.max(), axis=0)", "compilation_passed": true, "time": 0.0014369487762451172, "tests_passed": true, "error": null}
+{"code": " df.apply(lambda x: (x.rank(method='min') / len(x)), axis=0)", "compilation_passed": true, "time": 0.0013108253479003906, "tests_passed": true, "error": null}

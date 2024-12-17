@@ -1,0 +1,11 @@
+{"code": " [i for sublist in list_of_lists for i in sublist if i]", "compilation_passed": true, "time": 0.0006892681121826172, "tests_passed": true, "error": null}
+{"code": " list(itertools.chain.from_iterable(list_of_lists))", "compilation_passed": true, "time": 0.0006699562072753906, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.0006380081176757812, "tests_passed": true, "error": null}
+{"code": " itertools.chain.from_iterable(list_of_lists)", "compilation_passed": true, "time": 0.0007050037384033203, "tests_passed": false, "error": "TypeError"}
+{"code": " list(itertools.chain(*list_of_lists))", "compilation_passed": true, "time": 0.0006499290466308594, "tests_passed": true, "error": null}
+{"code": " [letter for sublist in list_of_lists for letter in sublist]", "compilation_passed": true, "time": 0.0006430149078369141, "tests_passed": true, "error": null}
+{"code": " [letter for row in list_of_lists for letter in row]", "compilation_passed": true, "time": 0.0006432533264160156, "tests_passed": true, "error": null}
+{"code": " [element for sublist in list_of_lists for element in sublist]", "compilation_passed": true, "time": 0.0006411075592041016, "tests_passed": true, "error": null}
+{"code": " [item for sublist in list_of_lists for item in sublist]", "compilation_passed": true, "time": 0.0006489753723144531, "tests_passed": true, "error": null}
+{"code": " [i for sub in list_of_lists for i in sub]", "compilation_passed": true, "time": 0.0006859302520751953, "tests_passed": true, "error": null}
+{"code": " itertools.chain(*list_of_lists)", "compilation_passed": true, "time": 0.0006000995635986328, "tests_passed": false, "error": "TypeError"}

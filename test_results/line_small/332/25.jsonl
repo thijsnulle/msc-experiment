@@ -1,0 +1,16 @@
+{"code": " Counter(words) - Counter(stopwords.words('english'))", "compilation_passed": true, "time": 0.0007789134979248047, "tests_passed": true, "error": null}
+{"code": " Counter(words)", "compilation_passed": true, "time": 0.0005588531494140625, "tests_passed": true, "error": null}
+{"code": " Counter(w for w in words if w.lower() not in stopwords.words('english'))", "compilation_passed": true, "time": 0.001641988754272461, "tests_passed": true, "error": null}
+{"code": " Counter(w for w in words if w.lower() not in stopwords.words(\"english\"))", "compilation_passed": true, "time": 0.0016660690307617188, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word.lower() not in stopwords.words('english')]", "compilation_passed": true, "time": 0.0016231536865234375, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word.lower() not in stopwords.words()]", "compilation_passed": true, "time": 0.04938197135925293, "tests_passed": true, "error": null}
+{"code": " [word for word in words if word not in stopwords.words('english')]", "compilation_passed": true, "time": 0.0008528232574462891, "tests_passed": true, "error": null}
+{"code": " Counter([w for w in words if not w.isupper() and not w.isnumeric()])", "compilation_passed": true, "time": 0.0005700588226318359, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', text)", "compilation_passed": true, "time": 0.0005447864532470703, "tests_passed": true, "error": null}
+{"code": " Counter(words).most_common()", "compilation_passed": true, "time": 0.0006029605865478516, "tests_passed": true, "error": null}
+{"code": " set(word.lower() for word in words if word.lower() not in stopwords.words())", "compilation_passed": true, "time": 0.029703855514526367, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\b\\w+\\b', text.lower())", "compilation_passed": true, "time": 0.0005578994750976562, "tests_passed": true, "error": null}
+{"code": " Counter(word.lower() for word in words if word not in stopwords.words('en'))", "compilation_passed": true, "time": 0.0026292800903320312, "tests_passed": false, "error": "OSError"}
+{"code": " [w for w in words if w.lower() not in stopwords.words(\"english\")]", "compilation_passed": true, "time": 0.0015780925750732422, "tests_passed": true, "error": null}
+{"code": " [word for word in words if not word.lower() in stopwords.words(\"english\")]", "compilation_passed": true, "time": 0.001558065414428711, "tests_passed": true, "error": null}
+{"code": " set(words) - set(stopwords.words('english'))", "compilation_passed": true, "time": 0.0007028579711914062, "tests_passed": true, "error": null}

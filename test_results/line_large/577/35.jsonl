@@ -1,0 +1,17 @@
+{"code": " unicodedata.normalize(", "compilation_passed": false, "time": 0.00010085105895996094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " unicodedata.normalize('NFKD', file_path.name).encode(", "compilation_passed": false, "time": 0.00011897087097167969, "tests_passed": false, "error": "SyntaxError"}
+{"code": " file_path.name", "compilation_passed": true, "time": 0.0010421276092529297, "tests_passed": false, "error": "KeyError"}
+{"code": " unicodedata.normalize('NFD', file_path.name).encode(", "compilation_passed": false, "time": 0.00010704994201660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " normalize(file_path.name)", "compilation_passed": true, "time": 0.0010440349578857422, "tests_passed": false, "error": "NameError"}
+{"code": " unicodedata.normalize('NFD', file_path.stem).encode(", "compilation_passed": false, "time": 0.00010585784912109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " normalize_file_name(file_path.stem)", "compilation_passed": true, "time": 0.0009469985961914062, "tests_passed": false, "error": "NameError"}
+{"code": " unicodedata.normalize('NFKC', file_path.name)", "compilation_passed": true, "time": 0.0009942054748535156, "tests_passed": false, "error": "KeyError"}
+{"code": " unicodedata.normalize('NFKD', file_path.name).encode('ascii', 'ignore').decode()", "compilation_passed": true, "time": 0.0023360252380371094, "tests_passed": true, "error": null}
+{"code": " unicodedata.normalize('NFKD', file_path.name).encode('ascii', 'ignore').decode('ascii')", "compilation_passed": true, "time": 0.002318143844604492, "tests_passed": true, "error": null}
+{"code": " normalize_filename(file_path.name)", "compilation_passed": true, "time": 0.0009679794311523438, "tests_passed": false, "error": "NameError"}
+{"code": " unicodedata.normalize('NFKD', file_path.stem).encode('ascii', 'ignore').decode()", "compilation_passed": true, "time": 0.001506805419921875, "tests_passed": false, "error": "KeyError"}
+{"code": " normalize_file_name(file_path.name)", "compilation_passed": true, "time": 0.0013282299041748047, "tests_passed": false, "error": "NameError"}
+{"code": " unicodedata.normalize('NFD', file_path.name).encode('ascii', 'ignore').decode()", "compilation_passed": true, "time": 0.002844095230102539, "tests_passed": true, "error": null}
+{"code": " unicodedata.normalize(\"NFKD\", file_path.name).encode(\"ascii\", \"ignore\").decode()", "compilation_passed": true, "time": 0.0025060176849365234, "tests_passed": true, "error": null}
+{"code": " unicodedata.normalize('NFKD', file_path.stem).encode('ascii', 'ignore').decode('ascii')", "compilation_passed": true, "time": 0.0010671615600585938, "tests_passed": false, "error": "KeyError"}
+{"code": " unicodedata.normalize('NFD', file_path.name)", "compilation_passed": true, "time": 0.0010418891906738281, "tests_passed": false, "error": "KeyError"}

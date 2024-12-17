@@ -1,0 +1,13 @@
+{"code": " sorted(primes, key=lambda x: math.degrees(math.radians(x)))", "compilation_passed": true, "time": 0.0006127357482910156, "tests_passed": true, "error": null}
+{"code": " sorted(primes, key=lambda x: math.degrees(math.atan(1 / x)))", "compilation_passed": true, "time": 0.0006101131439208984, "tests_passed": true, "error": null}
+{"code": " sorted(primes, key=lambda x: math.degrees(math.radians(x)), reverse=True)", "compilation_passed": true, "time": 0.0006239414215087891, "tests_passed": true, "error": null}
+{"code": " sorted(primes, key=lambda x: math.degrees(math.atan(1 / x)), reverse=False)", "compilation_passed": true, "time": 0.0006029605865478516, "tests_passed": true, "error": null}
+{"code": " sorted(primes, key=lambda x: degrees(math.radians(x)))", "compilation_passed": true, "time": 0.0009210109710693359, "tests_passed": false, "error": "NameError"}
+{"code": " sorted(primes, key=lambda x: math.degrees(math.radians(x)), reverse=False)", "compilation_passed": true, "time": 0.000560760498046875, "tests_passed": true, "error": null}
+{"code": " sorted(primes, key=lambda x: math.degrees(x.bit_length()))", "compilation_passed": true, "time": 0.0005941390991210938, "tests_passed": true, "error": null}
+{"code": " sorted(primes, key=lambda x: math.degrees(math.asin(1 / x)))", "compilation_passed": true, "time": 0.0005891323089599609, "tests_passed": true, "error": null}
+{"code": " sorted(primes, key=lambda x: math.degrees(math.atan(1 / x)), reverse=True)", "compilation_passed": true, "time": 0.0005879402160644531, "tests_passed": true, "error": null}
+{"code": " sorted(primes, key=lambda x: math.degrees(x))", "compilation_passed": true, "time": 0.0005288124084472656, "tests_passed": true, "error": null}
+{"code": " sorted(primes, key=lambda x: math.degrees(math.atan(1/x)))", "compilation_passed": true, "time": 0.0005929470062255859, "tests_passed": true, "error": null}
+{"code": " sorted(primes, key=lambda x: math.degrees(math.atan(x)), reverse=False)", "compilation_passed": true, "time": 0.0005867481231689453, "tests_passed": true, "error": null}
+{"code": " sorted(primes, key=lambda x: math.degrees(math.atan2(x)))", "compilation_passed": true, "time": 0.0005469322204589844, "tests_passed": false, "error": "TypeError"}

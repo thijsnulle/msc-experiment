@@ -1,0 +1,13 @@
+{"code": "set_xticks(np.arange(1, 13, 1))", "compilation_passed": true, "time": 0.19564080238342285, "tests_passed": true, "error": null}
+{"code": "set_xticks(sales_data.Month)", "compilation_passed": true, "time": 0.1906108856201172, "tests_passed": true, "error": null}
+{"code": "set_xticks(sales_data['Month'])", "compilation_passed": true, "time": 0.1969141960144043, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(1, 13))", "compilation_passed": true, "time": 0.1803898811340332, "tests_passed": true, "error": null}
+{"code": "xaxis.set_major_locator(mticker.MultipleLocator(1))", "compilation_passed": true, "time": 0.0342409610748291, "tests_passed": false, "error": "NameError"}
+{"code": "set_xticks(sales_data.index.values)", "compilation_passed": true, "time": 0.038516998291015625, "tests_passed": true, "error": null}
+{"code": "set_xticks(np.arange(1, 13), minor=False)", "compilation_passed": true, "time": 0.19288206100463867, "tests_passed": true, "error": null}
+{"code": "set_xticks(range(1, 13))", "compilation_passed": true, "time": 0.1843428611755371, "tests_passed": true, "error": null}
+{"code": "set_xticks(sales_data.index)", "compilation_passed": true, "time": 0.03759908676147461, "tests_passed": true, "error": null}
+{"code": "set_xticks([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])", "compilation_passed": true, "time": 0.18224096298217773, "tests_passed": true, "error": null}
+{"code": "set_xticks(list(sales_data.index))", "compilation_passed": true, "time": 0.03815507888793945, "tests_passed": true, "error": null}
+{"code": "xaxis.set_major_locator(plt.MultipleLocator(1))", "compilation_passed": true, "time": 0.039975881576538086, "tests_passed": true, "error": null}
+{"code": "xaxis.set_ticks(sales_data['Month'])", "compilation_passed": true, "time": 0.18435192108154297, "tests_passed": true, "error": null}

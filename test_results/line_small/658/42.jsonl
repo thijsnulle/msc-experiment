@@ -1,0 +1,14 @@
+{"code": " pd.DataFrame(dtm.toarray(), columns=vectorizer.get_feature_names())", "compilation_passed": false, "time": 0.0001678466796875, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dtm.toarray(), index=cleaned_texts, columns=vectorizer.get_feature_names())", "compilation_passed": false, "time": 0.00016260147094726562, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dtm.toarray(), columns=vectorizer.get_feature_names(), index=range(1, len(texts) + 1))", "compilation_passed": false, "time": 0.00020575523376464844, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dtm.todense(),", "compilation_passed": false, "time": 0.00015306472778320312, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(dtm.todense(), index=tokenized_texts, columns=vectorizer.get_feature_names())", "compilation_passed": false, "time": 0.00015020370483398438, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dtm.todense(), columns=vectorizer.get_feature_names())", "compilation_passed": false, "time": 0.0001380443572998047, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dtm.todense(), columns=vectorizer.get_feature_names(), index=[\"document_1\", \"document_2\", \"document_3\"])", "compilation_passed": false, "time": 0.0001647472381591797, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dtm.toarray(), index=texts, columns=vectorizer.get_feature_names())", "compilation_passed": false, "time": 0.0001552104949951172, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dtm.todense(), index=vectorizer.get_feature_names(), columns=['count'])", "compilation_passed": false, "time": 0.0001556873321533203, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dtm.toarray(), index=vectorized_texts)", "compilation_passed": false, "time": 0.00014519691467285156, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dtm.toarray(), index=vectorizer.get_feature_names(), columns=range(dtm.shape[1]))", "compilation_passed": false, "time": 0.0001571178436279297, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dtm.todense(), index=vectorizer.get_feature_names(), columns=range(dtm.shape[1]))", "compilation_passed": false, "time": 0.0001499652862548828, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dtm.todense(), index=range(1, dtm.shape[0] + 1), columns=vectorizer.get_feature_names())", "compilation_passed": false, "time": 0.00016617774963378906, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(dtm.toarray(), index=vectorized_texts, columns=vectorizer.get_feature_names())", "compilation_passed": false, "time": 0.00015926361083984375, "tests_passed": false, "error": "IndentationError"}

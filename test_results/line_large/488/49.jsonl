@@ -1,0 +1,4 @@
+{"code": " pd.DataFrame(data, columns=COLUMNS)", "compilation_passed": true, "time": 0.16236019134521484, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=data, columns=COLUMNS)", "compilation_passed": true, "time": 0.1725471019744873, "tests_passed": true, "error": null}
+{"code": " df.append(data, ignore_index=True)", "compilation_passed": true, "time": 0.002295970916748047, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.append(data)", "compilation_passed": true, "time": 0.002260923385620117, "tests_passed": false, "error": "AttributeError"}

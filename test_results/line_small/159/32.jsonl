@@ -1,0 +1,23 @@
+{"code": "write(newArray.tobytes())", "compilation_passed": true, "time": 0.0009570121765136719, "tests_passed": true, "error": null}
+{"code": "write(struct.pack(\"<%sd\" % len(newArray.tolist()), newArray))", "compilation_passed": true, "time": 0.0006659030914306641, "tests_passed": false, "error": "struct.error"}
+{"code": "write(struct.pack(f\"{newArray.size}i\", *newArray.ravel()))", "compilation_passed": true, "time": 0.0008809566497802734, "tests_passed": false, "error": "struct.error"}
+{"code": "write(struct.pack(str(newArray.dtype), *newArray.flatten()))", "compilation_passed": true, "time": 0.0006887912750244141, "tests_passed": false, "error": "struct.error"}
+{"code": "write(struct.pack('h', *newArray.flat))", "compilation_passed": true, "time": 0.000659942626953125, "tests_passed": false, "error": "struct.error"}
+{"code": "write(struct.pack('<%sd' % len(newArray), *newArray))", "compilation_passed": true, "time": 0.0008349418640136719, "tests_passed": true, "error": null}
+{"code": "write(struct.pack('{:d}I'.format(newArray.size) + newArray.tostring()))", "compilation_passed": true, "time": 0.0006170272827148438, "tests_passed": false, "error": "TypeError"}
+{"code": "write(struct.pack('i', newArray.dtype.type))", "compilation_passed": true, "time": 0.0006480216979980469, "tests_passed": false, "error": "struct.error"}
+{"code": "write(struct.pack(f'<{newArray.dtype.itemsize * newArray.size}', *newArray))", "compilation_passed": true, "time": 0.0006670951843261719, "tests_passed": false, "error": "struct.error"}
+{"code": "write(struct.pack(\"%sf\" % newArray.dtype.itemsize, *newArray))", "compilation_passed": true, "time": 0.0006499290466308594, "tests_passed": false, "error": "struct.error"}
+{"code": "write(struct.pack('q', newArray.size))", "compilation_passed": true, "time": 0.0006079673767089844, "tests_passed": true, "error": null}
+{"code": "write(struct.pack('<' + str(newArray.nbytes) + 'B', *newArray.view('B')))", "compilation_passed": true, "time": 0.001001119613647461, "tests_passed": true, "error": null}
+{"code": "write(struct.pack('i' * newArray.size, *newArray.flatten()))", "compilation_passed": true, "time": 0.0008070468902587891, "tests_passed": false, "error": "struct.error"}
+{"code": "write(struct.pack(\"%sf\" % len(newArray), *newArray.flat))", "compilation_passed": true, "time": 0.0007150173187255859, "tests_passed": true, "error": null}
+{"code": "write(struct.pack('=i', len(newArray)))", "compilation_passed": true, "time": 0.0006568431854248047, "tests_passed": true, "error": null}
+{"code": "write(struct.pack('<' + str(newArray.dtype.str[1:].upper()) + str(len(newArray))) + newArray)", "compilation_passed": true, "time": 0.0006310939788818359, "tests_passed": false, "error": "struct.error"}
+{"code": "write(struct.pack('>i', newArray.size))", "compilation_passed": true, "time": 0.0007650852203369141, "tests_passed": true, "error": null}
+{"code": "write(newArray.data)", "compilation_passed": true, "time": 0.0008530616760253906, "tests_passed": true, "error": null}
+{"code": "write(struct.pack('i', len(newArray)))", "compilation_passed": true, "time": 0.0006589889526367188, "tests_passed": true, "error": null}
+{"code": "write(struct.pack('i', newArray.shape[0]))  # Write array shape into the buffer", "compilation_passed": true, "time": 0.0006058216094970703, "tests_passed": true, "error": null}
+{"code": "write(struct.pack(str(newArray.dtype) + ',' + str(newArray.ndim), *newArray.tolist()))", "compilation_passed": true, "time": 0.0006260871887207031, "tests_passed": false, "error": "struct.error"}
+{"code": "write(struct.pack(\"<%sd\" % len(newArray), newArray))", "compilation_passed": true, "time": 0.000637054443359375, "tests_passed": false, "error": "struct.error"}
+{"code": "write(struct.pack('{:03}b'.format(len(newArray)), *newArray))", "compilation_passed": true, "time": 0.0007300376892089844, "tests_passed": false, "error": "struct.error"}

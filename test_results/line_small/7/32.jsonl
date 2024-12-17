@@ -1,0 +1,14 @@
+{"code": " [(product, int(qty)) for product, qty in reader]", "compilation_passed": true, "time": 0.0012128353118896484, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.defaultdict(int)", "compilation_passed": true, "time": 0.002061128616333008, "tests_passed": true, "error": null}
+{"code": " collections.defaultdict(int)  # Initialize defaultdict to store sales data", "compilation_passed": true, "time": 0.0020270347595214844, "tests_passed": true, "error": null}
+{"code": " [(line[0], int(line[1])) for line in reader]", "compilation_passed": true, "time": 0.001190185546875, "tests_passed": false, "error": "AttributeError"}
+{"code": " list(reader)", "compilation_passed": true, "time": 0.0011761188507080078, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.defaultdict(int)  # Initialize a defaultdict with an initial value of 0", "compilation_passed": true, "time": 0.0020020008087158203, "tests_passed": true, "error": null}
+{"code": " [(row[0], int(row[1])) for row in reader]", "compilation_passed": true, "time": 0.0012221336364746094, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(product, quantity) for product, quantity in reader]", "compilation_passed": true, "time": 0.0012049674987792969, "tests_passed": false, "error": "AttributeError"}
+{"code": " sorted([(product, quantity) for product, quantity in reader],", "compilation_passed": false, "time": 0.00012493133544921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " collections.defaultdict(int)  # Default dict to keep track of total sales per product", "compilation_passed": true, "time": 0.0020270347595214844, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.00011587142944335938, "tests_passed": false, "error": "SyntaxError"}
+{"code": " collections.defaultdict(int)  # Create a defaultdict to store cumulative sales by product", "compilation_passed": true, "time": 0.0020148754119873047, "tests_passed": true, "error": null}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.0019931793212890625, "tests_passed": true, "error": null}
+{"code": " [row for row in reader]", "compilation_passed": true, "time": 0.0012359619140625, "tests_passed": false, "error": "AttributeError"}

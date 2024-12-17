@@ -1,0 +1,6 @@
+{"code": "warn(\"The data contains more than 10000 rows.\")", "compilation_passed": true, "time": 0.00350189208984375, "tests_passed": true, "error": null}
+{"code": "warn(f\"The data contains more than 10000 rows.\")", "compilation_passed": true, "time": 0.0034203529357910156, "tests_passed": true, "error": null}
+{"code": "warn(", "compilation_passed": false, "time": 0.000164031982421875, "tests_passed": false, "error": "SyntaxError"}
+{"code": "warn(\"The data contains more than 10000 rows.\", stacklevel=2)", "compilation_passed": true, "time": 0.0039408206939697266, "tests_passed": true, "error": null}
+{"code": "warn(f\"The data contains {data.shape[0]} rows. This might be too large for a jupyter notebook cell.\")", "compilation_passed": true, "time": 0.002479076385498047, "tests_passed": true, "error": null}
+{"code": "warn(\"The data contains more than 10000 rows.\", Warning)", "compilation_passed": true, "time": 0.004050016403198242, "tests_passed": true, "error": null}

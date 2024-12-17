@@ -1,0 +1,15 @@
+{"code": "datetime.fromtimestamp(timestamp, tz=pytz.timezone(tz))", "compilation_passed": true, "time": 0.0010552406311035156, "tests_passed": false, "error": "AttributeError"}
+{"code": "datetime.fromtimestamp(timestamp, pytz.timezone(t))", "compilation_passed": true, "time": 0.0010859966278076172, "tests_passed": false, "error": "AttributeError"}
+{"code": "datetime.fromtimestamp(timestamp, pytz.timezone(tz))", "compilation_passed": true, "time": 0.0010628700256347656, "tests_passed": false, "error": "AttributeError"}
+{"code": "datetime.fromtimestamp(timestamp, tz=pytz.timezone(zone))", "compilation_passed": true, "time": 0.0010869503021240234, "tests_passed": false, "error": "AttributeError"}
+{"code": "fromtimestamp(timestamp, pytz.timezone(tz))", "compilation_passed": true, "time": 0.004075050354003906, "tests_passed": false, "error": "ValueError"}
+{"code": "datetime.fromtimestamp(timestamp, pytz.timezone(zone))", "compilation_passed": true, "time": 0.0010921955108642578, "tests_passed": false, "error": "AttributeError"}
+{"code": "datetime.fromtimestamp(timestamp, tz)", "compilation_passed": true, "time": 0.0020961761474609375, "tests_passed": false, "error": "AttributeError"}
+{"code": "datetime.fromtimestamp(timestamp, pytz.timezone(tz)) for tz in TIMEZONES", "compilation_passed": true, "time": 0.001068115234375, "tests_passed": false, "error": "AttributeError"}
+{"code": "fromtimestamp(timestamp, pytz.timezone(tz)) for tz in TIMEZONES", "compilation_passed": true, "time": 0.0014700889587402344, "tests_passed": false, "error": "ValueError"}
+{"code": "datetime.utcfromtimestamp(timestamp).replace(tzinfo=pytz.utc).astimezone(tz)", "compilation_passed": true, "time": 0.00109100341796875, "tests_passed": false, "error": "AttributeError"}
+{"code": "datetime.fromtimestamp(timestamp, pytz.timezone(timezone))", "compilation_passed": true, "time": 0.0011210441589355469, "tests_passed": false, "error": "AttributeError"}
+{"code": "datetime.fromtimestamp(timestamp, pytz.timezone(tzone))", "compilation_passed": true, "time": 0.001094818115234375, "tests_passed": false, "error": "AttributeError"}
+{"code": "datetime.utcfromtimestamp(timestamp).replace(tzinfo=pytz.UTC),", "compilation_passed": false, "time": 0.00015592575073242188, "tests_passed": false, "error": "SyntaxError"}
+{"code": "fromtimestamp(timestamp, pytz.timezone(t))", "compilation_passed": true, "time": 0.001010894775390625, "tests_passed": false, "error": "NameError"}
+{"code": "datetime.fromtimestamp(timestamp, pytz.timezone(timezone)).strftime(", "compilation_passed": false, "time": 0.00014209747314453125, "tests_passed": false, "error": "SyntaxError"}

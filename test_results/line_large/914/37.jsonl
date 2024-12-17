@@ -1,0 +1,8 @@
+{"code": " df['date'].apply(lambda x: x.timestamp())", "compilation_passed": true, "time": 0.09138107299804688, "tests_passed": true, "error": null}
+{"code": " df['date'].astype(np.int64) // 10 ** 9", "compilation_passed": true, "time": 0.08860898017883301, "tests_passed": true, "error": null}
+{"code": " df['date'].map(dt.datetime.timestamp)", "compilation_passed": true, "time": 0.0015721321105957031, "tests_passed": false, "error": "NameError"}
+{"code": " df['date'].map(pd.Timestamp.timestamp)", "compilation_passed": true, "time": 0.09799981117248535, "tests_passed": true, "error": null}
+{"code": " df['date'].astype(np.int64) // 10**9", "compilation_passed": true, "time": 0.09574604034423828, "tests_passed": true, "error": null}
+{"code": " df['date'].apply(lambda d: d.timestamp())", "compilation_passed": true, "time": 0.0916130542755127, "tests_passed": true, "error": null}
+{"code": " df['date'].apply(lambda x: int(x.timestamp()))", "compilation_passed": true, "time": 0.09608197212219238, "tests_passed": true, "error": null}
+{"code": " df['date'].map(lambda x: x.timestamp())", "compilation_passed": true, "time": 0.0936582088470459, "tests_passed": true, "error": null}

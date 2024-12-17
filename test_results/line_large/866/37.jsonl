@@ -1,0 +1,12 @@
+{"code": " x, y = zip(*data)", "compilation_passed": true, "time": 0.03472304344177246, "tests_passed": false, "error": "NameError"}
+{"code": " x_coords, y_coords = zip(*data)", "compilation_passed": true, "time": 0.033756256103515625, "tests_passed": false, "error": "NameError"}
+{"code": " coordinates = list(zip(*data))", "compilation_passed": true, "time": 0.03403902053833008, "tests_passed": false, "error": "ValueError"}
+{"code": " coords = zip(*data)", "compilation_passed": true, "time": 0.034132957458496094, "tests_passed": false, "error": "ValueError"}
+{"code": " data = np.array([x for x, *y in data]), np.array([y for x, *y in data])", "compilation_passed": true, "time": 0.03412795066833496, "tests_passed": false, "error": "NameError"}
+{"code": " points = zip(*data)", "compilation_passed": true, "time": 0.03358960151672363, "tests_passed": false, "error": "ValueError"}
+{"code": " *coordinates = zip(*data)", "compilation_passed": true, "time": 0.03419804573059082, "tests_passed": false, "error": "NameError"}
+{"code": " coordinates = zip(*data)", "compilation_passed": true, "time": 0.033638954162597656, "tests_passed": false, "error": "ValueError"}
+{"code": " xs, ys = zip(*data)", "compilation_passed": true, "time": 0.03368496894836426, "tests_passed": false, "error": "NameError"}
+{"code": " x_values, y_values = zip(*data)", "compilation_passed": true, "time": 0.03844499588012695, "tests_passed": true, "error": null}
+{"code": " x, y = zip(*data)  # extract the coordinates from the data", "compilation_passed": true, "time": 0.03433489799499512, "tests_passed": false, "error": "NameError"}
+{"code": " data = zip(*data)", "compilation_passed": true, "time": 0.03403592109680176, "tests_passed": false, "error": "ValueError"}

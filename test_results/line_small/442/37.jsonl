@@ -1,0 +1,24 @@
+{"code": " not isinstance(T, np.ndarray):", "compilation_passed": true, "time": 0.09412598609924316, "tests_passed": true, "error": null}
+{"code": " P.shape[1] != T.shape[0]:", "compilation_passed": true, "time": 0.026700735092163086, "tests_passed": false, "error": "TypeError"}
+{"code": " len(P.shape) != 2 or P.shape[1] != len(tensor_shape):", "compilation_passed": true, "time": 0.027904033660888672, "tests_passed": false, "error": "TypeError"}
+{"code": " type(T) != np.ndarray:", "compilation_passed": true, "time": 0.09773802757263184, "tests_passed": true, "error": null}
+{"code": " not isinstance(P, np.ndarray):", "compilation_passed": true, "time": 0.10651016235351562, "tests_passed": true, "error": null}
+{"code": " type(P) != np.ndarray:", "compilation_passed": true, "time": 0.10006999969482422, "tests_passed": true, "error": null}
+{"code": " T.shape != tensor_shape:", "compilation_passed": true, "time": 0.09753203392028809, "tests_passed": true, "error": null}
+{"code": " len(T.shape) == 4:", "compilation_passed": true, "time": 0.0973818302154541, "tests_passed": true, "error": null}
+{"code": " len(P.shape) > 1:", "compilation_passed": true, "time": 0.0014371871948242188, "tests_passed": false, "error": "TypeError"}
+{"code": " np.shape(P) != (5, 3) or np.shape(T) != (3, 3, 3):", "compilation_passed": true, "time": 0.0014562606811523438, "tests_passed": false, "error": "TypeError"}
+{"code": " P.shape[0] != 5:", "compilation_passed": true, "time": 0.0014629364013671875, "tests_passed": false, "error": "TypeError"}
+{"code": " type(T) == np.array:", "compilation_passed": true, "time": 0.0991520881652832, "tests_passed": true, "error": null}
+{"code": " np.ndim(P) == 1:", "compilation_passed": true, "time": 0.09892392158508301, "tests_passed": true, "error": null}
+{"code": " len(T.shape) != len(tensor_shape):", "compilation_passed": true, "time": 0.09925675392150879, "tests_passed": true, "error": null}
+{"code": " type(P) != np.ndarray or type(T) != np.ndarray:", "compilation_passed": true, "time": 0.10266709327697754, "tests_passed": true, "error": null}
+{"code": " not isinstance(P, np.ndarray) or not isinstance(T, np.ndarray):", "compilation_passed": true, "time": 0.09999728202819824, "tests_passed": true, "error": null}
+{"code": " len(P.shape) != 2:", "compilation_passed": true, "time": 0.114501953125, "tests_passed": true, "error": null}
+{"code": " not (P.ndim == 1 or T.ndim == 1):", "compilation_passed": true, "time": 0.0014910697937011719, "tests_passed": false, "error": "TypeError"}
+{"code": " P.shape[0] != 3 or T.shape != (3, 3, 3):", "compilation_passed": true, "time": 0.04624295234680176, "tests_passed": false, "error": "TypeError"}
+{"code": " np.ndim(P) != 2:", "compilation_passed": true, "time": 0.10175228118896484, "tests_passed": true, "error": null}
+{"code": " P.ndim != 2:", "compilation_passed": true, "time": 0.10157489776611328, "tests_passed": true, "error": null}
+{"code": " np.shape(P) != (len(P), len(P)):", "compilation_passed": true, "time": 0.027933835983276367, "tests_passed": false, "error": "TypeError"}
+{"code": " np.shape(P)[-1] != tensor_shape[-1]:", "compilation_passed": true, "time": 0.11480307579040527, "tests_passed": true, "error": null}
+{"code": " P.shape[0] == 3:", "compilation_passed": true, "time": 0.001461029052734375, "tests_passed": false, "error": "TypeError"}

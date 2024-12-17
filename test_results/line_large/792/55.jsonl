@@ -1,0 +1,5 @@
+{"code": " y - model.predict(X)", "compilation_passed": true, "time": 0.007081031799316406, "tests_passed": true, "error": null}
+{"code": " np.abs(model.predict(X) - y)", "compilation_passed": true, "time": 0.002819061279296875, "tests_passed": false, "error": "NameError"}
+{"code": " model.predict(X) - y", "compilation_passed": true, "time": 0.006855964660644531, "tests_passed": true, "error": null}
+{"code": " abs(model.predict(X) - y)", "compilation_passed": true, "time": 0.006887912750244141, "tests_passed": true, "error": null}
+{"code": " abs(y - model.predict(X))", "compilation_passed": true, "time": 0.0069768428802490234, "tests_passed": true, "error": null}

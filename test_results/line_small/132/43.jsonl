@@ -1,0 +1,19 @@
+{"code": "bar(df['Byte Value'], df['Frequency'])", "compilation_passed": true, "time": 0.04782891273498535, "tests_passed": true, "error": null}
+{"code": "plot('Byte Value', 'Frequency', data=df)", "compilation_passed": true, "time": 0.04734301567077637, "tests_passed": true, "error": null}
+{"code": "bar(byte_values, byte_counts)", "compilation_passed": true, "time": 0.04935288429260254, "tests_passed": true, "error": null}
+{"code": "barh(byte_values, byte_counts, align='center')", "compilation_passed": true, "time": 0.050837039947509766, "tests_passed": true, "error": null}
+{"code": "barh(byte_values, byte_counts)", "compilation_passed": true, "time": 0.052160024642944336, "tests_passed": true, "error": null}
+{"code": "bar(byte_values, byte_counts, color='red', width=1)", "compilation_passed": true, "time": 0.051097869873046875, "tests_passed": true, "error": null}
+{"code": "bar(byte_values, byte_counts, color='#FFD700', label='Byte Value')", "compilation_passed": true, "time": 0.05129408836364746, "tests_passed": true, "error": null}
+{"code": "bar(byte_values, byte_counts, align='center')", "compilation_passed": true, "time": 0.05221819877624512, "tests_passed": true, "error": null}
+{"code": "bar(df.Byte Value, df.Frequency)", "compilation_passed": false, "time": 0.0002028942108154297, "tests_passed": false, "error": "SyntaxError"}
+{"code": "plot(byte_values, byte_counts, 'ro')", "compilation_passed": true, "time": 0.05012392997741699, "tests_passed": true, "error": null}
+{"code": "bar(byte_values, byte_counts, align='center', alpha=0.5, color='blue')", "compilation_passed": true, "time": 0.052664995193481445, "tests_passed": true, "error": null}
+{"code": "bar(df['Byte Value'], df['Frequency'], width=1, align='center')", "compilation_passed": true, "time": 0.057532310485839844, "tests_passed": true, "error": null}
+{"code": "bar(df['Byte Value'], df['Frequency'], width=0.4, color='red')", "compilation_passed": true, "time": 0.05349564552307129, "tests_passed": true, "error": null}
+{"code": "bar(df.index, df.Frequency, width=1, linewidth=0, color='grey')", "compilation_passed": true, "time": 0.0534517765045166, "tests_passed": true, "error": null}
+{"code": "bar(df.Byte Value, df.Frequency, color='blue', width=0.75, alpha=0.85)", "compilation_passed": false, "time": 0.00021505355834960938, "tests_passed": false, "error": "SyntaxError"}
+{"code": "barh(df.index, df['Frequency'], align='center', height=0.7)", "compilation_passed": true, "time": 0.05395007133483887, "tests_passed": true, "error": null}
+{"code": "plot(df['Byte Value'], df['Frequency'], linewidth=1)", "compilation_passed": true, "time": 0.05209660530090332, "tests_passed": true, "error": null}
+{"code": "barh(range(len(byte_values)), byte_counts, align='center', height=1)", "compilation_passed": true, "time": 0.061347246170043945, "tests_passed": true, "error": null}
+{"code": "plot(df['Byte Value'], df['Frequency'], linewidth=0.5)", "compilation_passed": true, "time": 0.05375385284423828, "tests_passed": true, "error": null}

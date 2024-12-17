@@ -1,0 +1,8 @@
+{"code": " []", "compilation_passed": true, "time": 0.0021262168884277344, "tests_passed": false, "error": "TypeError"}
+{"code": " [row for row in reader]", "compilation_passed": true, "time": 0.0012438297271728516, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(row[0], int(row[1])) for row in reader]", "compilation_passed": true, "time": 0.0012269020080566406, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.defaultdict(int)", "compilation_passed": true, "time": 0.002051830291748047, "tests_passed": true, "error": null}
+{"code": " {}", "compilation_passed": true, "time": 0.0011277198791503906, "tests_passed": false, "error": "KeyError"}
+{"code": " [(product, quantity) for product, quantity in reader]", "compilation_passed": true, "time": 0.0012030601501464844, "tests_passed": false, "error": "AttributeError"}
+{"code": " list(reader)  # Read all rows into a list", "compilation_passed": true, "time": 0.0012443065643310547, "tests_passed": false, "error": "AttributeError"}
+{"code": " collections.Counter()", "compilation_passed": true, "time": 0.002026081085205078, "tests_passed": true, "error": null}

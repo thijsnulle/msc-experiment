@@ -1,0 +1,23 @@
+{"code": " dataframe[column].dtypes == 'float64':", "compilation_passed": true, "time": 0.005859851837158203, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtype == 'int64' or dataframe[column].dtype == 'float64':", "compilation_passed": true, "time": 0.005465984344482422, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtypes != object and dataframe[column].dtypes != \"category\":", "compilation_passed": true, "time": 0.005479097366333008, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtypes != 'object':", "compilation_passed": true, "time": 0.005444049835205078, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtypes == \"object\":", "compilation_passed": true, "time": 0.0034186840057373047, "tests_passed": false, "error": "ValueError"}
+{"code": " dataframe[column].dtypes.name in ['int64', 'float64']:", "compilation_passed": true, "time": 0.005471944808959961, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtypes == \"float64\":", "compilation_passed": true, "time": 0.005712032318115234, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtype in [np.int, np.int64, np.float, np.float64]:", "compilation_passed": true, "time": 0.001497030258178711, "tests_passed": false, "error": "    https"}
+{"code": " dataframe[column].dtypes == np.number:", "compilation_passed": true, "time": 0.00574493408203125, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtype in (int, float):", "compilation_passed": true, "time": 0.005450010299682617, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtypes != float:", "compilation_passed": true, "time": 0.0028688907623291016, "tests_passed": false, "error": "ValueError"}
+{"code": " dataframe[column].dtype == \"int64\" or dataframe[column].dtype == \"float64\":", "compilation_passed": true, "time": 0.00551295280456543, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtypes == np.float32 or dataframe[column].dtypes == np.float64 or dataframe[column].dtypes == np.int64 or dataframe[column].dtypes == np.float32 or dataframe[column].dtypes == np.int32:", "compilation_passed": true, "time": 0.005501985549926758, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtypes.str.contains('[0-9]'):", "compilation_passed": true, "time": 0.0014488697052001953, "tests_passed": false, "error": "AttributeError"}
+{"code": " dataframe[column].dtypes.name in ['float32', 'float64']:", "compilation_passed": true, "time": 0.005743980407714844, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtypes == 'int64' or dataframe[column].dtypes == 'float64':", "compilation_passed": true, "time": 0.005442619323730469, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtype == 'float64':", "compilation_passed": true, "time": 0.005659818649291992, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtype in [int, float]:", "compilation_passed": true, "time": 0.0054132938385009766, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtype in [np.float64, np.int64]:", "compilation_passed": true, "time": 0.005412101745605469, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtypes in [int, float]:", "compilation_passed": true, "time": 0.005465269088745117, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtype.name in ['float32', 'float64', 'int32', 'int64']:", "compilation_passed": true, "time": 0.005488157272338867, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtypes.name == 'int64' or dataframe[column].dtypes.name == 'float64':", "compilation_passed": true, "time": 0.005509853363037109, "tests_passed": true, "error": null}
+{"code": " dataframe[column].dtype.name.lower() in ['int', 'float']:", "compilation_passed": true, "time": 0.006417989730834961, "tests_passed": true, "error": null}

@@ -1,0 +1,7 @@
+{"code": " pd.DataFrame(columns=[\"Timestamp\", \"Level\", \"Message\"])", "compilation_passed": true, "time": 0.0019207000732421875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(logs, columns=[\"Timestamp\", \"Level\", \"Message\"])", "compilation_passed": true, "time": 0.0036449432373046875, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(logs, columns=[\"Timestamp\", \"Level\", \"Message\"]) if logs else pd.DataFrame(columns=[\"Timestamp\", \"Level\", \"Message\"])", "compilation_passed": true, "time": 0.0035631656646728516, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(logs, columns=[\"Timestamp\", \"Level\", \"Message\"]) if logs else pd.DataFrame([], columns=[\"Timestamp\", \"Level\", \"Message\"])", "compilation_passed": true, "time": 0.003593921661376953, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0001838207244873047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(logs, columns=['Timestamp', 'Level', 'Message']) if logs else pd.DataFrame(", "compilation_passed": false, "time": 0.00021576881408691406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(columns=[\"Timestamp\", \"Level\", \"Message\"], data=logs)", "compilation_passed": true, "time": 0.0036690235137939453, "tests_passed": true, "error": null}

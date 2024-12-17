@@ -1,0 +1,6 @@
+{"code": " np.var(df[feature])", "compilation_passed": true, "time": 0.0009391307830810547, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " np.var(df[feature], ddof=1)", "compilation_passed": true, "time": 0.0009448528289794922, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " stats.variation(df[feature])", "compilation_passed": true, "time": 0.0009458065032958984, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " stats.variance(df[feature])", "compilation_passed": true, "time": 0.0009217262268066406, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " stats.variation(df[feature].values, axis=0)", "compilation_passed": true, "time": 0.0009207725524902344, "tests_passed": false, "error": "No module named 'scipy'"}
+{"code": " stats.sem(df[feature])", "compilation_passed": true, "time": 0.00090789794921875, "tests_passed": false, "error": "No module named 'scipy'"}

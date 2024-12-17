@@ -1,0 +1,16 @@
+{"code": "plot(df[column], label=column)", "compilation_passed": true, "time": 0.12794709205627441, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df[column], label=column)", "compilation_passed": true, "time": 0.1263117790222168, "tests_passed": true, "error": null}
+{"code": "plot(df[column].keys(), df[column].values(), label=column)", "compilation_passed": true, "time": 0.020624876022338867, "tests_passed": false, "error": "TypeError"}
+{"code": "plot(df.index, df[column], linewidth=0.5, label=column)", "compilation_passed": true, "time": 0.12369894981384277, "tests_passed": true, "error": null}
+{"code": "plot(range(1, len(df) + 1), df[column], label=column)", "compilation_passed": true, "time": 0.015645980834960938, "tests_passed": true, "error": null}
+{"code": "plot(df[column], df[column], label=column)", "compilation_passed": true, "time": 0.01624608039855957, "tests_passed": true, "error": null}
+{"code": "plot(df[column], column, linestyle='solid', marker='.', label=column)", "compilation_passed": true, "time": 0.01853489875793457, "tests_passed": false, "error": "ValueError"}
+{"code": "plot(range(1, len(df) + 1), df[column], linewidth=0.5, label=column)", "compilation_passed": true, "time": 0.016875028610229492, "tests_passed": true, "error": null}
+{"code": "plot(range(len(df[column])), df[column])", "compilation_passed": true, "time": 0.12475800514221191, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df[column])", "compilation_passed": true, "time": 0.1340470314025879, "tests_passed": true, "error": null}
+{"code": "plot(df[column].index, df[column])", "compilation_passed": true, "time": 0.1222069263458252, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df[column], linewidth=0.3, linestyle='-')", "compilation_passed": true, "time": 0.126539945602417, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df[column], linewidth=1, label=column)", "compilation_passed": true, "time": 0.12249302864074707, "tests_passed": true, "error": null}
+{"code": "plot(range(len(df)), df[column])", "compilation_passed": true, "time": 0.12288427352905273, "tests_passed": true, "error": null}
+{"code": "plot(df[column])", "compilation_passed": true, "time": 0.13073992729187012, "tests_passed": true, "error": null}
+{"code": "plot(df.index, df[column], linewidth=0.75)", "compilation_passed": true, "time": 0.12798595428466797, "tests_passed": true, "error": null}

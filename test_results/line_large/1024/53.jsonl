@@ -1,0 +1,24 @@
+{"code": " min(11, (len(df) - 1) // 2)", "compilation_passed": true, "time": 0.00511622428894043, "tests_passed": false, "error": "ValueError"}
+{"code": " min(11, len(df) // 2)", "compilation_passed": true, "time": 0.009421110153198242, "tests_passed": false, "error": "ValueError"}
+{"code": " min(11, int((len(df.index) / 2) + 1), len(df.index))", "compilation_passed": true, "time": 0.021191835403442383, "tests_passed": true, "error": null}
+{"code": " min(11, max(2, len(df) // 2))", "compilation_passed": true, "time": 0.019804954528808594, "tests_passed": true, "error": null}
+{"code": " min(11, max(2, df.size // 2))  # Dynamically set the number of bins", "compilation_passed": true, "time": 0.020631074905395508, "tests_passed": true, "error": null}
+{"code": " min(11, int(len(df) / 2)) or 1", "compilation_passed": true, "time": 0.009592294692993164, "tests_passed": false, "error": "ValueError"}
+{"code": " min(10, df.shape[0] // 2)", "compilation_passed": true, "time": 0.00962686538696289, "tests_passed": false, "error": "ValueError"}
+{"code": " min(10, df.size // 2) + 1", "compilation_passed": true, "time": 0.028333663940429688, "tests_passed": true, "error": null}
+{"code": " min(10, (len(df) // 2) + 1)", "compilation_passed": true, "time": 0.021284103393554688, "tests_passed": true, "error": null}
+{"code": " max(2, min(11, int(len(df.index)/2)))", "compilation_passed": true, "time": 0.020951032638549805, "tests_passed": true, "error": null}
+{"code": " min(11, df.shape[0] // 2)", "compilation_passed": true, "time": 0.010138988494873047, "tests_passed": false, "error": "ValueError"}
+{"code": " min(11, max(2, df.size // 2))", "compilation_passed": true, "time": 0.026157855987548828, "tests_passed": true, "error": null}
+{"code": " int(np.minimum(len(df) / 2, 11).clip(2, 11))", "compilation_passed": true, "time": 0.023661136627197266, "tests_passed": true, "error": null}
+{"code": " min(11, df.shape[0] // 2, 2)", "compilation_passed": true, "time": 0.010055303573608398, "tests_passed": false, "error": "ValueError"}
+{"code": " int(min(2, len(df) / 2, 11))", "compilation_passed": true, "time": 0.010013103485107422, "tests_passed": false, "error": "ValueError"}
+{"code": " min(11, int((len(df)) / 2), len(df))", "compilation_passed": true, "time": 0.00987100601196289, "tests_passed": false, "error": "ValueError"}
+{"code": " min(10, df.size // 2 + 1, 2)  # minimum 2 bins, maximum 11 bins", "compilation_passed": true, "time": 0.020505666732788086, "tests_passed": true, "error": null}
+{"code": " min(11, max(2, int((max_val - min_val) // 2)))  # Dynamically set the number of bins", "compilation_passed": true, "time": 0.02358222007751465, "tests_passed": true, "error": null}
+{"code": " max(min(11, len(df) // 2), 2)", "compilation_passed": true, "time": 0.021358966827392578, "tests_passed": true, "error": null}
+{"code": " max(2, min(11, df.size // 2))", "compilation_passed": true, "time": 0.023108243942260742, "tests_passed": true, "error": null}
+{"code": " min(11, df.shape[0] // 2)  # set num_bins to min of 11 and half the num data points, with a min of 2", "compilation_passed": true, "time": 0.009931087493896484, "tests_passed": false, "error": "ValueError"}
+{"code": " min(11, int(df.shape[0] / 2))", "compilation_passed": true, "time": 0.01027989387512207, "tests_passed": false, "error": "ValueError"}
+{"code": " min(10, int((max_val - min_val) / 10))", "compilation_passed": true, "time": 0.005140066146850586, "tests_passed": false, "error": "ValueError"}
+{"code": " min(10, len(df) // 2, 2) + 1", "compilation_passed": true, "time": 0.029936790466308594, "tests_passed": true, "error": null}

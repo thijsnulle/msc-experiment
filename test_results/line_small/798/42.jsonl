@@ -1,0 +1,12 @@
+{"code": "copytree(os.path.join(BACKUP_DIR, latest_backup), directory, ignore=shutil.ignore_patterns('.gitignore', '.git'))", "compilation_passed": true, "time": 0.002814054489135742, "tests_passed": true, "error": null}
+{"code": "unpack_archive(os.path.join(BACKUP_DIR, latest_backup), directory)", "compilation_passed": true, "time": 0.0024771690368652344, "tests_passed": false, "error": "shutil.ReadError"}
+{"code": "unpack_archive(os.path.join(BACKUP_DIR, latest_backup))", "compilation_passed": true, "time": 0.0012969970703125, "tests_passed": false, "error": "shutil.ReadError"}
+{"code": "copytree(f'{BACKUP_DIR}/{latest_backup}', directory)", "compilation_passed": true, "time": 0.0024309158325195312, "tests_passed": true, "error": null}
+{"code": "copytree(os.path.join(BACKUP_DIR, latest_backup), directory)", "compilation_passed": true, "time": 0.0027010440826416016, "tests_passed": true, "error": null}
+{"code": "copytree(BACKUP_DIR + '/' + latest_backup, directory)", "compilation_passed": true, "time": 0.0023632049560546875, "tests_passed": true, "error": null}
+{"code": "unpack_archive(f'{BACKUP_DIR}/{latest_backup}')", "compilation_passed": true, "time": 0.0015058517456054688, "tests_passed": false, "error": "shutil.ReadError"}
+{"code": "move(os.path.join(BACKUP_DIR, latest_backup), directory)", "compilation_passed": true, "time": 0.0018711090087890625, "tests_passed": false, "error": "FileNotFoundError"}
+{"code": "rmtree(f'{BACKUP_DIR}/backup.tgz')", "compilation_passed": true, "time": 0.0013775825500488281, "tests_passed": true, "error": null}
+{"code": "rmtree(f'{BACKUP_DIR}/{latest_backup}')", "compilation_passed": true, "time": 0.0012819766998291016, "tests_passed": true, "error": null}
+{"code": "rmtree(BACKUP_DIR)", "compilation_passed": true, "time": 0.0012969970703125, "tests_passed": true, "error": null}
+{"code": "unpack_archive(os.path.join(BACKUP_DIR, latest_backup), directory, 'zip')", "compilation_passed": true, "time": 0.0012700557708740234, "tests_passed": false, "error": "shutil.ReadError"}

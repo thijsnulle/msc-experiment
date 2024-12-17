@@ -1,0 +1,4 @@
+{"code": "copytree(directory, backup_dir)", "compilation_passed": true, "time": 0.0038340091705322266, "tests_passed": false, "error": "AttributeError"}
+{"code": "copytree(directory, backup_dir, dirs_exist_ok=True)", "compilation_passed": true, "time": 0.0032601356506347656, "tests_passed": false, "error": "AttributeError"}
+{"code": "move(directory, backup_dir)", "compilation_passed": true, "time": 0.0016918182373046875, "tests_passed": true, "error": null}
+{"code": "copytree(directory, os.path.join(backup_dir, os.path.basename(directory)))", "compilation_passed": true, "time": 0.003695249557495117, "tests_passed": false, "error": "AttributeError"}

@@ -1,0 +1,24 @@
+{"code": " [0] + np.unique(flattened).tolist() + [len(flattened)]", "compilation_passed": true, "time": 0.021502256393432617, "tests_passed": true, "error": null}
+{"code": " np.arange(np.min(flattened), np.max(flattened) + 1)", "compilation_passed": true, "time": 0.023986339569091797, "tests_passed": true, "error": null}
+{"code": " np.linspace(min(flattened), max(flattened), 8)", "compilation_passed": true, "time": 0.2394421100616455, "tests_passed": true, "error": null}
+{"code": " np.arange(flattened.min(), flattened.max() + 1)", "compilation_passed": true, "time": 0.024341106414794922, "tests_passed": true, "error": null}
+{"code": " np.unique(flattened)", "compilation_passed": true, "time": 0.023908138275146484, "tests_passed": true, "error": null}
+{"code": " np.arange(min(flattened), max(flattened) + 1, dtype=int)", "compilation_passed": true, "time": 0.023411035537719727, "tests_passed": true, "error": null}
+{"code": " pd.cut(flattened, np.unique(flattened), right=False)", "compilation_passed": true, "time": 0.0213010311126709, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.cut(flattened, len(flattened)).value_counts()", "compilation_passed": true, "time": 0.021576881408691406, "tests_passed": true, "error": null}
+{"code": " np.arange(min(flattened), max(flattened)+1)", "compilation_passed": true, "time": 0.023125171661376953, "tests_passed": true, "error": null}
+{"code": " len(flattened) - np.bincount(flattened).argmax()", "compilation_passed": true, "time": 0.025120973587036133, "tests_passed": true, "error": null}
+{"code": " [v for v in range(min(flattened), max(flattened)+1)]", "compilation_passed": true, "time": 0.025014162063598633, "tests_passed": true, "error": null}
+{"code": " [i for i in range(min(flattened), max(flattened) + 1)]", "compilation_passed": true, "time": 0.02423381805419922, "tests_passed": true, "error": null}
+{"code": " list(np.unique(flattened))", "compilation_passed": true, "time": 0.0246279239654541, "tests_passed": true, "error": null}
+{"code": " len(np.unique(flattened))", "compilation_passed": true, "time": 0.5822479724884033, "tests_passed": true, "error": null}
+{"code": " [i for i in range(1, flattened.max()+1) if i not in flattened]", "compilation_passed": true, "time": 0.018262147903442383, "tests_passed": false, "error": "ValueError"}
+{"code": " np.arange(1, flattened.max()+1, 1)", "compilation_passed": true, "time": 0.025004148483276367, "tests_passed": true, "error": null}
+{"code": " pd.cut(flattened, range(max(flattened)+1), include_lowest=True)", "compilation_passed": true, "time": 0.018837928771972656, "tests_passed": false, "error": "TypeError"}
+{"code": " np.arange(min(flattened), max(flattened) + 1)", "compilation_passed": true, "time": 0.025342941284179688, "tests_passed": true, "error": null}
+{"code": " pd.cut(flattened, len(set(flattened))).categories", "compilation_passed": true, "time": 0.018390178680419922, "tests_passed": false, "error": "TypeError"}
+{"code": " list(set(flattened))", "compilation_passed": true, "time": 0.025346040725708008, "tests_passed": true, "error": null}
+{"code": " pd.cut(flattened, flattened.max()-flattened.min()+1).categories", "compilation_passed": true, "time": 0.01869678497314453, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.cut(flattened, np.unique(flattened))", "compilation_passed": true, "time": 0.01835322380065918, "tests_passed": false, "error": "TypeError"}
+{"code": " np.concatenate(flattened)", "compilation_passed": true, "time": 0.0017440319061279297, "tests_passed": false, "error": "ValueError"}
+{"code": " np.arange(flattened.min(), flattened.max(), 1.)", "compilation_passed": true, "time": 0.024007797241210938, "tests_passed": true, "error": null}

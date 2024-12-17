@@ -1,0 +1,15 @@
+{"code": "set_xticklabels(list(data_dict.keys()))", "compilation_passed": true, "time": 0.06764793395996094, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(data_dict.keys())", "compilation_passed": true, "time": 0.06849789619445801, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([name for name, _ in data_counter.items()])", "compilation_passed": true, "time": 0.06828522682189941, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(list(data_dict))", "compilation_passed": true, "time": 0.06913614273071289, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(data_counter.keys())", "compilation_passed": true, "time": 0.07389593124389648, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(data_dict.keys(), rotation=45, ha=\"right\", fontsize=7)", "compilation_passed": true, "time": 0.06921219825744629, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(data_dict.keys(), fontsize=12)", "compilation_passed": true, "time": 0.07197785377502441, "tests_passed": true, "error": null}
+{"code": "set_xticks(ax.get_xticks(), labels=list(data_dict.keys()))", "compilation_passed": true, "time": 0.07011008262634277, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(list(data_dict), rotation=90)", "compilation_passed": true, "time": 0.07261991500854492, "tests_passed": true, "error": null}
+{"code": "set_xticks(", "compilation_passed": false, "time": 0.0001900196075439453, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_xticklabels([category for category, _ in data_counter.most_common(len(data_dict))])", "compilation_passed": true, "time": 0.0761406421661377, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(data_dict.keys(), rotation=90, fontsize=8)", "compilation_passed": true, "time": 0.07606887817382812, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(list(data_dict.keys()), rotation=90, fontsize=6)", "compilation_passed": true, "time": 0.07156801223754883, "tests_passed": true, "error": null}
+{"code": "set_xticklabels([name for name in data_dict])", "compilation_passed": true, "time": 0.0710141658782959, "tests_passed": true, "error": null}
+{"code": "set_xticks(ax.get_xticks(), data_dict.keys(), rotation=70)", "compilation_passed": true, "time": 0.07956457138061523, "tests_passed": true, "error": null}

@@ -1,0 +1,6 @@
+{"code": " re.findall(r\"\\w+(?:\\'|\\s|$)\", text.lower())", "compilation_passed": true, "time": 0.000701904296875, "tests_passed": true, "error": null}
+{"code": " re.findall(r'\\w+', text)", "compilation_passed": true, "time": 0.0005779266357421875, "tests_passed": true, "error": null}
+{"code": " len(re.findall(r'\\w+', text))", "compilation_passed": true, "time": 0.0005352497100830078, "tests_passed": false, "error": "TypeError"}
+{"code": " re.findall(r'\\b\\w+\\b', text)", "compilation_passed": true, "time": 0.0013039112091064453, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\b[\\w']+\\b\", text)", "compilation_passed": true, "time": 0.0005469322204589844, "tests_passed": true, "error": null}
+{"code": " re.findall(r\"\\w+\", text)", "compilation_passed": true, "time": 0.0005240440368652344, "tests_passed": true, "error": null}

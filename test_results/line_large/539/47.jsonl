@@ -1,0 +1,14 @@
+{"code": "execute(", "compilation_passed": false, "time": 0.00024509429931640625, "tests_passed": false, "error": "SyntaxError"}
+{"code": "execute(f\"CREATE TABLE {table_name} (name TEXT, age INT, height INT)\")", "compilation_passed": true, "time": 0.006070137023925781, "tests_passed": true, "error": null}
+{"code": "execute(f\"CREATE TABLE IF NOT EXISTS {table_name} (name TEXT, age INTEGER, height INTEGER)\")", "compilation_passed": true, "time": 0.006424903869628906, "tests_passed": true, "error": null}
+{"code": "execute(f\"CREATE TABLE IF NOT EXISTS {table_name} (name, age, height)\")", "compilation_passed": true, "time": 0.0063169002532958984, "tests_passed": true, "error": null}
+{"code": "execute(f'CREATE TABLE IF NOT EXISTS {table_name} (name TEXT, age INTEGER, height INTEGER)')", "compilation_passed": true, "time": 0.006392002105712891, "tests_passed": true, "error": null}
+{"code": "execute(f\"CREATE TABLE IF NOT EXISTS {table_name} (name text, age integer, height integer)\")", "compilation_passed": true, "time": 0.0061070919036865234, "tests_passed": true, "error": null}
+{"code": "execute(f\"CREATE TABLE IF NOT EXISTS {table_name} (id integer PRIMARY KEY AUTOINCREMENT, name text, age integer, height integer)\")", "compilation_passed": true, "time": 0.0028090476989746094, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(f\"CREATE TABLE IF NOT EXISTS {table_name}(name TEXT, age INT, height INT)\")", "compilation_passed": true, "time": 0.006080150604248047, "tests_passed": true, "error": null}
+{"code": "execute(f\"CREATE TABLE {table_name} (name TEXT, age INTEGER, height INTEGER)\")", "compilation_passed": true, "time": 0.006223917007446289, "tests_passed": true, "error": null}
+{"code": "execute(\"DROP TABLE IF EXISTS \" + table_name)", "compilation_passed": true, "time": 0.0019381046295166016, "tests_passed": false, "error": "sqlite3.OperationalError"}
+{"code": "execute(f\"CREATE TABLE IF NOT EXISTS {table_name} (name TEXT, age INT, height INT)\")", "compilation_passed": true, "time": 0.006445169448852539, "tests_passed": true, "error": null}
+{"code": "execute(f\"CREATE TABLE IF NOT EXISTS {table_name}(name text, age integer, height integer)\")", "compilation_passed": true, "time": 0.006231784820556641, "tests_passed": true, "error": null}
+{"code": "execute(f\"CREATE TABLE IF NOT EXISTS {table_name} (name text, age int, height int)\")", "compilation_passed": true, "time": 0.0064580440521240234, "tests_passed": true, "error": null}
+{"code": "execute(f\"CREATE TABLE {table_name}(name TEXT, age INTEGER, height INTEGER)\")", "compilation_passed": true, "time": 0.006086826324462891, "tests_passed": true, "error": null}

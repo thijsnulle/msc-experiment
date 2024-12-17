@@ -1,0 +1,15 @@
+{"code": " df.loc[df[column_name].dt.date >= start_date, df[column_name]].reset_index(drop=True)", "compilation_passed": true, "time": 0.040843963623046875, "tests_passed": false, "error": "TypeError"}
+{"code": " df.loc[(df[column_name] >= start_date) & (df[column_name] <= end_date)]", "compilation_passed": true, "time": 0.05293703079223633, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].dt.year >= start_date.year]", "compilation_passed": true, "time": 0.05351591110229492, "tests_passed": true, "error": null}
+{"code": " df[(df[column_name] >= start_date) & (df[column_name] <= end_date)]", "compilation_passed": true, "time": 0.052896976470947266, "tests_passed": true, "error": null}
+{"code": " df.loc[start_date <= df[column_name] <= end_date]", "compilation_passed": true, "time": 0.0405278205871582, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df[column_name].dt.date.between(start_date, end_date)]", "compilation_passed": true, "time": 0.04080390930175781, "tests_passed": false, "error": "TypeError"}
+{"code": " df[df[column_name].between(start_date, end_date)]", "compilation_passed": true, "time": 0.05295395851135254, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].apply(lambda x: x >= start_date) & df[column_name].apply(lambda x: x <= end_date)]", "compilation_passed": true, "time": 0.05324196815490723, "tests_passed": true, "error": null}
+{"code": " df[df[column_name] >= start_date]", "compilation_passed": true, "time": 0.052755117416381836, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].isin([start_date, end_date])][['Unnamed: 0', column_name, 'Value']]", "compilation_passed": true, "time": 0.052976131439208984, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].isin([start_date, end_date])]", "compilation_passed": true, "time": 0.05211806297302246, "tests_passed": true, "error": null}
+{"code": " df[(df[column_name] > start_date) & (df[column_name] <= end_date)]", "compilation_passed": true, "time": 0.05292487144470215, "tests_passed": true, "error": null}
+{"code": " df[df[column_name].isin(pd.date_range(start_date, end_date))]", "compilation_passed": true, "time": 0.05527806282043457, "tests_passed": true, "error": null}
+{"code": " df[start_date <= df[column_name] <= end_date]", "compilation_passed": true, "time": 0.04054403305053711, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df[column_name] >= start_date][[column_name, 'Value']]", "compilation_passed": true, "time": 0.05413508415222168, "tests_passed": false, "error": "ValueError"}

@@ -1,0 +1,13 @@
+{"code": " [skew(row) for row in data_matrix]", "compilation_passed": true, "time": 0.11421990394592285, "tests_passed": true, "error": null}
+{"code": " []", "compilation_passed": true, "time": 0.01888585090637207, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.02276611328125, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=data_matrix).apply(skew, axis=1)", "compilation_passed": true, "time": 0.11723995208740234, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data_matrix.T, columns=[\"Skewness\"]).apply(skew, axis=0)", "compilation_passed": true, "time": 0.0014591217041015625, "tests_passed": false, "error": "ValueError"}
+{"code": " np.vectorize(skew)(data_matrix)", "compilation_passed": true, "time": 0.0034661293029785156, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.Series(skew(data_matrix, axis=1))", "compilation_passed": true, "time": 0.11145877838134766, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(columns=['Skewness'], index=data_matrix.index)", "compilation_passed": true, "time": 0.0011730194091796875, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({'Skewness': [skew(row) for row in data_matrix]})", "compilation_passed": true, "time": 0.1189260482788086, "tests_passed": true, "error": null}
+{"code": " pd.Series(skew(row) for row in data_matrix)", "compilation_passed": true, "time": 0.11199808120727539, "tests_passed": true, "error": null}
+{"code": " np.array([skew(row) for row in data_matrix.T])", "compilation_passed": true, "time": 0.06851816177368164, "tests_passed": true, "error": null}
+{"code": " np.apply_along_axis(skew, 1, data_matrix)", "compilation_passed": true, "time": 0.1165618896484375, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(skew(data_matrix, axis = 1), columns=[\"Skewness\"])", "compilation_passed": true, "time": 0.11223006248474121, "tests_passed": true, "error": null}

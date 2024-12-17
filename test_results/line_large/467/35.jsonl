@@ -1,0 +1,4 @@
+{"code": " fig, list(zip(x, y))", "compilation_passed": true, "time": 0.2597339153289795, "tests_passed": true, "error": null}
+{"code": " fig, [(xi, yi) for xi, yi in zip(x, y)]", "compilation_passed": true, "time": 0.26355719566345215, "tests_passed": true, "error": null}
+{"code": " fig, [(x[i], y[i]) for i in range(n)]", "compilation_passed": true, "time": 0.28142523765563965, "tests_passed": true, "error": null}
+{"code": " fig, [(x[i], y[i]) for i in range(len(x))]", "compilation_passed": true, "time": 0.28087282180786133, "tests_passed": true, "error": null}

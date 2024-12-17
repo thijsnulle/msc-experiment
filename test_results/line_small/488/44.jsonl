@@ -1,0 +1,21 @@
+{"code": " list(zip(timestamps, values))", "compilation_passed": true, "time": 0.17527508735656738, "tests_passed": true, "error": null}
+{"code": " {COLUMNS[0]: timestamps, COLUMNS[1]: values}", "compilation_passed": true, "time": 0.0017728805541992188, "tests_passed": false, "error": "AttributeError"}
+{"code": " {", "compilation_passed": false, "time": 0.00025391578674316406, "tests_passed": false, "error": "SyntaxError"}
+{"code": " []", "compilation_passed": true, "time": 0.23671388626098633, "tests_passed": true, "error": null}
+{"code": " np.column_stack((timestamps, values))", "compilation_passed": true, "time": 0.0018062591552734375, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.001909017562866211, "tests_passed": false, "error": "AttributeError"}
+{"code": " dict(zip(COLUMNS, [timestamps, values]))", "compilation_passed": true, "time": 0.001550912857055664, "tests_passed": false, "error": "AttributeError"}
+{"code": " list(zip(timestamps, amplitude * values))", "compilation_passed": true, "time": 0.1852579116821289, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(dict(Timestamp=timestamps, Value=values))", "compilation_passed": true, "time": 0.001847982406616211, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.vstack((timestamps, values)).T", "compilation_passed": true, "time": 0.0028297901153564453, "tests_passed": false, "error": "AttributeError"}
+{"code": " [{\"Timestamp\": timestamp, \"Value\": amplitude*np.sin(2 * np.pi * (timestamp/period)) + amplitude*values[i] if timestamp > start_time else amplitude*values[i] + amplitude*np.sin(2 * np.pi * (timestamp/period)) for i, timestamp in enumerate(timestamps)} for start_time, end_time, step, amplitude, period in zip(start_time, end_time, step, amplitude, period)]", "compilation_passed": false, "time": 0.00030803680419921875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " dict(zip(COLUMNS, [timestamps, amplitude*values]))", "compilation_passed": true, "time": 0.0018210411071777344, "tests_passed": false, "error": "AttributeError"}
+{"code": " [timestamps, values]", "compilation_passed": true, "time": 0.0026590824127197266, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(columns=COLUMNS)", "compilation_passed": true, "time": 0.002019643783569336, "tests_passed": false, "error": "AttributeError"}
+{"code": " zip(timestamps, values)", "compilation_passed": true, "time": 0.001756906509399414, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.multiply(values, amplitude)", "compilation_passed": true, "time": 0.0018258094787597656, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({\"Timestamp\": timestamps, \"Value\": values})", "compilation_passed": true, "time": 0.0019383430480957031, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00019621849060058594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " list(zip(timestamps, amplitude * (np.sin(2 * np.pi * (timestamps % period) / period) + 1) * values))", "compilation_passed": true, "time": 0.2026681900024414, "tests_passed": true, "error": null}
+{"code": " {\"Timestamp\": timestamps, \"Value\": values}", "compilation_passed": true, "time": 0.0018658638000488281, "tests_passed": false, "error": "AttributeError"}
+{"code": " [(ts, amplitude * np.sin(2 * np.pi * (ts - timestamps[0]) / period))", "compilation_passed": false, "time": 0.0002911090850830078, "tests_passed": false, "error": "SyntaxError"}

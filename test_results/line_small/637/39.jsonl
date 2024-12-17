@@ -1,0 +1,8 @@
+{"code": " pd.DataFrame(grades, index=students_sample, columns=COURSES)", "compilation_passed": true, "time": 0.0961599349975586, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=grades, index=students_sample, columns=COURSES)", "compilation_passed": true, "time": 0.09880185127258301, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Student': students_sample,", "compilation_passed": false, "time": 0.00010180473327636719, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00022220611572265625, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(grades, columns=COURSES, index=students_sample)", "compilation_passed": true, "time": 0.10263681411743164, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Student': students_sample} + dict(zip(COURSES, grades)))", "compilation_passed": true, "time": 0.0010862350463867188, "tests_passed": false, "error": "TypeError"}
+{"code": " pd.DataFrame(grades, columns=COURSES)", "compilation_passed": true, "time": 0.10704708099365234, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(index=students_sample, columns=COURSES)", "compilation_passed": true, "time": 0.10400795936584473, "tests_passed": true, "error": null}

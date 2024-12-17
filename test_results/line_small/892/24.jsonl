@@ -1,0 +1,23 @@
+{"code": " random.choices(population=strings, k=10)", "compilation_passed": true, "time": 0.0006930828094482422, "tests_passed": true, "error": null}
+{"code": " [random.choice(strings) for _ in range(10)]", "compilation_passed": true, "time": 0.0006158351898193359, "tests_passed": true, "error": null}
+{"code": " random.choices(strings, k=1)", "compilation_passed": true, "time": 0.0006067752838134766, "tests_passed": true, "error": null}
+{"code": " random.choices(strings, k=10)", "compilation_passed": true, "time": 0.0005960464477539062, "tests_passed": true, "error": null}
+{"code": " [random.choice(strings) for _ in range(3)]", "compilation_passed": true, "time": 0.0005998611450195312, "tests_passed": true, "error": null}
+{"code": " [random.choice(pattern) for _ in range(len(pattern))]", "compilation_passed": true, "time": 0.0006029605865478516, "tests_passed": true, "error": null}
+{"code": " random.sample(strings, k=min(50, len(strings)))", "compilation_passed": true, "time": 0.0006096363067626953, "tests_passed": true, "error": null}
+{"code": " [random.choice(pattern) for _ in strings]", "compilation_passed": true, "time": 0.0006420612335205078, "tests_passed": true, "error": null}
+{"code": " random.choices(population=strings, k=100)", "compilation_passed": true, "time": 0.0006022453308105469, "tests_passed": true, "error": null}
+{"code": " random.choice(strings).count(pattern)", "compilation_passed": true, "time": 0.0007579326629638672, "tests_passed": false, "error": "TypeError"}
+{"code": " [random.choice(strings) for _ in range(1000)]", "compilation_passed": true, "time": 0.0009338855743408203, "tests_passed": true, "error": null}
+{"code": " random.choices(range(len(strings)), k=5)", "compilation_passed": true, "time": 0.0006136894226074219, "tests_passed": false, "error": "AttributeError"}
+{"code": " [random.choice(strings) for _ in range(len(strings))]", "compilation_passed": true, "time": 0.0006468296051025391, "tests_passed": true, "error": null}
+{"code": " random.choices(strings, k=2)", "compilation_passed": true, "time": 0.0006310939788818359, "tests_passed": true, "error": null}
+{"code": " [random.randint(0, len(strings) - 1) for _ in range(10)]", "compilation_passed": true, "time": 0.0006589889526367188, "tests_passed": false, "error": "AttributeError"}
+{"code": " []", "compilation_passed": true, "time": 0.0005750656127929688, "tests_passed": true, "error": null}
+{"code": " [choice(strings) for _ in range(len(strings))]", "compilation_passed": true, "time": 0.0006389617919921875, "tests_passed": false, "error": "NameError"}
+{"code": " random.choice(range(len(strings)))", "compilation_passed": true, "time": 0.0006320476531982422, "tests_passed": false, "error": "TypeError"}
+{"code": " random.choice(strings)", "compilation_passed": true, "time": 0.0006227493286132812, "tests_passed": true, "error": null}
+{"code": " random.choices(strings, k=len(strings))", "compilation_passed": true, "time": 0.0006351470947265625, "tests_passed": true, "error": null}
+{"code": " [random.choice(strings) for _ in range(random.randrange(0, 25))]", "compilation_passed": true, "time": 0.0006198883056640625, "tests_passed": true, "error": null}
+{"code": " random.sample(strings, len(strings))", "compilation_passed": true, "time": 0.0005869865417480469, "tests_passed": true, "error": null}
+{"code": " random.choices(strings, k=20)", "compilation_passed": true, "time": 0.0005786418914794922, "tests_passed": true, "error": null}

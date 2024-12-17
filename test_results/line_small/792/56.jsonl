@@ -1,0 +1,13 @@
+{"code": " sorted(", "compilation_passed": false, "time": 0.0001838207244873047, "tests_passed": false, "error": "SyntaxError"}
+{"code": " heapq.nsmallest(n, range(len(residuals)), key=residuals.__getitem__)", "compilation_passed": true, "time": 0.005995988845825195, "tests_passed": true, "error": null}
+{"code": " sorted(range(len(residuals)), key=lambda x: abs(residuals[x]), reverse=True)[:n]", "compilation_passed": true, "time": 0.007357120513916016, "tests_passed": true, "error": null}
+{"code": " heapq.nlargest(n, range(len(residuals)), key=residuals.__getitem__)", "compilation_passed": true, "time": 0.0065310001373291016, "tests_passed": true, "error": null}
+{"code": " heapq.nsmallest(n, range(len(residuals)), key=lambda i: residuals[i])", "compilation_passed": true, "time": 0.006385087966918945, "tests_passed": true, "error": null}
+{"code": " np.argsort(residuals)[-n:]", "compilation_passed": true, "time": 0.0028412342071533203, "tests_passed": false, "error": "NameError"}
+{"code": " np.argpartition(residuals, n)[:n]", "compilation_passed": true, "time": 0.0030281543731689453, "tests_passed": false, "error": "NameError"}
+{"code": " heapq.nlargest(n, range(len(residuals)), residuals.__getitem__)", "compilation_passed": true, "time": 0.005990743637084961, "tests_passed": true, "error": null}
+{"code": " heapq.nsmallest(", "compilation_passed": false, "time": 0.00018906593322753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.argsort(-residuals)[:n]", "compilation_passed": true, "time": 0.0030210018157958984, "tests_passed": false, "error": "NameError"}
+{"code": " heapq.nsmallest(n, enumerate(residuals), key=lambda x: x[1])", "compilation_passed": true, "time": 0.006050825119018555, "tests_passed": true, "error": null}
+{"code": " heapq.nlargest(n, range(len(residuals)), key=lambda i: residuals[i])", "compilation_passed": true, "time": 0.0060122013092041016, "tests_passed": true, "error": null}
+{"code": " np.argsort(residuals)[::-1][:n]", "compilation_passed": true, "time": 0.0027570724487304688, "tests_passed": false, "error": "NameError"}

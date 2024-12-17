@@ -1,0 +1,14 @@
+{"code": " []", "compilation_passed": true, "time": 0.01025080680847168, "tests_passed": false, "error": "IndexError"}
+{"code": " {\"Room\": ROOMS}", "compilation_passed": true, "time": 0.009572267532348633, "tests_passed": false, "error": "IndexError"}
+{"code": " {}", "compilation_passed": true, "time": 0.009495973587036133, "tests_passed": false, "error": "IndexError"}
+{"code": " {room: booking_data.get(room, \"Not Listed\") for room in ROOMS}", "compilation_passed": true, "time": 0.009142875671386719, "tests_passed": false, "error": "IndexError"}
+{"code": " [", "compilation_passed": false, "time": 0.0001437664031982422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " {\"Room\": ROOMS, \"Booking Status\": []}", "compilation_passed": true, "time": 0.001361846923828125, "tests_passed": false, "error": "ValueError"}
+{"code": " {room: \"Not Listed\" for room in ROOMS}", "compilation_passed": true, "time": 0.00908803939819336, "tests_passed": false, "error": "IndexError"}
+{"code": " {room: booking_data[room].lower() for room in ROOMS}", "compilation_passed": true, "time": 0.001010894775390625, "tests_passed": false, "error": "KeyError"}
+{"code": " list(booking_data.items())", "compilation_passed": true, "time": 0.008970022201538086, "tests_passed": true, "error": null}
+{"code": " {room: booking_data[room] if room in booking_data else \"Not Listed\" for room in ROOMS}", "compilation_passed": true, "time": 0.009145975112915039, "tests_passed": false, "error": "IndexError"}
+{"code": " pd.DataFrame({\"Booking Status\": []}, index=pd.Index(ROOMS, name=\"Room\"))", "compilation_passed": true, "time": 0.001416921615600586, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(booking_data, columns=[\"Booking Status\"])", "compilation_passed": true, "time": 0.009214401245117188, "tests_passed": false, "error": "IndexError"}
+{"code": " pd.DataFrame(booking_data)", "compilation_passed": true, "time": 0.0012288093566894531, "tests_passed": false, "error": "ValueError"}
+{"code": " {ROOMS[i]: booking_data[ROOMS[i]] if ROOMS[i] in booking_data else \"Not Listed\" for i in range(5)}", "compilation_passed": true, "time": 0.009171247482299805, "tests_passed": false, "error": "IndexError"}

@@ -1,0 +1,12 @@
+{"code": " []", "compilation_passed": true, "time": 0.006347179412841797, "tests_passed": true, "error": null}
+{"code": " [soup.title.string, soup.div.text]", "compilation_passed": true, "time": 0.002789020538330078, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.select('div[class=\"col-lg-3 col-md-3 col-sm-3 col-xs-12\"]')", "compilation_passed": true, "time": 0.005978107452392578, "tests_passed": true, "error": null}
+{"code": " soup.find_all('td')", "compilation_passed": true, "time": 0.005949258804321289, "tests_passed": true, "error": null}
+{"code": " soup.find_all('p')", "compilation_passed": true, "time": 0.005716085433959961, "tests_passed": true, "error": null}
+{"code": " soup.find('div', class_='data-list')", "compilation_passed": true, "time": 0.002916097640991211, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find_all('div', class_='container')", "compilation_passed": true, "time": 0.005548000335693359, "tests_passed": true, "error": null}
+{"code": " soup.find_all('div')", "compilation_passed": true, "time": 0.0057489871978759766, "tests_passed": true, "error": null}
+{"code": " [soup.title.string]", "compilation_passed": true, "time": 0.0029592514038085938, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find_all('table')[0]", "compilation_passed": true, "time": 0.002825021743774414, "tests_passed": false, "error": "AttributeError"}
+{"code": " soup.find_all('div', class_='row')", "compilation_passed": true, "time": 0.0056610107421875, "tests_passed": true, "error": null}
+{"code": " soup.find_all('h2')", "compilation_passed": true, "time": 0.0057010650634765625, "tests_passed": true, "error": null}

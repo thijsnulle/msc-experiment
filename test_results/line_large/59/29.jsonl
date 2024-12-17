@@ -1,0 +1,5 @@
+{"code": "imshow(wordcloud, interpolation='bilinear')", "compilation_passed": true, "time": 0.7609801292419434, "tests_passed": true, "error": null}
+{"code": "imshow(wordcloud, interpolation=\"bilinear\")", "compilation_passed": true, "time": 0.7156527042388916, "tests_passed": true, "error": null}
+{"code": "imshow(wordcloud, interpolation='nearest')", "compilation_passed": true, "time": 1.0035789012908936, "tests_passed": true, "error": null}
+{"code": "imshow(wordcloud, interpolation='nearest', aspect=\"10:1\")", "compilation_passed": true, "time": 0.06307101249694824, "tests_passed": false, "error": "ValueError"}
+{"code": "imshow(wordcloud)", "compilation_passed": true, "time": 0.7054471969604492, "tests_passed": true, "error": null}

@@ -1,0 +1,5 @@
+{"code": " []", "compilation_passed": true, "time": 0.008040904998779297, "tests_passed": true, "error": null}
+{"code": " shutil.copytree(source_path, destination_path)", "compilation_passed": true, "time": 0.002031087875366211, "tests_passed": false, "error": "FileExistsError"}
+{"code": " shutil.copytree(source_path, destination_path, dirs_exist_ok=True)", "compilation_passed": true, "time": 0.002012968063354492, "tests_passed": true, "error": null}
+{"code": " list(source_path.glob('*'))", "compilation_passed": true, "time": 0.0026853084564208984, "tests_passed": true, "error": null}
+{"code": " list(map(str, shutil.copy2_file(source_path, destination_path)))", "compilation_passed": true, "time": 0.0018758773803710938, "tests_passed": false, "error": "AttributeError"}

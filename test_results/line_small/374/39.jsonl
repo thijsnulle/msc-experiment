@@ -1,0 +1,16 @@
+{"code": " re.search(\"[\\\"]+.*[\\\"]+\", cell.value):", "compilation_passed": true, "time": 0.051753997802734375, "tests_passed": true, "error": null}
+{"code": " cell.value:", "compilation_passed": true, "time": 0.05188703536987305, "tests_passed": true, "error": null}
+{"code": " cell.value is not None:", "compilation_passed": true, "time": 0.05143404006958008, "tests_passed": true, "error": null}
+{"code": " cell.value and isinstance(cell.value, str):", "compilation_passed": true, "time": 0.051460981369018555, "tests_passed": true, "error": null}
+{"code": " re.search('\"', cell.value):", "compilation_passed": true, "time": 0.051541805267333984, "tests_passed": true, "error": null}
+{"code": " cell.value is None:", "compilation_passed": true, "time": 0.020760059356689453, "tests_passed": true, "error": null}
+{"code": " cell.value is not None and cell.value != '':", "compilation_passed": true, "time": 0.051542043685913086, "tests_passed": true, "error": null}
+{"code": " not cell.value or not isinstance(cell.value, str):", "compilation_passed": true, "time": 0.020128965377807617, "tests_passed": true, "error": null}
+{"code": " not cell.value:", "compilation_passed": true, "time": 0.01981210708618164, "tests_passed": true, "error": null}
+{"code": " '\"' in str(cell.value):", "compilation_passed": true, "time": 0.05156731605529785, "tests_passed": true, "error": null}
+{"code": " cell.value and re.search(r'(?<!\\\\)\"', cell.value) is not None:", "compilation_passed": true, "time": 0.05145406723022461, "tests_passed": true, "error": null}
+{"code": " not cell.value is None:", "compilation_passed": true, "time": 0.05170392990112305, "tests_passed": true, "error": null}
+{"code": " cell.value is not None and isinstance(cell.value, str):", "compilation_passed": true, "time": 0.05141925811767578, "tests_passed": true, "error": null}
+{"code": " cell.value is not None and re.search('\"', str(cell.value)):", "compilation_passed": true, "time": 0.05166506767272949, "tests_passed": true, "error": null}
+{"code": " re.match('.*\".*\".*', cell.value):", "compilation_passed": true, "time": 0.05154991149902344, "tests_passed": true, "error": null}
+{"code": " cell.value is not None and cell.value:", "compilation_passed": true, "time": 0.0512089729309082, "tests_passed": true, "error": null}

@@ -1,0 +1,29 @@
+{"code": " pd.DataFrame(words_freq_filtered, columns=['Word', 'Frequency'])  # Convert to a pandas dataframe", "compilation_passed": true, "time": 0.0016529560089111328, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['Word', 'Frequency']).set_index('Word')", "compilation_passed": true, "time": 0.0013818740844726562, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered)", "compilation_passed": true, "time": 0.0013968944549560547, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['Words', 'Frequency'])", "compilation_passed": true, "time": 0.0014350414276123047, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame([[x[0]] + x[1] for x in words_freq_filtered], columns=['word', 'count'])  # Create dataframe from list", "compilation_passed": true, "time": 0.0014867782592773438, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered)  # Convert to DataFrame", "compilation_passed": true, "time": 0.0012619495391845703, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame.from_dict(dict(words_freq_filtered), orient='index')", "compilation_passed": true, "time": 0.001268148422241211, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['Word', 'Frequency'])", "compilation_passed": true, "time": 0.0013380050659179688, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=[\"word\", \"freq\"])  # Convert to dataframe", "compilation_passed": true, "time": 0.0013620853424072266, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['n-gram', 'count'])", "compilation_passed": true, "time": 0.001325845718383789, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['Words', 'Freq']).set_index('Freq', drop=True)", "compilation_passed": true, "time": 0.0013539791107177734, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=[\"word\", \"freq\"])  # Convert the dictionary to a pandas data frame", "compilation_passed": true, "time": 0.001344919204711914, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['n-grams', 'frequency'])  # Convert to a dataframe", "compilation_passed": true, "time": 0.0012848377227783203, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['word', 'frequency'])  # Convert to data frame", "compilation_passed": true, "time": 0.001249074935913086, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['Ngram', 'Frequency'])  # Make dataframe", "compilation_passed": true, "time": 0.0014960765838623047, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=[\"n-grams\", \"count\"])  # Make dataframe from top k n-grams", "compilation_passed": true, "time": 0.0013668537139892578, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['N-grams', 'Frequency'])  # Create a pandas DataFrame", "compilation_passed": true, "time": 0.0013661384582519531, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=[\"Word\", \"Frequency\"])", "compilation_passed": true, "time": 0.0013659000396728516, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['N_gram', 'count'])", "compilation_passed": true, "time": 0.0013241767883300781, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['words', 'freq'])", "compilation_passed": true, "time": 0.0012543201446533203, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['Word', 'Frequency'])  # Convert to DataFrame", "compilation_passed": true, "time": 0.0012850761413574219, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['words', 'frequency'])  # Convert list of n-grams to dataframe", "compilation_passed": true, "time": 0.0012469291687011719, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame([[freq, word] for (word, freq) in words_freq_filtered], columns=['frequency', 'n-grams'])", "compilation_passed": true, "time": 0.0012280941009521484, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame([{", "compilation_passed": false, "time": 0.00013303756713867188, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['n-gram', 'frequency'])", "compilation_passed": true, "time": 0.001238107681274414, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame({'words': [word for word, _ in words_freq_filtered], 'frequency': [count for _, count in words_freq_filtered]})  # Make a dataframe for plotting", "compilation_passed": true, "time": 0.001293182373046875, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['Ngrams', 'Frequency'])  # Convert to a Pandas DataFrame", "compilation_passed": true, "time": 0.0012230873107910156, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['N-grams', 'Frequency'])", "compilation_passed": true, "time": 0.001451730728149414, "tests_passed": false, "error": ""}
+{"code": " pd.DataFrame(words_freq_filtered, columns=['Ngram', 'Freq'])", "compilation_passed": true, "time": 0.0012598037719726562, "tests_passed": false, "error": ""}

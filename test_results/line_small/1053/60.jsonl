@@ -1,0 +1,26 @@
+{"code": " (word_count.T / sum_words).T", "compilation_passed": false, "time": 0.00018787384033203125, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(word_count.toarray() / sum_words.values(), index=vectorizer.get_feature_names(), columns=[\"Word Count\"])", "compilation_passed": false, "time": 0.0002739429473876953, "tests_passed": false, "error": "IndentationError"}
+{"code": " (word_count.T / sum_words).round(2)", "compilation_passed": false, "time": 0.0001888275146484375, "tests_passed": false, "error": "IndentationError"}
+{"code": " (word_count.transpose() * sum_words).A[0].tolist()", "compilation_passed": false, "time": 0.0002281665802001953, "tests_passed": false, "error": "IndentationError"}
+{"code": " word_count.toarray().T / sum_words", "compilation_passed": false, "time": 0.0002238750457763672, "tests_passed": false, "error": "IndentationError"}
+{"code": " (word_count.transpose() * sum_words) / sum_words.sum()", "compilation_passed": false, "time": 0.0001838207244873047, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum_words[1] / sum_words[0]", "compilation_passed": false, "time": 0.00023293495178222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " (word_count / sum_words).T.sort_values(ascending=False)", "compilation_passed": false, "time": 0.0002110004425048828, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.asarray(word_count.toarray()) / sum_words", "compilation_passed": false, "time": 0.0002262592315673828, "tests_passed": false, "error": "IndentationError"}
+{"code": " [float(x) / sum_words for x in word_count.sum(axis=1)]", "compilation_passed": false, "time": 0.00021600723266601562, "tests_passed": false, "error": "IndentationError"}
+{"code": " sum_words[1:].toarray().flatten()", "compilation_passed": false, "time": 0.0002300739288330078, "tests_passed": false, "error": "IndentationError"}
+{"code": " word_count.toarray() / sum_words", "compilation_passed": false, "time": 0.000225067138671875, "tests_passed": false, "error": "IndentationError"}
+{"code": " [(word, count) for word, count in sum_words.to_dict().items()]", "compilation_passed": false, "time": 0.00024080276489257812, "tests_passed": false, "error": "IndentationError"}
+{"code": " (word_count.T / sum_words).toarray()", "compilation_passed": false, "time": 0.0002200603485107422, "tests_passed": false, "error": "IndentationError"}
+{"code": " {word: count/sum_words for word, count in word_count.toarray().flatten().tolist()}", "compilation_passed": false, "time": 0.00023508071899414062, "tests_passed": false, "error": "IndentationError"}
+{"code": " (word_count / sum_words).round(2).astype(int)", "compilation_passed": false, "time": 0.00017189979553222656, "tests_passed": false, "error": "IndentationError"}
+{"code": " word_count.toarray()", "compilation_passed": false, "time": 0.00017786026000976562, "tests_passed": false, "error": "IndentationError"}
+{"code": " 100 / sum_words[0] * word_count.T", "compilation_passed": false, "time": 0.0001900196075439453, "tests_passed": false, "error": "IndentationError"}
+{"code": " word_count.transpose().T / sum_words", "compilation_passed": false, "time": 0.0001881122589111328, "tests_passed": false, "error": "IndentationError"}
+{"code": " word_count.multiply(1.0 / sum_words, axis=0)", "compilation_passed": false, "time": 0.00020122528076171875, "tests_passed": false, "error": "IndentationError"}
+{"code": " word_count.toarray() / sum_words.astype(float)", "compilation_passed": false, "time": 0.00027108192443847656, "tests_passed": false, "error": "IndentationError"}
+{"code": " 10 * np.log10(sum_words)", "compilation_passed": false, "time": 0.00021004676818847656, "tests_passed": false, "error": "IndentationError"}
+{"code": " pd.DataFrame(word_count.toarray(), index=vectorizer.get_feature_names(), columns=[\"Word Count\"]) / sum_words", "compilation_passed": false, "time": 0.00023412704467773438, "tests_passed": false, "error": "IndentationError"}
+{"code": " {word: count for word, count in zip(vectorizer.get_feature_names(), sum_words)}", "compilation_passed": false, "time": 0.00019407272338867188, "tests_passed": false, "error": "IndentationError"}
+{"code": " (word_count.T / sum_words).round(3)", "compilation_passed": false, "time": 0.0001678466796875, "tests_passed": false, "error": "IndentationError"}
+{"code": " np.round(word_count.T.multiply(100 / sum_words), decimals=3)", "compilation_passed": false, "time": 0.00021910667419433594, "tests_passed": false, "error": "IndentationError"}

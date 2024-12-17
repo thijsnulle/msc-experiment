@@ -1,0 +1,9 @@
+{"code": "copy(entry, destination_path)", "compilation_passed": true, "time": 0.007980823516845703, "tests_passed": true, "error": null}
+{"code": "copy(entry, destination_path.joinpath(entry.name))", "compilation_passed": true, "time": 0.008086681365966797, "tests_passed": true, "error": null}
+{"code": "copy(entry.resolve(), destination_path.resolve())", "compilation_passed": true, "time": 0.00857400894165039, "tests_passed": true, "error": null}
+{"code": "copy(entry, destination_path / entry.name)", "compilation_passed": true, "time": 0.008052825927734375, "tests_passed": true, "error": null}
+{"code": "copy(str(entry), str(destination_path))", "compilation_passed": true, "time": 0.008020877838134766, "tests_passed": true, "error": null}
+{"code": "copy(source_path / entry.name, destination_path / entry.name)", "compilation_passed": true, "time": 0.008029937744140625, "tests_passed": true, "error": null}
+{"code": "copy2(entry, destination_path)", "compilation_passed": true, "time": 0.008285045623779297, "tests_passed": true, "error": null}
+{"code": "copy(source_path / entry.name, destination_path)", "compilation_passed": true, "time": 0.008188962936401367, "tests_passed": true, "error": null}
+{"code": "copy2(entry, destination_path / entry.name)", "compilation_passed": true, "time": 0.0143280029296875, "tests_passed": true, "error": null}

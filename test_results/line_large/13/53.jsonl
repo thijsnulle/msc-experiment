@@ -1,0 +1,21 @@
+{"code": " f\"wget -P {download_dir} ftp://{ftp_server}{ftp_dir}/{filename}\"", "compilation_passed": true, "time": 0.0033538341522216797, "tests_passed": true, "error": null}
+{"code": " f\"wget ftp://{ftp_user}:{ftp_password}@{ftp_server}{ftp_dir}/{filename}\"", "compilation_passed": true, "time": 0.004328012466430664, "tests_passed": true, "error": null}
+{"code": " [", "compilation_passed": false, "time": 0.0003399848937988281, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"wget -P {download_dir} ftp://{ftp_user}:{ftp_password}@{ftp_server}{ftp_dir}/{filename}\"", "compilation_passed": true, "time": 0.005141019821166992, "tests_passed": true, "error": null}
+{"code": " f\"wget ftp://{ftp_user}:{ftp_password}@{ftp_server}{ftp_dir}/{filename} -P {download_dir}\"", "compilation_passed": true, "time": 0.006943941116333008, "tests_passed": true, "error": null}
+{"code": " f'wget -P {download_dir} ftp://{ftp_user}:{ftp_password}@{ftp_server}/{ftp_dir}/{filename}'", "compilation_passed": true, "time": 0.01739811897277832, "tests_passed": true, "error": null}
+{"code": " f\"wget --ftp-user {ftp_user} --ftp-password {ftp_password} ftp://{ftp_server}{ftp_dir}/{filename}\"", "compilation_passed": true, "time": 0.007995843887329102, "tests_passed": true, "error": null}
+{"code": " [\"wget\", \"-P\", download_dir, ftp_server + ftp_dir + \"/\" + filename]", "compilation_passed": true, "time": 0.004885196685791016, "tests_passed": true, "error": null}
+{"code": " f'wget --quiet -P {download_dir} ftp://{ftp_user}:{ftp_password}@{ftp_server}{ftp_dir}/{filename}'", "compilation_passed": true, "time": 0.004346132278442383, "tests_passed": true, "error": null}
+{"code": " f'wget -P {download_dir} ftp://{ftp_user}:{ftp_password}@{ftp_server}{ftp_dir}/{filename}'", "compilation_passed": true, "time": 0.004027128219604492, "tests_passed": true, "error": null}
+{"code": " [\"wget\", \"-P\", download_dir, f\"ftp://{ftp_user}:{ftp_password}@{ftp_server}{ftp_dir}/{filename}\"]", "compilation_passed": true, "time": 0.4594078063964844, "tests_passed": true, "error": null}
+{"code": " f\"wget -q --no-host-directories --cut-dirs=3 ftp://{ftp_user}:{ftp_password}@{ftp_server}{ftp_dir}/{filename} -P {download_dir}\"", "compilation_passed": true, "time": 0.003477811813354492, "tests_passed": true, "error": null}
+{"code": " \"wget --directory-prefix={0} ftp://{1}:{2}@{3}{4}/{5}\".format(", "compilation_passed": false, "time": 0.0002810955047607422, "tests_passed": false, "error": "SyntaxError"}
+{"code": " f\"wget --ftp-user={ftp_user} --ftp-password={ftp_password} ftp://{ftp_server}/{ftp_dir}/{filename}\"", "compilation_passed": true, "time": 0.00468897819519043, "tests_passed": true, "error": null}
+{"code": " f'wget -P {download_dir} ftp://{ftp_server}{ftp_dir}/{filename}'", "compilation_passed": true, "time": 0.014140844345092773, "tests_passed": true, "error": null}
+{"code": " [\"wget\", f\"ftp://{ftp_user}:{ftp_password}@{ftp_server}{ftp_dir}/{filename}\", \"-O\", f\"{download_dir}/{filename}\"]", "compilation_passed": true, "time": 0.0059278011322021484, "tests_passed": true, "error": null}
+{"code": " f'wget ftp://{ftp_user}:{ftp_password}@{ftp_server}{ftp_dir}/{filename}'", "compilation_passed": true, "time": 0.0053670406341552734, "tests_passed": true, "error": null}
+{"code": " f\"wget -nv --no-check-certificate --directory-prefix={download_dir} ftp://{ftp_user}:{ftp_password}@{ftp_server}/{ftp_dir}/{filename}\"", "compilation_passed": true, "time": 0.0041162967681884766, "tests_passed": true, "error": null}
+{"code": " ['wget', f'ftp://{ftp_user}:{ftp_password}@{ftp_server}/{ftp_dir}/{filename}', '-P', download_dir]", "compilation_passed": true, "time": 0.003943920135498047, "tests_passed": true, "error": null}
+{"code": " ['wget', f'{ftp_obj.host}{ftp_obj.curdir}/{filename}', f'--user={ftp_user}', f'--password={ftp_password}', f'--output-document={download_dir}/{filename}']", "compilation_passed": true, "time": 0.0038979053497314453, "tests_passed": true, "error": null}
+{"code": " f\"wget -P {download_dir} ftp://{ftp_user}:{ftp_password}@{ftp_server}/{ftp_dir}/{filename}\"", "compilation_passed": true, "time": 0.003365755081176758, "tests_passed": true, "error": null}

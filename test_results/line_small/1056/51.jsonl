@@ -1,0 +1,19 @@
+{"code": " ax.barh(pairs, counts, label=\"counts\")", "compilation_passed": true, "time": 0.001024007797241211, "tests_passed": false, "error": "NameError"}
+{"code": " ax.bar(pairs, counts, color=\"#95b900\", label=\"Letter-Number Pairs\", align=\"edge\")", "compilation_passed": true, "time": 0.0010323524475097656, "tests_passed": false, "error": "NameError"}
+{"code": " [plt.bar(f\"{label}:{count}\", 1, label=label, color=\"orange\") for label, count in zip(pairs, counts)]", "compilation_passed": true, "time": 0.006566047668457031, "tests_passed": false, "error": "AttributeError"}
+{"code": " plt.bar(pairs, counts, edgecolor=\"black\", linewidth=1, align=\"center\")", "compilation_passed": true, "time": 0.012396812438964844, "tests_passed": true, "error": null}
+{"code": " plt.bar(pairs, counts)", "compilation_passed": true, "time": 0.012185096740722656, "tests_passed": true, "error": null}
+{"code": " ax.barh([x for x in range(n_pairs)], counts, align=\"center\")", "compilation_passed": true, "time": 0.0009450912475585938, "tests_passed": false, "error": "NameError"}
+{"code": " ax.bar(pairs, counts, color=\"C1\", linewidth=0)", "compilation_passed": true, "time": 0.0012831687927246094, "tests_passed": false, "error": "NameError"}
+{"code": " plt.bar(x=pairs, height=counts)", "compilation_passed": true, "time": 0.012037277221679688, "tests_passed": true, "error": null}
+{"code": " [plt.bar(pair, count, label=pair) for pair, count in zip(pairs, counts)]", "compilation_passed": true, "time": 0.0064008235931396484, "tests_passed": false, "error": "AttributeError"}
+{"code": " ax.barh(*zip(pairs, counts), title=\"Random Letter-Number Pairs\")", "compilation_passed": true, "time": 0.0010170936584472656, "tests_passed": false, "error": "NameError"}
+{"code": " ax.barh(range(len(pairs)), counts, align=\"center\", label=pairs, linewidth=0, height=0.6)", "compilation_passed": true, "time": 0.0010437965393066406, "tests_passed": false, "error": "NameError"}
+{"code": " plt.bar(pairs, counts, label=pairs, alpha=0.5, linewidth=0)", "compilation_passed": true, "time": 0.012576103210449219, "tests_passed": true, "error": null}
+{"code": " plt.bar(pairs, counts, label='Random')", "compilation_passed": true, "time": 0.01243281364440918, "tests_passed": true, "error": null}
+{"code": " plt.bar(pairs, counts, edgecolor=\"black\")", "compilation_passed": true, "time": 0.01252889633178711, "tests_passed": true, "error": null}
+{"code": " plt.bar(pairs, counts, label=\"Random Pairs\")", "compilation_passed": true, "time": 0.011995315551757812, "tests_passed": true, "error": null}
+{"code": " ax.barh(*[x for x in zip(pairs, counts)], color=\"red\", alpha=0.8)", "compilation_passed": true, "time": 0.0010349750518798828, "tests_passed": false, "error": "NameError"}
+{"code": " plt.bar(pairs, counts, color=\"green\")", "compilation_passed": true, "time": 0.012099981307983398, "tests_passed": true, "error": null}
+{"code": " ax.bar(pairs, counts)", "compilation_passed": true, "time": 0.0010080337524414062, "tests_passed": false, "error": "NameError"}
+{"code": " ax.bar(pairs, counts, color=\"grey\", align=\"center\")", "compilation_passed": true, "time": 0.0010156631469726562, "tests_passed": false, "error": "NameError"}

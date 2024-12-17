@@ -1,0 +1,15 @@
+{"code": " all(", "compilation_passed": true, "time": 0.002501249313354492, "tests_passed": false, "error": "TypeError"}
+{"code": " converted_column.notnull().all():", "compilation_passed": false, "time": 7.891654968261719e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.notnull(converted_column).all():", "compilation_passed": false, "time": 8.0108642578125e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not converted_column.isnull().any():", "compilation_passed": false, "time": 8.106231689453125e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not converted_column.hasnans:", "compilation_passed": false, "time": 7.128715515136719e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not converted_column.isna().all():  # Check if any values were converted", "compilation_passed": false, "time": 8.20159912109375e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " converted_column.dtype == \"float64\":", "compilation_passed": false, "time": 8.20159912109375e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " all(converted_column.notnull()):", "compilation_passed": false, "time": 7.486343383789062e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " converted_column.dtype in [\"float64\", \"int64\"]:", "compilation_passed": false, "time": 8.487701416015625e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " converted_column.notna().all():", "compilation_passed": false, "time": 8.20159912109375e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not pd.isnull(converted_column).all():", "compilation_passed": false, "time": 7.867813110351562e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.isna(converted_column).all():", "compilation_passed": false, "time": 7.390975952148438e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.isna(converted_column).any():", "compilation_passed": false, "time": 9.489059448242188e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not converted_column.isnull().all():", "compilation_passed": false, "time": 7.295608520507812e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " not pd.isna(converted_column).any():", "compilation_passed": false, "time": 7.390975952148438e-05, "tests_passed": false, "error": "SyntaxError"}

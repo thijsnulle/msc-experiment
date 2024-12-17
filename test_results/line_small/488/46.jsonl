@@ -1,0 +1,10 @@
+{"code": " datetime.utcfromtimestamp(ts)", "compilation_passed": true, "time": 0.30971407890319824, "tests_passed": true, "error": null}
+{"code": " datetime.utcfromtimestamp(ts / 1000)", "compilation_passed": true, "time": 0.2884221076965332, "tests_passed": true, "error": null}
+{"code": " datetime.utcfromtimestamp(ts/1000)", "compilation_passed": true, "time": 0.6646790504455566, "tests_passed": true, "error": null}
+{"code": " datetime.fromtimestamp(ts // 1000)", "compilation_passed": true, "time": 0.29314208030700684, "tests_passed": true, "error": null}
+{"code": " datetime.datetime.utcfromtimestamp(ts / 1000)", "compilation_passed": true, "time": 0.0018329620361328125, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.fromtimestamp(ts / 1000)", "compilation_passed": true, "time": 0.299069881439209, "tests_passed": true, "error": null}
+{"code": " datetime.datetime.utcfromtimestamp(ts / 1000.0)", "compilation_passed": true, "time": 0.0018019676208496094, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.datetime.utcfromtimestamp(ts // 1000)", "compilation_passed": true, "time": 0.0014920234680175781, "tests_passed": false, "error": "AttributeError"}
+{"code": " datetime.utcfromtimestamp(ts // 1000)", "compilation_passed": true, "time": 0.33061718940734863, "tests_passed": true, "error": null}
+{"code": " datetime.datetime.utcfromtimestamp(ts)", "compilation_passed": true, "time": 0.0017650127410888672, "tests_passed": false, "error": "AttributeError"}

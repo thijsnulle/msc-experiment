@@ -1,0 +1,13 @@
+{"code": " sum(word_count.toarray())", "compilation_passed": true, "time": 0.0028409957885742188, "tests_passed": true, "error": null}
+{"code": " sum(word_count.sum(axis=0))", "compilation_passed": true, "time": 0.10308098793029785, "tests_passed": true, "error": null}
+{"code": " word_count.sum(axis=1)", "compilation_passed": true, "time": 0.0020570755004882812, "tests_passed": true, "error": null}
+{"code": " word_count.sum(axis=0)", "compilation_passed": true, "time": 0.09665989875793457, "tests_passed": true, "error": null}
+{"code": " word_count.sum()", "compilation_passed": true, "time": 0.0019960403442382812, "tests_passed": true, "error": null}
+{"code": " np.array(word_count.sum(axis=0))[0]", "compilation_passed": true, "time": 0.0020017623901367188, "tests_passed": true, "error": null}
+{"code": " sum([sum(x) for x in word_count.toarray()])", "compilation_passed": true, "time": 0.0020139217376708984, "tests_passed": true, "error": null}
+{"code": " word_count.sum(axis=0).toarray().flatten()", "compilation_passed": true, "time": 0.0021619796752929688, "tests_passed": true, "error": null}
+{"code": " np.sum(word_count.toarray(), axis=0)", "compilation_passed": true, "time": 0.001928091049194336, "tests_passed": true, "error": null}
+{"code": " sum([x.count(1) for x in word_count])", "compilation_passed": true, "time": 0.0016591548919677734, "tests_passed": true, "error": null}
+{"code": " word_count.sum(axis=0).toarray()", "compilation_passed": true, "time": 0.002010822296142578, "tests_passed": true, "error": null}
+{"code": " sum([i.count(1) for i in word_count.toarray()])", "compilation_passed": true, "time": 0.0019259452819824219, "tests_passed": true, "error": null}
+{"code": " np.asarray(word_count.sum(axis=0))[0]", "compilation_passed": true, "time": 0.0016324520111083984, "tests_passed": true, "error": null}

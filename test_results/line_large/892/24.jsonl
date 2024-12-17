@@ -1,0 +1,15 @@
+{"code": " [random.choice(string) for string in strings]", "compilation_passed": true, "time": 0.0006501674652099609, "tests_passed": true, "error": null}
+{"code": " [s for s in strings if pattern in s]", "compilation_passed": true, "time": 0.0006918907165527344, "tests_passed": true, "error": null}
+{"code": " [random.choice(string) if pattern in string else None for string in strings]", "compilation_passed": true, "time": 0.0006918907165527344, "tests_passed": true, "error": null}
+{"code": " random.sample(strings, 10)", "compilation_passed": true, "time": 0.0006749629974365234, "tests_passed": false, "error": "ValueError"}
+{"code": " random.choices([True, False], k=len(strings))", "compilation_passed": true, "time": 0.0006747245788574219, "tests_passed": false, "error": "AttributeError"}
+{"code": " random.choices(strings, k=10)", "compilation_passed": true, "time": 0.0006768703460693359, "tests_passed": true, "error": null}
+{"code": " random.sample(strings, len(strings) // 2)", "compilation_passed": true, "time": 0.0006260871887207031, "tests_passed": true, "error": null}
+{"code": " random.choices(list(strings), k=len(strings))", "compilation_passed": true, "time": 0.0006279945373535156, "tests_passed": true, "error": null}
+{"code": " [s for s in strings if s.count(pattern) > 1]", "compilation_passed": true, "time": 0.0006337165832519531, "tests_passed": true, "error": null}
+{"code": " [random.choice(strings) for _ in range(5000)]", "compilation_passed": true, "time": 0.002137899398803711, "tests_passed": true, "error": null}
+{"code": " [s for s in strings if random.choice(s) == pattern]", "compilation_passed": true, "time": 0.0006799697875976562, "tests_passed": true, "error": null}
+{"code": " [random.choice(strings) for _ in range(10)]", "compilation_passed": true, "time": 0.000637054443359375, "tests_passed": true, "error": null}
+{"code": " [random.choice(string) if pattern in string else '' for string in strings]", "compilation_passed": true, "time": 0.0006821155548095703, "tests_passed": true, "error": null}
+{"code": " [random.choice(string) if '}' in string else random.choice(string.replace(pattern, '')) for string in strings]", "compilation_passed": true, "time": 0.0006992816925048828, "tests_passed": true, "error": null}
+{"code": " random.choices(list(range(10)), k=len(strings))", "compilation_passed": true, "time": 0.0006289482116699219, "tests_passed": false, "error": "AttributeError"}

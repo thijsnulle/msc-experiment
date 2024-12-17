@@ -1,0 +1,3 @@
+{"code": " pd.DataFrame(result, columns=adjusted_feature_names)", "compilation_passed": true, "time": 0.0019359588623046875, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00015807151794433594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(result).rename_axis(adjusted_feature_names)", "compilation_passed": true, "time": 0.001821279525756836, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}

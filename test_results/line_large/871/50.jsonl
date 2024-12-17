@@ -1,0 +1,18 @@
+{"code": " []", "compilation_passed": true, "time": 0.001953125, "tests_passed": true, "error": null}
+{"code": " np.mean(np.nan_to_num(unzipped_data[1:]))", "compilation_passed": true, "time": 0.00115203857421875, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.mean(unzipped_data[1:], axis=1)  # Calculating the mean of each position excluding the first one", "compilation_passed": true, "time": 0.0011560916900634766, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.mean(unzipped_data[1:], axis=1)", "compilation_passed": true, "time": 0.0011827945709228516, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.mean(unzipped_data[i][1:]) for i in range(len(unzipped_data))]  # Compute mean excluding first element", "compilation_passed": true, "time": 0.0017361640930175781, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " np.nanmean(unzipped_data[1:], axis=1)  # Calculating mean values", "compilation_passed": true, "time": 0.001161336898803711, "tests_passed": false, "error": "AttributeError"}
+{"code": " []  # List to hold the computed mean values", "compilation_passed": true, "time": 0.0018341541290283203, "tests_passed": true, "error": null}
+{"code": " list(np.nanmean(unzipped_data[1:], axis=1))", "compilation_passed": true, "time": 0.0014119148254394531, "tests_passed": true, "error": null}
+{"code": " []  # Create a list to store mean values", "compilation_passed": true, "time": 0.001905202865600586, "tests_passed": true, "error": null}
+{"code": " list(np.mean(unzipped_data[1:], dtype=float, axis=1))", "compilation_passed": true, "time": 0.001405954360961914, "tests_passed": true, "error": null}
+{"code": " []  # List for storing mean values", "compilation_passed": true, "time": 0.001997709274291992, "tests_passed": true, "error": null}
+{"code": " np.mean(np.asanyarray(unzipped_data[1:], dtype=float), axis=1)", "compilation_passed": true, "time": 0.0011420249938964844, "tests_passed": false, "error": "AttributeError"}
+{"code": " list()", "compilation_passed": true, "time": 0.0019080638885498047, "tests_passed": true, "error": null}
+{"code": " np.mean(unzipped_data[1:], axis=1) # Compute mean of the numerical values, excluding the first column", "compilation_passed": true, "time": 0.0010960102081298828, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.nanmean(unzipped_data[1:], axis=1)  # Calculating the mean", "compilation_passed": true, "time": 0.0011670589447021484, "tests_passed": false, "error": "AttributeError"}
+{"code": " [np.mean(i[1:]) for i in unzipped_data]  # Calculating the mean excluding the first element", "compilation_passed": true, "time": 0.0013370513916015625, "tests_passed": false, "error": "numpy.core._exceptions._UFuncNoLoopError"}
+{"code": " list(map(np.mean, unzipped_data[1:]))  # calculate the mean of each tuple position", "compilation_passed": true, "time": 0.0013668537139892578, "tests_passed": true, "error": null}
+{"code": " np.mean(unzipped_data[1:], axis=1, keepdims=True)", "compilation_passed": true, "time": 0.001119852066040039, "tests_passed": false, "error": "AttributeError"}

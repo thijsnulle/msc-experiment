@@ -1,0 +1,16 @@
+{"code": " norm.rvs(0, 1, size=x.shape)", "compilation_passed": true, "time": 0.004824161529541016, "tests_passed": true, "error": null}
+{"code": " norm(0, 1).pdf(x)", "compilation_passed": true, "time": 0.05278491973876953, "tests_passed": true, "error": null}
+{"code": " norm.pdf(x, loc=0, scale=1)", "compilation_passed": true, "time": 0.07037687301635742, "tests_passed": true, "error": null}
+{"code": " np.random.normal(0, 1, x.shape)", "compilation_passed": true, "time": 0.021326780319213867, "tests_passed": true, "error": null}
+{"code": " norm.pdf(x, 0, 1)", "compilation_passed": true, "time": 0.09163117408752441, "tests_passed": true, "error": null}
+{"code": " norm(loc=0, scale=1).rvs(x.shape)", "compilation_passed": true, "time": 0.547199010848999, "tests_passed": true, "error": null}
+{"code": " np.random.normal(0, 1, size=len(x))", "compilation_passed": true, "time": 0.005678892135620117, "tests_passed": true, "error": null}
+{"code": " norm.rvs(size=len(x))", "compilation_passed": true, "time": 0.006925106048583984, "tests_passed": true, "error": null}
+{"code": " norm.pdf(x, loc=-0.5, scale=1)", "compilation_passed": true, "time": 0.008029937744140625, "tests_passed": true, "error": null}
+{"code": " norm.rvs(0, 1, len(x))", "compilation_passed": true, "time": 0.01664280891418457, "tests_passed": true, "error": null}
+{"code": " norm(0, 1).rvs(x.shape)", "compilation_passed": true, "time": 0.02006387710571289, "tests_passed": true, "error": null}
+{"code": " norm.rvs(loc=0, scale=1, size=x.size)", "compilation_passed": true, "time": 0.024236202239990234, "tests_passed": true, "error": null}
+{"code": " np.random.normal(loc=0, scale=1, size=x.size)", "compilation_passed": true, "time": 0.02822136878967285, "tests_passed": true, "error": null}
+{"code": " norm.rvs(loc=0, scale=1, size=len(x))", "compilation_passed": true, "time": 0.028839111328125, "tests_passed": true, "error": null}
+{"code": " norm(scale=1.0).pdf(x)", "compilation_passed": true, "time": 0.13292980194091797, "tests_passed": true, "error": null}
+{"code": " norm.pdf(x, loc=-1, scale=1)", "compilation_passed": true, "time": 0.03445887565612793, "tests_passed": true, "error": null}

@@ -1,0 +1,28 @@
+{"code": "plot(distribution, norm(MU, SIGMA).pdf(distribution), 'k', linewidth=2, label='PDF')", "compilation_passed": false, "time": 0.0001709461212158203, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution), 'r-', linewidth=5, label='PDF')", "compilation_passed": false, "time": 0.0001659393310546875, "tests_passed": false, "error": "IndentationError"}
+{"code": "legend(loc='upper right')", "compilation_passed": false, "time": 0.0001468658447265625, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution, MU, SIGMA), 'k', lw=5, label='PDF')", "compilation_passed": false, "time": 0.00018930435180664062, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm(MU, SIGMA).pdf(distribution), 'k', lw=5, label='PDF')", "compilation_passed": false, "time": 0.00019788742065429688, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(np.linspace(MU - 5, MU + 5, 100), norm.pdf(np.linspace(MU - 5, MU + 5, 100), MU, SIGMA))", "compilation_passed": false, "time": 0.0002002716064453125, "tests_passed": false, "error": "IndentationError"}
+{"code": "set_title('Histogram')", "compilation_passed": false, "time": 0.00018286705017089844, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution,MU,SIGMA), label='PDF')", "compilation_passed": false, "time": 0.00017595291137695312, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution), 'r', lw=5, label='PDF')", "compilation_passed": false, "time": 0.00018596649169921875, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution,MU,SIGMA), 'r-', label='PDF')", "compilation_passed": false, "time": 0.0001919269561767578, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution, MU, SIGMA), 'r-', label='PDF')", "compilation_passed": false, "time": 0.00018095970153808594, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution, MU, SIGMA), '-', lw=5, label='PDF')", "compilation_passed": false, "time": 0.0001919269561767578, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution), label='PDF')", "compilation_passed": false, "time": 0.00017309188842773438, "tests_passed": false, "error": "IndentationError"}
+{"code": "set_title('Histogram and probability density function')", "compilation_passed": false, "time": 0.0001881122589111328, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution, MU, SIGMA), 'r-', lw=5, alpha=0.6, label='PDF')", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution), '--', label='PDF')", "compilation_passed": false, "time": 0.0001800060272216797, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(np.linspace(distribution.min(), distribution.max(), 200), norm.pdf(np.linspace(distribution.min(), distribution.max(), 200),MU, SIGMA))", "compilation_passed": false, "time": 0.0002040863037109375, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(np.linspace(-10, 10, 201), norm.pdf(np.linspace(-10, 10, 201), MU, SIGMA), label='PDF')", "compilation_passed": false, "time": 0.00020313262939453125, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution), 'C0', lw=5, alpha=0.6, label='PDF')", "compilation_passed": false, "time": 0.00019478797912597656, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution, MU, SIGMA), '--', label='PDF')", "compilation_passed": false, "time": 0.00020194053649902344, "tests_passed": false, "error": "IndentationError"}
+{"code": "set(xlim = (-5,5))", "compilation_passed": false, "time": 0.00019288063049316406, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution, MU, SIGMA), 'k-', label='PDF')", "compilation_passed": false, "time": 0.0001938343048095703, "tests_passed": false, "error": "IndentationError"}
+{"code": "axvline(MU, color='r', label='mean')", "compilation_passed": false, "time": 0.00018405914306640625, "tests_passed": false, "error": "IndentationError"}
+{"code": "set_ylabel(\"Probability\")", "compilation_passed": false, "time": 0.00017309188842773438, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution, MU, SIGMA), label='PDF')", "compilation_passed": false, "time": 0.00018477439880371094, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution,MU,SIGMA), 'r-')", "compilation_passed": false, "time": 0.0001850128173828125, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(np.linspace(MU-5, MU+5, 200), norm.pdf(np.linspace(MU-5, MU+5, 200),MU, SIGMA), label='PDF')", "compilation_passed": false, "time": 0.0002090930938720703, "tests_passed": false, "error": "IndentationError"}
+{"code": "plot(distribution, norm.pdf(distribution,MU,SIGMA), 'r-', lw=2, label='PDF')", "compilation_passed": false, "time": 0.00019598007202148438, "tests_passed": false, "error": "IndentationError"}

@@ -1,0 +1,7 @@
+{"code": " pd.DataFrame({'Byte Value': byte_values, 'Frequency': byte_counts})", "compilation_passed": true, "time": 0.04789304733276367, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({\"Byte Value\": byte_values, \"Frequency\": byte_counts})", "compilation_passed": true, "time": 0.05327796936035156, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(byte_counts, index=byte_values, columns=['Frequency'])", "compilation_passed": true, "time": 0.013231039047241211, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data={\"Byte Value\": byte_values, \"Frequency\": byte_counts})", "compilation_passed": true, "time": 0.052118778228759766, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.00018930435180664062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({\"Byte Value\": byte_values, \"Frequency\": byte_counts}, index=None)", "compilation_passed": true, "time": 0.05490994453430176, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Byte Value': byte_values, 'Frequency': byte_counts}, columns=['Byte Value', 'Frequency'])", "compilation_passed": true, "time": 0.055223941802978516, "tests_passed": true, "error": null}

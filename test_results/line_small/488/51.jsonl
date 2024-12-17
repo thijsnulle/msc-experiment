@@ -1,0 +1,23 @@
+{"code": "set_xticklabels(df[\"Timestamp\"])", "compilation_passed": true, "time": 0.027118921279907227, "tests_passed": false, "error": "ValueError"}
+{"code": "set_xticklabels(df[\"Timestamp\"].astype(\"datetime64[ms]\").apply(lambda x: x.strftime(\"%Y-%m-%d %H:%M:%S.%f\")))", "compilation_passed": true, "time": 0.02701282501220703, "tests_passed": false, "error": "ValueError"}
+{"code": "set_xlabel(\"Timestamp\")", "compilation_passed": true, "time": 0.030000925064086914, "tests_passed": true, "error": null}
+{"code": "grid()", "compilation_passed": true, "time": 0.024965286254882812, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(df[\"Timestamp\"], rotation=30, ha=\"right\", fontsize=8)", "compilation_passed": true, "time": 0.025650978088378906, "tests_passed": false, "error": "ValueError"}
+{"code": "set_xticklabels([dt.split(\".\")[0] for dt in ax.get_xticklabels()])", "compilation_passed": true, "time": 0.026426076889038086, "tests_passed": false, "error": "AttributeError"}
+{"code": "set_xticklabels(timestamps)", "compilation_passed": true, "time": 0.030987977981567383, "tests_passed": false, "error": "ValueError"}
+{"code": "set_xticklabels(df[\"Timestamp\"].map(lambda x: datetime.strptime(x, \"%Y-%m-%d %H:%M:%S.%f\")))", "compilation_passed": true, "time": 0.028890132904052734, "tests_passed": false, "error": "ValueError"}
+{"code": "set_xticklabels(ax.get_xticklabels(), rotation=90)", "compilation_passed": true, "time": 0.02634286880493164, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(df.Timestamp, rotation=45)", "compilation_passed": true, "time": 0.027656078338623047, "tests_passed": false, "error": "ValueError"}
+{"code": "set_xlim(timestamps[0], timestamps[-1])", "compilation_passed": true, "time": 0.02802109718322754, "tests_passed": true, "error": null}
+{"code": "xaxis.set_major_locator(mdates.AutoDateLocator(months=3))", "compilation_passed": true, "time": 0.0265200138092041, "tests_passed": false, "error": "NameError"}
+{"code": "set_xticklabels(timestamps, rotation=\"vertical\")", "compilation_passed": true, "time": 0.028110742568969727, "tests_passed": false, "error": "ValueError"}
+{"code": "xaxis.set_major_locator(plt.MultipleLocator(base=step / 1000))", "compilation_passed": true, "time": 0.028610706329345703, "tests_passed": true, "error": null}
+{"code": "set(xlabel=\"Timestamp\", ylabel=\"Value\")", "compilation_passed": true, "time": 0.2777848243713379, "tests_passed": true, "error": null}
+{"code": "grid(True)", "compilation_passed": true, "time": 0.028261899948120117, "tests_passed": true, "error": null}
+{"code": "xaxis.set_major_formatter(", "compilation_passed": false, "time": 0.00034809112548828125, "tests_passed": false, "error": "SyntaxError"}
+{"code": "set_xlim(start_time, end_time)", "compilation_passed": true, "time": 0.029024124145507812, "tests_passed": true, "error": null}
+{"code": "set_xticklabels(ax.get_xticklabels(), rotation=30, fontsize=\"small\")", "compilation_passed": true, "time": 0.028480052947998047, "tests_passed": true, "error": null}
+{"code": "set_xticks(timestamps)", "compilation_passed": true, "time": 0.05794191360473633, "tests_passed": true, "error": null}
+{"code": "xaxis.set_major_locator(mticker.MultipleLocator(1))", "compilation_passed": true, "time": 0.029523134231567383, "tests_passed": false, "error": "NameError"}
+{"code": "set_xticklabels(df.Timestamp)", "compilation_passed": true, "time": 0.03126668930053711, "tests_passed": false, "error": "ValueError"}
+{"code": "get_xticklabels()", "compilation_passed": true, "time": 0.029833078384399414, "tests_passed": true, "error": null}

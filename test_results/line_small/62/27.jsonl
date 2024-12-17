@@ -1,0 +1,15 @@
+{"code": "distplot(from_user_values, color=color, hist=True)", "compilation_passed": true, "time": 0.10688900947570801, "tests_passed": true, "error": null}
+{"code": "set_style(\"darkgrid\")", "compilation_passed": true, "time": 0.05990910530090332, "tests_passed": true, "error": null}
+{"code": "histplot(from_user_values, color=color)", "compilation_passed": true, "time": 0.09858584403991699, "tests_passed": true, "error": null}
+{"code": "countplot(y=\"from_user\", data=result, hue='from_user', palette=color, linewidth=4, hue_order=[0, 1, 2, 3])", "compilation_passed": true, "time": 0.01345515251159668, "tests_passed": false, "error": "TypeError"}
+{"code": "distplot(from_user_values, color=color)", "compilation_passed": true, "time": 0.11189389228820801, "tests_passed": true, "error": null}
+{"code": "histplot(x=from_user_values, color=color)", "compilation_passed": true, "time": 0.10147285461425781, "tests_passed": true, "error": null}
+{"code": "set()", "compilation_passed": true, "time": 0.05417203903198242, "tests_passed": true, "error": null}
+{"code": "countplot(x='from_user', data=result, hue='from_user', palette=color)", "compilation_passed": true, "time": 0.012105941772460938, "tests_passed": false, "error": "TypeError"}
+{"code": "distplot(from_user_values, color=color, kde=False, rug=True)", "compilation_passed": true, "time": 0.09514975547790527, "tests_passed": true, "error": null}
+{"code": "countplot(x=from_user_values, color=color)", "compilation_passed": true, "time": 0.09484004974365234, "tests_passed": true, "error": null}
+{"code": "histplot(data=from_user_values, color=color)", "compilation_passed": true, "time": 0.5064418315887451, "tests_passed": true, "error": null}
+{"code": "distplot(from_user_values, color=color, kde=False)", "compilation_passed": true, "time": 0.07981991767883301, "tests_passed": true, "error": null}
+{"code": "distplot(from_user_values, hist=True, kde=False, color=color)", "compilation_passed": true, "time": 0.07297205924987793, "tests_passed": true, "error": null}
+{"code": "countplot(x=from_user_values, hue=color)", "compilation_passed": true, "time": 0.011607885360717773, "tests_passed": false, "error": "ValueError"}
+{"code": "distplot([from_user_values], color=color, hist=False)", "compilation_passed": true, "time": 0.10703706741333008, "tests_passed": true, "error": null}

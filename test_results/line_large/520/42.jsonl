@@ -1,0 +1,7 @@
+{"code": " dict(sorted(total_sales.items(), key=lambda item: item[1], reverse=True))", "compilation_passed": true, "time": 0.11723899841308594, "tests_passed": true, "error": null}
+{"code": " collections.OrderedDict(sorted(total_sales.items()))", "compilation_passed": true, "time": 0.10616707801818848, "tests_passed": true, "error": null}
+{"code": " dict(sorted(total_sales.items(), key=lambda x: x[1], reverse=True))", "compilation_passed": true, "time": 0.1210789680480957, "tests_passed": true, "error": null}
+{"code": " dict(sorted(total_sales.items(), key=lambda item: item[1]))", "compilation_passed": true, "time": 0.1255199909210205, "tests_passed": true, "error": null}
+{"code": " dict(sorted(total_sales.items(), key=lambda x: x[1]))", "compilation_passed": true, "time": 0.12785100936889648, "tests_passed": true, "error": null}
+{"code": " {k: v for k, v in sorted(total_sales.items(), key=lambda item: item[1], reverse=True)}", "compilation_passed": true, "time": 0.13352704048156738, "tests_passed": true, "error": null}
+{"code": " sorted(total_sales.items(), key=lambda x: x[1], reverse=True)", "compilation_passed": true, "time": 0.0016069412231445312, "tests_passed": false, "error": "AttributeError"}

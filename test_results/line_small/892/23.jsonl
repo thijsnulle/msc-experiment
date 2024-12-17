@@ -1,0 +1,14 @@
+{"code": " random.choice(strings)", "compilation_passed": true, "time": 0.0006198883056640625, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"[a-zA-Z]+\")", "compilation_passed": true, "time": 0.0006411075592041016, "tests_passed": false, "error": "NameError"}
+{"code": " strings[random.randint(0, len(strings) - 1)]", "compilation_passed": true, "time": 0.0006611347198486328, "tests_passed": true, "error": null}
+{"code": " '}'", "compilation_passed": true, "time": 0.0006451606750488281, "tests_passed": true, "error": null}
+{"code": " '}*'", "compilation_passed": true, "time": 0.0005962848663330078, "tests_passed": true, "error": null}
+{"code": " r'{[a-z0-9]+}'", "compilation_passed": true, "time": 0.0005979537963867188, "tests_passed": true, "error": null}
+{"code": " r'\\{' + ('\\d+', '[a-z]')", "compilation_passed": true, "time": 0.0005953311920166016, "tests_passed": false, "error": "TypeError"}
+{"code": " 'ab}cde'", "compilation_passed": true, "time": 0.0006420612335205078, "tests_passed": true, "error": null}
+{"code": " re.compile('ab?cde?')", "compilation_passed": true, "time": 0.0005960464477539062, "tests_passed": false, "error": "NameError"}
+{"code": " r\"[a-zA-Z0-9]*\"", "compilation_passed": true, "time": 0.0006082057952880859, "tests_passed": true, "error": null}
+{"code": " \"}cde}\"", "compilation_passed": true, "time": 0.0005881786346435547, "tests_passed": true, "error": null}
+{"code": " 'ab'", "compilation_passed": true, "time": 0.000743865966796875, "tests_passed": true, "error": null}
+{"code": " \"ab\"", "compilation_passed": true, "time": 0.0006430149078369141, "tests_passed": true, "error": null}
+{"code": " strings[0][0]", "compilation_passed": true, "time": 0.000637054443359375, "tests_passed": true, "error": null}

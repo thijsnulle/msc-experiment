@@ -1,0 +1,15 @@
+{"code": " not isinstance(start_time, int):", "compilation_passed": true, "time": 0.1124260425567627, "tests_passed": true, "error": null}
+{"code": " step < 1:", "compilation_passed": true, "time": 0.11731815338134766, "tests_passed": true, "error": null}
+{"code": " start_time < 0:", "compilation_passed": true, "time": 0.12065601348876953, "tests_passed": true, "error": null}
+{"code": " start_time < end_time and step > 0 and period >= 0:", "compilation_passed": true, "time": 0.002313852310180664, "tests_passed": false, "error": "ValueError"}
+{"code": " start_time < 0 or end_time < 0 or step < 1 or period < 0:", "compilation_passed": true, "time": 0.12912893295288086, "tests_passed": true, "error": null}
+{"code": " period == 0:", "compilation_passed": true, "time": 0.13065195083618164, "tests_passed": true, "error": null}
+{"code": " step < 1 or period < 0:", "compilation_passed": true, "time": 0.1309337615966797, "tests_passed": true, "error": null}
+{"code": " start_time >= end_time:", "compilation_passed": true, "time": 0.13492298126220703, "tests_passed": true, "error": null}
+{"code": " start_time <= 0:", "compilation_passed": true, "time": 0.0014662742614746094, "tests_passed": false, "error": "ValueError"}
+{"code": " start_time > end_time:", "compilation_passed": true, "time": 0.13760685920715332, "tests_passed": true, "error": null}
+{"code": " step <= 0 or period < 0:", "compilation_passed": true, "time": 0.13589119911193848, "tests_passed": true, "error": null}
+{"code": " step < 1 or period < 0 or start_time >= end_time:", "compilation_passed": true, "time": 0.14003205299377441, "tests_passed": true, "error": null}
+{"code": " start_time < 0 or end_time < 0:", "compilation_passed": true, "time": 0.1492631435394287, "tests_passed": true, "error": null}
+{"code": " start_time > end_time or step < 1 or period < 0:", "compilation_passed": true, "time": 0.15123510360717773, "tests_passed": true, "error": null}
+{"code": " step <= 0:", "compilation_passed": true, "time": 0.47903895378112793, "tests_passed": true, "error": null}

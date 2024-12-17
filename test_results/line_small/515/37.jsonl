@@ -1,0 +1,10 @@
+{"code": " pd.DataFrame(array, columns=COLUMNS)", "compilation_passed": true, "time": 0.1344146728515625, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(array, index=list(range(len(array))), columns=COLUMNS)", "compilation_passed": true, "time": 0.13550186157226562, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(array, index=[str(x) for x in range(len(array))])", "compilation_passed": true, "time": 0.13442683219909668, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([COLUMNS], index=[\"\"])", "compilation_passed": true, "time": 0.0023500919342041016, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame([COLUMNS] * len(array), index=range(len(array)), columns=COLUMNS)", "compilation_passed": true, "time": 0.0015139579772949219, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame([COLUMNS] * len(array), columns=COLUMNS, index=range(len(array)))", "compilation_passed": true, "time": 0.0014400482177734375, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame(array, index=[i for i in range(len(array))])", "compilation_passed": true, "time": 0.13550591468811035, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame([row for row in array], columns=COLUMNS)", "compilation_passed": true, "time": 0.1370542049407959, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(array)", "compilation_passed": true, "time": 0.13639020919799805, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(array, index=range(len(array)), columns=COLUMNS)", "compilation_passed": true, "time": 0.1383979320526123, "tests_passed": true, "error": null}

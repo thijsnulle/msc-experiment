@@ -1,0 +1,20 @@
+{"code": " x: len(re.findall(BRACKETS_PATTERN, str(x)))", "compilation_passed": true, "time": 0.0029549598693847656, "tests_passed": true, "error": null}
+{"code": " x: len(re.findall(BRACKETS_PATTERN, x))", "compilation_passed": true, "time": 0.003039836883544922, "tests_passed": true, "error": null}
+{"code": " x: sum(re.findall(BRACKETS_PATTERN, x))", "compilation_passed": true, "time": 0.005486011505126953, "tests_passed": false, "error": "TypeError"}
+{"code": " x: 1 if re.search(BRACKETS_PATTERN, x) else 0).sum()", "compilation_passed": false, "time": 9.393692016601562e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " x: 0 if pd.isnull(x)", "compilation_passed": false, "time": 0.000102996826171875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " x: sum([int(re.search(BRACKETS_PATTERN, x) is not None)])", "compilation_passed": true, "time": 0.001984834671020508, "tests_passed": true, "error": null}
+{"code": " x: sum(1 for _ in re.findall(BRACKETS_PATTERN, x))).sum()", "compilation_passed": false, "time": 9.083747863769531e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " x: len(re.findall(BRACKETS_PATTERN, x)),", "compilation_passed": true, "time": 0.002897977828979492, "tests_passed": true, "error": null}
+{"code": " x: sum(re.findall(BRACKETS_PATTERN, x))).sum()", "compilation_passed": false, "time": 9.107589721679688e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " x: len(re.findall(BRACKETS_PATTERN, x))).sum()", "compilation_passed": false, "time": 9.012222290039062e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " x: len(re.findall(BRACKETS_PATTERN, str(x)))).sum()", "compilation_passed": false, "time": 9.322166442871094e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " x: len(re.findall(BRACKETS_PATTERN, x))).sum().sum()", "compilation_passed": false, "time": 9.202957153320312e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " x: 0 if pd.isnull(x) else len(re.findall(BRACKETS_PATTERN, x))", "compilation_passed": true, "time": 0.0028972625732421875, "tests_passed": true, "error": null}
+{"code": " x: re.findall(BRACKETS_PATTERN, x)", "compilation_passed": true, "time": 0.0018191337585449219, "tests_passed": true, "error": null}
+{"code": " x: sum(", "compilation_passed": false, "time": 0.00010704994201660156, "tests_passed": false, "error": "SyntaxError"}
+{"code": " x: sum(len(re.findall(BRACKETS_PATTERN, x)))).sum()", "compilation_passed": false, "time": 9.298324584960938e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " x: sum(len(re.findall(BRACKETS_PATTERN, x)))", "compilation_passed": true, "time": 0.0018668174743652344, "tests_passed": false, "error": "TypeError"}
+{"code": " s: len(re.findall(BRACKETS_PATTERN, s))", "compilation_passed": true, "time": 0.0028908252716064453, "tests_passed": true, "error": null}
+{"code": " s: sum([len(re.findall(BRACKETS_PATTERN, s.lower()))])).sum()", "compilation_passed": false, "time": 9.799003601074219e-05, "tests_passed": false, "error": "IndentationError"}
+{"code": " s: len(re.findall(BRACKETS_PATTERN, s))).sum().astype(int)", "compilation_passed": false, "time": 0.00010800361633300781, "tests_passed": false, "error": "IndentationError"}

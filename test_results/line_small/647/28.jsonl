@@ -1,0 +1,6 @@
+{"code": " parse(date_str)", "compilation_passed": true, "time": 0.0008578300476074219, "tests_passed": true, "error": null}
+{"code": " parse(date_str).replace(tzinfo=from_tz_obj)", "compilation_passed": true, "time": 0.0018529891967773438, "tests_passed": false, "error": "ValueError"}
+{"code": " datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S')", "compilation_passed": true, "time": 0.0007700920104980469, "tests_passed": true, "error": null}
+{"code": " datetime.datetime.strptime(date_str, \"%Y-%m-%d %H:%M:%S\").replace(tzinfo=pytz.UTC).astimezone(from_tz_obj)", "compilation_passed": true, "time": 0.0006530284881591797, "tests_passed": false, "error": "AttributeError"}
+{"code": " parse(date_str, dayfirst=True).replace(tzinfo=from_tz_obj)", "compilation_passed": true, "time": 0.0006978511810302734, "tests_passed": false, "error": "ValueError"}
+{"code": " parse(date_str, dayfirst=True)", "compilation_passed": true, "time": 0.0008549690246582031, "tests_passed": true, "error": null}

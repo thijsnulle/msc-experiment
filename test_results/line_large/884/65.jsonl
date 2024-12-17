@@ -1,0 +1,10 @@
+{"code": " df[df[col_numerical] > larger].loc[df[col_numerical] > larger, col_filter] == equal", "compilation_passed": true, "time": 0.06963682174682617, "tests_passed": false, "error": "KeyError"}
+{"code": " df[(df[col_numerical] > larger) & (df[col_filter] == equal)]", "compilation_passed": true, "time": 0.22709083557128906, "tests_passed": true, "error": null}
+{"code": " df[df[col_numerical] > larger]", "compilation_passed": true, "time": 0.1574862003326416, "tests_passed": true, "error": null}
+{"code": " df[", "compilation_passed": false, "time": 0.00023889541625976562, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.loc[", "compilation_passed": false, "time": 0.00020313262939453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.query(f'({col_numerical} > {larger}) & ({col_filter} == {equal})')", "compilation_passed": true, "time": 0.07181406021118164, "tests_passed": false, "error": "ValueError"}
+{"code": " df[df[col_numerical] > larger][df[col_filter] == equal]", "compilation_passed": true, "time": 0.21902894973754883, "tests_passed": true, "error": null}
+{"code": " df.query(f'{col_numerical} > {larger} & {col_filter} == {equal}')", "compilation_passed": true, "time": 0.0708920955657959, "tests_passed": false, "error": "ValueError"}
+{"code": " df.loc[(df[col_numerical] > larger) & (df[col_filter] == equal)]", "compilation_passed": true, "time": 0.21943902969360352, "tests_passed": true, "error": null}
+{"code": " df.query(f\"({col_numerical} > {larger}) & ({col_filter} == {equal})\")", "compilation_passed": true, "time": 0.07120728492736816, "tests_passed": false, "error": "ValueError"}

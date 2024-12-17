@@ -1,0 +1,7 @@
+{"code": " pd.DataFrame(df_pca, columns = ['PC1', 'PC2'])", "compilation_passed": true, "time": 0.004927873611450195, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df_pca, columns=['PC1', 'PC2'])", "compilation_passed": true, "time": 0.004669904708862305, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data=df_pca, columns=['PC1', 'PC2'])", "compilation_passed": true, "time": 0.004703044891357422, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df_pca, columns=[f\"PC{i + 1}\" for i in range(2)])", "compilation_passed": true, "time": 0.004744052886962891, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(df_pca, columns=[\"PC1\", \"PC2\"])", "compilation_passed": true, "time": 0.0046939849853515625, "tests_passed": true, "error": null}
+{"code": " df_pca.rename(columns={0: \"PC1\", 1: \"PC2\"})", "compilation_passed": true, "time": 0.0015752315521240234, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame(df_pca)", "compilation_passed": true, "time": 0.001544952392578125, "tests_passed": true, "error": null}

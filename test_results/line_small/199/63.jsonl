@@ -1,0 +1,10 @@
+{"code": " weather_conditions[randint(0, len(weather_conditions) - 1)]", "compilation_passed": true, "time": 0.018218994140625, "tests_passed": true, "error": null}
+{"code": " choice(weather_conditions)", "compilation_passed": true, "time": 0.0011661052703857422, "tests_passed": false, "error": "NameError"}
+{"code": " random.choice(weather_conditions)", "compilation_passed": true, "time": 0.0010499954223632812, "tests_passed": false, "error": "NameError"}
+{"code": " randint(0, len(weather_conditions)-1)", "compilation_passed": true, "time": 0.0026350021362304688, "tests_passed": true, "error": null}
+{"code": " np.random.choice(weather_conditions)", "compilation_passed": true, "time": 0.0010442733764648438, "tests_passed": false, "error": "NameError"}
+{"code": " weather_conditions[randint(0, len(weather_conditions)-1)]", "compilation_passed": true, "time": 0.001856088638305664, "tests_passed": true, "error": null}
+{"code": " randint(0, len(weather_conditions) - 1)", "compilation_passed": true, "time": 0.002569913864135742, "tests_passed": true, "error": null}
+{"code": " randint(1, 5)", "compilation_passed": true, "time": 0.0024089813232421875, "tests_passed": true, "error": null}
+{"code": " set_seed(seed).choice(weather_conditions)", "compilation_passed": true, "time": 0.0010101795196533203, "tests_passed": false, "error": "AttributeError"}
+{"code": " randint(0, 4)", "compilation_passed": true, "time": 0.0024552345275878906, "tests_passed": true, "error": null}

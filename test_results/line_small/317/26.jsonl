@@ -1,0 +1,24 @@
+{"code": " \"[\\[\\]\\d]\"  # A regex pattern that matches all words and numbers in the input string", "compilation_passed": true, "time": 0.0013260841369628906, "tests_passed": true, "error": null}
+{"code": " '(.*?)(?=\\[|$)'", "compilation_passed": true, "time": 0.0007569789886474609, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"\\[(.+?)\\]\")", "compilation_passed": true, "time": 0.002007007598876953, "tests_passed": true, "error": null}
+{"code": " r\"(?<=\\[)[^\\]\\[]+(?=\\])\"", "compilation_passed": true, "time": 0.0020411014556884766, "tests_passed": false, "error": "ValueError"}
+{"code": " r\"(\\[[\\s\\S]*\\])+\"  # Matches all text enclosed in square brackets", "compilation_passed": true, "time": 0.0010590553283691406, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(?<=\\s)\\[[^][]+\\]')", "compilation_passed": true, "time": 0.0022437572479248047, "tests_passed": true, "error": null}
+{"code": " '[^\\d\\W_]+'", "compilation_passed": true, "time": 0.0008881092071533203, "tests_passed": false, "error": "ValueError"}
+{"code": " r\"\\[.*?\\]\"", "compilation_passed": true, "time": 0.0017321109771728516, "tests_passed": true, "error": null}
+{"code": " re.compile(r\"\\[(.*)\\]\")", "compilation_passed": true, "time": 0.0010650157928466797, "tests_passed": true, "error": null}
+{"code": " re.compile(r'[^\\w]+', re.MULTILINE | re.DOTALL)", "compilation_passed": true, "time": 0.0010249614715576172, "tests_passed": false, "error": "TypeError"}
+{"code": " re.compile(r\"\\[.*?\\]\")", "compilation_passed": true, "time": 0.0017521381378173828, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(?<=\\[)(.*?)(?=\\])')", "compilation_passed": true, "time": 0.002123117446899414, "tests_passed": false, "error": "ValueError"}
+{"code": " re.compile(r'\\[(.*?)\\]')", "compilation_passed": true, "time": 0.0017712116241455078, "tests_passed": true, "error": null}
+{"code": " r\"\\[(.*?)\\]\"", "compilation_passed": true, "time": 0.001750946044921875, "tests_passed": true, "error": null}
+{"code": " re.compile(r'([a-zA-Z]+)')", "compilation_passed": true, "time": 0.0008838176727294922, "tests_passed": false, "error": "ValueError"}
+{"code": " re.compile(r\"\\[(.*?)\\]\")", "compilation_passed": true, "time": 0.0017919540405273438, "tests_passed": true, "error": null}
+{"code": " re.compile(r'[^\\[]+')", "compilation_passed": true, "time": 0.0009229183197021484, "tests_passed": false, "error": "ValueError"}
+{"code": " '(\\[.*?\\])' # Match all text enclosed in square brackets", "compilation_passed": true, "time": 0.0017926692962646484, "tests_passed": true, "error": null}
+{"code": " '(\\S+)'", "compilation_passed": true, "time": 0.0007140636444091797, "tests_passed": true, "error": null}
+{"code": " re.compile(r'\\[.*?\\]')", "compilation_passed": true, "time": 0.0017580986022949219, "tests_passed": true, "error": null}
+{"code": " r\"\\[.*\\]\"", "compilation_passed": true, "time": 0.0010159015655517578, "tests_passed": true, "error": null}
+{"code": " re.compile(r'(?<!\\S)(\\S+?)(?<!\\S)', re.MULTILINE)", "compilation_passed": true, "time": 0.0012929439544677734, "tests_passed": true, "error": null}
+{"code": " r\"(\\[[^\\]]+\\])\"", "compilation_passed": true, "time": 0.0018630027770996094, "tests_passed": true, "error": null}
+{"code": " re.compile(r'\\[[0-9]{6}[a-zA-Z0-9 ]]')", "compilation_passed": true, "time": 0.0012390613555908203, "tests_passed": true, "error": null}

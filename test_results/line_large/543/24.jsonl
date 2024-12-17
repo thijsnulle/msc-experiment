@@ -1,0 +1,10 @@
+{"code": " base64.b64encode(float_bytes).decode('utf-8')", "compilation_passed": true, "time": 0.0005240440368652344, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.b64encode(float_bytes)", "compilation_passed": true, "time": 0.0004940032958984375, "tests_passed": true, "error": null}
+{"code": " base64.b16encode(float_bytes).decode('ascii')", "compilation_passed": true, "time": 0.0004870891571044922, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.b64encode(float_bytes.hex().encode()).decode()", "compilation_passed": true, "time": 0.0004951953887939453, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.b64encode(float_bytes).decode()", "compilation_passed": true, "time": 0.0008289813995361328, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.b64encode(float_bytes.hex().encode('utf-8'))", "compilation_passed": true, "time": 0.0004909038543701172, "tests_passed": true, "error": null}
+{"code": " base64.standard_b64encode(float_bytes)", "compilation_passed": true, "time": 0.0005199909210205078, "tests_passed": true, "error": null}
+{"code": " base64.encodebytes(hex(int.from_bytes(float_bytes, byteorder='big'))[2:].encode())", "compilation_passed": true, "time": 0.0005612373352050781, "tests_passed": true, "error": null}
+{"code": " base64.b64encode(float_bytes).decode('ascii')", "compilation_passed": true, "time": 0.0004742145538330078, "tests_passed": false, "error": "AttributeError"}
+{"code": " base64.b64encode(float_bytes.hex().encode())", "compilation_passed": true, "time": 0.0005249977111816406, "tests_passed": true, "error": null}

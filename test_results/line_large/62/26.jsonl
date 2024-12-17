@@ -1,0 +1,11 @@
+{"code": "bar(range(len(from_user_values)), from_user_values, color=color)", "compilation_passed": true, "time": 0.019825220108032227, "tests_passed": true, "error": null}
+{"code": "hist(from_user_values, color=color)", "compilation_passed": true, "time": 0.034069061279296875, "tests_passed": true, "error": null}
+{"code": "hist(from_user_values, color=color, edgecolor='black')", "compilation_passed": true, "time": 0.03584599494934082, "tests_passed": true, "error": null}
+{"code": "hist(from_user_values, bins=5, color=color)", "compilation_passed": true, "time": 0.029191970825195312, "tests_passed": true, "error": null}
+{"code": "bar(set(from_user_values), [from_user_values.count(v) for v in set(from_user_values)], color=color)", "compilation_passed": true, "time": 0.0025539398193359375, "tests_passed": false, "error": "TypeError"}
+{"code": "hist(from_user_values, bins=len(result), color=color)", "compilation_passed": true, "time": 0.012513875961303711, "tests_passed": false, "error": "ValueError"}
+{"code": "hist(from_user_values, edgecolor='k', color=color, alpha=0.7)", "compilation_passed": true, "time": 0.02974414825439453, "tests_passed": true, "error": null}
+{"code": "bar([0], [len(from_user_values)], color=color)", "compilation_passed": true, "time": 0.019279003143310547, "tests_passed": true, "error": null}
+{"code": "barh(x=from_user_values, y=[i for i in range(len(from_user_values))], color=color)", "compilation_passed": true, "time": 0.0010540485382080078, "tests_passed": false, "error": "TypeError"}
+{"code": "bar([0, 1], [len(from_user_values), len(from_user_values) - sum(from_user_values)], color=color)", "compilation_passed": true, "time": 0.024675846099853516, "tests_passed": true, "error": null}
+{"code": "bar(list(set(from_user_values)), [from_user_values.count(i) for i in set(from_user_values)], color=color)", "compilation_passed": true, "time": 0.0237429141998291, "tests_passed": true, "error": null}

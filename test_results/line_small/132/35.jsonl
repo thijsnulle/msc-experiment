@@ -1,0 +1,23 @@
+{"code": " \"\".join(hex_str.split())", "compilation_passed": true, "time": 0.0012049674987792969, "tests_passed": false, "error": "ValueError"}
+{"code": " binascii.unhexlify(hex_str.replace('0x', '').replace('\\\\x', ''))", "compilation_passed": true, "time": 0.0015990734100341797, "tests_passed": false, "error": "ValueError"}
+{"code": " hex_str.strip('\\\\x') if hex_str.find('\\\\x') == 0 else hex_str", "compilation_passed": true, "time": 0.0011320114135742188, "tests_passed": false, "error": "ValueError"}
+{"code": " ''.join(filter(str.isalnum, hex_str))", "compilation_passed": true, "time": 0.0012030601501464844, "tests_passed": false, "error": "ValueError"}
+{"code": " hex_str.lstrip('\\\\x')", "compilation_passed": true, "time": 0.0015468597412109375, "tests_passed": false, "error": "ValueError"}
+{"code": " ''.join([c for c in hex_str.upper() if c in ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F')])", "compilation_passed": true, "time": 0.05135178565979004, "tests_passed": true, "error": null}
+{"code": " hex_str.replace('0x', '')", "compilation_passed": true, "time": 0.0011370182037353516, "tests_passed": false, "error": "ValueError"}
+{"code": " hex_str.lstrip('\\\\x').rstrip('\\\\x')", "compilation_passed": true, "time": 0.0011749267578125, "tests_passed": false, "error": "ValueError"}
+{"code": " ''", "compilation_passed": true, "time": 0.013376951217651367, "tests_passed": true, "error": null}
+{"code": " binascii.unhexlify(hex_str)", "compilation_passed": true, "time": 0.0016489028930664062, "tests_passed": false, "error": "binascii.Error"}
+{"code": " hex_str.lstrip(\"\\\\x\")", "compilation_passed": true, "time": 0.0011219978332519531, "tests_passed": false, "error": "ValueError"}
+{"code": " hex_str.replace('\\\\','')", "compilation_passed": true, "time": 0.001085042953491211, "tests_passed": false, "error": "ValueError"}
+{"code": " hex_str.strip('\\\\x')", "compilation_passed": true, "time": 0.001191854476928711, "tests_passed": false, "error": "ValueError"}
+{"code": " hex_str.replace(\"\\\\x\", \"\")", "compilation_passed": true, "time": 0.0514521598815918, "tests_passed": true, "error": null}
+{"code": " hex_str.lstrip('\\\\x').upper()", "compilation_passed": true, "time": 0.00115203857421875, "tests_passed": false, "error": "ValueError"}
+{"code": " hex_str.replace('\\\\x', '').upper()", "compilation_passed": true, "time": 0.05266404151916504, "tests_passed": true, "error": null}
+{"code": " hex_str.upper()", "compilation_passed": true, "time": 0.001138925552368164, "tests_passed": false, "error": "ValueError"}
+{"code": " hex_str.replace(' ', '').replace('\\\\x', '')", "compilation_passed": true, "time": 0.05535411834716797, "tests_passed": true, "error": null}
+{"code": " hex_str.replace(' ', '').replace('\\x', '\\\\x')", "compilation_passed": false, "time": 9.417533874511719e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": " hex_str.lstrip('0x').replace('\\\\', '')", "compilation_passed": true, "time": 0.0012049674987792969, "tests_passed": false, "error": "ValueError"}
+{"code": " ''.join(char for char in hex_str if char in '0123456789abcdefABCDEF')", "compilation_passed": true, "time": 0.054354190826416016, "tests_passed": true, "error": null}
+{"code": " hex_str.replace('\\\\', '')", "compilation_passed": true, "time": 0.0012009143829345703, "tests_passed": false, "error": "ValueError"}
+{"code": " binascii.unhexlify(hex_str.replace('\\\\', '').strip('0x')).decode()", "compilation_passed": true, "time": 0.0011701583862304688, "tests_passed": false, "error": "binascii.Error"}

@@ -1,0 +1,21 @@
+{"code": " sales_data[label].rolling(window=12, center=True).mean()  # Calculates monthly mean sales", "compilation_passed": true, "time": 0.030163049697875977, "tests_passed": false, "error": "AttributeError"}
+{"code": " [statistics.stdev(sales_data.loc[sales_data[label].between(x, y), sales_data[label].columns[0]]) for x, y in zip(sales_data[label].min(), sales_data[label].max())]", "compilation_passed": true, "time": 0.029789209365844727, "tests_passed": false, "error": "TypeError"}
+{"code": " sales_data[label]", "compilation_passed": true, "time": 0.17029690742492676, "tests_passed": true, "error": null}
+{"code": " sales_data[label].rolling(window='3 months', center=True).std(", "compilation_passed": false, "time": 0.00013899803161621094, "tests_passed": false, "error": "SyntaxError"}
+{"code": " sales_data[label].copy()", "compilation_passed": true, "time": 0.1729259490966797, "tests_passed": true, "error": null}
+{"code": " [sales_data[label].iloc[i] for i in range(1, 13)]", "compilation_passed": true, "time": 0.03191018104553223, "tests_passed": false, "error": "IndexError"}
+{"code": " sales_data.groupby('Month')[label].mean()  # Group sales by 'Month'", "compilation_passed": true, "time": 0.19505906105041504, "tests_passed": true, "error": null}
+{"code": " np.mean(sales_data[label], axis=1)", "compilation_passed": true, "time": 0.04857206344604492, "tests_passed": false, "error": "ValueError"}
+{"code": " sales_data[label].groupby(sales_data['Month']).mean()", "compilation_passed": true, "time": 0.177382230758667, "tests_passed": true, "error": null}
+{"code": " sales_data[label].dropna()  # removing empty values", "compilation_passed": true, "time": 0.1760709285736084, "tests_passed": true, "error": null}
+{"code": " sales_data.pivot_table(values=label, index='Month', columns='Month')", "compilation_passed": true, "time": 0.03500103950500488, "tests_passed": false, "error": "ValueError"}
+{"code": " np.array(sales_data[label])", "compilation_passed": true, "time": 0.031265974044799805, "tests_passed": false, "error": "AttributeError"}
+{"code": " sales_data.groupby('Month')[label].agg(statistics.mean)", "compilation_passed": true, "time": 0.2007129192352295, "tests_passed": true, "error": null}
+{"code": " [sales_data.loc[row, 'Month'] for row in sales_data[label].index]", "compilation_passed": true, "time": 0.03153705596923828, "tests_passed": false, "error": "AttributeError"}
+{"code": " sales_data[label].values  # Extracting monthly sales for the current product", "compilation_passed": true, "time": 0.03156781196594238, "tests_passed": false, "error": "AttributeError"}
+{"code": " sales_data[label].rolling(window=12).std()", "compilation_passed": true, "time": 0.03301095962524414, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(statistics.stdev(sales_data[label]) * 12)  # Average sales in 12 months", "compilation_passed": true, "time": 0.03249406814575195, "tests_passed": false, "error": "TypeError"}
+{"code": " sales_data[label].pct_change(periods=12) * 100  # Percent change of sales for 12 months", "compilation_passed": true, "time": 0.032334089279174805, "tests_passed": false, "error": "AttributeError"}
+{"code": " sales_data.set_index(\"Month\")[label]", "compilation_passed": true, "time": 0.19834017753601074, "tests_passed": true, "error": null}
+{"code": " sales_data[label].resample('Y').mean()  # Resample data for averaging", "compilation_passed": true, "time": 0.037190914154052734, "tests_passed": false, "error": "TypeError"}
+{"code": " [sales_data[label][month_start:month_start + 12].mean() for month_start in range(1, 12)]", "compilation_passed": true, "time": 0.03291487693786621, "tests_passed": false, "error": "ValueError"}

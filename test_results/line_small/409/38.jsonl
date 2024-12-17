@@ -1,0 +1,4 @@
+{"code": " column_name not in df.columns:", "compilation_passed": true, "time": 0.027570009231567383, "tests_passed": true, "error": null}
+{"code": " not column_name in df.columns:", "compilation_passed": true, "time": 0.007657766342163086, "tests_passed": false, "error": "OSError"}
+{"code": " not df.columns.isin([column_name]).any():", "compilation_passed": true, "time": 0.008136987686157227, "tests_passed": false, "error": "OSError"}
+{"code": " column_name not in df:", "compilation_passed": true, "time": 0.007864952087402344, "tests_passed": false, "error": "OSError"}

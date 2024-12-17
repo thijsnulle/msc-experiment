@@ -1,0 +1,6 @@
+{"code": " KMeans(n_clusters=n_clusters, random_state=random_state, n_init=n_init)", "compilation_passed": true, "time": 0.13373303413391113, "tests_passed": true, "error": null}
+{"code": " KMeans(n_clusters=n_clusters, random_state=random_state, n_init=n_init, n_jobs=1, max_iter=10)", "compilation_passed": true, "time": 0.002563953399658203, "tests_passed": false, "error": "TypeError"}
+{"code": " KMeans(n_clusters=n_clusters, random_state=random_state, n_init=n_init).fit(unique_df[[\"x\", \"y\"]])", "compilation_passed": true, "time": 0.4269430637359619, "tests_passed": true, "error": null}
+{"code": " KMeans(n_clusters=n_clusters, random_state=random_state, n_init=n_init).fit(unique_df[[\"x\", \"y\"]].values)", "compilation_passed": true, "time": 0.15976667404174805, "tests_passed": true, "error": null}
+{"code": " KMeans(n_clusters, random_state=random_state)", "compilation_passed": true, "time": 0.1277179718017578, "tests_passed": true, "error": null}
+{"code": " KMeans(", "compilation_passed": false, "time": 0.00023984909057617188, "tests_passed": false, "error": "SyntaxError"}

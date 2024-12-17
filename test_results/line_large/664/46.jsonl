@@ -1,0 +1,8 @@
+{"code": "set_xticks(sales_data['Month'], labels=sales_data['Month'])", "compilation_passed": true, "time": 0.1430811882019043, "tests_passed": true, "error": null}
+{"code": "set_xticks(range(1, 13))", "compilation_passed": true, "time": 0.14043688774108887, "tests_passed": true, "error": null}
+{"code": "set_xticks(sales_data['Month'])", "compilation_passed": true, "time": 0.13488292694091797, "tests_passed": true, "error": null}
+{"code": "set_xticks(sales_data['Month'], labels=[f'Month {i}' for i in sales_data['Month']])", "compilation_passed": true, "time": 0.1358938217163086, "tests_passed": true, "error": null}
+{"code": "set_xticks(sales_data['Month'].unique())", "compilation_passed": true, "time": 0.14368796348571777, "tests_passed": true, "error": null}
+{"code": "set_xticks(sales_data['Month'].values)", "compilation_passed": true, "time": 0.13953781127929688, "tests_passed": true, "error": null}
+{"code": "set_xticks(sales_data['Month'].unique(), sales_data['Month'].unique())", "compilation_passed": true, "time": 0.14496207237243652, "tests_passed": true, "error": null}
+{"code": "set_xticks(sales_data['Month'], labels=sales_data['Month'], rotation=45)", "compilation_passed": true, "time": 0.15136504173278809, "tests_passed": true, "error": null}

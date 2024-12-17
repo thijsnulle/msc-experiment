@@ -1,0 +1,17 @@
+{"code": " []", "compilation_passed": true, "time": 0.0007917881011962891, "tests_passed": true, "error": null}
+{"code": " list()", "compilation_passed": true, "time": 0.0005559921264648438, "tests_passed": true, "error": null}
+{"code": " [x for x in input_list if isprime(x)]", "compilation_passed": true, "time": 0.0005860328674316406, "tests_passed": true, "error": null}
+{"code": " [x for x in input_list if isprime(x) is True]", "compilation_passed": true, "time": 0.000537872314453125, "tests_passed": true, "error": null}
+{"code": " sorted([x for x in input_list if isprime(x)], key=lambda x: math.degrees(math.atan(x)))", "compilation_passed": true, "time": 0.0005550384521484375, "tests_passed": true, "error": null}
+{"code": " [n for n in range(max(input_list)) if isprime(n)]", "compilation_passed": true, "time": 0.0006539821624755859, "tests_passed": true, "error": null}
+{"code": " [number for number in input_list if isprime(number)]", "compilation_passed": true, "time": 0.0006251335144042969, "tests_passed": true, "error": null}
+{"code": " sorted([i for i in input_list if isprime(i)])", "compilation_passed": true, "time": 0.0005548000335693359, "tests_passed": true, "error": null}
+{"code": " sorted(list(filter(isprime, input_list)))", "compilation_passed": true, "time": 0.0005292892456054688, "tests_passed": true, "error": null}
+{"code": " sorted(filter(isprime, input_list))", "compilation_passed": true, "time": 0.0005748271942138672, "tests_passed": true, "error": null}
+{"code": " isprime(input_list)", "compilation_passed": true, "time": 0.0012209415435791016, "tests_passed": false, "error": "ValueError"}
+{"code": " [i for i in input_list if isprime(i)]", "compilation_passed": true, "time": 0.0005879402160644531, "tests_passed": true, "error": null}
+{"code": " [n for n in input_list if isprime(n)]", "compilation_passed": true, "time": 0.0005562305450439453, "tests_passed": true, "error": null}
+{"code": " filter(isprime, range(input_list[0], input_list[1] + 1))", "compilation_passed": true, "time": 0.0006330013275146484, "tests_passed": true, "error": null}
+{"code": " list(filter(isprime, input_list))", "compilation_passed": true, "time": 0.0005550384521484375, "tests_passed": true, "error": null}
+{"code": " list(filter(lambda n: isprime(n), input_list))", "compilation_passed": true, "time": 0.0005939006805419922, "tests_passed": true, "error": null}
+{"code": " [num for num in input_list if isprime(num)]", "compilation_passed": true, "time": 0.0005431175231933594, "tests_passed": true, "error": null}

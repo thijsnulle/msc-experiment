@@ -1,0 +1,16 @@
+{"code": " sns.barplot(x='n-gram', y='Frequency', data=top_df.head(top_k))", "compilation_passed": true, "time": 0.0012688636779785156, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(x='Frequency', y='n-gram', data=top_df)  # Plot top k n-grams frequency", "compilation_passed": true, "time": 0.0012249946594238281, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(x=\"n-gram\", y=\"Frequency\", data=top_df)", "compilation_passed": true, "time": 0.0012218952178955078, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(data=top_df, x='n-gram', y='Frequency', palette='bright')", "compilation_passed": true, "time": 0.001230001449584961, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(x='n-gram', y=\"Frequency\", data=top_df, palette=\"Set3\", log=True)", "compilation_passed": true, "time": 0.0012359619140625, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(x='n-gram', y='Frequency', data=top_df)", "compilation_passed": true, "time": 0.0012238025665283203, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(data=top_df, x='Frequency', y='n-gram')", "compilation_passed": true, "time": 0.001190185546875, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(x='n-gram', y='Frequency', data=top_df, ci=None)", "compilation_passed": true, "time": 0.0012302398681640625, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(x='n-gram', y=\"Frequency\", data=top_df)", "compilation_passed": true, "time": 0.0012161731719970703, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(x='Frequency', y='n-gram', data=top_df)", "compilation_passed": true, "time": 0.0012249946594238281, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(data=top_df, x='n-gram', y='Frequency')", "compilation_passed": true, "time": 0.0012347698211669922, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(x=\"n-gram\", y=\"Frequency\", data=top_df, palette=\"Set3\")", "compilation_passed": true, "time": 0.0012209415435791016, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(data=top_df, x=\"n-gram\", y=\"Frequency\")", "compilation_passed": true, "time": 0.0012161731719970703, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(x=\"n-gram\", y='Frequency', data=top_df)", "compilation_passed": true, "time": 0.0012199878692626953, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(x=top_df['Frequency'], y=top_df['n-gram'], data=top_df)", "compilation_passed": true, "time": 0.0012171268463134766, "tests_passed": false, "error": ""}
+{"code": " sns.barplot(x=\"Frequency\", y=\"n-gram\", data=top_df)", "compilation_passed": true, "time": 0.0012209415435791016, "tests_passed": false, "error": ""}

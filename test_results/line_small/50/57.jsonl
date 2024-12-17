@@ -1,0 +1,6 @@
+{"code": "xlabel(\"Datetime\")", "compilation_passed": true, "time": 0.8213307857513428, "tests_passed": true, "error": null}
+{"code": "title(f\"Timezone = {df['Timezone'].iloc[0]}\")", "compilation_passed": true, "time": 0.024517059326171875, "tests_passed": true, "error": null}
+{"code": "title(\"Datetime = f(Timezone)\")", "compilation_passed": true, "time": 0.02415609359741211, "tests_passed": true, "error": null}
+{"code": "title(f\"Datetime = f(Timezone)\")", "compilation_passed": true, "time": 0.02265191078186035, "tests_passed": true, "error": null}
+{"code": "title(f\"Datetime = {datetime.utcfromtimestamp(timestamp)}\")", "compilation_passed": true, "time": 0.023706912994384766, "tests_passed": true, "error": null}
+{"code": "title(f\"{df['Datetime'].iloc[0]} = f({df['Timezone'].iloc[0]})\")", "compilation_passed": true, "time": 0.023572921752929688, "tests_passed": true, "error": null}

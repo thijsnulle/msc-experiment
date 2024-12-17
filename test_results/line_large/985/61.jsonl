@@ -1,0 +1,4 @@
+{"code": " not isinstance(country, str):", "compilation_passed": true, "time": 0.006220102310180664, "tests_passed": true, "error": null}
+{"code": " not isinstance(country, str) or not isinstance(population, int):", "compilation_passed": true, "time": 0.005651950836181641, "tests_passed": false, "error": "ValueError"}
+{"code": " not isinstance(country, str) or not country:", "compilation_passed": true, "time": 0.0060999393463134766, "tests_passed": true, "error": null}
+{"code": " not isinstance(country, str) or not isinstance(population, (int, float)):", "compilation_passed": true, "time": 0.006061077117919922, "tests_passed": true, "error": null}

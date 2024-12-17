@@ -1,0 +1,7 @@
+{"code": " [datetime.datetime.fromtimestamp(timestamp, tz=pytz.timezone(tz)) for tz in TIMEZONES]", "compilation_passed": false, "time": 0.00014495849609375, "tests_passed": false, "error": "IndentationError"}
+{"code": " []", "compilation_passed": false, "time": 0.00011491775512695312, "tests_passed": false, "error": "IndentationError"}
+{"code": " [", "compilation_passed": true, "time": 0.13330507278442383, "tests_passed": true, "error": null}
+{"code": " pd.Series([pytz.utc.localize(datetime.fromtimestamp(timestamp)) for timestamp in range(timestamp, timestamp + 21)])", "compilation_passed": false, "time": 0.0001461505889892578, "tests_passed": false, "error": "IndentationError"}
+{"code": " [pd.Timestamp(ts, tz=tz) for tz in TIMEZONES]", "compilation_passed": false, "time": 0.00014281272888183594, "tests_passed": false, "error": "IndentationError"}
+{"code": " [datetime.fromtimestamp(timestamp, pytz.timezone(t))", "compilation_passed": false, "time": 0.00012803077697753906, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [datetime.datetime.fromtimestamp(timestamp, pytz.timezone(timezone))", "compilation_passed": false, "time": 0.00015878677368164062, "tests_passed": false, "error": "SyntaxError"}

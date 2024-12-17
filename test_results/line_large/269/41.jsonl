@@ -2,3 +2,7 @@
 {"code": " np.asarray(list(data_dict.values())).astype(float)", "compilation_passed": true, "time": 0.21783804893493652, "tests_passed": true, "error": null}
 {"code": " np.asarray(list(data_dict.values()))", "compilation_passed": true, "time": 0.2090010643005371, "tests_passed": true, "error": null}
 {"code": " list(data_dict.values())", "compilation_passed": true, "time": 0.009166955947875977, "tests_passed": false, "error": "AttributeError"}
+{"code": " np.array(list(data_dict.values()), dtype=np.float_)", "compilation_passed": true, "time": 0.09318971633911133, "tests_passed": true, "error": null}
+{"code": " np.array(list(data_dict.values())).astype(float)", "compilation_passed": true, "time": 0.0941460132598877, "tests_passed": true, "error": null}
+{"code": " np.array(list(data_dict.values()), dtype=np.float64)", "compilation_passed": true, "time": 0.09634590148925781, "tests_passed": true, "error": null}
+{"code": " np.array(list(data_dict.values()), dtype='float64')", "compilation_passed": true, "time": 0.0973348617553711, "tests_passed": true, "error": null}

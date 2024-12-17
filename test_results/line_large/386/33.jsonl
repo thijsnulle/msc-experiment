@@ -1,0 +1,19 @@
+{"code": " np.random.randint(min_value, max_value + 1, size=(length, len(COLUMNS)))", "compilation_passed": true, "time": 0.0018489360809326172, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.rand(length, len(COLUMNS)) * (max_value - min_value) + min_value, columns=COLUMNS)", "compilation_passed": true, "time": 0.0022640228271484375, "tests_passed": true, "error": null}
+{"code": " np.random.randint(min_value, max_value, size=(length, len(COLUMNS)))", "compilation_passed": true, "time": 0.005300045013427734, "tests_passed": true, "error": null}
+{"code": " np.random.rand(length, 5) * (max_value - min_value) + min_value", "compilation_passed": true, "time": 0.002187013626098633, "tests_passed": true, "error": null}
+{"code": " {col: np.random.randint(min_value, max_value, size=length) for col in COLUMNS}", "compilation_passed": true, "time": 0.006397724151611328, "tests_passed": true, "error": null}
+{"code": " {col: np.random.randint(min_value, max_value + 1, length) for col in COLUMNS}", "compilation_passed": true, "time": 0.0019359588623046875, "tests_passed": true, "error": null}
+{"code": " {column: np.random.randint(min_value, max_value + 1, length) for column in COLUMNS}", "compilation_passed": true, "time": 0.0018358230590820312, "tests_passed": true, "error": null}
+{"code": " np.random.randint(low=min_value, high=max_value+1, size=(length, len(COLUMNS)))", "compilation_passed": true, "time": 0.0016658306121826172, "tests_passed": true, "error": null}
+{"code": " np.random.randint(min_value, max_value, (length, len(COLUMNS)))", "compilation_passed": true, "time": 0.005335092544555664, "tests_passed": true, "error": null}
+{"code": " {column: np.random.randint(min_value, max_value, length) for column in COLUMNS}", "compilation_passed": true, "time": 0.00619196891784668, "tests_passed": true, "error": null}
+{"code": " np.random.randint(min_value, max_value + 1, (length, len(COLUMNS)))", "compilation_passed": true, "time": 0.0016751289367675781, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({column: np.random.rand(length) * (max_value - min_value) + min_value for column in COLUMNS})", "compilation_passed": true, "time": 0.002315044403076172, "tests_passed": true, "error": null}
+{"code": " {", "compilation_passed": false, "time": 0.00012183189392089844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " np.random.randint(low = min_value, high = max_value, size = (length, len(COLUMNS)))", "compilation_passed": true, "time": 0.0059871673583984375, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.randint(min_value, max_value, (length, len(COLUMNS))), columns=COLUMNS)", "compilation_passed": true, "time": 0.00580286979675293, "tests_passed": true, "error": null}
+{"code": " np.random.randint(min_value, max_value+1, size=(length, len(COLUMNS)))", "compilation_passed": true, "time": 0.0017549991607666016, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(np.random.rand(length, len(COLUMNS)), columns=COLUMNS)", "compilation_passed": true, "time": 0.002135753631591797, "tests_passed": true, "error": null}
+{"code": " [np.random.randint(min_value, max_value+1, length) for _ in COLUMNS]", "compilation_passed": true, "time": 0.0011379718780517578, "tests_passed": false, "error": "ValueError"}
+{"code": " {column: np.random.uniform(min_value, max_value, length) for column in COLUMNS}", "compilation_passed": true, "time": 0.002285003662109375, "tests_passed": true, "error": null}

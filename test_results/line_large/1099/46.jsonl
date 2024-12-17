@@ -1,0 +1,10 @@
+{"code": " []", "compilation_passed": true, "time": 0.0012421607971191406, "tests_passed": false, "error": "TypeError"}
+{"code": " list()", "compilation_passed": true, "time": 0.0008420944213867188, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted(word_freq.items(), key=lambda x: (-x[1], x[0]))", "compilation_passed": true, "time": 0.0008828639984130859, "tests_passed": false, "error": "TypeError"}
+{"code": " sorted(word_freq.items(), key=lambda x: (-x[1], x[0]), reverse=False)[:5]", "compilation_passed": true, "time": 0.0009353160858154297, "tests_passed": false, "error": "TypeError"}
+{"code": " [(word, count) for word, count in word_freq.items() if word in PREDEFINED_STOPWORDS]", "compilation_passed": true, "time": 0.0010268688201904297, "tests_passed": false, "error": "TypeError"}
+{"code": " list((word, freq) for word, freq in word_freq.items() if word in PREDEFINED_STOPWORDS)", "compilation_passed": true, "time": 0.0009200572967529297, "tests_passed": false, "error": "TypeError"}
+{"code": " [(word, freq) for word, freq in word_freq.items() if word.lower() in PREDEFINED_STOPWORDS]", "compilation_passed": true, "time": 0.0009169578552246094, "tests_passed": false, "error": "TypeError"}
+{"code": " [(word, freq) for word, freq in word_freq.items()", "compilation_passed": false, "time": 0.00030422210693359375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " [(word, freq) for word, freq in word_freq.items() if word in PREDEFINED_STOPWORDS]", "compilation_passed": true, "time": 0.0008840560913085938, "tests_passed": false, "error": "TypeError"}
+{"code": " list(filter(lambda x: x[0] in PREDEFINED_STOPWORDS, word_freq.most_common()))", "compilation_passed": true, "time": 0.0009427070617675781, "tests_passed": false, "error": "TypeError"}

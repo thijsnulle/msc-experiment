@@ -1,0 +1,15 @@
+{"code": " df[\"Price_String\"].apply(", "compilation_passed": false, "time": 0.00015997886657714844, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.to_numeric(df[\"Price_String\"].str.replace(',', ''))", "compilation_passed": true, "time": 0.1432790756225586, "tests_passed": true, "error": null}
+{"code": " df.Price_String.str.split(\",\").apply(\"\".join).astype(float)", "compilation_passed": true, "time": 0.13182783126831055, "tests_passed": true, "error": null}
+{"code": " df[\"Price_String\"].str.replace(\",\", \"\").astype(float)", "compilation_passed": true, "time": 0.12404012680053711, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[\"Price_String\"].str.replace(\",\", \"\"), errors=\"coerce\")", "compilation_passed": true, "time": 0.12831902503967285, "tests_passed": true, "error": null}
+{"code": " np.array([float(x.replace(\",\", \"\")) for x in df.Price_String])", "compilation_passed": true, "time": 0.1268160343170166, "tests_passed": true, "error": null}
+{"code": " np.array([float(x.replace(',', '')) for x in df[\"Price_String\"]])", "compilation_passed": true, "time": 0.1159820556640625, "tests_passed": true, "error": null}
+{"code": " df.apply(", "compilation_passed": false, "time": 0.00014209747314453125, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.to_numeric(df[\"Price_String\"].str.replace(\",\", \"\"))", "compilation_passed": true, "time": 0.13368916511535645, "tests_passed": true, "error": null}
+{"code": " df['Price_String'].str.replace(',', '').astype(float)", "compilation_passed": true, "time": 0.14478492736816406, "tests_passed": true, "error": null}
+{"code": " np.where(df[\"Price_String\"].str.contains(\",\"),", "compilation_passed": false, "time": 0.00016689300537109375, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df['Price_String'].str.replace(\",\", \"\").astype(float)", "compilation_passed": true, "time": 0.12172389030456543, "tests_passed": true, "error": null}
+{"code": " pd.to_numeric(df[\"Price_String\"].str.replace(',', ''), errors='coerce')", "compilation_passed": true, "time": 0.12410879135131836, "tests_passed": true, "error": null}
+{"code": " df[\"Price_String\"].str.replace(',', '').astype(float)", "compilation_passed": true, "time": 0.12380599975585938, "tests_passed": true, "error": null}
+{"code": " np.where(", "compilation_passed": false, "time": 0.0001647472381591797, "tests_passed": false, "error": "SyntaxError"}

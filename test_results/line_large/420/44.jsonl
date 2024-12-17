@@ -1,0 +1,5 @@
+{"code": "to_numpy().reshape(-1, 1)", "compilation_passed": true, "time": 0.005613088607788086, "tests_passed": true, "error": null}
+{"code": "values.reshape(-1, 1)", "compilation_passed": true, "time": 0.005594968795776367, "tests_passed": true, "error": null}
+{"code": "to_frame())", "compilation_passed": false, "time": 6.389617919921875e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": "values.reshape(-1, 1))", "compilation_passed": false, "time": 6.4849853515625e-05, "tests_passed": false, "error": "SyntaxError"}
+{"code": "to_frame()).flatten()", "compilation_passed": false, "time": 6.4849853515625e-05, "tests_passed": false, "error": "SyntaxError"}

@@ -1,0 +1,23 @@
+{"code": " (amplitude * (np.sin(2 * np.pi * ((dt.split(\".\")[0]).split(\" \")[1]) / (period / 1000))))", "compilation_passed": true, "time": 0.0017299652099609375, "tests_passed": false, "error": "TypeError"}
+{"code": " values[i] * amplitude + np.random.normal(0, 1, 1)", "compilation_passed": true, "time": 0.0030050277709960938, "tests_passed": false, "error": "TypeError"}
+{"code": " amplitude * (1 + np.random.normal(0, 1)) * values[i]", "compilation_passed": true, "time": 0.24339818954467773, "tests_passed": true, "error": null}
+{"code": " round(amplitude * np.sin(2 * np.pi / period * (i + 1)), 3)", "compilation_passed": true, "time": 0.24934983253479004, "tests_passed": true, "error": null}
+{"code": " amplitude * values[i]", "compilation_passed": true, "time": 0.23698902130126953, "tests_passed": true, "error": null}
+{"code": " round(amplitude * np.cos(2 * np.pi * values[i] / period))", "compilation_passed": true, "time": 0.25995707511901855, "tests_passed": true, "error": null}
+{"code": " amplitude * values[i] / (1.0 / period) + np.random.normal(scale=0.01, size=1)", "compilation_passed": true, "time": 0.002651214599609375, "tests_passed": false, "error": "TypeError"}
+{"code": " values[i]", "compilation_passed": true, "time": 0.2501649856567383, "tests_passed": true, "error": null}
+{"code": " (amplitude * values[i]) + period", "compilation_passed": true, "time": 0.2510190010070801, "tests_passed": true, "error": null}
+{"code": " 0", "compilation_passed": true, "time": 0.2625138759613037, "tests_passed": true, "error": null}
+{"code": " (amplitude / 2 * (np.sin(np.pi * (ts / period) + np.pi / 2) + 1))", "compilation_passed": true, "time": 0.25871896743774414, "tests_passed": true, "error": null}
+{"code": " values[i] * amplitude", "compilation_passed": true, "time": 0.25977087020874023, "tests_passed": true, "error": null}
+{"code": " amplitude * np.sin(2 * np.pi / period * (ts + values[i]))", "compilation_passed": true, "time": 0.2632889747619629, "tests_passed": true, "error": null}
+{"code": " round(amplitude * np.sin(2 * np.pi / 1000 * (ts / 1000)) + values[i], 3)", "compilation_passed": true, "time": 0.2738468647003174, "tests_passed": true, "error": null}
+{"code": " amplitude * np.sin((2 * np.pi / period) * i) + values[i]", "compilation_passed": true, "time": 0.26186513900756836, "tests_passed": true, "error": null}
+{"code": " round(amplitude * np.sin(2 * np.pi * ((ts / 1000) % period) / period), 6)", "compilation_passed": true, "time": 0.2821190357208252, "tests_passed": true, "error": null}
+{"code": " int(amplitude * np.sin(2 * np.pi / period * (i + 1) / len(timestamps)))", "compilation_passed": true, "time": 0.26378679275512695, "tests_passed": true, "error": null}
+{"code": " (amplitude / period) * (np.sin(2 * np.pi * (i / period)) + 1)", "compilation_passed": true, "time": 0.285876989364624, "tests_passed": true, "error": null}
+{"code": " values[i] * amplitude + np.sin(period * (dt.split(\".\")[0])).mean()", "compilation_passed": true, "time": 0.0017271041870117188, "tests_passed": false, "error": "TypeError"}
+{"code": " amplitude * np.sin((float(i) * 2 * np.pi) / (len(timestamps) * period)) * values[i]", "compilation_passed": true, "time": 0.2829618453979492, "tests_passed": true, "error": null}
+{"code": " (amplitude / np.pi) * (np.sin(2 * np.pi * dt.split(\" \")[0] * (ts / 1000 - period) / step) - 1)", "compilation_passed": true, "time": 0.0026559829711914062, "tests_passed": false, "error": "TypeError"}
+{"code": " np.sin(np.linspace(0, 2 * np.pi, 1000)) * amplitude + values[i]", "compilation_passed": true, "time": 0.0036420822143554688, "tests_passed": false, "error": "TypeError"}
+{"code": " amplitude * values[i] + 1", "compilation_passed": true, "time": 0.2988898754119873, "tests_passed": true, "error": null}

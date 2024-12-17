@@ -1,0 +1,29 @@
+{"code": " max(2, int(df.size**0.5))", "compilation_passed": true, "time": 0.020814895629882812, "tests_passed": true, "error": null}
+{"code": " min(11, (len(df.values) / 2))", "compilation_passed": true, "time": 0.0018172264099121094, "tests_passed": false, "error": "TypeError"}
+{"code": " max(2, min(11, df.nunique().min() // 2))", "compilation_passed": true, "time": 0.02121114730834961, "tests_passed": true, "error": null}
+{"code": " max(int(0.5 * len(df)), 2)", "compilation_passed": true, "time": 0.020296096801757812, "tests_passed": true, "error": null}
+{"code": " min(11, (df.size / 2))", "compilation_passed": true, "time": 0.0012836456298828125, "tests_passed": false, "error": "TypeError"}
+{"code": " max(2, int(0.5 * df.shape[0]))", "compilation_passed": true, "time": 0.020782947540283203, "tests_passed": true, "error": null}
+{"code": " max(min(11, len(df.values) // 2), 2)", "compilation_passed": true, "time": 0.020350217819213867, "tests_passed": true, "error": null}
+{"code": " min(11, len(df.values) // 2)", "compilation_passed": true, "time": 0.011899948120117188, "tests_passed": false, "error": "ValueError"}
+{"code": " max(int(np.ceil(len(df) / 2)), 2)", "compilation_passed": true, "time": 0.02083301544189453, "tests_passed": true, "error": null}
+{"code": " np.minimum(11, 0.5 * len(df))", "compilation_passed": true, "time": 0.001367807388305664, "tests_passed": false, "error": "TypeError"}
+{"code": " min(11, len(df))", "compilation_passed": true, "time": 0.02284693717956543, "tests_passed": true, "error": null}
+{"code": " max(11, min(2, len(df)))", "compilation_passed": true, "time": 0.027462244033813477, "tests_passed": true, "error": null}
+{"code": " max(2, np.ceil(0.5 * len(df)))", "compilation_passed": true, "time": 0.016257047653198242, "tests_passed": false, "error": "TypeError"}
+{"code": " max(2, int(df.count().min() * 0.5))", "compilation_passed": true, "time": 0.02217698097229004, "tests_passed": true, "error": null}
+{"code": " max(2, np.ceil((max_val - min_val) / (df.shape[0] // 2)))", "compilation_passed": true, "time": 0.0013608932495117188, "tests_passed": false, "error": "TypeError"}
+{"code": " max(min(11, (df.shape[0] + 1) // 2), 2)", "compilation_passed": true, "time": 0.02128887176513672, "tests_passed": true, "error": null}
+{"code": " min(11, df.shape[0] // 2)", "compilation_passed": true, "time": 0.00972890853881836, "tests_passed": false, "error": "ValueError"}
+{"code": " max(2, np.ceil((max_val - min_val) / (df.shape[0] / 2)))", "compilation_passed": true, "time": 0.0013039112091064453, "tests_passed": false, "error": "TypeError"}
+{"code": " max(1, int(len(df) / 2))", "compilation_passed": true, "time": 0.009704113006591797, "tests_passed": false, "error": "ValueError"}
+{"code": " np.min([11, (df.shape[0] + 1) // 2])", "compilation_passed": true, "time": 0.009716272354125977, "tests_passed": false, "error": "ValueError"}
+{"code": " min(11, 0.5 * df.shape[0])", "compilation_passed": true, "time": 0.0013120174407958984, "tests_passed": false, "error": "TypeError"}
+{"code": " min(11, len(df) // 2)", "compilation_passed": true, "time": 0.009804010391235352, "tests_passed": false, "error": "ValueError"}
+{"code": " min(11, int(np.ceil(0.5 * len(df))))", "compilation_passed": true, "time": 0.009911060333251953, "tests_passed": false, "error": "ValueError"}
+{"code": " max(min(df.shape[0]), 2)  # Min of 2 bins", "compilation_passed": true, "time": 0.0012319087982177734, "tests_passed": false, "error": "TypeError"}
+{"code": " max(2, int(len(df)/2))", "compilation_passed": true, "time": 0.02188706398010254, "tests_passed": true, "error": null}
+{"code": " max(2, int(df.shape[0] / 2))", "compilation_passed": true, "time": 0.022387981414794922, "tests_passed": true, "error": null}
+{"code": " max(2, int((len(df) / 2) + 1))", "compilation_passed": true, "time": 0.022749900817871094, "tests_passed": true, "error": null}
+{"code": " max(min(11, len(df)), round((max_val - min_val) / 0.64))", "compilation_passed": true, "time": 0.028617143630981445, "tests_passed": true, "error": null}
+{"code": " min(11, df.shape[1] / 2)", "compilation_passed": true, "time": 0.0013027191162109375, "tests_passed": false, "error": "TypeError"}

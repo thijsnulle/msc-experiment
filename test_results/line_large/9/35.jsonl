@@ -1,0 +1,12 @@
+{"code": "barplot(x='Category', y='Value', data=df)", "compilation_passed": true, "time": 0.1917738914489746, "tests_passed": true, "error": null}
+{"code": "barplot(data=df, x=\"Category\", y=\"Value\")", "compilation_passed": true, "time": 0.1947782039642334, "tests_passed": true, "error": null}
+{"code": "set_style(\"whitegrid\")", "compilation_passed": true, "time": 0.016652822494506836, "tests_passed": true, "error": null}
+{"code": "barplot(x=\"Category\", y=\"Value\", data=df)", "compilation_passed": true, "time": 0.1964421272277832, "tests_passed": true, "error": null}
+{"code": "set_theme(style=\"whitegrid\")", "compilation_passed": true, "time": 0.01702594757080078, "tests_passed": true, "error": null}
+{"code": "barplot(data=df, x=\"Category\", y=\"Value\", color=\"skyblue\")", "compilation_passed": true, "time": 0.18959379196166992, "tests_passed": true, "error": null}
+{"code": "barplot(data=df, x=\"Category\", y=\"Value\", color='b', ax=ax)", "compilation_passed": true, "time": 0.010815143585205078, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": "barplot(data=df, x=\"Category\", y=\"Value\", ci=None)", "compilation_passed": true, "time": 0.49564099311828613, "tests_passed": true, "error": null}
+{"code": "barplot(data=df, x=\"Category\", y=\"Value\", ax=plt.gca())", "compilation_passed": true, "time": 0.19517993927001953, "tests_passed": true, "error": null}
+{"code": "barplot(x='Category', y='Value', data=df, ax=ax)", "compilation_passed": true, "time": 0.010217905044555664, "tests_passed": false, "error": "UnboundLocalError"}
+{"code": "barplot(x=df[\"Category\"], y=df[\"Value\"]).set_title(\"Category vs Value\")", "compilation_passed": true, "time": 0.19400668144226074, "tests_passed": true, "error": null}
+{"code": "barplot(x=df['Category'], y=df['Value'])", "compilation_passed": true, "time": 0.1961040496826172, "tests_passed": true, "error": null}

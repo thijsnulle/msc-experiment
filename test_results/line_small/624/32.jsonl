@@ -1,0 +1,9 @@
+{"code": "scatter(pca_result[:,0], pca_result[:,1])", "compilation_passed": true, "time": 0.1231071949005127, "tests_passed": true, "error": null}
+{"code": "scatter(pca_result[:, 0], pca_result[:, 1])", "compilation_passed": true, "time": 0.12285113334655762, "tests_passed": true, "error": null}
+{"code": "scatter(pca_result[:, 0], pca_result[:, 1], c=\"k\")", "compilation_passed": true, "time": 0.14231610298156738, "tests_passed": true, "error": null}
+{"code": "scatter(*pca_result.T)", "compilation_passed": true, "time": 0.1433558464050293, "tests_passed": true, "error": null}
+{"code": "scatter(*zip(*data), marker='o')", "compilation_passed": true, "time": 0.12227201461791992, "tests_passed": true, "error": null}
+{"code": "scatter(*zip(*data), alpha=0.5)", "compilation_passed": true, "time": 0.14325189590454102, "tests_passed": true, "error": null}
+{"code": "scatter(*zip(*data))", "compilation_passed": true, "time": 0.12662386894226074, "tests_passed": true, "error": null}
+{"code": "scatter(pca_result[:,0], pca_result[:,1], c=np.arange(pca_result.shape[0]), s=200, alpha=0.5, cmap='rainbow', linewidth=1)", "compilation_passed": true, "time": 0.12235903739929199, "tests_passed": true, "error": null}
+{"code": "scatter(pca_result[:, 0], pca_result[:, 1], color=\"black\")", "compilation_passed": true, "time": 0.1146860122680664, "tests_passed": true, "error": null}

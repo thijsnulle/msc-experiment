@@ -1,0 +1,8 @@
+{"code": " f'({team_goals} goals, ${penalty_cost})'", "compilation_passed": true, "time": 0.001934051513671875, "tests_passed": true, "error": null}
+{"code": " f\"({team_goals} goals, ${penalty_cost})\"", "compilation_passed": true, "time": 0.0019392967224121094, "tests_passed": true, "error": null}
+{"code": " f'{team_goals} goals, ${penalty_cost}'", "compilation_passed": true, "time": 0.0014221668243408203, "tests_passed": false, "error": "ValueError"}
+{"code": " f\"{team_goals} goals, ${penalty_cost}\"", "compilation_passed": true, "time": 0.0013880729675292969, "tests_passed": false, "error": "ValueError"}
+{"code": " f'({(team_goals)} goals, ${penalty_cost})'", "compilation_passed": true, "time": 0.0019500255584716797, "tests_passed": true, "error": null}
+{"code": " f'(Goals: {team_goals}, Fines: ${penalty_cost})'", "compilation_passed": true, "time": 0.0012440681457519531, "tests_passed": false, "error": "ValueError"}
+{"code": " f'(goals: {team_goals}, total penalty fines: ${penalty_cost})'", "compilation_passed": true, "time": 0.0012569427490234375, "tests_passed": false, "error": "ValueError"}
+{"code": " f'(goals: {team_goals}, fine: {penalty_cost})'", "compilation_passed": true, "time": 0.0012469291687011719, "tests_passed": false, "error": "ValueError"}

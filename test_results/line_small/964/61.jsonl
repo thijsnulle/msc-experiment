@@ -1,9 +1,9 @@
-{"code": " pd.DataFrame({\"Text\": data})", "compilation_passed": true, "time": 0.0023920536041259766, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " pd.DataFrame(data, columns=[\"Text\"])", "compilation_passed": true, "time": 0.002310037612915039, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.0023679733276367188, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.000347137451171875, "tests_passed": false, "error": "SyntaxError"}
-{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0003418922424316406, "tests_passed": false, "error": "SyntaxError"}
-{"code": " pd.DataFrame([{\"Text\": data}])", "compilation_passed": true, "time": 0.002928018569946289, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " pd.DataFrame([data])", "compilation_passed": true, "time": 0.0025501251220703125, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " pd.DataFrame([data], columns=[\"Text\"])", "compilation_passed": true, "time": 0.0022630691528320312, "tests_passed": false, "error": "No module named 'exceptions'"}
-{"code": " pd.DataFrame([[t] for t in data])", "compilation_passed": true, "time": 0.0030281543731689453, "tests_passed": false, "error": "No module named 'exceptions'"}
+{"code": " pd.DataFrame({\"Text\": data})", "compilation_passed": true, "time": 0.002290010452270508, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " pd.DataFrame(data, columns=[\"Text\"])", "compilation_passed": true, "time": 0.0021300315856933594, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.002269744873046875, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.0002818107604980469, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame({", "compilation_passed": false, "time": 0.0003020763397216797, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame([{\"Text\": data}])", "compilation_passed": true, "time": 0.002115964889526367, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " pd.DataFrame([data])", "compilation_passed": true, "time": 0.0020208358764648438, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " pd.DataFrame([data], columns=[\"Text\"])", "compilation_passed": true, "time": 0.002028226852416992, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}
+{"code": " pd.DataFrame([[t] for t in data])", "compilation_passed": true, "time": 0.0020859241485595703, "tests_passed": false, "error": "partially initialized module 'pandas' has no attribute '_pandas_datetime_CAPI' (most likely due to a circular import)"}

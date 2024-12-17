@@ -1,0 +1,10 @@
+{"code": "min(10, len(counts)),", "compilation_passed": true, "time": 0.07188701629638672, "tests_passed": true, "error": null}
+{"code": "min(10, len(set(counts))),", "compilation_passed": true, "time": 0.07144880294799805, "tests_passed": true, "error": null}
+{"code": "min(10, len(data_counter)),", "compilation_passed": true, "time": 0.07787704467773438, "tests_passed": true, "error": null}
+{"code": "max(10, len(set(counts))),", "compilation_passed": true, "time": 0.07744002342224121, "tests_passed": true, "error": null}
+{"code": "max(10, len(np.unique(counts))),", "compilation_passed": true, "time": 0.08219408988952637, "tests_passed": true, "error": null}
+{"code": "min(10, len(counts) - 1),", "compilation_passed": true, "time": 0.060884952545166016, "tests_passed": false, "error": "ValueError"}
+{"code": "min(10, len(set(data_counter.values()))),", "compilation_passed": true, "time": 0.07321906089782715, "tests_passed": true, "error": null}
+{"code": "min(10, len(data_dict)),", "compilation_passed": true, "time": 0.07471728324890137, "tests_passed": true, "error": null}
+{"code": "10,", "compilation_passed": true, "time": 0.08081698417663574, "tests_passed": true, "error": null}
+{"code": "10", "compilation_passed": false, "time": 0.00016570091247558594, "tests_passed": false, "error": "SyntaxError"}

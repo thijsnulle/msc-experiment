@@ -1,0 +1,5 @@
+{"code": " city not in timezones:", "compilation_passed": true, "time": 0.0019190311431884766, "tests_passed": true, "error": null}
+{"code": " not isinstance(city, str):", "compilation_passed": true, "time": 0.0012428760528564453, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(cities, list):", "compilation_passed": true, "time": 0.0012500286102294922, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(cities, list) or not isinstance(weather_conditions, list) or not isinstance(timezones, dict):", "compilation_passed": true, "time": 0.0012569427490234375, "tests_passed": false, "error": "KeyError"}
+{"code": " not isinstance(city, str) or city not in timezones:", "compilation_passed": true, "time": 0.0018928050994873047, "tests_passed": true, "error": null}

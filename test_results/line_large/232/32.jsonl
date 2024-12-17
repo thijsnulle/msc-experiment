@@ -1,0 +1,12 @@
+{"code": " df.drop_duplicates(['Customer'])", "compilation_passed": true, "time": 0.0022280216217041016, "tests_passed": true, "error": null}
+{"code": " df.groupby('Customer').agg(", "compilation_passed": false, "time": 0.00011301040649414062, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.drop_duplicates(subset='Customer')", "compilation_passed": true, "time": 0.0020232200622558594, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset=['Customer'])", "compilation_passed": true, "time": 0.0020079612731933594, "tests_passed": true, "error": null}
+{"code": " df.loc[~df['Customer'].duplicated()]  # filter duplicate customer", "compilation_passed": true, "time": 0.002202749252319336, "tests_passed": true, "error": null}
+{"code": " df[['Customer', 'Category', 'Sales']]", "compilation_passed": true, "time": 0.002398967742919922, "tests_passed": true, "error": null}
+{"code": " df.loc[~df['Customer'].duplicated()]", "compilation_passed": true, "time": 0.002113819122314453, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates(subset=['Customer'], keep='first')", "compilation_passed": true, "time": 0.0021140575408935547, "tests_passed": true, "error": null}
+{"code": " df.loc[~df.Customer.duplicated(keep=\"first\"),:]", "compilation_passed": true, "time": 0.0021560192108154297, "tests_passed": true, "error": null}
+{"code": " df.drop_duplicates('Customer')", "compilation_passed": true, "time": 0.00199127197265625, "tests_passed": true, "error": null}
+{"code": " df[~df.Customer.str.lower().duplicated()]", "compilation_passed": true, "time": 0.0022611618041992188, "tests_passed": true, "error": null}
+{"code": " df.groupby('Customer').sum().reset_index()", "compilation_passed": true, "time": 0.003651857376098633, "tests_passed": true, "error": null}

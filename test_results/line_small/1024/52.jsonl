@@ -1,0 +1,5 @@
+{"code": " max_val = df.min(), df.max()", "compilation_passed": true, "time": 0.004608869552612305, "tests_passed": false, "error": "ValueError"}
+{"code": " max_val = df.apply(lambda col: col.min()), df.apply(lambda col: col.max())", "compilation_passed": true, "time": 0.0035772323608398438, "tests_passed": false, "error": "ValueError"}
+{"code": " max_val = df.apply(lambda x: x.min()), df.apply(lambda x: x.max())", "compilation_passed": true, "time": 0.0035707950592041016, "tests_passed": false, "error": "ValueError"}
+{"code": " max_val = df[df.columns[0]].min(), df[df.columns[0]].max()", "compilation_passed": true, "time": 0.021580934524536133, "tests_passed": true, "error": null}
+{"code": " max_val = df.apply(lambda x: np.min(x)), df.apply(lambda x: np.max(x))", "compilation_passed": true, "time": 0.003610849380493164, "tests_passed": false, "error": "ValueError"}

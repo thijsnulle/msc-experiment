@@ -1,0 +1,5 @@
+{"code": " real_part + 1j * imag_part", "compilation_passed": true, "time": 0.023239850997924805, "tests_passed": true, "error": null}
+{"code": " real_part + imag_part * 1j", "compilation_passed": true, "time": 0.07355904579162598, "tests_passed": true, "error": null}
+{"code": " real_part + 1j*imag_part", "compilation_passed": true, "time": 0.1057431697845459, "tests_passed": true, "error": null}
+{"code": " np.array(real_part, dtype=np.complex128)", "compilation_passed": true, "time": 0.005248069763183594, "tests_passed": true, "error": null}
+{"code": " np.array([complex(r, i) for r, i in zip(real_part, imag_part)])", "compilation_passed": true, "time": 0.29239487648010254, "tests_passed": true, "error": null}

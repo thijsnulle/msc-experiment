@@ -1,0 +1,18 @@
+{"code": " df.plot(kind='bar')", "compilation_passed": true, "time": 0.07794880867004395, "tests_passed": true, "error": null}
+{"code": " df.plot(kind='bar', rot=0)", "compilation_passed": true, "time": 0.08408093452453613, "tests_passed": true, "error": null}
+{"code": " df.barh(figsize=(15, 10), color='gray')", "compilation_passed": true, "time": 0.002340078353881836, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot.bar()  # Plotting the DataFrame as a bar chart", "compilation_passed": true, "time": 0.09490275382995605, "tests_passed": true, "error": null}
+{"code": " df.plot.bar()", "compilation_passed": true, "time": 0.09460282325744629, "tests_passed": true, "error": null}
+{"code": " df.bar(df.index, df.values, width=0.8, color='g')", "compilation_passed": true, "time": 0.001088857650756836, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.bar(stacked=True)  # Plots the bar chart using pandas df.bar() method with default parameters", "compilation_passed": true, "time": 0.001155853271484375, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.bar(width=0.7)", "compilation_passed": true, "time": 0.001138925552368164, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot.bar(rot=0, subplots=False, figsize=(25, 30), grid=True, legend=False, linewidth=6, title='Random data')", "compilation_passed": true, "time": 0.10011792182922363, "tests_passed": true, "error": null}
+{"code": " df.bar(stacked=True)", "compilation_passed": true, "time": 0.0008628368377685547, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot.bar(rot=0, legend=True, grid=True, subplots=False, layout=(1, len(b)))", "compilation_passed": true, "time": 0.08939695358276367, "tests_passed": true, "error": null}
+{"code": " df.plot.bar()  # Plot the data using matplotlib", "compilation_passed": true, "time": 0.1027839183807373, "tests_passed": true, "error": null}
+{"code": " df.bar()", "compilation_passed": true, "time": 0.0010578632354736328, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.bar(", "compilation_passed": false, "time": 0.00022411346435546875, "tests_passed": false, "error": "SyntaxError"}
+{"code": " df.plot(kind=\"bar\")", "compilation_passed": true, "time": 0.09237480163574219, "tests_passed": true, "error": null}
+{"code": " df.plot.barh()", "compilation_passed": true, "time": 0.09158611297607422, "tests_passed": true, "error": null}
+{"code": " df.bar(df.index.values, df.values)", "compilation_passed": true, "time": 0.0011310577392578125, "tests_passed": false, "error": "AttributeError"}
+{"code": " df.plot(kind='bar')  # Plot bar chart", "compilation_passed": true, "time": 0.10779500007629395, "tests_passed": true, "error": null}

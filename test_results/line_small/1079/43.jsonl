@@ -1,0 +1,13 @@
+{"code": " pd.DataFrame(data, index=[0, 1])", "compilation_passed": true, "time": 0.003101825714111328, "tests_passed": false, "error": "ValueError"}
+{"code": " pd.DataFrame({\"Product\": data['Product'], \"Price_String\": data['Price_String']})", "compilation_passed": true, "time": 0.07791304588317871, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Product': data['Product'], 'Price_String': data['Price_String']})", "compilation_passed": true, "time": 0.0807962417602539, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame(data)", "compilation_passed": true, "time": 0.0760340690612793, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Product': data['Product'], 'Price': data['Price_String']})", "compilation_passed": true, "time": 0.0018210411071777344, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame(data['Product'], columns=['Product'])", "compilation_passed": true, "time": 0.0017867088317871094, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({'Price': pd.to_numeric(data['Price_String'].astype(str))})", "compilation_passed": true, "time": 0.0013422966003417969, "tests_passed": false, "error": "AttributeError"}
+{"code": " pd.DataFrame({\"Price\": [float(i) for i in data[\"Price_String\"]],", "compilation_passed": false, "time": 0.0001289844512939453, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(", "compilation_passed": false, "time": 0.00013518333435058594, "tests_passed": false, "error": "SyntaxError"}
+{"code": " pd.DataFrame(data, columns=['Product', 'Price_String'])", "compilation_passed": true, "time": 0.05748701095581055, "tests_passed": true, "error": null}
+{"code": " pd.DataFrame({'Product': data['Product'], 'Price': pd.to_numeric(data['Price_String'])})", "compilation_passed": true, "time": 0.0017542839050292969, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame({\"Price\": [float(price.replace(',', '')) for price in data['Price_String']]})", "compilation_passed": true, "time": 0.0014011859893798828, "tests_passed": false, "error": "KeyError"}
+{"code": " pd.DataFrame()", "compilation_passed": true, "time": 0.0016748905181884766, "tests_passed": false, "error": "KeyError"}

@@ -1,0 +1,8 @@
+{"code": " open(file_path, \"r\") as f:", "compilation_passed": true, "time": 0.0036427974700927734, "tests_passed": true, "error": null}
+{"code": " open(file_path, 'r') as file:", "compilation_passed": true, "time": 0.0014998912811279297, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_path) as file:", "compilation_passed": true, "time": 0.0014650821685791016, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_path, \"r\", encoding=\"utf-8\")", "compilation_passed": false, "time": 0.00013494491577148438, "tests_passed": false, "error": "SyntaxError"}
+{"code": " open(file_path, \"r\") as file:", "compilation_passed": true, "time": 0.0015549659729003906, "tests_passed": false, "error": "NameError"}
+{"code": " open(file_path, \"r\", errors=\"ignore\") as f:", "compilation_passed": true, "time": 0.0036139488220214844, "tests_passed": true, "error": null}
+{"code": " open(file_path) as f:", "compilation_passed": true, "time": 0.0036542415618896484, "tests_passed": true, "error": null}
+{"code": " open(file_path, 'r') as f:", "compilation_passed": true, "time": 0.0035839080810546875, "tests_passed": true, "error": null}

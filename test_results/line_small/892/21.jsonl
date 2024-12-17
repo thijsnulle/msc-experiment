@@ -1,0 +1,11 @@
+{"code": " strings:", "compilation_passed": true, "time": 0.0006728172302246094, "tests_passed": true, "error": null}
+{"code": " not strings:", "compilation_passed": true, "time": 0.0006000995635986328, "tests_passed": true, "error": null}
+{"code": " len(strings) > 0:", "compilation_passed": true, "time": 0.0006451606750488281, "tests_passed": true, "error": null}
+{"code": " len(strings) == 0:", "compilation_passed": true, "time": 0.000640869140625, "tests_passed": true, "error": null}
+{"code": " strings is None or len(strings) == 0:", "compilation_passed": true, "time": 0.0006163120269775391, "tests_passed": true, "error": null}
+{"code": " isinstance(strings, list) and all(isinstance(x, str) for x in strings):", "compilation_passed": true, "time": 0.0006170272827148438, "tests_passed": true, "error": null}
+{"code": " len(strings) <= 0:", "compilation_passed": true, "time": 0.0006392002105712891, "tests_passed": true, "error": null}
+{"code": " not strings or not isinstance(strings, list):", "compilation_passed": true, "time": 0.0006020069122314453, "tests_passed": true, "error": null}
+{"code": " not isinstance(strings, list):", "compilation_passed": true, "time": 0.000759124755859375, "tests_passed": false, "error": "IndexError"}
+{"code": " isinstance(strings, list):", "compilation_passed": true, "time": 0.0005910396575927734, "tests_passed": true, "error": null}
+{"code": " isinstance(strings, list) and len(strings) > 0:", "compilation_passed": true, "time": 0.0005941390991210938, "tests_passed": true, "error": null}
