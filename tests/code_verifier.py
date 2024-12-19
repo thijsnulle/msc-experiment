@@ -23,12 +23,13 @@ from classes import CodeVerificationResult, DataclassJSONEncoder, InputPrompt, G
 from collections import defaultdict
 from data_processor import DataProcessor
 from pathlib import Path
+from pathlib import Path
 from typing import Optional
 
-RESULTS_DIR = '/Users/thijs/Documents/Git/msc-experiment/results'
+RESULTS_DIR = '/Users/thijsnulle/Documents/Git/msc-experiment/results'
 
-SKIPPED_PROBLEMS_FILE = Path('/Users/thijs/Documents/Git/msc-experiment/tests/skipped_problems.txt')
-VERIFICATIONS_DIR_PATH = Path('/Users/thijs/Documents/Git/msc-experiment/test_results')
+SKIPPED_PROBLEMS_FILE = Path('/Users/thijsnulle/Documents/Git/msc-experiment/tests/skipped_problems.txt')
+VERIFICATIONS_DIR_PATH = Path('/Users/thijsnulle/Documents/Git/msc-experiment/test_results')
 
 def test_handler(signum, frame):
     raise TimeoutError()
@@ -54,7 +55,7 @@ class CodeVerifier:
     def __init__(self):
         self.cache = defaultdict(lambda: defaultdict(set))
 
-    def verify(self, problem, generation_results, dataset_type):
+    def verify(self, problem, generation_results, dataset_type, line_level):
         self._load_cache(problem, dataset_type)
 
         with open(SKIPPED_PROBLEMS_FILE, 'a+'):
@@ -76,7 +77,7 @@ class CodeVerifier:
 
             try:
                 with contextlib.redirect_stdout(None), contextlib.redirect_stderr(None):
-                    verification_result = self._verify(problem, InputPrompt('', 0, 100), '')
+                    verification_result = self._verify_line(problem, InputPrompt('', 0, 100), '')
             except:
                 verification_result = None
 
@@ -111,14 +112,19 @@ class CodeVerifier:
 
         for result in generation_results:
             for i, output in enumerate(result.outputs):
-                if psutil.Process().memory_info().rss / 1024**2 > 2000:
-                    gc.collect()
+                #if psutil.Process().memory_info().rss / 1024**2 > 2000:
+                #    gc.collect()
 
                 # TODO: perform actual data processing to remove this.
 
                 line_prompt = problem.line_prompts[i]
+                func_prompt = problem.func_prompt
 
                 code = output.text if '<|endoftext|>' not in output.text else output.text.split('<|endoftext|>')[0]
+
+                if not line_level:
+                    if code_split := re.split(r'\n\n\S', code):
+                        code = code_split[0]
 
                 if code in self.cache[line_prompt.line_index]:
                     cache_hits += 1
@@ -126,10 +132,14 @@ class CodeVerifier:
                 else:
                     non_cache_hits += 1
 
-                #print(problem.id, line_prompt.line_index, repr(code))
+                #print(psutil.Process().memory_info().rss / 1024**2, 'MB')
+                print(problem.id, line_prompt.line_index, repr(code))
 
                 with contextlib.redirect_stdout(None), contextlib.redirect_stderr(None):
-                    verification_result = self._verify(problem, line_prompt, code)
+                    if line_level:
+                        verification_result = self._verify_line(problem, line_prompt, code)
+                    else:
+                        verification_result = self._verify_func(problem, func_prompt, code)
 
                 self.cache[line_prompt.line_index][code] = verification_result
 
@@ -150,13 +160,13 @@ class CodeVerifier:
         print(f'Problem {problem.id}\t- Cache Hit %: {cache_hits/(cache_hits+non_cache_hits):.2f},\tTest Pass %: {tests_passed/tests_total:.2f}, \tMemory Usage: {psutil.Process().memory_info().rss / 1024**2:.2f} MB') 
 
 
-    def _verify(self, problem, line_prompt, code):
+    def _verify_line(self, problem, line_prompt, code):
         t0 = time.time()
 
         line_index = line_prompt.line_index
         char_index = line_prompt.char_index
 
-        compiled_code, did_compile, error = self._compile(problem, line_index, char_index, code)
+        compiled_code, did_compile, error = self._compile_line(problem, line_index, char_index, code)
 
         if not did_compile:
             return CodeVerificationResult(code=code, compilation_passed=False, error=error, time=time.time() - t0)
@@ -168,13 +178,49 @@ class CodeVerifier:
 
         return CodeVerificationResult(code=code, compilation_passed=True, tests_passed=True, time=time.time() - t0)
 
-
-    def _compile(self, problem, line_index, char_index, code):
+    def _compile_line(self, problem, line_index, char_index, code):
         """
         returns: code, compilation_passed, error
         """
         solution_lines = problem.reference.complete_code.splitlines()
         solution_lines[line_index] = solution_lines[line_index][:char_index] + code
+        solution_lines.extend(problem.reference.test_code.splitlines())
+
+        solution = '\n'.join(solution_lines)
+
+        try:
+            abstract_syntax_tree = ast.parse(solution)
+            code = compile(abstract_syntax_tree, filename='<string>', mode='exec')
+        except Exception as e:
+            return None, False, type(e).__name__
+
+        return code, True, None
+
+    def _verify_func(self, problem, func_prompt, code):
+        t0 = time.time()
+
+        line_index = func_prompt.line_index
+        char_index = func_prompt.char_index
+
+        compiled_code, did_compile, error = self._compile_func(problem, line_index, char_index, code)
+
+        if not did_compile:
+            return CodeVerificationResult(code=code, compilation_passed=False, error=error, time=time.time() - t0)
+
+        tests_passed, error = self._test(compiled_code)
+
+        if not tests_passed:
+            return CodeVerificationResult(code=code, compilation_passed=True, tests_passed=False, error=error, time=time.time() - t0)
+
+        return CodeVerificationResult(code=code, compilation_passed=True, tests_passed=True, time=time.time() - t0)
+
+    def _compile_func(self, problem, line_index, char_index, code):
+        """
+        returns: code, compilation_passed, error
+        """
+        solution_lines = problem.reference.complete_code.splitlines()[:line_index]
+        solution_lines.append(f'    {code.splitlines()[0]}')
+        solution_lines.extend(code.splitlines()[1:])
         solution_lines.extend(problem.reference.test_code.splitlines())
 
         solution = '\n'.join(solution_lines)
@@ -244,13 +290,21 @@ class CodeVerifier:
 if __name__ == '__main__':
     code_verifier = CodeVerifier()
 
-    line_small = load_data('line_small')
+    #line_small = load_data('line_small')
     #line_large = load_data('line_large')
 
     problems = DataProcessor.load(input_file_path='../data/test-dataset.jsonl')
 
-    for problem_id, generation_results in line_small.items():
-        problem = problems[int(problem_id)]       
+    #for problem_id, generation_results in line_large.items():
+    #    problem = problems[int(problem_id)]       
+    #    result = code_verifier.verify(problem, generation_results, dataset_type='line_large', line_level=True)
 
-        result = code_verifier.verify(problem, generation_results, dataset_type='line_small')
+    #func_small = load_data('func_small')
+    func_large = load_data('func_large')
+
+    i = 0
+
+    for problem_id, generation_results in func_large.items():
+        problem = problems[int(problem_id)]
+        result = code_verifier.verify(problem, generation_results, dataset_type='func_large', line_level=False)
 

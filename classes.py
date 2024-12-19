@@ -22,6 +22,11 @@ class CodeVerificationResult:
     error: Optional[str] = None
 
 @dataclasses.dataclass
+class MCSResult:
+    selected_lines: List[int]
+    result: CodeVerificationResult
+
+@dataclasses.dataclass
 class ProblemFile:
     path: pathlib.Path
     no_lines: int
