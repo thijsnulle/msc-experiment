@@ -1,0 +1,13 @@
+{"code": "# Your code here\n\n    return df", "compilation_passed": true, "time": 0.0009238719940185547, "tests_passed": true, "error": null}
+{"code": "scaler = StandardScaler()\n    return pd.DataFrame(scaler.fit_transform(df), columns=df.columns)", "compilation_passed": true, "time": 0.004542112350463867, "tests_passed": true, "error": null}
+{"code": "scaler = StandardScaler()\n    df_standardized = scaler.fit_transform(df)\n    return df_standardized", "compilation_passed": true, "time": 0.0014829635620117188, "tests_passed": false, "error": "IndexError"}
+{"code": "scaler = StandardScaler()\n    return scaler.fit_transform(df)", "compilation_passed": true, "time": 0.001405954360961914, "tests_passed": false, "error": "IndexError"}
+{"code": "return StandardScaler().fit_transform(df)", "compilation_passed": true, "time": 0.0014650821685791016, "tests_passed": false, "error": "IndexError"}
+{"code": "# Your code here\n    return df.copy()", "compilation_passed": true, "time": 0.0008189678192138672, "tests_passed": true, "error": null}
+{"code": "scaler = StandardScaler()\n    scaler.fit(df)\n    df_standardized = scaler.transform(df)\n    return df_standardized", "compilation_passed": true, "time": 0.0014739036560058594, "tests_passed": false, "error": "IndexError"}
+{"code": "# your code here\n    standard_scaler = StandardScaler()\n    df_standardized = standard_scaler.fit_transform(df)\n    return df_standardized", "compilation_passed": true, "time": 0.001425027847290039, "tests_passed": false, "error": "IndexError"}
+{"code": "scaler = StandardScaler()\n    df_standardized = scaler.fit_transform(df.values)\n    df_standardized = pd.DataFrame(df_standardized, columns=df.columns, index=df.index)\n\n    return df_standardized", "compilation_passed": true, "time": 0.0023360252380371094, "tests_passed": true, "error": null}
+{"code": "scaler = StandardScaler()\n    df_standardized = scaler.fit_transform(df.values)\n    return pd.DataFrame(df_standardized, columns=df.columns, index=df.index)", "compilation_passed": true, "time": 0.0022897720336914062, "tests_passed": true, "error": null}
+{"code": "# TODO: complete this function\n\n    return df_standardized", "compilation_passed": true, "time": 0.0007481575012207031, "tests_passed": false, "error": "NameError"}
+{"code": "standardScaler = StandardScaler()\n    return pd.DataFrame(standardScaler.fit_transform(df), columns=df.columns, index=df.index)", "compilation_passed": true, "time": 0.004693031311035156, "tests_passed": true, "error": null}
+{"code": "# Write your code here\n    df.iloc[:, 0] /= StandardScaler().fit(df.iloc[:, 0]).transform(df.iloc[:, 0])\n    return df", "compilation_passed": true, "time": 0.0012538433074951172, "tests_passed": false, "error": "ValueError"}

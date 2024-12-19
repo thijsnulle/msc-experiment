@@ -1,0 +1,22 @@
+{"code": "# YOUR CODE HERE\n\n    return model", "compilation_passed": true, "time": 0.00092315673828125, "tests_passed": false, "error": "NameError"}
+{"code": "pass", "compilation_passed": true, "time": 0.0008509159088134766, "tests_passed": true, "error": null}
+{"code": "raise NotImplementedError", "compilation_passed": true, "time": 0.0008440017700195312, "tests_passed": false, "error": "NotImplementedError"}
+{"code": "X = df['X'].values.reshape(-1, 1)\n    y = df['Y'].values.reshape(-1, 1)\n\n    # Perform linear regression\n    model = LinearRegression().fit(X, y)\n\n    return model", "compilation_passed": true, "time": 0.004118919372558594, "tests_passed": true, "error": null}
+{"code": "model = LinearRegression().fit(df['X'].to_numpy().reshape(-1, 1), df['Y'])\n    return model", "compilation_passed": true, "time": 0.004170894622802734, "tests_passed": true, "error": null}
+{"code": "# Code\n    pass", "compilation_passed": true, "time": 0.0008759498596191406, "tests_passed": true, "error": null}
+{"code": "# your code here\n    pass", "compilation_passed": true, "time": 0.00115203857421875, "tests_passed": true, "error": null}
+{"code": "# Your code here\n    return", "compilation_passed": true, "time": 0.0008571147918701172, "tests_passed": true, "error": null}
+{"code": "model = LinearRegression()\n    X = df.drop('Y', axis=1)\n    y = df['Y']\n    model.fit(X, y)\n    return model", "compilation_passed": true, "time": 0.005727052688598633, "tests_passed": true, "error": null}
+{"code": "# Write your code here", "compilation_passed": true, "time": 0.0008697509765625, "tests_passed": true, "error": null}
+{"code": "x = df['X']\n    y = df['Y']\n\n    model = LinearRegression().fit(x.to_frame(), y)\n\n    return model", "compilation_passed": true, "time": 0.00538325309753418, "tests_passed": true, "error": null}
+{"code": "# ...\n    # ...\n    # ...\n    # ...\n    # ...\n    # ...\n\n    # ...\n    # ...\n    # ...\n    # ...\n    # ...\n    # ...\n    model = LinearRegression()\n    return model", "compilation_passed": true, "time": 0.0009660720825195312, "tests_passed": false, "error": "AttributeError"}
+{"code": "model = LinearRegression()\n    model.fit(df['X'].values.reshape(-1, 1), df['Y'])\n    return model", "compilation_passed": true, "time": 0.004055976867675781, "tests_passed": true, "error": null}
+{"code": "model = LinearRegression()\n    model.fit(df[['X']], df['Y'])\n    return model", "compilation_passed": true, "time": 0.005755901336669922, "tests_passed": true, "error": null}
+{"code": "model = LinearRegression()\n    model.fit(df['X'].to_numpy().reshape(-1, 1), df['Y'].to_numpy().reshape(-1, 1))\n    return model", "compilation_passed": true, "time": 0.0040340423583984375, "tests_passed": true, "error": null}
+{"code": "model = LinearRegression().fit(df['X'].values.reshape(-1, 1), df['Y'])\n    return model", "compilation_passed": true, "time": 0.004086017608642578, "tests_passed": true, "error": null}
+{"code": "X = df[['X']]\n    Y = df[['Y']]\n    model = LinearRegression().fit(X, Y)\n    return model", "compilation_passed": true, "time": 0.0074198246002197266, "tests_passed": true, "error": null}
+{"code": "model = LinearRegression()\n    X = df['X'].values.reshape(-1, 1)\n    Y = df['Y'].values.reshape(-1, 1)\n    model.fit(X, Y)\n    return model", "compilation_passed": true, "time": 0.003994941711425781, "tests_passed": true, "error": null}
+{"code": "model = LinearRegression().fit(df['X'].to_frame(), df['Y'])\n    return model", "compilation_passed": true, "time": 0.005471944808959961, "tests_passed": true, "error": null}
+{"code": "x = df[['X']]\n    y = df['Y']\n    model = LinearRegression()\n    model.fit(x, y)\n    return model", "compilation_passed": true, "time": 0.005800962448120117, "tests_passed": true, "error": null}
+{"code": "model = LinearRegression()\n    X = df[COLUMNS[0]].values.reshape(-1, 1)\n    y = df[COLUMNS[1]].values\n    model.fit(X, y)\n\n    return model", "compilation_passed": true, "time": 0.003960132598876953, "tests_passed": true, "error": null}
+{"code": "# Your code here", "compilation_passed": true, "time": 0.0008931159973144531, "tests_passed": true, "error": null}
