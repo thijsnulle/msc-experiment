@@ -2,11 +2,12 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
-import glob, json, re
+import glob, json, pprint, re
 import plotly.graph_objects as go
 
 from classes import CodeVerificationResult, GenerationMetrics, GenerationOutput, GenerationResult
 from collections import Counter, defaultdict
+from data_processor import DataProcessor
 
 import seaborn as sns
 from matplotlib import pyplot as plt
@@ -14,8 +15,9 @@ from matplotlib import pyplot as plt
 sns.set_theme()
 sns.color_palette("colorblind")
 
-RESULTS_DIR = '/Users/thijs/Documents/Git/msc-experiment/results'
-TEST_RESULTS_DIR = '/Users/thijs/Documents/Git/msc-experiment/test_results/line_small'
+RESULTS_DIR = '/Users/thijsnulle/Documents/Git/msc-experiment/results'
+TEST_RESULTS_DIR = '/Users/thijsnulle/Documents/Git/msc-experiment/test_results'
+SKIPPED_PROBLEMS_FILE = '/Users/thijsnulle/Documents/Git/msc-experiment/tests/skipped_problems.txt'
 
 def load_results(file_name):
     output = defaultdict(list)
@@ -33,12 +35,32 @@ def load_results(file_name):
 
     return output
 
-def load_test_results():
+def load_test_results(file_name, results, problems):
+    skipped_problem_ids = []
+    with open(SKIPPED_PROBLEMS_FILE) as f:
+        for line in f.readlines():
+            skipped_problem_ids.append(line.split(' - ')[0])
+
     output = []
 
-    for file_name in glob.glob(f'{TEST_RESULTS_DIR}/**/*.jsonl'):
+    for file_name in glob.glob(f'{TEST_RESULTS_DIR}/{file_name}/**/*.jsonl'):
+        problem_id = re.search(r'/(\d+)/', file_name)[1]
+        line_index = int(re.search(r'(\d+)\.jsonl', file_name)[1])
+
+        problem = problems[int(problem_id)]
+        output_index = list(map(lambda x: x.line_index == line_index, problem.line_prompts)).index(True)
+
+        if problem_id in skipped_problem_ids:
+            continue
+
+        generation_results = results[problem_id]
+        generation_results_counter = Counter([ x.outputs[output_index].text for x in generation_results ])
+
         with open(file_name, 'r') as f:
-            output.extend([ CodeVerificationResult(**json.loads(x)) for x in f.readlines() ])
+            verification_results = [ CodeVerificationResult(**json.loads(x)) for x in f.readlines() ]
+
+            for result in verification_results:
+                output.extend([result] * generation_results_counter[result.code])
 
     return output
 
@@ -72,104 +94,116 @@ def power_law_distribution_unique_solutions():
     plt.tight_layout()
     plt.savefig('output/distribution-unique-line-generations-wide')
 
-def sankey_diagram_test_results(results):
-    labels = [
-        'Total Solutions',
-        'Passed Compilation',
-        'Did Not Compile',
-        'Passed Tests',
-        'Did Not Pass Tests',
-    ]
+def sankey_diagram_test_results(small_results, large_results):
+    def plot(results, file_addition):
+        labels = [
+            'Total Solutions',
+            'Passed Compilation',
+            'Did Not Compile',
+            'Passed Tests',
+            'Did Not Pass Tests',
+        ]
 
-    sources = []
-    targets = []
-    values = []
+        sources = []
+        targets = []
+        values = []
 
-    compilation_passed = sum(x.compilation_passed for x in results)
-    compilation_not_passed = len(results) - compilation_passed
+        compilation_passed = sum(x.compilation_passed for x in results)
+        compilation_not_passed = len(results) - compilation_passed
 
-    values.extend([compilation_passed, compilation_not_passed])
-    sources.extend([0, 0])
-    targets.extend([1, 2])
+        print(file_addition, compilation_passed, compilation_not_passed)
 
-    compilation_not_passed_results = [x for x in results if not x.compilation_passed]
-    compilation_not_passed_errors = Counter([x.error for x in compilation_not_passed_results])
+        values.extend([compilation_passed, compilation_not_passed])
+        sources.extend([0, 0])
+        targets.extend([1, 2])
 
-    for error, count in compilation_not_passed_errors.most_common():
-        if not re.match('^\w+Error$', error) or count < 10:
-            remaining += count
-            continue
+        compilation_not_passed_results = [x for x in results if not x.compilation_passed]
+        compilation_not_passed_errors = Counter([x.error for x in compilation_not_passed_results])
 
-        labels.append(f'{error} ({count})')
-        values.append(count)
-        sources.append(2)
-        targets.append(len(labels) - 1)
-    
-    tests_passed = sum(x.tests_passed for x in results)
-    tests_not_passed = compilation_passed - tests_passed
+        for error, count in compilation_not_passed_errors.most_common():
+            if not re.match('^\w+Error$', error) or count < 50:
+                remaining += count
+                continue
 
-    values.extend([tests_passed, tests_not_passed])
-    sources.extend([1, 1])
-    targets.extend([3, 4])
+            labels.append(f'{error} ({count})')
+            values.append(count)
+            sources.append(2)
+            targets.append(len(labels) - 1)
+        
+        tests_passed = sum(x.tests_passed for x in results)
+        tests_not_passed = compilation_passed - tests_passed
 
-    tests_not_passed_results = [x for x in results if x.compilation_passed and not x.tests_passed]
-    tests_not_passed_errors = Counter([x.error for x in tests_not_passed_results])
+        values.extend([tests_passed, tests_not_passed])
+        sources.extend([1, 1])
+        targets.extend([3, 4])
 
-    remaining = 0
+        tests_not_passed_results = [x for x in results if x.compilation_passed and not x.tests_passed]
+        tests_not_passed_errors = Counter([x.error for x in tests_not_passed_results])
 
-    for error, count in tests_not_passed_errors.most_common():
-        if not re.match('^\w+Error$', error) or count < 10:
-            remaining += count
-            continue
+        remaining = 0
 
-        labels.append(f'{error} ({count})')
-        values.append(count)
+        for error, count in tests_not_passed_errors.most_common():
+            if not re.match('^\w+Error$', error) or count < 50:
+                remaining += count
+                continue
+
+            labels.append(f'{error} ({count})')
+            values.append(count)
+            sources.append(4)
+            targets.append(len(labels) - 1)
+
+        labels.append(f'Other ({remaining})')
+        values.append(remaining)
         sources.append(4)
         targets.append(len(labels) - 1)
 
-    labels.append(f'Other ({remaining})')
-    values.append(remaining)
-    sources.append(4)
-    targets.append(len(labels) - 1)
+        labels[0] = f'{labels[0]} ({len(results)})'
+        labels[1] = f'{labels[1]} ({compilation_passed})'
+        labels[2] = f'{labels[2]} ({compilation_not_passed})'
+        labels[3] = f'{labels[3]} ({tests_passed})'
+        labels[4] = f'{labels[4]} ({tests_not_passed})'
 
-    labels[0] = f'{labels[0]} ({len(results)})'
-    labels[1] = f'{labels[1]} ({compilation_passed})'
-    labels[2] = f'{labels[2]} ({compilation_not_passed})'
-    labels[3] = f'{labels[3]} ({tests_passed})'
-    labels[4] = f'{labels[4]} ({tests_not_passed})'
+        fig = go.Figure(data=[go.Sankey(
+            node=dict(
+                pad=12,
+                thickness=30,
+                label=labels,
+                x=[0, 0.25, 0.5, 1, 0.5],
+                y=[0, 0,    0.85, 0, 0.66],
+            ),
+            link = dict(
+                source=sources,
+                target=targets,
+                value=values,
+            )),
+        ])
 
-    fig = go.Figure(data=[go.Sankey(
-        node=dict(
-            pad=12,
-            thickness=30,
-            label=labels,
-            x=[0, 0.33, 0.33, 1, 0.5],
-            y=[0, 0,    0.95,    0, 0.75],
-        ),
-        link = dict(
-            source=sources,
-            target=targets,
-            value=values,
-        )),
-    ])
+        fig.update_layout(
+            template='seaborn',
+            paper_bgcolor='#eaeaf2',
+            font_size=14,
+            width=1200,
+            height=600,
+            margin=dict(l=8, r=8, t=8, b=8),
+        )
 
-    fig.update_layout(
-        template='seaborn',
-        paper_bgcolor='#eaeaf2',
-        font_size=13,
-        width=800,
-        height=400,
-        margin=dict(l=8, r=8, t=8, b=8),
-    )
+        fig.write_image(f'output/test-results-flow-sankey-diagram-{file_addition}.png')
 
-    fig.write_image('output/test-results-flow-sankey-diagram.png')
+    plot(small_results, file_addition='line-small')
+    plot(large_results, file_addition='line-large')
 
         
 if __name__ == '__main__':
+    problems = DataProcessor.load(input_file_path='/Users/thijsnulle/Documents/Git/msc-experiment/data/test-dataset.jsonl')
+
+    small_results = load_results('line_small')
+    large_results = load_results('line_large')
+
+    small_test_results = load_test_results('line_small', small_results, problems)
+    large_test_results = load_test_results('line_large', large_results, problems)
+
+    sankey_diagram_test_results(small_test_results, large_test_results)
+
     #line_small = load_results('line_small')
-    test_results = load_test_results()
-
-    sankey_diagram_test_results(test_results)
-
     #power_law_distribution_unique_solutions()
 
