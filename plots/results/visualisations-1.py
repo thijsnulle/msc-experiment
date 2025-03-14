@@ -15,7 +15,7 @@ from matplotlib import pyplot as plt
 sns.set_theme()
 sns.color_palette("colorblind")
 
-RESULTS_DIR = '/Users/thijs/Documents/Git/msc-experiment/results'
+RESULTS_DIR = '/Users/thijsnulle/Documents/Git/msc-experiment/results'
 
 LABELS = ['Function-level, Small Model', 'Line-level, Small Model', 'Function-level, Large Model', 'Line-level, Large Model']
 
@@ -85,7 +85,7 @@ def energy_violinplot(func_small, line_small, func_large, line_large):
     plt.ylabel('Energy (J)')
 
     plt.tight_layout()
-    plt.savefig('output/energy-violinplot')
+    plt.savefig('output/energy-violinplot', dpi=500)
 
     plt.cla()
 
@@ -101,7 +101,7 @@ def energy_violinplot(func_small, line_small, func_large, line_large):
     plt.legend(labels=LABELS, loc='upper left')
     
     plt.tight_layout()
-    plt.savefig('output/energy-per-token-violinplot')
+    plt.savefig('output/energy-per-token-violinplot', dpi=500)
 
 def time_violinplot(func_small, line_small, func_large, line_large):
     fig, ax = plt.subplots(figsize=(8,4))
@@ -133,7 +133,7 @@ def time_violinplot(func_small, line_small, func_large, line_large):
     plt.ylabel('Time (s)')
 
     plt.tight_layout()
-    plt.savefig('output/time-violinplot')
+    plt.savefig('output/time-violinplot', dpi=500)
 
     plt.cla()
 
@@ -149,7 +149,7 @@ def time_violinplot(func_small, line_small, func_large, line_large):
     plt.ylabel('Time per Token (s)')
     
     plt.tight_layout()
-    plt.savefig('output/time-per-token-violinplot')
+    plt.savefig('output/time-per-token-violinplot', dpi=500)
 
 def finish_reason_barplot(func_small, func_large):
     def get_finish_reasons(data):
@@ -187,7 +187,7 @@ def finish_reason_barplot(func_small, func_large):
     plt.title('Finish Reasons of Function-Level Generations')
     
     plt.tight_layout()
-    plt.savefig('output/finish-reasons-barplot')
+    plt.savefig('output/finish-reasons-barplot', dpi=500)
 
 def energy_vs_time_scatterplot(func_small, line_small, func_large, line_large):
     fig, ax = plt.subplots(figsize=(8,4))
@@ -234,7 +234,7 @@ def energy_vs_time_scatterplot(func_small, line_small, func_large, line_large):
 
     plt.legend(labels=LABELS)
     plt.tight_layout()
-    plt.savefig('output/energy-per-token-vs-time-per-token-scatterplot')
+    plt.savefig('output/energy-per-token-vs-time-per-token-scatterplot', dpi=500)
     plt.cla()
 
     # TIME VS ENERGY
@@ -254,7 +254,7 @@ def energy_vs_time_scatterplot(func_small, line_small, func_large, line_large):
 
     plt.legend(labels=LABELS)
     plt.tight_layout()
-    plt.savefig('output/energy-vs-time-scatterplot')
+    plt.savefig('output/energy-vs-time-scatterplot', dpi=500)
 
 def distribution_unique_solutions(line_small, line_large):
     fig, ax = plt.subplots(figsize=(8,4))
@@ -288,7 +288,7 @@ def distribution_unique_solutions(line_small, line_large):
     plt.title('Total Unique Solutions per Line')
     plt.xlabel('Number of Unique Solutions')
     plt.tight_layout()
-    plt.savefig('output/distribution-unique-line-generations')
+    plt.savefig('output/distribution-unique-line-generations', dpi=500)
 
 def cumulative_distribution_function_time(func_small, line_small, func_large, line_large):
     fig, ax = plt.subplots(figsize=(8,4))
@@ -320,7 +320,7 @@ def cumulative_distribution_function_time(func_small, line_small, func_large, li
     plt.legend(labels=LABELS)
     plt.title('Cumulative Distribution Function of Time')
     plt.tight_layout()
-    plt.savefig('output/cumulative-distribution-function-time')
+    plt.savefig('output/cumulative-distribution-function-time', dpi=500)
 
 def cumulative_distribution_function_energy(func_small, line_small, func_large, line_large):
     fig, ax = plt.subplots(figsize=(8,4))
@@ -334,6 +334,7 @@ def cumulative_distribution_function_energy(func_small, line_small, func_large, 
         average_energies = []
 
         for problem_id, results in data.items():
+            print('hello')
             energies = []
             for result in results:
                 energies.append(result.metrics.energy)
@@ -352,7 +353,7 @@ def cumulative_distribution_function_energy(func_small, line_small, func_large, 
     plt.legend(labels=LABELS)
     plt.title('Cumulative Distribution Function of Energy')
     plt.tight_layout()
-    plt.savefig('output/cumulative-distribution-function-energy')
+    plt.savefig('output/cumulative-distribution-function-energy', dpi=500)
 
 def logprobs_density_plot(func_small, line_small, func_large, line_large):
     fig, ax = plt.subplots(figsize=(8,4))
@@ -369,6 +370,28 @@ def logprobs_density_plot(func_small, line_small, func_large, line_large):
 
         sns.kdeplot(probabilities, ax=ax, label=label)
 
+    def avg(data, label):
+        logprobs = []
+
+        for results in data.values():
+            for result in results:
+                for output in result.outputs:
+                    logprobs.extend(output.logprobs)
+
+        probs = np.power(10, logprobs)
+
+        #print('mean probs', label, sum(probs) / len(probs))
+        #print('median probs', label, probs[len(probs) // 2])
+        print('mean logprobs', label, sum(logprobs) / len(logprobs))
+        print('median logprobs', label, logprobs[len(logprobs) // 2])
+        print()
+
+    avg(func_small, LABELS[0])
+    avg(line_small, LABELS[1])
+    avg(func_large, LABELS[2])
+    avg(line_large, LABELS[3])
+
+    """
     plot(func_small, label=LABELS[0])
     plot(line_small, label=LABELS[1])
 
@@ -377,7 +400,7 @@ def logprobs_density_plot(func_small, line_small, func_large, line_large):
     plt.legend(labels=[LABELS[0], LABELS[1]])
 
     plt.tight_layout()
-    plt.savefig('output/logprobs-small-density')
+    plt.savefig('output/logprobs-small-density', dpi=500)
 
     plt.cla()
 
@@ -389,7 +412,8 @@ def logprobs_density_plot(func_small, line_small, func_large, line_large):
     plt.legend(labels=[LABELS[2], LABELS[3]])
 
     plt.tight_layout()
-    plt.savefig('output/logprobs-large-density')
+    plt.savefig('output/logprobs-large-density', dpi=500)
+    """
 
 if __name__ == '__main__':
     func_small = load_data('func_small')
@@ -398,9 +422,10 @@ if __name__ == '__main__':
     line_large = load_data('line_large')
 
     logprobs_density_plot(func_small, line_small, func_large, line_large)
-    cumulative_distribution_function_energy(func_small, line_small, func_large, line_large)
-    energy_violinplot(func_small, line_small, func_large, line_large)
-    time_violinplot(func_small, line_small, func_large, line_large)
-    finish_reason_barplot(func_small, func_large)
-    energy_vs_time_scatterplot(func_small, line_small, func_large, line_large)
-    distribution_unique_solutions(line_small, line_large)
+    #cumulative_distribution_function_time(func_small, line_small, func_large, line_large)
+    #cumulative_distribution_function_energy(func_small, line_small, func_large, line_large)
+    #energy_violinplot(func_small, line_small, func_large, line_large)
+    #time_violinplot(func_small, line_small, func_large, line_large)
+    #finish_reason_barplot(func_small, func_large)
+    #energy_vs_time_scatterplot(func_small, line_small, func_large, line_large)
+    #distribution_unique_solutions(line_small, line_large)
