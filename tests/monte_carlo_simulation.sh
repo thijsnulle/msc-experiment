@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the number of retries
-retries=3
+retries=500
 
 # Loop until we succeed or reach the maximum retries
 for (( i=1; i<=$retries; i++ )); do

@@ -21,10 +21,16 @@ class CodeVerificationResult:
     tests_passed: bool = False
     error: Optional[str] = None
 
+    def __hash__(self):
+        return hash((self.code, self.compilation_passed, self.tests_passed, self.error))
+
 @dataclasses.dataclass
 class MCSResult:
     selected_lines: List[int]
     result: CodeVerificationResult
+
+    def __hash__(self):
+        return hash((tuple(self.selected_lines), self.result))
 
 @dataclasses.dataclass
 class ProblemFile:

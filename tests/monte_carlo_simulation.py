@@ -3,10 +3,12 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import contextlib
+import collections
 import gc
 import glob
 import io
 import json
+import psutil
 import random
 import re
 import signal
@@ -62,13 +64,16 @@ class MonteCarloSimulation:
         self._load_test_results()
 
     def start(self):
+        process = psutil.Process(os.getpid())
+
         for k in range(self.K):
-            if k % 1000 == 0:
-                gc.collect()
+            if process.memory_info().rss > 6.0 * 1024**3:
+                print('Exitting due to insufficient memory available.')
+                os._exit(1)
 
             # select fraction 0 <= f <= 1 lines L_f, where |L_f| >= 2
-            lines_to_substitute = random.randrange(2, len(self.problem.line_prompts)) \
-                if len(self.problem.line_prompts) > 2 else len(self.problem.line_prompts)
+            lines_to_substitute = random.randrange(1, len(self.problem.line_prompts)) \
+                if len(self.problem.line_prompts) > 1 else len(self.problem.line_prompts)
             selected_line_prompts = random.sample(self.problem.line_prompts, lines_to_substitute)
 
             # substitute f * |S| lines
@@ -87,7 +92,11 @@ class MonteCarloSimulation:
 
             # check if all pass compilation and tests, if not continue
             if code in self.test_results:
-                self._save(self.test_results[code])
+                mcs_result = self.test_results[code]
+                mcs_result.selected_lines = [x.line_index for x in selected_line_prompts]
+
+                self._save(mcs_result)
+
                 continue
 
             # check for individual selected lines if they do not pass tests, if not continue
@@ -219,7 +228,6 @@ def main():
 
             MonteCarloSimulation(problem_id=problem_id, data=line_small[problem_id], dataset_type='line_small').start()
 
-        """
         line_large = load_data('line_large')
 
         for problem_id in [str(x) for x in range(1140)]:
@@ -229,11 +237,10 @@ def main():
                     continue
 
             MonteCarloSimulation(problem_id=problem_id, data=line_large[problem_id], dataset_type='line_large').start()
-        """
     except Exception as e:
         print(f"An error occurred: {str(e)}")
-        traceback.print_exc()
-        print("Restarting the script...")
+        #traceback.print_exc()
+        #print("Restarting the script...")
         main()
 
 if __name__ == '__main__':
