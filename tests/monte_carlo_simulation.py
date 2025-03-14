@@ -246,25 +246,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-"""
-if __name__ == '__main__':
-    line_small = load_data('line_small')
-
-    for problem_id in [str(x) for x in range(1140)]:
-        with open('/Users/thijsnulle/Documents/Git/msc-experiment/tests/skipped_problems.txt') as f:
-            if any(line.split(' - ')[0] == problem_id for line in f.readlines()):
-                #print(f'Skipping problem {problem_id}')
-                continue
-
-        MonteCarloSimulation(problem_id=problem_id, data=line_small[problem_id], dataset_type='line_small').start()
-
-    line_large = load_data('line_large')
-
-    for problem_id in [str(x) for x in range(1140)]:
-        with open('/Users/thijsnulle/Documents/Git/msc-experiment/tests/skipped_problems.txt') as f:
-            if any(line.split(' - ')[0] == problem_id for line in f.readlines()):
-                #print(f'Skipping problem {problem_id}')
-                continue
-
-        MonteCarloSimulation(problem_id=problem_id, data=line_large[problem_id], dataset_type='line_large').start()
-"""

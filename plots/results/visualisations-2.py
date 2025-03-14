@@ -262,21 +262,6 @@ def wrong_solutions():
     plt.ylabel("Values")
     plt.show()
 
-    #sns.boxplot(line_small_energies[1], showfliers=False, width=0.25)
-    #sns.violinplot(wasted_energy_percentages)
-    #plt.show()
-
-    # For each problem:
-    #   For each solution:
-    #     1. get excess tokens
-    #     2. true tokens = |tokens| - excess tokens
-    #     3. if solution was correct, add to "useful tokens"
-    #     4. calculate percentage of tokens that were "useful tokens"
-    #   calculate average percentage of "useful tokens"
-
-
-    pass   
-
 def excess_tokens():
     def get_excess_tokens_for_file(filename):
         with open(f'{RESULTS_FOLDER}/{problem_id}/{filename}') as f:
@@ -885,31 +870,6 @@ def reduction_carbon_emissions():
                     
                     if bin == selected_bin:
                         energy_results_better[_type].append(1 / (total_energy / func_large_energy))
-    """
-    plt.title('Theoretical Reduction in Carbon Emissions vs Fraction of Generated Lines')
-
-    fig, axes = plt.subplots(1, 2, figsize=(12, 4), gridspec_kw={'width_ratios': [10, 6]})
-
-    palette = sns.color_palette()
-
-    sns.boxplot(ax=axes[0], data=df, x='Fraction of Generated Lines', y='Reduction in Carbon Emissions', hue='Fraction of Generated Lines', showfliers=False, legend=False, palette=palette)
-    sns.boxplot(ax=axes[1], data=df_zoom, x='Fraction of Generated Lines', y='Reduction in Carbon Emissions', hue='Fraction of Generated Lines', showfliers=False, legend=False, palette=palette[4:])
-
-    plt.suptitle('Potential Carbon Emissions Reduction: Small Model Line-Level vs Large Model Function-Level Completions')
-    axes[0].set_title('Full Range of Generated Lines')
-    axes[1].set_title('Zoomed In: Generated Lines ≥ 50%')
-
-    def format_yticks(x, pos):
-        return f'{int(x)}x'
-
-    axes[0].yaxis.set_major_formatter(plt.FuncFormatter(format_yticks))
-    axes[1].yaxis.set_major_formatter(plt.FuncFormatter(format_yticks))
-
-    plt.tight_layout()
-    plt.savefig('output/potential-reduction-carbon-emissions', dpi=500)
-    plt.clf()
-    plt.cla()
-    """
 
     plt.figure()
 
@@ -926,38 +886,6 @@ def reduction_carbon_emissions():
     plt.gca().yaxis.set_major_formatter(plt.FuncFormatter(format_yticks))
     plt.tight_layout()
     plt.savefig('output/reduction-carbon-emissions-if-small-models-outperforms-both', dpi=500)
-
-    """
-    for _type in ['line_small', 'line_large']:
-        data = []
-
-        for bin, energies in energy_results[_type].items():
-            data.extend([(bin, energy) for energy in energies])
-
-        df = pd.DataFrame(data, columns=['Fraction of Generated Lines', 'Reduction in Carbon Emissions'])
-
-        q1 = np.percentile(energy_results_better[_type], 25)
-        q3 = np.percentile(energy_results_better[_type], 75)
-        iqr = q3 - q1
-
-        lower_bound = q1 - 1.5 * iqr
-        upper_bound = q3 + 1.5 * iqr
-
-        filtered_results = [x for x in energy_results_better[_type] if lower_bound <= x <= upper_bound]
-
-        def format_yticks(x, pos):
-            return f'{int(x)}x'
-
-        plt.title('Carbon Emission Reduction: Line-level Completions\noutperform Function-level Completions')
-        plt.xlabel('Reduction in Carbon Emissions')
-
-        sns.kdeplot(filtered_results, bw_adjust=2, label='Small Model' if _type == 'line_small' else 'Large Model')
-
-    plt.gca().xaxis.set_major_formatter(plt.FuncFormatter(format_yticks))
-    plt.tight_layout()
-    plt.legend()
-    plt.savefig('output/reduction-carbon-emissions-if-small-models-outperforms-kde-both', dpi=500)
-    """
     
                    
 
@@ -1304,21 +1232,10 @@ def wasted_tokens_incorrect_suggestions():
 
     sns.boxplot(x='Category', y='Excess Tokens', hue='Category', data=df, width=0.33, showfliers=False, palette=palette)
 
-    """
-    axes[0].set_title('Proportion of Excess Tokens in Generated Outputs')
-    axes[0].set_xlabel(None)
-    axes[0].set_ylabel('Proportion of Excess Tokens')
-    axes[0].set_xticks([])
-    axes[0].legend(labels=wasted_energies_lists.keys(), loc='upper right')
-    """
-
     plt.ylabel('Average Wasted Energy Consumption')
     plt.xlabel(None)
     plt.xticks([])
     plt.legend(labels=wasted_energies_lists.keys())
-    #plt.legend(labels=wasted_energies_lists.keys(), loc='lower center', bbox_to_anchor=(0.5, -0.2), ncol=2)
-    #.legend(loc='upper center', bbox_to_anchor=(0.5, 1.05),
-    #      ncol=3, fancybox=True, shadow=True)
     plt.title('Average Wasted Energy Consumption per Problem due to Incorrect Suggestions')
     plt.tight_layout()
     plt.savefig('output/wasted-energy-incorrect-suggestions-average', dpi=500)

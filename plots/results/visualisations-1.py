@@ -391,30 +391,6 @@ def logprobs_density_plot(func_small, line_small, func_large, line_large):
     avg(func_large, LABELS[2])
     avg(line_large, LABELS[3])
 
-    """
-    plot(func_small, label=LABELS[0])
-    plot(line_small, label=LABELS[1])
-
-    plt.title('Probability Density Distribution (Small Model)')
-    plt.xlabel('Probability')
-    plt.legend(labels=[LABELS[0], LABELS[1]])
-
-    plt.tight_layout()
-    plt.savefig('output/logprobs-small-density', dpi=500)
-
-    plt.cla()
-
-    plot(func_large, label=LABELS[2])
-    plot(line_large, label=LABELS[3])
-
-    plt.title('Probability Density Distribution (Large Model)')
-    plt.xlabel('Probability')
-    plt.legend(labels=[LABELS[2], LABELS[3]])
-
-    plt.tight_layout()
-    plt.savefig('output/logprobs-large-density', dpi=500)
-    """
-
 if __name__ == '__main__':
     func_small = load_data('func_small')
     line_small = load_data('line_small')

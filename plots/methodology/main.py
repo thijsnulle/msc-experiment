@@ -123,18 +123,6 @@ def sankey_diagram_test_results(small_results, large_results):
         compilation_not_passed_results = [x for x in results if not x.compilation_passed]
         compilation_not_passed_errors = Counter([x.error for x in compilation_not_passed_results])
 
-        """
-        for error, count in compilation_not_passed_errors.most_common():
-            if not re.match('^\w+Error$', error) or count < 50:
-                remaining += count
-                continue
-
-            labels.append(f'{error} ({count})')
-            values.append(count)
-            sources.append(2)
-            targets.append(len(labels) - 1)
-        """
-        
         tests_passed = sum(x.tests_passed for x in results)
         tests_not_passed = compilation_passed - tests_passed
 
@@ -146,18 +134,6 @@ def sankey_diagram_test_results(small_results, large_results):
         tests_not_passed_errors = Counter([x.error for x in tests_not_passed_results])
 
         remaining = 0
-
-        """
-        for error, count in tests_not_passed_errors.most_common():
-            if not re.match('^\w+Error$', error) or count < 50:
-                remaining += count
-                continue
-
-            labels.append(f'{error} ({count})')
-            values.append(count)
-            sources.append(4)
-            targets.append(len(labels) - 1)
-        """
 
         labels.append(f'Other ({remaining})')
         values.append(remaining)
