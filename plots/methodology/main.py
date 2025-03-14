@@ -3,7 +3,10 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 import glob, json, pprint, re
+import numpy as np
 import plotly.graph_objects as go
+import pandas as pd
+from scipy.stats import lognorm
 
 from classes import CodeVerificationResult, GenerationMetrics, GenerationOutput, GenerationResult
 from collections import Counter, defaultdict
@@ -22,7 +25,7 @@ SKIPPED_PROBLEMS_FILE = '/Users/thijsnulle/Documents/Git/msc-experiment/tests/sk
 def load_results(file_name):
     output = defaultdict(list)
 
-    for file in glob.glob(f'{RESULTS_DIR}/**/{file_name}.jsonl'):
+    for file in glob.glob(f'{RESULTS_DIR}/**/{file_name}.jsonl')[:100]:
         problem_id = re.search(r'(\d+)', file)[0]
 
         with open(file) as f:
@@ -82,7 +85,7 @@ def power_law_distribution_unique_solutions():
     plt.title('Distribution of Total Unique Generations per Line')
     plt.xlabel('Number of Unique Generations')
     plt.tight_layout()
-    plt.savefig('output/distribution-unique-line-generations')
+    plt.savefig('output/distribution-unique-line-generations', dpi=500)
 
     fig, ax = plt.subplots(figsize=(12,4))
 
@@ -92,7 +95,7 @@ def power_law_distribution_unique_solutions():
     plt.title('Distribution of Total Unique Generations per Line')
     plt.xlabel('Number of Unique Generations')
     plt.tight_layout()
-    plt.savefig('output/distribution-unique-line-generations-wide')
+    plt.savefig('output/distribution-unique-line-generations-wide', dpi=500)
 
 def sankey_diagram_test_results(small_results, large_results):
     def plot(results, file_addition):
@@ -120,6 +123,7 @@ def sankey_diagram_test_results(small_results, large_results):
         compilation_not_passed_results = [x for x in results if not x.compilation_passed]
         compilation_not_passed_errors = Counter([x.error for x in compilation_not_passed_results])
 
+        """
         for error, count in compilation_not_passed_errors.most_common():
             if not re.match('^\w+Error$', error) or count < 50:
                 remaining += count
@@ -129,6 +133,7 @@ def sankey_diagram_test_results(small_results, large_results):
             values.append(count)
             sources.append(2)
             targets.append(len(labels) - 1)
+        """
         
         tests_passed = sum(x.tests_passed for x in results)
         tests_not_passed = compilation_passed - tests_passed
@@ -142,6 +147,7 @@ def sankey_diagram_test_results(small_results, large_results):
 
         remaining = 0
 
+        """
         for error, count in tests_not_passed_errors.most_common():
             if not re.match('^\w+Error$', error) or count < 50:
                 remaining += count
@@ -151,6 +157,7 @@ def sankey_diagram_test_results(small_results, large_results):
             values.append(count)
             sources.append(4)
             targets.append(len(labels) - 1)
+        """
 
         labels.append(f'Other ({remaining})')
         values.append(remaining)
@@ -168,8 +175,8 @@ def sankey_diagram_test_results(small_results, large_results):
                 pad=12,
                 thickness=30,
                 label=labels,
-                x=[0, 0.25, 0.5, 1, 0.5],
-                y=[0, 0,    0.85, 0, 0.66],
+                x=[0, 0.5, 0.5, 1, 1],
+                y=[0, 0,   0,   0, 0],
             ),
             link = dict(
                 source=sources,
@@ -182,8 +189,8 @@ def sankey_diagram_test_results(small_results, large_results):
             template='seaborn',
             paper_bgcolor='#eaeaf2',
             font_size=14,
-            width=1200,
-            height=600,
+            width=800,
+            height=300,
             margin=dict(l=8, r=8, t=8, b=8),
         )
 
@@ -192,10 +199,44 @@ def sankey_diagram_test_results(small_results, large_results):
     plot(small_results, file_addition='line-small')
     plot(large_results, file_addition='line-large')
 
+def plot_problem_lengths(problems):
+    prompt_lengths = [len(p.line_prompts) for p in problems]
+    prompt_length_counter = Counter(prompt_lengths)
+
+    lengths = list(prompt_length_counter.keys())
+    frequencies = np.array(list(prompt_length_counter.values()))
+    
+    data = np.repeat(lengths, frequencies)
+    
+    shape, loc, scale = lognorm.fit(data, floc=0)
+
+    print('Shape', shape, 'Loc', loc, 'Scale', scale)
+    
+    x = np.linspace(min(lengths), max(lengths), 1000)
+    pdf = lognorm.pdf(x, shape, loc, scale) * sum(frequencies)
+
+    df = pd.DataFrame({
+        'Value': [x[0] for x in prompt_length_counter.most_common()],
+        'Count': [x[1] for x in prompt_length_counter.most_common()],
+    })
+
+    plt.figure(figsize=(8,5))
+    plt.plot(x, pdf, 'r--', lw=2, color='orange')
+    sns.barplot(data=df, x="Value", y="Count", native_scale=True)
+
+    plt.xlabel("Solution Length")
+    plt.ylabel("Frequency")
+    plt.title("Distribution of Solution Lengths")
+    plt.tight_layout()
+    plt.savefig('output/solution-length-distribution', dpi=500)
+
         
 if __name__ == '__main__':
     problems = DataProcessor.load(input_file_path='/Users/thijsnulle/Documents/Git/msc-experiment/data/test-dataset.jsonl')
 
+    plot_problem_lengths(problems)
+
+    """
     small_results = load_results('line_small')
     large_results = load_results('line_large')
 
@@ -203,6 +244,7 @@ if __name__ == '__main__':
     large_test_results = load_test_results('line_large', large_results, problems)
 
     sankey_diagram_test_results(small_test_results, large_test_results)
+    """
 
     #line_small = load_results('line_small')
     #power_law_distribution_unique_solutions()
